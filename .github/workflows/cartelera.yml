@@ -27,10 +27,28 @@ jobs:
           persist-credentials: false  # el código no necesita poder pushear; solo la rama datos
 
       - name: Traer la rama de datos
+        id: datos
+        continue-on-error: true  # la primera vez todavía no existe
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09  # v5.1.0
         with:
           ref: datos
           path: datos
+
+      # Solo la primera vez: una rama datos vacía, sin historia en común con main.
+      - name: Crear la rama de datos
+        if: steps.datos.outcome == 'failure'
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09  # v5.1.0
+        with:
+          path: datos
+          clean: true
+
+      - name: Vaciar la rama de datos nueva
+        if: steps.datos.outcome == 'failure'
+        working-directory: datos
+        run: |
+          git checkout -q --orphan datos
+          git rm -rq --cached .
+          git clean -fdxq
 
       - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e  # v6.8.0
 
@@ -55,7 +73,10 @@ jobs:
             echo "Sin cambios en los datos."
           else
             git commit -q -m "Datos $(date -u +%Y-%m-%dT%H:%MZ)"
-            git pull -q --rebase origin datos
+            # La primera vez la rama todavía no está en GitHub: no hay nada que traer.
+            if git ls-remote --exit-code --heads origin datos > /dev/null; then
+              git pull -q --rebase origin datos
+            fi
             git push -q origin HEAD:datos
           fi
 
