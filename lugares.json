@@ -1,6 +1,6 @@
 {
- "generado": "2026-10-31T19:19:54.393304-03:00",
- "cantidad": 148,
+ "generado": "2026-10-31T20:15:05.334659-03:00",
+ "cantidad": 147,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -463,8 +463,10 @@
   {
    "id": "espacio-zorrilla",
    "nombre": "Espacio Zorrilla",
-   "alias": [],
-   "direccion": "Cerrito 475",
+   "alias": [
+    "Museo Zorrilla"
+   ],
+   "direccion": "José Luis Zorrilla de San Martín 96, Montevideo",
    "lat": -34.904859,
    "lon": -56.206546,
    "ciudad": "Montevideo"
@@ -802,30 +804,6 @@
    "direccion": "Rbla. República de Chile 4215, 11300 Mon",
    "lat": -34.903292,
    "lon": -56.123554,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "museo-torres-garcia",
-   "nombre": "Museo Torres García",
-   "alias": [
-    "Teatro del Museo - Museo Torres García",
-    "Teatro del Museo Torres García"
-   ],
-   "direccion": "Sarandí 683",
-   "lat": -34.90646,
-   "lon": -56.20138,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "museo-zorrilla",
-   "nombre": "Museo Zorrilla",
-   "alias": [
-    "Museo Casa de Zorrilla",
-    "Museo Juan Zorrilla de San Martín"
-   ],
-   "direccion": "José Luis Zorrilla de San Martín 96, Punta Carretas",
-   "lat": -34.92763,
-   "lon": -56.15977,
    "ciudad": "Montevideo"
   },
   {
@@ -1316,6 +1294,17 @@
    "direccion": "San José 1426",
    "lat": -34.906601,
    "lon": -56.184888,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "teatro-del-museo-museo-torres-garcia",
+   "nombre": "Teatro del Museo - Museo Torres García",
+   "alias": [
+    "Museo Torres García"
+   ],
+   "direccion": "Sarandí 683",
+   "lat": -34.906464,
+   "lon": -56.201382,
    "ciudad": "Montevideo"
   },
   {

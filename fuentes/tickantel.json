@@ -1,68 +1,10 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-10-31T19:03:08.589653-03:00",
+ "corrida": "2026-10-31T20:05:28.183144-03:00",
  "ok": true,
- "cantidad": 140,
+ "cantidad": 139,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021823",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021823/narciso",
-   "titulo": "Narciso",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "“NARCISO” Paraguay, 1959. El país vive bajo un régimen militar sofocante, Narciso regresa de Buenos Aires con el rock & roll como bandera. Carismático, provocador y deseado por hombres y mujeres, pronto se convierte en una estrella de la radio y en símbolo de libertad. Su programa sacude una…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-06T21:10:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-08T21:10:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021823/narciso",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021823/BannerNARCISO.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021406",
@@ -103,9 +45,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -142,9 +82,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -181,9 +119,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -276,9 +212,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -378,9 +312,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -422,9 +354,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -466,9 +396,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -524,9 +452,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -576,7 +502,7 @@
      "fin": null,
      "sin_hora": false,
      "sala": null,
-     "agotada": false
+     "agotada": true
     },
     {
      "inicio": "2026-11-13T22:00:00-03:00",
@@ -597,7 +523,7 @@
      "fin": null,
      "sin_hora": false,
      "sala": null,
-     "agotada": false
+     "agotada": true
     },
     {
      "inicio": "2026-11-20T22:00:00-03:00",
@@ -618,7 +544,7 @@
      "fin": null,
      "sin_hora": false,
      "sala": null,
-     "agotada": false
+     "agotada": true
     }
    ],
    "precio": {
@@ -638,9 +564,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -657,13 +581,6 @@
     "lon": -56.20101
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T17:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T16:30:00-03:00",
      "fin": null,
@@ -703,9 +620,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -761,9 +676,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -805,9 +718,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -849,9 +760,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -893,9 +802,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -951,9 +858,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -997,9 +902,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1036,9 +939,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1080,9 +981,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1119,9 +1018,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1158,9 +1055,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1223,9 +1118,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1262,9 +1155,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1313,9 +1204,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1352,9 +1241,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1403,9 +1290,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1454,9 +1339,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1512,9 +1395,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1628,9 +1509,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1672,9 +1551,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1716,9 +1593,63 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021823",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021823/narciso",
+   "titulo": "Narciso",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "“NARCISO” Paraguay, 1959. El país vive bajo un régimen militar sofocante, Narciso regresa de Buenos Aires con el rock & roll como bandera. Carismático, provocador y deseado por hombres y mujeres, pronto se convierte en una estrella de la radio y en símbolo de libertad. Su programa sacude una…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T21:10:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T21:10:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021823/narciso",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021823/BannerNARCISO.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1735,13 +1666,6 @@
     "lon": -56.1445355
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T18:00:00-03:00",
      "fin": null,
@@ -1788,9 +1712,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1832,9 +1754,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1876,9 +1796,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1915,9 +1833,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -1959,9 +1875,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2003,9 +1917,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2047,9 +1959,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2086,9 +1996,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2125,9 +2033,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2190,9 +2096,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2229,9 +2133,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2268,9 +2170,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2307,9 +2207,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2346,9 +2244,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2390,9 +2286,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2434,9 +2328,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2473,9 +2365,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2519,9 +2409,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2584,9 +2472,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2630,9 +2516,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2674,9 +2558,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2720,9 +2602,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2759,9 +2639,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2817,9 +2695,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2856,9 +2732,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2895,9 +2769,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2934,9 +2806,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -2978,9 +2848,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3022,9 +2890,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3061,9 +2927,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3105,9 +2969,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3144,9 +3006,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3183,9 +3043,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3222,9 +3080,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3261,9 +3117,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3305,9 +3159,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3344,9 +3196,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3388,9 +3238,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3432,9 +3280,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3471,9 +3317,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3515,9 +3359,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3554,9 +3396,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3593,9 +3433,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3632,9 +3470,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3676,9 +3512,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3720,9 +3554,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3759,9 +3591,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3803,9 +3633,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3842,9 +3670,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3886,9 +3712,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3925,9 +3749,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -3964,9 +3786,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4003,9 +3823,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4047,9 +3865,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4098,9 +3914,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4137,9 +3951,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4176,9 +3988,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4215,9 +4025,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4259,9 +4067,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4303,9 +4109,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4342,9 +4146,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4381,9 +4183,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4425,9 +4225,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4469,9 +4267,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4513,9 +4309,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4552,9 +4346,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4596,9 +4388,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4635,9 +4425,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4679,9 +4467,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4723,9 +4509,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4767,9 +4551,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4806,9 +4588,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4845,9 +4625,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4884,9 +4662,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4928,9 +4704,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -4972,9 +4746,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5011,9 +4783,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5055,9 +4825,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5099,9 +4867,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5143,9 +4909,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5182,9 +4946,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5226,9 +4988,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5265,9 +5025,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5304,9 +5062,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5348,9 +5104,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5450,9 +5204,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5489,9 +5241,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5533,9 +5283,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5572,9 +5320,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5616,9 +5362,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5660,9 +5404,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5704,9 +5446,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5743,9 +5483,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5782,9 +5520,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5821,9 +5557,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5865,9 +5599,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5909,9 +5641,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5948,9 +5678,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -5987,9 +5715,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -6026,9 +5752,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -6065,9 +5789,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -6104,9 +5826,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -6143,9 +5863,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -6182,9 +5900,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -6221,9 +5937,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -6260,9 +5974,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -6304,9 +6016,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   },
   {
    "fuente": "tickantel",
@@ -6343,67 +6053,7 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021784",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021784/la-trampa",
-   "titulo": "La Trampa",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "¡El reencuentro más esperado de la música uruguaya ya tiene fecha! A 9 años de su último show, La Trampa vuelve a reunirse con su público en una noche histórica. La cita es para el próximo 12, 13 y 15 de mayo de 2027 en el Antel Arena, con el show “Canciones al viento”. ¡Asegurá tu lugar para ser…",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2027-05-12T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2027-05-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2027-05-15T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1600.0,
-    "hasta": 1600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021784/la-trampa",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021784/GRILLA-WEB-TICKANTEL-GENERICO-700x390_15.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
+   "ciclo": null
   }
  ]
 }
