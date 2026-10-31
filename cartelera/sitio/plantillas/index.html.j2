@@ -32,15 +32,19 @@
       <svg class="lupa" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
       <input type="search" id="buscar" placeholder="Buscá una obra, artista, sala…" autocomplete="off">
     </div>
-    <nav class="contenedor secciones" aria-label="Secciones">
-      <button type="button" data-seccion="agenda" class="activa">Agenda</button>
-      <button type="button" data-seccion="plan" class="destacada"><span class="chispa" aria-hidden="true">✦</span> Planeá tu mes <span class="cuenta" id="cuenta-plan">0</span></button>
-      <button type="button" data-seccion="mapa">Mapa</button>
-      <button type="button" data-seccion="gratis">Gratis <span class="cuenta">{{ cantidad_gratis }}</span></button>
-      <button type="button" data-seccion="promos">Promos <span class="cuenta">{{ cantidad_promos }}</span></button>
-      <button type="button" data-seccion="festivales">Festivales <span class="cuenta">{{ cantidad_festivales }}</span></button>
-      <button type="button" data-seccion="especiales">Especiales</button>
-      <a class="pastilla aparte" href="que-es.html">¿Qué es La Gestoría?</a>
+    <!-- En el celular, las pestañas van en una barra fija abajo: las tres principales y "Más" con el resto. -->
+    <nav class="contenedor secciones pestanas" id="pestanas" aria-label="Secciones">
+      <button type="button" data-seccion="agenda" class="activa"><svg class="icono-seccion" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M7 14h4M7 17h7"/></svg>Agenda</button>
+      <button type="button" data-seccion="plan" class="destacada"><span class="chispa" aria-hidden="true">✦</span> Planeá<span class="largo"> tu mes</span> <span class="cuenta" id="cuenta-plan">0</span></button>
+      <button type="button" data-seccion="mapa"><svg class="icono-seccion" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Mapa</button>
+      <button type="button" class="boton-mas" data-mas-secciones aria-expanded="false" aria-controls="secciones-mas"><svg class="icono-seccion" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/></svg>Más</button>
+      <div class="secciones-mas" id="secciones-mas">
+        <button type="button" data-seccion="gratis">Gratis <span class="cuenta">{{ cantidad_gratis }}</span></button>
+        <button type="button" data-seccion="promos">Promos <span class="cuenta">{{ cantidad_promos }}</span></button>
+        <button type="button" data-seccion="festivales">Festivales <span class="cuenta">{{ cantidad_festivales }}</span></button>
+        <button type="button" data-seccion="especiales">Especiales</button>
+        <a class="pastilla aparte" href="que-es.html">¿Qué es La Gestoría?</a>
+      </div>
     </nav>
   </header>
 

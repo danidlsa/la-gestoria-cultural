@@ -243,15 +243,22 @@
     return copia;
   }
 
+  // En el celular cada día es una lista (no un carril de costado) y muestra los primeros; el resto, con "Ver los…".
+  const VISIBLES_EN_LISTA = 5;
+
   function carril(titulo, detalle, elementos, clase = "") {
     const pista = el("ul", { class: "carril-pista" }, ...elementos);
-    return el("section", { class: `carril ${clase}`.trim() },
+    const recortado = elementos.length > VISIBLES_EN_LISTA;
+    const verTodos = recortado
+      ? el("button", { type: "button", class: "ver-todos", "data-ver-todos": "" }, `Ver los ${elementos.length} eventos`)
+      : null;
+    return el("section", { class: `carril ${clase} ${recortado ? "recortado" : ""}`.replace(/\s+/g, " ").trim() },
       el("header", { class: "carril-cabezal" },
         el("h2", {}, titulo, detalle ? el("small", {}, detalle) : null),
         el("div", { class: "carril-flechas" },
           el("button", { type: "button", class: "cal-flecha", "data-desplazar": "-1", "aria-label": "Anteriores" }, "‹"),
           el("button", { type: "button", class: "cal-flecha", "data-desplazar": "1", "aria-label": "Siguientes" }, "›"))),
-      pista);
+      pista, verTodos);
   }
 
   function nombreCarril(dia) {
@@ -817,7 +824,19 @@
     }, texto)), ...(nota ? [nota] : []));
   }
 
+  // "Más" (barra de abajo del celular): despliega Gratis, Promos, Festivales, Especiales y "¿Qué es?".
+  const pestanas = document.getElementById("pestanas");
+  const SECCIONES_EN_MAS = ["gratis", "promos", "festivales", "especiales"];
+  function alternarMas(abrir = !pestanas.classList.contains("mas-abierto")) {
+    pestanas.classList.toggle("mas-abierto", abrir);
+    document.querySelector(".boton-mas").setAttribute("aria-expanded", String(abrir));
+  }
+  document.addEventListener("click", (e) => {
+    if (pestanas.classList.contains("mas-abierto") && !pestanas.contains(e.target)) alternarMas(false);
+  });
+
   function dibujarControles() {
+    document.querySelector(".boton-mas").classList.toggle("activa", SECCIONES_EN_MAS.includes(estado.seccion));
     for (const boton of document.querySelectorAll(".secciones button[data-seccion]")) {
       const activa = boton.dataset.seccion === estado.seccion;
       boton.classList.toggle("activa", activa);
@@ -917,7 +936,13 @@
   }
 
   velo.addEventListener("click", () => cerrarFiltros());
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape") cerrarFiltros(); });
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    if (pestanas.classList.contains("mas-abierto")) {
+      alternarMas(false);
+      document.querySelector(".boton-mas").focus();
+    } else cerrarFiltros();
+  });
 
   function cambiar(cambios) {
     estado = { ...estado, ...cambios };
@@ -930,7 +955,12 @@
     const boton = evento.target.closest("button");
     if (!boton || boton.disabled) return;
     const d = boton.dataset;
-    if ("verMas" in d) {
+    if ("verTodos" in d) {
+      boton.closest(".carril").classList.remove("recortado");
+      boton.remove();
+    } else if ("masSecciones" in d) {
+      alternarMas();
+    } else if ("verMas" in d) {
       // "Más tipos" / "Más programas": muestra u oculta los botones plegados.
       const lista = boton.parentElement;
       const abierta = lista.classList.toggle("abierta");
@@ -980,6 +1010,7 @@
     else if (d.exportar === "imprimir") imprimir();
     else if (d.exportar === "copiar") copiarTexto();
     else if (d.seccion) {
+      alternarMas(false);
       const cambios = { seccion: d.seccion };
       if (d.seccion !== "promos") cambios.programa = "";
       cambiar(cambios);
