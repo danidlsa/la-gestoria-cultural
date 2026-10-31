@@ -1,108 +1,10 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-10-31T13:41:34.850560-03:00",
+ "corrida": "2026-10-31T14:12:31.830430-03:00",
  "ok": true,
  "cantidad": 140,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021457",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
-   "titulo": "Ciclo (no tan) Solos al mediodía",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "CICLO (No tan) Solos al mediodía 17va edición - Diversidad Dirección artística y curaduría: Andrea Arobba Producción ejecutiva: GEN Centro de Artes y Ciencias Producción: Polen productora cultural - Catalina Lans Asistencia de producción: Emiliano Bittencourt Registro audiovisual: Daiana Di Candia…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    },
-    {
-     "inicio": "2026-11-06T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-07T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-13T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-14T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390_banner_web_generico_TS.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021868",
@@ -1511,6 +1413,104 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021919/700_x_390_e.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021457",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "CICLO (No tan) Solos al mediodía 17va edición - Diversidad Dirección artística y curaduría: Andrea Arobba Producción ejecutiva: GEN Centro de Artes y Ciencias Producción: Polen productora cultural - Catalina Lans Asistencia de producción: Emiliano Bittencourt Registro audiovisual: Daiana Di Candia…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    },
+    {
+     "inicio": "2026-11-06T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390_banner_web_generico_TS.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3419,43 +3419,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021134",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
-   "titulo": "Buenos Muchachos",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "En cualquier momento. En algún lugar. En ningún caso. En las nubes. En abstracto. En alerta. En sueños. En vano. En definitiva. En absoluto. En concreto. En peligro. En soledad. En banda. En sentido opuesto. En secreto. En confianza. En común. En la espera. En realidad... El año termina como…",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021134/BANNER_BM.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40020967",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020967/hilda-lizarazu",
    "titulo": "Hilda Lizarazu",
@@ -3486,6 +3449,43 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020967/hilda700x390_copia_4-100.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021134",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
+   "titulo": "Buenos Muchachos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "En cualquier momento. En algún lugar. En ningún caso. En las nubes. En abstracto. En alerta. En sueños. En vano. En definitiva. En absoluto. En concreto. En peligro. En soledad. En banda. En sentido opuesto. En secreto. En confianza. En común. En la espera. En realidad... El año termina como…",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021134/BANNER_BM.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4764,43 +4764,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021215",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
-   "titulo": "Karina en Concierto",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Karina La Princesita, vuelve al Antel Arena. Este 4 de diciembre, Karina en vivo, presentando todos sus grandes temas y sus nuevos éxitos. Única función: Antel Arena, 4 de diciembre - 21 horas. No te pierdas una noche muy especial, Karina en Uruguay, no te quedes afuera.",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-04T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021215/700X390_.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021511",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021511/kind-of-blue-davis-100-anos",
    "titulo": "Kind of Blue - Davis 100 años",
@@ -4836,6 +4799,43 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021511/Banner_Tickantel_Festival_2026_V1.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021215",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
+   "titulo": "Karina en Concierto",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Karina La Princesita, vuelve al Antel Arena. Este 4 de diciembre, Karina en vivo, presentando todos sus grandes temas y sus nuevos éxitos. Única función: Antel Arena, 4 de diciembre - 21 horas. No te pierdas una noche muy especial, Karina en Uruguay, no te quedes afuera.",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021215/700X390_.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
