@@ -151,7 +151,7 @@ Un mismo evento puede llegar por varias fuentes. El paso de unificación las cru
 ```
 
 - **Los datos generados van en una rama aparte, `datos`.** Así `main` tiene solo código y su historial no se llena con un commit de datos por día. Además, el historial de `datos` deja ver cómo cambió la cartelera.
-- **GitHub Actions** corre dos veces por día (por ejemplo, a las 6 y a las 14 h de Uruguay): sus scrapers, la unificación y el build y deploy de la web.
+- **GitHub Actions** corre tres veces por día (6:17, 12:17 y 18:17 de Uruguay; fuera de la hora en punto, que es cuando GitHub más atrasa las corridas programadas): sus scrapers, la unificación y el build y deploy de la web.
 - **El equipo local** corre sus scrapers (los marcados `corre_en = "local"` en `config/fuentes.toml`), hace commit **solo de sus archivos** en `datos/fuentes/` y pushea a la rama `datos`. La corrida de Actions de las 12 los suma a la unificación y al build. Como cada lado escribe archivos distintos, no hay conflictos; igual se hace `git pull --rebase` antes de pushear.
 
 ### Estructura del repo
