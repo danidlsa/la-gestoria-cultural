@@ -16,15 +16,7 @@ Esto es una **iniciativa sin ánimo de lucro**. En la página no se puede hacer 
 
 # ¿Cómo funciona?
 
-La plataforma toma datos de distintas fuentes abiertas, siguiendo sus normativas de scrapeo de datos:
-
-- [Tickantel](https://tickantel.com.uy), [RedTickets](https://www.redtickets.uy) y [Ticketmaster Uruguay](https://www.ticketmaster.uy), las ticketeras, y [Fever](https://feverup.com/es/montevideo-uruguay) para los conciertos Candlelight.
-- El [portal de eventos de la Intendencia de Montevideo](https://eventos.montevideo.gub.uy), con lo municipal y gratuito.
-- La [Cartelera de Montevideo Portal](https://cartelera.montevideo.com.uy), sobre todo para el teatro.
-- Las programaciones del [Auditorio Nacional del Sodre](https://sodre.gub.uy), el [Teatro Solís](https://www.teatrosolis.org.uy), el [Teatro de Verano](https://teatrodeverano.montevideo.gub.uy), la [Sala Zitarrosa](https://salazitarrosa.montevideo.gub.uy), el [Teatro El Galpón](https://www.teatroelgalpon.org.uy), la [Sala del Museo](https://www.saladelmuseo.com.uy) y la [Cinemateca Uruguaya](https://cinemateca.org.uy).
-- Las agendas de las productoras [Gaucho](https://www.gaucho.com.uy) y [Piano Piano](https://pianopiano.uy), que anuncian los shows antes de que salgan las entradas.
-- Los [beneficios de la diaria](https://beneficios.ladiaria.com.uy/category/espectaculos/), para marcar los 2x1 para suscriptores.
-- Los mapas y la ubicación de las salas salen de [OpenStreetMap](https://www.openstreetmap.org/copyright).
+La plataforma toma datos de distintas fuentes abiertas, siguiendo sus normativas de scrapeo de datos: ticketeras, sitios de carteleras y portales de eventos, sitios web de salas de eventos, productoras y páginas de beneficios. Los eventos se georreferencian con OpenStreetMaps, y uso bancos de palabras clave caseros para generar algunos etiquetados.
 
 La plataforma respeta lo que cada sitio permite extraer (su robots.txt), se identifica cuando pide los datos, los pide pocas veces por día y muestra solo un resumen corto de cada evento. Para comprar o reservar, todos los enlaces llevan a la fuente original.
 
@@ -32,7 +24,7 @@ Es posible que la plataforma experimente fallos cuando, por ejemplo, un sitio we
 
 Por cierto, esto es un sitio de código abierto. El código queda público en mi repo de Github, para quien quiera conocer más sobre su funcionamiento y arquitectura: [github.com/danidlsa/la-gestoria-cultural](https://github.com/danidlsa/la-gestoria-cultural). 
 
-Tenés algún comentario re buena onda? Me podés escribir algo por acá: [dejame un mensaje en GitHub](https://github.com/danidlsa/la-gestoria-cultural/issues/new).
+Tenés algún comentario re buena onda? Encontraste alguna inconsistencia o error? Me podés escribir por acá: [dejame un mensaje en GitHub](https://github.com/danidlsa/la-gestoria-cultural/issues/new).
 Si tenés un comentario mala onda, guardátelo que esto no es X.
 
 Disfrutá La Gestoría Cultural!
