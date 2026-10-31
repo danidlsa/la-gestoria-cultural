@@ -1,0 +1,892 @@
+{
+ "fuente": "piano_piano",
+ "corrida": "2026-10-31T13:50:47.501426-03:00",
+ "ok": true,
+ "cantidad": 23,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-10-31-La Kermesse Redonda",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "La Kermesse Redonda",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Rural del Prado",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/LA-KERMESSE--PRADO/31598/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/Matias-Moyano_DSC_2224-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/LA-KERMESSE--PRADO/31598/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-11-04-Boite",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Boite",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro El Galpón",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/BOITE--GRISELDA-SICILIANI-Y-CARLOS-CASELLA-Sala-Campodonico/33443/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/BOITE-2026-1256-piano-piano-e1790350639168.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/BOITE--GRISELDA-SICILIANI-Y-CARLOS-CASELLA-Sala-Campodonico/33443/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-11-11-Saramalacara",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Saramalacara",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Sala del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Saramalacara/32418/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/SaramalacaraTHEGOATLollaPalooza-4-piano-piano-e1788295257544.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Saramalacara/32418/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-11-13-La Vela Puerca",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "La Vela Puerca",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "SITIO - Parque Roosevelt",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/SITIO-TE-MUEVE/33347/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/LVP_FotoPrensa_2026-1-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/SITIO-TE-MUEVE/33347/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-11-13-Luciano Pereyra",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Luciano Pereyra",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.antelarena.com.uy/events/detail/luciano-pereyra-2026",
+     "via": "antel_arena"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/DSC_9028_1-piano-piano-1-e1781013390218.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.antelarena.com.uy/events/detail/luciano-pereyra-2026"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-11-14-Midachi",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Midachi",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.antelarena.com.uy/events/detail/midachi-2026",
+     "via": "antel_arena"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/MIDACHI-7-piano-piano-1.jpeg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.antelarena.com.uy/events/detail/midachi-2026"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-11-14-Dillom",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Dillom",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Rural del Prado",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/DILLOM--PRADO/32949/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/OLS1463-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/DILLOM--PRADO/32949/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-11-14-SITIO Te Mueve",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "SITIO Te Mueve",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "SITIO - Parque Roosevelt",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/SITIO-TE-MUEVE-La-Vela-Puerca-Agarrate-Catalina-y-Malapraxxis/33347/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/316314503_681772389983143_1366953369507687948_n-2-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/SITIO-TE-MUEVE-La-Vela-Puerca-Agarrate-Catalina-y-Malapraxxis/33347/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-11-14-Natalie Pérez",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Natalie Pérez",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021568/espectaculo/Natalie%20Perez?0",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/Natalie-Foto-de-@agustindusserre-Captura-sin-titulo1084-2-piano-piano-e1790351042323.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021568/espectaculo/Natalie%20Perez?0"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-11-19-El Plan de la Mariposa",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "El Plan de la Mariposa",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.antelarena.com.uy/events/detail/el-plan-de-la-mariposa-2026",
+     "via": "antel_arena"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/01-EL-PLAN-DE-LA-MARIPOSA-Foto-IGNACIO-ARNEDO-0865-Editar-1-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.antelarena.com.uy/events/detail/el-plan-de-la-mariposa-2026"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-11-21-Germán Medina",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Germán Medina",
+   "categoria": "humor",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro de Verano",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020784?7",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/federicamph-15-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020784?7"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-11-22-Coti",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Coti",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Sala del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/COTI/32964/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/Coti-Ph-Franco-Cappelli-38-1-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/COTI/32964/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-11-26-Gabriel Rolón",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Gabriel Rolón",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021474/espectaculo/Gabriel%20Rol%C3%B3n?3",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/FOTO-PRENSA--piano-piano-e1790351906761.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021474/espectaculo/Gabriel%20Rol%C3%B3n?3"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-11-27-Julieta Laso",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Julieta Laso",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021526/espectaculo/Julieta%20Laso?1",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/Copia-de-_12A7947-piano-piano-e1790351611424.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021526/espectaculo/Julieta%20Laso?1"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-12-03-Diego Torres",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Diego Torres",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.antelarena.com.uy/events/detail/diego-torres-2026",
+     "via": "antel_arena"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/jp_DiegoTorres-23-piano-piano-e1781013294913.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.antelarena.com.uy/events/detail/diego-torres-2026"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-12-04-Club de la Cumbia – Rambla de Punta Carretas",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Club de la Cumbia – Rambla de Punta Carretas",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Rambla de Punta Carretas, Montevideo",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/CLUB-DE-LA-CUMBIA--RAMBLA-GOLF/33554/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/CDLC-Rambla-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/CLUB-DE-LA-CUMBIA--RAMBLA-GOLF/33554/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-12-12-No Te Va Gustar",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "No Te Va Gustar",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Velódromo Municipal",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/NTVG-Florece-en-el-caos--Velodromo/29185/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/NTVG-10450_Ph_Diego-Velazco-piano-piano-1.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/NTVG-Florece-en-el-caos--Velodromo/29185/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2026-12-19-Cuarteto de Nos",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Cuarteto de Nos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Rambla de Punta Carretas",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/EL-CUARTETO-DE-NOS/30560/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/aaaa-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/EL-CUARTETO-DE-NOS/30560/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2027-03-19-LOVE REGGAETON",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "LOVE REGGAETON",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "SITIO - Parque Roosevelt",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-03-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/i-love-reggaeton-uruguay",
+     "via": "piano_piano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/ILR-2027-URUGUAY-BANNER-MINIATURA-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://app.entraste.com/events/i-love-reggaeton-uruguay"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2027-03-20-LOVE THE 90S",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "LOVE THE 90S",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "SITIO - Parque Roosevelt",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-03-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/love-the-90s",
+     "via": "piano_piano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/LT90s_VLC_25_250531-2036_©_Raul_Barcia_IMG_2249-2-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://app.entraste.com/events/love-the-90s"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2027-04-10-Cosquín Rock Uruguay 2027",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Cosquín Rock Uruguay 2027",
+   "categoria": "festival",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Rambla de Punta Carretas, Montevideo",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-04-10T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/CR-UY-26-Expe-5-30-2-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2027-04-15-Luis Fonsi",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Luis Fonsi",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-04-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/GettyImages-1398617469-1-1200x800-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2027-09-03-David Bisbal",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "David Bisbal",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-09-03T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.antelarena.com.uy/events/detail/david-bisbal-2027",
+     "via": "antel_arena"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/PMR08157-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.antelarena.com.uy/events/detail/david-bisbal-2027"
+   ],
+   "ciclo": null
+  }
+ ]
+}

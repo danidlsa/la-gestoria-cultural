@@ -1,0 +1,282 @@
+{
+ "fuente": "gaucho",
+ "corrida": "2026-10-31T13:50:45.784483-03:00",
+ "ok": true,
+ "cantidad": 7,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "gaucho",
+   "id_externo": "2027-05-08-babasonicos",
+   "url": "https://www.gaucho.com.uy/shows.php",
+   "titulo": "Babasónicos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": "Av. Dámaso A. Larrañaga 4001",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-05-08T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.antelarena.com.uy/events/detail/babasonicos-2027",
+     "via": "antel_arena"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.gaucho.com.uy/images/banners/2027/2027-05-08-babasonicos.jpg",
+   "productor": "Gaucho",
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.antelarena.com.uy/events/detail/babasonicos-2027"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "gaucho",
+   "id_externo": "2027-04-02-pixies",
+   "url": "https://www.gaucho.com.uy/shows.php",
+   "titulo": "Pixies",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro de Verano",
+    "direccion": "Rambla Wilson s/n, Canteras del Parque Rodó",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-04-02T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/alta-demanda/40021518/pixies",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.gaucho.com.uy/images/banners/2027/2027-04-02-pixies.jpg",
+   "productor": "Gaucho",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/alta-demanda/40021518/pixies"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "gaucho",
+   "id_externo": "2027-03-17-lodvgogh",
+   "url": "https://www.gaucho.com.uy/shows.php",
+   "titulo": "La Oreja de Van Gogh",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": "Av. Dámaso A. Larrañaga 4001",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-03-17T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.antelarena.com.uy/events/detail/la-oreja-de-van-gogh-2027",
+     "via": "antel_arena"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.gaucho.com.uy/images/banners/2027/2027-03-17-lodvgogh.jpg",
+   "productor": "Gaucho",
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.antelarena.com.uy/events/detail/la-oreja-de-van-gogh-2027"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "gaucho",
+   "id_externo": "2027-03-14-ha-sah",
+   "url": "https://www.gaucho.com.uy/shows.php",
+   "titulo": "HA*ASH",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": "Av. Dámaso A. Larrañaga 4001",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-03-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.antelarena.com.uy/events/detail/haash-2027",
+     "via": "antel_arena"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.gaucho.com.uy/images/banners/2027/2027-03-14-ha-sah.jpg",
+   "productor": "Gaucho",
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.antelarena.com.uy/events/detail/haash-2027"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "gaucho",
+   "id_externo": "2027-02-23-foo-fighters",
+   "url": "https://www.gaucho.com.uy/shows.php",
+   "titulo": "Foo Fighters",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Estadio Centenario",
+    "direccion": "Av. Dr. Américo Ricaldoni",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-23T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.ticketmaster.uy/event/foo-fighters-live-2027-mvd",
+     "via": "ticketmaster_uy"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.gaucho.com.uy/images/banners/2027/2027-02-23-foo-fighters.jpg",
+   "productor": "Gaucho",
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.ticketmaster.uy/event/foo-fighters-live-2027-mvd"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "gaucho",
+   "id_externo": "2026-11-27-djavan",
+   "url": "https://www.gaucho.com.uy/shows.php",
+   "titulo": "Djavan",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": "Andes 1459",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020379/espectaculo/DJAVAN?0",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.gaucho.com.uy/images/banners/2026/2026-11-27-djavan.jpg",
+   "productor": "Gaucho",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020379/espectaculo/DJAVAN?0"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "gaucho",
+   "id_externo": "2026-11-21-buenos-muchachos",
+   "url": "https://www.gaucho.com.uy/shows.php",
+   "titulo": "Buenos Muchachos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": "Av. Dámaso A. Larrañaga 4001",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/alta_demanda/40021134/espectaculo/Buenos%20Muchachos",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.gaucho.com.uy/images/banners/2026/2026-11-21-buenos-muchachos.jpg",
+   "productor": "Gaucho",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/alta_demanda/40021134/espectaculo/Buenos%20Muchachos"
+   ],
+   "ciclo": null
+  }
+ ]
+}

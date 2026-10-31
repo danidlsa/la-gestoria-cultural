@@ -1,0 +1,477 @@
+{
+ "fuente": "sala_del_museo",
+ "corrida": "2026-10-31T13:50:30.570508-03:00",
+ "ok": true,
+ "cantidad": 12,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "gauchito-club-2",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/gauchito-club-2.html",
+   "titulo": "GAUCHITO CLUB",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Gauchito Club - Gira despedida Vulnerable Sábado 31 de octubre 2026 Apto para todo público. 20hs. Apto para todo público",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Gauchito-Club/32675/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/GC_Montevideo_1080x1080_2fad4f9cf8b75ccd029a142281ad58f9.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Gauchito-Club/32675/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "eruca-sativa-2",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/eruca-sativa-2.html",
+   "titulo": "ERUCA SATIVA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "ERUCA SATIVA",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/ERUCA-SATIVA/31885/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_18_160c33d2ab068bdaf4b51cb6daab6b90.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/ERUCA-SATIVA/31885/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "cimafest",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/cimafest.html",
+   "titulo": "CIMA FEST",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "CIMA FEST",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/CIMA-FEST/33947/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/02_-_1080_x_1080_94c38bb6252f0789e297aca3589bfd57.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/CIMA-FEST/33947/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "sara-malacara",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/sara-malacara.html",
+   "titulo": "SARA MALACARA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Saramalacara",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Saramalacara/32418/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_19_1_314395c034b350e07f6e27166aa144de.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Saramalacara/32418/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "samba-do-marcio-10",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/samba-do-marcio-10.html",
+   "titulo": "SAMBA DO MARCIO",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Samba Do Marcio - NOVIEMBRE",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Samba-Do-Marcio--NOVIEMBRE/34061/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_22_bda52f575bce47f269fed241d6f6b2cd.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Samba-Do-Marcio--NOVIEMBRE/34061/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "el-cumple-de-mabel-5",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/el-cumple-de-mabel-5.html",
+   "titulo": "EL CUMPLE DE MABEL",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Llegó Noviembre, se nos fue el año… prepárate que ya estamos en los meses más lindos del año y MABEL está lista!!! Venite a festejar con tu TEAM que en la pista te espera nuestra reina DJ BEVE y muchas sorpresas. Si cumplís, festejas. Si no venís igual. Mabel es la fiesta de todxs! ADVERTENCIA El…",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/EL-CUMPLE-DE-MABEL--La-fiesta-mas-divertida--NOVIEMBRE/33608/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/__2_Cuadrada_1080_7_2_5a5ed67174c667fb47c7778d226b65d9.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/EL-CUMPLE-DE-MABEL--La-fiesta-mas-divertida--NOVIEMBRE/33608/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "el-zar-3",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/el-zar-3.html",
+   "titulo": "EL ZAR",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "EL ZAR - 14 DE NOVIEMBRE - PATIO DEL MUSEO DEL CARNAVAL. El próximo 14 de Noviembre, vuelve EL ZAR a nuestro patio. La banda Argentina trae su nuevo show para celebrar los 10 años de recorrido. 20hs. Patio del Museo del Carnaval. Apto para mayores de 15 años, menores deben ingresar acompañados con…",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/EL-ZAR/33077/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/6_cuadrada_1_5cc8a1fcc3ba4b03def57e717c3dd48d.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/EL-ZAR/33077/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "zell",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/zell.html",
+   "titulo": "ZELL",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "El próximo 19 de noviembre llega Zell llega a Sala del Museo del Carnaval Una de las figuras más prometedoras de la nueva escena urbana argentina, construyendo un universo donde trap, pop, estética digital y cultura visual conviven en una misma identidad artística. Con una propuesta que dialoga…",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Zell-en-Montevideo/31987/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_3_1_4462584cc57a9e8cb1f0b9beca8cd004.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Zell-en-Montevideo/31987/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "fms",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/fms.html",
+   "titulo": "FMS",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "VUELVE LA MEJOR LIGA DEL MUNDO, FMS ARGENTINA La primera liga profesional de freestyle en Argentina vuelve a URUGUAY con su octava temporada el próximo SÁBADO 21 de NOVIEMBRE en el SALA DEL MUSEO DEL CARNAVAL de Montevideo. La nueva era de competidores argentinos está lista para dar el salto al…",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T17:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/FMS-Freestyle-master-series/34059/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_Cuadrada_1080_a44e933a5ac40b57d7a7604506af9afe.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/FMS-Freestyle-master-series/34059/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "coti",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/coti.html",
+   "titulo": "COTI",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Tras recorrer los escenarios más importantes de América Latina y Europa, el músico y compositor argentino COTI llega a Montevideo, Uruguay.. El próximo 22 de noviembre, en Sala del Museo del Carnaval sera la velada que promete ser el broche de oro de una travesía musical sin precedentes. El show…",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/COTI/32964/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_14_1_3a13258cbc19767af844ad212910d873.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/COTI/32964/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "la-chancha-2",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/la-chancha-2.html",
+   "titulo": "LA CHANCHA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "LA CHANCA EN SALA DEL MUSEO DEL CARNAVAL.",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/LA-CHANCHA/33245/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/6_1080_sinlogos_7781b0348c478579a6e91e66e696ed73.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/LA-CHANCHA/33245/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "festival-candombe-y-salsa-360",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/festival-candombe-y-salsa-360.html",
+   "titulo": "FESTIVAL CANDOMBE Y SALSA 360°",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "FESTIVAL CANDOMBE Y SALSA 360°",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/FESTIVAL-CANDOMBE-Y-SALSA-360/33688/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/festival_candombe_27_11_2_Cuadrada_1080_101a7b9dbab8cf8fbf2024a2306a1297.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/FESTIVAL-CANDOMBE-Y-SALSA-360/33688/"
+   ],
+   "ciclo": null
+  }
+ ]
+}

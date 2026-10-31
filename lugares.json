@@ -1,6 +1,6 @@
 {
- "generado": "2026-10-31T13:19:32.542081-03:00",
- "cantidad": 137,
+ "generado": "2026-10-31T13:51:25.773386-03:00",
+ "cantidad": 144,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -82,7 +82,7 @@
    "id": "antel-arena",
    "nombre": "Antel Arena",
    "alias": [],
-   "direccion": null,
+   "direccion": "Av. Dámaso A. Larrañaga 4001",
    "lat": -34.8629904,
    "lon": -56.1535167,
    "ciudad": "Montevideo"
@@ -115,7 +115,7 @@
     "Sodre",
     "Auditorio Nacional del SODRE"
    ],
-   "direccion": null,
+   "direccion": "Andes 1459",
    "lat": -34.90428,
    "lon": -56.19871,
    "ciudad": "Montevideo"
@@ -488,6 +488,17 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "estadio-centenario",
+   "nombre": "Estadio Centenario",
+   "alias": [
+    "Centenario"
+   ],
+   "direccion": "Av. Dr. Américo Ricaldoni",
+   "lat": -34.8946,
+   "lon": -56.1528,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "estudio-la-ratonera",
    "nombre": "Estudio La Ratonera",
    "alias": [],
@@ -506,12 +517,32 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "hotel-radisson-victoria-plaza",
+   "nombre": "Hotel Radisson Victoria Plaza",
+   "alias": [
+    "Radisson Montevideo Victoria Plaza Hotel"
+   ],
+   "direccion": "Pl. Independencia 759, 11100 Montevideo,",
+   "lat": -34.9058104,
+   "lon": -56.1995027,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "hotel-del-prado",
    "nombre": "Hotel del Prado",
    "alias": [],
    "direccion": "Av. Gabriela Mistral 4223",
    "lat": -34.85503,
    "lon": -56.207084,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "hyatt-centric",
+   "nombre": "Hyatt Centric",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.909643,
+   "lon": -56.1385076,
    "ciudad": "Montevideo"
   },
   {
@@ -691,6 +722,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "mandarine",
+   "nombre": "Mandarine",
+   "alias": [],
+   "direccion": "4QRX+32C, Av. Atilio Pelosi, 11700 Monte",
+   "lat": -34.859813,
+   "lon": -56.202475,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "mercado-del-puerto",
    "nombre": "Mercado del Puerto",
    "alias": [],
@@ -792,6 +832,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "planetario-municipal-villa-dolores",
+   "nombre": "Planetario Municipal (Villa Dolores)",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9018747,
+   "lon": -56.1445488,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "planetario-de-montevideo",
    "nombre": "Planetario de Montevideo",
    "alias": [],
@@ -832,15 +881,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "radisson-montevideo-victoria-plaza-hotel",
-   "nombre": "Radisson Montevideo Victoria Plaza Hotel",
-   "alias": [],
-   "direccion": "Pl. Independencia 759, 11100 Montevideo,",
-   "lat": -34.90581,
-   "lon": -56.199503,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "rambla-club-de-golf",
    "nombre": "Rambla Club de Golf",
    "alias": [],
@@ -856,6 +896,26 @@
    "direccion": "Rbla. Pdte. Wilson, Montevideo, Departam",
    "lat": -34.921047,
    "lon": -56.169149,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "rambla-de-montevideo",
+   "nombre": "Rambla de Montevideo",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9052121,
+   "lon": -56.2114261,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "rambla-de-punta-carretas-montevideo",
+   "nombre": "Rambla de Punta Carretas, Montevideo",
+   "alias": [
+    "Rambla de Punta Carretas"
+   ],
+   "direccion": null,
+   "lat": -34.9217788,
+   "lon": -56.1504763,
    "ciudad": "Montevideo"
   },
   {
@@ -964,7 +1024,9 @@
   {
    "id": "sala-valle-inclan",
    "nombre": "Sala Valle Inclán",
-   "alias": [],
+   "alias": [
+    "La Sala Valle Inclán"
+   ],
    "direccion": "San José 870",
    "lat": -34.90741,
    "lon": -56.197553,
@@ -973,7 +1035,9 @@
   {
    "id": "sala-verdi",
    "nombre": "Sala Verdi",
-   "alias": [],
+   "alias": [
+    "Sala Verdí"
+   ],
    "direccion": "Soriano 914",
    "lat": -34.90821430964771,
    "lon": -56.196500823734254,
@@ -1028,6 +1092,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "sofitel-montevideo-casino-carrasco-and-spa",
+   "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.8905846,
+   "lon": -56.0553743,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "tazu-bar-cultural",
    "nombre": "Tazu Bar Cultural",
    "alias": [],
@@ -1075,7 +1148,11 @@
    "alias": [
     "Teatro Galpón",
     "El Galpón",
-    "Teatro Galpon Sala Cero"
+    "Teatro Galpon Sala Cero",
+    "Teatro Galpón, Sala Cero",
+    "Teatro el Gapón",
+    "Teatro el Galpón",
+    "Sala Cero | Teatro el Galpón"
    ],
    "direccion": "Av. 18 de Julio 1618",
    "lat": -34.90403,
@@ -1095,6 +1172,7 @@
    "id": "teatro-mandragora",
    "nombre": "Teatro Mandrágora",
    "alias": [
+    "Teatro y escuela de artes Mandrágora",
     "Teatro MANDRÁGORA Escuela de Artes"
    ],
    "direccion": "Dr. Javier Barrios Amorín 1312",
@@ -1172,6 +1250,7 @@
    "id": "teatro-de-la-candela",
    "nombre": "Teatro de la Candela",
    "alias": [
+    "Teatro La Candela",
     "Teatro la Candela"
    ],
    "direccion": "José Ellauri 308",
@@ -1248,9 +1327,11 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "velodromo-municipal-de-montevideo",
-   "nombre": "Velódromo Municipal de Montevideo",
-   "alias": [],
+   "id": "velodromo-municipal",
+   "nombre": "Velódromo Municipal",
+   "alias": [
+    "Velódromo Municipal de Montevideo"
+   ],
    "direccion": "Av. Ramón V. Benzano 3471, 11600 Montevi",
    "lat": -34.897827,
    "lon": -56.155907,

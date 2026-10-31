@@ -1,6 +1,6 @@
 {
- "generado": "2026-10-31T13:19:32.542081-03:00",
- "cantidad": 9,
+ "generado": "2026-10-31T13:51:25.773386-03:00",
+ "cantidad": 11,
  "ciclos": [
   {
    "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
@@ -65,6 +65,22 @@
    "desde": "2026-11-06T21:00:00-03:00",
    "hasta": "2026-11-06T21:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-candlelight",
+   "titulo": "Candlelight",
+   "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
+   "desde": "2026-11-21T17:30:00-03:00",
+   "hasta": "2026-11-21T19:30:00-03:00",
+   "cantidad": 2
+  },
+  {
+   "id": "ciclo-candlelight",
+   "titulo": "Candlelight",
+   "lugar_id": "hotel-radisson-victoria-plaza",
+   "desde": "2026-12-23T19:00:00-03:00",
+   "hasta": "2027-02-14T19:00:00-03:00",
+   "cantidad": 4
   },
   {
    "id": "ciclo-beethoven-2027",

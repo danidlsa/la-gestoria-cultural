@@ -1,0 +1,4318 @@
+{
+ "fuente": "ladiaria",
+ "corrida": "2026-10-31T13:50:48.943854-03:00",
+ "ok": true,
+ "cantidad": 80,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18350",
+   "url": "https://beneficios.ladiaria.com.uy/lo-frio-y-lo-caliente-de-pacho-odonell/",
+   "titulo": "Lo frio y lo caliente de Pacho O’Donell",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "«Lo frío y lo caliente» , del dramaturgo argentino Pacho O’Donnell, explora los límites del amor entre una madre y su hija, donde la ternura, la dependencia y la manipulación se confunden. Con humor negro y tensión psicológica, la compañía Contraescena, de Rocha, presenta una historia inquietante…",
+   "lugar": {
+    "nombre": "Espacio Zorrilla",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 660.0,
+    "hasta": 660.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Lo-frio-y-lo-caliente-de-Pacho-ODonell/33851/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/lo-frio-y-lo-caliente-de-pacho-odonell/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Lo-frio-y-lo-caliente-de-Pacho-ODonell/33851/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18344",
+   "url": "https://beneficios.ladiaria.com.uy/la-rebelion-de-la-carne/",
+   "titulo": "La rebelión de la carne",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "¿Qué historia cuenta el cuerpo cuando ya no puede más? ¿Qué verdades esconde el sudor que a diferencia de la sangre o las lágrimas no puede fingirse? Una figura deambula entre posesiones en las que el cuerpo se hace y se deshace atravesado por la contradicción de lo que puede, lo que quiere y lo…",
+   "lugar": {
+    "nombre": "Teatro Galpón, Sala Cero",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-06T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 650.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/LA-REBELION-DE-LA-CARNE-Sala-Cero/34406/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/la-rebelion-de-la-carne/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/LA-REBELION-DE-LA-CARNE-Sala-Cero/34406/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18338",
+   "url": "https://beneficios.ladiaria.com.uy/los-hombres-de-vitruvio/",
+   "titulo": "Los hombres de Vitruvio",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Seis hombres son convocados a un programa televisivo sobre nuevas masculinidades. Un político, un periodista, un actor, un deportista, un empresario y un joven. Lo que comienza como una entrevista pronto se transforma en un encierro. Sin teléfonos. Sin salida. Sin control. Un espacio de exposición…",
+   "lugar": {
+    "nombre": "Arteatro",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-06T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 700.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Los-hombres-de-Vitruvio/33515/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/los-hombres-de-vitruvio/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Los-hombres-de-Vitruvio/33515/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18334",
+   "url": "https://beneficios.ladiaria.com.uy/pasos-largos/",
+   "titulo": "Pasos largos",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Una mujer y tres vestidos que se transforman en escena marcan tres momentos en la vida de un personaje. De lo poético al humor ácido, atravesando temas profundos y comunes, la vida en pareja, la vejez y los vínculos. Una investigación profunda en los distintos lenguajes, un trabajo exhaustivo de…",
+   "lugar": {
+    "nombre": "Sodre-Salga Hugo Balzo",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-08T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 700.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021783/pasos-largos",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/pasos-largos/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021783/pasos-largos"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18331",
+   "url": "https://beneficios.ladiaria.com.uy/misantropo/",
+   "titulo": "MISANTROPO",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Cuando termina la fiesta, empieza la verdad. Molière llega al siglo XXI: la corte es ahora una empresa corporativa, y todo estalla en el callejón al que salen cuando la noche se apaga y las máscaras empiezan a caer. Alcestes, su protagonista, no transa: desprecia la hipocresía y el éxito a…",
+   "lugar": {
+    "nombre": "La Sala Valle Inclán",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 650.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Misantropo-de-Miguel-del-Arco/34167/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/misantropo/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Misantropo-de-Miguel-del-Arco/34167/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18328",
+   "url": "https://beneficios.ladiaria.com.uy/soy-todas/",
+   "titulo": "Soy Todas",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Unipersonal de Candelaria De La Cruz que recorre las vidas de cinco mujeres victimizadas por la historia, pero consagradas por la posteridad. Actuando y cantando, Cande nos invita a redescubrir a las mujeres verdaderas, que quedaron escondidas detrás de los mitos. Escribe y dirige Álvaro Ahunchain…",
+   "lugar": {
+    "nombre": "Espacio Zorrilla",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 690.0,
+    "hasta": 690.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/SOY-TODAS/33063/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/soy-todas/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/SOY-TODAS/33063/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18324",
+   "url": "https://beneficios.ladiaria.com.uy/la-solteria-esta-de-moda/",
+   "titulo": "La Soltería….¿está de moda?",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Con el humor desfachatado, espontáneo e inconfundible la multipremiada actriz Graciela Rodríguez, una de las grandes figuras del humor nacional, presenta La Soltería… ¿Está de Moda?, un unipersonal brillante que transforma las situaciones más cotidianas de la vida afectiva en una verdadera fiesta…",
+   "lugar": {
+    "nombre": "Complejo Cultural Politeama – Sala Atahualpa del Cioppo",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 650.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021704/la-solteriaesta-de-moda",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/la-solteria-esta-de-moda/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021704/la-solteriaesta-de-moda"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18305",
+   "url": "https://beneficios.ladiaria.com.uy/fado/",
+   "titulo": "FADO",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Regresa a Montevideo la mayor muestra internacional del género más popular de la canción portuguesa, con la temática ‘El fado y los barrios’. La nueva edición del Festival de Fado contará con la presencia de la artista Sara Correia, el día jueves 12 noviembre, a las 20.30 horas, en la Sala…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1600.0,
+    "hasta": 1600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021274/festival-fado-mvd-2026",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/fado/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021274/festival-fado-mvd-2026"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18288",
+   "url": "https://beneficios.ladiaria.com.uy/buceo-invisible-3/",
+   "titulo": "Buceo Invisible",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Buceo invisible en el Planetario. «La música estaba en el aire, una música que era como un aroma, flotando y cambiando » R. Bradbury. Aterrizamos por una noche en el domo del Planetario de Montevideo para presentar canciones de nuestro último disco «La mañana del incendio » y recorrer parte de la…",
+   "lugar": {
+    "nombre": "Planetario Municipal (Villa Dolores)",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1100.0,
+    "hasta": 1100.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021712/buceo-invisible-en-el-planetario",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/buceo-invisible-3/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021712/buceo-invisible-en-el-planetario"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18280",
+   "url": "https://beneficios.ladiaria.com.uy/agrandado/",
+   "titulo": "Agrandado",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Mati Morales se agrandó este año: viajó a Argentina y España, y estrena un show 100 % nuevo en Undermovie. Quería anunciarlo como “Luego de su gira por América y Europa vuelve a Montevideo”… pero ta, no daba para tanto. Dejó atrás la envidia por los “agrandados” de la vida y las redes, y terminó…",
+   "lugar": {
+    "nombre": "Undermovie, Montevideo Shopping",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 440.0,
+    "hasta": 440.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "Descuento",
+     "url": "https://beneficios.ladiaria.com.uy/agrandado/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18277",
+   "url": "https://beneficios.ladiaria.com.uy/el-de-las-tinieblas-a-la-luz/",
+   "titulo": "ÉL, de las tinieblas a la luz",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Ópera de cámara en un acto, inspirada libremente en la novela homónima de Mercedes Pinto, este estreno se inscribe en un marco de memoria: se conmemoran los cincuenta años de su muerte y los cien años de la publicación de Él en Montevideo. La ópera no propone una ilustración literal del texto, sino…",
+   "lugar": {
+    "nombre": "Sala Zavala Muniz",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021670/el-de-las-tinieblas-a-la-luz",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/el-de-las-tinieblas-a-la-luz/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021670/el-de-las-tinieblas-a-la-luz"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18274",
+   "url": "https://beneficios.ladiaria.com.uy/cenizas-de-familia/",
+   "titulo": "Cenizas de familia",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Cenizas de familia es una comedia que habla de los cambios generacionales. Cuando cuatro hermanos se reúnen, luego de diez años, a decidir qué hacer con las cenizas de su padre, lo que era una oportunidad de reencuentro y reconciliación se transforma rápidamente en un absurdo y caótico intercambio…",
+   "lugar": {
+    "nombre": "Teatro Alianza",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/El-eterno-glorioso-y-mas-pequeno-circo-del-mundo-Sala-Atahualpa/33647/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/cenizas-de-familia/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/El-eterno-glorioso-y-mas-pequeno-circo-del-mundo-Sala-Atahualpa/33647/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18271",
+   "url": "https://beneficios.ladiaria.com.uy/la-chancha/",
+   "titulo": "La Chancha",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Una de las bandas más viejas del panorama roquero festeja sus 40 años existiendo y resistiendo con dignidad el paso del tiempo. Un bastión del rock alternativo, consecuente, libertario y autoproducido. Una forma de recordar (nos) que el arte siempre debe y puede ser visceral, honesto y comprometido…",
+   "lugar": {
+    "nombre": "Sala del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 580.0,
+    "hasta": 580.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/LA-CHANCHA/33245/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/la-chancha/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/LA-CHANCHA/33245/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18268",
+   "url": "https://beneficios.ladiaria.com.uy/ay-la-miseria-nos-hara-felices/",
+   "titulo": "Ay – La miseria nos hará felices",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "El cierre de la pentalogía llega al escenario de Sala Verdi con una distopía teatral sobre robots, actores y la pregunta más urgente del presente: ¿qué queda de lo humano cuando la máquina puede hacerlo todo? Veintiún años después de escribir UZ: El Pueblo (2005), el dramaturgo uruguayo Gabriel…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 900.0,
+    "hasta": 900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/ay-la-miseria-nos-hara-felices/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18257",
+   "url": "https://beneficios.ladiaria.com.uy/el-eterno-glorioso-y-mas-pequeno-circo-del-mundo/",
+   "titulo": "El eterno, glorioso y más pequeño circo del mundo",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Historias de circo, historias de vida, la vida en el circo. El circo es un círculo donde pasan cosas… Augusta, Blanca y Stella, conocidas como las bisnietas del Tigre, cuentan la historia de una familia de circo, cuyo linaje comienza con la bisabuela Olga que, según la leyenda, se casó con un…",
+   "lugar": {
+    "nombre": "Teatro El Galpón – Sala Atahualpa",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/El-eterno-glorioso-y-mas-pequeno-circo-del-mundo-Sala-Atahualpa/33647/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/el-eterno-glorioso-y-mas-pequeno-circo-del-mundo/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/El-eterno-glorioso-y-mas-pequeno-circo-del-mundo-Sala-Atahualpa/33647/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18253",
+   "url": "https://beneficios.ladiaria.com.uy/julius/",
+   "titulo": "Julius",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Con apenas cuarenta años, Julius Fucik —periodista y escritor nacido en Praga, hombre de vasta cultura— es ejecutado en Berlín por el régimen nazi. Su esposa sobrevive al campo de concentración y, tras recuperar sus escritos, los publica. Fucik se convierte así en un referente de la izquierda y, en…",
+   "lugar": {
+    "nombre": "ESNADE",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-03T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-10T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-17T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/JULIUS/33627/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/julius/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/JULIUS/33627/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18249",
+   "url": "https://beneficios.ladiaria.com.uy/luciano-pereyra-te-sigo-amando/",
+   "titulo": "Luciano Pereyra – Te sigo amando",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Luciano Pereyra, uno de los artistas más queridos y consagrados de la música latina, regresa a Montevideo con un espectáculo imperdible y una puesta en escena totalmente renovada. En el marco de su nueva gira Te Sigo Amando, el cantautor argentino brindará una serie de shows que prometen emoción…",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 3200.0,
+    "hasta": 3200.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020898/luciano-pereyra",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/luciano-pereyra-te-sigo-amando/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40020898/luciano-pereyra"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18246",
+   "url": "https://beneficios.ladiaria.com.uy/particulas-miel-malapraxxis/",
+   "titulo": "Partículas: Miel + Malapraxxis",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
+   "lugar": {
+    "nombre": "Sala Verdí",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-17T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021757/particulas-miel-malapraxxis",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/particulas-miel-malapraxxis/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021757/particulas-miel-malapraxxis"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18243",
+   "url": "https://beneficios.ladiaria.com.uy/particulas-sofia-alvarez-animales-del-poder/",
+   "titulo": "Partículas: Sofía Alvarez + Animales del poder",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
+   "lugar": {
+    "nombre": "Sala Verdí",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021756/particulas-sofia-alvez-animales-de-poder",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/particulas-sofia-alvarez-animales-del-poder/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021756/particulas-sofia-alvez-animales-de-poder"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18240",
+   "url": "https://beneficios.ladiaria.com.uy/particulas-ninguna-higuera-guadalupe-calzada/",
+   "titulo": "Partículas: Ninguna Higuera + Guadalupe Calzada",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
+   "lugar": {
+    "nombre": "Sala Verdí",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-10T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021755/particulas-ninguna-higuera-guadalupe-calzada",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/particulas-ninguna-higuera-guadalupe-calzada/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021755/particulas-ninguna-higuera-guadalupe-calzada"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18237",
+   "url": "https://beneficios.ladiaria.com.uy/particulas-lucia-romero-isabella-acerenza/",
+   "titulo": "Partículas: Lucia Romero + Isabella Acerenza",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
+   "lugar": {
+    "nombre": "Sala Verdí",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-03T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021754/particulas-lucia-romero-isabella-acerenza",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/particulas-lucia-romero-isabella-acerenza/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021754/particulas-lucia-romero-isabella-acerenza"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18228",
+   "url": "https://beneficios.ladiaria.com.uy/hasta-aca-llego-mi-amor-2/",
+   "titulo": "Hasta acá llego mi amor",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Azulena y Rosa Mosqueta, un dúo de cantantes de boleros, están a horas de presentar el espectáculo más importante de sus carreras. Mientras ultiman cada detalle del show y resuelven los infinitos imprevistos de una producción independiente, una de ellas encuentra el peor momento para confesar que…",
+   "lugar": {
+    "nombre": "Espacio Cultural Extasia",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 325.0,
+    "hasta": 325.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Hasta-aca-llego-mi-amor/33816/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/hasta-aca-llego-mi-amor-2/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Hasta-aca-llego-mi-amor/33816/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18225",
+   "url": "https://beneficios.ladiaria.com.uy/una-noche-con-queen-voices/",
+   "titulo": "Una noche con Queen – Voices",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "El grupo vocal a cappella Voices presenta “Una Noche con Queen”, tributo que hará un recorrido por las canciones más exitosas del grupo, cerrando el show con la Rapsodia Bohemia, tema emblemático de Queen. “Voices” es un grupo de música a cappella integrado por cantantes de larga trayectoria. Un…",
+   "lugar": {
+    "nombre": "Complejo Cultural Politeama – Sala Atahualpa del Cioppo",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021485/una-noche-con-queen",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/una-noche-con-queen-voices/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021485/una-noche-con-queen"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18222",
+   "url": "https://beneficios.ladiaria.com.uy/sin-berretin-tango/",
+   "titulo": "Sin Berretín Tango",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Pablo Colacce Sosa y Darío Vázquez presentan Sin Berretín, un espectáculo de tango en formato dúo que recorre clásicos del género desde una mirada íntima y despojada. Guitarra y voz se encuentran para interpretar tangos que forman parte de la memoria popular, recuperando la esencia de la canción y…",
+   "lugar": {
+    "nombre": "Sala Felipe Conard ACJ Centro",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 250.0,
+    "hasta": 250.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Sin-Berretin/33481/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/sin-berretin-tango/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Sin-Berretin/33481/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18219",
+   "url": "https://beneficios.ladiaria.com.uy/siente-el-pulso-ika-reggae-versions-vida-pura-arg/",
+   "titulo": "SIENTE EL PULSO: Ika & Reggae Versions + Vida Pura (Arg)",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "IkA & Reggae Versions + Vida Pura (Argentina) se encuentran en una noche que une las dos orillas del Río de la Plata a través del reggae. IkA & Reggae Versions presentará un recorrido por las canciones de sus dos álbumes, junto a las versiones que llegaron a millones de personas a través de sus…",
+   "lugar": {
+    "nombre": "Sala Rondeau",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 550.0,
+    "hasta": 550.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/SIENTE-EL-PULSO/32417/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/siente-el-pulso-ika-reggae-versions-vida-pura-arg/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/SIENTE-EL-PULSO/32417/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18216",
+   "url": "https://beneficios.ladiaria.com.uy/taddei-masliah-etchenique-bentancur/",
+   "titulo": "Taddei – Masliah – Etchenique – Bentancur",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Cuatro grandes de la música uruguaya que vienen desarrollando una intensa labor como dúos (Taddei/Etchenique – Maslíah/Bentancur) se encuentran en escena para compartir un concierto atravesado por los cruces, el diálogo y distintas formas de interacción entre los músicos. Rossana Taddei, Leo…",
+   "lugar": {
+    "nombre": "Auditorio Nacional del Sodre | Sala Hugo Balzo",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 900.0,
+    "hasta": 900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021766/taddei-masliah-etchenique-bentancur",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/taddei-masliah-etchenique-bentancur/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021766/taddei-masliah-etchenique-bentancur"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18210",
+   "url": "https://beneficios.ladiaria.com.uy/un-lugar-al-que-volver/",
+   "titulo": "Un lugar al que volver",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "En una habitación de hospital, Inés, una joven impredecible que ensaya constantemente su propio documental autobiográfico, atraviesa una internación tan ambigua como inquietante. Convencida de que su vida debe ser narrada como una ficción cinematográfica, convierte cada situación cotidiana en una…",
+   "lugar": {
+    "nombre": "Teatro Circular | Sala 1",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-01T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Un-lugar-al-que-volver/33592/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/un-lugar-al-que-volver/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Un-lugar-al-que-volver/33592/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18207",
+   "url": "https://beneficios.ladiaria.com.uy/estanislao-bachrach/",
+   "titulo": "Estanislao Bachrach",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "ESTANISLAO BACHRACH , el autor best seller de “Ágilmente” y “En el limbo”, presenta su nueva charla. Un viaje al interior de nuestro cuerpo para comprender qué son las emociones, cómo aparecen, qué las dispara y cómo afectan nuestro cuerpo y nuestra mente. Comparte los últimos descubrimientos de la…",
+   "lugar": {
+    "nombre": "Teatro El Galpón | Sala Campodónico",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-10T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1830.0,
+    "hasta": 1830.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/ESTANISLAO-BACHRACH--Sala-Campodonico/33826/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/estanislao-bachrach/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/ESTANISLAO-BACHRACH--Sala-Campodonico/33826/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18200",
+   "url": "https://beneficios.ladiaria.com.uy/napas-subterraneas/",
+   "titulo": "Napas Subterráneas",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Napas Subterráneas Este monólogo bucea en las aguas profundas de una mujer encerrada en el depósito de su trabajo. Su encierro no es solo físico, es también emocional. Mientras espera ser liberada, sin el ruido del exterior, la protagonista recorre momentos de su vida, duela familia, amigas y…",
+   "lugar": {
+    "nombre": "Teatro Circular",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 650.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Napas-Subterraneas/33429/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/napas-subterraneas/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Napas-Subterraneas/33429/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18194",
+   "url": "https://beneficios.ladiaria.com.uy/esteban-klisich/",
+   "titulo": "Esteban Klísich",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Esteban Klísich cumple 50 años de trayectoria y nos invita a celebrarlo en un encuentro que cierra una serie de conciertos que ha dado en el año. Para esta noche hará un recorrido por canciones de todos sus discos. Referente popular de la música uruguaya y docente de cientos de músicos de nuestro…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta | Sala Hugo Balzo",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021648/esteban-klisich",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/esteban-klisich/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021648/esteban-klisich"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18188",
+   "url": "https://beneficios.ladiaria.com.uy/la-puerta-azul/",
+   "titulo": "La Puerta Azul",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "En algún rincón del bosque de Cotón, Teo, un niño de doce años, es enviado por su padre a cazar un oso. Decidido a escapar del destino que su padre había trazado para él, se interna en el bosque, donde conoce a un príncipe que no quiere ser rey y a una mesera que sueña con ser cartógrafa. Guiados…",
+   "lugar": {
+    "nombre": "Teatro La Candela",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/LA-PUERTA-AZUL/33837/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/la-puerta-azul/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/LA-PUERTA-AZUL/33837/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18184",
+   "url": "https://beneficios.ladiaria.com.uy/festival-candombe-y-salsa-360/",
+   "titulo": "Festival Candombe y Salsa 360",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "El ritmo se vive en 360°! Llega el Festival Candombe y Salsa 360°, una noche para disfrutar de la fuerza del candombe y toda la energía de la salsa. Una propuesta para bailar, celebrar y dejarse llevar por la música en un encuentro lleno de ritmo y cultura.",
+   "lugar": {
+    "nombre": "Sala del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 425.0,
+    "hasta": 425.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/FESTIVAL-CANDOMBE-Y-SALSA-360/33688/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/festival-candombe-y-salsa-360/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/FESTIVAL-CANDOMBE-Y-SALSA-360/33688/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18166",
+   "url": "https://beneficios.ladiaria.com.uy/pasando-lista/",
+   "titulo": "Pasando lista",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Pasando lista “Cuatro amigas, cinco copas y los deseos que olvidamos” es una comedia emotiva sobre la amistad, el paso del tiempo y los sueños que siguen esperando ser vividos. Cuatro amigas se reúnen en el apartamento de una de ellas para cumplir la promesa que hicieron en su adolescencia: seguir…",
+   "lugar": {
+    "nombre": "Arteatro",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Pasando-lista/32687/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/pasando-lista/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Pasando-lista/32687/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18162",
+   "url": "https://beneficios.ladiaria.com.uy/taconeando-sosa-100-anos-villasboas-90-anos/",
+   "titulo": "Taconeando Sosa 100 años – villasboas 90 años",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "En el marco de las actividades en celebración de: Octubre – Mes del Tango en Uruguay, es que tendrá lugar este concierto a cargo de la Orquesta Típica Taconeando en conmemoración a dos grandes figuras del tango uruguayo: el cantor y compositor Julio Sosa – 100 años y el pianista, compositor y…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1000.0,
+    "hasta": 1000.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021406/espectaculo/Taconeando?4",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/taconeando-sosa-100-anos-villasboas-90-anos/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/inicio/espectaculo/40021406/espectaculo/Taconeando?4"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18156",
+   "url": "https://beneficios.ladiaria.com.uy/sitio-te-mueve/",
+   "titulo": "Sitio te mueve",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "La Vela Puerca, Agarrate Catalina y Malapraxxis juntos en SITIO – Parque Roosevelt el 13 y 14 de noviembre. Tres artistas de la música uruguaya, tres propuestas diferentes y dos jornadas llenas de música para disfrutar de un encuentro que promete ser uno de los grandes cierres del año. Niños de…",
+   "lugar": {
+    "nombre": "Sitio",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 990.0,
+    "hasta": 990.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/SITIO-TE-MUEVE-La-Vela-Puerca-Agarrate-Catalina-y-Malapraxxis/33347/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/sitio-te-mueve/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/SITIO-TE-MUEVE-La-Vela-Puerca-Agarrate-Catalina-y-Malapraxxis/33347/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18152",
+   "url": "https://beneficios.ladiaria.com.uy/el-cumple-de-mabel-5/",
+   "titulo": "El cumple de Mabel",
+   "categoria": "danza",
+   "categoria_segura": true,
+   "descripcion_corta": "Llegó Noviembre, se nos fue el año… prepárate que ya estamos en los meses más lindos del año y MABEL está lista!!! Venite a festejar con tu TEAM que en la pista te espera nuestra reina DJ BEVE y muchas sorpresas. Si cumplís, festejas. Si no venís igual. Mabel es la fiesta de todxs! ADVERTENCIA El…",
+   "lugar": {
+    "nombre": "Sala del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 530.0,
+    "hasta": 530.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/EL-CUMPLE-DE-MABEL--La-fiesta-mas-divertida--NOVIEMBRE/33608/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/el-cumple-de-mabel-5/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/EL-CUMPLE-DE-MABEL--La-fiesta-mas-divertida--NOVIEMBRE/33608/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18146",
+   "url": "https://beneficios.ladiaria.com.uy/peng/",
+   "titulo": "PENG",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Una comedia incómoda que explora las formas contemporáneas del poder, donde la política, los medios y el espectáculo se entrelazan en la construcción de relato. A través de la figura de Peng, la obra expone la infantilización del discurso público y la emergencia de liderazgos autoritarios. Un…",
+   "lugar": {
+    "nombre": "Teatro el Gapón | Sala Cesar Campodónico",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 700.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/PENG--Sala-Campodonico/33499/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/peng/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/PENG--Sala-Campodonico/33499/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18143",
+   "url": "https://beneficios.ladiaria.com.uy/zell/",
+   "titulo": "Zell",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Una de las figuras más prometedoras de la nueva escena urbana argentina, construyendo un universo donde trap, pop, estética digital y cultura visual conviven en una misma identidad artística. Con una propuesta que dialoga directamente con el sonido del underground estadounidense pero desde una…",
+   "lugar": {
+    "nombre": "Sala del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 680.0,
+    "hasta": 680.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Zell-en-Montevideo/31987/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/zell/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Zell-en-Montevideo/31987/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18130",
+   "url": "https://beneficios.ladiaria.com.uy/la-habitacion-de-veronica/",
+   "titulo": "La habitación de Verónica",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Despues de diez temporadas de exito en Buenos Aires llega por primera vez a Uruguay con elenco nacional la aclamada obra del dramaturgo Ira Levin. Un thriller psicológico donde una chica de 20 años es invitada con su novio a la casa de una anciana pareja que ve en ella la copia fiel de una persona…",
+   "lugar": {
+    "nombre": "Teatro y escuela de artes Mandrágora",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 325.0,
+    "hasta": 325.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/LA-HABITACION-DE-VERONICA-de-Ira-Levin/33356/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/la-habitacion-de-veronica/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/LA-HABITACION-DE-VERONICA-de-Ira-Levin/33356/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18127",
+   "url": "https://beneficios.ladiaria.com.uy/capital-humano/",
+   "titulo": "Capital Humano",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Una entrevista laboral se transforma progresivamente en un espacio absurdo, incómodo y desbordado. Las luchas de poder, la competencia con las nuevas tecnologías, la necesidad de encajar y las exigencias de una sociedad atravesada por la productividad comienzan a deformar la realidad. Entre…",
+   "lugar": {
+    "nombre": "Teatro y escuela de artes Mandrágora",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/CAPITAL-HUMANO/33355/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/capital-humano/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/CAPITAL-HUMANO/33355/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18123",
+   "url": "https://beneficios.ladiaria.com.uy/las-camisas-blancas/",
+   "titulo": "Las camisas blancas",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "La historia de tres mujeres —dos estudiantes y la madre de una de ellas—que vivieron de cerca la trágica jornada del 20 de setiembre de 1968. La acción se centra en los hechos ocurridos en torno al edificio de la Universidad de la República, en los que perdieron la vida los estudiantes Hugo de los…",
+   "lugar": {
+    "nombre": "Teatro el Galpón | Sala Cero",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 340.0,
+    "hasta": 340.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Las-camisas-blancas-Sala-Cero/33256/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/las-camisas-blancas/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Las-camisas-blancas-Sala-Cero/33256/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18117",
+   "url": "https://beneficios.ladiaria.com.uy/eli-almic/",
+   "titulo": "Eli Almic",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "¿Qué abrió La Llave? Aún lo estamos descifrando. Lo que sí sabemos es que, desde aquella Zavala Muniz de Eli Almic y su banda —esa puesta en escena única donde un disco se convirtió en algo parecido a una obra—, cerrar ya no es posible. Les invitamos a seguir abriendo mundos, recorriendo rincones…",
+   "lugar": {
+    "nombre": "Sala Rondeau",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/ELI-ALMIC/33303/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/eli-almic/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/ELI-ALMIC/33303/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18110",
+   "url": "https://beneficios.ladiaria.com.uy/el-club-de-tobi-30-anos/",
+   "titulo": "El Club de Tobi 30 años",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "El Club de Tobi celebra tres décadas de trayectoria con un concierto que propone recorrer su historia y compartir con nuevas generaciones una propuesta artística que ha sabido reinventarse sin perder su esencia. El Club de Tobi ha construido un lenguaje propio que rompe las fronteras entre la…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021523/espectaculo/El%20club%20de%20Tobi%2030%20a%C3%B1os?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/el-club-de-tobi-30-anos/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/inicio/espectaculo/40021523/espectaculo/El%20club%20de%20Tobi%2030%20a%C3%B1os?2"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18107",
+   "url": "https://beneficios.ladiaria.com.uy/ultima-linea-trio-jazz/",
+   "titulo": "Última línea trío Jazz",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Última Línea Trío es un proyecto de jazz contemporáneo nacido del encuentro de tres músicos con una extensa trayectoria en la escena musical uruguaya. Integrado por Eduardo Mauris, Gustavo Villalba y Martin Cruz, el trío propone una experiencia donde la composición, la improvisación y la…",
+   "lugar": {
+    "nombre": "Sala Cultural de la Alianza Francesa",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-08T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/ULTIMA-LINEA-TRIO--JAZZ/33485/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/ultima-linea-trio-jazz/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/ULTIMA-LINEA-TRIO--JAZZ/33485/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18101",
+   "url": "https://beneficios.ladiaria.com.uy/amar-o-no/",
+   "titulo": "Amar o no",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "María, tiene 40 años, o 38… depende. Siente que se le acaba el tiempo para conocer a su media naranja y tener hijos. Está cansada de que le digan… ¿y el novio para cuando?, te estás poniendo vieja, no te va a querer nadie así… Debe apurarse ya que siente que tiene su reloj vital en contra. ¿Está…",
+   "lugar": {
+    "nombre": "El Galpón | Sala Cero",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-03T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Amar-o-no-Sala-Cero/32998/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/amar-o-no/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Amar-o-no-Sala-Cero/32998/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18095",
+   "url": "https://beneficios.ladiaria.com.uy/pago-y-arrabal/",
+   "titulo": "Pago y Arrabal",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Pago y Arrabal es un espectáculo que propone revelar las raíces comunes que unen al tango y al folclore, dos expresiones fundamentales de la identidad rioplatense. A través de una sucesión alternada de obras de ambos géneros, y mediante textos que funcionan como hilo conductor, la puesta va…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 700.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021642/espectaculo/Pago%20y%20Arrabal?1",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/pago-y-arrabal/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/inicio/espectaculo/40021642/espectaculo/Pago%20y%20Arrabal?1"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18092",
+   "url": "https://beneficios.ladiaria.com.uy/corazon-terraja/",
+   "titulo": "Corazón Terraja",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Corazón Terraja, basada en el libro homónimo de Soledad Castro Lazaroff, construye un universo coral de escenas y personajes atravesados por el deseo, la violencia, la incomodidad y el desborde. Una mirada feminista atraviesa estas situaciones, donde el humor aparece ahí donde menos debería. Es el…",
+   "lugar": {
+    "nombre": "Espacio Palermo | Isla de Flores 1631",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Corazon-Terraja/33374/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/corazon-terraja/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Corazon-Terraja/33374/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18089",
+   "url": "https://beneficios.ladiaria.com.uy/emmanuel-horvilleur/",
+   "titulo": "Emmanuel Horvilleur",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Emmanuel Horvilleur llega a Montevideo para presentar en vivo MI AÑO GÓTICO, su último trabajo discográfico, en un show que también recorrerá los momentos más destacados de su discografía. La cita será el Sábado 3 de octubre, donde el artista desplegará un show que recorre este nuevo universo…",
+   "lugar": {
+    "nombre": "Sala del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 940.0,
+    "hasta": 940.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Emmanuel-Horvilleur/28707/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/emmanuel-horvilleur/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Emmanuel-Horvilleur/28707/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18081",
+   "url": "https://beneficios.ladiaria.com.uy/estas-ahi-2/",
+   "titulo": "¿Estás ahí?",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Obra premiada y representada con gran éxito en distintos países, convirtiéndose en una de las obras más emblemáticas de su autor, Javier Daulte. El día en el que Fran y Ana se van a vivir juntos, se encuentran con una presencia inesperada. Una historia tan divertida como conmovedora.",
+   "lugar": {
+    "nombre": "El Galpón",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 440.0,
+    "hasta": 440.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Estas-ahi-Sala-Atahualpa/32252/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/estas-ahi-2/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Estas-ahi-Sala-Atahualpa/32252/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18078",
+   "url": "https://beneficios.ladiaria.com.uy/mateo-x-6/",
+   "titulo": "Mateo X 6",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Mateo x6 llega al Patio de Sala del Museo para una noche especial al aire libre. El próximo sábado 5 de diciembre, nos encontramos en el Patio de Sala para disfrutar de Mateo x6 en un formato cercano, en uno de los espacios más lindos del Museo del Carnaval. Una noche para encontrarnos, escuchar…",
+   "lugar": {
+    "nombre": "Sala del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 425.0,
+    "hasta": 425.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/MATEO-X6/33381/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/mateo-x-6/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/MATEO-X6/33381/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18075",
+   "url": "https://beneficios.ladiaria.com.uy/saramalacara-2/",
+   "titulo": "Saramalacara",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Una de las voces más singulares de la nueva escena urbana argentina regresa a Montevideo. Saramalacara llega con su universo sonoro y estético, en una noche que promete intensidad, energía y una propuesta que cruza trap, electrónica y sonidos experimentales.",
+   "lugar": {
+    "nombre": "Sala del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 690.0,
+    "hasta": 690.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Saramalacara/32418/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/saramalacara-2/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Saramalacara/32418/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18060",
+   "url": "https://beneficios.ladiaria.com.uy/coti/",
+   "titulo": "COTI",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Tras recorrer los escenarios más importantes de América Latina y Europa, el músico y compositor argentino COTI llega a Montevideo, Uruguay.. El próximo 22 de noviembre, en Sala del Museo del Carnaval sera la velada que promete ser el broche de oro de una travesía musical sin precedentes. El show…",
+   "lugar": {
+    "nombre": "Sala del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1030.0,
+    "hasta": 1030.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/COTI/32964/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/coti/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/COTI/32964/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18057",
+   "url": "https://beneficios.ladiaria.com.uy/el-zar-4/",
+   "titulo": "El Zar",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "El próximo 14 de Noviembre, vuelve EL ZAR a nuestro patio. La banda Argentina trae su nuevo show para celebrar los 10 años de recorrido. 20hs. Patio del Museo del Carnaval.",
+   "lugar": {
+    "nombre": "Patio del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 740.0,
+    "hasta": 740.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/EL-ZAR/33077/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/el-zar-4/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/EL-ZAR/33077/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18045",
+   "url": "https://beneficios.ladiaria.com.uy/tom-en-la-granja/",
+   "titulo": "Tom en la Granja",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Un thriller dramático que, desde una atmósfera opresiva, se adentra en las violencias ocultas de los vínculos familiares. Tras la muerte de su pareja, Tom llega a una granja para asistir al funeral y se encuentra con una familia que desconoce quién era realmente su hijo. Entre secretos, silencios y…",
+   "lugar": {
+    "nombre": "Sala Cero | Teatro el Galpón",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 650.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/TOM-EN-LA-GRANJA-Sala-Cero/33089/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/tom-en-la-granja/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/TOM-EN-LA-GRANJA-Sala-Cero/33089/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18039",
+   "url": "https://beneficios.ladiaria.com.uy/murga-madre-2/",
+   "titulo": "Murga Madre",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "MURGA MADRE «El reloj no ha parado nunca» Estrenada en 2002, Murga Madre es una obra de teatro creada por Eduardo «Pitufo» Lombardo, Pablo «Pinocho» Routín y Fernando Toja. Dos personajes sin nombre, sin tiempo y sin lugar habitan un espacio donde los recuerdos aparecen fragmentados. A través de…",
+   "lugar": {
+    "nombre": "Teatro El Galpón | Sala Campodónico",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 900.0,
+    "hasta": 900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Murga-Madre-Sala-Campodonico/30917/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/murga-madre-2/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Murga-Madre-Sala-Campodonico/30917/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18030",
+   "url": "https://beneficios.ladiaria.com.uy/julieta-laso-2/",
+   "titulo": "Julieta Laso",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Julieta Laso llega la sala Zitrarrosa con Fabriquera, su nuevo álbum producido por Melingo y atravesado por el legado del tango, la poesía y el mundo orillero. En este nuevo trabajo, Laso vuelve a las raíces de su decir tanguero para construir un repertorio intenso y personal, que reúne canciones…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1300.0,
+    "hasta": 1300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021526/espectaculo/Julieta%20Laso?0",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/julieta-laso-2/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/inicio/espectaculo/40021526/espectaculo/Julieta%20Laso?0"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18027",
+   "url": "https://beneficios.ladiaria.com.uy/bandoneonas/",
+   "titulo": "Bandoneonas",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Bandoneonas es un ensamble de tango en formato trío integrado por tres mujeres bandoneonistas de distintas generaciones y territorios de Uruguay. La propuesta recorre tangos, milongas y valses rioplatenses desde una mirada contemporánea, combinando arreglos originales, rescate patrimonial y una…",
+   "lugar": {
+    "nombre": "Sala Zabala Muniz – Teatro Solís",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 700.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021527/espectaculo/Bandoneonas?1",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/bandoneonas/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/inicio/espectaculo/40021527/espectaculo/Bandoneonas?1"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18024",
+   "url": "https://beneficios.ladiaria.com.uy/el-teatro/",
+   "titulo": "El Teatro",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "La Comedia Nacional estrena El Teatro con tres funciones a beneficio de la Fundación Amigos del Teatro Solís. Entre la risa y la conmoción, El teatro, escrita y dirigida por el reconocido creador francés Pascal Rambert, sigue a una compañía durante las horas previas a una gran celebración. Mientras…",
+   "lugar": {
+    "nombre": "Sala Principal Teatro Solís",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-01T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021412/espectaculo/Pre%20Estreno%20El%20Teatro?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/el-teatro/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/inicio/espectaculo/40021412/espectaculo/Pre%20Estreno%20El%20Teatro?2"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18016",
+   "url": "https://beneficios.ladiaria.com.uy/buitres-2/",
+   "titulo": "Buitres",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Buitres vuelve a la Sala del Museo del Carnaval para reencontrarse con su público y vivir, una vez más, esa conexión tan particular que hace único cada encuentro.",
+   "lugar": {
+    "nombre": "Sala del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/BUITRES/33112/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/buitres-2/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/BUITRES/33112/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18011",
+   "url": "https://beneficios.ladiaria.com.uy/natalie-perez-casa/",
+   "titulo": "Natalie Pérez – CASA",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Después de una exitosa gira por los principales escenarios de la Argentina, Natalie Pérez cruza fronteras y llega a Uruguay con la gira de Casa, su quinto álbum de estudio. El próximo 14 de noviembre, la artista se presentará en la Sala Zitarrosa de Montevideo, en el primer show internacional de…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1300.0,
+    "hasta": 1300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021568/espectaculo/Natalie%20Perez?0",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/natalie-perez-casa/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/inicio/espectaculo/40021568/espectaculo/Natalie%20Perez?0"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18001",
+   "url": "https://beneficios.ladiaria.com.uy/camara-hamlet/",
+   "titulo": "Cámara Hamlet",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Una corporación virtual inicia un proyecto de experimentación que tiene como cometido en una primera instancia la puesta en escena de una versión de la obra Hamlet en formato unipersonal. En ella, un actor será guiado únicamente por una IA antropomórfica. Cámara Hamlet relata el vínculo y los…",
+   "lugar": {
+    "nombre": "ESNADE (Escuela Nacional de Declamación)",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Camara-Hamlet/32869/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/camara-hamlet/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Camara-Hamlet/32869/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17986",
+   "url": "https://beneficios.ladiaria.com.uy/la-tipa-y-el-borracho/",
+   "titulo": "La Tipa y el Borracho",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Territorialidades presenta un soliloquio de Pedro Cayota. ¿Cómo explicar de qué va? el título lo dice todo, historias de amor y ruptura, los árboles como metáforas, el borracho florece en carnaval y la tipa a veces escupe, a veces llora, la chicharra de la humedad mastica la hoja y una gota de…",
+   "lugar": {
+    "nombre": "Sala Hugo Balzo",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 1111.0,
+    "hasta": 1111.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021559/espectaculo/La%20Tipa%20y%20el%20Borracho?0",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/la-tipa-y-el-borracho/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/inicio/espectaculo/40021559/espectaculo/La%20Tipa%20y%20el%20Borracho?0"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17980",
+   "url": "https://beneficios.ladiaria.com.uy/dillom/",
+   "titulo": "Dillom",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Dillom regresa a Uruguay para presentar La nueva violencia , su más reciente trabajo discográfico, con un show que promete desplegar toda la intensidad, provocación y potencia que caracterizan al artista argentino. Después de Post Mortem y Por cesárea , Dillom abre una nueva etapa con un álbum de…",
+   "lugar": {
+    "nombre": "Rural del Prado",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 890.0,
+    "hasta": 890.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/DILLOM--PRADO/32949/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/dillom/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/DILLOM--PRADO/32949/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17973",
+   "url": "https://beneficios.ladiaria.com.uy/uno/",
+   "titulo": "Uno",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Tres cuerpos deformes atrapados en un sistema artificial de consumo. Tres cuerpos condenados que nadie quiere ver. El hambre es la única constante: el deseo de consumo y el consumo de deseo. Uno es una obra de teatro físico que explora la relación entre cuerpo , poder y consumo . Hibridando…",
+   "lugar": {
+    "nombre": "Teatro Stella D´Italia Sala 1 (Mercedes 1805)",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T22:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 330.0,
+    "hasta": 330.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Uno/32244/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/uno/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Uno/32244/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17939",
+   "url": "https://beneficios.ladiaria.com.uy/gauchito-club/",
+   "titulo": "Gauchito Club",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Gauchito Club – Gira despedida Vulnerable Sábado 31 de octubre 2026 Apto para todo público. 20hs.",
+   "lugar": {
+    "nombre": "Sala del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 830.0,
+    "hasta": 830.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Gauchito-Club/32675/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/gauchito-club/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Gauchito-Club/32675/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17936",
+   "url": "https://beneficios.ladiaria.com.uy/cuatro-pesos-de-propina/",
+   "titulo": "Cuatro Pesos de Propina",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "FLORES DE UN DíA, sexto disco de estudio de Cuatro Pesos de Propina. En este trabajo la banda se reinventa combinando un sonido autóctono y canciones que encarnan rápidamente. Son 10 tracks con el foco temático puesto en los vinculos y lo efimero del tiempo. Es una apuesta a la canción de poesía…",
+   "lugar": {
+    "nombre": "Sala del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/CUATRO-PESOS-DE-PROPINA/32285/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/cuatro-pesos-de-propina/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/CUATRO-PESOS-DE-PROPINA/32285/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17919",
+   "url": "https://beneficios.ladiaria.com.uy/german-medina-catarsis/",
+   "titulo": "Germán Medina – Catarsis",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "¡Germán Medina vuelve al Teatro de Verano! Con su estilo único, cercano y explosivo, Germán se ha consolidado como una de las figuras más destacadas del humor nacional, conquistando al público con anécdotas cotidianas, improvisación y una energía arrolladora en escena. Una noche imperdible para…",
+   "lugar": {
+    "nombre": "Teatro de Verano",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 950.0,
+    "hasta": 950.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020784/espectaculo/Germ%C3%A1n%20Medina?4",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/german-medina-catarsis/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/inicio/espectaculo/40020784/espectaculo/Germ%C3%A1n%20Medina?4"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17900",
+   "url": "https://beneficios.ladiaria.com.uy/javier-santaolalla/",
+   "titulo": "Javier Santaolalla",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Javier Santaolalla, creador y conductor del Club de la Tusa, presenta un evento único que combina música, poesía y ciencia para explorar las emociones humanas más profundas. Doctor en Física de Partículas y divulgador científico, busca en este evento transformar el desamor en arte, uniéndolo con…",
+   "lugar": {
+    "nombre": "El Galpón | Sala Campodónico",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-17T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-18T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1480.0,
+    "hasta": 1480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Comerse-un-hipopotamo/31960/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/javier-santaolalla/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Comerse-un-hipopotamo/31960/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17875",
+   "url": "https://beneficios.ladiaria.com.uy/el-herrero-y-la-muerte/",
+   "titulo": "El Herrero y la Muerte",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "El Herrero y la muerte se puede definir como un clàsico del teatro uruguayo. La obra posee un toque fantástico y absurdo, que hacen de la gracia y las risas una constante . El entretenimiento, el humor y la fantasìa desplegados en esta puesta en escena, convierten al espectàculo en un gran disfrute…",
+   "lugar": {
+    "nombre": "Teatro Victoria",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 800.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/EL-HERRERO-Y-LA-MUERTE/32174/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/el-herrero-y-la-muerte/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/EL-HERRERO-Y-LA-MUERTE/32174/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17868",
+   "url": "https://beneficios.ladiaria.com.uy/santi-wirth-presenta-mapa/",
+   "titulo": "Santi Wirth – Presenta «Mapa»",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Santi Wirth presenta su nuevo álbum «MAPA» Un viaje hacia los paisajes que nos habitan. El viernes 2 de octubre en la Sala Zitarrosa, Santi Wirth presentará su segundo disco de estudio, una obra que invita a recorrer caminos de memoria, identidad y encuentro. Con canciones de raíz popular que…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 750.0,
+    "hasta": 750.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021382/espectaculo/Santi%20Wirth%20-%20Presentaci%C3%B3n%20Mapa?1",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/santi-wirth-presenta-mapa/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/inicio/espectaculo/40021382/espectaculo/Santi%20Wirth%20-%20Presentaci%C3%B3n%20Mapa?1"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17819",
+   "url": "https://beneficios.ladiaria.com.uy/cartografia-sobre-la-identidad/",
+   "titulo": "Cartografía sobre la identidad",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Tenía apenas un año y seis meses… ¿Con un año y seis meses, qué sentimientos se pueden generar? ¿Qué afectos, qué vínculos se pueden llegar a tener? Seguramente muchos. Pero si hablamos de recuerdos, tangibles, patentes, yo no tuve ninguno. «Cartografía sobre la identidad» aborda el proceso de…",
+   "lugar": {
+    "nombre": "Zavala Muniz | Teatro Solís",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021278/espectaculo/Cartograf%C3%ADa%20de%20la%20Identidad?0",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/cartografia-sobre-la-identidad/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/inicio/espectaculo/40021278/espectaculo/Cartograf%C3%ADa%20de%20la%20Identidad?0"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17811",
+   "url": "https://beneficios.ladiaria.com.uy/festival-musica-de-la-tierra-15-anos/",
+   "titulo": "Festival Música de la tierra 15 años",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Música de la Tierra celebra 15 años con una programación de lujo que reúne a artistas de Latinoamérica, en el Parque Villa Dolores – Parque de la Amistad. El festival se concentra en 48 hs en uno de los pulmones verdes más bellos de la ciudad y además de 8 conciertos diarios incluye: charlas…",
+   "lugar": {
+    "nombre": "Parque de la Amistad Villa Dolores",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 380.0,
+    "hasta": 380.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/FESTIVAL-MUSICA-DE-LA-TIERRA--15-ANOS/31765/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/festival-musica-de-la-tierra-15-anos/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/FESTIVAL-MUSICA-DE-LA-TIERRA--15-ANOS/31765/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17788",
+   "url": "https://beneficios.ladiaria.com.uy/raly-barrionuevo-el-caminode-solgo/",
+   "titulo": "Raly Barrionuevo – El caminode Solgo",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Raly Barrionuevo regresa a Montevideo para presentar su nuevo trabajo, «El camino de Solgo», un disco que marca su retorno a las composiciones inéditas tras un necesario período de maduración y búsqueda interna. El esperado reencuentro con el público uruguayo se materializará el 20 de noviembre en…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1400.0,
+    "hasta": 1400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021263?0",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/raly-barrionuevo-el-caminode-solgo/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/inicio/espectaculo/40021263?0"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17748",
+   "url": "https://beneficios.ladiaria.com.uy/juan-jose-de-mello/",
+   "titulo": "Juan José De Mello",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Juan José De Mello celebra, homenajea y reconoce la obra creada por los musiqueros uruguayos y las voces de algunos de nuestros poetas que, junto a ellos, nos han legado un panorama musical extremadamente rico y variado, que combina raíces tradicionales con influencias globales. Seleccionando…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021240/espectaculo/Juan%20Jos%C3%A9%20De%20Mello%20%E2%80%9CMusiqueros%E2%80%9D?4",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/juan-jose-de-mello/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/inicio/espectaculo/40021240/espectaculo/Juan%20Jos%C3%A9%20De%20Mello%20%E2%80%9CMusiqueros%E2%80%9D?4"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17712",
+   "url": "https://beneficios.ladiaria.com.uy/la-kermesse-3/",
+   "titulo": "La Kermesse",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Una celebración del espíritu Redondo: ¡La Kermesse vuelve a Montevideo! El sábado 31 de agosto a las 21:00 h, la Rural del Prado recibirá a La Kermesse, de la mano de Los Decoradores, banda integrada por los históricos miembros de Patricio Rey y sus Redonditos de Ricota. Las entradas se podrán…",
+   "lugar": {
+    "nombre": "Rural del Prado",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 790.0,
+    "hasta": 790.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/LA-KERMESSE--PRADO/31598/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/la-kermesse-3/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/LA-KERMESSE--PRADO/31598/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17700",
+   "url": "https://beneficios.ladiaria.com.uy/milongas-extremas-zitarrosa-desde-el-fondo-del-tiempo/",
+   "titulo": "Milongas Extremas – Zitarrosa desde el fondo del tiempo",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "La reconocida banda uruguaya, que fusiona con identidad propia la raíz folclórica rioplatense con la potencia del rock, presenta una propuesta artística de gran contenido escénico y profundo valor cultural, recorriendo la obra y el legado histórico de uno de los máximos referentes de la música…",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 1200.0,
+    "hasta": 1200.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021162/espectaculo/Milongas%20Extremas?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/milongas-extremas-zitarrosa-desde-el-fondo-del-tiempo/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/inicio/espectaculo/40021162/espectaculo/Milongas%20Extremas?2"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17686",
+   "url": "https://beneficios.ladiaria.com.uy/hamelin/",
+   "titulo": "Hamelin",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Inspirada tanto en la leyenda del flautista de Hamelin como en un caso real ocurrido en España a fines de los años noventa, la obra despliega una poética fragmentada y no lineal donde múltiples voces orbitan en torno a un hecho que nunca se muestra, pero cuya presencia lo contamina todo. No hay…",
+   "lugar": {
+    "nombre": "Sala Atahualpa",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 325.0,
+    "hasta": 325.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/HAMELIN-Sala-Atahualpa/31554/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/hamelin/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/HAMELIN-Sala-Atahualpa/31554/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17669",
+   "url": "https://beneficios.ladiaria.com.uy/panorama-desde-el-puente/",
+   "titulo": "Panorama desde el puente",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Panorama desde el puente, célebre obra teatral de Arthur Miller, aborda el drama de los inmigrantes ilegales, sobre cuya existencia precaria y clandestina se cierne la amenaza de los funcionarios de Inmigración y la posible expulsión del país. Una tragedia contemporánea que pone en escena las…",
+   "lugar": {
+    "nombre": "Sala Campodónico | Teatro El Galpón",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 700.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/PANORAMA-DESDE-EL-PUENTE-Sala-Campodonico/31436/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/panorama-desde-el-puente/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/PANORAMA-DESDE-EL-PUENTE-Sala-Campodonico/31436/"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17543",
+   "url": "https://beneficios.ladiaria.com.uy/florencia-nunez/",
+   "titulo": "Florencia Nuñez",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "La gira DÉCADA Y MEDIA celebra este 2026 los quince años de FLORENCIA NÚÑEZ en la música y los escenarios. La artista femenina con más Premios Graffiti (14) en la historia de la música uruguaya presenta un nuevo espectáculo, donde repasará lo mejor de su discografía acompañada por su banda. Una…",
+   "lugar": {
+    "nombre": "Auditorio Nacional del SODRE, Teatro 25 de mayo, Complejo Cultural, Teatro Español, Teatro Miguel Young, Teatro 28 de febrero, Cine y Teatro Municipal, Teatro Bastión del Carmen, Teatro Larrañaga, Teatro Escayola",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 700.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/florencia-nunez/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "17470",
+   "url": "https://beneficios.ladiaria.com.uy/cuarteto-de-nos/",
+   "titulo": "Cuarteto de Nos",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Show musical de El Cuarteto de Nos en la Rambla de Punta Carretas EN CASO DE SUSPENSIÓN POR INCLEMENCIAS CLIMÁTICAS, EL SHOW SE REPROGRAMARÁ PARA UNA NUEVA FECHA TENIENDO COMO PRIORIDAD EL DÍA SIGUIENTE SECTOR CASA DE DAMIAN CONTARÁ CON INGRESO EXCLUSIVO Y ZONA DE BAÑOS EXCLUSIVA SECTOR…",
+   "lugar": {
+    "nombre": "Rambla de Montevideo",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-19T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 990.0,
+    "hasta": 990.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/EL-CUARTETO-DE-NOS/30560/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/cuarteto-de-nos/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/EL-CUARTETO-DE-NOS/30560/"
+   ],
+   "ciclo": null
+  }
+ ]
+}
