@@ -1,6 +1,6 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-10-31T20:10:17.841129-03:00",
+ "corrida": "2026-10-31T20:29:34.529608-03:00",
  "ok": true,
  "cantidad": 18,
  "errores": [],
@@ -84,19 +84,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9643",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40845/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -142,19 +180,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9123",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40407/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -179,19 +255,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9083",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/HOJA+SECA.jpeg",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -237,19 +351,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9631",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40833/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -302,19 +454,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9094",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40378/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -367,19 +557,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9042",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40326/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -404,19 +632,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/2538",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/en_la_puta_vida.jpg",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -469,19 +735,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9655",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40856/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -513,19 +817,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9652",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40854/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": "Filmtage: Ciclo del Cine Alemán en Cinemateca"
+   "ciclo": "Filmtage: Ciclo del Cine Alemán en Cinemateca",
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -550,19 +892,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9656",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://media.revistavanityfair.es/photos/66deae36c41c71da0c808d2e/master/w_3940%2Cc_limit/GettyImages-168599834.jpg",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": "The Apartment Station presenta: Trasnoches en Cinemateca / Belleza americana"
+   "ciclo": "The Apartment Station presenta: Trasnoches en Cinemateca / Belleza americana",
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -587,19 +967,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9605",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://www.eneccine.com/tresadioses/tresadioses05.jpg",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -624,19 +1042,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9645",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://indielisboa.com/wp-content/uploads/2025/03/img-678541e40cf08-1.jpg",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -668,19 +1124,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9653",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40855/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": "Filmtage: Ciclo del Cine Alemán en Cinemateca"
+   "ciclo": "Filmtage: Ciclo del Cine Alemán en Cinemateca",
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -712,19 +1206,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9659",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/war-wajda-kanal-thumb.jpg",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario"
+   "ciclo": "Andrzej Wajda, en su centenario",
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -756,19 +1288,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/1920",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/cenizas-y-diamantes.jpe",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario"
+   "ciclo": "Andrzej Wajda, en su centenario",
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -800,19 +1370,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9660",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm63HWrqd7yV5Xa_3zBvoefVEcVLwRX4RJmxGYLqw2CsXbK5ZZhZi0Qia9&amp;s=10",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario"
+   "ciclo": "Andrzej Wajda, en su centenario",
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -844,19 +1452,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9661",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://assets.mubicdn.net/images/film/28636/image-w1280.jpg?1745489920",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario"
+   "ciclo": "Andrzej Wajda, en su centenario",
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cinemateca",
@@ -888,19 +1534,57 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://cinemateca.org.uy/peliculas/9663",
      "via": "cinemateca"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
    "imagen_url": "https://wajda.pl/wp-content/uploads/2021/05/polowanie-na-muchy-fototeka-poziom.jpg",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario"
+   "ciclo": "Andrzej Wajda, en su centenario",
+   "muestra": false,
+   "hasta": null
   }
  ]
 }

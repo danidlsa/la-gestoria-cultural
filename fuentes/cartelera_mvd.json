@@ -1,6 +1,6 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-10-31T20:11:31.236273-03:00",
+ "corrida": "2026-10-31T20:30:49.052082-03:00",
  "ok": true,
  "cantidad": 105,
  "errores": [],
@@ -73,7 +73,9 @@
    "productor": "Álvaro Correa",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -121,7 +123,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -191,7 +195,9 @@
    "productor": "Moré",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -307,7 +313,9 @@
    "productor": "Florencia Moreira Figueredo",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -376,7 +384,9 @@
    "productor": "Juan Ferreira",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -438,7 +448,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -491,7 +503,9 @@
    "productor": "Ernesto Muniz",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -561,7 +575,9 @@
    "productor": "Carmen Lecueder",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -729,7 +745,9 @@
    "productor": "Roberto Suárez",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -803,7 +821,7 @@
    ],
    "beneficios": [
     {
-     "programa": "Socios SUA $ 500",
+     "programa": "Socios SUA",
      "tipo": "Jubilados, estudiantes, socios SUA $ 500",
      "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?3451"
     }
@@ -812,7 +830,9 @@
    "productor": "Marcelino Duffau",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -875,7 +895,9 @@
    "productor": "Virginia Ramos",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -917,7 +939,9 @@
    "productor": "Ana Frenkel",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -991,7 +1015,9 @@
    "productor": "Micaela Carrión",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1040,7 +1066,9 @@
    "productor": "Nora Dufrechu",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1095,7 +1123,9 @@
    "productor": "Franco Balestrino Centeno",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1137,7 +1167,9 @@
    "productor": "Jesica Maiori Assad - Irene Brusoni",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1200,7 +1232,9 @@
    "productor": "Rafael Pence",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1281,7 +1315,9 @@
    "productor": "Carla Grabino",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1383,7 +1419,9 @@
    "productor": "Luciana Lagisquet",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1432,7 +1470,9 @@
    "productor": "Paula Evans",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1492,7 +1532,9 @@
    "productor": "Marcel Sawchik Monegal - Natalia Agosín",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1562,7 +1604,9 @@
    "productor": "Enrique Vidal",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1632,7 +1676,9 @@
    "productor": "Aldo Moreira",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1681,7 +1727,9 @@
    "productor": "Gustavo Trinidad",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1751,7 +1799,9 @@
    "productor": "Mario Esteban N.",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1793,7 +1843,9 @@
    "productor": "Pablo Ferrería",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1909,7 +1961,9 @@
    "productor": "Beatriz Sayad - Virginia Caputi",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -1972,7 +2026,9 @@
    "productor": "Martín De Brun",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2025,7 +2081,9 @@
    "productor": "Ismael Da Fonseca",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2085,7 +2143,7 @@
    ],
    "beneficios": [
     {
-     "programa": "Socios SUA y estudiantes de actuación: $ 450",
+     "programa": "Socios SUA",
      "tipo": "Socios de SUA y estudiantes de actuación: $ 450",
      "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34887"
     }
@@ -2094,7 +2152,9 @@
    "productor": "Rodrigo López",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2136,7 +2196,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2185,7 +2247,9 @@
    "productor": "Fabián Collazo",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2296,7 +2360,9 @@
    "productor": "Pascal Rambert",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2363,7 +2429,7 @@
    ],
    "beneficios": [
     {
-     "programa": "Socios Espectácular: o",
+     "programa": "Socio Espectacular",
      "tipo": "2x1",
      "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?31334"
     }
@@ -2372,7 +2438,9 @@
    "productor": "Raika",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2463,7 +2531,9 @@
    "productor": "Fernán Moliv",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2505,7 +2575,9 @@
    "productor": "Fabián Bragunde",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2547,7 +2619,9 @@
    "productor": "Fabián Bragunde",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2614,7 +2688,9 @@
    "productor": "Juan Luis Granato",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2684,7 +2760,9 @@
    "productor": "Rafael Pence",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2761,7 +2839,9 @@
    "productor": "Álvaro Ahunchain",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2803,7 +2883,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2845,7 +2927,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2887,7 +2971,9 @@
    "productor": "Sole Rosa",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -2929,7 +3015,9 @@
    "productor": "Pablo 'Pinocho' Routin",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3024,7 +3112,9 @@
    "productor": "Alfredo Goldstein",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3159,7 +3249,9 @@
    "productor": "Graciela Escuder",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3235,7 +3327,9 @@
    "productor": "Ruben Coletto",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3300,7 +3394,9 @@
    "productor": "Graciela Escuder",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3349,7 +3445,9 @@
    "productor": "Cecilia Baranda",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3414,7 +3512,9 @@
    "productor": "Agustín Luque",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3521,7 +3621,7 @@
      "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34863"
     },
     {
-     "programa": "Socios Teatro El Galpón: de descuento",
+     "programa": "Socios El Galpón",
      "tipo": "Socios Teatro El Galpón: 50% de descuento",
      "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34863"
     },
@@ -3535,7 +3635,9 @@
    "productor": "Fede Martínez - Florencia Colucci - Rodolfo Opazo",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3626,7 +3728,9 @@
    "productor": "Matías Laglère - Manuel Miranda",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3668,7 +3772,9 @@
    "productor": "Pablo Ferrería",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3710,7 +3816,9 @@
    "productor": "Chris Bur",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3766,7 +3874,9 @@
    "productor": "Pablo Dive",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3815,7 +3925,9 @@
    "productor": "Gustavo Trinidad",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3868,7 +3980,9 @@
    "productor": "Santiago Ventura",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3910,7 +4024,9 @@
    "productor": "José Pereyra",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -3975,7 +4091,9 @@
    "productor": "Diego Devincenzi",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4077,7 +4195,9 @@
    "productor": "Daniel Romano",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4146,7 +4266,9 @@
    "productor": "Maximiliano Farinasso",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4206,7 +4328,7 @@
    ],
    "beneficios": [
     {
-     "programa": "Socios SUA antes de ingresar a la sala)",
+     "programa": "Socios SUA",
      "tipo": "SUA $ 501 (debe mostrar carné de socio SUA antes de ingresar a la sala)",
      "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34001"
     }
@@ -4215,7 +4337,9 @@
    "productor": "Facundo Silva",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4257,7 +4381,9 @@
    "productor": "Iván Aulet",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4320,7 +4446,9 @@
    "productor": "José Luis Olascuaga",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4362,7 +4490,9 @@
    "productor": "colectiva",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4439,7 +4569,9 @@
    "productor": "Alfredo Goldstein",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4481,7 +4613,9 @@
    "productor": "Juandi Eirea Young",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4530,7 +4664,9 @@
    "productor": "Alfredo Leirós",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4635,7 +4771,9 @@
    "productor": "Gustavo Kreiman",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4702,7 +4840,9 @@
    "productor": "Juan Luis Granato",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4744,7 +4884,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4786,7 +4928,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4828,7 +4972,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -4930,7 +5076,9 @@
    "productor": "Alberto Zimberg",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5046,7 +5194,9 @@
    "productor": "Nicolás Tapia",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5116,7 +5266,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5227,7 +5379,9 @@
    "productor": "Martín García",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5276,7 +5430,9 @@
    "productor": "Federico Longo",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5350,7 +5506,9 @@
    "productor": "Mavi Pouso",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5392,7 +5550,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5471,7 +5631,9 @@
    "productor": "Luciano Cáceres - Soledad Lacassy",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5513,7 +5675,9 @@
    "productor": "Gonchi Fernández",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5590,7 +5754,9 @@
    "productor": "Fernando Amaral",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5653,7 +5819,9 @@
    "productor": "Jimena Romero - Álvaro Sevrini",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5695,7 +5863,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5743,7 +5913,9 @@
    "productor": "Lorena Vega",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5817,7 +5989,9 @@
    "productor": "Fernando Dianesi",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5877,7 +6051,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5926,7 +6102,9 @@
    "productor": "Analía Torres",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -5968,7 +6146,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6044,7 +6224,9 @@
    "productor": "Fernando Toja",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6086,7 +6268,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6155,7 +6339,9 @@
    "productor": "Romina Paula",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6203,7 +6389,9 @@
    "productor": "Martín Bontempo",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6282,7 +6470,9 @@
    "productor": "Marcos Acuña",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6349,7 +6539,9 @@
    "productor": "Lucía García",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6404,7 +6596,9 @@
    "productor": "Diana Bresque",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6506,7 +6700,9 @@
    "productor": "Chepe Irisity",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6608,7 +6804,9 @@
    "productor": "Virginia Rodríguez Olveyra",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6677,7 +6875,9 @@
    "productor": "Adriana Martínez",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6724,13 +6924,20 @@
      "programa": "Socio Espectacular",
      "tipo": "2x1",
      "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34492"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34492"
     }
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41927.jpg",
    "productor": "Juan Calvo",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6778,7 +6985,9 @@
    "productor": "Juanse Rausch - Valeria Lois",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6834,7 +7043,9 @@
    "productor": "Vanessa Cánepa",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6882,7 +7093,9 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "cartelera_mvd",
@@ -6938,7 +7151,9 @@
    "productor": "Mel Abilleira",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   }
  ]
 }
