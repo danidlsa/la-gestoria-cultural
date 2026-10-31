@@ -26,8 +26,6 @@ FUENTES='
 2|ladiaria|https://beneficios.ladiaria.com.uy/category/espectaculos/feed/|<item>
 2|sala_del_museo|https://www.saladelmuseo.com.uy/shows.html|/shows/item/
 2|peatonal_tours|https://www.peatonaltours.uy/|UYU
-3|allaccess|https://www.allaccess.com.ar/|event/
-3|livepass|https://livepass.com.ar/|ld+json
 '
 
 TMP=$(mktemp -d)

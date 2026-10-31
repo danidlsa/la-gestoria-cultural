@@ -1,0 +1,840 @@
+// La Gestoría Cultural: filtros, carriles por día, mapa y "Planeá tu mes".
+// Los datos vienen precalculados desde Python; acá solo se filtra y se dibuja.
+(function () {
+  "use strict";
+
+  const datos = JSON.parse(document.getElementById("datos").textContent);
+  const deposito = document.getElementById("eventos"); // tarjetas generadas en Python, siempre ocultas
+  const tarjetas = new Map(Array.from(deposito.children).map((li) => [li.dataset.id, li]));
+
+  // --- Utilidades --------------------------------------------------------------------------------
+  // Crea un elemento con atributos e hijos; el texto va siempre como texto, nunca como HTML.
+  function el(etiqueta, atributos = {}, ...hijos) {
+    const nodo = document.createElement(etiqueta);
+    for (const [clave, valor] of Object.entries(atributos)) {
+      if (clave === "class") nodo.className = valor;
+      else if (clave.startsWith("data-")) nodo.dataset[clave.slice(5).replace(/-(.)/g, (_, c) => c.toUpperCase())] = valor;
+      else nodo.setAttribute(clave, valor);
+    }
+    nodo.append(...hijos.filter((h) => h !== null && h !== undefined && h !== false));
+    return nodo;
+  }
+
+  const plano = (texto) => (texto || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  const plural = (n, palabra) => `${n} ${palabra}${n === 1 ? "" : "s"}`;
+  const mayuscula = (texto) => texto.charAt(0).toUpperCase() + texto.slice(1);
+
+  // --- Fechas en hora de Montevideo --------------------------------------------------------------
+  const ZONA = "America/Montevideo";
+  const hoy = new Intl.DateTimeFormat("en-CA", { timeZone: ZONA }).format(new Date()); // "AAAA-MM-DD"
+  const DIAS = ["dom", "lun", "mar", "mié", "jue", "vie", "sáb"];
+  const DIAS_LARGOS = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+  const MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
+    "septiembre", "octubre", "noviembre", "diciembre"];
+
+  // Aritmética de días sobre fechas "AAAA-MM-DD", sin depender de la zona horaria del navegador.
+  const aFecha = (dia) => new Date(dia + "T12:00:00Z");
+  const sumarDias = (dia, n) => new Date(aFecha(dia).getTime() + n * 86400000).toISOString().slice(0, 10);
+  const diaSemana = (dia) => aFecha(dia).getUTCDay(); // 0 = domingo
+  const rango = (desde, cantidad) => Array.from({ length: cantidad }, (_, i) => sumarDias(desde, i));
+  const sumarMeses = (mes, n) => {
+    const [anio, numero] = mes.split("-").map(Number);
+    return new Date(Date.UTC(anio, numero - 1 + n, 1)).toISOString().slice(0, 7);
+  };
+  const nombreMes = (mes) => {
+    const [anio, numero] = mes.split("-").map(Number);
+    return `${MESES[numero - 1]} ${anio}`;
+  };
+
+  function textoFuncion([inicio, sinHora]) {
+    const dia = inicio.slice(0, 10);
+    const [, mes, numero] = dia.split("-").map(Number);
+    const fecha = `${DIAS[diaSemana(dia)]} ${numero} ${MESES[mes - 1].slice(0, 3)}`;
+    return sinHora ? fecha : `${fecha} · ${inicio.slice(11, 16)}`;
+  }
+
+  function tituloDia(dia) {
+    const [, mes, numero] = dia.split("-").map(Number);
+    return `${DIAS_LARGOS[diaSemana(dia)]} ${numero} de ${MESES[mes - 1]}`;
+  }
+
+  // --- Eventos -----------------------------------------------------------------------------------
+  const eventos = datos.eventos.map((e) => ({
+    ...e,
+    dias: e.funciones.map(([inicio]) => inicio.slice(0, 10)),
+    textoPlano: plano(e.texto),
+    tarjeta: tarjetas.get(e.id),
+  }));
+  const porId = new Map(eventos.map((e) => [e.id, e]));
+  const nombreLugar = (evento) => datos.lugares[evento.lugar]?.nombre || "";
+
+  // --- Mi plan: funciones elegidas, guardadas en este navegador ---------------------------------
+  const CLAVE_PLAN = "lgc-plan";
+  const plan = new Map(); // "id|inicio" -> { id, inicio, sinHora }
+  const clavePlan = (id, inicio) => `${id}|${inicio}`;
+  try {
+    for (const [id, inicio, sinHora] of JSON.parse(localStorage.getItem(CLAVE_PLAN) || "[]")) {
+      // Se descarta lo que ya no está en la cartelera (función pasada o evento que se cayó).
+      if (porId.get(id)?.funciones.some(([i]) => i === inicio)) plan.set(clavePlan(id, inicio), { id, inicio, sinHora });
+    }
+  } catch (_) { /* sin almacenamiento disponible: el plan dura lo que la pestaña */ }
+
+  function guardarPlan() {
+    try {
+      localStorage.setItem(CLAVE_PLAN, JSON.stringify([...plan.values()].map((p) => [p.id, p.inicio, p.sinHora])));
+    } catch (_) { /* idem */ }
+  }
+
+  function alternarPlan(id, inicio) {
+    const clave = clavePlan(id, inicio);
+    if (plan.has(clave)) plan.delete(clave);
+    else plan.set(clave, { id, inicio, sinHora: porId.get(id).funciones.find(([i]) => i === inicio)?.[1] || false });
+    guardarPlan();
+  }
+
+  const elegidasOrdenadas = () => [...plan.values()].sort((a, b) => a.inicio.localeCompare(b.inicio));
+
+  // --- Estado de los filtros --------------------------------------------------------------------
+  const FILTROS_INICIALES = {
+    periodo: "todo", dia: null, categoria: "", etiqueta: "", sub: "",
+    presupuesto: "", programa: "", sala: "", ciclo: "", texto: "",
+  };
+  let estado = { seccion: "agenda", mes: hoy.slice(0, 7), planMes: sumarMeses(hoy.slice(0, 7), 1), ...FILTROS_INICIALES };
+
+  function diasDelPeriodo() {
+    if (estado.periodo === "dia") return [estado.dia];
+    if (estado.periodo === "hoy") return [hoy];
+    if (estado.periodo === "semana") return rango(hoy, 7);
+    if (estado.periodo === "finde") {
+      const semana = diaSemana(hoy);
+      const desde = semana === 0 || semana >= 5 ? 0 : 5 - semana; // desde el viernes (o hoy, si ya es finde)
+      const hasta = semana === 0 ? 0 : 7 - semana; // hasta el domingo
+      return rango(sumarDias(hoy, desde), hasta - desde + 1);
+    }
+    return null; // "todo"
+  }
+
+  function coincide(evento, { ignorarFecha = false } = {}) {
+    const s = estado.seccion;
+    if (s === "gratis" && evento.presupuesto !== "gratis") return false;
+    if (s === "promos" && !evento.promos.length) return false;
+    if (s === "ciclos" && !evento.ciclo) return false;
+    if (estado.categoria && evento.categoria !== estado.categoria) return false;
+    if (estado.etiqueta && !evento.etiquetas.includes(estado.etiqueta)) return false;
+    if (estado.sub === "otros" && evento.sub) return false;
+    if (estado.sub && estado.sub !== "otros" && evento.sub !== estado.sub) return false;
+    if (estado.presupuesto && s !== "gratis" && evento.presupuesto !== estado.presupuesto) return false;
+    if (estado.programa && !evento.promos.includes(estado.programa)) return false;
+    if (estado.sala && evento.lugar !== estado.sala) return false;
+    if (estado.ciclo && evento.ciclo !== estado.ciclo) return false;
+    if (estado.texto && !evento.textoPlano.includes(plano(estado.texto))) return false;
+    if (s === "plan") return evento.dias.some((d) => d.startsWith(estado.planMes));
+    if (!ignorarFecha) {
+      const dias = diasDelPeriodo();
+      if (dias && !evento.dias.some((d) => dias.includes(d))) return false;
+    }
+    return true;
+  }
+
+  // --- Filtros activos: chips que se borran de a uno -------------------------------------------
+  const NOMBRE_PERIODO = { hoy: "Hoy", finde: "Este finde", semana: "Próximos 7 días", todo: "Todas las fechas" };
+  const NOMBRE_PRECIO = Object.fromEntries(
+    Array.from(document.querySelectorAll("#presupuestos button")).map((b) => [b.dataset.presupuesto, b.firstChild.textContent.trim()]),
+  );
+
+  function filtrosActivos() {
+    const activos = [];
+    if (estado.periodo !== "todo" && estado.seccion !== "plan") {
+      activos.push(["periodo", estado.periodo === "dia" ? textoFuncion([estado.dia, true]) : NOMBRE_PERIODO[estado.periodo]]);
+    }
+    if (estado.categoria) activos.push(["categoria", datos.categorias[estado.categoria]]);
+    if (estado.etiqueta) activos.push(["etiqueta", "Festivales"]);
+    if (estado.sub) {
+      activos.push(["sub", estado.sub === "otros" ? "Otros" : (datos.subcategorias[estado.categoria] || {})[estado.sub]]);
+    }
+    if (estado.presupuesto && estado.seccion !== "gratis") activos.push(["presupuesto", NOMBRE_PRECIO[estado.presupuesto]]);
+    if (estado.programa) activos.push(["programa", estado.programa]);
+    if (estado.sala) activos.push(["sala", datos.lugares[estado.sala]?.nombre || "Sala"]);
+    if (estado.ciclo) activos.push(["ciclo", datos.ciclos[estado.ciclo]]);
+    if (estado.texto.trim()) activos.push(["texto", `“${estado.texto.trim()}”`]);
+    return activos;
+  }
+
+  function dibujarActivos() {
+    const activos = filtrosActivos();
+    const chips = activos.map(([clave, texto]) => el("button", {
+      type: "button", class: "chip-activo", "data-borrar": clave, "aria-label": `Quitar filtro: ${texto}`,
+    }, el("span", {}, texto), el("span", { "aria-hidden": "true" }, "×")));
+    if (activos.length > 1) chips.push(el("button", { type: "button", class: "borrar-todo", "data-borrar": "todo" }, "Borrar todo"));
+    document.getElementById("activos").replaceChildren(...chips);
+    document.querySelector(".filtros-titulo .borrar-todo").hidden = activos.length === 0;
+    const cuenta = document.getElementById("cuenta-filtros");
+    cuenta.hidden = activos.length === 0;
+    cuenta.textContent = plural(activos.length, "activo");
+  }
+
+  function borrar(clave) {
+    if (clave === "todo") return { ...FILTROS_INICIALES };
+    if (clave === "periodo") return { periodo: "todo", dia: null };
+    if (clave === "categoria") return { categoria: "", sub: "" };
+    return { [clave]: FILTROS_INICIALES[clave] };
+  }
+
+  // --- Carriles: un carril por día, que se desliza de costado -----------------------------------
+  // Así la página se recorre día por día y no evento por evento. Las temporadas y muestras largas
+  // van una sola vez, en el carril "En cartel", para no repetirse todos los días.
+  const DIAS_POR_TANDA = 6;
+  let carrilesPendientes = [];
+  let observador = null;
+
+  function marcarBotonPlan(boton, id, inicio) {
+    const enPlan = plan.has(clavePlan(id, inicio));
+    boton.dataset.agregarFuncion = clavePlan(id, inicio);
+    boton.textContent = enPlan ? "✓ En mi plan" : "＋ Mi plan";
+    boton.classList.toggle("en-plan", enPlan);
+    boton.title = enPlan ? "Quitar de mi plan" : `Agregar la función del ${textoFuncion([inicio, false])} a mi plan`;
+  }
+
+  // Copia de la tarjeta de un evento, mostrando una función en particular.
+  function tarjetaPara(evento, [inicio, sinHora]) {
+    const copia = evento.tarjeta.cloneNode(true);
+    const hora = copia.querySelector(".proxima");
+    hora.textContent = textoFuncion([inicio, sinHora]);
+    hora.dateTime = inicio;
+    const otras = evento.funciones.length - 1;
+    const mas = copia.querySelector(".mas");
+    if (mas) mas.textContent = otras ? `+${plural(otras, "función").replace("funcións", "funciones")}` : "";
+    marcarBotonPlan(copia.querySelector(".agregar-plan"), evento.id, inicio);
+    return copia;
+  }
+
+  function carril(titulo, detalle, elementos, clase = "") {
+    const pista = el("ul", { class: "carril-pista" }, ...elementos);
+    return el("section", { class: `carril ${clase}`.trim() },
+      el("header", { class: "carril-cabezal" },
+        el("h2", {}, titulo, detalle ? el("small", {}, detalle) : null),
+        el("div", { class: "carril-flechas" },
+          el("button", { type: "button", class: "cal-flecha", "data-desplazar": "-1", "aria-label": "Anteriores" }, "‹"),
+          el("button", { type: "button", class: "cal-flecha", "data-desplazar": "1", "aria-label": "Siguientes" }, "›"))),
+      pista);
+  }
+
+  function nombreCarril(dia) {
+    if (dia === hoy) return `Hoy · ${tituloDia(dia).toLowerCase()}`;
+    if (dia === sumarDias(hoy, 1)) return `Mañana · ${tituloDia(dia).toLowerCase()}`;
+    return tituloDia(dia);
+  }
+
+  function dibujarCarriles() {
+    const contenedor = document.getElementById("carriles");
+    const visibles = eventos.filter((e) => coincide(e));
+    const dias = diasDelPeriodo();
+    const enRango = (dia) => dia >= hoy && (!dias || dias.includes(dia));
+
+    const enCartel = visibles.filter((e) => e.enCartel);
+    const porDia = new Map();
+    for (const evento of visibles) {
+      if (evento.enCartel) continue;
+      const vistos = new Set();
+      for (const funcion of evento.funciones) {
+        const dia = funcion[0].slice(0, 10);
+        if (!enRango(dia) || vistos.has(dia)) continue;
+        vistos.add(dia);
+        if (!porDia.has(dia)) porDia.set(dia, []);
+        porDia.get(dia).push([evento, funcion]);
+      }
+    }
+
+    const secciones = [];
+    if (enCartel.length) {
+      const items = enCartel.map((e) => [e, e.funciones.find(([i]) => enRango(i.slice(0, 10))) || e.funciones[0]])
+        .sort((a, b) => a[1][0].localeCompare(b[1][0]));
+      secciones.push(() => carril("En cartel", "temporadas y muestras con muchas fechas",
+        items.map(([e, f]) => tarjetaPara(e, f)), "carril-cartel"));
+    }
+    for (const dia of [...porDia.keys()].sort()) {
+      const items = porDia.get(dia).sort((a, b) => a[1][0].localeCompare(b[1][0]));
+      secciones.push(() => carril(nombreCarril(dia), plural(items.length, "evento"),
+        items.map(([e, f]) => tarjetaPara(e, f)), diaSemana(dia) % 6 === 0 ? "carril-finde" : ""));
+    }
+
+    // Se dibujan de a tandas a medida que se baja, para no armar cientos de tarjetas de una.
+    observador?.disconnect();
+    contenedor.replaceChildren();
+    carrilesPendientes = secciones;
+    const centinela = el("div", { class: "centinela", "aria-hidden": "true" });
+    const tanda = () => {
+      for (const armar of carrilesPendientes.splice(0, DIAS_POR_TANDA)) contenedor.insertBefore(armar(), centinela);
+      if (!carrilesPendientes.length) observador?.disconnect();
+    };
+    contenedor.appendChild(centinela);
+    tanda();
+    if (carrilesPendientes.length && "IntersectionObserver" in window) {
+      observador = new IntersectionObserver((entradas) => {
+        if (entradas.some((e) => e.isIntersecting)) tanda();
+      }, { rootMargin: "800px" });
+      observador.observe(centinela);
+    } else {
+      while (carrilesPendientes.length) tanda();
+    }
+
+    const cantidad = visibles.length;
+    document.getElementById("resumen").replaceChildren(el("strong", {}, String(cantidad)),
+      ` evento${cantidad === 1 ? "" : "s"} · ${estado.periodo === "dia" ? textoFuncion([estado.dia, true]) : NOMBRE_PERIODO[estado.periodo].toLowerCase()}`,
+      porDia.size > 1 ? ` · ${porDia.size} días` : "");
+    document.getElementById("vacio").hidden = cantidad > 0;
+  }
+
+  // --- Calendario chico del costado (elige un día en la agenda) ---------------------------------
+  function dibujarCalendario() {
+    const [anio, mes] = estado.mes.split("-").map(Number);
+    document.getElementById("cal-mes").textContent = nombreMes(estado.mes);
+    const primero = `${estado.mes}-01`;
+    const diasEnMes = new Date(Date.UTC(anio, mes, 0)).getUTCDate();
+
+    const conteo = new Map();
+    for (const evento of eventos) {
+      if (!coincide(evento, { ignorarFecha: true })) continue;
+      for (const dia of new Set(evento.dias)) conteo.set(dia, (conteo.get(dia) || 0) + 1);
+    }
+    const maximo = Math.max(1, ...rango(primero, diasEnMes).map((d) => conteo.get(d) || 0));
+    const periodo = diasDelPeriodo();
+
+    const celdas = [];
+    for (let i = 0; i < (diaSemana(primero) + 6) % 7; i++) celdas.push(el("span", { class: "cal-dia fuera" }));
+    for (const dia of rango(primero, diasEnMes)) {
+      const cantidad = conteo.get(dia) || 0;
+      const intensidad = 0.15 + 0.65 * cantidad / maximo;
+      const boton = el("button", {
+        type: "button", "data-dia": dia, "aria-label": `${textoFuncion([dia, true])}: ${plural(cantidad, "evento")}`,
+        class: ["cal-dia", dia === hoy && "hoy", dia < hoy && "pasado", !cantidad && "sin-eventos",
+          estado.periodo === "dia" && estado.dia === dia && "elegido",
+          periodo && estado.periodo !== "dia" && periodo.includes(dia) && "en-periodo",
+          intensidad > 0.55 && "intenso"].filter(Boolean).join(" "),
+      }, String(Number(dia.slice(8))), el("small", {}, cantidad ? String(cantidad) : ""));
+      boton.style.setProperty("--intensidad", intensidad.toFixed(2));
+      boton.disabled = dia < hoy;
+      celdas.push(boton);
+    }
+    document.getElementById("cal-grilla").replaceChildren(...celdas);
+  }
+
+  // --- Mapa -------------------------------------------------------------------------------------
+  let mapa = null;
+  let capaMarcadores = null;
+
+  function cargarLeaflet() {
+    if (window.L) return Promise.resolve();
+    document.head.appendChild(el("link", { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" }));
+    return new Promise((resolver, rechazar) => {
+      const script = el("script", { src: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" });
+      script.onload = resolver;
+      script.onerror = rechazar;
+      document.head.appendChild(script);
+    });
+  }
+
+  async function dibujarMapa() {
+    await cargarLeaflet();
+    if (!mapa) {
+      mapa = L.map(document.getElementById("mapa"), { scrollWheelZoom: false }).setView([-34.895, -56.17], 12);
+      // Tiles de OpenStreetMap: gratis y sin API key (con atribución). El color se ajusta por CSS.
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      }).addTo(mapa);
+      capaMarcadores = L.layerGroup().addTo(mapa);
+    }
+    mapa.invalidateSize();
+    capaMarcadores.clearLayers();
+
+    const porLugar = new Map();
+    for (const evento of eventos) {
+      if (coincide(evento)) porLugar.set(evento.lugar, (porLugar.get(evento.lugar) || 0) + 1);
+    }
+    const puntos = [];
+    for (const [lugarId, cantidad] of porLugar) {
+      const lugar = datos.lugares[lugarId];
+      if (!lugar || lugar.lat == null) continue;
+      const boton = el("button", { type: "button", class: "ver-sala" }, "Ver sus eventos");
+      boton.addEventListener("click", () => cambiar({ sala: lugarId, seccion: "agenda" }));
+      L.circleMarker([lugar.lat, lugar.lon], {
+        radius: 7 + Math.min(14, Math.sqrt(cantidad) * 3),
+        color: "#18264A", weight: 2, fillColor: "#F06C4F", fillOpacity: 0.85,
+      }).bindPopup(el("div", {}, el("strong", {}, lugar.nombre), el("br"), plural(cantidad, "evento"), el("br"), boton))
+        .addTo(capaMarcadores);
+      puntos.push([lugar.lat, lugar.lon]);
+    }
+    if (puntos.length) mapa.fitBounds(puntos, { padding: [30, 30], maxZoom: 15 });
+  }
+
+  // --- Planeá tu mes: un calendario que se va llenando con lo que elegís -----------------------
+  function opcionesDelMes() {
+    // { dia: Map(id -> [funciones]) } con lo que cumple los filtros en el mes del plan.
+    const porDia = new Map();
+    for (const evento of eventos) {
+      if (!coincide(evento)) continue;
+      for (const funcion of evento.funciones) {
+        const dia = funcion[0].slice(0, 10);
+        if (!dia.startsWith(estado.planMes) || dia < hoy) continue;
+        if (!porDia.has(dia)) porDia.set(dia, new Map());
+        const delDia = porDia.get(dia);
+        if (!delDia.has(evento.id)) delDia.set(evento.id, []);
+        delDia.get(evento.id).push(funcion);
+      }
+    }
+    return porDia;
+  }
+
+  function dibujarCalendarioPlan(opciones) {
+    const [anio, mes] = estado.planMes.split("-").map(Number);
+    document.getElementById("pc-titulo").textContent = mayuscula(nombreMes(estado.planMes));
+    document.querySelector("[data-plan-mes='-1']").disabled = estado.planMes <= hoy.slice(0, 7);
+    const primero = `${estado.planMes}-01`;
+    const elegidasPorDia = new Map();
+    for (const p of elegidasOrdenadas()) {
+      const dia = p.inicio.slice(0, 10);
+      if (!elegidasPorDia.has(dia)) elegidasPorDia.set(dia, []);
+      elegidasPorDia.get(dia).push(p);
+    }
+
+    const celdas = [];
+    for (let i = 0; i < (diaSemana(primero) + 6) % 7; i++) celdas.push(el("div", { class: "pc-dia fuera" }));
+    for (const dia of rango(primero, new Date(Date.UTC(anio, mes, 0)).getUTCDate())) {
+      const elegidas = elegidasPorDia.get(dia) || [];
+      const cantidad = opciones.get(dia)?.size || 0;
+      const pasado = dia < hoy;
+      celdas.push(el("div", {
+        class: ["pc-dia", pasado && "pasado", dia === hoy && "hoy", elegidas.length && "con-plan",
+          diaSemana(dia) % 6 === 0 && "finde"].filter(Boolean).join(" "),
+      },
+      el("span", { class: "pc-numero" }, String(Number(dia.slice(8)))),
+      ...elegidas.map((p) => {
+        const evento = porId.get(p.id);
+        return el("span", { class: `pc-elegida cat-${evento.categoria}` },
+          el("b", {}, p.sinHora ? "" : p.inicio.slice(11, 16)), ` ${evento.titulo}`,
+          el("button", { type: "button", class: "pc-quitar", "data-quitar": clavePlan(p.id, p.inicio), "aria-label": `Quitar ${evento.titulo}` }, "×"));
+      }),
+      !pasado && cantidad
+        ? el("button", { type: "button", class: "pc-opciones", "data-ver-dia": dia, "aria-label": `Ver ${cantidad} opciones del ${tituloDia(dia)}` },
+          `${elegidas.length ? "+ " : ""}${cantidad}`, el("span", { class: "pc-palabra" }, " opciones"))
+        : null));
+    }
+    document.getElementById("pc-grilla").replaceChildren(...celdas);
+  }
+
+  function dibujarMiPlan() {
+    const elegidas = elegidasOrdenadas();
+    document.getElementById("cuenta-plan").textContent = elegidas.length;
+    document.getElementById("mi-plan-vacio").hidden = elegidas.length > 0;
+    document.getElementById("mi-plan-acciones").hidden = elegidas.length === 0;
+    document.getElementById("mi-plan-detalle").hidden = elegidas.length === 0;
+    document.querySelector("[data-vaciar-plan]").hidden = elegidas.length === 0;
+    document.getElementById("compartir-whatsapp").href = `https://wa.me/?text=${encodeURIComponent(textoPlan())}`;
+    document.getElementById("mi-plan-lista").replaceChildren(...elegidas.map((p) => {
+      const evento = porId.get(p.id);
+      return el("li", {},
+        el("time", { datetime: p.inicio }, textoFuncion([p.inicio, p.sinHora])),
+        el("span", { class: "mi-plan-evento" },
+          el("a", { href: evento.url, target: "_blank", rel: "noopener" }, evento.titulo),
+          el("small", {}, nombreLugar(evento))),
+        el("a", { class: "google", href: enlaceGoogle(evento, p), target: "_blank", rel: "noopener" }, "Google Calendar ↗"),
+        el("button", { type: "button", class: "quitar", "data-quitar": clavePlan(p.id, p.inicio), "aria-label": `Quitar ${evento.titulo}` }, "×"));
+    }));
+  }
+
+  function dibujarPlan() {
+    dibujarMiPlan();
+    const opciones = opcionesDelMes();
+    dibujarCalendarioPlan(opciones);
+    // Debajo del calendario, lo que hay para elegir: una fila por evento y día, un botón por horario.
+    const dias = [...opciones.keys()].sort();
+    const secciones = dias.map((dia) => {
+      const filas = [...opciones.get(dia)].map(([id, funciones]) => {
+        const evento = porId.get(id);
+        const elegido = funciones.some(([inicio]) => plan.has(clavePlan(id, inicio)));
+        return el("li", { class: `plan-fila cat-${evento.categoria}${elegido ? " elegida" : ""}` },
+          el("div", { class: "plan-horarios" }, ...funciones.map(([inicio, sinHora]) => {
+            const enPlan = plan.has(clavePlan(id, inicio));
+            return el("button", {
+              type: "button", class: `horario${enPlan ? " en-plan" : ""}`, "data-plan": clavePlan(id, inicio),
+              "aria-pressed": String(enPlan), title: enPlan ? "Quitar de mi plan" : "Agregar a mi plan",
+            }, `${enPlan ? "✓" : "＋"} ${sinHora ? "Todo el día" : inicio.slice(11, 16)}`);
+          })),
+          el("div", { class: "plan-info" },
+            el("a", { href: evento.url, target: "_blank", rel: "noopener" }, evento.titulo),
+            el("small", {}, [datos.categorias[evento.categoria], nombreLugar(evento), evento.precioTexto].filter(Boolean).join(" · "))));
+      });
+      return el("section", { class: "plan-dia", id: `dia-${dia}` },
+        el("header", { class: "plan-dia-cabezal" }, el("h3", {}, tituloDia(dia)),
+          el("button", { type: "button", class: "volver-calendario", "data-volver-calendario": "" }, "↑ Ver mi mes")),
+        el("ul", {}, ...filas));
+    });
+    document.getElementById("plan-dias").replaceChildren(
+      ...(secciones.length ? secciones : [el("p", { class: "vacio" }, "No hay eventos en este mes con estos filtros.")]));
+
+    const cantidadEventos = new Set(dias.flatMap((d) => [...opciones.get(d).keys()])).size;
+    document.getElementById("resumen").replaceChildren(el("strong", {}, String(cantidadEventos)),
+      ` eventos para elegir en ${nombreMes(estado.planMes)} · ${plural(plan.size, "función")} en tu plan`.replace("funcións", "funciones"));
+  }
+
+  // --- Exportar: archivo .ics y enlaces a Google Calendar ---------------------------------------
+  const DURACION_MS = 2 * 60 * 60 * 1000; // las fuentes no informan cuándo termina: 2 horas estimadas
+  const utcIcs = (fecha) => fecha.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, ""); // 20261114T233000Z
+  const diaIcs = (dia) => dia.replace(/-/g, ""); // 20261114
+
+  // Fin real si la fuente lo informa (el Sodre, por ejemplo); si no, una duración estimada.
+  const finInformado = (p) => porId.get(p.id)?.funciones.find(([i]) => i === p.inicio)?.[2] || null;
+
+  function horarios(p) {
+    if (p.sinHora) {
+      const dia = p.inicio.slice(0, 10);
+      return { todoElDia: true, inicio: diaIcs(dia), fin: diaIcs(sumarDias(dia, 1)) };
+    }
+    const inicio = new Date(p.inicio);
+    const fin = finInformado(p) ? new Date(finInformado(p)) : new Date(inicio.getTime() + DURACION_MS);
+    return { todoElDia: false, inicio: utcIcs(inicio), fin: utcIcs(fin) };
+  }
+
+  function lugarCompleto(evento) {
+    const lugar = datos.lugares[evento.lugar] || {};
+    return [lugar.nombre, lugar.direccion, "Montevideo"].filter(Boolean).join(", ");
+  }
+
+  const detalle = (evento, p) => `Entradas e información: ${evento.url}\n${p && finInformado(p) ? "" : "Duración estimada. "}Agregado desde La Gestoría Cultural.`;
+
+  function enlaceGoogle(evento, p) {
+    const h = horarios(p);
+    const parametros = new URLSearchParams({
+      action: "TEMPLATE", text: evento.titulo, dates: `${h.inicio}/${h.fin}`,
+      details: detalle(evento, p), location: lugarCompleto(evento), ctz: ZONA,
+    });
+    return `https://calendar.google.com/calendar/render?${parametros}`;
+  }
+
+  // Texto según RFC 5545: se escapan \ ; , y saltos de línea, y las líneas largas se pliegan a 75 bytes.
+  const escaparIcs = (texto) => texto.replace(/\\/g, "\\\\").replace(/;/g, "\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
+  function plegar(linea) {
+    const codificador = new TextEncoder();
+    const partes = [];
+    let actual = "";
+    let bytes = 0;
+    for (const caracter of linea) {
+      const tamano = codificador.encode(caracter).length;
+      if (bytes + tamano > 75) {
+        partes.push(actual);
+        actual = " ";
+        bytes = 1;
+      }
+      actual += caracter;
+      bytes += tamano;
+    }
+    partes.push(actual);
+    return partes.join("\r\n");
+  }
+
+  function generarIcs() {
+    const sello = utcIcs(new Date());
+    const lineas = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//La Gestoria Cultural//Planea tu mes//ES",
+      "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:Mi plan cultural"];
+    for (const p of elegidasOrdenadas()) {
+      const evento = porId.get(p.id);
+      const h = horarios(p);
+      lineas.push(
+        "BEGIN:VEVENT",
+        `UID:${p.id}-${h.inicio}@lagestoriacultural`,
+        `DTSTAMP:${sello}`,
+        h.todoElDia ? `DTSTART;VALUE=DATE:${h.inicio}` : `DTSTART:${h.inicio}`,
+        h.todoElDia ? `DTEND;VALUE=DATE:${h.fin}` : `DTEND:${h.fin}`,
+        `SUMMARY:${escaparIcs(evento.titulo)}`,
+        `LOCATION:${escaparIcs(lugarCompleto(evento))}`,
+        `DESCRIPTION:${escaparIcs(detalle(evento, p))}`,
+        `URL:${evento.url}`,
+        "END:VEVENT",
+      );
+    }
+    lineas.push("END:VCALENDAR");
+    return lineas.map(plegar).join("\r\n") + "\r\n";
+  }
+
+  function descargarIcs() {
+    const enlace = el("a", {
+      href: URL.createObjectURL(new Blob([generarIcs()], { type: "text/calendar;charset=utf-8" })),
+      download: "mi-plan-cultural.ics",
+    });
+    document.body.appendChild(enlace);
+    enlace.click();
+    enlace.remove();
+    setTimeout(() => URL.revokeObjectURL(enlace.href), 1000);
+  }
+  window.__generarIcs = generarIcs; // para pruebas
+
+  // --- Exportar sin calendario digital: texto para WhatsApp y versión para imprimir ------------
+  function textoPlan() {
+    const elegidas = elegidasOrdenadas();
+    const meses = [...new Set(elegidas.map((p) => p.inicio.slice(0, 7)))];
+    const lineas = [`🎭 *Mi plan cultural*${meses.length === 1 ? ` · ${nombreMes(meses[0])}` : ""}`];
+    for (const p of elegidas) {
+      const evento = porId.get(p.id);
+      lineas.push(
+        "",
+        `📅 *${mayuscula(textoFuncion([p.inicio, p.sinHora]))}*`,
+        evento.titulo,
+        `📍 ${[nombreLugar(evento), evento.precioTexto].filter(Boolean).join(" · ")}`,
+        `🎟️ ${evento.url}`,
+      );
+    }
+    lineas.push("", "Armado en La Gestoría Cultural");
+    return lineas.join("\n");
+  }
+
+  async function copiarTexto() {
+    const texto = textoPlan();
+    try {
+      await navigator.clipboard.writeText(texto);
+    } catch (_) {
+      // Navegadores sin permiso de portapapeles: se copia desde un campo de texto temporal.
+      const campo = el("textarea", { readonly: "", style: "position:fixed;opacity:0" });
+      campo.value = texto;
+      document.body.appendChild(campo);
+      campo.select();
+      document.execCommand("copy");
+      campo.remove();
+    }
+    const aviso = document.getElementById("aviso-copiado");
+    aviso.hidden = false;
+    setTimeout(() => { aviso.hidden = true; }, 2000);
+  }
+
+  function armarImprimible() {
+    const porMes = new Map();
+    for (const p of elegidasOrdenadas()) {
+      const mes = p.inicio.slice(0, 7);
+      if (!porMes.has(mes)) porMes.set(mes, []);
+      porMes.get(mes).push(p);
+    }
+    const hojas = [...porMes].map(([mes, elegidas]) => {
+      const [anio, numeroMes] = mes.split("-").map(Number);
+      const primero = `${mes}-01`;
+      const porDia = new Map();
+      for (const p of elegidas) {
+        const dia = p.inicio.slice(0, 10);
+        if (!porDia.has(dia)) porDia.set(dia, []);
+        porDia.get(dia).push(p);
+      }
+      const celdas = [];
+      for (let i = 0; i < (diaSemana(primero) + 6) % 7; i++) celdas.push(el("div", { class: "imp-dia imp-fuera" }));
+      for (const dia of rango(primero, new Date(Date.UTC(anio, numeroMes, 0)).getUTCDate())) {
+        celdas.push(el("div", { class: `imp-dia${porDia.has(dia) ? " imp-con-plan" : ""}` },
+          el("span", { class: "imp-numero" }, String(Number(dia.slice(8)))),
+          ...(porDia.get(dia) || []).map((p) => {
+            const evento = porId.get(p.id);
+            return el("p", { class: "imp-evento" },
+              el("strong", {}, p.sinHora ? "" : `${p.inicio.slice(11, 16)} `), evento.titulo,
+              el("small", {}, nombreLugar(evento)));
+          })));
+      }
+      const detalleMes = elegidas.map((p) => {
+        const evento = porId.get(p.id);
+        const lugar = datos.lugares[evento.lugar] || {};
+        return el("li", {},
+          el("span", { class: "imp-cuando" }, mayuscula(textoFuncion([p.inicio, p.sinHora]))),
+          el("span", {}, el("strong", {}, evento.titulo), ` · ${[lugar.nombre, lugar.direccion].filter(Boolean).join(", ")}`,
+            evento.precioTexto ? ` · ${evento.precioTexto}` : ""));
+      });
+      return el("section", { class: "imp-hoja" },
+        el("header", { class: "imp-cabezal" },
+          el("h1", {}, `Mi plan cultural · ${mayuscula(nombreMes(mes))}`),
+          el("span", {}, "La Gestoría Cultural")),
+        el("div", { class: "imp-semana" }, ...["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"].map((d) => el("span", {}, d))),
+        el("div", { class: "imp-grilla" }, ...celdas),
+        el("ol", { class: "imp-detalle" }, ...detalleMes));
+    });
+    document.getElementById("imprimible").replaceChildren(...hojas);
+  }
+
+  function imprimir() {
+    armarImprimible();
+    document.body.classList.add("imprimiendo");
+    window.addEventListener("afterprint", () => document.body.classList.remove("imprimiendo"), { once: true });
+    window.print();
+  }
+  window.__armarImprimible = armarImprimible; // para pruebas
+
+  // --- Texto de presentación de cada sección ----------------------------------------------------
+  const INTROS = {
+    gratis: ["Gratis", "Todo lo que no cuesta un peso. Algunas actividades piden inscripción previa: revisá la fuente."],
+    promos: ["Promos", "Eventos con 2x1 o descuentos para socios de clubes, bancos y programas de beneficios, según lo que marca cada ticketera."],
+    ciclos: ["Ciclos", "Series de una misma sala o propuesta: ciclos de música, temporadas y propuestas con varias fechas."],
+    mapa: ["Mapa", "Dónde pasa lo que estás buscando. Tocá una sala para ver sus eventos."],
+    plan: ["Planeá tu mes", "Tu mes arranca vacío. Tocá las opciones de un día, sumá lo que te guste y después llevalo a tu calendario, al papel o a WhatsApp."],
+  };
+
+  function dibujarIntro() {
+    const intro = document.getElementById("intro");
+    const texto = INTROS[estado.seccion];
+    intro.hidden = !texto;
+    if (!texto) return;
+    let titulo = texto[0];
+    if (estado.seccion === "ciclos" && estado.ciclo) {
+      const nombre = datos.ciclos[estado.ciclo];
+      titulo = /^ciclo/i.test(nombre) ? nombre : `Ciclo: ${nombre}`;
+    }
+    intro.replaceChildren(el("h2", {}, titulo), el("p", {}, texto[1]));
+  }
+
+  // --- Controles --------------------------------------------------------------------------------
+  function marcarActivo(grupo, atributo, valor) {
+    for (const boton of document.querySelectorAll(`#${grupo} button`)) {
+      boton.classList.toggle("activo", (boton.dataset[atributo] ?? null) === valor);
+    }
+  }
+
+  function dibujarSubrubros() {
+    const contenedor = document.getElementById("subrubros");
+    const opciones = datos.subcategorias[estado.categoria];
+    contenedor.hidden = !opciones;
+    if (!opciones) return;
+    const nombre = datos.categorias[estado.categoria];
+    const botones = [["", `Todo ${nombre.toLowerCase()}`], ...Object.entries(opciones), ["otros", "Otros"]];
+    contenedor.replaceChildren(...botones.map(([clave, texto]) => el("button", {
+      type: "button", "data-sub": clave, class: estado.sub === clave ? "activo" : "",
+    }, texto)));
+  }
+
+  function dibujarControles() {
+    for (const boton of document.querySelectorAll(".secciones button[data-seccion]")) {
+      boton.classList.toggle("activa", boton.dataset.seccion === estado.seccion);
+    }
+    for (const boton of document.querySelectorAll(".atajos button")) {
+      boton.classList.toggle("activo", boton.dataset.periodo === estado.periodo);
+    }
+    for (const boton of document.querySelectorAll("#rubros button")) {
+      const activo = estado.etiqueta ? boton.dataset.etiqueta === estado.etiqueta
+        : boton.dataset.categoria === estado.categoria && !boton.dataset.etiqueta;
+      boton.classList.toggle("activo", activo);
+    }
+    marcarActivo("presupuestos", "presupuesto", estado.seccion === "gratis" ? "gratis" : estado.presupuesto);
+    marcarActivo("programas", "programa", estado.programa);
+    document.getElementById("campo-promos").hidden = estado.seccion !== "promos";
+    document.getElementById("sala").value = estado.sala;
+    document.getElementById("buscar").value = estado.texto;
+    dibujarSubrubros();
+  }
+
+  function dibujarContenido() {
+    const s = estado.seccion;
+    if (s === "plan") dibujarPlan();
+    else {
+      dibujarMiPlan();
+      if (s === "mapa") {
+        dibujarMapa().catch(() => { document.getElementById("mapa").textContent = "No se pudo cargar el mapa."; });
+      } else {
+        dibujarCarriles();
+      }
+    }
+  }
+
+  function dibujar() {
+    const enMapa = estado.seccion === "mapa";
+    const enPlan = estado.seccion === "plan";
+    dibujarControles();
+    dibujarIntro();
+    dibujarActivos();
+    // En el plan, el mes se elige en el calendario grande; el chico del costado sobra.
+    document.getElementById("campo-fecha").hidden = enPlan;
+    if (!enPlan) dibujarCalendario();
+    document.getElementById("mapa").hidden = !enMapa;
+    document.getElementById("plan").hidden = !enPlan;
+    document.getElementById("carriles").hidden = enMapa || enPlan;
+    document.getElementById("vacio").hidden = true;
+    dibujarContenido();
+  }
+
+  function cambiar(cambios) {
+    estado = { ...estado, ...cambios };
+    dibujar();
+  }
+
+  // Delegación de clics: cada botón dice qué cambia con sus data-atributos.
+  document.addEventListener("click", (evento) => {
+    const boton = evento.target.closest("button");
+    if (!boton || boton.disabled) return;
+    const d = boton.dataset;
+    if (d.borrar) cambiar(borrar(d.borrar));
+    else if (d.desplazar) {
+      const pista = boton.closest(".carril").querySelector(".carril-pista");
+      pista.scrollBy({ left: Number(d.desplazar) * pista.clientWidth * 0.9, behavior: "smooth" });
+    } else if (d.agregarFuncion) {
+      const [id, inicio] = d.agregarFuncion.split("|");
+      alternarPlan(id, inicio);
+      for (const otro of document.querySelectorAll(`[data-agregar-funcion="${CSS.escape(d.agregarFuncion)}"]`)) marcarBotonPlan(otro, id, inicio);
+      dibujarMiPlan();
+    } else if (d.plan) {
+      const [id, inicio] = d.plan.split("|");
+      alternarPlan(id, inicio);
+      dibujarPlan();
+    } else if (d.quitar) {
+      plan.delete(d.quitar);
+      guardarPlan();
+      dibujarContenido();
+    } else if ("vaciarPlan" in d) {
+      if (window.confirm("¿Vaciar todo tu plan?")) {
+        plan.clear();
+        guardarPlan();
+        dibujarContenido();
+      }
+    } else if (d.verDia) {
+      document.getElementById(`dia-${d.verDia}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    } else if ("volverCalendario" in d) {
+      document.querySelector(".plan-cal").scrollIntoView({ behavior: "smooth", block: "start" });
+    } else if (d.planMes) cambiar({ planMes: sumarMeses(estado.planMes, Number(d.planMes)) });
+    else if (d.exportar === "ics") descargarIcs();
+    else if (d.exportar === "imprimir") imprimir();
+    else if (d.exportar === "copiar") copiarTexto();
+    else if (d.seccion) {
+      const cambios = { seccion: d.seccion };
+      if (d.seccion !== "ciclos") cambios.ciclo = "";
+      if (d.seccion !== "promos") cambios.programa = "";
+      cambiar(cambios);
+    } else if (d.periodo) cambiar({ periodo: d.periodo, dia: null });
+    else if (d.dia) {
+      const mismo = estado.periodo === "dia" && estado.dia === d.dia;
+      cambiar(mismo ? { periodo: "todo", dia: null } : { periodo: "dia", dia: d.dia });
+    } else if (d.mes) cambiar({ mes: sumarMeses(estado.mes, Number(d.mes)) });
+    else if ("categoria" in d) cambiar({ categoria: d.categoria, etiqueta: "", sub: "" });
+    else if (d.etiqueta) cambiar({ etiqueta: estado.etiqueta === d.etiqueta ? "" : d.etiqueta, categoria: "", sub: "" });
+    else if ("sub" in d) cambiar({ sub: d.sub });
+    else if ("presupuesto" in d) {
+      const salirDeGratis = estado.seccion === "gratis" && d.presupuesto !== "gratis";
+      cambiar({ presupuesto: d.presupuesto, seccion: salirDeGratis ? "agenda" : estado.seccion });
+    } else if ("programa" in d) cambiar({ programa: d.programa });
+    else if (d.sala) cambiar({ sala: d.sala, seccion: estado.seccion === "mapa" ? "agenda" : estado.seccion });
+    else if (d.ciclo) cambiar({ ciclo: d.ciclo, seccion: "ciclos", periodo: "todo", dia: null });
+  });
+  document.getElementById("sala").addEventListener("change", (e) => cambiar({ sala: e.target.value }));
+
+  // La búsqueda redibuja al dejar de tipear, para no rearmar los carriles con cada letra.
+  let esperaBusqueda = null;
+  document.getElementById("buscar").addEventListener("input", (e) => {
+    estado.texto = e.target.value;
+    clearTimeout(esperaBusqueda);
+    esperaBusqueda = setTimeout(() => {
+      dibujarActivos();
+      if (estado.seccion !== "plan") dibujarCalendario();
+      dibujarContenido();
+    }, 200);
+  });
+
+  // En el celular, calendario y filtros arrancan plegados; en pantallas grandes, siempre abiertos.
+  // La lista del plan (con los enlaces a Google) es al revés: abierta en el celular, donde no hay calendario grande.
+  const angosta = window.matchMedia("(max-width: 860px)");
+  const ajustarPlegables = () => {
+    for (const plegable of document.querySelectorAll(".plegable")) plegable.open = !angosta.matches;
+    document.getElementById("mi-plan-detalle").open = angosta.matches;
+  };
+  angosta.addEventListener("change", ajustarPlegables);
+  ajustarPlegables();
+
+  dibujar();
+})();

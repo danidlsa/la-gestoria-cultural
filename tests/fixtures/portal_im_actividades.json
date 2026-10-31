@@ -1,0 +1,1000 @@
+{
+ "data": [
+  {
+   "type": "node--actividad",
+   "id": "07f3287f-7592-4252-b9da-9ec75d076c9e",
+   "attributes": {
+    "drupal_internal__nid": 137,
+    "title": "Taller de Murga",
+    "path": {
+     "alias": "/evento/envejecimiento-activo/taller-de-murga",
+     "pid": 134,
+     "langcode": "es"
+    },
+    "field_contenido": {
+     "value": "<p>Promover el envejecimiento saludable y activo desde una perspectiva integral, desarrollando la formación y el interés por la música (murga, canto colectivo, movimiento libre, tango, candombe y percusión). Promoviendo el sentido integrador en todas las actividades, generando espacios de socialización e integración, tanto con los integrantes del grupo como con la comunidad.</p><p>La actividad se "
+    },
+    "field_costo": "0",
+    "field_detalle_costo": null,
+    "field_resumen": {
+     "value": "<p>Lunes, martes y viernes</p>"
+    }
+   },
+   "relationships": {
+    "field_area_tematica": {
+     "data": null
+    },
+    "field_busquedas_frecuentes": {
+     "data": [
+      {
+       "type": "taxonomy_term--busquedas_frecuentes",
+       "id": "709ab567-9c52-4c79-9383-08135ec3455e",
+       "meta": {
+        "drupal_internal__target_id": 39
+       }
+      }
+     ]
+    },
+    "field_categoria": {
+     "data": [
+      {
+       "type": "taxonomy_term--categoria",
+       "id": "f68eb368-24e9-474f-8277-80a35991e967",
+       "meta": {
+        "drupal_internal__target_id": 27
+       }
+      }
+     ]
+    },
+    "field_categoria_listado": {
+     "data": {
+      "type": "taxonomy_term--categoria",
+      "id": "f68eb368-24e9-474f-8277-80a35991e967",
+      "meta": {
+       "drupal_internal__target_id": 27
+      }
+     }
+    },
+    "field_evento_pertenece": {
+     "data": {
+      "type": "node--evento",
+      "id": "d08761aa-ed99-4abc-ac84-9d2ccadc4f17",
+      "meta": {
+       "drupal_internal__target_id": 152
+      }
+     }
+    },
+    "field_fechas_horarios": {
+     "data": [
+      {
+       "type": "paragraph--funciones",
+       "id": "2c68a89c-a28f-431e-a5b8-e915192941af",
+       "meta": {
+        "target_revision_id": 22836,
+        "drupal_internal__target_id": 1380
+       }
+      },
+      {
+       "type": "paragraph--funciones",
+       "id": "d4aa0dce-6498-4926-8a2b-d24101ae1666",
+       "meta": {
+        "target_revision_id": 22837,
+        "drupal_internal__target_id": 205
+       }
+      },
+      {
+       "type": "paragraph--funciones",
+       "id": "491cbab9-14b8-4b45-b65a-21860c5a6519",
+       "meta": {
+        "target_revision_id": 22838,
+        "drupal_internal__target_id": 206
+       }
+      }
+     ]
+    },
+    "field_imagen": {
+     "data": {
+      "type": "media--image",
+      "id": "7698c72a-14d3-4062-9bf4-34f0e6d7c244",
+      "meta": {
+       "drupal_internal__target_id": 150
+      }
+     }
+    },
+    "field_imagen_miniatura_listados": {
+     "data": {
+      "type": "media--image",
+      "id": "7698c72a-14d3-4062-9bf4-34f0e6d7c244",
+      "meta": {
+       "drupal_internal__target_id": 150
+      }
+     }
+    },
+    "field_perfil_de_evento": {
+     "data": [
+      {
+       "type": "taxonomy_term--perfil_vento",
+       "id": "2d1bd370-3c56-45a2-a481-9ab3bddc02c9",
+       "meta": {
+        "drupal_internal__target_id": 2
+       }
+      }
+     ]
+    },
+    "field_tags": {
+     "data": []
+    },
+    "field_video": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "node--actividad",
+   "id": "4e9a3a60-4d34-4017-a716-ac55a4fe595d",
+   "attributes": {
+    "drupal_internal__nid": 1008,
+    "title": "Murga Joven: domingo 15 de noviembre",
+    "path": {
+     "alias": "/evento/encuentro-de-murga-joven-2026/murga-joven-domingo-15-de-noviembre",
+     "pid": 814,
+     "langcode": "es"
+    },
+    "field_contenido": {
+     "value": "<p>Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre.</p><p><strong>Domingo 15 de noviembre</strong></p><p>20:00 h – Quienes son?<br>20:50 h – La Gata Mara<br>21:40 h – SinTonNiSon<br>22:30 h – Encara la borrega</p>"
+    },
+    "field_costo": "0",
+    "field_detalle_costo": null,
+    "field_resumen": {
+     "value": "<p><strong>Primera instancia de muestra</strong></p>"
+    }
+   },
+   "relationships": {
+    "field_area_tematica": {
+     "data": null
+    },
+    "field_busquedas_frecuentes": {
+     "data": [
+      {
+       "type": "taxonomy_term--busquedas_frecuentes",
+       "id": "709ab567-9c52-4c79-9383-08135ec3455e",
+       "meta": {
+        "drupal_internal__target_id": 39
+       }
+      }
+     ]
+    },
+    "field_categoria": {
+     "data": [
+      {
+       "type": "taxonomy_term--categoria",
+       "id": "f68eb368-24e9-474f-8277-80a35991e967",
+       "meta": {
+        "drupal_internal__target_id": 27
+       }
+      }
+     ]
+    },
+    "field_categoria_listado": {
+     "data": {
+      "type": "taxonomy_term--categoria",
+      "id": "f68eb368-24e9-474f-8277-80a35991e967",
+      "meta": {
+       "drupal_internal__target_id": 27
+      }
+     }
+    },
+    "field_evento_pertenece": {
+     "data": {
+      "type": "node--evento",
+      "id": "3c1416d8-37b3-4431-9840-a679f3609fde",
+      "meta": {
+       "drupal_internal__target_id": 997
+      }
+     }
+    },
+    "field_fechas_horarios": {
+     "data": [
+      {
+       "type": "paragraph--funciones",
+       "id": "7c52f91a-2655-46b8-92d0-c85094f0251a",
+       "meta": {
+        "target_revision_id": 22803,
+        "drupal_internal__target_id": 1482
+       }
+      }
+     ]
+    },
+    "field_imagen": {
+     "data": {
+      "type": "media--image",
+      "id": "e9148276-31b8-409e-b09b-342cd221414a",
+      "meta": {
+       "drupal_internal__target_id": 975
+      }
+     }
+    },
+    "field_imagen_miniatura_listados": {
+     "data": {
+      "type": "media--image",
+      "id": "e9148276-31b8-409e-b09b-342cd221414a",
+      "meta": {
+       "drupal_internal__target_id": 975
+      }
+     }
+    },
+    "field_perfil_de_evento": {
+     "data": [
+      {
+       "type": "taxonomy_term--perfil_vento",
+       "id": "51a35b2d-e7c0-49a5-b199-c7e7a4b606ca",
+       "meta": {
+        "drupal_internal__target_id": 3
+       }
+      }
+     ]
+    },
+    "field_tags": {
+     "data": []
+    },
+    "field_video": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "node--actividad",
+   "id": "cfae9c59-1c6b-486c-bf31-3bc7f57993e1",
+   "attributes": {
+    "drupal_internal__nid": 1009,
+    "title": "Murga Joven: lunes 16 de noviembre",
+    "path": {
+     "alias": "/evento/encuentro-de-murga-joven-2026/murga-joven-lunes-16-de-noviembre",
+     "pid": 815,
+     "langcode": "es"
+    },
+    "field_contenido": {
+     "value": "<p>Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre.</p><p><strong>Lunes 16 de noviembre</strong></p><p>20:00 h – La coqueta 2042<br>20:50 h – Aguante el fasismo<br>21:40 h – La Próxima Sale<br>22:30 h – Sing a Roos (Cantate un Jaime)</p>"
+    },
+    "field_costo": "0",
+    "field_detalle_costo": null,
+    "field_resumen": {
+     "value": "<p><strong>Primera instancia de muestra</strong></p>"
+    }
+   },
+   "relationships": {
+    "field_area_tematica": {
+     "data": null
+    },
+    "field_busquedas_frecuentes": {
+     "data": [
+      {
+       "type": "taxonomy_term--busquedas_frecuentes",
+       "id": "709ab567-9c52-4c79-9383-08135ec3455e",
+       "meta": {
+        "drupal_internal__target_id": 39
+       }
+      }
+     ]
+    },
+    "field_categoria": {
+     "data": [
+      {
+       "type": "taxonomy_term--categoria",
+       "id": "f68eb368-24e9-474f-8277-80a35991e967",
+       "meta": {
+        "drupal_internal__target_id": 27
+       }
+      }
+     ]
+    },
+    "field_categoria_listado": {
+     "data": {
+      "type": "taxonomy_term--categoria",
+      "id": "f68eb368-24e9-474f-8277-80a35991e967",
+      "meta": {
+       "drupal_internal__target_id": 27
+      }
+     }
+    },
+    "field_evento_pertenece": {
+     "data": {
+      "type": "node--evento",
+      "id": "3c1416d8-37b3-4431-9840-a679f3609fde",
+      "meta": {
+       "drupal_internal__target_id": 997
+      }
+     }
+    },
+    "field_fechas_horarios": {
+     "data": [
+      {
+       "type": "paragraph--funciones",
+       "id": "4ad97ec5-6212-47a4-b794-9b0f00832d9e",
+       "meta": {
+        "target_revision_id": 22712,
+        "drupal_internal__target_id": 1483
+       }
+      }
+     ]
+    },
+    "field_imagen": {
+     "data": {
+      "type": "media--image",
+      "id": "bb006305-cfd7-4ff2-8212-8c63ba5cde8a",
+      "meta": {
+       "drupal_internal__target_id": 976
+      }
+     }
+    },
+    "field_imagen_miniatura_listados": {
+     "data": {
+      "type": "media--image",
+      "id": "bb006305-cfd7-4ff2-8212-8c63ba5cde8a",
+      "meta": {
+       "drupal_internal__target_id": 976
+      }
+     }
+    },
+    "field_perfil_de_evento": {
+     "data": [
+      {
+       "type": "taxonomy_term--perfil_vento",
+       "id": "51a35b2d-e7c0-49a5-b199-c7e7a4b606ca",
+       "meta": {
+        "drupal_internal__target_id": 3
+       }
+      }
+     ]
+    },
+    "field_tags": {
+     "data": []
+    },
+    "field_video": {
+     "data": null
+    }
+   }
+  },
+  {
+   "type": "node--actividad",
+   "id": "98e9c1c0-0dbd-44ef-8f52-3d9b6c71051e",
+   "attributes": {
+    "drupal_internal__nid": 981,
+    "title": "No te apures Luisa",
+    "path": {
+     "alias": "/evento/estreno-de-obras-fortalecimiento-de-las-artes/no-te-apures-luisa",
+     "pid": 790,
+     "langcode": "es"
+    },
+    "field_contenido": {
+     "value": "<p>Un monólogo sobre el cuerpo, el deseo y la necesidad de ser aceptada. Una mirada íntima y visceral sobre lo que sucede cuando la propia imagen queda atrapada bajo la mirada de los demás.</p><p>Equipo artístico y técnico:</p><ul><li data-list-item-id=\"e74858943288c57c802c1d917c7484ee8\">En escena: Maite Bigi.</li><li data-list-item-id=\"e5c9b9b8b81c1d704c821f627d4ec3ba3\">Dirección: Martín García.<"
+    },
+    "field_costo": "1",
+    "field_detalle_costo": "$660",
+    "field_resumen": {
+     "value": "<p><meta charset=\"utf-8\"></p><p style=\"line-height:1.38;margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:11pt;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\">Todos los jueves y viernes, del 22 de octubre al 4 de diciembre.</span></p>"
+    }
+   },
+   "relationships": {
+    "field_area_tematica": {
+     "data": null
+    },
+    "field_busquedas_frecuentes": {
+     "data": [
+      {
+       "type": "taxonomy_term--busquedas_frecuentes",
+       "id": "510893fc-580a-49e4-b9da-a783d45c576c",
+       "meta": {
+        "drupal_internal__target_id": 41
+       }
+      }
+     ]
+    },
+    "field_categoria": {
+     "data": [
+      {
+       "type": "taxonomy_term--categoria",
+       "id": "f68eb368-24e9-474f-8277-80a35991e967",
+       "meta": {
+        "drupal_internal__target_id": 27
+       }
+      }
+     ]
+    },
+    "field_categoria_listado": {
+     "data": {
+      "type": "taxonomy_term--categoria",
+      "id": "f68eb368-24e9-474f-8277-80a35991e967",
+      "meta": {
+       "drupal_internal__target_id": 27
+      }
+     }
+    },
+    "field_evento_pertenece": {
+     "data": {
+      "type": "node--evento",
+      "id": "994628c6-5265-4b08-a2db-47eff9511123",
+      "meta": {
+       "drupal_internal__target_id": 914
+      }
+     }
+    },
+    "field_fechas_horarios": {
+     "data": [
+      {
+       "type": "paragraph--funciones",
+       "id": "ca7e7adc-e72b-468b-8a2c-b35380f7b162",
+       "meta": {
+        "target_revision_id": 22370,
+        "drupal_internal__target_id": 1452
+       }
+      }
+     ]
+    },
+    "field_imagen": {
+     "data": {
+      "type": "media--image",
+      "id": "82999d2b-6f91-468c-ac4d-24ed2dab78c8",
+      "meta": {
+       "drupal_internal__target_id": 944
+      }
+     }
+    },
+    "field_imagen_miniatura_listados": {
+     "data": {
+      "type": "media--image",
+      "id": "82999d2b-6f91-468c-ac4d-24ed2dab78c8",
+      "meta": {
+       "drupal_internal__target_id": 944
+      }
+     }
+    },
+    "field_perfil_de_evento": {
+     "data": [
+      {
+       "type": "taxonomy_term--perfil_vento",
+       "id": "51a35b2d-e7c0-49a5-b199-c7e7a4b606ca",
+       "meta": {
+        "drupal_internal__target_id": 3
+       }
+      }
+     ]
+    },
+    "field_tags": {
+     "data": []
+    },
+    "field_video": {
+     "data": null
+    }
+   }
+  }
+ ],
+ "included": [
+  {
+   "type": "taxonomy_term--categoria",
+   "id": "f68eb368-24e9-474f-8277-80a35991e967",
+   "attributes": {
+    "name": "Artes escénicas",
+    "path": {
+     "alias": "/categoria/artes-escenicas",
+     "pid": 85,
+     "langcode": "es"
+    }
+   },
+   "relationships": {
+    "field_icono": {
+     "data": {
+      "type": "file--file",
+      "id": "e44ee152-e91c-47aa-a76c-bbe2e97593ae",
+      "meta": {
+       "alt": "\"\"",
+       "title": "",
+       "width": 50,
+       "height": 50,
+       "drupal_internal__target_id": 263
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "node--evento",
+   "id": "d08761aa-ed99-4abc-ac84-9d2ccadc4f17",
+   "attributes": {
+    "drupal_internal__nid": 152,
+    "title": "Envejecimiento activo",
+    "path": {
+     "alias": "/evento/envejecimiento-activo",
+     "pid": 144,
+     "langcode": "es"
+    },
+    "field_resumen": {
+     "value": "<p>Talleres gratis para personas mayores</p>"
+    }
+   },
+   "relationships": {
+    "field_banner": {
+     "data": {
+      "type": "media--image",
+      "id": "c16dfed8-6c07-44c9-bb52-8653370a7192",
+      "meta": {
+       "drupal_internal__target_id": 750
+      }
+     }
+    },
+    "field_busquedas_frecuentes": {
+     "data": []
+    },
+    "field_categoria": {
+     "data": []
+    },
+    "field_fechas_horarios": {
+     "data": [
+      {
+       "type": "paragraph--funciones",
+       "id": "06154892-7063-43d1-bb92-d2885e2449f1",
+       "meta": {
+        "target_revision_id": 17050,
+        "drupal_internal__target_id": 222
+       }
+      }
+     ]
+    },
+    "field_imagen_miniatura_listados": {
+     "data": {
+      "type": "media--image",
+      "id": "5b799320-a5af-4fca-b537-0dad88d472f6",
+      "meta": {
+       "drupal_internal__target_id": 152
+      }
+     }
+    },
+    "field_logo": {
+     "data": null
+    },
+    "field_parrafos_evento": {
+     "data": [
+      {
+       "type": "paragraph--actividades_evento_todas",
+       "id": "a50caff9-063a-433c-baa5-b0dc8bd745bd",
+       "meta": {
+        "target_revision_id": 17051,
+        "drupal_internal__target_id": 237
+       }
+      }
+     ]
+    },
+    "field_sub_portada": {
+     "data": []
+    }
+   }
+  },
+  {
+   "type": "node--evento",
+   "id": "3c1416d8-37b3-4431-9840-a679f3609fde",
+   "attributes": {
+    "drupal_internal__nid": 997,
+    "title": "Encuentro de Murga Joven 2026",
+    "path": {
+     "alias": "/evento/encuentro-de-murga-joven-2026",
+     "pid": 803,
+     "langcode": "es"
+    },
+    "field_resumen": {
+     "value": "<p>Del 4 al 16 de noviembre</p>"
+    }
+   },
+   "relationships": {
+    "field_banner": {
+     "data": {
+      "type": "media--image",
+      "id": "7edb11b9-cc5f-46b7-bf19-80c43d385cf7",
+      "meta": {
+       "drupal_internal__target_id": 847
+      }
+     }
+    },
+    "field_busquedas_frecuentes": {
+     "data": []
+    },
+    "field_categoria": {
+     "data": []
+    },
+    "field_fechas_horarios": {
+     "data": [
+      {
+       "type": "paragraph--funciones",
+       "id": "c1c66176-8286-4764-a2a9-64d1c21faba2",
+       "meta": {
+        "target_revision_id": 22640,
+        "drupal_internal__target_id": 1470
+       }
+      }
+     ]
+    },
+    "field_imagen_miniatura_listados": {
+     "data": {
+      "type": "media--image",
+      "id": "13e6aaf9-68d2-43ed-a2d1-555178b865e3",
+      "meta": {
+       "drupal_internal__target_id": 842
+      }
+     }
+    },
+    "field_logo": {
+     "data": null
+    },
+    "field_parrafos_evento": {
+     "data": [
+      {
+       "type": "paragraph--actividades_evento_todas",
+       "id": "10ed5184-b62f-46c5-b56e-7ed5b4ca9419",
+       "meta": {
+        "target_revision_id": 22641,
+        "drupal_internal__target_id": 1471
+       }
+      }
+     ]
+    },
+    "field_sub_portada": {
+     "data": []
+    }
+   }
+  },
+  {
+   "type": "node--lugar",
+   "id": "483a92ee-0892-46ad-b527-e809bb8d10cf",
+   "attributes": {
+    "drupal_internal__nid": 976,
+    "title": "Centro Cultural Las Duranas",
+    "path": {
+     "alias": null,
+     "pid": null,
+     "langcode": "es"
+    },
+    "field_direccion": "Pedro Trápani 1350 esquina Bayona.",
+    "field_ubicacion": {
+     "value": "POINT (-56.189780492925 -34.854031611412)",
+     "geo_type": "Point",
+     "lat": -34.854031611412,
+     "lon": -56.189780492925,
+     "left": -56.189780492925,
+     "top": -34.854031611412,
+     "right": -56.189780492925,
+     "bottom": -34.854031611412,
+     "geohash": "6cb19r5be1wfvmj5",
+     "latlon": "-34.854031611412,-56.189780492925"
+    }
+   },
+   "relationships": {}
+  },
+  {
+   "type": "paragraph--funciones",
+   "id": "d4aa0dce-6498-4926-8a2b-d24101ae1666",
+   "attributes": {
+    "field_fechas_horarios": [
+     {
+      "value": "2026-09-15T13:30:00-03:00",
+      "end_value": "2026-09-15T15:30:00-03:00",
+      "rrule": "FREQ=WEEKLY;INTERVAL=1;BYDAY=TU;UNTIL=20261213T010000Z",
+      "timezone": "America/Montevideo",
+      "infinite": false
+     }
+    ]
+   },
+   "relationships": {
+    "field_donde": {
+     "data": {
+      "type": "node--lugar",
+      "id": "6f22b045-331d-4692-907f-9aca62f878be",
+      "meta": {
+       "drupal_internal__target_id": 136
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "paragraph--funciones",
+   "id": "4ad97ec5-6212-47a4-b794-9b0f00832d9e",
+   "attributes": {
+    "field_fechas_horarios": [
+     {
+      "value": "2026-11-16T20:00:00-03:00",
+      "end_value": "2026-11-16T20:00:00-03:00",
+      "rrule": null,
+      "timezone": "America/Montevideo",
+      "infinite": false
+     }
+    ]
+   },
+   "relationships": {
+    "field_donde": {
+     "data": {
+      "type": "node--lugar",
+      "id": "483a92ee-0892-46ad-b527-e809bb8d10cf",
+      "meta": {
+       "drupal_internal__target_id": 976
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "node--evento",
+   "id": "994628c6-5265-4b08-a2db-47eff9511123",
+   "attributes": {
+    "drupal_internal__nid": 914,
+    "title": "Estreno de obras Fortalecimiento de las Artes",
+    "path": {
+     "alias": "/evento/estreno-de-obras-fortalecimiento-de-las-artes",
+     "pid": 732,
+     "langcode": "es"
+    },
+    "field_resumen": {
+     "value": "<p>Durante setiembre y octubre</p>"
+    }
+   },
+   "relationships": {
+    "field_banner": {
+     "data": {
+      "type": "media--image",
+      "id": "e0d11e7b-7362-41df-9a24-739301794488",
+      "meta": {
+       "drupal_internal__target_id": 883
+      }
+     }
+    },
+    "field_busquedas_frecuentes": {
+     "data": []
+    },
+    "field_categoria": {
+     "data": []
+    },
+    "field_fechas_horarios": {
+     "data": []
+    },
+    "field_imagen_miniatura_listados": {
+     "data": {
+      "type": "media--image",
+      "id": "e0d11e7b-7362-41df-9a24-739301794488",
+      "meta": {
+       "drupal_internal__target_id": 883
+      }
+     }
+    },
+    "field_logo": {
+     "data": null
+    },
+    "field_parrafos_evento": {
+     "data": [
+      {
+       "type": "paragraph--actividades_evento_todas",
+       "id": "c69bfa75-c8da-4695-ac1b-113cc59c91b3",
+       "meta": {
+        "target_revision_id": 22357,
+        "drupal_internal__target_id": 1373
+       }
+      }
+     ]
+    },
+    "field_sub_portada": {
+     "data": []
+    }
+   }
+  },
+  {
+   "type": "node--lugar",
+   "id": "6f22b045-331d-4692-907f-9aca62f878be",
+   "attributes": {
+    "drupal_internal__nid": 136,
+    "title": "Cooperativa 3 de Abril",
+    "path": {
+     "alias": null,
+     "pid": null,
+     "langcode": "es"
+    },
+    "field_direccion": "Av. Luis Batlle Berres 5870",
+    "field_ubicacion": {
+     "value": "POINT (-56.257511188715 -34.84115655034)",
+     "geo_type": "Point",
+     "lat": -34.84115655034,
+     "lon": -56.257511188715,
+     "left": -56.257511188715,
+     "top": -34.84115655034,
+     "right": -56.257511188715,
+     "bottom": -34.84115655034,
+     "geohash": "69zczc6e8cxm8h9b",
+     "latlon": "-34.84115655034,-56.257511188715"
+    }
+   },
+   "relationships": {}
+  },
+  {
+   "type": "node--lugar",
+   "id": "a8ff1544-0bf0-4a2b-add0-cc0d366157b2",
+   "attributes": {
+    "drupal_internal__nid": 337,
+    "title": "Espacio Teatro",
+    "path": {
+     "alias": null,
+     "pid": null,
+     "langcode": "es"
+    },
+    "field_direccion": "Mercedes 865",
+    "field_ubicacion": {
+     "value": "POINT (-56.197943 -34.904423)",
+     "geo_type": "Point",
+     "lat": -34.904423,
+     "lon": -56.197943,
+     "left": -56.197943,
+     "top": -34.904423,
+     "right": -56.197943,
+     "bottom": -34.904423,
+     "geohash": "6cb13jvfvpbw",
+     "latlon": "-34.904423,-56.197943"
+    }
+   },
+   "relationships": {}
+  },
+  {
+   "type": "paragraph--funciones",
+   "id": "7c52f91a-2655-46b8-92d0-c85094f0251a",
+   "attributes": {
+    "field_fechas_horarios": [
+     {
+      "value": "2026-11-15T20:00:00-03:00",
+      "end_value": "2026-11-15T20:00:00-03:00",
+      "rrule": null,
+      "timezone": "America/Montevideo",
+      "infinite": false
+     }
+    ]
+   },
+   "relationships": {
+    "field_donde": {
+     "data": {
+      "type": "node--lugar",
+      "id": "483a92ee-0892-46ad-b527-e809bb8d10cf",
+      "meta": {
+       "drupal_internal__target_id": 976
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "paragraph--funciones",
+   "id": "ca7e7adc-e72b-468b-8a2c-b35380f7b162",
+   "attributes": {
+    "field_fechas_horarios": [
+     {
+      "value": "2026-10-22T21:00:00-03:00",
+      "end_value": "2026-10-22T21:00:00-03:00",
+      "rrule": "FREQ=WEEKLY;INTERVAL=1;BYDAY=TH,FR;UNTIL=20261205T000000Z",
+      "timezone": "America/Montevideo",
+      "infinite": false
+     }
+    ]
+   },
+   "relationships": {
+    "field_donde": {
+     "data": {
+      "type": "node--lugar",
+      "id": "a8ff1544-0bf0-4a2b-add0-cc0d366157b2",
+      "meta": {
+       "drupal_internal__target_id": 337
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "node--lugar",
+   "id": "3028ff93-5c3b-4754-8cf5-f48648297726",
+   "attributes": {
+    "drupal_internal__nid": 135,
+    "title": "Cabaña Anaya",
+    "path": {
+     "alias": null,
+     "pid": null,
+     "langcode": "es"
+    },
+    "field_direccion": "Lomas de Zamora esq. Luis Batlle Berres",
+    "field_ubicacion": {
+     "value": "POINT (-56.311527508593 -34.817073965653)",
+     "geo_type": "Point",
+     "lat": -34.817073965653,
+     "lon": -56.311527508593,
+     "left": -56.311527508593,
+     "top": -34.817073965653,
+     "right": -56.311527508593,
+     "bottom": -34.817073965653,
+     "geohash": "69zcytepy6czb7qd",
+     "latlon": "-34.817073965653,-56.311527508593"
+    }
+   },
+   "relationships": {}
+  },
+  {
+   "type": "paragraph--funciones",
+   "id": "2c68a89c-a28f-431e-a5b8-e915192941af",
+   "attributes": {
+    "field_fechas_horarios": [
+     {
+      "value": "2026-09-14T11:00:00-03:00",
+      "end_value": "2026-09-14T13:00:00-03:00",
+      "rrule": "FREQ=WEEKLY;INTERVAL=1;BYDAY=MO;UNTIL=20261213T010000Z",
+      "timezone": "America/Montevideo",
+      "infinite": false
+     }
+    ]
+   },
+   "relationships": {
+    "field_donde": {
+     "data": {
+      "type": "node--lugar",
+      "id": "97cc703a-1284-49aa-962d-5bbc1854beae",
+      "meta": {
+       "drupal_internal__target_id": 428
+      }
+     }
+    }
+   }
+  },
+  {
+   "type": "node--lugar",
+   "id": "97cc703a-1284-49aa-962d-5bbc1854beae",
+   "attributes": {
+    "drupal_internal__nid": 428,
+    "title": "Centro Juvenil Salesiano",
+    "path": {
+     "alias": null,
+     "pid": null,
+     "langcode": "es"
+    },
+    "field_direccion": "Bv. José Batlle y Ordóñez 6182",
+    "field_ubicacion": {
+     "value": "POINT (-56.214691 -34.830528)",
+     "geo_type": "Point",
+     "lat": -34.830528,
+     "lon": -56.214691,
+     "left": -56.214691,
+     "top": -34.830528,
+     "right": -56.214691,
+     "bottom": -34.830528,
+     "geohash": "6cb1bg39qybr",
+     "latlon": "-34.830528,-56.214691"
+    }
+   },
+   "relationships": {}
+  },
+  {
+   "type": "paragraph--funciones",
+   "id": "491cbab9-14b8-4b45-b65a-21860c5a6519",
+   "attributes": {
+    "field_fechas_horarios": [
+     {
+      "value": "2026-09-11T16:00:00-03:00",
+      "end_value": "2026-09-11T18:00:00-03:00",
+      "rrule": "FREQ=WEEKLY;INTERVAL=1;BYDAY=FR;UNTIL=20261213T010000Z",
+      "timezone": "America/Montevideo",
+      "infinite": false
+     }
+    ]
+   },
+   "relationships": {
+    "field_donde": {
+     "data": {
+      "type": "node--lugar",
+      "id": "3028ff93-5c3b-4754-8cf5-f48648297726",
+      "meta": {
+       "drupal_internal__target_id": 135
+      }
+     }
+    }
+   }
+  }
+ ],
+ "links": {}
+}

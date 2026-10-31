@@ -11,7 +11,7 @@ Propuesta para el MVP de la cartelera. Se apoya en [fuentes.md](fuentes.md) y en
 Vienen de las decisiones de [fuentes.md](fuentes.md#decisiones-tomadas):
 
 - **Todo por scraping**, sin carga manual de eventos.
-- **Público local**, **solo Montevideo** (más Buenos Aires en la fase 3) y **sin costo**: planes gratuitos, sin APIs pagas.
+- **Público local**, **solo Montevideo** (Buenos Aires quedó descartado por ahora) y **sin costo**: planes gratuitos, sin APIs pagas.
 - **Una fuente rota no rompe la cartelera**: cada fuente conserva su último resultado bueno.
 - **Siempre se enlaza a la fuente** para comprar o ver más. No se republican textos largos.
 
@@ -91,11 +91,12 @@ Lo que se muestra en la cartelera: `data/eventos.json`.
 }
 ```
 
-- **`categoria`** es una lista cerrada: `musica`, `teatro`, `danza`, `humor`, `cine`, `exposicion`, `infantil`, `fiesta`, `festival`, `tour`, `charla`, `otros`. Cada fuente traduce sus categorías a esta lista.
+- **`subcategoria`** refina la categoría: `comedia_nacional`, `ballet_sodre`, `stand_up`, `cinemateca` y, en música, `clasica`, `tropical` y `rock_pop`.
+- **`categoria`** es una lista cerrada: `musica`, `teatro`, `danza`, `humor`, `cine`, `exposicion`, `infantil`, `fiesta`, `festival`, `carnaval`, `tour`, `charla`, `taller`, `otros`. Cada fuente traduce sus categorías a esta lista; si la fuente no informa categoría (Tickantel), se infiere por palabras clave y, como respaldo, por el tipo de sala.
 - **`funciones`** es la unidad de tiempo: un evento con 10 funciones es **un** evento, no diez. La cartelera "hoy" muestra los eventos que tienen alguna función hoy.
 - **`descripcion_corta`**: como máximo unos 300 caracteres, para no republicar textos ajenos. El resto se lee en la fuente.
 - **`imagen_url`**: **el flyer se muestra** (decisión). Se enlaza la imagen original de la fuente, sin copiarla al repo; así el repo no crece y el flyer siempre lleva a la fuente. Si una imagen no carga (porque el sitio bloquea que se muestre desde otra web o porque la borraron), la web muestra un placeholder por categoría.
-- **`region`**: `montevideo` o `buenos_aires`. Los eventos del interior se descartan al scrapear.
+- **`region`**: hoy siempre `montevideo` (el valor `buenos_aires` quedó en el modelo por si se retoma). Los eventos del interior se descartan al scrapear.
 
 ### `Ciclo` (opcional)
 
@@ -119,10 +120,12 @@ Un mismo evento puede llegar por varias fuentes. El paso de unificación las cru
 
 1. **Coincidencia exacta por ID externo.** Muchas fuentes enlazan a la ticketera: la diaria, Piano Piano, la Sala del Museo y Gaucho enlazan a RedTickets; el Antel Arena enlaza a Tickantel. Si dos registros apuntan al mismo evento de una ticketera, son el mismo.
 2. **Coincidencia difusa.** Mismo `lugar_id`, alguna función el mismo día (con ±1 hora de tolerancia) y títulos parecidos. La similitud se calcula sin tildes, en minúsculas y sin ruido del tipo "presenta:" o "- Sala Cero".
-3. **Fusión.** Se unen las funciones, se juntan `entradas`, `beneficios` y `fuentes`, y cada campo se toma de la fuente de mayor prioridad:
+3. **Fusión.** Se unen las funciones (si una fuente da un día "sin hora" y otra lo da con horario, queda el horario), se juntan `entradas` (un enlace por destino), `beneficios` y `fuentes`, y cada campo se toma de la fuente de mayor prioridad:
    - **sala oficial > ticketera > cartelera agregada > productora > beneficios**.
 
      Por ejemplo, el título y la descripción salen del sitio de la sala si existe, y el precio y si está agotado, de la ticketera.
+
+**Salas con nombres distintos.** "El Galpón - Sala Cero" se separa en sala ("El Galpón") y sala interna ("Sala Cero"). Dos nombres se consideran la misma sala si, sin palabras genéricas ("teatro", "sala", "espacio", "escuela"…), son equivalentes ("Teatro MANDRÁGORA Escuela de Artes" = "Teatro Mandrágora") y no están a más de 1 km. Lo que no se resuelve así va como alias en `config/lugares_alias.toml`.
 
 **El `id` del evento** se deriva de la primera coincidencia estable (ticketera e ID externo). Así no cambia de una corrida a otra y los enlaces a la web no se rompen.
 
@@ -132,7 +135,7 @@ Un mismo evento puede llegar por varias fuentes. El paso de unificación las cru
 
 ```
  GitHub Actions (cron)              Mac en Uruguay (launchd, días de semana 11 h)
- ─ 15 fuentes ─────────┐            ┌─ 4 fuentes: portal IM, Zitarrosa, Ticketmaster.uy, All Access
+ ─ 15 fuentes ─────────┐            ┌─ portal IM, Zitarrosa, Ticketmaster.uy
                        ▼            ▼
               datos/fuentes/<fuente>.json   (crudo normalizado, último bueno)
                        │
@@ -145,29 +148,13 @@ Un mismo evento puede llegar por varias fuentes. El paso de unificación las cru
 
 - **Los datos generados van en una rama aparte, `datos`.** Así `main` tiene solo código y su historial no se llena con un commit de datos por día. Además, el historial de `datos` deja ver cómo cambió la cartelera.
 - **GitHub Actions** corre dos veces por día (por ejemplo, a las 6 y a las 14 h de Uruguay): sus scrapers, la unificación y el build y deploy de la web.
-- **La Mac** corre sus 4 scrapers, hace commit **solo de sus archivos** en `datos/fuentes/` y pushea a la rama `datos`. Ese push dispara la unificación y el build en Actions. Como cada lado escribe archivos distintos, no hay conflictos; igual se hace `git pull --rebase` antes de pushear.
+- **La Mac** corre sus scrapers (los marcados `corre_en = "local"` en `config/fuentes.toml`), hace commit **solo de sus archivos** en `datos/fuentes/` y pushea a la rama `datos`. La corrida de Actions de las 12 los suma a la unificación y al build. Como cada lado escribe archivos distintos, no hay conflictos; igual se hace `git pull --rebase` antes de pushear.
 
 ### Estructura del repo
 
-```
-cartelera-cultural/
-├── docs/                    # fuentes.md, diseno.md
-├── scrapers/
-│   ├── comun/               # HTTP con User-Agent propio, reintentos, parseo de JSON-LD, fechas, normalización
-│   ├── tickantel.py
-│   ├── redtickets.py
-│   └── ...                  # un archivo por fuente
-├── unificar/                # catálogo de lugares, dedupe, fusión
-├── config/
-│   ├── fuentes.yaml         # qué fuentes hay, dónde corren (actions o local), prioridad
-│   └── lugares_alias.yaml   # la única parte mantenida a mano
-├── sitio/                   # la web estática
-├── scripts/                 # check-fuentes.sh, instalación del job de launchd
-├── tests/                   # tests de cada parser con HTML guardado
-└── .github/workflows/
-```
+Ver el [README](../README.md#cómo-está-armado). En resumen: todo el código vive en el paquete `cartelera/` (con `scrapers/`, `unificar.py` y `sitio/`), la configuración en `config/` y los tests en `tests/`, con páginas de ejemplo en `tests/fixtures/`.
 
-**Tests con HTML guardado:** cada scraper tiene un ejemplo real de la página guardado en `tests/`. Si un sitio cambia y el parser se rompe, el test nuevo falla con el HTML nuevo y se arregla rápido. Es la mejor defensa contra el mantenimiento.
+**Tests con HTML guardado:** cada scraper tiene un ejemplo real de la página en `tests/fixtures/`, recortado a los bloques de datos que usa (no la página entera, para no publicar contenido ajeno). Si un sitio cambia y el parser se rompe, el test nuevo falla con el HTML nuevo y se arregla rápido. Es la mejor defensa contra el mantenimiento.
 
 ---
 
@@ -193,7 +180,7 @@ cartelera-cultural/
 
 ### Qué hace el job
 
-Una vez por día, `launchd` ejecuta código **de este repo**, que hace pedidos HTTP **salientes** a 4 sitios públicos, guarda JSON y hace `git push`.
+Una vez por día, `launchd` ejecuta código **de este repo**, que hace pedidos HTTP **salientes** a unos pocos sitios públicos, guarda JSON y hace `git push`.
 
 - **No abre puertos ni recibe conexiones.**
 - **Nadie puede ejecutar algo en la Mac desde GitHub.** Por eso se eligió `launchd` y no un runner self-hosted.
@@ -203,11 +190,33 @@ Una vez por día, `launchd` ejecuta código **de este repo**, que hace pedidos H
 | Riesgo | Qué podría pasar | Cómo se cubre |
 |--------|------------------|---------------|
 | **Código malicioso en el repo** | Si alguien lograra meter código en `main`, la Mac lo ejecutaría con tus permisos (acceso a tus archivos). | Solo vos tenés permiso de escritura. **No se mergean pull requests de terceros sin revisarlos.** Se protege `main` con una regla de GitHub para que no se pueda pushear directo. El job corre siempre desde `main`, no desde otras ramas. |
-| **Una dependencia comprometida** (un paquete de Python malicioso) | Lo mismo: código ajeno corriendo en tu Mac. | **Pocas dependencias** y conocidas (`httpx`, `selectolax`, `pydantic`). **Versiones fijadas con hash** (`uv.lock`), así que una actualización maliciosa no entra sola. Un entorno virtual aislado. |
-| **Contenido hostil en los sitios scrapeados** | Una página armada para atacar al que la lee. | El job **solo lee JSON y HTML como texto**: no ejecuta JavaScript, no usa navegador headless y no hace nada parecido a `eval` o `pickle` con lo que baja. Parsear texto en Python no ejecuta código. Las 4 fuentes de la Mac son APIs JSON o HTML simple. |
+| **Una dependencia comprometida** (un paquete de Python malicioso) | Lo mismo: código ajeno corriendo en tu Mac. | **Pocas dependencias** y conocidas (`httpx`, `pydantic`, `rapidfuzz`, `jinja2`, `python-dateutil`). **Versiones fijadas con hash** (`uv.lock`), así que una actualización maliciosa no entra sola. Un entorno virtual aislado. |
+| **Contenido hostil en los sitios scrapeados** | Una página armada para atacar al que la lee. | El job **solo lee JSON y HTML como texto**: no ejecuta JavaScript, no usa navegador headless y no hace nada parecido a `eval` o `pickle` con lo que baja. Parsear texto en Python no ejecuta código. Las fuentes de la Mac son APIs JSON o HTML simple. |
 | **Credenciales de GitHub demasiado amplias** | Hoy `git push` usa tus credenciales guardadas, que dan acceso a **todos** tus repos. | El job usa una **deploy key** (una llave SSH) **solo para este repo**. Si se filtrara, solo afectaría a `cartelera-cultural`, y la regla sobre `main` impide que se use para cambiar el código. |
-| **Que se suba algo de más** | Un log con rutas o datos de tu Mac terminando en el repo público. | El job hace `git add` **solo** de sus 4 archivos en `datos/fuentes/` y nunca de otra cosa. Los logs quedan en la Mac. |
-| **Tu IP de casa** | Los 4 sitios ven pedidos diarios desde tu IP. Si alguno la bloqueara, también podría afectarte al navegar ese sitio. | Volumen muy bajo (una vez por día), User-Agent identificable y pausas entre pedidos. Es poco probable. |
+| **Que se suba algo de más** | Un log con rutas o datos de tu Mac terminando en el repo público. | El job hace `git add` **solo** de los archivos de sus fuentes en `datos/fuentes/` y nunca de otra cosa. Los logs quedan en la Mac. |
+| **Tu IP de casa** | Esos sitios ven pedidos diarios desde tu IP. Si alguno la bloqueara, también podría afectarte al navegar ese sitio. | Volumen muy bajo (una vez por día), User-Agent identificable y pausas entre pedidos. Es poco probable. |
+
+### La web y los workflows
+
+- **Lo que viene de las fuentes no puede ejecutar nada en la web.** Los textos se insertan siempre como texto (Jinja2 con autoescape y, en el navegador, nodos de texto: nunca `innerHTML`). Los enlaces tienen que ser `http(s)`: el modelo de datos rechaza un enlace `javascript:` y descarta una imagen con un enlace raro. Los datos embebidos en la página llevan todos los `<` escapados.
+- **El texto de "¿Qué es La Gestoría?"** solo admite enlaces web, de mail o internos.
+- **Workflows con permisos mínimos**: nada por defecto; el trabajo que actualiza los datos puede escribir en el repo y el que publica, solo en Pages. El código se baja sin dejar la credencial guardada (`persist-credentials: false`).
+- **Actions de terceros fijadas a un commit exacto** (con la versión en un comentario): una versión nueva o comprometida no entra sola. Para actualizarlas, se cambia el hash a mano.
+- **Nada personal en el repo**: no hay claves ni tokens (las fuentes son públicas y Wikidata, Nominatim y OpenStreetMap no piden key), y la prueba de conectividad informa solo el país de la IP, no la IP.
+
+### Cómo está armado
+
+- [`scripts/mac/correr.sh`](../scripts/mac/correr.sh) es el job. Trabaja en un **clon propio** del repo (`~/.cartelera-cultural`), separado de la copia de trabajo, así que lo que estés editando no se mezcla con lo que corre. En cada corrida:
+  1. Trae `main` y corre ese código, nunca otra rama.
+  2. Trae la rama `datos` (en `datos/` adentro del clon), para que cada fuente compare con su último resultado bueno.
+  3. Corre `scrapear --donde local`. Si una fuente falla, queda su último resultado bueno.
+  4. Hace commit solo de `datos/fuentes/<fuente>.json` de esas fuentes y pushea a `datos` con la deploy key.
+- [`scripts/mac/cartelera.plist`](../scripts/mac/cartelera.plist) es la plantilla del job de `launchd`: días de semana a las 11, con prioridad baja. El log queda en `~/Library/Logs/cartelera-cultural.log`.
+- [`scripts/mac/instalar.sh`](../scripts/mac/instalar.sh) se corre una vez, a mano: genera la deploy key (y muestra la parte pública para pegarla en GitHub), clona el repo y registra el job. Al principio del script están los comandos para desinstalarlo.
+
+Para instalarlo hace falta que `main` tenga este código y que exista la rama `datos` (la crea la primera corrida del workflow).
+
+**Probado de punta a punta (30/10/2026)** contra un repo de prueba local con `main` y `datos`, con el entorno vacío con el que corre `launchd`: trae el código, corre las 3 fuentes, sube solo sus 3 archivos y resuelve bien un push de Actions en el medio.
 
 **Opcional, si querés más aislamiento**: correr el job con un **usuario de macOS aparte**, sin acceso a tus documentos. No me parece necesario para empezar.
 
@@ -220,18 +229,83 @@ Una vez por día, `launchd` ejecuta código **de este repo**, que hace pedidos H
 | Parte | Herramienta | Por qué |
 |-------|-------------|---------|
 | HTTP | `httpx` | Moderno, con reintentos y timeouts. |
-| HTML | `selectolax` | Rápido y simple. |
-| JSON-LD | `extruct` | Lo usan Tickantel, Ticketmaster, Livepass y Fever. |
+| HTML y JSON-LD | `re`, `html` y `json` de la biblioteca estándar (`cartelera/extraer.py`) | Las fuentes traen los datos en bloques JSON o en HTML simple: alcanza con expresiones regulares y una dependencia menos. |
+| Fechas que se repiten | `python-dateutil` | Expande las reglas de repetición (RRULE) del portal de eventos IM. |
+| Géneros de la música | API de Wikidata | Abierta, gratis y sin API key (ver "Géneros de la música" en la sección de la web). |
 | Esquema | `pydantic` | Valida que cada fuente cumpla el modelo de datos. |
 | Dependencias | `uv` | Instala y fija versiones exactas, con hashes (ver Seguridad). |
 | Deduplicación | `rapidfuzz` | Similitud de títulos. |
 | Tests | `pytest` | Contra el HTML guardado. |
-| Headless (fase 3) | `playwright` | Para Movistar Arena y Primavera Sound. |
 | Web | **Jinja2** (genera HTML estático) y un poco de JavaScript para los filtros | Todo el build en Python. Sin servidor, gratis en GitHub Pages. |
 
 **Regla: Python siempre que se pueda.** Es el lenguaje que mejor conocés, y además tiene el mejor ecosistema para scraping y limpieza de datos.
 
 **La web** también se puede armar en Python para no sumar otro lenguaje: un script que genera páginas HTML con plantillas **Jinja2** a partir de `eventos.json`. Solo los filtros del navegador (categoría, fecha) necesitan unas pocas líneas de JavaScript, que es inevitable en una web. Astro queda descartado.
+
+---
+
+## La web: La Gestoría Cultural
+
+**"La Gestoría Cultural" es solo el nombre.** La web no juega con la metáfora: las secciones y los filtros tienen nombres directos (Agenda, Mapa, Gratis, Promos, Ciclos; Fecha, Tipo de evento, Precio, Sala, Buscar).
+
+**Estética divertida, con esta paleta:**
+
+| Color | Hex | Uso |
+|-------|-----|-----|
+| Azul cobalto | `#3256A8` | Principal: cabezal, selecciones, calendario |
+| Mostaza | `#E4A94A` | Acento, no como fondo permanente: sección activa, día elegido, presentación de cada sección |
+| Coral | `#F06C4F` | Segundo acento: filtros activos, 2x1, marcadores del mapa |
+| Crema | `#F4E9D5` | Fondo |
+| Tinta | `#18264A` | Textos, bordes y sombras; es el fondo en modo oscuro |
+
+Bordes gruesos, sombras sólidas desplazadas y un color de acento por tipo de evento. Tipografías **Bricolage Grotesque** (títulos) y **DM Sans** (texto).
+
+**Filtros activos:** aparecen como chips arriba de los resultados ("Teatro ×", "Este finde ×"), cada uno se borra con un toque, y hay un "Borrar todo" ahí y en el encabezado de los filtros.
+
+**Reparto del trabajo:** Python calcula todo lo posible al generar la página (textos, rangos de precio, subrubros, ciclos, conteos). El JavaScript del navegador solo filtra, dibuja el calendario y el mapa.
+
+| Pieza | Cómo funciona |
+|-------|---------------|
+| **Carriles por día** (Agenda, Gratis, Promos, Ciclos) | Para no scrollear cientos de tarjetas, cada día es un **carril horizontal** ("Hoy · viernes 30 de octubre · 41 eventos") que se desliza de costado, con flechas en escritorio y con el dedo en el celular (una tarjeta y un poco de la siguiente). Al bajar se pasa de día en día, no de evento en evento. Las temporadas y muestras largas (6 o más fechas a lo largo de 2 semanas o más) van una sola vez en el carril **"En cartel"**, al principio. Los fines de semana tienen el título resaltado. Los carriles se dibujan de a 6 días a medida que se baja. Los filtros de fecha (Hoy, Este finde, 7 días, un día del calendario chico) recortan los carriles. Una vista calendario grande en la Agenda se probó y se descartó: no resultó útil para explorar. |
+| **Filtros activos siempre visibles** | La barra con el conteo y los filtros activos (chips con ×) queda fija arriba al bajar. En el celular, "Más filtros" muestra cuántos hay activos. |
+| **Mapa** | Leaflet (cargado solo al abrir la sección) sobre los tiles de **OpenStreetMap**: gratis, **sin API key**, con atribución y uso moderado. Los colores se llevan a la paleta con un filtro CSS. Un círculo por sala, más grande cuantos más eventos tiene; "Ver sus eventos" filtra por esa sala. (CARTO pide API key desde 2026, por eso no se usa.) |
+| **Sala** | Selector con todas las salas y su cantidad de eventos. El nombre de la sala en cada tarjeta también filtra. |
+| **Gratis** | Sección propia. Un evento es gratis si la fuente lo marca así o si todas sus entradas valen $0. |
+| **Presupuesto** | Según el precio "desde": **Ganga** (menos de $500), **Accesible** ($500 a $999), **Normal** ($1.000 a $1.600) y **Carito** (más de $1.600). Una entrada a $0 entre otras pagas (por ejemplo, para menores) no cuenta. |
+| **Promos** | Salen de los tipos de entrada de RedTickets: programas conocidos (la diaria, Socio Espectacular, Club El País, BROU, Itaú, Santander, BBVA, OCA, AEBU…), socios de clubes o salas, **2x1 para todos** y promos grupales (3x2, dúo). Se descartan las tarifas que no son promociones: cortesías, estudiantes, jubilados, menores, SUA. |
+| **Subrubros** | Al elegir un rubro aparecen sus subrubros: Teatro → Comedia Nacional; Danza → Ballet Nacional del Sodre; Humor → Stand up; Cine → Cinemateca; Música → géneros (abajo); y "Otros" en cada uno. Se detectan por palabras clave en título, descripción, productor y sala. |
+| **Géneros de la música** | Tres grupos gruesos: **Clásica y lírica**, **Tropical** y **Rock y pop** (con punk, metal, indie y rap); el resto queda en "Otros". Las fuentes casi no informan el género, así que sale de dos lados: (1) **palabras clave** del título y, si no alcanza, de la descripción y el productor ("sinfónica", "cumbia", "punk"; si se nombran dos, gana la primera); (2) para los títulos que son solo un nombre ("ERUCA SATIVA"), **Wikidata**: se busca al artista y se acepta solo una persona o grupo musical con género y nombre igual al buscado, prefiriendo los de Uruguay y Argentina. Caché en `datos/cache/generos_wikidata.json`, hasta 80 nombres nuevos por corrida, y los no encontrados se reintentan al mes. Los homónimos se corrigen en `config/generos.toml`. **Spotify no sirve:** desde febrero de 2026 no informa géneros a las apps nuevas. MusicBrainz casi no tiene artistas locales. **Cobertura (31/10/2026): 110 de 300 eventos de música (37%)**; la escena local chica y lo tropical son lo que más queda afuera. |
+| **Festivales** | Etiqueta que cruza rubros: categoría "festival" de la fuente o "festival"/"fest" en el título. |
+| **Talleres y cursos** | Rubro propio (`taller`) para talleres, cursos y clases, para que no se mezclen con los espectáculos. Hoy salen del portal de eventos de la IM. |
+| **¿Qué es La Gestoría?** | Pestaña aparte, al final de la fila y con borde punteado, que lleva a una página propia (`que-es.html`), también enlazada desde el pie. El texto se escribe en [`docs/que-es-la-gestoria.md`](que-es-la-gestoria.md) y se publica tal cual: el generador pasa a HTML lo poco de Markdown que usa (párrafos, listas, enlaces y negritas). **Si se suma una fuente, hay que sumarla también a la lista de ese texto.** |
+| **Ciclos** | Se detectan por título: "Ciclo …" explícito, o un mismo prefijo antes de ":" repetido en una sala ("Partículas: …" en la Sala Verdi). Cada tarjeta enlaza a su ciclo. |
+
+**Lo que llega con las próximas fuentes:**
+
+- **Comedia Nacional**: los textos de Tickantel no la mencionan; sale del sitio del Solís.
+- **Cinemateca**: sale de su propia fuente.
+
+### Planeá tu mes
+
+Sección para armar el plan del mes y llevarlo al calendario.
+
+- **Mes**: por defecto, el siguiente; se cambia con las flechas del calendario del plan. Los demás filtros (tipo, precio, sala, búsqueda) siguen funcionando: sirve para planear, por ejemplo, "un mes de teatro barato".
+- **Un calendario que se va llenando**: el mes arranca vacío. Cada casillero muestra cuántas opciones hay ese día ("42 opciones"); al tocarlo, la página baja a esas opciones. Lo que elegís aparece escrito en su día (hora y título, con el color de su tipo) y se quita con ×. En el celular, cada elección es un punto de color y el detalle está en la lista "Mi plan", que ahí arranca abierta.
+- **Lista de opciones por día**, debajo del calendario, con "↑ Ver mi mes" para volver: una fila por evento y día, con un botón por horario. **Se eligen funciones, no eventos:** de una obra con diez fechas, elegís a cuál vas. También se agrega desde cualquier tarjeta de la Agenda ("＋ Mi plan" toma la función que muestra la tarjeta).
+- **Mi plan**: lo elegido, ordenado por fecha. Cada función tiene su enlace "Google Calendar" y se puede quitar. El calendario lateral marca con un punto coral los días que tienen algo elegido.
+- **Exportar**: "Descargar calendario (.ics)" arma en el navegador un archivo estándar (RFC 5545), validado con la librería `icalendar`. Se importa en Google Calendar (Configuración → Importar), Outlook o Apple.
+  - Las horas van en UTC, así que se ven bien en cualquier zona horaria.
+  - Como las fuentes no informan cuándo termina cada función, la duración se estima en **2 horas** y se aclara en la descripción.
+- **Para quien no usa calendarios digitales**:
+  - **Imprimir o guardar PDF**: arma una hoja A4 apaisada por mes, con un calendario en grilla (tipo "para la heladera") con lo elegido escrito en cada día, y abajo el detalle con sala, dirección y precio. Se genera en el navegador y se imprime con el diálogo del sistema, que también permite guardar como PDF.
+  - **Mandar por WhatsApp**: abre WhatsApp con el plan como mensaje (fecha, título, sala, precio y enlace de entradas), listo para mandarse a uno mismo o al grupo.
+  - **Copiar como texto**: el mismo mensaje, para pegarlo donde sea (mail, notas, otra app).
+  - Idea pendiente: una imagen del plan para compartir en historias.
+- **Guardado**: el plan queda en el navegador (`localStorage`), sin cuentas ni servidor. Al volver a abrir la página se descartan las funciones que ya pasaron o que salieron de la cartelera. Si el navegador no permite guardar (modo privado), el plan dura lo que la pestaña.
+
+### Eventos sin coordenadas
+
+El filtro de Montevideo va por coordenadas. Si un evento llega sin coordenadas, entra solo si su sala ya está en el catálogo **con** coordenadas: porque otro evento de esa misma sala (de cualquier fuente) sí las trajo, o porque la sala está en `config/lugares_alias.toml` y se cruzó con una que tenía ubicación. Si no, se descarta: no hay forma segura de saber si es de Montevideo. Las actividades municipales en muchos barrios a la vez van en el lugar "Varios barrios de Montevideo", que en `config/lugares_alias.toml` tiene el punto de la Intendencia y `solo_por_nombre = true`: así no se le suman por cercanía los eventos que sí son en la Intendencia.
 
 ---
 

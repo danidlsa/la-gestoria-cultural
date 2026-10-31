@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es-UY">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>¿Qué es {{ sitio }}?</title>
+  <meta name="description" content="Quién hace {{ sitio }}, de dónde salen los datos y por qué.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="cabezal">
+    <div class="contenedor cabezal-interior">
+      <div class="marca">
+        <h1><a href="index.html">La Gestoría <span>Cultural</span></a></h1>
+        <p class="bajada">Qué hacer en Montevideo: teatro, música, danza y mucho más, de todas las salas en un solo lugar.</p>
+      </div>
+    </div>
+    <nav class="contenedor secciones" aria-label="Secciones">
+      <a class="pastilla" href="index.html">← Volver a la cartelera</a>
+      <a class="pastilla aparte activa" href="que-es.html" aria-current="page">¿Qué es La Gestoría?</a>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <article class="que-es">
+      {{ contenido }}
+    </article>
+  </main>
+</body>
+</html>

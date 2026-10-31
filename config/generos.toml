@@ -1,0 +1,9 @@
+# Correcciones al género de la música que sale de Wikidata (ver cartelera/generos.py).
+# Sirve para homónimos: cuando Wikidata encuentra a otro artista que se llama igual.
+# Es configuración, no carga de eventos. Los nombres se comparan sin tildes ni mayúsculas.
+#
+# Géneros: "clasica", "tropical", "rock_pop". Vacío ("") = no clasificar (queda en "Otros").
+
+[artistas]
+# Wikidata lo da como "rock and roll"; es canto popular uruguayo.
+"Alejandro Balbis" = ""

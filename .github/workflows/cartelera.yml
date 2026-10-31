@@ -1,0 +1,80 @@
+name: Cartelera
+
+# Scrapea, unifica, guarda los datos en la rama `datos` y publica la web.
+# 6, 12 y 18 h de Uruguay (UTC-3). La de las 12 levanta lo que sube la Mac a las 11.
+# Las actions de terceros van fijadas a un commit exacto: una versión nueva (o comprometida) no entra sola.
+on:
+  schedule:
+    - cron: "0 9,15,21 * * *"
+  workflow_dispatch:
+
+# Permisos mínimos: nada por defecto, y cada trabajo pide solo lo que usa.
+permissions: {}
+
+concurrency:
+  group: cartelera
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # para guardar en la rama datos
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09  # v5.1.0
+        with:
+          persist-credentials: false  # el código no necesita poder pushear; solo la rama datos
+
+      - name: Traer la rama de datos
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09  # v5.1.0
+        with:
+          ref: datos
+          path: datos
+
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e  # v6.8.0
+
+      - name: Instalar dependencias (versiones fijadas)
+        run: uv sync --locked --no-dev
+
+      - name: Scrapear las fuentes de GitHub Actions
+        # Si una fuente falla, se conserva su último resultado bueno y se sigue.
+        continue-on-error: true
+        run: uv run python -m cartelera scrapear --donde actions
+
+      - name: Unificar
+        run: uv run python -m cartelera unificar
+
+      - name: Guardar en la rama datos
+        working-directory: datos
+        run: |
+          git config user.name "cartelera-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los datos."
+          else
+            git commit -q -m "Datos $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull -q --rebase origin datos
+            git push -q origin HEAD:datos
+          fi
+
+      - name: Generar la web
+        run: uv run python -m cartelera sitio
+
+      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b  # v4.0.0
+        with:
+          path: sitio_generado
+
+  publicar:
+    needs: actualizar
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e  # v4.0.5

@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es-UY">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ sitio }}</title>
+  <meta name="description" content="Qué hacer en Montevideo: teatro, música, danza y más, de todas las salas en un solo lugar.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="cabezal">
+    <div class="contenedor cabezal-interior">
+      <div class="marca">
+        <h1>La Gestoría <span>Cultural</span></h1>
+        <p class="bajada">Qué hacer en Montevideo: teatro, música, danza y mucho más, de todas las salas en un solo lugar.</p>
+      </div>
+      <p class="cifras">
+        <span><strong>{{ eventos|length }}</strong> eventos</span>
+        <span><strong>{{ salas|length }}</strong> salas</span>
+        <span class="actualizado">Actualizado {{ generado }}</span>
+      </p>
+    </div>
+    <div class="contenedor buscador" role="search">
+      <label for="buscar" class="solo-lectores">Buscar eventos</label>
+      <svg class="lupa" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+      <input type="search" id="buscar" placeholder="Buscá una obra, artista, sala…" autocomplete="off">
+    </div>
+    <nav class="contenedor secciones" aria-label="Secciones">
+      <button type="button" data-seccion="agenda" class="activa">Agenda</button>
+      <button type="button" data-seccion="plan" class="destacada"><span class="chispa" aria-hidden="true">✦</span> Planeá tu mes <span class="cuenta" id="cuenta-plan">0</span></button>
+      <button type="button" data-seccion="mapa">Mapa</button>
+      <button type="button" data-seccion="gratis">Gratis <span class="cuenta">{{ cantidad_gratis }}</span></button>
+      <button type="button" data-seccion="promos">Promos <span class="cuenta">{{ cantidad_promos }}</span></button>
+      <button type="button" data-seccion="ciclos">Ciclos <span class="cuenta">{{ ciclos|length }}</span></button>
+      <a class="pastilla aparte" href="que-es.html">¿Qué es La Gestoría?</a>
+    </nav>
+  </header>
+
+  <div class="contenedor principal">
+    <aside class="filtros" aria-label="Filtros">
+      <div class="filtros-titulo">
+        <h2>Filtros</h2>
+        <button type="button" class="borrar-todo" data-borrar="todo" hidden>Borrar todo</button>
+      </div>
+
+      <section class="campo" id="campo-fecha">
+        <h3 id="titulo-fecha">Fecha</h3>
+        <div class="atajos" id="atajos-fecha" role="group" aria-label="Período">
+          <button type="button" data-periodo="hoy">Hoy</button>
+          <button type="button" data-periodo="finde">Este finde</button>
+          <button type="button" data-periodo="semana">7 días</button>
+          <button type="button" data-periodo="todo" class="activo">Todo</button>
+        </div>
+        <details class="plegable" open>
+          <summary>Ver calendario</summary>
+          <div class="calendario" id="calendario">
+            <div class="cal-cabezal">
+              <button type="button" class="cal-flecha" data-mes="-1" aria-label="Mes anterior">‹</button>
+              <span id="cal-mes"></span>
+              <button type="button" class="cal-flecha" data-mes="1" aria-label="Mes siguiente">›</button>
+            </div>
+            <div class="cal-dias" aria-hidden="true"><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span></div>
+            <div class="cal-grilla" id="cal-grilla"></div>
+          </div>
+        </details>
+      </section>
+
+      <details class="plegable" open>
+        <summary>Más filtros: tipo, precio y sala <span class="cuenta-filtros" id="cuenta-filtros" hidden></span></summary>
+
+        <section class="campo">
+          <h3>Tipo de evento</h3>
+          <div class="opciones" id="rubros" role="group" aria-label="Tipo de evento">
+            <button type="button" data-categoria="" class="activo">Todos</button>
+            {%- for clave, nombre, cantidad in categorias %}
+            <button type="button" data-categoria="{{ clave }}">{{ nombre }}</button>
+            {%- endfor %}
+            <button type="button" data-etiqueta="festival">Festivales</button>
+          </div>
+          <div class="opciones subrubros" id="subrubros" role="group" aria-label="Subtipo" hidden></div>
+        </section>
+
+        <section class="campo">
+          <h3>Precio</h3>
+          <div class="opciones" id="presupuestos" role="group" aria-label="Precio">
+            <button type="button" data-presupuesto="" class="activo">Cualquiera</button>
+            {%- for clave, nombre, detalle in presupuestos %}
+            <button type="button" data-presupuesto="{{ clave }}" title="{{ detalle }}">{{ nombre }}{% if detalle %} <small>{{ detalle }}</small>{% endif %}</button>
+            {%- endfor %}
+          </div>
+        </section>
+
+        <section class="campo" id="campo-promos" hidden>
+          <h3>Programa de beneficios</h3>
+          <div class="opciones" id="programas" role="group" aria-label="Programa">
+            <button type="button" data-programa="" class="activo">Todos</button>
+            {%- for programa, cantidad in promos %}
+            <button type="button" data-programa="{{ programa }}">{{ programa }} <small>{{ cantidad }}</small></button>
+            {%- endfor %}
+          </div>
+        </section>
+
+        <section class="campo">
+          <h3><label for="sala">Sala</label></h3>
+          <select id="sala">
+            <option value="">Todas las salas</option>
+            {%- for id_, nombre, cantidad in salas %}
+            <option value="{{ id_ }}">{{ nombre }} ({{ cantidad }})</option>
+            {%- endfor %}
+          </select>
+        </section>
+
+      </details>
+    </aside>
+
+    <main class="resultados">
+      <div class="intro" id="intro" hidden></div>
+      <div class="barra" id="barra">
+        <p class="resumen" id="resumen" aria-live="polite"></p>
+        <div class="activos" id="activos" aria-label="Filtros activos"></div>
+      </div>
+
+      <div class="carriles" id="carriles"></div>
+      <div class="mapa" id="mapa" hidden></div>
+
+      <section class="plan" id="plan" hidden>
+        <section class="plan-cal" aria-label="Calendario de tu plan">
+          <div class="pc-cabezal">
+            <button type="button" class="cal-flecha" data-plan-mes="-1" aria-label="Mes anterior">‹</button>
+            <h2 id="pc-titulo"></h2>
+            <button type="button" class="cal-flecha" data-plan-mes="1" aria-label="Mes siguiente">›</button>
+          </div>
+          <div class="pc-semana" aria-hidden="true"><span>Lun</span><span>Mar</span><span>Mié</span><span>Jue</span><span>Vie</span><span>Sáb</span><span>Dom</span></div>
+          <div class="pc-grilla" id="pc-grilla"></div>
+        </section>
+        <div class="mi-plan" id="mi-plan" aria-live="polite">
+          <div class="mi-plan-cabezal">
+            <h2>Mi plan</h2>
+            <button type="button" class="borrar-todo" data-vaciar-plan>Vaciar</button>
+          </div>
+          <div class="mi-plan-acciones" id="mi-plan-acciones">
+            <button type="button" class="boton-principal" data-exportar="ics">Descargar calendario (.ics)</button>
+            <button type="button" class="boton-secundario" data-exportar="imprimir">Imprimir o guardar PDF</button>
+            <a class="boton-secundario" id="compartir-whatsapp" href="https://wa.me/" target="_blank" rel="noopener">Mandar por WhatsApp</a>
+            <button type="button" class="boton-secundario" data-exportar="copiar">Copiar como texto</button>
+            <span class="aviso-copiado" id="aviso-copiado" role="status" hidden>¡Copiado!</span>
+          </div>
+          <p class="mi-plan-vacio" id="mi-plan-vacio">Tu mes está vacío. Tocá un día del calendario para ver qué hay, y <strong>＋</strong> en lo que te interese.</p>
+          <details class="mi-plan-detalle" id="mi-plan-detalle">
+            <summary>Ver como lista, con enlaces a Google Calendar</summary>
+            <ol class="mi-plan-lista" id="mi-plan-lista"></ol>
+          </details>
+          <p class="mi-plan-ayuda">El archivo .ics se abre con Google Calendar (Configuración → Importar), Outlook o el calendario de Apple; si la fuente no informa a qué hora termina una función, se estiman 2 horas. Si preferís papel, "Imprimir" arma un calendario del mes para la heladera.</p>
+        </div>
+        <h2 class="plan-opciones-titulo">Qué hay para elegir</h2>
+        <div class="plan-dias" id="plan-dias"></div>
+      </section>
+      <ul class="eventos" id="eventos" hidden>
+        {%- for evento in eventos %}
+        {%- set lugar = lugares.get(evento.lugar_id, {}) %}
+        {%- set proxima = evento.funciones[0] %}
+        {%- set nivel = evento.precio|presupuesto %}
+        {%- set enlace = evento.entradas[0].url if evento.entradas else evento.fuentes[0].url %}
+        <li class="evento cat-{{ evento.categoria }}" data-id="{{ evento.id }}">
+          <a class="flyer" href="{{ enlace }}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+            {%- if evento.imagen_url %}
+            <img src="{{ evento.imagen_url }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">
+            {%- endif %}
+            <span class="flyer-respaldo">{{ nombres_categoria[evento.categoria] }}</span>
+            <span class="insignias">
+              {%- if nivel == "gratis" %}<span class="insignia insignia-gratis">Gratis</span>{% endif %}
+              {%- if evento.beneficios|selectattr("tipo", "equalto", "2x1")|list %}<span class="insignia insignia-promo">2x1</span>{% endif %}
+              {%- if evento.funciones|selectattr("agotada")|list|length == evento.funciones|length %}<span class="insignia insignia-agotado">Agotado</span>{% endif %}
+            </span>
+          </a>
+          <div class="cuerpo">
+            <p class="tipo">{{ nombres_categoria[evento.categoria] }}{% if evento.subcategoria in nombres_subcategoria %} · {{ nombres_subcategoria[evento.subcategoria] }}{% endif %}</p>
+            <h3><a href="{{ enlace }}" target="_blank" rel="noopener">{{ evento.titulo }}</a></h3>
+            <p class="lugar"><button type="button" class="enlace-sala" data-sala="{{ evento.lugar_id }}">{{ lugar.get("nombre", "") }}</button></p>
+            {%- set barrios = evento.funciones|map(attribute="sala")|select|unique|list %}
+            {%- if lugar.get("nombre") == varios_barrios and barrios|length > 1 %}
+            <details class="barrios"><summary>En {{ barrios|length }} lugares</summary><p>{{ barrios|join(" · ") }}</p></details>
+            {%- endif %}
+            <p class="cuando">
+              <time class="proxima" datetime="{{ proxima.inicio }}">{{ proxima.inicio|fecha_corta(proxima.sin_hora) }}</time>
+              {%- if evento.funciones|length > 1 %}
+              <span class="mas">+{{ evento.funciones|length - 1 }} función{{ "es" if evento.funciones|length > 2 }}</span>
+              {%- endif %}
+            </p>
+            {%- if evento.ciclo_id and evento.ciclo_id in ciclos %}
+            {%- set titulo_ciclo = ciclos[evento.ciclo_id].titulo %}
+            <p class="ciclo"><button type="button" class="enlace-ciclo" data-ciclo="{{ evento.ciclo_id }}">{{ titulo_ciclo if titulo_ciclo.lower().startswith("ciclo") else "Ciclo: " ~ titulo_ciclo }}</button></p>
+            {%- endif %}
+            <div class="pie">
+              {%- set precio = evento.precio|precio_texto %}
+              {%- if precio %}<span class="precio">{{ precio }}</span>{% endif %}
+              {%- for beneficio in evento.beneficios %}
+              {%- if beneficio.programa in ("2x1 para todos", "Promo grupal", "Otras promos") %}
+              <span class="beneficio">{{ beneficio.programa }}</span>
+              {%- else %}
+              <span class="beneficio">{{ "2x1" if beneficio.tipo == "2x1" else "Descuento" }} · {{ beneficio.programa }}</span>
+              {%- endif %}
+              {%- endfor %}
+            </div>
+            <p class="via">
+              {%- for entrada in evento.entradas %}
+              <a href="{{ entrada.url }}" target="_blank" rel="noopener">{{ "Ver en" if entrada.via in ("cartelera_mvd", "solis", "teatro_de_verano", "sodre", "galpon", "cinemateca") else "Entradas en" }} {{ fuentes.get(entrada.via, entrada.via) }} ↗</a>
+              {%- endfor %}
+              <button type="button" class="agregar-plan">＋ Mi plan</button>
+            </p>
+          </div>
+        </li>
+        {%- endfor %}
+      </ul>
+      <div class="vacio" id="vacio" hidden>
+        <p>No hay eventos con estos filtros.</p>
+        <button type="button" data-borrar="todo">Borrar filtros</button>
+      </div>
+    </main>
+  </div>
+
+  <footer class="contenedor pie-pagina">
+    <p>{{ sitio }} junta lo que publican {{ nombres_fuentes[:-1]|join(", ") }} y {{ nombres_fuentes[-1] }}. Los enlaces llevan siempre a la fuente original para comprar o reservar.
+       Proyecto sin fines de lucro · <a href="que-es.html">qué es La Gestoría</a> · <a href="https://github.com/danidlsa/cartelera-cultural">código</a> · <a href="eventos.json">datos</a>.</p>
+  </footer>
+
+  <div class="imprimible" id="imprimible" aria-hidden="true"></div>
+
+  <script id="datos" type="application/json">{{ datos_json|safe }}</script>
+  <script src="app.js"></script>
+</body>
+</html>

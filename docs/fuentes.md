@@ -1,6 +1,6 @@
 # Fuentes y técnicas de scraping
 
-Research de fuentes para la cartelera cultural de Montevideo (más conciertos grandes en Buenos Aires y walking tours).
+Research de fuentes para la cartelera cultural de Montevideo (con walking tours locales). Buenos Aires se investigó y quedó descartado por ahora (ver sección 6).
 Fecha: **30 de octubre de 2026**.
 
 Cada sitio se probó con requests reales desde Uruguay (HTML, `robots.txt`, sitemaps, APIs internas y, en algunos casos, el navegador para ver el tráfico de red), no solo con búsquedas.
@@ -13,6 +13,41 @@ Lo que dice **"a verificar"** no se pudo confirmar.
 
 ---
 
+## Estado de implementación (30/10/2026)
+
+| Fuente | Estado | Qué aporta en la cartelera unificada |
+|--------|--------|--------------------------------------|
+| Tickantel | ✅ scraper | ~145 espectáculos: Solís, Sodre, Antel Arena, salas de la IM |
+| RedTickets | ✅ scraper (catálogo completo, con caché) | ~500 eventos: salas chicas, bares, fiestas; promos de las entradas |
+| Sodre | ✅ scraper (endpoint JSON del calendario) | Hora de fin, elencos estables (Ballet Nacional del Sodre), títulos limpios; cruza exacto con Tickantel |
+| Cinemateca | ✅ scraper (calendario + JSON-RPC de Odoo) | Cartelera semanal de Cinemateca, con ciclos y duración |
+| Cartelera de Montevideo Portal | ✅ scraper | ~115 obras de teatro (más de 50 que no estaban en ninguna ticketera), con promos |
+| Teatro Solís | ✅ scraper (MVD CMS) | Sala interna, género y **Comedia Nacional** |
+| Teatro de Verano | ✅ scraper (MVD CMS) | Programación del Teatro de Verano |
+| El Galpón | ✅ scraper | Sala interna, hora de fin y promos (BROU, la diaria, socios) |
+| Portal de eventos IM | ✅ scraper (JSON:API, corre en la Mac) | Actividades municipales (Murga Joven, Carnaval de las Promesas, Atlantidoc, obras del programa Fortalecimiento de las Artes) y talleres barriales, casi todo gratis. Hoy son ~24 |
+| Sala Zitarrosa | ✅ scraper (HTML, corre en la Mac) | ~24 espectáculos, con sala, ciclos (MAREA, Fest Jazz), precios y promos (la diaria, Club El País); cruza exacto con Tickantel |
+| Ticketmaster.uy | ✅ scraper (Crowder, corre en la Mac) | Conciertos internacionales grandes. Hoy tiene uno solo (Foo Fighters, Estadio Centenario) |
+| Resto de la fase 2 y 3 | ⏳ pendientes | |
+
+**Detalles de las fuentes de la Mac:**
+
+- **Portal de eventos IM**: un "evento" del portal es un paraguas (Encuentro de Murga Joven, Envejecimiento activo) y cada "actividad" es lo que pasa en un lugar y una fecha. Se leen las actividades (`/jsonapi/node/actividad`, con sus funciones, lugares, categoría y público incluidos en el mismo pedido) y el paraguas queda como ciclo.
+  - **Entra todo menos el deporte** (decisión del 30/10/2026; antes se tomaba solo lo que tenía fecha): también recreación, gastronomía, institucional y **talleres, cursos y clases**, que van en su propia categoría, "Talleres y cursos". Las actividades con funciones repetidas (una obra de jueves y viernes durante seis semanas, un taller semanal hasta diciembre) entran con cada función expandida, hasta seis meses adelante.
+  - **Se descartan las que se repiten sin fecha de fin**: en el portal son actividades viejas (de 2025) o de vacaciones que nadie dio de baja, y si no se cortan aparecerían todas las semanas para siempre.
+  - **El audiovisual del portal entra como cine** (decisión): son proyecciones gratuitas, como las de Atlantidoc en centros culturales. "Cine solo Cinemateca" se refiere a no sumar las cadenas comerciales.
+  - El portal carga una actividad por fecha para algunos ciclos ("Murga Joven: domingo 15 de noviembre"): se unen en un solo evento con varias funciones.
+  - **Una actividad en 5 lugares o más** (por ejemplo, "Talleres de música: canto colectivo", en 9 barrios) va en **una sola tarjeta**, con el lugar "Varios barrios de Montevideo". El lugar de cada función queda guardado y la tarjeta lo muestra en un desplegable ("En 9 lugares"). En el mapa, ese lugar va en la explanada de la Intendencia, que organiza estas actividades. Con menos de 5 lugares sigue habiendo una tarjeta por lugar. El mínimo está en `MINIMO_PARA_JUNTAR_LUGARES`, en `cartelera/scrapers/portal_im.py`.
+  - Los enlaces de paginación que devuelve la API usan `http://`, y por ahí el servidor corta la conexión: se pasan a `https://`.
+  - Algunos lugares tienen la latitud y la longitud invertidas: se ordenan por rango.
+  - Los "eventos" paraguas que no tienen actividades (por ejemplo, Música en el Parque) no se toman, porque traen un rango de fechas y no funciones.
+- **Sala Zitarrosa**: la página `/programacion/` lista lo próximo y cada ficha trae funciones (día sin año y hora AM/PM), sala, precios, promos y el enlace a Tickantel. La API de WordPress (`/wp-json/wp/v2/evento`) no informa la fecha, así que no se usa.
+- **Ticketmaster.uy**: la portada enlaza a cada evento y la ficha trae un JSON (`bootstrapData`) con nombre, categoría, lugar con coordenadas y funciones. Si las funciones no están publicadas (entradas agotadas), la fecha sale de la descripción y queda sin hora. No informa precios en un formato legible.
+
+Las salas que ninguna fuente ubica se geolocalizan por dirección o nombre con Nominatim (OpenStreetMap), con caché en `datos/cache/geocodificacion.json`, y las salas conocidas pueden llevar coordenadas en `config/lugares_alias.toml`.
+
+---
+
 ## Decisiones tomadas
 
 - **Todo sale por scraping**, sin carga manual.
@@ -20,8 +55,8 @@ Lo que dice **"a verificar"** no se pudo confirmar.
 - **El proyecto es sin costo y sin fines de lucro**: no hay afiliados, comisiones ni publicidad. **Se deja de lado todo lo que genere costos**: servicios pagos de scraping, APIs de LLM, hosting pago.
 - **Alcance geográfico: solo Montevideo.** Tickantel, RedTickets y la categoría Turismo traen eventos del interior: hay que filtrarlos por departamento.
 - **Cine: solo la cartelera de Cinemateca.** Quedan fuera las cadenas comerciales (Life, Movie, Grupocine) y no hace falta coordinar con Cine Uruguay.
-- **Portal IM: solo eventos con fecha**, sin talleres ni actividades permanentes ("taller de circo", "milonga semanal").
-- **Buenos Aires: solo festivales y artistas internacionales en estadios y arenas.**
+- **Portal IM: todo menos el deporte** (desde el 30/10/2026; antes era solo lo que tenía fecha). Los talleres, cursos y clases van en su propio rubro.
+- **Buenos Aires: descartado por ahora** (decisión del 31/10/2026). La investigación queda en la sección 6 por si se retoma.
 - **MVP con Solís, Teatro de Verano y El Galpón**, además de las ticketeras. Parte de su programación ya llega por Tickantel o RedTickets, pero sus sitios suman lo que no pasa por ahí (funciones gratuitas, venta en boletería o en la web propia del Galpón).
 - **Productoras**: Gaucho, AM y Piano Piano; se suman más de a poco.
 
@@ -37,7 +72,7 @@ Lo que dice **"a verificar"** no se pudo confirmar.
 | 5 | Productoras (Gaucho, AM, Piano Piano) | Medio: anuncios antes de que salgan las entradas | S | Alta | 2 |
 | 3 | Redes sociales (Instagram) | Alto para lo under, pero sin costo solo es viable a medias | L | Baja | En pausa |
 | 7 | Walking tours y experiencias | Medio-alto: suma una categoría que casi ninguna cartelera tiene | S-M | Alta | 2 |
-| 6 | Buenos Aires y festivales | Alto para vos, bajo volumen | M | Media | 3 |
+| 6 | Buenos Aires y festivales | Alto para vos, bajo volumen | M | Media | Descartado por ahora |
 
 ### Hallazgos clave
 
@@ -54,7 +89,7 @@ Lo que dice **"a verificar"** no se pudo confirmar.
    - *WordPress*: Sodre, Zitarrosa, El Galpón, Teatro Circular y Cosquín Rock.
 6. **RedTickets no es RED UTS.** Ticketmaster compró RED UTS (agosto de 2026), que hoy tiene muy pocos eventos y va a migrar a ticketmaster.uy. RedTickets es otra empresa y no se ve afectada.
 7. **"Primavera 0" es uruguayo**: es el festival de **Gaucho** (trajo a The Cure, Blur y Nick Cave). Por eso va en el grupo 5, no en Buenos Aires. El de Buenos Aires es **Primavera Sound BA** (28 y 29 de noviembre de 2026, Costanera Sur).
-8. **Bloqueos de IP**: con una VPN de Colombia, Ticketmaster.uy, All Access y los sitios de la IM no respondían o daban 403; desde Uruguay andan todos. **Los scrapers tienen que correr desde una IP que estos sitios acepten** (ver Infraestructura).
+8. **Bloqueos de IP**: desde una IP de fuera de Uruguay, Ticketmaster.uy, All Access y los sitios de la IM no respondían o daban 403; desde Uruguay andan todos. **Los scrapers tienen que correr desde una IP que estos sitios acepten** (ver Infraestructura).
 9. **[Vamos Eventos](https://www.vamoseventos.com) es competencia, no fuente.** Es un agregador cerrado con más de 100 ciudades. Sus términos **prohíben el scraping** y bloquea los bots con un checkpoint de Vercel (ver sección 2).
 10. **El dominio del Castillo Pittamiglio (`castillopittamiglio.org`) fue tomado por un sitio de apuestas.** No hay que usarlo ni enlazarlo. Las entradas y visitas del Castillo están en RedTickets.
 11. **Los walking tours locales salen casi gratis**: la categoría Turismo de RedTickets (Peatonal Tours, visitas al Palacio Salvo, Castillo Pittamiglio) y la categoría Paseos del portal IM se cubren con scrapers que ya están en la fase 1. Hay que modelar los tours **recurrentes** aparte de los eventos con fecha (ver sección 7).
@@ -185,9 +220,9 @@ Lo miré con el navegador, porque bloquea los requests automáticos con un check
 
 | Ticketera | Qué cubre | Tecnología | Técnica | Esfuerzo | Viabilidad | Notas |
 |-----------|-----------|------------|---------|----------|------------|-------|
-| **[Tickantel](https://tickantel.com.uy)** | Solís, Antel Arena, Sodre, salas IM, deporte, interior | Next.js | 1) `shows-sitemap.xml` lista **~205 espectáculos** activos. 2) Cada página trae un payload estructurado con `title`, `venue`, `date`, `fechaDesde`, `fechaHasta` y `fechaProxFuncion`. | S-M | **Alta** | El `robots.txt` lo permite y publica el sitemap. Incluye el interior (Teatro Macció en San José, Politeama en Canelones): **hay que filtrar por departamento**. |
-| **[RedTickets](https://www.redtickets.uy)** | Salas chicas e independientes, bares, fiestas, MMB | GeneXus, HTML del servidor | La portada trae objetos JSON con `EventName`, `Link`, `ImageUrl`, `DateDescription` y `Place` (**~168 eventos**). El detalle `/evento/<slug>/<id>/` agrega la dirección. También hay `/busqueda`. | S-M | **Alta** | El `robots.txt` lo permite. En la portada la fecha viene en texto ("Viernes 30 de Octubre"), pero **el detalle de cada evento trae las funciones estructuradas** (`Dates` → `Times` → `Tickets`, con fecha ISO, hora, agotado, precio, coordenadas y productor). Dice tener más de la mitad de los eventos del país. **No es RED UTS**: no lo afecta la compra de Ticketmaster. |
-| **[Ticketmaster.uy](https://www.ticketmaster.uy)** | Conciertos internacionales grandes (desde agosto de 2026) | *Crowder* (la plataforma de Ticketmaster en Latinoamérica), HTML del servidor | La portada trae las *cards* en JSON con `title`, `description` (la fecha en texto) y `link` (`/event/<slug>`). El detalle trae **JSON-LD `Event`** con el lugar y la dirección. | S | **Alta** | Su `robots.txt` no restringe a los bots genéricos. **Mismo parser que All Access (Buenos Aires).** Hoy tiene pocos eventos (Foo Fighters 2027), pero va a crecer con los recitales grandes. Desde la IP de Colombia daba 403. |
+| **[Tickantel](https://tickantel.com.uy)** | Solís, Antel Arena, Sodre, salas IM, deporte, interior | Next.js | 1) `shows-sitemap.xml` lista **~205 espectáculos** activos. 2) Cada página trae un payload estructurado con `title`, `venue`, `date`, `fechaDesde`, `fechaHasta` y `fechaProxFuncion`. | S-M | **Alta** | El `robots.txt` lo permite y publica el sitemap. Incluye el interior (Teatro Macció en San José, Politeama en Canelones): **hay que filtrar por departamento**. La página no informa la categoría, y algunas funciones canceladas siguen como "programadas" en el JSON-LD: la cancelación se lee del aviso de cada función. |
+| **[RedTickets](https://www.redtickets.uy)** | Salas chicas e independientes, bares, fiestas, MMB | GeneXus, HTML del servidor | **El catálogo completo está en la búsqueda paginada** (`/busqueda?,,,0,N`, 24 eventos por página, unos 800 eventos de todo el país). La portada y las categorías muestran solo una parte. El listado trae la categoría (permite descartar deportes y cursos sin abrir el detalle); el detalle `/evento/<slug>/<id>/` trae la ciudad, las funciones y la dirección. Un caché (`datos/cache/redtickets.json`) evita volver a abrir cada detalle más de una vez por día, y los eventos de otras ciudades, más de una vez por semana: la primera corrida tarda unos 13 minutos y las siguientes, 1 o 2. | M | **Alta** | El `robots.txt` lo permite. En la portada la fecha viene en texto ("Viernes 30 de Octubre"), pero **el detalle de cada evento trae las funciones estructuradas** (`Dates` → `Times` → `Tickets`, con fecha ISO, hora, agotado, precio, coordenadas y productor). También trae la **categoría** y la **ciudad** de cada evento, y los tipos de entrada muestran los **beneficios** ("2x1 La Diaria", "50% OFF Socio Espectacular"). Dice tener más de la mitad de los eventos del país. **No es RED UTS**: no lo afecta la compra de Ticketmaster. |
+| **[Ticketmaster.uy](https://www.ticketmaster.uy)** | Conciertos internacionales grandes (desde agosto de 2026) | *Crowder* (la plataforma de Ticketmaster en Latinoamérica), HTML del servidor | La portada trae las *cards* en JSON con `title`, `description` (la fecha en texto) y `link` (`/event/<slug>`). El detalle trae **JSON-LD `Event`** con el lugar y la dirección. | S | **Alta** | Su `robots.txt` no restringe a los bots genéricos. **Mismo parser que All Access (Buenos Aires).** Hoy tiene pocos eventos (Foo Fighters 2027), pero va a crecer con los recitales grandes. Desde una IP de fuera de Uruguay daba 403. |
 | [RED UTS](https://reduts.com.uy) | Eventos masivos (hoy casi nada) | Palco4, app JS con llamadas DWR | Navegador headless | M | Baja | Comprada por Ticketmaster; va a migrar a ticketmaster.uy. **No vale la pena.** |
 | [Passline](https://www.passline.com) | Electrónica, fiestas, eventos chicos (Uruguay y Argentina) | App JS sobre una **API REST interna** (`api.passline.com/v1/...`) | Mapear los endpoints de eventos con el navegador y consumir la API | M | Media-Alta | Detecté la API, pero falta mapear qué endpoints traen los eventos. |
 | Abitab | Variado; **entradas de Carnaval** en el Teatro de Verano | Cloudflare con desafío anti-bot (403 `cf-mitigated: challenge`) | **No scrapear** (sería saltearse un bloqueo). El dato tiene que salir del Teatro de Verano, del portal de la IM o de la productora. | — | Baja | |
@@ -208,6 +243,8 @@ Lo miré con el navegador, porque bloquea los requests automáticos con un check
 ---
 
 ## 6) Buenos Aires: conciertos internacionales y festivales
+
+> **Descartado por ahora (31/10/2026).** Queda la investigación por si se retoma.
 
 | Fuente | Tipo | Resultado de la prueba | Técnica | Viabilidad |
 |--------|------|------------------------|---------|------------|
@@ -297,14 +334,14 @@ El mismo evento puede llegar por Tickantel, la web de la sala, la Cartelera, el 
   - **Scrapers**: GitHub Actions con un cron diario (gratis en repos públicos).
   - **Datos**: un JSON versionado en el mismo repo, o la capa gratuita de Supabase.
   - **Web**: GitHub Pages, Vercel o Netlify en su plan gratis.
-- **Desde dónde corren los scrapers importa.** Con la VPN de Colombia, Ticketmaster.uy y All Access daban 403 y los sitios de la IM no respondían; desde Uruguay andan. GitHub Actions corre en EE. UU., así que **hay que probar si estos sitios aceptan sus IPs** antes de decidir. Si no, la alternativa sin costo es correr los scrapers en una máquina propia en Uruguay (una compu o una Raspberry Pi con cron) y publicar desde ahí.
+- **Desde dónde corren los scrapers importa.** Desde una IP de fuera de Uruguay, Ticketmaster.uy y All Access daban 403 y los sitios de la IM no respondían; desde Uruguay andan. GitHub Actions corre en EE. UU., así que **hay que probar si estos sitios aceptan sus IPs** antes de decidir. Si no, la alternativa sin costo es correr los scrapers en una máquina propia en Uruguay (una compu o una Raspberry Pi con cron) y publicar desde ahí.
 - **Prueba de conectividad**: [`scripts/check-fuentes.sh`](../scripts/check-fuentes.sh) pide cada fuente de las fases 1 a 3 con dos User-Agent (uno propio e identificable y uno de navegador) y verifica que la respuesta traiga el dato esperado. El workflow [`check-fuentes.yml`](../.github/workflows/check-fuentes.yml) corre el mismo script en GitHub Actions.
   - **Desde Uruguay (30/10/2026): 19 de 19 fuentes OK, también con el User-Agent propio.**
   - **Desde GitHub Actions (IP de EE. UU., 30/10/2026): 15 de 19 OK.** Fallan con los dos User-Agent:
 
     | Fuente | Error | Probable causa |
     |--------|-------|----------------|
-    | Portal de eventos IM | timeout | La infraestructura de la IM no responde a IPs de fuera de Uruguay (igual que con la VPN) |
+    | Portal de eventos IM | timeout | La infraestructura de la IM no responde a IPs de fuera de Uruguay (igual que desde otras IPs de afuera) |
     | Sala Zitarrosa | timeout | Idem (subdominio de la IM) |
     | Ticketmaster.uy | 403 | La plataforma Crowder bloquea IPs extranjeras o de datacenter |
     | All Access | 403 | Idem (misma plataforma) |
@@ -314,16 +351,16 @@ El mismo evento puede llegar por Tickantel, la web de la sala, la Cartelera, el 
 ### Arquitectura resultante: híbrida y sin costo
 
 - **GitHub Actions** corre las 15 fuentes que responden (todas las demás del MVP) y publica la web.
-- **La Mac en Uruguay corre las 4 bloqueadas** (decisión del 30/10/2026). Está siempre prendida en reposo y se usa los días de semana de 10 a 18 h.
+- **La Mac en Uruguay corre las bloqueadas** (decisión del 30/10/2026): el portal IM, la Zitarrosa y Ticketmaster.uy. Queda prendida, a veces en reposo.
 - **Se usa un job de `launchd`** (el programador de tareas de macOS), **no un runner self-hosted de GitHub**:
   - **Seguridad:** el repo es público, y GitHub desaconseja runners self-hosted en repos públicos, porque un pull request de un tercero podría ejecutar código en la máquina.
   - **Reposo:** si la Mac estaba dormida a la hora programada, `launchd` corre el job apenas se despierta. Un runner, en cambio, deja el job en cola y GitHub lo cancela a las 24 horas.
   - **El job** corre los 4 scrapers, guarda el JSON y hace `git push`. Después, GitHub Actions arma la web con todo junto.
 - **Horario sugerido**: días de semana a las 11 h. Si la Mac está dormida, corre cuando se despierte.
-- **Fines de semana**: esas 4 fuentes quedan con el dato del viernes. No es grave, porque los eventos del finde ya se scrapearon antes. Si hiciera falta, macOS permite programar que la Mac se despierte sola a una hora fija (Configuración del sistema o `pmset`); es un ajuste del sistema que tendrías que hacer vos.
+- **Fines de semana**: esas fuentes quedan con el dato del viernes. No es grave, porque los eventos del finde ya se scrapearon antes. Si hiciera falta, macOS permite programar que la Mac se despierte sola a una hora fija (Configuración del sistema o `pmset`); es un ajuste del sistema que tendrías que hacer vos.
 - **Cada fuente guarda su último resultado bueno**, para que una caída, un bloqueo o la Mac apagada no vacíen la cartelera.
 - **Más adelante**, si molesta depender de la Mac, el mismo job se pasa a una compu vieja con Linux o a una Raspberry Pi (pagando el hardware) sin cambiar el código.
-- **Lo que más importa del runner local es el portal IM** (eventos municipales y gratuitos). Ticketmaster.uy tiene pocos eventos, la Zitarrosa en parte vende por Tickantel y All Access es de la fase 3.
+- **Lo que más importa del runner local es el portal IM** (eventos municipales y gratuitos). Ticketmaster.uy tiene pocos eventos, y la Zitarrosa en parte vende por Tickantel.
 - **El repo es público** (desde el 30/10/2026): GitHub Actions no tiene límite de minutos y **GitHub Pages es gratis**, así que scrapers y web pueden vivir en el mismo repo sin costo.
 - **Portal IM**: hay que filtrar siempre por `filter[status]=1`; si no, la API devuelve ítems despublicados vacíos ("insufficient authorization").
 - Guardar el HTML o JSON crudo de cada corrida durante unos días: ayuda muchísimo a depurar cuando un parser se rompe.
@@ -336,8 +373,8 @@ El mismo evento puede llegar por Tickantel, la web de la sala, la Cartelera, el 
 |------|---------|--------------|
 | **1. MVP** | **Ticketeras**: Tickantel, RedTickets, Ticketmaster.uy. **Carteleras**: portal de eventos IM (JSON:API, solo eventos), Cartelera de Montevideo Portal (teatro). **Salas**: Sodre y Zitarrosa (API WP), Solís y Teatro de Verano (parser compartido), El Galpón. **Cine**: Cinemateca. Todo filtrado a Montevideo. | La gran mayoría de la cartelera visible, lo municipal y el cine de Cinemateca, con fuentes estables y sin costo |
 | 2 | Gaucho, AM, Piano Piano, beneficios de la diaria, Sala del Museo, Teatro Circular, Fever, Passline. **Tours**: RedTickets Turismo, eventos de la categoría Paseos de la IM, Peatonal Tours, Día del Patrimonio y Museos en la Noche | Anuncios tempranos, más salas y la sección de walking tours locales |
-| 3 | Buenos Aires: All Access (parser de Ticketmaster.uy), Livepass, festivales (Lollapalooza, Primavera Sound, Cosquín Rock), Movistar Arena | Festivales y artistas internacionales en estadios y arenas |
 | En pausa | Instagram, Socio Espectacular | Requieren LLM para andar bien, y eso tiene costo |
+| Descartado por ahora | Buenos Aires: All Access, Livepass, festivales, Movistar Arena | Decisión del 31/10/2026 |
 
 ---
 

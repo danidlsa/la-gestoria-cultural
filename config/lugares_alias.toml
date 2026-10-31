@@ -1,0 +1,78 @@
+# Lugares que aparecen con distintos nombres según la fuente.
+# Es la única parte mantenida a mano: configuración, no carga de eventos.
+# Cada nombre (y sus alias) se compara sin tildes ni mayúsculas.
+
+[[lugar]]
+id = "auditorio-nacional-del-sodre"
+nombre = "Auditorio Nacional del Sodre"
+alias = ["Auditorio Adela Reta", "Auditorio Nacional del Sodre Dra. Adela Reta", "Auditorio Nacional Adela Reta", "Sodre"]
+
+[[lugar]]
+id = "teatro-el-galpon"
+nombre = "Teatro El Galpón"
+alias = ["Teatro Galpón", "El Galpón", "Teatro Galpon Sala Cero"]
+
+[[lugar]]
+id = "teatro-solis"
+nombre = "Teatro Solís"
+alias = ["Solís", "Teatro Solis"]
+
+[[lugar]]
+id = "sala-del-museo"
+nombre = "Sala del Museo"
+alias = ["Sala del Museo del Carnaval", "Museo del Carnaval"]
+
+[[lugar]]
+id = "montevideo-music-box"
+nombre = "Montevideo Music Box"
+alias = ["MMB"]
+
+[[lugar]]
+id = "cinemateca"
+nombre = "Cinemateca"
+alias = ["Cinemateca Uruguaya", "Cinemateca 18"]
+direccion = "Bartolomé Mitre 1236"
+lat = -34.908515
+lon = -56.2008552
+
+[[lugar]]
+id = "teatro-acj"
+nombre = "Teatro ACJ"
+alias = ["Asociación Cristiana de Jóvenes", "ACJ"]
+
+[[lugar]]
+id = "telon-rojo"
+nombre = "Telón Rojo Espacio Teatral"
+alias = ["Escuela de Actuación ESCUELA DEL ACTOR. Teatro TELON ROJO", "Teatro Telón Rojo"]
+
+[[lugar]]
+id = "teatro-alianza"
+nombre = "Teatro Alianza"
+alias = ["Paraguay 1217", "Alianza Cultural Uruguay Estados Unidos"]
+
+[[lugar]]
+id = "teatro-de-verano"
+nombre = "Teatro de Verano Ramón Collazo"
+alias = ["Teatro de Verano", "Teatro de Verano Ramon Collazo"]
+direccion = "Rambla Wilson s/n, Parque Rodó"
+lat = -34.9177
+lon = -56.1686
+
+[[lugar]]
+id = "estadio-centenario"
+nombre = "Estadio Centenario"
+alias = ["Centenario"]
+lat = -34.8946
+lon = -56.1528
+
+# Actividades municipales que se hacen en muchos barrios a la vez (ver scrapers/portal_im.py).
+# No hay un lugar único: el punto del mapa es la Intendencia (su explanada), que las organiza. `solo_por_nombre` evita que
+# se le sumen, por cercanía, los eventos que sí son en la Intendencia (el Atrio, por ejemplo).
+[[lugar]]
+id = "varios-barrios-de-montevideo"
+nombre = "Varios barrios de Montevideo"
+alias = []
+solo_por_nombre = true
+# Unos 80 m al noreste del edificio (la explanada), para no tapar el punto de los eventos en la Intendencia.
+lat = -34.90600
+lon = -56.18550
