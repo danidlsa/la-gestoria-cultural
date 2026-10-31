@@ -76,3 +76,23 @@ solo_por_nombre = true
 # Unos 80 m al noreste del edificio (la explanada), para no tapar el punto de los eventos en la Intendencia.
 lat = -34.90600
 lon = -56.18550
+
+# Casa de Juan Zorrilla de San Martín, en Punta Carretas. No es el Espacio Zorrilla (Cerrito 475, Ciudad Vieja):
+# sin las palabras genéricas los dos nombres quedan iguales, por eso se asigna solo por nombre.
+[[lugar]]
+id = "museo-zorrilla"
+nombre = "Museo Zorrilla"
+alias = ["Museo Casa de Zorrilla", "Museo Juan Zorrilla de San Martín"]
+solo_por_nombre = true
+direccion = "José Luis Zorrilla de San Martín 96, Punta Carretas"
+lat = -34.92763
+lon = -56.15977
+
+# La sala de teatro está dentro del museo: un solo lugar con el nombre del museo.
+[[lugar]]
+id = "museo-torres-garcia"
+nombre = "Museo Torres García"
+alias = ["Teatro del Museo - Museo Torres García", "Teatro del Museo Torres García"]
+direccion = "Sarandí 683"
+lat = -34.90646
+lon = -56.20138

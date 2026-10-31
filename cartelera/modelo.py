@@ -1,6 +1,6 @@
 """Modelo de datos de la cartelera (ver docs/diseno.md)."""
 
-from datetime import datetime
+from datetime import date, datetime
 from typing import Annotated, Literal
 
 from pydantic import AfterValidator, BaseModel, field_validator
@@ -97,6 +97,9 @@ class EventoCrudo(BaseModel):
     # Enlaces a eventos de otras fuentes (por ejemplo, a RedTickets), para deduplicar de forma exacta.
     enlaces: list[str] = []
     ciclo: str | None = None  # nombre del ciclo, cuando la fuente lo informa (Cinemateca)
+    # Una exposición: se muestra con su período ("Hasta el 28 feb") y no como una función por día.
+    muestra: bool = False
+    hasta: date | None = None  # cierre de la exposición, si la fuente lo informa
 
 
 class ResultadoFuente(BaseModel):
@@ -149,6 +152,8 @@ class Evento(BaseModel):
     lugar_id: str
     ciclo_id: str | None = None
     ciclo_nombre: str | None = None  # el que informa la fuente; si no hay, se detecta por el título
+    muestra: bool = False
+    hasta: date | None = None
     funciones: list[Funcion]
     precio: Precio | None = None
     entradas: list[Entrada] = []

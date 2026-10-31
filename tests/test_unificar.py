@@ -168,3 +168,19 @@ def test_una_actividad_en_varios_barrios_va_en_la_intendencia(ahora):
     assert lugar_de == {"Canto colectivo": "varios-barrios-de-montevideo", "Muestra en el Atrio": "intendencia-de-montevideo"}
     varios = next(l for l in lugares if l.id == "varios-barrios-de-montevideo")
     assert (round(varios.lat, 3), round(varios.lon, 3), varios.alias) == (-34.906, -56.185, [])
+
+
+def test_un_enlace_equivocado_no_une_dos_obras_distintas(ahora):
+    funcion = ahora + timedelta(days=3)
+    eterno = crudo("redtickets", "33647", "El eterno, glorioso y más pequeño circo del mundo", "Teatro El Galpón", funcion)
+    cenizas = crudo("redtickets", "33244", "Cenizas de Familia", "Teatro Alianza", funcion)
+    # El beneficio de "Cenizas de familia" enlaza, por error, a la entrada de "El eterno…".
+    beneficio = crudo("ladiaria", "18274", "Cenizas de familia", "Teatro Alianza", funcion,
+                      enlaces=["https://www.redtickets.uy/evento/El-eterno-glorioso/33647/"])
+    # El Galpón y el Alianza están en lugares distintos.
+    cenizas.lugar = beneficio.lugar = LugarCrudo(nombre="Teatro Alianza", lat=-34.9065, lon=-56.1975)
+    eventos, _, _ = armar_cartelera([resultado("redtickets", [eterno, cenizas], ahora), resultado("ladiaria", [beneficio], ahora)], [], ahora)
+    titulos = sorted(e.titulo for e in eventos)
+    assert titulos == ["Cenizas de Familia", "El eterno, glorioso y más pequeño circo del mundo"]
+    cenizas_final = next(e for e in eventos if e.titulo == "Cenizas de Familia")
+    assert {p.fuente for p in cenizas_final.fuentes} == {"redtickets", "ladiaria"}  # se une por sala, día y título

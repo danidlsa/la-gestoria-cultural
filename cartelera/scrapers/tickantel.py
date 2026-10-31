@@ -1,13 +1,19 @@
-"""Tickantel: el sitemap lista los espectáculos y cada página trae un Event JSON-LD por función."""
+"""Tickantel: el sitemap lista los espectáculos y cada página trae un Event JSON-LD por función.
+
+Las páginas de "alta demanda" (con fila virtual, como La Trampa) no traen el JSON-LD. Para esas, las
+funciones se arman con el resumen de la página ("del 12/05/2027 al 15/05/2027 en Antel Arena") y el
+horario ("Miércoles, Jueves y Sábado a las 21:00h").
+"""
 
 import html
 import json
 import logging
 import re
-from datetime import datetime, timedelta
+from datetime import date, datetime, time, timedelta
 
 from cartelera.categorias import categoria_por_lugar, clasificar, es_deporte, esta_cancelado
-from cartelera.extraer import jsonld_de_tipo, payload_next, recortar
+from cartelera.extraer import jsonld_de_tipo, meta, objeto_json_que_contiene, payload_next, precio_de, recortar, texto_plano
+from cartelera.geo import sin_tildes
 from cartelera.geo import en_montevideo
 from cartelera.http import Cliente
 from cartelera.modelo import Entrada, EventoCrudo, Funcion, LugarCrudo, Precio
@@ -17,6 +23,8 @@ SITEMAP = "https://tickantel.com.uy/shows-sitemap.xml"
 TIPOS_EVENTO = ("Event", "MusicEvent", "TheaterEvent", "DanceEvent", "ComedyEvent", "Festival", "SportsEvent")
 # Funciones que empezaron hace menos de esto todavía se muestran (por ejemplo, el mismo día).
 MARGEN_PASADO = timedelta(hours=6)
+_RANGO = re.compile(r"(?:del|el) (\d{2})/(\d{2})/(\d{4})(?: al (\d{2})/(\d{2})/(\d{4}))? en (.+?)\.")
+_DIAS = {"lunes": 0, "martes": 1, "miercoles": 2, "jueves": 3, "viernes": 4, "sabado": 5, "domingo": 6}
 log = logging.getLogger(__name__)
 
 
@@ -57,12 +65,57 @@ def funciones_canceladas(pagina: str) -> set[str]:
     }
 
 
+def parsear_alta_demanda(pagina: str, url: str, ahora: datetime) -> EventoCrudo | None:
+    """Página con fila virtual: sin JSON-LD, las funciones salen del resumen y del horario."""
+    resumen = meta(pagina, "og:description") or ""
+    rango = _RANGO.search(resumen)
+    id_externo = id_de_url(url)
+    if not rango or not id_externo:
+        return None
+    desde = date(int(rango.group(3)), int(rango.group(2)), int(rango.group(1)))
+    hasta = date(int(rango.group(6)), int(rango.group(5)), int(rango.group(4))) if rango.group(4) else desde
+    datos = objeto_json_que_contiene(payload_next(pagina), "dateRangeLabel") or {}
+    horario = sin_tildes(datos.get("schedule") or "")
+    hora = re.search(r"(\d{1,2})[:.](\d{2})", horario)
+    # "Miércoles, Jueves y Sábado": solo esos días del rango. Sin días nombrados, todos los del rango.
+    dias_semana = {n for nombre, n in _DIAS.items() if re.search(rf"\b{nombre}\b", horario)}
+    funciones = []
+    dia = desde
+    while dia <= hasta and len(funciones) < 60:
+        if not dias_semana or dia.weekday() in dias_semana:
+            inicio = datetime.combine(dia, time(int(hora.group(1)), int(hora.group(2))) if hora else time(0, 0), tzinfo=ahora.tzinfo)
+            if inicio >= ahora - MARGEN_PASADO:
+                funciones.append(Funcion(inicio=inicio, sin_hora=not hora))
+        dia += timedelta(days=1)
+    if not funciones:
+        return None
+    titulo = html.unescape(meta(pagina, "og:title") or "").strip()
+    descripcion = texto_plano(datos.get("aboutShow"))
+    lugar = rango.group(7).strip()
+    return EventoCrudo(
+        fuente=NOMBRE,
+        id_externo=id_externo,
+        url=url,
+        titulo=titulo,
+        # Las de alta demanda casi siempre son recitales grandes.
+        categoria=clasificar(titulo, descripcion, por_defecto=categoria_por_lugar(lugar).replace("otros", "musica")),
+        descripcion_corta=recortar(descripcion),
+        lugar=LugarCrudo(nombre=lugar),
+        funciones=funciones,
+        precio=precio_de(resumen),
+        entradas=[Entrada(url=url, via=NOMBRE)],
+        imagen_url=meta(pagina, "og:image"),
+    )
+
+
 def parsear_espectaculo(pagina: str, url: str, ahora: datetime) -> EventoCrudo | None:
     """Arma el evento con las funciones futuras. Devuelve None si no le queda ninguna."""
     eventos = jsonld_de_tipo(pagina, *TIPOS_EVENTO)
     id_externo = id_de_url(url)
-    if not eventos or not id_externo:
+    if not id_externo:
         return None
+    if not eventos:
+        return parsear_alta_demanda(pagina, url, ahora)
 
     canceladas = funciones_canceladas(pagina)
     funciones, precios = [], []

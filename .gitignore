@@ -9,5 +9,8 @@ __pycache__/
 /datos/
 /sitio_generado/
 
+# Investigación de fuentes: queda solo en el equipo, no se publica.
+/docs/fuentes.md
+
 # Vista previa local
 .claude/launch.json

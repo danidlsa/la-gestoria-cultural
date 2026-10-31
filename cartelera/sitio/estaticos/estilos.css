@@ -108,6 +108,8 @@ h1 span {
 .que-es li::marker { color: var(--coral); }
 .que-es a { color: var(--cobalto-texto); font-weight: 600; text-underline-offset: 3px; }
 .que-es p:last-child { font-weight: 700; }
+.que-es-fuentes { max-width: 680px; margin: -30px auto 60px; padding: 4px 30px; color: var(--texto-suave); line-height: 1.6; }
+.que-es-fuentes h2 { font: 800 1.15rem var(--display); color: var(--texto); margin-bottom: 4px; }
 @media (max-width: 600px) { .que-es { padding: 20px 18px; margin-top: 22px; } }
 
 .chispa { display: inline-block; color: var(--mostaza); animation: girar 6s linear infinite; }
@@ -117,7 +119,7 @@ h1 span {
   .chispa { animation: none; }
   *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; }
   .evento:hover, .atajos button:hover, .opciones button:hover, .chip-activo:hover, .cal-dia:not(:disabled):hover,
-  .boton-secundario:hover, .boton-principal:hover { transform: none; }
+  .boton-secundario:hover, .boton-principal:hover, .mapa .punto:hover { transform: none; }
 }
 .secciones .pronto { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; background: var(--coral); color: var(--tinta); border-radius: 999px; padding: 1px 7px; margin-left: 4px; }
 
@@ -142,6 +144,9 @@ h1 span {
 .excluir summary { cursor: pointer; font-weight: 700; color: var(--coral-texto); }
 .excluir .ayuda { font-size: 0.82rem; color: var(--texto-suave); margin: 6px 0; }
 .cuenta-excluir { font-size: 0.75rem; background: var(--coral); color: var(--tinta); border-radius: 999px; padding: 0 7px; margin-left: 4px; }
+/* Listas largas: lo que pasa de los primeros botones se pliega detrás de "Más…" (el elegido se ve siempre). */
+.opciones.plegada:not(.abierta) .extra:not(.activo) { display: none; }
+.opciones .ver-mas { border-style: dashed; background: transparent; color: var(--cobalto-texto); }
 .opciones button.excluido { background: var(--coral); color: var(--tinta); border-color: var(--borde); text-decoration: line-through; }
 .opciones button.excluido::before { content: "− "; }
 .subrubros { margin-top: 8px; padding: 8px; border-radius: 12px; background: color-mix(in srgb, var(--mostaza) 22%, transparent); }
@@ -198,6 +203,22 @@ select {
 .mapa .leaflet-tile-pane { filter: grayscale(0.55) sepia(0.2) hue-rotate(-10deg) contrast(0.97); }
 [data-tema="oscuro"] .mapa .leaflet-tile-pane { filter: grayscale(0.7) invert(1) sepia(0.15) hue-rotate(185deg) brightness(0.9) contrast(0.95); }
 .mapa .leaflet-popup-content { font: 0.92rem var(--sans); color: var(--tinta); }
+.mapa { position: relative; }
+.mapa-pista {
+  position: absolute; inset: 0; z-index: 1000; display: grid; place-items: center; padding: 20px; text-align: center;
+  background: rgba(24, 38, 74, 0.55); color: #fff; font: 700 1.05rem var(--sans); pointer-events: none; opacity: 0; transition: opacity 0.2s;
+}
+.mapa-pista.visible { opacity: 1; }
+.mapa .punto { transform-box: fill-box; transform-origin: center; transition: transform 0.15s ease-out, filter 0.15s; cursor: pointer; }
+.mapa .punto:hover { transform: scale(1.45); filter: drop-shadow(2px 2px 0 rgba(24, 38, 74, 0.45)); }
+.mapa .leaflet-tooltip { font: 600 0.85rem var(--sans); color: var(--tinta); border: 2px solid var(--tinta); border-radius: 8px; box-shadow: 3px 3px 0 var(--tinta); }
+.tipo-popup { font-size: 0.8rem; color: #4A5578; }
+.mapa-leyenda { display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; margin: -6px 0 16px; padding: 0; font-size: 0.85rem; color: var(--texto-suave); }
+.mapa-leyenda li { display: flex; align-items: center; gap: 7px; }
+.punto-leyenda { width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--tinta); flex: none; }
+.tipo-grande { background: var(--cobalto); } .tipo-sala { background: var(--coral); }
+.tipo-museo { background: var(--mostaza); } .tipo-otro { background: var(--crema); }
+[data-tema="oscuro"] .punto-leyenda { border-color: var(--crema); }
 .ver-sala { margin-top: 8px; border: 2px solid var(--tinta); background: var(--cobalto); color: #fff; border-radius: 999px; padding: 3px 12px; font-weight: 700; }
 
 .eventos { list-style: none; margin: 0; padding: 0; display: grid; gap: 22px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
@@ -237,17 +258,49 @@ select {
 .enlace-sala, .enlace-ciclo { border: none; background: none; padding: 2px 0; min-height: 24px; text-align: left; color: inherit; text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px; }
 .enlace-ciclo { color: var(--cobalto-texto); font-weight: 600; }
 .cuando time { color: var(--texto); font-weight: 700; }
+.cuando .periodo { color: var(--texto); font-weight: 700; }
 .cuando .mas { margin-left: 6px; font-size: 0.82rem; }
 .pie { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; align-items: center; }
 .precio { font: 800 1rem var(--display); }
 .beneficio { font-size: 0.76rem; font-weight: 700; color: var(--tinta); background: color-mix(in srgb, var(--coral) 28%, #FFF8EC); border-radius: 999px; padding: 1px 9px; }
+/* "+3 promos": las demás promos, plegadas para que la tarjeta no se llene de etiquetas. */
+.mas-promos { display: contents; }
+.mas-promos summary { cursor: pointer; list-style: none; font-size: 0.78rem; font-weight: 700; color: var(--cobalto-texto); text-decoration: underline; text-underline-offset: 3px; min-height: 24px; display: inline-flex; align-items: center; }
+.mas-promos summary::-webkit-details-marker { display: none; }
+.mas-promos[open] summary { display: none; }
 .via { margin: auto 0 0; padding-top: 10px; font-size: 0.88rem; display: flex; flex-wrap: wrap; gap: 4px 12px; }
 .via a { color: var(--cobalto-texto); font-weight: 700; text-decoration: none; }
 .via a:hover { text-decoration: underline; }
 .vacio { text-align: center; padding: 48px 0; }
+
+/* --- Especiales: una tarjeta por jornada grande del año ----------------------------------------- */
+.principal.sin-filtros { grid-template-columns: minmax(0, 1fr); }
+.sin-filtros .filtros, .sin-filtros .barra, .sin-filtros .barra-movil { display: none; }
+.especiales { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); gap: 20px; align-items: start; }
+.especial {
+  background: var(--superficie); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 5px 5px 0 var(--sombra);
+  padding: 16px 18px; display: flex; flex-direction: column; gap: 6px;
+}
+.especial.con-programa { box-shadow: 5px 5px 0 var(--coral); }
+.especial h3 { margin: 0; font: 800 1.35rem/1.15 var(--display); }
+.especial p { margin: 0; }
+.especial-faltan { align-self: flex-start; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; background: var(--mostaza); color: var(--tinta); border-radius: 999px; padding: 2px 10px; }
+.en-curso .especial-faltan { background: var(--coral); }
+.especial-fecha { font-weight: 700; color: var(--cobalto-texto); }
+.especial-nota { font-weight: 400; color: var(--texto-suave); }
+.especial-sin-programa { color: var(--texto-suave); font-size: 0.92rem; }
+.especial-programa summary { cursor: pointer; font-weight: 700; color: var(--coral-texto); padding: 4px 0; }
+.especial-programa ul { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 6px; font-size: 0.92rem; }
+.especial-cuando { display: inline-block; min-width: 6.5em; font-weight: 700; font-size: 0.85rem; }
+.especial-programa a, .especial-sitio { color: var(--cobalto-texto); font-weight: 600; text-underline-offset: 3px; }
+.especial-lugar { color: var(--texto-suave); }
+.especial-sitio { margin-top: 6px; align-self: flex-start; }
 .vacio p { font: 800 1.3rem var(--display); margin: 0 0 12px; }
 .vacio button { background: var(--coral); color: var(--tinta); }
 .pie-pagina { color: var(--texto-suave); font-size: 0.85rem; padding-top: 14px; padding-bottom: 40px; border-top: 2px dashed color-mix(in srgb, var(--texto) 30%, transparent); }
+.pie-pagina p { margin: 4px 0; }
+.pie-pagina strong { color: var(--texto); }
+.pie-pagina a { color: var(--cobalto-texto); font-weight: 600; text-underline-offset: 3px; }
 
 /* --- Carriles: un día por fila, que se desliza de costado -------------------------------- */
 .carriles { display: grid; grid-template-columns: minmax(0, 1fr); gap: 26px; }
@@ -258,15 +311,6 @@ select {
 .carril-finde .carril-cabezal h2 { background: var(--mostaza); color: var(--tinta); padding: 2px 12px; border-radius: 10px; border: 2px solid var(--borde); }
 .carril-finde .carril-cabezal h2 small { color: var(--tinta); }
 .carril-cartel .carril-cabezal h2 { color: var(--cobalto-texto); }
-.carril-plegado > summary {
-  display: inline-flex; align-items: center; gap: 8px; cursor: pointer; list-style: none; min-height: 40px;
-  border: 2px dashed var(--borde); border-radius: 999px; padding: 6px 16px; font: 700 0.95rem var(--display); color: var(--cobalto-texto);
-}
-.carril-plegado > summary::-webkit-details-marker { display: none; }
-.carril-plegado > summary::before { content: "▸"; }
-.carril-plegado[open] > summary { margin-bottom: 14px; border-style: solid; }
-.carril-plegado[open] > summary::before { content: "▾"; }
-.carril-plegado > summary:hover { background: var(--superficie); }
 .carril-flechas { display: flex; gap: 6px; flex: none; }
 .carril-pista {
   list-style: none; margin: 0; padding: 4px 12px 14px 4px; display: grid; grid-auto-flow: column;
@@ -316,7 +360,10 @@ select {
 .mi-plan-evento small { color: var(--texto-suave); }
 .mi-plan-lista .google { font-size: 0.82rem; font-weight: 700; color: var(--cobalto-texto); text-decoration: none; white-space: nowrap; }
 .quitar { border: 2px solid var(--borde); background: var(--superficie); border-radius: 50%; width: 36px; height: 36px; line-height: 1; font-weight: 800; }
-.mi-plan-ayuda { margin: 12px 0 0; font-size: 0.8rem; color: var(--texto-suave); }
+.con-icono { display: inline-flex; align-items: center; gap: 7px; }
+.con-icono .icono { flex: none; }
+.pc-dia { transition: min-height 0.25s ease-out; }
+.plan-cal.compacto .pc-dia { min-height: 60px; }
 
 .plan-cal { margin-bottom: 28px; }
 .pc-cabezal { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
@@ -352,15 +399,28 @@ select {
 .plan-opciones-titulo { font: 800 1.4rem var(--display); margin: 0 0 12px; }
 .mi-plan-detalle { margin-top: 12px; }
 .mi-plan-detalle summary { cursor: pointer; font-weight: 700; color: var(--cobalto-texto); }
-.plan-dia { margin-bottom: 22px; scroll-margin-top: 90px; }
-.plan-cal { scroll-margin-top: 70px; }
-.plan-dia-cabezal { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
-.plan-dia-cabezal h3 { margin: 0 !important; }
-.volver-calendario { border: none; background: none; color: var(--cobalto-texto); font-weight: 700; font-size: 0.85rem; padding: 0; }
-.plan-dia h3 {
-  margin: 0 0 8px; font: 800 1.15rem var(--display); display: inline-block;
-  background: var(--tinta); color: var(--crema); padding: 3px 12px; border-radius: 999px;
+.plan-dia { margin-bottom: 10px; scroll-margin-top: 90px; }
+/* Cada día y cada tipo es un desplegable: se abre lo que interesa. */
+.plan-dia > summary, .plan-tipo > summary {
+  display: flex; align-items: center; gap: 10px; cursor: pointer; list-style: none; min-height: 44px;
 }
+.plan-dia > summary::-webkit-details-marker, .plan-tipo > summary::-webkit-details-marker { display: none; }
+.plan-dia > summary {
+  background: var(--superficie); border: 2px solid var(--borde); border-radius: 12px; padding: 6px 14px;
+}
+.plan-dia > summary::before, .plan-tipo > summary::before { content: "▸"; color: var(--cobalto-texto); }
+.plan-dia[open] > summary::before, .plan-tipo[open] > summary::before { content: "▾"; }
+.plan-dia-titulo { font: 800 1.1rem var(--display); }
+.plan-dia > summary small, .plan-tipo > summary small { color: var(--texto-suave); font-weight: 600; }
+.plan-dia[open] > summary { margin-bottom: 8px; background: var(--tinta); color: var(--crema); }
+.plan-dia[open] > summary small, .plan-dia[open] > summary::before { color: var(--crema); }
+.plan-tipo { margin: 0 0 6px 12px; }
+.plan-tipo > summary { font-weight: 700; padding: 2px 4px; min-height: 36px; }
+.plan-tipo > summary small { background: color-mix(in srgb, var(--mostaza) 40%, transparent); border-radius: 999px; padding: 0 8px; color: var(--texto); }
+.plan-tipo ul { margin: 4px 0 10px; }
+.plan-dia > .volver-calendario { margin: 4px 0 12px 12px; }
+.plan-cal { scroll-margin-top: 70px; }
+.volver-calendario { border: none; background: none; color: var(--cobalto-texto); font-weight: 700; font-size: 0.85rem; padding: 0; }
 .plan-dia ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 .plan-fila {
   display: grid; grid-template-columns: fit-content(45%) 1fr; gap: 12px; align-items: center;
@@ -368,6 +428,7 @@ select {
   border-radius: 12px; padding: 8px 12px;
 }
 .plan-fila.elegida { background: color-mix(in srgb, var(--mostaza) 30%, var(--superficie)); }
+.plan-fila.elegida .plan-info small { color: var(--texto); }
 .plan-horarios { display: flex; flex-wrap: wrap; gap: 4px; }
 .horario {
   border: 2px solid var(--borde); background: var(--superficie); color: var(--texto); border-radius: 999px;
@@ -424,6 +485,7 @@ select {
   .pc-semana span { font-size: 0.7rem; padding: 0 0 2px; text-align: center; }
   .pc-grilla, .pc-semana { gap: 3px; }
   .pc-dia { min-height: 54px; padding: 3px; border-radius: 8px; align-items: center; }
+  .plan-cal.compacto .pc-dia { min-height: 40px; }
   .pc-numero { font-size: 0.85rem; }
   /* En el celular cada elegida es un punto; el detalle está en la lista de abajo. */
   .pc-elegida { font-size: 0; padding: 0; width: 8px; height: 8px; border-radius: 50%; border: none; background: var(--acento, var(--cobalto)); }

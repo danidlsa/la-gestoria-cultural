@@ -72,3 +72,28 @@ def test_rock_y_pop_va_con_otros_en_los_generos():
     datos = datos_para_el_navegador(eventos, {"l": {"nombre": "L"}}, [])
     assert [e["sub"] for e in datos["eventos"]] == [None, "clasica"]
     assert datos["subcategoriasOtros"]["musica"] == "Rock, pop y otros"
+
+
+def test_un_solo_enlace_y_nunca_la_cartelera():
+    from cartelera.sitio.generar import entrada_principal, promos_ordenadas
+    fuentes = [{"fuente": "cartelera_mvd", "url": "https://cartelera.montevideo.com.uy/x"}]
+    evento = {"fuentes": fuentes, "entradas": [
+        {"via": "cartelera_mvd", "url": "https://cartelera.montevideo.com.uy/x"},
+        {"via": "solis", "url": "https://teatrosolis.org.uy/x"},
+        {"via": "tickantel", "url": "https://tickantel.com.uy/x"},
+        {"via": "redtickets", "url": "https://redtickets.uy/y"},
+    ]}
+    assert entrada_principal(evento)["via"] == "tickantel"  # la ticketera, aunque la sala venga antes
+    assert entrada_principal({"fuentes": fuentes, "entradas": evento["entradas"][:2]})["via"] == "solis"
+    assert entrada_principal({"fuentes": fuentes, "entradas": evento["entradas"][:1]}) is None
+    promos = promos_ordenadas({"beneficios": [{"programa": "Otras promos"}, {"programa": "la diaria"}]})
+    assert [p["programa"] for p in promos] == ["la diaria", "Otras promos"]
+
+
+def test_periodo_de_una_exposicion():
+    from datetime import date, timedelta
+    from cartelera.sitio.generar import periodo_muestra
+    hoy, despues = date.today().isoformat(), (date.today() + timedelta(days=28)).isoformat()
+    assert periodo_muestra({"funciones": [{"inicio": hoy + "T00:00:00-03:00"}], "hasta": "2027-02-28"}) == "Hasta el 28 feb 2027"
+    assert periodo_muestra({"funciones": [{"inicio": hoy + "T00:00:00-03:00"}], "hasta": None}) == "En exhibición"
+    assert periodo_muestra({"funciones": [{"inicio": despues + "T00:00:00-03:00"}], "hasta": None}).startswith("Desde el ")

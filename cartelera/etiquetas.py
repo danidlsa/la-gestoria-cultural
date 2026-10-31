@@ -102,13 +102,18 @@ def artistas_en_titulo(titulo: str, lugar_nombre: str = "") -> list[str]:
     ]
 
 
+# Fuentes que son museos: todo lo suyo (exposiciones, talleres, charlas) lleva la etiqueta "museo".
+FUENTES_DE_MUSEOS = {"museos_im", "mnav", "torres_garcia", "mec_museos", "gurvich", "mapi"}
+
+
 def etiquetas(evento: Evento, lugar_nombre: str = "") -> list[str]:
+    es_museo = any(p.fuente in FUENTES_DE_MUSEOS for p in evento.fuentes)
     es_festival = (
         evento.categoria == "festival"
         or FESTIVAL.search(sin_tildes(evento.titulo))
         or (evento.categoria == "musica" and len(artistas_en_titulo(evento.titulo, lugar_nombre)) >= MINIMO_ARTISTAS_FESTIVAL)
     )
-    return ["festival"] if es_festival else []
+    return [e for e, si in (("festival", es_festival), ("museo", es_museo)) if si]
 
 
 def _slug(texto: str) -> str:

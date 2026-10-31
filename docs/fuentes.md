@@ -33,6 +33,13 @@ Lo que dice **"a verificar"** no se pudo confirmar.
 | Piano Piano | ✅ scraper (HTML de la agenda) | ~20 shows, obras y fiestas con tipo, sala y enlace; descarta los del interior y el deporte |
 | Beneficios de la diaria | ✅ scraper (RSS) | Marca el 2x1 de la diaria en ~100 eventos: casi todos enlazan a RedTickets o Tickantel y se unen exacto |
 | Fever | ✅ scraper (JSON-LD) | Conciertos Candlelight con fecha, lugar y precio. Los tours y talleres sin fecha no entran |
+| Museos de la IM (Cabildo y Subte) | ✅ scraper (Drupal) | Exposiciones abiertas: el Cabildo con su período por mes, el Subte con su lista de actuales. Entrada libre |
+| MNAV | ✅ scraper (HTML) | Exposiciones actuales y próximas con fecha exacta, y unas 20 actividades por mes (talleres, charlas, cine) |
+| Museo Torres García | ✅ scraper (HTML) | Exposiciones actuales (sin fecha de cierre) |
+| Museo Gurvich | ✅ scraper (HTML de WordPress) | Exposiciones con período ("Del 05 nov 2026 Al 15 jun 2027") y las actividades de la agenda de la portada |
+| MAPI | ✅ scraper (HTML de WordPress) | Exposiciones actuales (sin fecha de cierre) |
+| Calendario del MEC | ✅ scraper (HTML de gub.uy) | Visitas, inauguraciones y talleres en museos nacionales de Montevideo; deja afuera lo virtual y lo de otros departamentos |
+| Museo Blanes, Museo de las Migraciones | ⏸ no por ahora | Mezclan exposiciones viejas, convocatorias e inauguraciones sin fecha de cierre: no se puede saber qué está abierto |
 | AM Producciones | ⏸ no por ahora | Sus shows se cargan en el navegador desde una base de datos (con una clave de cliente de su sitio). Hoy tiene un solo show próximo (Foo Fighters), que ya entra por Ticketmaster y Gaucho |
 | Teatro Circular | ⏸ no por ahora | Su web no tiene una cartelera actualizada; sus obras entran por RedTickets |
 | Passline | ⏸ no | Detrás de Cloudflare con chequeos anti-bot, y el país se elige con JavaScript. No se saltean esas protecciones |
@@ -306,6 +313,25 @@ Los tours no se comportan como un recital: hay dos tipos y conviene tratarlos di
 | Audioguías (Navaway / Ryo) | No son eventos. |
 
 **Recomendación:** los tours locales suman mucho y cuestan poco. RedTickets Turismo (Peatonal Tours, Palacio Salvo, Castillo Pittamiglio) y la categoría Paseos de la IM salen casi gratis con los scrapers de la fase 1. Peatonal Tours y los eventos anuales (Día del Patrimonio, Museos en la Noche) se suman con poco esfuerzo.
+
+---
+
+## 8) Museos y exposiciones (exploración del 31/10/2026)
+
+Oferta de museos de arte e historia. Lo que publican son sobre todo **exposiciones** (con fecha de inauguración y de cierre, y horario de la sala) y **actividades** (visitas guiadas, talleres, charlas) con fecha. Las exposiciones irían en el rubro Exposiciones y, como duran semanas, en "Ver propuestas con muchas fechas".
+
+| Fuente | Qué tiene | Tecnología | Técnica | Esfuerzo | Viabilidad |
+|--------|-----------|------------|---------|----------|------------|
+| **Museos de la Intendencia** ([Cabildo](https://cabildo.montevideo.gub.uy), [Subte](https://subte.montevideo.gub.uy), [MUMI](https://mumi.montevideo.gub.uy), Blanes) | Exposiciones actuales (`/exposiciones`) y eventos por mes (`/eventos/mes/2026-10`, `/evento/<slug>`) | Drupal 7, la misma plataforma para todos | **Un parser para todos** | S-M | **Alta** |
+| [MNAV](https://mnav.gub.uy) | Exposiciones actuales, próximas y pasadas; actividades con fecha y hora ("Miércoles 04 de Nov, 2026. 16:30 h") | PHP propio (`cms.php?id=…`), HTML del servidor | Parseo HTML | S | Alta |
+| [Calendario de actividades del MEC](https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades) | Actividades de los museos nacionales (MNAV, Histórico, Figari…) y más (Sodre, Ballet), de todo el país | Drupal (gub.uy), HTML del servidor, paginado | Parseo HTML del listado y de cada ficha, filtrando Montevideo | M | Media-Alta |
+| [Museo Torres García](https://www.torresgarcia.org.uy/exposiciones.php) | Exposiciones actuales y futuras | HTML simple | Parseo HTML | S | Alta |
+| [Museo Gurvich](https://museogurvich.org), [MAPI](https://mapi.uy) | Muestras y actividades | WordPress (sin tipo de evento en la API) | HTML de las novedades | M | Media |
+| [Museo del Carnaval](https://www.museodelcarnaval.org) | Agenda | WordPress con The Events Calendar: API `/wp-json/tribe/events/v1/events` | Leer la API | S | Alta (hoy, sin eventos cargados) |
+| [Portal de Museos del Uruguay](https://museos.gub.uy) | Directorio de museos por departamento | Joomla | Sirve para el catálogo de salas, no tiene agenda | — | — |
+| Montevideo + Museos (mayo) y Museos en la Noche (diciembre) | Jornadas anuales con decenas de espacios | Guías en PDF; parte llega al portal IM | Si la IM los carga en su portal, entran solos | — | Media |
+
+**Hecho (31/10/2026):** Cabildo, Subte, MNAV, Torres García, Gurvich (exposiciones con período y la agenda de la portada), MAPI (exposiciones actuales, sin fecha de cierre) y el calendario del MEC (solo actividades en museos de Montevideo: se descartan las virtuales y las de otros departamentos). **Queda:** el Blanes y el MUMI, si ordenan sus páginas. Todo lo que viene de estas fuentes lleva la etiqueta **Museos**. Para no llenar la agenda, cada exposición se muestra una vez (en "Con muchas fechas · en exhibición") con su período y horario, no como una función por día.
 
 ---
 

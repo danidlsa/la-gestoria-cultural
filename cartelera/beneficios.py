@@ -2,12 +2,13 @@
 
 import re
 
+from cartelera.geo import sin_tildes
 from cartelera.modelo import Beneficio
 
 # Programas de beneficios reconocibles en el nombre de la entrada (tolera errores de tipeo frecuentes).
 _PROGRAMAS = [
     ("la diaria", re.compile(r"\b(la ?)?di(a|ra)ria\b", re.I)),
-    ("Socio Espectacular", re.compile(r"espectacular", re.I)),
+    ("Socio Espectacular", re.compile(r"espec?tacular", re.I)),  # también "Espetacular"
     ("Club El País", re.compile(r"\bel pa[ií]s\b", re.I)),
     ("BROU", re.compile(r"\bbrou\b", re.I)),
     ("Itaú", re.compile(r"\bita[uú]\b", re.I)),
@@ -19,6 +20,8 @@ _PROGRAMAS = [
     ("Futurock", re.compile(r"\bfuturock\b", re.I)),
     ("AEBU", re.compile(r"\baebu\b", re.I)),
     ("Alianza Francesa", re.compile(r"\balianza\b", re.I)),
+    ("Udelar", re.compile(r"\budelar\b", re.I)),
+    ("Antel", re.compile(r"\bantel\b(?!\s*arena)", re.I)),  # el Antel Arena es una sala, no un beneficio
 ]
 # Nunca son promociones.
 _NO_PROMO = re.compile(r"cortes|invitac|acredit|producci[oó]n|prensa", re.I)
@@ -30,7 +33,8 @@ _TARIFA = re.compile(
 )
 _PROMO = re.compile(r"\d ?x ?\d|\bx ?2\b|\d+ ?% ?(off|dto|desc)?|descuento|promo|\bd[uú]o\b", re.I)
 _GRUPAL = re.compile(r"\b[3-9] ?x ?\d\b|\bx ?2\b|\b\d\s*x\s*\$|\bd[uú]o\b|pareja|amigos|grupal", re.I)
-_SOCIOS = re.compile(r"\bsocios? (?:de(?:l)? )?(?P<club>[^-–(/]+)", re.I)
+# El nombre del club termina en un guion, paréntesis, barra, dos puntos, un precio o un "y" ("SUA y estudiantes").
+_SOCIOS = re.compile(r"\bsocios? (?:de(?:l)? )?(?P<club>[^-–(/:$]+?)(?=\s+(?:y|e|antes|para|con)\b|[-–(/:$)]|$)", re.I)
 _RELLENO_CLUB = re.compile(r"\d+ ?%|\b(\d ?x ?\d|off|c/?u|silla|activos?|precio|final)\b", re.I)
 
 
@@ -41,9 +45,13 @@ def club_de_socios(nombre: str) -> str | None:
         return None
     club = re.sub(r"\s+", " ", _RELLENO_CLUB.sub(" ", encontrado.group("club"))).strip(" .")
     club = re.sub(r"\s+c$", "", club, flags=re.I)  # resto de "c/u"
-    if len(club) < 3:
+    club = re.sub(r"^teatro\s+", "", club, flags=re.I)  # "Teatro El Galpón" es el mismo club que "El Galpón"
+    if len(club) < 3 or len(club.split()) > 4:
         return None
-    return club if club.isupper() and len(club) <= 6 else club[:1].upper() + club[1:]
+    # Siglas en mayúsculas ("ESNADE", "Acj" -> "ACJ"); el resto, con mayúscula inicial.
+    if len(club) <= 6 and " " not in club:
+        return club.upper()
+    return club[:1].upper() + club[1:]
 
 
 def programa(nombre: str) -> str | None:
@@ -51,7 +59,7 @@ def programa(nombre: str) -> str | None:
     if _NO_PROMO.search(nombre):
         return None
     for programa, patron in _PROGRAMAS:
-        if patron.search(nombre):
+        if patron.search(sin_tildes(nombre)):  # "Socio Espectácular" también es Socio Espectacular
             return programa
     if re.search(r"\bsocios?\b", nombre, re.I):
         club = club_de_socios(nombre)
@@ -71,7 +79,7 @@ def programas(nombre: str) -> list[str]:
     """Todos los programas que nombra una entrada: "BROU y La Diaria 2x1" -> ["la diaria", "BROU"]."""
     if _NO_PROMO.search(nombre):
         return []
-    conocidos = [p for p, patron in _PROGRAMAS if patron.search(nombre)]
+    conocidos = [p for p, patron in _PROGRAMAS if patron.search(sin_tildes(nombre))]
     if conocidos:
         return conocidos
     unico = programa(nombre)

@@ -26,6 +26,13 @@ FUENTES='
 2|ladiaria|https://beneficios.ladiaria.com.uy/category/espectaculos/feed/|<item>
 2|sala_del_museo|https://www.saladelmuseo.com.uy/shows.html|/shows/item/
 2|peatonal_tours|https://www.peatonaltours.uy/|UYU
+2|cabildo|https://cabildo.montevideo.gub.uy/exposiciones|exposiciones/
+2|subte|https://subte.montevideo.gub.uy/exposiciones/exposiciones|exposiciones/
+2|mnav|https://mnav.gub.uy/cms.php?id=expos&t=2|cms.php
+2|torres_garcia|https://www.torresgarcia.org.uy/exposiciones.php|item_exposiciones
+2|gurvich|https://museogurvich.org/exposiciones/|exposiciones/
+2|mapi|https://mapi.uy/pagina-exposiciones/|exposicion-actual
+2|mec_museos|https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades|Event-title
 '
 
 TMP=$(mktemp -d)

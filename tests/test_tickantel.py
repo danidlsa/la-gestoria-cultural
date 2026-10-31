@@ -38,3 +38,14 @@ def test_descarta_funciones_con_aviso_de_cancelacion(pagina, ahora):
     # El JSON-LD dice EventScheduled, pero cada función trae "Espectáculo cancelado".
     url = "https://tickantel.com.uy/ng/espectaculo/40021331/mosquitos"
     assert tickantel.parsear_espectaculo(pagina("tickantel_cancelado.html"), url, ahora) is None
+
+
+def test_pagina_de_alta_demanda_sin_json_ld(pagina, ahora):
+    url = "https://tickantel.com.uy/ng/espectaculo/alta-demanda/40021784/la-trampa"
+    evento = tickantel.parsear_espectaculo(pagina("tickantel_alta_demanda.html"), url, ahora)
+    assert (evento.titulo, evento.lugar.nombre, evento.categoria) == ("La Trampa", "Antel Arena", "musica")
+    # Del 12 al 15 de mayo, solo miércoles, jueves y sábado, a las 21.
+    assert [f.inicio.isoformat() for f in evento.funciones] == [
+        "2027-05-12T21:00:00-03:00", "2027-05-13T21:00:00-03:00", "2027-05-15T21:00:00-03:00",
+    ]
+    assert evento.precio.desde == 1600

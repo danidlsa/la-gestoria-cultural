@@ -24,7 +24,8 @@ ALIAS = Path("config/lugares_alias.toml")
 # Prioridad al elegir qué dato mostrar: sala oficial > ticketera > cartelera > productora > beneficios.
 PRIORIDAD = {
     "sodre": 4, "cinemateca": 4, "solis": 4, "teatro_de_verano": 4, "galpon": 4, "zitarrosa": 4, "sala_del_museo": 4,
-    "tickantel": 3, "redtickets": 3, "ticketmaster_uy": 3, "portal_im": 3, "fever": 3,
+    "museos_im": 4, "mnav": 4, "torres_garcia": 4, "gurvich": 4, "mapi": 4,
+    "tickantel": 3, "redtickets": 3, "ticketmaster_uy": 3, "portal_im": 3, "fever": 3, "mec_museos": 3,
     "cartelera_mvd": 2, "gaucho": 2, "piano_piano": 2, "ladiaria": 1,
 }
 MARGEN_PASADO = timedelta(hours=6)
@@ -181,6 +182,11 @@ def titulos_parecidos(a: str, b: str) -> bool:
     return len(corto.split()) >= 3 and f" {corto} " in f" {largo} "
 
 
+def _compatibles(a: EventoCrudo, b: EventoCrudo, misma_sala: bool) -> bool:
+    """¿Pueden ser el mismo evento? Misma sala, o títulos que comparten lo esencial."""
+    return misma_sala or fuzz.token_set_ratio(titulo_comparable(a.titulo), titulo_comparable(b.titulo)) >= 60
+
+
 class _Conjuntos:
     def __init__(self, n: int):
         self.padre = list(range(n))
@@ -200,15 +206,17 @@ def agrupar(crudos: list[EventoCrudo], lugar_de: list[str]) -> list[list[int]]:
     conjuntos = _Conjuntos(len(crudos))
     dueno: dict[str, int] = {}
 
-    # 1. Coincidencia exacta: el mismo ID de ticketera, propio o enlazado.
+    # 1. Coincidencia exacta: el mismo ID de ticketera, propio o enlazado. Un enlace puede estar mal (un
+    # beneficio de una obra que enlaza a la entrada de otra), así que además tienen que compartir la sala
+    # o parecerse en el título.
     for i, crudo in enumerate(crudos):
         claves = {f"{crudo.fuente}:{crudo.id_externo}"}
         claves.update(c for c in map(clave_de_url, [crudo.url, *crudo.enlaces, *(e.url for e in crudo.entradas)]) if c)
         for clave in claves:
-            if clave in dueno:
-                conjuntos.unir(i, dueno[clave])
-            else:
+            if clave not in dueno:
                 dueno[clave] = i
+            elif _compatibles(crudos[i], crudos[dueno[clave]], lugar_de[i] == lugar_de[dueno[clave]]):
+                conjuntos.unir(i, dueno[clave])
 
     # 2. Coincidencia difusa: mismo lugar, alguna función el mismo día y títulos parecidos.
     por_lugar: dict[str, list[int]] = defaultdict(list)
@@ -290,6 +298,8 @@ def fusionar(crudos: list[EventoCrudo], lugar_id: str, corridas: dict[str, datet
         beneficios=list(beneficios.values()),
         imagen_url=principal.imagen_url or next((c.imagen_url for c in crudos if c.imagen_url), None),
         ciclo_nombre=next((c.ciclo for c in crudos if c.ciclo), None),
+        muestra=any(c.muestra for c in crudos),
+        hasta=max((c.hasta for c in crudos if c.hasta), default=None),
         productor=next((c.productor for c in crudos if c.productor), None),
         region=principal.region,
         fuentes=[

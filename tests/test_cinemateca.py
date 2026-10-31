@@ -37,3 +37,12 @@ def test_leer_calendario_agrupa_funciones_por_pelicula():
 def test_duracion_y_sinopsis():
     pagina = "<p>Duración:</p><p> 128 min.</p><h3>Sinopsis</h3><p>Maestra y militante.</p><footer>Síganos</footer>"
     assert cinemateca.duracion_y_sinopsis(pagina) == (128, "Maestra y militante.")
+
+
+def test_tarifas_y_beneficios_del_recuadro_de_precios(pagina):
+    precio, beneficios = cinemateca.tarifas(pagina("cinemateca_precios.html"))
+    assert (precio.desde, precio.hasta) == (480, 480)  # la entrada general; la de socio es un beneficio
+    assert {b.programa: b.tipo for b in beneficios} == {
+        "Socios Cinemateca": "Precio de socio", "Socio Espectacular": "Socio Espectacular",
+        "BROU": "2x1", "Udelar": "2x1", "la diaria": "2x1", "Antel": "2x1",
+    }

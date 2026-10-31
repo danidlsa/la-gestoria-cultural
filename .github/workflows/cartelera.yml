@@ -20,6 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write  # para guardar en la rama datos
+      issues: write    # para avisar de un evento especial que se acerca sin programa
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09  # v5.1.0
@@ -90,6 +91,15 @@ jobs:
 
       - name: Generar la web
         run: uv run python -m cartelera sitio
+
+      # Un mes antes de un evento especial (config/eventos_especiales.toml), si todavía no hay programa,
+      # se abre un issue. No se repite: si ya hay uno con el mismo título, abierto o cerrado, no hace nada.
+      - name: Avisar de eventos especiales sin programa
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: uv run python -m cartelera avisos --github
 
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9  # v5.0.0
         with:

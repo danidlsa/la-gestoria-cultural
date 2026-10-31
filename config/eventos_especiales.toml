@@ -1,0 +1,98 @@
+# Eventos especiales: jornadas de una vez por año con muchas actividades a la vez.
+# La pestaña "Especiales" muestra cada uno con su próxima fecha y, cuando aparece el programa en las fuentes,
+# con sus actividades. Un mes antes, si todavía no hay nada, GitHub Actions abre un issue para avisar.
+#
+# Cómo se calcula la fecha (una de estas, de más segura a menos):
+#   desde / hasta = 2027-10-02 / 2027-10-03     fecha anunciada: va primero y se borra cuando pasa
+#   regla = "semana_de_turismo"                 de lunes a domingo de la Semana de Turismo (Semana Santa)
+#   regla = "dia_del_mes", mes, dia, ordinal, dias
+#                                               por ejemplo, el primer sábado de octubre y el día siguiente
+#   regla = "meses", meses = [11]               solo se sabe el mes: la fecha queda "a confirmar"
+#
+# `palabras` son expresiones regulares (sin tildes, sin mayúsculas) que se buscan en el título del evento
+# y en el de su ciclo. Solo cuentan los eventos con alguna función dentro de las fechas del especial.
+
+[[especial]]
+id = "dia-del-patrimonio"
+nombre = "Día del Patrimonio"
+descripcion = "Más de 500 lugares de todo el país abren sus puertas gratis: edificios públicos, casas, iglesias, teatros y recorridos guiados."
+cuando = "el primer fin de semana de octubre"
+regla = "dia_del_mes"
+mes = 10
+dia = "sabado"
+ordinal = 1
+dias = 2
+sitio = "https://www.gub.uy/ministerio-educacion-cultura/patrimonio-uruguay"
+palabras = ["dia del patrimonio", "\\bpatrimonio 20\\d\\d"]
+
+[[especial]]
+id = "museos-en-la-noche"
+nombre = "Museos en la Noche"
+descripcion = "Más de cien museos y espacios abren de noche, con entrada libre, espectáculos y visitas especiales."
+cuando = "un viernes de diciembre (suele ser el segundo)"
+regla = "dia_del_mes"
+mes = 12
+dia = "viernes"
+ordinal = 2
+dias = 1
+sitio = "https://museos.uy/"
+palabras = ["museos en la noche"]
+
+[[especial]]
+id = "noche-de-las-librerias"
+nombre = "La Noche de las Librerías"
+descripcion = "Librerías abiertas hasta tarde, con lecturas, música y charlas en la calle."
+cuando = "un viernes de noviembre"
+regla = "meses"
+meses = [11]
+sitio = "https://ccemontevideo.aecid.es/"
+palabras = ["noche de (las )?librerias"]
+
+[[especial]]
+id = "montevideo-mas-museos"
+nombre = "Montevideo + Museos"
+descripcion = "Jornadas con actividades especiales en los museos de la ciudad."
+cuando = "en mayo"
+regla = "meses"
+meses = [5]
+sitio = "https://montevideo.gub.uy/"
+palabras = ["montevideo \\+ ?museos", "montevideo mas museos"]
+
+[[especial]]
+id = "feria-del-libro"
+nombre = "Feria Internacional del Libro"
+descripcion = "Dos semanas de libros, presentaciones y charlas en la Intendencia de Montevideo, con entrada libre."
+cuando = "en primavera, entre septiembre y noviembre"
+regla = "meses"
+meses = [9, 10, 11]
+sitio = "https://montevideo.gub.uy/"
+palabras = ["feria (internacional )?del libro"]
+
+[[especial]]
+id = "desfile-inaugural-del-carnaval"
+nombre = "Desfile Inaugural del Carnaval"
+descripcion = "Murgas, comparsas y carros alegóricos por la avenida 18 de Julio: el arranque del Carnaval más largo del mundo."
+cuando = "a fines de enero"
+regla = "meses"
+meses = [1]
+sitio = "https://www.daecpu.org.uy/"
+palabras = ["desfile inaugural"]
+
+[[especial]]
+id = "llamadas"
+nombre = "Desfile de Llamadas"
+descripcion = "Las comparsas de candombe desfilan por Barrio Sur y Palermo, dos noches seguidas."
+cuando = "en febrero"
+regla = "meses"
+meses = [2]
+sitio = "https://www.daecpu.org.uy/"
+palabras = ["desfile de llamadas", "\\bllamadas 20\\d\\d"]
+
+[[especial]]
+id = "criolla-del-prado"
+nombre = "Criolla del Prado"
+descripcion = "Jineteadas, música, comida y artesanías en el Prado durante toda la Semana de Turismo."
+cuando = "en la Semana de Turismo"
+regla = "semana_de_turismo"
+sitio = "https://montevideo.gub.uy/"
+palabras = ["criolla del prado", "semana criolla"]

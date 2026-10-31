@@ -101,11 +101,14 @@
   };
   let estado = { seccion: "agenda", mes: hoy.slice(0, 7), planMes: sumarMeses(hoy.slice(0, 7), 1), ...FILTROS_INICIALES };
 
+  // Etiquetas que cruzan rubros: se filtran y se excluyen como un tipo más.
+  const NOMBRE_ETIQUETA = { festival: "Festivales", museo: "Museos" };
+
   // Lo excluido ("nada de infantil") queda guardado en este navegador, como el plan.
   const CLAVE_EXCLUIR = "lgc-excluir";
   try {
     const guardado = JSON.parse(localStorage.getItem(CLAVE_EXCLUIR) || "[]");
-    estado.excluir = guardado.filter((c) => c === "festival" || c in datos.categorias);
+    estado.excluir = guardado.filter((c) => c in NOMBRE_ETIQUETA || c in datos.categorias);
   } catch (_) { /* sin almacenamiento disponible: la exclusión dura lo que la pestaña */ }
 
   function guardarExcluir() {
@@ -132,7 +135,9 @@
     if (s === "festivales" && !evento.etiquetas.includes("festival")) return false;
     // Lo excluido no aparece, salvo en su propia pestaña (en Festivales se ven los festivales aunque estén excluidos).
     if (estado.excluir.includes(evento.categoria)) return false;
-    if (estado.excluir.includes("festival") && evento.etiquetas.includes("festival") && s !== "festivales") return false;
+    for (const etiqueta of evento.etiquetas) {
+      if (estado.excluir.includes(etiqueta) && !(etiqueta === "festival" && s === "festivales")) return false;
+    }
     if (estado.categoria && evento.categoria !== estado.categoria) return false;
     if (estado.etiqueta && !evento.etiquetas.includes(estado.etiqueta)) return false;
     if (estado.sub === "otros" && evento.sub) return false;
@@ -162,7 +167,7 @@
       activos.push(["periodo", estado.periodo === "dia" ? textoFuncion([estado.dia, true]) : NOMBRE_PERIODO[estado.periodo]]);
     }
     if (estado.categoria) activos.push(["categoria", datos.categorias[estado.categoria]]);
-    if (estado.etiqueta) activos.push(["etiqueta", "Festivales"]);
+    if (estado.etiqueta) activos.push(["etiqueta", NOMBRE_ETIQUETA[estado.etiqueta] || estado.etiqueta]);
     if (estado.sub) {
       const otros = datos.subcategoriasOtros[estado.categoria] || "Otros";
       activos.push(["sub", estado.sub === "otros" ? otros : (datos.subcategorias[estado.categoria] || {})[estado.sub]]);
@@ -176,7 +181,7 @@
     }
     if (estado.texto.trim()) activos.push(["texto", `“${estado.texto.trim()}”`]);
     for (const clave of estado.excluir) {
-      activos.push([`excluir:${clave}`, `Sin ${(clave === "festival" ? "Festivales" : datos.categorias[clave]).toLowerCase()}`]);
+      activos.push([`excluir:${clave}`, `Sin ${(NOMBRE_ETIQUETA[clave] || datos.categorias[clave]).toLowerCase()}`]);
     }
     return activos;
   }
@@ -225,6 +230,10 @@
   function tarjetaPara(evento, [inicio, sinHora]) {
     const copia = evento.tarjeta.cloneNode(true);
     const hora = copia.querySelector(".proxima");
+    if (!hora) { // una exposición: muestra su período, igual en todos los días
+      marcarBotonPlan(copia.querySelector(".agregar-plan"), evento.id, inicio);
+      return copia;
+    }
     hora.textContent = textoFuncion([inicio, sinHora]);
     hora.dateTime = inicio;
     const otras = evento.funciones.length - 1;
@@ -243,29 +252,6 @@
           el("button", { type: "button", class: "cal-flecha", "data-desplazar": "-1", "aria-label": "Anteriores" }, "‹"),
           el("button", { type: "button", class: "cal-flecha", "data-desplazar": "1", "aria-label": "Siguientes" }, "›"))),
       pista);
-  }
-
-  // "Ver temporadas y muestras": el carril de lo que está en cartel muchas semanas, plegado.
-  // Las tarjetas se arman recién al abrirlo, y queda abierto aunque cambien los filtros.
-  let cartelAbierto = false;
-  function carrilPlegado(items) {
-    const texto = () => `${cartelAbierto ? "Ocultar" : "Ver"} temporadas y muestras (${items.length})`;
-    const resumen = el("summary", {}, texto());
-    const plegado = el("details", { class: "carril-plegado" }, resumen);
-    const armar = () => {
-      if (!plegado.querySelector(".carril")) {
-        plegado.append(carril("En cartel", "obras, muestras y visitas con muchas fechas",
-          items.map(([e, f]) => tarjetaPara(e, f)), "carril-cartel"));
-      }
-    };
-    plegado.open = cartelAbierto;
-    if (cartelAbierto) armar();
-    plegado.addEventListener("toggle", () => {
-      cartelAbierto = plegado.open;
-      resumen.textContent = texto();
-      if (plegado.open) armar();
-    });
-    return plegado;
   }
 
   function nombreCarril(dia) {
@@ -300,12 +286,13 @@
       secciones.push(() => carril(nombreCarril(dia), plural(items.length, "evento"),
         items.map(([e, f]) => tarjetaPara(e, f)), diaSemana(dia) % 6 === 0 ? "carril-finde" : ""));
     }
-    // Lo primero es el primer día (casi siempre, hoy). Las temporadas y muestras largas van después,
-    // plegadas: se ven solo si se piden.
+    // Lo que se repite durante semanas (temporadas, exposiciones, talleres) va al final, con su título:
+    // no tapa lo que pasa cada día, pero tampoco se esconde.
     if (enCartel.length) {
       const items = enCartel.map((e) => [e, e.funciones.find(([i]) => enRango(i.slice(0, 10))) || e.funciones[0]])
         .sort((a, b) => a[1][0].localeCompare(b[1][0]));
-      secciones.splice(Math.min(1, secciones.length), 0, () => carrilPlegado(items));
+      secciones.push(() => carril("Con muchas fechas · en exhibición", "obras, exposiciones, talleres y visitas que se repiten durante semanas",
+        items.map(([e, f]) => tarjetaPara(e, f)), "carril-cartel"));
     }
 
     // Se dibujan de a tandas a medida que se baja, para no armar cientos de tarjetas de una.
@@ -372,6 +359,9 @@
   // --- Mapa -------------------------------------------------------------------------------------
   let mapa = null;
   let capaMarcadores = null;
+  // Los colores de la paleta, uno por tipo de lugar (ver TIPOS_DE_LUGAR en generar.py).
+  const COLORES_LUGAR = { grande: "#3256A8", sala: "#F06C4F", museo: "#E4A94A", otro: "#F4E9D5" };
+  const COLOR_BORDE = "#18264A";
 
   function cargarLeaflet() {
     if (window.L) return Promise.resolve();
@@ -384,10 +374,31 @@
     });
   }
 
+  // La rueda del mouse hace zoom solo después de tocar el mapa (si no, al bajar por la página el mapa la
+  // atraparía). El pellizco del touchpad llega como rueda con Ctrl y hace zoom siempre; en el celular,
+  // el pellizco con dos dedos lo maneja Leaflet.
+  function activarZoomConRueda(contenedor) {
+    let activa = false;
+    let esperaPista = null;
+    const pista = el("div", { class: "mapa-pista", "aria-hidden": "true" }, "Tocá el mapa para hacer zoom con la rueda, o pellizcá");
+    contenedor.appendChild(pista);
+    contenedor.addEventListener("wheel", (e) => {
+      if (e.ctrlKey || activa) return;
+      e.stopPropagation(); // Leaflet no se entera y la página baja como siempre
+      pista.classList.add("visible");
+      clearTimeout(esperaPista);
+      esperaPista = setTimeout(() => pista.classList.remove("visible"), 1500);
+    }, { capture: true });
+    contenedor.addEventListener("pointerdown", () => { activa = true; pista.classList.remove("visible"); });
+    contenedor.addEventListener("mouseleave", () => { activa = false; });
+  }
+
   async function dibujarMapa() {
     await cargarLeaflet();
     if (!mapa) {
-      mapa = L.map(document.getElementById("mapa"), { scrollWheelZoom: false }).setView([-34.895, -56.17], 12);
+      const contenedor = document.getElementById("mapa");
+      mapa = L.map(contenedor, { wheelPxPerZoomLevel: 90 }).setView([-34.895, -56.17], 12);
+      activarZoomConRueda(contenedor);
       // Tiles de OpenStreetMap: gratis y sin API key (con atribución). El color se ajusta por CSS.
       L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 19,
@@ -408,11 +419,15 @@
       if (!lugar || lugar.lat == null) continue;
       const boton = el("button", { type: "button", class: "ver-sala" }, "Ver sus eventos");
       boton.addEventListener("click", () => cambiar({ sala: lugarId, seccion: "agenda" }));
-      L.circleMarker([lugar.lat, lugar.lon], {
+      const tipo = lugar.tipo || "otro";
+      const punto = L.circleMarker([lugar.lat, lugar.lon], {
         radius: 7 + Math.min(14, Math.sqrt(cantidad) * 3),
-        color: "#18264A", weight: 2, fillColor: "#F06C4F", fillOpacity: 0.85,
-      }).bindPopup(el("div", {}, el("strong", {}, lugar.nombre), el("br"), plural(cantidad, "evento"), el("br"), boton))
+        className: `punto tipo-${tipo}`, color: COLOR_BORDE, weight: 2, fillColor: COLORES_LUGAR[tipo], fillOpacity: 0.9,
+      }).bindPopup(el("div", {}, el("strong", {}, lugar.nombre), el("br"), el("span", { class: "tipo-popup" }, datos.tiposDeLugar[tipo]), el("br"), plural(cantidad, "evento"), el("br"), boton))
+        .bindTooltip(`${lugar.nombre} · ${plural(cantidad, "evento")}`, { direction: "top", offset: [0, -8] })
         .addTo(capaMarcadores);
+      // Al pasar el mouse, el punto crece (por CSS) y queda adelante de los vecinos.
+      punto.on("mouseover", () => punto.bringToFront());
       puntos.push([lugar.lat, lugar.lon]);
     }
     if (puntos.length) mapa.fitBounds(puntos, { padding: [30, 30], maxZoom: 15 });
@@ -473,12 +488,28 @@
     document.getElementById("pc-grilla").replaceChildren(...celdas);
   }
 
+  // Google Calendar no importa varios eventos por enlace: con uno solo se abre directo; con más, la lista
+  // del plan, donde cada función tiene su enlace.
+  function abrirEnGoogle() {
+    const elegidas = elegidasOrdenadas();
+    if (elegidas.length === 1) {
+      window.open(enlaceGoogle(porId.get(elegidas[0].id), elegidas[0]), "_blank", "noopener");
+      return;
+    }
+    const lista = document.getElementById("mi-plan-detalle");
+    lista.open = true;
+    lista.scrollIntoView({ behavior: suave(), block: "start" });
+    lista.querySelector("a.google")?.focus({ preventScroll: true });
+  }
+
   function dibujarMiPlan() {
     const elegidas = elegidasOrdenadas();
     document.getElementById("cuenta-plan").textContent = elegidas.length;
     document.getElementById("mi-plan-vacio").hidden = elegidas.length > 0;
     document.getElementById("mi-plan-acciones").hidden = elegidas.length === 0;
     document.getElementById("mi-plan-detalle").hidden = elegidas.length === 0;
+    // Con el plan vacío el calendario va compacto, y crece cuando se suma algo.
+    document.querySelector(".plan-cal").classList.toggle("compacto", elegidas.length === 0);
     document.querySelector("[data-vaciar-plan]").hidden = elegidas.length === 0;
     document.getElementById("compartir-whatsapp").href = `https://wa.me/?text=${encodeURIComponent(textoPlan())}`;
     document.getElementById("mi-plan-lista").replaceChildren(...elegidas.map((p) => {
@@ -493,17 +524,33 @@
     }));
   }
 
+  // Desplegables de la lista del plan; recuerdan si estaban abiertos entre un redibujo y otro.
+  const abiertosPlan = new Set();
+  function desplegable(clave, clase, resumen, ...contenido) {
+    const detalles = el("details", { class: clase }, el("summary", {}, ...resumen), ...contenido);
+    detalles.open = abiertosPlan.has(clave);
+    detalles.addEventListener("toggle", () => {
+      if (detalles.open) abiertosPlan.add(clave);
+      else abiertosPlan.delete(clave);
+    });
+    return detalles;
+  }
+
   function dibujarPlan() {
     dibujarMiPlan();
     const opciones = opcionesDelMes();
     dibujarCalendarioPlan(opciones);
-    // Debajo del calendario, lo que hay para elegir: una fila por evento y día, un botón por horario.
+    // Debajo del calendario, lo que hay para elegir. Cada día es un desplegable y, adentro, cada tipo de
+    // evento otro; las filas van por hora. Lo abierto queda abierto al sumar o quitar algo del plan.
     const dias = [...opciones.keys()].sort();
     const secciones = dias.map((dia) => {
-      const filas = [...opciones.get(dia)].map(([id, funciones]) => {
+      const porTipo = new Map();
+      const filas = [...opciones.get(dia)]
+        .sort((a, b) => a[1][0][0].localeCompare(b[1][0][0]))
+        .map(([id, funciones]) => {
         const evento = porId.get(id);
         const elegido = funciones.some(([inicio]) => plan.has(clavePlan(id, inicio)));
-        return el("li", { class: `plan-fila cat-${evento.categoria}${elegido ? " elegida" : ""}` },
+        const fila = el("li", { class: `plan-fila cat-${evento.categoria}${elegido ? " elegida" : ""}` },
           el("div", { class: "plan-horarios" }, ...funciones.map(([inicio, sinHora]) => {
             const enPlan = plan.has(clavePlan(id, inicio));
             return el("button", {
@@ -513,12 +560,24 @@
           })),
           el("div", { class: "plan-info" },
             el("a", { href: evento.url, target: "_blank", rel: "noopener" }, evento.titulo),
-            el("small", {}, [datos.categorias[evento.categoria], nombreLugar(evento), evento.precioTexto].filter(Boolean).join(" · "))));
+            el("small", {}, [nombreLugar(evento), evento.precioTexto].filter(Boolean).join(" · "))));
+        if (!porTipo.has(evento.categoria)) porTipo.set(evento.categoria, []);
+        porTipo.get(evento.categoria).push(fila);
+        return fila;
       });
-      return el("section", { class: "plan-dia", id: `dia-${dia}` },
-        el("header", { class: "plan-dia-cabezal" }, el("h3", {}, tituloDia(dia)),
-          el("button", { type: "button", class: "volver-calendario", "data-volver-calendario": "" }, "↑ Ver mi mes")),
-        el("ul", {}, ...filas));
+      const grupos = [...porTipo.entries()]
+        .sort((a, b) => b[1].length - a[1].length)
+        .map(([categoria, filasTipo]) => desplegable(`${dia}|${categoria}`, "plan-tipo",
+          [el("span", {}, datos.categorias[categoria] || categoria), el("small", {}, String(filasTipo.length))],
+          el("ul", {}, ...filasTipo)));
+      const enPlan = [...opciones.get(dia)].filter(([id, funciones]) => funciones.some(([i]) => plan.has(clavePlan(id, i)))).length;
+      const seccion = desplegable(dia, "plan-dia",
+        [el("span", { class: "plan-dia-titulo" }, tituloDia(dia)),
+          el("small", {}, `${plural(filas.length, "opción")}`.replace("opcións", "opciones") + (enPlan ? ` · ${enPlan} en tu plan` : ""))],
+        ...grupos,
+        el("button", { type: "button", class: "volver-calendario", "data-volver-calendario": "" }, "↑ Ver mi mes"));
+      seccion.id = `dia-${dia}`;
+      return seccion;
     });
     document.getElementById("plan-dias").replaceChildren(
       ...(secciones.length ? secciones : [el("p", { class: "vacio" }, "No hay eventos en este mes con estos filtros.")]));
@@ -563,7 +622,7 @@
   }
 
   // Texto según RFC 5545: se escapan \ ; , y saltos de línea, y las líneas largas se pliegan a 75 bytes.
-  const escaparIcs = (texto) => texto.replace(/\\/g, "\\\\").replace(/;/g, "\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
+  const escaparIcs = (texto) => texto.replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
   function plegar(linea) {
     const codificador = new TextEncoder();
     const partes = [];
@@ -716,8 +775,9 @@
     gratis: ["Gratis", "Todo lo que no cuesta un peso. Algunas actividades piden inscripción previa: revisá la fuente."],
     promos: ["Promos", "Eventos con 2x1 o descuentos para socios de clubes, bancos y programas de beneficios, según lo que marca cada ticketera."],
     festivales: ["Festivales", "Festivales, fiestas grandes y noches de tres bandas o más."],
+    especiales: ["Especiales", "Las jornadas grandes del año, del Día del Patrimonio a las Llamadas. Cuando sale el programa, sus actividades aparecen en cada tarjeta."],
     mapa: ["Mapa", "Dónde pasa lo que estás buscando. Tocá una sala para ver sus eventos."],
-    plan: ["Planeá tu mes", "Tu mes arranca vacío. Tocá las opciones de un día, sumá lo que te guste y después llevalo a tu calendario, al papel o a WhatsApp."],
+    plan: ["Planeá tu mes", "Armá tu propia agenda cultural de Montevideo: tocá un día, sumá lo que te guste y llevalo a tu calendario."],
   };
 
   function dibujarIntro() {
@@ -730,7 +790,7 @@
 
   // --- Controles --------------------------------------------------------------------------------
   function marcarActivo(grupo, atributo, valor) {
-    for (const boton of document.querySelectorAll(`#${grupo} button`)) {
+    for (const boton of document.querySelectorAll(`#${grupo} button:not(.ver-mas)`)) {
       const activo = (boton.dataset[atributo] ?? null) === valor;
       boton.classList.toggle("activo", activo);
       boton.setAttribute("aria-pressed", String(activo));
@@ -767,7 +827,7 @@
       boton.classList.toggle("activo", boton.dataset.periodo === estado.periodo);
       boton.setAttribute("aria-pressed", String(boton.dataset.periodo === estado.periodo));
     }
-    for (const boton of document.querySelectorAll("#rubros button")) {
+    for (const boton of document.querySelectorAll("#rubros button:not(.ver-mas)")) {
       const activo = estado.etiqueta ? boton.dataset.etiqueta === estado.etiqueta
         : boton.dataset.categoria === estado.categoria && !boton.dataset.etiqueta;
       boton.classList.toggle("activo", activo);
@@ -796,7 +856,7 @@
       dibujarMiPlan();
       if (s === "mapa") {
         dibujarMapa().catch(() => { document.getElementById("mapa").textContent = "No se pudo cargar el mapa."; });
-      } else {
+      } else if (s !== "especiales") {
         dibujarCarriles();
       }
     }
@@ -805,6 +865,7 @@
   function dibujar() {
     const enMapa = estado.seccion === "mapa";
     const enPlan = estado.seccion === "plan";
+    const enEspeciales = estado.seccion === "especiales";
     dibujarControles();
     dibujarIntro();
     dibujarActivos();
@@ -812,8 +873,12 @@
     document.getElementById("campo-fecha").hidden = enPlan;
     if (!enPlan) dibujarCalendario();
     document.getElementById("mapa").hidden = !enMapa;
+    document.getElementById("mapa-leyenda").hidden = !enMapa;
     document.getElementById("plan").hidden = !enPlan;
-    document.getElementById("carriles").hidden = enMapa || enPlan;
+    document.getElementById("especiales").hidden = !enEspeciales;
+    // Los especiales tienen sus propias fechas: los filtros no se aplican y el panel se esconde.
+    document.querySelector(".principal").classList.toggle("sin-filtros", enEspeciales);
+    document.getElementById("carriles").hidden = enMapa || enPlan || enEspeciales;
     document.getElementById("vacio").hidden = true;
     dibujarContenido();
     // El botón del pie del panel dice cuántos eventos quedan con estos filtros.
@@ -865,7 +930,13 @@
     const boton = evento.target.closest("button");
     if (!boton || boton.disabled) return;
     const d = boton.dataset;
-    if ("abrirFiltros" in d) abrirFiltros();
+    if ("verMas" in d) {
+      // "Más tipos" / "Más programas": muestra u oculta los botones plegados.
+      const lista = boton.parentElement;
+      const abierta = lista.classList.toggle("abierta");
+      boton.setAttribute("aria-expanded", String(abierta));
+      boton.textContent = abierta ? "Menos" : boton.dataset.textoMas;
+    } else if ("abrirFiltros" in d) abrirFiltros();
     else if ("cerrarFiltros" in d) cerrarFiltros();
     else if (d.borrar) cambiar(borrar(d.borrar));
     else if (d.excluir) {
@@ -895,11 +966,17 @@
         dibujarContenido();
       }
     } else if (d.verDia) {
-      document.getElementById(`dia-${d.verDia}`)?.scrollIntoView({ behavior: suave(), block: "start" });
+      const dia = document.getElementById(`dia-${d.verDia}`);
+      if (dia) {
+        dia.open = true;
+        abiertosPlan.add(d.verDia);
+        dia.scrollIntoView({ behavior: suave(), block: "start" });
+      }
     } else if ("volverCalendario" in d) {
       document.querySelector(".plan-cal").scrollIntoView({ behavior: suave(), block: "start" });
     } else if (d.planMes) cambiar({ planMes: sumarMeses(estado.planMes, Number(d.planMes)) });
     else if (d.exportar === "ics") descargarIcs();
+    else if (d.exportar === "google") abrirEnGoogle();
     else if (d.exportar === "imprimir") imprimir();
     else if (d.exportar === "copiar") copiarTexto();
     else if (d.seccion) {

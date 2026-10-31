@@ -3,6 +3,7 @@
     python -m cartelera scrapear --donde actions   solo las fuentes que corren en ese lugar (config/fuentes.toml)
     python -m cartelera unificar                arma datos/eventos.json y datos/lugares.json
     python -m cartelera sitio                   genera la web en sitio_generado/
+    python -m cartelera avisos [--github]       eventos especiales que se acercan sin programa (con --github, abre issues)
 """
 
 import argparse
@@ -23,6 +24,8 @@ def main() -> int:
     scrapear.add_argument("--donde", choices=["actions", "local"], help="filtra por config/fuentes.toml")
     comandos.add_parser("unificar")
     comandos.add_parser("sitio")
+    avisos = comandos.add_parser("avisos")
+    avisos.add_argument("--github", action="store_true", help="abre un issue por aviso (necesita gh y GH_TOKEN)")
     args = parser.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     logging.getLogger("httpx").setLevel(logging.WARNING)
@@ -49,6 +52,10 @@ def main() -> int:
     if args.comando == "sitio":
         from cartelera.sitio.generar import generar
         generar()
+        return 0
+    if args.comando == "avisos":
+        from cartelera.especiales import avisar
+        avisar(en_github=args.github)
         return 0
     return 2
 

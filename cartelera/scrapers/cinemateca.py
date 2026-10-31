@@ -1,7 +1,8 @@
 """Cinemateca: el calendario semanal lista las películas de cada día y los IDs de sus funciones.
 
 El horario de cada función sale de una llamada JSON-RPC (el sitio está hecho con Odoo) y la
-duración, de la página de cada película.
+duración, de la página de cada película. El valor de las entradas y los beneficios (iguales para
+todas las películas) salen de otra llamada, la del recuadro "Valor de las entradas" de la portada.
 """
 
 import html
@@ -9,9 +10,10 @@ import logging
 import re
 from datetime import date, datetime, time, timedelta
 
+from cartelera.beneficios import beneficios_de_entradas
 from cartelera.extraer import recortar, texto_plano
 from cartelera.http import Cliente
-from cartelera.modelo import Entrada, EventoCrudo, Funcion, LugarCrudo
+from cartelera.modelo import Beneficio, Entrada, EventoCrudo, Funcion, LugarCrudo, Precio
 
 NOMBRE = "cinemateca"
 BASE = "https://cinemateca.org.uy"
@@ -63,10 +65,32 @@ def duracion_y_sinopsis(pagina: str) -> tuple[int | None, str | None]:
     return (int(duracion.group(1)) if duracion else None), (sinopsis.group(1).strip() if sinopsis else None)
 
 
+def tarifas(fragmento: str) -> tuple[Precio | None, list[Beneficio]]:
+    """"ESTRENOS: Socios: $80, No Socios: $480 … Beneficios Socio Espectacular (…), 2x1 con BROU (…) 2x1 La Diaria"."""
+    texto = html.unescape(texto_plano(fragmento)).replace("\u200b", "")
+    generales = [int(p) for p in re.findall(r"No Socios:\s*\$\s*(\d+)", texto, re.I)]
+    precio = Precio(desde=min(generales), hasta=max(generales)) if generales else None
+    beneficios = []
+    if re.search(r"\bSocios?:", texto):
+        beneficios.append(Beneficio(programa="Socios Cinemateca", tipo="Precio de socio", url=f"{BASE}/"))
+    if lista := re.search(r"Beneficios\s+(.+)", texto, re.S):
+        # Sin las aclaraciones entre paréntesis, separado por comas o por cada "2x1".
+        sin_aclaraciones = re.sub(r"\([^)]*\)?", " ", lista.group(1))
+        partes = [p.strip(" .") for p in re.split(r",|(?=\b2 ?x ?1\b)", sin_aclaraciones) if p.strip(" .")]
+        beneficios += beneficios_de_entradas(partes, f"{BASE}/")
+    return precio, beneficios
+
+
 def scrapear(cliente: Cliente, ahora: datetime) -> tuple[list[EventoCrudo], list[str]]:
+    eventos, errores = [], []
+    try:
+        respuesta = cliente.post_json(f"{BASE}/kc_cinema/snippet/ticket_prices", {"jsonrpc": "2.0", "method": "call", "params": {}})
+        precio, beneficios = tarifas(respuesta.get("result") or "")
+    except Exception as error:  # noqa: BLE001 - sin precios, las películas salen igual
+        errores.append(f"precios: {type(error).__name__}: {error}")
+        precio, beneficios = None, []
     peliculas = leer_calendario(cliente.texto(f"{BASE}/calendario"), ahora.date())
     log.info("cinemateca: %s películas en el calendario semanal", len(peliculas))
-    eventos, errores = [], []
     for id_pelicula, ficha in peliculas.items():
         url = f"{BASE}/peliculas/{id_pelicula}"
         try:
@@ -100,7 +124,9 @@ def scrapear(cliente: Cliente, ahora: datetime) -> tuple[list[EventoCrudo], list
             descripcion_corta=recortar(director + (sinopsis or "")),
             lugar=LUGAR,
             funciones=sorted(funciones, key=lambda f: f.inicio),
+            precio=precio,
             entradas=[Entrada(url=url, via=NOMBRE)],
+            beneficios=beneficios,
             imagen_url=ficha["imagen"],
             productor="Cinemateca Uruguaya",
             ciclo=html.unescape(ficha["ciclo"]).strip() if ficha["ciclo"] else None,

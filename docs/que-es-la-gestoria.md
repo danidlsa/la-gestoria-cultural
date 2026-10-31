@@ -8,21 +8,27 @@ El primero: soy mala planificando. Mi método para enterarme de la oferta cultur
 
 Mi segundo problema: incluso cuando 'planifico', lo hago pésimamente. Saco entradas 6 meses antes para un toque, me olvido de ponerlo en mi calendario digital (porque es el del trabajo y me da fiaca abrirlo si no estoy trabajando), y se me va de la mente. Por suerte tengo un par de amistades que hasta ahora han cumplido un rol heroico de agenda viviente y me han salvado de que me olvide totalmente de asistir a un evento que planifiqué (y pagué por) ir con anticipación. Aún así, mi (no) sistema falla: he sobreagendado cosas solamente por olvidarme de los planes que ya hice.
 
-En resumen: no hago todos planes que quiero, porque llego tarde, y cuando hago planes, se me entreveran los cables porque no me organizo.
+En resumen: no hago todos los planes que quiero, porque llego tarde, y cuando hago planes, se me entreveran los cables porque no me organizo.
 
 Acá entra a jugar La Gestoría Cultural, pensada para gente con problemas boludos como los míos. 'La Gestoría' es un chiste interno que tenemos con un par de amigas, con quienes conformamos el motor de búsqueda y gestión de planes de un grupo más numeroso y free rider (vamos, hay una gestoría en cada grupo de amigas en sus 30, o el grupo deja de existir). A los efectos de esta plataforma, le agregué el 'Cultural' porque gente externa podría pensar que es un sitio web para escribanos, y dios me libre.
 
 Esto es una **iniciativa sin ánimo de lucro**. En la página no se puede hacer más nada que no sea explorar los eventos que hay en la ciudad, filtrarlos y clasificarlos, y jugar con un calendario para planificarte mejor. No hay *ads* ni canjes ni nada por el estilo, nadie gana plata ni se le cobra nada a nadie.
 
+# ¿Qué eventos se incluyen?
+
+Todo dentro de Montevideo:
+
+Conciertos y festivales de música, la cartelera de teatro, humor (sobre todo shows de stand-up), walking tours que no son dirigidos necesariamente a turistas (aquí no tomo datos de plataformas como Viator o Civitatis, por ejemplo, sino caminatas de la IM, de Peatonal tours, entre otros proveedores más orientados a público local), algo de cine (básicamente Cinemateca - dejé por fuera la mayoría de las salas comerciales, para no sobrecargar), exposiciones y actividades de museos, y talleres y actividades gratuitas de la Intendencia. No se incluyen eventos deportivos, y es posible que buena parte de la agenda 'under' se escape. Esto, en parte, porque no incluyo instagram ni ninguna red social como fuente (para eso hay que pagar y no suele ser barato).
+
 # ¿Cómo funciona?
 
-La plataforma toma datos de distintas fuentes abiertas, siguiendo sus normativas de scrapeo de datos: ticketeras, sitios de carteleras y portales de eventos, sitios web de salas de eventos, productoras y páginas de beneficios. Los eventos se georreferencian con OpenStreetMaps, y uso bancos de palabras clave caseros para generar algunos etiquetados.
+La plataforma toma datos de distintas fuentes abiertas, siguiendo sus normativas de scrapeo de datos: ticketeras, sitios de carteleras y portales de eventos, sitios web de salas de eventos, productoras y páginas de beneficios. Cuando una fuente no trae la ubicación de la sala, se busca la dirección en OpenStreetMap, que es también el mapa del sitio. Para generar algunos etiquetados uso bancos de palabras clave caseros y, para el género musical de algunos artistas, Wikidata.
 
 La plataforma respeta lo que cada sitio permite extraer (su robots.txt), se identifica cuando pide los datos, los pide pocas veces por día y muestra solo un resumen corto de cada evento. Para comprar o reservar, todos los enlaces llevan a la fuente original.
 
 Es posible que la plataforma experimente fallos cuando, por ejemplo, un sitio web del que toma datos cambia su arquitectura, una API cambia su endpoint, esas cosas. Le intentaré dar mantenimiento, al menos, hasta que me aburra.
 
-Por cierto, esto es un sitio de código abierto. El código queda público en mi repo de Github, para quien quiera conocer más sobre su funcionamiento y arquitectura: [github.com/danidlsa/la-gestoria-cultural](https://github.com/danidlsa/la-gestoria-cultural). 
+Por cierto, esto es un sitio de código abierto. El código queda público en mi repo de GitHub, para quien quiera conocer más sobre su funcionamiento y arquitectura: [github.com/danidlsa/la-gestoria-cultural](https://github.com/danidlsa/la-gestoria-cultural). 
 
 Tenés algún comentario re buena onda? Encontraste alguna inconsistencia o error? Me podés escribir por acá: [dejame un mensaje en GitHub](https://github.com/danidlsa/la-gestoria-cultural/issues/new).
 Si tenés un comentario mala onda, guardátelo que esto no es X.

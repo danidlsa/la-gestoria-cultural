@@ -1,6 +1,6 @@
 # Dónde corre cada fuente.
 #   actions: GitHub Actions (runners en EE. UU.)
-#   local:   un equipo en Uruguay, para sitios que bloquean IPs de afuera (ver docs/fuentes.md)
+#   local:   un equipo en Uruguay, para sitios que bloquean IPs de afuera
 
 [tickantel]
 corre_en = "actions"
@@ -41,7 +41,26 @@ corre_en = "actions"
 [fever]
 corre_en = "actions"
 
-# Responden solo desde Uruguay (ver docs/fuentes.md, "Arquitectura resultante").
+# Museos (31/10/2026). Si alguno no responde desde GitHub Actions, se pasa a "local".
+[museos_im]
+corre_en = "actions"
+
+[mnav]
+corre_en = "actions"
+
+[torres_garcia]
+corre_en = "actions"
+
+[gurvich]
+corre_en = "actions"
+
+[mapi]
+corre_en = "actions"
+
+[mec_museos]
+corre_en = "actions"
+
+# Responden solo desde Uruguay.
 [portal_im]
 corre_en = "local"
 
