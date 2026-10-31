@@ -13,22 +13,24 @@
   --borde: var(--tinta);
   --sombra: var(--tinta);
   --cobalto-texto: var(--cobalto);
+  /* Coral para texto sobre fondo claro: el coral de la marca no llega al contraste mínimo como letra. */
+  --coral-texto: #B84322;
   --radio: 14px;
   --display: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
   --sans: "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --fondo: var(--tinta);
-    --superficie: #22335F;
-    --texto: var(--crema);
-    --texto-suave: #C7BFAE;
-    --borde: #0D1530;
-    --sombra: #0B1129;
-    --cobalto-texto: #8FAEF0;
-    color-scheme: dark;
-  }
+/* El modo oscuro se elige con el botón ☀/☾ (data-tema en <html>); por defecto, crema. */
+:root[data-tema="oscuro"] {
+  --fondo: var(--tinta);
+  --superficie: #22335F;
+  --texto: var(--crema);
+  --texto-suave: #C7BFAE;
+  --borde: #0D1530;
+  --sombra: #0B1129;
+  --cobalto-texto: #A3BCF5;
+  --coral-texto: #F58B73;
+  color-scheme: dark;
 }
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
@@ -60,8 +62,13 @@ h1 span {
 .cifras { margin: 0; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: flex-end; }
 .cifras span { background: rgba(255, 255, 255, 0.14); border-radius: 999px; padding: 3px 12px; font-size: 0.9rem; }
 .cifras strong { font: 800 1.05rem var(--display); }
+.boton-tema { border: 2px solid rgba(255, 255, 255, 0.7); background: transparent; color: #fff; border-radius: 999px; padding: 4px 12px; min-height: 36px; font-weight: 700; font-size: 0.9rem; }
+.cifras .boton-tema span { background: none; padding: 0; font-size: inherit; }
+.boton-tema:hover { background: rgba(255, 255, 255, 0.18); }
 .cifras .actualizado { background: none; padding: 0; opacity: 0.8; font-size: 0.8rem; width: 100%; text-align: right; }
 
+.saltar { position: absolute; left: 12px; top: -60px; z-index: 100; background: var(--mostaza); color: var(--tinta); font-weight: 700; padding: 10px 16px; border: 2px solid var(--tinta); border-radius: 999px; }
+.saltar:focus { top: 12px; }
 .solo-lectores { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .buscador { position: relative; margin-bottom: 14px; }
 .buscador input {
@@ -70,7 +77,7 @@ h1 span {
   background: #FFF8EC; box-shadow: 4px 4px 0 var(--tinta);
 }
 .buscador input::placeholder { color: #6B7290; font-weight: 400; }
-.buscador input:focus { outline: none; box-shadow: 4px 4px 0 var(--mostaza); }
+.buscador input:focus-visible { outline: 3px solid var(--mostaza); outline-offset: 3px; box-shadow: 4px 4px 0 var(--tinta); }
 .buscador .lupa { position: absolute; left: 32px; top: 50%; width: 22px; height: 22px; transform: translateY(-50%); color: var(--cobalto); pointer-events: none; }
 .secciones { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 14px; scrollbar-width: none; }
 .secciones button { border-color: transparent; background: rgba(255, 255, 255, 0.12); color: #fff; white-space: nowrap; }
@@ -80,8 +87,9 @@ h1 span {
 .secciones .activa .cuenta { background: rgba(24, 38, 74, 0.15); }
 .secciones button:disabled { opacity: 0.6; cursor: not-allowed; }
 /* "Planeá tu mes" es lo más propio del sitio: va resaltada en coral, con una chispa que gira despacio. */
-.secciones button.destacada { background: var(--coral); color: #fff; border-color: var(--tinta); box-shadow: 3px 3px 0 var(--tinta); }
+.secciones button.destacada { background: var(--coral); color: var(--tinta); border-color: var(--tinta); box-shadow: 3px 3px 0 var(--tinta); }
 .secciones button.destacada:hover:not(.activa) { background: color-mix(in srgb, var(--coral) 85%, #fff); }
+.secciones button.destacada .chispa { color: var(--tinta); }
 .secciones button.destacada.activa { background: var(--mostaza); color: var(--tinta); box-shadow: 3px 3px 0 var(--coral); }
 /* "¿Qué es La Gestoría?" va aparte, al final de la fila y con otro estilo. */
 .secciones a { text-decoration: none; color: #fff; white-space: nowrap; border-color: transparent; background: rgba(255, 255, 255, 0.12); }
@@ -105,11 +113,16 @@ h1 span {
 .chispa { display: inline-block; color: var(--mostaza); animation: girar 6s linear infinite; }
 .destacada.activa .chispa { color: var(--coral); }
 @keyframes girar { to { transform: rotate(360deg); } }
-@media (prefers-reduced-motion: reduce) { .chispa { animation: none; } }
-.secciones .pronto { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; background: var(--coral); color: #fff; border-radius: 999px; padding: 1px 7px; margin-left: 4px; }
+@media (prefers-reduced-motion: reduce) {
+  .chispa { animation: none; }
+  *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; }
+  .evento:hover, .atajos button:hover, .opciones button:hover, .chip-activo:hover, .cal-dia:not(:disabled):hover,
+  .boton-secundario:hover, .boton-principal:hover { transform: none; }
+}
+.secciones .pronto { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; background: var(--coral); color: var(--tinta); border-radius: 999px; padding: 1px 7px; margin-left: 4px; }
 
 /* --- Filtros --------------------------------------------------------------------------------- */
-.principal { display: grid; grid-template-columns: 320px minmax(0, 1fr); gap: 28px; padding-top: 26px; padding-bottom: 28px; align-items: start; }
+.principal { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 24px; padding-top: 26px; padding-bottom: 28px; align-items: start; }
 /* Sin esto, contenidos anchos con scroll propio (los carriles) estiran toda la columna. */
 .resultados, .filtros { min-width: 0; }
 .filtros {
@@ -119,17 +132,17 @@ h1 span {
 }
 .filtros-titulo { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
 .filtros-titulo h2 { margin: 0; font: 800 1.35rem var(--display); }
-.borrar-todo { border: none; background: none; color: var(--coral); font-weight: 700; font-size: 0.9rem; text-decoration: underline; text-underline-offset: 3px; padding: 4px 0; }
+.borrar-todo { border: none; background: none; color: var(--coral-texto); font-weight: 700; font-size: 0.9rem; text-decoration: underline; text-underline-offset: 3px; padding: 4px 0; }
 .campo { margin-bottom: 18px; }
 .campo h3 { margin: 0 0 8px; font: 700 0.95rem var(--display); }
 .atajos, .opciones { display: flex; flex-wrap: wrap; gap: 6px; }
 .nota-experimental { flex-basis: 100%; margin: 4px 2px 0; font-size: 0.78rem; color: var(--texto-suave); }
 /* Excluir (como en AO3): se despliega una lista de tipos y se tocan los que no se quieren ver. */
 .excluir { margin-top: 10px; }
-.excluir summary { cursor: pointer; font-weight: 700; color: var(--coral); }
+.excluir summary { cursor: pointer; font-weight: 700; color: var(--coral-texto); }
 .excluir .ayuda { font-size: 0.82rem; color: var(--texto-suave); margin: 6px 0; }
-.cuenta-excluir { font-size: 0.75rem; background: var(--coral); color: #fff; border-radius: 999px; padding: 0 7px; margin-left: 4px; }
-.opciones button.excluido { background: var(--coral); color: #fff; border-color: var(--borde); text-decoration: line-through; }
+.cuenta-excluir { font-size: 0.75rem; background: var(--coral); color: var(--tinta); border-radius: 999px; padding: 0 7px; margin-left: 4px; }
+.opciones button.excluido { background: var(--coral); color: var(--tinta); border-color: var(--borde); text-decoration: line-through; }
 .opciones button.excluido::before { content: "− "; }
 .subrubros { margin-top: 8px; padding: 8px; border-radius: 12px; background: color-mix(in srgb, var(--mostaza) 22%, transparent); }
 select {
@@ -137,20 +150,21 @@ select {
   border-radius: 12px; background: var(--superficie); color: var(--texto);
 }
 .plegable > summary { display: none; }
+.barra-movil, .cerrar-filtros, .filtros-pie, .velo, .abrir-filtros { display: none; }
 
 /* --- Calendario ------------------------------------------------------------------------------ */
 .calendario { margin-top: 12px; }
 .cal-cabezal { display: flex; justify-content: space-between; align-items: center; font: 800 1.05rem var(--display); text-transform: capitalize; margin-bottom: 6px; }
-.cal-flecha { border: 2px solid var(--borde); background: var(--superficie); border-radius: 50%; width: 30px; height: 30px; line-height: 1; font-weight: 700; }
+.cal-flecha { border: 2px solid var(--borde); background: var(--superficie); border-radius: 50%; width: 40px; height: 40px; line-height: 1; font-weight: 700; }
 .cal-dias, .cal-grilla { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
-.cal-dias span { text-align: center; font-size: 0.72rem; font-weight: 700; color: var(--texto-suave); }
+.cal-dias span { text-align: center; font-size: 0.78rem; font-weight: 700; color: var(--texto-suave); }
 .cal-dia {
   aspect-ratio: 1; border: 2px solid transparent; border-radius: 10px; padding: 0; position: relative; min-width: 0;
   display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.05;
   font: 700 0.88rem var(--sans); color: var(--tinta);
   background: color-mix(in srgb, var(--cobalto) calc(var(--intensidad, 0) * 100%), #FFF8EC);
 }
-.cal-dia small { font-size: 0.62rem; font-weight: 600; opacity: 0.75; }
+.cal-dia small { font-size: 0.68rem; font-weight: 600; opacity: 0.75; }
 .cal-dia.fuera { visibility: hidden; }
 .cal-dia.pasado { opacity: 0.3; background: transparent; }
 .cal-dia.sin-eventos { background: transparent; color: var(--texto-suave); }
@@ -158,8 +172,6 @@ select {
 .cal-dia.en-periodo { border-color: var(--borde); }
 .cal-dia.elegido { background: var(--mostaza); color: var(--tinta); border-color: var(--borde); box-shadow: 2px 2px 0 var(--sombra); }
 .cal-dia:not(:disabled):hover { transform: translate(-1px, -1px); box-shadow: 2px 2px 0 var(--sombra); }
-/* Con mucho cobalto el número pasa a blanco para que se lea. */
-.cal-dia.intenso:not(.elegido) { color: #fff; }
 
 /* --- Resultados ------------------------------------------------------------------------------ */
 .intro {
@@ -174,17 +186,17 @@ select {
   padding: 10px 0 8px; margin-bottom: 14px; border-bottom: 2px dashed color-mix(in srgb, var(--texto) 18%, transparent);
 }
 .activos:not(:empty) { margin-top: 8px; }
-.cuenta-filtros { background: var(--coral); color: #fff; border-radius: 999px; padding: 0 8px; font-size: 0.75rem; margin-left: 4px; }
+.cuenta-filtros { background: var(--coral); color: var(--tinta); border-radius: 999px; padding: 0 8px; font-size: 0.75rem; margin-left: 4px; }
 .resumen { margin: 0; color: var(--texto-suave); }
 .resumen strong { font: 800 1.3rem var(--display); color: var(--texto); }
 .activos { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
-.chip-activo { background: var(--coral); color: #fff; padding: 3px 8px 3px 12px; display: inline-flex; gap: 6px; align-items: center; font-size: 0.85rem; }
+.chip-activo { background: var(--coral); color: var(--tinta); padding: 3px 8px 3px 12px; display: inline-flex; gap: 6px; align-items: center; font-size: 0.85rem; }
 .chip-activo span:last-child { font-size: 1.1rem; line-height: 1; }
 
 .mapa { height: min(70vh, 620px); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 5px 5px 0 var(--sombra); margin-bottom: 16px; overflow: hidden; }
 /* Los tiles de OpenStreetMap se llevan a tonos de la paleta. */
-.mapa .leaflet-tile-pane { filter: grayscale(1) sepia(0.35) hue-rotate(-10deg) brightness(1.04) contrast(0.92); }
-@media (prefers-color-scheme: dark) { .mapa .leaflet-tile-pane { filter: grayscale(1) invert(1) sepia(0.3) hue-rotate(185deg) brightness(0.85) contrast(0.9); } }
+.mapa .leaflet-tile-pane { filter: grayscale(0.55) sepia(0.2) hue-rotate(-10deg) contrast(0.97); }
+[data-tema="oscuro"] .mapa .leaflet-tile-pane { filter: grayscale(0.7) invert(1) sepia(0.15) hue-rotate(185deg) brightness(0.9) contrast(0.95); }
 .mapa .leaflet-popup-content { font: 0.92rem var(--sans); color: var(--tinta); }
 .ver-sala { margin-top: 8px; border: 2px solid var(--tinta); background: var(--cobalto); color: #fff; border-radius: 999px; padding: 3px 12px; font-weight: 700; }
 
@@ -195,7 +207,7 @@ select {
   box-shadow: 5px 5px 0 var(--acento); display: flex; flex-direction: column; overflow: hidden;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-.evento:hover { transform: translate(-2px, -2px) rotate(-0.4deg); box-shadow: 8px 8px 0 var(--acento); }
+.evento:hover { transform: translate(-2px, -2px); box-shadow: 8px 8px 0 var(--acento); }
 /* Cada tipo de evento tiene su color de acento. */
 .cat-teatro, .cat-carnaval, .cat-humor { --acento: var(--coral); }
 .cat-danza, .cat-infantil, .cat-tour, .cat-taller { --acento: var(--mostaza); }
@@ -203,7 +215,7 @@ select {
 .cat-exposicion, .cat-charla, .cat-fiesta, .cat-otros { --acento: var(--tinta); }
 
 .barrios { font-size: 0.85rem; margin: -2px 0 6px; }
-.barrios summary { cursor: pointer; color: var(--cobalto-texto); font-weight: 600; }
+.barrios summary { cursor: pointer; min-height: 24px; display: flex; align-items: center; color: var(--cobalto-texto); font-weight: 600; }
 .barrios p { margin: 4px 0 0; color: var(--texto-suave); }
 
 .flyer { position: relative; display: block; aspect-ratio: 16 / 9; background: var(--acento); border-bottom: 2px solid var(--borde); }
@@ -213,16 +225,16 @@ select {
 .insignias { position: absolute; left: 10px; top: 10px; display: flex; gap: 6px; }
 .insignia { font: 800 0.8rem/1 var(--display); text-transform: uppercase; letter-spacing: 0.04em; padding: 6px 10px; border: 2px solid var(--tinta); border-radius: 999px; box-shadow: 2px 2px 0 var(--tinta); }
 .insignia-gratis { background: var(--mostaza); color: var(--tinta); transform: rotate(-4deg); }
-.insignia-promo { background: var(--coral); color: #fff; transform: rotate(3deg); }
+.insignia-promo { background: var(--coral); color: var(--tinta); transform: rotate(3deg); }
 .insignia-agotado { background: var(--tinta); color: var(--crema); }
 
 .cuerpo { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 3px; flex: 1; }
-.tipo { margin: 0; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--cobalto-texto); }
+.tipo { margin: 0; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--cobalto-texto); }
 .evento h3 { margin: 0; font: 800 1.12rem/1.18 var(--display); }
 .evento h3 a { text-decoration: none; }
 .evento h3 a:hover { text-decoration: underline; text-decoration-color: var(--coral); text-decoration-thickness: 3px; }
 .lugar, .cuando, .ciclo { margin: 0; font-size: 0.9rem; color: var(--texto-suave); }
-.enlace-sala, .enlace-ciclo { border: none; background: none; padding: 0; text-align: left; color: inherit; text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px; }
+.enlace-sala, .enlace-ciclo { border: none; background: none; padding: 2px 0; min-height: 24px; text-align: left; color: inherit; text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px; }
 .enlace-ciclo { color: var(--cobalto-texto); font-weight: 600; }
 .cuando time { color: var(--texto); font-weight: 700; }
 .cuando .mas { margin-left: 6px; font-size: 0.82rem; }
@@ -234,7 +246,7 @@ select {
 .via a:hover { text-decoration: underline; }
 .vacio { text-align: center; padding: 48px 0; }
 .vacio p { font: 800 1.3rem var(--display); margin: 0 0 12px; }
-.vacio button { background: var(--coral); color: #fff; }
+.vacio button { background: var(--coral); color: var(--tinta); }
 .pie-pagina { color: var(--texto-suave); font-size: 0.85rem; padding-top: 14px; padding-bottom: 40px; border-top: 2px dashed color-mix(in srgb, var(--texto) 30%, transparent); }
 
 /* --- Carriles: un día por fila, que se desliza de costado -------------------------------- */
@@ -246,6 +258,15 @@ select {
 .carril-finde .carril-cabezal h2 { background: var(--mostaza); color: var(--tinta); padding: 2px 12px; border-radius: 10px; border: 2px solid var(--borde); }
 .carril-finde .carril-cabezal h2 small { color: var(--tinta); }
 .carril-cartel .carril-cabezal h2 { color: var(--cobalto-texto); }
+.carril-plegado > summary {
+  display: inline-flex; align-items: center; gap: 8px; cursor: pointer; list-style: none; min-height: 40px;
+  border: 2px dashed var(--borde); border-radius: 999px; padding: 6px 16px; font: 700 0.95rem var(--display); color: var(--cobalto-texto);
+}
+.carril-plegado > summary::-webkit-details-marker { display: none; }
+.carril-plegado > summary::before { content: "▸"; }
+.carril-plegado[open] > summary { margin-bottom: 14px; border-style: solid; }
+.carril-plegado[open] > summary::before { content: "▾"; }
+.carril-plegado > summary:hover { background: var(--superficie); }
 .carril-flechas { display: flex; gap: 6px; flex: none; }
 .carril-pista {
   list-style: none; margin: 0; padding: 4px 12px 14px 4px; display: grid; grid-auto-flow: column;
@@ -258,7 +279,7 @@ select {
 /* --- Planeá tu mes ------------------------------------------------------------------------- */
 .agregar-plan {
   margin-left: auto; border: 2px solid var(--borde); background: var(--superficie); color: var(--texto);
-  border-radius: 999px; padding: 2px 10px; font-size: 0.8rem; font-weight: 700;
+  border-radius: 999px; padding: 4px 12px; min-height: 32px; font-size: 0.85rem; font-weight: 700;
 }
 .agregar-plan.en-plan { background: var(--mostaza); color: var(--tinta); }
 /* Punto coral en los días con algo en el plan (posición absoluta: no agranda la celda). */
@@ -282,7 +303,7 @@ select {
   padding: 5px 13px; font-weight: 700; font-size: 0.9rem; text-decoration: none; display: inline-block;
 }
 .boton-secundario:hover, .boton-principal:hover { transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--sombra); }
-.aviso-copiado { font-weight: 700; color: var(--coral); }
+.aviso-copiado { font-weight: 700; color: var(--coral-texto); }
 .mi-plan-vacio { margin: 10px 0 4px; color: var(--texto-suave); }
 .mi-plan-lista { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 6px; }
 .mi-plan-lista li {
@@ -294,7 +315,7 @@ select {
 .mi-plan-evento a { font-weight: 700; text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .mi-plan-evento small { color: var(--texto-suave); }
 .mi-plan-lista .google { font-size: 0.82rem; font-weight: 700; color: var(--cobalto-texto); text-decoration: none; white-space: nowrap; }
-.quitar { border: 2px solid var(--borde); background: var(--superficie); border-radius: 50%; width: 28px; height: 28px; line-height: 1; font-weight: 800; }
+.quitar { border: 2px solid var(--borde); background: var(--superficie); border-radius: 50%; width: 36px; height: 36px; line-height: 1; font-weight: 800; }
 .mi-plan-ayuda { margin: 12px 0 0; font-size: 0.8rem; color: var(--texto-suave); }
 
 .plan-cal { margin-bottom: 28px; }
@@ -319,13 +340,13 @@ select {
   display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
 }
 .pc-quitar {
-  position: absolute; right: 2px; top: 2px; width: 16px; height: 16px; padding: 0; line-height: 1;
+  position: absolute; right: 0; top: 0; width: 24px; height: 24px; padding: 0; line-height: 1;
   border: none; background: none; font-weight: 800; color: var(--texto-suave);
 }
 .pc-quitar:hover { color: var(--coral); }
 .pc-opciones {
   margin-top: auto; align-self: flex-start; border: 1.5px dashed var(--texto-suave); background: transparent;
-  color: var(--cobalto-texto); border-radius: 999px; padding: 1px 8px; font-size: 0.72rem; font-weight: 700;
+  color: var(--cobalto-texto); border-radius: 999px; padding: 2px 8px; min-height: 24px; font-size: 0.78rem; font-weight: 700;
 }
 .pc-opciones:hover { border-style: solid; background: var(--superficie); }
 .plan-opciones-titulo { font: 800 1.4rem var(--display); margin: 0 0 12px; }
@@ -350,7 +371,7 @@ select {
 .plan-horarios { display: flex; flex-wrap: wrap; gap: 4px; }
 .horario {
   border: 2px solid var(--borde); background: var(--superficie); color: var(--texto); border-radius: 999px;
-  padding: 2px 10px; font-weight: 700; font-size: 0.85rem; font-variant-numeric: tabular-nums;
+  padding: 4px 12px; min-height: 32px; font-weight: 700; font-size: 0.85rem; font-variant-numeric: tabular-nums;
 }
 .horario.en-plan { background: var(--mostaza); color: var(--tinta); box-shadow: 2px 2px 0 var(--sombra); }
 .plan-info { display: flex; flex-direction: column; min-width: 0; }
@@ -360,18 +381,47 @@ select {
 
 /* --- Celular --------------------------------------------------------------------------------- */
 @media (max-width: 860px) {
-  .principal { grid-template-columns: minmax(0, 1fr); gap: 20px; }
-  .filtros { position: static; max-height: none; }
+  .cabezal-interior { padding-top: 20px; padding-bottom: 14px; }
+  /* Las pestañas siguen a la derecha: un degradé avisa que hay más. */
+  .secciones { mask-image: linear-gradient(to right, #000 calc(100% - 36px), transparent); padding-right: 28px; }
+  .principal { grid-template-columns: minmax(0, 1fr); gap: 14px; padding-top: 16px; }
+  /* Filtros en un panel que entra desde la izquierda; en la página quedan los atajos de fecha y "Filtros". */
+  .barra-movil { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 4px; }
+  /* La barra fija (conteo y filtros activos) lleva el botón "Filtros", así está siempre a mano. */
+  .barra { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; column-gap: 10px; }
+  .barra .activos { grid-column: 1 / -1; }
+  .barra-movil .atajos button, .abrir-filtros { min-height: 40px; }
+  .abrir-filtros {
+    display: inline-flex; align-items: center; gap: 6px; border: 2px solid var(--borde); background: var(--cobalto); color: #fff;
+    border-radius: 999px; padding: 5px 14px; font-weight: 700; box-shadow: 3px 3px 0 var(--sombra);
+  }
+  .abrir-filtros .cuenta-filtros { background: var(--mostaza); color: var(--tinta); }
+  #campo-fecha .atajos { display: none; }
+  .filtros {
+    position: fixed; top: 0; bottom: 0; left: 0; z-index: 60; width: min(88vw, 380px); max-height: none;
+    border-radius: 0 var(--radio) var(--radio) 0; border-left: 0; padding: 14px 16px 0; overflow-y: auto;
+    transform: translateX(-105%); visibility: hidden; box-shadow: none;
+    transition: transform 0.25s ease, visibility 0s linear 0.25s;
+  }
+  .filtros.abierto { transform: none; visibility: visible; box-shadow: 6px 0 0 var(--sombra); transition: transform 0.25s ease; }
+  .filtros-titulo { position: sticky; top: -14px; z-index: 2; background: var(--superficie); padding: 6px 0; margin: -6px 0 8px; gap: 10px; }
+  .filtros-titulo .borrar-todo { margin-left: auto; }
+  .cerrar-filtros {
+    display: inline-grid; place-items: center; flex: none; width: 40px; height: 40px; border: 2px solid var(--borde);
+    border-radius: 50%; background: var(--superficie); font-size: 1.4rem; font-weight: 800; line-height: 1;
+  }
+  .filtros-pie { display: block; position: sticky; bottom: 0; background: var(--superficie); padding: 12px 0 16px; margin-top: 4px; }
+  .filtros-pie .boton-principal { width: 100%; min-height: 44px; font-size: 1rem; }
+  .velo { display: block; position: fixed; inset: 0; z-index: 55; background: rgba(24, 38, 74, 0.5); }
+  body.filtros-abiertos { overflow: hidden; }
   .cifras { justify-content: flex-start; }
   .cifras .actualizado { text-align: left; }
   .calendario { max-width: 380px; }
-  .plegable > summary {
-    display: block; cursor: pointer; margin: 4px 0 12px; font-weight: 700; color: var(--cobalto-texto);
-  }
-  .carril-pista { grid-auto-columns: 78%; }
+
+  .carril-pista { grid-auto-columns: 84%; }
   .carril-flechas { display: none; }
   .carril-cabezal h2 { font-size: 1.15rem; }
-  .pc-semana span { font-size: 0.62rem; padding: 0 0 2px; text-align: center; }
+  .pc-semana span { font-size: 0.7rem; padding: 0 0 2px; text-align: center; }
   .pc-grilla, .pc-semana { gap: 3px; }
   .pc-dia { min-height: 54px; padding: 3px; border-radius: 8px; align-items: center; }
   .pc-numero { font-size: 0.85rem; }
@@ -384,6 +434,11 @@ select {
   .mi-plan-lista time { grid-column: 1 / -1; }
   .plan-fila { grid-template-columns: 1fr; gap: 6px; }
   .plan-info { order: -1; }
+}
+
+@media (max-width: 600px) {
+  h1 { font-size: clamp(2rem, 10vw, 2.65rem); }
+  .bajada { font-size: 0.95rem; margin-top: 8px; }
 }
 
 /* --- Versión para imprimir (Planeá tu mes) ------------------------------------------------- */

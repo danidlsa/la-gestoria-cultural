@@ -262,6 +262,8 @@ Para instalarlo hace falta que `main` tenga este código y que exista la rama `d
 | Crema | `#F4E9D5` | Fondo |
 | Tinta | `#18264A` | Textos, bordes y sombras; es el fondo en modo oscuro |
 
+**Modo claro u oscuro:** arranca siempre en crema (la identidad de la Gestoría) y cada persona puede pasar a oscuro con el botón ☀/☾ del cabezal; la elección queda en el navegador. No depende del sistema operativo.
+
 Bordes gruesos, sombras sólidas desplazadas y un color de acento por tipo de evento. Tipografías **Bricolage Grotesque** (títulos) y **DM Sans** (texto).
 
 **Filtros activos:** aparecen como chips arriba de los resultados ("Teatro ×", "Este finde ×"), cada uno se borra con un toque, y hay un "Borrar todo" ahí y en el encabezado de los filtros.
@@ -270,8 +272,9 @@ Bordes gruesos, sombras sólidas desplazadas y un color de acento por tipo de ev
 
 | Pieza | Cómo funciona |
 |-------|---------------|
-| **Carriles por día** (Agenda, Gratis, Promos, Festivales) | Para no scrollear cientos de tarjetas, cada día es un **carril horizontal** ("Hoy · viernes 30 de octubre · 41 eventos") que se desliza de costado, con flechas en escritorio y con el dedo en el celular (una tarjeta y un poco de la siguiente). Al bajar se pasa de día en día, no de evento en evento. Las temporadas y muestras largas (6 o más fechas a lo largo de 2 semanas o más) van una sola vez en el carril **"En cartel"**, al principio. Los fines de semana tienen el título resaltado. Los carriles se dibujan de a 6 días a medida que se baja. Los filtros de fecha (Hoy, Este finde, 7 días, un día del calendario chico) recortan los carriles. Una vista calendario grande en la Agenda se probó y se descartó: no resultó útil para explorar. |
-| **Filtros activos siempre visibles** | La barra con el conteo y los filtros activos (chips con ×) queda fija arriba al bajar. En el celular, "Más filtros" muestra cuántos hay activos. |
+| **Carriles por día** (Agenda, Gratis, Promos, Festivales) | Para no scrollear cientos de tarjetas, cada día es un **carril horizontal** ("Hoy · viernes 30 de octubre · 41 eventos") que se desliza de costado, con flechas en escritorio y con el dedo en el celular (una tarjeta y un poco de la siguiente). Al bajar se pasa de día en día, no de evento en evento. Las temporadas y muestras largas (6 o más fechas a lo largo de 2 semanas o más) van una sola vez en **"Ver temporadas y muestras"**: un carril plegado después del primer día (lo primero que se ve es hoy). Se abre al tocarlo, las tarjetas se arman recién ahí, y queda abierto aunque cambien los filtros. Los fines de semana tienen el título resaltado. Los carriles se dibujan de a 6 días a medida que se baja. Los filtros de fecha (Hoy, Este finde, 7 días, un día del calendario chico) recortan los carriles. Una vista calendario grande en la Agenda se probó y se descartó: no resultó útil para explorar. |
+| **Filtros activos siempre visibles** | La barra con el conteo y los filtros activos (chips con ×) queda fija arriba al bajar. En el celular, esa barra lleva el botón "Filtros (n)". |
+| **Filtros en el celular** | Panel lateral que entra desde la izquierda, como en los sitios de compras: arriba de los eventos quedan los atajos de fecha (Hoy, Este finde, 7 días, Todo) y en la barra fija el botón "Filtros", con la cantidad de filtros activos. El panel tiene calendario, tipo, excluir, precio y sala, una × para cerrar y abajo "Ver N eventos". Se cierra también tocando afuera o con Esc. Es accesible como diálogo: el foco entra al panel, lo de atrás queda inerte y al cerrar el foco vuelve al botón. |
 | **Mapa** | Leaflet (cargado solo al abrir la sección) sobre los tiles de **OpenStreetMap**: gratis, **sin API key**, con atribución y uso moderado. Los colores se llevan a la paleta con un filtro CSS. Un círculo por sala, más grande cuantos más eventos tiene; "Ver sus eventos" filtra por esa sala. (CARTO pide API key desde 2026, por eso no se usa.) |
 | **Sala** | Selector con todas las salas y su cantidad de eventos. El nombre de la sala en cada tarjeta también filtra. |
 | **Gratis** | Sección propia. Un evento es gratis si la fuente lo marca así o si todas sus entradas valen $0. |
@@ -290,6 +293,17 @@ Bordes gruesos, sombras sólidas desplazadas y un color de acento por tipo de ev
 
 - **Comedia Nacional**: los textos de Tickantel no la mencionan; sale del sitio del Solís.
 - **Cinemateca**: sale de su propia fuente.
+
+### Accesibilidad
+
+El objetivo es **WCAG 2.2 nivel AA**. Se revisa con [axe](https://github.com/dequelabs/axe-core) en claro y oscuro, en compu y celular, y en la página "¿Qué es?": **sin errores** (31/10/2026).
+
+- **Contraste:** el coral de la marca no alcanza como letra ni con letra blanca encima (3:1). Los fondos coral llevan letra tinta (4,9:1) y el texto coral usa un tono propio (`--coral-texto`, más oscuro en claro y más claro en oscuro). Los días del calendario chico no pasan de un 62 % de cobalto, para que el número siempre se lea.
+- **Teclado:** el primer Tab muestra "Saltar a los eventos". Todo es un botón o un enlace de verdad, con contorno de foco mostaza (también el buscador).
+- **Lectores de pantalla:** los filtros y pestañas dicen si están activos (`aria-pressed`); cada "＋ Mi plan" dice de qué evento y función es; los días del calendario dicen fecha y cantidad de eventos; el conteo de resultados se anuncia al cambiar (`aria-live`); los flyers son decorativos (el título está en el texto).
+- **Tamaños:** ningún texto con información por debajo de unos 12 px; los controles tienen al menos 24 × 24 px (los del celular, 40 px).
+- **Movimiento:** con "reducir movimiento" activado en el sistema no hay animaciones ni desplazamientos suaves.
+- **Mapa:** los puntos no se manejan con teclado; la alternativa es el selector de sala, que filtra lo mismo.
 
 ### Planeá tu mes
 

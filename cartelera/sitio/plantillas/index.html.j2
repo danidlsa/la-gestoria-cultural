@@ -8,9 +8,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap">
+  <!-- El tema elegido se aplica antes de dibujar, para que no parpadee. -->
+  <script>try { if (localStorage.getItem("lgc-tema") === "oscuro") document.documentElement.dataset.tema = "oscuro"; } catch (_) {}</script>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+  <a class="saltar" href="#resultados">Saltar a los eventos</a>
   <header class="cabezal">
     <div class="contenedor cabezal-interior">
       <div class="marca">
@@ -21,6 +24,7 @@
         <span><strong>{{ eventos|length }}</strong> eventos</span>
         <span><strong>{{ salas|length }}</strong> salas</span>
         <span class="actualizado">Actualizado {{ generado }}</span>
+        <button type="button" class="boton-tema" id="boton-tema" aria-pressed="false" aria-label="Modo oscuro"><span class="tema-icono" aria-hidden="true">☾</span> <span class="tema-texto" aria-hidden="true">Oscuro</span></button>
       </p>
     </div>
     <div class="contenedor buscador" role="search">
@@ -40,10 +44,11 @@
   </header>
 
   <div class="contenedor principal">
-    <aside class="filtros" aria-label="Filtros">
+    <aside class="filtros" id="filtros" aria-labelledby="filtros-nombre">
       <div class="filtros-titulo">
-        <h2>Filtros</h2>
+        <h2 id="filtros-nombre">Filtros</h2>
         <button type="button" class="borrar-todo" data-borrar="todo" hidden>Borrar todo</button>
+        <button type="button" class="cerrar-filtros" data-cerrar-filtros aria-label="Cerrar filtros">×</button>
       </div>
 
       <section class="campo" id="campo-fecha">
@@ -55,7 +60,7 @@
           <button type="button" data-periodo="todo" class="activo">Todo</button>
         </div>
         <details class="plegable" open>
-          <summary>Ver calendario</summary>
+          <summary>Calendario</summary>
           <div class="calendario" id="calendario">
             <div class="cal-cabezal">
               <button type="button" class="cal-flecha" data-mes="-1" aria-label="Mes anterior">‹</button>
@@ -69,7 +74,7 @@
       </section>
 
       <details class="plegable" open>
-        <summary>Más filtros: tipo, precio y sala <span class="cuenta-filtros" id="cuenta-filtros" hidden></span></summary>
+        <summary>Más filtros</summary>
 
         <section class="campo">
           <h3>Tipo de evento</h3>
@@ -123,13 +128,30 @@
         </section>
 
       </details>
+      <div class="filtros-pie">
+        <button type="button" class="boton-principal ver-eventos" data-cerrar-filtros>Ver los eventos</button>
+      </div>
     </aside>
+    <div class="velo" id="velo" hidden></div>
 
-    <main class="resultados">
+    <main class="resultados" id="resultados" tabindex="-1">
+      <!-- En el celular: los atajos de fecha a mano. El botón "Filtros" va en la barra fija y abre el panel lateral. -->
+      <div class="barra-movil">
+        <div class="atajos" role="group" aria-label="Período">
+          <button type="button" data-periodo="hoy">Hoy</button>
+          <button type="button" data-periodo="finde">Este finde</button>
+          <button type="button" data-periodo="semana">7 días</button>
+          <button type="button" data-periodo="todo" class="activo">Todo</button>
+        </div>
+      </div>
       <div class="intro" id="intro" hidden></div>
       <div class="barra" id="barra">
         <p class="resumen" id="resumen" aria-live="polite"></p>
-        <div class="activos" id="activos" aria-label="Filtros activos"></div>
+        <button type="button" class="abrir-filtros" data-abrir-filtros aria-controls="filtros" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true" width="18" height="18"><path d="M3 6h18M7 12h10M10 18h4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"/></svg>
+          Filtros <span class="cuenta-filtros" hidden></span>
+        </button>
+        <div class="activos" id="activos" role="group" aria-label="Filtros activos"></div>
       </div>
 
       <div class="carriles" id="carriles"></div>
@@ -240,5 +262,6 @@
 
   <script id="datos" type="application/json">{{ datos_json|safe }}</script>
   <script src="app.js"></script>
+  <script src="tema.js"></script>
 </body>
 </html>

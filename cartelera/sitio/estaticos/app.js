@@ -189,9 +189,10 @@
     if (activos.length > 1) chips.push(el("button", { type: "button", class: "borrar-todo", "data-borrar": "todo" }, "Borrar todo"));
     document.getElementById("activos").replaceChildren(...chips);
     document.querySelector(".filtros-titulo .borrar-todo").hidden = activos.length === 0;
-    const cuenta = document.getElementById("cuenta-filtros");
-    cuenta.hidden = activos.length === 0;
-    cuenta.textContent = plural(activos.length, "activo");
+    for (const cuenta of document.querySelectorAll(".cuenta-filtros")) {
+      cuenta.hidden = activos.length === 0;
+      cuenta.textContent = activos.length;
+    }
   }
 
   function borrar(clave) {
@@ -214,6 +215,9 @@
     boton.dataset.agregarFuncion = clavePlan(id, inicio);
     boton.textContent = enPlan ? "✓ En mi plan" : "＋ Mi plan";
     boton.classList.toggle("en-plan", enPlan);
+    // Para lectores de pantalla: el botón dice de qué evento es y si ya está en el plan.
+    boton.setAttribute("aria-pressed", String(enPlan));
+    boton.setAttribute("aria-label", `Mi plan: ${porId.get(id)?.titulo || ""}, ${textoFuncion([inicio, false])}`);
     boton.title = enPlan ? "Quitar de mi plan" : `Agregar la función del ${textoFuncion([inicio, false])} a mi plan`;
   }
 
@@ -239,6 +243,29 @@
           el("button", { type: "button", class: "cal-flecha", "data-desplazar": "-1", "aria-label": "Anteriores" }, "‹"),
           el("button", { type: "button", class: "cal-flecha", "data-desplazar": "1", "aria-label": "Siguientes" }, "›"))),
       pista);
+  }
+
+  // "Ver temporadas y muestras": el carril de lo que está en cartel muchas semanas, plegado.
+  // Las tarjetas se arman recién al abrirlo, y queda abierto aunque cambien los filtros.
+  let cartelAbierto = false;
+  function carrilPlegado(items) {
+    const texto = () => `${cartelAbierto ? "Ocultar" : "Ver"} temporadas y muestras (${items.length})`;
+    const resumen = el("summary", {}, texto());
+    const plegado = el("details", { class: "carril-plegado" }, resumen);
+    const armar = () => {
+      if (!plegado.querySelector(".carril")) {
+        plegado.append(carril("En cartel", "obras, muestras y visitas con muchas fechas",
+          items.map(([e, f]) => tarjetaPara(e, f)), "carril-cartel"));
+      }
+    };
+    plegado.open = cartelAbierto;
+    if (cartelAbierto) armar();
+    plegado.addEventListener("toggle", () => {
+      cartelAbierto = plegado.open;
+      resumen.textContent = texto();
+      if (plegado.open) armar();
+    });
+    return plegado;
   }
 
   function nombreCarril(dia) {
@@ -268,16 +295,17 @@
     }
 
     const secciones = [];
-    if (enCartel.length) {
-      const items = enCartel.map((e) => [e, e.funciones.find(([i]) => enRango(i.slice(0, 10))) || e.funciones[0]])
-        .sort((a, b) => a[1][0].localeCompare(b[1][0]));
-      secciones.push(() => carril("En cartel", "temporadas y muestras con muchas fechas",
-        items.map(([e, f]) => tarjetaPara(e, f)), "carril-cartel"));
-    }
     for (const dia of [...porDia.keys()].sort()) {
       const items = porDia.get(dia).sort((a, b) => a[1][0].localeCompare(b[1][0]));
       secciones.push(() => carril(nombreCarril(dia), plural(items.length, "evento"),
         items.map(([e, f]) => tarjetaPara(e, f)), diaSemana(dia) % 6 === 0 ? "carril-finde" : ""));
+    }
+    // Lo primero es el primer día (casi siempre, hoy). Las temporadas y muestras largas van después,
+    // plegadas: se ven solo si se piden.
+    if (enCartel.length) {
+      const items = enCartel.map((e) => [e, e.funciones.find(([i]) => enRango(i.slice(0, 10))) || e.funciones[0]])
+        .sort((a, b) => a[1][0].localeCompare(b[1][0]));
+      secciones.splice(Math.min(1, secciones.length), 0, () => carrilPlegado(items));
     }
 
     // Se dibujan de a tandas a medida que se baja, para no armar cientos de tarjetas de una.
@@ -326,13 +354,13 @@
     for (let i = 0; i < (diaSemana(primero) + 6) % 7; i++) celdas.push(el("span", { class: "cal-dia fuera" }));
     for (const dia of rango(primero, diasEnMes)) {
       const cantidad = conteo.get(dia) || 0;
-      const intensidad = 0.15 + 0.65 * cantidad / maximo;
+      // Hasta 0.62 de cobalto: más oscuro, el número deja de leerse con contraste suficiente.
+      const intensidad = 0.12 + 0.5 * cantidad / maximo;
       const boton = el("button", {
         type: "button", "data-dia": dia, "aria-label": `${textoFuncion([dia, true])}: ${plural(cantidad, "evento")}`,
         class: ["cal-dia", dia === hoy && "hoy", dia < hoy && "pasado", !cantidad && "sin-eventos",
           estado.periodo === "dia" && estado.dia === dia && "elegido",
-          periodo && estado.periodo !== "dia" && periodo.includes(dia) && "en-periodo",
-          intensidad > 0.55 && "intenso"].filter(Boolean).join(" "),
+          periodo && estado.periodo !== "dia" && periodo.includes(dia) && "en-periodo"].filter(Boolean).join(" "),
       }, String(Number(dia.slice(8))), el("small", {}, cantidad ? String(cantidad) : ""));
       boton.style.setProperty("--intensidad", intensidad.toFixed(2));
       boton.disabled = dia < hoy;
@@ -703,9 +731,15 @@
   // --- Controles --------------------------------------------------------------------------------
   function marcarActivo(grupo, atributo, valor) {
     for (const boton of document.querySelectorAll(`#${grupo} button`)) {
-      boton.classList.toggle("activo", (boton.dataset[atributo] ?? null) === valor);
+      const activo = (boton.dataset[atributo] ?? null) === valor;
+      boton.classList.toggle("activo", activo);
+      boton.setAttribute("aria-pressed", String(activo));
     }
   }
+
+  // Quien pidió menos movimiento en su sistema no ve desplazamientos animados.
+  const menosMovimiento = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const suave = () => (menosMovimiento.matches ? "auto" : "smooth");
 
   function dibujarSubrubros() {
     const contenedor = document.getElementById("subrubros");
@@ -719,21 +753,25 @@
       ? el("p", { class: "nota-experimental" }, "✦ Experimental: el género se deduce solo y a veces le erra.")
       : null;
     contenedor.replaceChildren(...botones.map(([clave, texto]) => el("button", {
-      type: "button", "data-sub": clave, class: estado.sub === clave ? "activo" : "",
+      type: "button", "data-sub": clave, class: estado.sub === clave ? "activo" : "", "aria-pressed": String(estado.sub === clave),
     }, texto)), ...(nota ? [nota] : []));
   }
 
   function dibujarControles() {
     for (const boton of document.querySelectorAll(".secciones button[data-seccion]")) {
-      boton.classList.toggle("activa", boton.dataset.seccion === estado.seccion);
+      const activa = boton.dataset.seccion === estado.seccion;
+      boton.classList.toggle("activa", activa);
+      boton.setAttribute("aria-pressed", String(activa));
     }
     for (const boton of document.querySelectorAll(".atajos button")) {
       boton.classList.toggle("activo", boton.dataset.periodo === estado.periodo);
+      boton.setAttribute("aria-pressed", String(boton.dataset.periodo === estado.periodo));
     }
     for (const boton of document.querySelectorAll("#rubros button")) {
       const activo = estado.etiqueta ? boton.dataset.etiqueta === estado.etiqueta
         : boton.dataset.categoria === estado.categoria && !boton.dataset.etiqueta;
       boton.classList.toggle("activo", activo);
+      boton.setAttribute("aria-pressed", String(activo));
     }
     for (const boton of document.querySelectorAll("#excluidos button")) {
       const excluido = estado.excluir.includes(boton.dataset.excluir);
@@ -778,7 +816,43 @@
     document.getElementById("carriles").hidden = enMapa || enPlan;
     document.getElementById("vacio").hidden = true;
     dibujarContenido();
+    // El botón del pie del panel dice cuántos eventos quedan con estos filtros.
+    const cantidad = document.querySelector("#resumen strong")?.textContent;
+    document.querySelector(".ver-eventos").textContent = cantidad ? `Ver ${cantidad} eventos` : "Ver los eventos";
   }
+
+  // --- Panel de filtros del celular: se abre desde la izquierda, como un diálogo -------------------
+  const panelFiltros = document.getElementById("filtros");
+  const velo = document.getElementById("velo");
+  const botonFiltros = document.querySelector("[data-abrir-filtros]");
+  const fondo = () => [document.querySelector(".cabezal"), document.getElementById("resultados"), document.querySelector(".pie-pagina")];
+
+  function abrirFiltros() {
+    panelFiltros.classList.add("abierto");
+    panelFiltros.setAttribute("role", "dialog");
+    panelFiltros.setAttribute("aria-modal", "true");
+    velo.hidden = false;
+    document.body.classList.add("filtros-abiertos");
+    // Lo de atrás queda inerte: ni el teclado ni el lector de pantalla salen del panel.
+    for (const parte of fondo()) parte?.setAttribute("inert", "");
+    botonFiltros.setAttribute("aria-expanded", "true");
+    panelFiltros.querySelector(".cerrar-filtros").focus();
+  }
+
+  function cerrarFiltros(devolverFoco = true) {
+    if (!panelFiltros.classList.contains("abierto")) return;
+    panelFiltros.classList.remove("abierto");
+    panelFiltros.removeAttribute("role");
+    panelFiltros.removeAttribute("aria-modal");
+    velo.hidden = true;
+    document.body.classList.remove("filtros-abiertos");
+    for (const parte of fondo()) parte?.removeAttribute("inert");
+    botonFiltros.setAttribute("aria-expanded", "false");
+    if (devolverFoco) botonFiltros.focus();
+  }
+
+  velo.addEventListener("click", () => cerrarFiltros());
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") cerrarFiltros(); });
 
   function cambiar(cambios) {
     estado = { ...estado, ...cambios };
@@ -791,14 +865,16 @@
     const boton = evento.target.closest("button");
     if (!boton || boton.disabled) return;
     const d = boton.dataset;
-    if (d.borrar) cambiar(borrar(d.borrar));
+    if ("abrirFiltros" in d) abrirFiltros();
+    else if ("cerrarFiltros" in d) cerrarFiltros();
+    else if (d.borrar) cambiar(borrar(d.borrar));
     else if (d.excluir) {
       const ya = estado.excluir.includes(d.excluir);
       cambiar({ excluir: ya ? estado.excluir.filter((c) => c !== d.excluir) : [...estado.excluir, d.excluir] });
     }
     else if (d.desplazar) {
       const pista = boton.closest(".carril").querySelector(".carril-pista");
-      pista.scrollBy({ left: Number(d.desplazar) * pista.clientWidth * 0.9, behavior: "smooth" });
+      pista.scrollBy({ left: Number(d.desplazar) * pista.clientWidth * 0.9, behavior: suave() });
     } else if (d.agregarFuncion) {
       const [id, inicio] = d.agregarFuncion.split("|");
       alternarPlan(id, inicio);
@@ -819,9 +895,9 @@
         dibujarContenido();
       }
     } else if (d.verDia) {
-      document.getElementById(`dia-${d.verDia}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+      document.getElementById(`dia-${d.verDia}`)?.scrollIntoView({ behavior: suave(), block: "start" });
     } else if ("volverCalendario" in d) {
-      document.querySelector(".plan-cal").scrollIntoView({ behavior: "smooth", block: "start" });
+      document.querySelector(".plan-cal").scrollIntoView({ behavior: suave(), block: "start" });
     } else if (d.planMes) cambiar({ planMes: sumarMeses(estado.planMes, Number(d.planMes)) });
     else if (d.exportar === "ics") descargarIcs();
     else if (d.exportar === "imprimir") imprimir();
@@ -864,7 +940,9 @@
   // La lista del plan (con los enlaces a Google) es al revés: abierta en el celular, donde no hay calendario grande.
   const angosta = window.matchMedia("(max-width: 860px)");
   const ajustarPlegables = () => {
-    for (const plegable of document.querySelectorAll(".plegable")) plegable.open = !angosta.matches;
+    // Los filtros van siempre desplegados: en el celular viven en el panel lateral, que ya se abre y se cierra.
+    for (const plegable of document.querySelectorAll(".plegable")) plegable.open = true;
+    if (!angosta.matches) cerrarFiltros(false);
     document.getElementById("mi-plan-detalle").open = angosta.matches;
   };
   angosta.addEventListener("change", ajustarPlegables);
