@@ -1,6 +1,6 @@
 {
  "fuente": "teatro_de_verano",
- "corrida": "2026-10-31T14:20:35.466977-03:00",
+ "corrida": "2026-10-31T18:23:54.664095-03:00",
  "ok": true,
  "cantidad": 7,
  "errores": [],
@@ -42,7 +42,9 @@
    "enlaces": [
     "https://tickantel.com.uy/inicio/alta_demanda/40020997"
    ],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "teatro_de_verano",
@@ -81,7 +83,9 @@
    "enlaces": [
     "https://tickantel.com.uy/inicio/espectaculo/40021644/espectaculo/%C2%A1Karibe%20con%20K,%20Colosal?8"
    ],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "teatro_de_verano",
@@ -113,7 +117,9 @@
    "productor": "Teatro de Verano",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "teatro_de_verano",
@@ -152,7 +158,9 @@
    "enlaces": [
     "https://tickantel.com.uy/inicio/espectaculo/40020784"
    ],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "teatro_de_verano",
@@ -191,7 +199,9 @@
    "enlaces": [
     "https://tickantel.com.uy/inicio/alta_demanda/40021101"
    ],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "teatro_de_verano",
@@ -230,7 +240,9 @@
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021890/sodre-celebra"
    ],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "teatro_de_verano",
@@ -269,7 +281,9 @@
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021518/pixies"
    ],
-   "ciclo": null
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
   }
  ]
 }

@@ -1,15 +1,7 @@
 {
- "generado": "2026-10-31T14:22:11.443101-03:00",
+ "generado": "2026-10-31T18:32:36.248560-03:00",
  "cantidad": 11,
  "ciclos": [
-  {
-   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
-   "titulo": "Ciclo (no tan) Solos al mediodía",
-   "lugar_id": "teatro-solis",
-   "desde": "2026-10-31T14:00:00-03:00",
-   "hasta": "2026-11-28T14:00:00-03:00",
-   "cantidad": 1
-  },
   {
    "id": "ciclo-filmtage-ciclo-del-cine-aleman-en-cinemateca",
    "titulo": "Filmtage: Ciclo del Cine Alemán en Cinemateca",
@@ -64,6 +56,14 @@
    "lugar_id": "sala-zitarrosa",
    "desde": "2026-11-06T21:00:00-03:00",
    "hasta": "2026-11-06T21:00:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-ciclo-de-cine",
+   "titulo": "Ciclo de Cine",
+   "lugar_id": "museo-nacional-de-artes-visuales",
+   "desde": "2026-11-13T16:30:00-03:00",
+   "hasta": "2026-12-11T17:00:00-03:00",
    "cantidad": 1
   },
   {

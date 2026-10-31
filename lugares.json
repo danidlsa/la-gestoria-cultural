@@ -1,6 +1,6 @@
 {
- "generado": "2026-10-31T14:22:11.443101-03:00",
- "cantidad": 144,
+ "generado": "2026-10-31T18:32:36.248560-03:00",
+ "cantidad": 148,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -206,7 +206,7 @@
    "nombre": "Castillo Pittamiglio",
    "alias": [],
    "direccion": "Rambla Gandhi 633",
-   "lat": -34.921,
+   "lat": -34.920998,
    "lon": -56.149856,
    "ciudad": "Montevideo"
   },
@@ -537,15 +537,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "hyatt-centric",
-   "nombre": "Hyatt Centric",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.909643,
-   "lon": -56.1385076,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "indoorclub-1983",
    "nombre": "Indoorclub 1983",
    "alias": [],
@@ -778,12 +769,72 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "museo-gurvich",
+   "nombre": "Museo Gurvich",
+   "alias": [],
+   "direccion": "Sarandí 524",
+   "lat": -34.90748,
+   "lon": -56.2043,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "museo-nacional-de-antropologia",
+   "nombre": "Museo Nacional de Antropología",
+   "alias": [],
+   "direccion": "Av. de las Instrucciones 948, Montevideo",
+   "lat": -34.8450435,
+   "lon": -56.1999532,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "museo-nacional-de-artes-visuales",
+   "nombre": "Museo Nacional de Artes Visuales",
+   "alias": [],
+   "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+   "lat": -34.91384,
+   "lon": -56.16497,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "museo-oceanografico",
    "nombre": "Museo Oceanográfico",
    "alias": [],
    "direccion": "Rbla. República de Chile 4215, 11300 Mon",
    "lat": -34.903292,
    "lon": -56.123554,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "museo-torres-garcia",
+   "nombre": "Museo Torres García",
+   "alias": [
+    "Teatro del Museo - Museo Torres García",
+    "Teatro del Museo Torres García"
+   ],
+   "direccion": "Sarandí 683",
+   "lat": -34.90646,
+   "lon": -56.20138,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "museo-zorrilla",
+   "nombre": "Museo Zorrilla",
+   "alias": [
+    "Museo Casa de Zorrilla",
+    "Museo Juan Zorrilla de San Martín"
+   ],
+   "direccion": "José Luis Zorrilla de San Martín 96, Punta Carretas",
+   "lat": -34.92763,
+   "lon": -56.15977,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "museo-de-arte-precolombino-e-indigena-mapi",
+   "nombre": "Museo de Arte Precolombino e Indígena (MAPI)",
+   "alias": [],
+   "direccion": "25 de Mayo 279",
+   "lat": -34.90715,
+   "lon": -56.21011,
    "ciudad": "Montevideo"
   },
   {
@@ -1265,17 +1316,6 @@
    "direccion": "San José 1426",
    "lat": -34.906601,
    "lon": -56.184888,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "teatro-del-museo-museo-torres-garcia",
-   "nombre": "Teatro del Museo - Museo Torres García",
-   "alias": [
-    "Museo Torres García"
-   ],
-   "direccion": "Sarandí 683",
-   "lat": -34.906464,
-   "lon": -56.201382,
    "ciudad": "Montevideo"
   },
   {

@@ -1315,6 +1315,72 @@
 "Q37073"
 ],
 "fecha": "2026-10-31T17:23:10.944471"
+},
+"pixies": {
+"id": "Q188464",
+"generos": [
+"Q11366",
+"Q183504"
+],
+"fecha": "2026-10-31T21:32:38.125749"
+},
+"mika kobayashi en montevideo": {
+"id": null,
+"generos": [],
+"fecha": "2026-10-31T21:32:38.556404"
+},
+"mika kobayashi": {
+"id": null,
+"generos": [],
+"fecha": "2026-10-31T21:32:39.468763"
+},
+"ian lucas": {
+"id": null,
+"generos": [],
+"fecha": "2026-10-31T21:32:40.348503"
+},
+"luis fonsi": {
+"id": "Q1387726",
+"generos": [
+"Q37073",
+"Q547137",
+"Q182659",
+"Q202930"
+],
+"fecha": "2026-10-31T21:32:41.603941"
+},
+"soen en montevideo": {
+"id": null,
+"generos": [],
+"fecha": "2026-10-31T21:32:42.005457"
+},
+"soen": {
+"id": "Q3963929",
+"generos": [
+"Q484344"
+],
+"fecha": "2026-10-31T21:32:43.315713"
+},
+"babasonicos": {
+"id": "Q2877782",
+"generos": [
+"Q484641"
+],
+"fecha": "2026-10-31T21:32:44.127796"
+},
+"la trampa": {
+"id": "Q6465491",
+"generos": [
+"Q83270"
+],
+"fecha": "2026-10-31T21:32:44.982421"
+},
+"david bisbal": {
+"id": "Q298310",
+"generos": [
+"Q37073"
+],
+"fecha": "2026-10-31T21:32:45.894643"
 }
 },
 "generos": {
@@ -1367,6 +1433,8 @@
 "Q837837": "power pop",
 "Q16836684": "Electropop",
 "Q186472": "folk rock",
-"Q934451": "Subcultura emo"
+"Q934451": "Subcultura emo",
+"Q182659": "balada",
+"Q484344": "metal progresivo"
 }
 }
