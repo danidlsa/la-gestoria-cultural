@@ -10,7 +10,7 @@
     <string>/bin/bash</string>
     <string>__CORRER__</string>
   </array>
-  <!-- Días de semana a las 11. Si la Mac está dormida a esa hora, corre apenas se despierta. -->
+  <!-- Días de semana a las 11. Si el equipo está dormido a esa hora, corre apenas se despierta. -->
   <key>StartCalendarInterval</key>
   <array>
     <dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>11</integer><key>Minute</key><integer>0</integer></dict>
@@ -23,7 +23,7 @@
   <string>__LOG__</string>
   <key>StandardErrorPath</key>
   <string>__LOG__</string>
-  <!-- Prioridad baja: que no se note si estás usando la Mac. -->
+  <!-- Prioridad baja: que no moleste si el equipo se está usando. -->
   <key>ProcessType</key>
   <string>Background</string>
   <key>LowPriorityIO</key>

@@ -6,7 +6,7 @@ En el portal, un "evento" es un paraguas (Encuentro de Murga Joven, Envejecimien
 Entra todo menos el deporte (decisión). Los talleres, cursos y clases van en su propia categoría. Las
 actividades que se repiten se expanden en funciones; las que se repiten sin fecha de fin se descartan,
 porque en el portal suelen ser actividades viejas o de vacaciones que nadie dio de baja.
-La API solo responde desde Uruguay, así que esta fuente corre en la Mac.
+La API solo responde desde Uruguay, así que esta fuente corre local (no en GitHub Actions).
 """
 
 import logging

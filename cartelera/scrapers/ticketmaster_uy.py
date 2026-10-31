@@ -3,7 +3,7 @@
 La portada enlaza a cada evento (`/event/<slug>`). La ficha trae, en el JSON con el que arranca la
 página (`bootstrapData`), el nombre, la categoría, el lugar con coordenadas y las funciones. Cuando las
 funciones no están publicadas (por ejemplo, con las entradas agotadas), la fecha sale de la descripción
-("23 de Febrero 2027"). Ticketmaster.uy rechaza las IPs de fuera de Uruguay, así que corre en la Mac.
+("23 de Febrero 2027"). Ticketmaster.uy rechaza las IPs de fuera de Uruguay, así que corre local (no en GitHub Actions).
 """
 
 import json

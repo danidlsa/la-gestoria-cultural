@@ -1,6 +1,6 @@
 # Dónde corre cada fuente.
 #   actions: GitHub Actions (runners en EE. UU.)
-#   local:   la Mac en Uruguay, para sitios que bloquean IPs de afuera (ver docs/fuentes.md)
+#   local:   un equipo en Uruguay, para sitios que bloquean IPs de afuera (ver docs/fuentes.md)
 
 [tickantel]
 corre_en = "actions"

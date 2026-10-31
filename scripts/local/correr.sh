@@ -1,6 +1,6 @@
 #!/bin/bash
-# Job diario de la Mac: corre las fuentes que solo responden desde Uruguay y sube su resultado
-# a la rama `datos`. Lo ejecuta launchd (ver scripts/mac/instalar.sh y docs/diseno.md).
+# Corrida local diaria: corre las fuentes que solo responden desde Uruguay y sube su resultado
+# a la rama `datos`. Lo ejecuta launchd (ver scripts/local/instalar.sh y docs/diseno.md).
 #
 # Corre siempre el código de `main` desde un clon propio, separado de tu copia de trabajo,
 # y sube solo los archivos de sus fuentes (datos/fuentes/<fuente>.json).
@@ -30,7 +30,7 @@ correr() {
   git -C datos fetch -q origin datos
   git -C datos checkout -q -B datos origin/datos
 
-  # 3. Las fuentes de la Mac. Si una falla, se conserva su último resultado bueno y se sigue.
+  # 3. Las fuentes locales. Si una falla, se conserva su último resultado bueno y se sigue.
   uv sync -q --locked --no-dev
   uv run python -m cartelera scrapear --donde local || echo "Alguna fuente falló; se conserva su último resultado bueno."
 
@@ -44,8 +44,8 @@ correr() {
     echo "Sin cambios en los datos."
     return
   fi
-  git -c user.name="cartelera-mac" -c user.email="cartelera-mac@users.noreply.github.com" \
-    commit -q -m "Datos de la Mac $(date -u +%Y-%m-%dT%H:%MZ)"
+  git -c user.name="cartelera-local" -c user.email="cartelera-local@users.noreply.github.com" \
+    commit -q -m "Datos locales $(date -u +%Y-%m-%dT%H:%MZ)"
   if [ "${CARTELERA_SIN_PUSH:-0}" = "1" ]; then
     echo "Prueba: commit hecho en $DIR/datos, sin push."
     return

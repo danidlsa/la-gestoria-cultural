@@ -2,7 +2,7 @@
 
 Casi todo se vende por Tickantel y la ficha enlaza ahí, así que el cruce con Tickantel es exacto. La
 Zitarrosa suma la sala interna, las promociones (la diaria, Club El País) y los ciclos (MAREA, Fest Jazz).
-El sitio solo responde desde Uruguay, así que esta fuente corre en la Mac.
+El sitio solo responde desde Uruguay, así que esta fuente corre local (no en GitHub Actions).
 """
 
 import html

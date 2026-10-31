@@ -25,12 +25,12 @@ Lo que dice **"a verificar"** no se pudo confirmar.
 | Teatro Solís | ✅ scraper (MVD CMS) | Sala interna, género y **Comedia Nacional** |
 | Teatro de Verano | ✅ scraper (MVD CMS) | Programación del Teatro de Verano |
 | El Galpón | ✅ scraper | Sala interna, hora de fin y promos (BROU, la diaria, socios) |
-| Portal de eventos IM | ✅ scraper (JSON:API, corre en la Mac) | Actividades municipales (Murga Joven, Carnaval de las Promesas, Atlantidoc, obras del programa Fortalecimiento de las Artes) y talleres barriales, casi todo gratis. Hoy son ~24 |
-| Sala Zitarrosa | ✅ scraper (HTML, corre en la Mac) | ~24 espectáculos, con sala, ciclos (MAREA, Fest Jazz), precios y promos (la diaria, Club El País); cruza exacto con Tickantel |
-| Ticketmaster.uy | ✅ scraper (Crowder, corre en la Mac) | Conciertos internacionales grandes. Hoy tiene uno solo (Foo Fighters, Estadio Centenario) |
+| Portal de eventos IM | ✅ scraper (JSON:API, corre local) | Actividades municipales (Murga Joven, Carnaval de las Promesas, Atlantidoc, obras del programa Fortalecimiento de las Artes) y talleres barriales, casi todo gratis. Hoy son ~24 |
+| Sala Zitarrosa | ✅ scraper (HTML, corre local) | ~24 espectáculos, con sala, ciclos (MAREA, Fest Jazz), precios y promos (la diaria, Club El País); cruza exacto con Tickantel |
+| Ticketmaster.uy | ✅ scraper (Crowder, corre local) | Conciertos internacionales grandes. Hoy tiene uno solo (Foo Fighters, Estadio Centenario) |
 | Resto de la fase 2 y 3 | ⏳ pendientes | |
 
-**Detalles de las fuentes de la Mac:**
+**Detalles de las fuentes locales:**
 
 - **Portal de eventos IM**: un "evento" del portal es un paraguas (Encuentro de Murga Joven, Envejecimiento activo) y cada "actividad" es lo que pasa en un lugar y una fecha. Se leen las actividades (`/jsonapi/node/actividad`, con sus funciones, lugares, categoría y público incluidos en el mismo pedido) y el paraguas queda como ciclo.
   - **Entra todo menos el deporte** (decisión del 30/10/2026; antes se tomaba solo lo que tenía fecha): también recreación, gastronomía, institucional y **talleres, cursos y clases**, que van en su propia categoría, "Talleres y cursos". Las actividades con funciones repetidas (una obra de jueves y viernes durante seis semanas, un taller semanal hasta diciembre) entran con cada función expandida, hasta seis meses adelante.
@@ -351,15 +351,15 @@ El mismo evento puede llegar por Tickantel, la web de la sala, la Cartelera, el 
 ### Arquitectura resultante: híbrida y sin costo
 
 - **GitHub Actions** corre las 15 fuentes que responden (todas las demás del MVP) y publica la web.
-- **La Mac en Uruguay corre las bloqueadas** (decisión del 30/10/2026): el portal IM, la Zitarrosa y Ticketmaster.uy. Queda prendida, a veces en reposo.
-- **Se usa un job de `launchd`** (el programador de tareas de macOS), **no un runner self-hosted de GitHub**:
+- **Un equipo local en Uruguay corre las bloqueadas** (decisión del 30/10/2026): el portal IM, la Zitarrosa y Ticketmaster.uy.
+- **Se usa una tarea programada del sistema**, **no un runner self-hosted de GitHub**:
   - **Seguridad:** el repo es público, y GitHub desaconseja runners self-hosted en repos públicos, porque un pull request de un tercero podría ejecutar código en la máquina.
-  - **Reposo:** si la Mac estaba dormida a la hora programada, `launchd` corre el job apenas se despierta. Un runner, en cambio, deja el job en cola y GitHub lo cancela a las 24 horas.
-  - **El job** corre los 4 scrapers, guarda el JSON y hace `git push`. Después, GitHub Actions arma la web con todo junto.
-- **Horario sugerido**: días de semana a las 11 h. Si la Mac está dormida, corre cuando se despierte.
-- **Fines de semana**: esas fuentes quedan con el dato del viernes. No es grave, porque los eventos del finde ya se scrapearon antes. Si hiciera falta, macOS permite programar que la Mac se despierte sola a una hora fija (Configuración del sistema o `pmset`); es un ajuste del sistema que tendrías que hacer vos.
-- **Cada fuente guarda su último resultado bueno**, para que una caída, un bloqueo o la Mac apagada no vacíen la cartelera.
-- **Más adelante**, si molesta depender de la Mac, el mismo job se pasa a una compu vieja con Linux o a una Raspberry Pi (pagando el hardware) sin cambiar el código.
+  - **Reposo:** si el equipo estaba dormido a la hora programada, la tarea corre apenas se despierta. Un runner, en cambio, deja el job en cola y GitHub lo cancela a las 24 horas.
+  - **La tarea** corre sus scrapers, guarda el JSON y hace `git push`. Después, GitHub Actions arma la web con todo junto.
+- **Horario**: días de semana a las 11 h.
+- **Fines de semana**: esas fuentes quedan con el dato del viernes. No es grave, porque los eventos del finde ya se scrapearon antes.
+- **Cada fuente guarda su último resultado bueno**, para que una caída, un bloqueo o el equipo apagado no vacíen la cartelera.
+- **Más adelante**, el mismo job se puede pasar a otro equipo (una compu vieja con Linux o una Raspberry Pi) sin cambiar el código.
 - **Lo que más importa del runner local es el portal IM** (eventos municipales y gratuitos). Ticketmaster.uy tiene pocos eventos, y la Zitarrosa en parte vende por Tickantel.
 - **El repo es público** (desde el 30/10/2026): GitHub Actions no tiene límite de minutos y **GitHub Pages es gratis**, así que scrapers y web pueden vivir en el mismo repo sin costo.
 - **Portal IM**: hay que filtrar siempre por `filter[status]=1`; si no, la API devuelve ítems despublicados vacíos ("insufficient authorization").

@@ -134,7 +134,7 @@ Un mismo evento puede llegar por varias fuentes. El paso de unificación las cru
 ## Pipeline
 
 ```
- GitHub Actions (cron)              Mac en Uruguay (launchd, días de semana 11 h)
+ GitHub Actions (cron)              Equipo local en Uruguay (días de semana 11 h)
  ─ 15 fuentes ─────────┐            ┌─ portal IM, Zitarrosa, Ticketmaster.uy
                        ▼            ▼
               datos/fuentes/<fuente>.json   (crudo normalizado, último bueno)
@@ -148,7 +148,7 @@ Un mismo evento puede llegar por varias fuentes. El paso de unificación las cru
 
 - **Los datos generados van en una rama aparte, `datos`.** Así `main` tiene solo código y su historial no se llena con un commit de datos por día. Además, el historial de `datos` deja ver cómo cambió la cartelera.
 - **GitHub Actions** corre dos veces por día (por ejemplo, a las 6 y a las 14 h de Uruguay): sus scrapers, la unificación y el build y deploy de la web.
-- **La Mac** corre sus scrapers (los marcados `corre_en = "local"` en `config/fuentes.toml`), hace commit **solo de sus archivos** en `datos/fuentes/` y pushea a la rama `datos`. La corrida de Actions de las 12 los suma a la unificación y al build. Como cada lado escribe archivos distintos, no hay conflictos; igual se hace `git pull --rebase` antes de pushear.
+- **El equipo local** corre sus scrapers (los marcados `corre_en = "local"` en `config/fuentes.toml`), hace commit **solo de sus archivos** en `datos/fuentes/` y pushea a la rama `datos`. La corrida de Actions de las 12 los suma a la unificación y al build. Como cada lado escribe archivos distintos, no hay conflictos; igual se hace `git pull --rebase` antes de pushear.
 
 ### Estructura del repo
 
@@ -174,27 +174,27 @@ Ver el [README](../README.md#cómo-está-armado). En resumen: todo el código vi
 
 ---
 
-## Seguridad del job en la Mac
+## Seguridad de la corrida local
 
 **El riesgo es bajo**, y se puede bajar más con algunas reglas.
 
 ### Qué hace el job
 
-Una vez por día, `launchd` ejecuta código **de este repo**, que hace pedidos HTTP **salientes** a unos pocos sitios públicos, guarda JSON y hace `git push`.
+Una vez por día, el programador de tareas del equipo ejecuta código **de este repo**, que hace pedidos HTTP **salientes** a unos pocos sitios públicos, guarda JSON y hace `git push`.
 
 - **No abre puertos ni recibe conexiones.**
-- **Nadie puede ejecutar algo en la Mac desde GitHub.** Por eso se eligió `launchd` y no un runner self-hosted.
+- **Nadie puede ejecutar algo en el equipo desde GitHub.** Por eso se eligió una tarea programada y no un runner self-hosted.
 
 ### Riesgos y cómo se cubren
 
 | Riesgo | Qué podría pasar | Cómo se cubre |
 |--------|------------------|---------------|
-| **Código malicioso en el repo** | Si alguien lograra meter código en `main`, la Mac lo ejecutaría con tus permisos (acceso a tus archivos). | Solo vos tenés permiso de escritura. **No se mergean pull requests de terceros sin revisarlos.** Se protege `main` con una regla de GitHub para que no se pueda pushear directo. El job corre siempre desde `main`, no desde otras ramas. |
-| **Una dependencia comprometida** (un paquete de Python malicioso) | Lo mismo: código ajeno corriendo en tu Mac. | **Pocas dependencias** y conocidas (`httpx`, `pydantic`, `rapidfuzz`, `jinja2`, `python-dateutil`). **Versiones fijadas con hash** (`uv.lock`), así que una actualización maliciosa no entra sola. Un entorno virtual aislado. |
-| **Contenido hostil en los sitios scrapeados** | Una página armada para atacar al que la lee. | El job **solo lee JSON y HTML como texto**: no ejecuta JavaScript, no usa navegador headless y no hace nada parecido a `eval` o `pickle` con lo que baja. Parsear texto en Python no ejecuta código. Las fuentes de la Mac son APIs JSON o HTML simple. |
+| **Código malicioso en el repo** | Si alguien lograra meter código en `main`, el equipo lo ejecutaría con los permisos de su usuario. | Solo vos tenés permiso de escritura. **No se mergean pull requests de terceros sin revisarlos.** Se protege `main` con una regla de GitHub para que no se pueda pushear directo. El job corre siempre desde `main`, no desde otras ramas. |
+| **Una dependencia comprometida** (un paquete de Python malicioso) | Lo mismo: código ajeno corriendo en el equipo. | **Pocas dependencias** y conocidas (`httpx`, `pydantic`, `rapidfuzz`, `jinja2`, `python-dateutil`). **Versiones fijadas con hash** (`uv.lock`), así que una actualización maliciosa no entra sola. Un entorno virtual aislado. |
+| **Contenido hostil en los sitios scrapeados** | Una página armada para atacar al que la lee. | El job **solo lee JSON y HTML como texto**: no ejecuta JavaScript, no usa navegador headless y no hace nada parecido a `eval` o `pickle` con lo que baja. Parsear texto en Python no ejecuta código. Las fuentes locales son APIs JSON o HTML simple. |
 | **Credenciales de GitHub demasiado amplias** | Hoy `git push` usa tus credenciales guardadas, que dan acceso a **todos** tus repos. | El job usa una **deploy key** (una llave SSH) **solo para este repo**. Si se filtrara, solo afectaría a `cartelera-cultural`, y la regla sobre `main` impide que se use para cambiar el código. |
-| **Que se suba algo de más** | Un log con rutas o datos de tu Mac terminando en el repo público. | El job hace `git add` **solo** de los archivos de sus fuentes en `datos/fuentes/` y nunca de otra cosa. Los logs quedan en la Mac. |
-| **Tu IP de casa** | Esos sitios ven pedidos diarios desde tu IP. Si alguno la bloqueara, también podría afectarte al navegar ese sitio. | Volumen muy bajo (una vez por día), User-Agent identificable y pausas entre pedidos. Es poco probable. |
+| **Que se suba algo de más** | Un log con rutas o datos del equipo terminando en el repo público. | El job hace `git add` **solo** de los archivos de sus fuentes en `datos/fuentes/` y nunca de otra cosa. Los logs quedan en el equipo. |
+| **La IP del equipo** | Esos sitios ven pedidos diarios desde esa IP. Si alguno la bloqueara, también afectaría a quien navegue ese sitio desde ahí. | Volumen muy bajo (una vez por día), User-Agent identificable y pausas entre pedidos. Es poco probable. |
 
 ### La web y los workflows
 
@@ -206,19 +206,19 @@ Una vez por día, `launchd` ejecuta código **de este repo**, que hace pedidos H
 
 ### Cómo está armado
 
-- [`scripts/mac/correr.sh`](../scripts/mac/correr.sh) es el job. Trabaja en un **clon propio** del repo (`~/.cartelera-cultural`), separado de la copia de trabajo, así que lo que estés editando no se mezcla con lo que corre. En cada corrida:
+- [`scripts/local/correr.sh`](../scripts/local/correr.sh) es el job. Trabaja en un **clon propio** del repo (`~/.cartelera-cultural`), separado de la copia de trabajo, así que lo que estés editando no se mezcla con lo que corre. En cada corrida:
   1. Trae `main` y corre ese código, nunca otra rama.
   2. Trae la rama `datos` (en `datos/` adentro del clon), para que cada fuente compare con su último resultado bueno.
   3. Corre `scrapear --donde local`. Si una fuente falla, queda su último resultado bueno.
   4. Hace commit solo de `datos/fuentes/<fuente>.json` de esas fuentes y pushea a `datos` con la deploy key.
-- [`scripts/mac/cartelera.plist`](../scripts/mac/cartelera.plist) es la plantilla del job de `launchd`: días de semana a las 11, con prioridad baja. El log queda en `~/Library/Logs/cartelera-cultural.log`.
-- [`scripts/mac/instalar.sh`](../scripts/mac/instalar.sh) se corre una vez, a mano: genera la deploy key (y muestra la parte pública para pegarla en GitHub), clona el repo y registra el job. Al principio del script están los comandos para desinstalarlo.
+- [`scripts/local/cartelera.plist`](../scripts/local/cartelera.plist) es la plantilla de la tarea programada (`launchd`): días de semana a las 11, con prioridad baja. El log queda en `~/Library/Logs/cartelera-cultural.log`.
+- [`scripts/local/instalar.sh`](../scripts/local/instalar.sh) se corre una vez, a mano: genera la deploy key (y muestra la parte pública para pegarla en GitHub), clona el repo y registra el job. Al principio del script están los comandos para desinstalarlo.
 
 Para instalarlo hace falta que `main` tenga este código y que exista la rama `datos` (la crea la primera corrida del workflow).
 
-**Probado de punta a punta (30/10/2026)** contra un repo de prueba local con `main` y `datos`, con el entorno vacío con el que corre `launchd`: trae el código, corre las 3 fuentes, sube solo sus 3 archivos y resuelve bien un push de Actions en el medio.
+**Probado de punta a punta (30/10/2026)** contra un repo de prueba local con `main` y `datos`, con el entorno vacío con el que corre la tarea programada: trae el código, corre las 3 fuentes, sube solo sus 3 archivos y resuelve bien un push de Actions en el medio.
 
-**Opcional, si querés más aislamiento**: correr el job con un **usuario de macOS aparte**, sin acceso a tus documentos. No me parece necesario para empezar.
+**Opcional, si querés más aislamiento**: correr la tarea con un **usuario del sistema aparte**, sin acceso a otros documentos. No me parece necesario para empezar.
 
 ---
 
@@ -317,7 +317,7 @@ El filtro de Montevideo va por coordenadas. Si un evento llega sin coordenadas, 
 4. **Workflow de GitHub Actions** con cron, escribiendo en la rama `datos`.
 5. **Página mínima** con "hoy", "este fin de semana" y filtro por categoría, para ver los datos de verdad.
 
-Después se suman de a una las demás fuentes del MVP (portal IM con el job de la Mac, Cartelera de Montevideo Portal, Sodre, Zitarrosa, Solís, Teatro de Verano, Galpón y Cinemateca).
+Después se suman de a una las demás fuentes del MVP (portal IM con la corrida local, Cartelera de Montevideo Portal, Sodre, Zitarrosa, Solís, Teatro de Verano, Galpón y Cinemateca).
 
 ---
 

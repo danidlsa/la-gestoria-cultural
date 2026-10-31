@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Prueba de conectividad: verifica que cada fuente responda y traiga el dato esperado.
-# Corre igual en una Mac o en GitHub Actions, para comparar desde dónde se puede scrapear.
+# Corre igual en una máquina local o en GitHub Actions, para comparar desde dónde se puede scrapear.
 # Uso: scripts/check-fuentes.sh
 set -u
 

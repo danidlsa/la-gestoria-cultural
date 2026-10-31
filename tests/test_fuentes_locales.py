@@ -1,4 +1,4 @@
-"""Fuentes que corren en la Mac: portal de eventos IM, Sala Zitarrosa y Ticketmaster.uy."""
+"""Fuentes que corren local (no en GitHub Actions): portal de eventos IM, Sala Zitarrosa y Ticketmaster.uy."""
 
 import json
 

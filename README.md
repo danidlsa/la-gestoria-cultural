@@ -18,7 +18,7 @@ uv run python -m cartelera sitio          # genera la web en sitio_generado/
 uv run pytest                             # tests (usan páginas de ejemplo de tests/fixtures/)
 ```
 
-Para correr una sola fuente: `uv run python -m cartelera scrapear redtickets`. Las fuentes que solo responden desde Uruguay (portal IM, Zitarrosa, Ticketmaster.uy) las corre la Mac: ver [Seguridad del job en la Mac](docs/diseno.md#seguridad-del-job-en-la-mac).
+Para correr una sola fuente: `uv run python -m cartelera scrapear redtickets`. Algunas fuentes solo responden desde Uruguay, así que no corren en GitHub Actions (`corre_en = "local"` en `config/fuentes.toml`).
 
 ## Cómo está armado
 
@@ -34,9 +34,9 @@ cartelera/
 ├── unificar.py      # catálogo de lugares, deduplicación, fusión y limpieza de lo vencido
 └── sitio/           # plantilla Jinja2, estilos y filtros de la web
 config/
-├── fuentes.toml         # dónde corre cada fuente (GitHub Actions o la Mac)
+├── fuentes.toml         # dónde corre cada fuente (GitHub Actions o local)
 └── lugares_alias.toml   # nombres alternativos de las salas (lo único mantenido a mano)
-scripts/mac/             # el job diario de la Mac (launchd) para las fuentes que solo responden desde Uruguay
+scripts/local/           # la corrida programada de las fuentes que no corren en GitHub Actions
 ```
 
 Los datos generados viven en la rama `datos`, no en `main`. El workflow [`cartelera.yml`](.github/workflows/cartelera.yml) actualiza todo tres veces por día y publica la web en GitHub Pages.

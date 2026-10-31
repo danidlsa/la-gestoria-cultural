@@ -1,7 +1,7 @@
 #!/bin/bash
-# Instala el job diario de la Mac. Se corre una sola vez, a mano, desde la copia de trabajo del repo:
+# Instala la corrida local diaria. Se corre una sola vez, a mano, desde la copia de trabajo del repo:
 #
-#   bash scripts/mac/instalar.sh
+#   bash scripts/local/instalar.sh
 #
 # Antes hace falta:
 #   1. Que exista la rama `datos` en GitHub (la crea la primera corrida del workflow "Cartelera").
@@ -27,7 +27,7 @@ export GIT_SSH_COMMAND="ssh -i $LLAVE -o IdentitiesOnly=yes"
 
 # 1. La deploy key: solo sirve para este repo.
 if [ ! -f "$LLAVE" ]; then
-  ssh-keygen -q -t ed25519 -N "" -C "cartelera-mac" -f "$LLAVE"
+  ssh-keygen -q -t ed25519 -N "" -C "cartelera-local" -f "$LLAVE"
   echo
   echo "Se creó la deploy key. Pegá esta línea en GitHub (Settings → Deploy keys → Add deploy key,"
   echo "con \"Allow write access\") y volvé a correr este script:"
@@ -46,7 +46,7 @@ fi
 
 # 3. El job de launchd, con la ruta del script del clon dedicado (siempre el código de main).
 mkdir -p "$HOME/Library/LaunchAgents" "$(dirname "$LOG")"
-sed -e "s|__CORRER__|$DIR/scripts/mac/correr.sh|" -e "s|__LOG__|$LOG|" "$AQUI/cartelera.plist" > "$PLIST"
+sed -e "s|__CORRER__|$DIR/scripts/local/correr.sh|" -e "s|__LOG__|$LOG|" "$AQUI/cartelera.plist" > "$PLIST"
 launchctl bootout "gui/$(id -u)/$ETIQUETA" 2>/dev/null || true
 launchctl bootstrap "gui/$(id -u)" "$PLIST"
 

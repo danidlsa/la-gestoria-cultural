@@ -1,7 +1,7 @@
 name: Cartelera
 
 # Scrapea, unifica, guarda los datos en la rama `datos` y publica la web.
-# 6, 12 y 18 h de Uruguay (UTC-3). La de las 12 levanta lo que sube la Mac a las 11.
+# 6, 12 y 18 h de Uruguay (UTC-3). La de las 12 levanta lo que sube la corrida local de las 11.
 # Las actions de terceros van fijadas a un commit exacto: una versión nueva (o comprometida) no entra sola.
 on:
   schedule:
