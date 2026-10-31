@@ -4,7 +4,7 @@
 # Uso: scripts/check-fuentes.sh
 set -u
 
-UA_PROPIO="CarteleraMVD/0.1 (+https://github.com/danidlsa/cartelera-cultural)"
+UA_PROPIO="CarteleraMVD/0.1 (+https://github.com/danidlsa/la-gestoria-cultural)"
 UA_NAVEGADOR="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 
 # fase|id|url|marcador que tiene que aparecer en la respuesta

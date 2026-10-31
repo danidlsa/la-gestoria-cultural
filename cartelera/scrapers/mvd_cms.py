@@ -10,6 +10,7 @@ import re
 from datetime import date, datetime, time, timedelta
 
 from cartelera.categorias import categoria_por_lugar, clasificar, esta_cancelado
+from cartelera.extraer import fecha_sin_anio
 from cartelera.geo import sin_tildes
 from cartelera.modelo import Entrada, EventoCrudo, Funcion, LugarCrudo
 
@@ -22,17 +23,6 @@ GENEROS = {"teatro": "teatro", "musica": "musica", "danza": "danza", "opera": "m
 _TARJETA = re.compile(r'<div class="bloqueconmargen">(.*?)class="fill-btn"', re.S)
 
 
-def _anio(dia: int, mes: int, hoy: date) -> date | None:
-    for anio in (hoy.year, hoy.year + 1):
-        try:
-            candidata = date(anio, mes, dia)
-        except ValueError:
-            return None
-        if candidata >= hoy - timedelta(days=1):
-            return candidata
-    return None
-
-
 def funciones_de_texto(texto: str, hoy: date, zona) -> list[Funcion]:
     """'30 y 31 de octubre / 1, 7 y 8 de noviembre' o '24 de noviembre, 17:00h' -> funciones."""
     plano = sin_tildes(html.unescape(texto))
@@ -42,7 +32,7 @@ def funciones_de_texto(texto: str, hoy: date, zona) -> list[Funcion]:
         if mes not in MESES:
             continue
         for dia in re.findall(r"\d{1,2}", dias):
-            fecha = _anio(int(dia), MESES[mes], hoy)
+            fecha = fecha_sin_anio(int(dia), MESES[mes], hoy)
             if not fecha:
                 continue
             if hora:

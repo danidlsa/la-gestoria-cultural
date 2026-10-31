@@ -26,6 +26,21 @@ corre_en = "actions"
 [galpon]
 corre_en = "actions"
 
+[sala_del_museo]
+corre_en = "actions"
+
+[gaucho]
+corre_en = "actions"
+
+[piano_piano]
+corre_en = "actions"
+
+[ladiaria]
+corre_en = "actions"
+
+[fever]
+corre_en = "actions"
+
 # Responden solo desde Uruguay (ver docs/fuentes.md, "Arquitectura resultante").
 [portal_im]
 corre_en = "local"

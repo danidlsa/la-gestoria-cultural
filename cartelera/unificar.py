@@ -23,8 +23,9 @@ DIR_DATOS = Path("datos")
 ALIAS = Path("config/lugares_alias.toml")
 # Prioridad al elegir qué dato mostrar: sala oficial > ticketera > cartelera > productora > beneficios.
 PRIORIDAD = {
-    "sodre": 4, "cinemateca": 4, "solis": 4, "teatro_de_verano": 4, "galpon": 4, "zitarrosa": 4,
-    "tickantel": 3, "redtickets": 3, "ticketmaster_uy": 3, "portal_im": 3, "cartelera_mvd": 2,
+    "sodre": 4, "cinemateca": 4, "solis": 4, "teatro_de_verano": 4, "galpon": 4, "zitarrosa": 4, "sala_del_museo": 4,
+    "tickantel": 3, "redtickets": 3, "ticketmaster_uy": 3, "portal_im": 3, "fever": 3,
+    "cartelera_mvd": 2, "gaucho": 2, "piano_piano": 2, "ladiaria": 1,
 }
 MARGEN_PASADO = timedelta(hours=6)
 DISTANCIA_MISMO_LUGAR_M = 120
@@ -151,6 +152,9 @@ _CLAVES_DE_URL = [
     # /ng/espectaculo/40021761/…, /ng/espectaculo/alta-demanda/40021784/…, /inicio/espectaculo/40020151/…,
     # /inicio/alta_demanda/40020997
     ("tickantel", re.compile(r"tickantel\.com\.uy/(?:ng|inicio)/(?:espectaculo/)?(?:alta[-_]demanda/)?(\d{7,9})")),
+    ("ticketmaster_uy", re.compile(r"ticketmaster\.uy/event/([\w-]+)")),
+    # Las productoras enlazan a la ficha del Antel Arena (la venta es por Tickantel).
+    ("antel_arena", re.compile(r"antelarena\.com\.uy/events/detail/([\w-]+)")),
 ]
 
 
@@ -323,7 +327,11 @@ def armar_cartelera(
     if geocodificar:
         for lugar in catalogo.lugares.values():
             if lugar.lat is None and not re.search(r"confirmar|sin lugar|a definir|varios", lugar.nombre, re.I):
-                punto = (geocodificar(lugar.direccion) if lugar.direccion else None) or geocodificar(lugar.nombre)
+                # Un nombre de una sola palabra ("Sitio") es demasiado ambiguo para buscarlo sin dirección.
+                por_nombre = len(lugar.nombre.split()) > 1
+                punto = (geocodificar(lugar.direccion) if lugar.direccion else None) or (
+                    geocodificar(lugar.nombre) if por_nombre else None
+                )
                 if punto:
                     lugar.lat, lugar.lon = punto
 

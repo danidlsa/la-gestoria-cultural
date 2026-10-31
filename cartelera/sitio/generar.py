@@ -53,12 +53,19 @@ FUENTES = {
     "cartelera_mvd": "la Cartelera de Montevideo Portal", "solis": "el Teatro Solís",
     "teatro_de_verano": "el Teatro de Verano", "galpon": "El Galpón", "abitab": "Abitab",
     "portal_im": "el portal de eventos de la Intendencia", "zitarrosa": "la Sala Zitarrosa",
-    "ticketmaster_uy": "Ticketmaster",
+    "ticketmaster_uy": "Ticketmaster", "sala_del_museo": "la Sala del Museo", "gaucho": "Gaucho",
+    "piano_piano": "Piano Piano", "ladiaria": "los beneficios de la diaria", "fever": "Fever",
 }
 # Para los botones de compra: dónde se consigue la entrada.
 VIAS = {
     "cartelera_mvd": "la Cartelera", "solis": "el Solís", "teatro_de_verano": "el Teatro de Verano", "sodre": "el Sodre",
-    "portal_im": "la Intendencia", "zitarrosa": "la Zitarrosa",
+    "portal_im": "la Intendencia", "zitarrosa": "la Zitarrosa", "sala_del_museo": "la Sala del Museo",
+    "antel_arena": "el Antel Arena", "ladiaria": "la diaria",
+}
+# Vías que son la ficha del evento, no una venta: el botón dice "Ver en …" y no "Entradas en …".
+SOLO_INFORMACION = {
+    "cartelera_mvd", "solis", "teatro_de_verano", "sodre", "galpon", "cinemateca", "portal_im", "zitarrosa",
+    "sala_del_museo", "gaucho", "piano_piano", "ladiaria",
 }
 
 
@@ -203,6 +210,7 @@ def generar() -> Path:
         salas=sorted(((l["id"], l["nombre"], por_lugar[l["id"]]) for l in lugares_lista), key=lambda s: s[1].lower()),
         promos=promos.most_common(),
         fuentes={**FUENTES, **VIAS},
+        solo_informacion=SOLO_INFORMACION,
         nombres_fuentes=[FUENTES[f] for f in sorted({p["fuente"] for e in eventos for p in e["fuentes"]}) if f in FUENTES],
         generado=fecha_corta(generado) if generado else "",
         cantidad_gratis=sum(1 for e in eventos if presupuesto(e.get("precio")) == "gratis"),

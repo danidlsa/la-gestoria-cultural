@@ -28,7 +28,16 @@ Lo que dice **"a verificar"** no se pudo confirmar.
 | Portal de eventos IM | ✅ scraper (JSON:API, corre local) | Actividades municipales (Murga Joven, Carnaval de las Promesas, Atlantidoc, obras del programa Fortalecimiento de las Artes) y talleres barriales, casi todo gratis. Hoy son ~24 |
 | Sala Zitarrosa | ✅ scraper (HTML, corre local) | ~24 espectáculos, con sala, ciclos (MAREA, Fest Jazz), precios y promos (la diaria, Club El País); cruza exacto con Tickantel |
 | Ticketmaster.uy | ✅ scraper (Crowder, corre local) | Conciertos internacionales grandes. Hoy tiene uno solo (Foo Fighters, Estadio Centenario) |
-| Resto de la fase 2 y 3 | ⏳ pendientes | |
+| Sala del Museo | ✅ scraper (HTML de Joomla) | 12 shows con fecha, hora, imagen y enlace a RedTickets: cruza exacto |
+| Gaucho | ✅ scraper (JSON público de su web) | Anuncios tempranos de shows grandes (Pixies, Babasónicos, Foo Fighters), con sala y enlace de entradas |
+| Piano Piano | ✅ scraper (HTML de la agenda) | ~20 shows, obras y fiestas con tipo, sala y enlace; descarta los del interior y el deporte |
+| Beneficios de la diaria | ✅ scraper (RSS) | Marca el 2x1 de la diaria en ~100 eventos: casi todos enlazan a RedTickets o Tickantel y se unen exacto |
+| Fever | ✅ scraper (JSON-LD) | Conciertos Candlelight con fecha, lugar y precio. Los tours y talleres sin fecha no entran |
+| AM Producciones | ⏸ no por ahora | Sus shows se cargan en el navegador desde una base de datos (con una clave de cliente de su sitio). Hoy tiene un solo show próximo (Foo Fighters), que ya entra por Ticketmaster y Gaucho |
+| Teatro Circular | ⏸ no por ahora | Su web no tiene una cartelera actualizada; sus obras entran por RedTickets |
+| Passline | ⏸ no | Detrás de Cloudflare con chequeos anti-bot, y el país se elige con JavaScript. No se saltean esas protecciones |
+| Peatonal Tours | ✔️ ya cubierto | Sus recorridos con fecha entran por RedTickets; la web no publica fechas propias |
+| Día del Patrimonio, Museos en la Noche | ⏳ anuales | Guías en PDF una vez por año; si la IM los carga en su portal, entran solos |
 
 **Detalles de las fuentes locales:**
 

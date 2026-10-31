@@ -5,6 +5,7 @@ como departamentos (Colonia, Mercedes, Canelones, Paysandú), así que buscar
 nombres de localidades en la dirección daría falsos positivos.
 """
 
+import re
 import unicodedata
 
 # Caja aproximada del departamento de Montevideo.
@@ -38,3 +39,16 @@ def en_montevideo(lat: float | None, lon: float | None) -> bool:
     if -56.15 < lon <= -56.06 and lat > -34.78:
         return False
     return True
+
+
+# Un texto que termina en otro departamento: "No Te Va Gustar en Salto", "Harlem Globetrotters – Durazno",
+# "Cardal Florida". Solo al final: en el medio, muchas calles de Montevideo se llaman así (Colonia, Paysandú).
+_OTRA_CIUDAD = re.compile(
+    r"(?:\ben\b|[–,-]|\s)\s*(artigas|canelones|cerro largo|colonia|durazno|flores|florida|lavalleja|maldonado|"
+    r"punta del este|paysandu|rio negro|rivera|rocha|salto|san jose|soriano|tacuarembo|treinta y tres)\s*\.?$"
+)
+
+
+def menciona_otra_ciudad(texto: str) -> bool:
+    return bool(_OTRA_CIUDAD.search(sin_tildes(texto.strip())))
+

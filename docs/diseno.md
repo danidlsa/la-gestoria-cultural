@@ -118,7 +118,7 @@ Cada scraper escribe `datos/fuentes/<fuente>.json` con los eventos ya normalizad
 
 Un mismo evento puede llegar por varias fuentes. El paso de unificación las cruza en este orden:
 
-1. **Coincidencia exacta por ID externo.** Muchas fuentes enlazan a la ticketera: la diaria, Piano Piano, la Sala del Museo y Gaucho enlazan a RedTickets; el Antel Arena enlaza a Tickantel. Si dos registros apuntan al mismo evento de una ticketera, son el mismo.
+1. **Coincidencia exacta por ID externo.** Muchas fuentes enlazan a la ticketera: la diaria, Piano Piano, la Sala del Museo y Gaucho enlazan a RedTickets o Tickantel; el Sodre, el Solís y la Zitarrosa, a Tickantel; El Galpón, a RedTickets. Si dos registros apuntan al mismo evento de una ticketera (o a la misma ficha de Ticketmaster o del Antel Arena), son el mismo.
 2. **Coincidencia difusa.** Mismo `lugar_id`, alguna función el mismo día (con ±1 hora de tolerancia) y títulos parecidos. La similitud se calcula sin tildes, en minúsculas y sin ruido del tipo "presenta:" o "- Sala Cero".
 3. **Fusión.** Se unen las funciones (si una fuente da un día "sin hora" y otra lo da con horario, queda el horario), se juntan `entradas` (un enlace por destino), `beneficios` y `fuentes`, y cada campo se toma de la fuente de mayor prioridad:
    - **sala oficial > ticketera > cartelera agregada > productora > beneficios**.
@@ -126,6 +126,10 @@ Un mismo evento puede llegar por varias fuentes. El paso de unificación las cru
      Por ejemplo, el título y la descripción salen del sitio de la sala si existe, y el precio y si está agotado, de la ticketera.
 
 **Salas con nombres distintos.** "El Galpón - Sala Cero" se separa en sala ("El Galpón") y sala interna ("Sala Cero"). Dos nombres se consideran la misma sala si, sin palabras genéricas ("teatro", "sala", "espacio", "escuela"…), son equivalentes ("Teatro MANDRÁGORA Escuela de Artes" = "Teatro Mandrágora") y no están a más de 1 km. Lo que no se resuelve así va como alias en `config/lugares_alias.toml`.
+
+**Fechas sin año.** Varias fuentes escriben "13 de noviembre". Si esa fecha pasó hace menos de un mes, ya pasó (no se pasa al año siguiente); si pasó hace más, es del año que viene ("10 de abril" leído en octubre). La diaria se lee desde la fecha de publicación de cada beneficio.
+
+**Salas sin ubicación.** Se buscan en OpenStreetMap por dirección o, si no hay, por nombre; un nombre de una sola palabra ("Sitio") no se busca, porque es demasiado ambiguo.
 
 **El `id` del evento** se deriva de la primera coincidencia estable (ticketera e ID externo). Así no cambia de una corrida a otra y los enlaces a la web no se rompen.
 

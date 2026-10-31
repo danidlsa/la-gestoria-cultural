@@ -16,7 +16,7 @@
 
 set -euo pipefail
 
-REPO="git@github.com:danidlsa/cartelera-cultural.git"
+REPO="git@github.com:danidlsa/la-gestoria-cultural.git"
 DIR="${CARTELERA_DIR:-$HOME/.cartelera-cultural}"
 LLAVE="${CARTELERA_LLAVE:-$HOME/.ssh/cartelera_deploy}"
 LOG="$HOME/Library/Logs/cartelera-cultural.log"

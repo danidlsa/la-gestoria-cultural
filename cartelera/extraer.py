@@ -3,6 +3,7 @@
 import html
 import json
 import re
+from datetime import date, timedelta
 
 from cartelera.modelo import Precio
 
@@ -103,3 +104,25 @@ def precio_de(localidades: str) -> Precio | None:
     if not generales:
         return None
     return Precio(desde=min(generales), hasta=max(generales))
+
+
+# Una fecha sin año que pasó hace menos que esto ya pasó; si pasó hace más, es del año que viene
+# ("10 de abril" leído en octubre). Un mes deja afuera las funciones recién pasadas de una temporada.
+VENTANA_FECHA_PASADA = timedelta(days=30)
+
+
+def fecha_sin_anio(dia: int, mes: int, hoy: date) -> date | None:
+    """La fecha de ese día y mes más probable a partir de hoy, o None si ya pasó (o no existe)."""
+    try:
+        candidata = date(hoy.year, mes, dia)
+    except ValueError:
+        return None
+    if candidata >= hoy - timedelta(days=1):
+        return candidata
+    if hoy - candidata <= VENTANA_FECHA_PASADA:
+        return None
+    try:
+        return date(hoy.year + 1, mes, dia)
+    except ValueError:
+        return None
+

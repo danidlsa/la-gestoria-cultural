@@ -207,7 +207,7 @@
             </div>
             <p class="via">
               {%- for entrada in evento.entradas %}
-              <a href="{{ entrada.url }}" target="_blank" rel="noopener">{{ "Ver en" if entrada.via in ("cartelera_mvd", "solis", "teatro_de_verano", "sodre", "galpon", "cinemateca") else "Entradas en" }} {{ fuentes.get(entrada.via, entrada.via) }} ↗</a>
+              <a href="{{ entrada.url }}" target="_blank" rel="noopener">{{ "Ver en" if entrada.via in solo_informacion else "Entradas en" }} {{ fuentes.get(entrada.via, entrada.via) }} ↗</a>
               {%- endfor %}
               <button type="button" class="agregar-plan">＋ Mi plan</button>
             </p>
@@ -224,7 +224,7 @@
 
   <footer class="contenedor pie-pagina">
     <p>{{ sitio }} junta lo que publican {{ nombres_fuentes[:-1]|join(", ") }} y {{ nombres_fuentes[-1] }}. Los enlaces llevan siempre a la fuente original para comprar o reservar.
-       Proyecto sin fines de lucro · <a href="que-es.html">qué es La Gestoría</a> · <a href="https://github.com/danidlsa/cartelera-cultural">código</a> · <a href="eventos.json">datos</a>.</p>
+       Proyecto sin fines de lucro · <a href="que-es.html">qué es La Gestoría</a> · <a href="https://github.com/danidlsa/la-gestoria-cultural">código</a> · <a href="eventos.json">datos</a>.</p>
   </footer>
 
   <div class="imprimible" id="imprimible" aria-hidden="true"></div>

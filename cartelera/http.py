@@ -7,7 +7,7 @@ from urllib.robotparser import RobotFileParser
 
 import httpx
 
-USER_AGENT = "CarteleraMVD/0.1 (+https://github.com/danidlsa/cartelera-cultural)"
+USER_AGENT = "CarteleraMVD/0.1 (+https://github.com/danidlsa/la-gestoria-cultural)"
 log = logging.getLogger(__name__)
 
 

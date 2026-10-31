@@ -11,7 +11,7 @@ from datetime import date, datetime, time, timedelta
 
 from cartelera.beneficios import beneficios_de_entradas
 from cartelera.categorias import esta_cancelado
-from cartelera.extraer import precio_de, recortar, texto_plano
+from cartelera.extraer import fecha_sin_anio, precio_de, recortar, texto_plano
 from cartelera.geo import sin_tildes
 from cartelera.http import Cliente
 from cartelera.modelo import Entrada, EventoCrudo, Funcion, LugarCrudo
@@ -33,19 +33,11 @@ def ids_de_listado(pagina: str) -> list[str]:
 
 
 def fecha_de(texto: str, hoy: date) -> date | None:
-    """'Viernes 30 de Octubre' -> la próxima fecha con ese día y mes (puede ser del año que viene)."""
+    """'Viernes 30 de Octubre' -> la fecha más probable con ese día y mes (puede ser del año que viene)."""
     encontrado = re.search(r"(\d{1,2}) de ([a-záéíóú]+)", sin_tildes(texto))
     if not encontrado or encontrado.group(2) not in MESES:
         return None
-    dia, mes = int(encontrado.group(1)), MESES[encontrado.group(2)]
-    for anio in (hoy.year, hoy.year + 1):
-        try:
-            candidata = date(anio, mes, dia)
-        except ValueError:
-            return None
-        if candidata >= hoy - timedelta(days=1):
-            return candidata
-    return None
+    return fecha_sin_anio(int(encontrado.group(1)), MESES[encontrado.group(2)], hoy)
 
 
 def funciones_por_sala(pagina: str, hoy: date, zona) -> dict[str, list[Funcion]]:
