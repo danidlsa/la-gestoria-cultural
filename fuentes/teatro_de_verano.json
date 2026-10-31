@@ -1,0 +1,275 @@
+{
+ "fuente": "teatro_de_verano",
+ "corrida": "2026-10-31T13:18:50.689808-03:00",
+ "ok": true,
+ "cantidad": 7,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "225",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Trotsky-Vengaran-y-Mariano-Martinez-uc225",
+   "titulo": "Trotsky Vengarán y Mariano Martínez",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "31 de octubre, 21:00 h.",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/alta_demanda/40020997",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202606/W655_H370/927.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/alta_demanda/40020997"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "231",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Karibe-con-K-uc231",
+   "titulo": "Karibe con K",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "8 de noviembre, 21:00 h.",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-08T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021644/espectaculo/%C2%A1Karibe%20con%20K,%20Colosal?8",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202609/W655_H370/941.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021644/espectaculo/%C2%A1Karibe%20con%20K,%20Colosal?8"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "136",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
+   "titulo": "Prueba de Admisión - Carnaval 2027",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "10 al 16 de noviembre, 20:30 h.",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-16T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/613.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "227",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/German-Medina-uc227",
+   "titulo": "German Medina",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "21 de noviembre, 21:00 h.",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020784",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202607/W655_H370/929.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020784"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "226",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Cruzando-el-Charco-uc226",
+   "titulo": "Cruzando el Charco",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "28 de noviembre, 21:00 h.",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/alta_demanda/40021101",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202606/W655_H370/928.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/alta_demanda/40021101"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "239",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Sodre-celebra-uc239",
+   "titulo": "Sodre celebra",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "12 de diciembre, 20:30 h.",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021890/sodre-celebra",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202610/W655_H370/983.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021890/sodre-celebra"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "234",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Pixies-uc234",
+   "titulo": "Pixies",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "2 de abril",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-04-02T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021518/pixies",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202610/W655_H370/968.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021518/pixies"
+   ],
+   "ciclo": null
+  }
+ ]
+}

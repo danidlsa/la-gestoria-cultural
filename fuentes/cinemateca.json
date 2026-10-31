@@ -1,0 +1,934 @@
+{
+ "fuente": "cinemateca",
+ "corrida": "2026-10-31T13:15:38.762449-03:00",
+ "ok": true,
+ "cantidad": 18,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9643",
+   "url": "https://cinemateca.org.uy/peliculas/9643",
+   "titulo": "Naza",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Yuval Abraham, Rachel Szor. El término “NAZA” es un acrónimo de la expresión militar hebrea nezek agavi que puede traducirse como “daño colateral”, y alude a las víctimas civiles de una guerra, en este caso la que las Fuerzas de Defensa de Israel llevan a cabo contra Hamas y la población de…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T15:30:00-03:00",
+     "fin": "2026-10-31T16:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-10-31T21:45:00-03:00",
+     "fin": "2026-10-31T23:05:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-01T15:30:00-03:00",
+     "fin": "2026-11-01T16:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-01T21:45:00-03:00",
+     "fin": "2026-11-01T23:05:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-02T19:45:00-03:00",
+     "fin": "2026-11-02T21:05:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-02T21:25:00-03:00",
+     "fin": "2026-11-02T22:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T19:45:00-03:00",
+     "fin": "2026-11-03T21:05:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T21:25:00-03:00",
+     "fin": "2026-11-03T22:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T20:00:00-03:00",
+     "fin": "2026-11-04T21:20:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T21:40:00-03:00",
+     "fin": "2026-11-04T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9643",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40845/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9123",
+   "url": "https://cinemateca.org.uy/peliculas/9123",
+   "titulo": "Narciso",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Marcelo Martinessi. Una imagen atraviesa esta película paraguaya: un cuerpo ardiendo. Es 1959, un cadáver aparece quemado y es el del protagonista. La acción retrocede un año, a la Asunción de 1958, cuando un joven llamado Narciso vuelve de Buenos Aires con una maleta llena de discos y una idea…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T15:40:00-03:00",
+     "fin": "2026-10-31T17:21:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-01T15:40:00-03:00",
+     "fin": "2026-11-01T17:21:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-02T17:10:00-03:00",
+     "fin": "2026-11-02T18:51:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T17:10:00-03:00",
+     "fin": "2026-11-03T18:51:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T17:10:00-03:00",
+     "fin": "2026-11-04T18:51:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9123",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40407/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9083",
+   "url": "https://cinemateca.org.uy/peliculas/9083",
+   "titulo": "Hoja seca",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Alexandre Koberidze. Lisa, una fotógrafa, desaparece. La última información sobre ella es que ha estado fotografiando estadios de fútbol en siete pueblos distintos por toda Georgia. Su padre, Irakli, decide buscarla y viaja a esos lugares. Levani, el mejor amigo de Lisa y una persona invisible…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T16:00:00-03:00",
+     "fin": "2026-10-31T19:06:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-01T15:25:00-03:00",
+     "fin": "2026-11-01T18:31:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9083",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/HOJA+SECA.jpeg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9631",
+   "url": "https://cinemateca.org.uy/peliculas/9631",
+   "titulo": "Elena Quinteros",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Aldo Novick. Maestra, militante política, integrante del grupo fundacional del Partido por la Victoria del Pueblo, Elena Quinteros fue detenida por integrantes de las Fuerzas Conjuntas de la dictadura uruguaya el 26 de junio de 1976 y llevada al centro de detención 300 Carlos, dependiente de la…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T17:10:00-03:00",
+     "fin": "2026-10-31T19:18:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-01T17:10:00-03:00",
+     "fin": "2026-11-01T19:18:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-02T17:15:00-03:00",
+     "fin": "2026-11-02T19:23:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T17:15:00-03:00",
+     "fin": "2026-11-03T19:23:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T17:15:00-03:00",
+     "fin": "2026-11-04T19:23:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9631",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40833/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9094",
+   "url": "https://cinemateca.org.uy/peliculas/9094",
+   "titulo": "La hija cóndor",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Álvaro Olmos Torrico. Clara es una joven quechua de 19 años que vive en medio de las montañas de Los Andes, en Ayopaya, junto a su anciana madre adoptiva Ana (70). Ana es la partera de las comunidades quechuas de la zona y Clara, por designio tradicional, es la heredera del conocimiento y…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T19:25:00-03:00",
+     "fin": "2026-10-31T21:14:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-01T20:30:00-03:00",
+     "fin": "2026-11-01T22:19:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-02T21:15:00-03:00",
+     "fin": "2026-11-02T23:04:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T21:15:00-03:00",
+     "fin": "2026-11-03T23:04:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T21:15:00-03:00",
+     "fin": "2026-11-04T23:04:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9094",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40378/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9042",
+   "url": "https://cinemateca.org.uy/peliculas/9042",
+   "titulo": "Diciembre",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Lucas Gallo. Diciembre es una crónica atmosférica de la crisis de 2001 en Argentina, un levantamiento político, económico y social impulsado por la revuelta “¡Que se vayan todos!”. La película reconstruye aquel momento con material de archivo restaurado, capturando la espontaneidad de las…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T19:40:00-03:00",
+     "fin": "2026-10-31T21:25:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-01T19:40:00-03:00",
+     "fin": "2026-11-01T21:25:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-02T19:10:00-03:00",
+     "fin": "2026-11-02T20:55:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T19:10:00-03:00",
+     "fin": "2026-11-03T20:55:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T19:10:00-03:00",
+     "fin": "2026-11-04T20:55:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9042",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40326/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "2538",
+   "url": "https://cinemateca.org.uy/peliculas/2538",
+   "titulo": "En la puta vida",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Beatriz Flores Silva. La joven Elisa tiene un amante casado que le ha prometido (y mentido) que dejará a su esposa. Además, tiene dos hijos y no duda en soportar a ese hombre mayor que, por otra parte, es su jefe. Harta de mentiras, sin embargo, decide abandonarlo, se queda sin trabajo, de la…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T21:30:00-03:00",
+     "fin": "2026-10-31T23:07:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/2538",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/en_la_puta_vida.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9655",
+   "url": "https://cinemateca.org.uy/peliculas/9655",
+   "titulo": "Tierra de mi padre",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Pawel Pawlikowski. Esta película polaca se centra en la relación entre Thomas Mann, -el escritor alemán, autor de obras mayores como La montaña mágica y Los Buddenbrock y ganador del Premio Nobel- y su hija Erika, actriz, escritora y piloto de rally. En el verano de 1949 en plena Guerra Fría…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T22:10:00-03:00",
+     "fin": "2026-10-31T23:32:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-01T18:50:00-03:00",
+     "fin": "2026-11-01T20:12:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-02T20:50:00-03:00",
+     "fin": "2026-11-02T22:12:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T21:10:00-03:00",
+     "fin": "2026-11-03T22:32:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T20:30:00-03:00",
+     "fin": "2026-11-04T21:52:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9655",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40856/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9652",
+   "url": "https://cinemateca.org.uy/peliculas/9652",
+   "titulo": "Hijos de Dios",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Frauke Lodders. Los adolescentes Hannah y Timo se ven en conflicto con los principios de sus padres cuando Timo descubre que es homosexual y Hannah desarrolla intereses incompatibles con los valores de su familia. Ambos hermanos quedan atrapados entre el amor a su familia, las normas religiosas…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T17:40:00-03:00",
+     "fin": "2026-10-31T19:37:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-10-31T19:55:00-03:00",
+     "fin": "2026-10-31T21:52:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9652",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40854/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Filmtage: Ciclo del Cine Alemán en Cinemateca"
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9656",
+   "url": "https://cinemateca.org.uy/peliculas/9656",
+   "titulo": "Belleza americana",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Sam Mendes. Como en El ocaso de una vida de Billy Wilder, la historia está contada por un muerto y despliega las razones que condujeron a su muerte. El personaje de Kevin Spacey es un hombre de mediana edad que atraviesa una profunda insatisfacción vital, atrapado en un matrimonio sin amor con…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T23:30:00-03:00",
+     "fin": "2026-11-01T01:32:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9656",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://media.revistavanityfair.es/photos/66deae36c41c71da0c808d2e/master/w_3940%2Cc_limit/GettyImages-168599834.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "The Apartment Station presenta: Trasnoches en Cinemateca / Belleza americana"
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9605",
+   "url": "https://cinemateca.org.uy/peliculas/9605",
+   "titulo": "Tres adioses",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Isabel Coixet. Son tres adioses porque la protagonista se despide una primera vez de una pareja que creía fundamental en su vida, una segunda vez cuando afronta una conversación madura entre ellos con el planteamiento de hacer renacer ese amor y un tercer adiós que surge cuando nos enteramos de…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-01T21:20:00-03:00",
+     "fin": "2026-11-01T23:20:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9605",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.eneccine.com/tresadioses/tresadioses05.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9645",
+   "url": "https://cinemateca.org.uy/peliculas/9645",
+   "titulo": "Paraíso",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Daniel Mota. Este documental portugués reconstruye una época (los años noventa del siglo pasado) en la que las fiestas electrónicas reunían a jóvenes, DJs, productores y bailarines en torno a una nueva forma de vivir la música. La película muestra que este fenómeno no fue solamente una moda…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-01T22:30:00-03:00",
+     "fin": "2026-11-01T23:52:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9645",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://indielisboa.com/wp-content/uploads/2025/03/img-678541e40cf08-1.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9653",
+   "url": "https://cinemateca.org.uy/peliculas/9653",
+   "titulo": "Lo que queda de sensibilidad",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Daniela Magnani Hüller. Este documental autobiográfico, ópera prima de la directora, se propone despojar al silencio de su poder. Hace catorce años, la directora sobrevivió a un intento de femicidio perpetrado por un compañero de escuela que la había acosado anteriormente.. En imágenes de gran…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-01T17:40:00-03:00",
+     "fin": "2026-11-01T19:11:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-01T19:30:00-03:00",
+     "fin": "2026-11-01T21:01:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9653",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40855/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Filmtage: Ciclo del Cine Alemán en Cinemateca"
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9659",
+   "url": "https://cinemateca.org.uy/peliculas/9659",
+   "titulo": "La patrulla de la muerte",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Andrzej Wajda. Resistentes en la red cloacal de Varsovia, acosados por los nazis en 1944. La tragedia y el horror de la guerra y, en perspectiva, una dimensión crítica que en su momento pudo pasar desapercibida: el Ejército Rojo estaba a cien kilómetros de la ciudad, permitiendo que esa masacre…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-02T17:00:00-03:00",
+     "fin": "2026-11-02T18:27:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-02T19:00:00-03:00",
+     "fin": "2026-11-02T20:27:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9659",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/war-wajda-kanal-thumb.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Andrzej Wajda, en su centenario"
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "1920",
+   "url": "https://cinemateca.org.uy/peliculas/1920",
+   "titulo": "Cenizas y diamantes",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Andrzej Wajda. Tras la guerra contra el invasor nazi, la guerra civil que desgarra Polonia. Un atentado político sirve de eje a una metáfora sobre una sociedad fracturada. Con Cybulski (el “James Dean polaco”, se ha dicho) el antihéroe irrumpe en el cine socialista. Tras la guerra contra el…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-03T17:00:00-03:00",
+     "fin": "2026-11-03T18:38:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T19:05:00-03:00",
+     "fin": "2026-11-03T20:43:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/1920",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/cenizas-y-diamantes.jpe",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Andrzej Wajda, en su centenario"
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9660",
+   "url": "https://cinemateca.org.uy/peliculas/9660",
+   "titulo": "Los brujos inocentes",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Andrzej Wajda. Un joven médico, harto de ser seguido por una mujer, conoce a una chica, a la que lleva una noche a su habitación, donde hablan sobre la moral y el amor. A la mañana siguiente, la chica desaparece y el hombre, obsesionado, se lanza a buscarla por toda la ciudad. Un joven médico…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-04T17:00:00-03:00",
+     "fin": "2026-11-04T18:27:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T18:45:00-03:00",
+     "fin": "2026-11-04T20:12:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9660",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm63HWrqd7yV5Xa_3zBvoefVEcVLwRX4RJmxGYLqw2CsXbK5ZZhZi0Qia9&amp;s=10",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Andrzej Wajda, en su centenario"
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9661",
+   "url": "https://cinemateca.org.uy/peliculas/9661",
+   "titulo": "Sansón",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Andrzej Wajda. Mientras asiste a la universidad de Varsovia, Jakub Gold, un joven judío, mata accidentalmente a un compañero de estudios en una pelea. Va prisión, es liberado al comienzo de la Segunda Guerra Mundial, va a parar al ghetto de Varsovia con otros cientos de judíos, escapa de allí…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T17:00:00-03:00",
+     "fin": "2026-11-05T18:57:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T19:20:00-03:00",
+     "fin": "2026-11-05T21:17:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9661",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://assets.mubicdn.net/images/film/28636/image-w1280.jpg?1745489920",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Andrzej Wajda, en su centenario"
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9663",
+   "url": "https://cinemateca.org.uy/peliculas/9663",
+   "titulo": "La caza de moscas",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Andrzej Wajda. Wlodek, expulsado de la universidad después de cinco semestres, es un empleado gris de una librería. Cansado de la atmósfera sofocante de la casa donde vive en dos pequeñas habitaciones con los suegros, esposa e hijo, se va de casa por la noche. Un Wajda diferente. una comedia…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T17:00:00-03:00",
+     "fin": "2026-11-06T18:44:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T19:05:00-03:00",
+     "fin": "2026-11-06T20:49:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9663",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://wajda.pl/wp-content/uploads/2021/05/polowanie-na-muchy-fototeka-poziom.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Andrzej Wajda, en su centenario"
+  }
+ ]
+}

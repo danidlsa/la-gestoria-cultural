@@ -1,0 +1,1058 @@
+{
+ "fuente": "solis",
+ "corrida": "2026-10-31T13:18:40.119390-03:00",
+ "ok": true,
+ "cantidad": 26,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "solis",
+   "id_externo": "3082",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Gran-gala-de-tango-uc3082",
+   "titulo": "Gran gala de tango",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-10T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7025.jpg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "3078",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Agenda-de-actividades-Universo-Mercedes-Pinto-uc3078",
+   "titulo": "Agenda de actividades: Universo Mercedes Pinto",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-03T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Delmira Agustini",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7018.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "3080",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Ulysses-Quartet--Anne-Marie-McDermott-piano-uc3080",
+   "titulo": "Ulysses Quartet & Anne-Marie McDermott, piano",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7021.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "3079",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/5to-Foro-Mujeres-Lideres-OMEU-uc3079",
+   "titulo": "5to Foro Mujeres Líderes OMEU",
+   "categoria": "charla",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021827/5to-foro-de-mujeres-lideres-omeu",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7019.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021827/5to-foro-de-mujeres-lideres-omeu"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "3076",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Beethoven-2027-Testamento-uc3076",
+   "titulo": "Beethoven 2027: Testamento",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-16T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021788/la-filarmonica-beethoven-2027-testamento",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7012.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021788/la-filarmonica-beethoven-2027-testamento"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "3075",
+   "url": "https://www.teatrosolis.org.uy/CALENDARIO/Beethoven-2027-Vanguardia-uc3075",
+   "titulo": "Beethoven 2027: Vanguardia",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-11T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021789/la-filarmonica-beethoven-2027-vanguardia",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7011.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021789/la-filarmonica-beethoven-2027-vanguardia"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "3073",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Rasgar-la-tierra-uc3073",
+   "titulo": "Rasgar la tierra",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-01T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021761/rasgar-la-tierra",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7009.png",
+   "productor": "Comedia Nacional",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021761/rasgar-la-tierra"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "3068",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Duo-de-violin-y-piano-uc3068",
+   "titulo": "Dúo de violín y piano",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-08T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Delmira Agustini",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021852/ciclo-de-piano-raquel-boldorini",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/6952.jpg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021852/ciclo-de-piano-raquel-boldorini"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "3053",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/19-Festival-de-Jazz-de-Montevideo-uc3053",
+   "titulo": "19º Festival de Jazz de Montevideo",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021511/espectaculo/Kind%20of%20Blue%20-%20Davis%20100%20a%C3%B1os?3",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202609/W756_H530/6873.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021511/espectaculo/Kind%20of%20Blue%20-%20Davis%20100%20a%C3%B1os?3"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "3045",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Bandoneonas-uc3045",
+   "titulo": "Bandoneonas",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021527/espectaculo/Bandoneonas?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202609/W756_H530/6863.jpeg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021527/espectaculo/Bandoneonas?2"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2987",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/19-Festival-de-Jazz-de-Montevideo-uc2987",
+   "titulo": "19° Festival de Jazz de Montevideo",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021515/espectaculo/%C3%91u%20ritmo%20con%20se%C3%B1as?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202609/W756_H530/6875.jpg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021515/espectaculo/%C3%91u%20ritmo%20con%20se%C3%B1as?2"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2986",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/19-Festival-de-Jazz-de-Montevideo-uc2986",
+   "titulo": "19° Festival de Jazz de Montevideo",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021514/espectaculo/Mvd%20-%20Simoni%20-%20Colom?1",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202603/W756_H530/6639.jpg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021514/espectaculo/Mvd%20-%20Simoni%20-%20Colom?1"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2985",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Ventana-Sur-uc2985",
+   "titulo": "Ventana Sur",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Delmira Agustini",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202603/W756_H530/6637.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2984",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Ventana-Sur-uc2984",
+   "titulo": "Ventana Sur",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202603/W756_H530/6636.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2983",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Ventana-Sur-uc2983",
+   "titulo": "Ventana Sur",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-30T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202603/W756_H530/6635.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2980",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Lux-Fulgebit-uc2980",
+   "titulo": "Lux Fulgebit",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Delmira Agustini",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020529/espectaculo/CICLO%20DE%20M%C3%9ASICA%20CORAL%2029-11?11",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202603/W756_H530/6632.jpg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020529/espectaculo/CICLO%20DE%20M%C3%9ASICA%20CORAL%2029-11?11"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2973",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Cascanueces-uc2973",
+   "titulo": "Cascanueces",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020603/espectaculo/BANDA%20SINF%C3%93NICA%20-%20Cascanueces?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202603/W756_H530/6625.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020603/espectaculo/BANDA%20SINF%C3%93NICA%20-%20Cascanueces?2"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2961",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Washington-y-Cristina-50-aniversario-uc2961",
+   "titulo": "Washington y Cristina, 50º aniversario",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021111/espectaculo/Washington%20y%20Cristina?6",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202603/W756_H530/6605.jpg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021111/espectaculo/Washington%20y%20Cristina?6"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2951",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Sombras-por-supuesto-uc2951",
+   "titulo": "Sombras, por supuesto",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-03T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-11T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021230/espectaculo/Sombras%20por%20supuesto?3",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/6963.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021230/espectaculo/Sombras%20por%20supuesto?3"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2946",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/El-Teatro-uc2946",
+   "titulo": "El Teatro",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021401/espectaculo/El%20Teatro?1",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202609/W756_H530/6910.jpg",
+   "productor": "Comedia Nacional",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021401/espectaculo/El%20Teatro?1"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2939",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/El-duo-de-La-Africana--uc2939",
+   "titulo": "El dúo de \"La Africana\"",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-23T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Principal",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Principal",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Principal",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Principal",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202603/W756_H530/6575.jpg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2938",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/EL-de-las-tinieblas-a-la-luz-uc2938",
+   "titulo": "ÉL, de las tinieblas a la luz",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021670/el-de-las-tinieblas-a-la-luz",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/6966.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021670/el-de-las-tinieblas-a-la-luz"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2920",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Tablao--Noviembre-uc2920",
+   "titulo": "Tablao - Noviembre",
+   "categoria": "danza",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-23T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020236/espectaculo/Tablao%20Flamenco%20-%20Noviembre?3",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202603/W756_H530/6537.JPG",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020236/espectaculo/Tablao%20Flamenco%20-%20Noviembre?3"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2903",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Monteverdi-Choir--English-Baroque-Soloists-uc2903",
+   "titulo": "Monteverdi Choir & English Baroque Soloists",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-04T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020228/theodoramonteverdi-choirebs",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202601/W756_H530/6491.jpg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40020228/theodoramonteverdi-choirebs"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2897",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Canto-del-cisne-uc2897",
+   "titulo": "Canto del cisne",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020117/espectaculo/Canto%20del%20Cisne?10",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202602/W756_H530/6524.jpg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020117/espectaculo/Canto%20del%20Cisne?10"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2887",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Los-planetas-uc2887",
+   "titulo": "Los planetas",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020667/espectaculo/La%20Filarm%C3%B3nica%20-%20Los%20Planetas?4",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202601/W756_H530/6472.jpg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020667/espectaculo/La%20Filarm%C3%B3nica%20-%20Los%20Planetas?4"
+   ],
+   "ciclo": null
+  }
+ ]
+}

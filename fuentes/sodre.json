@@ -1,0 +1,1617 @@
+{
+ "fuente": "sodre",
+ "corrida": "2026-10-31T13:15:33.895089-03:00",
+ "ok": true,
+ "cantidad": 38,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "sodre",
+   "id_externo": "10876",
+   "url": "https://sodre.gub.uy/espectaculos/beatles-y-bach/",
+   "titulo": "Beatles y Bach",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Una fusión inédita de estilos",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:00:00-03:00",
+     "fin": "2026-11-12T22:01:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021843/cns-beatles-y-bach",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/01/BEATLES-Y-BACH_Adaptaciones_Web_Destacada1-768x420.png",
+   "productor": "Coro Nacional del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021843/cns-beatles-y-bach"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "10893",
+   "url": "https://sodre.gub.uy/espectaculos/idilio/",
+   "titulo": "Idilio",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Programa vibrante que enlaza tres universos sonoros del siglo XX",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T20:00:00-03:00",
+     "fin": "2026-10-31T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020151/espectaculo/OSSODRE%20-%20Idilio?77",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/01/Adaptaciones_IDILIO_Web_Destacada1-768x420.png",
+   "productor": "Orquesta Sinfónica Nacional del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020151/espectaculo/OSSODRE%20-%20Idilio?77"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "10898",
+   "url": "https://sodre.gub.uy/espectaculos/diafanas-melodias/",
+   "titulo": "Diáfanas melodías",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Programa centrado en la claridad del gesto musical y la fluidez melódica",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-08T18:00:00-03:00",
+     "fin": "2026-11-08T20:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020154/espectaculo/CNMC%20-%20Di%C3%A1fanas%20melod%C3%ADas?79",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/01/adaptaciones_DIAFANAS_MELODIAS_destacada-1-768x420.png",
+   "productor": "Conjunto Nacional de Música de Cámara del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020154/espectaculo/CNMC%20-%20Di%C3%A1fanas%20melod%C3%ADas?79"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "10914",
+   "url": "https://sodre.gub.uy/espectaculos/el-cascanueces/",
+   "titulo": "El Cascanueces",
+   "categoria": "danza",
+   "categoria_segura": true,
+   "descripcion_corta": "El clásico cuento de Navidad pleno de imaginación y fantasía, en una propuesta renovada",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-10T20:00:00-03:00",
+     "fin": "2026-12-10T22:01:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-11T20:00:00-03:00",
+     "fin": "2026-12-11T22:01:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-12T20:00:00-03:00",
+     "fin": "2026-12-12T22:01:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-13T17:00:00-03:00",
+     "fin": "2026-12-13T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-15T20:00:00-03:00",
+     "fin": "2026-12-15T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-16T20:00:00-03:00",
+     "fin": "2026-12-16T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-17T20:00:00-03:00",
+     "fin": "2026-12-17T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-18T20:00:00-03:00",
+     "fin": "2026-12-18T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-19T20:00:00-03:00",
+     "fin": "2026-12-19T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-20T17:00:00-03:00",
+     "fin": "2026-12-20T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020133/espectaculo/BNS%20-%20Cascanueces?83",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/01/Adaptaciones_CASCANUECES_destacada-768x420.png",
+   "productor": "Ballet Nacional del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020133/espectaculo/BNS%20-%20Cascanueces?83"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "10924",
+   "url": "https://sodre.gub.uy/espectaculos/gala-de-navidad/",
+   "titulo": "Gala de Navidad",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Celebre el espíritu navideño con la elegancia del Romanticismo francés",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-23T20:00:00-03:00",
+     "fin": "2026-12-23T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020161/espectaculo/CNS%20-%20Concierto%20de%20Navidad?85",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/01/Gala-de-navidad_Destacado-web-768x420.jpg",
+   "productor": "Coro Nacional del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020161/espectaculo/CNS%20-%20Concierto%20de%20Navidad?85"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "10929",
+   "url": "https://sodre.gub.uy/espectaculos/gala-de-ano-nuevo-2/",
+   "titulo": "Gala de Año Nuevo \"Identidad\"",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Orquesta Juvenil Nacional",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-30T20:00:00-03:00",
+     "fin": "2026-12-30T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020169/espectaculo/OJNS%20-%20Gala%20de%20A%C3%B1o%20Nuevo?87",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/01/Abono-gala-año-nuevo_Destacado-web-768x420.jpg",
+   "productor": "Orquesta Juvenil Nacional del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020169/espectaculo/OJNS%20-%20Gala%20de%20A%C3%B1o%20Nuevo?87"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "11435",
+   "url": "https://sodre.gub.uy/espectaculos/djavan/",
+   "titulo": "Djavan",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Celebra 50 años de carrera con una gira nacional",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": "2026-11-27T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020379/espectaculo/DJAVAN?3",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/03/Destacado-web-18-1-768x420.png",
+   "productor": "Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020379/espectaculo/DJAVAN?3"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "11580",
+   "url": "https://sodre.gub.uy/espectaculos/dyango/",
+   "titulo": "Dyango",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Su último show \"Su amigo Dyango Tour\", la continuación de la gira que emocionó a miles de fans",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-03T20:00:00-03:00",
+     "fin": "2026-11-03T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020538/espectaculo/Dyango?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/04/DESTACADO_SU_AMIGO_DYANGO-1-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020538/espectaculo/Dyango?2"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "11787",
+   "url": "https://sodre.gub.uy/espectaculos/valeria-lynch/",
+   "titulo": "Valeria Lynch",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Una de las voces más destacadas de la música en español",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-01T20:00:00-03:00",
+     "fin": "2026-11-01T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-02T20:00:00-03:00",
+     "fin": "2026-11-02T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020653/espectaculo/Valeria%20Lynch%20en%20el%20Sodre?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/04/DESTACADO-VALERIA-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020653/espectaculo/Valeria%20Lynch%20en%20el%20Sodre?2"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "12285",
+   "url": "https://sodre.gub.uy/espectaculos/nelson-pino/",
+   "titulo": "Nelson Pino",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "45 años en el tango",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T20:00:00-03:00",
+     "fin": "2026-11-15T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/alta_demanda/40020890/espectaculo/Nelson%20Pino%20-%2045%20a%C3%B1os%20en%20el%20tango",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/06/DESTACADOweb.900x492-Nelson_Pino-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/alta_demanda/40020890/espectaculo/Nelson%20Pino%20-%2045%20a%C3%B1os%20en%20el%20tango"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13078",
+   "url": "https://sodre.gub.uy/espectaculos/gabriel-rolon/",
+   "titulo": "Gabriel Rolón",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Última oportunidad de ver \"Palabra plena\" en Montevideo",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T19:00:00-03:00",
+     "fin": "2026-11-26T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T21:30:00-03:00",
+     "fin": "2026-11-26T23:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/alta_demanda/40021474/espectaculo/Gabriel%20Rol%C3%B3n",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/09/Destacado-web-22-1-768x420.png",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/alta_demanda/40021474/espectaculo/Gabriel%20Rol%C3%B3n"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13143",
+   "url": "https://sodre.gub.uy/espectaculos/la-tipa-y-el-borracho/",
+   "titulo": "La Tipa y el Borracho",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Territorialidades presenta un soliloquio de Pedro Cayota",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-01T20:00:00-03:00",
+     "fin": "2026-11-01T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021559/espectaculo/La%20Tipa%20y%20el%20Borracho?7",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/09/Destacado-1-1-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021559/espectaculo/La%20Tipa%20y%20el%20Borracho?7"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13311",
+   "url": "https://sodre.gub.uy/espectaculos/pulmones/",
+   "titulo": "Pulmones",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Dirección de Fernando Dianesi",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:30:00-03:00",
+     "fin": "2026-11-12T22:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": "2026-11-13T22:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": "2026-11-14T22:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T20:30:00-03:00",
+     "fin": "2026-11-15T22:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021640/espectaculo/Pulmones?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/09/DESTACADO-Pulmones-2-2-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021640/espectaculo/Pulmones?2"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13416",
+   "url": "https://sodre.gub.uy/espectaculos/narciso/",
+   "titulo": "Narciso",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T21:10:00-03:00",
+     "fin": "2026-11-06T23:10:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T21:10:00-03:00",
+     "fin": "2026-11-08T23:10:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/09/Slider-web-Sodre-47-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13469",
+   "url": "https://sodre.gub.uy/espectaculos/esteban-klisich/",
+   "titulo": "Esteban Klísich",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "50 años de trayectoria",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T20:30:00-03:00",
+     "fin": "2026-10-31T22:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021648/espectaculo/Esteban%20Kl%C3%ADsich?5",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/09/900x492_Auditorio_destacado-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021648/espectaculo/Esteban%20Kl%C3%ADsich?5"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13473",
+   "url": "https://sodre.gub.uy/espectaculos/otros-indios-2/",
+   "titulo": "Otros Indios",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Presenta \"Homenaje\"",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T21:00:00-03:00",
+     "fin": "2026-11-26T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": "2026-11-27T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021691/espectaculo/Otros%20Indios%20presenta%20HOMENAJE?10",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/09/Destacado-web-6-1-768x420.png",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021691/espectaculo/Otros%20Indios%20presenta%20HOMENAJE?10"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13488",
+   "url": "https://sodre.gub.uy/espectaculos/la-belleza/",
+   "titulo": "La belleza",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Un recorrido por tres mundos orquestales muy distintos",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": "2026-11-21T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021837/ossodre-la-belleza",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Adaptaciones_LA-BELLEZA_Web_Destacada1-768x420.png",
+   "productor": "Orquesta Sinfónica Nacional del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021837/ossodre-la-belleza"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13497",
+   "url": "https://sodre.gub.uy/espectaculos/tramas-852/",
+   "titulo": "Tramas 852",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Propone un recorrido por músicas, tiempos y sensibilidades que, al encontrarse, revelan nuevas conexiones",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": "2026-11-25T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/CNJS-Formas-que-se-unen_Destacado-web-1-768x420.png",
+   "productor": "Coro Nacional Juvenil del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13523",
+   "url": "https://sodre.gub.uy/espectaculos/espiritu-invencible/",
+   "titulo": "Espíritu Invencible",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Un tributo a la danza, la música y la cultura armenia",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-10-31T20:00:00-03:00",
+     "fin": "2026-10-31T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021797/espiritu-invencible-danza-armenia",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/DESTACADO_WEB-ESPIRITU_INVENCIBLE-2-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021797/espiritu-invencible-danza-armenia"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13528",
+   "url": "https://sodre.gub.uy/espectaculos/encantea-repiqueteando-magia/",
+   "titulo": "Encantéa: Repiqueteando magia",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "Escuela Nacional de Formación Artística del Sodre: Muestra final del Área Folclore",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T20:00:00-03:00",
+     "fin": "2026-11-06T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T20:00:00-03:00",
+     "fin": "2026-11-07T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T20:00:00-03:00",
+     "fin": "2026-11-08T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021860/encantea-repiqueteando-magia",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/DESTACADA.folclore.6.8nov-768x420.jpg",
+   "productor": "Producción Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021860/encantea-repiqueteando-magia"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13532",
+   "url": "https://sodre.gub.uy/espectaculos/cielos-de-plomo-tierra-escondida/",
+   "titulo": "Cielos de plomo. Tierra escondida",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La banda celebra el lanzamiento de su nuevo álbum en una presentación especial en formato extendido",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": "2026-11-25T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/DESTACADO-900x492_CIELOS_DE_PLOMO-1-768x420.png",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13537",
+   "url": "https://sodre.gub.uy/espectaculos/viviana-ruiz/",
+   "titulo": "Viviana Ruiz",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "En formato trío, con Sebastián Pereira en batería y percusión y Victoria Gutiérrez en guitarrón, guitarras y coros",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:00:00-03:00",
+     "fin": "2026-12-05T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021838/viviana-ruiz",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/DESTACADOweb.900x492.plantilla_sin-texto-1-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021838/viviana-ruiz"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13541",
+   "url": "https://sodre.gub.uy/espectaculos/juan-jose-de-mello/",
+   "titulo": "Juan José de Mello",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "“Aníbal Sampayo, la voz del río”",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T20:00:00-03:00",
+     "fin": "2026-12-06T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021857/juan-jose-de-mello",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Destacado-web-10-1-768x420.png",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021857/juan-jose-de-mello"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13545",
+   "url": "https://sodre.gub.uy/espectaculos/pasos-largos/",
+   "titulo": "Pasos Largos",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Función festejo por sus 10 años",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-08T21:00:00-03:00",
+     "fin": "2026-12-08T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021783/pasos-largos",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/DESTACADO-PASOS_LARGOS-1-768x415.png",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021783/pasos-largos"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13551",
+   "url": "https://sodre.gub.uy/espectaculos/taddei-masliah-etchenique-bentancur/",
+   "titulo": "Taddei – Maslíah – Etchenique – Bentancur",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Cuatro grandes de la música uruguaya que vienen desarrollando una intensa labor como dúos (Taddei/Etchenique – Maslíah/Bentancur) se encuentran en escena para compartir un concierto atravesado por los cruces, el diálogo y distintas formas de interacción entre los músicos",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-13T20:00:00-03:00",
+     "fin": "2026-12-13T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021766/taddei-masliah-etchenique-bentancur",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/DESTACADOweb.900x492-TMBE-2-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021766/taddei-masliah-etchenique-bentancur"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13556",
+   "url": "https://sodre.gub.uy/espectaculos/deriva/",
+   "titulo": "Deriva",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Edición Fernando Cabrera",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-14T20:30:00-03:00",
+     "fin": "2026-12-14T22:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021842/deriva-edicion-fernando-cabrera",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/DESTACADO-DERIVA_EDICION_FERNANDO_CABRERA-2-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021842/deriva-edicion-fernando-cabrera"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13561",
+   "url": "https://sodre.gub.uy/espectaculos/gala-35-anos-ballet-al/",
+   "titulo": "Gala 35 años Ballet AL",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Un recorrido por grandes variaciones del repertorio clásico y contemporáneo",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-17T20:00:00-03:00",
+     "fin": "2026-12-17T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021867/gala-35-anos-ballet-al",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Destacado-web-8-1-768x420.png",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021867/gala-35-anos-ballet-al"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13566",
+   "url": "https://sodre.gub.uy/espectaculos/volando-voy/",
+   "titulo": "Volando voy – Naranjo Olivo",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Espectáculo que recorre la riqueza y diversidad del flamenco tomando como referencia el universo artístico de Camarón de la Isla",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-19T21:00:00-03:00",
+     "fin": "2026-12-19T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021887/volando-voy-naranjo-olivo",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/DESTACADOweb_VOLANDO_VOY-1-768x420.png",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021887/volando-voy-naranjo-olivo"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13571",
+   "url": "https://sodre.gub.uy/espectaculos/pasiones-en-contraste/",
+   "titulo": "Pasiones en contraste",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Temporada de Música de Cámara",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:00:00-03:00",
+     "fin": "2026-11-12T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021680/tmc-pasiones-en-contraste",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Pasiones-en-contraste_destacada-1-768x420.png",
+   "productor": "Temporada de Música de Cámara del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021680/tmc-pasiones-en-contraste"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13576",
+   "url": "https://sodre.gub.uy/espectaculos/mi-mujercitas/",
+   "titulo": "Mi Mujercitas",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Una reescritura contemporánea y metateatral del clásico de Louisa May Alcott",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-04T20:00:00-03:00",
+     "fin": "2026-11-04T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T20:00:00-03:00",
+     "fin": "2026-11-05T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021877/mi-mujercitas",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/DESTACADO-WEB_MI_MUJERCITAS-1-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021877/mi-mujercitas"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13593",
+   "url": "https://sodre.gub.uy/espectaculos/origen-y-destino/",
+   "titulo": "Origen y Destino",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Ellas también escribieron el tango",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-11T20:00:00-03:00",
+     "fin": "2026-12-11T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021885/origen-y-destino",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/WEB-SODRE-DESTACADO-900-x-492-px-1-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021885/origen-y-destino"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13597",
+   "url": "https://sodre.gub.uy/espectaculos/emi-2/",
+   "titulo": "EMI",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T17:00:00-03:00",
+     "fin": "2026-11-05T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T17:00:00-03:00",
+     "fin": "2026-11-07T19:01:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Slider-web-Sodre-54-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13604",
+   "url": "https://sodre.gub.uy/espectaculos/el-bano-del-papa/",
+   "titulo": "El baño del Papa",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T17:00:00-03:00",
+     "fin": "2026-11-06T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T17:00:00-03:00",
+     "fin": "2026-11-08T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Slider-web-Sodre-46-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13614",
+   "url": "https://sodre.gub.uy/espectaculos/elena-quinteros/",
+   "titulo": "Elena Quinteros",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T18:50:00-03:00",
+     "fin": "2026-11-06T20:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T18:50:00-03:00",
+     "fin": "2026-11-08T20:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Slider-web-Sodre-45-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13621",
+   "url": "https://sodre.gub.uy/espectaculos/diciembre-2/",
+   "titulo": "Diciembre",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T18:50:00-03:00",
+     "fin": "2026-11-05T20:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T18:50:00-03:00",
+     "fin": "2026-11-07T20:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Slider-web-Sodre-51-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13624",
+   "url": "https://sodre.gub.uy/espectaculos/carne/",
+   "titulo": "Carne",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T20:50:00-03:00",
+     "fin": "2026-11-05T22:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T20:50:00-03:00",
+     "fin": "2026-11-07T22:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Slider-web-Sodre-52-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13627",
+   "url": "https://sodre.gub.uy/espectaculos/raza-oriental-6/",
+   "titulo": "Raza oriental",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Espectáculo de diferentes grupos de Danzas Folclórica",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T19:00:00-03:00",
+     "fin": "2026-11-22T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021886/raza-oriental",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/DESTACADO-RAZA_ORIENTAL-1-768x420.png",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021886/raza-oriental"
+   ],
+   "ciclo": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13631",
+   "url": "https://sodre.gub.uy/espectaculos/gala-lirica-2/",
+   "titulo": "Gala Lírica",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Opereta – Vienesa y Francesa",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T20:00:00-03:00",
+     "fin": "2026-11-24T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021798/gala-lirica-opereta-vienesa-y-francesa",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Destacado-web-11-1-768x420.png",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021798/gala-lirica-opereta-vienesa-y-francesa"
+   ],
+   "ciclo": null
+  }
+ ]
+}

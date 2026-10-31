@@ -1,0 +1,78 @@
+{
+ "generado": "2026-10-31T13:19:32.542081-03:00",
+ "cantidad": 9,
+ "ciclos": [
+  {
+   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "lugar_id": "teatro-solis",
+   "desde": "2026-10-31T14:00:00-03:00",
+   "hasta": "2026-11-28T14:00:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-filmtage-ciclo-del-cine-aleman-en-cinemateca",
+   "titulo": "Filmtage: Ciclo del Cine Alemán en Cinemateca",
+   "lugar_id": "cinemateca",
+   "desde": "2026-10-31T17:40:00-03:00",
+   "hasta": "2026-11-01T19:30:00-03:00",
+   "cantidad": 2
+  },
+  {
+   "id": "ciclo-the-apartment-station-presenta-trasnoches-en-cinemateca-belleza-americana",
+   "titulo": "The Apartment Station presenta: Trasnoches en Cinemateca / Belleza americana",
+   "lugar_id": "cinemateca",
+   "desde": "2026-10-31T23:30:00-03:00",
+   "hasta": "2026-10-31T23:30:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-ciclo-de-musica-de-camara",
+   "titulo": "Ciclo de Música de Cámara",
+   "lugar_id": "teatro-solis",
+   "desde": "2026-11-01T18:00:00-03:00",
+   "hasta": "2026-11-01T18:00:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-tmc",
+   "titulo": "TMC",
+   "lugar_id": "auditorio-vaz-ferreira",
+   "desde": "2026-11-01T18:00:00-03:00",
+   "hasta": "2026-12-17T20:00:00-03:00",
+   "cantidad": 9
+  },
+  {
+   "id": "ciclo-andrzej-wajda-en-su-centenario",
+   "titulo": "Andrzej Wajda, en su centenario",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-02T17:00:00-03:00",
+   "hasta": "2026-11-06T19:05:00-03:00",
+   "cantidad": 5
+  },
+  {
+   "id": "ciclo-particulas",
+   "titulo": "Partículas",
+   "lugar_id": "sala-verdi",
+   "desde": "2026-11-03T20:00:00-03:00",
+   "hasta": "2026-11-24T20:00:00-03:00",
+   "cantidad": 4
+  },
+  {
+   "id": "ciclo-ciclo-marea",
+   "titulo": "Ciclo Marea",
+   "lugar_id": "sala-zitarrosa",
+   "desde": "2026-11-06T21:00:00-03:00",
+   "hasta": "2026-11-06T21:00:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-beethoven-2027",
+   "titulo": "Beethoven 2027",
+   "lugar_id": "teatro-solis",
+   "desde": "2027-02-11T20:30:00-03:00",
+   "hasta": "2027-02-16T20:30:00-03:00",
+   "cantidad": 2
+  }
+ ]
+}
