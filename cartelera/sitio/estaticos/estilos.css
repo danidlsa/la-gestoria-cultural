@@ -123,6 +123,14 @@ h1 span {
 .campo { margin-bottom: 18px; }
 .campo h3 { margin: 0 0 8px; font: 700 0.95rem var(--display); }
 .atajos, .opciones { display: flex; flex-wrap: wrap; gap: 6px; }
+.nota-experimental { flex-basis: 100%; margin: 4px 2px 0; font-size: 0.78rem; color: var(--texto-suave); }
+/* Excluir (como en AO3): se despliega una lista de tipos y se tocan los que no se quieren ver. */
+.excluir { margin-top: 10px; }
+.excluir summary { cursor: pointer; font-weight: 700; color: var(--coral); }
+.excluir .ayuda { font-size: 0.82rem; color: var(--texto-suave); margin: 6px 0; }
+.cuenta-excluir { font-size: 0.75rem; background: var(--coral); color: #fff; border-radius: 999px; padding: 0 7px; margin-left: 4px; }
+.opciones button.excluido { background: var(--coral); color: #fff; border-color: var(--borde); text-decoration: line-through; }
+.opciones button.excluido::before { content: "− "; }
 .subrubros { margin-top: 8px; padding: 8px; border-radius: 12px; background: color-mix(in srgb, var(--mostaza) 22%, transparent); }
 select {
   width: 100%; font: inherit; padding: 9px 12px; border: 2px solid var(--borde);

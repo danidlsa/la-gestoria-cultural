@@ -63,3 +63,12 @@ def test_los_enlaces_de_las_fuentes_tienen_que_ser_web():
                          funciones=[], imagen_url="data:image/svg+xml,<svg onload=alert(1)>")
     assert evento.imagen_url is None
 
+
+
+def test_rock_y_pop_va_con_otros_en_los_generos():
+    from cartelera.sitio.generar import datos_para_el_navegador
+    base = {"titulo": "X", "lugar_id": "l", "fuentes": [{"url": "https://x.uy"}], "funciones": [{"inicio": "2026-11-01T20:00:00-03:00"}]}
+    eventos = [dict(base, id="1", categoria="musica", subcategoria="rock_pop"), dict(base, id="2", categoria="musica", subcategoria="clasica")]
+    datos = datos_para_el_navegador(eventos, {"l": {"nombre": "L"}}, [])
+    assert [e["sub"] for e in datos["eventos"]] == [None, "clasica"]
+    assert datos["subcategoriasOtros"]["musica"] == "Rock, pop y otros"

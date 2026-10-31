@@ -29,7 +29,7 @@ MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "
 CATEGORIAS = {
     "musica": "Música", "teatro": "Teatro", "danza": "Danza", "humor": "Humor", "cine": "Cine",
     "exposicion": "Exposiciones", "infantil": "Infantil", "fiesta": "Fiestas", "festival": "Festivales",
-    "carnaval": "Carnaval", "tour": "Recorridos", "charla": "Charlas", "taller": "Talleres y cursos", "otros": "Otros",
+    "carnaval": "Carnaval", "tour": "Recorridos y tours", "charla": "Charlas", "taller": "Talleres y cursos", "otros": "Otros",
 }
 # Subrubros que se ofrecen al elegir un rubro, aunque todavía no haya eventos (llegan con nuevas fuentes).
 SUBCATEGORIAS = {
@@ -37,9 +37,13 @@ SUBCATEGORIAS = {
     "danza": {"ballet_sodre": "Ballet Nacional del Sodre"},
     "humor": {"stand_up": "Stand up"},
     "cine": {"cinemateca": "Cinemateca"},
-    # Géneros gruesos: el resto de la música queda en "Otros".
-    "musica": {"clasica": "Clásica y lírica", "tropical": "Tropical", "rock_pop": "Rock y pop"},
+    # Géneros gruesos: el rock, el pop y lo que no se pudo clasificar van juntos en el botón de "otros".
+    "musica": {"clasica": "Clásica y lírica", "tropical": "Tropical"},
 }
+# Nombre del botón "Otros" de cada rubro, si no es "Otros".
+SUBCATEGORIAS_OTROS = {"musica": "Rock, pop y otros"}
+# Rubros cuyos subrubros se adivinan (y pueden fallar): llevan una nota de "experimental".
+SUBCATEGORIAS_EXPERIMENTALES = ["musica"]
 # Presupuesto según el precio "desde" (en pesos uruguayos).
 PRESUPUESTOS = [
     ("gratis", "Gratis", ""),
@@ -134,7 +138,8 @@ def datos_para_el_navegador(eventos: list[dict], lugares: dict[str, dict], ciclo
                 "precioTexto": precio_texto(e.get("precio")),
                 "categoria": e["categoria"],
                 "enCartel": en_cartel(e),
-                "sub": e.get("subcategoria"),
+                # Un subrubro sin botón propio (por ejemplo, rock_pop) va con "otros".
+                "sub": e.get("subcategoria") if e.get("subcategoria") in SUBCATEGORIAS.get(e["categoria"], {}) else None,
                 "etiquetas": e.get("etiquetas", []),
                 "ciclo": e.get("ciclo_id"),
                 "lugar": e["lugar_id"],
@@ -152,6 +157,8 @@ def datos_para_el_navegador(eventos: list[dict], lugares: dict[str, dict], ciclo
         "ciclos": {c["id"]: c["titulo"] for c in ciclos},
         "categorias": CATEGORIAS,
         "subcategorias": SUBCATEGORIAS,
+        "subcategoriasOtros": SUBCATEGORIAS_OTROS,
+        "subcategoriasExperimentales": SUBCATEGORIAS_EXPERIMENTALES,
     }
 
 
@@ -215,6 +222,7 @@ def generar() -> Path:
         generado=fecha_corta(generado) if generado else "",
         cantidad_gratis=sum(1 for e in eventos if presupuesto(e.get("precio")) == "gratis"),
         cantidad_promos=sum(1 for e in eventos if e.get("beneficios")),
+        cantidad_festivales=sum(1 for e in eventos if "festival" in e.get("etiquetas", [])),
         # Un "<" en los datos podría cerrar el <script> donde van embebidos: va escapado (JSON lo lee igual).
         datos_json=json.dumps(datos, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c"),
     )

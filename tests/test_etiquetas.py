@@ -36,3 +36,29 @@ def test_subcategorias_y_festivales(ahora):
     assert (stand_up.subcategoria, stand_up.categoria) == ("stand_up", "humor")
     assert festival.etiquetas == ["festival"]
     assert otro_ballet.subcategoria is None
+
+
+def test_festival_por_nombre_o_por_tres_artistas(ahora):
+    from cartelera.etiquetas import etiquetas
+    festivales = ["Cosquin Rock 2027", "La Fiesta de la X", "La Bajada 23, Escarlatina y Sinestesia", "PCE - CUCO - AEF"]
+    no = [
+        "Jesse y Joy", "FUGAZ: Las Pantuflas Cósmicas + Julia y lxs Efímerxs",  # dos artistas
+        "SARATOGA (Esp) - En estado puro Tour 2026 - 25/11 - Live Era",  # gira, fecha y sala no son artistas
+        "Jhona Lemole y la Orquesta Deforme - «Los días felices»",  # "Artista - Nombre del show"
+    ]
+    for titulo in festivales:
+        assert etiquetas(evento(titulo, ahora=ahora), "Live Era") == ["festival"], titulo
+    for titulo in no:
+        assert etiquetas(evento(titulo, ahora=ahora), "Live Era") == [], titulo
+    assert etiquetas(evento("Obra, otra obra y una más", categoria="teatro", ahora=ahora)) == []  # solo música
+
+
+def test_recorridos_y_tours_a_pie_pero_no_giras_de_musica(ahora):
+    eventos = [
+        evento("VOCES ANÓNIMAS | Silent Horror Tour: Prado - 12 de Noviembre", ahora=ahora),
+        evento("MERLINA Y PERICLES. Visita guiada.", categoria="exposicion", ahora=ahora),
+        evento("Visitas guiadas al Palacio Salvo - NOVIEMBRE", lugar_id="palacio-salvo", ahora=ahora),
+        evento("DYING FETUS - Latin America Tour 2026", ahora=ahora),
+    ]
+    etiquetar(eventos, {})
+    assert [e.categoria for e in eventos] == ["tour", "tour", "tour", "musica"]

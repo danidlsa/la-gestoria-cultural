@@ -30,7 +30,30 @@ GENEROS_MUSICA = [
         r"k-?pop|britpop|new wave)\b"
     )),
 ]
-FESTIVAL = re.compile(r"\b(festival|fest)\b")
+# Recorridos y tours a pie (no las giras de música, "Latin America Tour 2026"): por el título o por el lugar.
+RECORRIDO = re.compile(
+    r"\b(visitas? (guiadas?|nocturnas?|teatralizadas?)|walking tours?|peatonal tours?|city tours?|caminatas?|"
+    r"recorridos? (a pie|guiados?|historicos?|nocturnos?|por (la ciudad|el barrio|ciudad vieja))|paseos? guiados?|"
+    r"horror tours?|tours? (a pie|guiados?|historicos?|nocturnos?))\b"
+)
+# Lugares que son en sí mismos una visita: lo que pasa ahí es un recorrido. (El Castillo Pittamiglio no:
+# también hace obras e infantiles; sus visitas guiadas entran por el título.)
+LUGARES_DE_VISITA = {"palacio-salvo"}
+# Festival por nombre: "Festival …", "… Fest", Cosquín Rock, Primavera 0, "Fiesta de la Cerveza".
+FESTIVAL = re.compile(r"\b(festival|fest|cosquin|primavera 0)\b|\bfiesta (de la|del|de los|de las)\b")
+# Festival por cantidad de artistas: un show de música con 3 o más nombres en el título.
+MINIMO_ARTISTAS_FESTIVAL = 3
+# Guiones: "Artista - Nombre del show", salvo que todas las partes sean nombres cortos ("PCE - CUCO - AEF").
+_GUIONES = re.compile(r"\s+[-–|]\s+")
+_ENUMERACION = re.compile(r"\s*[,+&/]\s*")
+# Partes del título que no son artistas: fechas, meses, giras, instrumentos, el nombre de la sala.
+_NO_ES_ARTISTA = re.compile(
+    r"\d{1,2}/\d{1,2}|\b(tour|gira|edicion|aniversario|anos|vol|presenta\w*|lanzamiento|en vivo|sesiones?|"
+    r"tributo|homenaje|show|noche|sala|teatro|desde|enero|febrero|marzo|abril|mayo|junio|julio|agosto|"
+    r"setiembre|septiembre|octubre|noviembre|diciembre|piano|guitarra|violin|voz|bajo|bateria|chelo)\b"
+)
+
+
 # "Ciclo de piano Raquel Boldorini", "Ciclo Marea - Lucía Chappe", "Ciclo de Música de Cámara 1-11"
 CICLO_EXPLICITO = re.compile(r"^(ciclo\b[^:\-–|0-9]*)", re.I)
 # "Partículas: Miel + Malapraxxis": un prefijo antes de ":" que se repite en la misma sala
@@ -58,8 +81,33 @@ def genero_por_texto(evento: Evento) -> str | None:
     return None
 
 
-def etiquetas(evento: Evento) -> list[str]:
-    es_festival = evento.categoria == "festival" or FESTIVAL.search(sin_tildes(evento.titulo))
+def artistas_en_titulo(titulo: str, lugar_nombre: str = "") -> list[str]:
+    """'La Bajada 23, Escarlatina y Sinestesia' -> 3 nombres. Saca lo que no es un artista.
+
+    La "y" separa solo en una enumeración con comas ("A, B y C"): "Julia y lxs Efímerxs" es una banda.
+    """
+    titulo = re.sub(r"\([^)]*\)", " ", titulo)
+    tramos = [t.strip() for t in _GUIONES.split(titulo) if t.strip()]
+    if len(tramos) >= MINIMO_ARTISTAS_FESTIVAL and all(len(t.split()) <= 3 for t in tramos):
+        partes = tramos
+    else:
+        partes = _ENUMERACION.split(tramos[0] if tramos else titulo)
+        if "," in (tramos[0] if tramos else titulo) and len(partes) > 1:
+            partes = partes[:-1] + re.split(r"\s+[ye]\s+", partes[-1])
+    lugar = sin_tildes(lugar_nombre)
+    limpias = (sin_tildes(p).strip(" .:'\"«»") for p in partes)
+    return [
+        p for p in limpias
+        if len(p) > 1 and len(p.split()) <= 5 and not _NO_ES_ARTISTA.search(p) and p != lugar and p not in lugar
+    ]
+
+
+def etiquetas(evento: Evento, lugar_nombre: str = "") -> list[str]:
+    es_festival = (
+        evento.categoria == "festival"
+        or FESTIVAL.search(sin_tildes(evento.titulo))
+        or (evento.categoria == "musica" and len(artistas_en_titulo(evento.titulo, lugar_nombre)) >= MINIMO_ARTISTAS_FESTIVAL)
+    )
     return ["festival"] if es_festival else []
 
 
@@ -115,7 +163,9 @@ def etiquetar(eventos: list[Evento], nombres_lugar: dict[str, str], buscar_gener
         evento.subcategoria = subcategoria(evento, nombres_lugar.get(evento.lugar_id, ""))
         if evento.subcategoria == "stand_up":
             evento.categoria = "humor"
+        if RECORRIDO.search(sin_tildes(evento.titulo)) or evento.lugar_id in LUGARES_DE_VISITA:
+            evento.categoria, evento.subcategoria = "tour", None
         if evento.categoria == "musica" and not evento.subcategoria:
             evento.subcategoria = genero_por_texto(evento) or (buscar_genero(evento.titulo) if buscar_genero else None)
-        evento.etiquetas = etiquetas(evento)
+        evento.etiquetas = etiquetas(evento, nombres_lugar.get(evento.lugar_id, ""))
     return detectar_ciclos(eventos)

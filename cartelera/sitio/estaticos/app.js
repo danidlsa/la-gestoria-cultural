@@ -97,9 +97,20 @@
   // --- Estado de los filtros --------------------------------------------------------------------
   const FILTROS_INICIALES = {
     periodo: "todo", dia: null, categoria: "", etiqueta: "", sub: "",
-    presupuesto: "", programa: "", sala: "", ciclo: "", texto: "",
+    presupuesto: "", programa: "", sala: "", ciclo: "", texto: "", excluir: [],
   };
   let estado = { seccion: "agenda", mes: hoy.slice(0, 7), planMes: sumarMeses(hoy.slice(0, 7), 1), ...FILTROS_INICIALES };
+
+  // Lo excluido ("nada de infantil") queda guardado en este navegador, como el plan.
+  const CLAVE_EXCLUIR = "lgc-excluir";
+  try {
+    const guardado = JSON.parse(localStorage.getItem(CLAVE_EXCLUIR) || "[]");
+    estado.excluir = guardado.filter((c) => c === "festival" || c in datos.categorias);
+  } catch (_) { /* sin almacenamiento disponible: la exclusión dura lo que la pestaña */ }
+
+  function guardarExcluir() {
+    try { localStorage.setItem(CLAVE_EXCLUIR, JSON.stringify(estado.excluir)); } catch (_) { /* idem */ }
+  }
 
   function diasDelPeriodo() {
     if (estado.periodo === "dia") return [estado.dia];
@@ -118,7 +129,10 @@
     const s = estado.seccion;
     if (s === "gratis" && evento.presupuesto !== "gratis") return false;
     if (s === "promos" && !evento.promos.length) return false;
-    if (s === "ciclos" && !evento.ciclo) return false;
+    if (s === "festivales" && !evento.etiquetas.includes("festival")) return false;
+    // Lo excluido no aparece, salvo en su propia pestaña (en Festivales se ven los festivales aunque estén excluidos).
+    if (estado.excluir.includes(evento.categoria)) return false;
+    if (estado.excluir.includes("festival") && evento.etiquetas.includes("festival") && s !== "festivales") return false;
     if (estado.categoria && evento.categoria !== estado.categoria) return false;
     if (estado.etiqueta && !evento.etiquetas.includes(estado.etiqueta)) return false;
     if (estado.sub === "otros" && evento.sub) return false;
@@ -150,13 +164,20 @@
     if (estado.categoria) activos.push(["categoria", datos.categorias[estado.categoria]]);
     if (estado.etiqueta) activos.push(["etiqueta", "Festivales"]);
     if (estado.sub) {
-      activos.push(["sub", estado.sub === "otros" ? "Otros" : (datos.subcategorias[estado.categoria] || {})[estado.sub]]);
+      const otros = datos.subcategoriasOtros[estado.categoria] || "Otros";
+      activos.push(["sub", estado.sub === "otros" ? otros : (datos.subcategorias[estado.categoria] || {})[estado.sub]]);
     }
     if (estado.presupuesto && estado.seccion !== "gratis") activos.push(["presupuesto", NOMBRE_PRECIO[estado.presupuesto]]);
     if (estado.programa) activos.push(["programa", estado.programa]);
     if (estado.sala) activos.push(["sala", datos.lugares[estado.sala]?.nombre || "Sala"]);
-    if (estado.ciclo) activos.push(["ciclo", datos.ciclos[estado.ciclo]]);
+    if (estado.ciclo) {
+      const nombre = datos.ciclos[estado.ciclo];
+      activos.push(["ciclo", /^ciclo/i.test(nombre) ? nombre : `Ciclo: ${nombre}`]);
+    }
     if (estado.texto.trim()) activos.push(["texto", `“${estado.texto.trim()}”`]);
+    for (const clave of estado.excluir) {
+      activos.push([`excluir:${clave}`, `Sin ${(clave === "festival" ? "Festivales" : datos.categorias[clave]).toLowerCase()}`]);
+    }
     return activos;
   }
 
@@ -177,6 +198,7 @@
     if (clave === "todo") return { ...FILTROS_INICIALES };
     if (clave === "periodo") return { periodo: "todo", dia: null };
     if (clave === "categoria") return { categoria: "", sub: "" };
+    if (clave.startsWith("excluir:")) return { excluir: estado.excluir.filter((c) => c !== clave.slice(8)) };
     return { [clave]: FILTROS_INICIALES[clave] };
   }
 
@@ -665,7 +687,7 @@
   const INTROS = {
     gratis: ["Gratis", "Todo lo que no cuesta un peso. Algunas actividades piden inscripción previa: revisá la fuente."],
     promos: ["Promos", "Eventos con 2x1 o descuentos para socios de clubes, bancos y programas de beneficios, según lo que marca cada ticketera."],
-    ciclos: ["Ciclos", "Series de una misma sala o propuesta: ciclos de música, temporadas y propuestas con varias fechas."],
+    festivales: ["Festivales", "Festivales, fiestas grandes y noches de tres bandas o más."],
     mapa: ["Mapa", "Dónde pasa lo que estás buscando. Tocá una sala para ver sus eventos."],
     plan: ["Planeá tu mes", "Tu mes arranca vacío. Tocá las opciones de un día, sumá lo que te guste y después llevalo a tu calendario, al papel o a WhatsApp."],
   };
@@ -675,12 +697,7 @@
     const texto = INTROS[estado.seccion];
     intro.hidden = !texto;
     if (!texto) return;
-    let titulo = texto[0];
-    if (estado.seccion === "ciclos" && estado.ciclo) {
-      const nombre = datos.ciclos[estado.ciclo];
-      titulo = /^ciclo/i.test(nombre) ? nombre : `Ciclo: ${nombre}`;
-    }
-    intro.replaceChildren(el("h2", {}, titulo), el("p", {}, texto[1]));
+    intro.replaceChildren(el("h2", {}, texto[0]), el("p", {}, texto[1]));
   }
 
   // --- Controles --------------------------------------------------------------------------------
@@ -696,10 +713,14 @@
     contenedor.hidden = !opciones;
     if (!opciones) return;
     const nombre = datos.categorias[estado.categoria];
-    const botones = [["", `Todo ${nombre.toLowerCase()}`], ...Object.entries(opciones), ["otros", "Otros"]];
+    const otros = datos.subcategoriasOtros[estado.categoria] || "Otros";
+    const botones = [["", `Todo ${nombre.toLowerCase()}`], ...Object.entries(opciones), ["otros", otros]];
+    const nota = datos.subcategoriasExperimentales.includes(estado.categoria)
+      ? el("p", { class: "nota-experimental" }, "✦ Experimental: el género se deduce solo y a veces le erra.")
+      : null;
     contenedor.replaceChildren(...botones.map(([clave, texto]) => el("button", {
       type: "button", "data-sub": clave, class: estado.sub === clave ? "activo" : "",
-    }, texto)));
+    }, texto)), ...(nota ? [nota] : []));
   }
 
   function dibujarControles() {
@@ -714,6 +735,14 @@
         : boton.dataset.categoria === estado.categoria && !boton.dataset.etiqueta;
       boton.classList.toggle("activo", activo);
     }
+    for (const boton of document.querySelectorAll("#excluidos button")) {
+      const excluido = estado.excluir.includes(boton.dataset.excluir);
+      boton.classList.toggle("excluido", excluido);
+      boton.setAttribute("aria-pressed", String(excluido));
+    }
+    const cuentaExcluir = document.getElementById("cuenta-excluir");
+    cuentaExcluir.hidden = !estado.excluir.length;
+    cuentaExcluir.textContent = estado.excluir.length;
     marcarActivo("presupuestos", "presupuesto", estado.seccion === "gratis" ? "gratis" : estado.presupuesto);
     marcarActivo("programas", "programa", estado.programa);
     document.getElementById("campo-promos").hidden = estado.seccion !== "promos";
@@ -753,6 +782,7 @@
 
   function cambiar(cambios) {
     estado = { ...estado, ...cambios };
+    if ("excluir" in cambios) guardarExcluir();
     dibujar();
   }
 
@@ -762,6 +792,10 @@
     if (!boton || boton.disabled) return;
     const d = boton.dataset;
     if (d.borrar) cambiar(borrar(d.borrar));
+    else if (d.excluir) {
+      const ya = estado.excluir.includes(d.excluir);
+      cambiar({ excluir: ya ? estado.excluir.filter((c) => c !== d.excluir) : [...estado.excluir, d.excluir] });
+    }
     else if (d.desplazar) {
       const pista = boton.closest(".carril").querySelector(".carril-pista");
       pista.scrollBy({ left: Number(d.desplazar) * pista.clientWidth * 0.9, behavior: "smooth" });
@@ -794,7 +828,6 @@
     else if (d.exportar === "copiar") copiarTexto();
     else if (d.seccion) {
       const cambios = { seccion: d.seccion };
-      if (d.seccion !== "ciclos") cambios.ciclo = "";
       if (d.seccion !== "promos") cambios.programa = "";
       cambiar(cambios);
     } else if (d.periodo) cambiar({ periodo: d.periodo, dia: null });
@@ -810,7 +843,8 @@
       cambiar({ presupuesto: d.presupuesto, seccion: salirDeGratis ? "agenda" : estado.seccion });
     } else if ("programa" in d) cambiar({ programa: d.programa });
     else if (d.sala) cambiar({ sala: d.sala, seccion: estado.seccion === "mapa" ? "agenda" : estado.seccion });
-    else if (d.ciclo) cambiar({ ciclo: d.ciclo, seccion: "ciclos", periodo: "todo", dia: null });
+    // El ciclo de una tarjeta filtra la agenda por ese ciclo (con todas sus fechas).
+    else if (d.ciclo) cambiar({ ciclo: d.ciclo, periodo: "todo", dia: null, seccion: ["mapa", "plan"].includes(estado.seccion) ? "agenda" : estado.seccion });
   });
   document.getElementById("sala").addEventListener("change", (e) => cambiar({ sala: e.target.value }));
 

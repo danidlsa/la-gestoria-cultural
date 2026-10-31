@@ -34,7 +34,7 @@
       <button type="button" data-seccion="mapa">Mapa</button>
       <button type="button" data-seccion="gratis">Gratis <span class="cuenta">{{ cantidad_gratis }}</span></button>
       <button type="button" data-seccion="promos">Promos <span class="cuenta">{{ cantidad_promos }}</span></button>
-      <button type="button" data-seccion="ciclos">Ciclos <span class="cuenta">{{ ciclos|length }}</span></button>
+      <button type="button" data-seccion="festivales">Festivales <span class="cuenta">{{ cantidad_festivales }}</span></button>
       <a class="pastilla aparte" href="que-es.html">¿Qué es La Gestoría?</a>
     </nav>
   </header>
@@ -78,9 +78,18 @@
             {%- for clave, nombre, cantidad in categorias %}
             <button type="button" data-categoria="{{ clave }}">{{ nombre }}</button>
             {%- endfor %}
-            <button type="button" data-etiqueta="festival">Festivales</button>
           </div>
           <div class="opciones subrubros" id="subrubros" role="group" aria-label="Subtipo" hidden></div>
+          <details class="excluir" id="excluir">
+            <summary>Excluir <span class="cuenta-excluir" id="cuenta-excluir" hidden></span></summary>
+            <p class="ayuda">Tocá lo que no querés ver. Queda guardado en este navegador.</p>
+            <div class="opciones" id="excluidos" role="group" aria-label="Tipos de evento excluidos">
+              {%- for clave, nombre, cantidad in categorias %}
+              <button type="button" data-excluir="{{ clave }}" aria-pressed="false">{{ nombre }}</button>
+              {%- endfor %}
+              <button type="button" data-excluir="festival" aria-pressed="false">Festivales</button>
+            </div>
+          </details>
         </section>
 
         <section class="campo">
