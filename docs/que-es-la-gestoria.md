@@ -30,7 +30,7 @@ Es posible que la plataforma experimente fallos cuando, por ejemplo, un sitio we
 
 Por cierto, esto es un sitio de código abierto. El código queda público en mi repo de GitHub, para quien quiera conocer más sobre su funcionamiento y arquitectura: [github.com/danidlsa/la-gestoria-cultural](https://github.com/danidlsa/la-gestoria-cultural). 
 
-Tenés algún comentario re buena onda? Encontraste alguna inconsistencia o error? Me podés escribir por acá: [dejame un mensaje en GitHub](https://github.com/danidlsa/la-gestoria-cultural/issues/new).
+Tenés algún comentario re buena onda? Encontraste alguna inconsistencia o error? Me podés escribir por acá: [dejame un mensaje en este formulario](https://docs.google.com/forms/d/e/1FAIpQLSckAwGEcbi1d2X5UHb0nNBAMZ6AnbqtBwHU_MD2ciX_PHLDxg/viewform).
 Si tenés un comentario mala onda, guardátelo que esto no es X.
 
 Disfrutá La Gestoría Cultural!
