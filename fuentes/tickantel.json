@@ -1,6 +1,6 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-10-31T20:24:48.580936-03:00",
+ "corrida": "2026-10-31T21:13:33.627965-03:00",
  "ok": true,
  "cantidad": 137,
  "errores": [],
@@ -195,13 +195,6 @@
      "agotada": false
     },
     {
-     "inicio": "2026-11-08T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    },
-    {
      "inicio": "2026-11-13T22:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -216,13 +209,6 @@
      "agotada": false
     },
     {
-     "inicio": "2026-11-15T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    },
-    {
      "inicio": "2026-11-20T22:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -235,13 +221,6 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
-    },
-    {
-     "inicio": "2026-11-22T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
     }
    ],
    "precio": {
@@ -1548,13 +1527,6 @@
     "lon": -56.19628
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T21:10:00-03:00",
      "fin": null,
