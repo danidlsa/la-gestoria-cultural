@@ -1,51 +1,10 @@
 {
  "fuente": "sala_del_museo",
- "corrida": "2026-10-31T21:22:09.212259-03:00",
+ "corrida": "2026-11-01T13:22:57.796590-03:00",
  "ok": true,
  "cantidad": 12,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "sala_del_museo",
-   "id_externo": "gauchito-club-2",
-   "url": "https://www.saladelmuseo.com.uy/shows/item/gauchito-club-2.html",
-   "titulo": "GAUCHITO CLUB",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Gauchito Club - Gira despedida Vulnerable Sábado 31 de octubre 2026 Apto para todo público. 20hs. Apto para todo público",
-   "lugar": {
-    "nombre": "Sala del Museo",
-    "direccion": "Rambla 25 de Agosto esq. Maciel",
-    "lat": -34.905789,
-    "lon": -56.212222
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Gauchito-Club/32675/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/GC_Montevideo_1080x1080_2fad4f9cf8b75ccd029a142281ad58f9.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Gauchito-Club/32675/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "sala_del_museo",
    "id_externo": "eruca-sativa-2",
@@ -492,6 +451,47 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/FESTIVAL-CANDOMBE-Y-SALSA-360/33688/"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "buitres-3",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/buitres-3.html",
+   "titulo": "BUITRES",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Buitres vuelve a la Sala del Museo del Carnaval para reencontrarse con su público y vivir, una vez más, esa conexión tan particular que hace único cada encuentro. El ritual será el 28 de noviembre. Apto para mayores de 15 años, menores deben ingresar acompañados con mayor responsable",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/BUITRES/33112/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_16_4409415ce43dc51737c87777499e2c88.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/BUITRES/33112/"
    ],
    "ciclo": null,
    "muestra": false,

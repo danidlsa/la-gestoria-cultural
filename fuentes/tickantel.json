@@ -1,249 +1,10 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-10-31T21:13:33.627965-03:00",
+ "corrida": "2026-11-01T13:06:44.129171-03:00",
  "ok": true,
- "cantidad": 137,
+ "cantidad": 135,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021643",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021643/buscasuenos",
-   "titulo": "Buscasueños",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "\"Buscasueños\" fue un proyecto que desde el primer momento llegó a nuestras vidas para profundizar el valor y el sentido de la familia, los amigos y la comunidad. Nos subimos por primera vez al escenario en agosto de 2001, participando en la primera etapa de un concurso de canto popular organizado…",
-   "lugar": {
-    "nombre": "Sala Jorge Lazaroff",
-    "direccion": null,
-    "lat": -34.8557558,
-    "lon": -56.1324247
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021643/buscasuenos",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021643/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021648",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021648/esteban-klisich",
-   "titulo": "Esteban Klísich",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Esteban Klísich cumple 50 años de trayectoria y nos invita a celebrarlo en un encuentro que cierra una serie de conciertos que ha dado en el año. Para esta noche hará un recorrido por canciones de todos sus discos. Referente popular de la música uruguaya y docente de cientos de músicos de nuestro…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021648/esteban-klisich",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021648/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021870",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021870/carne",
-   "titulo": "Carne",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "“CARNE” En un país cuya identidad gira en torno a la carne, la extinción del ganado desata una crisis social, económica y moral sin precedentes. Mientras el gobierno permanece paralizado, Matías, un empresario ambicioso marcado por un perturbador pasado familiar, propone una polémica ley con la que…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T20:55:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-05T20:50:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-07T20:50:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021870/carne",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021870/700_x_390_c.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021637",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021637/quiero-que-me-susurres-una-cancion-para-mi-muerte",
-   "titulo": "Quiero que me susurres una canción para mi muerte",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "SINOPSIS: Un sótano. Un stripper. Un poeta. Un suicida. Jorge acaba de terminar su show y les propone un pacto a los espectadores: si ellos se quedan hasta el final, él no se mata.Quizás contar su historia sea una forma de pedir ayuda y salvarse. Dramaturgia: Analía Torres y Pedro Fernando Oliveri…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    },
-    {
-     "inicio": "2026-11-01T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-06T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-07T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-13T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-14T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021637/quiero-que-me-susurres-una-cancion-para-mi-muerte",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021637/BANNER.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021761",
@@ -464,13 +225,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-01T18:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -668,13 +422,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-01T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -825,6 +572,92 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021559/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021637",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021637/quiero-que-me-susurres-una-cancion-para-mi-muerte",
+   "titulo": "Quiero que me susurres una canción para mi muerte",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "SINOPSIS: Un sótano. Un stripper. Un poeta. Un suicida. Jorge acaba de terminar su show y les propone un pacto a los espectadores: si ellos se quedan hasta el final, él no se mata.Quizás contar su historia sea una forma de pedir ayuda y salvarse. Dramaturgia: Analía Torres y Pedro Fernando Oliveri…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": -34.90821430964771,
+    "lon": -56.196500823734254
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-01T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021637/quiero-que-me-susurres-una-cancion-para-mi-muerte",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021637/BANNER.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1243,6 +1076,57 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021868/700_x_390_d.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021870",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021870/carne",
+   "titulo": "Carne",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "“CARNE” En un país cuya identidad gira en torno a la carne, la extinción del ganado desata una crisis social, económica y moral sin precedentes. Mientras el gobierno permanece paralizado, Matías, un empresario ambicioso marcado por un perturbador pasado familiar, propone una polémica ley con la que…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T20:50:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T20:50:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021870/carne",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021870/700_x_390_c.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

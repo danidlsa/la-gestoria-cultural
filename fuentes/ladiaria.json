@@ -1,8 +1,8 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-10-31T21:22:25.683412-03:00",
+ "corrida": "2026-11-01T13:23:13.829475-03:00",
  "ok": true,
- "cantidad": 80,
+ "cantidad": 75,
  "errores": [],
  "eventos": [
   {
@@ -376,50 +376,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Misantropo-de-Miguel-del-Arco/34167/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18328",
-   "url": "https://beneficios.ladiaria.com.uy/soy-todas/",
-   "titulo": "Soy Todas",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Unipersonal de Candelaria De La Cruz que recorre las vidas de cinco mujeres victimizadas por la historia, pero consagradas por la posteridad. Actuando y cantando, Cande nos invita a redescubrir a las mujeres verdaderas, que quedaron escondidas detrás de los mitos. Escribe y dirige Álvaro Ahunchain…",
-   "lugar": {
-    "nombre": "Espacio Zorrilla",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 690.0,
-    "hasta": 690.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/SOY-TODAS/33063/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/soy-todas/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/SOY-TODAS/33063/"
    ],
    "ciclo": null,
    "muestra": false,
@@ -1388,15 +1344,7 @@
     "lat": null,
     "lon": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 250.0,
     "hasta": 250.0,
@@ -1550,13 +1498,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T21:00:00-03:00",
      "fin": null,
@@ -1754,15 +1695,7 @@
     "lat": null,
     "lon": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 600.0,
     "hasta": 600.0,
@@ -1811,15 +1744,7 @@
     "lat": null,
     "lon": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 300.0,
     "hasta": 300.0,
@@ -1988,15 +1913,7 @@
     "lat": null,
     "lon": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 1000.0,
     "hasta": 1000.0,
@@ -2345,50 +2262,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/CAPITAL-HUMANO/33355/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18123",
-   "url": "https://beneficios.ladiaria.com.uy/las-camisas-blancas/",
-   "titulo": "Las camisas blancas",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "La historia de tres mujeres —dos estudiantes y la madre de una de ellas—que vivieron de cerca la trágica jornada del 20 de setiembre de 1968. La acción se centra en los hechos ocurridos en torno al edificio de la Universidad de la República, en los que perdieron la vida los estudiantes Hugo de los…",
-   "lugar": {
-    "nombre": "Teatro el Galpón | Sala Cero",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 340.0,
-    "hasta": 340.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Las-camisas-blancas-Sala-Cero/33256/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/las-camisas-blancas/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Las-camisas-blancas-Sala-Cero/33256/"
    ],
    "ciclo": null,
    "muestra": false,
@@ -2768,50 +2641,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Emmanuel-Horvilleur/28707/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18081",
-   "url": "https://beneficios.ladiaria.com.uy/estas-ahi-2/",
-   "titulo": "¿Estás ahí?",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Obra premiada y representada con gran éxito en distintos países, convirtiéndose en una de las obras más emblemáticas de su autor, Javier Daulte. El día en el que Fran y Ana se van a vivir juntos, se encuentran con una presencia inesperada. Una historia tan divertida como conmovedora.",
-   "lugar": {
-    "nombre": "El Galpón",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 440.0,
-    "hasta": 440.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Estas-ahi-Sala-Atahualpa/32252/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/estas-ahi-2/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Estas-ahi-Sala-Atahualpa/32252/"
    ],
    "ciclo": null,
    "muestra": false,
@@ -3259,13 +3088,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-01T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -3691,15 +3513,7 @@
     "lat": null,
     "lon": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 830.0,
     "hasta": 830.0,
@@ -3724,50 +3538,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Gauchito-Club/32675/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "17936",
-   "url": "https://beneficios.ladiaria.com.uy/cuatro-pesos-de-propina/",
-   "titulo": "Cuatro Pesos de Propina",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "FLORES DE UN DíA, sexto disco de estudio de Cuatro Pesos de Propina. En este trabajo la banda se reinventa combinando un sonido autóctono y canciones que encarnan rápidamente. Son 10 tracks con el foco temático puesto en los vinculos y lo efimero del tiempo. Es una apuesta a la canción de poesía…",
-   "lugar": {
-    "nombre": "Sala del Museo del Carnaval",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/CUATRO-PESOS-DE-PROPINA/32285/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/cuatro-pesos-de-propina/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/CUATRO-PESOS-DE-PROPINA/32285/"
    ],
    "ciclo": null,
    "muestra": false,
@@ -4195,15 +3965,7 @@
     "lat": null,
     "lon": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 790.0,
     "hasta": 790.0,
@@ -4365,50 +4127,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/PANORAMA-DESDE-EL-PUENTE-Sala-Campodonico/31436/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "17543",
-   "url": "https://beneficios.ladiaria.com.uy/florencia-nunez/",
-   "titulo": "Florencia Nuñez",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "La gira DÉCADA Y MEDIA celebra este 2026 los quince años de FLORENCIA NÚÑEZ en la música y los escenarios. La artista femenina con más Premios Graffiti (14) en la historia de la música uruguaya presenta un nuevo espectáculo, donde repasará lo mejor de su discografía acompañada por su banda. Una…",
-   "lugar": {
-    "nombre": "Auditorio Nacional del SODRE, Teatro 25 de mayo, Complejo Cultural, Teatro Español, Teatro Miguel Young, Teatro 28 de febrero, Cine y Teatro Municipal, Teatro Bastión del Carmen, Teatro Larrañaga, Teatro Escayola",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 700.0,
-    "hasta": 700.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/florencia-nunez/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse"
    ],
    "ciclo": null,
    "muestra": false,

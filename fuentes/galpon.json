@@ -1,6 +1,6 @@
 {
  "fuente": "galpon",
- "corrida": "2026-10-31T21:21:35.892356-03:00",
+ "corrida": "2026-11-01T13:22:24.667674-03:00",
  "ok": true,
  "cantidad": 28,
  "errores": [],
@@ -160,13 +160,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": "2026-10-31T22:20:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-01T19:30:00-03:00",
      "fin": "2026-11-01T20:50:00-03:00",
      "sin_hora": false,
@@ -285,13 +278,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T20:30:00-03:00",
-     "fin": "2026-10-31T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-01T20:00:00-03:00",
      "fin": "2026-11-01T21:30:00-03:00",
      "sin_hora": false,
@@ -353,13 +339,6 @@
     "lon": -56.181082
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T20:30:00-03:00",
-     "fin": "2026-10-31T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Cero",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T19:00:00-03:00",
      "fin": "2026-11-01T20:30:00-03:00",
@@ -436,13 +415,6 @@
     "lon": -56.181082
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T16:00:00-03:00",
-     "fin": "2026-10-31T16:50:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T16:00:00-03:00",
      "fin": "2026-11-01T16:50:00-03:00",

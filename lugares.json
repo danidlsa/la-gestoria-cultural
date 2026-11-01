@@ -1,6 +1,6 @@
 {
- "generado": "2026-10-31T21:30:16.790974-03:00",
- "cantidad": 147,
+ "generado": "2026-11-01T13:31:32.705882-03:00",
+ "cantidad": 137,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -139,15 +139,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "av-gral-rivera-1989",
-   "nombre": "Av. Gral Rivera 1989",
-   "alias": [],
-   "direccion": "Cordón",
-   "lat": -34.902104,
-   "lon": -56.17369,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "avenida-general-flores-2468",
    "nombre": "Avenida General Flores 2468",
    "alias": [],
@@ -206,7 +197,7 @@
    "nombre": "Castillo Pittamiglio",
    "alias": [],
    "direccion": "Rambla Gandhi 633",
-   "lat": -34.920998,
+   "lat": -34.921,
    "lon": -56.149856,
    "ciudad": "Montevideo"
   },
@@ -297,15 +288,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "clube-brasileiro-3er-piso",
-   "nombre": "Clube Brasileiro - 3er Piso",
-   "alias": [],
-   "direccion": "3er Piso - Av. 18 de Julio 984-994",
-   "lat": -34.906301,
-   "lon": -56.195151,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "colonia-894",
    "nombre": "Colonia 894",
    "alias": [],
@@ -339,15 +321,6 @@
    "direccion": "Durazno 895, 11100 Montevideo, Departame",
    "lat": -34.910908,
    "lon": -56.196675,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "el-barzon",
-   "nombre": "El Barzón",
-   "alias": [],
-   "direccion": "Av.Gral Rivera 2019",
-   "lat": -34.902133,
-   "lon": -56.172788,
    "ciudad": "Montevideo"
   },
   {
@@ -393,15 +366,6 @@
    "direccion": "Av Gral Rondeau 2477, 11800 Montevideo,",
    "lat": -34.884626,
    "lon": -56.193819,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "ensayo-abierto",
-   "nombre": "Ensayo Abierto",
-   "alias": [],
-   "direccion": "Piedras 599",
-   "lat": -34.9035747,
-   "lon": -56.2047018,
    "ciudad": "Montevideo"
   },
   {
@@ -564,15 +528,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "jose-enrique-rodo-1995",
-   "nombre": "José Enrique Rodó 1995",
-   "alias": [],
-   "direccion": "Rodo 1995",
-   "lat": -34.9033829,
-   "lon": -56.1739249,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "kibon-avanza",
    "nombre": "Kibón Avanza",
    "alias": [],
@@ -677,21 +632,12 @@
    "id": "lustrino-espacio-cultural",
    "nombre": "Lustrino Espacio Cultural",
    "alias": [
-    "Lustrino - Espacio Cultural",
-    "Lustrino"
+    "Lustrino",
+    "Lustrino - Espacio Cultural"
    ],
    "direccion": "Carlos Roxlo 1359 bis esq. Av. 18 de Julio",
    "lat": -34.904767,
    "lon": -56.181377,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "l-club-montevideo",
-   "nombre": "L’Club Montevideo",
-   "alias": [],
-   "direccion": "Av. Uruguay 1136, 11100 Montevideo, Depa",
-   "lat": -34.903194,
-   "lon": -56.192042,
    "ciudad": "Montevideo"
   },
   {
@@ -704,30 +650,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "mandarine",
-   "nombre": "Mandarine",
-   "alias": [],
-   "direccion": "4QRX+32C, Av. Atilio Pelosi, 11700 Monte",
-   "lat": -34.859813,
-   "lon": -56.202475,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "mercado-del-puerto",
    "nombre": "Mercado del Puerto",
    "alias": [],
    "direccion": "Piedras 237, 11000 Montevideo, Departame",
    "lat": -34.905685,
    "lon": -56.211752,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "miguelete-piedra-alta",
-   "nombre": "Miguelete & Piedra Alta",
-   "alias": [],
-   "direccion": "Miguelete & Piedra Alta, 11800 Montevide",
-   "lat": -34.897587,
-   "lon": -56.185189,
    "ciudad": "Montevideo"
   },
   {
@@ -838,15 +766,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "oceano-montevideo-club",
-   "nombre": "Oceano Montevideo Club",
-   "alias": [],
-   "direccion": "Sala Show - Maldonado 1334, 11100 Montevideo, Depart",
-   "lat": -34.909445,
-   "lon": -56.186884,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "palacio-salvo",
    "nombre": "Palacio Salvo",
    "alias": [],
@@ -912,12 +831,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "qatrevido",
-   "nombre": "QAtrevido",
+   "id": "q-atrevido",
+   "nombre": "Q'atrevido",
    "alias": [
-    "Q'atrevido"
+    "QAtrevido"
    ],
-   "direccion": "San José 907",
+   "direccion": "S. José 907, 11100 Montevideo, Departame",
    "lat": -34.907129,
    "lon": -56.196424,
    "ciudad": "Montevideo"
@@ -979,21 +898,23 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "rural-del-prado",
-   "nombre": "Rural del Prado",
-   "alias": [],
-   "direccion": "PRADO",
-   "lat": -34.861187,
-   "lon": -56.204813,
+   "id": "rincon-732",
+   "nombre": "Rincón 732",
+   "alias": [
+    "Sala Rincon"
+   ],
+   "direccion": "Rincón 732, 11000 Montevideo, Departamen",
+   "lat": -34.90522,
+   "lon": -56.200533,
    "ciudad": "Montevideo"
   },
   {
-   "id": "sala-13",
-   "nombre": "SALA 13",
+   "id": "rural-del-prado",
+   "nombre": "Rural del Prado",
    "alias": [],
-   "direccion": "Bartolomé Mitre 1321, 11000 Montevideo,",
-   "lat": -34.907138,
-   "lon": -56.201924,
+   "direccion": "Av. Lucas Obes 1010, 11700 Montevideo, D",
+   "lat": -34.863049,
+   "lon": -56.203285,
    "ciudad": "Montevideo"
   },
   {
@@ -1030,17 +951,6 @@
    "direccion": null,
    "lat": -34.8557558,
    "lon": -56.1324247,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "sala-rincon",
-   "nombre": "Sala Rincon",
-   "alias": [
-    "Rincón 732"
-   ],
-   "direccion": "Rincón 732, 11000 Montevideo, Departamen",
-   "lat": -34.90522,
-   "lon": -56.200533,
    "ciudad": "Montevideo"
   },
   {
@@ -1193,7 +1103,6 @@
     "Teatro Galpon Sala Cero",
     "Teatro Galpón, Sala Cero",
     "Teatro el Gapón",
-    "Teatro el Galpón",
     "Sala Cero | Teatro el Galpón"
    ],
    "direccion": "Av. 18 de Julio 1618",
@@ -1335,8 +1244,8 @@
     "Teatro Telón Rojo"
    ],
    "direccion": "Soriano 1274",
-   "lat": -34.907674,
-   "lon": -56.188392,
+   "lat": -34.9076556,
+   "lon": -56.188426,
    "ciudad": "Montevideo"
   },
   {
@@ -1373,8 +1282,8 @@
    "nombre": "Vieja Farmacia Solís",
    "alias": [],
    "direccion": "Av. Agraciada 2623",
-   "lat": -34.883707,
-   "lon": -56.194297,
+   "lat": -34.883768,
+   "lon": -56.194264,
    "ciudad": "Montevideo"
   },
   {

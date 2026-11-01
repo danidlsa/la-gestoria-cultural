@@ -1,6 +1,6 @@
 {
  "fuente": "torres_garcia",
- "corrida": "2026-10-31T21:30:02.761460-03:00",
+ "corrida": "2026-11-01T13:30:49.777560-03:00",
  "ok": true,
  "cantidad": 2,
  "errores": [],
@@ -20,13 +20,6 @@
     "lon": -56.20138
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T00:00:00-03:00",
      "fin": null,
@@ -232,6 +225,13 @@
     },
     {
      "inicio": "2026-11-30T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -270,13 +270,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-01T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -481,6 +474,13 @@
     },
     {
      "inicio": "2026-11-30T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,

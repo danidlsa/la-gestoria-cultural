@@ -1,51 +1,10 @@
 {
  "fuente": "teatro_de_verano",
- "corrida": "2026-10-31T21:21:27.361303-03:00",
+ "corrida": "2026-11-01T13:22:15.604986-03:00",
  "ok": true,
- "cantidad": 7,
+ "cantidad": 6,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "teatro_de_verano",
-   "id_externo": "225",
-   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Trotsky-Vengaran-y-Mariano-Martinez-uc225",
-   "titulo": "Trotsky Vengarán y Mariano Martínez",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "31 de octubre, 21:00 h.",
-   "lugar": {
-    "nombre": "Teatro de Verano Ramón Collazo",
-    "direccion": "Rambla Wilson s/n, Parque Rodó",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/alta_demanda/40020997",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202606/W655_H370/927.jpg",
-   "productor": "Teatro de Verano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/alta_demanda/40020997"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "teatro_de_verano",
    "id_externo": "231",

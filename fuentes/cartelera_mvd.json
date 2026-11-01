@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-10-31T21:19:33.592132-03:00",
+ "corrida": "2026-11-01T13:20:32.339606-03:00",
  "ok": true,
- "cantidad": 105,
+ "cantidad": 93,
  "errores": [],
  "eventos": [
   {
@@ -20,13 +20,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T22:00:00-03:00",
      "fin": null,
@@ -142,13 +135,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T21:00:00-03:00",
      "fin": null,
@@ -523,13 +509,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -594,13 +573,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-04T21:00:00-03:00",
      "fin": null,
@@ -764,13 +736,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T20:00:00-03:00",
      "fin": null,
@@ -1129,50 +1094,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "27887",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?27887",
-   "titulo": "Chica Almodóvar - la saga",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Siguiendo una estructura similar a la de una plataforma cinematográfica o televisiva, Chica Almodóvar propone una saga teatral policial en la que cada obra continúa a la anterior hasta conformar una serie atravesada por el misterio, el suspenso y el melodrama. Actualmente, Chica Almodóvar está…",
-   "lugar": {
-    "nombre": "Teatro Stella D'Italia - La Gaviota",
-    "direccion": "Mercedes 1805",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T22:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 550.0,
-    "hasta": 550.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?27887",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41769.jpg",
-   "productor": "Jesica Maiori Assad - Irene Brusoni",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "32266",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32266",
    "titulo": "Como te mueras te mato",
@@ -1251,13 +1172,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T21:00:00-03:00",
      "fin": null,
@@ -1552,13 +1466,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T18:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T18:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1623,13 +1530,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T20:00:00-03:00",
      "fin": null,
@@ -1747,13 +1647,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T16:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T16:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1805,50 +1698,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "26405",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?26405",
-   "titulo": "El castillo del horror",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "¿Te animarías a entrar a un castillo siniestro en plena oscuridad? No deberías tener mayores problemas si tu guía es un muerto viviente. Un vampiro es el excéntrico anfitrión de una morada oscura donde los espectadores se convierten en sus huéspedes. A lo largo del desarrollo aparecen y desaparecen…",
-   "lugar": {
-    "nombre": "Castillo Pittamiglio",
-    "direccion": "Rambla Gandhi 633",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 1400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?26405",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42097.jpg",
-   "productor": "Pablo Ferrería",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34644",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34644",
    "titulo": "El eterno, glorioso y más pequeño circo del mundo",
@@ -1862,13 +1711,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T16:00:00-03:00",
      "fin": null,
@@ -2024,61 +1866,6 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42092.jpg",
    "productor": "Martín De Brun",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34407",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34407",
-   "titulo": "El herrero y la muerte",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "El herrero y la muerte se puede definir como un clásico del teatro uruguayo. La obra posee un toque fantástico y absurdo, que hacen de la gracia y las risas una constante. Como condimento especial, en esta nueva puesta se incorpora la utilización de las máscaras de la Comedia del Arte y del teatro…",
-   "lugar": {
-    "nombre": "Teatro Victoria",
-    "direccion": "Río Negro 1477",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 800.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34407",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "Beneficios: La Diaria, Socio Espectacular, jubilados y estudiantes $ 400, en boletería del teatro",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34407"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Beneficios: La Diaria, Socio Espectacular, jubilados y estudiantes $ 400, en boletería del teatro",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34407"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41876.jpg",
-   "productor": "Ismael Da Fonseca",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -2266,13 +2053,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T19:00:00-03:00",
      "fin": null,
@@ -2639,13 +2419,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2707,13 +2480,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T21:00:00-03:00",
      "fin": null,
@@ -2779,13 +2545,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T20:30:00-03:00",
      "fin": null,
@@ -2881,94 +2640,6 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41354.jpg",
    "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34890",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34890",
-   "titulo": "Gualicho: Un laberinto de ánimas y aparecidos",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Este sábado 31 de octubre, en la noche de Halloween, Grupo Babilonia abre las puertas de su casa para compartir una experiencia inmersiva donde el misterio, el teatro y la imaginación se encuentran. Un laberinto de ánimas y aparecidos que invita a adentrarse en un universo de sombras, historias y…",
-   "lugar": {
-    "nombre": "Casa Babilonia - El Pinar",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34890",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42217.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "15167",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?15167",
-   "titulo": "Hadas, piratas y fantasmas",
-   "categoria": "infantil",
-   "categoria_segura": true,
-   "descripcion_corta": "En un castillo lleno de misterio, tres personajes muy distintos — un pirata disparatado, una fantasmita juguetona y un hada encantadora — se embarcan en una divertida búsqueda de un tesoro escondido, guiados por talismanes heredados, pistas mágicas y desafíos que invitan al público a participar…",
-   "lugar": {
-    "nombre": "Castillo Pittamiglio",
-    "direccion": "Rambla Gandhi 633",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T17:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 1400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?15167",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41919.jpg",
-   "productor": "Sole Rosa",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -3269,13 +2940,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -3346,13 +3010,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T20:00:00-03:00",
      "fin": null,
@@ -3464,13 +3121,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T16:00:00-03:00",
      "fin": null,
@@ -3655,13 +3305,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-01T18:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -3770,50 +3413,6 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42098.jpg",
    "productor": "Pablo Ferrería",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "33985",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33985",
-   "titulo": "Las Rockys",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una olvidada banda de rock de los 90, compuesta por tres amigas no tan entrañables, es convocada a rearmarse. La tentadora propuesta suscita un reencuentro que va revelando experiencias de la vida pasada y de la actual. Entre humor absurdo, grotesco, guiños al universo del rock y mucho ritmo, Las…",
-   "lugar": {
-    "nombre": "Ensayo Abierto",
-    "direccion": "Piedras 599",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33985",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42003.jpg",
-   "productor": "Chris Bur",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -4343,50 +3942,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34620",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34620",
-   "titulo": "Los pájaros también recuerdan",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "¿Qué queda de nosotros cuando la memoria empieza a desvanecerse? A través de encuentros, recuerdos y momentos compartidos, Los pájaros también recuerdan se adentra en la historia de Ernesto, un hombre atravesado por el Alzheimer. Entre el presente y los recuerdos, la obra transita con sensibilidad…",
-   "lugar": {
-    "nombre": "Arteatro",
-    "direccion": "Canelones 1136",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34620",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41881.jpg",
-   "productor": "Iván Aulet",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34572",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34572",
    "titulo": "Los últimos suicidas",
@@ -4444,50 +3999,6 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41818.jpg",
    "productor": "José Luis Olascuaga",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "11148",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?11148",
-   "titulo": "Magos, brujas y hechiceros: en busca de la piedra filosofal",
-   "categoria": "infantil",
-   "categoria_segura": true,
-   "descripcion_corta": "En la Escuela de Magia y Hechicería \"Rosecross\" las cosas están saliendo un poquito mal... Por esta causa es que se reclutan aprendices de magos, brujos y hechiceros para emprender un aventura magidivertida. Para que todo vuelva a la normalidad, tres equipos, dirigidos por unos magos magichiflados…",
-   "lugar": {
-    "nombre": "Castillo Pittamiglio",
-    "direccion": "Rambla Gandhi 633",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T15:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 1400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?11148",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42096.jpg",
-   "productor": "colectiva",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -4575,50 +4086,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34222",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34222",
-   "titulo": "Manifiesto Oriental",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una agrupación política ajena a los partidos tradicionales celebra su acto de cierre de campaña en un teatro. Todo está listo para el gran acontecimiento hasta que, minutos antes de la aparición de la fórmula presidencial, el presentador anuncia una noticia inesperada: las dos candidatas han…",
-   "lugar": {
-    "nombre": "Casa Trompo Club de Teatro",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34222",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42155.jpg",
-   "productor": "Juandi Eirea Young",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34740",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34740",
    "titulo": "Matrimonio por conveniencia",
@@ -4683,13 +4150,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T18:00:00-03:00",
      "fin": null,
@@ -4790,13 +4250,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T21:00:00-03:00",
      "fin": null,
@@ -5096,13 +4549,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-01T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -5213,13 +4659,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T21:30:00-03:00",
      "fin": null,
@@ -5512,50 +4951,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34752",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34752",
-   "titulo": "Patotera",
-   "categoria": "humor",
-   "categoria_segura": true,
-   "descripcion_corta": "Después de casi 7 meses en aislamiento, y sobrevivir a una convivencia tan loca cómo divertida, Yipio vuelve al escenario con su nuevo show de Stand Up: Patotera , en el que va a contar todos los detalles de su pasaje por el reality. Fiel a su estilo, con sus ocurrencias y esa forma divertida de…",
-   "lugar": {
-    "nombre": "Sala Teatro Movie",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 750.0,
-    "hasta": 950.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34752",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42049.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34599",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34599",
    "titulo": "Peng",
@@ -5569,13 +4964,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T19:30:00-03:00",
      "fin": null,
@@ -5637,50 +5025,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34729",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34729",
-   "titulo": "Pequeñas infidelidades",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Después de veinte años, Emma y Alejandro se reencuentran. Una conversación aparentemente casual pronto se transforma en un viaje al pasado, donde resurgen secretos, deseos, reproches y viejas heridas. Una obra íntima sobre el amor, la infidelidad y aquello que nunca se dijo. Porque hay encuentros…",
-   "lugar": {
-    "nombre": "Arteatro",
-    "direccion": "Canelones 1136",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34729",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42023.jpg",
-   "productor": "Gonchi Fernández",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34808",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34808",
    "titulo": "Pervertimento y otros gestos para nada",
@@ -5694,13 +5038,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T19:30:00-03:00",
      "fin": null,
@@ -5817,50 +5154,6 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42093.jpg",
    "productor": "Jimena Romero - Álvaro Sevrini",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "33995",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33995",
-   "titulo": "Políticamente incorrecto 2",
-   "categoria": "humor",
-   "categoria_segura": true,
-   "descripcion_corta": "El espectáculo ha sido renovado este año 2026, tras su éxito anterior. Se centra en explorar la humorística a través de la complejidad política y social actual, mencionando la influencia de lo políticamente correcto en el humor.",
-   "lugar": {
-    "nombre": "Vieja Farmacia Solís",
-    "direccion": "Av. Agraciada 2623",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 760.0,
-    "hasta": 760.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33995",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41337.jpg",
-   "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -6009,13 +5302,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-01T18:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -6070,13 +5356,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T20:00:00-03:00",
      "fin": null,
@@ -6165,13 +5444,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T17:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T16:30:00-03:00",
      "fin": null,
@@ -6409,13 +5681,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-01T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -6490,13 +5755,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-01T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -6559,13 +5817,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-10-31T16:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T16:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -6615,13 +5866,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T19:00:00-03:00",
      "fin": null,
@@ -6719,13 +5963,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-10-31T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-01T19:30:00-03:00",
      "fin": null,

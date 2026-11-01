@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-10-31T21:18:13.394760-03:00",
+ "corrida": "2026-11-01T13:19:25.450797-03:00",
  "ok": true,
- "cantidad": 38,
+ "cantidad": 35,
  "errores": [],
  "eventos": [
   {
@@ -41,47 +41,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021843/cns-beatles-y-bach"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "10893",
-   "url": "https://sodre.gub.uy/espectaculos/idilio/",
-   "titulo": "Idilio",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Programa vibrante que enlaza tres universos sonoros del siglo XX",
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": "2026-10-31T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40020151/espectaculo/OSSODRE%20-%20Idilio?77",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/01/Adaptaciones_IDILIO_Web_Destacada1-768x420.png",
-   "productor": "Orquesta Sinfónica Nacional del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40020151/espectaculo/OSSODRE%20-%20Idilio?77"
    ],
    "ciclo": null,
    "muestra": false,
@@ -679,47 +638,6 @@
   },
   {
    "fuente": "sodre",
-   "id_externo": "13469",
-   "url": "https://sodre.gub.uy/espectaculos/esteban-klisich/",
-   "titulo": "Esteban Klísich",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "50 años de trayectoria",
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T20:30:00-03:00",
-     "fin": "2026-10-31T22:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021648/espectaculo/Esteban%20Kl%C3%ADsich?5",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/09/900x492_Auditorio_destacado-768x420.jpg",
-   "productor": "Espectáculos del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40021648/espectaculo/Esteban%20Kl%C3%ADsich?5"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
    "id_externo": "13473",
    "url": "https://sodre.gub.uy/espectaculos/otros-indios-2/",
    "titulo": "Otros Indios",
@@ -843,47 +761,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13523",
-   "url": "https://sodre.gub.uy/espectaculos/espiritu-invencible/",
-   "titulo": "Espíritu Invencible",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "Un tributo a la danza, la música y la cultura armenia",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T20:00:00-03:00",
-     "fin": "2026-10-31T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021797/espiritu-invencible-danza-armenia",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/DESTACADO_WEB-ESPIRITU_INVENCIBLE-2-768x420.jpg",
-   "productor": "Espectáculos del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021797/espiritu-invencible-danza-armenia"
    ],
    "ciclo": null,
    "muestra": false,
