@@ -1,9 +1,11 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-02T13:43:24.776460-03:00",
+ "corrida": "2026-11-02T16:39:11.838959-03:00",
  "ok": true,
- "cantidad": 13,
- "errores": [],
+ "cantidad": 12,
+ "errores": [
+  "https://cinemateca.org.uy/peliculas/9660: ReadError: [Errno 104] Connection reset by peer"
+ ],
  "eventos": [
   {
    "fuente": "cinemateca",
@@ -717,88 +719,6 @@
     }
    ],
    "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/cenizas-y-diamantes.jpe",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9660",
-   "url": "https://cinemateca.org.uy/peliculas/9660",
-   "titulo": "Los brujos inocentes",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Andrzej Wajda. Un joven médico, harto de ser seguido por una mujer, conoce a una chica, a la que lleva una noche a su habitación, donde hablan sobre la moral y el amor. A la mañana siguiente, la chica desaparece y el hombre, obsesionado, se lanza a buscarla por toda la ciudad. Un joven médico…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-04T17:00:00-03:00",
-     "fin": "2026-11-04T18:27:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-04T18:45:00-03:00",
-     "fin": "2026-11-04T20:12:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9660",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm63HWrqd7yV5Xa_3zBvoefVEcVLwRX4RJmxGYLqw2CsXbK5ZZhZi0Qia9&amp;s=10",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],

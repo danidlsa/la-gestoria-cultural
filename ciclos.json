@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-02T13:47:48.992916-03:00",
- "cantidad": 17,
+ "generado": "2026-11-02T16:45:45.139533-03:00",
+ "cantidad": 18,
  "ciclos": [
   {
    "id": "ciclo-envejecimiento-activo",
@@ -16,7 +16,7 @@
    "lugar_id": "cinemateca",
    "desde": "2026-11-02T17:00:00-03:00",
    "hasta": "2026-11-08T19:45:00-03:00",
-   "cantidad": 7
+   "cantidad": 6
   },
   {
    "id": "ciclo-particulas",
@@ -49,6 +49,14 @@
    "desde": "2026-11-05T21:00:00-03:00",
    "hasta": "2026-12-04T21:00:00-03:00",
    "cantidad": 4
+  },
+  {
+   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "lugar_id": "teatro-solis",
+   "desde": "2026-11-06T14:00:00-03:00",
+   "hasta": "2026-11-28T14:00:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-ciclo-marea",

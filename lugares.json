@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T13:47:48.992916-03:00",
+ "generado": "2026-11-02T16:45:45.139533-03:00",
  "cantidad": 150,
  "lugares": [
   {
@@ -274,12 +274,10 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "centro-de-eventos-latu",
-   "nombre": "Centro de Eventos LATU",
-   "alias": [
-    "Centro de Eventos del Parque de Innovación del LATU"
-   ],
-   "direccion": "Carrasco, Montevideo",
+   "id": "centro-de-eventos-del-parque-de-innovacion-del-latu",
+   "nombre": "Centro de Eventos del Parque de Innovación del LATU",
+   "alias": [],
+   "direccion": "Av. Dra. María Luisa Saldún de Rodríguez",
    "lat": -34.879002,
    "lon": -56.080881,
    "ciudad": "Montevideo"
