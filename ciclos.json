@@ -1,15 +1,7 @@
 {
- "generado": "2026-11-02T16:58:39.937776-03:00",
+ "generado": "2026-11-02T17:57:25.535794-03:00",
  "cantidad": 18,
  "ciclos": [
-  {
-   "id": "ciclo-envejecimiento-activo",
-   "titulo": "Envejecimiento activo",
-   "lugar_id": null,
-   "desde": "2026-11-02T11:00:00-03:00",
-   "hasta": "2026-12-11T16:00:00-03:00",
-   "cantidad": 5
-  },
   {
    "id": "ciclo-andrzej-wajda-en-su-centenario",
    "titulo": "Andrzej Wajda, en su centenario",
@@ -17,6 +9,14 @@
    "desde": "2026-11-02T17:00:00-03:00",
    "hasta": "2026-11-08T19:45:00-03:00",
    "cantidad": 7
+  },
+  {
+   "id": "ciclo-envejecimiento-activo",
+   "titulo": "Envejecimiento activo",
+   "lugar_id": null,
+   "desde": "2026-11-03T10:00:00-03:00",
+   "hasta": "2026-12-11T16:00:00-03:00",
+   "cantidad": 5
   },
   {
    "id": "ciclo-particulas",
