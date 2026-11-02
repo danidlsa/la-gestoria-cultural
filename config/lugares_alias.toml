@@ -96,3 +96,13 @@ alias = ["Teatro del Museo - Museo Torres García", "Teatro del Museo Torres Gar
 direccion = "Sarandí 683"
 lat = -34.90646
 lon = -56.20138
+
+# Plaza en el predio de la antigua Estación Agraciada (Arroyo Seco). No está en OpenStreetMap: las coordenadas
+# son las de su ficha en Google Maps (2/11/2026), confirmadas sobre Av. Agraciada.
+[[lugar]]
+id = "plaza-de-las-pioneras"
+nombre = "Plaza de las Pioneras"
+alias = ["Las Pioneras", "Espacio Las Pioneras", "Espacio Feminista Las Pioneras", "Plaza Las Pioneras"]
+direccion = "Av. Agraciada, Arroyo Seco"
+lat = -34.88435
+lon = -56.19304

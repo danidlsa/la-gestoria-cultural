@@ -1,0 +1,208 @@
+{
+ "data": [
+  {
+   "type": "node--evento",
+   "id": "25622e1b-ae0c-4f77-8a25-99abd330b052",
+   "links": {
+    "self": {
+     "href": "http://eventos.montevideo.gub.uy/jsonapi/node/evento/25622e1b-ae0c-4f77-8a25-99abd330b052?resourceVersion=id%3A9634"
+    },
+    "working-copy": {
+     "href": "http://eventos.montevideo.gub.uy/jsonapi/node/evento/25622e1b-ae0c-4f77-8a25-99abd330b052?resourceVersion=rel%3Aworking-copy"
+    }
+   },
+   "attributes": {
+    "drupal_internal__nid": 476,
+    "title": "Sábados en Ciudad Vieja",
+    "path": {
+     "alias": "/sabadosenciudadvieja",
+     "pid": 336,
+     "langcode": "es"
+    },
+    "field_donde": {
+     "value": "<p>Ciudad Vieja</p>",
+     "format": "html_estandar",
+     "processed": "<p>Ciudad Vieja</p>"
+    },
+    "field_fechas": {
+     "value": "2026-04-18T10:00:00-03:00",
+     "end_value": "2026-12-15T13:00:00-03:00"
+    },
+    "field_resumen": {
+     "value": "<p>Tercer sábado de cada mes</p>",
+     "format": "html_estandar",
+     "processed": "<p>Tercer sábado de cada mes</p>"
+    },
+    "field_subtitulo": "¡Disfrutá de actividades culturales, gastronómicas y artísticas!",
+    "field_bajada": {
+     "value": "<p>Sábados en Ciudad Vieja es un ciclo que se realiza el tercer sábado de cada mes&nbsp;buscando promover la apropiación del espacio público; estimular la circulación de residentes y visitantes; y favorecer la actividad comercial y cultural en el barrio.<br><br>¡Disfrutá de actividades culturales, gastronómicas y artísticas!<br><br>Organiza la Intendencia, en conjunto con el&nbsp;<a href=\"https://municipiob.montevideo.gub.uy/\">Municipio B</a>, comerciantes y organizaciones barriales.</p>",
+     "format": "html_estandar",
+     "processed": "<p>Sábados en Ciudad Vieja es un ciclo que se realiza el tercer sábado de cada mes&nbsp;buscando promover la apropiación del espacio público; estimular la circulación de residentes y visitantes; y favorecer la actividad comercial y cultural en el barrio.<br><br>¡Disfrutá de actividades culturales, gastronómicas y artísticas!<br><br>Organiza la Intendencia, en conjunto con el&nbsp;<a href=\"https://municipiob.montevideo.gub.uy/\">Municipio B</a>, comerciantes y organizaciones barriales.</p>"
+    }
+   },
+   "relationships": {
+    "field_parrafos_evento": {
+     "data": [
+      {
+       "type": "paragraph--galeria_imagenes",
+       "id": "dfec4efd-e013-469a-98b8-b571e9275f71",
+       "meta": {
+        "target_revision_id": 22450,
+        "drupal_internal__target_id": 751
+       }
+      },
+      {
+       "type": "paragraph--texto",
+       "id": "a44cdc2c-bcb8-4806-bb22-b8463df938ed",
+       "meta": {
+        "target_revision_id": 22451,
+        "drupal_internal__target_id": 1202
+       }
+      }
+     ]
+    },
+    "field_categoria": {
+     "data": [
+      {
+       "type": "taxonomy_term--categoria",
+       "id": "0872d960-b364-44f3-b9d8-5fef936fb2a5",
+       "meta": {
+        "drupal_internal__target_id": 34
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "type": "node--evento",
+   "id": "d8dd7eba-7991-4f0d-960f-0f1b1cfbc6a2",
+   "links": {
+    "self": {
+     "href": "http://eventos.montevideo.gub.uy/jsonapi/node/evento/d8dd7eba-7991-4f0d-960f-0f1b1cfbc6a2?resourceVersion=id%3A9784"
+    },
+    "working-copy": {
+     "href": "http://eventos.montevideo.gub.uy/jsonapi/node/evento/d8dd7eba-7991-4f0d-960f-0f1b1cfbc6a2?resourceVersion=rel%3Aworking-copy"
+    }
+   },
+   "attributes": {
+    "drupal_internal__nid": 994,
+    "title": "Música en el Parque",
+    "path": {
+     "alias": "/evento/musica-en-el-parque",
+     "pid": 800,
+     "langcode": "es"
+    },
+    "field_donde": null,
+    "field_fechas": {
+     "value": "2026-10-24T17:30:00-03:00",
+     "end_value": "2026-11-29T21:00:00-03:00"
+    },
+    "field_resumen": {
+     "value": "<p>Disfrutá de música en vivo en los parques de Montevideo</p>",
+     "format": "html_estandar",
+     "processed": "<p>Disfrutá de música en vivo en los parques de Montevideo</p>"
+    },
+    "field_subtitulo": "Disfrutá de espectáculos musicales al aire libre con entrada libre.",
+    "field_bajada": {
+     "value": "<p>En el marco del <a href=\"https://montevideo.gub.uy/tipo/area-tematica/cultura/fortalecimiento-de-las-artes\">Programa de Fortalecimiento de las Artes</a>, disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo.</p><p><strong>Entrada libre.</strong></p>",
+     "format": "html_estandar",
+     "processed": "<p>En el marco del <a href=\"https://montevideo.gub.uy/tipo/area-tematica/cultura/fortalecimiento-de-las-artes\">Programa de Fortalecimiento de las Artes</a>, disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo.</p><p><strong>Entrada libre.</strong></p>"
+    }
+   },
+   "relationships": {
+    "field_parrafos_evento": {
+     "data": [
+      {
+       "type": "paragraph--actividades_evento_todas",
+       "id": "32f8d685-0fb7-49e8-8495-b53445db045c",
+       "meta": {
+        "target_revision_id": 22670,
+        "drupal_internal__target_id": 1464
+       }
+      },
+      {
+       "type": "paragraph--texto",
+       "id": "9456237b-ef6e-41bc-b677-fa23bffe2b1d",
+       "meta": {
+        "target_revision_id": 22671,
+        "drupal_internal__target_id": 1467
+       }
+      }
+     ]
+    },
+    "field_categoria": {
+     "data": [
+      {
+       "type": "taxonomy_term--categoria",
+       "id": "f68eb368-24e9-474f-8277-80a35991e967",
+       "meta": {
+        "drupal_internal__target_id": 27
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "included": [
+  {
+   "type": "paragraph--galeria_imagenes",
+   "id": "dfec4efd-e013-469a-98b8-b571e9275f71",
+   "attributes": {
+    "field_titulo_componente": "Así se vivieron las ediciones pasadas"
+   },
+   "relationships": {}
+  },
+  {
+   "type": "paragraph--texto",
+   "id": "a44cdc2c-bcb8-4806-bb22-b8463df938ed",
+   "attributes": {
+    "field_desc_componente": {
+     "value": "<ul><li data-list-item-id=\"e90d18fbe98aee960612f36e3009a41f3\">Sábado 21 de noviembre</li><li data-list-item-id=\"ef2d56e913ce57673bb3485f9f3f76a02\">Sábado 19 de diciembre</li></ul>",
+     "format": "html_estandar",
+     "processed": "<ul><li data-list-item-id=\"e90d18fbe98aee960612f36e3009a41f3\">Sábado 21 de noviembre</li><li data-list-item-id=\"ef2d56e913ce57673bb3485f9f3f76a02\">Sábado 19 de diciembre</li></ul>"
+    },
+    "field_titulo_componente": "Conocé las siguientes fechas"
+   },
+   "relationships": {}
+  },
+  {
+   "type": "paragraph--actividades_evento_todas",
+   "id": "32f8d685-0fb7-49e8-8495-b53445db045c",
+   "attributes": {
+    "field_titulo_componente": "Espectáculos"
+   },
+   "relationships": {}
+  },
+  {
+   "type": "paragraph--texto",
+   "id": "9456237b-ef6e-41bc-b677-fa23bffe2b1d",
+   "attributes": {
+    "field_desc_componente": {
+     "value": "<ul><li data-list-item-id=\"ea2d6a1335eaeafb771231d69e577a07a\">Sábado 7 de noviembre, desde las 16:00 h, en el Jardín Botánico.</li><li data-list-item-id=\"efd503d7f1e42579c823169ac4a62c810\">Domingo 15 de noviembre, desde las 16:00 h, en el parque Villa Dolores.</li><li data-list-item-id=\"e24bea35e6f583e4a8cc14996e37503d1\">Domingo 22 de noviembre, desde las 18:00 h, en el parque Villa García.</li><li data-list-item-id=\"e28abc11622baef5f07b4c2929d2c0a74\">Sábado 28 y domingo 29 de noviembre, desde las 16:00 h, Músicas Pioneras en Las Pioneras.</li></ul><p>Los y las artistas se anunciarán cerca de la fecha de cada actividad.</p>",
+     "format": "html_estandar",
+     "processed": "<ul><li data-list-item-id=\"ea2d6a1335eaeafb771231d69e577a07a\">Sábado 7 de noviembre, desde las 16:00 h, en el Jardín Botánico.</li><li data-list-item-id=\"efd503d7f1e42579c823169ac4a62c810\">Domingo 15 de noviembre, desde las 16:00 h, en el parque Villa Dolores.</li><li data-list-item-id=\"e24bea35e6f583e4a8cc14996e37503d1\">Domingo 22 de noviembre, desde las 18:00 h, en el parque Villa García.</li><li data-list-item-id=\"e28abc11622baef5f07b4c2929d2c0a74\">Sábado 28 y domingo 29 de noviembre, desde las 16:00 h, Músicas Pioneras en Las Pioneras.</li></ul><p>Los y las artistas se anunciarán cerca de la fecha de cada actividad.</p>"
+    },
+    "field_titulo_componente": "Próximas fechas"
+   },
+   "relationships": {}
+  },
+  {
+   "type": "taxonomy_term--categoria",
+   "id": "0872d960-b364-44f3-b9d8-5fef936fb2a5",
+   "attributes": {
+    "name": "Recreación"
+   },
+   "relationships": {}
+  },
+  {
+   "type": "taxonomy_term--categoria",
+   "id": "f68eb368-24e9-474f-8277-80a35991e967",
+   "attributes": {
+    "name": "Artes escénicas"
+   },
+   "relationships": {}
+  }
+ ]
+}

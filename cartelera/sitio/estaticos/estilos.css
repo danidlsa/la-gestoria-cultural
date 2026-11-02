@@ -279,6 +279,7 @@ select {
 
 /* --- Especiales: una tarjeta por jornada grande del año ----------------------------------------- */
 .principal.sin-filtros { grid-template-columns: minmax(0, 1fr); }
+.principal.en-plan .barra-movil { display: none; }
 .sin-filtros .filtros, .sin-filtros .barra, .sin-filtros .barra-movil { display: none; }
 .especiales { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); gap: 20px; align-items: start; }
 .especial {
@@ -314,6 +315,12 @@ select {
 .carril-cabezal h2 small { font: 600 0.85rem var(--sans); color: var(--texto-suave); margin-left: 10px; }
 .carril-finde .carril-cabezal h2 { background: var(--mostaza); color: var(--tinta); padding: 2px 12px; border-radius: 10px; border: 2px solid var(--borde); }
 .carril-finde .carril-cabezal h2 small { color: var(--tinta); }
+/* El título del día es el botón para plegarlo. */
+.carril-plegar { font: inherit; color: inherit; background: none; border: 0; padding: 0; margin: 0; text-align: left; cursor: pointer; display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: 0 8px; min-height: 28px; }
+.carril-cabezal .carril-plegar small { margin-left: 2px; }
+.carril-plegar .chevron { display: inline-block; font-size: 0.8em; transition: transform 0.15s ease; }
+.carril.plegado .chevron { transform: rotate(-90deg); }
+.carril.plegado .carril-pista, .carril.plegado .ver-todos, .carril.plegado .carril-flechas { display: none; }
 .carril-cartel .carril-cabezal h2 { color: var(--cobalto-texto); }
 .carril-flechas { display: flex; gap: 6px; flex: none; }
 .carril-pista {
@@ -329,6 +336,14 @@ select {
   margin-left: auto; border: 2px solid var(--borde); background: var(--superficie); color: var(--texto);
   border-radius: 999px; padding: 4px 12px; min-height: 32px; font-size: 0.85rem; font-weight: 700;
 }
+.compartir {
+  flex: none; display: inline-grid; place-items: center; width: 34px; height: 34px; padding: 0;
+  border: 2px solid var(--borde); border-radius: 50%; background: var(--superficie); color: var(--cobalto-texto);
+}
+.compartir:hover { background: color-mix(in srgb, var(--mostaza) 30%, var(--superficie)); }
+/* Compartir y "+ Mi plan" van juntos, a la derecha: si no entran al lado del enlace, bajan los dos. */
+.acciones-tarjeta { display: inline-flex; align-items: center; gap: 8px; margin-left: auto; }
+.acciones-tarjeta .agregar-plan { margin-left: 0; }
 .agregar-plan.en-plan { background: var(--mostaza); color: var(--tinta); }
 /* Punto coral en los días con algo en el plan (posición absoluta: no agranda la celda). */
 .cal-dia.con-plan::after { content: ""; position: absolute; top: 3px; right: 3px; width: 7px; height: 7px; border-radius: 50%; background: var(--coral); border: 1px solid var(--tinta); }
@@ -364,6 +379,24 @@ select {
 .mi-plan-evento small { color: var(--texto-suave); }
 .mi-plan-lista .google { font-size: 0.82rem; font-weight: 700; color: var(--cobalto-texto); text-decoration: none; white-space: nowrap; }
 .quitar { border: 2px solid var(--borde); background: var(--superficie); border-radius: 50%; width: 36px; height: 36px; line-height: 1; font-weight: 800; }
+.quitar-texto {
+  border: 2px solid var(--borde); background: var(--superficie); color: var(--coral-texto); border-radius: 999px;
+  padding: 2px 12px; min-height: 34px; font-size: 0.85rem; font-weight: 700; white-space: nowrap;
+}
+.quitar-texto:hover { background: color-mix(in srgb, var(--coral) 22%, var(--superficie)); }
+/* Calendario del plan: los días con algo elegido se tocan para verlo y quitarlo. */
+button.pc-numero { border: 0; background: none; padding: 0; color: inherit; text-align: left; cursor: pointer; text-decoration: underline; text-decoration-color: var(--coral); text-decoration-thickness: 3px; text-underline-offset: 3px; min-height: 24px; min-width: 24px; }
+.pc-dia.con-plan { cursor: pointer; }
+.pc-ayuda { margin: 10px 0 0; font-size: 0.9rem; color: var(--texto-suave); }
+.pc-detalle {
+  margin-top: 14px; padding: 14px 16px; background: var(--superficie); border: 2px solid var(--borde);
+  border-radius: var(--radio); box-shadow: 5px 5px 0 var(--coral);
+}
+.pc-detalle-cabezal { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.pc-detalle h3 { margin: 0; font: 800 1.2rem var(--display); }
+.pc-detalle ul { list-style: none; margin: 10px 0 12px; padding: 0; display: grid; gap: 8px; }
+.pc-detalle li { display: grid; grid-template-columns: auto 1fr auto; gap: 4px 12px; align-items: center; }
+.pc-detalle-hora { font-weight: 700; font-size: 0.9rem; }
 .con-icono { display: inline-flex; align-items: center; gap: 7px; }
 .con-icono .icono { flex: none; }
 .pc-dia { transition: min-height 0.25s ease-out; }
@@ -498,6 +531,9 @@ select {
   .barra { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; column-gap: 10px; }
   .barra .activos { grid-column: 1 / -1; }
   .barra-movil .atajos button, .abrir-filtros { min-height: 40px; }
+  /* Los atajos de fecha en una sola fila, que se desliza si no entran. */
+  .barra-movil .atajos { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding: 2px 2px 4px; margin: -2px -2px 0; }
+  .barra-movil .atajos button { flex: none; padding-left: 12px; padding-right: 12px; }
   .abrir-filtros {
     display: inline-flex; align-items: center; gap: 6px; border: 2px solid var(--borde); background: var(--cobalto); color: #fff;
     border-radius: 999px; padding: 5px 14px; font-weight: 700; box-shadow: 3px 3px 0 var(--sombra);
@@ -570,8 +606,8 @@ select {
   .pie > .beneficio ~ .beneficio, .pie .mas-promos { display: none; }
   /* "+ Mi plan" va en la misma fila que el precio, a la derecha; la fila existe aunque no haya precio. */
   .cuerpo { position: relative; }
-  .pie { min-height: 34px; padding-right: 100px; }
-  .via { position: absolute; right: 10px; bottom: 10px; padding: 0; }
+  .pie { min-height: 34px; padding-right: 146px; }
+  .via { position: absolute; right: 10px; bottom: 10px; padding: 0; gap: 8px; flex-wrap: nowrap; align-items: center; }
   .via a { display: none; }
   .agregar-plan { min-height: 34px; padding: 2px 12px; font-size: 0.85rem; }
 }

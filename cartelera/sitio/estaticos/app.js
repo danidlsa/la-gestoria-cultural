@@ -118,6 +118,7 @@
   function diasDelPeriodo() {
     if (estado.periodo === "dia") return [estado.dia];
     if (estado.periodo === "hoy") return [hoy];
+    if (estado.periodo === "manana") return [sumarDias(hoy, 1)];
     if (estado.periodo === "semana") return rango(hoy, 7);
     if (estado.periodo === "finde") {
       const semana = diaSemana(hoy);
@@ -156,7 +157,7 @@
   }
 
   // --- Filtros activos: chips que se borran de a uno -------------------------------------------
-  const NOMBRE_PERIODO = { hoy: "Hoy", finde: "Este finde", semana: "Próximos 7 días", todo: "Todas las fechas" };
+  const NOMBRE_PERIODO = { hoy: "Hoy", manana: "Mañana", finde: "Este finde", semana: "Próximos 7 días", todo: "Todas las fechas" };
   const NOMBRE_PRECIO = Object.fromEntries(
     Array.from(document.querySelectorAll("#presupuestos button")).map((b) => [b.dataset.presupuesto, b.firstChild.textContent.trim()]),
   );
@@ -226,12 +227,43 @@
     boton.title = enPlan ? "Quitar de mi plan" : `Agregar la función del ${textoFuncion([inicio, false])} a mi plan`;
   }
 
+  // "Invitá a alguien": comparte una función con el menú del celular (WhatsApp, Telegram, mail…) o, si el
+  // navegador no lo tiene, abre WhatsApp con el mensaje armado.
+  function marcarCompartir(boton, evento, inicio) {
+    if (!boton) return;
+    boton.dataset.compartir = clavePlan(evento.id, inicio);
+    boton.setAttribute("aria-label", `Invitá a alguien a ${evento.titulo}`);
+  }
+
+  async function compartir(id, inicio) {
+    const evento = porId.get(id);
+    const sinHora = evento.funciones.find(([i]) => i === inicio)?.[1] ?? false;
+    const texto = [
+      `¿Vamos? ${evento.titulo}`,
+      `📅 ${mayuscula(textoFuncion([inicio, sinHora]))}`,
+      `📍 ${[nombreLugar(evento), evento.precioTexto].filter(Boolean).join(" · ")}`,
+      `🎟️ ${evento.url}`,
+      "",
+      `Lo vi en La Gestoría Cultural: ${location.origin}${location.pathname}`,
+    ].join("\n");
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: evento.titulo, text: texto });
+        return;
+      } catch (error) {
+        if (error.name === "AbortError") return; // la persona cerró el menú
+      }
+    }
+    window.open(`https://wa.me/?text=${encodeURIComponent(texto)}`, "_blank", "noopener");
+  }
+
   // Copia de la tarjeta de un evento, mostrando una función en particular.
   function tarjetaPara(evento, [inicio, sinHora]) {
     const copia = evento.tarjeta.cloneNode(true);
     const hora = copia.querySelector(".proxima");
     if (!hora) { // una exposición: muestra su período, igual en todos los días
       marcarBotonPlan(copia.querySelector(".agregar-plan"), evento.id, inicio);
+      marcarCompartir(copia.querySelector(".compartir"), evento, inicio);
       return copia;
     }
     hora.textContent = textoFuncion([inicio, sinHora]);
@@ -240,21 +272,29 @@
     const mas = copia.querySelector(".mas");
     if (mas) mas.textContent = otras ? `+${plural(otras, "función").replace("funcións", "funciones")}` : "";
     marcarBotonPlan(copia.querySelector(".agregar-plan"), evento.id, inicio);
+    marcarCompartir(copia.querySelector(".compartir"), evento, inicio);
     return copia;
   }
 
   // En el celular cada día es una lista (no un carril de costado) y muestra los primeros; el resto, con "Ver los…".
   const VISIBLES_EN_LISTA = 5;
 
-  function carril(titulo, detalle, elementos, clase = "") {
-    const pista = el("ul", { class: "carril-pista" }, ...elementos);
+  // Cada día se puede plegar tocando su título (por ejemplo, para saltear hoy y ver los próximos días).
+  const carrilesPlegados = new Set();
+
+  function carril(titulo, detalle, elementos, clase = "", clave = titulo) {
+    const plegado = carrilesPlegados.has(clave);
+    const idPista = `carril-${clave.replace(/[^\w-]/g, "")}`;
+    const pista = el("ul", { class: "carril-pista", id: idPista }, ...elementos);
     const recortado = elementos.length > VISIBLES_EN_LISTA;
     const verTodos = recortado
       ? el("button", { type: "button", class: "ver-todos", "data-ver-todos": "" }, `Ver los ${elementos.length} eventos`)
       : null;
-    return el("section", { class: `carril ${clase} ${recortado ? "recortado" : ""}`.replace(/\s+/g, " ").trim() },
+    return el("section", { class: `carril ${clase} ${recortado ? "recortado" : ""} ${plegado ? "plegado" : ""}`.replace(/\s+/g, " ").trim() },
       el("header", { class: "carril-cabezal" },
-        el("h2", {}, titulo, detalle ? el("small", {}, detalle) : null),
+        el("h2", {}, el("button", {
+          type: "button", class: "carril-plegar", "data-plegar-carril": clave, "aria-expanded": String(!plegado), "aria-controls": idPista,
+        }, el("span", { class: "chevron", "aria-hidden": "true" }, "▾"), titulo, detalle ? el("small", {}, detalle) : null)),
         el("div", { class: "carril-flechas" },
           el("button", { type: "button", class: "cal-flecha", "data-desplazar": "-1", "aria-label": "Anteriores" }, "‹"),
           el("button", { type: "button", class: "cal-flecha", "data-desplazar": "1", "aria-label": "Siguientes" }, "›"))),
@@ -291,7 +331,7 @@
     for (const dia of [...porDia.keys()].sort()) {
       const items = porDia.get(dia).sort((a, b) => a[1][0].localeCompare(b[1][0]));
       secciones.push(() => carril(nombreCarril(dia), plural(items.length, "evento"),
-        items.map(([e, f]) => tarjetaPara(e, f)), diaSemana(dia) % 6 === 0 ? "carril-finde" : ""));
+        items.map(([e, f]) => tarjetaPara(e, f)), diaSemana(dia) % 6 === 0 ? "carril-finde" : "", dia));
     }
     // Lo que se repite durante semanas (temporadas, exposiciones, talleres) va al final, con su título:
     // no tapa lo que pasa cada día, pero tampoco se esconde.
@@ -299,7 +339,7 @@
       const items = enCartel.map((e) => [e, e.funciones.find(([i]) => enRango(i.slice(0, 10))) || e.funciones[0]])
         .sort((a, b) => a[1][0].localeCompare(b[1][0]));
       secciones.push(() => carril("Con muchas fechas · en exhibición", "obras, exposiciones, talleres y visitas que se repiten durante semanas",
-        items.map(([e, f]) => tarjetaPara(e, f)), "carril-cartel"));
+        items.map(([e, f]) => tarjetaPara(e, f)), "carril-cartel", "en-cartel"));
     }
 
     // Se dibujan de a tandas a medida que se baja, para no armar cientos de tarjetas de una.
@@ -480,7 +520,12 @@
         class: ["pc-dia", pasado && "pasado", dia === hoy && "hoy", elegidas.length && "con-plan",
           diaSemana(dia) % 6 === 0 && "finde"].filter(Boolean).join(" "),
       },
-      el("span", { class: "pc-numero" }, String(Number(dia.slice(8)))),
+      elegidas.length
+        ? el("button", {
+          type: "button", class: "pc-numero", "data-ver-plan-dia": dia,
+          "aria-label": `${tituloDia(dia)}: ${plural(elegidas.length, "evento")} en tu plan. Ver o quitar`,
+        }, String(Number(dia.slice(8))))
+        : el("span", { class: "pc-numero" }, String(Number(dia.slice(8)))),
       ...elegidas.map((p) => {
         const evento = porId.get(p.id);
         return el("span", { class: `pc-elegida cat-${evento.categoria}` },
@@ -493,6 +538,45 @@
         : null));
     }
     document.getElementById("pc-grilla").replaceChildren(...celdas);
+    document.getElementById("pc-ayuda").hidden = !elegidasPorDia.size;
+    dibujarDetallePlan();
+  }
+
+  // El día del plan que se está mirando (al tocarlo en el calendario).
+  let diaDetalle = null;
+
+  function dibujarDetallePlan() {
+    const panel = document.getElementById("pc-detalle");
+    const elegidas = diaDetalle ? elegidasOrdenadas().filter((p) => p.inicio.startsWith(diaDetalle)) : [];
+    if (!elegidas.length) {
+      diaDetalle = null;
+      panel.hidden = true;
+      return;
+    }
+    panel.hidden = false;
+    panel.replaceChildren(
+      el("div", { class: "pc-detalle-cabezal" },
+        el("h3", {}, `Tu plan del ${tituloDia(diaDetalle).toLowerCase()}`),
+        el("button", { type: "button", class: "quitar", "data-cerrar-detalle": "", "aria-label": "Cerrar" }, "×")),
+      el("ul", {}, ...elegidas.map((p) => {
+        const evento = porId.get(p.id);
+        return el("li", {},
+          el("span", { class: "pc-detalle-hora" }, p.sinHora ? "Todo el día" : p.inicio.slice(11, 16)),
+          el("span", { class: "mi-plan-evento" },
+            el("a", { href: evento.url, target: "_blank", rel: "noopener" }, evento.titulo),
+            el("small", {}, nombreLugar(evento))),
+          el("button", { type: "button", class: "quitar-texto", "data-quitar": clavePlan(p.id, p.inicio), "aria-label": `Quitar ${evento.titulo} de mi plan` }, "Quitar"));
+      })),
+      el("button", { type: "button", class: "boton-secundario", "data-ver-dia": diaDetalle }, "Ver qué más hay ese día"));
+  }
+
+  function abrirDetallePlan(dia) {
+    diaDetalle = dia;
+    dibujarDetallePlan();
+    const panel = document.getElementById("pc-detalle");
+    panel.scrollIntoView({ behavior: suave(), block: "nearest" });
+    panel.querySelector("h3").setAttribute("tabindex", "-1");
+    panel.querySelector("h3").focus({ preventScroll: true });
   }
 
   // Google Calendar no importa varios eventos por enlace: con uno solo se abre directo; con más, la lista
@@ -527,7 +611,7 @@
           el("a", { href: evento.url, target: "_blank", rel: "noopener" }, evento.titulo),
           el("small", {}, nombreLugar(evento))),
         el("a", { class: "google", href: enlaceGoogle(evento, p), target: "_blank", rel: "noopener" }, "Google Calendar ↗"),
-        el("button", { type: "button", class: "quitar", "data-quitar": clavePlan(p.id, p.inicio), "aria-label": `Quitar ${evento.titulo}` }, "×"));
+        el("button", { type: "button", class: "quitar-texto", "data-quitar": clavePlan(p.id, p.inicio), "aria-label": `Quitar ${evento.titulo} de mi plan` }, "Quitar"));
     }));
   }
 
@@ -897,6 +981,8 @@
     document.getElementById("especiales").hidden = !enEspeciales;
     // Los especiales tienen sus propias fechas: los filtros no se aplican y el panel se esconde.
     document.querySelector(".principal").classList.toggle("sin-filtros", enEspeciales);
+    // En el plan, el mes se elige en su calendario: los atajos de fecha (Hoy, Mañana…) no aplican.
+    document.querySelector(".principal").classList.toggle("en-plan", enPlan);
     document.getElementById("carriles").hidden = enMapa || enPlan || enEspeciales;
     document.getElementById("vacio").hidden = true;
     dibujarContenido();
@@ -955,7 +1041,16 @@
     const boton = evento.target.closest("button");
     if (!boton || boton.disabled) return;
     const d = boton.dataset;
-    if ("verTodos" in d) {
+    if (d.plegarCarril) {
+      const seccion = boton.closest(".carril");
+      const plegado = seccion.classList.toggle("plegado");
+      if (plegado) carrilesPlegados.add(d.plegarCarril);
+      else carrilesPlegados.delete(d.plegarCarril);
+      boton.setAttribute("aria-expanded", String(!plegado));
+    } else if (d.compartir) {
+      const [id, inicio] = d.compartir.split("|");
+      compartir(id, inicio);
+    } else if ("verTodos" in d) {
       boton.closest(".carril").classList.remove("recortado");
       boton.remove();
     } else if ("masSecciones" in d) {
@@ -985,6 +1080,11 @@
       const [id, inicio] = d.plan.split("|");
       alternarPlan(id, inicio);
       dibujarPlan();
+    } else if (d.verPlanDia) {
+      abrirDetallePlan(d.verPlanDia);
+    } else if ("cerrarDetalle" in d) {
+      diaDetalle = null;
+      dibujarDetallePlan();
     } else if (d.quitar) {
       plan.delete(d.quitar);
       guardarPlan();
@@ -1031,6 +1131,10 @@
     else if (d.ciclo) cambiar({ ciclo: d.ciclo, periodo: "todo", dia: null, seccion: ["mapa", "plan"].includes(estado.seccion) ? "agenda" : estado.seccion });
   });
   document.getElementById("sala").addEventListener("change", (e) => cambiar({ sala: e.target.value }));
+  document.getElementById("pc-grilla").addEventListener("click", (e) => {
+    const celda = e.target.closest(".pc-dia.con-plan");
+    if (celda && !e.target.closest("button")) abrirDetallePlan(celda.querySelector("[data-ver-plan-dia]").dataset.verPlanDia);
+  });
 
   // La búsqueda redibuja al dejar de tipear, para no rearmar los carriles con cada letra.
   let esperaBusqueda = null;

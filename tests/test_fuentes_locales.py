@@ -56,6 +56,34 @@ def test_portal_im_titulos_con_fecha():
     assert portal_im.titulo_sin_fecha("Ida, la madre de Internet") == "Ida, la madre de Internet"
 
 
+def test_portal_im_paraguas_con_el_programa_en_texto(pagina, ahora):
+    """Música en el Parque no tiene actividades: sus fechas están en un texto ("Próximas fechas")."""
+    respuesta = json.loads(pagina("portal_im_paraguas.json"))
+    indice = Indice(respuesta["included"])
+    eventos = [e for p in respuesta["data"] for e in portal_im.eventos_de_paraguas(p, indice, ahora)]
+    parque = [e for e in eventos if e.ciclo == "Música en el Parque"]
+    assert [(e.titulo, e.lugar.nombre, [f.inicio.strftime("%d/%m %H:%M") for f in e.funciones]) for e in parque] == [
+        ("Música en el Parque", "Jardín Botánico", ["07/11 16:00"]),
+        ("Música en el Parque", "Parque Villa Dolores", ["15/11 16:00"]),
+        ("Música en el Parque", "Parque Villa García", ["22/11 18:00"]),
+        ("Música en el Parque: Músicas Pioneras", "Las Pioneras", ["28/11 16:00", "29/11 16:00"]),
+    ]
+    assert all(e.categoria == "musica" and e.precio.gratis for e in parque)
+    # Sin hora ni lugar en la línea: los del paraguas ("Ciudad Vieja", de 10 a 13).
+    sabados = [e for e in eventos if e.ciclo == "Sábados en Ciudad Vieja"]
+    assert [(e.lugar.nombre, e.funciones[0].inicio.strftime("%d/%m %H:%M")) for e in sabados] == [
+        ("Ciudad Vieja", "21/11 10:00"), ("Ciudad Vieja", "19/12 10:00"),
+    ]
+
+
+def test_portal_im_linea_de_fecha():
+    leer = lambda linea: portal_im.leer_linea_de_fecha(linea, lambda mes: 2026)  # noqa: E731
+    dias, hora, subtitulo, lugar = leer("Sábado 28 y domingo 29 de noviembre, desde las 16:00 h, Músicas Pioneras en Las Pioneras.")
+    assert ([d.day for d in dias], hora.hour, subtitulo, lugar) == ([28, 29], 16, "Músicas Pioneras", "Las Pioneras")
+    assert leer("Sábado 21 de noviembre")[1:] == (None, None, None)
+    assert leer("Los y las artistas se anunciarán cerca de la fecha.") is None
+
+
 def test_zitarrosa_ficha_con_ciclo_precios_y_promos(pagina, ahora):
     url = "https://salazitarrosa.montevideo.gub.uy/espectaculo/natalie-perez-ciclo-marea/"
     evento = zitarrosa.parsear_ficha(pagina("zitarrosa_natalie.html"), url, ahora)

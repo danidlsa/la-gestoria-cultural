@@ -56,7 +56,7 @@ Lo que dice **"a verificar"** no se pudo confirmar.
   - **Una actividad en 5 lugares o más** (por ejemplo, "Talleres de música: canto colectivo", en 9 barrios) va en **una sola tarjeta**, con el lugar "Varios barrios de Montevideo". El lugar de cada función queda guardado y la tarjeta lo muestra en un desplegable ("En 9 lugares"). En el mapa, ese lugar va en la explanada de la Intendencia, que organiza estas actividades. Con menos de 5 lugares sigue habiendo una tarjeta por lugar. El mínimo está en `MINIMO_PARA_JUNTAR_LUGARES`, en `cartelera/scrapers/portal_im.py`.
   - Los enlaces de paginación que devuelve la API usan `http://`, y por ahí el servidor corta la conexión: se pasan a `https://`.
   - Algunos lugares tienen la latitud y la longitud invertidas: se ordenan por rango.
-  - Los "eventos" paraguas que no tienen actividades (por ejemplo, Música en el Parque) no se toman, porque traen un rango de fechas y no funciones.
+  - Los "eventos" paraguas que no tienen actividades (por ejemplo, Música en el Parque) traen un rango de fechas y el programa en un texto ("Próximas fechas": "Sábado 7 de noviembre, desde las 16:00 h, en el Jardín Botánico."). Desde el 2/11/2026 se lee cada línea de ese texto: fecha, hora (o la del paraguas) y lugar (o el del paraguas). Si el lugar no se puede ubicar en el mapa, esa fecha queda afuera hasta sumarlo a `config/lugares_alias.toml` (pasó con la Plaza de las Pioneras, que no está en OpenStreetMap).
 - **Sala Zitarrosa**: la página `/programacion/` lista lo próximo y cada ficha trae funciones (día sin año y hora AM/PM), sala, precios, promos y el enlace a Tickantel. La API de WordPress (`/wp-json/wp/v2/evento`) no informa la fecha, así que no se usa.
 - **Ticketmaster.uy**: la portada enlaza a cada evento y la ficha trae un JSON (`bootstrapData`) con nombre, categoría, lugar con coordenadas y funciones. Si las funciones no están publicadas (entradas agotadas), la fecha sale de la descripción y queda sin hora. No informa precios en un formato legible.
 
@@ -332,6 +332,12 @@ Oferta de museos de arte e historia. Lo que publican son sobre todo **exposicion
 | Montevideo + Museos (mayo) y Museos en la Noche (diciembre) | Jornadas anuales con decenas de espacios | Guías en PDF; parte llega al portal IM | Si la IM los carga en su portal, entran solos | — | Media |
 
 **Hecho (31/10/2026):** Cabildo, Subte, MNAV, Torres García, Gurvich (exposiciones con período y la agenda de la portada), MAPI (exposiciones actuales, sin fecha de cierre) y el calendario del MEC (solo actividades en museos de Montevideo: se descartan las virtuales y las de otros departamentos). **Queda:** el Blanes y el MUMI, si ordenan sus páginas. Todo lo que viene de estas fuentes lleva la etiqueta **Museos**. Para no llenar la agenda, cada exposición se muestra una vez (en "Con muchas fechas · en exhibición") con su período y horario, no como una función por día.
+
+---
+
+### Municipios (exploración del 2/11/2026)
+
+De los 8 sitios de municipios (todos Drupal de la IM, con `Crawl-delay: 10`), **solo el Municipio B tiene una agenda con fechas**: la página [Actividades en el B](https://municipiob.montevideo.gub.uy/actividades-en-el-b), un calendario escrito a mano (mes → día → actividad, con hora, lugar y "Actividad abierta"). Mezcla cultura (presentaciones de libros, ciclos, talleres) con actividades cívicas (elecciones de concejos, jornadas de adopción, talleres sobre violencia de género). Los demás publican listas de cursos anuales sin fechas o enlaces a otros sitios. Como todo lo de la IM, respondería solo desde Uruguay (tarea local). Esfuerzo: M (HTML escrito a mano, frágil); valor: medio.
 
 ---
 

@@ -60,6 +60,7 @@
         <h3 id="titulo-fecha">Fecha</h3>
         <div class="atajos" id="atajos-fecha" role="group" aria-label="Período">
           <button type="button" data-periodo="hoy">Hoy</button>
+          <button type="button" data-periodo="manana">Mañana</button>
           <button type="button" data-periodo="finde">Este finde</button>
           <button type="button" data-periodo="semana">7 días</button>
           <button type="button" data-periodo="todo" class="activo">Todo</button>
@@ -153,6 +154,7 @@
       <div class="barra-movil">
         <div class="atajos" role="group" aria-label="Período">
           <button type="button" data-periodo="hoy">Hoy</button>
+          <button type="button" data-periodo="manana">Mañana</button>
           <button type="button" data-periodo="finde">Este finde</button>
           <button type="button" data-periodo="semana">7 días</button>
           <button type="button" data-periodo="todo" class="activo">Todo</button>
@@ -211,6 +213,9 @@
           </div>
           <div class="pc-semana" aria-hidden="true"><span>Lun</span><span>Mar</span><span>Mié</span><span>Jue</span><span>Vie</span><span>Sáb</span><span>Dom</span></div>
           <div class="pc-grilla" id="pc-grilla"></div>
+          <p class="pc-ayuda" id="pc-ayuda" hidden>Tocá un día marcado para ver o quitar lo que elegiste.</p>
+          <!-- Lo elegido para un día, al tocarlo en el calendario: ver, quitar o buscar más. -->
+          <div class="pc-detalle" id="pc-detalle" hidden></div>
         </section>
         <div class="mi-plan" id="mi-plan" aria-live="polite">
           <div class="mi-plan-cabezal">
@@ -301,7 +306,10 @@
               {%- if principal %}
               <a href="{{ principal.url }}" target="_blank" rel="noopener">{{ "Ver en" if principal.via in solo_informacion else "Entradas en" }} {{ fuentes.get(principal.via, principal.via) }} ↗</a>
               {%- endif %}
-              <button type="button" class="agregar-plan">＋ Mi plan</button>
+              <span class="acciones-tarjeta">
+                <button type="button" class="compartir" title="Invitá a alguien"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="2.6"/><circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="19" r="2.6"/><path d="M8.3 10.8 15.7 6.3M8.3 13.2l7.4 4.5"/></svg></button>
+                <button type="button" class="agregar-plan">＋ Mi plan</button>
+              </span>
             </p>
           </div>
         </li>
