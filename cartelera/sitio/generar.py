@@ -274,18 +274,36 @@ def _en_linea(texto: str) -> str:
 
 def markdown_simple(texto: str) -> Markup:
     """Lo poco de Markdown que usa el texto de la pestaña: párrafos, listas, títulos, enlaces y negritas.
-    Un salto de línea simple se respeta (la firma, por ejemplo)."""
-    bloques = []
+    Un salto de línea simple se respeta (la firma, por ejemplo).
+
+    Cada título principal ("# ¿Cómo funciona?") abre una sección desplegable, que llega hasta el título
+    siguiente o hasta una línea "---" (lo que va después, como la despedida, queda siempre a la vista)."""
+    bloques, abierta = [], False
+
+    def cerrar():
+        nonlocal abierta
+        if abierta:
+            bloques.append("</div></details>")
+            abierta = False
+
     for bloque in re.split(r"\n\s*\n", texto.strip()):
         lineas = [l.rstrip() for l in bloque.splitlines()]
-        if all(l.startswith("- ") for l in lineas):
+        if bloque.strip() == "---":
+            cerrar()
+        elif all(l.startswith("- ") for l in lineas):
             items = "".join(f"<li>{_en_linea(l[2:])}</li>" for l in lineas)
             bloques.append(f"<ul>{items}</ul>")
         elif titulo := re.match(r"(#{1,3})\s+(.*)", bloque):
             nivel = len(titulo.group(1)) + 1
-            bloques.append(f"<h{nivel}>{_en_linea(titulo.group(2))}</h{nivel}>")
+            if nivel == 2:
+                cerrar()
+                bloques.append(f'<details class="pregunta" open><summary><h2>{_en_linea(titulo.group(2))}</h2></summary><div>')
+                abierta = True
+            else:
+                bloques.append(f"<h{nivel}>{_en_linea(titulo.group(2))}</h{nivel}>")
         else:
             bloques.append(f"<p>{'<br>'.join(_en_linea(l) for l in lineas)}</p>")
+    cerrar()
     return Markup("\n".join(bloques))
 
 

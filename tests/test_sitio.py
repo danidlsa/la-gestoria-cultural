@@ -46,6 +46,14 @@ def test_markdown_de_la_pestana_que_es():
     assert "<p>Chau,<br>Daniela</p>" in salida
 
 
+def test_markdown_cada_pregunta_es_desplegable():
+    from cartelera.sitio.generar import markdown_simple
+    salida = str(markdown_simple("Hola\n\n# ¿Qué es?\n\nUn sitio.\n\n# ¿Cómo?\n\nAsí.\n\n---\n\nChau"))
+    assert salida.count('<details class="pregunta" open><summary><h2>') == 2
+    assert salida.index("<p>Hola</p>") < salida.index("<details")  # la presentación queda afuera
+    assert salida.rstrip().endswith("</details>\n<p>Chau</p>")  # la despedida, después de "---", también
+
+
 def test_markdown_no_deja_pasar_enlaces_que_no_son_web():
     from cartelera.sitio.generar import markdown_simple
     salida = markdown_simple("[malo](javascript:alert(1)) [bueno](https://x.uy) [interno](que-es.html) [mail](mailto:a@b.uy)")

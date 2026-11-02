@@ -37,18 +37,18 @@
     <article class="que-es">
       {{ contenido }}
     </article>
-    <section class="que-es-fuentes" id="fuentes" aria-labelledby="titulo-fuentes">
-      <h2 id="titulo-fuentes">De dónde salen los datos</h2>
+    <details class="que-es-fuentes pregunta" id="fuentes" open>
+      <summary><h2>De dónde salen los datos</h2></summary>
       <p>Hoy {{ sitio }} junta lo que publican {{ nombres_fuentes[:-1]|join(", ") }} y {{ nombres_fuentes[-1] }}.</p>
       <p>Los textos, las imágenes y los datos de cada evento son de su fuente: acá se muestra un resumen corto y el enlace al original. Si sos parte de una fuente y preferís que algo no aparezca, escribime por el <a href="https://docs.google.com/forms/d/e/1FAIpQLSckAwGEcbi1d2X5UHb0nNBAMZ6AnbqtBwHU_MD2ciX_PHLDxg/viewform">formulario de contacto</a> y lo saco.</p>
       <p>La ubicación de algunas salas sale de <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> (© colaboradores de OpenStreetMap, licencia ODbL), igual que el mapa. Las salas publicadas en <a href="lugares.json">lugares.json</a> quedan bajo esa misma licencia.</p>
-    </section>
-    <section class="que-es-fuentes" id="privacidad" aria-labelledby="titulo-privacidad">
-      <h2 id="titulo-privacidad">Privacidad</h2>
+    </details>
+    <details class="que-es-fuentes pregunta" id="privacidad" open>
+      <summary><h2>Privacidad</h2></summary>
       <p>El sitio no usa cookies ni herramientas de medición, y no tiene cuentas. Lo que elegís (tu plan, lo que excluís, el modo claro u oscuro) queda guardado solo en tu navegador: no llega a ningún servidor, y se borra con "Vaciar" o borrando los datos del sitio en el navegador.</p>
-      <p>Al abrir el mapa, tu navegador pide los mapas a OpenStreetMap y la librería del mapa a cdnjs. Las imágenes de cada evento se cargan desde el sitio de su fuente.</p>
-      <p>Si escribís por el formulario de contacto (de Google Forms), tu correo y tu mensaje se usan solo para responderte. Si querés que los borre, pedilo por el mismo formulario.</p>
-    </section>
+      <p>Al abrir el mapa, tu navegador se conecta a OpenStreetMap, que ofrece los mapas, y a cdnjs, un servicio gratuito desde donde se descarga la herramienta que los dibuja. Las imágenes de cada evento se cargan directamente desde la página de su fuente.</p>
+      <p>Si escribís por el formulario de contacto (de Google Forms), tu correo y tu mensaje se usan solo para responderte.</p>
+    </details>
   </main>
   <footer class="contenedor pie-pagina">
     <p><strong>{{ sitio }}</strong> · Montevideo, 2026 · Proyecto sin fines de lucro</p>
@@ -56,5 +56,6 @@
        <a href="que-es.html">Qué es</a> · <a href="#fuentes">Fuentes</a> · <a href="https://docs.google.com/forms/d/e/1FAIpQLSckAwGEcbi1d2X5UHb0nNBAMZ6AnbqtBwHU_MD2ciX_PHLDxg/viewform">Contacto</a> · <a href="https://github.com/danidlsa/la-gestoria-cultural">Código</a> · <a href="#privacidad">Privacidad</a> · <a href="eventos.json">Datos</a></p>
   </footer>
   <script src="tema.js"></script>
+  <script src="que-es.js"></script>
 </body>
 </html>

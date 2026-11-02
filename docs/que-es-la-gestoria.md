@@ -33,6 +33,8 @@ Por cierto, esto es un sitio de código abierto. El código queda público en mi
 Tenés algún comentario re buena onda? Encontraste alguna inconsistencia o error? Me podés escribir por acá: [dejame un mensaje en este formulario](https://docs.google.com/forms/d/e/1FAIpQLSckAwGEcbi1d2X5UHb0nNBAMZ6AnbqtBwHU_MD2ciX_PHLDxg/viewform).
 Si tenés un comentario mala onda, guardátelo que esto no es X.
 
+---
+
 Disfrutá La Gestoría Cultural!
 
 Chau,

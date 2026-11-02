@@ -114,16 +114,26 @@ h1 span {
   max-width: 680px; margin: 34px auto 60px; padding: 28px 30px; font-size: 1.06rem; line-height: 1.65;
   background: var(--superficie); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 6px 6px 0 var(--coral);
 }
-.que-es p:first-child { font: 800 1.5rem/1.25 var(--display); color: var(--cobalto-texto); margin-top: 0; }
+.que-es > p:first-child { font: 800 1.5rem/1.25 var(--display); color: var(--cobalto-texto); margin-top: 0; }
 .que-es ul { padding-left: 1.2em; }
 .que-es li { margin-bottom: 6px; }
 .que-es li::marker { color: var(--coral); }
 .que-es a { color: var(--cobalto-texto); font-weight: 600; text-underline-offset: 3px; }
-.que-es p:last-child { font-weight: 700; }
+.que-es > p:last-child { font-weight: 700; }
+/* Cada pregunta se despliega (abiertas en la compu, cerradas en el celular: ver que-es.js). */
+details.pregunta { border-top: 2px dashed color-mix(in srgb, var(--texto) 22%, transparent); }
+.que-es > details.pregunta:last-of-type { border-bottom: 2px dashed color-mix(in srgb, var(--texto) 22%, transparent); margin-bottom: 1em; }
+details.pregunta > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 44px; }
+details.pregunta > summary::-webkit-details-marker { display: none; }
+details.pregunta > summary h2 { margin: 12px 0; font: 800 1.3rem/1.2 var(--display); }
+details.pregunta > summary::after { content: "▾"; flex: none; color: var(--coral-texto); font-size: 1.2rem; transition: transform 0.15s ease; }
+details.pregunta:not([open]) > summary::after { transform: rotate(-90deg); }
+details.pregunta > div > :first-child { margin-top: 0; }
 .que-es-fuentes { max-width: 680px; margin: -30px auto 60px; padding: 4px 30px; color: var(--texto-suave); line-height: 1.6; }
 .que-es-fuentes + .que-es-fuentes { margin-top: -40px; }
 .que-es-fuentes a { color: var(--cobalto-texto); font-weight: 600; text-underline-offset: 3px; }
-.que-es-fuentes h2 { font: 800 1.15rem var(--display); color: var(--texto); margin-bottom: 4px; }
+.que-es-fuentes h2, .que-es-fuentes.pregunta > summary h2 { font: 800 1.15rem var(--display); color: var(--texto); margin: 8px 0; }
+.que-es-fuentes.pregunta { border-top: 0; }
 @media (max-width: 600px) { .que-es { padding: 20px 18px; margin-top: 22px; } }
 
 .chispa { display: inline-block; color: var(--mostaza); animation: girar 6s linear infinite; }
