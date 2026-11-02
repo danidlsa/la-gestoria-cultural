@@ -1,8 +1,8 @@
 {
  "fuente": "galpon",
- "corrida": "2026-11-01T21:58:12.182385-03:00",
+ "corrida": "2026-11-02T12:54:13.227064-03:00",
  "ok": true,
- "cantidad": 28,
+ "cantidad": 27,
  "errores": [],
  "eventos": [
   {
@@ -160,13 +160,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-01T19:30:00-03:00",
-     "fin": "2026-11-01T20:50:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T21:00:00-03:00",
      "fin": "2026-11-07T22:20:00-03:00",
      "sin_hora": false,
@@ -264,68 +257,6 @@
   },
   {
    "fuente": "galpon",
-   "id_externo": "la-hora-vertical",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/la-hora-vertical/",
-   "titulo": "La hora vertical",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "**Hasta el 1 de noviembre ** Drama político y emocional con preguntas incómodas sobre el amor, la culpa, el poder y la necesidad humana de encontrar sentido incluso en las decisiones más cuestionables.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-01T20:00:00-03:00",
-     "fin": "2026-11-01T21:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 650.0,
-    "hasta": 650.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/La-hora-vertical-Sala-Atahualpa/32542/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio El Galpón y Espectacular libre",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/la-hora-vertical/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/la-hora-vertical/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/la-hora-vertical/"
-    }
-   ],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/10/LA-HORA-2560x1000-2.jpg",
-   "productor": "Producción de Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/La-hora-vertical-Sala-Atahualpa/32542/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
    "id_externo": "tom-en-la-granja",
    "url": "https://www.teatroelgalpon.org.uy/espectaculos/tom-en-la-granja/",
    "titulo": "Tom en la granja",
@@ -339,13 +270,6 @@
     "lon": -56.181082
    },
    "funciones": [
-    {
-     "inicio": "2026-11-01T19:00:00-03:00",
-     "fin": "2026-11-01T20:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Cero",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T20:30:00-03:00",
      "fin": "2026-11-07T22:00:00-03:00",
@@ -415,13 +339,6 @@
     "lon": -56.181082
    },
    "funciones": [
-    {
-     "inicio": "2026-11-01T16:00:00-03:00",
-     "fin": "2026-11-01T16:50:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T16:00:00-03:00",
      "fin": "2026-11-07T16:50:00-03:00",

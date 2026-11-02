@@ -1,51 +1,10 @@
 {
  "fuente": "piano_piano",
- "corrida": "2026-11-01T21:59:00.408336-03:00",
+ "corrida": "2026-11-02T12:55:02.757585-03:00",
  "ok": true,
- "cantidad": 23,
+ "cantidad": 22,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "piano_piano",
-   "id_externo": "2026-10-31-La Kermesse Redonda",
-   "url": "https://pianopiano.uy/agenda/",
-   "titulo": "La Kermesse Redonda",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Rural del Prado",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-10-31T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/LA-KERMESSE--PRADO/31598/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://pianopiano.uy/wp-content/uploads/Matias-Moyano_DSC_2224-piano-piano.jpg",
-   "productor": "Piano Piano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/LA-KERMESSE--PRADO/31598/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "piano_piano",
    "id_externo": "2026-11-04-Boite",

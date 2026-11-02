@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-01T21:56:23.418323-03:00",
+ "corrida": "2026-11-02T12:52:23.394210-03:00",
  "ok": true,
- "cantidad": 93,
+ "cantidad": 87,
  "errores": [],
  "eventos": [
   {
@@ -1712,13 +1712,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-01T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T16:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2054,13 +2047,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-01T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-05T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2159,13 +2145,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-01T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-08T18:00:00-03:00",
      "fin": null,
@@ -2317,51 +2296,7 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34540-Espacio Cultural Gobbi - Paysandú",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34540",
-   "titulo": "EmpoderHADAS",
-   "categoria": "humor",
-   "categoria_segura": true,
-   "descripcion_corta": "EmpoderHADAS es una propuesta original que une humor, canto, actuación y psicoeducación. Carla Lorenzo, psicóloga y artista, invita al público a recorrer tres etapas de una misma vida: una niña que juega, una adolescente que comienza a preguntarse quién es entre tantas miradas, y una mujer que…",
-   "lugar": {
-    "nombre": "Espacio Cultural Gobbi - Paysandú",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-01T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 550.0,
-    "hasta": 550.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34540",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42213.jpg",
-   "productor": "Fabián Bragunde",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34540-Teatro AlSUR - Atlántida",
+   "id_externo": "34540",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34540",
    "titulo": "EmpoderHADAS",
    "categoria": "humor",
@@ -2997,66 +2932,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34366",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34366",
-   "titulo": "La hora vertical",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "La obra aborda la relación de personajes con puntos de vista opuestos sobre la invasión de Irak en 2003, y también explora la tensión psicológica entre la vida pública y la vida privada. Con diálogos filosos e inteligentes, el texto combina drama político y emocional, planteando preguntas incómodas…",
-   "lugar": {
-    "nombre": "El Galpón - Sala Atahualpa",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-01T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 325.0,
-    "hasta": 650.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34366",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio El Galpón y Espectacular libre",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34366"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34366"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34366"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41554.jpg",
-   "productor": "Graciela Escuder",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "18071",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?18071",
    "titulo": "La incapaz",
@@ -3100,66 +2975,6 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/39204.jpg",
    "productor": "Cecilia Baranda",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34434",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34434",
-   "titulo": "La puerta azul",
-   "categoria": "infantil",
-   "categoria_segura": true,
-   "descripcion_corta": "Un niño tiene que cazar un oso y no quiere morir. Escapa y se encuentra con un príncipe que no quiere ser rey y con una mesera que quiere ser la primera cartógrafa en encontrar la puerta azul. En este mundo un conejo a punto de morir negocia para no ser cazado, un príncipe en camisón llora porque…",
-   "lugar": {
-    "nombre": "Teatro de la Candela",
-    "direccion": "José Ellauri 308",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-01T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34434",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "Beneficios: La Diaria, SUA, Socio Espectacular y Club El País",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34434"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Beneficios: La Diaria, SUA, Socio Espectacular y Club El País",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34434"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "Beneficios: La Diaria, SUA, Socio Espectacular y Club El País",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34434"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41632.jpg",
-   "productor": "Agustín Luque",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -3305,13 +3120,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-01T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -3377,50 +3185,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "28798",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?28798",
-   "titulo": "Laberintum – El Castillo Siniestro",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Atrévete a atravesar el Laberintum. Un viaje a través del horror que se apodera del alma de sus moradores. Una mujer devastada arrastrará a los valientes a una espiral de desesperación y locura. Horrores que cobran vida, alimentándose de los más oscuros temores. ¿Escaparás o quedarás atrapado para…",
-   "lugar": {
-    "nombre": "Castillo Pittamiglio",
-    "direccion": "Rambla Gandhi 633",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-01T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 1400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?28798",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42098.jpg",
-   "productor": "Pablo Ferrería",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34678",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34678",
    "titulo": "Las viejas",
@@ -3434,13 +3198,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-01T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-08T19:00:00-03:00",
      "fin": null,
@@ -4021,6 +3778,13 @@
    },
    "funciones": [
     {
+     "inicio": "2026-11-04T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
      "inicio": "2026-11-11T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -4150,13 +3914,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-01T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-04T20:00:00-03:00",
      "fin": null,
@@ -4548,13 +4305,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-01T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T20:30:00-03:00",
      "fin": null,
@@ -4965,13 +4715,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-01T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -5039,13 +4782,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-01T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -5105,7 +4841,7 @@
    "descripcion_corta": "Plata fácil es un drama que nos invita a preguntarnos hasta dónde somos capaces de llegar cuando la codicia o la necesidad toman el control. La obra cómo clientes y brókers construyen vínculos obsesivos, atravesados por la persuasión, la ironía y el interés. Sin revelar sus sorpresas, los…",
    "lugar": {
     "nombre": "Espacio Finisterre",
-    "direccion": "Convención 1318 - Galería Del Sol local 26",
+    "direccion": "Convención 1328 - Galería Del Sol local 26",
     "lat": null,
     "lon": null
    },
@@ -5288,105 +5024,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34625",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34625",
-   "titulo": "Quien lo probó lo sabe",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "¿Lope de Vega está muerto? ¿Cómo es eso posible? El Fénix de los ingenios, haciendo honor a sí mismo, vuelve de la muerte para contar su intensa y extensa vida, atravesada por el deseo, los amores y desamores, luchas, éxitos y fracasos. El gran poeta del Siglo de Oro español, aquel que nunca creyó…",
-   "lugar": {
-    "nombre": "Teatro Stella D'Italia - La Gaviota",
-    "direccion": "Mercedes 1805",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-01T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 700.0,
-    "hasta": 700.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34625",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "La Diaria y Club El País $ 350",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34625"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "La Diaria y Club El País $ 350",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34625"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41886.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34817",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34817",
-   "titulo": "Quiero que susurres una canción para mi muerte",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Un sótano. Un stripper. Un poeta. Un suicida. Jorge acaba de terminar su show y les propone un pacto a los espectadores: si ellos se quedan hasta el final, él no se mata. Quizás contar su historia sea una forma de pedir ayuda y salvarse.",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": "Soriano 914",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-01T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34817",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42132.jpg",
-   "productor": "Analía Torres",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34675",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34675",
    "titulo": "Ranga XL",
@@ -5444,13 +5081,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-01T16:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T17:30:00-03:00",
      "fin": null,
@@ -5681,13 +5311,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-01T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -5754,13 +5377,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-01T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T21:00:00-03:00",
      "fin": null,
@@ -5867,13 +5483,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-01T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -5963,13 +5572,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-01T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T21:00:00-03:00",
      "fin": null,

@@ -1,10 +1,149 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-01T21:59:01.777663-03:00",
+ "corrida": "2026-11-02T12:55:04.079735-03:00",
  "ok": true,
- "cantidad": 80,
+ "cantidad": 77,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18376",
+   "url": "https://beneficios.ladiaria.com.uy/cartografia-sobre-la-identidad-mariana-zaffaroni/",
+   "titulo": "CARTOGRAFÍA SOBRE LA IDENTIDAD – Mariana Zaffaroni",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Tenía apenas un año y seis meses. ¿Con un año y seis meses, qué sentimientos se pueden generar? ¿Qué afectos, qué vínculos se pueden llegar a tener? Seguramente muchos. Pero si hablamos de recuerdos, tangibles, patentes, yo no tuve ninguno. «Cartografía sobre la identidad» aborda el proceso de…",
+   "lugar": {
+    "nombre": "Sala Camacuá",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 800.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/CARTOGRAFIA-SOBRE-LA-IDENTIDAD--Mariana-Zaffaroni/34375/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/cartografia-sobre-la-identidad-mariana-zaffaroni/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/CARTOGRAFIA-SOBRE-LA-IDENTIDAD--Mariana-Zaffaroni/34375/"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18372",
+   "url": "https://beneficios.ladiaria.com.uy/noelia-pace-la-medium/",
+   "titulo": "NOELIA PACE, la Médium.",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "En un mundo cada vez más conectado, nos encontramos con una propuesta especial en la que se fusiona la magia del teatro con el misterio del más allá. Estamos hablando de un evento que promete emociones intensas y encuentros inolvidables: la presentación en vivo de Noelia Pace, una reconocida médium…",
+   "lugar": {
+    "nombre": "Teatro El Galpón, Sala Campodónico",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1330.0,
+    "hasta": 1330.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/NOELIA-PACE--La-Medium--Sala-Campodonico/33007/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/noelia-pace-la-medium/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/NOELIA-PACE--La-Medium--Sala-Campodonico/33007/"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "ladiaria",
    "id_externo": "18341",
@@ -1617,50 +1756,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18222",
-   "url": "https://beneficios.ladiaria.com.uy/sin-berretin-tango/",
-   "titulo": "Sin Berretín Tango",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Pablo Colacce Sosa y Darío Vázquez presentan Sin Berretín, un espectáculo de tango en formato dúo que recorre clásicos del género desde una mirada íntima y despojada. Guitarra y voz se encuentran para interpretar tangos que forman parte de la memoria popular, recuperando la esencia de la canción y…",
-   "lugar": {
-    "nombre": "Sala Felipe Conard ACJ Centro",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 250.0,
-    "hasta": 250.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Sin-Berretin/33481/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/sin-berretin-tango/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Sin-Berretin/33481/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18219",
    "url": "https://beneficios.ladiaria.com.uy/siente-el-pulso-ika-reggae-versions-vida-pura-arg/",
    "titulo": "SIENTE EL PULSO: Ika & Reggae Versions + Vida Pura (Arg)",
@@ -1783,13 +1878,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-01T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T21:00:00-03:00",
      "fin": null,
@@ -1968,55 +2056,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18194",
-   "url": "https://beneficios.ladiaria.com.uy/esteban-klisich/",
-   "titulo": "Esteban Klísich",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Esteban Klísich cumple 50 años de trayectoria y nos invita a celebrarlo en un encuentro que cierra una serie de conciertos que ha dado en el año. Para esta noche hará un recorrido por canciones de todos sus discos. Referente popular de la música uruguaya y docente de cientos de músicos de nuestro…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta | Sala Hugo Balzo",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021648/esteban-klisich",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/esteban-klisich/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/ng/espectaculo/40021648/esteban-klisich"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18188",
    "url": "https://beneficios.ladiaria.com.uy/la-puerta-azul/",
    "titulo": "La Puerta Azul",
@@ -2179,55 +2218,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Pasando-lista/32687/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18162",
-   "url": "https://beneficios.ladiaria.com.uy/taconeando-sosa-100-anos-villasboas-90-anos/",
-   "titulo": "Taconeando Sosa 100 años – villasboas 90 años",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "En el marco de las actividades en celebración de: Octubre – Mes del Tango en Uruguay, es que tendrá lugar este concierto a cargo de la Orquesta Típica Taconeando en conmemoración a dos grandes figuras del tango uruguayo: el cantor y compositor Julio Sosa – 100 años y el pianista, compositor y…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 1000.0,
-    "hasta": 1000.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021406/espectaculo/Taconeando?4",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/taconeando-sosa-100-anos-villasboas-90-anos/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/inicio/espectaculo/40021406/espectaculo/Taconeando?4"
    ],
    "ciclo": null,
    "muestra": false,
@@ -3373,13 +3363,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-01T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-05T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -3779,50 +3762,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Uno/32244/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "17939",
-   "url": "https://beneficios.ladiaria.com.uy/gauchito-club/",
-   "titulo": "Gauchito Club",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Gauchito Club – Gira despedida Vulnerable Sábado 31 de octubre 2026 Apto para todo público. 20hs.",
-   "lugar": {
-    "nombre": "Sala del Museo del Carnaval",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 830.0,
-    "hasta": 830.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Gauchito-Club/32675/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/gauchito-club/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Gauchito-Club/32675/"
    ],
    "ciclo": null,
    "muestra": false,
@@ -4231,50 +4170,6 @@
    "enlaces": [
     "https://www.tickantel.com.uy/inicio/registrarse",
     "https://tickantel.com.uy/inicio/espectaculo/40021240/espectaculo/Juan%20Jos%C3%A9%20De%20Mello%20%E2%80%9CMusiqueros%E2%80%9D?4"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "17712",
-   "url": "https://beneficios.ladiaria.com.uy/la-kermesse-3/",
-   "titulo": "La Kermesse",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Una celebración del espíritu Redondo: ¡La Kermesse vuelve a Montevideo! El sábado 31 de agosto a las 21:00 h, la Rural del Prado recibirá a La Kermesse, de la mano de Los Decoradores, banda integrada por los históricos miembros de Patricio Rey y sus Redonditos de Ricota. Las entradas se podrán…",
-   "lugar": {
-    "nombre": "Rural del Prado",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 790.0,
-    "hasta": 790.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/LA-KERMESSE--PRADO/31598/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/la-kermesse-3/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/LA-KERMESSE--PRADO/31598/"
    ],
    "ciclo": null,
    "muestra": false,

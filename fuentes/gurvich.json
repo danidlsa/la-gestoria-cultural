@@ -1,6 +1,6 @@
 {
  "fuente": "gurvich",
- "corrida": "2026-11-01T22:06:38.213265-03:00",
+ "corrida": "2026-11-02T12:55:46.191433-03:00",
  "ok": true,
  "cantidad": 1,
  "errores": [],
@@ -414,6 +414,13 @@
     },
     {
      "inicio": "2026-12-31T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-01T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,

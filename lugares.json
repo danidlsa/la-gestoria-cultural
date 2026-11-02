@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-01T22:06:48.357593-03:00",
- "cantidad": 136,
+ "generado": "2026-11-02T12:55:55.872239-03:00",
+ "cantidad": 142,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -76,6 +76,15 @@
    "direccion": "Durazno 902, Convención esq, 11100 Monte",
    "lat": -34.911047,
    "lon": -56.196317,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "ansina-e-isla-de-flores",
+   "nombre": "Ansina e Isla de Flores",
+   "alias": [],
+   "direccion": "Ansina e Isla de Flores",
+   "lat": -34.910662638218,
+   "lon": -56.179798565469,
    "ciudad": "Montevideo"
   },
   {
@@ -175,6 +184,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "cabana-anaya",
+   "nombre": "Cabaña Anaya",
+   "alias": [],
+   "direccion": "Lomas de Zamora esq. Luis Batlle Berres",
+   "lat": -34.817073965653,
+   "lon": -56.311527508593,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "carrasco-lawn-tennis-club",
    "nombre": "Carrasco Lawn Tennis Club",
    "alias": [],
@@ -196,8 +214,8 @@
    "id": "castillo-pittamiglio",
    "nombre": "Castillo Pittamiglio",
    "alias": [],
-   "direccion": "Rambla Gandhi 633",
-   "lat": -34.921,
+   "direccion": "Rbla. Gandhi 633, 11300 Montevideo, Depa",
+   "lat": -34.920998,
    "lon": -56.149856,
    "ciudad": "Montevideo"
   },
@@ -220,12 +238,30 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "centro-cultural-las-duranas",
+   "nombre": "Centro Cultural Las Duranas",
+   "alias": [],
+   "direccion": "Pedro Trápani 1350 esquina Bayona.",
+   "lat": -34.854031611412,
+   "lon": -56.189780492925,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "centro-cultural-terminal-goes",
    "nombre": "Centro Cultural Terminal Goes",
    "alias": [],
-   "direccion": null,
-   "lat": -34.8822811,
-   "lon": -56.1829079,
+   "direccion": "Gral. Flores y Domingo Aramburú",
+   "lat": -34.882708,
+   "lon": -56.181856,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "centro-juvenil-salesiano",
+   "nombre": "Centro Juvenil Salesiano",
+   "alias": [],
+   "direccion": "Bv. José Batlle y Ordóñez 6182",
+   "lat": -34.830528,
+   "lon": -56.214691,
    "ciudad": "Montevideo"
   },
   {
@@ -279,15 +315,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "club-de-el-viejo-oeste",
-   "nombre": "Club de El Viejo Oeste",
-   "alias": [],
-   "direccion": "Complejo Prado",
-   "lat": -34.861076,
-   "lon": -56.20152,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "colonia-894",
    "nombre": "Colonia 894",
    "alias": [],
@@ -312,6 +339,15 @@
    "direccion": "Contador Luis E. Lecueder, 11300 Montevi",
    "lat": -34.904241,
    "lon": -56.136899,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "cooperativa-3-de-abril",
+   "nombre": "Cooperativa 3 de Abril",
+   "alias": [],
+   "direccion": "Av. Luis Batlle Berres 5870",
+   "lat": -34.84115655034,
+   "lon": -56.257511188715,
    "ciudad": "Montevideo"
   },
   {
@@ -357,15 +393,6 @@
    "direccion": "Dr. Martín C. Martínez 2147, 11800 Monte",
    "lat": -34.889572,
    "lon": -56.173569,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "el-tropy",
-   "nombre": "El Tropy",
-   "alias": [],
-   "direccion": "Av Gral Rondeau 2477, 11800 Montevideo,",
-   "lat": -34.884626,
-   "lon": -56.193819,
    "ciudad": "Montevideo"
   },
   {
@@ -420,8 +447,8 @@
    "nombre": "Espacio Teatro",
    "alias": [],
    "direccion": "Mercedes 865",
-   "lat": -34.904366,
-   "lon": -56.19809,
+   "lat": -34.904423,
+   "lon": -56.197943,
    "ciudad": "Montevideo"
   },
   {
@@ -681,8 +708,8 @@
     "MMB"
    ],
    "direccion": "Av. Dámaso A. Larrañaga 3195, 11600 Mont",
-   "lat": -34.880617,
-   "lon": -56.152683,
+   "lat": -34.880615,
+   "lon": -56.15275,
    "ciudad": "Montevideo"
   },
   {
@@ -779,6 +806,15 @@
    "direccion": "Carrasco, Montevideo",
    "lat": -34.884275,
    "lon": -56.059145,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "parque-de-la-amistad",
+   "nombre": "Parque de la Amistad",
+   "alias": [],
+   "direccion": "Av. Gral Rivera 3245",
+   "lat": -34.902332,
+   "lon": -56.144034,
    "ciudad": "Montevideo"
   },
   {
@@ -934,12 +970,14 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "sala-jorge-lazaroff",
-   "nombre": "Sala Jorge Lazaroff",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.8557558,
-   "lon": -56.1324247,
+   "id": "sala-lazaroff",
+   "nombre": "Sala Lazaroff",
+   "alias": [
+    "Sala Jorge Lazaroff"
+   ],
+   "direccion": "Av. 8 de Octubre 4849",
+   "lat": -34.855863,
+   "lon": -56.132473,
    "ciudad": "Montevideo"
   },
   {
@@ -988,7 +1026,7 @@
    "id": "sala-zitarrosa",
    "nombre": "Sala Zitarrosa",
    "alias": [],
-   "direccion": null,
+   "direccion": "Av. 18 de Julio 1012",
    "lat": -34.90626,
    "lon": -56.19441,
    "ciudad": "Montevideo"
@@ -1079,8 +1117,8 @@
    "nombre": "Teatro Circular",
    "alias": [],
    "direccion": "Av. Rondeau 1388",
-   "lat": -34.905243,
-   "lon": -56.191147,
+   "lat": -34.905036129982,
+   "lon": -56.191339919039,
    "ciudad": "Montevideo"
   },
   {
@@ -1156,12 +1194,22 @@
    "alias": [
     "Teatro Stella D'Italia. La Gaviota",
     "Teatro Stella D'Italia. La Gaviota.",
-    "Teatro Stella D'Italia",
     "Teatro Stella DItalia. La Gaviota."
    ],
    "direccion": "Mercedes 1805",
    "lat": -34.900541,
    "lon": -56.178195,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "teatro-stella-d-italia",
+   "nombre": "Teatro Stella D’Italia",
+   "alias": [
+    "Teatro Stella D'Italia"
+   ],
+   "direccion": "Mercedes 1805",
+   "lat": -34.900608,
+   "lon": -56.178207,
    "ciudad": "Montevideo"
   },
   {
@@ -1219,9 +1267,9 @@
    "id": "teatron",
    "nombre": "Teatrón",
    "alias": [],
-   "direccion": "Av.Gral Rivera 3406",
-   "lat": -34.902048,
-   "lon": -56.140795,
+   "direccion": "Av.Gral Rivera 3406, 11300 Montevideo, D",
+   "lat": -34.902037,
+   "lon": -56.140804,
    "ciudad": "Montevideo"
   },
   {
@@ -1252,6 +1300,15 @@
    "direccion": "Bartolomé Mitre 1318, 11000 Montevideo,",
    "lat": -34.907105,
    "lon": -56.201575,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "varios-barrios-de-montevideo",
+   "nombre": "Varios barrios de Montevideo",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.906,
+   "lon": -56.1855,
    "ciudad": "Montevideo"
   },
   {
