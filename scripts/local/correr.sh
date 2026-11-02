@@ -22,6 +22,18 @@ correr() {
   echo "=== $(date '+%Y-%m-%d %H:%M:%S') ==="
   cd "$DIR"
 
+  # 0. Si el equipo recién se despierta, el wifi tarda unos segundos: se espera la conexión (hasta 2 minutos).
+  local intentos=0
+  until git ls-remote -q origin main > /dev/null 2>&1; do
+    intentos=$((intentos + 1))
+    if [ "$intentos" -ge 24 ]; then
+      echo "Sin conexión con GitHub después de 2 minutos; se intenta de nuevo en la próxima corrida."
+      return 1
+    fi
+    sleep 5
+  done
+  if [ "$intentos" -gt 0 ]; then echo "Conexión lista después de $((intentos * 5)) segundos."; fi
+
   # 1. El código: siempre la última versión de main, nunca otra rama.
   git fetch -q origin main
   git checkout -q --detach origin/main

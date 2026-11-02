@@ -42,9 +42,6 @@ corre_en = "actions"
 corre_en = "actions"
 
 # Museos (31/10/2026). Si alguno no responde desde GitHub Actions, se pasa a "local".
-[museos_im]
-corre_en = "actions"
-
 [mnav]
 corre_en = "actions"
 
@@ -62,6 +59,10 @@ corre_en = "actions"
 
 # Responden solo desde Uruguay.
 [portal_im]
+corre_en = "local"
+
+# Los museos de la IM (Cabildo, Subte) no respondieron nunca desde GitHub Actions (2/11/2026).
+[museos_im]
 corre_en = "local"
 
 [zitarrosa]

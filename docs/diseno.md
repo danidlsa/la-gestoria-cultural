@@ -222,6 +222,8 @@ Para instalarlo hace falta que `main` tenga este código y que exista la rama `d
 
 **Probado de punta a punta (30/10/2026)** contra un repo de prueba local con `main` y `datos`, con el entorno vacío con el que corre la tarea programada: trae el código, corre las 3 fuentes, sube solo sus 3 archivos y resuelve bien un push de Actions en el medio.
 
+**Instalado (2/11/2026).** Primera corrida real: el portal de la IM (14 eventos con fecha), la Zitarrosa (23) y Ticketmaster (1), subidos a `datos` como `cartelera-local`. `main` y `datos` tienen reglas en GitHub: `main` solo la actualiza la administradora (la deploy key no puede), y ninguna de las dos se puede borrar ni recibir force push.
+
 **Opcional, si querés más aislamiento**: correr la tarea con un **usuario del sistema aparte**, sin acceso a otros documentos. No me parece necesario para empezar.
 
 ---
