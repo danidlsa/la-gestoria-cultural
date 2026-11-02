@@ -539,11 +539,13 @@
     }
     document.getElementById("pc-grilla").replaceChildren(...celdas);
     document.getElementById("pc-ayuda").hidden = !elegidasPorDia.size;
+    cantidadOpciones = new Map([...opciones].map(([dia, ids]) => [dia, ids.size]));
     dibujarDetallePlan();
   }
 
-  // El día del plan que se está mirando (al tocarlo en el calendario).
+  // El día del plan que se está mirando (al tocarlo en el calendario), y cuántas opciones hay por día.
   let diaDetalle = null;
+  let cantidadOpciones = new Map();
 
   function dibujarDetallePlan() {
     const panel = document.getElementById("pc-detalle");
@@ -567,7 +569,18 @@
             el("small", {}, nombreLugar(evento))),
           el("button", { type: "button", class: "quitar-texto", "data-quitar": clavePlan(p.id, p.inicio), "aria-label": `Quitar ${evento.titulo} de mi plan` }, "Quitar"));
       })),
-      el("button", { type: "button", class: "boton-secundario", "data-ver-dia": diaDetalle }, "Ver qué más hay ese día"));
+      cantidadOpciones.get(diaDetalle)
+        ? el("button", { type: "button", class: "boton-secundario", "data-ver-dia": diaDetalle }, `Ver las ${cantidadOpciones.get(diaDetalle)} opciones de ese día`)
+        : null);
+  }
+
+  // Las opciones de un día, en la lista de abajo del calendario: se abre y la página baja hasta ahí.
+  function irAlDia(dia) {
+    const seccion = document.getElementById(`dia-${dia}`);
+    if (!seccion) return;
+    seccion.open = true;
+    abiertosPlan.add(dia);
+    seccion.scrollIntoView({ behavior: suave(), block: "start" });
   }
 
   function abrirDetallePlan(dia) {
@@ -1095,14 +1108,7 @@
         guardarPlan();
         dibujarContenido();
       }
-    } else if (d.verDia) {
-      const dia = document.getElementById(`dia-${d.verDia}`);
-      if (dia) {
-        dia.open = true;
-        abiertosPlan.add(d.verDia);
-        dia.scrollIntoView({ behavior: suave(), block: "start" });
-      }
-    } else if ("volverCalendario" in d) {
+    } else if (d.verDia) irAlDia(d.verDia); else if ("volverCalendario" in d) {
       document.querySelector(".plan-cal").scrollIntoView({ behavior: suave(), block: "start" });
     } else if (d.planMes) cambiar({ planMes: sumarMeses(estado.planMes, Number(d.planMes)) });
     else if (d.exportar === "ics") descargarIcs();
@@ -1131,9 +1137,19 @@
     else if (d.ciclo) cambiar({ ciclo: d.ciclo, periodo: "todo", dia: null, seccion: ["mapa", "plan"].includes(estado.seccion) ? "agenda" : estado.seccion });
   });
   document.getElementById("sala").addEventListener("change", (e) => cambiar({ sala: e.target.value }));
+  // En la compu, el número del día abre lo elegido y "N opciones" lleva a las opciones. En el celular los botones
+  // quedan chicos: toda la celda es un solo toque. Con algo elegido abre "Tu plan del día" (que también lleva a
+  // las opciones); sin nada elegido, va directo a las opciones.
   document.getElementById("pc-grilla").addEventListener("click", (e) => {
-    const celda = e.target.closest(".pc-dia.con-plan");
-    if (celda && !e.target.closest("button")) abrirDetallePlan(celda.querySelector("[data-ver-plan-dia]").dataset.verPlanDia);
+    const celda = e.target.closest(".pc-dia");
+    if (!celda || celda.classList.contains("pasado") || celda.classList.contains("fuera")) return;
+    const conPlan = celda.querySelector("[data-ver-plan-dia]");
+    if (angosta.matches || !e.target.closest("button")) {
+      if (conPlan) abrirDetallePlan(conPlan.dataset.verPlanDia);
+      else if (celda.querySelector("[data-ver-dia]")) irAlDia(celda.querySelector("[data-ver-dia]").dataset.verDia);
+      else return;
+      e.stopPropagation(); // ya se resolvió acá: que no lo tome también el manejador general
+    }
   });
 
   // La búsqueda redibuja al dejar de tipear, para no rearmar los carriles con cada letra.
@@ -1149,13 +1165,11 @@
   });
 
   // En el celular, calendario y filtros arrancan plegados; en pantallas grandes, siempre abiertos.
-  // La lista del plan (con los enlaces a Google) es al revés: abierta en el celular, donde no hay calendario grande.
   const angosta = window.matchMedia("(max-width: 860px)");
   const ajustarPlegables = () => {
     // Los filtros van siempre desplegados: en el celular viven en el panel lateral, que ya se abre y se cierra.
     for (const plegable of document.querySelectorAll(".plegable")) plegable.open = true;
     if (!angosta.matches) cerrarFiltros(false);
-    document.getElementById("mi-plan-detalle").open = angosta.matches;
   };
   angosta.addEventListener("change", ajustarPlegables);
   ajustarPlegables();
