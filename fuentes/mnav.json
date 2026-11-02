@@ -1,14 +1,14 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-02T18:12:01.521510-03:00",
+ "corrida": "2026-11-02T18:59:31.892236-03:00",
  "ok": true,
  "cantidad": 30,
  "errores": [],
  "eventos": [
   {
    "fuente": "mnav",
-   "id_externo": "juegos-borramientos, invenciones y faltantes in",
-   "url": "https://mnav.gub.uy/cms.php?id=juegos",
+   "id_externo": "indigenas2026-borramientos, invenciones y faltantes in",
+   "url": "https://mnav.gub.uy/cms.php?id=indigenas2026",
    "titulo": "Borramientos, invenciones y faltantes indígenas en el acervo",
    "categoria": "exposicion",
    "categoria_segura": true,
@@ -127,12 +127,12 @@
    },
    "entradas": [
     {
-     "url": "https://mnav.gub.uy/cms.php?id=juegos",
+     "url": "https://mnav.gub.uy/cms.php?id=indigenas2026",
      "via": "mnav"
     }
    ],
    "beneficios": [],
-   "imagen_url": null,
+   "imagen_url": "https://mnav.gub.uy/img.php?p=indigenas2026",
    "productor": "Museo Nacional de Artes Visuales",
    "region": "montevideo",
    "enlaces": [],
@@ -1669,8 +1669,8 @@
   },
   {
    "fuente": "mnav",
-   "id_externo": "juegos-el misterio - linda kohen",
-   "url": "https://mnav.gub.uy/cms.php?id=juegos",
+   "id_externo": "kohen2026-el misterio - linda kohen",
+   "url": "https://mnav.gub.uy/cms.php?id=kohen2026",
    "titulo": "El Misterio - Linda Kohen",
    "categoria": "exposicion",
    "categoria_segura": true,
@@ -1936,12 +1936,12 @@
    },
    "entradas": [
     {
-     "url": "https://mnav.gub.uy/cms.php?id=juegos",
+     "url": "https://mnav.gub.uy/cms.php?id=kohen2026",
      "via": "mnav"
     }
    ],
    "beneficios": [],
-   "imagen_url": null,
+   "imagen_url": "https://mnav.gub.uy/img.php?p=kohen2026",
    "productor": "Museo Nacional de Artes Visuales",
    "region": "montevideo",
    "enlaces": [],
@@ -2233,8 +2233,8 @@
   },
   {
    "fuente": "mnav",
-   "id_externo": "juegos",
-   "url": "https://mnav.gub.uy/cms.php?id=juegos",
+   "id_externo": "escrituraensala",
+   "url": "https://mnav.gub.uy/cms.php?id=escrituraensala",
    "titulo": "Taller de escritura poética en torno a la colección del MNAV: \"Relatos en proceso: colección expandida\"",
    "categoria": "taller",
    "categoria_segura": false,
@@ -2257,12 +2257,12 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://mnav.gub.uy/cms.php?id=juegos",
+     "url": "https://mnav.gub.uy/cms.php?id=escrituraensala",
      "via": "mnav"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=juegos",
+   "imagen_url": "https://mnav.gub.uy/img.php?p=escrituraensala",
    "productor": "Museo Nacional de Artes Visuales",
    "region": "montevideo",
    "enlaces": [],
