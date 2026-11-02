@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ sitio }}</title>
-  <meta name="description" content="Qué hacer en Montevideo: teatro, música, danza y más, de todas las salas en un solo lugar.">
+  {%- set titulo = sitio ~ " · Agenda cultural de Montevideo" %}
+  {%- set descripcion = "Qué hacer en Montevideo: teatro, música, cine, museos, talleres y más, de todas las salas en un solo lugar. Gratis y sin publicidad." %}
+  {%- set ruta = "" %}
+{% include "_metadatos.html.j2" %}
   <!-- Política de contenido: solo corre código del propio sitio (y Leaflet, verificado); ningún script en línea.
        Las imágenes de los eventos vienen de cada fuente, siempre por https. -->
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://cdnjs.cloudflare.com; img-src 'self' https: data:; font-src 'self'; connect-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">

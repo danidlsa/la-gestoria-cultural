@@ -105,3 +105,11 @@ def test_periodo_de_una_exposicion():
     assert periodo_muestra({"funciones": [{"inicio": hoy + "T00:00:00-03:00"}], "hasta": "2027-02-28"}) == "Hasta el 28 feb 2027"
     assert periodo_muestra({"funciones": [{"inicio": hoy + "T00:00:00-03:00"}], "hasta": None}) == "En exhibición"
     assert periodo_muestra({"funciones": [{"inicio": despues + "T00:00:00-03:00"}], "hasta": None}).startswith("Desde el ")
+
+
+def test_robots_y_sitemap_para_buscadores():
+    from cartelera.sitio.generar import robots_txt, sitemap_xml
+    assert "Sitemap: https://ejemplo.uy/sitemap.xml" in robots_txt("https://ejemplo.uy/")
+    mapa = sitemap_xml("https://ejemplo.uy/", "2026-11-02")
+    assert "<loc>https://ejemplo.uy/</loc><lastmod>2026-11-02</lastmod>" in mapa
+    assert "<loc>https://ejemplo.uy/que-es.html</loc>" in mapa

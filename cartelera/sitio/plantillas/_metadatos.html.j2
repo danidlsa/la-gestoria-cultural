@@ -1,0 +1,16 @@
+  {#- Título, descripción y vista previa al compartir (WhatsApp, Instagram, Facebook) y para buscadores.
+      Cada página define `titulo`, `descripcion` y `ruta` antes de incluir este bloque. #}
+  <title>{{ titulo }}</title>
+  <meta name="description" content="{{ descripcion }}">
+  <link rel="canonical" href="{{ url_sitio }}{{ ruta }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ sitio }}">
+  <meta property="og:locale" content="es_UY">
+  <meta property="og:title" content="{{ titulo }}">
+  <meta property="og:description" content="{{ descripcion }}">
+  <meta property="og:url" content="{{ url_sitio }}{{ ruta }}">
+  <meta property="og:image" content="{{ url_sitio }}compartir.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ sitio }}: qué hacer en Montevideo, en un solo lugar">
+  <meta name="twitter:card" content="summary_large_image">

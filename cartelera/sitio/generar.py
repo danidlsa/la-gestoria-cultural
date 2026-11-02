@@ -26,6 +26,8 @@ AQUI = Path(__file__).parent
 QUE_ES = Path("docs/que-es-la-gestoria.md")
 
 NOMBRE_SITIO = "La Gestoría Cultural"
+# La dirección pública del sitio: para la vista previa al compartir, el sitemap y la dirección oficial (canonical).
+URL_SITIO = "https://lagestoriacultural.uy/"
 DIAS = ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"]
 MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
 CATEGORIAS = {
@@ -272,6 +274,22 @@ def _en_linea(texto: str) -> str:
     return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", texto)
 
 
+def robots_txt(url_sitio: str) -> str:
+    """Todo el sitio se puede indexar; el sitemap dice qué páginas hay."""
+    return f"User-agent: *\nAllow: /\n\nSitemap: {url_sitio}sitemap.xml\n"
+
+
+def sitemap_xml(url_sitio: str, actualizado: str) -> str:
+    """Las dos páginas del sitio, con la fecha de la última actualización de la cartelera."""
+    paginas = [("", "daily", "1.0"), ("que-es.html", "monthly", "0.5")]
+    urls = "".join(
+        f"  <url><loc>{url_sitio}{ruta}</loc><lastmod>{actualizado}</lastmod><changefreq>{frecuencia}</changefreq>"
+        f"<priority>{prioridad}</priority></url>\n"
+        for ruta, frecuencia, prioridad in paginas
+    )
+    return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{urls}</urlset>\n'
+
+
 def markdown_simple(texto: str) -> Markup:
     """Lo poco de Markdown que usa el texto de la pestaña: párrafos, listas, títulos, enlaces y negritas.
     Un salto de línea simple se respeta (la firma, por ejemplo).
@@ -340,6 +358,7 @@ def generar() -> Path:
     nombres_fuentes = [FUENTES[f] for f in sorted({p["fuente"] for e in eventos for p in e["fuentes"]}) if f in FUENTES]
     pagina = entorno.get_template("index.html.j2").render(
         sitio=NOMBRE_SITIO,
+        url_sitio=URL_SITIO,
         eventos=eventos,
         lugares=lugares,
         ciclos={c["id"]: c for c in ciclos},
@@ -373,9 +392,12 @@ def generar() -> Path:
     (SALIDA / "index.html").write_text(pagina, encoding="utf-8")
     if QUE_ES.exists():
         que_es = entorno.get_template("que-es.html.j2").render(
-            sitio=NOMBRE_SITIO, contenido=markdown_simple(QUE_ES.read_text(encoding="utf-8")), nombres_fuentes=nombres_fuentes,
+            sitio=NOMBRE_SITIO, url_sitio=URL_SITIO, contenido=markdown_simple(QUE_ES.read_text(encoding="utf-8")), nombres_fuentes=nombres_fuentes,
         )
         (SALIDA / "que-es.html").write_text(que_es, encoding="utf-8")
+    # Para los buscadores.
+    (SALIDA / "robots.txt").write_text(robots_txt(URL_SITIO), encoding="utf-8")
+    (SALIDA / "sitemap.xml").write_text(sitemap_xml(URL_SITIO, (generado or datetime.now().isoformat())[:10]), encoding="utf-8")
     # Los datos también quedan publicados, por si alguien quiere usarlos.
     for nombre in ("eventos.json", "lugares.json", "ciclos.json"):
         if (DIR_DATOS / nombre).exists():

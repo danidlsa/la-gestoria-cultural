@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>¿Qué es {{ sitio }}?</title>
-  <meta name="description" content="Quién hace {{ sitio }}, de dónde salen los datos y por qué.">
+  {%- set titulo = "¿Qué es " ~ sitio ~ "?" %}
+  {%- set descripcion = "Quién hace " ~ sitio ~ ", de dónde salen los datos y por qué. Una agenda cultural de Montevideo, gratis y sin publicidad." %}
+  {%- set ruta = "que-es.html" %}
+{% include "_metadatos.html.j2" %}
   <!-- Política de contenido: solo corre código del propio sitio (y Leaflet, verificado); ningún script en línea.
        Las imágenes de los eventos vienen de cada fuente, siempre por https. -->
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://cdnjs.cloudflare.com; img-src 'self' https: data:; font-src 'self'; connect-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
