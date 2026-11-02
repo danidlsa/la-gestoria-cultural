@@ -1,0 +1,1297 @@
+{
+ "fuente": "portal_im",
+ "corrida": "2026-11-02T12:00:10.211585-03:00",
+ "ok": true,
+ "cantidad": 14,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "portal_im",
+   "id_externo": "118",
+   "url": "https://eventos.montevideo.gub.uy/evento/carnaval-de-las-promesas/etapa-5",
+   "titulo": "Carnaval de las Promesas: Etapa 5",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Programación 20:30 h - Zodíaco (Parodistas) 21:40 h - Mandala (Revista) 22:50 h - Wizards (Parodistas) 00:00 h - Los Chapitas (Humoristas)",
+   "lugar": {
+    "nombre": "Teatro de Verano",
+    "direccion": "Rambla Wilson s/n esq. Andrés Cachón",
+    "lat": -34.918974,
+    "lon": -56.16947
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-26T08:30:00-03:00",
+     "fin": "2026-12-26T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2025-12/carnavaldelaspromesas5.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Carnaval de las Promesas",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "134",
+   "url": "https://eventos.montevideo.gub.uy/evento/envejecimiento-activo/talleres-de-musica-canto-colectivo",
+   "titulo": "Talleres de música: canto colectivo",
+   "categoria": "taller",
+   "categoria_segura": true,
+   "descripcion_corta": "En 9 lugares: Casa de Jóvenes Adultos Mayores de Pajas Blancas, Centro Comunal Zonal 14, Comisión Fomento Larrañaga, Centro Comunal Zonal 10, Club La Virgen, Centro Juvenil Salesiano, Biblioteca Villa Colón, Club Huracán de Paso de la Arena, Centro Cultural del Parque Villa García. Promover el…",
+   "lugar": {
+    "nombre": "Varios barrios de Montevideo",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-03T10:00:00-03:00",
+     "fin": "2026-11-03T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Casa de Jóvenes Adultos Mayores de Pajas Blancas",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T13:30:00-03:00",
+     "fin": "2026-11-03T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Comunal Zonal 14",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T16:30:00-03:00",
+     "fin": "2026-11-03T18:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Comisión Fomento Larrañaga",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T16:00:00-03:00",
+     "fin": "2026-11-04T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Comunal Zonal 10",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T16:00:00-03:00",
+     "fin": "2026-11-05T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Club La Virgen",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T10:00:00-03:00",
+     "fin": "2026-11-06T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Juvenil Salesiano",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T13:30:00-03:00",
+     "fin": "2026-11-06T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Biblioteca Villa Colón",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T15:30:00-03:00",
+     "fin": "2026-11-06T17:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Club Huracán de Paso de la Arena",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T16:00:00-03:00",
+     "fin": "2026-11-06T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Cultural del Parque Villa García",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T10:00:00-03:00",
+     "fin": "2026-11-10T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Casa de Jóvenes Adultos Mayores de Pajas Blancas",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T13:30:00-03:00",
+     "fin": "2026-11-10T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Comunal Zonal 14",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T16:30:00-03:00",
+     "fin": "2026-11-10T18:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Comisión Fomento Larrañaga",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-11T16:00:00-03:00",
+     "fin": "2026-11-11T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Comunal Zonal 10",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T16:00:00-03:00",
+     "fin": "2026-11-12T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Club La Virgen",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T10:00:00-03:00",
+     "fin": "2026-11-13T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Juvenil Salesiano",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T13:30:00-03:00",
+     "fin": "2026-11-13T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Biblioteca Villa Colón",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T15:30:00-03:00",
+     "fin": "2026-11-13T17:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Club Huracán de Paso de la Arena",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T16:00:00-03:00",
+     "fin": "2026-11-13T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Cultural del Parque Villa García",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T10:00:00-03:00",
+     "fin": "2026-11-17T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Casa de Jóvenes Adultos Mayores de Pajas Blancas",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T13:30:00-03:00",
+     "fin": "2026-11-17T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Comunal Zonal 14",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T16:30:00-03:00",
+     "fin": "2026-11-17T18:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Comisión Fomento Larrañaga",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-18T16:00:00-03:00",
+     "fin": "2026-11-18T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Comunal Zonal 10",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T16:00:00-03:00",
+     "fin": "2026-11-19T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Club La Virgen",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T10:00:00-03:00",
+     "fin": "2026-11-20T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Juvenil Salesiano",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T13:30:00-03:00",
+     "fin": "2026-11-20T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Biblioteca Villa Colón",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T15:30:00-03:00",
+     "fin": "2026-11-20T17:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Club Huracán de Paso de la Arena",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T16:00:00-03:00",
+     "fin": "2026-11-20T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Cultural del Parque Villa García",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T10:00:00-03:00",
+     "fin": "2026-11-24T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Casa de Jóvenes Adultos Mayores de Pajas Blancas",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T13:30:00-03:00",
+     "fin": "2026-11-24T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Comunal Zonal 14",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T16:30:00-03:00",
+     "fin": "2026-11-24T18:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Comisión Fomento Larrañaga",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-25T16:00:00-03:00",
+     "fin": "2026-11-25T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Comunal Zonal 10",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T16:00:00-03:00",
+     "fin": "2026-11-26T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Club La Virgen",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T10:00:00-03:00",
+     "fin": "2026-11-27T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Juvenil Salesiano",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T13:30:00-03:00",
+     "fin": "2026-11-27T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Biblioteca Villa Colón",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T15:30:00-03:00",
+     "fin": "2026-11-27T17:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Club Huracán de Paso de la Arena",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T16:00:00-03:00",
+     "fin": "2026-11-27T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Cultural del Parque Villa García",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T10:00:00-03:00",
+     "fin": "2026-12-01T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Casa de Jóvenes Adultos Mayores de Pajas Blancas",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T13:30:00-03:00",
+     "fin": "2026-12-01T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Comunal Zonal 14",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T16:30:00-03:00",
+     "fin": "2026-12-01T18:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Comisión Fomento Larrañaga",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T16:00:00-03:00",
+     "fin": "2026-12-02T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Comunal Zonal 10",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-03T16:00:00-03:00",
+     "fin": "2026-12-03T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Club La Virgen",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T10:00:00-03:00",
+     "fin": "2026-12-04T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Juvenil Salesiano",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T13:30:00-03:00",
+     "fin": "2026-12-04T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Biblioteca Villa Colón",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T15:30:00-03:00",
+     "fin": "2026-12-04T17:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Club Huracán de Paso de la Arena",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T16:00:00-03:00",
+     "fin": "2026-12-04T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Cultural del Parque Villa García",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-08T10:00:00-03:00",
+     "fin": "2026-12-08T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Casa de Jóvenes Adultos Mayores de Pajas Blancas",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-08T13:30:00-03:00",
+     "fin": "2026-12-08T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Comunal Zonal 14",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-08T16:30:00-03:00",
+     "fin": "2026-12-08T18:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Comisión Fomento Larrañaga",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-09T16:00:00-03:00",
+     "fin": "2026-12-09T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Comunal Zonal 10",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-10T16:00:00-03:00",
+     "fin": "2026-12-10T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Club La Virgen",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-11T10:00:00-03:00",
+     "fin": "2026-12-11T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Juvenil Salesiano",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-11T13:30:00-03:00",
+     "fin": "2026-12-11T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Biblioteca Villa Colón",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-11T15:30:00-03:00",
+     "fin": "2026-12-11T17:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Club Huracán de Paso de la Arena",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-11T16:00:00-03:00",
+     "fin": "2026-12-11T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": "Centro Cultural del Parque Villa García",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2025-12/20241114dicimouysm5458.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Envejecimiento activo",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "137-428",
+   "url": "https://eventos.montevideo.gub.uy/evento/envejecimiento-activo/taller-de-murga",
+   "titulo": "Taller de Murga",
+   "categoria": "taller",
+   "categoria_segura": true,
+   "descripcion_corta": "Promover el envejecimiento saludable y activo desde una perspectiva integral, desarrollando la formación y el interés por la música (murga, canto colectivo, movimiento libre, tango, candombe y percusión). Promoviendo el sentido integrador en todas las actividades, generando espacios de…",
+   "lugar": {
+    "nombre": "Centro Juvenil Salesiano",
+    "direccion": "Bv. José Batlle y Ordóñez 6182",
+    "lat": -34.830528,
+    "lon": -56.214691
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-02T11:00:00-03:00",
+     "fin": "2026-11-02T13:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T11:00:00-03:00",
+     "fin": "2026-11-09T13:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T11:00:00-03:00",
+     "fin": "2026-11-16T13:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-23T11:00:00-03:00",
+     "fin": "2026-11-23T13:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T11:00:00-03:00",
+     "fin": "2026-11-30T13:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-07T11:00:00-03:00",
+     "fin": "2026-12-07T13:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2025-12/_lab0056.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Envejecimiento activo",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "137-136",
+   "url": "https://eventos.montevideo.gub.uy/evento/envejecimiento-activo/taller-de-murga",
+   "titulo": "Taller de Murga",
+   "categoria": "taller",
+   "categoria_segura": true,
+   "descripcion_corta": "Promover el envejecimiento saludable y activo desde una perspectiva integral, desarrollando la formación y el interés por la música (murga, canto colectivo, movimiento libre, tango, candombe y percusión). Promoviendo el sentido integrador en todas las actividades, generando espacios de…",
+   "lugar": {
+    "nombre": "Cooperativa 3 de Abril",
+    "direccion": "Av. Luis Batlle Berres 5870",
+    "lat": -34.84115655034,
+    "lon": -56.257511188715
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-03T13:30:00-03:00",
+     "fin": "2026-11-03T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T13:30:00-03:00",
+     "fin": "2026-11-10T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T13:30:00-03:00",
+     "fin": "2026-11-17T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T13:30:00-03:00",
+     "fin": "2026-11-24T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T13:30:00-03:00",
+     "fin": "2026-12-01T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-08T13:30:00-03:00",
+     "fin": "2026-12-08T15:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2025-12/_lab0056.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Envejecimiento activo",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "137-135",
+   "url": "https://eventos.montevideo.gub.uy/evento/envejecimiento-activo/taller-de-murga",
+   "titulo": "Taller de Murga",
+   "categoria": "taller",
+   "categoria_segura": true,
+   "descripcion_corta": "Promover el envejecimiento saludable y activo desde una perspectiva integral, desarrollando la formación y el interés por la música (murga, canto colectivo, movimiento libre, tango, candombe y percusión). Promoviendo el sentido integrador en todas las actividades, generando espacios de…",
+   "lugar": {
+    "nombre": "Cabaña Anaya",
+    "direccion": "Lomas de Zamora esq. Luis Batlle Berres",
+    "lat": -34.817073965653,
+    "lon": -56.311527508593
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T16:00:00-03:00",
+     "fin": "2026-11-06T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T16:00:00-03:00",
+     "fin": "2026-11-13T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T16:00:00-03:00",
+     "fin": "2026-11-20T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T16:00:00-03:00",
+     "fin": "2026-11-27T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T16:00:00-03:00",
+     "fin": "2026-12-04T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-11T16:00:00-03:00",
+     "fin": "2026-12-11T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2025-12/_lab0056.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Envejecimiento activo",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "923",
+   "url": "https://eventos.montevideo.gub.uy/evento/envejecimiento-activo/taller-de-percusion-y-candombe",
+   "titulo": "Taller de percusión y candombe",
+   "categoria": "taller",
+   "categoria_segura": true,
+   "descripcion_corta": "Promover el envejecimiento saludable y activo desde una perspectiva integral, desarrollando la formación y el interés por la música, el ritmo y la expresión a través de la percusión y el candombe. Generar un espacio de encuentro, integración y socialización tanto con los integrantes del grupo como…",
+   "lugar": {
+    "nombre": "Parque de la Amistad",
+    "direccion": "Av. Gral Rivera 3245",
+    "lat": -34.902332,
+    "lon": -56.144034
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T11:00:00-03:00",
+     "fin": "2026-11-06T13:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T11:00:00-03:00",
+     "fin": "2026-11-13T13:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T11:00:00-03:00",
+     "fin": "2026-11-20T13:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T11:00:00-03:00",
+     "fin": "2026-11-27T13:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T11:00:00-03:00",
+     "fin": "2026-12-04T13:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-11T11:00:00-03:00",
+     "fin": "2026-12-11T13:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-06/20131231dicimouyem0224-4%20candombe.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Envejecimiento activo",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "943",
+   "url": "https://eventos.montevideo.gub.uy/evento/paseo-sur-palermo/paseo-sur-palermo-sabado-14-de-noviembre",
+   "titulo": "Paseo Sur Palermo",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "El Paseo Sur Palermo es una propuesta cultural abierta que invita a recorrer distintos espacios de los barrios Sur y Palermo a través del arte, la música y la participación comunitaria. En esta edición, la jornada incluirá propuestas culturales y recreativas, una feria de emprendimientos y…",
+   "lugar": {
+    "nombre": "Ansina e Isla de Flores",
+    "direccion": "Ansina e Isla de Flores",
+    "lat": -34.910662638218,
+    "lon": -56.179798565469
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-09/20250809dicimouyit9193.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Paseo Sur Palermo",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "962",
+   "url": "https://eventos.montevideo.gub.uy/evento/atlantidoc/retazos-de-la-memoria",
+   "titulo": "Retazos de la memoria",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Retazos de memoria se rodó en la Amazonía colombiana y propone una experiencia sensorial y espiritual centrada en la relación entre las comunidades y los seres, visibles e invisibles, que habitan el territorio, a través del viaje de un joven artista que experimenta una profunda transformación.",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-04T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/Retazos%20de%20la%20Memoria%20jaguar.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Atlantidoc",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "963",
+   "url": "https://eventos.montevideo.gub.uy/evento/atlantidoc/con-los-brazos-abiertos",
+   "titulo": "Con los brazos abiertos",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "El documental presenta a Pepe Mujica y Lucía Topolansky, quienes relatan su relación, su activismo, el ingreso a la clandestinidad y su vinculación con el MLN-T. También participan compañeras tupamaras, que reconstruyen la integración de las mujeres a la lucha armada y recuerdan las torturas y el…",
+   "lugar": {
+    "nombre": "Sala Lazaroff",
+    "direccion": "Av. 8 de Octubre 4849",
+    "lat": -34.855863,
+    "lon": -56.132473
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/Con%20los%20brazos%20abiertos.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Atlantidoc",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "979",
+   "url": "https://eventos.montevideo.gub.uy/evento/estreno-de-obras-fortalecimiento-de-las-artes/el-eterno-glorioso-y-mas-pequeno-circo-del-mundo",
+   "titulo": "El eterno, glorioso y más pequeño circo del mundo",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Augusta, Blanca y Stella, conocidas como las bisnietas del Tigre, cuentan la historia de una familia de circo cuyo linaje comienza con Olga, la bisabuela que, según la leyenda, se casó con un tigre. A través de sus recuerdos, reconstruyen la historia del circo criollo en Uruguay: sus artistas, sus…",
+   "lugar": {
+    "nombre": "Teatro El Galpón",
+    "direccion": "Av. 18 de Julio 1618",
+    "lat": -34.904041,
+    "lon": -56.181207
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/El%20eterno%2C%20glorioso_.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Estreno de obras Fortalecimiento de las Artes",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "981",
+   "url": "https://eventos.montevideo.gub.uy/evento/estreno-de-obras-fortalecimiento-de-las-artes/no-te-apures-luisa",
+   "titulo": "No te apures Luisa",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Un monólogo sobre el cuerpo, el deseo y la necesidad de ser aceptada. Una mirada íntima y visceral sobre lo que sucede cuando la propia imagen queda atrapada bajo la mirada de los demás. Equipo artístico y técnico: En escena: Maite Bigi. Dirección: Martín García. Dramaturgia: Analía Torres…",
+   "lugar": {
+    "nombre": "Espacio Teatro",
+    "direccion": "Mercedes 865",
+    "lat": -34.904423,
+    "lon": -56.197943
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-03T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 660.0,
+    "hasta": 660.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/No%20te%20apures%20Luisa%202.png",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Estreno de obras Fortalecimiento de las Artes",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "983",
+   "url": "https://eventos.montevideo.gub.uy/evento/estreno-de-obras-fortalecimiento-de-las-artes/un-estupido-cuento",
+   "titulo": "Un estúpido cuento",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Una joven princesa mata a su padre, el rey, y escapa del castillo con su gato. Durante la huida, atraviesa un bosque lleno de peligros, visiones y encuentros absurdos que desarman los clichés de los cuentos de hadas. Esta comedia combina humor irreverente, delirio y ternura en una historia sobre…",
+   "lugar": {
+    "nombre": "Teatro Stella D’Italia",
+    "direccion": "Mercedes 1805",
+    "lat": -34.900608,
+    "lon": -56.178207
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 700.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/Un%20est%C3%BApido%20cuento.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Estreno de obras Fortalecimiento de las Artes",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "985",
+   "url": "https://eventos.montevideo.gub.uy/evento/estreno-de-obras-fortalecimiento-de-las-artes/napas-subterraneas",
+   "titulo": "Napas subterráneas",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Este monólogo se adentra en la historia de una mujer encerrada en el depósito de su trabajo. Su encierro no es solo físico, sino también emocional. Mientras espera ser liberada, lejos del ruido exterior, la protagonista recorre distintos momentos de su vida, sus vínculos familiares, sus amistades y…",
+   "lugar": {
+    "nombre": "Teatro Circular",
+    "direccion": "Av Gral Rondeau 1388, 11100 Montevideo, Departamento de Montevideo",
+    "lat": -34.905036129982,
+    "lon": -56.191339919039
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 650.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/NAPAS%20HORIZONTAL%20-%20Miriam%20Pelegrinetti.png",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Estreno de obras Fortalecimiento de las Artes",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "998",
+   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-miercoles-4-de-noviembre",
+   "titulo": "Murga Joven",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Miércoles 4 de noviembre 20:00 h – La Coaching de la Lora 20:50 h – Mirá pa’l obol 21:40 h – Flor de Perolata 22:30 h – Se pudrió la manzana 23:20 h – Savora Moneda",
+   "lugar": {
+    "nombre": "Centro Cultural Las Duranas",
+    "direccion": "Pedro Trápani 1350 esquina Bayona.",
+    "lat": -34.854031611412,
+    "lon": -56.189780492925
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-04T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-11T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20251103dicimouyjmr1439%20%282%29.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Encuentro de Murga Joven 2026",
+   "muestra": false,
+   "hasta": null
+  }
+ ]
+}

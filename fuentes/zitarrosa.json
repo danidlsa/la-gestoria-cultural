@@ -1,0 +1,1103 @@
+{
+ "fuente": "zitarrosa",
+ "corrida": "2026-11-02T12:01:30.684643-03:00",
+ "ok": true,
+ "cantidad": 23,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "27-aniversario-de-la-sala-zitarrosa",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/27-aniversario-de-la-sala-zitarrosa/",
+   "titulo": "27° Aniversario de la Sala Zitarrosa",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "A lo largo de estos 27 años, la Sala Zitarrosa se ha consolidado como una institución cultural con una programación diversa, accesible, inclusiva e igualitaria . Un espacio de encuentro para las infancias, las mujeres, las disidencias, para artistas emergentes y consagrados, nacionales, regionales…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-03T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/27-aniversario-de-la-sala-zitarrosa/",
+     "via": "zitarrosa"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/ANIVERSARIOWEB.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "24-premios-graffiti",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/24-premios-graffiti/",
+   "titulo": "24° Premios Graffiti",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "XXIV Ceremonia de entrega de los Premios Graffiti 2026 a la música uruguaya. En estas ceremonias se entregan los principales Premios Graffiti 2026, incluido el Premio Trayectoria y los elegidos por el público en votación popular. Conduce Peke Sander. Actuarán en vivo: Miércoles 4 de noviembre…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-04T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/24-premios-graffiti/",
+     "via": "zitarrosa"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/graffiti_Mesa-de-trabajo-1.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "lucia-chappe-ciclo-marea",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/lucia-chappe-ciclo-marea/",
+   "titulo": "Lucía Chappe",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Lucia Chappe, presenta su primer disco, “Un puñado de mi ser”, dentro del Ciclo MAREA. La joven cantautora de Sarandí Grande, Florida, presenta su primer disco, una obra que reúne tradición, identidad y una mirada renovada sobre la música de raíz. Lucía Chappe, una de las nuevas voces que viene…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021646/espectaculo/Ciclo%20Marea%20-%20Luc%C3%ADa%20Chappe?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/lucia-chappe-ciclo-marea/"
+    },
+    {
+     "programa": "Club El País",
+     "tipo": "2x1",
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/lucia-chappe-ciclo-marea/"
+    }
+   ],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/09/FOTO-1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021646/espectaculo/Ciclo%20Marea%20-%20Luc%C3%ADa%20Chappe?2"
+   ],
+   "ciclo": "Ciclo MAREA",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "coro-notas-del-tesoro",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/coro-notas-del-tesoro/",
+   "titulo": "Coro Notas del Tesoro",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "El Coro Notas del Tesoro del BCU celebra su 10° aniversario con un encuentro coral muy especial. Una velada de música y emoción, con invitados internacionales y la participación especial del maestro Julio Cobelli y sus guitarras.",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/coro-notas-del-tesoro/",
+     "via": "zitarrosa"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/DSC01932.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "cine-accesibleuy",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/cine-accesibleuy/",
+   "titulo": "Cine AccesibleUY",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Cine AccesibleUy cumple una década de trabajo sostenido y colectivo. La Sala Zitarrosa tiene el agrado de invitarles a la Apertura del ciclo Cine AccesibleUY que cumple diez años de trabajo sostenido y colectivo. El ciclo es una experiencia comunitaria que invita a encontrarse y compartir el cine…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-10T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/cine-accesibleuy/",
+     "via": "zitarrosa"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/unnamed-2-1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "lucas-cary",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/lucas-cary/",
+   "titulo": "Lucas Cary presenta «La oportunidad»",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Lucas Cary llega a la Sala Zitarrosa para presentar en vivo \"La oportunidad\", su segundo trabajo discográfico. Acompañado por su banda completa e invitados especiales, el cantautor recorrerá las canciones de este nuevo álbum junto a temas de su primer disco y singles que marcaron su carrera. Será…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021471/espectaculo/Lucas%20Cary?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/09/1R5A2356.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021471/espectaculo/Lucas%20Cary?2"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "festival-de-fado-sara-correia",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/festival-de-fado-sara-correia/",
+   "titulo": "Festival de Fado – Sara Correia",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Regresa a Montevideo la mayor muestra internacional del género más popular de la canción portuguesa, con la temática “El fado y los barrios”. La nueva edición del Festival de Fado contará con la presencia de la artista Sara Correia. Sara Correia llega al Festival se Fado con el justo estatus de…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1000.0,
+    "hasta": 1600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021274/espectaculo/Festival%20Fado%20Mvd%202026?0",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/festival-de-fado-sara-correia/"
+    },
+    {
+     "programa": "Club El País",
+     "tipo": "2x1",
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/festival-de-fado-sara-correia/"
+    }
+   ],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/07/Untitled-2-21-Creditos_-Maria-Rita.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021274/espectaculo/Festival%20Fado%20Mvd%202026?0"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "natalie-perez-ciclo-marea",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/natalie-perez-ciclo-marea/",
+   "titulo": "Natalie Pérez",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Natalie Pérez presenta \"Casa\", su quinto álbum de estudio, dentreo del Ciclo MAREA de la Sala Zitarrosa. Tras un recorrido que la llevó por distintas ciudades de Argentina y consolidó la gran recepción de este nuevo repertorio en vivo, Natalie inicia un nuevo tramo de la gira con una parada…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1100.0,
+    "hasta": 1500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/alta_demanda/40021568/espectaculo/Natalie%20Perez",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/natalie-perez-ciclo-marea/"
+    },
+    {
+     "programa": "Club El País",
+     "tipo": "2x1",
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/natalie-perez-ciclo-marea/"
+    }
+   ],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/09/Natalie-Foto-de-@agustindusserre-NP-1574-2-1-copia.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/alta_demanda/40021568/espectaculo/Natalie%20Perez"
+   ],
+   "ciclo": "Ciclo MAREA",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "por-los-mas-chiquititos-3",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/por-los-mas-chiquititos-3/",
+   "titulo": "Por los más chiquititos",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Concierto Coral a total beneficio de la Fundación Álvarez Caldeyro Barcia, quienes trabajan por los niños prematuros que nacen en el Centro Hospitalario Pereira Rossell. La iniciativa nació como parte de la responsabilidad social de la Asociación Coral Cantemus y este año va por la 11 edición. En…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-17T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/por-los-mas-chiquititos-3/",
+     "via": "zitarrosa"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/imagen-PLMC-1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "el-club-de-tobi-30-anos",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/el-club-de-tobi-30-anos/",
+   "titulo": "El club de Tobi 30 años",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Celebrar los 30 años de El Club de Tobi a través de un ciclo de conciertos, pone en valor una trayectoria artística singular, caracterizada por la reinterpretación de la música popular desde un cuarteto de cuerdas y por un sostenido compromiso con la creación y la experimentación. El Club de Tobi…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021523/espectaculo/El%20club%20de%20Tobi%2030%20a%C3%B1os?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/09/SBU9522-2-1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021523/espectaculo/El%20club%20de%20Tobi%2030%20a%C3%B1os?2"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "raly-barrionuevo-el-camino-de-solgo",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/raly-barrionuevo-el-camino-de-solgo/",
+   "titulo": "Raly Barrionuevo. El camino de Solgo",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Raly Barrionuevo regresa a Montevideo para presentar su nuevo trabajo, \"El camino de Solgo\", un disco que marca su retorno a las composiciones inéditas tras un necesario período de maduración y búsqueda interna. El esperado reencuentro con el público uruguayo se materializará el 20 de noviembre en…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1200.0,
+    "hasta": 1600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021263/espectaculo/Raly%20Barrionuevo?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/raly-barrionuevo-el-camino-de-solgo/"
+    },
+    {
+     "programa": "Club El País",
+     "tipo": "2x1",
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/raly-barrionuevo-el-camino-de-solgo/"
+    }
+   ],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/08/label-plataformas-digitales.jpg-1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021263/espectaculo/Raly%20Barrionuevo?2"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "hilda-lizarazu-ciclo-marea",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/hilda-lizarazu-ciclo-marea/",
+   "titulo": "Hilda Lizarazu",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Por razones de fuerza mayor, Hilda Lizarazu posterga su gira de presentación de su nuevo disco. Debido a este cambio, el concierto previsto en la Sala Zitarrosa pasa para el sábado 21 de noviembre . La compositora y cantante argentina, referente del rock y el pop rioplatense, integró bandas como…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1800.0,
+    "hasta": 2500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020967/espectaculo/Hilda%20Lizarazu?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/06/Hilda-foto-5-1.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40020967/espectaculo/Hilda%20Lizarazu?2"
+   ],
+   "ciclo": "Ciclo MAREA",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "mujeres-de-todas-partes-ciclo-marea",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/mujeres-de-todas-partes-ciclo-marea/",
+   "titulo": "Mujeres de todas partes",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Mujeres de todas partes nació el 8M de 2025 como una canción: un homenaje y una celebración que narra, con bellas metáforas, los logros y conquistas de las mujeres a lo largo de la historia, y que reafirma el gran talento femenino que hay en Uruguay. Tras la cálida y masiva aceptación que tuvo la…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/mujeres-de-todas-partes-ciclo-marea/",
+     "via": "zitarrosa"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/mujeres-1.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo MAREA",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "julieta-laso-ciclo-marea-2",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/julieta-laso-ciclo-marea-2/",
+   "titulo": "Julieta Laso",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "La gran cantora argentina Julieta Laso presenta \"Fabriquera\" dentro del Ciclo MAREA. Julieta Laso lanza \"Fabriquera\", su nuevo álbum y el sexto en su carrera solista, producido junto al irremplazable Melingo. Con Fabriquera, Julieta Laso regresa a sus fuentes: el decir tanguero, de profundo arraigo…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1100.0,
+    "hasta": 1500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/alta_demanda/40021526/espectaculo/Julieta%20Laso",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/julieta-laso-ciclo-marea-2/"
+    },
+    {
+     "programa": "Club El País",
+     "tipo": "2x1",
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/julieta-laso-ciclo-marea-2/"
+    }
+   ],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/09/Copia-de-_12A8177.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/alta_demanda/40021526/espectaculo/Julieta%20Laso"
+   ],
+   "ciclo": "Ciclo MAREA",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "jazz-cartoons-3",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/jazz-cartoons-3/",
+   "titulo": "Jazz Cartoons",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Jazz Cartoons es uno de los espectáculos más celebrados de Paris Jazz Club y regresa en una versión renovada que reúne lo mejor de sus distintas etapas. Con música jazz en vivo, humor y proyecciones audiovisuales, el show propone un recorrido por el universo de los dibujos animados y el cine…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 1400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021445/espectaculo/Jazz%20Cartoons%20por%20Paris%20Jazz%20Club?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2023/02/ParisJazzClub_72dp_24.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021445/espectaculo/Jazz%20Cartoons%20por%20Paris%20Jazz%20Club?2"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "woody-allen-night-3",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/woody-allen-night-3/",
+   "titulo": "Woody Allen Night",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Woody Allen Night es un espectáculo multisensorial original de Paris Jazz Club donde la música, el cine y el humor se fusionan en una experiencia elegante, nostálgica y profundamente cinematográfica. A través de jazz en vivo, proyecciones visuales y monólogos, el show recorre el universo sonoro de…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 1400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021434/espectaculo/Woody%20Allen%20Night%20por%20Paris%20Jazz%20Club?0",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2023/02/ParisJazzClub_72dp_7.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021434/espectaculo/Woody%20Allen%20Night%20por%20Paris%20Jazz%20Club?0"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "pago-y-arrabal",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/pago-y-arrabal/",
+   "titulo": "Pago y arrabal",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Pago y Arrabal es un espectáculo escénico-musical que propone un encuentro entre dos de las expresiones más representativas de la identidad rioplatense: el folclore y el tango. A través de la música, el canto, la danza y la palabra, construye un recorrido artístico que pone en diálogo ambos…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-01T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 700.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021642/espectaculo/Pago%20y%20Arrabal?1",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/09/PagoArrabal_M-Ticket.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021642/espectaculo/Pago%20y%20Arrabal?1"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "coltrane-100-anos-19-fest-jazz-mvd",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/coltrane-100-anos-19-fest-jazz-mvd/",
+   "titulo": "Coltrane 100 años",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Tributo por el centenario de John Coltrane, nacido en 1926, quien fuera uno de los músicos más relevantes e influyentes de la historia del jazz, a la altura de otros artistas como Louis Armstrong, Duke Ellington, Charlie Parker y Miles Davis. Su trayectoria musical estuvo marcada por una constante…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1000.0,
+    "hasta": 1000.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021475/espectaculo/Coltrane%20100%20a%C3%B1os%20-%2019%C2%B0%20Fest%20Jazz%20MVD?2",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/08/Coltrane-1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021475/espectaculo/Coltrane%20100%20a%C3%B1os%20-%2019%C2%B0%20Fest%20Jazz%20MVD?2"
+   ],
+   "ciclo": "19° Fest Jazz Mvd",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "desiderio-lazaro-trio-19-fest-jazz-mvd",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/desiderio-lazaro-trio-19-fest-jazz-mvd/",
+   "titulo": "Desidério Lázaro Trío",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "La Embajada de Portugal en Montevideo y Camões – Instituto da Cooperação e da Língua, presentan al reconocido saxofonista de jazz de Portugal, Desidério Lázaro (1982), uno de los nombres más sólidos y versátiles de la música improvisada. El artista presentará sus últimos trabajos discográficos…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1000.0,
+    "hasta": 1000.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021476/espectaculo/Desid%C3%A9rio%20L%C3%A1zaro%20Trio%20-%2019%C2%B0%20Fest%20Jazz%20MVD?0",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/08/01H-Trio-D-@lagrima81.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021476/espectaculo/Desid%C3%A9rio%20L%C3%A1zaro%20Trio%20-%2019%C2%B0%20Fest%20Jazz%20MVD?0"
+   ],
+   "ciclo": "19° Fest Jazz Mvd",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "nuestro-canto-sin-fronteras",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/nuestro-canto-sin-fronteras/",
+   "titulo": "Nuestro canto sin fronteras",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Este espectáculo llega a su tercera edición con el objetivo de reunir y dar visibilidad a los artistas que recorren los festivales de nuestro país. La propuesta surge de la iniciativa de Nuestro Canto , programa conducido por Gustavo “Teco” Arias, y La Canción Nuestra Sin Fronteras , llevado…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 750.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021491/nuestro-canto-sin-fronteras-3era-edicion",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/Tickantel-1024x512px.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021491/nuestro-canto-sin-fronteras-3era-edicion"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "adriana-calcanhotto-ciclo-marea",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/adriana-calcanhotto-ciclo-marea/",
+   "titulo": "Adriana Calcanhotto",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "La destacada cantante y compositora brasileña Adriana Calcanhotto llega a Sala Zitarrosa en el marco del Ciclo Marea. Adriana Calcanhotto regresa a Uruguay para presentar un espectáculo en su formato más esencial: guitarra y voz. Un concierto íntimo para disfrutar su música y sensibilidad en una…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 2200.0,
+    "hasta": 3000.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/adriana-calcanhotto-ciclo-marea/",
+     "via": "zitarrosa"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/AdrianaC_LeoAversa207_DIVULGAÇÃO3-1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo MAREA",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "alejandro-balbis",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/alejandro-balbis/",
+   "titulo": "Alejandro Balbis. Milonga por vos",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Alejandro Balbis es un músico que es murguista, cantor, arreglador coral, director. Un creativo de esos de los que se espera más de lo habitual. Porque significó una luz en el firmamento de la música uruguaya. Su porte, su voz tan característica, su manera de decir, de expresar en palabras el…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-10T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1200.0,
+    "hasta": 1900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021626/espectaculo/Balbis?0",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/09/Foto-Balbis-Zitarrosa.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021626/espectaculo/Balbis?0"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "piazzolla-por-los-barrios",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/piazzolla-por-los-barrios/",
+   "titulo": "Piazzolla por los barrios",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Orquesta Filarmónica de Montevideo Director invitado: Bruno Genta Solista: Roberto Martínez del Puerto (violonchelo) Programa: Obras de Astor Piazzolla y Beatriz Lockhart ASTOR PIAZZOLLA La muerte del ángel ASTOR PIAZZOLLA Oblivion BEATRIZ LOCKHART Pieza Montevideana Nº3 ASTOR PIAZZOLLA Las…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-18T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/piazzolla-por-los-barrios/",
+     "via": "zitarrosa"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/20250519DICIMOUYIT2615.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  }
+ ]
+}

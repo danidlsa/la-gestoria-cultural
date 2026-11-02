@@ -1,0 +1,48 @@
+{
+ "fuente": "ticketmaster_uy",
+ "corrida": "2026-11-02T12:01:58.794859-03:00",
+ "ok": true,
+ "cantidad": 1,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "ticketmaster_uy",
+   "id_externo": "18386",
+   "url": "https://www.ticketmaster.uy/event/foo-fighters-live-2027-mvd",
+   "titulo": "Foo Fighters - Take Cover Tour 2027",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Centenario",
+    "direccion": "Avenida Doctor Américo Ricaldoni 1861",
+    "lat": -34.8935527,
+    "lon": -56.1525826
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-23T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.ticketmaster.uy/event/foo-fighters-live-2027-mvd",
+     "via": "ticketmaster_uy"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.getcrowder.com/images/e1da4de6-10ca-40b8-ba8f-bebf44829570-640x640foofighters.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  }
+ ]
+}
