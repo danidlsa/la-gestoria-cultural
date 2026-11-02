@@ -1,6 +1,6 @@
 # Cartelera cultural de Montevideo
 
-Teatro, música, danza y más, de todas las salas de Montevideo en un solo lugar. Todo sale de scraping automático de fuentes públicas, sin carga manual. El proyecto es sin fines de lucro.
+Teatro, música, danza y más, de todas las salas de Montevideo en un solo lugar. Está en **[lagestoriacultural.uy](https://lagestoriacultural.uy)**. Todo sale de scraping automático de fuentes públicas, sin carga manual. El proyecto es sin fines de lucro.
 
 - [docs/diseno.md](docs/diseno.md): modelo de datos, pipeline, almacenamiento y seguridad.
 - [docs/que-es-la-gestoria.md](docs/que-es-la-gestoria.md): el texto de la pestaña "¿Qué es La Gestoría?" de la web.
