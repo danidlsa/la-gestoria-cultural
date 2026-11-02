@@ -9,6 +9,9 @@ __pycache__/
 /datos/
 /sitio_generado/
 
+# El histórico privado (un clon de otro repo): nunca va en este repo público.
+/historico/
+
 # Investigación de fuentes: queda solo en el equipo, no se publica.
 /docs/fuentes.md
 

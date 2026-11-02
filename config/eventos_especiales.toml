@@ -1,4 +1,5 @@
 # Eventos especiales: jornadas de una vez por año con muchas actividades a la vez.
+# `sitio` no se muestra en la web (varios no eran el sitio correcto): solo va en el aviso interno, para revisar.
 # La pestaña "Especiales" muestra cada uno con su próxima fecha y, cuando aparece el programa en las fuentes,
 # con sus actividades. Un mes antes, si todavía no hay nada, GitHub Actions abre un issue para avisar.
 #

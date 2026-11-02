@@ -22,8 +22,10 @@ LUGAR = LugarCrudo(
 )
 LISTADOS_EXPOSICIONES = ["/cms.php?id=expos&t=2", "/cms.php?id=expos&t=3"]  # actuales y próximas
 ACTIVIDADES = "/cms.php?id=actividades"
+# Cada ítem es un enlace con su título y su fecha adentro. Lo de en medio no puede cerrar el enlace: si no, el primer
+# ítem se quedaba con el enlace del menú del sitio ("Juegos") que está antes de la lista.
 _ITEM = re.compile(
-    r'<a href="/?(cms\.php\?id=[^"]+)"[^>]*>.*?<p class="w-ccc[^>]*>(.*?)</p>\s*<p class="w-cc[^>]*>(.*?)</p>', re.S,
+    r'<a href="/?(cms\.php\?id=[^"]+)"[^>]*>(?:(?!</a>).)*?<p class="w-ccc[^>]*>(.*?)</p>\s*<p class="w-cc[^>]*>(.*?)</p>', re.S,
 )
 _FECHA = re.compile(r"(\d{1,2}) de ([a-z]+),? (\d{4})")
 _HORA = re.compile(r"(\d{1,2})[:.](\d{2})\s*h")

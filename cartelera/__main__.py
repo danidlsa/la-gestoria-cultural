@@ -4,6 +4,7 @@
     python -m cartelera unificar                arma datos/eventos.json y datos/lugares.json
     python -m cartelera sitio                   genera la web en sitio_generado/
     python -m cartelera avisos [--github]       eventos especiales que se acercan sin programa (con --github, abre issues)
+    python -m cartelera historico --dir DIR     suma la cartelera al histórico privado (--reconstruir: desde la rama datos)
 """
 
 import argparse
@@ -24,6 +25,9 @@ def main() -> int:
     scrapear.add_argument("--donde", choices=["actions", "local"], help="filtra por config/fuentes.toml")
     comandos.add_parser("unificar")
     comandos.add_parser("sitio")
+    historico = comandos.add_parser("historico")
+    historico.add_argument("--dir", required=True, type=Path, help="el clon del repo privado del histórico")
+    historico.add_argument("--reconstruir", action="store_true", help="repasa todas las fotos de la rama datos (una sola vez)")
     avisos = comandos.add_parser("avisos")
     avisos.add_argument("--github", action="store_true", help="abre un issue por aviso (necesita gh y GH_TOKEN)")
     args = parser.parse_args()
@@ -52,6 +56,14 @@ def main() -> int:
     if args.comando == "sitio":
         from cartelera.sitio.generar import generar
         generar()
+        return 0
+    if args.comando == "historico":
+        from cartelera import historico as h
+        if args.reconstruir:
+            pasos = h.reconstruir_desde_git(args.dir)
+            logging.info("historico: %s fotos repasadas; en curso %s", len(pasos), pasos[-1]["en_curso"] if pasos else 0)
+        else:
+            logging.info("historico: %s", h.desde_datos(args.dir))
         return 0
     if args.comando == "avisos":
         from cartelera.especiales import avisar

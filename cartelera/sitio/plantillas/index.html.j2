@@ -220,7 +220,6 @@
           {%- else %}
           <p class="especial-sin-programa">Todavía no hay programa. Suele ser {{ e.cuando }}: cuando se publique, las actividades aparecen acá.</p>
           {%- endif %}
-          <a class="especial-sitio" href="{{ e.sitio }}" target="_blank" rel="noopener">Sitio oficial ↗</a>
         </article>
         {%- endfor %}
       </section>
@@ -312,14 +311,21 @@
               {%- set precio = evento.precio|precio_texto %}
               {%- if precio %}<span class="precio">{{ precio }}</span>{% endif %}
               {%- set promos = evento|promos_ordenadas %}
+              {#- En la compu se ven dos promos y "+N" con el resto; en el celular (tarjetas en lista), una y "+N".
+                  La segunda está dos veces: a la vista en la compu y adentro del desplegable en el celular. #}
               {%- for beneficio in promos[:promos_visibles] %}
-              <span class="beneficio">{{ beneficio_texto(beneficio) }}</span>
+              <span class="beneficio{{ ' solo-compu' if loop.index > 1 }}">{{ beneficio_texto(beneficio) }}</span>
               {%- endfor %}
-              {%- if promos|length > promos_visibles %}
-              <details class="mas-promos">
-                <summary>+{{ promos|length - promos_visibles }} promo{{ "s" if promos|length - promos_visibles > 1 }}</summary>
-                {%- for beneficio in promos[promos_visibles:] %}
-                <span class="beneficio">{{ beneficio_texto(beneficio) }}</span>
+              {%- if promos|length > 1 %}
+              {%- set resto_compu = promos|length - promos_visibles %}
+              {%- set resto_celular = promos|length - 1 %}
+              <details class="mas-promos{{ ' solo-celular' if resto_compu < 1 }}">
+                <summary>
+                  {%- if resto_compu > 0 %}<span class="solo-compu">+{{ resto_compu }} promo{{ "s" if resto_compu > 1 }}</span>{% endif -%}
+                  <span class="solo-celular">+{{ resto_celular }} promo{{ "s" if resto_celular > 1 }}</span>
+                </summary>
+                {%- for beneficio in promos[1:] %}
+                <span class="beneficio{{ ' solo-celular' if loop.index < promos_visibles }}">{{ beneficio_texto(beneficio) }}</span>
                 {%- endfor %}
               </details>
               {%- endif %}

@@ -34,8 +34,11 @@ def test_mnav_exposiciones_proximas_y_actividades(pagina, ahora):
     assert [(e.titulo, e.hasta, e.funciones[0].inicio.date()) for e in exposiciones][:1] == [
         ("El Misterio - Linda Kohen", date(2027, 4, 4), date(2026, 11, 28)),
     ]
+    # Cada uno con su enlace, no con el del menú del sitio que está antes de la lista.
+    assert exposiciones[0].url.endswith("id=kohen2026") and exposiciones[0].imagen_url.endswith("p=kohen2026")
     actividades = [e for item in mnav.leer_listado(pagina("mnav_actividades.html")) if (e := mnav.armar_actividad(*item, ahora))]
     taller = actividades[0]
+    assert "juegos" not in taller.url
     assert (taller.categoria, taller.funciones[0].inicio.isoformat()) == ("taller", "2026-11-04T16:30:00-03:00")
 
 

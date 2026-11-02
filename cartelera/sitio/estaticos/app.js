@@ -105,7 +105,7 @@
     periodo: "todo", dia: null, categoria: "", etiqueta: "", sub: "",
     presupuesto: "", programa: "", sala: "", ciclo: "", texto: "", excluir: [],
   };
-  let estado = { seccion: "agenda", mes: hoy.slice(0, 7), planMes: sumarMeses(hoy.slice(0, 7), 1), ...FILTROS_INICIALES };
+  let estado = { seccion: "agenda", mes: hoy.slice(0, 7), planMes: hoy.slice(0, 7), ...FILTROS_INICIALES };
 
   // Etiquetas que cruzan rubros: se filtran y se excluyen como un tipo más.
   const NOMBRE_ETIQUETA = { festival: "Festivales", museo: "Museos" };
@@ -508,12 +508,15 @@
   // --- Planeá tu mes: un calendario que se va llenando con lo que elegís -----------------------
   function opcionesDelMes() {
     // { dia: Map(id -> [funciones]) } con lo que cumple los filtros en el mes del plan.
+    // Solo lo que todavía no empezó: los días pasados no, y de hoy, las funciones con hora que ya arrancaron tampoco.
     const porDia = new Map();
+    const ahora = Date.now();
     for (const evento of eventos) {
       if (!coincide(evento)) continue;
       for (const funcion of evento.funciones) {
         const dia = funcion[0].slice(0, 10);
         if (!dia.startsWith(estado.planMes) || dia < hoy) continue;
+        if (dia === hoy && !funcion[1] && Date.parse(funcion[0]) < ahora) continue;
         if (!porDia.has(dia)) porDia.set(dia, new Map());
         const delDia = porDia.get(dia);
         if (!delDia.has(evento.id)) delDia.set(evento.id, []);

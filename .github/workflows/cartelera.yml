@@ -23,6 +23,9 @@ jobs:
       contents: write  # para guardar en la rama datos
       issues: write    # para avisar de un evento especial que se acerca sin programa
     timeout-minutes: 45
+    env:
+      # El histórico privado (cartelera/historico.py) se guarda solo si están cargados la llave y el nombre del repo.
+      TIENE_HISTORICO: ${{ secrets.HISTORICO_SSH_KEY != '' && vars.HISTORICO_REPO != '' }}
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09  # v5.1.0
         with:
@@ -89,6 +92,33 @@ jobs:
             fi
             git push -q origin HEAD:datos
           fi
+
+      # Histórico para investigación: cada evento que ya pasó, en un repo privado aparte. Escribe con una deploy key
+      # que sirve solo para ese repo (secreto HISTORICO_SSH_KEY); la llave de GitHub va fijada, no se pregunta.
+      - name: Guardar el histórico (repo privado)
+        if: env.TIENE_HISTORICO == 'true'
+        continue-on-error: true
+        env:
+          HISTORICO_SSH_KEY: ${{ secrets.HISTORICO_SSH_KEY }}
+          HISTORICO_REPO: ${{ vars.HISTORICO_REPO }}
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$HISTORICO_SSH_KEY" > ~/.ssh/historico && chmod 600 ~/.ssh/historico
+          echo "github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl" > ~/.ssh/github_known_hosts
+          export GIT_SSH_COMMAND="ssh -i ~/.ssh/historico -o IdentitiesOnly=yes -o UserKnownHostsFile=~/.ssh/github_known_hosts"
+          git clone -q --depth 1 "git@github.com:${HISTORICO_REPO}.git" historico
+          uv run python -m cartelera historico --dir historico
+          cd historico
+          git config user.name "cartelera-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Sin cambios en el histórico."
+          else
+            git commit -q -m "Histórico $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push -q origin HEAD
+          fi
+          rm -f ~/.ssh/historico
 
       - name: Generar la web
         run: uv run python -m cartelera sitio

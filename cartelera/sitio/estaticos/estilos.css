@@ -306,6 +306,8 @@ select {
 .mas-promos summary { cursor: pointer; list-style: none; font-size: 0.78rem; font-weight: 700; color: var(--cobalto-texto); text-decoration: underline; text-underline-offset: 3px; min-height: 24px; display: inline-flex; align-items: center; }
 .mas-promos summary::-webkit-details-marker { display: none; }
 .mas-promos[open] summary { display: none; }
+/* Lo que se ve solo en la compu o solo en el celular (ver las promos de la tarjeta y la media query de 600 px). */
+.solo-celular, .mas-promos.solo-celular { display: none; }
 .via { margin: auto 0 0; padding-top: 10px; font-size: 0.88rem; display: flex; flex-wrap: wrap; gap: 4px 12px; }
 .via a { color: var(--cobalto-texto); font-weight: 700; text-decoration: none; }
 .via a:hover { text-decoration: underline; }
@@ -331,9 +333,8 @@ select {
 .especial-programa summary { cursor: pointer; font-weight: 700; color: var(--coral-texto); padding: 4px 0; }
 .especial-programa ul { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 6px; font-size: 0.92rem; }
 .especial-cuando { display: inline-block; min-width: 6.5em; font-weight: 700; font-size: 0.85rem; }
-.especial-programa a, .especial-sitio { color: var(--cobalto-texto); font-weight: 600; text-underline-offset: 3px; }
+.especial-programa a { color: var(--cobalto-texto); font-weight: 600; text-underline-offset: 3px; }
 .especial-lugar { color: var(--texto-suave); }
-.especial-sitio { margin-top: 6px; align-self: flex-start; }
 .vacio p { font: 800 1.3rem var(--display); margin: 0 0 12px; }
 .vacio button { background: var(--coral); color: var(--tinta); }
 .pie-pagina { color: var(--texto-suave); font-size: 0.85rem; padding-top: 14px; padding-bottom: 40px; border-top: 2px dashed color-mix(in srgb, var(--texto) 30%, transparent); }
@@ -636,8 +637,12 @@ button.pc-numero { border: 0; background: none; padding: 0; color: inherit; text
   .evento h3 { font-size: 1.02rem; }
   .lugar, .cuando, .ciclo { font-size: 0.85rem; }
   .pie { margin-top: 4px; }
-  /* En la lista: una sola promo a la vista, y el enlace de entradas queda en el título (lleva al mismo lugar). */
-  .pie > .beneficio ~ .beneficio, .pie .mas-promos { display: none; }
+  /* En la lista, el enlace de entradas queda en el título (lleva al mismo lugar), y de las promos se ve una y
+     "+N promos" para desplegar el resto: la tarjeta no crece. */
+  .pie .solo-compu { display: none; }
+  .pie .solo-celular { display: inline; }
+  .pie .beneficio.solo-celular { display: inline-block; }
+  .mas-promos.solo-celular { display: contents; }
   /* "+ Mi plan" va en la misma fila que el precio, a la derecha; la fila existe aunque no haya precio. */
   .cuerpo { position: relative; }
   .pie { min-height: 34px; padding-right: 146px; }
