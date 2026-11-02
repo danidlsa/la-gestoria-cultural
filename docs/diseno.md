@@ -206,6 +206,11 @@ Una vez por día, el programador de tareas del equipo ejecuta código **de este 
 - **El texto de "¿Qué es La Gestoría?"** solo admite enlaces web, de mail o internos.
 - **Workflows con permisos mínimos**: nada por defecto; el trabajo que actualiza los datos puede escribir en el repo y el que publica, solo en Pages. El código se baja sin dejar la credencial guardada (`persist-credentials: false`).
 - **Actions de terceros fijadas a un commit exacto** (con la versión en un comentario): una versión nueva o comprometida no entra sola. Para actualizarlas, se cambia el hash a mano.
+- **Política de contenido (CSP)** en las dos páginas: solo corre código del propio sitio y Leaflet; ningún script ni manejador en línea (el tema inicial va en `tema-inicio.js` y los flyers rotos se sacan con un manejador en `app.js`). Las imágenes, solo por `https`. GitHub Pages no deja poner cabeceras: la política va en una etiqueta `<meta>`.
+- **Leaflet con verificación de integridad** (`integrity`, sha512, el mismo hash que publica cdnjs): si el archivo del CDN cambiara, el navegador no lo usa.
+- **Tipografías servidas desde el propio sitio** (`estaticos/fuentes/`, licencia SIL OFL incluida): las visitas no le pasan su IP a Google.
+- **Los scrapers respetan `robots.txt`** en cada pedido, incluido el `Crawl-delay` (los sitios de la IM piden 10 segundos), con una pausa mínima de 1 segundo por sitio. Revisado a mano el 2/11/2026: ninguna de las URLs que se leen está bloqueada.
+- **Privacidad y fuentes**: "¿Qué es?" tiene una sección de privacidad (sin cookies ni medición; lo elegido queda en el navegador; qué terceros intervienen; el formulario de contacto), la atribución de OpenStreetMap (ODbL, también para `lugares.json`) y la oferta de sacar algo si una fuente lo pide. Solo WhatsApp lleva su ícono de marca: Apple no permite usar su logo y Google pide permiso.
 - **Nada personal en el repo**: no hay claves ni tokens (las fuentes son públicas y Wikidata, Nominatim y OpenStreetMap no piden key), y la prueba de conectividad informa solo el país de la IP, no la IP.
 
 ### Cómo está armado

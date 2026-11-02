@@ -16,7 +16,7 @@ class BloqueadoPorRobots(Exception):
 
 
 class Cliente:
-    """Hace pedidos GET respetando robots.txt y una pausa mínima entre pedidos al mismo sitio."""
+    """Hace pedidos respetando robots.txt y una pausa entre pedidos al mismo sitio (como mínimo, su Crawl-delay)."""
 
     def __init__(self, pausa: float = 1.0, reintentos: int = 2, timeout: float = 25.0):
         self.pausa = pausa
@@ -51,9 +51,16 @@ class Cliente:
         parser = self._robots[sitio]
         return parser is None or parser.can_fetch(USER_AGENT, url)
 
+    def _pausa_de(self, url: str) -> float:
+        """La pausa entre pedidos al sitio: la nuestra o la que pide su robots.txt (Crawl-delay), la mayor."""
+        partes = urlsplit(url)
+        parser = self._robots.get(f"{partes.scheme}://{partes.netloc}")
+        pedida = parser.crawl_delay(USER_AGENT) if parser else None
+        return max(self.pausa, float(pedida or 0))
+
     def _esperar_turno(self, url: str) -> None:
         host = urlsplit(url).netloc
-        espera = self._ultimo_pedido.get(host, 0) + self.pausa - time.monotonic()
+        espera = self._ultimo_pedido.get(host, 0) + self._pausa_de(url) - time.monotonic()
         if espera > 0:
             time.sleep(espera)
         self._ultimo_pedido[host] = time.monotonic()

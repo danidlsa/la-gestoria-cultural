@@ -1,3 +1,15 @@
+/* Tipografías servidas desde el propio sitio (no desde Google): ninguna visita le pasa su IP a terceros por esto.
+   Licencia SIL Open Font License 1.1, ver fuentes/OFL-*.txt. Son variables: un archivo cubre todos los pesos. */
+@font-face {
+  font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 600 800; font-display: swap;
+  src: url("fuentes/bricolage-grotesque-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "DM Sans"; font-style: normal; font-weight: 400 700; font-display: swap;
+  src: url("fuentes/dm-sans-latin.woff2") format("woff2");
+}
+.copia-oculta { position: fixed; opacity: 0; }
+
 /* La Gestoría Cultural · paleta: cobalto, mostaza, coral, crema y tinta. */
 :root {
   --cobalto: #3256A8;
@@ -109,6 +121,8 @@ h1 span {
 .que-es a { color: var(--cobalto-texto); font-weight: 600; text-underline-offset: 3px; }
 .que-es p:last-child { font-weight: 700; }
 .que-es-fuentes { max-width: 680px; margin: -30px auto 60px; padding: 4px 30px; color: var(--texto-suave); line-height: 1.6; }
+.que-es-fuentes + .que-es-fuentes { margin-top: -40px; }
+.que-es-fuentes a { color: var(--cobalto-texto); font-weight: 600; text-underline-offset: 3px; }
 .que-es-fuentes h2 { font: 800 1.15rem var(--display); color: var(--texto); margin-bottom: 4px; }
 @media (max-width: 600px) { .que-es { padding: 20px 18px; margin-top: 22px; } }
 

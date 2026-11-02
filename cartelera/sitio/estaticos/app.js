@@ -20,6 +20,12 @@
     return nodo;
   }
 
+  // Un flyer que no carga (la fuente lo borró o cambió) se saca y queda el fondo con el tipo de evento.
+  // El evento "error" de una imagen no burbujea: se escucha en la fase de captura.
+  document.addEventListener("error", (e) => {
+    if (e.target instanceof HTMLImageElement && e.target.closest(".flyer")) e.target.remove();
+  }, true);
+
   const plano = (texto) => (texto || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
   const plural = (n, palabra) => `${n} ${palabra}${n === 1 ? "" : "s"}`;
   const mayuscula = (texto) => texto.charAt(0).toUpperCase() + texto.slice(1);
@@ -424,9 +430,16 @@
 
   function cargarLeaflet() {
     if (window.L) return Promise.resolve();
-    document.head.appendChild(el("link", { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" }));
+    // Con su hash (integrity): si el archivo del CDN cambiara, el navegador no lo usa.
+    document.head.appendChild(el("link", {
+      rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css", crossorigin: "anonymous",
+      integrity: "sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw==",
+    }));
     return new Promise((resolver, rechazar) => {
-      const script = el("script", { src: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" });
+      const script = el("script", {
+        src: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js", crossorigin: "anonymous",
+        integrity: "sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g==",
+      });
       script.onload = resolver;
       script.onerror = rechazar;
       document.head.appendChild(script);
@@ -819,7 +832,7 @@
       await navigator.clipboard.writeText(texto);
     } catch (_) {
       // Navegadores sin permiso de portapapeles: se copia desde un campo de texto temporal.
-      const campo = el("textarea", { readonly: "", style: "position:fixed;opacity:0" });
+      const campo = el("textarea", { readonly: "", class: "copia-oculta" });
       campo.value = texto;
       document.body.appendChild(campo);
       campo.select();
