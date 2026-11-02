@@ -160,6 +160,19 @@
           <button type="button" data-periodo="todo" class="activo">Todo</button>
         </div>
       </div>
+      <!-- Bienvenida: solo la primera vez, en la Agenda. Al cerrarla queda guardado en el navegador. -->
+      <aside class="bienvenida" id="bienvenida" aria-labelledby="bienvenida-titulo" hidden>
+        <div>
+          <h2 id="bienvenida-titulo">¿Primera vez acá?</h2>
+          <ul>
+            <li><span aria-hidden="true">📅</span> <span>Mirá qué hay y filtrá por tipo de evento o precio.</span></li>
+            <li><span aria-hidden="true">✦</span> <span>En <strong>Planeá tu mes</strong> armás tu agenda y la pasás a tu calendario o a WhatsApp.</span></li>
+            <li><span aria-hidden="true">🗺️</span> <span>Explorá otras opciones como <strong>Mapa</strong>, <strong>Gratis</strong> y <strong>Promos</strong>.</span></li>
+            <li><span aria-hidden="true">🎟️</span> <span>Cada evento te lleva a su fuente para sacar entradas.</span></li>
+          </ul>
+        </div>
+        <button type="button" class="quitar" data-cerrar-bienvenida aria-label="Cerrar la bienvenida">×</button>
+      </aside>
       <div class="intro" id="intro" hidden></div>
       <div class="barra" id="barra">
         <p class="resumen" id="resumen" aria-live="polite"></p>

@@ -181,6 +181,16 @@ select {
 .cal-dia:not(:disabled):hover { transform: translate(-1px, -1px); box-shadow: 2px 2px 0 var(--sombra); }
 
 /* --- Resultados ------------------------------------------------------------------------------ */
+.bienvenida {
+  display: flex; align-items: flex-start; gap: 12px; margin-bottom: 18px; padding: 14px 16px;
+  background: var(--superficie); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 5px 5px 0 var(--coral);
+}
+.bienvenida > div { flex: 1; min-width: 0; }
+.bienvenida h2 { margin: 0 0 6px; font: 800 1.2rem var(--display); }
+.bienvenida ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 0.95rem; }
+.bienvenida li { display: grid; grid-template-columns: 1.6em 1fr; }
+.bienvenida a { color: var(--cobalto-texto); font-weight: 700; white-space: nowrap; text-underline-offset: 3px; }
+.bienvenida .quitar { flex: none; }
 .intro {
   background: var(--mostaza); color: var(--tinta); border: 2px solid var(--borde); border-radius: var(--radio);
   box-shadow: 5px 5px 0 var(--sombra); padding: 14px 18px; margin-bottom: 18px;

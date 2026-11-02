@@ -115,6 +115,18 @@
     try { localStorage.setItem(CLAVE_EXCLUIR, JSON.stringify(estado.excluir)); } catch (_) { /* idem */ }
   }
 
+  // Bienvenida de la primera visita: se muestra hasta que se cierra.
+  const CLAVE_BIENVENIDA = "lgc-bienvenida";
+  let bienvenidaVista = false;
+  try { bienvenidaVista = localStorage.getItem(CLAVE_BIENVENIDA) === "vista"; } catch (_) { /* sin almacenamiento: se muestra cada vez */ }
+
+  function cerrarBienvenida() {
+    bienvenidaVista = true;
+    document.getElementById("bienvenida").hidden = true;
+    try { localStorage.setItem(CLAVE_BIENVENIDA, "vista"); } catch (_) { /* idem */ }
+    document.getElementById("resultados").focus({ preventScroll: true });
+  }
+
   function diasDelPeriodo() {
     if (estado.periodo === "dia") return [estado.dia];
     if (estado.periodo === "hoy") return [hoy];
@@ -988,6 +1000,7 @@
     // En el plan, el mes se elige en el calendario grande; el chico del costado sobra.
     document.getElementById("campo-fecha").hidden = enPlan;
     if (!enPlan) dibujarCalendario();
+    document.getElementById("bienvenida").hidden = bienvenidaVista || estado.seccion !== "agenda";
     document.getElementById("mapa").hidden = !enMapa;
     document.getElementById("mapa-leyenda").hidden = !enMapa;
     document.getElementById("plan").hidden = !enPlan;
@@ -1054,7 +1067,8 @@
     const boton = evento.target.closest("button");
     if (!boton || boton.disabled) return;
     const d = boton.dataset;
-    if (d.plegarCarril) {
+    if ("cerrarBienvenida" in d) cerrarBienvenida();
+    else if (d.plegarCarril) {
       const seccion = boton.closest(".carril");
       const plegado = seccion.classList.toggle("plegado");
       if (plegado) carrilesPlegados.add(d.plegarCarril);
