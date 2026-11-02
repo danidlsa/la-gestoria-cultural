@@ -1,10 +1,295 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-01T13:23:13.829475-03:00",
+ "corrida": "2026-11-01T21:59:01.777663-03:00",
  "ok": true,
- "cantidad": 75,
+ "cantidad": 80,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18341",
+   "url": "https://beneficios.ladiaria.com.uy/pulmones/",
+   "titulo": "Pulmones",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Una conversación de toda la vida. Una pregunta que da origen a los deseos y miedos de una pareja. Pulmones de Duncan Macmillan, es una historia vertiginosa, divertida y profundamente conmovedora sobre el amor, el paso del tiempo y esas decisiones que pueden cambiar para siempre la vida de dos…",
+   "lugar": {
+    "nombre": "Complejo Cultural Politeama – Sala Atahualpa del Cioppo",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 940.0,
+    "hasta": 940.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021640/pulmones",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/pulmones/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021640/pulmones"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18366",
+   "url": "https://beneficios.ladiaria.com.uy/particulas-sofia-alvez-animales-de-poder/",
+   "titulo": "PARTÍCULAS: Sofía Alvez & Animales de Poder",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Sofía Alvez y Animales de Poder cierran PARTÍCULAS con dos propuestas que expanden la canción desde universos propios. La música popular uruguaya y latinoamericana funciona como territorio de encuentro para proyectos que atraviesan y experimentan con diferentes sonoridades, construyendo desde la…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021756/particulas-sofia-alvez-animales-de-poder",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/particulas-sofia-alvez-animales-de-poder/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021756/particulas-sofia-alvez-animales-de-poder"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18363",
+   "url": "https://beneficios.ladiaria.com.uy/particulas-miel-malapraxxis-2/",
+   "titulo": "PARTÍCULAS: Miel & Malapraxxis",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "MIEL y Malapraxxis reúnen dos voces de la escena contemporánea uruguaya que encuentran en la palabra un territorio central de creación. Desde recorridos y lenguajes diferentes, sus propuestas atraviesan el rap, el hip hop, la improvisación, la canción y la performance, trazando un diálogo entre…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-17T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021755/particulas-ninguna-higuera-guadalupe-calzada",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/particulas-miel-malapraxxis-2/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021755/particulas-ninguna-higuera-guadalupe-calzada"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18360",
+   "url": "https://beneficios.ladiaria.com.uy/particulas-lucia-romero-isabella-acerenza-2/",
+   "titulo": "PARTÍCULAS: Lucía Romero & Isabella Acerenza",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Lucía Romero e Isabella Acerenza presentan un show de canciones propias centrado en la voz y la poética de la canción latinoamericana, en diálogo con el pop y la fusión. Ambas, sostenidas por sus bandas, abrirán un viaje sonoro que transita entre la intimidad y la intensidad. Un recorrido por sus…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-03T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021754/particulas-lucia-romero-isabella-acerenza",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/particulas-lucia-romero-isabella-acerenza-2/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021754/particulas-lucia-romero-isabella-acerenza"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18355",
+   "url": "https://beneficios.ladiaria.com.uy/particulas-ninguna-higuera-guadalupe-romero/",
+   "titulo": "PARTÍCULAS: Ninguna Higuera & Guadalupe Romero",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Ninguna Higuera y Guadalupe Calzada se encuentran en una fecha atravesada por la canción, la composición y las distintas vertientes de la música popular uruguaya y latinoamericana. Dos universos que parten de la palabra y la búsqueda autoral para construir paisajes sonoros propios. Ninguna Higuera…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-10T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021755/particulas-ninguna-higuera-guadalupe-calzada",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/particulas-ninguna-higuera-guadalupe-romero/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021755/particulas-ninguna-higuera-guadalupe-calzada"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "ladiaria",
    "id_externo": "18350",

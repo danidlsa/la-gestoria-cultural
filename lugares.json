@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-01T13:31:32.705882-03:00",
- "cantidad": 137,
+ "generado": "2026-11-01T22:06:48.357593-03:00",
+ "cantidad": 136,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -537,12 +537,10 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu",
-   "nombre": "LATU",
-   "alias": [
-    "LATU - Laboratorio Tecnológico del Uruguay"
-   ],
-   "direccion": "Carrasco, Montevideo",
+   "id": "latu-laboratorio-tecnologico-del-uruguay",
+   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
+   "alias": [],
+   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "ciudad": "Montevideo"
@@ -784,15 +782,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "parque-de-la-amistad",
-   "nombre": "Parque de la Amistad",
-   "alias": [],
-   "direccion": "Av.Gral Rivera 3245, 11300 Montevideo, D",
-   "lat": -34.902273,
-   "lon": -56.144214,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "planetario-municipal-villa-dolores",
    "nombre": "Planetario Municipal (Villa Dolores)",
    "alias": [],
@@ -811,14 +800,14 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "plaza-independencia-846",
-   "nombre": "Plaza Independencia 846",
+   "id": "plaza-independencia",
+   "nombre": "Plaza Independencia",
    "alias": [
-    "Plaza Independencia"
+    "Plaza Independencia 846"
    ],
-   "direccion": "Pl. Independencia 846, 11100 Montevideo,",
-   "lat": -34.906706,
-   "lon": -56.198496,
+   "direccion": "Pl. Independencia, Montevideo, Departame",
+   "lat": -34.907017,
+   "lon": -56.199716,
    "ciudad": "Montevideo"
   },
   {
@@ -1201,12 +1190,11 @@
    "id": "teatro-de-la-candela",
    "nombre": "Teatro de la Candela",
    "alias": [
-    "Teatro La Candela",
-    "Teatro la Candela"
+    "Teatro La Candela"
    ],
    "direccion": "José Ellauri 308",
-   "lat": -34.924108,
-   "lon": -56.160073,
+   "lat": -34.9240642,
+   "lon": -56.1601433,
    "ciudad": "Montevideo"
   },
   {
@@ -1231,9 +1219,9 @@
    "id": "teatron",
    "nombre": "Teatrón",
    "alias": [],
-   "direccion": "Av.Gral Rivera 3406, 11300 Montevideo, D",
-   "lat": -34.902037,
-   "lon": -56.140804,
+   "direccion": "Av.Gral Rivera 3406",
+   "lat": -34.902048,
+   "lon": -56.140795,
    "ciudad": "Montevideo"
   },
   {
