@@ -1,6 +1,6 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-02T12:39:34.668597-03:00",
+ "corrida": "2026-11-02T13:38:53.775069-03:00",
  "ok": true,
  "cantidad": 130,
  "errores": [],
@@ -2977,45 +2977,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40020967",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020967/hilda-lizarazu",
-   "titulo": "Hilda Lizarazu",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Hilda Lizarazu llega a Montevideo estrenando nuevo disco y repasando todos los clásicos. La artista se presenta para disfrutar de una noche llena de Pop y Rock and Roll. Duración del show: 90 minutos",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": -34.90626,
-    "lon": -56.19441
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020967/hilda-lizarazu",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020967/hilda700x390_copia_4-100.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021134",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
    "titulo": "Buenos Muchachos",
@@ -3046,6 +3007,45 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021134/BANNER_BM.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40020967",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020967/hilda-lizarazu",
+   "titulo": "Hilda Lizarazu",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Hilda Lizarazu llega a Montevideo estrenando nuevo disco y repasando todos los clásicos. La artista se presenta para disfrutar de una noche llena de Pop y Rock and Roll. Duración del show: 90 minutos",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020967/hilda-lizarazu",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020967/hilda700x390_copia_4-100.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

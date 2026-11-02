@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-02T12:55:55.872239-03:00",
- "cantidad": 15,
+ "generado": "2026-11-02T13:47:48.992916-03:00",
+ "cantidad": 17,
  "ciclos": [
   {
    "id": "ciclo-envejecimiento-activo",
@@ -59,6 +59,14 @@
    "cantidad": 6
   },
   {
+   "id": "ciclo-musica-en-el-parque",
+   "titulo": "Música en el Parque",
+   "lugar_id": null,
+   "desde": "2026-11-07T16:00:00-03:00",
+   "hasta": "2026-11-29T16:00:00-03:00",
+   "cantidad": 4
+  },
+  {
    "id": "ciclo-tmc",
    "titulo": "TMC",
    "lugar_id": "auditorio-vaz-ferreira",
@@ -81,6 +89,14 @@
    "desde": "2026-11-14T16:00:00-03:00",
    "hasta": "2026-11-14T16:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-sabados-en-ciudad-vieja",
+   "titulo": "Sábados en Ciudad Vieja",
+   "lugar_id": "ciudad-vieja",
+   "desde": "2026-11-21T10:00:00-03:00",
+   "hasta": "2026-12-19T10:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-candlelight",

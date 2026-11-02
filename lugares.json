@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-02T12:55:55.872239-03:00",
- "cantidad": 142,
+ "generado": "2026-11-02T13:47:48.992916-03:00",
+ "cantidad": 150,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -193,6 +193,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "cabildo-de-montevideo",
+   "nombre": "Cabildo de Montevideo",
+   "alias": [],
+   "direccion": "Juan Carlos Gómez 1362",
+   "lat": -34.90653,
+   "lon": -56.20278,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "carrasco-lawn-tennis-club",
    "nombre": "Carrasco Lawn Tennis Club",
    "alias": [],
@@ -276,6 +285,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "centro-de-exposiciones-subte",
+   "nombre": "Centro de Exposiciones Subte",
+   "alias": [],
+   "direccion": "Plaza Fabini",
+   "lat": -34.90563,
+   "lon": -56.19423,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "cine-universitario-del-uruguay",
    "nombre": "Cine Universitario del Uruguay",
    "alias": [],
@@ -294,6 +312,15 @@
    "direccion": "Bartolomé Mitre 1236",
    "lat": -34.908515,
    "lon": -56.2008552,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "ciudad-vieja",
+   "nombre": "Ciudad Vieja",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9064152,
+   "lon": -56.2069339,
    "ciudad": "Montevideo"
   },
   {
@@ -555,6 +582,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "jardin-botanico",
+   "nombre": "Jardín Botánico",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.8593556,
+   "lon": -56.2004612,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "kibon-avanza",
    "nombre": "Kibón Avanza",
    "alias": [],
@@ -684,6 +720,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "miguelete-piedra-alta",
+   "nombre": "Miguelete & Piedra Alta",
+   "alias": [],
+   "direccion": "Miguelete & Piedra Alta, 11800 Montevide",
+   "lat": -34.897587,
+   "lon": -56.185189,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "minas-durazno",
    "nombre": "Minas & Durazno",
    "alias": [],
@@ -809,6 +854,24 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "parque-villa-dolores",
+   "nombre": "Parque Villa Dolores",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9007158,
+   "lon": -56.1452772,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "parque-villa-garcia",
+   "nombre": "Parque Villa García",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.803696,
+   "lon": -56.0803352,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "parque-de-la-amistad",
    "nombre": "Parque de la Amistad",
    "alias": [],
@@ -853,6 +916,20 @@
    "direccion": "Rbla. Pdte. Wilson esq, 11200 Montevideo",
    "lat": -34.915753,
    "lon": -56.168935,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "plaza-de-las-pioneras",
+   "nombre": "Plaza de las Pioneras",
+   "alias": [
+    "Las Pioneras",
+    "Espacio Las Pioneras",
+    "Espacio Feminista Las Pioneras",
+    "Plaza Las Pioneras"
+   ],
+   "direccion": "Av. Agraciada, Arroyo Seco",
+   "lat": -34.88435,
+   "lon": -56.19304,
    "ciudad": "Montevideo"
   },
   {

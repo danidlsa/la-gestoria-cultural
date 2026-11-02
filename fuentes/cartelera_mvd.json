@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-02T12:52:23.394210-03:00",
+ "corrida": "2026-11-02T13:44:14.317356-03:00",
  "ok": true,
- "cantidad": 87,
+ "cantidad": 88,
  "errores": [],
  "eventos": [
   {
@@ -1509,6 +1509,71 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/40981.jpg",
    "productor": "Enrique Vidal",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "34428",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34428",
+   "titulo": "Desamparados",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Esta obra fue escrita por Victoria Cancela hace muchos años, \"y lamentablemente todavía tiene vigencia. Es un policíal, en forma de comedia dramática, que muestra personajes de la calle de cualquier ciudad del mundo\", explica la autora y directora de esta puesta en escena.",
+   "lugar": {
+    "nombre": "Teatro del Museo - Museo Torres García",
+    "direccion": "Sarandí 683",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 550.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34428",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41705.jpg",
+   "productor": "Victoria Cancela",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
