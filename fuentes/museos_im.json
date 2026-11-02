@@ -1,0 +1,1685 @@
+{
+ "fuente": "museos_im",
+ "corrida": "2026-11-02T13:35:24.149465-03:00",
+ "ok": true,
+ "cantidad": 5,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "museos_im",
+   "id_externo": "cabildo.montevideo.gub.uy/exposiciones/temporal-de-santa-rosa-brian-mackern",
+   "url": "https://cabildo.montevideo.gub.uy/exposiciones/temporal-de-santa-rosa-brian-mackern",
+   "titulo": "Temporal de Santa Rosa - Brian Mackern",
+   "categoria": "exposicion",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Cabildo de Montevideo",
+    "direccion": "Juan Carlos Gómez 1362",
+    "lat": -34.90653,
+    "lon": -56.20278
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-02T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-23T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://cabildo.montevideo.gub.uy/exposiciones/temporal-de-santa-rosa-brian-mackern",
+     "via": "museos_im"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cabildo.montevideo.gub.uy/sites/cabildo.montevideo.gub.uy/files/styles/resumen/public/articulos/imagenes/650x450-santarosa02.jpg?itok=p_Nxd7nl",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": true,
+   "hasta": "2026-11-30"
+  },
+  {
+   "fuente": "museos_im",
+   "id_externo": "cabildo.montevideo.gub.uy/exposiciones/infancias-en-la-ciudad",
+   "url": "https://cabildo.montevideo.gub.uy/exposiciones/infancias-en-la-ciudad",
+   "titulo": "Infancias en la ciudad",
+   "categoria": "exposicion",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Cabildo de Montevideo",
+    "direccion": "Juan Carlos Gómez 1362",
+    "lat": -34.90653,
+    "lon": -56.20278
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-02T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-23T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-03T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-06T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-07T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-09T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-10T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-16T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-17T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-23T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-24T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-30T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-31T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-01T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://cabildo.montevideo.gub.uy/exposiciones/infancias-en-la-ciudad",
+     "via": "museos_im"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cabildo.montevideo.gub.uy/sites/cabildo.montevideo.gub.uy/files/styles/resumen/public/articulos/imagenes/infancias_en_la_ciudad_800_x_500_.png?itok=E_kSi3Ce",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": true,
+   "hasta": "2027-04-30"
+  },
+  {
+   "fuente": "museos_im",
+   "id_externo": "cabildo.montevideo.gub.uy/exposiciones/montevideo-moda-y-vida-urbana-en-el-siglo-xx",
+   "url": "https://cabildo.montevideo.gub.uy/exposiciones/montevideo-moda-y-vida-urbana-en-el-siglo-xx",
+   "titulo": "Montevideo, moda y vida urbana en el siglo XX",
+   "categoria": "exposicion",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Cabildo de Montevideo",
+    "direccion": "Juan Carlos Gómez 1362",
+    "lat": -34.90653,
+    "lon": -56.20278
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-02T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-23T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-03T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-06T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-07T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-09T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-10T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-16T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-17T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-23T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-24T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-30T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-31T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-01T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://cabildo.montevideo.gub.uy/exposiciones/montevideo-moda-y-vida-urbana-en-el-siglo-xx",
+     "via": "museos_im"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cabildo.montevideo.gub.uy/sites/cabildo.montevideo.gub.uy/files/styles/resumen/public/articulos/imagenes/la_lectora.jpg?itok=WQXcU4XO",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": true,
+   "hasta": "2027-02-28"
+  },
+  {
+   "fuente": "museos_im",
+   "id_externo": "subte.montevideo.gub.uy/exposiciones/exposiciones/episodio-2-proyecto-mulita",
+   "url": "https://subte.montevideo.gub.uy/exposiciones/exposiciones/episodio-2-proyecto-mulita",
+   "titulo": "EPISODIO 2: PROYECTO MULITA",
+   "categoria": "exposicion",
+   "categoria_segura": true,
+   "descripcion_corta": "Exposición \"EPISODIO 2: PROYECTO MULITA\", de Federico Lagomarsino, con colaboración y desarrollo de Eugenia Ravera",
+   "lugar": {
+    "nombre": "Centro de Exposiciones Subte",
+    "direccion": "Plaza Fabini",
+    "lat": -34.90563,
+    "lon": -56.19423
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-02T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-23T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://subte.montevideo.gub.uy/exposiciones/exposiciones/episodio-2-proyecto-mulita",
+     "via": "museos_im"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://subte.montevideo.gub.uy/sites/subte.montevideo.gub.uy/files/styles/resumen/public/articulos/imagenes/600x450_7.jpg?itok=bYyVLvCB",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": true,
+   "hasta": null
+  },
+  {
+   "fuente": "museos_im",
+   "id_externo": "subte.montevideo.gub.uy/exposiciones/exposiciones/dani-umpi-obra-reunida",
+   "url": "https://subte.montevideo.gub.uy/exposiciones/exposiciones/dani-umpi-obra-reunida",
+   "titulo": "DANI UMPI: OBRA REUNIDA",
+   "categoria": "exposicion",
+   "categoria_segura": true,
+   "descripcion_corta": "El Centro de Exposiciones SUBTE presenta Dani Umpi: Obra Reunida, curada por Rodrigo Barcos (AR). Esta es la primera retrospectiva integral dedicada a la obra de Dani Umpi, una de las figuras más influyentes de la escena rioplatense contemporánea.",
+   "lugar": {
+    "nombre": "Centro de Exposiciones Subte",
+    "direccion": "Plaza Fabini",
+    "lat": -34.90563,
+    "lon": -56.19423
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-02T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-03T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-23T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://subte.montevideo.gub.uy/exposiciones/exposiciones/dani-umpi-obra-reunida",
+     "via": "museos_im"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://subte.montevideo.gub.uy/sites/subte.montevideo.gub.uy/files/styles/resumen/public/articulos/imagenes/20260716dicimouyar0010.jpg_2.jpeg?itok=e9Dn_obA",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": true,
+   "hasta": null
+  }
+ ]
+}

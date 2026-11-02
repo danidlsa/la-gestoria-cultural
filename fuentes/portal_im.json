@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-02T12:00:10.211585-03:00",
+ "corrida": "2026-11-02T13:34:06.043946-03:00",
  "ok": true,
- "cantidad": 14,
+ "cantidad": 20,
  "errores": [],
  "eventos": [
   {
@@ -1290,6 +1290,237 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Encuentro de Murga Joven 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "476-2026-11-21",
+   "url": "https://eventos.montevideo.gub.uy/sabadosenciudadvieja",
+   "titulo": "Sábados en Ciudad Vieja",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Disfrutá de actividades culturales, gastronómicas y artísticas! Sábados en Ciudad Vieja es un ciclo que se realiza el tercer sábado de cada mes buscando promover la apropiación del espacio público; estimular la circulación de residentes y visitantes; y favorecer la actividad comercial y cultural…",
+   "lugar": {
+    "nombre": "Ciudad Vieja",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T10:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "476-2026-12-19",
+   "url": "https://eventos.montevideo.gub.uy/sabadosenciudadvieja",
+   "titulo": "Sábados en Ciudad Vieja",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Disfrutá de actividades culturales, gastronómicas y artísticas! Sábados en Ciudad Vieja es un ciclo que se realiza el tercer sábado de cada mes buscando promover la apropiación del espacio público; estimular la circulación de residentes y visitantes; y favorecer la actividad comercial y cultural…",
+   "lugar": {
+    "nombre": "Ciudad Vieja",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-19T10:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "994-2026-11-07",
+   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
+   "titulo": "Música en el Parque",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
+   "lugar": {
+    "nombre": "Jardín Botánico",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Música en el Parque",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "994-2026-11-15",
+   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
+   "titulo": "Música en el Parque",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
+   "lugar": {
+    "nombre": "Parque Villa Dolores",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Música en el Parque",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "994-2026-11-22",
+   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
+   "titulo": "Música en el Parque",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
+   "lugar": {
+    "nombre": "Parque Villa García",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Música en el Parque",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "994-2026-11-28",
+   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
+   "titulo": "Música en el Parque: Músicas Pioneras",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
+   "lugar": {
+    "nombre": "Las Pioneras",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Música en el Parque",
    "muestra": false,
    "hasta": null
   }
