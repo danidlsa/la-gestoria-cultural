@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T18:59:47.049484-03:00",
+ "generado": "2026-11-03T00:07:45.288174-03:00",
  "cantidad": 150,
  "lugares": [
   {
@@ -421,6 +421,17 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "el-tinglado",
+   "nombre": "El Tinglado",
+   "alias": [
+    "Teatro El Tinglado"
+   ],
+   "direccion": "Colonia 2035",
+   "lat": -34.898852,
+   "lon": -56.172319,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "escuela-nacional-de-declamacion-esnade",
    "nombre": "Escuela Nacional de Declamación - ESNADE",
    "alias": [
@@ -750,7 +761,7 @@
    "alias": [
     "MMB"
    ],
-   "direccion": "Av. Dámaso A. Larrañaga 3195, 11600 Mont",
+   "direccion": "Av. Dámaso A. Larrañaga 3195",
    "lat": -34.880615,
    "lon": -56.15275,
    "ciudad": "Montevideo"
@@ -931,12 +942,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "q-atrevido",
-   "nombre": "Q'atrevido",
+   "id": "qatrevido",
+   "nombre": "QAtrevido",
    "alias": [
-    "QAtrevido"
+    "Q'atrevido"
    ],
-   "direccion": "S. José 907, 11100 Montevideo, Departame",
+   "direccion": "San José 907",
    "lat": -34.907129,
    "lon": -56.196424,
    "ciudad": "Montevideo"
@@ -1210,15 +1221,6 @@
    "direccion": "Av. 18 de Julio 1618",
    "lat": -34.90403,
    "lon": -56.181082,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "teatro-el-tinglado",
-   "nombre": "Teatro El Tinglado",
-   "alias": [],
-   "direccion": "Colonia 2035",
-   "lat": -34.898852,
-   "lon": -56.172319,
    "ciudad": "Montevideo"
   },
   {

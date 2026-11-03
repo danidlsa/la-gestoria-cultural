@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-02T18:53:23.330123-03:00",
+ "corrida": "2026-11-03T00:01:39.682761-03:00",
  "ok": true,
- "cantidad": 34,
+ "cantidad": 33,
  "errores": [],
  "eventos": [
   {
@@ -350,47 +350,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/inicio/espectaculo/40020538/espectaculo/Dyango?2"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "11787",
-   "url": "https://sodre.gub.uy/espectaculos/valeria-lynch/",
-   "titulo": "Valeria Lynch",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Una de las voces más destacadas de la música en español",
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-02T20:00:00-03:00",
-     "fin": "2026-11-02T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40020653/espectaculo/Valeria%20Lynch%20en%20el%20Sodre?2",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/04/DESTACADO-VALERIA-768x420.jpg",
-   "productor": "Espectáculos del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40020653/espectaculo/Valeria%20Lynch%20en%20el%20Sodre?2"
    ],
    "ciclo": null,
    "muestra": false,

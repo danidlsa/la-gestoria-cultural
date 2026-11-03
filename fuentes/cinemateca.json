@@ -1,6 +1,6 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-02T18:53:28.231355-03:00",
+ "corrida": "2026-11-03T00:01:44.478588-03:00",
  "ok": true,
  "cantidad": 13,
  "errores": [],
@@ -20,13 +20,6 @@
     "lon": -56.2008552
    },
    "funciones": [
-    {
-     "inicio": "2026-11-02T17:10:00-03:00",
-     "fin": "2026-11-02T18:51:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-03T17:10:00-03:00",
      "fin": "2026-11-03T18:51:00-03:00",
@@ -110,13 +103,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-02T17:15:00-03:00",
-     "fin": "2026-11-02T19:23:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-03T17:15:00-03:00",
      "fin": "2026-11-03T19:23:00-03:00",
      "sin_hora": false,
@@ -199,13 +185,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-02T19:10:00-03:00",
-     "fin": "2026-11-02T20:55:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-03T19:10:00-03:00",
      "fin": "2026-11-03T20:55:00-03:00",
      "sin_hora": false,
@@ -287,20 +266,6 @@
     "lon": -56.2008552
    },
    "funciones": [
-    {
-     "inicio": "2026-11-02T19:45:00-03:00",
-     "fin": "2026-11-02T21:05:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-02T21:25:00-03:00",
-     "fin": "2026-11-02T22:45:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-03T19:45:00-03:00",
      "fin": "2026-11-03T21:05:00-03:00",
@@ -398,13 +363,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-02T20:50:00-03:00",
-     "fin": "2026-11-02T22:12:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-03T21:10:00-03:00",
      "fin": "2026-11-03T22:32:00-03:00",
      "sin_hora": false,
@@ -487,13 +445,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-02T21:15:00-03:00",
-     "fin": "2026-11-02T23:04:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-03T21:15:00-03:00",
      "fin": "2026-11-03T23:04:00-03:00",
      "sin_hora": false,
@@ -557,88 +508,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9659",
-   "url": "https://cinemateca.org.uy/peliculas/9659",
-   "titulo": "La patrulla de la muerte",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Andrzej Wajda. Resistentes en la red cloacal de Varsovia, acosados por los nazis en 1944. La tragedia y el horror de la guerra y, en perspectiva, una dimensión crítica que en su momento pudo pasar desapercibida: el Ejército Rojo estaba a cien kilómetros de la ciudad, permitiendo que esa masacre…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-02T17:00:00-03:00",
-     "fin": "2026-11-02T18:27:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-02T19:00:00-03:00",
-     "fin": "2026-11-02T20:27:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9659",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://filmforum.org/do-not-enter-or-modify-or-erase/client-uploads/war-wajda-kanal-thumb.jpg",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario",
    "muestra": false,
    "hasta": null
   },
@@ -1127,6 +996,81 @@
     }
    ],
    "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/la_boda.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Andrzej Wajda, en su centenario",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9671",
+   "url": "https://cinemateca.org.uy/peliculas/9671",
+   "titulo": "La tierra prometida",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Andrzej Wajda. Un grupo de ambiciosos cuyo ascenso y caída Wajda describe en esta amplia crónica de la revolución industrial en Lodz, Polonia, hacia fines del siglo XIX. Vasto cuadro histórico, con aliento novelesco y forma deslumbrante. Un grupo de ambiciosos cuyo ascenso y caída Wajda describe…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-09T17:00:00-03:00",
+     "fin": "2026-11-09T19:25:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9671",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://thumb.canalplus.pro/http/unsafe/1440x810/filters:quality(80)/mms-images-prod.pl.canalplus.com/exported/11250000/A_11257704.jpg",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],

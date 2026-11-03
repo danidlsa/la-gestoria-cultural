@@ -1,15 +1,7 @@
 {
- "generado": "2026-11-02T18:59:47.049484-03:00",
+ "generado": "2026-11-03T00:07:45.288174-03:00",
  "cantidad": 18,
  "ciclos": [
-  {
-   "id": "ciclo-andrzej-wajda-en-su-centenario",
-   "titulo": "Andrzej Wajda, en su centenario",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-02T17:00:00-03:00",
-   "hasta": "2026-11-08T19:45:00-03:00",
-   "cantidad": 7
-  },
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
@@ -17,6 +9,14 @@
    "desde": "2026-11-03T10:00:00-03:00",
    "hasta": "2026-12-11T16:00:00-03:00",
    "cantidad": 5
+  },
+  {
+   "id": "ciclo-andrzej-wajda-en-su-centenario",
+   "titulo": "Andrzej Wajda, en su centenario",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-03T17:00:00-03:00",
+   "hasta": "2026-11-09T17:00:00-03:00",
+   "cantidad": 7
   },
   {
    "id": "ciclo-particulas",
@@ -111,7 +111,7 @@
    "titulo": "Candlelight",
    "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
    "desde": "2026-11-21T17:30:00-03:00",
-   "hasta": "2026-11-21T19:30:00-03:00",
+   "hasta": "2026-11-21T21:30:00-03:00",
    "cantidad": 2
   },
   {

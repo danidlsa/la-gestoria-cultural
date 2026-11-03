@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-02T18:54:26.574316-03:00",
+ "corrida": "2026-11-03T00:02:25.668115-03:00",
  "ok": true,
- "cantidad": 90,
+ "cantidad": 91,
  "errores": [],
  "eventos": [
   {
@@ -297,6 +297,64 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42089.jpg",
    "productor": "Florencia Moreira Figueredo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "34707",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34707",
+   "titulo": "Africa",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Dos personas. Un mismo espacio. Una distancia que parece imposible de atravesar. África es una obra sobre los vínculos, sobre aquello que nos acerca y, al mismo tiempo, nos separa. Sobre las palabras que se dicen, las que se callan y todo lo que queda suspendido entre dos personas cuando ya no…",
+   "lugar": {
+    "nombre": "Arteatro",
+    "direccion": "Canelones 1136",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34707",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41996.jpg",
+   "productor": "Mel Abilleira",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -2155,6 +2213,124 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42211.jpg",
    "productor": "Rodrigo López",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "34912",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34912",
+   "titulo": "El nudo de Gidion",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "En un aula vacía, una madre y una maestra se encuentran después de la muerte de Gidion, un niño de once años. Lo que comienza como una conversación para intentar desanudar lo ocurrido, se transforma en un enfrentamiento que pone en tela de juicio la responsabilidad institucional, la educación, la…",
+   "lugar": {
+    "nombre": "El Tinglado",
+    "direccion": "Colonia 2035",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-06T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 680.0,
+    "hasta": 680.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34912",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34912"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34912"
+    }
+   ],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42240.jpg",
+   "productor": "Anthony Alan Fan",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -6254,64 +6430,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41955.jpg",
    "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34707",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34707",
-   "titulo": "África",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Dos personas. Un mismo espacio. Una distancia que parece imposible de atravesar. África es una obra sobre los vínculos, sobre aquello que nos acerca y, al mismo tiempo, nos separa. Sobre las palabras que se dicen, las que se callan y todo lo que queda suspendido entre dos personas cuando ya no…",
-   "lugar": {
-    "nombre": "Arteatro",
-    "direccion": "Canelones 1136",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34707",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41996.jpg",
-   "productor": "Mel Abilleira",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
