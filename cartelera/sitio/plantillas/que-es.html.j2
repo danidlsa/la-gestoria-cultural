@@ -9,7 +9,7 @@
 {% include "_metadatos.html.j2" %}
   <!-- Política de contenido: solo corre código del propio sitio (y Leaflet, verificado); ningún script en línea.
        Las imágenes de los eventos vienen de cada fuente, siempre por https. -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://cdnjs.cloudflare.com; img-src 'self' https: data:; font-src 'self'; connect-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://cdnjs.cloudflare.com; img-src 'self' https: data:; font-src 'self'; connect-src 'self' https://la-gestoria-cultural.goatcounter.com; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <link rel="preload" href="fuentes/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
   <!-- Ícono de la pestaña: SVG para los navegadores actuales, PNG para los viejos y para la pantalla de inicio del iPhone. -->
@@ -18,6 +18,9 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="theme-color" content="#3256A8">
   <script src="tema-inicio.js"></script>
+  <!-- Contador de visitas anónimo (GoatCounter, sin cookies). El script se sirve desde el sitio (count.v4.js, licencia ISC);
+       solo manda la visita a la cuenta del proyecto. -->
+  <script data-goatcounter="https://la-gestoria-cultural.goatcounter.com/count" async src="goatcounter.js"></script>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -47,7 +50,8 @@
     </details>
     <details class="que-es-fuentes pregunta" id="privacidad" open>
       <summary><h2>Privacidad</h2></summary>
-      <p>El sitio no usa cookies ni herramientas de medición, y no tiene cuentas. Lo que elegís (tu plan, lo que excluís, el modo claro u oscuro) queda guardado solo en tu navegador: no llega a ningún servidor, y se borra con "Vaciar" o borrando los datos del sitio en el navegador.</p>
+      <p>El sitio no usa cookies y no tiene cuentas. Lo que elegís (tu plan, lo que excluís, el modo claro u oscuro) queda guardado solo en tu navegador: no llega a ningún servidor, y se borra con "Vaciar" o borrando los datos del sitio en el navegador.</p>
+      <p>Las visitas se cuentan de forma anónima con <a href="https://www.goatcounter.com">GoatCounter</a>, un contador sin fines de lucro: no usa cookies ni guarda tu IP. Solo registra qué página se visitó, desde dónde se llegó (por ejemplo, un enlace en WhatsApp) y el tamaño de la pantalla, para saber cuánta gente usa el sitio.</p>
       <p>Al abrir el mapa, tu navegador se conecta a OpenStreetMap, que ofrece los mapas, y a cdnjs, un servicio gratuito desde donde se descarga la herramienta que los dibuja. Las imágenes de cada evento se cargan directamente desde la página de su fuente.</p>
       <p>Si escribís por el formulario de contacto (de Google Forms), tu correo y tu mensaje se usan solo para responderte.</p>
     </details>

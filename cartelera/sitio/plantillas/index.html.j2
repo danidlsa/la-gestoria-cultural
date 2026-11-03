@@ -9,7 +9,7 @@
 {% include "_metadatos.html.j2" %}
   <!-- Política de contenido: solo corre código del propio sitio (y Leaflet, verificado); ningún script en línea.
        Las imágenes de los eventos vienen de cada fuente, siempre por https. -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://cdnjs.cloudflare.com; img-src 'self' https: data:; font-src 'self'; connect-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://cdnjs.cloudflare.com; img-src 'self' https: data:; font-src 'self'; connect-src 'self' https://la-gestoria-cultural.goatcounter.com; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <link rel="preload" href="fuentes/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
   <!-- Ícono de la pestaña: SVG para los navegadores actuales, PNG para los viejos y para la pantalla de inicio del iPhone. -->
@@ -18,6 +18,9 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="theme-color" content="#3256A8">
   <script src="tema-inicio.js"></script>
+  <!-- Contador de visitas anónimo (GoatCounter, sin cookies). El script se sirve desde el sitio (count.v4.js, licencia ISC);
+       solo manda la visita a la cuenta del proyecto. -->
+  <script data-goatcounter="https://la-gestoria-cultural.goatcounter.com/count" async src="goatcounter.js"></script>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
