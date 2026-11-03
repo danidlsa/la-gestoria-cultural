@@ -239,6 +239,8 @@ Para instalarlo hace falta que `main` tenga este código y que exista la rama `d
 
 **Instalado (2/11/2026).** Primera corrida real: el portal de la IM (14 eventos con fecha), la Zitarrosa (23) y Ticketmaster (1), subidos a `datos` como `cartelera-local`. `main` y `datos` tienen reglas en GitHub: `main` solo la actualiza la administradora (la deploy key no puede), y ninguna de las dos se puede borrar ni recibir force push.
 
+**Vigilancia desde GitHub** ([`cartelera/vigilancia.py`](../cartelera/vigilancia.py)): en cada corrida de Actions se mira cuándo fue el último resultado bueno de cada fuente local. Desde las 18 h de un día de semana, si alguna no tiene datos de ese día (el equipo no estuvo prendido, no tenía conexión o la corrida falló), se abre un issue "La tarea local no subió datos el martes 3/11" que GitHub manda por mail; cuando vuelven a llegar datos, se cierra solo. Los issues son públicos: el texto no da detalles del equipo.
+
 **Opcional, si querés más aislamiento**: correr la tarea con un **usuario del sistema aparte**, sin acceso a otros documentos. No me parece necesario para empezar.
 
 ---

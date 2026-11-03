@@ -3,7 +3,7 @@
     python -m cartelera scrapear --donde actions   solo las fuentes que corren en ese lugar (config/fuentes.toml)
     python -m cartelera unificar                arma datos/eventos.json y datos/lugares.json
     python -m cartelera sitio                   genera la web en sitio_generado/
-    python -m cartelera avisos [--github]       eventos especiales que se acercan sin programa (con --github, abre issues)
+    python -m cartelera avisos [--github]       eventos especiales sin programa y tarea local sin datos (con --github, issues)
     python -m cartelera historico --dir DIR     suma la cartelera al histórico privado (--reconstruir: desde la rama datos)
 """
 
@@ -67,7 +67,9 @@ def main() -> int:
         return 0
     if args.comando == "avisos":
         from cartelera.especiales import avisar
+        from cartelera.vigilancia import revisar
         avisar(en_github=args.github)
+        revisar(en_github=args.github)  # si la tarea local no subió datos, otro aviso
         return 0
     return 2
 

@@ -123,9 +123,10 @@ jobs:
       - name: Generar la web
         run: uv run python -m cartelera sitio
 
-      # Un mes antes de un evento especial (config/eventos_especiales.toml), si todavía no hay programa,
-      # se abre un issue. No se repite: si ya hay uno con el mismo título, abierto o cerrado, no hace nada.
-      - name: Avisar de eventos especiales sin programa
+      # Avisos por issue (GitHub los manda por mail), sin repetir títulos:
+      # - un evento especial (config/eventos_especiales.toml) que se acerca sin programa;
+      # - la tarea local, si un día de semana no subió datos (se cierra solo cuando vuelven a llegar).
+      - name: Avisos (eventos especiales y tarea local)
         continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
