@@ -1,8 +1,8 @@
 {
  "fuente": "mec_museos",
- "corrida": "2026-11-03T12:51:52.957247-03:00",
+ "corrida": "2026-11-03T14:20:30.245356-03:00",
  "ok": true,
- "cantidad": 5,
+ "cantidad": 6,
  "errores": [],
  "eventos": [
   {
@@ -110,6 +110,45 @@
    "entradas": [
     {
      "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/gurvich-voz-ciudad-dibujos-del-cerro-montevideo-1946-1968",
+     "via": "mec_museos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Ministerio de Educación y Cultura",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mec_museos",
+   "id_externo": "inauguracion-exposicion-gurvich-voz-ciudad-0",
+   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/inauguracion-exposicion-gurvich-voz-ciudad-0",
+   "titulo": "Inauguración de la exposición «Gurvich y la voz de la ciudad»",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Gurvich",
+    "direccion": "Sarandí 524",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/inauguracion-exposicion-gurvich-voz-ciudad-0",
      "via": "mec_museos"
     }
    ],

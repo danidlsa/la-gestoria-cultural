@@ -1,8 +1,8 @@
 {
  "fuente": "gaucho",
- "corrida": "2026-11-03T12:51:02.361181-03:00",
+ "corrida": "2026-11-03T14:19:39.288291-03:00",
  "ok": true,
- "cantidad": 7,
+ "cantidad": 8,
  "errores": [],
  "eventos": [
   {
@@ -41,6 +41,47 @@
    "region": "montevideo",
    "enlaces": [
     "https://www.antelarena.com.uy/events/detail/babasonicos-2027"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "gaucho",
+   "id_externo": "2027-04-21-yerai-cortes",
+   "url": "https://www.gaucho.com.uy/shows.php",
+   "titulo": "Yerai Cortés",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Reconquista s/n esq. Bartolomé Mitre",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-04-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/alta-demanda/40021894/yerai-cortes",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.gaucho.com.uy/images/banners/2027/2027-04-21-yerai-cortes.jpg",
+   "productor": "Gaucho",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/alta-demanda/40021894/yerai-cortes"
    ],
    "ciclo": null,
    "muestra": false,

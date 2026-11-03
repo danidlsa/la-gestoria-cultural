@@ -1,8 +1,8 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-03T12:45:42.841498-03:00",
+ "corrida": "2026-11-03T14:13:38.503216-03:00",
  "ok": true,
- "cantidad": 15,
+ "cantidad": 17,
  "errores": [],
  "eventos": [
   {
@@ -30,6 +30,20 @@
     {
      "inicio": "2026-11-04T17:10:00-03:00",
      "fin": "2026-11-04T18:51:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T15:40:00-03:00",
+     "fin": "2026-11-07T17:21:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T21:45:00-03:00",
+     "fin": "2026-11-08T23:26:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -115,6 +129,41 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T17:15:00-03:00",
+     "fin": "2026-11-05T19:23:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T17:15:00-03:00",
+     "fin": "2026-11-06T19:23:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T15:30:00-03:00",
+     "fin": "2026-11-07T17:38:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T15:30:00-03:00",
+     "fin": "2026-11-08T17:38:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T17:15:00-03:00",
+     "fin": "2026-11-09T19:23:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -194,6 +243,41 @@
     {
      "inicio": "2026-11-04T19:10:00-03:00",
      "fin": "2026-11-04T20:55:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T21:55:00-03:00",
+     "fin": "2026-11-05T23:40:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T21:40:00-03:00",
+     "fin": "2026-11-06T23:25:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T18:00:00-03:00",
+     "fin": "2026-11-07T19:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T18:00:00-03:00",
+     "fin": "2026-11-08T19:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T21:55:00-03:00",
+     "fin": "2026-11-09T23:40:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -293,6 +377,55 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T21:25:00-03:00",
+     "fin": "2026-11-05T22:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T21:25:00-03:00",
+     "fin": "2026-11-06T22:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T21:50:00-03:00",
+     "fin": "2026-11-07T23:10:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T16:00:00-03:00",
+     "fin": "2026-11-08T17:20:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T21:50:00-03:00",
+     "fin": "2026-11-08T23:10:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T20:20:00-03:00",
+     "fin": "2026-11-09T21:40:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T21:25:00-03:00",
+     "fin": "2026-11-09T22:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -375,6 +508,41 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T21:40:00-03:00",
+     "fin": "2026-11-05T23:02:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T21:10:00-03:00",
+     "fin": "2026-11-06T22:32:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T20:05:00-03:00",
+     "fin": "2026-11-07T21:27:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T20:05:00-03:00",
+     "fin": "2026-11-08T21:27:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T22:00:00-03:00",
+     "fin": "2026-11-09T23:22:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -454,6 +622,41 @@
     {
      "inicio": "2026-11-04T21:15:00-03:00",
      "fin": "2026-11-04T23:04:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-05T17:30:00-03:00",
+     "fin": "2026-11-05T19:19:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T17:30:00-03:00",
+     "fin": "2026-11-06T19:19:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T18:15:00-03:00",
+     "fin": "2026-11-07T20:04:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T18:15:00-03:00",
+     "fin": "2026-11-08T20:04:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T17:30:00-03:00",
+     "fin": "2026-11-09T19:19:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -672,6 +875,212 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Andrzej Wajda, en su centenario",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9143",
+   "url": "https://cinemateca.org.uy/peliculas/9143",
+   "titulo": "Seis días en primavera",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Joachim Lafosse. Una madre soltera lleva a sus hijos a una escapada secreta a la villa vacía de sus antiguos suegros en la Riviera. Lo que comienza como unas inocentes vacaciones de primavera se convierte en seis días bajo el sol que le cambian la vida. La estancia de la madre y los hijos en un…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T19:30:00-03:00",
+     "fin": "2026-11-05T21:04:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T19:30:00-03:00",
+     "fin": "2026-11-06T21:04:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T22:10:00-03:00",
+     "fin": "2026-11-07T23:44:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T22:10:00-03:00",
+     "fin": "2026-11-08T23:44:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T19:30:00-03:00",
+     "fin": "2026-11-09T21:04:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9143",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40427/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9062",
+   "url": "https://cinemateca.org.uy/peliculas/9062",
+   "titulo": "Emi",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Ezequiel Erriquez. Emi, de 18 años, vive con sus padres en los suburbios de Buenos Aires. Tres meses atrás empezó a trabajar en un taller de reparación de motos en un barrio obrero. Emi quiere saber acerca de su familia biológica y pasa sus días armando el rompecabezas de su historia. La…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T19:45:00-03:00",
+     "fin": "2026-11-05T21:18:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T19:45:00-03:00",
+     "fin": "2026-11-06T21:18:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T20:15:00-03:00",
+     "fin": "2026-11-07T21:48:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T20:15:00-03:00",
+     "fin": "2026-11-08T21:48:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-09T19:45:00-03:00",
+     "fin": "2026-11-09T21:18:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9062",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40346/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
    "muestra": false,
    "hasta": null
   },
