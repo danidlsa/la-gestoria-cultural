@@ -1,8 +1,8 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-03T00:06:56.321248-03:00",
+ "corrida": "2026-11-03T12:51:05.724962-03:00",
  "ok": true,
- "cantidad": 77,
+ "cantidad": 73,
  "errores": [],
  "eventos": [
   {
@@ -2077,50 +2077,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18188",
-   "url": "https://beneficios.ladiaria.com.uy/la-puerta-azul/",
-   "titulo": "La Puerta Azul",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "En algún rincón del bosque de Cotón, Teo, un niño de doce años, es enviado por su padre a cazar un oso. Decidido a escapar del destino que su padre había trazado para él, se interna en el bosque, donde conoce a un príncipe que no quiere ser rey y a una mesera que sueña con ser cartógrafa. Guiados…",
-   "lugar": {
-    "nombre": "Teatro La Candela",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/LA-PUERTA-AZUL/33837/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/la-puerta-azul/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/LA-PUERTA-AZUL/33837/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18184",
    "url": "https://beneficios.ladiaria.com.uy/festival-candombe-y-salsa-360/",
    "titulo": "Festival Candombe y Salsa 360",
@@ -3637,55 +3593,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "17986",
-   "url": "https://beneficios.ladiaria.com.uy/la-tipa-y-el-borracho/",
-   "titulo": "La Tipa y el Borracho",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Territorialidades presenta un soliloquio de Pedro Cayota. ¿Cómo explicar de qué va? el título lo dice todo, historias de amor y ruptura, los árboles como metáforas, el borracho florece en carnaval y la tipa a veces escupe, a veces llora, la chicharra de la humedad mastica la hoja y una gota de…",
-   "lugar": {
-    "nombre": "Sala Hugo Balzo",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 1111.0,
-    "hasta": 1111.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021559/espectaculo/La%20Tipa%20y%20el%20Borracho?0",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/la-tipa-y-el-borracho/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/inicio/espectaculo/40021559/espectaculo/La%20Tipa%20y%20el%20Borracho?0"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "17980",
    "url": "https://beneficios.ladiaria.com.uy/dillom/",
    "titulo": "Dillom",
@@ -3906,50 +3813,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "17875",
-   "url": "https://beneficios.ladiaria.com.uy/el-herrero-y-la-muerte/",
-   "titulo": "El Herrero y la Muerte",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "El Herrero y la muerte se puede definir como un clàsico del teatro uruguayo. La obra posee un toque fantástico y absurdo, que hacen de la gracia y las risas una constante . El entretenimiento, el humor y la fantasìa desplegados en esta puesta en escena, convierten al espectàculo en un gran disfrute…",
-   "lugar": {
-    "nombre": "Teatro Victoria",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 800.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/EL-HERRERO-Y-LA-MUERTE/32174/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/el-herrero-y-la-muerte/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/EL-HERRERO-Y-LA-MUERTE/32174/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "17868",
    "url": "https://beneficios.ladiaria.com.uy/santi-wirth-presenta-mapa/",
    "titulo": "Santi Wirth – Presenta «Mapa»",
@@ -4041,50 +3904,6 @@
    "enlaces": [
     "https://www.tickantel.com.uy/inicio/registrarse",
     "https://tickantel.com.uy/inicio/espectaculo/40021278/espectaculo/Cartograf%C3%ADa%20de%20la%20Identidad?0"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "17811",
-   "url": "https://beneficios.ladiaria.com.uy/festival-musica-de-la-tierra-15-anos/",
-   "titulo": "Festival Música de la tierra 15 años",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Música de la Tierra celebra 15 años con una programación de lujo que reúne a artistas de Latinoamérica, en el Parque Villa Dolores – Parque de la Amistad. El festival se concentra en 48 hs en uno de los pulmones verdes más bellos de la ciudad y además de 8 conciertos diarios incluye: charlas…",
-   "lugar": {
-    "nombre": "Parque de la Amistad Villa Dolores",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 380.0,
-    "hasta": 380.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/FESTIVAL-MUSICA-DE-LA-TIERRA--15-ANOS/31765/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/festival-musica-de-la-tierra-15-anos/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/FESTIVAL-MUSICA-DE-LA-TIERRA--15-ANOS/31765/"
    ],
    "ciclo": null,
    "muestra": false,

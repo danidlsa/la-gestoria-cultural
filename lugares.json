@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-03T00:07:45.288174-03:00",
- "cantidad": 150,
+ "generado": "2026-11-03T12:51:56.845521-03:00",
+ "cantidad": 151,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -412,15 +412,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "el-nuevo-rincon",
-   "nombre": "El Nuevo Rincón",
-   "alias": [],
-   "direccion": "Dr. Martín C. Martínez 2147, 11800 Monte",
-   "lat": -34.889572,
-   "lon": -56.173569,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "el-tinglado",
    "nombre": "El Tinglado",
    "alias": [
@@ -600,6 +591,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "jose-enrique-rodo-1995",
+   "nombre": "José Enrique Rodó 1995",
+   "alias": [],
+   "direccion": "José Enrique Rodó 1995, 11200 Montevideo",
+   "lat": -34.903345,
+   "lon": -56.173907,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "kibon-avanza",
    "nombre": "Kibón Avanza",
    "alias": [],
@@ -773,6 +773,15 @@
    "direccion": "Sarandí 524",
    "lat": -34.90748,
    "lon": -56.2043,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "museo-gurvich-sarandi-524",
+   "nombre": "Museo Gurvich. Sarandí 524",
+   "alias": [],
+   "direccion": "Montevideo",
+   "lat": -34.9058916,
+   "lon": -56.1913095,
    "ciudad": "Montevideo"
   },
   {
@@ -1314,9 +1323,7 @@
   {
    "id": "teatro-de-la-candela",
    "nombre": "Teatro de la Candela",
-   "alias": [
-    "Teatro La Candela"
-   ],
+   "alias": [],
    "direccion": "José Ellauri 308",
    "lat": -34.9240642,
    "lon": -56.1601433,

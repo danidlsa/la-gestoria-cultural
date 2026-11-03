@@ -1,8 +1,8 @@
 {
  "fuente": "mec_museos",
- "corrida": "2026-11-03T00:07:42.422583-03:00",
+ "corrida": "2026-11-03T12:51:52.957247-03:00",
  "ok": true,
- "cantidad": 3,
+ "cantidad": 5,
  "errores": [],
  "eventos": [
   {
@@ -71,6 +71,84 @@
    "entradas": [
     {
      "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/inauguracion-exposicion-gurvich-voz-ciudad",
+     "via": "mec_museos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Ministerio de Educación y Cultura",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mec_museos",
+   "id_externo": "gurvich-voz-ciudad-dibujos-del-cerro-montevideo-1946-1968",
+   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/gurvich-voz-ciudad-dibujos-del-cerro-montevideo-1946-1968",
+   "titulo": "Gurvich y la voz de la ciudad: Dibujos del Cerro y Montevideo (1946 – 1968)",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Gurvich. Sarandí 524",
+    "direccion": "Montevideo",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/gurvich-voz-ciudad-dibujos-del-cerro-montevideo-1946-1968",
+     "via": "mec_museos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Ministerio de Educación y Cultura",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mec_museos",
+   "id_externo": "taller-flores-papel-picado-arte-papel",
+   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/taller-flores-papel-picado-arte-papel",
+   "titulo": "Taller de flores y papel picado. Arte en papel",
+   "categoria": "taller",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Antropología",
+    "direccion": "Av. de las Instrucciones 948, Montevideo",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/taller-flores-papel-picado-arte-papel",
      "via": "mec_museos"
     }
    ],

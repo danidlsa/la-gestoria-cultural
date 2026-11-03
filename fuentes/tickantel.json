@@ -1,8 +1,8 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-02T23:57:12.209863-03:00",
+ "corrida": "2026-11-03T12:33:44.945206-03:00",
  "ok": true,
- "cantidad": 130,
+ "cantidad": 131,
  "errores": [],
  "eventos": [
   {
@@ -614,13 +614,6 @@
     "lon": -56.20101
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T14:00:00-03:00",
      "fin": null,
@@ -1823,45 +1816,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021843",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021843/cns-beatles-y-bach",
-   "titulo": "CNS - BEATLES y BACH",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "CNS - Beatles y Bach Una fusión inédita de estilos.Una propuesta audaz e innovadora que tiende puentes entre dos épocas doradas de la música. Este nuevo concierto amalgama la perfección contrapuntística de J. S. Bach con las melodías inmortales de The Beatles, revelando las sorprendentes conexiones…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021843/cns-beatles-y-bach",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021843/BANNER2.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021680",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021680/tmc-pasiones-en-contraste",
    "titulo": "TMC: Pasiones en contraste",
@@ -1897,6 +1851,45 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021680/Nov,_12_-_Pasiones_en_contraste_Tickantel.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021843",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021843/cns-beatles-y-bach",
+   "titulo": "CNS - BEATLES y BACH",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "CNS - Beatles y Bach Una fusión inédita de estilos.Una propuesta audaz e innovadora que tiende puentes entre dos épocas doradas de la música. Este nuevo concierto amalgama la perfección contrapuntística de J. S. Bach con las melodías inmortales de The Beatles, revelando las sorprendentes conexiones…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021843/cns-beatles-y-bach",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021843/BANNER2.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3031,45 +3024,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021134",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
-   "titulo": "Buenos Muchachos",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "En cualquier momento. En algún lugar. En ningún caso. En las nubes. En abstracto. En alerta. En sueños. En vano. En definitiva. En absoluto. En concreto. En peligro. En soledad. En banda. En sentido opuesto. En secreto. En confianza. En común. En la espera. En realidad... El año termina como…",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021134/BANNER_BM.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40020967",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020967/hilda-lizarazu",
    "titulo": "Hilda Lizarazu",
@@ -3100,6 +3054,45 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020967/hilda700x390_copia_4-100.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021134",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
+   "titulo": "Buenos Muchachos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "En cualquier momento. En algún lugar. En ningún caso. En las nubes. En abstracto. En alerta. En sueños. En vano. En definitiva. En absoluto. En concreto. En peligro. En soledad. En banda. En sentido opuesto. En secreto. En confianza. En común. En la espera. En realidad... El año termina como…",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021134/BANNER_BM.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4966,6 +4959,45 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021903",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
+   "titulo": "Gala de Tango",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Vuelve la Gran Gala de Tango. La danza, la pasión y la poesía del género ciudadano, con el sello inconfundible de la Orquesta Filarmónica de Montevideo. Un espectáculo que celebra la riqueza de uno de los géneros musicales más representativos de nuestra identidad cultural. Con la voz de Valeria…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-10T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021903/La_Filarmónica_700x390.jpeg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021626",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021626/balbis",
    "titulo": "Balbis",
@@ -5864,7 +5896,7 @@
    "titulo": "La Trampa",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "¡El reencuentro más esperado de la música uruguaya ya tiene fecha! A 9 años de su último show, La Trampa vuelve a reunirse con su público en una noche histórica. La cita es para el próximo 12, 13 y 15 de mayo de 2027 en el Antel Arena, con el show “Canciones al viento”. ¡Asegurá tu lugar para ser…",
+   "descripcion_corta": "¡El reencuentro más esperado de la música uruguaya ya tiene fecha! A 9 años de su último show, La Trampa vuelve a reunirse con su público en una noche histórica. La cita es para el próximo 12, 13, 15 y 16 de mayo de 2027 en el Antel Arena, con el show “Canciones al viento”. ¡Asegurá tu lugar para…",
    "lugar": {
     "nombre": "Antel Arena",
     "direccion": null,
@@ -5888,6 +5920,13 @@
     },
     {
      "inicio": "2027-05-15T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-05-16T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,

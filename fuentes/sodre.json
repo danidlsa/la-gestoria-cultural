@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-03T00:01:39.682761-03:00",
+ "corrida": "2026-11-03T12:45:37.625930-03:00",
  "ok": true,
- "cantidad": 33,
+ "cantidad": 35,
  "errores": [],
  "eventos": [
   {
@@ -446,6 +446,47 @@
   },
   {
    "fuente": "sodre",
+   "id_externo": "13126",
+   "url": "https://sodre.gub.uy/espectaculos/un-viaje-musical/",
+   "titulo": "Un viaje musical",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Temporada de Música de Cámara",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-08T18:00:00-03:00",
+     "fin": "2026-11-08T20:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021679/tmc-un-viaje-musical",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/09/Un-viaje-musical_destacada-1-768x420.png",
+   "productor": "Temporada de Música de Cámara del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021679/tmc-un-viaje-musical"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
    "id_externo": "13311",
    "url": "https://sodre.gub.uy/espectaculos/pulmones/",
    "titulo": "Pulmones",
@@ -537,12 +578,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021823/narciso",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/09/Slider-web-Sodre-47-768x307.png",
    "productor": "Cine Nacional y Latinoamericano del Sodre",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021823/narciso"
+   ],
    "ciclo": null,
    "muestra": false,
    "hasta": null
@@ -1221,12 +1269,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Slider-web-Sodre-54-768x307.png",
    "productor": "Cine Nacional y Latinoamericano del Sodre",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021919/emi"
+   ],
    "ciclo": null,
    "muestra": false,
    "hasta": null
@@ -1262,12 +1317,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021822/el-bano-del-papa",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Slider-web-Sodre-46-768x307.png",
    "productor": "Cine Nacional y Latinoamericano del Sodre",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021822/el-bano-del-papa"
+   ],
    "ciclo": null,
    "muestra": false,
    "hasta": null
@@ -1303,12 +1365,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021820/elena-quinteros",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Slider-web-Sodre-45-768x307.png",
    "productor": "Cine Nacional y Latinoamericano del Sodre",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021820/elena-quinteros"
+   ],
    "ciclo": null,
    "muestra": false,
    "hasta": null
@@ -1344,12 +1413,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021868/diciembre",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Slider-web-Sodre-51-768x307.png",
    "productor": "Cine Nacional y Latinoamericano del Sodre",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021868/diciembre"
+   ],
    "ciclo": null,
    "muestra": false,
    "hasta": null
@@ -1385,12 +1461,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021870/carne",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Slider-web-Sodre-52-768x307.png",
    "productor": "Cine Nacional y Latinoamericano del Sodre",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021870/carne"
+   ],
    "ciclo": null,
    "muestra": false,
    "hasta": null
@@ -1472,6 +1555,47 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021798/gala-lirica-opereta-vienesa-y-francesa"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13665",
+   "url": "https://sodre.gub.uy/espectaculos/sodre-celebra/",
+   "titulo": "Sodre celebra",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "El Sodre y Lírica del Sur presentan un encuentro musical para celebrar el cierre de la temporada 2026",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T20:30:00-03:00",
+     "fin": "2026-12-12T22:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021890/sodre-celebra",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/SODRE-CELEBRA_Adaptaciones_Web_Destacada1-768x420.png",
+   "productor": "Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021890/sodre-celebra"
    ],
    "ciclo": null,
    "muestra": false,

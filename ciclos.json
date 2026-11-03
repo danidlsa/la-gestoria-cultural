@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-03T00:07:45.288174-03:00",
- "cantidad": 18,
+ "generado": "2026-11-03T12:51:56.845521-03:00",
+ "cantidad": 19,
  "ciclos": [
   {
    "id": "ciclo-envejecimiento-activo",
@@ -51,20 +51,20 @@
    "cantidad": 4
   },
   {
-   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
-   "titulo": "Ciclo (no tan) Solos al mediodía",
-   "lugar_id": "teatro-solis",
-   "desde": "2026-11-06T14:00:00-03:00",
-   "hasta": "2026-11-28T14:00:00-03:00",
-   "cantidad": 1
-  },
-  {
    "id": "ciclo-ciclo-marea",
    "titulo": "Ciclo MAREA",
    "lugar_id": "sala-zitarrosa",
    "desde": "2026-11-06T21:00:00-03:00",
    "hasta": "2026-12-05T21:30:00-03:00",
    "cantidad": 6
+  },
+  {
+   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "lugar_id": "teatro-solis",
+   "desde": "2026-11-07T14:00:00-03:00",
+   "hasta": "2026-11-28T14:00:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-musica-en-el-parque",
@@ -75,12 +75,12 @@
    "cantidad": 4
   },
   {
-   "id": "ciclo-tmc",
-   "titulo": "TMC",
-   "lugar_id": "auditorio-vaz-ferreira",
-   "desde": "2026-11-08T18:00:00-03:00",
-   "hasta": "2026-12-17T20:00:00-03:00",
-   "cantidad": 8
+   "id": "ciclo-the-apartment-station-presenta-trasnoches-en-cinemateca-rocky-50-anos",
+   "titulo": "The Apartment Station presenta: Trasnoches en Cinemateca / Rocky, 50 años",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-07T23:30:00-03:00",
+   "hasta": "2026-11-07T23:30:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-ciclo-de-cine",
@@ -97,6 +97,14 @@
    "desde": "2026-11-14T16:00:00-03:00",
    "hasta": "2026-11-14T16:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-tmc",
+   "titulo": "TMC",
+   "lugar_id": "auditorio-vaz-ferreira",
+   "desde": "2026-11-15T18:00:00-03:00",
+   "hasta": "2026-12-17T20:00:00-03:00",
+   "cantidad": 7
   },
   {
    "id": "ciclo-sabados-en-ciudad-vieja",

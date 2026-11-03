@@ -1,6 +1,6 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-03T00:03:58.685917-03:00",
+ "corrida": "2026-11-03T12:48:04.836731-03:00",
  "ok": true,
  "cantidad": 26,
  "errores": [],
@@ -97,12 +97,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021609/ulysses-quartetmcdermott-piano",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7021.png",
    "productor": "Teatro Solís",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021609/ulysses-quartetmcdermott-piano"
+   ],
    "ciclo": null,
    "muestra": false,
    "hasta": null
