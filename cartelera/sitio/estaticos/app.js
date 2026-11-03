@@ -347,7 +347,8 @@
 
     const secciones = [];
     for (const dia of [...porDia.keys()].sort()) {
-      const items = porDia.get(dia).sort((a, b) => a[1][0].localeCompare(b[1][0]));
+      // Primero lo que tiene hora, en orden; al final lo que no tiene (exposiciones, actividades de todo el día).
+      const items = porDia.get(dia).sort((a, b) => (a[1][1] - b[1][1]) || a[1][0].localeCompare(b[1][0]));
       secciones.push(() => carril(nombreCarril(dia), plural(items.length, "evento"),
         items.map(([e, f]) => tarjetaPara(e, f)), diaSemana(dia) % 6 === 0 ? "carril-finde" : "", dia));
     }
