@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-04T12:34:16.143956-03:00",
+ "corrida": "2026-11-04T14:25:28.712043-03:00",
  "ok": true,
- "cantidad": 35,
+ "cantidad": 36,
  "errores": [],
  "eventos": [
   {
@@ -1597,6 +1597,47 @@
    "productor": "Producción Sodre",
    "region": "montevideo",
    "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13694",
+   "url": "https://sodre.gub.uy/espectaculos/cuarteto-de-vientos-madera/",
+   "titulo": "Cuarteto de Vientos Madera",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Temporada de Música de Cámara",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T18:00:00-03:00",
+     "fin": "2026-11-15T20:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021681/tmc-cuarteto-de-vientos-madera",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/cuarteto-vientos-madera_destacada-1-768x420.png",
+   "productor": "Temporada de Música de Cámara del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021681/tmc-cuarteto-de-vientos-madera"
+   ],
    "ciclo": null,
    "muestra": false,
    "hasta": null

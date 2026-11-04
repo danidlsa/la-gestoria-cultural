@@ -1,10 +1,49 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-04T12:42:12.056402-03:00",
+ "corrida": "2026-11-04T14:33:01.989466-03:00",
  "ok": true,
- "cantidad": 13,
+ "cantidad": 15,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "mientrada",
+   "id_externo": "30651",
+   "url": "https://mientrada.com.uy/evento/club-de-idiotas-adorables-y-erre-ampamp-cia-en-bluzz-30651",
+   "titulo": "CLUB DE IDIOTAS ADORABLES Y ERRE & CIA EN BLUZZ",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Club de idiotas adorables y Erre & cia se encuentran en Bluzz el viernes 6 de noviembre Contáctanos a nuestro WhatsApp Oficial",
+   "lugar": {
+    "nombre": "Bluzz Bar",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mientrada.com.uy/evento/club-de-idiotas-adorables-y-erre-ampamp-cia-en-bluzz-30651",
+     "via": "mientrada"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30651_banner5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "mientrada",
    "id_externo": "30642",
@@ -505,6 +544,45 @@
    ],
    "beneficios": [],
    "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30672_banner5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mientrada",
+   "id_externo": "30765",
+   "url": "https://mientrada.com.uy/evento/the-madman-lives-30765",
+   "titulo": "THE MADMAN LIVES",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "THE MADMAN LIVES A Prince of Darkness Celebration El 26 de diciembre nos reunimos para rendir homenaje a una de las figuras más grandes e influyentes de la historia del rock y el heavy metal: Ozzy Osbourne, el eterno Príncipe de las Tinieblas. Una noche para celebrar su música, su legado y su…",
+   "lugar": {
+    "nombre": "Sala Mandrágora",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-26T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mientrada.com.uy/evento/the-madman-lives-30765",
+     "via": "mientrada"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30765_banner5.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

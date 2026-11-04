@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-04T12:42:46.976277-03:00",
- "cantidad": 177,
+ "generado": "2026-11-04T14:33:37.667417-03:00",
+ "cantidad": 178,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -208,6 +208,15 @@
    "direccion": "Complejo Prado",
    "lat": -34.861076,
    "lon": -56.20152,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "bulevar-general-artigas-3946",
+   "nombre": "Bulevar General Artigas 3946",
+   "alias": [],
+   "direccion": "Bv. Gral. Artigas 3946, 11700 Montevideo",
+   "lat": -34.871123,
+   "lon": -56.190083,
    "ciudad": "Montevideo"
   },
   {
@@ -618,7 +627,9 @@
   {
    "id": "espacio-zorrilla",
    "nombre": "Espacio Zorrilla",
-   "alias": [],
+   "alias": [
+    "Espacio Zorilla"
+   ],
    "direccion": "Cerrito 475",
    "lat": -34.904859,
    "lon": -56.206546,

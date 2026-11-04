@@ -1,8 +1,8 @@
 {
  "fuente": "gaucho",
- "corrida": "2026-11-03T22:39:01.386411-03:00",
+ "corrida": "2026-11-04T14:31:44.185843-03:00",
  "ok": true,
- "cantidad": 8,
+ "cantidad": 9,
  "errores": [],
  "eventos": [
   {
@@ -246,6 +246,47 @@
    "region": "montevideo",
    "enlaces": [
     "https://www.ticketmaster.uy/event/foo-fighters-live-2027-mvd"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "gaucho",
+   "id_externo": "2026-12-09-pablopablo",
+   "url": "https://www.gaucho.com.uy/shows.php",
+   "titulo": "pablopablo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Espacio Zorilla",
+    "direccion": "Cerrito 475",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-09T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/pablopablo-piano-piano-tour/34632/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.gaucho.com.uy/images/banners/2026/2026-12-09-pablopablo.jpg",
+   "productor": "Gaucho",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/pablopablo-piano-piano-tour/34632/"
    ],
    "ciclo": null,
    "muestra": false,

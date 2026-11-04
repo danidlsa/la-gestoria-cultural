@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-04T12:42:46.976277-03:00",
+ "generado": "2026-11-04T14:33:37.667417-03:00",
  "cantidad": 20,
  "ciclos": [
   {
@@ -107,14 +107,6 @@
    "cantidad": 1
   },
   {
-   "id": "ciclo-tmc",
-   "titulo": "TMC",
-   "lugar_id": "auditorio-vaz-ferreira",
-   "desde": "2026-11-15T18:00:00-03:00",
-   "hasta": "2026-12-17T20:00:00-03:00",
-   "cantidad": 7
-  },
-  {
    "id": "ciclo-sabados-en-ciudad-vieja",
    "titulo": "Sábados en Ciudad Vieja",
    "lugar_id": "ciudad-vieja",
@@ -129,6 +121,14 @@
    "desde": "2026-11-21T17:30:00-03:00",
    "hasta": "2026-11-21T21:30:00-03:00",
    "cantidad": 2
+  },
+  {
+   "id": "ciclo-tmc",
+   "titulo": "TMC",
+   "lugar_id": "auditorio-vaz-ferreira",
+   "desde": "2026-11-26T20:00:00-03:00",
+   "hasta": "2026-12-17T20:00:00-03:00",
+   "cantidad": 6
   },
   {
    "id": "ciclo-19-fest-jazz-mvd",
