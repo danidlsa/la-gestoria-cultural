@@ -1,12 +1,20 @@
 {
- "generado": "2026-11-03T14:20:35.423796-03:00",
+ "generado": "2026-11-03T22:40:00.674268-03:00",
  "cantidad": 19,
  "ciclos": [
+  {
+   "id": "ciclo-particulas",
+   "titulo": "PARTÍCULAS",
+   "lugar_id": "sala-verdi",
+   "desde": "2026-11-03T20:00:00-03:00",
+   "hasta": "2026-11-24T20:00:00-03:00",
+   "cantidad": 3
+  },
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
    "lugar_id": null,
-   "desde": "2026-11-03T10:00:00-03:00",
+   "desde": "2026-11-04T16:00:00-03:00",
    "hasta": "2026-12-11T16:00:00-03:00",
    "cantidad": 5
   },
@@ -14,17 +22,9 @@
    "id": "ciclo-andrzej-wajda-en-su-centenario",
    "titulo": "Andrzej Wajda, en su centenario",
    "lugar_id": "cinemateca",
-   "desde": "2026-11-03T17:00:00-03:00",
-   "hasta": "2026-11-09T17:00:00-03:00",
-   "cantidad": 7
-  },
-  {
-   "id": "ciclo-particulas",
-   "titulo": "Partículas",
-   "lugar_id": "sala-verdi",
-   "desde": "2026-11-03T20:00:00-03:00",
-   "hasta": "2026-11-24T20:00:00-03:00",
-   "cantidad": 3
+   "desde": "2026-11-04T17:00:00-03:00",
+   "hasta": "2026-11-08T19:45:00-03:00",
+   "cantidad": 5
   },
   {
    "id": "ciclo-atlantidoc",

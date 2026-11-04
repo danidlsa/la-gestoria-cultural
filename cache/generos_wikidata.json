@@ -1496,6 +1496,29 @@
 "Q3053954"
 ],
 "fecha": "2026-11-03T17:20:37.162568"
+},
+"concierto": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-04T01:40:02.568823"
+},
+"tussiwarriors": {
+"id": "Q133873423",
+"generos": [
+"Q2913982",
+"Q109382160"
+],
+"fecha": "2026-11-04T01:40:03.722929"
+},
+"fin de ano": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-04T01:40:04.501009"
+},
+"quinta justa": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-04T01:40:05.280604"
 }
 },
 "generos": {
@@ -1558,6 +1581,8 @@
 "Q35760": "ensayo",
 "Q723418": "cumbia",
 "Q1143752": "Cumbia villera",
-"Q3053954": "nuevo flamenco"
+"Q3053954": "nuevo flamenco",
+"Q2913982": "trap",
+"Q109382160": "plugg"
 }
 }

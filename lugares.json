@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-03T14:20:35.423796-03:00",
- "cantidad": 151,
+ "generado": "2026-11-03T22:40:00.674268-03:00",
+ "cantidad": 157,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -223,7 +223,7 @@
    "id": "castillo-pittamiglio",
    "nombre": "Castillo Pittamiglio",
    "alias": [],
-   "direccion": "Rbla. Gandhi 633, 11300 Montevideo, Depa",
+   "direccion": "Rambla Gandhi 633",
    "lat": -34.920998,
    "lon": -56.149856,
    "ciudad": "Montevideo"
@@ -340,6 +340,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "club-de-anita",
+   "nombre": "Club de anita",
+   "alias": [],
+   "direccion": "Av. Agraciada 2385, 11800 Montevideo, De",
+   "lat": -34.887789,
+   "lon": -56.189609,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "colonia-894",
    "nombre": "Colonia 894",
    "alias": [],
@@ -385,6 +394,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "el-barzon",
+   "nombre": "El Barzón",
+   "alias": [],
+   "direccion": "Av.Gral Rivera 2019",
+   "lat": -34.902133,
+   "lon": -56.172788,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "el-callejon-tango-bar",
    "nombre": "El Callejon Tango Bar",
    "alias": [],
@@ -420,6 +438,15 @@
    "direccion": "Colonia 2035",
    "lat": -34.898852,
    "lon": -56.172319,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "el-tropy",
+   "nombre": "El Tropy",
+   "alias": [],
+   "direccion": "Av Gral Rondeau 2477, 11800 Montevideo,",
+   "lat": -34.884626,
+   "lon": -56.193819,
    "ciudad": "Montevideo"
   },
   {
@@ -767,6 +794,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "museo-figari",
+   "nombre": "Museo Figari",
+   "alias": [],
+   "direccion": "Juan Carlos Gómez 1427",
+   "lat": -34.9056221,
+   "lon": -56.2035786,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "museo-gurvich",
    "nombre": "Museo Gurvich",
    "alias": [],
@@ -1035,6 +1071,15 @@
    "direccion": "Av. Lucas Obes 1010, 11700 Montevideo, D",
    "lat": -34.863049,
    "lon": -56.203285,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "sala-13",
+   "nombre": "SALA 13",
+   "alias": [],
+   "direccion": "Bartolomé Mitre 1321, 11000 Montevideo,",
+   "lat": -34.907138,
+   "lon": -56.201924,
    "ciudad": "Montevideo"
   },
   {
@@ -1440,6 +1485,15 @@
    "direccion": "maldonado 1994",
    "lat": -34.9083706,
    "lon": -56.1721038,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "anima-espacio-cultural",
+   "nombre": "Ánima Espacio Cultural",
+   "alias": [],
+   "direccion": "S. José 822, 11100 Montevideo, Departame",
+   "lat": -34.907534,
+   "lon": -56.198681,
    "ciudad": "Montevideo"
   },
   {

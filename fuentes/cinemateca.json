@@ -1,9 +1,11 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-03T14:13:38.503216-03:00",
+ "corrida": "2026-11-03T22:32:46.560331-03:00",
  "ok": true,
- "cantidad": 17,
- "errores": [],
+ "cantidad": 16,
+ "errores": [
+  "https://cinemateca.org.uy/peliculas/9671: ReadError: [Errno 104] Connection reset by peer"
+ ],
  "eventos": [
   {
    "fuente": "cinemateca",
@@ -20,13 +22,6 @@
     "lon": -56.2008552
    },
    "funciones": [
-    {
-     "inicio": "2026-11-03T17:10:00-03:00",
-     "fin": "2026-11-03T18:51:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-04T17:10:00-03:00",
      "fin": "2026-11-04T18:51:00-03:00",
@@ -116,13 +111,6 @@
     "lon": -56.2008552
    },
    "funciones": [
-    {
-     "inicio": "2026-11-03T17:15:00-03:00",
-     "fin": "2026-11-03T19:23:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-04T17:15:00-03:00",
      "fin": "2026-11-04T19:23:00-03:00",
@@ -234,13 +222,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-03T19:10:00-03:00",
-     "fin": "2026-11-03T20:55:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-04T19:10:00-03:00",
      "fin": "2026-11-04T20:55:00-03:00",
      "sin_hora": false,
@@ -276,8 +257,8 @@
      "agotada": false
     },
     {
-     "inicio": "2026-11-09T21:55:00-03:00",
-     "fin": "2026-11-09T23:40:00-03:00",
+     "inicio": "2026-11-09T21:40:00-03:00",
+     "fin": "2026-11-09T23:25:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -711,88 +692,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "1920",
-   "url": "https://cinemateca.org.uy/peliculas/1920",
-   "titulo": "Cenizas y diamantes",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Andrzej Wajda. Tras la guerra contra el invasor nazi, la guerra civil que desgarra Polonia. Un atentado político sirve de eje a una metáfora sobre una sociedad fracturada. Con Cybulski (el “James Dean polaco”, se ha dicho) el antihéroe irrumpe en el cine socialista. Tras la guerra contra el…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-03T17:00:00-03:00",
-     "fin": "2026-11-03T18:38:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-03T19:05:00-03:00",
-     "fin": "2026-11-03T20:43:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/1920",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/cenizas-y-diamantes.jpe",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario",
    "muestra": false,
    "hasta": null
   },
@@ -1332,6 +1231,81 @@
   },
   {
    "fuente": "cinemateca",
+   "id_externo": "2538",
+   "url": "https://cinemateca.org.uy/peliculas/2538",
+   "titulo": "En la puta vida",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Beatriz Flores Silva. La joven Elisa tiene un amante casado que le ha prometido (y mentido) que dejará a su esposa. Además, tiene dos hijos y no duda en soportar a ese hombre mayor que, por otra parte, es su jefe. Harta de mentiras, sin embargo, decide abandonarlo, se queda sin trabajo, de la…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T22:00:00-03:00",
+     "fin": "2026-11-07T23:37:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/2538",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/en_la_puta_vida.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
    "id_externo": "9664",
    "url": "https://cinemateca.org.uy/peliculas/9664",
    "titulo": "Paisaje después de la batalla",
@@ -1562,81 +1536,6 @@
     }
    ],
    "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/la_boda.jpg",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9671",
-   "url": "https://cinemateca.org.uy/peliculas/9671",
-   "titulo": "La tierra prometida",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Andrzej Wajda. Un grupo de ambiciosos cuyo ascenso y caída Wajda describe en esta amplia crónica de la revolución industrial en Lodz, Polonia, hacia fines del siglo XIX. Vasto cuadro histórico, con aliento novelesco y forma deslumbrante. Un grupo de ambiciosos cuyo ascenso y caída Wajda describe…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-09T17:00:00-03:00",
-     "fin": "2026-11-09T19:25:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9671",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://thumb.canalplus.pro/http/unsafe/1440x810/filters:quality(80)/mms-images-prod.pl.canalplus.com/exported/11250000/A_11257704.jpg",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],

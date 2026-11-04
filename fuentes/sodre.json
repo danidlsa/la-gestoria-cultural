@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-03T14:13:32.663652-03:00",
+ "corrida": "2026-11-03T22:32:41.384507-03:00",
  "ok": true,
- "cantidad": 35,
+ "cantidad": 36,
  "errores": [],
  "eventos": [
   {
@@ -1597,6 +1597,47 @@
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021890/sodre-celebra"
    ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13689",
+   "url": "https://sodre.gub.uy/espectaculos/concierto-alumnos-de-la-escuela-nacional-de-arte-lirico/",
+   "titulo": "Concierto. Alumnos de la Escuela Nacional de Arte Lírico",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Escuela Nacional de Formación Artística Sodre",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T19:00:00-03:00",
+     "fin": "2026-11-05T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-06T19:00:00-03:00",
+     "fin": "2026-11-06T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/DESTACADA_.5.6nov-768x420.jpg",
+   "productor": "Producción Sodre",
+   "region": "montevideo",
+   "enlaces": [],
    "ciclo": null,
    "muestra": false,
    "hasta": null

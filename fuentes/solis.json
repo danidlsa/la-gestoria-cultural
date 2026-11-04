@@ -1,8 +1,8 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-03T14:16:47.761433-03:00",
+ "corrida": "2026-11-03T22:36:00.139625-03:00",
  "ok": true,
- "cantidad": 26,
+ "cantidad": 27,
  "errores": [],
  "eventos": [
   {
@@ -29,12 +29,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7025.jpg",
    "productor": "Teatro Solís",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango"
+   ],
    "ciclo": null,
    "muestra": false,
    "hasta": null
@@ -66,6 +73,40 @@
    "entradas": [],
    "beneficios": [],
    "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7018.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "3081",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Yerai-Cortes-uc3081",
+   "titulo": "Yerai Cortés",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2027-04-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7023.jpg",
    "productor": "Teatro Solís",
    "region": "montevideo",
    "enlaces": [],
@@ -879,7 +920,7 @@
    "precio": null,
    "entradas": [],
    "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202603/W756_H530/6575.jpg",
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202611/W756_H530/7042.png",
    "productor": "Teatro Solís",
    "region": "montevideo",
    "enlaces": [],

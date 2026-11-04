@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-03T14:15:05.999774-03:00",
+ "corrida": "2026-11-03T22:34:16.477869-03:00",
  "ok": true,
- "cantidad": 91,
+ "cantidad": 96,
  "errores": [],
  "eventos": [
   {
@@ -1981,6 +1981,50 @@
   },
   {
    "fuente": "cartelera_mvd",
+   "id_externo": "26405",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?26405",
+   "titulo": "El castillo del horror",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "¿Te animarías a entrar a un castillo siniestro en plena oscuridad? No deberías tener mayores problemas si tu guía es un muerto viviente. Un vampiro es el excéntrico anfitrión de una morada oscura donde los espectadores se convierten en sus huéspedes. A lo largo del desarrollo aparecen y desaparecen…",
+   "lugar": {
+    "nombre": "Castillo Pittamiglio",
+    "direccion": "Rambla Gandhi 633",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 1400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?26405",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42255.jpg",
+   "productor": "Pablo Ferrería",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
    "id_externo": "34644",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34644",
    "titulo": "El eterno, glorioso y más pequeño circo del mundo",
@@ -2142,6 +2186,50 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42092.jpg",
    "productor": "Martín De Brun",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "32126",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32126",
+   "titulo": "El gran safari",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "En una selva muy, muy divertida se encuentra un castillo perdido. Allí puede hallarse una reliquia arqueológica invaluable: el Cáliz Sagrado. Tres locos exploradores emprenderán una gran aventura en su búsqueda. Se cruzarán con los animalitos de la selva y, en la travesía, se enfrentarán a grandes…",
+   "lugar": {
+    "nombre": "Castillo Pittamiglio",
+    "direccion": "Rambla Gandhi 633",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T17:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 1400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32126",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42256.jpg",
+   "productor": "Sole Rosa",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -3075,6 +3163,101 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41354.jpg",
    "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "15167",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?15167",
+   "titulo": "Hadas, piratas y fantasmas",
+   "categoria": "infantil",
+   "categoria_segura": true,
+   "descripcion_corta": "En un castillo lleno de misterio, tres personajes muy distintos — un pirata disparatado, una fantasmita juguetona y un hada encantadora — se embarcan en una divertida búsqueda de un tesoro escondido, guiados por talismanes heredados, pistas mágicas y desafíos que invitan al público a participar…",
+   "lugar": {
+    "nombre": "Castillo Pittamiglio",
+    "direccion": "Rambla Gandhi 633",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-08T17:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T17:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 1400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?15167",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42254.jpg",
+   "productor": "Sole Rosa",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "33084",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33084",
+   "titulo": "Hologramas - El guardián de Punta de Carretas",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Hologramas - El guardián de Punta de Carretas es un recorrido multimedia que transporta al histórico Castillo Pittamiglio. Telmo Valdemar, el último de un linaje de fareros, invita a un viaje lleno de encanto y sorpresa, donde la historia esotérica del lugar se entrelaza con la fantasía. El…",
+   "lugar": {
+    "nombre": "Castillo Pittamiglio",
+    "direccion": "Rambla Gandhi 633",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 1400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33084",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42257.jpg",
+   "productor": "colectiva",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -4393,6 +4576,57 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42037.jpg",
    "productor": "Alfredo Leirós",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "34926",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34926",
+   "titulo": "Merlina y Pericles",
+   "categoria": "infantil",
+   "categoria_segura": true,
+   "descripcion_corta": "¿Qué tienen en común Merlina, Pericles y el Castillo Pittamiglio? Que los tres son bastante raros... y ninguno tiene intenciones de cambiar. Esta vez, los hermanos más particulares llegan a uno de los lugares más misteriosos de Montevideo. Un castillo lleno de símbolos extraños, secretos, leyendas…",
+   "lugar": {
+    "nombre": "Castillo Pittamiglio",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T17:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T17:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 1400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34926",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42253.jpg",
+   "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

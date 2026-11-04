@@ -1,153 +1,10 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-03T14:09:01.326127-03:00",
+ "corrida": "2026-11-03T22:27:38.839224-03:00",
  "ok": true,
- "cantidad": 131,
+ "cantidad": 132,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020538",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020538/dyango",
-   "titulo": "Dyango",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "DYANGO llega a Uruguay con su último show \"Su amigo Dyango Tour\", la continuación de la gira que emocionó a miles de fans. Un recorrido por todos sus clásicos, nuevas sorpresas y una noche cargada de romanticismo y recuerdos inolvidables. Viví una velada única junto a una leyenda de la música. Edad…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-03T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020538/dyango",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020538/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021754",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021754/particulas-lucia-romero-isabella-acerenza",
-   "titulo": "Partículas: Lucia Romero + Isabella Acerenza",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-03T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021754/particulas-lucia-romero-isabella-acerenza",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021754/BANNER.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021230",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021230/sombras-por-supuesto",
-   "titulo": "Sombras por supuesto",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "La compañía El Silencio vuelve a reunirse después de obras tan emblemáticas como Algo de Ruido hace, El tiempo todo entero y Fauna. Diez años después, se preguntan cómo se vinculan hoy esos cuerpos y esas voces, si conservan entre sí los lazos que supieron construir o si están llamados a fundar…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-03T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    },
-    {
-     "inicio": "2026-11-04T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    },
-    {
-     "inicio": "2026-11-10T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    },
-    {
-     "inicio": "2026-11-11T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": {
-    "desde": 2000.0,
-    "hasta": 2000.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021230/sombras-por-supuesto",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021230/Sombras_Tickantel_2.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40020228",
@@ -328,6 +185,71 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021230",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021230/sombras-por-supuesto",
+   "titulo": "Sombras por supuesto",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "La compañía El Silencio vuelve a reunirse después de obras tan emblemáticas como Algo de Ruido hace, El tiempo todo entero y Fauna. Diez años después, se preguntan cómo se vinculan hoy esos cuerpos y esas voces, si conservan entre sí los lazos que supieron construir o si están llamados a fundar…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-03T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    },
+    {
+     "inicio": "2026-11-04T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    },
+    {
+     "inicio": "2026-11-10T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    },
+    {
+     "inicio": "2026-11-11T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    }
+   ],
+   "precio": {
+    "desde": 2000.0,
+    "hasta": 2000.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021230/sombras-por-supuesto",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021230/Sombras_Tickantel_2.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40020670",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020670/jesse-y-joy",
    "titulo": "Jesse y Joy",
@@ -472,9 +394,9 @@
    "id_externo": "40021401",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021401/el-teatro",
    "titulo": "El Teatro",
-   "categoria": "musica",
+   "categoria": "teatro",
    "categoria_segura": false,
-   "descripcion_corta": "El Teatro Entre la risa y la conmoción, El teatro, escrita y dirigida por el reconocido creador francés Pascal Rambert, sigue a una compañía durante las horas previas a una gran celebración. Mientras preparan homenajes y despedidas, afloran viejos amores, reclamos, heridas y todo aquello que nunca…",
+   "descripcion_corta": "COMUNICADO: La Comedia Nacional informa que, la función prevista para el viernes 6 de noviembre, queda cancelada debido a las afectaciones en la circulación y el acceso a Ciudad Vieja con motivo de la visita del Papa León XIV. Sobre la devolución de las entradas: Quienes hayan comprado sus entradas…",
    "lugar": {
     "nombre": "Teatro Solís",
     "direccion": null,
@@ -1186,7 +1108,7 @@
    "titulo": "Rasgar la tierra",
    "categoria": "teatro",
    "categoria_segura": false,
-   "descripcion_corta": "Una casa de la cultura en un barrio periférico, semirrural, de una ciudad. Dos funcionarios públicos. Un vecino que colabora. Un triángulo de vínculos. Una historia aparentemente simple. Omisiones y secretos no develados. Rasgar la tierra: sacar a la luz lo oculto. Desde la cotidianidad de un…",
+   "descripcion_corta": "COMUNICADO: La Comedia Nacional informa que, la función prevista para el viernes 6 de noviembre, queda cancelada debido a las afectaciones en la circulación y el acceso a Ciudad Vieja con motivo de la visita del Papa León XIV. Sobre la devolución de las entradas: Quienes hayan comprado sus entradas…",
    "lugar": {
     "nombre": "Teatro Solís",
     "direccion": null,
@@ -1341,6 +1263,50 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021927",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021927/la-puerta-azul",
+   "titulo": "La Puerta Azul",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Teodoro tiene que cazar un oso y no quiere morir. Escapa y se encuentra con un príncipe que no quiere ser rey y con una mesera que quiere ser la primera cartógrafa en encontrar la puerta azul. En este mundo un conejo a punto de morir negocia para no ser cazado, un príncipe en camisón llora porque…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": null,
+    "lat": -34.8822811,
+    "lon": -56.1829079
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021927/la-puerta-azul",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021927/banenrpng.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021912",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021912/trotsky-vengaran",
    "titulo": "Trotsky Vengarán",
@@ -1415,50 +1381,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021693/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021679",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021679/tmc-un-viaje-musical",
-   "titulo": "TMC: Un viaje musical",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Alejandro Vega, trompeta 1 Dante Vargas, trompeta 2 Ana Holguera, corno César Roig, trombón Max Paulsen, trombón bajo Kevin McKee — Escape Daniel Perpiñán — Vimana Suite for Brass (Estreno en Latinoamérica, Uruguay) Leonard Bernstein — West Side Story: Suite (arr. Jack Gale) Astor Piazzolla — Adiós…",
-   "lugar": {
-    "nombre": "Auditorio Vaz Ferreira",
-    "direccion": null,
-    "lat": -34.9026912,
-    "lon": -56.1776624
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 250.0,
-    "hasta": 250.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021679/tmc-un-viaje-musical",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021679/Nov,_8_-_Un_viaje_musical_Tickantel.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1547,6 +1469,50 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020154/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021679",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021679/tmc-un-viaje-musical",
+   "titulo": "TMC: Un viaje musical",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Alejandro Vega, trompeta 1 Dante Vargas, trompeta 2 Ana Holguera, corno César Roig, trombón Max Paulsen, trombón bajo Kevin McKee — Escape Daniel Perpiñán — Vimana Suite for Brass (Estreno en Latinoamérica, Uruguay) Leonard Bernstein — West Side Story: Suite (arr. Jack Gale) Astor Piazzolla — Adiós…",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": -34.9026912,
+    "lon": -56.1776624
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-08T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 250.0,
+    "hasta": 250.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021679/tmc-un-viaje-musical",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021679/Nov,_8_-_Un_viaje_musical_Tickantel.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2093,6 +2059,50 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021666",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021666/luca-prodan-la-vida-que-nunca-te-contaron",
+   "titulo": "Luca Prodan: La vida que nunca te contaron",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Proyección del documental \"LUCA\", dirigido por Rodrigo Espina, sobre la vida de Luca Prodan, fundador de la banda Sumo y figura fundamental del rock argentino de los años '80. La película, ganadora del 4º Festival Internacional de Cine Documental Musical IN-EDIT, reconstruye la historia de Prodan a…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": null,
+    "lat": -34.8822811,
+    "lon": -56.1829079
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021666/luca-prodan-la-vida-que-nunca-te-contaron",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021666/banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021111",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021111/washington-y-cristina",
    "titulo": "Washington y Cristina",
@@ -2130,50 +2140,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021111/BANNER_TICKANTEL.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021666",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021666/luca-prodan-la-vida-que-nunca-te-contaron",
-   "titulo": "Luca Prodan: La vida que nunca te contaron",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Proyección del documental \"LUCA\", dirigido por Rodrigo Espina, sobre la vida de Luca Prodan, fundador de la banda Sumo y figura fundamental del rock argentino de los años '80. La película, ganadora del 4º Festival Internacional de Cine Documental Musical IN-EDIT, reconstruye la historia de Prodan a…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": null,
-    "lat": -34.8822811,
-    "lon": -56.1829079
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 450.0,
-    "hasta": 450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021666/luca-prodan-la-vida-que-nunca-te-contaron",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021666/banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2683,6 +2649,45 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020902/SOY_LUNA_TICKANTEL_GRILLA-2.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021609",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021609/ulysses-quartetmcdermott-piano",
+   "titulo": "ULYSSES QUARTET/McDERMOTT, piano",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Debut en Montevideo del cuarteto americano que, con una trayectoria de diez años, destaca por un fraseo impecable y una compenetración extraordinaria. El programa incluye un cuarteto de cuerdas de Mendelssohn y “Soul”, compuesto por Christina Bouey, primera violinista del grupo. En la segunda parte…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021609/ulysses-quartetmcdermott-piano",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021609/CCM_octubre_tickantel_2026.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4105,45 +4110,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40020603",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020603/banda-sinfonica-cascanueces",
-   "titulo": "BANDA SINFÓNICA - Cascanueces",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "La música de El Cascanueces de Piotr Ilich Tchaikovsky es una de las más reconocidas del repertorio clásico. Concebida originalmente para la escena, combina melodías memorables, gran riqueza tímbrica y una fuerte capacidad evocadora, que la han convertido en un clásico asociado al mundo de la…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-02T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020603/banda-sinfonica-cascanueces",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020603/Cascanueces-_Banda_Sinfonica_de_Montevideo.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021475",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021475/coltrane-100-anos-19-fest-jazz-mvd",
    "titulo": "Coltrane 100 años - 19° Fest Jazz MVD",
@@ -4179,6 +4145,45 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021475/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40020603",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020603/banda-sinfonica-cascanueces",
+   "titulo": "BANDA SINFÓNICA - Cascanueces",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "La música de El Cascanueces de Piotr Ilich Tchaikovsky es una de las más reconocidas del repertorio clásico. Concebida originalmente para la escena, combina melodías memorables, gran riqueza tímbrica y una fuerte capacidad evocadora, que la han convertido en un clásico asociado al mundo de la…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020603/banda-sinfonica-cascanueces",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020603/Cascanueces-_Banda_Sinfonica_de_Montevideo.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4437,6 +4442,45 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021215",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
+   "titulo": "Karina en Concierto",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Karina La Princesita, vuelve al Antel Arena. Este 4 de diciembre, Karina en vivo, presentando todos sus grandes temas y sus nuevos éxitos. Única función: Antel Arena, 4 de diciembre - 21 horas. No te pierdas una noche muy especial, Karina en Uruguay, no te quedes afuera.",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021215/700X390_.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021511",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021511/kind-of-blue-davis-100-anos",
    "titulo": "Kind of Blue - Davis 100 años",
@@ -4472,45 +4516,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021511/Banner_Tickantel_Festival_2026_V1.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021215",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
-   "titulo": "Karina en Concierto",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Karina La Princesita, vuelve al Antel Arena. Este 4 de diciembre, Karina en vivo, presentando todos sus grandes temas y sus nuevos éxitos. Única función: Antel Arena, 4 de diciembre - 21 horas. No te pierdas una noche muy especial, Karina en Uruguay, no te quedes afuera.",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-04T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021215/700X390_.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4564,50 +4569,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021514",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021514/mvd-simoni-colom",
-   "titulo": "Mvd - Simoni - Colom",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "19° Festival de Jazz de Montevideo SÁBADO 5 DE DICIEMBRE 2026 – 21.00 horas Teatro Solís – Sala Principal MVD BIG BAND & SIMONI, saxo (Italia) – COLOM, trompeta (Francia) El Instituto Italiano de Cultura de Montevideo y la Embajada de Francia en Uruguay, presentan al saxofonista italiano Lorenzo…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-05T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1200.0,
-    "hasta": 1200.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021514/mvd-simoni-colom",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021514/Banner_Tickantel_Festival_2026_V1.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021838",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021838/viviana-ruiz",
    "titulo": "Viviana Ruiz",
@@ -4643,6 +4604,50 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021838/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021514",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021514/mvd-simoni-colom",
+   "titulo": "Mvd - Simoni - Colom",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "19° Festival de Jazz de Montevideo SÁBADO 5 DE DICIEMBRE 2026 – 21.00 horas Teatro Solís – Sala Principal MVD BIG BAND & SIMONI, saxo (Italia) – COLOM, trompeta (Francia) El Instituto Italiano de Cultura de Montevideo y la Embajada de Francia en Uruguay, presentan al saxofonista italiano Lorenzo…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1200.0,
+    "hasta": 1200.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021514/mvd-simoni-colom",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021514/Banner_Tickantel_Festival_2026_V1.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -5111,6 +5116,50 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021890/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021930",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021930/academia-genesis",
+   "titulo": "Academia Génesis",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Audición de alumnos de la academia Génesis. Evento en el cual los alumnos van a tocar canciones en formato ensamble. Duración: 120 min",
+   "lugar": {
+    "nombre": "Sala Jorge Lazaroff",
+    "direccion": null,
+    "lat": -34.8557558,
+    "lon": -56.1324247
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-13T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 550.0,
+    "hasta": 550.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021930/academia-genesis",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021930/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -5946,7 +5995,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021784/GRILLA-WEB-TICKANTEL-GENERICO-700x390_15.jpg",
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021784/GRILLA-WEB-700x390_4.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

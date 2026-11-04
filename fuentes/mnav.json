@@ -1,8 +1,8 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-03T14:20:19.156569-03:00",
+ "corrida": "2026-11-03T22:39:41.264460-03:00",
  "ok": true,
- "cantidad": 30,
+ "cantidad": 32,
  "errores": [],
  "eventos": [
   {
@@ -2428,6 +2428,45 @@
   },
   {
    "fuente": "mnav",
+   "id_externo": "indigenas2026",
+   "url": "https://mnav.gub.uy/cms.php?id=indigenas2026",
+   "titulo": "Mediación por la exposición \"Borramientos, invenciones y faltantes indígenas en el acervo\"",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales",
+    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+    "lat": -34.91384,
+    "lon": -56.16497
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T15:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mnav.gub.uy/cms.php?id=indigenas2026",
+     "via": "mnav"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://mnav.gub.uy/img.php?p=indigenas2026",
+   "productor": "Museo Nacional de Artes Visuales",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mnav",
    "id_externo": "somosjugandoferrero",
    "url": "https://mnav.gub.uy/cms.php?id=somosjugandoferrero",
    "titulo": "Magela Ferrero: Taller de Varitas Mágicas de la muestra \"Somos Jugando\"",
@@ -2467,6 +2506,45 @@
   },
   {
    "fuente": "mnav",
+   "id_externo": "brugnini2026",
+   "url": "https://mnav.gub.uy/cms.php?id=brugnini2026",
+   "titulo": "Mediación por las exposición \"Cecilia Brugnini - Romance entre el todo y la nada\"",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales",
+    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+    "lat": -34.91384,
+    "lon": -56.16497
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mnav.gub.uy/cms.php?id=brugnini2026",
+     "via": "mnav"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://mnav.gub.uy/img.php?p=brugnini2026",
+   "productor": "Museo Nacional de Artes Visuales",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mnav",
    "id_externo": "somosjugandolotavella",
    "url": "https://mnav.gub.uy/cms.php?id=somosjugandolotavella",
    "titulo": "Santiago Tavella: Artistas en sus propias palabras de la muestra \"Somos Jugando\"",
@@ -2497,6 +2575,45 @@
    ],
    "beneficios": [],
    "imagen_url": "https://mnav.gub.uy/img.php?p=somosjugandolotavella",
+   "productor": "Museo Nacional de Artes Visuales",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mnav",
+   "id_externo": "somosjugando",
+   "url": "https://mnav.gub.uy/cms.php?id=somosjugando",
+   "titulo": "Mediación por las exposición \"Somos Jugando\"",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales",
+    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+    "lat": -34.91384,
+    "lon": -56.16497
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mnav.gub.uy/cms.php?id=somosjugando",
+     "via": "mnav"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://mnav.gub.uy/img.php?p=somosjugando",
    "productor": "Museo Nacional de Artes Visuales",
    "region": "montevideo",
    "enlaces": [],
@@ -2664,7 +2781,7 @@
    "fuente": "mnav",
    "id_externo": "grupodelecturascriticas2026",
    "url": "https://mnav.gub.uy/cms.php?id=grupodelecturascriticas2026",
-   "titulo": "Grupo de Lecturas Críticas MNAV 2026",
+   "titulo": "Grupo de Lecturas Críticas MNAV Noviembre: Textos de Olga Larnaudie, Alicia Haber y Ramón Grosfoguel",
    "categoria": "charla",
    "categoria_segura": false,
    "descripcion_corta": null,
@@ -3082,45 +3199,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://mnav.gub.uy/img.php?p=ciclodecine2026",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mnav",
-   "id_externo": "grpuodelecturascriticas2026",
-   "url": "https://mnav.gub.uy/cms.php?id=grpuodelecturascriticas2026",
-   "titulo": "Grupo de Lecturas Críticas MNAV 2026",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-15T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=grpuodelecturascriticas2026",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=grpuodelecturascriticas2026",
    "productor": "Museo Nacional de Artes Visuales",
    "region": "montevideo",
    "enlaces": [],
