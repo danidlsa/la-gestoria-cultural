@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-03T11:29:11.252808-03:00",
+ "corrida": "2026-11-04T11:00:17.355915-03:00",
  "ok": true,
- "cantidad": 20,
+ "cantidad": 31,
  "errores": [],
  "eventos": [
   {
@@ -59,27 +59,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-03T10:00:00-03:00",
-     "fin": "2026-11-03T12:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Casa de Jóvenes Adultos Mayores de Pajas Blancas",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-03T13:30:00-03:00",
-     "fin": "2026-11-03T15:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Centro Comunal Zonal 14",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-03T16:30:00-03:00",
-     "fin": "2026-11-03T18:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Comisión Fomento Larrañaga",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-04T16:00:00-03:00",
      "fin": "2026-11-04T18:00:00-03:00",
@@ -537,13 +516,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-03T13:30:00-03:00",
-     "fin": "2026-11-03T15:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-10T13:30:00-03:00",
      "fin": "2026-11-10T15:30:00-03:00",
      "sin_hora": false,
@@ -666,6 +638,396 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Envejecimiento activo",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "820-364",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/parte-de-este-mundo",
+   "titulo": "Parte de Este Mundo",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Esta obra invita a los espectadores a compartir una mesa con los actores. A través de relatos improvisados que revelan las fragilidades de la condición humana, los personajes enfrentan pequeños desastres emocionales que emergen de situaciones cotidianas. La comunión en la mesa, la música y la…",
+   "lugar": {
+    "nombre": "Molino de Pérez",
+    "direccion": "Pasaje Arq. Juan Veltron",
+    "lat": -34.894116,
+    "lon": -56.090633
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-07/Parte%20de%20este%20mundo%202%20%281%29.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "820-907",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/parte-de-este-mundo",
+   "titulo": "Parte de Este Mundo",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Esta obra invita a los espectadores a compartir una mesa con los actores. A través de relatos improvisados que revelan las fragilidades de la condición humana, los personajes enfrentan pequeños desastres emocionales que emergen de situaciones cotidianas. La comunión en la mesa, la música y la…",
+   "lugar": {
+    "nombre": "INJU",
+    "direccion": "Av. 18 de Julio 1865",
+    "lat": -34.901780233484,
+    "lon": -56.17602420257
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-07/Parte%20de%20este%20mundo%202%20%281%29.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "820-175",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/parte-de-este-mundo",
+   "titulo": "Parte de Este Mundo",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Esta obra invita a los espectadores a compartir una mesa con los actores. A través de relatos improvisados que revelan las fragilidades de la condición humana, los personajes enfrentan pequeños desastres emocionales que emergen de situaciones cotidianas. La comunión en la mesa, la música y la…",
+   "lugar": {
+    "nombre": "Parque Capurro",
+    "direccion": "Brigadier Gral. Manuel Oribe 136",
+    "lat": -34.87287,
+    "lon": -56.215035
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-07/Parte%20de%20este%20mundo%202%20%281%29.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "820-288",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/parte-de-este-mundo",
+   "titulo": "Parte de Este Mundo",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Esta obra invita a los espectadores a compartir una mesa con los actores. A través de relatos improvisados que revelan las fragilidades de la condición humana, los personajes enfrentan pequeños desastres emocionales que emergen de situaciones cotidianas. La comunión en la mesa, la música y la…",
+   "lugar": {
+    "nombre": "Cedel Carrasco",
+    "direccion": "Dr. Benito Cuñarro S/N (ex Hotel del Lago, Parque Rivera)",
+    "lat": -34.87814,
+    "lon": -56.087715
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-07/Parte%20de%20este%20mundo%202%20%281%29.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "896-1013",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/chu-q-y-la-cueva-del-maestro",
+   "titulo": "Chu q y la cueva del maestro",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Espectáculo infantil que combina humor físico, dramaturgia y técnicas circenses. La historia sigue a un aprendiz que quiere convertirse en “el mejor malabarista de la historia” y debe superar las pruebas que le propone un maestro excéntrico. Los desafíos atraviesan diferentes disciplinas y…",
+   "lugar": {
+    "nombre": "Asociación de Sordos del Uruguay",
+    "direccion": "Hermanos Gil 945",
+    "lat": -34.870814,
+    "lon": -56.198579
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-08/Chu-Q-7%20-%20Iva%CC%81n%20Corral.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "896-3",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/chu-q-y-la-cueva-del-maestro",
+   "titulo": "Chu q y la cueva del maestro",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Espectáculo infantil que combina humor físico, dramaturgia y técnicas circenses. La historia sigue a un aprendiz que quiere convertirse en “el mejor malabarista de la historia” y debe superar las pruebas que le propone un maestro excéntrico. Los desafíos atraviesan diferentes disciplinas y…",
+   "lugar": {
+    "nombre": "Balcón del Cerro",
+    "direccion": "Filipinas 3661",
+    "lat": -34.886471,
+    "lon": -56.256732
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-08/Chu-Q-7%20-%20Iva%CC%81n%20Corral.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "896-1014",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/chu-q-y-la-cueva-del-maestro",
+   "titulo": "Chu q y la cueva del maestro",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Espectáculo infantil que combina humor físico, dramaturgia y técnicas circenses. La historia sigue a un aprendiz que quiere convertirse en “el mejor malabarista de la historia” y debe superar las pruebas que le propone un maestro excéntrico. Los desafíos atraviesan diferentes disciplinas y…",
+   "lugar": {
+    "nombre": "Centro Cultural del Oeste Casona Abayubá",
+    "direccion": "Gutiérrez 3258",
+    "lat": -34.768464873351,
+    "lon": -56.22741281037
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-08/Chu-Q-7%20-%20Iva%CC%81n%20Corral.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "897",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/ida-la-madre-de-internet",
+   "titulo": "Ida, la madre de Internet",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Amanda es una niña curiosa que, para una presentación escolar, decide investigar a una figura diferente de las habituales. Así descubre a Ida Holz, ingeniera uruguaya pionera, quien le cuenta cómo llegó internet a Uruguay y el papel fundamental que tuvo en esa historia. La obra combina juego…",
+   "lugar": {
+    "nombre": "Centro Cultural del D",
+    "direccion": "Gral. Flores 5171, esquina Jorge Isaacs",
+    "lat": -34.835956062666,
+    "lon": -56.14728362987
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/Ida%20foto%202%20-%20Sofi%CC%81a%20Scarone.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "900-1016",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/como-llorar-en-una-casa-llena-de-ninos",
+   "titulo": "Cómo llorar en una casa llena de niños",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "La maternidad, las tareas de cuidado, el deseo, la identidad, la ira, el amor y la soledad atraviesan un mundo que exige a las mujeres una perfección constante. A partir del texto de Victoria Vera, la obra presenta a una madre que atraviesa un “día de furia” que la lleva a enfrentar las máximas…",
+   "lugar": {
+    "nombre": "Complejo Malvín Alto",
+    "direccion": "Hipólito Yrigoyen entre Cno. Carrasco y Petrona Rosende",
+    "lat": -34.87123073205,
+    "lon": -56.115868171921
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-08/Co%CC%81mo%20llorar_foto%20difusio%CC%81n%201%20-%20Gabriela%20Rossello%20Caics.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "900-1017",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/como-llorar-en-una-casa-llena-de-ninos",
+   "titulo": "Cómo llorar en una casa llena de niños",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "La maternidad, las tareas de cuidado, el deseo, la identidad, la ira, el amor y la soledad atraviesan un mundo que exige a las mujeres una perfección constante. A partir del texto de Victoria Vera, la obra presenta a una madre que atraviesa un “día de furia” que la lleva a enfrentar las máximas…",
+   "lugar": {
+    "nombre": "Centro Cultural Club Fraternidad",
+    "direccion": "Heraclio C. Fajardo 3464",
+    "lat": -34.861031000662,
+    "lon": -56.16556628754
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-08/Co%CC%81mo%20llorar_foto%20difusio%CC%81n%201%20-%20Gabriela%20Rossello%20Caics.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
    "muestra": false,
    "hasta": null
   },
@@ -1283,6 +1645,115 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Encuentro de Murga Joven 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1012",
+   "url": "https://eventos.montevideo.gub.uy/evento/envejecimiento-activo/inclusion-digital-para-personas-mayores",
+   "titulo": "Inclusión digital para personas mayores",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Curso de inclusión digital dirigido a personas mayores de 60 años que residan en Montevideo. La propuesta consiste en diez clases presenciales en las que se brindarán herramientas para aprender a utilizar celulares y tabletas, facilitando el acceso a las tecnologías de la información y la…",
+   "lugar": {
+    "nombre": "Espacio integral para personas mayores",
+    "direccion": "Camino Carrasco y Pirán",
+    "lat": -34.872635,
+    "lon": -56.122541
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T10:00:00-03:00",
+     "fin": "2026-11-05T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T10:00:00-03:00",
+     "fin": "2026-11-10T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T10:00:00-03:00",
+     "fin": "2026-11-12T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T10:00:00-03:00",
+     "fin": "2026-11-17T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T10:00:00-03:00",
+     "fin": "2026-11-19T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T10:00:00-03:00",
+     "fin": "2026-11-24T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T10:00:00-03:00",
+     "fin": "2026-11-26T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T10:00:00-03:00",
+     "fin": "2026-12-01T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-03T10:00:00-03:00",
+     "fin": "2026-12-03T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-08T10:00:00-03:00",
+     "fin": "2026-12-08T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-10T10:00:00-03:00",
+     "fin": "2026-12-10T12:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/20241018dicimouysm2580.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Envejecimiento activo",
    "muestra": false,
    "hasta": null
   },

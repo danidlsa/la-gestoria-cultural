@@ -1,54 +1,10 @@
 {
  "fuente": "zitarrosa",
- "corrida": "2026-11-03T11:30:36.265563-03:00",
+ "corrida": "2026-11-04T11:02:01.262885-03:00",
  "ok": true,
- "cantidad": 23,
+ "cantidad": 22,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "27-aniversario-de-la-sala-zitarrosa",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/27-aniversario-de-la-sala-zitarrosa/",
-   "titulo": "27° Aniversario de la Sala Zitarrosa",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "A lo largo de estos 27 años, la Sala Zitarrosa se ha consolidado como una institución cultural con una programación diversa, accesible, inclusiva e igualitaria . Un espacio de encuentro para las infancias, las mujeres, las disidencias, para artistas emergentes y consagrados, nacionales, regionales…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-03T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/27-aniversario-de-la-sala-zitarrosa/",
-     "via": "zitarrosa"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/ANIVERSARIOWEB.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "zitarrosa",
    "id_externo": "24-premios-graffiti",
