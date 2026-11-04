@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-03T22:34:16.477869-03:00",
+ "corrida": "2026-11-04T12:35:51.634296-03:00",
  "ok": true,
- "cantidad": 96,
+ "cantidad": 97,
  "errores": [],
  "eventos": [
   {
@@ -5758,6 +5758,82 @@
   },
   {
    "fuente": "cartelera_mvd",
+   "id_externo": "34925",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34925",
+   "titulo": "Que no nos vean mirar",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "¿Qué pasa cuando una pareja decide ensayar su propia separación? Entre cajas, recuerdos y todo aquello que alguna vez fue hogar, una pareja intenta escribir el final de su historia. Pero hay gestos que sobreviven a las palabras y costumbres que se resisten a desaparecer. Porque a veces, despedirse…",
+   "lugar": {
+    "nombre": "Teatro Circular",
+    "direccion": "Av. Gral. Rondeau 1388",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34925",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular libre",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34925"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "BROU 2 x $ 1000",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34925"
+    }
+   ],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42258.jpg",
+   "productor": "Julieta Lucena - Soledad Lacassy",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
    "id_externo": "34675",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34675",
    "titulo": "Ranga XL",
@@ -5923,13 +5999,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-03T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-04T20:30:00-03:00",
      "fin": null,

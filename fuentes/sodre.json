@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-03T22:32:41.384507-03:00",
+ "corrida": "2026-11-04T12:34:16.143956-03:00",
  "ok": true,
- "cantidad": 36,
+ "cantidad": 35,
  "errores": [],
  "eventos": [
   {
@@ -309,47 +309,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/inicio/espectaculo/40020379/espectaculo/DJAVAN?3"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "11580",
-   "url": "https://sodre.gub.uy/espectaculos/dyango/",
-   "titulo": "Dyango",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Su último show \"Su amigo Dyango Tour\", la continuación de la gira que emocionó a miles de fans",
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-03T20:00:00-03:00",
-     "fin": "2026-11-03T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40020538/espectaculo/Dyango?2",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/04/DESTACADO_SU_AMIGO_DYANGO-1-768x420.jpg",
-   "productor": "Espectáculos del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40020538/espectaculo/Dyango?2"
    ],
    "ciclo": null,
    "muestra": false,

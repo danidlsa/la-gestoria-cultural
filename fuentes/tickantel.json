@@ -1,9 +1,11 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-03T22:27:38.839224-03:00",
+ "corrida": "2026-11-04T12:22:19.779135-03:00",
  "ok": true,
  "cantidad": 132,
- "errores": [],
+ "errores": [
+  "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+ ],
  "eventos": [
   {
    "fuente": "tickantel",
@@ -198,13 +200,6 @@
     "lon": -56.20101
    },
    "funciones": [
-    {
-     "inicio": "2026-11-03T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    },
     {
      "inicio": "2026-11-04T20:30:00-03:00",
      "fin": null,
@@ -2297,7 +2292,7 @@
    "titulo": "2da Degustación de Vinos y Alimentos. LA CATA",
    "categoria": "exposicion",
    "categoria_segura": false,
-   "descripcion_corta": "* Sumérjase en un viaje de sabores y conocimientos en la 'Cata de Vinos y Muestra de Alimentos de Atlántida', un evento imperdible que celebra la riqueza vitivinícola y gastronómica de nuestra región. Una oportunidad única para conectar con productores locales, degustar exquisitos vinos y descubrir…",
+   "descripcion_corta": "Sumérjase en un viaje de sabores y conocimientos en la 'Cata de Vinos y Muestra de Alimentos de Atlántida', un evento imperdible que celebra la riqueza vitivinícola y gastronómica de nuestra región. Una oportunidad única para conectar con productores locales, degustar exquisitos vinos y descubrir…",
    "lugar": {
     "nombre": "Liga de Fomento Atlántida (LIFA) R11 y R Inter",
     "direccion": null,
@@ -3029,45 +3024,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021134",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
-   "titulo": "Buenos Muchachos",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "En cualquier momento. En algún lugar. En ningún caso. En las nubes. En abstracto. En alerta. En sueños. En vano. En definitiva. En absoluto. En concreto. En peligro. En soledad. En banda. En sentido opuesto. En secreto. En confianza. En común. En la espera. En realidad... El año termina como…",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021134/BANNER_BM.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40020967",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020967/hilda-lizarazu",
    "titulo": "Hilda Lizarazu",
@@ -3098,6 +3054,45 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020967/hilda700x390_copia_4-100.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021134",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
+   "titulo": "Buenos Muchachos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "En cualquier momento. En algún lugar. En ningún caso. En las nubes. En abstracto. En alerta. En sueños. En vano. En definitiva. En absoluto. En concreto. En peligro. En soledad. En banda. En sentido opuesto. En secreto. En confianza. En común. En la espera. En realidad... El año termina como…",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021134/BANNER_BM.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

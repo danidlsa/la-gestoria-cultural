@@ -1,8 +1,8 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-03T22:36:00.139625-03:00",
+ "corrida": "2026-11-04T12:37:55.333774-03:00",
  "ok": true,
- "cantidad": 27,
+ "cantidad": 26,
  "errores": [],
  "eventos": [
   {
@@ -42,40 +42,6 @@
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango"
    ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "solis",
-   "id_externo": "3078",
-   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Agenda-de-actividades-Universo-Mercedes-Pinto-uc3078",
-   "titulo": "Agenda de actividades: Universo Mercedes Pinto",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
-    "lat": -34.90786,
-    "lon": -56.20101
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-03T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Delmira Agustini",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7018.png",
-   "productor": "Teatro Solís",
-   "region": "montevideo",
-   "enlaces": [],
    "ciclo": null,
    "muestra": false,
    "hasta": null
@@ -778,13 +744,6 @@
     "lon": -56.20101
    },
    "funciones": [
-    {
-     "inicio": "2026-11-03T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Zavala Muniz",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-04T20:30:00-03:00",
      "fin": null,

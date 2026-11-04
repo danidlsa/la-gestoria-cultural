@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-03T22:40:00.674268-03:00",
- "cantidad": 157,
+ "generado": "2026-11-04T12:42:46.976277-03:00",
+ "cantidad": 177,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -115,6 +115,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "asociacion-de-sordos-del-uruguay",
+   "nombre": "Asociación de Sordos del Uruguay",
+   "alias": [],
+   "direccion": "Hermanos Gil 945",
+   "lat": -34.870814,
+   "lon": -56.198579,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "auditorio-nacional-del-sodre",
    "nombre": "Auditorio Nacional del Sodre",
    "alias": [
@@ -166,12 +175,30 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "balcon-del-cerro",
+   "nombre": "Balcón del Cerro",
+   "alias": [],
+   "direccion": "Filipinas 3661",
+   "lat": -34.886471,
+   "lon": -56.256732,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "bartolome-mitre-1321",
    "nombre": "Bartolomé Mitre 1321",
    "alias": [],
    "direccion": "Ciudad Vieja",
    "lat": -34.907138,
    "lon": -56.201924,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "bluzz-bar",
+   "nombre": "Bluzz Bar",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9094876,
+   "lon": -56.1998589,
    "ciudad": "Montevideo"
   },
   {
@@ -211,6 +238,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "carrasco-polo-club",
+   "nombre": "Carrasco Polo Club",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.8627617,
+   "lon": -56.0641586,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "casona-de-vilardebo",
    "nombre": "Casona de Vilardebó",
    "alias": [],
@@ -229,12 +265,30 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "cedel-carrasco",
+   "nombre": "Cedel Carrasco",
+   "alias": [],
+   "direccion": "Dr. Benito Cuñarro S/N (ex Hotel del Lago, Parque Rivera)",
+   "lat": -34.87814,
+   "lon": -56.087715,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "centro-cultural-artesano",
    "nombre": "Centro Cultural Artesano",
    "alias": [],
    "direccion": null,
    "lat": -34.8253632,
    "lon": -56.2043076,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "centro-cultural-club-fraternidad",
+   "nombre": "Centro Cultural Club Fraternidad",
+   "alias": [],
+   "direccion": "Heraclio C. Fajardo 3464",
+   "lat": -34.861031000662,
+   "lon": -56.16556628754,
    "ciudad": "Montevideo"
   },
   {
@@ -262,6 +316,24 @@
    "direccion": "Gral. Flores y Domingo Aramburú",
    "lat": -34.882708,
    "lon": -56.181856,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "centro-cultural-del-d",
+   "nombre": "Centro Cultural del D",
+   "alias": [],
+   "direccion": "Gral. Flores 5171, esquina Jorge Isaacs",
+   "lat": -34.835956062666,
+   "lon": -56.14728362987,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "centro-cultural-del-oeste-casona-abayuba",
+   "nombre": "Centro Cultural del Oeste Casona Abayubá",
+   "alias": [],
+   "direccion": "Gutiérrez 3258",
+   "lat": -34.768464873351,
+   "lon": -56.22741281037,
    "ciudad": "Montevideo"
   },
   {
@@ -340,6 +412,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "club-de-el-viejo-oeste",
+   "nombre": "Club de El Viejo Oeste",
+   "alias": [],
+   "direccion": "Complejo Prado",
+   "lat": -34.861076,
+   "lon": -56.20152,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "club-de-anita",
    "nombre": "Club de anita",
    "alias": [],
@@ -349,12 +430,30 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "colonia-2235",
+   "nombre": "Colonia 2235",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.8973619,
+   "lon": -56.16769,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "colonia-894",
    "nombre": "Colonia 894",
    "alias": [],
    "direccion": "Colonia 894, 11100 Montevideo, Departame",
    "lat": -34.905443,
    "lon": -56.197351,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "complejo-malvin-alto",
+   "nombre": "Complejo Malvín Alto",
+   "alias": [],
+   "direccion": "Hipólito Yrigoyen entre Cno. Carrasco y Petrona Rosende",
+   "lat": -34.87123073205,
+   "lon": -56.115868171921,
    "ciudad": "Montevideo"
   },
   {
@@ -391,6 +490,17 @@
    "direccion": "Durazno 895, 11100 Montevideo, Departame",
    "lat": -34.910908,
    "lon": -56.196675,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "emile-club",
+   "nombre": "EMILE CLUB",
+   "alias": [
+    "Emile"
+   ],
+   "direccion": "Mercedes 1820",
+   "lat": -34.9003744,
+   "lon": -56.178033,
    "ciudad": "Montevideo"
   },
   {
@@ -524,6 +634,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "espacio-integral-para-personas-mayores",
+   "nombre": "Espacio integral para personas mayores",
+   "alias": [],
+   "direccion": "Camino Carrasco y Pirán",
+   "lat": -34.872635,
+   "lon": -56.122541,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "estacionamiento-del-estadio-charrua",
    "nombre": "Estacionamiento del Estadio Charrúa",
    "alias": [],
@@ -562,6 +681,24 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "hotel-cottage-carrasco",
+   "nombre": "Hotel Cottage Carrasco",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.894051,
+   "lon": -56.0599223,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "hotel-radisson",
+   "nombre": "Hotel Radisson",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9058186,
+   "lon": -56.1995694,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "hotel-radisson-victoria-plaza",
    "nombre": "Hotel Radisson Victoria Plaza",
    "alias": [
@@ -579,6 +716,15 @@
    "direccion": "Av. Gabriela Mistral 4223",
    "lat": -34.85503,
    "lon": -56.207084,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "inju",
+   "nombre": "INJU",
+   "alias": [],
+   "direccion": "Av. 18 de Julio 1865",
+   "lat": -34.901780233484,
+   "lon": -56.17602420257,
    "ciudad": "Montevideo"
   },
   {
@@ -717,12 +863,15 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "lotus-club",
-   "nombre": "Lotus Club",
-   "alias": [],
-   "direccion": "Contador Luis E. Lecueder 3536, 11300 Mo",
-   "lat": -34.904232,
-   "lon": -56.136056,
+   "id": "lotus-wtc",
+   "nombre": "Lotus WTC",
+   "alias": [
+    "Lotus Club WTC",
+    "Lotus Club"
+   ],
+   "direccion": "Contador Luis E. Lecueder",
+   "lat": -34.9042323,
+   "lon": -56.1360561,
    "ciudad": "Montevideo"
   },
   {
@@ -771,6 +920,15 @@
    "direccion": "Minas & Durazno, 11200 Montevideo, Depar",
    "lat": -34.909757,
    "lon": -56.179353,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "molino-de-perez",
+   "nombre": "Molino de Pérez",
+   "alias": [],
+   "direccion": "Pasaje Arq. Juan Veltron",
+   "lat": -34.894116,
+   "lon": -56.090633,
    "ciudad": "Montevideo"
   },
   {
@@ -896,6 +1054,15 @@
    "direccion": "Pl. Independencia 848, 11100 Montevideo,",
    "lat": -34.906479,
    "lon": -56.198509,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "parque-capurro",
+   "nombre": "Parque Capurro",
+   "alias": [],
+   "direccion": "Brigadier Gral. Manuel Oribe 136",
+   "lat": -34.87287,
+   "lon": -56.215035,
    "ciudad": "Montevideo"
   },
   {
@@ -1282,6 +1449,7 @@
    "nombre": "Teatro Mandrágora",
    "alias": [
     "Teatro y escuela de artes Mandrágora",
+    "Sala Mandrágora",
     "Teatro MANDRÁGORA Escuela de Artes"
    ],
    "direccion": "Dr. Javier Barrios Amorín 1312",
@@ -1441,6 +1609,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "velodromo-de-montevideo",
+   "nombre": "Velodromo de Montevideo",
+   "alias": [],
+   "direccion": "Av. Ramón V. Benzano 3471, 11600 Montevideo, Departamento de Montevideo",
+   "lat": -34.89782710000001,
+   "lon": -56.1559067,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "velodromo-municipal",
    "nombre": "Velódromo Municipal",
    "alias": [
@@ -1476,6 +1653,15 @@
    "direccion": "Tower 2 - Contador Luis E. Lecueder 3536, 11300 Mo",
    "lat": -34.904409,
    "lon": -56.136299,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "zoba-club",
+   "nombre": "Zoba Club",
+   "alias": [],
+   "direccion": "Bv. España 2218",
+   "lat": -34.9095744,
+   "lon": -56.1679561,
    "ciudad": "Montevideo"
   },
   {

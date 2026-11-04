@@ -1,0 +1,282 @@
+{
+ "fuente": "cobraticket",
+ "corrida": "2026-11-04T12:42:28.684588-03:00",
+ "ok": true,
+ "cantidad": 7,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "cobraticket",
+   "id_externo": "043357",
+   "url": "https://cobraticket.uy/e/club-jueves-043357",
+   "titulo": "CLUB JUEVES",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Lotus WTC",
+    "direccion": "Contador Luis E. Lecueder",
+    "lat": -34.9042323,
+    "lon": -56.1360561
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T23:59:00-03:00",
+     "fin": "2026-11-06T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/club-jueves-043357",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/x8GEDbGl6DwG3fI7QPrUi.jpg",
+   "productor": "Lotus WTC",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "030912",
+   "url": "https://cobraticket.uy/e/levante-night-030912",
+   "titulo": "LEVANTE NIGHT",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "Esta viernes estrenamos mes y fiesta: ♥️LEVANTE NIGHT!♥️ La noche donde tus mensajes salen en nuestras pantallas. Al llegar podrás loguearte en nuestra app a través de un código qr que aparece en los televisores. Allí podrás interactuar con otras personas que que estén dentro de Zoba. Además…",
+   "lugar": {
+    "nombre": "Zoba Club",
+    "direccion": "Bv. España 2218",
+    "lat": -34.9095744,
+    "lon": -56.1679561
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T23:50:00-03:00",
+     "fin": "2026-11-07T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/levante-night-030912",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/_rq45l_O2l9Z87VXf9cIE.jpg",
+   "productor": "Zoba Club",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "596633",
+   "url": "https://cobraticket.uy/e/stage-drop3-596633",
+   "titulo": "STAGE - DROP#3",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "Entre sombras...",
+   "lugar": {
+    "nombre": "Lotus Club WTC",
+    "direccion": "Contador Luis E. Lecueder",
+    "lat": -34.9042323,
+    "lon": -56.1360561
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T23:59:00-03:00",
+     "fin": "2026-11-07T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/stage-drop3-596633",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/OJyMk7qrNwYNUVCpDTYr8.jpg",
+   "productor": "Lotus WTC",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "706242",
+   "url": "https://cobraticket.uy/e/marikocracia-cabaret-706242",
+   "titulo": "MARIKOCRACIA CABARET",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "Sábado a pura fiesta con: 🌈MARIKOCRACIA CABARET💃 👠Una noche a puro show con tres de las más importantes drag queen de nuestro país. Inspiradas en un cabaret Nichols, Negrashka y Miranda serán nuestras anfitrionas quienes te recibirán y junto a Santi y Edson animarán la noche desde arriba de…",
+   "lugar": {
+    "nombre": "Zoba Club",
+    "direccion": "Bv. España 2218",
+    "lat": -34.9095744,
+    "lon": -56.1679561
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T23:50:00-03:00",
+     "fin": "2026-11-08T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/marikocracia-cabaret-706242",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/eHXPW8So-ao-khr-vK87B.jpg",
+   "productor": "Zoba Club",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "396368",
+   "url": "https://cobraticket.uy/e/bs-as-cumbia-edicion-montevideo-396368",
+   "titulo": "Bs As Cumbia edición Montevideo",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "Edición Montevideo: Festival de cumbia, plena y candombe. La marca Buenos Aires Cumbia desembarca en Montevideo y para hacerla bien a la uruguaya, le sumamos dos género: plena y candombe, representados por artistas locales que se suman a la grilla. Una mega pista de baile con un escenario de…",
+   "lugar": {
+    "nombre": "Velodromo de Montevideo",
+    "direccion": "Av. Ramón V. Benzano 3471, 11600 Montevideo, Departamento de Montevideo",
+    "lat": -34.89782710000001,
+    "lon": -56.1559067
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T16:00:00-03:00",
+     "fin": "2026-11-15T01:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/bs-as-cumbia-edicion-montevideo-396368",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/iTGkAuOmWHeuYuaVItmG_.jpg",
+   "productor": "Quienes Son",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "054494",
+   "url": "https://cobraticket.uy/e/epic-aniversario-ii-extended-054494",
+   "titulo": "EPIC ANIVERSARIO II - EXTENDED!",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "🔥 EPIC ANIVERSARIO II · EXTENDED! Hace dos años arrancó esta locura… y ustedes la convirtieron en EPIC. Dos años de encuentros, musicón y noches que quedaron tatuadas en la memoria. De sentirnos libres, gozar sin prejuicios y encontrarnos en una pista que ya es nuestra. Este aniversario se celebra…",
+   "lugar": {
+    "nombre": "EMILE CLUB",
+    "direccion": "Mercedes 1820",
+    "lat": -34.9003744,
+    "lon": -56.178033
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T23:30:00-03:00",
+     "fin": "2026-11-15T10:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/epic-aniversario-ii-extended-054494",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/l5ae6DOvbZNupu-INSZqX.jpg",
+   "productor": "EPIC",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "412583",
+   "url": "https://cobraticket.uy/e/ignite-or-season-finale-or-512-412583",
+   "titulo": "IGNITE | SEASON FINALE | 5.12",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "SEASON FINALE | 5.12 Cerramos la temporada 2026. Techno de calidad. Intensidad total. Sin tregua. Line up internacional a confirmar. IGNITE 🔥 NO RULES. JUST TECHNO.",
+   "lugar": {
+    "nombre": "EMILE CLUB",
+    "direccion": "Mercedes 1820",
+    "lat": -34.9003744,
+    "lon": -56.178033
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T23:30:00-03:00",
+     "fin": "2026-12-06T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/ignite-or-season-finale-or-512-412583",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/eumaMVsgAhGfWbAV4plwt.jpg",
+   "productor": "EPIC",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  }
+ ]
+}

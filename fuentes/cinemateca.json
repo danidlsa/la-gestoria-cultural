@@ -1,11 +1,9 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-03T22:32:46.560331-03:00",
+ "corrida": "2026-11-04T12:34:22.094151-03:00",
  "ok": true,
- "cantidad": 16,
- "errores": [
-  "https://cinemateca.org.uy/peliculas/9671: ReadError: [Errno 104] Connection reset by peer"
- ],
+ "cantidad": 18,
+ "errores": [],
  "eventos": [
   {
    "fuente": "cinemateca",
@@ -152,6 +150,13 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T17:15:00-03:00",
+     "fin": "2026-11-10T19:23:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -262,6 +267,13 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T21:40:00-03:00",
+     "fin": "2026-11-10T23:25:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -332,20 +344,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-03T19:45:00-03:00",
-     "fin": "2026-11-03T21:05:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-03T21:25:00-03:00",
-     "fin": "2026-11-03T22:45:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-04T20:00:00-03:00",
      "fin": "2026-11-04T21:20:00-03:00",
      "sin_hora": false,
@@ -404,6 +402,13 @@
     {
      "inicio": "2026-11-09T21:25:00-03:00",
      "fin": "2026-11-09T22:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T21:25:00-03:00",
+     "fin": "2026-11-10T22:45:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -477,13 +482,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-03T21:10:00-03:00",
-     "fin": "2026-11-03T22:32:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-04T20:30:00-03:00",
      "fin": "2026-11-04T21:52:00-03:00",
      "sin_hora": false,
@@ -521,6 +519,13 @@
     {
      "inicio": "2026-11-09T22:00:00-03:00",
      "fin": "2026-11-09T23:22:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T21:00:00-03:00",
+     "fin": "2026-11-10T22:22:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -594,13 +599,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-03T21:15:00-03:00",
-     "fin": "2026-11-03T23:04:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-04T21:15:00-03:00",
      "fin": "2026-11-04T23:04:00-03:00",
      "sin_hora": false,
@@ -638,6 +636,13 @@
     {
      "inicio": "2026-11-09T17:30:00-03:00",
      "fin": "2026-11-09T19:19:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T17:30:00-03:00",
+     "fin": "2026-11-10T19:19:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -826,6 +831,13 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T19:30:00-03:00",
+     "fin": "2026-11-10T21:04:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -926,6 +938,13 @@
     {
      "inicio": "2026-11-09T19:45:00-03:00",
      "fin": "2026-11-09T21:18:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T19:45:00-03:00",
+     "fin": "2026-11-10T21:18:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -1536,6 +1555,163 @@
     }
    ],
    "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/la_boda.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Andrzej Wajda, en su centenario",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9671",
+   "url": "https://cinemateca.org.uy/peliculas/9671",
+   "titulo": "La tierra prometida",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Andrzej Wajda. Un grupo de ambiciosos cuyo ascenso y caída Wajda describe en esta amplia crónica de la revolución industrial en Lodz, Polonia, hacia fines del siglo XIX. Vasto cuadro histórico, con aliento novelesco y forma deslumbrante. Un grupo de ambiciosos cuyo ascenso y caída Wajda describe…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-09T17:00:00-03:00",
+     "fin": "2026-11-09T19:25:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9671",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://thumb.canalplus.pro/http/unsafe/1440x810/filters:quality(80)/mms-images-prod.pl.canalplus.com/exported/11250000/A_11257704.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Andrzej Wajda, en su centenario",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9665",
+   "url": "https://cinemateca.org.uy/peliculas/9665",
+   "titulo": "La línea de sombra",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Andrzej Wajda. Las peripecias de un joven marino que, tras abandonar su anterior destino en el mar, recibe inesperadamente el mando de un barco mercante inglés. Inspirado en una novela autobiográfica de Joseph Conrad, un drama marinero sobre el paso de la juventud a la madurez, la…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-10T17:00:00-03:00",
+     "fin": "2026-11-10T18:40:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T19:00:00-03:00",
+     "fin": "2026-11-10T20:40:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9665",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvAAEJ-WMewKUUgVHMAbqgKE196YTDiTPvJ2wEl88YqkOGaDccKerP9UI&amp;s=10",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
