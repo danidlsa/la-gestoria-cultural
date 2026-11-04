@@ -57,6 +57,20 @@ corre_en = "actions"
 [mec_museos]
 corre_en = "actions"
 
+# Música (4/11/2026), las fuentes de tocan.uy que no teníamos. Corchea pide en su robots.txt que se la visite
+# solo de 00:00 a 09:00: hace un pedido por día, en la corrida de la madrugada (las demás la saltean).
+[salacamacua]
+corre_en = "actions"
+
+[mientrada]
+corre_en = "actions"
+
+[cobraticket]
+corre_en = "actions"
+
+[corchea]
+corre_en = "actions"
+
 # Responden solo desde Uruguay.
 [portal_im]
 corre_en = "local"

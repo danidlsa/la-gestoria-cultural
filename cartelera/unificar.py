@@ -24,9 +24,10 @@ ALIAS = Path("config/lugares_alias.toml")
 # Prioridad al elegir qué dato mostrar: sala oficial > ticketera > cartelera > productora > beneficios.
 PRIORIDAD = {
     "sodre": 4, "cinemateca": 4, "solis": 4, "teatro_de_verano": 4, "galpon": 4, "zitarrosa": 4, "sala_del_museo": 4,
-    "museos_im": 4, "mnav": 4, "torres_garcia": 4, "gurvich": 4, "mapi": 4,
+    "museos_im": 4, "mnav": 4, "torres_garcia": 4, "gurvich": 4, "mapi": 4, "salacamacua": 4,
     "tickantel": 3, "redtickets": 3, "ticketmaster_uy": 3, "portal_im": 3, "fever": 3, "mec_museos": 3,
-    "cartelera_mvd": 2, "gaucho": 2, "piano_piano": 2, "ladiaria": 1,
+    "mientrada": 3, "cobraticket": 3,
+    "cartelera_mvd": 2, "corchea": 2, "gaucho": 2, "piano_piano": 2, "ladiaria": 1,
 }
 MARGEN_PASADO = timedelta(hours=6)
 DISTANCIA_MISMO_LUGAR_M = 120
@@ -150,10 +151,14 @@ def cargar_alias(ruta: Path = ALIAS) -> list[dict]:
 
 _CLAVES_DE_URL = [
     ("redtickets", re.compile(r"redtickets\.uy/evento/[^/]+/(\d+)")),
+    # El formato viejo de los links de RedTickets, que usan algunas salas: /servlet/com.redtickets.frontend.wevent?,33806
+    ("redtickets", re.compile(r"redtickets\.uy/+servlet/com\.redtickets\.frontend\.wevent\?,?(\d+)")),
     # /ng/espectaculo/40021761/…, /ng/espectaculo/alta-demanda/40021784/…, /inicio/espectaculo/40020151/…,
     # /inicio/alta_demanda/40020997
     ("tickantel", re.compile(r"tickantel\.com\.uy/(?:ng|inicio)/(?:espectaculo/)?(?:alta[-_]demanda/)?(\d{7,9})")),
     ("ticketmaster_uy", re.compile(r"ticketmaster\.uy/event/([\w-]+)")),
+    ("mientrada", re.compile(r"mientrada\.com\.uy/evento/[\w-]*-(\d+)(?![\w-])")),
+    ("cobraticket", re.compile(r"cobraticket\.uy/e/[\w-]*-(\d+)(?![\w-])")),
     # Las productoras enlazan a la ficha del Antel Arena (la venta es por Tickantel).
     ("antel_arena", re.compile(r"antelarena\.com\.uy/events/detail/([\w-]+)")),
 ]

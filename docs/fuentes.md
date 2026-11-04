@@ -13,7 +13,7 @@ Lo que dice **"a verificar"** no se pudo confirmar.
 
 ---
 
-## Estado de implementación (30/10/2026)
+## Estado de implementación (4/11/2026)
 
 | Fuente | Estado | Qué aporta en la cartelera unificada |
 |--------|--------|--------------------------------------|
@@ -42,6 +42,10 @@ Lo que dice **"a verificar"** no se pudo confirmar.
 | Museo Blanes, Museo de las Migraciones | ⏸ no por ahora | Mezclan exposiciones viejas, convocatorias e inauguraciones sin fecha de cierre: no se puede saber qué está abierto |
 | AM Producciones | ⏸ no por ahora | Sus shows se cargan en el navegador desde una base de datos (con una clave de cliente de su sitio). Hoy tiene un solo show próximo (Foo Fighters), que ya entra por Ticketmaster y Gaucho |
 | Teatro Circular | ⏸ no por ahora | Su web no tiene una cartelera actualizada; sus obras entran por RedTickets |
+| Sala Camacuá | ✅ scraper (JSON-LD de la portada + ficha de cada evento) | ~7 shows con hora, imagen y link de venta; lo que vende por RedTickets se une exacto. Las temporadas de varios días con ticketera no se expanden (las funciones exactas llegan por la ticketera) |
+| MiEntrada | ✅ scraper (agenda filtrada por Montevideo + ficha) | ~13 fiestas y recitales en boliches y salas chicas que no están en otras ticketeras. Ni la agenda ni la ficha dicen la dirección: las salas de una sola palabra ("Emile", "Anastasia") no se pueden ubicar y quedan afuera |
+| CobraTicket | ✅ scraper (`__data.json` de SvelteKit) | ~7 fiestas en Montevideo con sala, dirección y coordenadas. Deja afuera congresos, deporte y Punta del Este |
+| Corchea.uy | ✅ scraper (RSS de su cartelera, **un pedido por día**) | ~40 recitales: los de Sala Corchea (por Entradas Fans) y avisos de otras salas que se unen con Tickantel, RedTickets, Sodre y Zitarrosa. Su robots.txt pide visitas solo de 00:00 a 09:00 y pocas por hora: corre únicamente en la corrida de la madrugada |
 | Passline | ⏸ no | Detrás de Cloudflare con chequeos anti-bot, y el país se elige con JavaScript. No se saltean esas protecciones |
 | Peatonal Tours | ✔️ ya cubierto | Sus recorridos con fecha entran por RedTickets; la web no publica fechas propias |
 | Día del Patrimonio, Museos en la Noche | ⏳ anuales | Guías en PDF una vez por año; si la IM los carga en su portal, entran solos |

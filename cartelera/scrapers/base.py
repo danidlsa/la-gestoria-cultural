@@ -44,8 +44,16 @@ def guardar(resultado: ResultadoFuente) -> bool:
     return True
 
 
-def correr(modulo, cliente: Cliente | None = None) -> ResultadoFuente:
-    ahora = datetime.now(MONTEVIDEO)
+def correr(modulo, cliente: Cliente | None = None, ahora: datetime | None = None) -> ResultadoFuente:
+    ahora = ahora or datetime.now(MONTEVIDEO)
+    # Una fuente que solo acepta visitas en cierto horario (su robots.txt lo pide) se saltea fuera de él:
+    # queda su último resultado bueno, sin contarlo como falla.
+    puede_correr = getattr(modulo, "puede_correr", None)
+    if puede_correr and not puede_correr(ahora):
+        log.info("%s: fuera de su horario de visitas, queda el último resultado", modulo.NOMBRE)
+        return cargar(modulo.NOMBRE) or ResultadoFuente(
+            fuente=modulo.NOMBRE, corrida=ahora, ok=True, cantidad=0, eventos=[],
+        )
     errores: list[str] = []
     try:
         with cliente or Cliente() as http:

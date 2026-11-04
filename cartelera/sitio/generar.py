@@ -66,6 +66,8 @@ FUENTES = {
     "museos_im": "los museos de la Intendencia", "mnav": "el Museo Nacional de Artes Visuales",
     "torres_garcia": "el Museo Torres García", "gurvich": "el Museo Gurvich", "mapi": "el MAPI",
     "mec_museos": "el calendario del Ministerio de Educación y Cultura",
+    "salacamacua": "la Sala Camacuá", "mientrada": "MiEntrada", "cobraticket": "CobraTicket",
+    "corchea": "la cartelera de Corchea",
 }
 # Para los botones de compra: dónde se consigue la entrada.
 VIAS = {
@@ -74,12 +76,13 @@ VIAS = {
     "antel_arena": "el Antel Arena", "ladiaria": "la diaria",
     "museos_im": "el museo", "mnav": "el MNAV", "torres_garcia": "el Museo Torres García",
     "gurvich": "el Museo Gurvich", "mapi": "el MAPI", "mec_museos": "el MEC",
+    "salacamacua": "la Sala Camacuá", "corchea": "Corchea", "passline": "Passline", "entradasfans": "Entradas Fans",
 }
 # Vías que son la ficha del evento, no una venta: el botón dice "Ver en …" y no "Entradas en …".
 SOLO_INFORMACION = {
     "cartelera_mvd", "solis", "teatro_de_verano", "sodre", "galpon", "cinemateca", "portal_im", "zitarrosa",
     "sala_del_museo", "gaucho", "piano_piano", "ladiaria", "museos_im", "mnav", "torres_garcia",
-    "gurvich", "mapi", "mec_museos",
+    "gurvich", "mapi", "mec_museos", "salacamacua", "corchea",
 }
 
 
