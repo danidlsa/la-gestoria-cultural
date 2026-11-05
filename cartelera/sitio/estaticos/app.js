@@ -26,6 +26,8 @@
     if (e.target instanceof HTMLImageElement && e.target.closest(".flyer")) e.target.remove();
   }, true);
 
+  // La dirección pública del sitio (la "canonical" de la página), para los mensajes que se comparten.
+  const URL_SITIO = document.querySelector('link[rel="canonical"]')?.href || `${location.origin}${location.pathname}`;
   const plano = (texto) => (texto || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
   const plural = (n, palabra) => `${n} ${palabra}${n === 1 ? "" : "s"}`;
   const mayuscula = (texto) => texto.charAt(0).toUpperCase() + texto.slice(1);
@@ -65,13 +67,27 @@
   }
 
   // --- Eventos -----------------------------------------------------------------------------------
-  const eventos = datos.eventos.map((e) => ({
-    ...e,
-    dias: e.funciones.map(([inicio]) => inicio.slice(0, 10)),
-    textoPlano: plano(e.texto),
-    tarjeta: tarjetas.get(e.id),
-  }));
+  // La cartelera se arma unas veces por día, así que al abrir la página se sacan las funciones que ya
+  // empezaron (las de hoy con hora anterior a ahora) y los días sin hora que ya pasaron. Un evento que se
+  // queda sin funciones no se muestra; los que nunca tuvieron (alguna muestra) quedan como están.
+  const ahoraAlAbrir = Date.now();
+  const sigueVigente = ([inicio, sinHora]) => (sinHora ? inicio.slice(0, 10) >= hoy : Date.parse(inicio) > ahoraAlAbrir);
+  const eventos = datos.eventos
+    .map((e) => ({ ...e, funciones: e.funciones.filter(sigueVigente), teniaFunciones: e.funciones.length > 0 }))
+    .filter((e) => e.funciones.length || !e.teniaFunciones)
+    .map((e) => ({
+      ...e,
+      dias: e.funciones.map(([inicio]) => inicio.slice(0, 10)),
+      textoPlano: plano(e.texto),
+      tarjeta: tarjetas.get(e.id),
+    }));
   const porId = new Map(eventos.map((e) => [e.id, e]));
+  // El orden de los rubros dentro de cada día de la Agenda; los que no están en la lista van después, juntos.
+  const RUBROS_PRIMERO = ["musica", "tour", "teatro", "humor", "danza"];
+  const ordenRubro = (evento) => {
+    const lugar = RUBROS_PRIMERO.indexOf(evento.categoria);
+    return lugar === -1 ? RUBROS_PRIMERO.length : lugar;
+  };
   const nombreLugar = (evento) => datos.lugares[evento.lugar]?.nombre || "";
 
   // --- Mi plan: funciones elegidas, guardadas en este navegador ---------------------------------
@@ -262,7 +278,7 @@
       `📍 ${[nombreLugar(evento), evento.precioTexto].filter(Boolean).join(" · ")}`,
       `🎟️ ${evento.url}`,
       "",
-      `Lo vi en La Gestoría Cultural: ${location.origin}${location.pathname}`,
+      `Lo vi en La Gestoría Cultural: ${URL_SITIO}`,
     ].join("\n");
     if (navigator.share) {
       try {
@@ -347,8 +363,12 @@
 
     const secciones = [];
     for (const dia of [...porDia.keys()].sort()) {
-      // Primero lo que tiene hora, en orden; al final lo que no tiene (exposiciones, actividades de todo el día).
-      const items = porDia.get(dia).sort((a, b) => (a[1][1] - b[1][1]) || a[1][0].localeCompare(b[1][0]));
+      // Primero lo que tiene hora; al final lo que no tiene (exposiciones, actividades de todo el día). Entre lo
+      // que tiene hora, primero los rubros que más invitan a salir (si no, de mañana arranca siempre con cine),
+      // y dentro de cada uno, por hora.
+      const items = porDia.get(dia).sort((a, b) => (a[1][1] - b[1][1])
+        || (ordenRubro(a[0]) - ordenRubro(b[0]))
+        || a[1][0].localeCompare(b[1][0]));
       secciones.push(() => carril(nombreCarril(dia), plural(items.length, "evento"),
         items.map(([e, f]) => tarjetaPara(e, f)), diaSemana(dia) % 6 === 0 ? "carril-finde" : "", dia));
     }
@@ -466,12 +486,54 @@
     contenedor.addEventListener("mouseleave", () => { activa = false; });
   }
 
+  // En el celular, como en Google Maps: un dedo mueve la página (el mapa no la atrapa) y dos dedos mueven
+  // y acercan el mapa. Sobre el mapa el pellizco siempre es del mapa, así que no agranda la página entera.
+  // Si se arrastra con un dedo, aparece la pista.
+  const TACTIL = window.matchMedia("(pointer: coarse)").matches;
+
+  function activarDosDedos(contenedor) {
+    let esperaPista = null;
+    const pista = el("div", { class: "mapa-pista", "aria-hidden": "true" }, "Usá dos dedos para mover y acercar el mapa");
+    contenedor.appendChild(pista);
+    contenedor.addEventListener("touchmove", (e) => {
+      if (e.touches.length !== 1) {
+        pista.classList.remove("visible");
+        return;
+      }
+      pista.classList.add("visible");
+      clearTimeout(esperaPista);
+      esperaPista = setTimeout(() => pista.classList.remove("visible"), 1200);
+    }, { passive: true });
+  }
+
+  // Un botón para volver a ver todos los puntos, después de haber acercado o movido el mapa.
+  let limitesDelMapa = null;
+  function agregarBotonVerTodo() {
+    const Control = L.Control.extend({
+      options: { position: "topleft" },
+      onAdd() {
+        const caja = el("div", { class: "leaflet-bar ver-todo" });
+        const boton = el("button", { type: "button", title: "Volver a ver todo el mapa", "aria-label": "Volver a ver todo el mapa" }, "⤢");
+        boton.addEventListener("click", (e) => {
+          e.stopPropagation();
+          if (limitesDelMapa) mapa.fitBounds(limitesDelMapa, { padding: [30, 30], maxZoom: 15 });
+        });
+        L.DomEvent.disableClickPropagation(caja);
+        caja.appendChild(boton);
+        return caja;
+      },
+    });
+    mapa.addControl(new Control());
+  }
+
   async function dibujarMapa() {
     await cargarLeaflet();
     if (!mapa) {
       const contenedor = document.getElementById("mapa");
-      mapa = L.map(contenedor, { wheelPxPerZoomLevel: 90 }).setView([-34.895, -56.17], 12);
-      activarZoomConRueda(contenedor);
+      mapa = L.map(contenedor, { wheelPxPerZoomLevel: 90, dragging: !TACTIL }).setView([-34.895, -56.17], 12);
+      if (TACTIL) activarDosDedos(contenedor);
+      else activarZoomConRueda(contenedor);
+      agregarBotonVerTodo();
       // Tiles de OpenStreetMap: gratis y sin API key (con atribución). El color se ajusta por CSS.
       L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 19,
@@ -503,6 +565,7 @@
       punto.on("mouseover", () => punto.bringToFront());
       puntos.push([lugar.lat, lugar.lon]);
     }
+    limitesDelMapa = puntos.length ? puntos : null;
     if (puntos.length) mapa.fitBounds(puntos, { padding: [30, 30], maxZoom: 15 });
   }
 
@@ -826,7 +889,7 @@
         `🎟️ ${evento.url}`,
       );
     }
-    lineas.push("", "Armado en La Gestoría Cultural");
+    lineas.push("", `Armado en La Gestoría Cultural: ${URL_SITIO}`);
     return lineas.join("\n");
   }
 
@@ -1021,7 +1084,9 @@
     document.getElementById("mapa").hidden = !enMapa;
     document.getElementById("mapa-leyenda").hidden = !enMapa;
     document.getElementById("plan").hidden = !enPlan;
-    document.getElementById("especiales").hidden = !enEspeciales;
+    // La pestaña "Especiales" puede estar apagada (sin su sección en la página).
+    const seccionEspeciales = document.getElementById("especiales");
+    if (seccionEspeciales) seccionEspeciales.hidden = !enEspeciales;
     // Los especiales tienen sus propias fechas: los filtros no se aplican y el panel se esconde.
     document.querySelector(".principal").classList.toggle("sin-filtros", enEspeciales);
     // En el plan, el mes se elige en su calendario: los atajos de fecha (Hoy, Mañana…) no aplican.

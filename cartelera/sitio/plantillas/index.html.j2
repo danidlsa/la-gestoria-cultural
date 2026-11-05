@@ -53,7 +53,10 @@
         <button type="button" data-seccion="gratis">Gratis <span class="cuenta">{{ cantidad_gratis }}</span></button>
         <button type="button" data-seccion="promos">Promos <span class="cuenta">{{ cantidad_promos }}</span></button>
         <button type="button" data-seccion="festivales">Festivales <span class="cuenta">{{ cantidad_festivales }}</span></button>
+        {#- "Especiales" está apagada (config/eventos_especiales.toml, `activo`): el código queda para volver a usarla. #}
+        {%- if con_especiales %}
         <button type="button" data-seccion="especiales">Especiales</button>
+        {%- endif %}
         <a class="pastilla aparte" href="que-es.html">¿Qué es La Gestoría?</a>
         {%- if agrega_tu_evento %}
         <a class="pastilla agregar" href="agrega-tu-evento.html">＋ Agregá tu evento</a>
@@ -205,6 +208,7 @@
         {%- endfor %}
       </ul>
 
+{%- if con_especiales %}
       <section class="especiales" id="especiales" aria-label="Eventos especiales" hidden>
         {%- for e in especiales %}
         <article class="especial{% if e.actividades %} con-programa{% endif %}{% if e.en_curso %} en-curso{% endif %}" id="especial-{{ e.id }}">
@@ -229,6 +233,7 @@
         </article>
         {%- endfor %}
       </section>
+      {%- endif %}
 
       <section class="plan" id="plan" hidden>
         <section class="plan-cal" aria-label="Calendario de tu plan">

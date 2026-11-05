@@ -83,3 +83,13 @@ def test_cuanto_falta_en_meses_y_a_menos_de_un_mes_en_dias():
     assert especiales.faltan_texto(date(2026, 12, 4), date(2026, 12, 4), hoy, False) == "En 1 mes"
     assert especiales.faltan_texto(date(2027, 3, 22), date(2027, 3, 28), hoy, False) == "En 5 meses"
     assert especiales.faltan_texto(date(2027, 5, 1), date(2027, 5, 31), hoy, True) == "En 6 meses"
+
+
+def test_se_pueden_apagar(tmp_path, monkeypatch):
+    config = tmp_path / "especiales.toml"
+    config.write_text('activo = false\n\n[[especial]]\nid = "x"\n', encoding="utf-8")
+    assert especiales.activo(config) is False
+    config.write_text('[[especial]]\nid = "x"\n', encoding="utf-8")
+    assert especiales.activo(config) is True  # sin la clave, siguen como antes
+    monkeypatch.setattr(especiales, "activo", lambda: False)
+    assert especiales.avisar() == []  # apagados: no lee nada ni abre avisos

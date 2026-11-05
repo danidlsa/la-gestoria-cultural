@@ -34,6 +34,11 @@ def cargar(ruta: Path = CONFIG) -> list[dict]:
     return tomllib.loads(ruta.read_text(encoding="utf-8")).get("especial", [])
 
 
+def activo(ruta: Path = CONFIG) -> bool:
+    """Si la pestaña "Especiales" y sus avisos están en uso (`activo` en la configuración; si falta, sí)."""
+    return tomllib.loads(ruta.read_text(encoding="utf-8")).get("activo", True)
+
+
 def _enesimo(anio: int, mes: int, dia_semana: int, ordinal: int) -> date:
     """El primer sábado, el segundo viernes… de un mes."""
     primero = date(anio, mes, 1)
@@ -191,6 +196,9 @@ def crear_issues(pendientes: list[dict]) -> None:
 
 def avisar(hoy: date | None = None, en_github: bool = False) -> list[dict]:
     """Lee los datos unificados y avisa (en el log y, si se pide, con un issue) lo que se viene sin programa."""
+    if not activo():
+        log.info("avisos: los eventos especiales están apagados (config/eventos_especiales.toml)")
+        return []
     hoy = hoy or datetime.now(MONTEVIDEO).date()
     eventos = json.loads(Path("datos/eventos.json").read_text(encoding="utf-8"))["eventos"]
     ciclos = json.loads(Path("datos/ciclos.json").read_text(encoding="utf-8"))["ciclos"]

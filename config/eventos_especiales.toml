@@ -1,4 +1,9 @@
 # Eventos especiales: jornadas de una vez por año con muchas actividades a la vez.
+#
+# Apagado (5/11/2026): la pestaña "Especiales" no se muestra y no se abren avisos, porque varias jornadas ya
+# tenían fecha anunciada y acá todavía no aparecían. Para volver a usarlos, poner `activo = true`.
+activo = false
+
 # `sitio` no se muestra en la web (varios no eran el sitio correcto): solo va en el aviso interno, para revisar.
 # La pestaña "Especiales" muestra cada uno con su próxima fecha y, cuando aparece el programa en las fuentes,
 # con sus actividades. Un mes antes, si todavía no hay nada, GitHub Actions abre un issue para avisar.

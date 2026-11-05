@@ -406,7 +406,10 @@ def generar() -> Path:
         cantidad_promos=sum(1 for e in eventos if e.get("beneficios")),
         cantidad_festivales=sum(1 for e in eventos if "festival" in e.get("etiquetas", [])),
         tipos_de_lugar=TIPOS_DE_LUGAR,
-        especiales=especiales_para_la_pagina(eventos, ciclos, lugares, datetime.now(MONTEVIDEO).date()),
+        # Apagados por ahora: ver `activo` en config/eventos_especiales.toml.
+        con_especiales=especiales.activo(),
+        especiales=especiales_para_la_pagina(eventos, ciclos, lugares, datetime.now(MONTEVIDEO).date())
+        if especiales.activo() else [],
         # Un "<" en los datos podría cerrar el <script> donde van embebidos: va escapado (JSON lo lee igual).
         datos_json=json.dumps(datos, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c"),
     )

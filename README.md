@@ -14,7 +14,7 @@ uv sync                                   # instala las dependencias (versiones 
 uv run python -m cartelera scrapear       # corre los scrapers y guarda datos/fuentes/<fuente>.json
 uv run python -m cartelera unificar       # arma datos/eventos.json y datos/lugares.json
 uv run python -m cartelera sitio          # genera la web en sitio_generado/
-uv run python -m cartelera avisos         # eventos especiales que se acercan sin programa
+uv run python -m cartelera avisos         # tarea local atrasada y eventos especiales (hoy apagados)
 uv run pytest                             # tests (usan páginas de ejemplo de tests/fixtures/)
 ```
 

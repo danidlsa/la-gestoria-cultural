@@ -261,6 +261,12 @@ select {
   background: rgba(24, 38, 74, 0.55); color: #fff; font: 700 1.05rem var(--sans); pointer-events: none; opacity: 0; transition: opacity 0.2s;
 }
 .mapa-pista.visible { opacity: 1; }
+.mapa .ver-todo button {
+  display: block; width: 30px; height: 30px; padding: 0; border: 0; background: #fff; color: var(--tinta);
+  font: 700 1.1rem/30px var(--sans); cursor: pointer; border-radius: 4px;
+}
+.mapa .ver-todo button:hover { background: #f4f4f4; }
+@media (pointer: coarse) { .mapa .ver-todo button { width: 34px; height: 34px; line-height: 34px; } }
 .mapa .punto { transform-box: fill-box; transform-origin: center; transition: transform 0.15s ease-out, filter 0.15s; cursor: pointer; }
 .mapa .punto:hover { transform: scale(1.45); filter: drop-shadow(2px 2px 0 rgba(24, 38, 74, 0.45)); }
 .mapa .leaflet-tooltip { font: 600 0.85rem var(--sans); color: var(--tinta); border: 2px solid var(--tinta); border-radius: 8px; box-shadow: 3px 3px 0 var(--tinta); }
