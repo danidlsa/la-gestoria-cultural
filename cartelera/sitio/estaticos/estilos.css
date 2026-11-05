@@ -107,6 +107,9 @@ h1 span {
 .secciones a { text-decoration: none; color: #fff; white-space: nowrap; border-color: transparent; background: rgba(255, 255, 255, 0.12); }
 .secciones a:hover { background: rgba(255, 255, 255, 0.22); }
 .secciones .aparte { margin-left: auto; background: transparent; border: 2px dashed rgba(255, 255, 255, 0.7); }
+.secciones .agregar { background: var(--mostaza); color: var(--tinta); border: 2px solid var(--tinta); }
+.secciones .agregar:hover { background: color-mix(in srgb, var(--mostaza) 85%, #fff); }
+.secciones .agregar.activa { box-shadow: 3px 3px 0 var(--coral); }
 .secciones .aparte.activa { background: var(--mostaza); color: var(--tinta); border: 2px solid var(--tinta); box-shadow: 3px 3px 0 var(--coral); }
 .marca h1 a { color: inherit; text-decoration: none; }
 
@@ -135,6 +138,19 @@ details.pregunta > div > :first-child { margin-top: 0; }
 .que-es-fuentes h2, .que-es-fuentes.pregunta > summary h2 { font: 800 1.15rem var(--display); color: var(--texto); margin: 8px 0; }
 .que-es-fuentes.pregunta { border-top: 0; }
 @media (max-width: 600px) { .que-es { padding: 20px 18px; margin-top: 22px; } }
+/* "Agregá tu evento": el texto en la tarjeta de siempre y un botón grande al Google Form (que pide iniciar sesión
+   en Google, y eso no se puede hacer dentro de otra página). */
+.agrega { margin-bottom: 28px; }
+.agrega .agrega-titulo { font: 800 1.6rem/1.2 var(--display); color: var(--cobalto-texto); margin: 0 0 8px; }
+.agrega h3 { font: 800 1.1rem var(--display); margin: 22px 0 6px; }
+.formulario-boton { max-width: 680px; margin: 0 auto 60px; text-align: center; color: var(--texto-suave); }
+.boton-formulario {
+  display: inline-block; padding: 16px 30px; font: 800 1.3rem var(--display); color: var(--tinta); text-decoration: none;
+  background: var(--mostaza); border: 2px solid var(--tinta); border-radius: 999px; box-shadow: 5px 5px 0 var(--coral);
+}
+.boton-formulario:hover { background: color-mix(in srgb, var(--mostaza) 85%, #fff); }
+.boton-formulario:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--coral); }
+.formulario-boton p { margin: 16px auto 0; max-width: 520px; font-size: 0.92rem; line-height: 1.5; }
 
 .chispa { display: inline-block; color: var(--mostaza); animation: girar 6s linear infinite; }
 .destacada.activa .chispa { color: var(--coral); }

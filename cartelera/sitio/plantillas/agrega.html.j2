@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es-UY">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- set titulo = "Agregá tu evento · " ~ sitio %}
+  {%- set descripcion = "¿Organizás algo en Montevideo? Mandalo y lo sumamos a la agenda cultural, gratis." %}
+  {%- set ruta = "agrega-tu-evento.html" %}
+{% include "_metadatos.html.j2" %}
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https: data:; font-src 'self'; connect-src 'self' https://la-gestoria-cultural.goatcounter.com; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="preload" href="fuentes/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#3256A8">
+  <script src="tema-inicio.js"></script>
+  <script data-goatcounter="https://la-gestoria-cultural.goatcounter.com/count" async src="goatcounter.js"></script>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="cabezal">
+    <div class="contenedor cabezal-interior">
+      <div class="marca">
+        <h1><a href="index.html">La Gestoría <span>Cultural</span></a></h1>
+        <p class="bajada">Qué hacer en Montevideo: teatro, música, danza y mucho más, de todas las salas en un solo lugar.</p>
+      </div>
+      <p class="cifras"><button type="button" class="boton-tema" id="boton-tema" aria-pressed="false" aria-label="Modo oscuro"><span class="tema-icono" aria-hidden="true">☾</span> <span class="tema-texto" aria-hidden="true">Oscuro</span></button></p>
+    </div>
+    <nav class="contenedor secciones" aria-label="Secciones">
+      <a class="pastilla" href="index.html">← Volver a la cartelera</a>
+      <a class="pastilla aparte" href="que-es.html">¿Qué es La Gestoría?</a>
+      <a class="pastilla agregar activa" href="agrega-tu-evento.html" aria-current="page">＋ Agregá tu evento</a>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <article class="que-es agrega">
+      <h2 class="agrega-titulo">Agregá tu evento</h2>
+      <p>¿Organizás algo en Montevideo? Contame qué es, dónde y cuándo, y lo sumo a la cartelera. No tiene costo.</p>
+      <h3>Qué entra</h3>
+      <ul>
+        <li>Recitales, obras, danza, humor, cine, muestras, fiestas, charlas y talleres <strong>abiertos al público</strong>.</li>
+        <li>En <strong>Montevideo</strong>, con fecha, hora y lugar.</li>
+        <li>Gratis o con entrada. Hace falta un link donde ver más o sacar entradas (puede ser Instagram).</li>
+      </ul>
+      <h3>Antes de mandarlo</h3>
+      <ul>
+        <li>Si se vende por Tickantel, RedTickets, MiEntrada o CobraTicket, seguramente ya esté: <a href="index.html">buscalo en la cartelera</a>.</li>
+        <li>Reviso cada evento a mano antes de publicarlo. Si está todo en orden, aparece en la cartelera en un máximo de 72 horas.</li>
+        <li>Tu correo no se publica: lo uso solo si tengo una duda sobre el evento.</li>
+      </ul>
+    </article>
+    <div class="formulario-boton">
+      <a class="boton-formulario" href="{{ formulario }}" target="_blank" rel="noopener">Abrir el formulario <span aria-hidden="true">↗</span><span class="solo-lectores"> (se abre en otra pestaña)</span></a>
+      {%- if servicio == "Tally" %}
+      <p>Se abre en Tally, un servicio de formularios. No hace falta tener cuenta, y podés adjuntar el afiche.</p>
+      {%- else %}
+      <p>Se abre en Google Forms. Como se puede adjuntar el afiche, Google pide entrar con una cuenta: por eso no va dentro de esta página.</p>
+      {%- endif %}
+    </div>
+  </main>
+  <footer class="contenedor pie-pagina">
+    <p><strong>{{ sitio }}</strong> · Montevideo, 2026 · Proyecto sin fines de lucro</p>
+    <p>Cada evento enlaza a su fuente original para comprar o reservar.
+       <a href="que-es.html">Qué es</a> · <a href="que-es.html#fuentes">Fuentes</a> · <a href="https://docs.google.com/forms/d/e/1FAIpQLSckAwGEcbi1d2X5UHb0nNBAMZ6AnbqtBwHU_MD2ciX_PHLDxg/viewform">Contacto</a> · <a href="agrega-tu-evento.html">Agregá tu evento</a> · <a href="https://github.com/danidlsa/la-gestoria-cultural">Código</a> · <a href="que-es.html#privacidad">Privacidad</a> · <a href="eventos.json">Datos</a></p>
+  </footer>
+  <script src="tema.js"></script>
+</body>
+</html>

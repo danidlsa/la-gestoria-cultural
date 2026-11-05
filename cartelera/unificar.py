@@ -27,7 +27,7 @@ PRIORIDAD = {
     "museos_im": 4, "mnav": 4, "torres_garcia": 4, "gurvich": 4, "mapi": 4, "salacamacua": 4,
     "tickantel": 3, "redtickets": 3, "ticketmaster_uy": 3, "portal_im": 3, "fever": 3, "mec_museos": 3,
     "mientrada": 3, "cobraticket": 3,
-    "cartelera_mvd": 2, "corchea": 2, "gaucho": 2, "piano_piano": 2, "ladiaria": 1,
+    "cartelera_mvd": 2, "corchea": 2, "propuestos": 2, "gaucho": 2, "piano_piano": 2, "ladiaria": 1,
 }
 MARGEN_PASADO = timedelta(hours=6)
 DISTANCIA_MISMO_LUGAR_M = 120

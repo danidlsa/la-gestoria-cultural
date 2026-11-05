@@ -71,6 +71,10 @@ corre_en = "actions"
 [corchea]
 corre_en = "actions"
 
+# Los que mandan los organizadores por "Agregá tu evento" (config/agrega_tu_evento.toml).
+[propuestos]
+corre_en = "actions"
+
 # Responden solo desde Uruguay.
 [portal_im]
 corre_en = "local"

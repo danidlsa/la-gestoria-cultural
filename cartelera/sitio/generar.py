@@ -18,6 +18,7 @@ from markupsafe import Markup
 from cartelera import especiales
 from cartelera.geo import VARIOS_BARRIOS
 from cartelera.scrapers.base import MONTEVIDEO
+from cartelera.scrapers.propuestos import configuracion as configuracion_agrega
 
 DIR_DATOS = Path("datos")
 SALIDA = Path("sitio_generado")
@@ -67,7 +68,7 @@ FUENTES = {
     "torres_garcia": "el Museo Torres García", "gurvich": "el Museo Gurvich", "mapi": "el MAPI",
     "mec_museos": "el calendario del Ministerio de Educación y Cultura",
     "salacamacua": "la Sala Camacuá", "mientrada": "MiEntrada", "cobraticket": "CobraTicket",
-    "corchea": "la cartelera de Corchea",
+    "corchea": "la cartelera de Corchea", "propuestos": "los organizadores que mandan sus eventos",
 }
 # Para los botones de compra: dónde se consigue la entrada.
 VIAS = {
@@ -77,12 +78,13 @@ VIAS = {
     "museos_im": "el museo", "mnav": "el MNAV", "torres_garcia": "el Museo Torres García",
     "gurvich": "el Museo Gurvich", "mapi": "el MAPI", "mec_museos": "el MEC",
     "salacamacua": "la Sala Camacuá", "corchea": "Corchea", "passline": "Passline", "entradasfans": "Entradas Fans",
+    "instagram": "Instagram", "propuestos": "su web",
 }
 # Vías que son la ficha del evento, no una venta: el botón dice "Ver en …" y no "Entradas en …".
 SOLO_INFORMACION = {
     "cartelera_mvd", "solis", "teatro_de_verano", "sodre", "galpon", "cinemateca", "portal_im", "zitarrosa",
     "sala_del_museo", "gaucho", "piano_piano", "ladiaria", "museos_im", "mnav", "torres_garcia",
-    "gurvich", "mapi", "mec_museos", "salacamacua", "corchea",
+    "gurvich", "mapi", "mec_museos", "salacamacua", "corchea", "instagram", "propuestos",
 }
 
 
@@ -277,14 +279,32 @@ def _en_linea(texto: str) -> str:
     return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", texto)
 
 
+PAGINA_AGREGA = "agrega-tu-evento.html"
+
+
+def formulario_para_agregar(config: dict) -> str | None:
+    """El enlace del formulario de "Agregá tu evento" (Tally o Google Forms), o None si todavía no hay."""
+    enlace = (config.get("formulario") or "").strip()
+    return enlace if re.match(r"https://(docs\.google\.com/forms/|tally\.so/)", enlace) else None
+
+
+def servicio_del_formulario(enlace: str | None) -> str | None:
+    """Dónde está el formulario, para contarlo en la página y en Privacidad."""
+    if not enlace:
+        return None
+    return "Tally" if "tally.so" in enlace else "Google Forms"
+
+
 def robots_txt(url_sitio: str) -> str:
     """Todo el sitio se puede indexar; el sitemap dice qué páginas hay."""
     return f"User-agent: *\nAllow: /\n\nSitemap: {url_sitio}sitemap.xml\n"
 
 
-def sitemap_xml(url_sitio: str, actualizado: str) -> str:
-    """Las dos páginas del sitio, con la fecha de la última actualización de la cartelera."""
+def sitemap_xml(url_sitio: str, actualizado: str, con_agrega: bool = False) -> str:
+    """Las páginas del sitio, con la fecha de la última actualización de la cartelera."""
     paginas = [("", "daily", "1.0"), ("que-es.html", "monthly", "0.5")]
+    if con_agrega:
+        paginas.append((PAGINA_AGREGA, "monthly", "0.5"))
     urls = "".join(
         f"  <url><loc>{url_sitio}{ruta}</loc><lastmod>{actualizado}</lastmod><changefreq>{frecuencia}</changefreq>"
         f"<priority>{prioridad}</priority></url>\n"
@@ -359,8 +379,10 @@ def generar() -> Path:
     if ("etiqueta", "museo", "Museos") not in rubros:
         rubros.append(("etiqueta", "museo", "Museos"))
     nombres_fuentes = [FUENTES[f] for f in sorted({p["fuente"] for e in eventos for p in e["fuentes"]}) if f in FUENTES]
+    agrega = formulario_para_agregar(configuracion_agrega())
     pagina = entorno.get_template("index.html.j2").render(
         sitio=NOMBRE_SITIO,
+        agrega_tu_evento=bool(agrega),
         url_sitio=URL_SITIO,
         eventos=eventos,
         lugares=lugares,
@@ -396,11 +418,16 @@ def generar() -> Path:
     if QUE_ES.exists():
         que_es = entorno.get_template("que-es.html.j2").render(
             sitio=NOMBRE_SITIO, url_sitio=URL_SITIO, contenido=markdown_simple(QUE_ES.read_text(encoding="utf-8")), nombres_fuentes=nombres_fuentes,
+            agrega_tu_evento=bool(agrega), servicio_agrega=servicio_del_formulario(agrega),
         )
         (SALIDA / "que-es.html").write_text(que_es, encoding="utf-8")
+    if agrega:
+        (SALIDA / PAGINA_AGREGA).write_text(entorno.get_template("agrega.html.j2").render(
+            sitio=NOMBRE_SITIO, url_sitio=URL_SITIO, formulario=agrega, servicio=servicio_del_formulario(agrega),
+        ), encoding="utf-8")
     # Para los buscadores.
     (SALIDA / "robots.txt").write_text(robots_txt(URL_SITIO), encoding="utf-8")
-    (SALIDA / "sitemap.xml").write_text(sitemap_xml(URL_SITIO, (generado or datetime.now().isoformat())[:10]), encoding="utf-8")
+    (SALIDA / "sitemap.xml").write_text(sitemap_xml(URL_SITIO, (generado or datetime.now().isoformat())[:10], bool(agrega)), encoding="utf-8")
     # Los datos también quedan publicados, por si alguien quiere usarlos.
     for nombre in ("eventos.json", "lugares.json", "ciclos.json"):
         if (DIR_DATOS / nombre).exists():

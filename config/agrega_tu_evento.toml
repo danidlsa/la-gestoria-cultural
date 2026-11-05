@@ -1,0 +1,11 @@
+# "Agregá tu evento": organizadores que mandan sus eventos por un formulario (Tally o Google Forms).
+#
+# Las respuestas caen en una planilla; ahí se aprueba cada una a mano (columna "Aprobado"). Una segunda pestaña
+# muestra solo lo aprobado y sin datos de contacto, y se publica como CSV: la fuente `propuestos` la lee en cada
+# corrida. Mientras `formulario` esté vacío, la página no se genera y el sitio no la enlaza.
+
+# El enlace para compartir el formulario (Tally: https://tally.so/r/…; Google Forms: el que termina en /viewform).
+formulario = "https://tally.so/r/zEN7OZ"
+
+# El CSV de la pestaña pública (Archivo → Compartir → Publicar en la web → esa pestaña → CSV).
+csv = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTe36z4GVBkyFk5BuBzI1FuG7n5WwgXCxSTULxebNNA8IFvmSYp8vg8sxokIRwTrUoaPwtBGMHmDF5b/pub?gid=373903645&single=true&output=csv"

@@ -354,6 +354,10 @@ Sección para armar el plan del mes y llevarlo al calendario.
   - Idea pendiente: una imagen del plan para compartir en historias.
 - **Guardado**: el plan queda en el navegador (`localStorage`), sin cuentas ni servidor. Al volver a abrir la página se descartan las funciones que ya pasaron o que salieron de la cartelera. Si el navegador no permite guardar (modo privado), el plan dura lo que la pestaña.
 
+### Agregá tu evento
+
+Los organizadores pueden mandar sus eventos por un Google Form, al que lleva la página `agrega-tu-evento.html` (con un botón: como el formulario acepta archivos, Google pide iniciar sesión, y eso no funciona dentro de otra página) (se genera solo si `config/agrega_tu_evento.toml` tiene el enlace del formulario). Como el sitio es estático, no recibe nada: las respuestas caen en una planilla de Google, donde cada una se aprueba a mano (columna "Aprobado"). Una segunda pestaña muestra solo lo aprobado y sin el correo de contacto, y se publica como CSV; la fuente `propuestos` la lee en cada corrida y la reconoce por los encabezados de las columnas. Esos eventos pasan por la misma unificación que el resto: si ya están en una ticketera, se unen. El afiche que se adjunta sirve para revisar; por ahora no se muestra en la web.
+
 ### Eventos sin coordenadas
 
 El filtro de Montevideo va por coordenadas. Si un evento llega sin coordenadas, entra solo si su sala ya está en el catálogo **con** coordenadas: porque otro evento de esa misma sala (de cualquier fuente) sí las trajo, o porque la sala está en `config/lugares_alias.toml` y se cruzó con una que tenía ubicación. Si no, se descarta: no hay forma segura de saber si es de Montevideo. Las actividades municipales en muchos barrios a la vez van en el lugar "Varios barrios de Montevideo", que en `config/lugares_alias.toml` tiene el punto de la Intendencia y `solo_por_nombre = true`: así no se le suman por cercanía los eventos que sí son en la Intendencia.

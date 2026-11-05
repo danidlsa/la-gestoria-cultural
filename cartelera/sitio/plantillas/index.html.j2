@@ -55,6 +55,9 @@
         <button type="button" data-seccion="festivales">Festivales <span class="cuenta">{{ cantidad_festivales }}</span></button>
         <button type="button" data-seccion="especiales">Especiales</button>
         <a class="pastilla aparte" href="que-es.html">¿Qué es La Gestoría?</a>
+        {%- if agrega_tu_evento %}
+        <a class="pastilla agregar" href="agrega-tu-evento.html">＋ Agregá tu evento</a>
+        {%- endif %}
       </div>
     </nav>
   </header>
@@ -356,7 +359,7 @@
   <footer class="contenedor pie-pagina">
     <p><strong>{{ sitio }}</strong> · Montevideo, 2026 · Proyecto sin fines de lucro</p>
     <p>Cada evento enlaza a su fuente original para comprar o reservar.
-       <a href="que-es.html">Qué es</a> · <a href="que-es.html#fuentes">Fuentes</a> · <a href="https://docs.google.com/forms/d/e/1FAIpQLSckAwGEcbi1d2X5UHb0nNBAMZ6AnbqtBwHU_MD2ciX_PHLDxg/viewform">Contacto</a> · <a href="https://github.com/danidlsa/la-gestoria-cultural">Código</a> · <a href="que-es.html#privacidad">Privacidad</a> · <a href="eventos.json">Datos</a></p>
+       <a href="que-es.html">Qué es</a> · <a href="que-es.html#fuentes">Fuentes</a> · <a href="https://docs.google.com/forms/d/e/1FAIpQLSckAwGEcbi1d2X5UHb0nNBAMZ6AnbqtBwHU_MD2ciX_PHLDxg/viewform">Contacto</a> · {% if agrega_tu_evento %}<a href="agrega-tu-evento.html">Agregá tu evento</a> · {% endif %}<a href="https://github.com/danidlsa/la-gestoria-cultural">Código</a> · <a href="que-es.html#privacidad">Privacidad</a> · <a href="eventos.json">Datos</a></p>
   </footer>
 
   <div class="imprimible" id="imprimible" aria-hidden="true"></div>

@@ -59,7 +59,8 @@ def correr(modulo, cliente: Cliente | None = None, ahora: datetime | None = None
         with cliente or Cliente() as http:
             eventos, errores = modulo.scrapear(http, ahora)
         # Una corrida es buena si trajo algo y la mayoría de las páginas se pudieron leer.
-        ok = bool(eventos) and len(errores) <= max(5, len(eventos))
+        # Algunas fuentes pueden estar vacías sin que sea una falla (por ejemplo, sin eventos propuestos aprobados).
+        ok = (bool(eventos) or getattr(modulo, "PUEDE_ESTAR_VACIA", False)) and len(errores) <= max(5, len(eventos))
     except Exception as error:  # noqa: BLE001 - cualquier falla deja la corrida como fallida
         log.exception("%s: error general", modulo.NOMBRE)
         eventos, errores, ok = [], [f"{type(error).__name__}: {error}"], False

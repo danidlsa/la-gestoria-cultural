@@ -35,6 +35,9 @@
     <nav class="contenedor secciones" aria-label="Secciones">
       <a class="pastilla" href="index.html">← Volver a la cartelera</a>
       <a class="pastilla aparte activa" href="que-es.html" aria-current="page">¿Qué es La Gestoría?</a>
+      {%- if agrega_tu_evento %}
+      <a class="pastilla agregar" href="agrega-tu-evento.html">＋ Agregá tu evento</a>
+      {%- endif %}
     </nav>
   </header>
 
@@ -54,12 +57,15 @@
       <p>Las visitas se cuentan de forma anónima con <a href="https://www.goatcounter.com">GoatCounter</a>, un contador sin fines de lucro: no usa cookies ni guarda tu IP. Solo registra qué página se visitó, desde dónde se llegó (por ejemplo, un enlace en WhatsApp) y el tamaño de la pantalla, para saber cuánta gente usa el sitio.</p>
       <p>Al abrir el mapa, tu navegador se conecta a OpenStreetMap, que ofrece los mapas, y a cdnjs, un servicio gratuito desde donde se descarga la herramienta que los dibuja. Las imágenes de cada evento se cargan directamente desde la página de su fuente.</p>
       <p>Si escribís por el formulario de contacto (de Google Forms), tu correo y tu mensaje se usan solo para responderte.</p>
+      {%- if agrega_tu_evento %}
+      <p>Si mandás un evento por <a href="agrega-tu-evento.html">Agregá tu evento</a> ({% if servicio_agrega == "Tally" %}de Tally, un servicio de formularios{% else %}también de Google Forms{% endif %}), se publican solo los datos del evento, después de revisarlos. Tu correo y el afiche que adjuntes no se publican.</p>
+      {%- endif %}
     </details>
   </main>
   <footer class="contenedor pie-pagina">
     <p><strong>{{ sitio }}</strong> · Montevideo, 2026 · Proyecto sin fines de lucro</p>
     <p>Cada evento enlaza a su fuente original para comprar o reservar.
-       <a href="que-es.html">Qué es</a> · <a href="#fuentes">Fuentes</a> · <a href="https://docs.google.com/forms/d/e/1FAIpQLSckAwGEcbi1d2X5UHb0nNBAMZ6AnbqtBwHU_MD2ciX_PHLDxg/viewform">Contacto</a> · <a href="https://github.com/danidlsa/la-gestoria-cultural">Código</a> · <a href="#privacidad">Privacidad</a> · <a href="eventos.json">Datos</a></p>
+       <a href="que-es.html">Qué es</a> · <a href="#fuentes">Fuentes</a> · <a href="https://docs.google.com/forms/d/e/1FAIpQLSckAwGEcbi1d2X5UHb0nNBAMZ6AnbqtBwHU_MD2ciX_PHLDxg/viewform">Contacto</a> · {% if agrega_tu_evento %}<a href="agrega-tu-evento.html">Agregá tu evento</a> · {% endif %}<a href="https://github.com/danidlsa/la-gestoria-cultural">Código</a> · <a href="#privacidad">Privacidad</a> · <a href="eventos.json">Datos</a></p>
   </footer>
   <script src="tema.js"></script>
   <script src="que-es.js"></script>
