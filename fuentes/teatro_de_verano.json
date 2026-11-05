@@ -1,8 +1,8 @@
 {
  "fuente": "teatro_de_verano",
- "corrida": "2026-11-05T17:37:18.922856-03:00",
+ "corrida": "2026-11-05T20:06:31.908651-03:00",
  "ok": true,
- "cantidad": 6,
+ "cantidad": 12,
  "errores": [],
  "eventos": [
   {
@@ -48,12 +48,276 @@
   },
   {
    "fuente": "teatro_de_verano",
-   "id_externo": "136",
+   "id_externo": "136-etapa-1",
    "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
-   "titulo": "Prueba de Admisión - Carnaval 2027",
+   "titulo": "Prueba de Admisión - Carnaval 2027 · Etapa 1: La Malandra, Desirée, Inframurga, El Clan, La Justa",
    "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "10 al 16 de noviembre, 20:30 h.",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 1: La Malandra (murga), Desirée (humoristas), Inframurga (murga), El Clan (parodistas) y La Justa (murga). Entrada libre, hasta agotar localidades, con la entrega de un alimento no perecedero.",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-10T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
+     "via": "teatro_de_verano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/613.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "136-etapa-2",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
+   "titulo": "Prueba de Admisión - Carnaval 2027 · Etapa 2: Manda la Vuelta, Fantoches, Sorda de un Oído, La Pandilla, Araca la Cana",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 2: Manda la Vuelta (murga), Fantoches (humoristas), Sorda de un Oído (murga), La Pandilla (parodistas) y Araca la Cana (murga). Entrada libre, hasta agotar localidades, con la entrega de un alimento no perecedero.",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
+     "via": "teatro_de_verano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/613.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "136-etapa-3",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
+   "titulo": "Prueba de Admisión - Carnaval 2027 · Etapa 3: La Nueva Escuela, Social Club, La Sandía de la Torta, Ítacos, La Reina de la Teja",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 3: La Nueva Escuela (sociedad de negros y lubolos), Social Club (humoristas), La Sandía de la Torta (murga), Ítacos (parodistas) y La Reina de la Teja (murga). Entrada libre, hasta agotar localidades, con la entrega de un alimento no perecedero.",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
+     "via": "teatro_de_verano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/613.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "136-etapa-4",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
+   "titulo": "Prueba de Admisión - Carnaval 2027 · Etapa 4: M.Q.L., Los Chobys, Ay Alberto, Los Más Apasionados, La Mojigata",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 4: M.Q.L. (sociedad de negros y lubolos), Los Chobys (humoristas), Ay Alberto (murga), Los Más Apasionados (parodistas) y La Mojigata (murga). Entrada libre, hasta agotar localidades, con la entrega de un alimento no perecedero.",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
+     "via": "teatro_de_verano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/613.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "136-etapa-5",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
+   "titulo": "Prueba de Admisión - Carnaval 2027 · Etapa 5: Back Stage, La Farola de Treinta y Tres, La Clave, Jardín del Pueblo, La Margarita",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 5: Back Stage (revista), La Farola de Treinta y Tres (murga), La Clave (murga), Jardín del Pueblo (murga) y La Margarita (murga). Entrada libre, hasta agotar localidades, con la entrega de un alimento no perecedero.",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
+     "via": "teatro_de_verano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/613.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "136-etapa-6",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
+   "titulo": "Prueba de Admisión - Carnaval 2027 · Etapa 6: House, Picame la Cebolla, Gente Grande, Mi Vieja Mula, Asaltantes con Patente",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 6: House (revista), Picame la Cebolla (murga), Gente Grande (murga), Mi Vieja Mula (murga) y Asaltantes con Patente (murga). Entrada libre, hasta agotar localidades, con la entrega de un alimento no perecedero.",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
+     "via": "teatro_de_verano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/613.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "136-etapa-7",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
+   "titulo": "Prueba de Admisión - Carnaval 2027 · Etapa 7: Carambola, A la Bartola, Don Bochinche y Cía., Agarrate Catalina",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 7: Carambola (revista), A la Bartola (murga), Don Bochinche y Cía. (murga) y Agarrate Catalina (murga). Entrada libre, hasta agotar localidades, con la entrega de un alimento no perecedero.",
    "lugar": {
     "nombre": "Teatro de Verano Ramón Collazo",
     "direccion": "Rambla Wilson s/n, Parque Rodó",
@@ -69,8 +333,18 @@
      "agotada": false
     }
    ],
-   "precio": null,
-   "entradas": [],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
+     "via": "teatro_de_verano"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/613.jpg",
    "productor": "Teatro de Verano",

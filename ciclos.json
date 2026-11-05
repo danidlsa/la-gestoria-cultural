@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T17:41:48.431692-03:00",
+ "generado": "2026-11-05T20:11:05.719654-03:00",
  "cantidad": 20,
  "ciclos": [
   {
@@ -11,20 +11,20 @@
    "cantidad": 6
   },
   {
-   "id": "ciclo-andrzej-wajda-en-su-centenario",
-   "titulo": "Andrzej Wajda, en su centenario",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-05T17:00:00-03:00",
-   "hasta": "2026-11-11T17:00:00-03:00",
-   "cantidad": 7
-  },
-  {
    "id": "ciclo-atlantidoc",
    "titulo": "Atlantidoc",
    "lugar_id": null,
    "desde": "2026-11-05T19:00:00-03:00",
    "hasta": "2026-11-18T19:00:00-03:00",
    "cantidad": 2
+  },
+  {
+   "id": "ciclo-andrzej-wajda-en-su-centenario",
+   "titulo": "Andrzej Wajda, en su centenario",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-05T19:20:00-03:00",
+   "hasta": "2026-11-11T17:00:00-03:00",
+   "cantidad": 7
   },
   {
    "id": "ciclo-encuentro-de-murga-joven-2026",

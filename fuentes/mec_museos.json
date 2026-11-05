@@ -1,49 +1,10 @@
 {
  "fuente": "mec_museos",
- "corrida": "2026-11-05T17:40:51.487110-03:00",
+ "corrida": "2026-11-05T20:10:05.942736-03:00",
  "ok": true,
- "cantidad": 4,
+ "cantidad": 3,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "mec_museos",
-   "id_externo": "inauguracion-exposicion-gurvich-voz-ciudad-dibujos-del-cerro",
-   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/inauguracion-exposicion-gurvich-voz-ciudad-dibujos-del-cerro",
-   "titulo": "Inauguración de la exposición \"Gurvich y la voz de la ciudad: Dibujos del Cerro y Montevideo (1946 – 1968)\"",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Gurvich. Sarandí 524",
-    "direccion": "Montevideo",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-05T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/inauguracion-exposicion-gurvich-voz-ciudad-dibujos-del-cerro",
-     "via": "mec_museos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Ministerio de Educación y Cultura",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "mec_museos",
    "id_externo": "taller-flores-papel-picado-arte-papel",

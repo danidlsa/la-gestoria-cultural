@@ -1,114 +1,12 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-05T17:29:24.794099-03:00",
+ "corrida": "2026-11-05T19:58:05.916901-03:00",
  "ok": true,
- "cantidad": 132,
+ "cantidad": 131,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021919",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
-   "titulo": "EMI",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "“EMI” Emi, de 18 años, vive con sus padres en los suburbios de Buenos Aires. Hace unos meses empezó a trabajar en un taller de reparación de motos en un barrio obrero. Emi quiere saber acerca de su familia biológica y pasa sus días armando el rompecabezas de su historia. Dirección: Ezequiel…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-05T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-07T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021919/700_x_390_e.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021868",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021868/diciembre",
-   "titulo": "Diciembre",
-   "categoria": "cine",
-   "categoria_segura": false,
-   "descripcion_corta": "“DICIEMBRE” Diciembre es un viaje temporal y una reconstrucción inmersiva, atmosférica y dramática de los acontecimientos ocurridos en Argentina durante diciembre de 2001. Utilizando únicamente material de archivo registrado a lo largo de ese mes, la película no solo revisita, sino que reactiva en…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-05T18:50:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-07T18:50:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021868/diciembre",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021868/700_x_390_d.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021401",
@@ -343,6 +241,13 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T20:50:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -480,6 +385,13 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -527,6 +439,20 @@
     },
     {
      "inicio": "2026-11-08T18:50:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T17:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -837,6 +763,13 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -932,6 +865,64 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021637/BANNER.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021919",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
+   "titulo": "EMI",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "“EMI” Emi, de 18 años, vive con sus padres en los suburbios de Buenos Aires. Hace unos meses empezó a trabajar en un taller de reparación de motos en un barrio obrero. Emi quiere saber acerca de su familia biológica y pasa sus días armando el rompecabezas de su historia. Dirección: Ezequiel…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021919/700_x_390_e.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1048,6 +1039,64 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021449/Buitres_Planetario_700x390.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021868",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021868/diciembre",
+   "titulo": "Diciembre",
+   "categoria": "cine",
+   "categoria_segura": false,
+   "descripcion_corta": "“DICIEMBRE” Diciembre es un viaje temporal y una reconstrucción inmersiva, atmosférica y dramática de los acontecimientos ocurridos en Argentina durante diciembre de 2001. Utilizando únicamente material de archivo registrado a lo largo de ese mes, la película no solo revisita, sino que reactiva en…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T18:50:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T18:50:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021868/diciembre",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021868/700_x_390_d.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -5304,45 +5353,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021687/Dic,_17_-_ADAPTACIONES_DIEGO_ZECHARIES_Tickantel.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021867",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021867/gala-35-anos-ballet-al",
-   "titulo": "Gala 35 años Ballet AL",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "Un recorrido por grandes variaciones del repertorio clásico y contemporáneo, con obras de El Cascanueces, Who Cares?, La Esmeralda y otras piezas emblemáticas, acompañadas por la música de compositores como George Gershwin, Piotr Ilich Tchaikovsky y Astor Piazzolla entre otros. Edad máxima…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-17T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021867/gala-35-anos-ballet-al",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021867/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
