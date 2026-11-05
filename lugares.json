@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T14:48:32.033961-03:00",
+ "generado": "2026-11-05T16:45:42.432446-03:00",
  "cantidad": 180,
  "lugares": [
   {
@@ -67,6 +67,15 @@
    "direccion": "Bv. Gral. Artigas 1271, 11200 Montevideo",
    "lat": -34.905102,
    "lon": -56.164132,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "almacen-cultural-los-macanudos",
+   "nombre": "Almacén Cultural Los Macanudos",
+   "alias": [],
+   "direccion": "Gualconda y Magalona",
+   "lat": -34.767031042661,
+   "lon": -56.224814615342,
    "ciudad": "Montevideo"
   },
   {
@@ -295,9 +304,9 @@
    "id": "centro-cultural-florencio-sanchez",
    "nombre": "Centro Cultural Florencio Sánchez",
    "alias": [],
-   "direccion": null,
-   "lat": -34.89231,
-   "lon": -56.24801,
+   "direccion": "Grecia 3281",
+   "lat": -34.89227,
+   "lon": -56.247973,
    "ciudad": "Montevideo"
   },
   {
@@ -616,6 +625,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "espacio-pueblo-nuevo",
+   "nombre": "Espacio Pueblo Nuevo",
+   "alias": [],
+   "direccion": "Pernas 2882",
+   "lat": -34.87183732268,
+   "lon": -56.148199189388,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "espacio-teatro",
    "nombre": "Espacio Teatro",
    "alias": [],
@@ -778,9 +796,9 @@
    "id": "jardin-botanico",
    "nombre": "Jardín Botánico",
    "alias": [],
-   "direccion": null,
-   "lat": -34.8593556,
-   "lon": -56.2004612,
+   "direccion": "Av. 19 de Abril 1181",
+   "lat": -34.861277,
+   "lon": -56.198477,
    "ciudad": "Montevideo"
   },
   {
@@ -1065,6 +1083,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "museo-de-la-memoria",
+   "nombre": "Museo de la memoria",
+   "alias": [],
+   "direccion": "Av. de las Instrucciones 1057",
+   "lat": -34.842152,
+   "lon": -56.19857,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "palacio-salvo",
    "nombre": "Palacio Salvo",
    "alias": [],
@@ -1089,24 +1116,6 @@
    "direccion": "Carrasco, Montevideo",
    "lat": -34.884275,
    "lon": -56.059145,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "parque-villa-dolores",
-   "nombre": "Parque Villa Dolores",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.9007158,
-   "lon": -56.1452772,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "parque-villa-garcia",
-   "nombre": "Parque Villa García",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.803696,
-   "lon": -56.0803352,
    "ciudad": "Montevideo"
   },
   {
@@ -1154,20 +1163,6 @@
    "direccion": "Rbla. Pdte. Wilson esq, 11200 Montevideo",
    "lat": -34.915753,
    "lon": -56.168935,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "plaza-de-las-pioneras",
-   "nombre": "Plaza de las Pioneras",
-   "alias": [
-    "Las Pioneras",
-    "Espacio Las Pioneras",
-    "Espacio Feminista Las Pioneras",
-    "Plaza Las Pioneras"
-   ],
-   "direccion": "Av. Agraciada, Arroyo Seco",
-   "lat": -34.88435,
-   "lon": -56.19304,
    "ciudad": "Montevideo"
   },
   {

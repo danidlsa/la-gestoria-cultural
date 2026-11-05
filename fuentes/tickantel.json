@@ -1,8 +1,8 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-05T14:28:13.795385-03:00",
+ "corrida": "2026-11-05T16:33:10.296499-03:00",
  "ok": true,
- "cantidad": 131,
+ "cantidad": 132,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
@@ -643,13 +643,6 @@
     },
     {
      "inicio": "2026-11-08T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -2642,6 +2635,71 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021609/CCM_octubre_tickantel_2026.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021278",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021278/cartografia-de-la-identidad",
+   "titulo": "Cartografía de la Identidad",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Tenía apenas un año y seis meses… ¿Con un año y seis meses, qué sentimientos se pueden generar? ¿Qué afectos, qué vínculos se pueden llegar a tener? Seguramente muchos. Pero si hablamos de recuerdos, tangibles, patentes, yo no tuve ninguno. \"Cartografía sobre la identidad\" aborda el proceso de…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 800.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021278/cartografia-de-la-identidad",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021278/BANNER_WEB_TICKANTEL_700_X_390.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

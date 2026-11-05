@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-05T14:42:01.789411-03:00",
+ "corrida": "2026-11-05T16:39:16.947133-03:00",
  "ok": true,
- "cantidad": 96,
+ "cantidad": 97,
  "errores": [],
  "eventos": [
   {
@@ -5970,6 +5970,68 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41975.jpg",
    "productor": "Romina Paula",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "34621",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34621",
+   "titulo": "Soy todas",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Unipersonal de Candelaria De La Cruz que recorre las vidas de cinco mujeres victimizadas por la historia, pero consagradas por la posteridad. Actuando y cantando, Candelaria invita a redescubrir a las mujeres verdaderas, que quedaron escondidas detrás de los mitos. Escribe y dirige Álvaro…",
+   "lugar": {
+    "nombre": "Espacio Zorrilla",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 690.0,
+    "hasta": 690.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34621",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34621"
+    },
+    {
+     "programa": "Club El País",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34621"
+    }
+   ],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41882.jpg",
+   "productor": "Álvaro Ahunchain",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

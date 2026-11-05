@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-05T14:48:32.033961-03:00",
+ "generado": "2026-11-05T16:45:42.432446-03:00",
  "cantidad": 20,
  "ciclos": [
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
    "lugar_id": null,
-   "desde": "2026-11-05T10:00:00-03:00",
+   "desde": "2026-11-05T16:00:00-03:00",
    "hasta": "2026-12-11T16:00:00-03:00",
    "cantidad": 6
   },
@@ -21,10 +21,10 @@
   {
    "id": "ciclo-atlantidoc",
    "titulo": "Atlantidoc",
-   "lugar_id": "sala-lazaroff",
+   "lugar_id": null,
    "desde": "2026-11-05T19:00:00-03:00",
-   "hasta": "2026-11-05T19:00:00-03:00",
-   "cantidad": 1
+   "hasta": "2026-11-18T19:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-encuentro-de-murga-joven-2026",
@@ -43,6 +43,14 @@
    "cantidad": 4
   },
   {
+   "id": "ciclo-ciclo-de-teatro",
+   "titulo": "Ciclo de teatro",
+   "lugar_id": null,
+   "desde": "2026-11-06T20:30:00-03:00",
+   "hasta": "2026-12-12T18:00:00-03:00",
+   "cantidad": 16
+  },
+  {
    "id": "ciclo-ciclo-marea",
    "titulo": "Ciclo MAREA",
    "lugar_id": "sala-zitarrosa",
@@ -59,20 +67,12 @@
    "cantidad": 1
   },
   {
-   "id": "ciclo-ciclo-de-teatro",
-   "titulo": "Ciclo de teatro",
-   "lugar_id": null,
-   "desde": "2026-11-07T14:00:00-03:00",
-   "hasta": "2026-12-12T18:00:00-03:00",
-   "cantidad": 10
-  },
-  {
    "id": "ciclo-musica-en-el-parque",
    "titulo": "Música en el Parque",
-   "lugar_id": null,
+   "lugar_id": "jardin-botanico",
    "desde": "2026-11-07T16:00:00-03:00",
-   "hasta": "2026-11-29T16:00:00-03:00",
-   "cantidad": 4
+   "hasta": "2026-11-07T16:00:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-the-apartment-station-presenta-trasnoches-en-cinemateca-rocky-50-anos",
