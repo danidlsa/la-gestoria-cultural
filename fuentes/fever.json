@@ -1,6 +1,6 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-05T17:25:31.618533-03:00",
+ "corrida": "2026-11-05T17:40:11.967403-03:00",
  "ok": true,
  "cantidad": 7,
  "errores": [],
@@ -65,8 +65,8 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-08T18:30:00-03:00",
-     "fin": null,
+     "inicio": "2026-11-08T16:30:00-03:00",
+     "fin": "2026-11-08T18:30:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
