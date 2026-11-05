@@ -57,3 +57,23 @@ def test_fecha_sin_anio():
     assert fecha_sin_anio(13, 11, hoy) == date(2026, 11, 13)
     assert fecha_sin_anio(9, 10, hoy) is None  # pasó hace unas semanas: no es del año que viene
     assert fecha_sin_anio(10, 4, hoy) == date(2027, 4, 10)
+
+
+def test_teatro_de_verano_un_evento_por_etapa_de_carnaval(pagina):
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+
+    from cartelera.scrapers import teatro_de_verano
+
+    ahora = datetime(2026, 11, 11, 12, 0, tzinfo=ZoneInfo("America/Montevideo"))  # la etapa 1 ya pasó
+    tarjeta = {"id": "136", "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-uc136",
+               "titulo": "Prueba de Admisión - Carnaval 2027", "imagen": None}
+    eventos = teatro_de_verano.eventos_por_etapa(tarjeta, pagina("teatro_de_verano_admision.html"), ahora)
+    assert [e.titulo.split(" · ")[1].split(":")[0] for e in eventos] == [f"Etapa {n}" for n in range(2, 8)]
+    assert eventos[-1].titulo.endswith("Etapa 7: Carambola, A la Bartola, Don Bochinche y Cía., Agarrate Catalina")
+    ultima = eventos[-1]
+    assert ultima.funciones[0].inicio.isoformat() == "2026-11-16T20:30:00-03:00"
+    assert (ultima.categoria, ultima.precio.gratis) == ("carnaval", True)
+    assert "Agarrate Catalina (murga)" in ultima.descripcion_corta
+    assert "Inicio de espectáculo" not in ultima.descripcion_corta  # el pie de la página no es un conjunto
+    assert "Ítacos (parodistas)" in eventos[1].descripcion_corta  # tildes y categorías de varias palabras
