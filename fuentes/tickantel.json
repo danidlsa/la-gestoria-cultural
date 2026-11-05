@@ -1,287 +1,10 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-04T14:20:51.389814-03:00",
+ "corrida": "2026-11-04T22:29:55.619976-03:00",
  "ok": true,
  "cantidad": 132,
- "errores": [
-  "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
- ],
+ "errores": [],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020228",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020228/theodoramonteverdi-choirebs",
-   "titulo": "Theodora/Monteverdi Choir/EBS",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "En 1750, una Londres sacudida por terremotos asistía atónita al penúltimo oratorio de Handel, compuesto a sus 65 años. Habiendo abandonado su fórmula probada y comprobada del Antiguo Testamento, creaba una obra ambientada en la época cristiana, que no terminaba con triunfo y fanfarria, sino con la…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-04T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020228/theodoramonteverdi-choirebs",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020228/THEODORA_tickantel_nuevo.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021877",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021877/mi-mujercitas",
-   "titulo": "Mi Mujercitas",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Mi Mujercitas es una reescritura contemporánea y metateatral del clásico de Louisa May Alcott. La obra desmonta la narrativa original para cuestionar los mandatos de género, la creación artística y las tensiones del presente, transitando entre el lenguaje corporal, el quiebre de la cuarta pared y…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-04T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-05T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021877/mi-mujercitas",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021877/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021658",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021658/mi-amiga-fantasma",
-   "titulo": "Mi amiga fantasma",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Camila hace 20 años invocó una fantasma y con el tiempo se volvió su mejor amiga. La fantasma no crece, pero ella sí fue creciendo. Ahora Camila siente que tiene que soltarla para ser adulta, pero no entiende bien qué es ser adulta y conversando con la fantasma se entrevera. Camila aprendió un…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-04T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-05T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-11T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-18T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-19T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-26T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021658/mi-amiga-fantasma",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021658/BANNER_MI_AMIGA_FANTASMA.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021230",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021230/sombras-por-supuesto",
-   "titulo": "Sombras por supuesto",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "La compañía El Silencio vuelve a reunirse después de obras tan emblemáticas como Algo de Ruido hace, El tiempo todo entero y Fauna. Diez años después, se preguntan cómo se vinculan hoy esos cuerpos y esas voces, si conservan entre sí los lazos que supieron construir o si están llamados a fundar…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-04T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    },
-    {
-     "inicio": "2026-11-10T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    },
-    {
-     "inicio": "2026-11-11T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": {
-    "desde": 2000.0,
-    "hasta": 2000.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021230/sombras-por-supuesto",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021230/Sombras_Tickantel_2.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020670",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020670/jesse-y-joy",
-   "titulo": "Jesse y Joy",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Jesse y Joy LATAM Tour 2026 El dúo mexicano ganador de seis Latin Grammy vuelve a Uruguay como parte de su LATAM Tour 2026. El regreso a la región llega después de un 2025 particularmente activo, con publicación de nuevo disco “Lo que nos faltó decir”, el estreno de la serie documental “Jesse y…",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-04T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020670/jesse-y-joy",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020670/banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021919",
@@ -386,6 +109,50 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021877",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021877/mi-mujercitas",
+   "titulo": "Mi Mujercitas",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Mi Mujercitas es una reescritura contemporánea y metateatral del clásico de Louisa May Alcott. La obra desmonta la narrativa original para cuestionar los mandatos de género, la creación artística y las tensiones del presente, transitando entre el lenguaje corporal, el quiebre de la cuarta pared y…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021877/mi-mujercitas",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021877/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021401",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021401/el-teatro",
    "titulo": "El Teatro",
@@ -458,6 +225,87 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021401/El_teatro_banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021658",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021658/mi-amiga-fantasma",
+   "titulo": "Mi amiga fantasma",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Camila hace 20 años invocó una fantasma y con el tiempo se volvió su mejor amiga. La fantasma no crece, pero ella sí fue creciendo. Ahora Camila siente que tiene que soltarla para ser adulta, pero no entiende bien qué es ser adulta y conversando con la fantasma se entrevera. Camila aprendió un…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": -34.90821430964771,
+    "lon": -56.196500823734254
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-11T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-18T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021658/mi-amiga-fantasma",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021658/BANNER_MI_AMIGA_FANTASMA.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1699,6 +1547,57 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021230",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021230/sombras-por-supuesto",
+   "titulo": "Sombras por supuesto",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "La compañía El Silencio vuelve a reunirse después de obras tan emblemáticas como Algo de Ruido hace, El tiempo todo entero y Fauna. Diez años después, se preguntan cómo se vinculan hoy esos cuerpos y esas voces, si conservan entre sí los lazos que supieron construir o si están llamados a fundar…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-10T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    },
+    {
+     "inicio": "2026-11-11T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    }
+   ],
+   "precio": {
+    "desde": 2000.0,
+    "hasta": 2000.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021230/sombras-por-supuesto",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021230/Sombras_Tickantel_2.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40020117",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020117/canto-del-cisne",
    "titulo": "Canto del Cisne",
@@ -1851,6 +1750,64 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021843/BANNER2.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021938",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-y-area-candombe",
+   "titulo": "Muestra final 2026: Área Tango y Área Candombe",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Escuela de Formación Artística del SODRE ENFAS: Muestra final del Área TANGO y Área CANDOMBE. Este espectáculo forma parte del cierre de cursos 2026 del Área Tango y el Área Candombe de la ENFAS. Cada curso presenta un proyecto final que sintetiza un proceso creativo y pone en escena el trabajo…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-y-area-candombe",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021938/BANNER_TANG.CAND_12.14nov.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3024,45 +2981,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021134",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
-   "titulo": "Buenos Muchachos",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "En cualquier momento. En algún lugar. En ningún caso. En las nubes. En abstracto. En alerta. En sueños. En vano. En definitiva. En absoluto. En concreto. En peligro. En soledad. En banda. En sentido opuesto. En secreto. En confianza. En común. En la espera. En realidad... El año termina como…",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021134/BANNER_BM.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40020967",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020967/hilda-lizarazu",
    "titulo": "Hilda Lizarazu",
@@ -3132,6 +3050,45 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020784/700_X_390_(2).jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021134",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
+   "titulo": "Buenos Muchachos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "En cualquier momento. En algún lugar. En ningún caso. En las nubes. En abstracto. En alerta. En sueños. En vano. En definitiva. En absoluto. En concreto. En peligro. En soledad. En banda. En sentido opuesto. En secreto. En confianza. En común. En la espera. En realidad... El año termina como…",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021134/BANNER_BM.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3812,45 +3769,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021421",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021421/4-en-linea",
-   "titulo": "4 en Línea",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Se viene La Prueba de Admisión de Murgas en noviembre, y 4 EN LÍNEA llega al Antel Arena para presentar su plantel. 4 EN LÍNEA quiere Carnaval. Desde hace 16 años que se han juntado y armado una barra muy grande que se sube al escenario a combinar la canción popular con la murga. En esta…",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021421/4-en-linea",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021421/Grilla_Web_Tickantel_(700x390px).jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021445",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021445/jazz-cartoons-por-paris-jazz-club",
    "titulo": "Jazz Cartoons por Paris Jazz Club",
@@ -3881,6 +3799,45 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021445/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021421",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021421/4-en-linea",
+   "titulo": "4 en Línea",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Se viene La Prueba de Admisión de Murgas en noviembre, y 4 EN LÍNEA llega al Antel Arena para presentar su plantel. 4 EN LÍNEA quiere Carnaval. Desde hace 16 años que se han juntado y armado una barra muy grande que se sube al escenario a combinar la canción popular con la murga. En esta…",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021421/4-en-linea",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021421/Grilla_Web_Tickantel_(700x390px).jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4437,45 +4394,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021215",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
-   "titulo": "Karina en Concierto",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Karina La Princesita, vuelve al Antel Arena. Este 4 de diciembre, Karina en vivo, presentando todos sus grandes temas y sus nuevos éxitos. Única función: Antel Arena, 4 de diciembre - 21 horas. No te pierdas una noche muy especial, Karina en Uruguay, no te quedes afuera.",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-04T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021215/700X390_.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021511",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021511/kind-of-blue-davis-100-anos",
    "titulo": "Kind of Blue - Davis 100 años",
@@ -4511,6 +4429,45 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021511/Banner_Tickantel_Festival_2026_V1.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021215",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
+   "titulo": "Karina en Concierto",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Karina La Princesita, vuelve al Antel Arena. Este 4 de diciembre, Karina en vivo, presentando todos sus grandes temas y sus nuevos éxitos. Única función: Antel Arena, 4 de diciembre - 21 horas. No te pierdas una noche muy especial, Karina en Uruguay, no te quedes afuera.",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021215/700X390_.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4988,7 +4945,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021903/La_Filarmónica_700x390.jpeg",
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021903/BANNER_TICKANTEL_OFM_GRAN_GALA_TANGO_DIC_700x390.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -5111,6 +5068,45 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021890/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021895",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada",
+   "titulo": "Nadie dice nada",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Nadie dice nada en vivo",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021895/NDN-AntelArena-WebTickantel-12dic-700x390.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

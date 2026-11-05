@@ -1,8 +1,8 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-04T14:33:01.989466-03:00",
+ "corrida": "2026-11-04T22:42:33.541091-03:00",
  "ok": true,
- "cantidad": 15,
+ "cantidad": 16,
  "errores": [],
  "eventos": [
   {
@@ -193,6 +193,45 @@
    ],
    "beneficios": [],
    "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30301_banner5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mientrada",
+   "id_externo": "30766",
+   "url": "https://mientrada.com.uy/evento/foco-showcase-30766",
+   "titulo": "FOCO SHOWCASE",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Una ocasión especial, un espacio diferente y la misma esencia de siempre. Esta vez nos recibe @emileclub_ un club que aporta y contribuye a que Montevideo tenga un rincón más para escuchar música sin ataduras. El portal se abre ni más ni menos que para celebrar una nueva vuelta al sol para…",
+   "lugar": {
+    "nombre": "Emile",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T23:59:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mientrada.com.uy/evento/foco-showcase-30766",
+     "via": "mientrada"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30766_banner5.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

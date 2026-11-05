@@ -1,23 +1,7 @@
 {
- "generado": "2026-11-04T14:33:37.667417-03:00",
+ "generado": "2026-11-04T22:43:14.724843-03:00",
  "cantidad": 20,
  "ciclos": [
-  {
-   "id": "ciclo-envejecimiento-activo",
-   "titulo": "Envejecimiento activo",
-   "lugar_id": null,
-   "desde": "2026-11-04T16:00:00-03:00",
-   "hasta": "2026-12-11T16:00:00-03:00",
-   "cantidad": 6
-  },
-  {
-   "id": "ciclo-andrzej-wajda-en-su-centenario",
-   "titulo": "Andrzej Wajda, en su centenario",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-04T17:00:00-03:00",
-   "hasta": "2026-11-10T19:00:00-03:00",
-   "cantidad": 7
-  },
   {
    "id": "ciclo-atlantidoc",
    "titulo": "Atlantidoc",
@@ -33,6 +17,22 @@
    "desde": "2026-11-04T20:00:00-03:00",
    "hasta": "2026-11-16T20:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-envejecimiento-activo",
+   "titulo": "Envejecimiento activo",
+   "lugar_id": null,
+   "desde": "2026-11-05T10:00:00-03:00",
+   "hasta": "2026-12-11T16:00:00-03:00",
+   "cantidad": 6
+  },
+  {
+   "id": "ciclo-andrzej-wajda-en-su-centenario",
+   "titulo": "Andrzej Wajda, en su centenario",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-05T17:00:00-03:00",
+   "hasta": "2026-11-10T19:00:00-03:00",
+   "cantidad": 6
   },
   {
    "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
@@ -118,8 +118,8 @@
    "id": "ciclo-candlelight",
    "titulo": "Candlelight",
    "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
-   "desde": "2026-11-21T17:30:00-03:00",
-   "hasta": "2026-11-21T21:30:00-03:00",
+   "desde": "2026-11-21T21:30:00-03:00",
+   "hasta": "2026-12-27T16:30:00-03:00",
    "cantidad": 2
   },
   {

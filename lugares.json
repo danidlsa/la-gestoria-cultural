@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-04T14:33:37.667417-03:00",
- "cantidad": 178,
+ "generado": "2026-11-04T22:43:14.724843-03:00",
+ "cantidad": 181,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -540,6 +540,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "el-imperio-bar",
+   "nombre": "El Imperio bar",
+   "alias": [],
+   "direccion": "Tristán Narvaja 1752",
+   "lat": -34.8980845,
+   "lon": -56.179802,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "el-milongon",
    "nombre": "El Milongon",
    "alias": [],
@@ -898,6 +907,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "mbc-ombu",
+   "nombre": "MBC Ombú",
+   "alias": [],
+   "direccion": "Bv. España 2614, 11300 Montevideo, Depar",
+   "lat": -34.913063,
+   "lon": -56.157456,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "magnolio-sala",
    "nombre": "Magnolio Sala",
    "alias": [],
@@ -1026,18 +1044,6 @@
    "direccion": "Sarandí 683",
    "lat": -34.90646,
    "lon": -56.20138,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "museo-zorrilla",
-   "nombre": "Museo Zorrilla",
-   "alias": [
-    "Museo Casa de Zorrilla",
-    "Museo Juan Zorrilla de San Martín"
-   ],
-   "direccion": "José Luis Zorrilla de San Martín 96, Punta Carretas",
-   "lat": -34.92763,
-   "lon": -56.15977,
    "ciudad": "Montevideo"
   },
   {
@@ -1182,6 +1188,15 @@
    "direccion": "3RFM+PM6, Rbla. Pdte. Wilson, 11300 Mont",
    "lat": -34.925712,
    "lon": -56.165869,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "rambla-gandhi-633",
+   "nombre": "Rambla Gandhi 633",
+   "alias": [],
+   "direccion": "Rbla. Gandhi 633, 11300 Montevideo, Depa",
+   "lat": -34.920993,
+   "lon": -56.149864,
    "ciudad": "Montevideo"
   },
   {
@@ -1395,6 +1410,15 @@
    "direccion": null,
    "lat": -34.8905846,
    "lon": -56.0553743,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "soriano-817",
+   "nombre": "Soriano 817",
+   "alias": [],
+   "direccion": "Soriano 817, 11100 Montevideo, Departame",
+   "lat": -34.908248,
+   "lon": -56.198649,
    "ciudad": "Montevideo"
   },
   {

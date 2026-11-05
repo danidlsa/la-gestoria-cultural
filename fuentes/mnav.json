@@ -1,8 +1,8 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-04T14:32:27.102697-03:00",
+ "corrida": "2026-11-04T22:41:59.319126-03:00",
  "ok": true,
- "cantidad": 32,
+ "cantidad": 31,
  "errores": [],
  "eventos": [
   {
@@ -2233,84 +2233,6 @@
   },
   {
    "fuente": "mnav",
-   "id_externo": "escrituraensala",
-   "url": "https://mnav.gub.uy/cms.php?id=escrituraensala",
-   "titulo": "Taller de escritura poética en torno a la colección del MNAV: \"Relatos en proceso: colección expandida\"",
-   "categoria": "taller",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-04T16:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=escrituraensala",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=escrituraensala",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mnav",
-   "id_externo": "somosjugandodacosta",
-   "url": "https://mnav.gub.uy/cms.php?id=somosjugandodacosta",
-   "titulo": "Yvonne D'Acosta: Artistas en sus propias palabras de la muestra \"Somos Jugando\"",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-04T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=somosjugandodacosta",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=somosjugandodacosta",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mnav",
    "id_externo": "arquitectos2026",
    "url": "https://mnav.gub.uy/cms.php?id=arquitectos2026",
    "titulo": "Curso Arquitectos Uruguayos edición 2026 - Hugo Rodríguez Juanotena: arquitectura y pedagogía",
@@ -3199,6 +3121,45 @@
    ],
    "beneficios": [],
    "imagen_url": "https://mnav.gub.uy/img.php?p=ciclodecine2026",
+   "productor": "Museo Nacional de Artes Visuales",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mnav",
+   "id_externo": "grpuodelecturascriticas2026",
+   "url": "https://mnav.gub.uy/cms.php?id=grpuodelecturascriticas2026",
+   "titulo": "Grupo de Lecturas Críticas MNAV 2026",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales",
+    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+    "lat": -34.91384,
+    "lon": -56.16497
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-15T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mnav.gub.uy/cms.php?id=grpuodelecturascriticas2026",
+     "via": "mnav"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://mnav.gub.uy/img.php?p=grpuodelecturascriticas2026",
    "productor": "Museo Nacional de Artes Visuales",
    "region": "montevideo",
    "enlaces": [],
