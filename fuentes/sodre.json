@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-04T22:34:56.754535-03:00",
+ "corrida": "2026-11-05T14:40:25.461082-03:00",
  "ok": true,
- "cantidad": 36,
+ "cantidad": 38,
  "errores": [],
  "eventos": [
   {
@@ -531,6 +531,13 @@
     {
      "inicio": "2026-11-08T21:10:00-03:00",
      "fin": "2026-11-08T23:10:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T21:00:00-03:00",
+     "fin": "2026-11-15T23:00:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -1124,13 +1131,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-04T20:00:00-03:00",
-     "fin": "2026-11-04T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-05T20:00:00-03:00",
      "fin": "2026-11-05T22:00:00-03:00",
      "sin_hora": false,
@@ -1225,6 +1225,20 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T17:00:00-03:00",
+     "fin": "2026-11-13T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T19:00:00-03:00",
+     "fin": "2026-11-15T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": null,
@@ -1270,6 +1284,13 @@
     {
      "inicio": "2026-11-08T17:00:00-03:00",
      "fin": "2026-11-08T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T17:00:00-03:00",
+     "fin": "2026-11-15T19:00:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -1321,6 +1342,20 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T17:00:00-03:00",
+     "fin": "2026-11-12T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T17:00:00-03:00",
+     "fin": "2026-11-14T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": null,
@@ -1369,6 +1404,13 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-13T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": null,
@@ -1414,6 +1456,13 @@
     {
      "inicio": "2026-11-07T20:50:00-03:00",
      "fin": "2026-11-07T22:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T20:55:00-03:00",
+     "fin": "2026-11-13T22:55:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -1638,6 +1687,88 @@
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021681/tmc-cuarteto-de-vientos-madera"
    ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13720",
+   "url": "https://sodre.gub.uy/espectaculos/las-7-balas/",
+   "titulo": "Las 7 balas",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T19:20:00-03:00",
+     "fin": "2026-11-12T21:20:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T19:20:00-03:00",
+     "fin": "2026-11-14T21:20:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/11-e1684526316343-768x318.jpg",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13723",
+   "url": "https://sodre.gub.uy/espectaculos/dios-es-una-palabra/",
+   "titulo": "Dios es una palabra",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T21:10:00-03:00",
+     "fin": "2026-11-12T23:10:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T21:10:00-03:00",
+     "fin": "2026-11-14T23:10:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-56-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [],
    "ciclo": null,
    "muestra": false,
    "hasta": null

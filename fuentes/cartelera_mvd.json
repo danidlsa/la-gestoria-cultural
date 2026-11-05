@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-04T22:36:34.950217-03:00",
+ "corrida": "2026-11-05T14:42:01.789411-03:00",
  "ok": true,
- "cantidad": 97,
+ "cantidad": 96,
  "errores": [],
  "eventos": [
   {
@@ -792,13 +792,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-04T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-05T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1076,50 +1069,6 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/40837.jpg",
    "productor": "Virginia Ramos",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34677",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34677",
-   "titulo": "Boite",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Boite, el espectáculo protagonizado por Griselda Siciliani y Carlos Casella, es una propuesta escénica que combina música, humor y sensualidad, con una fuerte complicidad entre sus protagonistas. Inspirado en el universo de las antiguas boîtes, el espectáculo propone un viaje por distintas…",
-   "lugar": {
-    "nombre": "El Galpón - Sala César Campodónico",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-04T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 2480.0,
-    "hasta": 3680.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34677",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41963.jpg",
-   "productor": "Ana Frenkel",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -4461,13 +4410,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-04T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-11T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -4648,13 +4590,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-04T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-05T20:00:00-03:00",
      "fin": null,
@@ -5999,13 +5934,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-04T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-10T20:30:00-03:00",
      "fin": null,

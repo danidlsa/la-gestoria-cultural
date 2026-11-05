@@ -1,9 +1,11 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-04T22:29:55.619976-03:00",
+ "corrida": "2026-11-05T14:28:13.795385-03:00",
  "ok": true,
- "cantidad": 132,
- "errores": [],
+ "cantidad": 131,
+ "errores": [
+  "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+ ],
  "eventos": [
   {
    "fuente": "tickantel",
@@ -100,50 +102,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021868/700_x_390_d.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021877",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021877/mi-mujercitas",
-   "titulo": "Mi Mujercitas",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Mi Mujercitas es una reescritura contemporánea y metateatral del clásico de Louisa May Alcott. La obra desmonta la narrativa original para cuestionar los mandatos de género, la creación artística y las tensiones del presente, transitando entre el lenguaje corporal, el quiebre de la cuarta pared y…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-05T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021877/mi-mujercitas",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021877/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -306,6 +264,50 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021658/BANNER_MI_AMIGA_FANTASMA.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021877",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021877/mi-mujercitas",
+   "titulo": "Mi Mujercitas",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Mi Mujercitas es una reescritura contemporánea y metateatral del clásico de Louisa May Alcott. La obra desmonta la narrativa original para cuestionar los mandatos de género, la creación artística y las tensiones del presente, transitando entre el lenguaje corporal, el quiebre de la cuarta pared y…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-05T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021877/mi-mujercitas",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021877/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1295,7 +1297,7 @@
      "fin": null,
      "sin_hora": false,
      "sala": null,
-     "agotada": false
+     "agotada": true
     }
    ],
    "precio": {
@@ -5068,45 +5070,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021890/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021895",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada",
-   "titulo": "Nadie dice nada",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Nadie dice nada en vivo",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-12T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021895/NDN-AntelArena-WebTickantel-12dic-700x390.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

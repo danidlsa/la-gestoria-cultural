@@ -1,8 +1,8 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-04T22:41:31.015614-03:00",
+ "corrida": "2026-11-05T14:46:56.068985-03:00",
  "ok": true,
- "cantidad": 6,
+ "cantidad": 7,
  "errores": [],
  "eventos": [
   {
@@ -262,6 +262,50 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/49de4a16-11de-11ef-813a-a2c797bffe77.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "672782",
+   "url": "https://feverup.com/m/672782",
+   "titulo": "Candlelight: Tributo a Joan Manuel Serrat",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Candlelight llega al Hyatt Centric de Montevideo con un tributo a Joan Manuel Serrat. Un cuarteto de cuerda interpreta en vivo sus canciones más queridas en una sala iluminada únicamente por velas, durante unos 60 minutos. Esta experiencia de concierto es un tributo. No está vinculada, respaldada…",
+   "lugar": {
+    "nombre": "Hyatt Centric",
+    "direccion": null,
+    "lat": -34.909643,
+    "lon": -56.1385076
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-08T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1450.0,
+    "hasta": 1450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/672782",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/57ccb306-1462-11f0-879a-6e847126acd3.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],

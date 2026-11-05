@@ -1,23 +1,7 @@
 {
- "generado": "2026-11-04T22:43:14.724843-03:00",
+ "generado": "2026-11-05T14:48:32.033961-03:00",
  "cantidad": 20,
  "ciclos": [
-  {
-   "id": "ciclo-atlantidoc",
-   "titulo": "Atlantidoc",
-   "lugar_id": null,
-   "desde": "2026-11-04T19:00:00-03:00",
-   "hasta": "2026-11-05T19:00:00-03:00",
-   "cantidad": 2
-  },
-  {
-   "id": "ciclo-encuentro-de-murga-joven-2026",
-   "titulo": "Encuentro de Murga Joven 2026",
-   "lugar_id": "centro-cultural-las-duranas",
-   "desde": "2026-11-04T20:00:00-03:00",
-   "hasta": "2026-11-16T20:00:00-03:00",
-   "cantidad": 1
-  },
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
@@ -31,8 +15,24 @@
    "titulo": "Andrzej Wajda, en su centenario",
    "lugar_id": "cinemateca",
    "desde": "2026-11-05T17:00:00-03:00",
-   "hasta": "2026-11-10T19:00:00-03:00",
-   "cantidad": 6
+   "hasta": "2026-11-11T17:00:00-03:00",
+   "cantidad": 7
+  },
+  {
+   "id": "ciclo-atlantidoc",
+   "titulo": "Atlantidoc",
+   "lugar_id": "sala-lazaroff",
+   "desde": "2026-11-05T19:00:00-03:00",
+   "hasta": "2026-11-05T19:00:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-encuentro-de-murga-joven-2026",
+   "titulo": "Encuentro de Murga Joven 2026",
+   "lugar_id": "centro-cultural-las-duranas",
+   "desde": "2026-11-05T20:00:00-03:00",
+   "hasta": "2026-11-16T20:00:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",

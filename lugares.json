@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-04T22:43:14.724843-03:00",
- "cantidad": 181,
+ "generado": "2026-11-05T14:48:32.033961-03:00",
+ "cantidad": 180,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -163,15 +163,6 @@
    "direccion": "Av. Gral. Flores 2468, 11800 Montevideo,",
    "lat": -34.882217,
    "lon": -56.182381,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "avenida-luis-a-de-herrera-2883",
-   "nombre": "Avenida Luis A. de Herrera 2883",
-   "alias": [],
-   "direccion": "Av. Luis Alberto de Herrera 2883, 11000",
-   "lat": -34.876545,
-   "lon": -56.157533,
    "ciudad": "Montevideo"
   },
   {
@@ -739,6 +730,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "hyatt-centric",
+   "nombre": "Hyatt Centric",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.909643,
+   "lon": -56.1385076,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "inju",
    "nombre": "INJU",
    "alias": [],
@@ -1206,15 +1206,6 @@
    "direccion": "Rbla. Pdte. Wilson, Montevideo, Departam",
    "lat": -34.921047,
    "lon": -56.169149,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "rambla-de-montevideo",
-   "nombre": "Rambla de Montevideo",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.9052121,
-   "lon": -56.2114261,
    "ciudad": "Montevideo"
   },
   {
