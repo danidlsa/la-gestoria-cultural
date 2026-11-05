@@ -924,13 +924,12 @@
       const evento = porId.get(p.id);
       lineas.push(
         "",
-        `📅 *${mayuscula(textoFuncion([p.inicio, p.sinHora]))}*${p.entradas ? " ✅" : ""}`,
+        `📅 *${mayuscula(textoFuncion([p.inicio, p.sinHora]))}*`,
         evento.titulo,
         `📍 ${[nombreLugar(evento), evento.precioTexto].filter(Boolean).join(" · ")}`,
         `🎟️ ${evento.url}`,
       );
     }
-    if (elegidas.some((p) => p.entradas)) lineas.push("", "✅ = ya tengo entradas");
     lineas.push("", `Armado en La Gestoría Cultural: ${URL_SITIO}`);
     return lineas.join("\n");
   }
