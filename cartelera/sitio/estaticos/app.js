@@ -117,6 +117,27 @@
     guardarPlan();
   }
 
+  // Un cartelito que aparece un momento arriba de un botón, para explicar qué hizo ("Tengo entradas").
+  let globito = null;
+  let esperaGlobito = null;
+  function mostrarGlobito(boton, texto) {
+    if (!globito) {
+      globito = el("div", { class: "globito", role: "status" });
+      document.body.appendChild(globito);
+    }
+    globito.textContent = texto;
+    globito.classList.remove("visible");
+    const r = boton.getBoundingClientRect();
+    const ancho = globito.offsetWidth;
+    const izquierda = Math.min(Math.max(8, r.left + r.width / 2 - ancho / 2), document.documentElement.clientWidth - ancho - 8);
+    globito.style.left = `${izquierda + window.scrollX}px`;
+    globito.style.top = `${r.top + window.scrollY - globito.offsetHeight - 10}px`;
+    globito.style.setProperty("--flecha", `${r.left + r.width / 2 - izquierda}px`);
+    requestAnimationFrame(() => globito.classList.add("visible"));
+    clearTimeout(esperaGlobito);
+    esperaGlobito = setTimeout(() => globito.classList.remove("visible"), 1800);
+  }
+
   // El botón 🎟️ de las listas del plan: marca (o desmarca) que ya tenés entradas para esa función.
   function botonEntradas(p, evento) {
     return el("button", {
@@ -1223,7 +1244,9 @@
         const enDetalle = Boolean(boton.closest("#pc-detalle"));
         dibujarContenido();
         // Al redibujar se pierde el foco: vuelve al mismo botón, para seguir con el teclado.
-        document.querySelector(`${enDetalle ? "#pc-detalle" : "#mi-plan-lista"} [data-entradas="${CSS.escape(d.entradas)}"]`)?.focus();
+        const nuevo = document.querySelector(`${enDetalle ? "#pc-detalle" : "#mi-plan-lista"} [data-entradas="${CSS.escape(d.entradas)}"]`);
+        nuevo?.focus();
+        if (nuevo) mostrarGlobito(nuevo, elegida.entradas ? "🎟️ Tengo entradas" : "Sin entradas todavía");
       }
     } else if (d.quitar) {
       plan.delete(d.quitar);

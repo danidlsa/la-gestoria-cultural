@@ -449,6 +449,19 @@ select {
 .entradas:hover span { opacity: 0.85; }
 .entradas.con-entradas { border-style: solid; border-color: var(--tinta); background: var(--mostaza); }
 .entradas.con-entradas span { filter: none; opacity: 1; }
+/* El cartelito que explica el botón al tocarlo. */
+.globito {
+  position: absolute; z-index: 60; padding: 7px 12px; border-radius: 10px; white-space: nowrap; pointer-events: none;
+  background: var(--tinta); color: #fff; font: 700 0.9rem var(--sans); box-shadow: 3px 3px 0 var(--coral);
+  opacity: 0; transform: translateY(4px); transition: opacity 0.15s, transform 0.15s;
+}
+.globito::after {
+  content: ""; position: absolute; top: 100%; left: var(--flecha, 50%); margin-left: -6px;
+  border: 6px solid transparent; border-top-color: var(--tinta);
+}
+.globito.visible { opacity: 1; transform: none; }
+[data-tema="oscuro"] .globito { background: var(--crema); color: var(--tinta); }
+[data-tema="oscuro"] .globito::after { border-top-color: var(--crema); }
 .quitar-texto:hover { background: color-mix(in srgb, var(--coral) 22%, var(--superficie)); }
 /* Calendario del plan: los días con algo elegido se tocan para verlo y quitarlo. */
 button.pc-numero { border: 0; background: none; padding: 0; color: inherit; text-align: left; cursor: pointer; text-decoration: underline; text-decoration-color: var(--coral); text-decoration-thickness: 3px; text-underline-offset: 3px; min-height: 24px; min-width: 24px; }
