@@ -1,8 +1,8 @@
 {
  "fuente": "zitarrosa",
- "corrida": "2026-11-04T11:02:01.262885-03:00",
+ "corrida": "2026-11-05T16:25:18.541567-03:00",
  "ok": true,
- "cantidad": 22,
+ "cantidad": 24,
  "errores": [],
  "eventos": [
   {
@@ -20,13 +20,6 @@
     "lon": -56.19441
    },
    "funciones": [
-    {
-     "inicio": "2026-11-04T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-05T20:00:00-03:00",
      "fin": null,
@@ -393,6 +386,50 @@
    ],
    "beneficios": [],
    "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/imagen-PLMC-1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "una-noche-en-el-biografo",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/una-noche-en-el-biografo/",
+   "titulo": "Una noche en el Biógrafo",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "\"Una noche en el Biógrafo\" propone experimentar cómo eran las proyecciones de cine mudo de las primeras décadas del siglo XX en el espacio que actualmente ocupa la Sala Zitarrosa. Se proyectarán películas de las carteleras montevideanas de ese período, acompañadas con música y comentarios…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/una-noche-en-el-biografo/",
+     "via": "zitarrosa"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-5.19.27-PM.jpeg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1051,6 +1088,52 @@
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "encuentro-espectaculo-de-danza-espanola",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/encuentro-espectaculo-de-danza-espanola/",
+   "titulo": "Encuentro, espectáculo de danza española",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "“Encuentro”, Espectáculo de danza española. Más de 40 bailarines en escena de las ciudades de Montevideo y Maldonado con la música en vivo de Gonzalo Franco en guitarra y cante, Mauro Clavijo en percusión y Lupo Danz en guitarra. Flamenco, Clásico Español, Escuela Bolera se conjugan en esta Fiesta…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 550.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021888/encuentro-espectaculo-de-danza-espanola",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/11/IG-RDY-33-1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021888/encuentro-espectaculo-de-danza-espanola"
+   ],
    "ciclo": null,
    "muestra": false,
    "hasta": null

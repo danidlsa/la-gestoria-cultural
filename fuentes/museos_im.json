@@ -1,6 +1,6 @@
 {
  "fuente": "museos_im",
- "corrida": "2026-11-04T11:02:31.391073-03:00",
+ "corrida": "2026-11-05T16:25:49.649998-03:00",
  "ok": true,
  "cantidad": 5,
  "errores": [],
@@ -20,13 +20,6 @@
     "lon": -56.20278
    },
    "funciones": [
-    {
-     "inicio": "2026-11-04T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-05T00:00:00-03:00",
      "fin": null,
@@ -247,13 +240,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-04T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-05T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -668,6 +654,13 @@
     },
     {
      "inicio": "2027-01-03T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-04T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -711,13 +704,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-04T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-05T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1136,6 +1122,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -1174,13 +1167,6 @@
     "lon": -56.19423
    },
    "funciones": [
-    {
-     "inicio": "2026-11-04T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-05T00:00:00-03:00",
      "fin": null,
@@ -1386,6 +1372,13 @@
     },
     {
      "inicio": "2026-12-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-05T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1429,13 +1422,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-04T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-05T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1640,6 +1626,13 @@
     },
     {
      "inicio": "2026-12-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-05T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,

@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-04T11:00:17.355915-03:00",
+ "corrida": "2026-11-05T16:23:42.779698-03:00",
  "ok": true,
- "cantidad": 31,
+ "cantidad": 34,
  "errores": [],
  "eventos": [
   {
@@ -59,13 +59,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-04T16:00:00-03:00",
-     "fin": "2026-11-04T18:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Centro Comunal Zonal 10",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-05T16:00:00-03:00",
      "fin": "2026-11-05T18:00:00-03:00",
@@ -643,6 +636,84 @@
   },
   {
    "fuente": "portal_im",
+   "id_externo": "818-1018",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/edipo-en-ezeiza",
+   "titulo": "Edipo en Ezeiza",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "En un paisaje nacional fragmentado, una familia se somete a feroces interrogatorios para descubrir al enemigo infiltrado. Tras el “picnic de Ezeiza”, el padre, la madre y el hijo ven sus identidades quebrarse bajo un símbolo patrio que asfixia. Apagones, sirenas y linternas construyen una atmósfera…",
+   "lugar": {
+    "nombre": "Almacén Cultural Los Macanudos",
+    "direccion": "Gualconda y Magalona",
+    "lat": -34.767031042661,
+    "lon": -56.224814615342
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-07/EDIPO%20EN%20EZEIZA%20-%202%20-%20Micaela%20Larrocca.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "818-42",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/edipo-en-ezeiza",
+   "titulo": "Edipo en Ezeiza",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "En un paisaje nacional fragmentado, una familia se somete a feroces interrogatorios para descubrir al enemigo infiltrado. Tras el “picnic de Ezeiza”, el padre, la madre y el hijo ven sus identidades quebrarse bajo un símbolo patrio que asfixia. Apagones, sirenas y linternas construyen una atmósfera…",
+   "lugar": {
+    "nombre": "Centro Cultural Florencio Sánchez",
+    "direccion": "Grecia 3281",
+    "lat": -34.89227,
+    "lon": -56.247973
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-07/EDIPO%20EN%20EZEIZA%20-%202%20-%20Micaela%20Larrocca.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
    "id_externo": "820-364",
    "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/parte-de-este-mundo",
    "titulo": "Parte de Este Mundo",
@@ -1146,21 +1217,21 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "962",
-   "url": "https://eventos.montevideo.gub.uy/evento/atlantidoc/retazos-de-la-memoria",
-   "titulo": "Retazos de la memoria",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Retazos de memoria se rodó en la Amazonía colombiana y propone una experiencia sensorial y espiritual centrada en la relación entre las comunidades y los seres, visibles e invisibles, que habitan el territorio, a través del viaje de un joven artista que experimenta una profunda transformación.",
+   "id_externo": "956-1019",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/diciembre",
+   "titulo": "Diciembre",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Obra unipersonal que aborda la desaparición forzada desde la perspectiva de quienes quedan y deben reconstruir su historia personal a partir de la ausencia. El texto de Marcel Sawchik parte de su conocimiento personal y de su relación de amistad con Pablo Sobrino, hijo de Guillermo Manuel Sobrino…",
    "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856
+    "nombre": "Espacio Pueblo Nuevo",
+    "direccion": "Pernas 2882",
+    "lat": -34.87183732268,
+    "lon": -56.148199189388
    },
    "funciones": [
     {
-     "inicio": "2026-11-04T19:00:00-03:00",
+     "inicio": "2026-11-07T18:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -1175,11 +1246,128 @@
    },
    "entradas": [],
    "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/Retazos%20de%20la%20Memoria%20jaguar.jpg",
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/Diciembre%203.JPG",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": "Atlantidoc",
+   "ciclo": "Ciclo de teatro",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "956-33",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/diciembre",
+   "titulo": "Diciembre",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Obra unipersonal que aborda la desaparición forzada desde la perspectiva de quienes quedan y deben reconstruir su historia personal a partir de la ausencia. El texto de Marcel Sawchik parte de su conocimiento personal y de su relación de amistad con Pablo Sobrino, hijo de Guillermo Manuel Sobrino…",
+   "lugar": {
+    "nombre": "Sala Lazaroff",
+    "direccion": "Av. 8 de Octubre 4849",
+    "lat": -34.855863,
+    "lon": -56.132473
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/Diciembre%203.JPG",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "956-1015",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/diciembre",
+   "titulo": "Diciembre",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Obra unipersonal que aborda la desaparición forzada desde la perspectiva de quienes quedan y deben reconstruir su historia personal a partir de la ausencia. El texto de Marcel Sawchik parte de su conocimiento personal y de su relación de amistad con Pablo Sobrino, hijo de Guillermo Manuel Sobrino…",
+   "lugar": {
+    "nombre": "Centro Cultural del D",
+    "direccion": "Gral. Flores 5171, esquina Jorge Isaacs",
+    "lat": -34.835956062666,
+    "lon": -56.14728362987
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/Diciembre%203.JPG",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "956-94",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/diciembre",
+   "titulo": "Diciembre",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Obra unipersonal que aborda la desaparición forzada desde la perspectiva de quienes quedan y deben reconstruir su historia personal a partir de la ausencia. El texto de Marcel Sawchik parte de su conocimiento personal y de su relación de amistad con Pablo Sobrino, hijo de Guillermo Manuel Sobrino…",
+   "lugar": {
+    "nombre": "Museo de la memoria",
+    "direccion": "Av. de las Instrucciones 1057",
+    "lat": -34.842152,
+    "lon": -56.19857
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-11T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/Diciembre%203.JPG",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de teatro",
    "muestra": false,
    "hasta": null
   },
@@ -1534,12 +1722,12 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "998",
-   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-miercoles-4-de-noviembre",
+   "id_externo": "999",
+   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-jueves-5-de-noviembre",
    "titulo": "Murga Joven",
    "categoria": "carnaval",
    "categoria_segura": false,
-   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Miércoles 4 de noviembre 20:00 h – La Coaching de la Lora 20:50 h – Mirá pa’l obol 21:40 h – Flor de Perolata 22:30 h – Se pudrió la manzana 23:20 h – Savora Moneda",
+   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Jueves 5 de noviembre 20:00 h – La última 20:50 h – Embajadores del buen humor 21:40 h – La Joven Cita 22:30 h – Doña Vecina 23:20 h – La Abuela Tuerta",
    "lugar": {
     "nombre": "Centro Cultural Las Duranas",
     "direccion": "Pedro Trápani 1350 esquina Bayona.",
@@ -1547,13 +1735,6 @@
     "lon": -56.189780492925
    },
    "funciones": [
-    {
-     "inicio": "2026-11-04T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-05T20:00:00-03:00",
      "fin": null,
@@ -1640,7 +1821,7 @@
    },
    "entradas": [],
    "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20251103dicimouyjmr1439%20%282%29.jpg",
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20251103dicimouyjmr1453.jpg",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
@@ -1664,13 +1845,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-05T10:00:00-03:00",
-     "fin": "2026-11-05T12:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-10T10:00:00-03:00",
      "fin": "2026-11-10T12:00:00-03:00",
      "sin_hora": false,
@@ -1685,22 +1859,8 @@
      "agotada": false
     },
     {
-     "inicio": "2026-11-17T10:00:00-03:00",
-     "fin": "2026-11-17T12:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-19T10:00:00-03:00",
      "fin": "2026-11-19T12:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-24T10:00:00-03:00",
-     "fin": "2026-11-24T12:00:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -1713,22 +1873,8 @@
      "agotada": false
     },
     {
-     "inicio": "2026-12-01T10:00:00-03:00",
-     "fin": "2026-12-01T12:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-12-03T10:00:00-03:00",
      "fin": "2026-12-03T12:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-08T10:00:00-03:00",
-     "fin": "2026-12-08T12:00:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -1754,6 +1900,84 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Envejecimiento activo",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1020",
+   "url": "https://eventos.montevideo.gub.uy/evento/atlantidoc/el-palacio-ambulante",
+   "titulo": "El palacio ambulante",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "En esta historia contemporánea de dos ciudades, un fotógrafo de Hong Kong que se autodenomina «fracasado» oscila entre su ciudad natal, una megaciudad, y las montañas tibetanas en busca de sentido y de un lugar al que pertenecer. Al conocer y documentar la vida de los tibetanos en su tierra natal…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/El%20palacio%20ambulante%20%281%29.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Atlantidoc",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1021",
+   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque/musica-en-el-jardin-botanico",
+   "titulo": "Música en el Jardín Botánico",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Música en el Parque propone una jornada de espectáculos musicales al aire libre, con la participación de artistas de distintos géneros. Sábado 7 de noviembre 16:00 – Pedro Michelena 17:00 – La Cosa 18:00 – MINIMALmambo Entrada libre",
+   "lugar": {
+    "nombre": "Jardín Botánico",
+    "direccion": "Av. 19 de Abril 1181",
+    "lat": -34.861277,
+    "lon": -56.198477
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/pexels-danielpratt-12927900.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Música en el Parque",
    "muestra": false,
    "hasta": null
   },
@@ -1822,169 +2046,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Sábados en Ciudad Vieja",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "994-2026-11-07",
-   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
-   "titulo": "Música en el Parque",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
-   "lugar": {
-    "nombre": "Jardín Botánico",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-07T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Música en el Parque",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "994-2026-11-15",
-   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
-   "titulo": "Música en el Parque",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
-   "lugar": {
-    "nombre": "Parque Villa Dolores",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Música en el Parque",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "994-2026-11-22",
-   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
-   "titulo": "Música en el Parque",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
-   "lugar": {
-    "nombre": "Parque Villa García",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Música en el Parque",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "994-2026-11-28",
-   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
-   "titulo": "Música en el Parque: Músicas Pioneras",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
-   "lugar": {
-    "nombre": "Las Pioneras",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Música en el Parque",
    "muestra": false,
    "hasta": null
   }
