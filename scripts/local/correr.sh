@@ -9,8 +9,31 @@
 #   CARTELERA_DIR      ~/.cartelera-cultural   clon dedicado del repo
 #   CARTELERA_LLAVE    ~/.ssh/cartelera_deploy  deploy key con permiso de escritura, solo para este repo
 #   CARTELERA_SIN_PUSH                          si vale 1, hace todo menos el push (para probar)
+#   CARTELERA_PAUSA_REINTENTO  20              segundos entre reintentos con GitHub (se multiplica por intento)
 
 set -euo pipefail
+
+# Un comando que habla con GitHub, con hasta 3 intentos: a veces la conexión se corta a mitad de camino
+# ("Connection to github.com closed by remote host", 5/11/2026) y con reintentar alcanza.
+PAUSA="${CARTELERA_PAUSA_REINTENTO:-20}"
+reintentar() {
+  local intento
+  for intento in 1 2 3; do
+    if "$@"; then return 0; fi
+    if [ "$intento" -lt 3 ]; then
+      echo "Falló «$*» (intento $intento de 3); se reintenta en $((intento * PAUSA)) segundos."
+      sleep $((intento * PAUSA))
+    fi
+  done
+  echo "Falló «$*» 3 veces; se intenta de nuevo en la próxima corrida."
+  return 1
+}
+
+# Subir los datos: si mientras tanto alguien más subió (GitHub Actions), se trae eso primero y se reintenta.
+subir() {
+  git pull -q --rebase origin datos || { git rebase --abort > /dev/null 2>&1; return 1; }
+  git push -q origin HEAD:datos
+}
 
 # Todo va en una función: el paso 1 puede cambiar este mismo archivo, y así bash ya lo leyó entero.
 correr() {
@@ -35,11 +58,11 @@ correr() {
   if [ "$intentos" -gt 0 ]; then echo "Conexión lista después de $((intentos * 5)) segundos."; fi
 
   # 1. El código: siempre la última versión de main, nunca otra rama.
-  git fetch -q origin main
+  reintentar git fetch -q origin main
   git checkout -q --detach origin/main
 
   # 2. Los datos: la última versión de la rama datos, para que cada fuente compare con su último resultado bueno.
-  git -C datos fetch -q origin datos
+  reintentar git -C datos fetch -q origin datos
   git -C datos checkout -q -B datos origin/datos
 
   # 3. Las fuentes locales. Si una falla, se conserva su último resultado bueno y se sigue.
@@ -62,8 +85,7 @@ correr() {
     echo "Prueba: commit hecho en $DIR/datos, sin push."
     return
   fi
-  git pull -q --rebase origin datos
-  git push -q origin HEAD:datos
+  reintentar subir
   echo "Datos subidos."
 }
 

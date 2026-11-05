@@ -92,26 +92,38 @@
 
   // --- Mi plan: funciones elegidas, guardadas en este navegador ---------------------------------
   const CLAVE_PLAN = "lgc-plan";
-  const plan = new Map(); // "id|inicio" -> { id, inicio, sinHora }
+  // "entradas": la persona marcó que ya las tiene (confirmado); si no, es algo que le tienta (tentativo).
+  const plan = new Map(); // "id|inicio" -> { id, inicio, sinHora, entradas }
   const clavePlan = (id, inicio) => `${id}|${inicio}`;
   try {
-    for (const [id, inicio, sinHora] of JSON.parse(localStorage.getItem(CLAVE_PLAN) || "[]")) {
+    for (const [id, inicio, sinHora, entradas] of JSON.parse(localStorage.getItem(CLAVE_PLAN) || "[]")) {
       // Se descarta lo que ya no está en la cartelera (función pasada o evento que se cayó).
-      if (porId.get(id)?.funciones.some(([i]) => i === inicio)) plan.set(clavePlan(id, inicio), { id, inicio, sinHora });
+      if (porId.get(id)?.funciones.some(([i]) => i === inicio)) {
+        plan.set(clavePlan(id, inicio), { id, inicio, sinHora, entradas: Boolean(entradas) });
+      }
     }
   } catch (_) { /* sin almacenamiento disponible: el plan dura lo que la pestaña */ }
 
   function guardarPlan() {
     try {
-      localStorage.setItem(CLAVE_PLAN, JSON.stringify([...plan.values()].map((p) => [p.id, p.inicio, p.sinHora])));
+      localStorage.setItem(CLAVE_PLAN, JSON.stringify([...plan.values()].map((p) => [p.id, p.inicio, p.sinHora, p.entradas ? 1 : 0])));
     } catch (_) { /* idem */ }
   }
 
   function alternarPlan(id, inicio) {
     const clave = clavePlan(id, inicio);
     if (plan.has(clave)) plan.delete(clave);
-    else plan.set(clave, { id, inicio, sinHora: porId.get(id).funciones.find(([i]) => i === inicio)?.[1] || false });
+    else plan.set(clave, { id, inicio, sinHora: porId.get(id).funciones.find(([i]) => i === inicio)?.[1] || false, entradas: false });
     guardarPlan();
+  }
+
+  // El botón 🎟️ de las listas del plan: marca (o desmarca) que ya tenés entradas para esa función.
+  function botonEntradas(p, evento) {
+    return el("button", {
+      type: "button", class: `entradas${p.entradas ? " con-entradas" : ""}`, "data-entradas": clavePlan(p.id, p.inicio),
+      "aria-pressed": String(Boolean(p.entradas)), "aria-label": `Ya tengo entradas para ${evento.titulo}`,
+      title: p.entradas ? "Ya tenés entradas (tocá para desmarcar)" : "Marcá si ya tenés entradas",
+    }, el("span", { "aria-hidden": "true" }, "🎟️"));
   }
 
   const elegidasOrdenadas = () => [...plan.values()].sort((a, b) => a.inicio.localeCompare(b.inicio));
@@ -620,7 +632,8 @@
         : el("span", { class: "pc-numero" }, String(Number(dia.slice(8)))),
       ...elegidas.map((p) => {
         const evento = porId.get(p.id);
-        return el("span", { class: `pc-elegida cat-${evento.categoria}` },
+        return el("span", { class: `pc-elegida cat-${evento.categoria}${p.entradas ? " con-entradas" : ""}` },
+          p.entradas ? el("span", { class: "pc-ticket", "aria-label": "con entradas" }, "🎟️ ") : null,
           el("b", {}, p.sinHora ? "" : p.inicio.slice(11, 16)), ` ${evento.titulo}`,
           el("button", { type: "button", class: "pc-quitar", "data-quitar": clavePlan(p.id, p.inicio), "aria-label": `Quitar ${evento.titulo}` }, "×"));
       }),
@@ -659,6 +672,7 @@
           el("span", { class: "mi-plan-evento" },
             el("a", { href: evento.url, target: "_blank", rel: "noopener" }, evento.titulo),
             el("small", {}, nombreLugar(evento))),
+          botonEntradas(p, evento),
           el("button", { type: "button", class: "quitar-texto", "data-quitar": clavePlan(p.id, p.inicio), "aria-label": `Quitar ${evento.titulo} de mi plan` }, "Quitar"));
       })),
       cantidadOpciones.get(diaDetalle)
@@ -716,6 +730,7 @@
           el("a", { href: evento.url, target: "_blank", rel: "noopener" }, evento.titulo),
           el("small", {}, nombreLugar(evento))),
         el("a", { class: "google", href: enlaceGoogle(evento, p), target: "_blank", rel: "noopener" }, "Google Calendar ↗"),
+        botonEntradas(p, evento),
         el("button", { type: "button", class: "quitar-texto", "data-quitar": clavePlan(p.id, p.inicio), "aria-label": `Quitar ${evento.titulo} de mi plan` }, "Quitar"));
     }));
   }
@@ -808,10 +823,13 @@
 
   const detalle = (evento, p) => `Entradas e información: ${evento.url}\n${p && finInformado(p) ? "" : "Duración estimada. "}Agregado desde La Gestoría Cultural.`;
 
+  // En el calendario, el nombre dice si ya tenés entradas: "EMI (confirmado)" o "EMI (tentativo)".
+  const tituloCalendario = (evento, p) => `${evento.titulo} (${p.entradas ? "confirmado" : "tentativo"})`;
+
   function enlaceGoogle(evento, p) {
     const h = horarios(p);
     const parametros = new URLSearchParams({
-      action: "TEMPLATE", text: evento.titulo, dates: `${h.inicio}/${h.fin}`,
+      action: "TEMPLATE", text: tituloCalendario(evento, p), dates: `${h.inicio}/${h.fin}`,
       details: detalle(evento, p), location: lugarCompleto(evento), ctz: ZONA,
     });
     return `https://calendar.google.com/calendar/render?${parametros}`;
@@ -851,10 +869,12 @@
         `DTSTAMP:${sello}`,
         h.todoElDia ? `DTSTART;VALUE=DATE:${h.inicio}` : `DTSTART:${h.inicio}`,
         h.todoElDia ? `DTEND;VALUE=DATE:${h.fin}` : `DTEND:${h.fin}`,
-        `SUMMARY:${escaparIcs(evento.titulo)}`,
+        `SUMMARY:${escaparIcs(tituloCalendario(evento, p))}`,
         `LOCATION:${escaparIcs(lugarCompleto(evento))}`,
         `DESCRIPTION:${escaparIcs(detalle(evento, p))}`,
         `URL:${evento.url}`,
+        // Los calendarios distinguen lo tentativo de lo confirmado (con entradas).
+        `STATUS:${p.entradas ? "CONFIRMED" : "TENTATIVE"}`,
         "END:VEVENT",
       );
     }
@@ -883,12 +903,13 @@
       const evento = porId.get(p.id);
       lineas.push(
         "",
-        `📅 *${mayuscula(textoFuncion([p.inicio, p.sinHora]))}*`,
+        `📅 *${mayuscula(textoFuncion([p.inicio, p.sinHora]))}*${p.entradas ? " ✅" : ""}`,
         evento.titulo,
         `📍 ${[nombreLugar(evento), evento.precioTexto].filter(Boolean).join(" · ")}`,
         `🎟️ ${evento.url}`,
       );
     }
+    if (elegidas.some((p) => p.entradas)) lineas.push("", "✅ = ya tengo entradas");
     lineas.push("", `Armado en La Gestoría Cultural: ${URL_SITIO}`);
     return lineas.join("\n");
   }
@@ -935,7 +956,7 @@
           ...(porDia.get(dia) || []).map((p) => {
             const evento = porId.get(p.id);
             return el("p", { class: "imp-evento" },
-              el("strong", {}, p.sinHora ? "" : `${p.inicio.slice(11, 16)} `), evento.titulo,
+              el("strong", {}, `${p.entradas ? "🎟️ " : ""}${p.sinHora ? "" : `${p.inicio.slice(11, 16)} `}`), evento.titulo,
               el("small", {}, nombreLugar(evento)));
           })));
       }
@@ -943,7 +964,7 @@
         const evento = porId.get(p.id);
         const lugar = datos.lugares[evento.lugar] || {};
         return el("li", {},
-          el("span", { class: "imp-cuando" }, mayuscula(textoFuncion([p.inicio, p.sinHora]))),
+          el("span", { class: "imp-cuando" }, mayuscula(textoFuncion([p.inicio, p.sinHora])) + (p.entradas ? " · 🎟️ con entradas" : "")),
           el("span", {}, el("strong", {}, evento.titulo), ` · ${[lugar.nombre, lugar.direccion].filter(Boolean).join(", ")}`,
             evento.precioTexto ? ` · ${evento.precioTexto}` : ""));
       });
@@ -1194,6 +1215,16 @@
     } else if ("cerrarDetalle" in d) {
       diaDetalle = null;
       dibujarDetallePlan();
+    } else if (d.entradas) {
+      const elegida = plan.get(d.entradas);
+      if (elegida) {
+        elegida.entradas = !elegida.entradas;
+        guardarPlan();
+        const enDetalle = Boolean(boton.closest("#pc-detalle"));
+        dibujarContenido();
+        // Al redibujar se pierde el foco: vuelve al mismo botón, para seguir con el teclado.
+        document.querySelector(`${enDetalle ? "#pc-detalle" : "#mi-plan-lista"} [data-entradas="${CSS.escape(d.entradas)}"]`)?.focus();
+      }
     } else if (d.quitar) {
       plan.delete(d.quitar);
       guardarPlan();
