@@ -1,49 +1,10 @@
 {
  "fuente": "zitarrosa",
- "corrida": "2026-11-05T16:25:18.541567-03:00",
+ "corrida": "2026-11-06T14:04:26.469032-03:00",
  "ok": true,
- "cantidad": 24,
+ "cantidad": 23,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "24-premios-graffiti",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/24-premios-graffiti/",
-   "titulo": "24° Premios Graffiti",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "XXIV Ceremonia de entrega de los Premios Graffiti 2026 a la música uruguaya. En estas ceremonias se entregan los principales Premios Graffiti 2026, incluido el Premio Trayectoria y los elegidos por el público en votación popular. Conduce Peke Sander. Actuarán en vivo: Miércoles 4 de noviembre…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-05T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/24-premios-graffiti/",
-     "via": "zitarrosa"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/graffiti_Mesa-de-trabajo-1.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "zitarrosa",
    "id_externo": "lucia-chappe-ciclo-marea",
