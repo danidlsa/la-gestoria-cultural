@@ -96,3 +96,50 @@ def test_pagina_del_formulario():
     assert formulario_para_agregar({"formulario": "https://tally.so/r/zEN7OZ"}) == "https://tally.so/r/zEN7OZ"
     assert "agrega-tu-evento.html" in sitemap_xml("https://x.uy/", "2026-11-04", con_agrega=True)
     assert "agrega-tu-evento.html" not in sitemap_xml("https://x.uy/", "2026-11-04")
+
+
+def _imagen(formato="PNG", tamano=(2400, 1600)):
+    import io
+
+    from PIL import Image
+
+    salida = io.BytesIO()
+    Image.new("RGB", tamano, (50, 86, 168)).save(salida, formato)
+    return salida.getvalue()
+
+
+def test_afiche_se_achica_y_se_publica_desde_el_sitio(monkeypatch, tmp_path, ahora):
+    from PIL import Image
+
+    monkeypatch.setattr(propuestos, "DIR_AFICHES", tmp_path)
+    viejo = tmp_path / "evento-que-ya-no-esta.jpg"
+    viejo.write_bytes(b"x")
+    pedidos = []
+
+    class Respuesta:
+        content = _imagen()
+
+    class Cliente:
+        def texto(self, url):
+            return CSV.replace("Descripción corta\n", "Descripción corta,Afiche (opcional)\n", 1).replace(
+                "con jam abierta al final.\"\n", "con jam abierta al final.\",https://storage.tally.so/private/afiche.png?id=1\n", 1)
+
+        def get(self, url):
+            pedidos.append(url)
+            return Respuesta()
+
+    monkeypatch.setattr(propuestos, "configuracion", lambda: {"csv": "https://docs.google.com/x.csv"})
+    eventos, _ = propuestos.scrapear(Cliente(), ahora)
+    jazz = next(e for e in eventos if e.titulo == "Noche de jazz en el patio")
+    assert jazz.imagen_url == f"https://lagestoriacultural.uy/afiches/{jazz.id_externo}.jpg"
+    guardado = Image.open(tmp_path / f"{jazz.id_externo}.jpg")
+    assert guardado.format == "JPEG" and max(guardado.size) == 1200  # achicado
+    assert not viejo.exists()  # el de un evento que ya no está se borra
+    propuestos.scrapear(Cliente(), ahora)
+    assert len(pedidos) == 1  # ya estaba guardado: no se vuelve a bajar
+
+
+def test_afiche_que_no_es_imagen(tmp_path):
+    assert not propuestos.guardar_afiche(b"<svg onload=alert(1)>", tmp_path / "a.jpg")
+    assert not propuestos.guardar_afiche(_imagen("GIF", (10, 10))[:20], tmp_path / "b.jpg")  # cortado
+    assert propuestos.guardar_afiche(_imagen("JPEG", (300, 200)), tmp_path / "c.jpg")

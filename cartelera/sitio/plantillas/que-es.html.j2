@@ -58,7 +58,7 @@
       <p>Al abrir el mapa, tu navegador se conecta a OpenStreetMap, que ofrece los mapas, y a cdnjs, un servicio gratuito desde donde se descarga la herramienta que los dibuja. Las imágenes de cada evento se cargan directamente desde la página de su fuente.</p>
       <p>Si escribís por el formulario de contacto (de Google Forms), tu correo y tu mensaje se usan solo para responderte.</p>
       {%- if agrega_tu_evento %}
-      <p>Si mandás un evento por <a href="agrega-tu-evento.html">Agregá tu evento</a> ({% if servicio_agrega == "Tally" %}de Tally, un servicio de formularios{% else %}también de Google Forms{% endif %}), se publican solo los datos del evento, después de revisarlos. Tu correo y el afiche que adjuntes no se publican.</p>
+      <p>Si mandás un evento por <a href="agrega-tu-evento.html">Agregá tu evento</a> ({% if servicio_agrega == "Tally" %}de Tally, un servicio de formularios{% else %}también de Google Forms{% endif %}), se publican los datos del evento y su afiche, después de revisarlos. Tu correo no se publica.</p>
       {%- endif %}
     </details>
   </main>

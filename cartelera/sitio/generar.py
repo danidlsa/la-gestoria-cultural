@@ -431,6 +431,9 @@ def generar() -> Path:
     # Para los buscadores.
     (SALIDA / "robots.txt").write_text(robots_txt(URL_SITIO), encoding="utf-8")
     (SALIDA / "sitemap.xml").write_text(sitemap_xml(URL_SITIO, (generado or datetime.now().isoformat())[:10], bool(agrega)), encoding="utf-8")
+    # Los afiches que mandan los organizadores (ver cartelera/scrapers/propuestos.py).
+    if (DIR_DATOS / "afiches").is_dir():
+        shutil.copytree(DIR_DATOS / "afiches", SALIDA / "afiches")
     # Los datos también quedan publicados, por si alguien quiere usarlos.
     for nombre in ("eventos.json", "lugares.json", "ciclos.json"):
         if (DIR_DATOS / nombre).exists():

@@ -6,6 +6,10 @@ solo lo aprobado y sin el contacto de quien lo mandó. Esa pestaña se publica c
 formulario), así que se pueden reordenar.
 
 Sin eventos aprobados la fuente queda vacía, y eso no es una falla (`PUEDE_ESTAR_VACIA`).
+
+El afiche (si la pestaña pública trae su columna) se baja una sola vez, se valida que sea una imagen, se achica y se
+guarda en `datos/afiches/`; el sitio lo publica desde su propia dirección. Así no depende de los enlaces del
+servicio de formularios, que son privados y pueden vencer. Los afiches de eventos que ya no están se borran.
 """
 
 import csv
@@ -15,6 +19,8 @@ import re
 import tomllib
 from datetime import date, datetime, time
 from pathlib import Path
+
+from PIL import Image, ImageOps
 
 from cartelera.extraer import fecha_sin_anio, precio_de, recortar, texto_plano
 from cartelera.geo import menciona_otra_ciudad, sin_tildes
@@ -28,10 +34,17 @@ PUEDE_ESTAR_VACIA = True
 # El orden importa: "Otras fechas y horas" o "Si hay más de una fecha…" no son "fecha" ni "hora", y "Nombre de la
 # sala" no es el título.
 COLUMNAS = [
-    ("marca temporal", "enviado"), ("submitted at", "enviado"), ("otras", "otras"), ("mas de una", "otras"), ("direcci", "direccion"), ("sala", "lugar"),
+    ("afiche", "afiche"), ("marca temporal", "enviado"), ("submitted at", "enviado"), ("otras", "otras"), ("mas de una", "otras"), ("direcci", "direccion"), ("sala", "lugar"),
     ("lugar", "lugar"), ("nombre", "titulo"), ("tipo", "tipo"), ("fecha", "fecha"), ("hora", "hora"),
     ("precio", "precio"), ("link", "link"), ("enlace", "link"), ("descrip", "descripcion"), ("aprobado", "aprobado"),
 ]
+DIR_AFICHES = Path("datos/afiches")
+URL_SITIO = "https://lagestoriacultural.uy/"
+LADO_MAXIMO = 1200  # px: alcanza para la tarjeta y para verlo grande en el celular
+PESO_MAXIMO = 12 * 1024 * 1024  # el formulario acepta hasta 10 MB
+FORMATOS = {"JPEG", "PNG", "WEBP", "GIF", "MPO"}  # nada de SVG ni otros formatos que puedan llevar código
+Image.MAX_IMAGE_PIXELS = 40_000_000  # una imagen gigante a propósito no se procesa
+
 # Si la pestaña pública trae la columna "Aprobado", solo pasan las filas tildadas: un segundo control, por si la
 # fórmula de la planilla filtra mal.
 _TILDADO = {"true", "verdadero", "si", "sí", "x", "1"}
@@ -163,6 +176,39 @@ def armar_evento(datos: dict, ahora: datetime) -> EventoCrudo | None:
     )
 
 
+def guardar_afiche(contenido: bytes, destino: Path) -> bool:
+    """Valida que sea una imagen, la achica y la guarda como JPEG. False si no sirve."""
+    if len(contenido) > PESO_MAXIMO:
+        return False
+    try:
+        with Image.open(io.BytesIO(contenido)) as imagen:
+            if imagen.format not in FORMATOS:
+                return False
+            imagen = ImageOps.exif_transpose(imagen).convert("RGB")
+            imagen.thumbnail((LADO_MAXIMO, LADO_MAXIMO))
+            destino.parent.mkdir(parents=True, exist_ok=True)
+            imagen.save(destino, "JPEG", quality=82, optimize=True, progressive=True)
+            return True
+    except Exception:  # noqa: BLE001 - un archivo roto o que no es imagen: sin afiche
+        return False
+
+
+def poner_afiche(cliente: Cliente, evento: EventoCrudo, enlace: str) -> str | None:
+    """Deja el afiche del evento en datos/afiches/ (si no estaba) y le pone su dirección pública. Devuelve el error."""
+    archivo = DIR_AFICHES / f"{evento.id_externo}.jpg"
+    if not archivo.exists():
+        url = re.search(r"https?://\S+", enlace)
+        if not url:
+            return None
+        try:
+            if not guardar_afiche(cliente.get(url.group(0).rstrip(",;")).content, archivo):
+                return f"{evento.titulo}: el afiche no es una imagen que se pueda usar"
+        except Exception as error:  # noqa: BLE001 - sin afiche, el evento entra igual
+            return f"{evento.titulo}: no se pudo bajar el afiche ({type(error).__name__})"
+    evento.imagen_url = f"{URL_SITIO}afiches/{archivo.name}"
+    return None
+
+
 def scrapear(cliente: Cliente, ahora: datetime) -> tuple[list[EventoCrudo], list[str]]:
     direccion_csv = configuracion().get("csv", "").strip()
     if not direccion_csv:
@@ -175,8 +221,17 @@ def scrapear(cliente: Cliente, ahora: datetime) -> tuple[list[EventoCrudo], list
             errores.append(f"{datos.get('titulo')}: {type(error).__name__}: {error}")
             continue
         if armado:
+            if datos.get("afiche"):
+                problema = poner_afiche(cliente, armado, datos["afiche"])
+                if problema:
+                    errores.append(problema)
             eventos.append(armado)
         elif not (datos.get("lugar") and _link(datos.get("link", "")) and leer_fecha(datos.get("fecha", ""), ahora.date())):
             # Un evento que ya pasó no es un error; uno aprobado al que le falta algo, sí (para revisarlo).
             errores.append(f"{datos.get('titulo')}: falta la sala, el link o una fecha que se entienda")
+    # Los afiches de eventos que ya no se publican (pasaron o se desaprobaron) se borran.
+    vigentes = {e.id_externo for e in eventos}
+    for archivo in DIR_AFICHES.glob("*.jpg"):
+        if archivo.stem not in vigentes:
+            archivo.unlink()
     return eventos, errores
