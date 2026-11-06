@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-05T16:23:42.779698-03:00",
+ "corrida": "2026-11-06T16:56:11.640266-03:00",
  "ok": true,
- "cantidad": 34,
+ "cantidad": 38,
  "errores": [],
  "eventos": [
   {
@@ -59,20 +59,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T16:00:00-03:00",
-     "fin": "2026-11-05T18:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Club La Virgen",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-06T10:00:00-03:00",
-     "fin": "2026-11-06T12:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Centro Juvenil Salesiano",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T13:30:00-03:00",
      "fin": "2026-11-06T15:30:00-03:00",
@@ -1373,45 +1359,6 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "963",
-   "url": "https://eventos.montevideo.gub.uy/evento/atlantidoc/con-los-brazos-abiertos",
-   "titulo": "Con los brazos abiertos",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "El documental presenta a Pepe Mujica y Lucía Topolansky, quienes relatan su relación, su activismo, el ingreso a la clandestinidad y su vinculación con el MLN-T. También participan compañeras tupamaras, que reconstruyen la integración de las mujeres a la lucha armada y recuerdan las torturas y el…",
-   "lugar": {
-    "nombre": "Sala Lazaroff",
-    "direccion": "Av. 8 de Octubre 4849",
-    "lat": -34.855863,
-    "lon": -56.132473
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-05T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/Con%20los%20brazos%20abiertos.jpg",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Atlantidoc",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
    "id_externo": "979",
    "url": "https://eventos.montevideo.gub.uy/evento/estreno-de-obras-fortalecimiento-de-las-artes/el-eterno-glorioso-y-mas-pequeno-circo-del-mundo",
    "titulo": "El eterno, glorioso y más pequeño circo del mundo",
@@ -1513,13 +1460,6 @@
     "lon": -56.197943
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T21:00:00-03:00",
      "fin": null,
@@ -1722,12 +1662,12 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "999",
-   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-jueves-5-de-noviembre",
+   "id_externo": "1000",
+   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-viernes-6-de-noviembre",
    "titulo": "Murga Joven",
    "categoria": "carnaval",
    "categoria_segura": false,
-   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Jueves 5 de noviembre 20:00 h – La última 20:50 h – Embajadores del buen humor 21:40 h – La Joven Cita 22:30 h – Doña Vecina 23:20 h – La Abuela Tuerta",
+   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Viernes 6 de noviembre 20:00 h – Ruidos Modestos 20:50 h – La Cancionera 21:40 h – La Bajada 22:30 h – La Planchada de Salomone 23:20 h – La Resaka que te mantiene",
    "lugar": {
     "nombre": "Centro Cultural Las Duranas",
     "direccion": "Pedro Trápani 1350 esquina Bayona.",
@@ -1735,13 +1675,6 @@
     "lon": -56.189780492925
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T20:00:00-03:00",
      "fin": null,
@@ -1821,7 +1754,7 @@
    },
    "entradas": [],
    "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20251103dicimouyjmr1453.jpg",
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20251103dicimouyjmr1485.jpg",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
@@ -1949,7 +1882,7 @@
    "titulo": "Música en el Jardín Botánico",
    "categoria": "musica",
    "categoria_segura": true,
-   "descripcion_corta": "Música en el Parque propone una jornada de espectáculos musicales al aire libre, con la participación de artistas de distintos géneros. Sábado 7 de noviembre 16:00 – Pedro Michelena 17:00 – La Cosa 18:00 – MINIMALmambo Entrada libre",
+   "descripcion_corta": "Música en el Parque propone una jornada de espectáculos musicales al aire libre, con la participación de artistas de distintos géneros. Domingo 8 de noviembre 16:00 – Pedro Michelena 17:00 – La Cosa 18:00 – MINIMALmambo Entrada libre",
    "lugar": {
     "nombre": "Jardín Botánico",
     "direccion": "Av. 19 de Abril 1181",
@@ -1958,7 +1891,7 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-07T16:00:00-03:00",
+     "inicio": "2026-11-08T16:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -1978,6 +1911,201 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Música en el Parque",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1028",
+   "url": "https://eventos.montevideo.gub.uy/evento/primavera-tango/hagopian-irigoyen-arenas-el-tango-esa-diablura",
+   "titulo": "Hagopián-Irigoyen-Arenas: el tango, esa diablura",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "El trío uruguayo integrado por Álvaro Hagopián, Gonzalo Irigoyen y José Arenas presenta \"El tango, esa diablura: cantando a Borges\", un espectáculo basado en textos y canciones de Jorge Luis Borges, a 40 años de su fallecimiento. La propuesta reúne composiciones de Ástor Piazzolla, Pedro Aznar…",
+   "lugar": {
+    "nombre": "Centro Cultural Florencio Sánchez",
+    "direccion": "Grecia 3281",
+    "lat": -34.89227,
+    "lon": -56.247973
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/Hagopian-Irigoyen-Arenas%20-%20Julia%CC%81n%20Mazzoni.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Primavera Tango",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1029",
+   "url": "https://eventos.montevideo.gub.uy/evento/primavera-tango/los-cigarros-tangos-valses-y-milongas",
+   "titulo": "Los Cigarros: tangos, valses y milongas",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "El trío integrado por Nicolás Ibarburu, Ney Peraza y Álvaro \"Tití\" Fontes presenta un repertorio de tangos, valses criollos, milongas y foxtrots. A través de arreglos y un estilo propio, recuperan obras tradicionales de la música rioplatense, respetando su esencia original. Entrada libre con…",
+   "lugar": {
+    "nombre": "Sala Lazaroff",
+    "direccion": "Av. 8 de Octubre 4849",
+    "lat": -34.855863,
+    "lon": -56.132473
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/Gemini_Generated_Image_7f73yh7f73yh7f73.jpeg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Primavera Tango",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1030",
+   "url": "https://eventos.montevideo.gub.uy/evento/primavera-tango/orquesta-escarlata-tangofonico",
+   "titulo": "Orquesta Escarlata: Tangofónico",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "La Orquesta Escarlata presenta \"Tangofónico\", un espectáculo que recorre distintas búsquedas musicales del tango a través de las obras de Astor Piazzolla y Eduardo Rovira. La propuesta combina elementos de la tradición rioplatense con nuevas exploraciones sonoras, destacando la riqueza tímbrica y…",
+   "lugar": {
+    "nombre": "Centro Cultural Artesano",
+    "direccion": "Bv. Aparicio Saravía 4697",
+    "lat": -34.825201,
+    "lon": -56.204054
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/orquestaescarlata_fotoalta%20-%20Marti%CC%81n%20Lazaroff.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Primavera Tango",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1031",
+   "url": "https://eventos.montevideo.gub.uy/evento/primavera-tango/duo-1071-tango-y-musica-rioplatense",
+   "titulo": "Dúo 1071: tango y música rioplatense",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "El Dúo 1071, integrado por Abril Farolini en bandoneón y Matías Craciun en violín, presenta una propuesta musical que recorre obras del tango y la música popular rioplatense. A través de arreglos originales, ambos músicos ofrecen una mirada renovada sobre este repertorio, explorando las…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/Gemini_Generated_Image_ikx9ylikx9ylikx9.jpeg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Primavera Tango",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1032",
+   "url": "https://eventos.montevideo.gub.uy/evento/primavera-tango/morgare-hernandez-duo-rubi",
+   "titulo": "Morgare & Hernández Dúo: Rubí",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "El dúo integrado por Gabriela Morgare (voz) y Mayra Hernández (piano y arreglos) presenta en vivo \"Rubí\", su primer trabajo discográfico, nominado a los Premios Graffiti 2025 en la categoría Mejor Álbum de Tango. A través de una propuesta íntima y expresiva, ambas artistas ofrecen una mirada…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/Morgare%20%26%20Herna%CC%81ndez_foto%20-%20Morgare%20%26%20Hernandez%20du%CC%81o%20%281%29_0.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Primavera Tango",
    "muestra": false,
    "hasta": null
   },
