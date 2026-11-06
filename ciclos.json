@@ -1,15 +1,7 @@
 {
- "generado": "2026-11-05T21:43:27.871760-03:00",
+ "generado": "2026-11-05T22:49:28.768074-03:00",
  "cantidad": 20,
  "ciclos": [
-  {
-   "id": "ciclo-envejecimiento-activo",
-   "titulo": "Envejecimiento activo",
-   "lugar_id": null,
-   "desde": "2026-11-05T16:00:00-03:00",
-   "hasta": "2026-12-11T16:00:00-03:00",
-   "cantidad": 6
-  },
   {
    "id": "ciclo-atlantidoc",
    "titulo": "Atlantidoc",
@@ -17,14 +9,6 @@
    "desde": "2026-11-05T19:00:00-03:00",
    "hasta": "2026-11-18T19:00:00-03:00",
    "cantidad": 2
-  },
-  {
-   "id": "ciclo-andrzej-wajda-en-su-centenario",
-   "titulo": "Andrzej Wajda, en su centenario",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-05T19:20:00-03:00",
-   "hasta": "2026-11-11T17:00:00-03:00",
-   "cantidad": 7
   },
   {
    "id": "ciclo-encuentro-de-murga-joven-2026",
@@ -41,6 +25,22 @@
    "desde": "2026-11-05T21:00:00-03:00",
    "hasta": "2026-12-04T21:00:00-03:00",
    "cantidad": 4
+  },
+  {
+   "id": "ciclo-envejecimiento-activo",
+   "titulo": "Envejecimiento activo",
+   "lugar_id": null,
+   "desde": "2026-11-06T10:00:00-03:00",
+   "hasta": "2026-12-11T16:00:00-03:00",
+   "cantidad": 6
+  },
+  {
+   "id": "ciclo-andrzej-wajda-en-su-centenario",
+   "titulo": "Andrzej Wajda, en su centenario",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-06T17:00:00-03:00",
+   "hasta": "2026-11-11T17:00:00-03:00",
+   "cantidad": 6
   },
   {
    "id": "ciclo-ciclo-de-teatro",

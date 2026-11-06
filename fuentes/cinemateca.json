@@ -1,8 +1,8 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-05T21:35:36.009629-03:00",
+ "corrida": "2026-11-05T22:41:22.146784-03:00",
  "ok": true,
- "cantidad": 18,
+ "cantidad": 17,
  "errores": [],
  "eventos": [
   {
@@ -240,13 +240,6 @@
     "lon": -56.2008552
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T19:30:00-03:00",
-     "fin": "2026-11-05T21:04:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T19:30:00-03:00",
      "fin": "2026-11-06T21:04:00-03:00",
@@ -828,81 +821,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9661",
-   "url": "https://cinemateca.org.uy/peliculas/9661",
-   "titulo": "Sansón",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Andrzej Wajda. Mientras asiste a la universidad de Varsovia, Jakub Gold, un joven judío, mata accidentalmente a un compañero de estudios en una pelea. Va prisión, es liberado al comienzo de la Segunda Guerra Mundial, va a parar al ghetto de Varsovia con otros cientos de judíos, escapa de allí…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-05T19:20:00-03:00",
-     "fin": "2026-11-05T21:17:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9661",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://assets.mubicdn.net/images/film/28636/image-w1280.jpg?1745489920",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario",
    "muestra": false,
    "hasta": null
   },
