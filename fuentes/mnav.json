@@ -1,8 +1,8 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-05T20:09:55.895552-03:00",
+ "corrida": "2026-11-05T21:42:13.947744-03:00",
  "ok": true,
- "cantidad": 31,
+ "cantidad": 30,
  "errores": [],
  "eventos": [
   {
@@ -2230,45 +2230,6 @@
    "ciclo": null,
    "muestra": true,
    "hasta": "2027-02-28"
-  },
-  {
-   "fuente": "mnav",
-   "id_externo": "arquitectos2026",
-   "url": "https://mnav.gub.uy/cms.php?id=arquitectos2026",
-   "titulo": "Curso Arquitectos Uruguayos edición 2026 - Hugo Rodríguez Juanotena: arquitectura y pedagogía",
-   "categoria": "taller",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-05T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=arquitectos2026",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=arquitectos2026",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
   },
   {
    "fuente": "mnav",

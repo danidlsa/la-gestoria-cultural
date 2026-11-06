@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-05T20:11:05.719654-03:00",
- "cantidad": 179,
+ "generado": "2026-11-05T21:43:27.871760-03:00",
+ "cantidad": 180,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -925,6 +925,17 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "l-club",
+   "nombre": "L´Club",
+   "alias": [
+    "L’Club"
+   ],
+   "direccion": "Av. Uruguay 1136, 11100 Montevideo, Depa",
+   "lat": -34.903194,
+   "lon": -56.192042,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "mbc-ombu",
    "nombre": "MBC Ombú",
    "alias": [],
@@ -1415,8 +1426,8 @@
     "ACJ"
    ],
    "direccion": "Colonia 1870",
-   "lat": -34.901043,
-   "lon": -56.176327,
+   "lat": -34.901187,
+   "lon": -56.176217,
    "ciudad": "Montevideo"
   },
   {
