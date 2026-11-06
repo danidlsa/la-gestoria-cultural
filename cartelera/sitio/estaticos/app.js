@@ -151,10 +151,20 @@
 
   // --- Estado de los filtros --------------------------------------------------------------------
   const FILTROS_INICIALES = {
-    periodo: "todo", dia: null, categoria: "", etiqueta: "", sub: "",
+    periodo: "todo", dia: null, tipos: [], sub: "",
     presupuesto: "", programa: "", sala: "", ciclo: "", texto: "", excluir: [],
   };
   let estado = { seccion: "agenda", mes: hoy.slice(0, 7), planMes: hoy.slice(0, 7), ...FILTROS_INICIALES };
+
+  // Tipos de evento elegidos: "categoria:teatro" o "etiqueta:museo". Se pueden elegir varios (teatro o música).
+  const categoriasElegidas = () => estado.tipos.filter((t) => t.startsWith("categoria:")).map((t) => t.slice(10));
+  const etiquetasElegidas = () => estado.tipos.filter((t) => t.startsWith("etiqueta:")).map((t) => t.slice(9));
+  // Los subtipos (géneros de música, por ejemplo) solo se ofrecen con un único tipo elegido.
+  const unaCategoria = () => (estado.tipos.length === 1 ? categoriasElegidas()[0] || "" : "");
+  const nombreTipo = (tipo) => {
+    const [clase, valor] = tipo.split(":");
+    return clase === "categoria" ? datos.categorias[valor] : NOMBRE_ETIQUETA[valor] || valor;
+  };
 
   // Etiquetas que cruzan rubros: se filtran y se excluyen como un tipo más.
   const NOMBRE_ETIQUETA = { festival: "Festivales", museo: "Museos" };
@@ -206,10 +216,15 @@
     for (const etiqueta of evento.etiquetas) {
       if (estado.excluir.includes(etiqueta) && !(etiqueta === "festival" && s === "festivales")) return false;
     }
-    if (estado.categoria && evento.categoria !== estado.categoria) return false;
-    if (estado.etiqueta && !evento.etiquetas.includes(estado.etiqueta)) return false;
-    if (estado.sub === "otros" && evento.sub) return false;
-    if (estado.sub && estado.sub !== "otros" && evento.sub !== estado.sub) return false;
+    if (estado.tipos.length) {
+      const deUnTipo = categoriasElegidas().includes(evento.categoria)
+        || etiquetasElegidas().some((etiqueta) => evento.etiquetas.includes(etiqueta));
+      if (!deUnTipo) return false;
+    }
+    if (unaCategoria()) {
+      if (estado.sub === "otros" && evento.sub) return false;
+      if (estado.sub && estado.sub !== "otros" && evento.sub !== estado.sub) return false;
+    }
     if (estado.presupuesto && s !== "gratis" && evento.presupuesto !== estado.presupuesto) return false;
     if (estado.programa && !evento.promos.includes(estado.programa)) return false;
     if (estado.sala && evento.lugar !== estado.sala) return false;
@@ -234,11 +249,10 @@
     if (estado.periodo !== "todo" && estado.seccion !== "plan") {
       activos.push(["periodo", estado.periodo === "dia" ? textoFuncion([estado.dia, true]) : NOMBRE_PERIODO[estado.periodo]]);
     }
-    if (estado.categoria) activos.push(["categoria", datos.categorias[estado.categoria]]);
-    if (estado.etiqueta) activos.push(["etiqueta", NOMBRE_ETIQUETA[estado.etiqueta] || estado.etiqueta]);
-    if (estado.sub) {
-      const otros = datos.subcategoriasOtros[estado.categoria] || "Otros";
-      activos.push(["sub", estado.sub === "otros" ? otros : (datos.subcategorias[estado.categoria] || {})[estado.sub]]);
+    for (const tipo of estado.tipos) activos.push([`tipo:${tipo}`, nombreTipo(tipo)]);
+    if (estado.sub && unaCategoria()) {
+      const otros = datos.subcategoriasOtros[unaCategoria()] || "Otros";
+      activos.push(["sub", estado.sub === "otros" ? otros : (datos.subcategorias[unaCategoria()] || {})[estado.sub]]);
     }
     if (estado.presupuesto && estado.seccion !== "gratis") activos.push(["presupuesto", NOMBRE_PRECIO[estado.presupuesto]]);
     if (estado.programa) activos.push(["programa", estado.programa]);
@@ -271,7 +285,7 @@
   function borrar(clave) {
     if (clave === "todo") return { ...FILTROS_INICIALES };
     if (clave === "periodo") return { periodo: "todo", dia: null };
-    if (clave === "categoria") return { categoria: "", sub: "" };
+    if (clave.startsWith("tipo:")) return { tipos: estado.tipos.filter((t) => t !== clave.slice(5)), sub: "" };
     if (clave.startsWith("excluir:")) return { excluir: estado.excluir.filter((c) => c !== clave.slice(8)) };
     return { [clave]: FILTROS_INICIALES[clave] };
   }
@@ -1040,13 +1054,14 @@
 
   function dibujarSubrubros() {
     const contenedor = document.getElementById("subrubros");
-    const opciones = datos.subcategorias[estado.categoria];
+    const categoria = unaCategoria();
+    const opciones = datos.subcategorias[categoria];
     contenedor.hidden = !opciones;
     if (!opciones) return;
-    const nombre = datos.categorias[estado.categoria];
-    const otros = datos.subcategoriasOtros[estado.categoria] || "Otros";
+    const nombre = datos.categorias[categoria];
+    const otros = datos.subcategoriasOtros[categoria] || "Otros";
     const botones = [["", `Todo ${nombre.toLowerCase()}`], ...Object.entries(opciones), ["otros", otros]];
-    const nota = datos.subcategoriasExperimentales.includes(estado.categoria)
+    const nota = datos.subcategoriasExperimentales.includes(categoria)
       ? el("p", { class: "nota-experimental" }, "✦ Experimental: el género se deduce solo y a veces le erra.")
       : null;
     contenedor.replaceChildren(...botones.map(([clave, texto]) => el("button", {
@@ -1077,8 +1092,9 @@
       boton.setAttribute("aria-pressed", String(boton.dataset.periodo === estado.periodo));
     }
     for (const boton of document.querySelectorAll("#rubros button:not(.ver-mas)")) {
-      const activo = estado.etiqueta ? boton.dataset.etiqueta === estado.etiqueta
-        : boton.dataset.categoria === estado.categoria && !boton.dataset.etiqueta;
+      // "Todos" se prende sin ningún tipo elegido; los demás, si están en la lista.
+      const tipo = boton.dataset.etiqueta ? `etiqueta:${boton.dataset.etiqueta}` : `categoria:${boton.dataset.categoria}`;
+      const activo = boton.dataset.categoria === "" ? !estado.tipos.length : estado.tipos.includes(tipo);
       boton.classList.toggle("activo", activo);
       boton.setAttribute("aria-pressed", String(activo));
     }
@@ -1274,8 +1290,15 @@
       const mismo = estado.periodo === "dia" && estado.dia === d.dia;
       cambiar(mismo ? { periodo: "todo", dia: null } : { periodo: "dia", dia: d.dia });
     } else if (d.mes) cambiar({ mes: sumarMeses(estado.mes, Number(d.mes)) });
-    else if ("categoria" in d) cambiar({ categoria: d.categoria, etiqueta: "", sub: "" });
-    else if (d.etiqueta) cambiar({ etiqueta: estado.etiqueta === d.etiqueta ? "" : d.etiqueta, categoria: "", sub: "" });
+    else if ("categoria" in d || d.etiqueta) {
+      // Cada tipo se prende y se apaga solo (se pueden combinar); "Todos" los apaga a todos.
+      if (d.categoria === "") cambiar({ tipos: [], sub: "" });
+      else {
+        const tipo = d.etiqueta ? `etiqueta:${d.etiqueta}` : `categoria:${d.categoria}`;
+        const tipos = estado.tipos.includes(tipo) ? estado.tipos.filter((t) => t !== tipo) : [...estado.tipos, tipo];
+        cambiar({ tipos, sub: "" });
+      }
+    }
     else if ("sub" in d) cambiar({ sub: d.sub });
     else if ("presupuesto" in d) {
       const salirDeGratis = estado.seccion === "gratis" && d.presupuesto !== "gratis";
