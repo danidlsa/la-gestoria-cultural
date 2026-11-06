@@ -1,49 +1,10 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-05T22:49:09.600570-03:00",
+ "corrida": "2026-11-06T14:09:32.255729-03:00",
  "ok": true,
- "cantidad": 7,
+ "cantidad": 6,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "cobraticket",
-   "id_externo": "043357",
-   "url": "https://cobraticket.uy/e/club-jueves-043357",
-   "titulo": "CLUB JUEVES",
-   "categoria": "fiesta",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Lotus WTC",
-    "direccion": "Contador Luis E. Lecueder",
-    "lat": -34.9042323,
-    "lon": -56.1360561
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-05T23:59:00-03:00",
-     "fin": "2026-11-06T06:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://cobraticket.uy/e/club-jueves-043357",
-     "via": "cobraticket"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://img.cobraticket.uy/x8GEDbGl6DwG3fI7QPrUi.jpg",
-   "productor": "Lotus WTC",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "cobraticket",
    "id_externo": "030912",

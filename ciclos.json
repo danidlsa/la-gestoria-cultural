@@ -1,31 +1,7 @@
 {
- "generado": "2026-11-05T22:49:28.768074-03:00",
- "cantidad": 20,
+ "generado": "2026-11-06T14:09:50.793141-03:00",
+ "cantidad": 21,
  "ciclos": [
-  {
-   "id": "ciclo-atlantidoc",
-   "titulo": "Atlantidoc",
-   "lugar_id": null,
-   "desde": "2026-11-05T19:00:00-03:00",
-   "hasta": "2026-11-18T19:00:00-03:00",
-   "cantidad": 2
-  },
-  {
-   "id": "ciclo-encuentro-de-murga-joven-2026",
-   "titulo": "Encuentro de Murga Joven 2026",
-   "lugar_id": "centro-cultural-las-duranas",
-   "desde": "2026-11-05T20:00:00-03:00",
-   "hasta": "2026-11-16T20:00:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
-   "titulo": "Estreno de obras Fortalecimiento de las Artes",
-   "lugar_id": null,
-   "desde": "2026-11-05T21:00:00-03:00",
-   "hasta": "2026-12-04T21:00:00-03:00",
-   "cantidad": 4
-  },
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
@@ -39,8 +15,16 @@
    "titulo": "Andrzej Wajda, en su centenario",
    "lugar_id": "cinemateca",
    "desde": "2026-11-06T17:00:00-03:00",
-   "hasta": "2026-11-11T17:00:00-03:00",
-   "cantidad": 6
+   "hasta": "2026-11-12T19:35:00-03:00",
+   "cantidad": 8
+  },
+  {
+   "id": "ciclo-encuentro-de-murga-joven-2026",
+   "titulo": "Encuentro de Murga Joven 2026",
+   "lugar_id": "centro-cultural-las-duranas",
+   "desde": "2026-11-06T20:00:00-03:00",
+   "hasta": "2026-11-16T20:00:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-ciclo-de-teatro",
@@ -57,6 +41,14 @@
    "desde": "2026-11-06T21:00:00-03:00",
    "hasta": "2026-12-05T21:30:00-03:00",
    "cantidad": 6
+  },
+  {
+   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
+   "titulo": "Estreno de obras Fortalecimiento de las Artes",
+   "lugar_id": null,
+   "desde": "2026-11-06T21:00:00-03:00",
+   "hasta": "2026-12-04T21:00:00-03:00",
+   "cantidad": 4
   },
   {
    "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
@@ -107,6 +99,14 @@
    "cantidad": 1
   },
   {
+   "id": "ciclo-atlantidoc",
+   "titulo": "Atlantidoc",
+   "lugar_id": "centro-cultural-terminal-goes",
+   "desde": "2026-11-18T19:00:00-03:00",
+   "hasta": "2026-11-18T19:00:00-03:00",
+   "cantidad": 1
+  },
+  {
    "id": "ciclo-sabados-en-ciudad-vieja",
    "titulo": "Sábados en Ciudad Vieja",
    "lugar_id": "ciudad-vieja",
@@ -137,6 +137,14 @@
    "desde": "2026-12-02T20:00:00-03:00",
    "hasta": "2026-12-03T20:00:00-03:00",
    "cantidad": 2
+  },
+  {
+   "id": "ciclo-ciclo-de-piano",
+   "titulo": "Ciclo de piano",
+   "lugar_id": "teatro-solis",
+   "desde": "2026-12-13T18:00:00-03:00",
+   "hasta": "2026-12-13T18:00:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-candlelight",

@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-05T22:42:51.659687-03:00",
+ "corrida": "2026-11-06T14:03:06.917044-03:00",
  "ok": true,
- "cantidad": 97,
+ "cantidad": 101,
  "errores": [],
  "eventos": [
   {
@@ -363,6 +363,50 @@
   },
   {
    "fuente": "cartelera_mvd",
+   "id_externo": "33957",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33957",
+   "titulo": "Alita Menéndez - Cortisolada",
+   "categoria": "humor",
+   "categoria_segura": true,
+   "descripcion_corta": "Cortisolada es un unipersonal de humor, música y cumbia donde Alita Menéndez desmonta el mito de que “las mujeres podemos con todo”. Sí, podemos.Y también podemos decir: “Puedo, pero no quiero.” Un unipersonal que mezcla humor, catarsis y cumbia para que por una hora podamos transformar el…",
+   "lugar": {
+    "nombre": "UnderMovie",
+    "direccion": "\"Rectangular1\"",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T20:45:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 800.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33957",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41022.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
    "id_externo": "27588",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?27588",
    "titulo": "Amar o no",
@@ -447,13 +491,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T21:00:00-03:00",
      "fin": null,
@@ -608,13 +645,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-05T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-12T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -713,6 +743,131 @@
   },
   {
    "fuente": "cartelera_mvd",
+   "id_externo": "33802",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33802",
+   "titulo": "Ay - la miseria nos hará felices",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "La obra imagina un futuro no tan lejano: cuatro actores de renombre han sido desplazados por robots que ahora ocupan los escenarios. Ellos, convertidos en técnicos de mantenimiento, observan cómo las máquinas interpretan a los personajes de La vida es sueño de Calderón de la Barca. Pero algo falla…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": "Soriano 914",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-08T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33802",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33802"
+    },
+    {
+     "programa": "Club El País",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33802"
+    }
+   ],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42267.jpg",
+   "productor": "Gabriel Calderón",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
    "id_externo": "34623",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34623",
    "titulo": "Año lectivo",
@@ -791,13 +946,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T21:00:00-03:00",
      "fin": null,
@@ -1025,13 +1173,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T20:30:00-03:00",
      "fin": null,
@@ -1415,13 +1556,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T21:00:00-03:00",
      "fin": null,
@@ -2187,6 +2321,98 @@
   },
   {
    "fuente": "cartelera_mvd",
+   "id_externo": "34930",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34930",
+   "titulo": "El gran spoiler",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "El gran spoiler combina humor y actualidad, un matrimonio se enfrenta a una noche inesperada de aislamiento tecnológico. Sin redes, sin videos, sin televisión y sin “memes” de por medio, los protagonistas se ven obligados a hacer algo que parece cada vez más difícil: hablar, escucharse y mirarse…",
+   "lugar": {
+    "nombre": "El Tinglado",
+    "direccion": "Colonia 2035",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-08T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 650.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34930",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular 50% de descuento",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34930"
+    }
+   ],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42266.jpg",
+   "productor": "Félix Correa",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
    "id_externo": "34887",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34887",
    "titulo": "El legado de Strangelove",
@@ -2434,13 +2660,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-05T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-06T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2583,20 +2802,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-06T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T20:00:00-03:00",
      "fin": null,
@@ -2753,13 +2958,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T20:00:00-03:00",
      "fin": null,
@@ -3273,13 +3471,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-05T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-12T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -3369,13 +3560,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T20:30:00-03:00",
      "fin": null,
@@ -3919,61 +4103,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "26069",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?26069",
-   "titulo": "Lluvia constante",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Lluvia constante es un thriller dramático que explora los límites de la amistad, la culpa y la violencia. A través de dos policías unidos por un vínculo inquebrantable, la obra se sumerge en un mundo donde cada decisión tiene consecuencias irreversibles y donde la lealtad puede convertirse en una…",
-   "lugar": {
-    "nombre": "Sala Teatro Movie",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-05T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 700.0,
-    "hasta": 900.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?26069",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?26069"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?26069"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41393.jpg",
-   "productor": "Santiago Ventura",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34849",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34849",
    "titulo": "Lo frío y lo caliente",
@@ -4475,6 +4604,64 @@
   },
   {
    "fuente": "cartelera_mvd",
+   "id_externo": "34937",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34937",
+   "titulo": "Masones 3 - Liquidación por cierre",
+   "categoria": "humor",
+   "categoria_segura": true,
+   "descripcion_corta": "Con una situación financiera muy económica y luego de dos asambleas muy discutidas, el cierre de la logia parece inevitable. Sus integrantes buscan la solución y convocan a esta reunión con carácter de grave y urgente. El venerable (Freddy González) desespera pero confía, el profesor (Gabriel…",
+   "lugar": {
+    "nombre": "Sala Teatro Movie",
+    "direccion": "\"Rectangular1\"",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-08T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 770.0,
+    "hasta": 970.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34937",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42274.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
    "id_externo": "34740",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34740",
    "titulo": "Matrimonio por conveniencia",
@@ -4590,13 +4777,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-11T20:00:00-03:00",
      "fin": null,
@@ -5144,13 +5324,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-05T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-06T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -5265,6 +5438,13 @@
     },
     {
      "inicio": "2026-11-14T20:45:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T20:45:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -5769,6 +5949,85 @@
   },
   {
    "fuente": "cartelera_mvd",
+   "id_externo": "34817",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34817",
+   "titulo": "Quiero que susurres una canción para mi muerte",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Un sótano. Un stripper. Un poeta. Un suicida. Jorge acaba de terminar su show y les propone un pacto a los espectadores: si ellos se quedan hasta el final, él no se mata. Quizás contar su historia sea una forma de pedir ayuda y salvarse.",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": "Soriano 914",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-07T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34817",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42132.jpg",
+   "productor": "Analía Torres",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
    "id_externo": "34675",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34675",
    "titulo": "Ranga XL",
@@ -5826,13 +6085,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T17:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T17:30:00-03:00",
      "fin": null,
@@ -5991,13 +6243,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T20:00:00-03:00",
      "fin": null,

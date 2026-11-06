@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T22:49:28.768074-03:00",
+ "generado": "2026-11-06T14:09:50.793141-03:00",
  "cantidad": 180,
  "lugares": [
   {
@@ -184,12 +184,14 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "bartolome-mitre-1321",
-   "nombre": "Bartolomé Mitre 1321",
-   "alias": [],
-   "direccion": "Ciudad Vieja",
-   "lat": -34.907138,
-   "lon": -56.201924,
+   "id": "bartolome-mitre-1323",
+   "nombre": "Bartolomé Mitre 1323",
+   "alias": [
+    "Bartolomé Mitre 1321"
+   ],
+   "direccion": "3QVX+56Q, Bartolomé Mitre 1323, 11000 Mo",
+   "lat": -34.907083,
+   "lon": -56.201942,
    "ciudad": "Montevideo"
   },
   {
@@ -901,10 +903,9 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "lotus-wtc",
-   "nombre": "Lotus WTC",
+   "id": "lotus-club-wtc",
+   "nombre": "Lotus Club WTC",
    "alias": [
-    "Lotus Club WTC",
     "Lotus Club"
    ],
    "direccion": "Contador Luis E. Lecueder",
@@ -1235,14 +1236,15 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "rincon-732",
-   "nombre": "Rincón 732",
+   "id": "rincon-687",
+   "nombre": "Rincón 687",
    "alias": [
+    "Rincón 732",
     "Sala Rincon"
    ],
-   "direccion": "Rincón 732, 11000 Montevideo, Departamen",
-   "lat": -34.90522,
-   "lon": -56.200533,
+   "direccion": "Rincón 687, 11000 Montevideo, Departamen",
+   "lat": -34.905411,
+   "lon": -56.201545,
    "ciudad": "Montevideo"
   },
   {
@@ -1514,8 +1516,8 @@
    "id": "teatro-stella-d-italia-la-gaviota",
    "nombre": "Teatro Stella D'Italia - La Gaviota",
    "alias": [
-    "Teatro Stella D'Italia. La Gaviota",
     "Teatro Stella D'Italia. La Gaviota.",
+    "Teatro Stella D'Italia. La Gaviota",
     "Teatro Stella DItalia. La Gaviota."
    ],
    "direccion": "Mercedes 1805",
@@ -1608,9 +1610,9 @@
    "id": "the-cube",
    "nombre": "The Cube",
    "alias": [],
-   "direccion": "Plaza Independencia",
-   "lat": -34.907017,
-   "lon": -56.199716,
+   "direccion": "Rincón 687",
+   "lat": -34.905411,
+   "lon": -56.201545,
    "ciudad": "Montevideo"
   },
   {

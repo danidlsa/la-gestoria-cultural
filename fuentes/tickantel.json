@@ -1,8 +1,8 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-05T22:36:53.102520-03:00",
+ "corrida": "2026-11-06T13:49:25.556323-03:00",
  "ok": true,
- "cantidad": 131,
+ "cantidad": 132,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
@@ -1054,13 +1054,6 @@
     "lon": -56.19628
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T20:50:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T20:50:00-03:00",
      "fin": null,
@@ -5112,6 +5105,50 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021890/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021954",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021954/ciclo-de-piano-raquel-boldorini",
+   "titulo": "Ciclo de piano Raquel Boldorini",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "El histórico Ciclo Internacional de Piano inicia una nueva etapa en 2026 y se presenta bajo el nombre de Ciclo de Piano Raquel Boldorini, en reconocimiento a la trayectoria de la destacada pianista nacional y a su labor sostenida al frente de esta propuesta desde la reapertura del Teatro Solís. A…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-13T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 250.0,
+    "hasta": 250.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021954/ciclo-de-piano-raquel-boldorini",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021954/700x390_banner_web_generico_TS.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-05T22:41:14.469268-03:00",
+ "corrida": "2026-11-06T14:01:35.782896-03:00",
  "ok": true,
- "cantidad": 40,
+ "cantidad": 39,
  "errores": [],
  "eventos": [
   {
@@ -1117,47 +1117,6 @@
   },
   {
    "fuente": "sodre",
-   "id_externo": "13576",
-   "url": "https://sodre.gub.uy/espectaculos/mi-mujercitas/",
-   "titulo": "Mi Mujercitas",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Una reescritura contemporánea y metateatral del clásico de Louisa May Alcott",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-05T20:00:00-03:00",
-     "fin": "2026-11-05T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021877/mi-mujercitas",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/DESTACADO-WEB_MI_MUJERCITAS-1-768x420.jpg",
-   "productor": "Espectáculos del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021877/mi-mujercitas"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
    "id_externo": "13593",
    "url": "https://sodre.gub.uy/espectaculos/origen-y-destino/",
    "titulo": "Origen y Destino",
@@ -1212,13 +1171,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T17:00:00-03:00",
-     "fin": "2026-11-05T19:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T17:00:00-03:00",
      "fin": "2026-11-07T19:01:00-03:00",
@@ -1392,13 +1344,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-05T18:50:00-03:00",
-     "fin": "2026-11-05T20:50:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T18:50:00-03:00",
      "fin": "2026-11-07T20:50:00-03:00",
      "sin_hora": false,
@@ -1446,13 +1391,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T20:50:00-03:00",
-     "fin": "2026-11-05T22:50:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T20:50:00-03:00",
      "fin": "2026-11-07T22:50:00-03:00",
@@ -1624,13 +1562,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T19:00:00-03:00",
-     "fin": "2026-11-05T21:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T19:00:00-03:00",
      "fin": "2026-11-06T21:00:00-03:00",

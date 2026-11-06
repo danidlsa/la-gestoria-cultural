@@ -1,51 +1,10 @@
 {
  "fuente": "sala_del_museo",
- "corrida": "2026-11-05T22:47:08.259134-03:00",
+ "corrida": "2026-11-06T14:07:39.334994-03:00",
  "ok": true,
  "cantidad": 12,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "sala_del_museo",
-   "id_externo": "eruca-sativa-2",
-   "url": "https://www.saladelmuseo.com.uy/shows/item/eruca-sativa-2.html",
-   "titulo": "ERUCA SATIVA",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "ERUCA SATIVA",
-   "lugar": {
-    "nombre": "Sala del Museo",
-    "direccion": "Rambla 25 de Agosto esq. Maciel",
-    "lat": -34.905789,
-    "lon": -56.212222
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-05T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/ERUCA-SATIVA/31885/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_18_160c33d2ab068bdaf4b51cb6daab6b90.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/ERUCA-SATIVA/31885/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "sala_del_museo",
    "id_externo": "cimafest",
@@ -492,6 +451,47 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/BUITRES/33112/"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "el-sueno-de-los-elefantes-7",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/el-sueno-de-los-elefantes-7.html",
+   "titulo": "EL SUEÑO DE LOS ELEFANTES",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "CUERPO ADENTRO - EL SUEÑO DE LOS ELEFANTES La compañía El Sueño de los Elefantes, en sus quince años de trayectoria, se caracteriza por proponer experiencias donde lo sensorial, la espacialidad del sonido y el cruce de disciplinas se utilizan como vehículo primordial del discurso artístico…",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/El-Sueno-de-los-Elefantes--MONTEVIDEO-NOVIEMBRE/34210/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_25_1_086782530397265d1b67fb2ffb1af00c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/El-Sueno-de-los-Elefantes--MONTEVIDEO-NOVIEMBRE/34210/"
    ],
    "ciclo": null,
    "muestra": false,

@@ -1,6 +1,6 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-05T22:47:25.297585-03:00",
+ "corrida": "2026-11-06T14:07:56.113728-03:00",
  "ok": true,
  "cantidad": 70,
  "errores": [],
@@ -20,13 +20,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T20:30:00-03:00",
      "fin": null,
@@ -1254,13 +1247,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-05T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-12T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1675,15 +1661,7 @@
     "lat": null,
     "lon": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-05T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 550.0,
     "hasta": 550.0,
@@ -3225,13 +3203,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-05T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-06T00:00:00-03:00",
      "fin": null,

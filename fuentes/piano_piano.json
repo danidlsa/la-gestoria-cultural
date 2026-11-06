@@ -1,51 +1,10 @@
 {
  "fuente": "piano_piano",
- "corrida": "2026-11-05T22:47:23.819254-03:00",
+ "corrida": "2026-11-06T14:07:54.604623-03:00",
  "ok": true,
- "cantidad": 22,
+ "cantidad": 21,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "piano_piano",
-   "id_externo": "2026-11-04-Boite",
-   "url": "https://pianopiano.uy/agenda/",
-   "titulo": "Boite",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-04T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/BOITE--GRISELDA-SICILIANI-Y-CARLOS-CASELLA-Sala-Campodonico/33443/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://pianopiano.uy/wp-content/uploads/BOITE-2026-1256-piano-piano-e1790350639168.jpg",
-   "productor": "Piano Piano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/BOITE--GRISELDA-SICILIANI-Y-CARLOS-CASELLA-Sala-Campodonico/33443/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "piano_piano",
    "id_externo": "2026-11-11-Saramalacara",
