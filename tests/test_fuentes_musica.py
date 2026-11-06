@@ -108,3 +108,24 @@ def test_corchea_solo_en_su_horario_de_visitas(tmp_path, monkeypatch):
     base.guardar(anterior)
     resultado = base.correr(corchea, cliente=SinPedidos(), ahora=mediodia)
     assert resultado.ok and resultado.corrida == madrugada  # queda el de la madrugada
+
+
+def test_entraste_solo_montevideo_y_con_sala():
+    from datetime import datetime
+
+    from cartelera.scrapers import entraste
+
+    ahora = datetime(2026, 11, 6, 18, 0, tzinfo=MONTEVIDEO)
+    from pathlib import Path
+
+    pagina = (Path(__file__).parent / "fixtures" / "entraste_portada.html").read_text(encoding="utf-8")
+    datos = entraste.eventos_de_pagina(pagina)
+    assert sorted(d["id"] for d in datos) == [1, 2, 3, 4]  # sin repetir el que aparece en dos secciones
+    eventos = {e.titulo: e for d in datos if (e := entraste.armar_evento(d, ahora))}
+    assert set(eventos) == {"PARISEO LATIN CLUB - VIE 13 NOV", "Vermut Session"}  # PAWSA es en la Costa; Resilience no dice sala
+    fiesta = eventos["PARISEO LATIN CLUB - VIE 13 NOV"]
+    assert fiesta.funciones[0].inicio.isoformat() == "2026-11-13T23:59:00-03:00"  # de UTC a Montevideo
+    assert (fiesta.categoria, fiesta.precio.desde, fiesta.precio.hasta) == ("fiesta", 300, 650)
+    assert clave_de_url(fiesta.url) == "entraste:pariseo-vie-13-nov"
+    vermut = eventos["Vermut Session"]
+    assert (vermut.categoria, vermut.precio.gratis) == ("musica", True)  # a las 19:00 no es una fiesta

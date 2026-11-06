@@ -36,6 +36,7 @@ FUENTES='
 3|salacamacua|https://www.salacamacua.uy/|"Event"
 3|mientrada|https://mientrada.com.uy/agenda-geral?estado=Montevideo|card-agenda-geral
 3|cobraticket|https://cobraticket.uy/eventos/__data.json|nextEvents
+3|entraste|https://app.entraste.com/|name_seo
 '
 # Corchea no va acá: su robots.txt limita las visitas (de 00:00 a 09:00, pocas por hora) y esta prueba
 # las gastaría fuera de horario.

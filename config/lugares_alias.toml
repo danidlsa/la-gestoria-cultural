@@ -106,3 +106,15 @@ alias = ["Las Pioneras", "Espacio Las Pioneras", "Espacio Feminista Las Pioneras
 direccion = "Av. Agraciada, Arroyo Seco"
 lat = -34.88435
 lon = -56.19304
+
+# Entraste lo escribe de las dos formas (6/11/2026).
+[[lugar]]
+id = "vou-club"
+nombre = "VOU Club"
+alias = ["VOU"]
+
+# Entraste a veces pone solo la dirección (6/11/2026).
+[[lugar]]
+id = "emile-club"
+nombre = "Emile Club"
+alias = ["EMILE CLUB", "Emile", "Mercedes 1820"]

@@ -26,7 +26,7 @@ PRIORIDAD = {
     "sodre": 4, "cinemateca": 4, "solis": 4, "teatro_de_verano": 4, "galpon": 4, "zitarrosa": 4, "sala_del_museo": 4,
     "museos_im": 4, "mnav": 4, "torres_garcia": 4, "gurvich": 4, "mapi": 4, "salacamacua": 4,
     "tickantel": 3, "redtickets": 3, "ticketmaster_uy": 3, "portal_im": 3, "fever": 3, "mec_museos": 3,
-    "mientrada": 3, "cobraticket": 3,
+    "mientrada": 3, "cobraticket": 3, "entraste": 3,
     "cartelera_mvd": 2, "corchea": 2, "propuestos": 2, "gaucho": 2, "piano_piano": 2, "ladiaria": 1,
 }
 MARGEN_PASADO = timedelta(hours=6)
@@ -159,6 +159,7 @@ _CLAVES_DE_URL = [
     ("ticketmaster_uy", re.compile(r"ticketmaster\.uy/event/([\w-]+)")),
     ("mientrada", re.compile(r"mientrada\.com\.uy/evento/[\w-]*-(\d+)(?![\w-])")),
     ("cobraticket", re.compile(r"cobraticket\.uy/e/[\w-]*-(\d+)(?![\w-])")),
+    ("entraste", re.compile(r"entraste\.com/events/([\w-]+)")),
     # Las productoras enlazan a la ficha del Antel Arena (la venta es por Tickantel).
     ("antel_arena", re.compile(r"antelarena\.com\.uy/events/detail/([\w-]+)")),
 ]

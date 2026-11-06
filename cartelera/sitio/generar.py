@@ -67,7 +67,7 @@ FUENTES = {
     "museos_im": "los museos de la Intendencia", "mnav": "el Museo Nacional de Artes Visuales",
     "torres_garcia": "el Museo Torres García", "gurvich": "el Museo Gurvich", "mapi": "el MAPI",
     "mec_museos": "el calendario del Ministerio de Educación y Cultura",
-    "salacamacua": "la Sala Camacuá", "mientrada": "MiEntrada", "cobraticket": "CobraTicket",
+    "salacamacua": "la Sala Camacuá", "mientrada": "MiEntrada", "cobraticket": "CobraTicket", "entraste": "Entraste",
     "corchea": "la cartelera de Corchea", "propuestos": "los organizadores que mandan sus eventos",
 }
 # Para los botones de compra: dónde se consigue la entrada.
