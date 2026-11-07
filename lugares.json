@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-07T15:17:01.831423-03:00",
- "cantidad": 201,
+ "generado": "2026-11-07T15:33:12.013448-03:00",
+ "cantidad": 217,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -478,6 +478,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "centro-de-fotografia-de-montevideo",
+   "nombre": "Centro de Fotografía de Montevideo",
+   "alias": [],
+   "direccion": "Av. 18 de Julio 885",
+   "lat": -34.9062136,
+   "lon": -56.197372,
+   "barrio": "Centro",
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "cine-universitario-del-uruguay",
    "nombre": "Cine Universitario del Uruguay",
    "alias": [],
@@ -883,6 +893,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "feltrinelli",
+   "nombre": "Feltrinelli",
+   "alias": [],
+   "direccion": "Sarandí 675",
+   "lat": -34.9064668,
+   "lon": -56.2015075,
+   "barrio": "Ciudad Vieja",
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "gelos-comedy-coffee-bar",
    "nombre": "Gelos Comedy Coffee Bar",
    "alias": [],
@@ -1126,6 +1146,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "lannister-comics-libros",
+   "nombre": "Lannister Comics & Libros",
+   "alias": [],
+   "direccion": "Av. 18 de Julio 892",
+   "lat": -34.9064469,
+   "lon": -56.1971925,
+   "barrio": "Centro",
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "las-karamazov",
    "nombre": "Las Karamazov",
    "alias": [],
@@ -1176,6 +1206,46 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "libreria-linardi-y-risso",
+   "nombre": "Librería Linardi y Risso",
+   "alias": [],
+   "direccion": "Juan Carlos Gómez 1435",
+   "lat": -34.9054612,
+   "lon": -56.2036184,
+   "barrio": "Ciudad Vieja",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "libreria-montevideo",
+   "nombre": "Librería Montevideo",
+   "alias": [],
+   "direccion": "Tristán Narvaja 1536",
+   "lat": -34.9017261,
+   "lon": -56.1776013,
+   "barrio": "Cordón",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "libreria-mundos-invisibles",
+   "nombre": "Librería Mundos Invisibles",
+   "alias": [],
+   "direccion": "Av. Gral. Rivera 2205",
+   "lat": -34.9020235,
+   "lon": -56.1676436,
+   "barrio": "Cordón",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "libreria-pocho",
+   "nombre": "Librería Pocho",
+   "alias": [],
+   "direccion": "Av. 18 de Julio 2198",
+   "lat": -34.8988874,
+   "lon": -56.1679222,
+   "barrio": "Cordón",
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "libreria-trazo",
    "nombre": "Librería Trazo",
    "alias": [],
@@ -1183,6 +1253,26 @@
    "lat": -34.909655,
    "lon": -56.1637003,
    "barrio": "Parque Rodó",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "libros-de-la-arena-pocitos",
+   "nombre": "Libros de la Arena Pocitos",
+   "alias": [],
+   "direccion": "Juan Benito Blanco 962",
+   "lat": -34.9138769,
+   "lon": -56.1490008,
+   "barrio": "Pocitos",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "libros-del-paso",
+   "nombre": "Libros del Paso",
+   "alias": [],
+   "direccion": "Av. 18 de Julio 1308",
+   "lat": -34.9057528,
+   "lon": -56.1877223,
+   "barrio": "Centro",
    "ciudad": "Montevideo"
   },
   {
@@ -1258,6 +1348,16 @@
    "lat": -34.91042,
    "lon": -56.170582,
    "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "mercadito-eureka",
+   "nombre": "Mercadito Eureka",
+   "alias": [],
+   "direccion": "San Salvador 1981",
+   "lat": -34.9109531,
+   "lon": -56.1719738,
+   "barrio": "Parque Rodó",
    "ciudad": "Montevideo"
   },
   {
@@ -1416,6 +1516,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "oruga-libros",
+   "nombre": "Oruga Libros",
+   "alias": [],
+   "direccion": "Constituyente 2022",
+   "lat": -34.9078473,
+   "lon": -56.1727234,
+   "barrio": "Parque Rodó",
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "pivo-metal-rock-bar",
    "nombre": "PIVO  Metal & Rock Bar",
    "alias": [],
@@ -1486,6 +1596,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "plaza-cafe",
+   "nombre": "Plaza Café",
+   "alias": [],
+   "direccion": "Jackson 885",
+   "lat": -34.9130364,
+   "lon": -56.1726495,
+   "barrio": "Parque Rodó",
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "plaza-independencia",
    "nombre": "Plaza Independencia",
    "alias": [
@@ -1505,6 +1625,36 @@
    "lat": -34.915753,
    "lon": -56.168935,
    "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "pocho-kids",
+   "nombre": "Pocho Kids",
+   "alias": [],
+   "direccion": "Juan Paullier 1546",
+   "lat": -34.8996028,
+   "lon": -56.1683617,
+   "barrio": "Cordón",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "pocitos-libros",
+   "nombre": "Pocitos Libros",
+   "alias": [],
+   "direccion": "Av. Brasil 2561",
+   "lat": -34.9075131,
+   "lon": -56.1582007,
+   "barrio": "Pocitos",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "puro-verso",
+   "nombre": "Puro Verso",
+   "alias": [],
+   "direccion": "Av. 18 de Julio 1199",
+   "lat": -34.9056951,
+   "lon": -56.190455,
+   "barrio": "Centro",
    "ciudad": "Montevideo"
   },
   {
@@ -1592,6 +1742,16 @@
    "lat": -34.90522,
    "lon": -56.200533,
    "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "ronda-espacio-creativo",
+   "nombre": "Ronda Espacio Creativo",
+   "alias": [],
+   "direccion": "Bulevar España 2141",
+   "lat": -34.9085984,
+   "lon": -56.1698117,
+   "barrio": "Parque Rodó",
    "ciudad": "Montevideo"
   },
   {
