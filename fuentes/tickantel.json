@@ -1,8 +1,8 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-07T11:41:58.373197-03:00",
+ "corrida": "2026-11-07T12:44:09.546028-03:00",
  "ok": true,
- "cantidad": 134,
+ "cantidad": 133,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
@@ -320,50 +320,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021765",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021765/la-groove-machine-y-verluz",
-   "titulo": "La groove machine y Verluz",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "En el marco de la convocatoria realizada por el Centro Cultural Artesano y la Sala Lazaroff presentamos el ciclo De Local, con las bandas La groove machine y Verluz. ATP Duración: 120 min Edad máxima (inclusive) con acceso gratuito permitido: 2 años.",
-   "lugar": {
-    "nombre": "Sala Jorge Lazaroff",
-    "direccion": null,
-    "lat": -34.8557558,
-    "lon": -56.1324247
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-07T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021765/la-groove-machine-y-verluz",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021765/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021860",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021860/encantea-repiqueteando-magia",
    "titulo": "Encantéa: Repiqueteando magia",
@@ -406,6 +362,50 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021860/BANNER.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021765",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021765/la-groove-machine-y-verluz",
+   "titulo": "La groove machine y Verluz",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "En el marco de la convocatoria realizada por el Centro Cultural Artesano y la Sala Lazaroff presentamos el ciclo De Local, con las bandas La groove machine y Verluz. ATP Duración: 120 min Edad máxima (inclusive) con acceso gratuito permitido: 2 años.",
+   "lugar": {
+    "nombre": "Sala Jorge Lazaroff",
+    "direccion": null,
+    "lat": -34.8557558,
+    "lon": -56.1324247
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021765/la-groove-machine-y-verluz",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021765/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -793,45 +793,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021637/BANNER.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021693",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021693/corre-correo-2026",
-   "titulo": "Corre Correo 2026",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Domingo 8 de noviembre de 2026 tendrá lugar la séptima edición de la CorreCorreo, una correcaminata solidaria organizada por la Administración Nacional de Correos en beneficio de Granja La Esperanza Sabalera, institución gestionada por una asociación civil que trabaja con adolescentes, jóvenes y…",
-   "lugar": {
-    "nombre": "Lugar a confirmar",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T09:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021693/corre-correo-2026",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021693/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
