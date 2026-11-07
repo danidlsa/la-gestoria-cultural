@@ -1,8 +1,8 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-06T14:09:32.255729-03:00",
+ "corrida": "2026-11-06T22:11:20.878786-03:00",
  "ok": true,
- "cantidad": 6,
+ "cantidad": 7,
  "errores": [],
  "eventos": [
   {
@@ -75,7 +75,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://img.cobraticket.uy/OJyMk7qrNwYNUVCpDTYr8.jpg",
+   "imagen_url": "https://img.cobraticket.uy/0_cMSQGWkvx-yeogdJ4n0.jpg",
    "productor": "Lotus WTC",
    "region": "montevideo",
    "enlaces": [],
@@ -194,6 +194,45 @@
    "beneficios": [],
    "imagen_url": "https://img.cobraticket.uy/l5ae6DOvbZNupu-INSZqX.jpg",
    "productor": "EPIC",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "317714",
+   "url": "https://cobraticket.uy/e/mis-goodbye-party-317714",
+   "titulo": "MIS GOODBYE PARTY",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "MIS GOODBYE PARTY -The last dance- La última gran noche del semestre Se termina una etapa, pero la cerramos como sabemos: bailando hasta que salga el sol. Esta fiesta es para todxs: los que se van, los que se quedan, los que llegaron este semestre y los que están desde siempre. Una noche para…",
+   "lugar": {
+    "nombre": "Sala 26",
+    "direccion": "Luis Alberto de herrera 1151",
+    "lat": -34.9068804,
+    "lon": -56.136678
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T23:59:00-03:00",
+     "fin": "2026-12-05T05:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/mis-goodbye-party-317714",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/mfre_bE3Hfb2ThQ1jjNnU.jpg",
+   "productor": "MIS URUGUAY",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

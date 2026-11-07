@@ -1,20 +1,12 @@
 {
- "generado": "2026-11-06T14:09:50.793141-03:00",
- "cantidad": 21,
+ "generado": "2026-11-06T22:11:50.069193-03:00",
+ "cantidad": 22,
  "ciclos": [
-  {
-   "id": "ciclo-envejecimiento-activo",
-   "titulo": "Envejecimiento activo",
-   "lugar_id": null,
-   "desde": "2026-11-06T10:00:00-03:00",
-   "hasta": "2026-12-11T16:00:00-03:00",
-   "cantidad": 6
-  },
   {
    "id": "ciclo-andrzej-wajda-en-su-centenario",
    "titulo": "Andrzej Wajda, en su centenario",
    "lugar_id": "cinemateca",
-   "desde": "2026-11-06T17:00:00-03:00",
+   "desde": "2026-11-06T19:05:00-03:00",
    "hasta": "2026-11-12T19:35:00-03:00",
    "cantidad": 8
   },
@@ -59,14 +51,6 @@
    "cantidad": 1
   },
   {
-   "id": "ciclo-musica-en-el-parque",
-   "titulo": "Música en el Parque",
-   "lugar_id": "jardin-botanico",
-   "desde": "2026-11-07T16:00:00-03:00",
-   "hasta": "2026-11-07T16:00:00-03:00",
-   "cantidad": 1
-  },
-  {
    "id": "ciclo-the-apartment-station-presenta-trasnoches-en-cinemateca-rocky-50-anos",
    "titulo": "The Apartment Station presenta: Trasnoches en Cinemateca / Rocky, 50 años",
    "lugar_id": "cinemateca",
@@ -75,12 +59,36 @@
    "cantidad": 1
   },
   {
+   "id": "ciclo-musica-en-el-parque",
+   "titulo": "Música en el Parque",
+   "lugar_id": "jardin-botanico",
+   "desde": "2026-11-08T16:00:00-03:00",
+   "hasta": "2026-11-08T16:00:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-envejecimiento-activo",
+   "titulo": "Envejecimiento activo",
+   "lugar_id": null,
+   "desde": "2026-11-09T11:00:00-03:00",
+   "hasta": "2026-12-11T16:00:00-03:00",
+   "cantidad": 6
+  },
+  {
    "id": "ciclo-particulas",
    "titulo": "Partículas",
    "lugar_id": "sala-verdi",
    "desde": "2026-11-10T20:00:00-03:00",
    "hasta": "2026-11-24T20:00:00-03:00",
    "cantidad": 2
+  },
+  {
+   "id": "ciclo-primavera-tango",
+   "titulo": "Primavera Tango",
+   "lugar_id": null,
+   "desde": "2026-11-11T20:30:00-03:00",
+   "hasta": "2026-11-22T20:00:00-03:00",
+   "cantidad": 5
   },
   {
    "id": "ciclo-ciclo-de-cine",
@@ -118,7 +126,7 @@
    "id": "ciclo-candlelight",
    "titulo": "Candlelight",
    "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
-   "desde": "2026-11-21T19:30:00-03:00",
+   "desde": "2026-11-21T21:30:00-03:00",
    "hasta": "2026-12-27T16:30:00-03:00",
    "cantidad": 2
   },

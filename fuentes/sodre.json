@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-06T14:01:35.782896-03:00",
+ "corrida": "2026-11-06T22:03:45.305447-03:00",
  "ok": true,
- "cantidad": 39,
+ "cantidad": 40,
  "errores": [],
  "eventos": [
   {
@@ -681,7 +681,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/CNJS-Formas-que-se-unen_Destacado-web-1-768x420.png",
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Tramas-852_Adaptaciones_destacado-768x420.png",
    "productor": "Coro Nacional Juvenil del Sodre",
    "region": "montevideo",
    "enlaces": [
@@ -1653,12 +1653,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021955/las-7-balas",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/11-e1684526316343-768x318.jpg",
    "productor": "Cine Nacional y Latinoamericano del Sodre",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021955/las-7-balas"
+   ],
    "ciclo": null,
    "muestra": false,
    "hasta": null
@@ -1694,12 +1701,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021956/dios-es-una-palabra",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-56-768x307.png",
    "productor": "Cine Nacional y Latinoamericano del Sodre",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021956/dios-es-una-palabra"
+   ],
    "ciclo": null,
    "muestra": false,
    "hasta": null
@@ -1795,6 +1809,47 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-y-area-candombe"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13745",
+   "url": "https://sodre.gub.uy/espectaculos/el-jubilate/",
+   "titulo": "El Jubilate",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Cantoría, ensamble vocal español especializado en música antigua",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": "2026-11-13T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021958/el-jubilate",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Adaptaciones_CANTORIA_destacada-768x420.png",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021958/el-jubilate"
    ],
    "ciclo": null,
    "muestra": false,

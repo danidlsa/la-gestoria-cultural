@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-06T14:09:50.793141-03:00",
- "cantidad": 180,
+ "generado": "2026-11-06T22:11:50.069193-03:00",
+ "cantidad": 183,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -166,6 +166,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "av-republica-federal-de-alemania",
+   "nombre": "Av. República Federal de Alemania",
+   "alias": [],
+   "direccion": "Av. República Federal de Alemania, 11300 Montevideo, Departamento de Montevideo",
+   "lat": -34.9105987,
+   "lon": -56.1317516,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "avenida-general-flores-2468",
    "nombre": "Avenida General Flores 2468",
    "alias": [],
@@ -240,6 +249,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "canelones-1963",
+   "nombre": "Canelones 1963",
+   "alias": [],
+   "direccion": "Canelones 1963",
+   "lat": -34.907325,
+   "lon": -56.1728223,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "carrasco-lawn-tennis-club",
    "nombre": "Carrasco Lawn Tennis Club",
    "alias": [],
@@ -288,9 +306,9 @@
    "id": "centro-cultural-artesano",
    "nombre": "Centro Cultural Artesano",
    "alias": [],
-   "direccion": null,
-   "lat": -34.8253632,
-   "lon": -56.2043076,
+   "direccion": "Bv. Aparicio Saravía 4697",
+   "lat": -34.825201,
+   "lon": -56.204054,
    "ciudad": "Montevideo"
   },
   {
@@ -504,17 +522,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "emile-club",
-   "nombre": "EMILE CLUB",
-   "alias": [
-    "Emile"
-   ],
-   "direccion": "Mercedes 1820",
-   "lat": -34.9003744,
-   "lon": -56.178033,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "el-barzon",
    "nombre": "El Barzón",
    "alias": [],
@@ -577,6 +584,19 @@
    "direccion": "Av Gral Rondeau 2477, 11800 Montevideo,",
    "lat": -34.884626,
    "lon": -56.193819,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "emile-club",
+   "nombre": "Emile Club",
+   "alias": [
+    "EMILE CLUB",
+    "Emile",
+    "Mercedes 1820"
+   ],
+   "direccion": "Mercedes 1820",
+   "lat": -34.9003744,
+   "lon": -56.178033,
    "ciudad": "Montevideo"
   },
   {
@@ -733,7 +753,8 @@
    "id": "hotel-radisson-victoria-plaza",
    "nombre": "Hotel Radisson Victoria Plaza",
    "alias": [
-    "Radisson Montevideo Victoria Plaza Hotel"
+    "Radisson Montevideo Victoria Plaza Hotel",
+    "Radisson Victoria Plaza Hotel"
    ],
    "direccion": "Pl. Independencia 759, 11100 Montevideo,",
    "lat": -34.9058104,
@@ -747,15 +768,6 @@
    "direccion": "Av. Gabriela Mistral 4223",
    "lat": -34.85503,
    "lon": -56.207084,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "hyatt-centric",
-   "nombre": "Hyatt Centric",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.909643,
-   "lon": -56.1385076,
    "ciudad": "Montevideo"
   },
   {
@@ -1095,6 +1107,15 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "pivo-metal-rock-bar",
+   "nombre": "PIVO  Metal & Rock Bar",
+   "alias": [],
+   "direccion": "Yi 1587",
+   "lat": -34.9013834,
+   "lon": -56.1896664,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "palacio-salvo",
    "nombre": "Palacio Salvo",
    "alias": [],
@@ -1269,9 +1290,9 @@
    "id": "sala-26",
    "nombre": "Sala 26",
    "alias": [],
-   "direccion": "Av. Luis Alberto de Herrera 1151, 11300",
-   "lat": -34.90686,
-   "lon": -56.136699,
+   "direccion": "Luis Alberto de herrera 1151",
+   "lat": -34.9068804,
+   "lon": -56.136678,
    "ciudad": "Montevideo"
   },
   {
@@ -1622,6 +1643,18 @@
    "direccion": "Bartolomé Mitre 1318, 11000 Montevideo,",
    "lat": -34.907105,
    "lon": -56.201575,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "vou-club",
+   "nombre": "VOU Club",
+   "alias": [
+    "VOU",
+    "VOU CLUB"
+   ],
+   "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
+   "lat": -34.9155965,
+   "lon": -56.1687301,
    "ciudad": "Montevideo"
   },
   {

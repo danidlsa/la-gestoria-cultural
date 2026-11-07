@@ -1,0 +1,361 @@
+{
+ "fuente": "entraste",
+ "corrida": "2026-11-06T22:11:40.335432-03:00",
+ "ok": true,
+ "cantidad": 8,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "entraste",
+   "id_externo": "342",
+   "url": "https://app.entraste.com/events/pariseo-latin-club-especial-bad-bunny-vie-6-nov",
+   "titulo": "PARISEO LATIN CLUB ESPECIAL BAD BUNNY - VIE 6 NOV",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "Pariseo presenta: especial bad bunny viernes 6 de noviembre nos encontramos en Vou Club para una noche de mucho reggaetón del conejo malo",
+   "lugar": {
+    "nombre": "VOU CLUB",
+    "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
+    "lat": -34.9155965,
+    "lon": -56.1687301
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-06T23:59:00-03:00",
+     "fin": "2026-11-07T05:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/pariseo-latin-club-especial-bad-bunny-vie-6-nov",
+     "via": "entraste"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1793042278_613c8cdeacfeec89.webp",
+   "productor": "Pariseo.dc",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "entraste",
+   "id_externo": "355",
+   "url": "https://app.entraste.com/events/sabado-07-de-noviembre-reggaeton-cumbia-vieja-ft-smirnoff-ice",
+   "titulo": "SÁBADO 07 DE NOVIEMBRE – REGGAETON & CUMBIA VIEJA ft. SMIRNOFF ICE",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "Reggaeton viejo y cumbia vieja en el club. Invita SMIRNOFF ICE. Reservas y mesas: 098 814 543 *Al ingresar estás aceptando aparecer en material fotográfico y/o audiovisual que puede ser utilizado en piezas comunicacionales de la marca. *No se permite el ingreso con ropa deportiva.",
+   "lugar": {
+    "nombre": "VOU",
+    "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
+    "lat": -34.9155965,
+    "lon": -56.1687301
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T23:30:00-03:00",
+     "fin": "2026-11-08T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/sabado-07-de-noviembre-reggaeton-cumbia-vieja-ft-smirnoff-ice",
+     "via": "entraste"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1793372492_ccaa02140078f4c5.webp",
+   "productor": "VOU",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "entraste",
+   "id_externo": "366",
+   "url": "https://app.entraste.com/events/pariseo-latin-club-en-2019-vie-13-nov",
+   "titulo": "PARISEO LATIN CLUB EN 2019 - VIE 13 NOV",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "Pariseo presenta una noche en 2019, viernes 13 de noviembre nos encontramos en Vou Club para una noche de mucho reggaetón del colegio",
+   "lugar": {
+    "nombre": "VOU CLUB",
+    "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
+    "lat": -34.9155965,
+    "lon": -56.1687301
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:59:00-03:00",
+     "fin": "2026-11-14T05:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/pariseo-latin-club-en-2019-vie-13-nov",
+     "via": "entraste"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1793729079_1a7d425e0404301b.webp",
+   "productor": "Pariseo.dc",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "entraste",
+   "id_externo": "295",
+   "url": "https://app.entraste.com/events/resilience",
+   "titulo": "RESILIENCE",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "Vuelve Resilience a EMILE Club! Este 13 de noviembre Resilience - Presenta KARBONI (IT) ALEJO KATO B3B DIEGO BANDERA B3B OMNI WHITE",
+   "lugar": {
+    "nombre": "Mercedes 1820",
+    "direccion": "Mercedes 1820",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:59:00-03:00",
+     "fin": "2026-11-14T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/resilience",
+     "via": "entraste"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1791905822_e327dc3fea414d19.webp",
+   "productor": "Resilence",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "entraste",
+   "id_externo": "367",
+   "url": "https://app.entraste.com/events/sabado-14-de-noviembre-reggaeton-cumbia-vieja",
+   "titulo": "SÁBADO 14 DE NOVIEMBRE – REGGAETON & CUMBIA VIEJA",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "Reggaeton viejo y cumbia vieja en el club. Reservas y mesas: 098 814 543 *Al ingresar estás aceptando aparecer en material fotográfico y/o audiovisual que puede ser utilizado en piezas comunicacionales de la marca. *No se permite el ingreso con ropa deportiva.",
+   "lugar": {
+    "nombre": "VOU",
+    "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
+    "lat": -34.9155965,
+    "lon": -56.1687301
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T23:30:00-03:00",
+     "fin": "2026-11-15T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/sabado-14-de-noviembre-reggaeton-cumbia-vieja",
+     "via": "entraste"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1793747795_07a544299c11cfbc.webp",
+   "productor": "VOU",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "entraste",
+   "id_externo": "351",
+   "url": "https://app.entraste.com/events/mega-pariseo-20-de-nov-reggaeton-de-antes",
+   "titulo": "MEGA PARISEO 20 DE NOV - REGGAETÓN DE ANTES",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "3RMJ+QG6",
+    "direccion": "3RMJ+QG6, 11200 Montevideo, Departamento de Montevideo",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T23:59:00-03:00",
+     "fin": "2026-11-21T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 1050.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/mega-pariseo-20-de-nov-reggaeton-de-antes",
+     "via": "entraste"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1793195903_291c0e0a922d509c.webp",
+   "productor": "Pariseo.dc",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "entraste",
+   "id_externo": "296",
+   "url": "https://app.entraste.com/events/dizco-aniversario",
+   "titulo": "DIZCO ANIVERSARIO",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Canelones 1963",
+    "direccion": "Canelones 1963",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T23:59:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/dizco-aniversario",
+     "via": "entraste"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1791910956_fcc3eb13f2e22e18.webp",
+   "productor": "Don Juan",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "entraste",
+   "id_externo": "321",
+   "url": "https://app.entraste.com/events/navidad-en-el-yacht-2026",
+   "titulo": "Navidad en el Yacht 2026",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Av. República Federal de Alemania",
+    "direccion": "Av. República Federal de Alemania, 11300 Montevideo, Departamento de Montevideo",
+    "lat": null,
+    "lon": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-24T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 890.0,
+    "hasta": 1190.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/navidad-en-el-yacht-2026",
+     "via": "entraste"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1792536644_08b050e95cb2403c.webp",
+   "productor": "YACHT",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  }
+ ]
+}
