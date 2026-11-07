@@ -1,0 +1,5649 @@
+{
+ "fuente": "mapas_especiales",
+ "corrida": "2026-11-07T15:17:01.367759-03:00",
+ "ok": true,
+ "cantidad": 141,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-adagio-libreria-cafe-1830-cartas-pendientes",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Cartas pendientes",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Adagio Librería Café celebra la primera edición de este encuentro dedicado a la literatura y la escritura. Invitación a escribir una carta, participar en un concurso literario y compartir palabras e historias. También habrá micrófono abierto de poesía y música en vivo.",
+   "lugar": {
+    "nombre": "Adagio Librería Café",
+    "direccion": "Gral. Gregorio Suárez 2741",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T18:30:00-03:00",
+     "fin": "2026-11-14T01:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-afrodita-libros-2230-noche-de-jazz",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Noche de jazz",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación musical en vivo de un dúo de contrabajo y guitarra.",
+   "lugar": {
+    "nombre": "Afrodita Libros",
+    "direccion": "Dr. Tristán Narvaja 1528",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-amazonia-1900-narrativas-del-miedo",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Narrativas del miedo",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Terror y suspenso en la literatura uruguaya contemporánea.",
+   "lugar": {
+    "nombre": "Amazonia",
+    "direccion": "Maldonado 1775",
+    "lat": null,
+    "lon": null,
+    "barrio": "Palermo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-amazonia-1945-los-epilogos",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Los epílogos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Música en vivo con versiones de canciones inspiradas en clásicos de la literatura.",
+   "lugar": {
+    "nombre": "Amazonia",
+    "direccion": "Maldonado 1775",
+    "lat": null,
+    "lon": null,
+    "barrio": "Palermo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:45:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-amazonia-2030-ya-ni-siquiera-miraba-las-puertas",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Ya ni siquiera miraba las puertas",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Claudio Invernizzi conversa con Sofía Romano sobre su último libro.",
+   "lugar": {
+    "nombre": "Amazonia",
+    "direccion": "Maldonado 1775",
+    "lat": null,
+    "lon": null,
+    "barrio": "Palermo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-amazonia-2115-supongamos-que-el-mundo-es",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Supongamos que el mundo es",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Gabriel Calderón presenta su libro y reflexiona sobre el teatro y la vida.",
+   "lugar": {
+    "nombre": "Amazonia",
+    "direccion": "Maldonado 1775",
+    "lat": null,
+    "lon": null,
+    "barrio": "Palermo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:15:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-amazonia-2200-algo-prestado-en-vivo",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Algo prestado en vivo",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Tamara Tenembaum y Malena Rey presentan su podcast en vivo desde Argentina.",
+   "lugar": {
+    "nombre": "Amazonia",
+    "direccion": "Maldonado 1775",
+    "lat": null,
+    "lon": null,
+    "barrio": "Palermo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-amazonia-2300-ninguna-higuera-en-vivo",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Ninguna Higuera en vivo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Cierre musical con la banda nominada a los Premios Graffiti 2026.",
+   "lugar": {
+    "nombre": "Amazonia",
+    "direccion": "Maldonado 1775",
+    "lat": null,
+    "lon": null,
+    "barrio": "Palermo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-america-latina-1900-cinco-claves-inutiles-para-elegir-un-lib",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Cinco claves inútiles para elegir un libro para otro",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "El Colectivo Migas de Papel propone un laboratorio para conversar sobre los criterios, las sensibilidades y las dimensiones que intervienen al elegir una lectura para regalar o recomendar.",
+   "lugar": {
+    "nombre": "América Latina",
+    "direccion": "Av. 18 de Julio 2089",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-america-latina-2100-hacia-un-tejido-lector",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Hacia un tejido lector",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Joanna Peluffo y Maite González Vallejo, impulsoras de la Red Nacional de Clubes de Lectura, conversan sobre su libro y la importancia de crear y sostener espacios de lectura compartida.",
+   "lugar": {
+    "nombre": "América Latina",
+    "direccion": "Av. 18 de Julio 2089",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-amuleto-libros-de-la-arena-1900-hace-tu-historieta-de-ciencia-ficcion-co",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Hacé tu historieta de ciencia ficción con Arghyla y Mario Pester",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Taller creativo para inventar una aventura protagonizada por una niña ingeniera y un gato hacker que viven en Uruguay en el año 2170.",
+   "lugar": {
+    "nombre": "Amuleto – Libros de la Arena",
+    "direccion": "Orinoco 4964",
+    "lat": null,
+    "lon": null,
+    "barrio": "Malvín"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-amuleto-libros-de-la-arena-2000-belleza-quimica",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Belleza química",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Historias de autocuidado y transformación. Lucía Vázquez Sica presenta su libro y propone una conversación sobre belleza, ciencia, género y salud.",
+   "lugar": {
+    "nombre": "Amuleto – Libros de la Arena",
+    "direccion": "Orinoco 4964",
+    "lat": null,
+    "lon": null,
+    "barrio": "Malvín"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-amuleto-libros-de-la-arena-2030-presentacion-del-libro-belleza-quimica-h",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Presentación del libro Belleza química Historias de autocuidado y transformación Marcos…",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación del libro Belleza química Historias de autocuidado y transformación Marcos Rey presenta su libro Pachequistas. Derecha política y dictadura en Uruguay (1973-1985). Una investigación sobre el papel de Jorge Pacheco Areco y sus dirigentes políticos durante la dictadura, que aporta nuevas claves para comprender la participación de las derechas civiles en el régimen y sus relaciones con…",
+   "lugar": {
+    "nombre": "Amuleto – Libros de la Arena",
+    "direccion": "Orinoco 4964",
+    "lat": null,
+    "lon": null,
+    "barrio": "Malvín"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-amuleto-libros-de-la-arena-2100-maxima-pureza",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Máxima Pureza",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Fernando Butazzoni conversa con la editora Luisina Ríos sobre su libro, en un encuentro organizado junto al Espacio Corto Buscaglia.",
+   "lugar": {
+    "nombre": "Amuleto – Libros de la Arena",
+    "direccion": "Orinoco 4964",
+    "lat": null,
+    "lon": null,
+    "barrio": "Malvín"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-amuleto-libros-de-la-arena-2200-parque-hotel",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Parque hotel",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Carlos Rehermann presenta su novela, ambientada en el carnaval montevideano de los años treinta.",
+   "lugar": {
+    "nombre": "Amuleto – Libros de la Arena",
+    "direccion": "Orinoco 4964",
+    "lat": null,
+    "lon": null,
+    "barrio": "Malvín"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-amuleto-libros-de-la-arena-2300-en-defensa-de-la-mojarra",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "En defensa de la mojarra",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "El compositor y productor Fede Graña presenta su libro, una obra que reúne textos e ilustraciones vinculados a su último lanzamiento musical.",
+   "lugar": {
+    "nombre": "Amuleto – Libros de la Arena",
+    "direccion": "Orinoco 4964",
+    "lat": null,
+    "lon": null,
+    "barrio": "Malvín"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-club-cultural-charco-1900-contesto-absolutamente-cualquier-pregunt",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Contesto absolutamente cualquier pregunta",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Pablo Casacuberta propone un micrófono abierto para responder preguntas sobre el sentido de la vida, el futuro y los laberintos de la experiencia humana.",
+   "lugar": {
+    "nombre": "Club Cultural Charco",
+    "direccion": "Maldonado 1477",
+    "lat": null,
+    "lon": null,
+    "barrio": "Palermo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-13T20:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-club-cultural-charco-2030-sostener-la-paradoja",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Sostener la paradoja",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "El psicoanalista Santiago Lanza conversa con las escritoras Eugenia Ladra y Martín Otegui Piñeyrúa sobre la paradoja y sus vínculos con la literatura y la experiencia humana.",
+   "lugar": {
+    "nombre": "Club Cultural Charco",
+    "direccion": "Maldonado 1477",
+    "lat": null,
+    "lon": null,
+    "barrio": "Palermo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": "2026-11-13T21:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-club-cultural-charco-2200-camila-ferrari-solista",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Camila Ferrari solista",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Recital íntimo bajo el ficus de la librería.",
+   "lugar": {
+    "nombre": "Club Cultural Charco",
+    "direccion": "Maldonado 1477",
+    "lat": null,
+    "lon": null,
+    "barrio": "Palermo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:00:00-03:00",
+     "fin": "2026-11-13T22:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-club-cultural-charco-1900-propuesta-gastronomica-en-el-patio-con-p",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Propuesta gastronómica en el patio, con platitos y tapas de Peperoncino",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Club Cultural Charco",
+    "direccion": "Maldonado 1477",
+    "lat": null,
+    "lon": null,
+    "barrio": "Palermo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-14T01:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-cultural-alfabeta-2000-leyendas-en-poesia-y-musica",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Leyendas en poesía y música",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Relato inspirado en la mitología celta, con la historia de Angus y el cisne, recitada y acompañada por flauta.",
+   "lugar": {
+    "nombre": "Librería Cultural Alfabeta",
+    "direccion": "Miguel Barreiro 3231",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-cultural-alfabeta-2030-otra-que-yo-con-ellos",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Otra que yo, con ellos",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Elisa Lieber presenta su libro junto a Nole Marrone, Gonzalo Cammarota y Salvador Banchero. Un encuentro sobre las distintas versiones de una misma mujer, los mandatos y las contradicciones.",
+   "lugar": {
+    "nombre": "Librería Cultural Alfabeta",
+    "direccion": "Miguel Barreiro 3231",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-cultural-alfabeta-2115-musica-con-notas",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Música con notas",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Paola Larrama propone un recorrido en el que la literatura y la música se entrelazan.",
+   "lugar": {
+    "nombre": "Librería Cultural Alfabeta",
+    "direccion": "Miguel Barreiro 3231",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:15:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-cultural-alfabeta-2200-las-ciudades-de-mario",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Las ciudades de Mario",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Mauro Libertella y Gabriel Peveroni conversan sobre Mario Levrero y el libro Un hombre entre paréntesis.",
+   "lugar": {
+    "nombre": "Librería Cultural Alfabeta",
+    "direccion": "Miguel Barreiro 3231",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-cultural-alfabeta-2245-escritoras-del-riesgo",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Escritoras del riesgo",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Escritura con el cuerpo adentro. Conversación sobre experiencia, cuerpo, verdad y lenguaje.",
+   "lugar": {
+    "nombre": "Librería Cultural Alfabeta",
+    "direccion": "Miguel Barreiro 3231",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:45:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-cultural-alfabeta-2330-una-cartografia-de-la-extraneza",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Una cartografía de la extrañeza",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Ciudad de México, Jujuy, Minas. Encuentro sobre herencias, transformaciones e identidades.",
+   "lugar": {
+    "nombre": "Librería Cultural Alfabeta",
+    "direccion": "Miguel Barreiro 3231",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-cultural-alfabeta-0030-cierre-musical-con-tallo-entre-la-post-m",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Cierre musical con Tallo, entre la post milonga y la psicodelia",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Librería Cultural Alfabeta",
+    "direccion": "Miguel Barreiro 3231",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T00:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-dap-libros-1800-taller-de-dibujo-y-pintura",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Taller de dibujo y pintura",
+   "categoria": "taller",
+   "categoria_segura": false,
+   "descripcion_corta": "Creación de personajes y elaboración de guiones para cómics y manga.",
+   "lugar": {
+    "nombre": "DAP Libros",
+    "direccion": "Jackson 1307 bis",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T18:00:00-03:00",
+     "fin": "2026-11-13T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-dap-libros-2100-taller-de-cosplay",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Taller de cosplay",
+   "categoria": "taller",
+   "categoria_segura": false,
+   "descripcion_corta": "Actividad para crear accesorios y elementos de vestuario inspirados en personajes, como máscaras, cascos y espadas.",
+   "lugar": {
+    "nombre": "DAP Libros",
+    "direccion": "Jackson 1307 bis",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": "2026-11-13T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-diomedes-libros-2100-musica-en-vivo-con-garo-arakelian",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Música en vivo con Garo Arakelian",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Una presentación que recupera canciones clásicas del artista y adelanta su última producción musical.",
+   "lugar": {
+    "nombre": "Diomedes Libros",
+    "direccion": "Bulevar España 2129",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": "2026-11-13T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-el-yelmo-de-mambrino-1930-patrimonarte",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Patrimoñarte",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Descubrí Montevideo jugando. Niñas, niños y familias podrán explorar el patrimonio de la ciudad a través de juegos, imágenes, historias y desafíos. Una propuesta junto a Chinela para descubrir Montevideo con otra mirada.",
+   "lugar": {
+    "nombre": "El Yelmo de Mambrino",
+    "direccion": "Canelones 1716",
+    "lat": null,
+    "lon": null,
+    "barrio": "Palermo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-el-yelmo-de-mambrino-2030-la-dona-blues-band",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "La Doña Blues Band",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación en vivo de este sexteto de blues y rock.",
+   "lugar": {
+    "nombre": "El Yelmo de Mambrino",
+    "direccion": "Canelones 1716",
+    "lat": null,
+    "lon": null,
+    "barrio": "Palermo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-el-yelmo-de-mambrino-2230-el-peyote-asesino",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "El Peyote Asesino",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Pablo Izmirlian presenta su libro sobre la banda y conversa sobre su historia y el proceso de investigación.",
+   "lugar": {
+    "nombre": "El Yelmo de Mambrino",
+    "direccion": "Canelones 1716",
+    "lat": null,
+    "lon": null,
+    "barrio": "Palermo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2000-lucrecia-martel-presenta-un-destino-comu",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Lucrecia Martel presenta Un destino común",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Encuentro sobre universos sonoros y dispositivos narrativos para imaginar futuros colectivos.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2000-una-ciudad-fracturada",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Una ciudad fracturada",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Reimaginar Montevideo. Conversación sobre alquileres, transporte público y vecindad.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2100-guadalupe-nettel",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Guadalupe Nettel",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "La belleza del monstruo. Entrevista en tres partes.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2100-fragmentos-sin-lugar-metapaisajes",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Fragmentos sin lugar, metapaisajes",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Cruce de voces e imágenes.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2130-cruzar-el-umbral",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Cruzar el umbral",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Reminiscencias y fantasías en el limbo. Conversación.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2200-alejandro-zambra-en-primera-persona",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Alejandro Zambra en primera persona",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Jugar, garabatear, escribir. Entrevista al escritor.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2230-esto-tambien-es-tarot",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Esto también es tarot",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Elisa Carricajo presenta su libro y propone una tirada colectiva de cartas.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2300-martin-buscaglia-junto-a-sus-bochamakers",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Martín Buscaglia junto a sus Bochamakers",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación musical.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2330-boni",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Boni",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Avant-première musical.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-0000-karibe-con-k",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Karibe con K",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación musical.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-1900-feria-de-libros-y-vinilos-dj-set-de-lbr-",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Feria de libros y vinilos, DJ set de LBR y propuestas gastronómicas",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Participan Discomoda y La Mesa de los Discos.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-14T01:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-germina-1830-sonando-y-jugando-con-magda-dos-santos",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Soñando y jugando con Magda Dos Santos",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Propuesta musical para toda la familia, especialmente para los más pequeños, con canciones de su disco Soñando y jugando.",
+   "lugar": {
+    "nombre": "Germina",
+    "direccion": "Carlos Roxlo 1370 bis",
+    "lat": null,
+    "lon": null,
+    "barrio": "Centro"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-germina-1930-crea-y-dibuja-con-nico-peruzzo",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Creá y dibujá con Nico Peruzzo",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Encuentro para dibujar y conversar con el creador de Pancho el Pit Bull.",
+   "lugar": {
+    "nombre": "Germina",
+    "direccion": "Carlos Roxlo 1370 bis",
+    "lat": null,
+    "lon": null,
+    "barrio": "Centro"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-guarida-casa-de-libros-1800-poesia-ultrajoven",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Poesía ultrajoven",
+   "categoria": "taller",
+   "categoria_segura": false,
+   "descripcion_corta": "Taller abierto de poesía y creatividad a cargo de jóvenes menores de 18 años del taller En Una.",
+   "lugar": {
+    "nombre": "Guarida, Casa de Libros",
+    "direccion": "Héctor Miranda 2410",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-guarida-casa-de-libros-1900-club-de-clubes-cafe-literario",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Club de clubes, café literario",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Traé un libro para compartir, recomendar o hacer circular. Un espacio de conversación, café e intercambio de lecturas.",
+   "lugar": {
+    "nombre": "Guarida, Casa de Libros",
+    "direccion": "Héctor Miranda 2410",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-13T20:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-guarida-casa-de-libros-2000-camara-libros-souvenirs-literarios-y-nue",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Cámara, libros, souvenirs literarios y nuevos autores",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Entrevistas abiertas a escritores y escritoras, con intervenciones breves para conocer sus trabajos. También habrá una mesa de nuevos autores con fragmentos de libros para descubrir nuevas voces.",
+   "lugar": {
+    "nombre": "Guarida, Casa de Libros",
+    "direccion": "Héctor Miranda 2410",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": "2026-11-13T21:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-guarida-casa-de-libros-2200-microfono-abierto-con-apertura-de-vivian",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Micrófono abierto, con apertura de Viviane, de Poeta Soporta Poeta",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Guarida, Casa de Libros",
+    "direccion": "Héctor Miranda 2410",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-guarida-casa-de-libros-2300-serenata-literaria-con-juan-sola",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Serenata literaria con Juan Solá",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Lectura desde el balcón para compartir historias con quienes estén dentro de la librería y en la calle.",
+   "lugar": {
+    "nombre": "Guarida, Casa de Libros",
+    "direccion": "Héctor Miranda 2410",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:00:00-03:00",
+     "fin": "2026-11-13T23:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-guarida-casa-de-libros-0000-cierre-musical-con-el-coro-guarida",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Cierre musical con el Coro Guarida",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Concierto en completa oscuridad, en la Caverna.",
+   "lugar": {
+    "nombre": "Guarida, Casa de Libros",
+    "direccion": "Héctor Miranda 2410",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-guarida-casa-de-libros-1900-rincon-del-haiku-espacio-de-escritura-y-",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Rincón del Haiku, espacio de escritura y observación en la sala exterior; y Mate y…",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Rincón del Haiku, espacio de escritura y observación en la sala exterior; y Mate y escritura, propuesta con consignas para escribir en el patio.",
+   "lugar": {
+    "nombre": "Guarida, Casa de Libros",
+    "direccion": "Héctor Miranda 2410",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-14T01:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-idea-libreria-1900-encuentro-con-poetas-locales-espectaculo",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Encuentro con poetas locales, espectáculos musicales, bandas y DJ durante toda la noche",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Idea Librería",
+    "direccion": "Dr. Tristán Narvaja 1578",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-14T01:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-isadora-libros-2030-cuentos-que-se-escapan-de-los-libros",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Cuentos que se escapan de los libros",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Narración y juegos para niñas y niños, con historias, humor y participación del público. Una propuesta para imaginar personajes, crear sonidos y descubrir finales inesperados.",
+   "lugar": {
+    "nombre": "Isadora Libros",
+    "direccion": "José Ellauri 661",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-isadora-libros-2130-lecturas-fracasantes",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Lecturas fracasantes",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Romina Serrano, Daniela Trimarco, Ivonne Calderón y voces invitadas comparten fragmentos de literatura fracasante.",
+   "lugar": {
+    "nombre": "Isadora Libros",
+    "direccion": "José Ellauri 661",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-la-libelula-libros-cafe-1750-arcos-unidos",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Arcos Unidos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Música con Cecilia, Juan y compañía. Presentación musical con violas, violonchelos, acordeones y otros instrumentos.",
+   "lugar": {
+    "nombre": "La Libélula Libros & Café",
+    "direccion": "Av. Gral. Rivera 2298",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T17:50:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-la-libelula-libros-cafe-1815-cuentos-con-grace",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Cuentos con Grace",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Grace Cuentacuentos comparte historias para disfrutar en familia, con música antes y después de la narración.",
+   "lugar": {
+    "nombre": "La Libélula Libros & Café",
+    "direccion": "Av. Gral. Rivera 2298",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T18:15:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-la-libelula-libros-cafe-1900-dulces-trillizas-con-sandra-escames",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Dulces Trillizas con Sandra Escames",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "La autora presenta su libro, dirigido a niñas y niños a partir de 7 años, y firma ejemplares.",
+   "lugar": {
+    "nombre": "La Libélula Libros & Café",
+    "direccion": "Av. Gral. Rivera 2298",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-la-libelula-libros-cafe-2100-belleza-quimica-con-lucia-vazquez-sica",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Belleza química con Lucía Vázquez Sica",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Conversación sobre su libro Historias de autocuidado y transformación, con espacio para preguntas y firma de ejemplares.",
+   "lugar": {
+    "nombre": "La Libélula Libros & Café",
+    "direccion": "Av. Gral. Rivera 2298",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-las-karamazov-2000-introduccion-a-la-mistica-femenina-en-la",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Introducción a la mística femenina en la Edad Media, con Atrio",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Recorrido histórico y cultural por mujeres que transformaron sus experiencias espirituales en escritos, visiones e imágenes.",
+   "lugar": {
+    "nombre": "Las Karamazov",
+    "direccion": "Av. Gral. Rivera 2670",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": "2026-11-13T21:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-las-karamazov-2000-intervencion-artistica-colectiva-con-pul",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Intervención artística colectiva con Pulso Negro",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Creación participativa de una pegatina para intervenir la fachada de la librería, en el marco de sus 10 años. Actividad para todas las edades.",
+   "lugar": {
+    "nombre": "Las Karamazov",
+    "direccion": "Av. Gral. Rivera 2670",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": "2026-11-13T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-las-karamazov-2200-musica-en-vivo-con-emilia-olmedo",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Música en vivo con Emilia Olmedo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación de la cantante y guitarrista, integrante de la murga joven Amarga.",
+   "lugar": {
+    "nombre": "Las Karamazov",
+    "direccion": "Av. Gral. Rivera 2670",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-lautreamont-libreria-2200-musica-en-vivo-con-chino",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Música en vivo con Chino",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación musical en Lautréamont.",
+   "lugar": {
+    "nombre": "Lautréamont Librería",
+    "direccion": "Maldonado 2045",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:00:00-03:00",
+     "fin": "2026-11-13T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-arete-2100-dj-en-vivo",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "DJ en vivo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Música para acompañar una noche de libros y actividades culturales.",
+   "lugar": {
+    "nombre": "Librería Areté",
+    "direccion": "Dr. Tristán Narvaja 1641",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": "2026-11-14T00:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-el-virrey-1900-cuantas-mujeres-caben-en-una-misma-mujer",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "¿Cuántas mujeres caben en una misma mujer?",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Elisa Lieber conversa sobre su libro Otra que yo y las distintas versiones de nosotras mismas: los mandatos, las expectativas y la identidad.",
+   "lugar": {
+    "nombre": "Librería El Virrey",
+    "direccion": "21 de Setiembre 2747",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-el-virrey-2015-charla-sobre-la-adultez-y-otras-imperfec",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Charla sobre la adultez y otras imperfecciones",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Camila Suárez presenta su libro Metamorfosis y conversa sobre la adultez, el amor y la construcción de la identidad.",
+   "lugar": {
+    "nombre": "Librería El Virrey",
+    "direccion": "21 de Setiembre 2747",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:15:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-el-virrey-2100-a-cara-de-perro",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "A cara de perro",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación del libro de Alfonso Lessa y conversación con el autor.",
+   "lugar": {
+    "nombre": "Librería El Virrey",
+    "direccion": "21 de Setiembre 2747",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-el-virrey-2230-el-tridente",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "El tridente",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Poder narco en Uruguay. Antonio Ladra presenta su libro y conversa sobre el poder del narcotráfico en el país.",
+   "lugar": {
+    "nombre": "Librería El Virrey",
+    "direccion": "21 de Setiembre 2747",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-fundacion-de-cultura-universita-0900-fundacion-de-cultura-universitaria",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Fundación de Cultura Universitaria",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "Exposición y presentación por los 60 años de la institución.",
+   "lugar": {
+    "nombre": "Librería Fundación de Cultura Universitaria",
+    "direccion": "25 de Mayo 553",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T09:00:00-03:00",
+     "fin": "2026-11-13T20:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-guyunusa-2130-el-living-del-goce",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "El living del goce",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Guyunusa lleva su living a la calle para conversar sobre literatura, sexualidad, humor y activismo. Un encuentro sobre el derecho a desear, decidir y habitar el propio cuerpo sin culpas.",
+   "lugar": {
+    "nombre": "Librería Guyunusa",
+    "direccion": "Dr. Tristán Narvaja 1601",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-guyunusa-2230-el-goce-suena",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "¡El goce suena!",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Cierre musical con tres propuestas de mujeres músicas: Charlie Cromo a las 22:30, Espíritu Olímpico a las 23:00 y Las Toscas a las 23:30.",
+   "lugar": {
+    "nombre": "Librería Guyunusa",
+    "direccion": "Dr. Tristán Narvaja 1601",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-lannister-comics-libros-1900-taller-de-storytelling",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Taller de storytelling",
+   "categoria": "taller",
+   "categoria_segura": false,
+   "descripcion_corta": "El guionista Diego Vázquez propone un taller de creación de historias cortas y escritura creativa. Podés llevar una historia empezada o crear una desde cero. Inscripción por redes sociales o WhatsApp.",
+   "lugar": {
+    "nombre": "Lannister Comics & Libros",
+    "direccion": "Av. 18 de Julio 892",
+    "lat": null,
+    "lon": null,
+    "barrio": "Centro"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-13T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-mundos-invisibles-2000-encuentro-con-escritores-de-editorial-mo",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Encuentro con escritores de Editorial Moa Demkroff",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Participan Ana María Rappanello, Mauricio Zieleniec, Olga Armand Ugon, Martín Olivera, Edison Aguiar, Cecilia Charquero y Giselle Petrides, quienes compartirán sus libros y experiencias creativas. Coordina Daniel Corch.",
+   "lugar": {
+    "nombre": "Librería Mundos Invisibles",
+    "direccion": "Av. Gral. Rivera 2205",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": "2026-11-13T23:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-mundos-invisibles-2030-mas-de-un-nacimiento-en-una-misma-vida",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Más de un nacimiento en una misma vida",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Encuentro para reflexionar sobre la percepción, la existencia y las posibilidades del presente.",
+   "lugar": {
+    "nombre": "Librería Mundos Invisibles",
+    "direccion": "Av. Gral. Rivera 2205",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": "2026-11-13T21:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-mundos-invisibles-2215-musica-y-palabras-para-el-encuentro",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Música y palabras para el encuentro",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Experiencia musical íntima que combina canciones de autor, poesía, narrativa, cánticos y mantras, con momentos de reflexión y meditación.",
+   "lugar": {
+    "nombre": "Librería Mundos Invisibles",
+    "direccion": "Av. Gral. Rivera 2205",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:15:00-03:00",
+     "fin": "2026-11-13T23:15:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libros-de-la-arena-pocitos-1930-a-texto-en-cuello",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "A texto en cuello",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Micrófono abierto a lecturas. Lectura de cuentos breves seleccionados del concurso realizado en redes sociales, además de poemas y fragmentos de libros y autores que dejaron huella.",
+   "lugar": {
+    "nombre": "Libros de la Arena Pocitos",
+    "direccion": "Juan Benito Blanco 962",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:30:00-03:00",
+     "fin": "2026-11-13T20:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libros-de-la-arena-pocitos-2100-trabaja-para-no-cerrar",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Trabaja para no cerrar",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Conversatorio con Germán Di Pierro sobre su libro Efectos especiales, las ideas que impulsan su escritura y el rol del artista en la actualidad.",
+   "lugar": {
+    "nombre": "Libros de la Arena Pocitos",
+    "direccion": "Juan Benito Blanco 962",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": "2026-11-13T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libros-de-la-arena-pocitos-2230-alias-tuk",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Alias Tuk",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Un personaje de otro planeta llega a Libros de la Arena Pocitos con canciones y un mensaje de paz, amor y esperanza.",
+   "lugar": {
+    "nombre": "Libros de la Arena Pocitos",
+    "direccion": "Juan Benito Blanco 962",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libros-del-paso-2200-charla-el-libro-de-terror-en-uruguay",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Charla: El libro de terror en Uruguay",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Un encuentro para conversar sobre la literatura de terror en el país.",
+   "lugar": {
+    "nombre": "Libros del Paso",
+    "direccion": "Av. 18 de Julio 1308",
+    "lat": null,
+    "lon": null,
+    "barrio": "Centro"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libros-del-paso-2300-concurso-de-disfraces",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Concurso de disfraces",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Viernes trece, noche de terror. Participá con tu disfraz y descubrí cuál es el más original.",
+   "lugar": {
+    "nombre": "Libros del Paso",
+    "direccion": "Av. 18 de Julio 1308",
+    "lat": null,
+    "lon": null,
+    "barrio": "Centro"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-mercadito-eureka-1900-presentacion-de-susurros-insistentes-ant",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Presentación de Susurros insistentes ante la crueldad y Atisbo/Abismo",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación de las obras de Susurro Resistente (Leticia Pérez de Sierra) y Lilián Toledo.",
+   "lugar": {
+    "nombre": "Mercadito Eureka",
+    "direccion": "San Salvador 1981",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-mercadito-eureka-2100-presentacion-de-aparta-mientos-libro-de-",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Presentación de Aparta/mientos, libro de Santiago Ferreira",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Mercadito Eureka",
+    "direccion": "San Salvador 1981",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-mercadito-eureka-2200-presentacion-del-tarot-de-las-videntes-d",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Presentación del Tarot de las Videntes, de Lidia Martínez Novoa",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Mercadito Eureka",
+    "direccion": "San Salvador 1981",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-minerva-libros-2000-alfonso-lessa-presenta-su-ultimo-libro-a",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Alfonso Lessa presenta su último libro, A cara de perro",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Minerva Libros",
+    "direccion": "Dr. Tristán Narvaja 1679",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-minerva-libros-2045-presentacion-del-coro-coordinado-por-san",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Presentación del coro coordinado por Santiago Wirth, integrado por aproximadamente 20…",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación del coro coordinado por Santiago Wirth, integrado por aproximadamente 20 participantes.",
+   "lugar": {
+    "nombre": "Minerva Libros",
+    "direccion": "Dr. Tristán Narvaja 1679",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:45:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-minerva-libros-2130-constelacion-del-navio",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Constelación del Navío",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Poesía completa de Amanda Berenguer (1952-2010). Presentación a cargo de Luis Bravo y Raquel Diana.",
+   "lugar": {
+    "nombre": "Minerva Libros",
+    "direccion": "Dr. Tristán Narvaja 1679",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-minerva-libros-2230-manuel-perez-bravo-conversa-con-sergio-i",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Manuel Pérez Bravo conversa con Sergio Israel sobre su libro ¿Quién se llevó mis vacas?…",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Manuel Pérez Bravo conversa con Sergio Israel sobre su libro ¿Quién se llevó mis vacas?, acerca del caso Conexión Ganadera.",
+   "lugar": {
+    "nombre": "Minerva Libros",
+    "direccion": "Dr. Tristán Narvaja 1679",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-minerva-libros-2330-lanzamiento-de-la-revista-literaria-fuga",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Lanzamiento de la revista literaria Fuga",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Minerva Libros",
+    "direccion": "Dr. Tristán Narvaja 1679",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-oruga-libros-0900-el-libro-te-elige",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "El libro te elige",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Elegí una lectura sorpresa: los libros estarán envueltos y solo podrás conocerlos a través de una breve descripción preparada por el equipo de la librería.",
+   "lugar": {
+    "nombre": "Oruga Libros",
+    "direccion": "Constituyente 2022",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T09:00:00-03:00",
+     "fin": "2026-11-13T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-oruga-libros-1800-poesia-rimas-y-algo-mas",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Poesía, rimas y algo más",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación de Palabras para jugar, con un taller de rimas y creación de títeres.",
+   "lugar": {
+    "nombre": "Oruga Libros",
+    "direccion": "Constituyente 2022",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T18:00:00-03:00",
+     "fin": "2026-11-14T00:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-oruga-libros-1800-pintacaritas",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Pintacaritas",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Maquillaje artístico para las infancias.",
+   "lugar": {
+    "nombre": "Oruga Libros",
+    "direccion": "Constituyente 2022",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T18:00:00-03:00",
+     "fin": "2026-11-13T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-oruga-libros-1900-oh-si",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "¡Oh, sí!",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Una historia invertida. Espectáculo interactivo que combina narración oral y teatro, con cuentos, imaginación y juegos.",
+   "lugar": {
+    "nombre": "Oruga Libros",
+    "direccion": "Constituyente 2022",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-14T00:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-oruga-libros-2000-animales-bien-contados-y-dibujamos-estra",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Animales Bien Contados y Dibujamos Estrafalarias Fieras",
+   "categoria": "taller",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación del libro Animales Bien Contados y taller para jugar con palabras e inventar animales fantásticos.",
+   "lugar": {
+    "nombre": "Oruga Libros",
+    "direccion": "Constituyente 2022",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": "2026-11-14T00:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-plaza-cafe-0900-el-libro-te-elige",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "El libro te elige",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Cada lector elige un libro envuelto, sin conocer su título ni temática, a partir de una breve descripción preparada por nuestro personal.",
+   "lugar": {
+    "nombre": "Plaza Café",
+    "direccion": "Jackson 885",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T09:00:00-03:00",
+     "fin": "2026-11-13T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-plaza-cafe-1500-microfono-abierto",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Micrófono abierto",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Plaza Café",
+    "direccion": "Jackson 885",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T15:00:00-03:00",
+     "fin": "2026-11-13T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-plaza-cafe-1900-presentacion-de-nenufar",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Presentación de Nenúfar",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Antología poética uruguaya publicada en 2026 por Ediciones Venado Real, que reúne textos de 13 autoras y autores de la escena literaria nacional.",
+   "lugar": {
+    "nombre": "Plaza Café",
+    "direccion": "Jackson 885",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-plaza-cafe-1940-presentacion-de-sofia-aguerre-y-camila-s",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Presentación de Sofía Aguerre y Camila Silva",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Encuentro con las escritoras uruguayas para conocer sus obras y recorridos literarios. Sofía Aguerre explora la fantasía, la ciencia ficción y el misterio. Camila Silva se destaca por su escritura sensible y poética. Entre sus obras se encuentran Entre relojes, Las lunas de marzo, Las noches perdidas, Felicia y los bosques olvidados, Adagio y El año de los girasoles.",
+   "lugar": {
+    "nombre": "Plaza Café",
+    "direccion": "Jackson 885",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:40:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-plaza-cafe-2030-franco-bitancort-martina-ramos-y-diana-g",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Franco Bitancort, Martina Ramos y Diana García Techera",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Encuentro con tres jóvenes escritores que compartirán sus experiencias, obras y procesos creativos. Una conversación sobre las nuevas voces de la literatura uruguaya y los distintos caminos para llegar a los lectores, desde Wattpad y la autopublicación hasta las editoriales tradicionales.",
+   "lugar": {
+    "nombre": "Plaza Café",
+    "direccion": "Jackson 885",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-plaza-cafe-2130-celebramos-el-comic-nacional-con-los-aut",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Celebramos el cómic nacional con los autores de Maldito Canario y La Modernidad Editorial",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Encuentro para conversar sobre sus obras, los desafíos de publicar en Uruguay y la escena nacional de la historieta. Participan, por La Modernidad Editorial: Diego Vázquez, Catalina Rodríguez, Gabriel Ameijenda, Lucas Roselli y Carolina Duarte; por Maldito Canario: Olimarvile Lumaga y Sebastián Navas.",
+   "lugar": {
+    "nombre": "Plaza Café",
+    "direccion": "Jackson 885",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-pocho-kids-1900-el-taller-de-naiat",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "El Taller de Naiat",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Actividades recreativas y artísticas para infancias, jóvenes y familias, inspiradas en el cuento El vestido más lindo del mundo, de Mónica Dos Santos y Colectivo Nzinga.",
+   "lugar": {
+    "nombre": "Pocho Kids",
+    "direccion": "Juan Paullier 1546",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-13T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-pocho-kids-1940-encuentro-con-sofia-aguerre-y-camila-sil",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Encuentro con Sofía Aguerre y Camila Silva",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Las escritoras comparten sus obras y experiencias en la literatura juvenil uruguaya.",
+   "lugar": {
+    "nombre": "Pocho Kids",
+    "direccion": "Juan Paullier 1546",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:40:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-pocho-kids-2030-nuevas-voces-de-la-literatura-uruguaya",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Nuevas voces de la literatura uruguaya",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Franco Bitancort, Martina Ramos y Diana García Techera conversan sobre sus obras y recorridos creativos, desde la poesía y la narrativa hasta Wattpad, la autopublicación y la edición tradicional.",
+   "lugar": {
+    "nombre": "Pocho Kids",
+    "direccion": "Juan Paullier 1546",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-pocho-kids-2130-comic-nacional",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Cómic nacional",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Maldito Canario y La Modernidad Editorial. Encuentro con sus autores para conversar sobre sus obras, los desafíos de publicar en Uruguay y el presente de la historieta nacional.",
+   "lugar": {
+    "nombre": "Pocho Kids",
+    "direccion": "Juan Paullier 1546",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-puro-verso-1900-el-taller-de-naiat",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "El Taller de Naiat",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Actividades recreativas y artísticas para infancias, jóvenes y toda la familia, en torno al cuento El vestido más lindo del mundo, de Mónica Dos Santos y Colectivo Nzinga.",
+   "lugar": {
+    "nombre": "Puro Verso",
+    "direccion": "Av. 18 de Julio 1199",
+    "lat": null,
+    "lon": null,
+    "barrio": "Centro"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-13T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-puro-verso-2000-dolor-de-rambla-estuario-de-pedro-dalton",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Dolor de rambla (Estuario), de Pedro Dalton",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación de su nuevo poemario en una charla con el escritor Mateo Piaggio.",
+   "lugar": {
+    "nombre": "Puro Verso",
+    "direccion": "Av. 18 de Julio 1199",
+    "lat": null,
+    "lon": null,
+    "barrio": "Centro"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": "2026-11-13T20:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-puro-verso-2045-contra-el-antisemitismo-y-sus-instrument",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Contra el antisemitismo y sus instrumentalizaciones (Mentirosa Editora)",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Charla junto a Lucía Erlich, Victoria de Mello y Alejandro Joysz sobre las voces judías, no judías y judeo-palestinas y el funcionamiento de los pactos radicales diseñados por los poderes imperiales.",
+   "lugar": {
+    "nombre": "Puro Verso",
+    "direccion": "Av. 18 de Julio 1199",
+    "lat": null,
+    "lon": null,
+    "barrio": "Centro"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:45:00-03:00",
+     "fin": "2026-11-13T21:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-puro-verso-2130-dialogo-con-el-ganador-del-premio-de-los",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Diálogo con el ganador del Premio de los Libreros de Puro Verso",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Conversación con el ganador del primer Premio de los Libreros de Puro Verso a la Mejor Novela Nacional 2026.",
+   "lugar": {
+    "nombre": "Puro Verso",
+    "direccion": "Av. 18 de Julio 1199",
+    "lat": null,
+    "lon": null,
+    "barrio": "Centro"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-puro-verso-2215-anna-paola-rossi",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Anna Paola Rossi",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Regreso de Sanar desde el alma. Charla abierta sobre el regreso de su libro, publicado por Grijalbo, y cómo sanar a través de los registros akáshicos.",
+   "lugar": {
+    "nombre": "Puro Verso",
+    "direccion": "Av. 18 de Julio 1199",
+    "lat": null,
+    "lon": null,
+    "barrio": "Centro"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:15:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-puro-verso-2300-cantate-una",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Cantate una",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Autores del libro publicado por Acercándonos Ediciones conversan sobre el cancionero murguista, con interpretación de letras.",
+   "lugar": {
+    "nombre": "Puro Verso",
+    "direccion": "Av. 18 de Julio 1199",
+    "lat": null,
+    "lon": null,
+    "barrio": "Centro"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-ronda-espacio-creativo-1930-taller-de-poesia",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Taller de poesía",
+   "categoria": "taller",
+   "categoria_segura": false,
+   "descripcion_corta": "Una invitación a descubrir y compartir la poesía en un encuentro abierto en el café.",
+   "lugar": {
+    "nombre": "Ronda Espacio Creativo",
+    "direccion": "Bulevar España 2141",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-ronda-espacio-creativo-2130-escucha-de-vinilos",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Escucha de vinilos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Selección musical en vinilo para acompañar el cierre de la jornada.",
+   "lugar": {
+    "nombre": "Ronda Espacio Creativo",
+    "direccion": "Bulevar España 2141",
+    "lat": null,
+    "lon": null,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-vila-2300-dj-en-conjunto-con-libreria-arete",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "DJ en conjunto con Librería Areté",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Música en vivo para acompañar el cierre de la noche.",
+   "lugar": {
+    "nombre": "Librería Vila",
+    "direccion": "Dr. Tristán Narvaja 1642",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:00:00-03:00",
+     "fin": "2026-11-14T01:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-pocitos-libros-1930-homenaje-a-julio-sosa-en-el-centenario-d",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Homenaje a Julio Sosa en el centenario de su nacimiento",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Conversación sobre el libro El tango de mi barrio.",
+   "lugar": {
+    "nombre": "Pocitos Libros",
+    "direccion": "Av. Brasil 2561",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-pocitos-libros-2000-bandoneon-y-versos",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Bandoneón y versos",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Pocitos Libros",
+    "direccion": "Av. Brasil 2561",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-pocitos-libros-2030-presentacion-de-julio-sosa-pa-que-sepan-",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Presentación de Julio Sosa pa’ que sepan cómo soy",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Pocitos Libros",
+    "direccion": "Av. Brasil 2561",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-pocitos-libros-2100-presentacion-de-tanguitarra-con-actuacio",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Presentación de Tanguitarra, con actuación musical en vivo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Pocitos Libros",
+    "direccion": "Av. Brasil 2561",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-pocitos-libros-2130-baile-de-tangos-en-la-vereda",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Baile de tangos en la vereda",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Pocitos Libros",
+    "direccion": "Av. Brasil 2561",
+    "lat": null,
+    "lon": null,
+    "barrio": "Pocitos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-feltrinelli-1930-un-hombre-entre-parentesis",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Un hombre entre paréntesis",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Retrato de Mario Levrero. El escritor argentino Mauro Libertella conversa con el periodista uruguayo Nicolás Tábarez sobre su libro dedicado a la vida y obra de Mario Levrero.",
+   "lugar": {
+    "nombre": "Feltrinelli",
+    "direccion": "Sarandí 675",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-feltrinelli-2020-soy-tu-groupie",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Soy tu groupie",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Patricia Turnes, Naoko y Kristel Latecki conversan sobre rock, música y las historias que nacen entre artistas y seguidores.",
+   "lugar": {
+    "nombre": "Feltrinelli",
+    "direccion": "Sarandí 675",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:20:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-feltrinelli-2110-ino-guridi",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Ino Guridi",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Show performático. Intervención en vivo que combina distintos lenguajes artísticos.",
+   "lugar": {
+    "nombre": "Feltrinelli",
+    "direccion": "Sarandí 675",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:10:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-feltrinelli-2200-el-indio-solari-y-oktubre",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "El Indio Solari y Oktubre",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Literatura, rock y revolución. Carolina Bello y Gustavo Rey conversan sobre el libro de Bello y el universo de Patricio Rey y sus Redonditos de Ricota.",
+   "lugar": {
+    "nombre": "Feltrinelli",
+    "direccion": "Sarandí 675",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-feltrinelli-2310-spuntone-mendaro-en-vivo",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Spuntone & Mendaro en vivo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación musical para cerrar la noche.",
+   "lugar": {
+    "nombre": "Feltrinelli",
+    "direccion": "Sarandí 675",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:10:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-la-lupa-libros-1930-shanghai-sonoro",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Shanghai sonoro",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Gabriel Peveroni y Sebastián Auyanet conversan sobre los paisajes musicales de Los desiertos se conectan entre sí y otras novelas del autor.",
+   "lugar": {
+    "nombre": "La Lupa Libros",
+    "direccion": "Peatonal Bacacay 1318 bis",
+    "lat": -34.9070447,
+    "lon": -56.2013156,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-la-lupa-libros-2015-urbanofilia-de-el-gato-y-la-caja",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Urbanofilia, de El Gato y La Caja",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación del libro argentino sobre cómo transformar las ciudades y recuperar los espacios colectivos.",
+   "lugar": {
+    "nombre": "La Lupa Libros",
+    "direccion": "Peatonal Bacacay 1318 bis",
+    "lat": -34.9070447,
+    "lon": -56.2013156,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:15:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-la-lupa-libros-2115-un-rayo-cualquiera",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Un rayo cualquiera",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Historias sin héroe para reparar el desastre Natalia Ortiz Maldonado (autora del libro y editora de Hekht) conversa con Lucía Naser (artista, docente, investigadora, militante) y Elisa Carricajo (actriz, dramaturga, autora y directora teatral).",
+   "lugar": {
+    "nombre": "La Lupa Libros",
+    "direccion": "Peatonal Bacacay 1318 bis",
+    "lat": -34.9070447,
+    "lon": -56.2013156,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:15:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-la-lupa-libros-2215-utopias-feministas-para-una-economia-en-",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Utopías feministas para una economía en crisis Verónica Diz (editora de Madreselva)…",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Utopías feministas para una economía en crisis Verónica Diz (editora de Madreselva) conversa con Daniela Osorio-Cabrera (Núcleo Economía Solidaria y Feminismos) y Mariana García Grisoni (Espacio de Economía Feminista de Uruguay).",
+   "lugar": {
+    "nombre": "La Lupa Libros",
+    "direccion": "Peatonal Bacacay 1318 bis",
+    "lat": -34.9070447,
+    "lon": -56.2013156,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:15:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-la-lupa-libros-2300-malditos-planetas",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Malditos planetas",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación musical para abrir la noche de rock.",
+   "lugar": {
+    "nombre": "La Lupa Libros",
+    "direccion": "Peatonal Bacacay 1318 bis",
+    "lat": -34.9070447,
+    "lon": -56.2013156,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-la-lupa-libros-2345-habra-que-construir-otro-modo-de-vivir",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "¡Habrá que construir otro modo de vivir!",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Cierre musical con La Tabaré en vivo.",
+   "lugar": {
+    "nombre": "La Lupa Libros",
+    "direccion": "Peatonal Bacacay 1318 bis",
+    "lat": -34.9070447,
+    "lon": -56.2013156,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:45:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-montevideo-2015-mesa-sobre-tabare-etcheverry-cantor-y-fa",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Mesa sobre Tabaré Etcheverry, cantor y faro de nuestro canto popular",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "El escritor e investigador Juan Carlos Albarado departirá con el público presente sobre el derrotero de esa presencia insoslayable de nuestro folclore musical y presentará la nueva edición del libro «Tabaré Etcheverry. Vida y obra de un intérprete popular».",
+   "lugar": {
+    "nombre": "Librería Montevideo",
+    "direccion": "Tristán Narvaja 1536",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:15:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-montevideo-2100-mesa-nuestras-carceles-nuestros-presos-y",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Mesa: Nuestras cárceles, nuestros presos y nuestras políticas",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Conversación sobre lo que se está haciendo y lo que falta hacer con nuestras cárceles, la educación y la reinserción de las personas privadas de libertad.",
+   "lugar": {
+    "nombre": "Librería Montevideo",
+    "direccion": "Tristán Narvaja 1536",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-biblioteca-popular-el-cantaro-fresco-1900-cadaver-exquisito",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Cadáver exquisito",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Biblioteca Popular El Cántaro Fresco",
+    "direccion": "Altamirano esquina Luis Alberto de Herrera",
+    "lat": null,
+    "lon": null,
+    "barrio": "Buceo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-13T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-biblioteca-popular-el-cantaro-fresco-1900-oraculo-de-la-biblio",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Oráculo de la biblio",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Biblioteca Popular El Cántaro Fresco",
+    "direccion": "Altamirano esquina Luis Alberto de Herrera",
+    "lat": null,
+    "lon": null,
+    "barrio": "Buceo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-13T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-biblioteca-popular-el-cantaro-fresco-1930-busqueda-del-tesoro-dedicada-a-ninos-y-n",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Búsqueda del tesoro dedicada a niños y niñas",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Biblioteca Popular El Cántaro Fresco",
+    "direccion": "Altamirano esquina Luis Alberto de Herrera",
+    "lat": null,
+    "lon": null,
+    "barrio": "Buceo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-biblioteca-popular-el-cantaro-fresco-2000-partida-de-club-de-detectives",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Partida de Club de detectives",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Biblioteca Popular El Cántaro Fresco",
+    "direccion": "Altamirano esquina Luis Alberto de Herrera",
+    "lat": null,
+    "lon": null,
+    "barrio": "Buceo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-biblioteca-popular-el-cantaro-fresco-2030-trueque-de-libros-y-secretos",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Trueque de libros y secretos",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Biblioteca Popular El Cántaro Fresco",
+    "direccion": "Altamirano esquina Luis Alberto de Herrera",
+    "lat": null,
+    "lon": null,
+    "barrio": "Buceo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-centro-de-fotografia-de-montevideo-1930-activacion-fanzinera",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Activación fanzinera",
+   "categoria": "taller",
+   "categoria_segura": false,
+   "descripcion_corta": "Desarmá y armá tu publicación. Confección de fanzines a partir de historias ya publicadas; libre participación hasta completar aforo. Hasta 23:30 CdF se suma a la Noche de las Librerías. Acceso a la azotea verde y al balcón fotográfico; proyecciones; mesa especial de CdF Ediciones; mediateca y libros fotográficos; taller de fanzines; exposiciones fotográficas. Público general. El espacio no…",
+   "lugar": {
+    "nombre": "Centro de Fotografía de Montevideo",
+    "direccion": "Av. 18 de Julio 885",
+    "lat": null,
+    "lon": null,
+    "barrio": "Centro"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:30:00-03:00",
+     "fin": "2026-11-13T21:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-linardi-y-risso-1900-la-exposicion-de-primeras-ediciones-y-ot",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "La exposición de primeras ediciones y otras publicaciones raras de Joaquín Torres García",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Librería Linardi y Risso",
+    "direccion": "Juan Carlos Gómez 1435",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-14T01:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-trazo-1900-la-propuesta-reune-actividades-varias-en",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "La propuesta reúne actividades varias en diferentes espacios de la sede central de FADU",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación de publicaciones, exposiciones, feria de libros y emprendedores e intervenciones artísticas/musicales.",
+   "lugar": {
+    "nombre": "Librería Trazo",
+    "direccion": "Bv. Gral. Artigas 1031",
+    "lat": -34.909655,
+    "lon": -56.1637003,
+    "barrio": "Parque Rodó"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-14T01:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-pocho-1900-noche-de-las-librerias-fadu-la-propuesta",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Noche de las Librerías | FADU La propuesta reúne actividades varias en diferentes…",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Noche de las Librerías | FADU La propuesta reúne actividades varias en diferentes espacios de la sede central de FADU: presentación de publicaciones, exposiciones, feria de libros y emprendedores e intervenciones artísticas/musicales.",
+   "lugar": {
+    "nombre": "Librería Pocho",
+    "direccion": "Av. 18 de Julio 2198",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-14T00:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-libreria-pocho-2000-encuentro-con-escritores-de-editorial-mo",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Encuentro con escritores de Editorial Moa Demkroff Ana María Rappanello con su ensayo…",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Encuentro con escritores de Editorial Moa Demkroff Ana María Rappanello con su ensayo, Creer para crear. Cómo conectar con el mundo creativo - Mauricio Zieleniec, con su ensayo filosófico, ¿Qué me estás diciendo? (La evolución humana y las religiones) - Olga Armand Ugon y Martín Olivera (dos artistas plásticos) conversaremos sobre el libro Proyecto Arte y el arte contemporáneo. - Edison Aguiar y…",
+   "lugar": {
+    "nombre": "Librería Pocho",
+    "direccion": "Av. 18 de Julio 2198",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": "2026-11-13T23:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  }
+ ]
+}

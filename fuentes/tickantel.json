@@ -1,98 +1,12 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-07T12:44:09.546028-03:00",
+ "corrida": "2026-11-07T15:01:49.354422-03:00",
  "ok": true,
  "cantidad": 133,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021457",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
-   "titulo": "Ciclo (no tan) Solos al mediodía",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "CICLO (No tan) Solos al mediodía 17va edición - Diversidad Dirección artística y curaduría: Andrea Arobba Producción ejecutiva: GEN Centro de Artes y Ciencias Producción: Polen productora cultural - Catalina Lans Asistencia de producción: Emiliano Bittencourt Registro audiovisual: Daiana Di Candia…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-07T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-13T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-14T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390_banner_web_generico_TS.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021919",
@@ -105,7 +19,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -163,7 +78,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -214,7 +130,8 @@
     "nombre": "Planetario de Montevideo",
     "direccion": null,
     "lat": -34.9023524,
-    "lon": -56.1445355
+    "lon": -56.1445355,
+    "barrio": null
    },
    "funciones": [
     {
@@ -279,7 +196,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -330,7 +248,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -381,7 +300,8 @@
     "nombre": "Sala Jorge Lazaroff",
     "direccion": null,
     "lat": -34.8557558,
-    "lon": -56.1324247
+    "lon": -56.1324247,
+    "barrio": null
    },
    "funciones": [
     {
@@ -425,7 +345,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -499,7 +420,8 @@
     "nombre": "Sala Verdi",
     "direccion": null,
     "lat": -34.90821430964771,
-    "lon": -56.196500823734254
+    "lon": -56.196500823734254,
+    "barrio": null
    },
    "funciones": [
     {
@@ -601,7 +523,8 @@
     "nombre": "Centro Cultural Terminal Goes",
     "direccion": null,
     "lat": -34.8822811,
-    "lon": -56.1829079
+    "lon": -56.1829079,
+    "barrio": null
    },
    "funciones": [
     {
@@ -645,7 +568,8 @@
     "nombre": "Centro Cultural Florencio Sánchez",
     "direccion": null,
     "lat": -34.89231,
-    "lon": -56.24801
+    "lon": -56.24801,
+    "barrio": null
    },
    "funciones": [
     {
@@ -689,7 +613,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -740,7 +665,8 @@
     "nombre": "Sala Verdi",
     "direccion": null,
     "lat": -34.90821430964771,
-    "lon": -56.196500823734254
+    "lon": -56.196500823734254,
+    "barrio": null
    },
    "funciones": [
     {
@@ -812,7 +738,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -863,7 +790,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -907,7 +835,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -951,7 +880,8 @@
     "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
     "lat": -34.9026912,
-    "lon": -56.1776624
+    "lon": -56.1776624,
+    "barrio": null
    },
    "funciones": [
     {
@@ -995,7 +925,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1053,7 +984,8 @@
     "nombre": "Centro Cultural Florencio Sánchez",
     "direccion": null,
     "lat": -34.89231,
-    "lon": -56.24801
+    "lon": -56.24801,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1092,7 +1024,8 @@
     "nombre": "Teatro de Verano",
     "direccion": null,
     "lat": -34.9198517,
-    "lon": -56.1698383
+    "lon": -56.1698383,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1131,7 +1064,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1182,7 +1116,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1247,7 +1182,8 @@
     "nombre": "Sala Verdi",
     "direccion": null,
     "lat": -34.90821430964771,
-    "lon": -56.196500823734254
+    "lon": -56.196500823734254,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1286,7 +1222,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1337,7 +1274,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1376,7 +1314,8 @@
     "nombre": "Sala Verdi",
     "direccion": null,
     "lat": -34.90821430964771,
-    "lon": -56.196500823734254
+    "lon": -56.196500823734254,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1450,7 +1389,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1489,7 +1429,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1540,7 +1481,8 @@
     "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
     "lat": -34.9026912,
-    "lon": -56.1776624
+    "lon": -56.1776624,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1584,7 +1526,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1623,7 +1566,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1681,7 +1625,8 @@
     "nombre": "Centro Cultural Terminal Goes",
     "direccion": null,
     "lat": -34.8822811,
-    "lon": -56.1829079
+    "lon": -56.1829079,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1725,7 +1670,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1764,7 +1710,8 @@
     "nombre": "Planetario de Montevideo",
     "direccion": null,
     "lat": -34.9023524,
-    "lon": -56.1445355
+    "lon": -56.1445355,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1810,7 +1757,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1875,7 +1823,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1916,6 +1865,86 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021457",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "CICLO (No tan) Solos al mediodía 17va edición - Diversidad Dirección artística y curaduría: Andrea Arobba Producción ejecutiva: GEN Centro de Artes y Ciencias Producción: Polen productora cultural - Catalina Lans Asistencia de producción: Emiliano Bittencourt Registro audiovisual: Daiana Di Candia…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390_banner_web_generico_TS.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021666",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021666/luca-prodan-la-vida-que-nunca-te-contaron",
    "titulo": "Luca Prodan: La vida que nunca te contaron",
@@ -1926,7 +1955,8 @@
     "nombre": "Centro Cultural Terminal Goes",
     "direccion": null,
     "lat": -34.8822811,
-    "lon": -56.1829079
+    "lon": -56.1829079,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1970,7 +2000,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2016,7 +2047,8 @@
     "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
     "lat": -34.9026912,
-    "lon": -56.1776624
+    "lon": -56.1776624,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2060,7 +2092,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2106,7 +2139,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": -34.8629904,
-    "lon": -56.1535167
+    "lon": -56.1535167,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2145,7 +2179,8 @@
     "nombre": "Centro Cultural Artesano",
     "direccion": null,
     "lat": -34.8253632,
-    "lon": -56.2043076
+    "lon": -56.2043076,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2203,7 +2238,8 @@
     "nombre": "Liga de Fomento Atlántida (LIFA) R11 y R Inter",
     "direccion": null,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2242,7 +2278,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2281,7 +2318,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": -34.8629904,
-    "lon": -56.1535167
+    "lon": -56.1535167,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2320,7 +2358,8 @@
     "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
     "lat": -34.9026912,
-    "lon": -56.1776624
+    "lon": -56.1776624,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2364,7 +2403,8 @@
     "nombre": "Centro Cultural Florencio Sánchez",
     "direccion": null,
     "lat": -34.89231,
-    "lon": -56.24801
+    "lon": -56.24801,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2408,7 +2448,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2447,7 +2488,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2491,7 +2533,8 @@
     "nombre": "Sala Verdi",
     "direccion": null,
     "lat": -34.90821430964771,
-    "lon": -56.196500823734254
+    "lon": -56.196500823734254,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2530,7 +2573,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": -34.8629904,
-    "lon": -56.1535167
+    "lon": -56.1535167,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2569,7 +2613,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2608,7 +2653,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2673,7 +2719,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2712,7 +2759,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": -34.8629904,
-    "lon": -56.1535167
+    "lon": -56.1535167,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2751,7 +2799,8 @@
     "nombre": "Centro Cultural Terminal Goes",
     "direccion": null,
     "lat": -34.8822811,
-    "lon": -56.1829079
+    "lon": -56.1829079,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2795,7 +2844,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2834,7 +2884,8 @@
     "nombre": "Centro Cultural Florencio Sánchez",
     "direccion": null,
     "lat": -34.89231,
-    "lon": -56.24801
+    "lon": -56.24801,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2878,7 +2929,8 @@
     "nombre": "Sala Jorge Lazaroff",
     "direccion": null,
     "lat": -34.8557558,
-    "lon": -56.1324247
+    "lon": -56.1324247,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2922,7 +2974,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2961,7 +3014,8 @@
     "nombre": "Centro Cultural Florencio Sánchez",
     "direccion": null,
     "lat": -34.89231,
-    "lon": -56.24801
+    "lon": -56.24801,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3005,7 +3059,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3044,7 +3099,8 @@
     "nombre": "Teatro de Verano",
     "direccion": null,
     "lat": -34.9198517,
-    "lon": -56.1698383
+    "lon": -56.1698383,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3083,7 +3139,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": -34.8629904,
-    "lon": -56.1535167
+    "lon": -56.1535167,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3122,7 +3179,8 @@
     "nombre": "Centro Cultural Florencio Sánchez",
     "direccion": null,
     "lat": -34.89231,
-    "lon": -56.24801
+    "lon": -56.24801,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3166,7 +3224,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3210,7 +3269,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3249,7 +3309,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3293,7 +3354,8 @@
     "nombre": "Sala Verdi",
     "direccion": null,
     "lat": -34.90821430964771,
-    "lon": -56.196500823734254
+    "lon": -56.196500823734254,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3332,7 +3394,8 @@
     "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
     "lat": -34.9026912,
-    "lon": -56.1776624
+    "lon": -56.1776624,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3376,7 +3439,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3415,7 +3479,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3454,7 +3519,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3493,7 +3559,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3560,7 +3627,8 @@
     "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
     "lat": -34.9026912,
-    "lon": -56.1776624
+    "lon": -56.1776624,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3604,7 +3672,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3655,7 +3724,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3694,7 +3764,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3733,7 +3804,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3772,7 +3844,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3816,7 +3889,8 @@
     "nombre": "Centro Cultural Terminal Goes",
     "direccion": null,
     "lat": -34.8822811,
-    "lon": -56.1829079
+    "lon": -56.1829079,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3860,7 +3934,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3899,7 +3974,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": -34.8629904,
-    "lon": -56.1535167
+    "lon": -56.1535167,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3938,7 +4014,8 @@
     "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
     "lat": -34.9026912,
-    "lon": -56.1776624
+    "lon": -56.1776624,
+    "barrio": null
    },
    "funciones": [
     {
@@ -3982,7 +4059,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4026,7 +4104,8 @@
     "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
     "lat": -34.9026912,
-    "lon": -56.1776624
+    "lon": -56.1776624,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4070,7 +4149,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4109,7 +4189,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4153,7 +4234,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4197,7 +4279,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4236,7 +4319,8 @@
     "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
     "lat": -34.9026912,
-    "lon": -56.1776624
+    "lon": -56.1776624,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4280,7 +4364,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4324,7 +4409,8 @@
     "nombre": "Planetario de Montevideo",
     "direccion": null,
     "lat": -34.9023524,
-    "lon": -56.1445355
+    "lon": -56.1445355,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4363,7 +4449,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": -34.8629904,
-    "lon": -56.1535167
+    "lon": -56.1535167,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4402,7 +4489,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4441,7 +4529,8 @@
     "nombre": "Centro Cultural Terminal Goes",
     "direccion": null,
     "lat": -34.8822811,
-    "lon": -56.1829079
+    "lon": -56.1829079,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4485,7 +4574,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4529,7 +4619,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": -34.8629904,
-    "lon": -56.1535167
+    "lon": -56.1535167,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4568,7 +4659,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4612,7 +4704,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4656,7 +4749,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4700,7 +4794,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4739,7 +4834,8 @@
     "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
     "lat": -34.9026912,
-    "lon": -56.1776624
+    "lon": -56.1776624,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4783,7 +4879,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4822,7 +4919,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4861,7 +4959,8 @@
     "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
     "lat": -34.9026912,
-    "lon": -56.1776624
+    "lon": -56.1776624,
+    "barrio": null
    },
    "funciones": [
     {
@@ -4905,7 +5004,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5007,7 +5107,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5046,7 +5147,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5085,7 +5187,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5129,7 +5232,8 @@
     "nombre": "Teatro de Verano",
     "direccion": null,
     "lat": -34.9198517,
-    "lon": -56.1698383
+    "lon": -56.1698383,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5168,7 +5272,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5212,7 +5317,8 @@
     "nombre": "Sala Jorge Lazaroff",
     "direccion": null,
     "lat": -34.8557558,
-    "lon": -56.1324247
+    "lon": -56.1324247,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5256,7 +5362,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5300,7 +5407,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5344,7 +5452,8 @@
     "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
     "lat": -34.9026912,
-    "lon": -56.1776624
+    "lon": -56.1776624,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5388,7 +5497,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5427,7 +5537,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": -34.8629904,
-    "lon": -56.1535167
+    "lon": -56.1535167,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5466,7 +5577,8 @@
     "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
     "lat": -34.90642,
-    "lon": -56.19628
+    "lon": -56.19628,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5505,7 +5617,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": null,
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5549,7 +5662,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": -34.8629904,
-    "lon": -56.1535167
+    "lon": -56.1535167,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5593,7 +5707,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5632,7 +5747,8 @@
     "nombre": "Auditorio Adela Reta",
     "direccion": null,
     "lat": -34.90428,
-    "lon": -56.19871
+    "lon": -56.19871,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5671,7 +5787,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5710,7 +5827,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5749,7 +5867,8 @@
     "nombre": "Teatro Solís",
     "direccion": null,
     "lat": -34.90786,
-    "lon": -56.20101
+    "lon": -56.20101,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5788,7 +5907,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": -34.8629904,
-    "lon": -56.1535167
+    "lon": -56.1535167,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5827,7 +5947,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": -34.8629904,
-    "lon": -56.1535167
+    "lon": -56.1535167,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5866,7 +5987,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": -34.8629904,
-    "lon": -56.1535167
+    "lon": -56.1535167,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5905,7 +6027,8 @@
     "nombre": "Teatro de Verano",
     "direccion": null,
     "lat": -34.9198517,
-    "lon": -56.1698383
+    "lon": -56.1698383,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5944,7 +6067,8 @@
     "nombre": "Cine Teatro Municipal",
     "direccion": null,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "barrio": null
    },
    "funciones": [
     {
@@ -5988,7 +6112,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": -34.8629904,
-    "lon": -56.1535167
+    "lon": -56.1535167,
+    "barrio": null
    },
    "funciones": [
     {
@@ -6027,7 +6152,8 @@
     "nombre": "Antel Arena",
     "direccion": null,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "barrio": null
    },
    "funciones": [
     {

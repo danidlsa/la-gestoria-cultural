@@ -1,6 +1,6 @@
 {
  "fuente": "gurvich",
- "corrida": "2026-11-07T12:55:28.665067-03:00",
+ "corrida": "2026-11-07T15:15:52.483509-03:00",
  "ok": true,
  "cantidad": 2,
  "errores": [],
@@ -17,7 +17,8 @@
     "nombre": "Museo Gurvich",
     "direccion": "Sarandí 524",
     "lat": -34.90748,
-    "lon": -56.2043
+    "lon": -56.2043,
+    "barrio": null
    },
    "funciones": [
     {
@@ -476,7 +477,8 @@
     "nombre": "Museo Gurvich",
     "direccion": "Sarandí 524",
     "lat": -34.90748,
-    "lon": -56.2043
+    "lon": -56.2043,
+    "barrio": null
    },
    "funciones": [
     {

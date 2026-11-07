@@ -1,15 +1,7 @@
 {
- "generado": "2026-11-07T12:56:40.847640-03:00",
- "cantidad": 22,
+ "generado": "2026-11-07T15:17:01.831423-03:00",
+ "cantidad": 23,
  "ciclos": [
-  {
-   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
-   "titulo": "Ciclo (no tan) Solos al mediodía",
-   "lugar_id": "teatro-solis",
-   "desde": "2026-11-07T14:00:00-03:00",
-   "hasta": "2026-11-28T14:00:00-03:00",
-   "cantidad": 1
-  },
   {
    "id": "ciclo-ciclo-de-teatro",
    "titulo": "Ciclo de teatro",
@@ -81,6 +73,22 @@
    "desde": "2026-11-11T20:30:00-03:00",
    "hasta": "2026-11-22T20:00:00-03:00",
    "cantidad": 5
+  },
+  {
+   "id": "ciclo-la-noche-de-las-librerias-2026",
+   "titulo": "La Noche de las Librerías 2026",
+   "lugar_id": null,
+   "desde": "2026-11-13T09:00:00-03:00",
+   "hasta": "2026-11-14T00:30:00-03:00",
+   "cantidad": 79
+  },
+  {
+   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "lugar_id": "teatro-solis",
+   "desde": "2026-11-13T14:00:00-03:00",
+   "hasta": "2026-11-28T14:00:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-ciclo-de-cine",

@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-07T12:56:40.847640-03:00",
- "cantidad": 180,
+ "generado": "2026-11-07T15:17:01.831423-03:00",
+ "cantidad": 201,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -9,6 +9,7 @@
    "direccion": "25 de Mayo 263, 11000 Montevideo, Depart",
    "lat": -34.907359,
    "lon": -56.210401,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -18,6 +19,7 @@
    "direccion": "Complejo Sala Show",
    "lat": -34.901063,
    "lon": -56.196562,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -27,6 +29,7 @@
    "direccion": "4QQW+G3F, Montevideo",
    "lat": -34.861187,
    "lon": -56.204828,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -36,6 +39,7 @@
    "direccion": "Centro - Colonia 1870, 11200 Montevideo, Departam",
    "lat": -34.901043,
    "lon": -56.176327,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -45,6 +49,17 @@
    "direccion": "Canelones 1122, 11100 Montevideo",
    "lat": -34.908911,
    "lon": -56.19175,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "adagio-libreria-cafe",
+   "nombre": "Adagio Librería Café",
+   "alias": [],
+   "direccion": "Gral. Gregorio Suárez 2741",
+   "lat": -34.9185227,
+   "lon": -56.1594728,
+   "barrio": "Punta Carretas",
    "ciudad": "Montevideo"
   },
   {
@@ -56,6 +71,7 @@
    "direccion": "Gaboto 1384",
    "lat": -34.903989,
    "lon": -56.177825,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -67,6 +83,37 @@
    "direccion": "Bv. Gral. Artigas 1271, 11200 Montevideo",
    "lat": -34.905102,
    "lon": -56.164132,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "amazonia",
+   "nombre": "Amazonia",
+   "alias": [],
+   "direccion": "Maldonado 1775",
+   "lat": -34.9085266,
+   "lon": -56.1766845,
+   "barrio": "Palermo",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "amuleto-libros-de-la-arena",
+   "nombre": "Amuleto – Libros de la Arena",
+   "alias": [],
+   "direccion": "Orinoco 4964",
+   "lat": -34.8958784,
+   "lon": -56.1017922,
+   "barrio": "Malvín",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "america-latina",
+   "nombre": "América Latina",
+   "alias": [],
+   "direccion": "Av. 18 de Julio 2089",
+   "lat": -34.8995434,
+   "lon": -56.1702291,
+   "barrio": "Cordón",
    "ciudad": "Montevideo"
   },
   {
@@ -76,6 +123,7 @@
    "direccion": "Ansina e Isla de Flores",
    "lat": -34.910662638218,
    "lon": -56.179798565469,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -85,6 +133,7 @@
    "direccion": "Av. Dámaso A. Larrañaga 4001",
    "lat": -34.8629904,
    "lon": -56.1535167,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -94,6 +143,7 @@
    "direccion": "Canelones 1136",
    "lat": -34.908833,
    "lon": -56.191511,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -103,6 +153,7 @@
    "direccion": "Dr. Aquiles R. Lanza 1235, 11100 Montevi",
    "lat": -34.907887,
    "lon": -56.187849,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -112,6 +163,7 @@
    "direccion": "Hermanos Gil 945",
    "lat": -34.870814,
    "lon": -56.198579,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -127,6 +179,7 @@
    "direccion": "Andes 1459",
    "lat": -34.90428,
    "lon": -56.19871,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -136,6 +189,7 @@
    "direccion": null,
    "lat": -34.90642,
    "lon": -56.19628,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -145,6 +199,7 @@
    "direccion": null,
    "lat": -34.9026912,
    "lon": -56.1776624,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -154,6 +209,7 @@
    "direccion": "Av. República Federal de Alemania, 11300 Montevideo, Departamento de Montevideo",
    "lat": -34.9105987,
    "lon": -56.1317516,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -163,6 +219,7 @@
    "direccion": "Av. Gral. Flores 2468, 11800 Montevideo,",
    "lat": -34.882217,
    "lon": -56.182381,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -172,6 +229,7 @@
    "direccion": "Filipinas 3661",
    "lat": -34.886471,
    "lon": -56.256732,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -183,6 +241,20 @@
    "direccion": "3QVX+56Q, Bartolomé Mitre 1323, 11000 Mo",
    "lat": -34.907083,
    "lon": -56.201942,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "biblioteca-popular-el-cantaro-fresco",
+   "nombre": "Biblioteca Popular El Cántaro Fresco",
+   "alias": [
+    "Biblioteca El Cántaro Fresco",
+    "El Cántaro Fresco"
+   ],
+   "direccion": "Altamirano esquina Luis Alberto de Herrera",
+   "lat": -34.8714543,
+   "lon": -56.162738,
+   "barrio": "Bolívar",
    "ciudad": "Montevideo"
   },
   {
@@ -192,6 +264,7 @@
    "direccion": null,
    "lat": -34.9094876,
    "lon": -56.1998589,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -201,6 +274,7 @@
    "direccion": "Complejo Prado",
    "lat": -34.861076,
    "lon": -56.20152,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -210,6 +284,7 @@
    "direccion": "Bv. Gral. Artigas 3946, 11700 Montevideo",
    "lat": -34.871123,
    "lon": -56.190083,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -219,6 +294,7 @@
    "direccion": "Soriano 1263, 11100 Montevideo, Departam",
    "lat": -34.90748,
    "lon": -56.18862,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -228,6 +304,7 @@
    "direccion": "Lomas de Zamora esq. Luis Batlle Berres",
    "lat": -34.817073965653,
    "lon": -56.311527508593,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -237,6 +314,7 @@
    "direccion": "Juan Carlos Gómez 1362",
    "lat": -34.90653,
    "lon": -56.20278,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -246,6 +324,7 @@
    "direccion": "Canelones 1963",
    "lat": -34.907325,
    "lon": -56.1728223,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -255,6 +334,7 @@
    "direccion": "4W8Q+5WG, Dr Eduardo Couture, 11500 Mont",
    "lat": -34.884562,
    "lon": -56.060176,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -264,6 +344,7 @@
    "direccion": null,
    "lat": -34.8627617,
    "lon": -56.0641586,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -273,6 +354,7 @@
    "direccion": "Vilardebó 1169",
    "lat": -34.877449,
    "lon": -56.193935,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -282,6 +364,7 @@
    "direccion": "Rambla Gandhi 633",
    "lat": -34.920998,
    "lon": -56.149856,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -291,6 +374,7 @@
    "direccion": "Dr. Benito Cuñarro S/N (ex Hotel del Lago, Parque Rivera)",
    "lat": -34.87814,
    "lon": -56.087715,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -300,6 +384,7 @@
    "direccion": "Bv. Aparicio Saravía 4697",
    "lat": -34.825201,
    "lon": -56.204054,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -309,6 +394,7 @@
    "direccion": "Heraclio C. Fajardo 3464",
    "lat": -34.861031000662,
    "lon": -56.16556628754,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -318,6 +404,7 @@
    "direccion": "Grecia 3281",
    "lat": -34.89227,
    "lon": -56.247973,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -327,6 +414,7 @@
    "direccion": "Pedro Trápani 1350 esquina Bayona.",
    "lat": -34.854031611412,
    "lon": -56.189780492925,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -336,6 +424,7 @@
    "direccion": "Gral. Flores y Domingo Aramburú",
    "lat": -34.882708,
    "lon": -56.181856,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -345,6 +434,7 @@
    "direccion": "Gral. Flores 5171, esquina Jorge Isaacs",
    "lat": -34.835956062666,
    "lon": -56.14728362987,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -354,6 +444,7 @@
    "direccion": "Gutiérrez 3258",
    "lat": -34.768464873351,
    "lon": -56.22741281037,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -363,6 +454,7 @@
    "direccion": "Bv. José Batlle y Ordóñez 6182",
    "lat": -34.830528,
    "lon": -56.214691,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -372,6 +464,7 @@
    "direccion": "Av. Dra. María Luisa Saldún de Rodríguez",
    "lat": -34.879002,
    "lon": -56.080881,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -381,6 +474,7 @@
    "direccion": "Plaza Fabini",
    "lat": -34.90563,
    "lon": -56.19423,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -390,6 +484,7 @@
    "direccion": "Canelones 1280, 11100 Montevideo, Depart",
    "lat": -34.908593,
    "lon": -56.188195,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -402,6 +497,7 @@
    "direccion": "Bartolomé Mitre 1236",
    "lat": -34.908515,
    "lon": -56.2008552,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -411,6 +507,7 @@
    "direccion": null,
    "lat": -34.9064152,
    "lon": -56.2069339,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -420,6 +517,17 @@
    "direccion": "Av. Gral. San Martín 3159, 11700 Montevi",
    "lat": -34.86836,
    "lon": -56.181443,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "club-cultural-charco",
+   "nombre": "Club Cultural Charco",
+   "alias": [],
+   "direccion": "Maldonado 1477",
+   "lat": -34.9090027,
+   "lon": -56.1835608,
+   "barrio": "Palermo",
    "ciudad": "Montevideo"
   },
   {
@@ -429,6 +537,7 @@
    "direccion": "Lido 1800, 11500 Montevideo, Departament",
    "lat": -34.878285,
    "lon": -56.043716,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -438,6 +547,7 @@
    "direccion": "Complejo Prado",
    "lat": -34.861076,
    "lon": -56.20152,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -447,6 +557,7 @@
    "direccion": "Av. Agraciada 2385, 11800 Montevideo, De",
    "lat": -34.887789,
    "lon": -56.189609,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -456,6 +567,7 @@
    "direccion": null,
    "lat": -34.8973619,
    "lon": -56.16769,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -465,6 +577,7 @@
    "direccion": "Colonia 894, 11100 Montevideo, Departame",
    "lat": -34.905443,
    "lon": -56.197351,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -474,6 +587,7 @@
    "direccion": "Hipólito Yrigoyen entre Cno. Carrasco y Petrona Rosende",
    "lat": -34.87123073205,
    "lon": -56.115868171921,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -483,6 +597,7 @@
    "direccion": "Rio branco 1627",
    "lat": -34.901084,
    "lon": -56.196562,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -492,6 +607,7 @@
    "direccion": "Contador Luis E. Lecueder, 11300 Montevi",
    "lat": -34.904241,
    "lon": -56.136899,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -501,6 +617,27 @@
    "direccion": "Av. Luis Batlle Berres 5870",
    "lat": -34.84115655034,
    "lon": -56.257511188715,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "dap-libros",
+   "nombre": "DAP Libros",
+   "alias": [],
+   "direccion": "Jackson 1307 bis",
+   "lat": -34.9051521,
+   "lon": -56.173533,
+   "barrio": "Parque Rodó",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "diomedes-libros",
+   "nombre": "Diomedes Libros",
+   "alias": [],
+   "direccion": "Bulevar España 2129",
+   "lat": -34.9085189,
+   "lon": -56.1700512,
+   "barrio": "Cordón",
    "ciudad": "Montevideo"
   },
   {
@@ -510,6 +647,7 @@
    "direccion": "Durazno 895, 11100 Montevideo, Departame",
    "lat": -34.910908,
    "lon": -56.196675,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -519,6 +657,7 @@
    "direccion": "Av.Gral Rivera 2019",
    "lat": -34.902133,
    "lon": -56.172788,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -528,6 +667,7 @@
    "direccion": "Soriano 1203",
    "lat": -34.907561,
    "lon": -56.189819,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -537,6 +677,7 @@
    "direccion": "25 de Mayo 591, 11000 Montevideo, Depart",
    "lat": -34.90505,
    "lon": -56.203959,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -546,6 +687,7 @@
    "direccion": "Tristán Narvaja 1752",
    "lat": -34.8980845,
    "lon": -56.179802,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -555,6 +697,7 @@
    "direccion": "Gaboto 1812, 11800 Montevideo, Departame",
    "lat": -34.897038,
    "lon": -56.182087,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -566,6 +709,17 @@
    "direccion": "Colonia 2035",
    "lat": -34.898852,
    "lon": -56.172319,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "el-yelmo-de-mambrino",
+   "nombre": "El Yelmo de Mambrino",
+   "alias": [],
+   "direccion": "Canelones 1716",
+   "lat": -34.9078519,
+   "lon": -56.178054,
+   "barrio": "Palermo",
    "ciudad": "Montevideo"
   },
   {
@@ -579,6 +733,17 @@
    "direccion": "Mercedes 1820",
    "lat": -34.9003744,
    "lon": -56.178033,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "escaramuza",
+   "nombre": "Escaramuza",
+   "alias": [],
+   "direccion": "Dr. Pablo de María 1185",
+   "lat": -34.9065054,
+   "lon": -56.17098,
+   "barrio": "Cordón",
    "ciudad": "Montevideo"
   },
   {
@@ -590,6 +755,7 @@
    "direccion": "José Enrique Rodó 1712",
    "lat": -34.905642,
    "lon": -56.179245,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -599,6 +765,7 @@
    "direccion": "Piedras 425",
    "lat": -34.904648,
    "lon": -56.207897,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -608,6 +775,7 @@
    "direccion": "Av. Brasil 3085",
    "lat": -34.913432,
    "lon": -56.149734,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -617,6 +785,7 @@
    "direccion": "Carlos Quijano 1216",
    "lat": -34.9082259,
    "lon": -56.1887597,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -626,6 +795,7 @@
    "direccion": "Isla de Flores 1627",
    "lat": -34.910571,
    "lon": -56.179747,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -635,6 +805,7 @@
    "direccion": "Pernas 2882",
    "lat": -34.87183732268,
    "lon": -56.148199189388,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -644,6 +815,7 @@
    "direccion": "Mercedes 865",
    "lat": -34.904423,
    "lon": -56.197943,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -655,6 +827,7 @@
    "direccion": "Cerrito 475",
    "lat": -34.904859,
    "lon": -56.206546,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -664,6 +837,7 @@
    "direccion": "25 de Agosto 575, 11000 Montevideo, Depa",
    "lat": -34.902881,
    "lon": -56.205543,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -673,6 +847,7 @@
    "direccion": "Camino Carrasco y Pirán",
    "lat": -34.872635,
    "lon": -56.122541,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -682,6 +857,7 @@
    "direccion": "Av. Bolivia",
    "lat": -34.878386,
    "lon": -56.089315,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -693,6 +869,7 @@
    "direccion": "Av. Dr. Américo Ricaldoni",
    "lat": -34.8946,
    "lon": -56.1528,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -702,6 +879,7 @@
    "direccion": "Charrúa 1838",
    "lat": -34.9059878,
    "lon": -56.1757494,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -711,6 +889,27 @@
    "direccion": "Soriano 757, 11100 Montevideo",
    "lat": -34.9083,
    "lon": -56.199771,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "germina",
+   "nombre": "Germina",
+   "alias": [],
+   "direccion": "Carlos Roxlo 1370 bis",
+   "lat": -34.9045693,
+   "lon": -56.1813451,
+   "barrio": "Centro",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "guarida-casa-de-libros",
+   "nombre": "Guarida, Casa de Libros",
+   "alias": [],
+   "direccion": "Héctor Miranda 2410",
+   "lat": -34.9229161,
+   "lon": -56.1610356,
+   "barrio": "Punta Carretas",
    "ciudad": "Montevideo"
   },
   {
@@ -720,6 +919,7 @@
    "direccion": null,
    "lat": -34.894051,
    "lon": -56.0599223,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -729,6 +929,7 @@
    "direccion": null,
    "lat": -34.9058186,
    "lon": -56.1995694,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -741,6 +942,7 @@
    "direccion": "Pl. Independencia 759, 11100 Montevideo,",
    "lat": -34.9058104,
    "lon": -56.1995027,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -750,6 +952,7 @@
    "direccion": "Av. Gabriela Mistral 4223",
    "lat": -34.85503,
    "lon": -56.207084,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -759,6 +962,7 @@
    "direccion": "Av. 18 de Julio 1865",
    "lat": -34.901780233484,
    "lon": -56.17602420257,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -768,6 +972,7 @@
    "direccion": "Av. Luis Alberto de Herrera 2883, 11000",
    "lat": -34.876545,
    "lon": -56.157533,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -777,6 +982,7 @@
    "direccion": "Juan Paullier 1252, 11200 Montevideo, De",
    "lat": -34.904758,
    "lon": -56.1676,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -786,6 +992,17 @@
    "direccion": "Av. 18 de Julio 1360, 11200 Montevideo,",
    "lat": -34.906534,
    "lon": -56.186072,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "isadora-libros",
+   "nombre": "Isadora Libros",
+   "alias": [],
+   "direccion": "José Ellauri 661",
+   "lat": -34.9186471,
+   "lon": -56.1559112,
+   "barrio": "Punta Carretas",
    "ciudad": "Montevideo"
   },
   {
@@ -795,6 +1012,7 @@
    "direccion": "Av. 19 de Abril 1181",
    "lat": -34.861277,
    "lon": -56.198477,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -804,6 +1022,7 @@
    "direccion": "José Enrique Rodó 1995, 11200 Montevideo",
    "lat": -34.903345,
    "lon": -56.173907,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -813,6 +1032,7 @@
    "direccion": "3VQ6+FJX, 11300 Montevideo",
    "lat": -34.911254,
    "lon": -56.138395,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -822,6 +1042,7 @@
    "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -831,6 +1052,7 @@
    "direccion": "Soriano 840",
    "lat": -34.908433,
    "lon": -56.198165,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -840,6 +1062,7 @@
    "direccion": "Maldonado 2182",
    "lat": -34.908117,
    "lon": -56.167763,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -849,6 +1072,7 @@
    "direccion": "Soriano 1236",
    "lat": -34.907876,
    "lon": -56.189303,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -858,6 +1082,7 @@
    "direccion": "Galería De Las Américas – Av. 18 de Julio 1236",
    "lat": -34.905914,
    "lon": -56.18932,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -867,6 +1092,27 @@
    "direccion": "Gonzalo Ramírez 1595",
    "lat": -34.9122778,
    "lon": -56.1804955,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "la-libelula-libros-cafe",
+   "nombre": "La Libélula Libros & Café",
+   "alias": [],
+   "direccion": "Av. Gral. Rivera 2298",
+   "lat": -34.9020726,
+   "lon": -56.1655971,
+   "barrio": "Cordón",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "la-lupa-libros",
+   "nombre": "La Lupa Libros",
+   "alias": [],
+   "direccion": "Peatonal Bacacay 1318 bis",
+   "lat": -34.9070447,
+   "lon": -56.2013156,
+   "barrio": "Ciudad Vieja",
    "ciudad": "Montevideo"
   },
   {
@@ -876,6 +1122,67 @@
    "direccion": "3RHJ+37H, Lago del, 11300 Montevideo, De",
    "lat": -34.92231,
    "lon": -56.169273,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "las-karamazov",
+   "nombre": "Las Karamazov",
+   "alias": [],
+   "direccion": "Av. Gral. Rivera 2670",
+   "lat": -34.9032221,
+   "lon": -56.1570767,
+   "barrio": "Pocitos",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "lautreamont-libreria",
+   "nombre": "Lautréamont Librería",
+   "alias": [],
+   "direccion": "Maldonado 2045",
+   "lat": -34.9081274,
+   "lon": -56.1709304,
+   "barrio": "Parque Rodó",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "libreria-cultural-alfabeta",
+   "nombre": "Librería Cultural Alfabeta",
+   "alias": [],
+   "direccion": "Miguel Barreiro 3231",
+   "lat": -34.9090063,
+   "lon": -56.1466844,
+   "barrio": "Pocitos",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "libreria-el-virrey",
+   "nombre": "Librería El Virrey",
+   "alias": [],
+   "direccion": "21 de Setiembre 2747",
+   "lat": -34.9173165,
+   "lon": -56.1574892,
+   "barrio": "Punta Carretas",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "libreria-fundacion-de-cultura-universitaria",
+   "nombre": "Librería Fundación de Cultura Universitaria",
+   "alias": [],
+   "direccion": "25 de Mayo 553",
+   "lat": -34.905439,
+   "lon": -56.2046609,
+   "barrio": "Ciudad Vieja",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "libreria-trazo",
+   "nombre": "Librería Trazo",
+   "alias": [],
+   "direccion": "Bv. Gral. Artigas 1031",
+   "lat": -34.909655,
+   "lon": -56.1637003,
+   "barrio": "Parque Rodó",
    "ciudad": "Montevideo"
   },
   {
@@ -885,6 +1192,7 @@
    "direccion": "Uruguay 960, 11200 Montevideo, Departame",
    "lat": -34.903487,
    "lon": -56.195803,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -894,6 +1202,7 @@
    "direccion": "Juan Paullier 1050, 11200 Montevideo, De",
    "lat": -34.909339,
    "lon": -56.167144,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -903,6 +1212,7 @@
    "direccion": "Contador Luis E. Lecueder 3536, 11300 Mo",
    "lat": -34.904232,
    "lon": -56.136056,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -915,6 +1225,7 @@
    "direccion": "Carlos Roxlo 1359 bis esq. Av. 18 de Julio",
    "lat": -34.904767,
    "lon": -56.181377,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -926,6 +1237,7 @@
    "direccion": "Av. Uruguay 1136, 11100 Montevideo, Depa",
    "lat": -34.903194,
    "lon": -56.192042,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -935,6 +1247,7 @@
    "direccion": "Bv. España 2614, 11300 Montevideo, Depar",
    "lat": -34.913063,
    "lon": -56.157456,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -944,6 +1257,7 @@
    "direccion": "Doctor Pablo de María 1015",
    "lat": -34.91042,
    "lon": -56.170582,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -953,6 +1267,7 @@
    "direccion": "Piedras 237, 11000 Montevideo, Departame",
    "lat": -34.905685,
    "lon": -56.211752,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -962,6 +1277,7 @@
    "direccion": "Miguelete & Piedra Alta, 11800 Montevide",
    "lat": -34.897587,
    "lon": -56.185189,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -971,6 +1287,7 @@
    "direccion": "Minas & Durazno, 11200 Montevideo, Depar",
    "lat": -34.909757,
    "lon": -56.179353,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -980,6 +1297,7 @@
    "direccion": "Pasaje Arq. Juan Veltron",
    "lat": -34.894116,
    "lon": -56.090633,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -989,6 +1307,7 @@
    "direccion": "Montevideo",
    "lat": -34.905502,
    "lon": -56.185115,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1000,6 +1319,7 @@
    "direccion": "Av. Dámaso A. Larrañaga 3195",
    "lat": -34.880615,
    "lon": -56.15275,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1009,6 +1329,7 @@
    "direccion": "Juan Carlos Gómez 1427",
    "lat": -34.9056221,
    "lon": -56.2035786,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1018,6 +1339,7 @@
    "direccion": "Sarandí 524",
    "lat": -34.90748,
    "lon": -56.2043,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1027,6 +1349,7 @@
    "direccion": "Av. de las Instrucciones 948, Montevideo",
    "lat": -34.8450435,
    "lon": -56.1999532,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1036,6 +1359,7 @@
    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
    "lat": -34.91384,
    "lon": -56.16497,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1045,6 +1369,7 @@
    "direccion": "Rbla. República de Chile 4215, 11300 Mon",
    "lat": -34.903292,
    "lon": -56.123554,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1057,6 +1382,7 @@
    "direccion": "Sarandí 683",
    "lat": -34.90646,
    "lon": -56.20138,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1066,6 +1392,7 @@
    "direccion": "25 de Mayo 279",
    "lat": -34.90715,
    "lon": -56.21011,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1075,6 +1402,7 @@
    "direccion": "Bartolomé Mitre 1550, 11000 Montevideo,",
    "lat": -34.903363,
    "lon": -56.203533,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1084,6 +1412,7 @@
    "direccion": "Av. de las Instrucciones 1057",
    "lat": -34.842152,
    "lon": -56.19857,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1093,6 +1422,7 @@
    "direccion": "Yi 1587",
    "lat": -34.9013834,
    "lon": -56.1896664,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1102,6 +1432,7 @@
    "direccion": "Pl. Independencia 848, 11100 Montevideo,",
    "lat": -34.906479,
    "lon": -56.198509,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1111,6 +1442,7 @@
    "direccion": "Brigadier Gral. Manuel Oribe 136",
    "lat": -34.87287,
    "lon": -56.215035,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1120,6 +1452,7 @@
    "direccion": "Carrasco, Montevideo",
    "lat": -34.884275,
    "lon": -56.059145,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1129,6 +1462,7 @@
    "direccion": "Av. Gral Rivera 3245",
    "lat": -34.902332,
    "lon": -56.144034,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1138,6 +1472,7 @@
    "direccion": null,
    "lat": -34.9018747,
    "lon": -56.1445488,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1147,6 +1482,7 @@
    "direccion": null,
    "lat": -34.9023524,
    "lon": -56.1445355,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1158,6 +1494,7 @@
    "direccion": "Pl. Independencia, Montevideo, Departame",
    "lat": -34.907017,
    "lon": -56.199716,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1167,6 +1504,7 @@
    "direccion": "Rbla. Pdte. Wilson esq, 11200 Montevideo",
    "lat": -34.915753,
    "lon": -56.168935,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1178,6 +1516,7 @@
    "direccion": "San José 907",
    "lat": -34.907129,
    "lon": -56.196424,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1187,6 +1526,7 @@
    "direccion": "3RFM+PM6, Rbla. Pdte. Wilson, 11300 Mont",
    "lat": -34.925712,
    "lon": -56.165869,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1196,6 +1536,7 @@
    "direccion": "Rbla. Gandhi 633, 11300 Montevideo, Depa",
    "lat": -34.920993,
    "lon": -56.149864,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1205,6 +1546,7 @@
    "direccion": "Rbla. Pdte. Wilson, Montevideo, Departam",
    "lat": -34.921047,
    "lon": -56.169149,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1216,6 +1558,7 @@
    "direccion": null,
    "lat": -34.9217788,
    "lon": -56.1504763,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1225,6 +1568,7 @@
    "direccion": "Kibón, Montevideo",
    "lat": -34.910901,
    "lon": -56.135397,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1234,6 +1578,7 @@
    "direccion": "Dr. José María Montero 3052",
    "lat": -34.9227,
    "lon": -56.155186,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1246,6 +1591,7 @@
    "direccion": "Rincón 732, 11000 Montevideo, Departamen",
    "lat": -34.90522,
    "lon": -56.200533,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1255,6 +1601,7 @@
    "direccion": "Av. Lucas Obes 1010, 11700 Montevideo, D",
    "lat": -34.863049,
    "lon": -56.203285,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1264,6 +1611,7 @@
    "direccion": "Bartolomé Mitre 1321, 11000 Montevideo,",
    "lat": -34.907138,
    "lon": -56.201924,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1273,6 +1621,7 @@
    "direccion": "Luis Alberto de herrera 1151",
    "lat": -34.9068804,
    "lon": -56.136678,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1282,6 +1631,7 @@
    "direccion": "Camacuá 575, 11000 Montevideo, Departame",
    "lat": -34.909122,
    "lon": -56.202256,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1291,6 +1641,7 @@
    "direccion": "3RQ3+J8P, 11100 Montevideo",
    "lat": -34.910914,
    "lon": -56.196664,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1302,6 +1653,7 @@
    "direccion": "Av. 8 de Octubre 4849",
    "lat": -34.855863,
    "lon": -56.132473,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1311,6 +1663,7 @@
    "direccion": "Av Gral Rondeau 1904, 11800 Montevideo,",
    "lat": -34.894936,
    "lon": -56.192403,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1322,6 +1675,7 @@
    "direccion": "\"Rectangular1\"",
    "lat": -34.903471,
    "lon": -56.136638,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1333,6 +1687,7 @@
    "direccion": "San José 870",
    "lat": -34.90741,
    "lon": -56.197553,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1344,6 +1699,7 @@
    "direccion": "Soriano 914",
    "lat": -34.90821430964771,
    "lon": -56.196500823734254,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1353,6 +1709,7 @@
    "direccion": "Av. 18 de Julio 1012",
    "lat": -34.90626,
    "lon": -56.19441,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1365,6 +1722,7 @@
    "direccion": "of Maciel, Maciel 218, 11000 Montevideo,",
    "lat": -34.905789,
    "lon": -56.212222,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1374,6 +1732,7 @@
    "direccion": "San Salvador 1673",
    "lat": -34.911423,
    "lon": -56.1787539,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1383,6 +1742,7 @@
    "direccion": "Av. Agraciada 2842, 11800 Montevideo, De",
    "lat": -34.878155,
    "lon": -56.195991,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1392,6 +1752,7 @@
    "direccion": "Alejo Rosell y Rius 1483, Montevideo",
    "lat": -34.900614,
    "lon": -56.146561,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1401,6 +1762,7 @@
    "direccion": null,
    "lat": -34.8905846,
    "lon": -56.0553743,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1410,6 +1772,7 @@
    "direccion": "Soriano 817, 11100 Montevideo, Departame",
    "lat": -34.908248,
    "lon": -56.198649,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1419,6 +1782,7 @@
    "direccion": "Canelones 782",
    "lat": -34.909444,
    "lon": -56.199444,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1431,6 +1795,7 @@
    "direccion": "Colonia 1870",
    "lat": -34.901187,
    "lon": -56.176217,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1443,6 +1808,7 @@
    "direccion": "Paraguay 1217",
    "lat": -34.908454,
    "lon": -56.192501,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1452,6 +1818,7 @@
    "direccion": "Av. Rondeau 1388",
    "lat": -34.905036129982,
    "lon": -56.191339919039,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1468,6 +1835,7 @@
    "direccion": "Av. 18 de Julio 1618",
    "lat": -34.90403,
    "lon": -56.181082,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1481,6 +1849,7 @@
    "direccion": "Dr. Javier Barrios Amorín 1312",
    "lat": -34.906059,
    "lon": -56.184418,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1490,6 +1859,7 @@
    "direccion": "S. José 1211",
    "lat": -34.906667,
    "lon": -56.19,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1499,6 +1869,7 @@
    "direccion": "Paysandú 769",
    "lat": -34.9031093,
    "lon": -56.2004245,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1511,6 +1882,7 @@
    "direccion": "\"Rectangular1\"",
    "lat": -34.90786,
    "lon": -56.20101,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1524,6 +1896,7 @@
    "direccion": "Mercedes 1805",
    "lat": -34.900541,
    "lon": -56.178195,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1535,6 +1908,7 @@
    "direccion": "Mercedes 1805",
    "lat": -34.900608,
    "lon": -56.178207,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1544,6 +1918,7 @@
    "direccion": "Río Negro 1477",
    "lat": -34.903609,
    "lon": -56.193987,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1557,6 +1932,7 @@
    "direccion": "Rambla Wilson s/n, Parque Rodó",
    "lat": -34.9177,
    "lon": -56.1686,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1566,6 +1942,7 @@
    "direccion": "José Ellauri 308",
    "lat": -34.9240642,
    "lon": -56.1601433,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1575,6 +1952,7 @@
    "direccion": "San José 1426",
    "lat": -34.906601,
    "lon": -56.184888,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1584,6 +1962,7 @@
    "direccion": "Guayabo 1729",
    "lat": -34.903847,
    "lon": -56.178616,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1593,6 +1972,7 @@
    "direccion": "Av.Gral Rivera 3406, 11300 Montevideo, D",
    "lat": -34.902037,
    "lon": -56.140804,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1605,6 +1985,7 @@
    "direccion": "Soriano 1274",
    "lat": -34.9076556,
    "lon": -56.188426,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1614,6 +1995,7 @@
    "direccion": "Rincón 687",
    "lat": -34.905411,
    "lon": -56.201545,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1623,6 +2005,7 @@
    "direccion": "Bartolomé Mitre 1318, 11000 Montevideo,",
    "lat": -34.907105,
    "lon": -56.201575,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1635,6 +2018,7 @@
    "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
    "lat": -34.9155965,
    "lon": -56.1687301,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1644,6 +2028,7 @@
    "direccion": null,
    "lat": -34.906,
    "lon": -56.1855,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1653,6 +2038,7 @@
    "direccion": "Av. Ramón V. Benzano 3471, 11600 Montevideo, Departamento de Montevideo",
    "lat": -34.89782710000001,
    "lon": -56.1559067,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1664,6 +2050,7 @@
    "direccion": "Av. Ramón V. Benzano 3471, 11600 Montevi",
    "lat": -34.897827,
    "lon": -56.155907,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1673,6 +2060,7 @@
    "direccion": "Av. Agraciada 2623",
    "lat": -34.883768,
    "lon": -56.194264,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1682,6 +2070,7 @@
    "direccion": "Chaná 2169, 11200 Montevideo, Departamen",
    "lat": -34.903888,
    "lon": -56.169539,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1691,6 +2080,7 @@
    "direccion": "Tower 2 - Contador Luis E. Lecueder 3536, 11300 Mo",
    "lat": -34.904409,
    "lon": -56.136299,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1700,6 +2090,7 @@
    "direccion": "Bv. España 2218",
    "lat": -34.9095744,
    "lon": -56.1679561,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1709,6 +2100,7 @@
    "direccion": "S. José 822, 11100 Montevideo, Departame",
    "lat": -34.907534,
    "lon": -56.198681,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1718,6 +2110,7 @@
    "direccion": "casa de cervezas - - Ábalos 3196, 11600 Montevideo, Departame",
    "lat": -34.888826,
    "lon": -56.144721,
+   "barrio": null,
    "ciudad": "Montevideo"
   }
  ]

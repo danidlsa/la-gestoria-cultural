@@ -1,49 +1,10 @@
 {
  "fuente": "mec_museos",
- "corrida": "2026-11-07T12:55:36.320421-03:00",
+ "corrida": "2026-11-07T15:15:56.602075-03:00",
  "ok": true,
- "cantidad": 3,
+ "cantidad": 2,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "mec_museos",
-   "id_externo": "taller-flores-papel-picado-arte-papel",
-   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/taller-flores-papel-picado-arte-papel",
-   "titulo": "Taller de flores y papel picado. Arte en papel",
-   "categoria": "taller",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Antropología",
-    "direccion": "Av. de las Instrucciones 948, Montevideo",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-07T11:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/taller-flores-papel-picado-arte-papel",
-     "via": "mec_museos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Ministerio de Educación y Cultura",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "mec_museos",
    "id_externo": "entrega-del-premio-figari-2026-artista-visual-claudia-anselmi",
@@ -56,7 +17,8 @@
     "nombre": "Museo Figari",
     "direccion": "Juan Carlos Gómez 1427",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "barrio": null
    },
    "funciones": [
     {
@@ -95,7 +57,8 @@
     "nombre": "Museo Nacional de Antropología",
     "direccion": "Av. de las Instrucciones 948, Montevideo",
     "lat": null,
-    "lon": null
+    "lon": null,
+    "barrio": null
    },
    "funciones": [
     {

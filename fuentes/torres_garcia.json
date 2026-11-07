@@ -1,6 +1,6 @@
 {
  "fuente": "torres_garcia",
- "corrida": "2026-11-07T12:55:27.124929-03:00",
+ "corrida": "2026-11-07T15:15:51.357949-03:00",
  "ok": true,
  "cantidad": 2,
  "errores": [],
@@ -17,7 +17,8 @@
     "nombre": "Museo Torres García",
     "direccion": "Sarandí 683",
     "lat": -34.90646,
-    "lon": -56.20138
+    "lon": -56.20138,
+    "barrio": null
    },
    "funciones": [
     {
@@ -266,7 +267,8 @@
     "nombre": "Museo Torres García",
     "direccion": "Sarandí 683",
     "lat": -34.90646,
-    "lon": -56.20138
+    "lon": -56.20138,
+    "barrio": null
    },
    "funciones": [
     {

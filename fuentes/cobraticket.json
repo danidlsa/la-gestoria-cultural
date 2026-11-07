@@ -1,6 +1,6 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-07T12:56:14.207205-03:00",
+ "corrida": "2026-11-07T15:16:35.372516-03:00",
  "ok": true,
  "cantidad": 5,
  "errores": [],
@@ -17,7 +17,8 @@
     "nombre": "Zoba Club",
     "direccion": "Bv. España 2218",
     "lat": -34.9095744,
-    "lon": -56.1679561
+    "lon": -56.1679561,
+    "barrio": null
    },
    "funciones": [
     {
@@ -56,7 +57,8 @@
     "nombre": "Velodromo de Montevideo",
     "direccion": "Av. Ramón V. Benzano 3471, 11600 Montevideo, Departamento de Montevideo",
     "lat": -34.89782710000001,
-    "lon": -56.1559067
+    "lon": -56.1559067,
+    "barrio": null
    },
    "funciones": [
     {
@@ -95,7 +97,8 @@
     "nombre": "EMILE CLUB",
     "direccion": "Mercedes 1820",
     "lat": -34.9003744,
-    "lon": -56.178033
+    "lon": -56.178033,
+    "barrio": null
    },
    "funciones": [
     {
@@ -134,7 +137,8 @@
     "nombre": "Sala 26",
     "direccion": "Luis Alberto de herrera 1151",
     "lat": -34.9068804,
-    "lon": -56.136678
+    "lon": -56.136678,
+    "barrio": null
    },
    "funciones": [
     {
@@ -173,7 +177,8 @@
     "nombre": "EMILE CLUB",
     "direccion": "Mercedes 1820",
     "lat": -34.9003744,
-    "lon": -56.178033
+    "lon": -56.178033,
+    "barrio": null
    },
    "funciones": [
     {
