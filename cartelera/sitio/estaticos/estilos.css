@@ -401,9 +401,15 @@ select {
 .esp-nota { font-size: 0.85rem; color: var(--texto-suave); margin-top: 8px; }
 
 /* Por lugar: un bloque por barrio, una tarjeta por lugar con sus actividades en orden. */
-.esp-barrio + .esp-barrio { margin-top: 26px; }
-.esp-barrio h4 { margin: 0 0 10px; font: 800 1.25rem var(--display); display: flex; align-items: baseline; gap: 10px; }
-.esp-barrio h4 small { font: 600 0.85rem var(--sans); color: var(--texto-suave); }
+.esp-barrio + .esp-barrio { margin-top: 18px; }
+/* El nombre del barrio pliega y despliega sus lugares (arranca desplegado). */
+.esp-barrio > summary { list-style: none; cursor: pointer; display: flex; align-items: baseline; gap: 10px; margin: 0 0 10px; padding: 4px 0; border-bottom: 2px solid color-mix(in srgb, var(--texto) 15%, transparent); }
+.esp-barrio > summary::-webkit-details-marker { display: none; }
+.esp-barrio > summary::after { content: "▾"; margin-left: auto; font-size: 1.1rem; transition: transform 0.15s ease; }
+.esp-barrio:not([open]) > summary { margin-bottom: 0; }
+.esp-barrio:not([open]) > summary::after { transform: rotate(-90deg); }
+.esp-barrio-nombre { font: 800 1.25rem var(--display); }
+.esp-barrio > summary small { font: 600 0.85rem var(--sans); color: var(--texto-suave); }
 .esp-lugares { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); align-items: start; }
 .esp-lugar { background: var(--superficie); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 4px 4px 0 var(--sombra); scroll-margin-top: 90px; transition: box-shadow 0.3s ease; }
 .esp-lugar.resaltada { box-shadow: 0 0 0 4px var(--mostaza), 4px 4px 0 var(--sombra); }

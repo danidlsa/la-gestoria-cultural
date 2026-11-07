@@ -769,8 +769,8 @@
   // El botón de cada actividad: lo mismo que "＋ Mi plan", pero dicho como parte del recorrido.
   function etiquetarRecorrido(boton) {
     const enPlan = boton.classList.contains("en-plan");
-    boton.textContent = enPlan ? "★ En tu recorrido" : "＋ Recorrido";
-    boton.title = enPlan ? "Sacar de tu recorrido" : "Sumar a tu recorrido (también queda en Mi plan)";
+    boton.textContent = enPlan ? "★ En mi recorrido" : "＋ Mi recorrido";
+    boton.title = enPlan ? "Sacar de mi recorrido" : "Sumar a mi recorrido (también queda en Mi plan)";
   }
 
   function botonesActividad(a) {
@@ -819,9 +819,11 @@
       if (!porBarrio.has(barrio)) porBarrio.set(barrio, []);
       porBarrio.get(barrio).push([lugarId, actividades]);
     }
-    return el("div", { class: "esp-por-lugar" }, ...[...porBarrio].map(([barrio, lugares]) =>
-      el("section", { class: "esp-barrio" },
-        el("h4", {}, barrio, el("small", {}, cuantosLugares(lugares.length, jornada.lugares))),
+    // Cada barrio se pliega tocando su nombre (arranca desplegado); se recuerda, como las horas.
+    const v = vistaDe(jornada.id);
+    return el("div", { class: "esp-por-lugar" }, ...[...porBarrio].map(([barrio, lugares]) => {
+      const bloque = el("details", { class: "esp-barrio", "data-esp-bloque": `barrio:${barrio}` },
+        el("summary", {}, el("span", { class: "esp-barrio-nombre" }, barrio), el("small", {}, cuantosLugares(lugares.length, jornada.lugares))),
         el("div", { class: "esp-lugares" }, ...lugares.map(([lugarId, actividades]) => {
           const lugar = datos.lugares[lugarId] || {};
           return el("article", { class: "esp-lugar", id: `esp-lugar-${lugarId}` },
@@ -830,7 +832,10 @@
               el("p", { class: "esp-dir" }, lugar.direccion ? `${lugar.direccion} · ` : "",
                 el("a", { href: comoLlegar(lugar), target: "_blank", rel: "noopener" }, "Cómo llegar ↗"))),
             el("ol", { class: "esp-actividades" }, ...actividades.map((a) => filaActividad(a, { conLugar: false }))));
-        })))));
+        })));
+      bloque.open = !v.plegadas.has(`barrio:${barrio}`);
+      return bloque;
+    }));
   }
 
   // Por lugar, como la grilla de un festival: en la compu, un renglón por lugar con las horas de costado; en el
@@ -1055,9 +1060,10 @@
   // Las calles no van en línea recta: se estima un 30 % más, a 5 km por hora caminando.
   const minutosCaminando = (km) => Math.round(km * 1.3 * 12);
 
-  // El camino a pie entre dos lugares, en el mapa de OpenStreetMap (se abre aparte, solo si la persona lo toca).
-  const enlaceCamino = (desde, hasta) => `https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=${
-    encodeURIComponent(`${desde.lat},${desde.lon};${hasta.lat},${hasta.lon}`)}`;
+  // El camino a pie entre dos lugares, en Google Maps: en el celular abre la app de Google Maps si está instalada
+  // (si no, la web). Se abre aparte, solo si la persona lo toca.
+  const enlaceCamino = (desde, hasta) => `https://www.google.com/maps/dir/?api=1&origin=${desde.lat},${desde.lon}`
+    + `&destination=${hasta.lat},${hasta.lon}&travelmode=walking`;
   const textoDistancia = (metros) => (metros < 1000 ? `${Math.round(metros / 10) * 10} m` : `${(metros / 1000).toFixed(1).replace(".", ",")} km`);
 
   function tramo(jornada, anterior, siguiente) {
@@ -1065,7 +1071,11 @@
     const hasta = lugarDe(siguiente);
     const [iniA, , finA] = funcionDe(anterior);
     const [iniB] = funcionDe(siguiente);
-    const libres = Math.round((horaNoche(iniB) - horaNoche(finA || iniA)) * 60); // minutos entre una y otra
+    // Cuándo termina la anterior: su hora de fin o, si no la dice, unos 45 minutos después de empezar.
+    const terminaA = finA ? horaNoche(finA) : horaNoche(iniA) + 0.75;
+    const libres = Math.round((horaNoche(iniB) - terminaA) * 60); // minutos entre una y otra
+    // Lo que dura toda la noche (una feria, un DJ) no "se pisa" con nada: se pasa cuando se quiere.
+    const avisar = !esLarga(funcionDe(anterior));
     const avisos = [];
     if (anterior.evento.lugar === siguiente.evento.lugar) {
       avisos.push(el("span", {}, "Mismo lugar"));
@@ -1076,10 +1086,14 @@
       const minutos = real ? real[1] : minutosCaminando(distanciaKm(desde, hasta));
       avisos.push(el("span", { class: "esp-tramo-dato" }, `🚶 ${real ? "" : "unos "}${minutos} min · ${textoDistancia(metros)}`),
         el("a", { href: enlaceCamino(desde, hasta), target: "_blank", rel: "noopener" }, "Ver el camino ↗"));
-      if (finA && libres >= 0 && libres < minutos) avisos.push(el("strong", { class: "esp-alerta" }, "Vas a llegar justo"));
+      if (avisar && libres >= 0 && libres < minutos) {
+        avisos.push(el("strong", { class: "esp-alerta" }, finA ? "Vas a llegar justo" : "Puede que llegues justo"));
+      }
     }
-    if (finA ? libres < 0 : horaNoche(iniB) === horaNoche(iniA)) {
-      avisos.push(el("strong", { class: "esp-alerta" }, "Se superpone con la anterior"));
+    if (avisar && libres < 0) {
+      avisos.push(el("strong", { class: "esp-alerta" }, finA || horaNoche(iniB) <= horaNoche(iniA)
+        ? "Se superpone con la anterior"
+        : `Puede superponerse con la anterior (empieza ${hhmm(iniA)})`));
     }
     return el("li", { class: "esp-tramo", "aria-hidden": "false" }, el("span", { class: "esp-tramo-linea", "aria-hidden": "true" }), ...avisos);
   }
@@ -1184,7 +1198,7 @@
         el("ol", {},
           el("li", {}, "Mirá el programa por ", el("button", { type: "button", class: "esp-enlace", "data-esp-modo": "lugares" }, singular(jornada.lugares)),
             " o ", el("button", { type: "button", class: "esp-enlace", "data-esp-modo": "hora" }, "por hora"), "."),
-          el("li", {}, "Tocá ", el("b", {}, "＋ Recorrido"), " en lo que te tiente."),
+          el("li", {}, "Tocá ", el("b", {}, "＋ Mi recorrido"), " en lo que te tiente."),
           el("li", {}, "Acá lo ves en orden, con cuánto se tarda caminando de un lugar al otro y si algo se superpone. Lo podés compartir o mandar al calendario."))));
       return;
     }
@@ -1312,6 +1326,11 @@
       destino = document.getElementById(`esp-lugar-${lugarId}`);
     }
     if (!destino) return;
+    const barrioPlegado = destino.closest("details.esp-barrio:not([open])");
+    if (barrioPlegado) {
+      barrioPlegado.open = true;
+      v.plegadas.delete(barrioPlegado.dataset.espBloque);
+    }
     destino.scrollIntoView({ behavior: suave(), block: "center", inline: "center" });
     destino.classList.add("resaltada");
     setTimeout(() => destino.classList.remove("resaltada"), 1600);
@@ -1349,7 +1368,7 @@
         return;
       }
       // Plegar o desplegar una hora: se recuerda, para que no se abra sola al cambiar un filtro.
-      const resumenHora = e.target.closest(".esp-bloque > summary");
+      const resumenHora = e.target.closest(".esp-bloque > summary, .esp-barrio > summary");
       if (resumenHora) {
         const bloque = resumenHora.parentElement;
         setTimeout(() => {
