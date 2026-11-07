@@ -1,8 +1,8 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-07T15:21:01.999035-03:00",
+ "corrida": "2026-11-07T16:22:27.275492-03:00",
  "ok": true,
- "cantidad": 133,
+ "cantidad": 132,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
@@ -1856,86 +1856,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021956/700_x_390_deup.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021457",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
-   "titulo": "Ciclo (no tan) Solos al mediodía",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "CICLO (No tan) Solos al mediodía 17va edición - Diversidad Dirección artística y curaduría: Andrea Arobba Producción ejecutiva: GEN Centro de Artes y Ciencias Producción: Polen productora cultural - Catalina Lans Asistencia de producción: Emiliano Bittencourt Registro audiovisual: Daiana Di Candia…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-14T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390_banner_web_generico_TS.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
