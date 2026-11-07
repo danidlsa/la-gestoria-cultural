@@ -1,8 +1,8 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-06T22:09:50.095395-03:00",
+ "corrida": "2026-11-07T12:02:03.782349-03:00",
  "ok": true,
- "cantidad": 70,
+ "cantidad": 69,
  "errores": [],
  "eventos": [
   {
@@ -20,13 +20,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T20:30:00-03:00",
      "fin": null,
@@ -1043,13 +1036,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-13T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1642,50 +1628,6 @@
    "enlaces": [
     "https://www.tickantel.com.uy/inicio/registrarse",
     "https://tickantel.com.uy/ng/espectaculo/40021485/una-noche-con-queen"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18219",
-   "url": "https://beneficios.ladiaria.com.uy/siente-el-pulso-ika-reggae-versions-vida-pura-arg/",
-   "titulo": "SIENTE EL PULSO: Ika & Reggae Versions + Vida Pura (Arg)",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "IkA & Reggae Versions + Vida Pura (Argentina) se encuentran en una noche que une las dos orillas del Río de la Plata a través del reggae. IkA & Reggae Versions presentará un recorrido por las canciones de sus dos álbumes, junto a las versiones que llegaron a millones de personas a través de sus…",
-   "lugar": {
-    "nombre": "Sala Rondeau",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 550.0,
-    "hasta": 550.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/SIENTE-EL-PULSO/32417/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/siente-el-pulso-ika-reggae-versions-vida-pura-arg/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/SIENTE-EL-PULSO/32417/"
    ],
    "ciclo": null,
    "muestra": false,
@@ -2397,15 +2339,7 @@
     "lat": null,
     "lon": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 450.0,
     "hasta": 450.0,
@@ -3204,13 +3138,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -3514,15 +3441,7 @@
     "lat": null,
     "lon": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T22:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 330.0,
     "hasta": 330.0,

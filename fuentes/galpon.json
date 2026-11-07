@@ -1,8 +1,8 @@
 {
  "fuente": "galpon",
- "corrida": "2026-11-06T22:07:13.314712-03:00",
+ "corrida": "2026-11-07T11:59:24.979540-03:00",
  "ok": true,
- "cantidad": 27,
+ "cantidad": 26,
  "errores": [],
  "eventos": [
   {
@@ -20,13 +20,6 @@
     "lon": -56.181082
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T20:30:00-03:00",
-     "fin": "2026-11-06T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T20:30:00-03:00",
      "fin": "2026-11-12T22:00:00-03:00",
@@ -423,47 +416,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/El-eterno-glorioso-y-mas-pequeno-circo-del-mundo-Sala-Atahualpa/33647/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
-   "id_externo": "gayane-danzas-armenias",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/gayane-danzas-armenias/",
-   "titulo": "Gayané - Danzas Armenias",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "En Gayané Danzas Armenias, convergen historia, identidades y danza, desde una perspectiva abierta y en diálogo con nuestras múltiples herencias.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Gayane-Danzas-Armenias--Sala-Campodonico/33689/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2024/10/GAYANE-2560x100-web.jpg",
-   "productor": "Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Gayane-Danzas-Armenias--Sala-Campodonico/33689/"
    ],
    "ciclo": null,
    "muestra": false,

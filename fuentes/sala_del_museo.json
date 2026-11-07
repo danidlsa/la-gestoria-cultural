@@ -1,51 +1,10 @@
 {
  "fuente": "sala_del_museo",
- "corrida": "2026-11-06T22:09:34.508244-03:00",
+ "corrida": "2026-11-07T12:01:46.654128-03:00",
  "ok": true,
  "cantidad": 12,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "sala_del_museo",
-   "id_externo": "cimafest",
-   "url": "https://www.saladelmuseo.com.uy/shows/item/cimafest.html",
-   "titulo": "CIMA FEST",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "CIMA FEST",
-   "lugar": {
-    "nombre": "Sala del Museo",
-    "direccion": "Rambla 25 de Agosto esq. Maciel",
-    "lat": -34.905789,
-    "lon": -56.212222
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/CIMA-FEST/33947/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/02_-_1080_x_1080_94c38bb6252f0789e297aca3589bfd57.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/CIMA-FEST/33947/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "sala_del_museo",
    "id_externo": "sara-malacara",
@@ -492,6 +451,47 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/El-Sueno-de-los-Elefantes--MONTEVIDEO-NOVIEMBRE/34210/"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "mvd-canta",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/mvd-canta.html",
+   "titulo": "MVD CANTA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Montevideo tiene música en el alma. Suena a tambor, a tango, a murga, a cumbia. Suena a barrio, a abrazo y a esas canciones que nos sabemos todos y que, al cantarlas juntos, nos hacen sentir en casa. Por una noche, esos sonidos se encuentran en el Museo del Carnaval: La Rueda de Candombe y Lucila…",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/MVD-CANTA/34407/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/1080x1080_1_1_0fd034b9d48b608d773bff721613f935.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/MVD-CANTA/34407/"
    ],
    "ciclo": null,
    "muestra": false,

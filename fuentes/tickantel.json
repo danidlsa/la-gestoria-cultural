@@ -1,149 +1,12 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-06T21:58:16.642590-03:00",
+ "corrida": "2026-11-07T11:41:58.373197-03:00",
  "ok": true,
  "cantidad": 134,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021823",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021823/narciso",
-   "titulo": "Narciso",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "“NARCISO” Paraguay, 1959. El país vive bajo un régimen militar sofocante, Narciso regresa de Buenos Aires con el rock & roll como bandera. Carismático, provocador y deseado por hombres y mujeres, pronto se convierte en una estrella de la radio y en símbolo de libertad. Su programa sacude una…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T21:10:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-08T21:10:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021823/narciso",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021823/BannerNARCISO.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021637",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021637/quiero-que-me-susurres-una-cancion-para-mi-muerte",
-   "titulo": "Quiero que me susurres una canción para mi muerte",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "SINOPSIS: Un sótano. Un stripper. Un poeta. Un suicida. Jorge acaba de terminar su show y les propone un pacto a los espectadores: si ellos se quedan hasta el final, él no se mata.Quizás contar su historia sea una forma de pedir ayuda y salvarse. Dramaturgia: Analía Torres y Pedro Fernando Oliveri…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-07T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-13T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-14T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021637/quiero-que-me-susurres-una-cancion-para-mi-muerte",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021637/BANNER.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021457",
@@ -640,13 +503,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -865,6 +721,78 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021870/700_x_390_c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021637",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021637/quiero-que-me-susurres-una-cancion-para-mi-muerte",
+   "titulo": "Quiero que me susurres una canción para mi muerte",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "SINOPSIS: Un sótano. Un stripper. Un poeta. Un suicida. Jorge acaba de terminar su show y les propone un pacto a los espectadores: si ellos se quedan hasta el final, él no se mata.Quizás contar su historia sea una forma de pedir ayuda y salvarse. Dramaturgia: Analía Torres y Pedro Fernando Oliveri…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": -34.90821430964771,
+    "lon": -56.196500823734254
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-07T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021637/quiero-que-me-susurres-una-cancion-para-mi-muerte",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021637/BANNER.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1223,6 +1151,57 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021644/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021823",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021823/narciso",
+   "titulo": "Narciso",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "“NARCISO” Paraguay, 1959. El país vive bajo un régimen militar sofocante, Narciso regresa de Buenos Aires con el rock & roll como bandera. Carismático, provocador y deseado por hombres y mujeres, pronto se convierte en una estrella de la radio y en símbolo de libertad. Su programa sacude una…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-08T21:10:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021823/narciso",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021823/BannerNARCISO.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1634,6 +1613,45 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021843",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021843/cns-beatles-y-bach",
+   "titulo": "CNS - BEATLES y BACH",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "CNS - Beatles y Bach Una fusión inédita de estilos.Una propuesta audaz e innovadora que tiende puentes entre dos épocas doradas de la música. Este nuevo concierto amalgama la perfección contrapuntística de J. S. Bach con las melodías inmortales de The Beatles, revelando las sorprendentes conexiones…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021843/cns-beatles-y-bach",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021843/BANNER2.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021938",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-y-area-candombe",
    "titulo": "Muestra final 2026: Área Tango y Área Candombe",
@@ -1683,45 +1701,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021938/BANNER_TANG.CAND_12.14nov.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021843",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021843/cns-beatles-y-bach",
-   "titulo": "CNS - BEATLES y BACH",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "CNS - Beatles y Bach Una fusión inédita de estilos.Una propuesta audaz e innovadora que tiende puentes entre dos épocas doradas de la música. Este nuevo concierto amalgama la perfección contrapuntística de J. S. Bach con las melodías inmortales de The Beatles, revelando las sorprendentes conexiones…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021843/cns-beatles-y-bach",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021843/BANNER2.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

@@ -1,54 +1,10 @@
 {
  "fuente": "entraste",
- "corrida": "2026-11-06T22:11:40.335432-03:00",
+ "corrida": "2026-11-07T12:06:13.842144-03:00",
  "ok": true,
- "cantidad": 8,
+ "cantidad": 7,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "entraste",
-   "id_externo": "342",
-   "url": "https://app.entraste.com/events/pariseo-latin-club-especial-bad-bunny-vie-6-nov",
-   "titulo": "PARISEO LATIN CLUB ESPECIAL BAD BUNNY - VIE 6 NOV",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": "Pariseo presenta: especial bad bunny viernes 6 de noviembre nos encontramos en Vou Club para una noche de mucho reggaetón del conejo malo",
-   "lugar": {
-    "nombre": "VOU CLUB",
-    "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
-    "lat": -34.9155965,
-    "lon": -56.1687301
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T23:59:00-03:00",
-     "fin": "2026-11-07T05:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://app.entraste.com/events/pariseo-latin-club-especial-bad-bunny-vie-6-nov",
-     "via": "entraste"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://storage.googleapis.com/entraste-media/1793042278_613c8cdeacfeec89.webp",
-   "productor": "Pariseo.dc",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "entraste",
    "id_externo": "355",

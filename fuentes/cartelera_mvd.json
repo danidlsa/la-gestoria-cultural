@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-06T22:05:15.815276-03:00",
+ "corrida": "2026-11-07T11:55:12.605139-03:00",
  "ok": true,
- "cantidad": 101,
+ "cantidad": 96,
  "errores": [],
  "eventos": [
   {
@@ -135,13 +135,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T21:00:00-03:00",
      "fin": null,
@@ -363,50 +356,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "33957",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33957",
-   "titulo": "Alita Menéndez - Cortisolada",
-   "categoria": "humor",
-   "categoria_segura": true,
-   "descripcion_corta": "Cortisolada es un unipersonal de humor, música y cumbia donde Alita Menéndez desmonta el mito de que “las mujeres podemos con todo”. Sí, podemos.Y también podemos decir: “Puedo, pero no quiero.” Un unipersonal que mezcla humor, catarsis y cumbia para que por una hora podamos transformar el…",
-   "lugar": {
-    "nombre": "UnderMovie",
-    "direccion": "\"Rectangular1\"",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T20:45:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 800.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33957",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41022.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "27588",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?27588",
    "titulo": "Amar o no",
@@ -491,13 +440,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T21:00:00-03:00",
      "fin": null,
@@ -757,13 +699,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -946,13 +881,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T21:00:00-03:00",
      "fin": null,
@@ -1232,13 +1160,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-13T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1359,13 +1280,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-13T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1415,13 +1329,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T21:00:00-03:00",
      "fin": null,
@@ -1480,13 +1387,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T21:00:00-03:00",
      "fin": null,
@@ -1556,13 +1456,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T21:00:00-03:00",
      "fin": null,
@@ -1704,13 +1597,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T21:00:00-03:00",
      "fin": null,
@@ -2498,13 +2384,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2660,13 +2539,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2751,13 +2623,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T21:00:00-03:00",
      "fin": null,
@@ -2958,13 +2823,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T20:00:00-03:00",
      "fin": null,
@@ -3561,13 +3419,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-12T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -4066,13 +3917,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-07T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -4160,13 +4004,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T20:30:00-03:00",
      "fin": null,
@@ -4332,13 +4169,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-13T21:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -4473,13 +4303,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T21:00:00-03:00",
      "fin": null,
@@ -4993,50 +4816,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34223",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34223",
-   "titulo": "Misterios mentales",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Misterios mentales es un show interactivo de mentalismo que invita a reflexionar sobre las preguntas que nos hacemos a nosotros mismos y el lugar del misterio en la modernidad. Las claves son solo la llave. Llegó el momento de abrir la puerta. Hoy en día, que aparentemente el mundo está al alcance…",
-   "lugar": {
-    "nombre": "Sala Teatro Movie",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 950.0,
-    "hasta": 1300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34223",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41381.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34851",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34851",
    "titulo": "Misántropo",
@@ -5323,13 +5102,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T21:00:00-03:00",
      "fin": null,
@@ -5887,13 +5659,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-13T21:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -5962,13 +5727,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T22:00:00-03:00",
      "fin": null,
@@ -6121,50 +5879,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41349.jpg",
    "productor": "Fernando Toja",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "31767",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?31767",
-   "titulo": "Solo Charly",
-   "categoria": "humor",
-   "categoria_segura": true,
-   "descripcion_corta": "Este actor no le teme al ridículo ni al escándalo, es más... lo busca. Antihéroe de las carnestolendas y de la noche montevideana, nos adentra con alegría en este delivery casual que denota que el está... ¿solo? Locuras y reflexiones que nos llevan a una intensa recorrida por las costumbres…",
-   "lugar": {
-    "nombre": "Vieja Farmacia Solís",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 760.0,
-    "hasta": 760.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?31767",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42036.jpg",
-   "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -6394,61 +6108,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41757.jpg",
    "productor": "Marcos Acuña",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34845",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34845",
-   "titulo": "Tu hija",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Tu hija construye un retrato ácido, incómodo y por momentos absurdo de un grupo de mujeres atravesadas por las exigencias de la vida contemporánea. Maternidad, pareja, trabajo, feminismo, clase, pertenencia, migración y educación se entrecruzan mientras las palabras dichas y los pensamientos…",
-   "lugar": {
-    "nombre": "La Gringa Teatro",
-    "direccion": "Av. 18 de Julio 1236 - Galería De Las Américas",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 750.0,
-    "hasta": 750.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34845",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34845"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34845"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42165.jpg",
-   "productor": "Lucía García",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -6701,13 +6360,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-13T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -6750,66 +6402,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42002.jpg",
    "productor": "Adriana Martínez",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34492",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34492",
-   "titulo": "Uno",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Tres cuerpos deformes atrapados en un sistema artificial de consumo. Tres cuerpos condenados que nadie quiere ver. El hambre es la única constante: el deseo de consumo y el consumo de deseo. Uno es una obra de teatro físico que explora la relación entre cuerpo, poder y consumo. Hibridando dinámicas…",
-   "lugar": {
-    "nombre": "Teatro Stella D'Italia - La Gaviota",
-    "direccion": "Mercedes 1805",
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T22:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 440.0,
-    "hasta": 660.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34492",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34492"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34492"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34492"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41927.jpg",
-   "productor": "Juan Calvo",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -6881,13 +6473,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T21:00:00-03:00",
      "fin": null,

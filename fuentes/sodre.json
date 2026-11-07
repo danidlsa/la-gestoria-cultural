@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-06T22:03:45.305447-03:00",
+ "corrida": "2026-11-07T11:53:48.629918-03:00",
  "ok": true,
- "cantidad": 40,
+ "cantidad": 39,
  "errores": [],
  "eventos": [
   {
@@ -522,13 +522,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T21:10:00-03:00",
-     "fin": "2026-11-06T23:10:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-08T21:10:00-03:00",
      "fin": "2026-11-08T23:10:00-03:00",
      "sin_hora": false,
@@ -706,13 +699,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T20:00:00-03:00",
-     "fin": "2026-11-06T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T20:00:00-03:00",
      "fin": "2026-11-07T22:00:00-03:00",
@@ -1227,13 +1213,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-06T17:00:00-03:00",
-     "fin": "2026-11-06T19:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-08T17:00:00-03:00",
      "fin": "2026-11-08T19:00:00-03:00",
      "sin_hora": false,
@@ -1281,13 +1260,6 @@
     "lon": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T18:50:00-03:00",
-     "fin": "2026-11-06T20:50:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-08T18:50:00-03:00",
      "fin": "2026-11-08T20:50:00-03:00",
@@ -1543,40 +1515,6 @@
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021890/sodre-celebra"
    ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13689",
-   "url": "https://sodre.gub.uy/espectaculos/concierto-alumnos-de-la-escuela-nacional-de-arte-lirico/",
-   "titulo": "Concierto. Alumnos de la Escuela Nacional de Arte Lírico",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Escuela Nacional de Formación Artística Sodre",
-   "lugar": {
-    "nombre": "Auditorio Vaz Ferreira",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T19:00:00-03:00",
-     "fin": "2026-11-06T21:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/DESTACADA_.5.6nov-768x420.jpg",
-   "productor": "Producción Sodre",
-   "region": "montevideo",
-   "enlaces": [],
    "ciclo": null,
    "muestra": false,
    "hasta": null

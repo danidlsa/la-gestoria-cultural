@@ -1,88 +1,10 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-06T22:11:03.370439-03:00",
+ "corrida": "2026-11-07T12:05:40.913330-03:00",
  "ok": true,
- "cantidad": 16,
+ "cantidad": 14,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "mientrada",
-   "id_externo": "30651",
-   "url": "https://mientrada.com.uy/evento/club-de-idiotas-adorables-y-erre-ampamp-cia-en-bluzz-30651",
-   "titulo": "CLUB DE IDIOTAS ADORABLES Y ERRE & CIA EN BLUZZ",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Club de idiotas adorables y Erre & cia se encuentran en Bluzz el viernes 6 de noviembre Contáctanos a nuestro WhatsApp Oficial",
-   "lugar": {
-    "nombre": "Bluzz Bar",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mientrada.com.uy/evento/club-de-idiotas-adorables-y-erre-ampamp-cia-en-bluzz-30651",
-     "via": "mientrada"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30651_banner5.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mientrada",
-   "id_externo": "30642",
-   "url": "https://mientrada.com.uy/evento/emile-presenta-monaiampmanuel-jelen-30642",
-   "titulo": "EMILE PRESENTA: MONA/IAMBP/MANUEL JELEN",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "ESTE VIERNES 6 EMILE PRESENTA: IAMBP 🇫🇷 DJ y productora de la escena underground francesa. Influenciada por el rock y el hip-hop desde su infancia, construye sets oscuros e intensos que recorren el electro, el break, los sonidos rave de la vieja escuela y el new beat. Tras formarse en clubes…",
-   "lugar": {
-    "nombre": "Emile",
-    "direccion": null,
-    "lat": null,
-    "lon": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T23:59:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mientrada.com.uy/evento/emile-presenta-monaiampmanuel-jelen-30642",
-     "via": "mientrada"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30642_banner5.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "mientrada",
    "id_externo": "30644",
