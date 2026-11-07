@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="es-UY">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {#- Un atajo para difundir un especial (lagestoriacultural.uy/librerias): lleva a su pestaña. Tiene su propia vista
+      previa, así el enlace se ve bien en WhatsApp e Instagram. Cuando el especial termina, lleva a la agenda. #}
+  {%- set titulo = nombre ~ " · " ~ sitio %}
+  {%- set ruta = enlace ~ "/" %}
+{% include "_metadatos.html.j2" %}
+  <meta http-equiv="refresh" content="0; url=../#{{ enlace }}">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <p><a href="../#{{ enlace }}">Ir a {{ nombre }} en {{ sitio }}</a></p>
+</body>
+</html>

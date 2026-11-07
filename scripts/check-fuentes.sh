@@ -37,6 +37,7 @@ FUENTES='
 3|mientrada|https://mientrada.com.uy/agenda-geral?estado=Montevideo|card-agenda-geral
 3|cobraticket|https://cobraticket.uy/eventos/__data.json|nextEvents
 3|entraste|https://app.entraste.com/|name_seo
+3|mapas_especiales|https://www.google.com/maps/d/kml?mid=1unh4KD7uo9wdVfES4n5EXEobNB1S4HA&forcekml=1|<Placemark>
 '
 # Corchea no va acá: su robots.txt limita las visitas (de 00:00 a 09:00, pocas por hora) y esta prueba
 # las gastaría fuera de horario.

@@ -10,6 +10,7 @@ para rastreadores; el uso de la API lo regula su política de uso, que esto resp
 
 import json
 import logging
+import re
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -26,6 +27,21 @@ REINTENTAR_FALLIDAS = timedelta(days=30)
 log = logging.getLogger(__name__)
 
 
+# OpenStreetMap no entiende algunas abreviaturas de las direcciones ("Av. Gral. Rivera 2298" no lo encuentra;
+# "Avenida General Rivera 2298", sí).
+ABREVIATURAS = [
+    (r"\bAv(?:da)?\.\s*", "Avenida "), (r"\bGral\.\s*", "General "), (r"\bDr\.\s*", "Doctor "),
+    (r"\bBv\.\s*", "Bulevar "), (r"\bPte\.\s*", "Presidente "), (r"\bCnel\.\s*", "Coronel "),
+    (r"\bIng\.\s*", "Ingeniero "), (r"\bMcal\.\s*", "Mariscal "), (r"\bRbla\.\s*", "Rambla "),
+]
+
+
+def desabreviar(direccion: str) -> str:
+    for abreviatura, completa in ABREVIATURAS:
+        direccion = re.sub(abreviatura, completa, direccion)
+    return direccion
+
+
 class Geocodificador:
     def __init__(self):
         self._http: httpx.Client | None = None
@@ -38,6 +54,11 @@ class Geocodificador:
 
     def __call__(self, consulta: str) -> tuple[float, float] | None:
         """(lat, lon) de una dirección o nombre de sala en Montevideo, o None."""
+        # Lo que ya se encontró con la dirección tal cual queda; si no, se busca con las abreviaturas desarmadas.
+        anterior = self._cache.get(consulta.strip().lower())
+        if anterior and anterior["punto"]:
+            return tuple(anterior["punto"])
+        consulta = desabreviar(consulta)
         clave = consulta.strip().lower()
         guardado = self._cache.get(clave)
         if guardado and (guardado["punto"] or datetime.now() - datetime.fromisoformat(guardado["fecha"]) < REINTENTAR_FALLIDAS):

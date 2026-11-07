@@ -11,7 +11,7 @@ import logging
 import re
 import subprocess
 import tomllib
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, time, timedelta
 from pathlib import Path
 
 from dateutil.easter import easter
@@ -39,6 +39,16 @@ def activo(ruta: Path = CONFIG) -> bool:
     return tomllib.loads(ruta.read_text(encoding="utf-8")).get("activo", True)
 
 
+def elegidos(ruta: Path = CONFIG) -> list[dict]:
+    """Los especiales que se muestran, en el orden de `mostrar`. Sin `mostrar`, todos (como antes)."""
+    config = tomllib.loads(ruta.read_text(encoding="utf-8"))
+    todos = config.get("especial", [])
+    if "mostrar" not in config:
+        return todos
+    por_id = {e["id"]: e for e in todos}
+    return [por_id[i] for i in config["mostrar"] if i in por_id]
+
+
 def _enesimo(anio: int, mes: int, dia_semana: int, ordinal: int) -> date:
     """El primer sábado, el segundo viernes… de un mes."""
     primero = date(anio, mes, 1)
@@ -64,7 +74,10 @@ def proxima_edicion(especial: dict, hoy: date) -> dict:
     """La edición que viene (o la que está en curso): fechas y qué tan seguras son."""
     if especial.get("desde") and especial.get("hasta", especial["desde"]) >= hoy:
         desde, hasta = especial["desde"], especial.get("hasta", especial["desde"])
-        return {"desde": desde, "hasta": hasta, "estimada": False, "a_confirmar": False, "ventana": (desde, hasta)}
+        # Una noche que termina de madrugada ("19:00" a "01:00"): lo de después de las 12 también es suyo.
+        horario = especial.get("horario")
+        termina = hasta + timedelta(days=1) if horario and horario[1] < horario[0] else hasta
+        return {"desde": desde, "hasta": hasta, "estimada": False, "a_confirmar": False, "ventana": (desde, termina)}
     desde, hasta = _edicion(especial, hoy.year)
     if hasta < hoy:
         desde, hasta = _edicion(especial, hoy.year + 1)
@@ -84,13 +97,27 @@ def actividades(especial: dict, ventana: tuple[date, date], eventos: list[dict],
     patrones = [re.compile(p) for p in especial.get("palabras", [])]
     encontrados = []
     for evento in eventos:
-        texto = sin_tildes(f"{evento['titulo']} {ciclos.get(evento.get('ciclo_id') or '', '')}").lower()
+        ciclo = ciclos.get(evento.get("ciclo_id") or "", "") or evento.get("ciclo_nombre") or ""
+        texto = sin_tildes(f"{evento['titulo']} {ciclo}").lower()
         if not any(p.search(texto) for p in patrones):
             continue
         dias = [date.fromisoformat(f["inicio"][:10]) for f in evento["funciones"]]
         if any(ventana[0] <= d <= ventana[1] for d in dias):
             encontrados.append(evento)
     return sorted(encontrados, key=lambda e: e["funciones"][0]["inicio"])
+
+
+def termina(especial: dict) -> datetime | None:
+    """Cuándo termina la edición: con `horario`, a esa hora (la noche del viernes, el sábado a la 1); si no, al
+    terminar su último día. Sin fecha confirmada, no se sabe."""
+    hasta = especial.get("hasta")
+    if not hasta or especial.get("estimada") or especial.get("a_confirmar"):
+        return None
+    horario = especial.get("horario")
+    if horario:
+        dia = hasta + timedelta(days=1) if horario[1] < horario[0] else hasta
+        return datetime.combine(dia, time.fromisoformat(horario[1]), tzinfo=MONTEVIDEO)
+    return datetime.combine(hasta + timedelta(days=1), time(0, 0), tzinfo=MONTEVIDEO)
 
 
 def fecha_texto(desde: date, hasta: date, a_confirmar: bool) -> str:
@@ -128,7 +155,7 @@ def armar(eventos: list[dict], ciclos: list[dict], hoy: date, especiales: list[d
     """Los especiales con su próxima edición y sus actividades, del más cercano al más lejano."""
     titulos_ciclos = {c["id"]: c["titulo"] for c in ciclos}
     armados = []
-    for especial in cargar() if especiales is None else especiales:
+    for especial in elegidos() if especiales is None else especiales:
         edicion = proxima_edicion(especial, hoy)
         encontrados = actividades(especial, edicion["ventana"], eventos, titulos_ciclos)
         if edicion["a_confirmar"] and edicion["desde"] <= hoy and not encontrados:
@@ -149,6 +176,13 @@ def armar(eventos: list[dict], ciclos: list[dict], hoy: date, especiales: list[d
             estimada, a_confirmar = False, False
         armados.append({
             **{k: especial[k] for k in ("id", "nombre", "descripcion", "cuando", "sitio")},
+            "pagina": especial.get("pagina"), "horario": especial.get("horario"),
+            # La fecha cargada a mano (`desde`/`hasta`): cuando pasa, el especial se apaga y no salta a la del año que viene.
+            "fecha_cargada": especial.get("hasta", especial.get("desde")),
+            "lugares": especial.get("lugares", "lugares"),
+            # El nombre de la pestaña cuando se muestra solo este: "Noche de las Librerías" (sin el artículo).
+            "pestana": especial.get("pestana") or re.sub(r"^(La|El|Las|Los) ", "", especial["nombre"]),
+            "pestana_corta": especial.get("pestana_corta"), "icono": especial.get("icono"), "enlace": especial.get("enlace"),
             "desde": desde, "hasta": hasta, "estimada": estimada, "a_confirmar": a_confirmar,
             "en_curso": desde <= hoy <= hasta,
             "dias_para": (desde - hoy).days,

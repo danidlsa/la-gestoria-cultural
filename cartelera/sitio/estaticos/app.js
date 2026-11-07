@@ -13,6 +13,13 @@
     const nodo = document.createElement(etiqueta);
     for (const [clave, valor] of Object.entries(atributos)) {
       if (clave === "class") nodo.className = valor;
+      // Los estilos van por código y no como atributo: la política de seguridad del sitio (CSP) bloquea los atributos style.
+      else if (clave === "style") {
+        for (const regla of valor.split(";")) {
+          const dos = regla.indexOf(":");
+          if (dos > 0) nodo.style.setProperty(regla.slice(0, dos).trim(), regla.slice(dos + 1).trim());
+        }
+      }
       else if (clave.startsWith("data-")) nodo.dataset[clave.slice(5).replace(/-(.)/g, (_, c) => c.toUpperCase())] = valor;
       else nodo.setAttribute(clave, valor);
     }
@@ -70,8 +77,14 @@
   // La cartelera se arma unas veces por día, así que al abrir la página se sacan las funciones que ya
   // empezaron (las de hoy con hora anterior a ahora) y los días sin hora que ya pasaron. Un evento que se
   // queda sin funciones no se muestra; los que nunca tuvieron (alguna muestra) quedan como están.
+  // Lo que dura varias horas (una feria de toda la noche, una fiesta) queda mientras no termine.
   const ahoraAlAbrir = Date.now();
-  const sigueVigente = ([inicio, sinHora]) => (sinHora ? inicio.slice(0, 10) >= hoy : Date.parse(inicio) > ahoraAlAbrir);
+  const DOS_HORAS = 2 * 60 * 60 * 1000;
+  const sigueVigente = ([inicio, sinHora, fin]) => {
+    if (sinHora) return inicio.slice(0, 10) >= hoy;
+    if (Date.parse(inicio) > ahoraAlAbrir) return true;
+    return Boolean(fin) && Date.parse(fin) - Date.parse(inicio) >= DOS_HORAS && Date.parse(fin) > ahoraAlAbrir;
+  };
   const eventos = datos.eventos
     .map((e) => ({ ...e, funciones: e.funciones.filter(sigueVigente), teniaFunciones: e.funciones.length > 0 }))
     .filter((e) => e.funciones.length || !e.teniaFunciones)
@@ -396,17 +409,33 @@
 
     const enCartel = visibles.filter((e) => e.enCartel);
     const porDia = new Map();
+    // Las actividades de un especial (las 140 de la Noche de las Librerías) no inundan su día: van todas en una
+    // tarjeta que lleva a su programa. Si se busca algo o se elige una sala, se ven sueltas.
+    const agruparEspeciales = !estado.texto.trim() && !estado.sala && !estado.ciclo;
+    const especialesPorDia = new Map(); // día -> Map(id del especial -> { jornada, cantidad, lugares })
     for (const evento of visibles) {
       if (evento.enCartel) continue;
+      const jornada = agruparEspeciales ? jornadaDe.get(evento.id) : null;
       const vistos = new Set();
       for (const funcion of evento.funciones) {
-        const dia = funcion[0].slice(0, 10);
+        // Lo de la madrugada de un especial (la 1 del sábado) es de su noche (el viernes).
+        const madrugada = jornada && Number(funcion[0].slice(11, 13)) < 6;
+        const dia = madrugada ? sumarDias(funcion[0].slice(0, 10), -1) : funcion[0].slice(0, 10);
         if (!enRango(dia) || vistos.has(dia)) continue;
         vistos.add(dia);
+        if (jornada) {
+          if (!especialesPorDia.has(dia)) especialesPorDia.set(dia, new Map());
+          const delDia = especialesPorDia.get(dia);
+          if (!delDia.has(jornada.id)) delDia.set(jornada.id, { jornada, cantidad: 0, lugares: new Set() });
+          delDia.get(jornada.id).cantidad += 1;
+          delDia.get(jornada.id).lugares.add(evento.lugar);
+          continue;
+        }
         if (!porDia.has(dia)) porDia.set(dia, []);
         porDia.get(dia).push([evento, funcion]);
       }
     }
+    for (const dia of especialesPorDia.keys()) if (!porDia.has(dia)) porDia.set(dia, []);
 
     const secciones = [];
     for (const dia of [...porDia.keys()].sort()) {
@@ -416,8 +445,10 @@
       const items = porDia.get(dia).sort((a, b) => (a[1][1] - b[1][1])
         || (ordenRubro(a[0]) - ordenRubro(b[0]))
         || a[1][0].localeCompare(b[1][0]));
-      secciones.push(() => carril(nombreCarril(dia), plural(items.length, "evento"),
-        items.map(([e, f]) => tarjetaPara(e, f)), diaSemana(dia) % 6 === 0 ? "carril-finde" : "", dia));
+      const resumenes = [...(especialesPorDia.get(dia)?.values() || [])];
+      const cantidad = items.length + resumenes.reduce((total, r) => total + r.cantidad, 0);
+      secciones.push(() => carril(nombreCarril(dia), plural(cantidad, "evento"),
+        [...resumenes.map(tarjetaDeEspecial), ...items.map(([e, f]) => tarjetaPara(e, f))], diaSemana(dia) % 6 === 0 ? "carril-finde" : "", dia));
     }
     // Lo que se repite durante semanas (temporadas, exposiciones, talleres) va al final, con su título:
     // no tapa lo que pasa cada día, pero tampoco se esconde.
@@ -614,6 +645,797 @@
     }
     limitesDelMapa = puntos.length ? puntos : null;
     if (puntos.length) mapa.fitBounds(puntos, { padding: [30, 30], maxZoom: 15 });
+  }
+
+  // --- Especiales: el programa de una jornada grande (la Noche de las Librerías…) ------------------
+  // Cada actividad es un evento más de la cartelera (con su compartir y su lugar en Mi plan). Acá se muestran
+  // juntas para armar el recorrido de la noche: por lugar, por hora o en un mapa, y "Mi recorrido" con lo elegido.
+  const jornadas = (datos.especiales || []).map((jornada) => ({
+    ...jornada,
+    actividades: jornada.actividades
+      .map((a) => ({ ...a, evento: porId.get(a.id) }))
+      .filter((a) => a.evento && a.evento.funciones.length),
+  })).filter((jornada) => jornada.actividades.length);
+  const jornadaDe = new Map(); // id de evento -> su especial
+  for (const jornada of jornadas) for (const a of jornada.actividades) jornadaDe.set(a.id, jornada);
+  // Si el especial ya terminó (no le queda ninguna actividad por delante) y la página todavía no se regeneró, se
+  // vuelve sola a la de siempre: sin su pestaña, con "Mapa" en la barra del celular y "Festivales" en "Más".
+  if (!jornadas.length && document.getElementById("especiales")) {
+    document.getElementById("pestanas").classList.remove("con-especial");
+    for (const boton of document.querySelectorAll(".boton-especial, .pestana-especial")) boton.hidden = true;
+    for (const boton of document.querySelectorAll('[data-seccion="festivales"][hidden]')) boton.hidden = false;
+  }
+
+  // La hora en número, con la madrugada después de la medianoche (la 1 de la mañana es 25).
+  const horaNoche = (iso) => {
+    const h = Number(iso.slice(11, 13)) + Number(iso.slice(14, 16)) / 60;
+    return h < 6 ? h + 24 : h;
+  };
+  const hhmm = (iso) => iso.slice(11, 16);
+  const funcionDe = (a) => a.evento.funciones[0];
+  const lugarDe = (a) => datos.lugares[a.evento.lugar] || {};
+  const barrioDe = (a) => lugarDe(a).barrio || "Otros barrios";
+  // Lo que dura casi toda la noche va aparte: no es de ninguna hora en particular.
+  const esLarga = ([inicio, , fin]) => Boolean(fin) && horaNoche(fin) - horaNoche(inicio) >= 3;
+  const singular = (lugares) => lugares.replace(/es$/, "").replace(/s$/, "");
+  const cuantosLugares = (n, lugares) => `${n} ${n === 1 ? singular(lugares) : lugares}`;
+  const cuantas = (n) => `${n} ${n === 1 ? "actividad" : "actividades"}`;
+  const enRecorrido = (a) => plan.has(clavePlan(a.id, funcionDe(a)[0]));
+  const iconoCompartir = () => deposito.querySelector(".compartir svg")?.cloneNode(true) || "↗";
+  const comoLlegar = (lugar) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${lugar.direccion || lugar.nombre}, Montevideo, Uruguay`)}`;
+  const ACENTOS = ["cobalto", "coral", "mostaza", "tinta"];
+
+  // Qué partes se usan (para decidir qué dejar en el próximo especial): un evento anónimo de GoatCounter por botón,
+  // sin cookies ni datos de nadie. Si el contador no cargó (bloqueadores, sin conexión), no pasa nada.
+  function contarUso(que) {
+    try {
+      window.goatcounter?.count?.({ path: `especiales/${que}`, title: `Especiales: ${que}`, event: true });
+    } catch (_) { /* nada */ }
+  }
+
+  const vistasEspeciales = new Map(); // id del especial -> filtros y modo elegidos
+  function vistaDe(id) {
+    if (!vistasEspeciales.has(id)) {
+      vistasEspeciales.set(id, { modo: "lugares", barrios: [], tipos: [], texto: "", plegadas: new Set(), panelAbierto: false });
+    }
+    return vistasEspeciales.get(id);
+  }
+  const conFiltros = (v) => Boolean(v.barrios.length || v.tipos.length || v.texto.trim());
+
+  function filtrarJornada(jornada, v) {
+    const texto = plano(v.texto.trim());
+    return jornada.actividades.filter((a) => {
+      if (v.barrios.length && !v.barrios.includes(barrioDe(a))) return false;
+      if (v.tipos.length && !v.tipos.includes(a.evento.categoria)) return false;
+      if (texto && !plano(`${a.evento.titulo} ${a.desc} ${nombreLugar(a.evento)} ${barrioDe(a)}`).includes(texto)) return false;
+      return true;
+    });
+  }
+
+  const chip = (texto, activo, atributos) => el("button", {
+    type: "button", class: `esp-chip${activo ? " activo" : ""}`, "aria-pressed": String(activo), ...atributos,
+  }, texto);
+  const filaDeChips = (titulo, ...chips) => el("div", { class: "esp-fila", role: "group", "aria-label": titulo },
+    el("span", { class: "esp-fila-titulo" }, titulo), el("div", { class: "esp-chips" }, ...chips));
+  const contar = (lista, clave) => {
+    const cuenta = new Map();
+    for (const a of lista) cuenta.set(clave(a), (cuenta.get(clave(a)) || 0) + 1);
+    return [...cuenta];
+  };
+  const alternar = (lista, valor) => (lista.includes(valor) ? lista.filter((x) => x !== valor) : [...lista, valor]);
+  const textoMio = (n) => `★ Mi recorrido${n ? ` (${n})` : ""}`;
+
+  function controlesJornada(jornada, v) {
+    const barrios = contar(jornada.actividades, barrioDe).sort((a, b) => a[0].localeCompare(b[0], "es"));
+    const tipos = contar(jornada.actividades, (a) => a.evento.categoria).sort((a, b) => b[1] - a[1]);
+    const elegidas = jornada.actividades.filter(enRecorrido).length;
+    const buscador = el("input", {
+      type: "search", class: "esp-buscar", placeholder: "Buscá un nombre, un libro, un tema…",
+      "aria-label": "Buscar en el programa", "data-esp-buscar": "",
+    });
+    buscador.value = v.texto;
+    const enMio = v.modo === "mio";
+    const modos = el("div", { class: "esp-arriba" },
+      el("div", { class: "esp-modos", role: "group", "aria-label": "Cómo ver el programa" },
+        ...[["lugares", `Por ${singular(jornada.lugares)}`], ["hora", "Por hora"]]
+          .map(([modo, texto]) => chip(texto, v.modo === modo, { "data-esp-modo": modo }))),
+      chip(textoMio(elegidas), enMio, { "data-esp-modo": "mio", class: `esp-chip esp-mio${enMio ? " activo" : ""}` }));
+    // En "Mi recorrido" no hay filtros: es tu lista.
+    if (enMio) return el("div", { class: "esp-controles" }, modos);
+    // Barrio y tipo: en la compu, a la vista; en el celular, en un panel que entra desde la izquierda, como los
+    // filtros del resto de la página (con el botón "Filtros" al lado del buscador).
+    const elegidos = v.barrios.length + v.tipos.length;
+    const idPanel = `esp-panel-${jornada.id}`;
+    const abrir = el("button", {
+      type: "button", class: "abrir-filtros esp-abrir-filtros", "data-esp-abrir-filtros": "",
+      "aria-controls": idPanel, "aria-expanded": String(v.panelAbierto),
+    }, "Filtros", elegidos ? el("span", { class: "cuenta cuenta-filtros" }, String(elegidos)) : null);
+    const atributosPanel = { class: `esp-panel${v.panelAbierto ? " abierto" : ""}`, id: idPanel, "aria-label": "Filtros del programa" };
+    if (v.panelAbierto) Object.assign(atributosPanel, { role: "dialog", "aria-modal": "true" });
+    const panel = el("div", atributosPanel,
+      el("div", { class: "esp-panel-titulo" }, el("strong", {}, "Filtros"),
+        elegidos ? el("button", { type: "button", class: "esp-borrar", "data-esp-borrar": "" }, "Borrar") : null,
+        el("button", { type: "button", class: "cerrar-filtros", "data-esp-cerrar-filtros": "", "aria-label": "Cerrar filtros" }, "×")),
+      filaDeChips("Barrio", chip("Todos", !v.barrios.length, { "data-esp-barrio": "" }),
+        ...barrios.map(([barrio]) => chip(barrio, v.barrios.includes(barrio), { "data-esp-barrio": barrio }))),
+      filaDeChips("Tipo", chip("Todo", !v.tipos.length, { "data-esp-tipo": "" }),
+        ...tipos.map(([tipo]) => chip(datos.categorias[tipo] || tipo, v.tipos.includes(tipo), { "data-esp-tipo": tipo }))),
+      el("div", { class: "esp-panel-pie" },
+        el("button", { type: "button", class: "boton-principal", "data-esp-cerrar-filtros": "" }, `Ver ${cuantas(filtrarJornada(jornada, v).length)}`)));
+    return el("div", { class: "esp-controles" }, modos, el("div", { class: "esp-busqueda" }, buscador, abrir), panel,
+      v.panelAbierto ? el("div", { class: "esp-velo", "data-esp-cerrar-filtros": "" }) : null);
+  }
+
+  // El botón de cada actividad: lo mismo que "＋ Mi plan", pero dicho como parte del recorrido.
+  function etiquetarRecorrido(boton) {
+    const enPlan = boton.classList.contains("en-plan");
+    boton.textContent = enPlan ? "★ En tu recorrido" : "＋ Recorrido";
+    boton.title = enPlan ? "Sacar de tu recorrido" : "Sumar a tu recorrido (también queda en Mi plan)";
+  }
+
+  function botonesActividad(a) {
+    const inicio = funcionDe(a)[0];
+    const botonPlan = el("button", { type: "button", class: "agregar-plan" });
+    marcarBotonPlan(botonPlan, a.id, inicio);
+    etiquetarRecorrido(botonPlan);
+    const botonCompartir = el("button", { type: "button", class: "compartir", title: "Invitá a alguien" }, iconoCompartir());
+    marcarCompartir(botonCompartir, a.evento, inicio);
+    return el("div", { class: "esp-acciones" }, botonCompartir, botonPlan);
+  }
+
+  function filaActividad(a, { conLugar }) {
+    const [inicio, , fin] = funcionDe(a);
+    const evento = a.evento;
+    return el("li", { class: `esp-act cat-${evento.categoria}${enRecorrido(a) ? " en-plan" : ""}` },
+      el("time", { class: "esp-hora", datetime: inicio }, hhmm(inicio), fin ? el("small", {}, `a ${hhmm(fin)}`) : null),
+      el("div", { class: "esp-cuerpo" },
+        el("p", { class: "esp-titulo" }, evento.titulo),
+        el("p", { class: "esp-meta" },
+          el("span", { class: "esp-tipo" }, datos.categorias[evento.categoria] || ""),
+          conLugar ? el("button", { type: "button", class: "esp-ir-lugar", "data-esp-lugar": evento.lugar, title: "Ver todo lo de este lugar" }, lugarDe(a).nombre || "") : null,
+          conLugar ? el("span", { class: "esp-barrio-chico" }, barrioDe(a)) : null),
+        a.desc ? el("p", { class: "esp-desc", tabindex: "0", title: "Tocá para leer todo" }, a.desc) : null),
+      botonesActividad(a));
+  }
+
+  const ordenNoche = (a, b) => horaNoche(funcionDe(a)[0]) - horaNoche(funcionDe(b)[0])
+    || nombreLugar(a.evento).localeCompare(nombreLugar(b.evento), "es");
+
+  function agruparPorLugar(lista) {
+    const porLugar = new Map();
+    for (const a of [...lista].sort(ordenNoche)) {
+      if (!porLugar.has(a.evento.lugar)) porLugar.set(a.evento.lugar, []);
+      porLugar.get(a.evento.lugar).push(a);
+    }
+    return [...porLugar].sort((x, y) => (barrioDe(x[1][0]).localeCompare(barrioDe(y[1][0]), "es"))
+      || (datos.lugares[x[0]]?.nombre || "").localeCompare(datos.lugares[y[0]]?.nombre || "", "es"));
+  }
+
+  // Por lugar, en el celular: un bloque por barrio y una tarjeta por lugar con sus actividades en orden.
+  function vistaPorLugar(jornada, lista) {
+    const porBarrio = new Map();
+    for (const [lugarId, actividades] of agruparPorLugar(lista)) {
+      const barrio = barrioDe(actividades[0]);
+      if (!porBarrio.has(barrio)) porBarrio.set(barrio, []);
+      porBarrio.get(barrio).push([lugarId, actividades]);
+    }
+    return el("div", { class: "esp-por-lugar" }, ...[...porBarrio].map(([barrio, lugares]) =>
+      el("section", { class: "esp-barrio" },
+        el("h4", {}, barrio, el("small", {}, cuantosLugares(lugares.length, jornada.lugares))),
+        el("div", { class: "esp-lugares" }, ...lugares.map(([lugarId, actividades]) => {
+          const lugar = datos.lugares[lugarId] || {};
+          return el("article", { class: "esp-lugar", id: `esp-lugar-${lugarId}` },
+            el("header", {},
+              el("h5", {}, lugar.nombre || ""),
+              el("p", { class: "esp-dir" }, lugar.direccion ? `${lugar.direccion} · ` : "",
+                el("a", { href: comoLlegar(lugar), target: "_blank", rel: "noopener" }, "Cómo llegar ↗"))),
+            el("ol", { class: "esp-actividades" }, ...actividades.map((a) => filaActividad(a, { conLugar: false }))));
+        })))));
+  }
+
+  // Por lugar, como la grilla de un festival: en la compu, un renglón por lugar con las horas de costado; en el
+  // celular, una columna por lugar con las horas hacia abajo (se desliza de costado para ver los demás).
+  const ANCHA = window.matchMedia("(min-width: 900px)");
+
+  // Dónde va cada actividad en la grilla: desde su hora hasta la de fin o, si no la dice, hasta la siguiente del
+  // mismo lugar (como mucho una hora y como poco media). Lo que se pisa en un mismo lugar va en otro carril.
+  function armarGrilla(lista) {
+    const empieza = (a) => horaNoche(funcionDe(a)[0]);
+    const desde = Math.max(17, Math.floor(Math.min(...lista.map(empieza))));
+    let hasta = desde + 2;
+    const filas = agruparPorLugar(lista).map(([lugarId, actividades]) => {
+      const finCarriles = [];
+      const bloques = actividades.map((a, i) => {
+        const inicio = empieza(a);
+        const fin = funcionDe(a)[2];
+        const siguiente = actividades.slice(i + 1).map(empieza).find((h) => h > inicio);
+        const termina = fin ? horaNoche(fin) : Math.max(inicio + 0.5, Math.min(inicio + 1, siguiente ?? inicio + 1));
+        const ini = Math.max(inicio, desde);
+        const fn = Math.max(termina, desde + 0.5);
+        hasta = Math.max(hasta, Math.ceil(fn));
+        let carril = finCarriles.findIndex((f) => f <= ini + 0.01);
+        if (carril === -1) carril = finCarriles.push(0) - 1;
+        finCarriles[carril] = fn;
+        return { a, ini, fin: fn, carril, antes: inicio < desde };
+      });
+      return { lugarId, barrio: barrioDe(actividades[0]), bloques, carriles: finCarriles.length };
+    });
+    return { desde, hasta, filas };
+  }
+
+  function bloqueGrilla(b, estilo) {
+    const real = funcionDe(b.a);
+    return el("button", {
+      type: "button", class: `eg-act cat-${b.a.evento.categoria}${enRecorrido(b.a) ? " en-plan" : ""}${esLarga(real) ? " larga" : ""}`,
+      style: estilo, "data-esp-ficha": b.a.id, title: `${hhmm(real[0])} · ${b.a.evento.titulo}`,
+    }, el("span", { class: "eg-act-hora" }, b.antes ? `desde ${hhmm(real[0])}` : hhmm(real[0])), el("span", { class: "eg-act-titulo" }, b.a.evento.titulo));
+  }
+  const etiquetaHora = (h) => `${String(h % 24).padStart(2, "0")}:00`;
+
+  function vistaGrilla(jornada, lista, contenedor) {
+    const { desde, hasta, filas } = armarGrilla(lista);
+    const ANCHO_LUGAR = 230;
+    const pxHora = Math.max(130, Math.floor(((contenedor.clientWidth || 1100) - ANCHO_LUGAR - 8) / (hasta - desde)));
+    const x = (h) => (h - desde) * pxHora;
+    const ALTO = 54;
+    const cabeza = el("div", { class: "eg-fila eg-cabeza" },
+      el("div", { class: "eg-lugar" }, mayuscula(singular(jornada.lugares))),
+      el("div", { class: "eg-pista" }, ...Array.from({ length: hasta - desde }, (_, i) =>
+        el("span", { class: "eg-hora", style: `left:${x(desde + i)}px` }, etiquetaHora(desde + i)))));
+    const cuerpo = [];
+    let barrioAnterior = null;
+    for (const fila of filas) {
+      if (fila.barrio !== barrioAnterior) {
+        cuerpo.push(el("div", { class: "eg-barrio" }, el("span", {}, fila.barrio)));
+        barrioAnterior = fila.barrio;
+      }
+      const lugar = datos.lugares[fila.lugarId] || {};
+      cuerpo.push(el("div", { class: "eg-fila", id: `esp-lugar-${fila.lugarId}` },
+        el("div", { class: "eg-lugar" }, el("strong", {}, lugar.nombre || ""),
+          el("a", { href: comoLlegar(lugar), target: "_blank", rel: "noopener" }, "Cómo llegar ↗")),
+        el("div", { class: "eg-pista", style: `height:${fila.carriles * ALTO + 8}px` }, ...fila.bloques.map((b) =>
+          bloqueGrilla(b, `left:${x(b.ini) + 2}px;width:${Math.max(40, x(b.fin) - x(b.ini) - 4)}px;top:${b.carril * ALTO + 4}px`)))));
+    }
+    return el("div", { class: "esp-grilla-envoltura" },
+      el("p", { class: "esp-nota" }, "Tocá una actividad para ver de qué se trata y sumarla a tu recorrido."),
+      el("div", { class: "esp-grilla", style: `--px-hora:${pxHora}px;--ancho-lugar:${ANCHO_LUGAR}px;width:${ANCHO_LUGAR + x(hasta) + 8}px` }, cabeza, ...cuerpo));
+  }
+
+  function vistaGrillaCelu(jornada, lista) {
+    const { desde, hasta, filas } = armarGrilla(lista);
+    const PX_HORA = 104;
+    const CARRIL = 128;
+    const y = (h) => (h - desde) * PX_HORA;
+    const alto = y(hasta);
+    const cabezas = [];
+    const columnas = [];
+    let barrioAnterior = null;
+    for (const fila of filas) {
+      const lugar = datos.lugares[fila.lugarId] || {};
+      const ancho = fila.carriles * CARRIL;
+      const nuevoBarrio = fila.barrio !== barrioAnterior;
+      barrioAnterior = fila.barrio;
+      cabezas.push(el("div", { class: `egv-cabeza-lugar${nuevoBarrio ? " nuevo-barrio" : ""}`, id: `esp-lugar-${fila.lugarId}`, style: `width:${ancho}px` },
+        el("span", { class: "egv-barrio" }, fila.barrio),
+        el("strong", {}, lugar.nombre || ""),
+        el("a", { href: comoLlegar(lugar), target: "_blank", rel: "noopener" }, "Cómo llegar ↗")));
+      columnas.push(el("div", { class: `egv-columna${nuevoBarrio ? " nuevo-barrio" : ""}`, style: `width:${ancho}px;height:${alto}px` },
+        ...fila.bloques.map((b) => bloqueGrilla(b,
+          `top:${y(b.ini) + 2}px;height:${Math.max(36, y(b.fin) - y(b.ini) - 4)}px;left:${b.carril * CARRIL + 3}px;width:${CARRIL - 6}px`))));
+    }
+    return el("div", { class: "esp-grilla-envoltura celu" },
+      el("p", { class: "esp-nota" }, "Deslizá de costado para ver más ", jornada.lugares, ". Tocá una actividad para verla y sumarla a tu recorrido."),
+      el("div", { class: "egv", style: `--px-hora:${PX_HORA}px` },
+        el("div", { class: "egv-tabla" },
+          el("div", { class: "egv-cabeza" }, el("div", { class: "egv-esquina" }), ...cabezas),
+          el("div", { class: "egv-cuerpo" },
+            el("div", { class: "egv-horas", style: `height:${alto}px` }, ...Array.from({ length: hasta - desde }, (_, i) =>
+              el("span", { style: `top:${y(desde + i)}px` }, etiquetaHora(desde + i)))),
+            ...columnas))));
+  }
+
+  // La ficha de una actividad de la grilla: aparece al lado del bloque, con todo lo de la fila de la lista.
+  function abrirFicha(jornada, bloque) {
+    cerrarFicha();
+    const a = jornada.actividades.find((x) => x.id === bloque.dataset.espFicha);
+    if (!a) return;
+    const envoltura = bloque.closest(".esp-grilla-envoltura");
+    const ficha = el("div", { class: "eg-ficha", role: "dialog", "aria-label": a.evento.titulo },
+      el("button", { type: "button", class: "eg-cerrar", "aria-label": "Cerrar", "data-esp-cerrar-ficha": "" }, "×"),
+      el("ol", { class: "esp-actividades" }, filaActividad(a, { conLugar: true })));
+    envoltura.appendChild(ficha);
+    if (!ANCHA.matches) { // en el celular, una hoja abajo de la pantalla
+      ficha.classList.add("hoja");
+      ficha.querySelector(".agregar-plan")?.focus({ preventScroll: true });
+      return;
+    }
+    const caja = bloque.getBoundingClientRect();
+    const base = envoltura.getBoundingClientRect();
+    const izquierda = Math.min(caja.left - base.left, base.width - ficha.offsetWidth - 8);
+    ficha.style.left = `${Math.max(0, izquierda)}px`;
+    ficha.style.top = `${caja.bottom - base.top + 6}px`;
+    ficha.querySelector(".agregar-plan")?.focus({ preventScroll: true });
+  }
+  function cerrarFicha() {
+    document.querySelector(".eg-ficha")?.remove();
+  }
+
+  // Por hora: un bloque por hora, cada uno con su color, que se puede plegar (arranca desplegado).
+  function vistaPorHora(jornada, lista) {
+    const v = vistaDe(jornada.id);
+    const largas = lista.filter((a) => esLarga(funcionDe(a))).sort(ordenNoche);
+    const porHora = new Map();
+    for (const a of lista.filter((x) => !esLarga(funcionDe(x))).sort(ordenNoche)) {
+      const hora = Math.floor(horaNoche(funcionDe(a)[0]));
+      if (!porHora.has(hora)) porHora.set(hora, []);
+      porHora.get(hora).push(a);
+    }
+    const bloques = [...porHora].map(([hora, actividades]) => [String(hora), `${String(hora % 24).padStart(2, "0")}:00`, actividades]);
+    if (largas.length) bloques.push(["larga", "Durante toda la noche", largas]);
+    return el("div", { class: "esp-por-hora" }, ...bloques.map(([clave, titulo, actividades], i) => {
+      const bloque = el("details", { class: `esp-bloque acento-${clave === "larga" ? "larga" : ACENTOS[i % ACENTOS.length]}`, "data-esp-bloque": clave },
+        el("summary", {}, el("span", { class: "esp-bloque-hora" }, titulo), el("small", {}, cuantas(actividades.length))),
+        el("ol", { class: "esp-actividades" }, ...actividades.map((a) => filaActividad(a, { conLugar: true }))));
+      bloque.open = !v.plegadas.has(clave);
+      return bloque;
+    }));
+  }
+
+  // El mapa de Mi recorrido: uno por especial, que se arma una vez y se vuelve a usar (Leaflet no se lleva bien con
+  // rearmarlo). Las paradas numeradas, unidas por el camino a pie en el orden de la noche.
+  const mapasJornada = new Map();
+  async function dibujarMapaRecorrido(jornada, lista, contenedor) {
+    let m = mapasJornada.get(jornada.id);
+    if (!m) {
+      m = { nodo: el("div", { class: "esp-mapa esp-mapa-recorrido" }) };
+      mapasJornada.set(jornada.id, m);
+    }
+    contenedor.appendChild(m.nodo);
+    await cargarLeaflet();
+    if (!m.mapa) {
+      m.mapa = L.map(m.nodo, { wheelPxPerZoomLevel: 90, dragging: !TACTIL }).setView([-34.905, -56.17], 13);
+      if (TACTIL) activarDosDedos(m.nodo);
+      else activarZoomConRueda(m.nodo);
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      }).addTo(m.mapa);
+      m.capa = L.layerGroup().addTo(m.mapa);
+    }
+    m.mapa.invalidateSize();
+    m.capa.clearLayers();
+    const puntos = [];
+    // Las paradas numeradas, unidas en el orden de la noche.
+    lista.forEach((a, i) => {
+      const lugar = lugarDe(a);
+      if (lugar.lat == null) return;
+      L.marker([lugar.lat, lugar.lon], {
+        icon: L.divIcon({ className: "parada-mapa", html: `<span>${i + 1}</span>`, iconSize: [30, 30], iconAnchor: [15, 15] }),
+      }).bindTooltip(`${i + 1}. ${hhmm(funcionDe(a)[0])} · ${lugar.nombre}`, { direction: "top", offset: [0, -14] }).addTo(m.capa);
+      puntos.push([lugar.lat, lugar.lon]);
+    });
+    if (puntos.length > 1) {
+      // Mientras llega el camino de verdad (o si no llega), una línea punteada que marca el orden.
+      const provisoria = L.polyline(puntos, { color: "#F06C4F", weight: 4, dashArray: "8 8" }).addTo(m.capa);
+      const capa = m.capa;
+      caminoAPie(puntos).then((camino) => {
+        if (!camino || !capa.hasLayer(provisoria)) return; // sin camino, o ya se redibujó con otras paradas
+        capa.removeLayer(provisoria);
+        L.polyline(camino, { color: "#18264A", weight: 7, opacity: 0.35 }).addTo(capa);
+        L.polyline(camino, { color: "#F06C4F", weight: 4 }).addTo(capa);
+      });
+    }
+    if (puntos.length) m.mapa.fitBounds(puntos, { padding: [30, 30], maxZoom: 15 });
+    return puntos.length;
+  }
+
+  // --- Mi recorrido: lo elegido, en orden, con cómo ir de un lugar al otro --------------------------
+  // El camino a pie por la calle entre las paradas, para dibujarlo en el mapa: un pedido al ruteo de OpenStreetMap
+  // (FOSSGIS) con las ubicaciones de los lugares, solo al mirar el recorrido. Se guarda, para no repetirlo.
+  const RUTEO = "https://routing.openstreetmap.de/routed-foot/route/v1/foot/";
+  const caminosPedidos = new Map();
+  function caminoAPie(puntos) {
+    const sinRepetir = puntos.filter((p, i) => i === 0 || p[0] !== puntos[i - 1][0] || p[1] !== puntos[i - 1][1]);
+    if (sinRepetir.length < 2) return Promise.resolve(null);
+    const clave = sinRepetir.map(([lat, lon]) => `${lon.toFixed(5)},${lat.toFixed(5)}`).join(";");
+    if (!caminosPedidos.has(clave)) {
+      caminosPedidos.set(clave, fetch(`${RUTEO}${clave}?overview=full&geometries=geojson`)
+        .then((r) => (r.ok ? r.json() : null))
+        .then((d) => (d?.code === "Ok" ? d.routes[0].geometry.coordinates.map(([lon, lat]) => [lat, lon]) : null))
+        .catch(() => null));
+    }
+    return caminosPedidos.get(clave);
+  }
+  const distanciaKm = (a, b) => {
+    const rad = Math.PI / 180;
+    const dLat = (b.lat - a.lat) * rad;
+    const dLon = (b.lon - a.lon) * rad;
+    const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLon / 2) ** 2;
+    return 2 * 6371 * Math.asin(Math.sqrt(h));
+  };
+  // Las calles no van en línea recta: se estima un 30 % más, a 5 km por hora caminando.
+  const minutosCaminando = (km) => Math.round(km * 1.3 * 12);
+
+  // El camino a pie entre dos lugares, en el mapa de OpenStreetMap (se abre aparte, solo si la persona lo toca).
+  const enlaceCamino = (desde, hasta) => `https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=${
+    encodeURIComponent(`${desde.lat},${desde.lon};${hasta.lat},${hasta.lon}`)}`;
+  const textoDistancia = (metros) => (metros < 1000 ? `${Math.round(metros / 10) * 10} m` : `${(metros / 1000).toFixed(1).replace(".", ",")} km`);
+
+  function tramo(jornada, anterior, siguiente) {
+    const desde = lugarDe(anterior);
+    const hasta = lugarDe(siguiente);
+    const [iniA, , finA] = funcionDe(anterior);
+    const [iniB] = funcionDe(siguiente);
+    const libres = Math.round((horaNoche(iniB) - horaNoche(finA || iniA)) * 60); // minutos entre una y otra
+    const avisos = [];
+    if (anterior.evento.lugar === siguiente.evento.lugar) {
+      avisos.push(el("span", {}, "Mismo lugar"));
+    } else if (desde.lat != null && hasta.lat != null) {
+      // Lo calculado por la calle (al generar el sitio); si no está, una estimación en línea recta.
+      const real = jornada.caminatas?.[[anterior.evento.lugar, siguiente.evento.lugar].sort().join("|")];
+      const metros = real ? real[0] : distanciaKm(desde, hasta) * 1300;
+      const minutos = real ? real[1] : minutosCaminando(distanciaKm(desde, hasta));
+      avisos.push(el("span", { class: "esp-tramo-dato" }, `🚶 ${real ? "" : "unos "}${minutos} min · ${textoDistancia(metros)}`),
+        el("a", { href: enlaceCamino(desde, hasta), target: "_blank", rel: "noopener" }, "Ver el camino ↗"));
+      if (finA && libres >= 0 && libres < minutos) avisos.push(el("strong", { class: "esp-alerta" }, "Vas a llegar justo"));
+    }
+    if (finA ? libres < 0 : horaNoche(iniB) === horaNoche(iniA)) {
+      avisos.push(el("strong", { class: "esp-alerta" }, "Se superpone con la anterior"));
+    }
+    return el("li", { class: "esp-tramo", "aria-hidden": "false" }, el("span", { class: "esp-tramo-linea", "aria-hidden": "true" }), ...avisos);
+  }
+
+  // El enlace a un recorrido: lleva las actividades en la dirección (#recorrido=id,id…). Quien lo abre (vos en
+  // otro celular, o alguien a quien se lo mandaste) lo ve armado y le queda guardado.
+  const enlaceRecorrido = (lista) => `${URL_SITIO.split("#")[0]}#recorrido=${lista.map((a) => a.id).join(",")}`;
+
+  function textoRecorrido(jornada, lista) {
+    return [
+      `Mi recorrido por ${jornada.nombre}:`,
+      ...lista.map((a) => {
+        const lugar = lugarDe(a);
+        return `${hhmm(funcionDe(a)[0])} · ${a.evento.titulo} — ${lugar.nombre}${lugar.direccion ? ` (${lugar.direccion})` : ""}`;
+      }),
+      "",
+      `Abrilo con el mapa y cómo llegar: ${enlaceRecorrido(lista)}`,
+    ].join("\n");
+  }
+
+  // El atajo para difundir (lagestoriacultural.uy/librerias lleva a /#librerias): abre la pestaña del especial.
+  function abrirEspecialPorEnlace() {
+    const atajo = location.hash.slice(1);
+    const jornada = atajo && (datos.especiales || []).find((j) => j.enlace === atajo);
+    if (!jornada) return;
+    history.replaceState(null, "", location.pathname + location.search);
+    if (jornadas.some((j) => j.id === jornada.id)) {
+      estado.seccion = "especiales";
+      contarUso("abierto-por-atajo");
+    }
+  }
+
+  function cargarRecorridoCompartido() {
+    const encontrado = location.hash.match(/^#recorrido=([\w,-]+)$/);
+    if (!encontrado) return;
+    history.replaceState(null, "", location.pathname + location.search); // que no se vuelva a cargar al recargar
+    for (const jornada of jornadas) {
+      const actividades = encontrado[1].split(",").map((id) => jornada.actividades.find((a) => a.id === id)).filter(Boolean);
+      if (!actividades.length) continue;
+      for (const a of actividades) if (!enRecorrido(a)) alternarPlan(a.id, funcionDe(a)[0]);
+      vistaDe(jornada.id).modo = "mio";
+      estado.seccion = "especiales";
+      contarUso("recorrido-abierto-por-enlace");
+      return;
+    }
+  }
+
+  // "Guardar en PDF": una hoja con el recorrido para imprimir o guardar (el navegador ofrece "Guardar como PDF").
+  function imprimirRecorrido(jornada, lista) {
+    const fecha = document.querySelector(`#especial-${CSS.escape(jornada.id)} .especial-fecha`)?.textContent.trim() || "";
+    const filas = [];
+    lista.forEach((a, i) => {
+      if (i > 0) {
+        const tramoTexto = [...tramo(jornada, lista[i - 1], a).children].map((c) => c.textContent.trim())
+          .filter((t) => t && !t.startsWith("Ver el camino")).join(" · ");
+        filas.push(el("li", { class: "imp-tramo" }, tramoTexto));
+      }
+      const lugar = lugarDe(a);
+      const [inicio, , fin] = funcionDe(a);
+      filas.push(el("li", { class: "imp-parada" },
+        el("span", { class: "imp-numero-parada" }, String(i + 1)),
+        el("div", {},
+          el("strong", {}, `${hhmm(inicio)}${fin ? ` a ${hhmm(fin)}` : ""} · ${a.evento.titulo}`),
+          el("p", {}, [lugar.nombre, lugar.direccion, lugar.barrio].filter(Boolean).join(" · ")),
+          a.desc ? el("p", { class: "imp-desc" }, a.desc) : null)));
+    });
+    document.getElementById("imprimible").replaceChildren(el("section", { class: "imp-hoja imp-recorrido" },
+      el("header", { class: "imp-cabezal" }, el("h1", {}, `Mi recorrido · ${jornada.nombre}`), el("span", {}, "La Gestoría Cultural")),
+      el("p", { class: "imp-fecha" }, fecha),
+      el("ol", { class: "imp-paradas" }, ...filas),
+      el("p", { class: "imp-pie" }, "Para verlo con el mapa y cómo llegar: ", el("strong", {}, enlaceRecorrido(lista)))));
+    document.body.classList.add("imprimiendo");
+    window.addEventListener("afterprint", () => document.body.classList.remove("imprimiendo"), { once: true });
+    window.print();
+  }
+
+  async function compartirRecorrido(jornada, lista, como) {
+    const texto = textoRecorrido(jornada, lista);
+    if (como === "copiar") {
+      try {
+        await navigator.clipboard.writeText(enlaceRecorrido(lista));
+        return "Enlace copiado: guardalo o mandátelo";
+      } catch (_) { /* sin portapapeles: va por WhatsApp */ }
+    }
+    if (navigator.share && como !== "whatsapp") {
+      try {
+        await navigator.share({ title: `Mi recorrido · ${jornada.nombre}`, text: texto });
+        return null;
+      } catch (error) {
+        if (error.name === "AbortError") return null;
+      }
+    }
+    window.open(`https://wa.me/?text=${encodeURIComponent(texto)}`, "_blank", "noopener");
+    return null;
+  }
+
+  function vistaRecorrido(jornada, contenedor) {
+    const lista = jornada.actividades.filter(enRecorrido).sort(ordenNoche);
+    if (!lista.length) {
+      contenedor.replaceChildren(el("div", { class: "esp-recorrido-vacio" },
+        el("p", { class: "esp-recorrido-titulo" }, "Armá tu recorrido de la noche"),
+        el("ol", {},
+          el("li", {}, "Mirá el programa por ", el("button", { type: "button", class: "esp-enlace", "data-esp-modo": "lugares" }, singular(jornada.lugares)),
+            " o ", el("button", { type: "button", class: "esp-enlace", "data-esp-modo": "hora" }, "por hora"), "."),
+          el("li", {}, "Tocá ", el("b", {}, "＋ Recorrido"), " en lo que te tiente."),
+          el("li", {}, "Acá lo ves en orden, con cuánto se tarda caminando de un lugar al otro y si algo se superpone. Lo podés compartir o mandar al calendario."))));
+      return;
+    }
+    const paradas = [];
+    lista.forEach((a, i) => {
+      if (i > 0) paradas.push(tramo(jornada, lista[i - 1], a));
+      const lugar = lugarDe(a);
+      const [inicio, , fin] = funcionDe(a);
+      paradas.push(el("li", { class: `esp-parada cat-${a.evento.categoria}` },
+        el("span", { class: "esp-parada-numero", "aria-hidden": "true" }, String(i + 1)),
+        el("div", { class: "esp-parada-cuerpo" },
+          el("p", { class: "esp-parada-hora" }, hhmm(inicio), fin ? ` a ${hhmm(fin)}` : ""),
+          el("p", { class: "esp-titulo" }, a.evento.titulo),
+          el("p", { class: "esp-meta" }, el("strong", {}, lugar.nombre || ""), ` · ${lugar.direccion || barrioDe(a)}`),
+          el("p", { class: "esp-dir" }, el("a", { href: comoLlegar(lugar), target: "_blank", rel: "noopener" }, "Cómo llegar ↗"))),
+        botonesActividad(a)));
+    });
+    const mapa = el("div", { class: "esp-recorrido-mapa" });
+    contenedor.replaceChildren(el("div", { class: "esp-recorrido" },
+      el("div", { class: "esp-recorrido-cabeza" },
+        el("p", { class: "esp-recorrido-titulo" }, `Tu noche: ${cuantas(lista.length)} en ${cuantosLugares(new Set(lista.map((a) => a.evento.lugar)).size, jornada.lugares)}`),
+        el("div", { class: "esp-recorrido-acciones" },
+          el("button", { type: "button", class: "boton-recorrido", "data-esp-compartir-recorrido": "" }, "Compartir"),
+          el("button", { type: "button", class: "boton-recorrido secundario", "data-seccion": "plan" }, "Al calendario"))),
+      el("div", { class: "esp-recorrido-columnas" },
+        el("ol", { class: "esp-paradas" }, ...paradas),
+        mapa),
+      // Se guarda solo en el navegador, y algunos (Safari, el del iPhone) borran lo guardado si pasan unos días sin
+      // entrar: mejor avisar y ofrecer cómo llevárselo.
+      el("div", { class: "esp-guardalo", role: "note" },
+        el("p", {}, el("strong", {}, "Guardá tu plan antes de salir. "),
+          "Tu recorrido queda solo en este navegador: si cambiás de celular, borrás los datos o pasan unos días sin entrar, se puede perder."),
+        el("div", { class: "esp-guardalo-botones" },
+          el("button", { type: "button", class: "boton-recorrido", "data-esp-pdf-recorrido": "" }, "Guardar en PDF"),
+          el("button", { type: "button", class: "boton-recorrido secundario", "data-esp-copiar-recorrido": "" }, "Copiar enlace"))),
+      el("p", { class: "esp-nota" }, "Los tiempos son caminando por la calle, calculados con ",
+        el("a", { href: "https://routing.openstreetmap.de/about.html", target: "_blank", rel: "noopener" }, "OSRM de FOSSGIS"),
+        " sobre ", el("a", { href: "https://www.openstreetmap.org/copyright", target: "_blank", rel: "noopener" }, "OpenStreetMap"),
+        " (¿algo mal? ", el("a", { href: "https://www.openstreetmap.org/fixthemap", target: "_blank", rel: "noopener" }, "se puede arreglar"),
+        ").")));
+    dibujarMapaRecorrido(jornada, lista, mapa)
+      .then((cuantosPuntos) => { if (!cuantosPuntos) mapa.remove(); })
+      .catch(() => mapa.remove());
+  }
+
+  function dibujarResultadosJornada(jornada, programa) {
+    const v = vistaDe(jornada.id);
+    const resumen = programa.querySelector(".esp-resumen");
+    const resultados = programa.querySelector(".esp-resultados");
+    cerrarFicha();
+    if (v.modo === "mio") {
+      resumen.replaceChildren();
+      vistaRecorrido(jornada, resultados);
+      return;
+    }
+    const lista = filtrarJornada(jornada, v);
+    const lugares = new Set(lista.map((a) => a.evento.lugar)).size;
+    resumen.replaceChildren(...[
+      el("span", {}, el("strong", {}, String(lista.length)), ` ${lista.length === 1 ? "actividad" : "actividades"} en `,
+        el("strong", {}, String(lugares)), ` ${lugares === 1 ? singular(jornada.lugares) : jornada.lugares}`),
+      conFiltros(v) ? el("button", { type: "button", class: "esp-borrar", "data-esp-borrar": "" }, "Borrar filtros") : null,
+    ].filter(Boolean));
+    if (!lista.length) {
+      resultados.replaceChildren(el("div", { class: "esp-vacio" }, el("p", {}, "Nada con estos filtros."),
+        el("button", { type: "button", class: "esp-borrar", "data-esp-borrar": "" }, "Borrar filtros")));
+      return;
+    }
+    if (v.modo === "hora") {
+      resultados.replaceChildren(vistaPorHora(jornada, lista));
+    } else if (ANCHA.matches) {
+      resultados.replaceChildren();
+      resultados.appendChild(vistaGrilla(jornada, lista, resultados));
+    } else {
+      // En el celular: la lista (con direcciones y descripciones) por defecto; la grilla, cuando se eligió un barrio
+      // (con pocas columnas se lee bien). Si la persona elige una a mano, queda esa.
+      const formaCelu = v.formaCelu || (v.barrios.length ? "grilla" : "lista");
+      const forma = el("div", { class: "esp-forma", role: "group", "aria-label": "Cómo verlo" },
+        chip("Lista", formaCelu === "lista", { "data-esp-forma": "lista" }), chip("Grilla", formaCelu === "grilla", { "data-esp-forma": "grilla" }));
+      resultados.replaceChildren(forma, formaCelu === "lista" ? vistaPorLugar(jornada, lista) : vistaGrillaCelu(jornada, lista));
+    }
+  }
+
+  // Abajo de la pantalla, mientras se mira el programa: cuánto llevás elegido y un atajo a tu recorrido.
+  function barraRecorrido(jornada, programa) {
+    let barra = programa.querySelector(".esp-barra-recorrido");
+    const elegidas = jornada.actividades.filter(enRecorrido).length;
+    const visible = elegidas > 0 && vistaDe(jornada.id).modo !== "mio";
+    if (!visible) {
+      barra?.remove();
+      return;
+    }
+    if (!barra) {
+      barra = el("div", { class: "esp-barra-recorrido" });
+      programa.appendChild(barra);
+    }
+    barra.replaceChildren(el("span", {}, "★ Tu recorrido: ", el("strong", {}, cuantas(elegidas))),
+      el("button", { type: "button", "data-esp-modo": "mio" }, "Verlo en orden →"));
+  }
+
+  function dibujarJornada(jornada, programa) {
+    const v = vistaDe(jornada.id);
+    programa.replaceChildren(controlesJornada(jornada, v), el("p", { class: "esp-resumen", "aria-live": "polite" }), el("div", { class: "esp-resultados" }));
+    dibujarResultadosJornada(jornada, programa);
+    barraRecorrido(jornada, programa);
+  }
+
+  function dibujarEspeciales() {
+    for (const programa of document.querySelectorAll("[data-programa-especial]")) {
+      const jornada = jornadas.find((j) => j.id === programa.dataset.programaEspecial);
+      if (jornada) dibujarJornada(jornada, programa);
+      else programa.replaceChildren(el("p", { class: "especial-sin-programa" }, "Ya terminó: sus actividades no están más en la cartelera."));
+    }
+  }
+  ANCHA.addEventListener("change", () => { if (estado.seccion === "especiales") dibujarEspeciales(); });
+
+  // Desde la hora o el mapa, "ver este lugar": va a su renglón o su tarjeta y lo marca un momento.
+  function irALugar(jornada, programa, lugarId) {
+    const v = vistaDe(jornada.id);
+    v.modo = "lugares";
+    dibujarJornada(jornada, programa);
+    let destino = document.getElementById(`esp-lugar-${lugarId}`);
+    if (!destino) { // los filtros lo dejaban afuera: se sacan
+      Object.assign(v, { barrios: [], tipos: [], texto: "" });
+      dibujarJornada(jornada, programa);
+      destino = document.getElementById(`esp-lugar-${lugarId}`);
+    }
+    if (!destino) return;
+    destino.scrollIntoView({ behavior: suave(), block: "center", inline: "center" });
+    destino.classList.add("resaltada");
+    setTimeout(() => destino.classList.remove("resaltada"), 1600);
+  }
+
+  // En la agenda: una tarjeta por especial y por día, que lleva a su programa.
+  function tarjetaDeEspecial({ jornada, cantidad, lugares }) {
+    return el("li", { class: "evento tarjeta-especial" },
+      el("button", { type: "button", class: "especial-atajo", "data-seccion": "especiales" },
+        el("span", { class: "insignia insignia-especial" }, "Especial"),
+        el("strong", {}, jornada.nombre),
+        el("span", {}, `${cuantas(cantidad)} en ${cuantosLugares(lugares.size, jornada.lugares)}`),
+        el("span", {}, "Armá tu recorrido de la noche."),
+        el("span", { class: "ir" }, "Ver el programa →")));
+  }
+
+  const seccionEspeciales = document.getElementById("especiales");
+  if (seccionEspeciales) {
+    seccionEspeciales.addEventListener("click", (e) => {
+      const programa = e.target.closest("[data-programa-especial]");
+      const jornada = programa && jornadas.find((j) => j.id === programa.dataset.programaEspecial);
+      if (!jornada) return;
+      const desc = e.target.closest(".esp-desc");
+      if (desc) {
+        desc.classList.toggle("abierta");
+        return;
+      }
+      const v = vistaDe(jornada.id);
+      const panelSe = e.target.closest("[data-esp-abrir-filtros], [data-esp-cerrar-filtros]");
+      if (panelSe) {
+        v.panelAbierto = "espAbrirFiltros" in panelSe.dataset;
+        document.body.classList.toggle("filtros-abiertos", v.panelAbierto);
+        dibujarJornada(jornada, programa);
+        programa.querySelector(v.panelAbierto ? ".esp-panel .cerrar-filtros" : ".esp-abrir-filtros")?.focus({ preventScroll: true });
+        return;
+      }
+      // Plegar o desplegar una hora: se recuerda, para que no se abra sola al cambiar un filtro.
+      const resumenHora = e.target.closest(".esp-bloque > summary");
+      if (resumenHora) {
+        const bloque = resumenHora.parentElement;
+        setTimeout(() => {
+          if (bloque.open) v.plegadas.delete(bloque.dataset.espBloque);
+          else v.plegadas.add(bloque.dataset.espBloque);
+        }, 0);
+        return;
+      }
+      const boton = e.target.closest("button");
+      if (!boton) {
+        if (!e.target.closest(".eg-ficha")) cerrarFicha();
+        return;
+      }
+      const d = boton.dataset;
+      let enfocar = null;
+      if (d.agregarFuncion) {
+        // El "＋" lo resuelve el manejador general (corre después de este): acá se actualiza lo del recorrido.
+        if (!plan.has(d.agregarFuncion)) contarUso("sumar-al-recorrido");
+        setTimeout(() => {
+          for (const otro of programa.querySelectorAll(".agregar-plan")) etiquetarRecorrido(otro);
+          for (const fila of programa.querySelectorAll(".esp-act, .eg-act")) {
+            const suyo = fila.querySelector(".agregar-plan") || null;
+            if (suyo) fila.classList.toggle("en-plan", suyo.classList.contains("en-plan"));
+          }
+          const bloque = programa.querySelector(`.eg-act[data-esp-ficha="${CSS.escape(d.agregarFuncion.split("|")[0])}"]`);
+          bloque?.classList.toggle("en-plan", plan.has(d.agregarFuncion));
+          const elegidas = jornada.actividades.filter(enRecorrido).length;
+          const botonMio = programa.querySelector(".esp-mio");
+          if (botonMio) botonMio.textContent = textoMio(elegidas);
+          if (v.modo === "mio") dibujarResultadosJornada(jornada, programa);
+          barraRecorrido(jornada, programa);
+        }, 0);
+        return;
+      }
+      if (d.espFicha) { abrirFicha(jornada, boton); return; }
+      if ("espCerrarFicha" in d) { cerrarFicha(); return; }
+      if ("espPdfRecorrido" in d) {
+        contarUso("recorrido-pdf");
+        imprimirRecorrido(jornada, jornada.actividades.filter(enRecorrido).sort(ordenNoche));
+        return;
+      }
+      if ("espCompartirRecorrido" in d || "espCopiarRecorrido" in d) {
+        contarUso("espCopiarRecorrido" in d ? "recorrido-enlace" : "recorrido-compartir");
+        const lista = jornada.actividades.filter(enRecorrido).sort(ordenNoche);
+        compartirRecorrido(jornada, lista, "espCopiarRecorrido" in d ? "copiar" : "compartir")
+          .then((aviso) => { if (aviso) mostrarGlobito(boton, aviso); });
+        return;
+      }
+      if (d.espModo) { v.modo = d.espModo; enfocar = `[data-esp-modo="${d.espModo}"]`; contarUso(`modo-${d.espModo}`); }
+      else if ("espBarrio" in d) { v.barrios = d.espBarrio ? alternar(v.barrios, d.espBarrio) : []; enfocar = `[data-esp-barrio="${CSS.escape(d.espBarrio)}"]`; }
+      else if ("espTipo" in d) { v.tipos = d.espTipo ? alternar(v.tipos, d.espTipo) : []; enfocar = `[data-esp-tipo="${d.espTipo}"]`; }
+      else if ("espBorrar" in d) Object.assign(v, { barrios: [], tipos: [], texto: "" });
+      else if (d.espForma) { v.formaCelu = d.espForma; enfocar = `[data-esp-forma="${d.espForma}"]`; contarUso(`celu-${d.espForma}`); }
+      else if (d.espLugar) { irALugar(jornada, programa, d.espLugar); return; }
+      else return;
+      const desdeLaBarra = Boolean(boton.closest(".esp-barra-recorrido"));
+      dibujarJornada(jornada, programa);
+      if (desdeLaBarra) programa.scrollIntoView({ behavior: suave(), block: "start" });
+      else if (enfocar) programa.querySelector(enfocar)?.focus({ preventScroll: true });
+    });
+    seccionEspeciales.addEventListener("keydown", (e) => {
+      if ((e.key === "Enter" || e.key === " ") && e.target.matches(".esp-desc")) {
+        e.preventDefault();
+        e.target.classList.toggle("abierta");
+      }
+      if (e.key === "Escape") {
+        cerrarFicha();
+        const programa = e.target.closest("[data-programa-especial]");
+        const jornada = programa && jornadas.find((j) => j.id === programa.dataset.programaEspecial);
+        if (jornada && vistaDe(jornada.id).panelAbierto) {
+          vistaDe(jornada.id).panelAbierto = false;
+          document.body.classList.remove("filtros-abiertos");
+          dibujarJornada(jornada, programa);
+          programa.querySelector(".esp-abrir-filtros")?.focus();
+        }
+      }
+    });
+    let esperaEsp = null;
+    seccionEspeciales.addEventListener("input", (e) => {
+      if (!e.target.matches("[data-esp-buscar]")) return;
+      const programa = e.target.closest("[data-programa-especial]");
+      const jornada = jornadas.find((j) => j.id === programa.dataset.programaEspecial);
+      vistaDe(jornada.id).texto = e.target.value;
+      clearTimeout(esperaEsp);
+      esperaEsp = setTimeout(() => dibujarResultadosJornada(jornada, programa), 200);
+    });
   }
 
   // --- Planeá tu mes: un calendario que se va llenando con lo que elegís -----------------------
@@ -1026,11 +1848,11 @@
     gratis: ["Gratis", "Todo lo que no cuesta un peso. Algunas actividades piden inscripción previa: revisá la fuente."],
     promos: ["Promos", "Eventos con 2x1 o descuentos para socios de clubes, bancos y programas de beneficios, según lo que marca cada ticketera."],
     festivales: ["Festivales", "Festivales, fiestas grandes y noches de tres bandas o más."],
-    especiales: ["Especiales", "Las jornadas grandes del año, del Día del Patrimonio a las Llamadas. Cuando sale el programa, sus actividades aparecen en cada tarjeta."],
     mapa: ["Mapa", "Dónde pasa lo que estás buscando. Tocá una sala para ver sus eventos."],
     plan: ["Planeá tu mes", "Armá tu propia agenda cultural de Montevideo: tocá un día, sumá lo que te guste y llevalo a tu calendario."],
   };
 
+  // La pestaña del especial no lleva intro: su presentación ya está en el encabezado del especial.
   function dibujarIntro() {
     const intro = document.getElementById("intro");
     const texto = INTROS[estado.seccion];
@@ -1080,8 +1902,11 @@
     if (pestanas.classList.contains("mas-abierto") && !pestanas.contains(e.target)) alternarMas(false);
   });
 
+  // En el celular, con un especial, su pestaña está en la barra y "Mapa" pasa a "Más".
+  const especialEnBarra = () => pestanas.classList.contains("con-especial") && window.matchMedia("(max-width: 860px)").matches;
   function dibujarControles() {
-    document.querySelector(".boton-mas").classList.toggle("activa", SECCIONES_EN_MAS.includes(estado.seccion));
+    const enMas = especialEnBarra() ? ["mapa", "gratis", "promos", "festivales"] : SECCIONES_EN_MAS;
+    document.querySelector(".boton-mas").classList.toggle("activa", enMas.includes(estado.seccion));
     for (const boton of document.querySelectorAll(".secciones button[data-seccion]")) {
       const activa = boton.dataset.seccion === estado.seccion;
       boton.classList.toggle("activa", activa);
@@ -1121,7 +1946,9 @@
       dibujarMiPlan();
       if (s === "mapa") {
         dibujarMapa().catch(() => { document.getElementById("mapa").textContent = "No se pudo cargar el mapa."; });
-      } else if (s !== "especiales") {
+      } else if (s === "especiales") {
+        dibujarEspeciales();
+      } else {
         dibujarCarriles();
       }
     }
@@ -1346,5 +2173,8 @@
   angosta.addEventListener("change", ajustarPlegables);
   ajustarPlegables();
 
+  // Un recorrido que llegó por enlace (#recorrido=…): se suma al plan y se abre.
+  cargarRecorridoCompartido();
+  abrirEspecialPorEnlace();
   dibujar();
 })();

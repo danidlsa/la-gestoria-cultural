@@ -1,8 +1,9 @@
 """Cliente HTTP compartido: User-Agent propio, robots.txt, pausas y reintentos."""
 
 import logging
+import re
 import time
-from urllib.parse import urlsplit
+from urllib.parse import unquote, urlsplit
 from urllib.robotparser import RobotFileParser
 
 import httpx
@@ -13,6 +14,40 @@ log = logging.getLogger(__name__)
 
 class BloqueadoPorRobots(Exception):
     pass
+
+
+class Robots(RobotFileParser):
+    """robots.txt leído como dice el estándar (RFC 9309) y como lo leen Google y Bing.
+
+    El de Python toma la primera regla que coincide y no entiende `*` ni `$`. El estándar manda usar la regla
+    más larga (la más específica) y, si empatan, la que permite. Con el de Python, en google.com un
+    "Disallow: /maps/" bloqueaba lo que un "Allow: /maps/d/" más abajo permite.
+    """
+
+    @staticmethod
+    def _patron(regla: str) -> re.Pattern:
+        fin = regla.endswith("$")
+        cuerpo = re.escape(regla[:-1] if fin else regla).replace(r"\*", ".*")
+        return re.compile(cuerpo + ("$" if fin else ""))
+
+    def can_fetch(self, useragent: str, url: str) -> bool:
+        if self.disallow_all:
+            return False
+        if self.allow_all or not self.last_checked:
+            return super().can_fetch(useragent, url)
+        partes = urlsplit(url)
+        ruta = unquote(partes.path or "/") + (f"?{unquote(partes.query)}" if partes.query else "")
+        grupo = next((e for e in self.entries if e.applies_to(useragent)), self.default_entry)
+        if grupo is None:
+            return True
+        mejor, permite = -1, True
+        for linea in grupo.rulelines:
+            regla = unquote(linea.path)
+            if not regla:  # "Disallow:" vacío no bloquea nada
+                continue
+            if self._patron(regla).match(ruta) and (len(regla) > mejor or (len(regla) == mejor and linea.allowance)):
+                mejor, permite = len(regla), linea.allowance
+        return permite
 
 
 class Cliente:
@@ -26,7 +61,7 @@ class Cliente:
             timeout=timeout,
             follow_redirects=True,
         )
-        self._robots: dict[str, RobotFileParser | None] = {}
+        self._robots: dict[str, Robots | None] = {}
         self._ultimo_pedido: dict[str, float] = {}
 
     def __enter__(self):
@@ -43,7 +78,7 @@ class Cliente:
             try:
                 respuesta = self._http.get(f"{sitio}/robots.txt")
                 if respuesta.status_code == 200:
-                    parser = RobotFileParser()
+                    parser = Robots()
                     parser.parse(respuesta.text.splitlines())
             except httpx.HTTPError:
                 pass  # Sin robots.txt accesible, se asume permitido.

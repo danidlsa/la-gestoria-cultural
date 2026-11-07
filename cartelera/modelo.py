@@ -74,6 +74,7 @@ class LugarCrudo(BaseModel):
     direccion: str | None = None
     lat: float | None = None
     lon: float | None = None
+    barrio: str | None = None  # pocas fuentes lo dicen (el mapa de la Noche de las Librerías sí)
 
 
 class EventoCrudo(BaseModel):
@@ -120,6 +121,7 @@ class Lugar(BaseModel):
     direccion: str | None = None
     lat: float | None = None
     lon: float | None = None
+    barrio: str | None = None
     ciudad: str = "Montevideo"
 
 

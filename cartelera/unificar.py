@@ -85,6 +85,7 @@ class Catalogo:
             lugar = Lugar(
                 id=entrada["id"], nombre=entrada["nombre"], alias=entrada.get("alias", []),
                 direccion=entrada.get("direccion"), lat=entrada.get("lat"), lon=entrada.get("lon"),
+                barrio=entrada.get("barrio"),
             )
             self.lugares[lugar.id] = lugar
             if entrada.get("solo_por_nombre"):
@@ -111,7 +112,7 @@ class Catalogo:
                 return lugar.id
         return None
 
-    def asignar(self, nombre: str, direccion: str | None, lat: float | None, lon: float | None) -> str:
+    def asignar(self, nombre: str, direccion: str | None, lat: float | None, lon: float | None, barrio: str | None = None) -> str:
         nombre, _sala = separar_sala(nombre)
         clave = normalizar(nombre)
         lugar_id = self._por_nombre.get(clave) or self._por_parecido(nombre, lat, lon)
@@ -136,6 +137,8 @@ class Catalogo:
             lugar.lat, lugar.lon = lat, lon
         if lugar.direccion is None and direccion:
             lugar.direccion = direccion
+        if lugar.barrio is None and barrio:
+            lugar.barrio = barrio
         if nombre != lugar.nombre and nombre not in lugar.alias:
             lugar.alias.append(nombre)
         return lugar_id
@@ -337,7 +340,7 @@ def armar_cartelera(
     crudos = [e for r in resultados for e in r.eventos]
     corridas = {r.fuente: r.corrida for r in resultados}
     catalogo = Catalogo(alias)
-    lugar_de = [catalogo.asignar(c.lugar.nombre, c.lugar.direccion, c.lugar.lat, c.lugar.lon) for c in crudos]
+    lugar_de = [catalogo.asignar(c.lugar.nombre, c.lugar.direccion, c.lugar.lat, c.lugar.lon, c.lugar.barrio) for c in crudos]
 
     # Salas que ninguna fuente ubica: se buscan por dirección (o por nombre) en OpenStreetMap.
     if geocodificar:
@@ -391,6 +394,10 @@ def unificar(ahora: datetime | None = None) -> list[Evento]:
     _escribir("eventos.json", "eventos", eventos, ahora)
     _escribir("lugares.json", "lugares", lugares, ahora)
     _escribir("ciclos.json", "ciclos", ciclos, ahora)
+    # Para "Mi recorrido" de los especiales: las caminatas entre sus lugares, ya en la caché (ver caminatas.py).
+    from cartelera.caminatas import precalcular
+
+    precalcular(ahora)
     crudos = sum(r.cantidad for r in resultados)
     log.info("unificar: %s eventos de %s fuentes (%s registros crudos), %s lugares, %s ciclos",
              len(eventos), len(resultados), crudos, len(lugares), len(ciclos))

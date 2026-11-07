@@ -16,6 +16,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup
 
 from cartelera import especiales
+from cartelera.caminatas import caminatas
 from cartelera.geo import VARIOS_BARRIOS
 from cartelera.scrapers.base import MONTEVIDEO
 from cartelera.scrapers.propuestos import configuracion as configuracion_agrega
@@ -69,6 +70,7 @@ FUENTES = {
     "mec_museos": "el calendario del Ministerio de Educación y Cultura",
     "salacamacua": "la Sala Camacuá", "mientrada": "MiEntrada", "cobraticket": "CobraTicket", "entraste": "Entraste",
     "corchea": "la cartelera de Corchea", "propuestos": "los organizadores que mandan sus eventos",
+    "mapas_especiales": "el programa oficial de los eventos especiales",
 }
 # Para los botones de compra: dónde se consigue la entrada.
 VIAS = {
@@ -78,13 +80,13 @@ VIAS = {
     "museos_im": "el museo", "mnav": "el MNAV", "torres_garcia": "el Museo Torres García",
     "gurvich": "el Museo Gurvich", "mapi": "el MAPI", "mec_museos": "el MEC",
     "salacamacua": "la Sala Camacuá", "corchea": "Corchea", "passline": "Passline", "entradasfans": "Entradas Fans",
-    "instagram": "Instagram", "propuestos": "su web",
+    "instagram": "Instagram", "propuestos": "su web", "mapas_especiales": "la Intendencia",
 }
 # Vías que son la ficha del evento, no una venta: el botón dice "Ver en …" y no "Entradas en …".
 SOLO_INFORMACION = {
     "cartelera_mvd", "solis", "teatro_de_verano", "sodre", "galpon", "cinemateca", "portal_im", "zitarrosa",
     "sala_del_museo", "gaucho", "piano_piano", "ladiaria", "museos_im", "mnav", "torres_garcia",
-    "gurvich", "mapi", "mec_museos", "salacamacua", "corchea", "instagram", "propuestos",
+    "gurvich", "mapi", "mec_museos", "salacamacua", "corchea", "instagram", "propuestos", "mapas_especiales",
 }
 
 
@@ -147,7 +149,31 @@ def especiales_para_la_pagina(eventos: list[dict], ciclos: list[dict], lugares: 
             }
             for e in especial["eventos"]
         ]
+        especial["cantidad_lugares"] = len({e["lugar_id"] for e in especial["eventos"]})
+        if especial.get("horario"):
+            # "01:00" -> "1:00"
+            desde, hasta = (f"{int(h[:2])}:{h[3:]}" for h in especial["horario"])
+            especial["horario_texto"] = f"de {desde} a {hasta}"
     return armados
+
+
+def especiales_para_el_navegador(armados: list[dict], lugares: dict[str, dict], calcular_caminatas=caminatas) -> list[dict]:
+    """Lo que necesita la pestaña "Especiales": qué eventos son de cada uno y cuánto se camina entre sus lugares."""
+    resultado = []
+    for a in armados:
+        if not a["eventos"]:
+            continue
+        ubicados = {
+            e["lugar_id"]: (lugares[e["lugar_id"]]["lat"], lugares[e["lugar_id"]]["lon"])
+            for e in a["eventos"] if lugares.get(e["lugar_id"], {}).get("lat") is not None
+        }
+        resultado.append({
+            "id": a["id"], "nombre": a["nombre"], "lugares": a.get("lugares", "lugares"), "enlace": a.get("enlace"),
+            "actividades": [{"id": e["id"], "desc": e.get("descripcion_corta") or ""} for e in a["eventos"]],
+            # Para "Mi recorrido": metros y minutos a pie entre cada par de lugares, por la calle.
+            "caminatas": calcular_caminatas(ubicados) if len(ubicados) > 1 else {},
+        })
+    return resultado
 
 
 def presupuesto(precio: dict | None) -> str | None:
@@ -258,6 +284,7 @@ def datos_para_el_navegador(eventos: list[dict], lugares: dict[str, dict], ciclo
         "lugares": {
             id_: {
                 "nombre": l["nombre"], "lat": l.get("lat"), "lon": l.get("lon"), "direccion": l.get("direccion"),
+                "barrio": l.get("barrio"),
                 "tipo": tipo_de_lugar(id_, l["nombre"], por_lugar.get(id_, [])),
             }
             for id_, l in lugares.items()
@@ -366,6 +393,15 @@ def generar() -> Path:
     por_lugar = Counter(e["lugar_id"] for e in eventos)
     promos = Counter(b["programa"] for e in eventos for b in e.get("beneficios", []))
     datos = datos_para_el_navegador(eventos, lugares, ciclos)
+    # Un especial que ya terminó (la Noche de las Librerías, el sábado a la 1) deja de mostrarse en la primera
+    # corrida después: la pestaña desaparece y vuelven "Mapa" y "Festivales". El navegador hace lo mismo antes, solo.
+    ahora = datetime.now(MONTEVIDEO)
+    lista_especiales = [
+        e for e in (especiales_para_la_pagina(eventos, ciclos, lugares, ahora.date()) if especiales.activo() else [])
+        if not (fin := especiales.termina({**e, "hasta": e["fecha_cargada"], "estimada": False, "a_confirmar": False}
+                                          if e.get("fecha_cargada") else e)) or fin > ahora
+    ]
+    datos["especiales"] = especiales_para_el_navegador(lista_especiales, lugares)
 
     # "Festivales" va como etiqueta aparte (incluye festivales de cualquier rubro).
     categorias = [(k, v, por_categoria[k]) for k, v in CATEGORIAS.items() if por_categoria[k] and k != "festival"]
@@ -406,10 +442,14 @@ def generar() -> Path:
         cantidad_promos=sum(1 for e in eventos if e.get("beneficios")),
         cantidad_festivales=sum(1 for e in eventos if "festival" in e.get("etiquetas", [])),
         tipos_de_lugar=TIPOS_DE_LUGAR,
-        # Apagados por ahora: ver `activo` en config/eventos_especiales.toml.
-        con_especiales=especiales.activo(),
-        especiales=especiales_para_la_pagina(eventos, ciclos, lugares, datetime.now(MONTEVIDEO).date())
-        if especiales.activo() else [],
+        # Se prenden y se eligen en config/eventos_especiales.toml (`activo` y `mostrar`).
+        con_especiales=especiales.activo() and bool(lista_especiales),
+        # Con un solo especial, la pestaña lleva su nombre ("Noche de las Librerías"); con varios, "Especiales".
+        nombre_pestana=lista_especiales[0]["pestana"] if len(lista_especiales) == 1 else "Especiales",
+        # En el celular, mientras haya uno, va en la barra de abajo en lugar de "Mapa" (que pasa a "Más").
+        pestana_celu=(lista_especiales[0]["pestana_corta"] or lista_especiales[0]["pestana"].split()[-1]) if len(lista_especiales) == 1 else "Especiales",
+        icono_especial=lista_especiales[0]["icono"] if len(lista_especiales) == 1 else None,
+        especiales=lista_especiales,
         # Un "<" en los datos podría cerrar el <script> donde van embebidos: va escapado (JSON lo lee igual).
         datos_json=json.dumps(datos, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c"),
     )
@@ -428,6 +468,16 @@ def generar() -> Path:
         (SALIDA / PAGINA_AGREGA).write_text(entorno.get_template("agrega.html.j2").render(
             sitio=NOMBRE_SITIO, url_sitio=URL_SITIO, formulario=agrega, servicio=servicio_del_formulario(agrega),
         ), encoding="utf-8")
+    # Atajos para difundir los especiales (lagestoriacultural.uy/librerias): llevan a su pestaña. Se generan para
+    # todos los que tienen `enlace`, aunque no se muestren: un posteo viejo lleva a la agenda y no a un error.
+    for especial in especiales.cargar():
+        if re.fullmatch(r"[a-z0-9-]+", especial.get("enlace") or ""):
+            carpeta = SALIDA / especial["enlace"]
+            carpeta.mkdir(exist_ok=True)
+            (carpeta / "index.html").write_text(entorno.get_template("atajo.html.j2").render(
+                sitio=NOMBRE_SITIO, url_sitio=URL_SITIO, nombre=especial["nombre"], enlace=especial["enlace"],
+                descripcion=f"{especial['nombre']}: todo el programa en un lugar. Filtrá por barrio y armá tu recorrido de la noche.",
+            ), encoding="utf-8")
     # Para los buscadores.
     (SALIDA / "robots.txt").write_text(robots_txt(URL_SITIO), encoding="utf-8")
     (SALIDA / "sitemap.xml").write_text(sitemap_xml(URL_SITIO, (generado or datetime.now().isoformat())[:10], bool(agrega)), encoding="utf-8")

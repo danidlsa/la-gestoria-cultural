@@ -9,7 +9,7 @@
 {% include "_metadatos.html.j2" %}
   <!-- Política de contenido: solo corre código del propio sitio (y Leaflet, verificado); ningún script en línea.
        Las imágenes de los eventos vienen de cada fuente, siempre por https. -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://cdnjs.cloudflare.com; img-src 'self' https: data:; font-src 'self'; connect-src 'self' https://la-gestoria-cultural.goatcounter.com; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://cdnjs.cloudflare.com; img-src 'self' https: data:; font-src 'self'; connect-src 'self' https://la-gestoria-cultural.goatcounter.com https://routing.openstreetmap.de; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <link rel="preload" href="fuentes/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
   <!-- Ícono de la pestaña: SVG para los navegadores actuales, PNG para los viejos y para la pantalla de inicio del iPhone. -->
@@ -47,19 +47,28 @@
       <input type="search" id="buscar" placeholder="Buscá una obra, artista, sala…" autocomplete="off">
     </div>
     <!-- En el celular, las pestañas van en una barra fija abajo: las tres principales y "Más" con el resto. -->
-    <nav class="contenedor secciones pestanas" id="pestanas" aria-label="Secciones">
+    <nav class="contenedor secciones pestanas{% if con_especiales %} con-especial{% endif %}" id="pestanas" aria-label="Secciones">
       <button type="button" data-seccion="agenda" class="activa"><svg class="icono-seccion" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M7 14h4M7 17h7"/></svg>Agenda</button>
       <button type="button" data-seccion="plan" class="destacada"><span class="chispa" aria-hidden="true">✦</span> Planeá<span class="largo"> tu mes</span> <span class="cuenta" id="cuenta-plan">0</span></button>
       <button type="button" data-seccion="mapa"><svg class="icono-seccion" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Mapa</button>
+      {%- if con_especiales %}
+      {#- Solo en el celular y solo mientras se muestra un especial: ocupa el lugar de "Mapa", que pasa a "Más". #}
+      <button type="button" class="pestana-especial" data-seccion="especiales">
+        {%- if icono_especial == "libro" %}<svg class="icono-seccion" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/><path d="M9 7h7M9 10.5h5"/></svg>
+        {%- else %}<svg class="icono-seccion" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z"/></svg>{% endif -%}
+        {{ pestana_celu }}<span class="solo-lectores"> ({{ nombre_pestana }})</span></button>
+      {%- endif %}
       <button type="button" class="boton-mas" data-mas-secciones aria-expanded="false" aria-controls="secciones-mas"><svg class="icono-seccion" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/></svg>Más</button>
       <div class="secciones-mas" id="secciones-mas">
+        {#- La pestaña del especial va primera y lleva su nombre (config/eventos_especiales.toml: `activo` y `mostrar`). #}
+        {%- if con_especiales %}
+        <button type="button" class="mas-mapa" data-seccion="mapa">Mapa</button>
+        <button type="button" class="boton-especial" data-seccion="especiales"><span aria-hidden="true">✦</span> {{ nombre_pestana }}</button>
+        {%- endif %}
         <button type="button" data-seccion="gratis">Gratis <span class="cuenta">{{ cantidad_gratis }}</span></button>
         <button type="button" data-seccion="promos">Promos <span class="cuenta">{{ cantidad_promos }}</span></button>
-        <button type="button" data-seccion="festivales">Festivales <span class="cuenta">{{ cantidad_festivales }}</span></button>
-        {#- "Especiales" está apagada (config/eventos_especiales.toml, `activo`): el código queda para volver a usarla. #}
-        {%- if con_especiales %}
-        <button type="button" data-seccion="especiales">Especiales</button>
-        {%- endif %}
+        {#- Mientras hay un especial, "Festivales" se esconde (para no llenar el menú); vuelve cuando termina. #}
+        <button type="button" data-seccion="festivales"{% if con_especiales %} hidden{% endif %}>Festivales <span class="cuenta">{{ cantidad_festivales }}</span></button>
         <a class="pastilla aparte" href="que-es.html">¿Qué es La Gestoría?</a>
         {%- if agrega_tu_evento %}
         <a class="pastilla agregar" href="agrega-tu-evento.html">＋ Agregá tu evento</a>
@@ -212,24 +221,27 @@
       </ul>
 
 {%- if con_especiales %}
-      <section class="especiales" id="especiales" aria-label="Eventos especiales" hidden>
+      <section class="especiales" id="especiales" aria-label="{{ nombre_pestana }}" hidden>
         {%- for e in especiales %}
         <article class="especial{% if e.actividades %} con-programa{% endif %}{% if e.en_curso %} en-curso{% endif %}" id="especial-{{ e.id }}">
-          <p class="especial-faltan">{{ e.faltan_texto }}</p>
-          <h3>{{ e.nombre }}</h3>
-          <p class="especial-fecha">{{ e.fecha_texto }}
-            {%- if e.estimada %} <span class="especial-nota">· fecha estimada</span>
-            {%- elif e.a_confirmar %} <span class="especial-nota">· fecha a confirmar</span>{% endif %}</p>
-          <p>{{ e.descripcion }}</p>
+          <header class="especial-cabeza">
+            <p class="especial-faltan">{{ e.faltan_texto }}</p>
+            <h3>{{ e.nombre }}</h3>
+            <p class="especial-fecha">{{ e.fecha_texto }}
+              {%- if e.horario_texto and not (e.estimada or e.a_confirmar) %} · {{ e.horario_texto }}{% endif %}
+              {%- if e.estimada %} <span class="especial-nota">· fecha estimada</span>
+              {%- elif e.a_confirmar %} <span class="especial-nota">· fecha a confirmar</span>{% endif %}</p>
+            <p class="especial-descripcion">{{ e.descripcion }}</p>
+            {%- if e.actividades %}
+            <p class="especial-invita">Tocá <b>＋ Recorrido</b> y armá tu noche.</p>
+            {%- endif %}
+            {%- if e.pagina %}
+            <p class="especial-oficial">Programa oficial: <a href="{{ e.pagina }}" target="_blank" rel="noopener">{{ e.pagina|replace("https://", "") }}</a></p>
+            {%- endif %}
+          </header>
           {%- if e.actividades %}
-          <details class="especial-programa"{% if e.actividades|length <= 6 %} open{% endif %}>
-            <summary>{{ e.actividades|length }} {{ "actividad" if e.actividades|length == 1 else "actividades" }} en la cartelera</summary>
-            <ul>
-              {%- for a in e.actividades %}
-              <li><span class="especial-cuando">{{ a.cuando }}</span> <a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.titulo }}</a>{% if a.lugar %} <span class="especial-lugar">· {{ a.lugar }}</span>{% endif %}</li>
-              {%- endfor %}
-            </ul>
-          </details>
+          {#- El programa (filtros, lista por lugar o por hora, mapa) lo dibuja app.js con los datos de la página. #}
+          <div class="especial-programa" data-programa-especial="{{ e.id }}"></div>
           {%- else %}
           <p class="especial-sin-programa">Todavía no hay programa. Suele ser {{ e.cuando }}: cuando se publique, las actividades aparecen acá.</p>
           {%- endif %}

@@ -118,3 +118,14 @@ alias = ["VOU"]
 id = "emile-club"
 nombre = "Emile Club"
 alias = ["EMILE CLUB", "Emile", "Mercedes 1820"]
+
+# Noche de las Librerías 2026: su dirección es una esquina y OpenStreetMap no la encuentra. Ubicación tomada de
+# su ficha en Google Maps (7/11/2026). El mapa de la Intendencia dice "Buceo", pero queda en Bolívar.
+[[lugar]]
+id = "biblioteca-popular-el-cantaro-fresco"
+nombre = "Biblioteca Popular El Cántaro Fresco"
+alias = ["Biblioteca El Cántaro Fresco", "El Cántaro Fresco"]
+direccion = "Altamirano esquina Luis Alberto de Herrera"
+lat = -34.8714543
+lon = -56.162738
+barrio = "Bolívar"

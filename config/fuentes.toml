@@ -92,3 +92,8 @@ corre_en = "local"
 
 [ticketmaster_uy]
 corre_en = "local"
+
+# Programas de los eventos especiales publicados como mapa de Google (config/eventos_especiales.toml).
+# Por ahora, la Noche de las Librerías (Intendencia de Montevideo).
+[mapas_especiales]
+corre_en = "actions"

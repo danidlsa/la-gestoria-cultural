@@ -93,7 +93,7 @@ h1 span {
 .buscador .lupa { position: absolute; left: 32px; top: 50%; width: 22px; height: 22px; transform: translateY(-50%); color: var(--cobalto); pointer-events: none; }
 .secciones { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 14px; scrollbar-width: none; }
 .secciones button { border-color: transparent; background: rgba(255, 255, 255, 0.12); color: #fff; white-space: nowrap; }
-.secciones button:hover:not(:disabled) { background: rgba(255, 255, 255, 0.22); }
+.secciones button:hover:not(:disabled):not(.activa) { background: rgba(255, 255, 255, 0.22); }
 .secciones button.activa { background: var(--mostaza); color: var(--tinta); border-color: var(--tinta); box-shadow: 3px 3px 0 var(--tinta); }
 .secciones .cuenta { font-size: 0.75rem; background: rgba(0, 0, 0, 0.18); border-radius: 999px; padding: 0 7px; margin-left: 3px; }
 .secciones .activa .cuenta { background: rgba(24, 38, 74, 0.15); }
@@ -162,6 +162,8 @@ details.pregunta > div > :first-child { margin-top: 0; }
   .boton-secundario:hover, .boton-principal:hover, .mapa .punto:hover { transform: none; }
 }
 .boton-mas, .icono-seccion, .ver-todos { display: none; }
+/* La pestaña del especial en la barra de abajo y "Mapa" dentro de "Más": solo en el celular (ver 860 px). */
+.pestana-especial, .secciones .mas-mapa { display: none; }
 .secciones-mas { display: contents; }
 .secciones .pronto { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; background: var(--coral); color: var(--tinta); border-radius: 999px; padding: 1px 7px; margin-left: 4px; }
 
@@ -352,11 +354,293 @@ select {
 .especial-fecha { font-weight: 700; color: var(--cobalto-texto); }
 .especial-nota { font-weight: 400; color: var(--texto-suave); }
 .especial-sin-programa { color: var(--texto-suave); font-size: 0.92rem; }
-.especial-programa summary { cursor: pointer; font-weight: 700; color: var(--coral-texto); padding: 4px 0; }
-.especial-programa ul { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 6px; font-size: 0.92rem; }
-.especial-cuando { display: inline-block; min-width: 6.5em; font-weight: 700; font-size: 0.85rem; }
-.especial-programa a { color: var(--cobalto-texto); font-weight: 600; text-underline-offset: 3px; }
-.especial-lugar { color: var(--texto-suave); }
+/* Con programa, el especial ocupa todo el ancho: arriba la presentación, abajo el programa para recorrer. */
+.especial.con-programa { grid-column: 1 / -1; padding: 0; gap: 0; overflow: hidden; }
+.especial-cabeza { display: flex; flex-direction: column; gap: 6px; padding: 18px 20px; }
+.con-programa .especial-cabeza { background: var(--cobalto); color: #fff; border-bottom: 2px solid var(--borde); }
+.con-programa .especial-cabeza h3 { font-size: clamp(1.6rem, 4vw, 2.3rem); }
+.con-programa .especial-fecha { color: var(--mostaza); font-size: 1.05rem; }
+.con-programa .especial-nota { color: #E6ECFA; }
+.especial-descripcion { max-width: 62ch; }
+.especial-cifras { font-size: 0.95rem; }
+.especial-cifras strong { font: 800 1.15rem var(--display); color: var(--mostaza); }
+.especial-invita { margin-top: 4px !important; align-self: flex-start; background: var(--mostaza); color: var(--tinta); border: 2px solid var(--tinta); border-radius: 12px; padding: 6px 12px; font-weight: 600; box-shadow: 3px 3px 0 var(--coral); max-width: 62ch; }
+.especial-oficial { font-size: 0.85rem; color: #E6ECFA; }
+.especial-oficial a { color: #fff; font-weight: 700; text-underline-offset: 3px; }
+.especial-programa { padding: 16px 20px 22px; }
+
+/* Filtros del programa: botones redondos en filas que se deslizan de costado en el celular. */
+.esp-controles { display: grid; gap: 10px; }
+.esp-arriba { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.esp-modos { display: inline-flex; border: 2px solid var(--borde); border-radius: 999px; overflow: hidden; background: var(--superficie); }
+.esp-modos .esp-chip { border: 0; border-radius: 0; margin: 0; box-shadow: none; }
+.esp-modos .esp-chip + .esp-chip { border-left: 2px solid var(--borde); }
+.esp-buscar {
+  flex: 1 1 220px; min-width: 0; min-height: 40px; border: 2px solid var(--borde); border-radius: 999px;
+  padding: 6px 16px; font: inherit; background: var(--superficie); color: var(--texto);
+}
+.esp-fila { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.esp-fila-titulo { flex: none; width: 4.2em; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--texto-suave); }
+.esp-chips { display: flex; gap: 6px; overflow-x: auto; padding: 2px 2px 6px; scrollbar-width: thin; min-width: 0; }
+.esp-chip {
+  flex: none; border: 2px solid var(--borde); background: var(--superficie); color: var(--texto); border-radius: 999px;
+  padding: 5px 13px; min-height: 36px; font-size: 0.88rem; font-weight: 700; cursor: pointer; white-space: nowrap;
+}
+.esp-chip:hover { background: color-mix(in srgb, var(--mostaza) 25%, var(--superficie)); }
+.esp-chip.activo { background: var(--mostaza); color: var(--tinta); }
+.esp-modos .esp-chip.activo { background: var(--tinta); color: var(--crema); }
+/* "Mi recorrido" es lo más útil de la pestaña: va aparte, en coral, y se nota. */
+.esp-mio { background: var(--coral); color: var(--tinta); box-shadow: 3px 3px 0 var(--borde); font-size: 0.95rem; }
+.esp-mio:hover { background: color-mix(in srgb, var(--coral) 80%, #fff); }
+.esp-mio.activo { background: var(--tinta); color: var(--mostaza); box-shadow: 3px 3px 0 var(--coral); }
+.esp-resumen { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; margin: 16px 0 10px; font-size: 0.95rem; }
+.esp-resumen strong { font: 800 1.1rem var(--display); }
+.esp-borrar { border: 0; background: none; padding: 4px 0; color: var(--coral-texto); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.esp-vacio { text-align: center; padding: 30px 10px; }
+.esp-vacio p { font: 800 1.15rem var(--display); margin: 0 0 8px; }
+.esp-nota { font-size: 0.85rem; color: var(--texto-suave); margin-top: 8px; }
+
+/* Por lugar: un bloque por barrio, una tarjeta por lugar con sus actividades en orden. */
+.esp-barrio + .esp-barrio { margin-top: 26px; }
+.esp-barrio h4 { margin: 0 0 10px; font: 800 1.25rem var(--display); display: flex; align-items: baseline; gap: 10px; }
+.esp-barrio h4 small { font: 600 0.85rem var(--sans); color: var(--texto-suave); }
+.esp-lugares { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); align-items: start; }
+.esp-lugar { background: var(--superficie); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 4px 4px 0 var(--sombra); scroll-margin-top: 90px; transition: box-shadow 0.3s ease; }
+.esp-lugar.resaltada { box-shadow: 0 0 0 4px var(--mostaza), 4px 4px 0 var(--sombra); }
+/* El renglón de cada lugar (nombre y dirección), con un fondo apenas teñido: separa el lugar de sus actividades. */
+.esp-lugar { overflow: hidden; }
+.esp-lugar header { padding: 12px 14px 10px; background: color-mix(in srgb, var(--cobalto) 13%, var(--superficie)); border-bottom: 2px solid var(--borde); }
+.esp-lugar h5 { margin: 0; font: 800 1.1rem/1.2 var(--display); }
+.esp-dir { margin: 2px 0 0; font-size: 0.85rem; color: var(--texto-suave); }
+.esp-dir a { color: var(--cobalto-texto); font-weight: 700; text-underline-offset: 3px; }
+.esp-actividades { list-style: none; margin: 0; padding: 0; }
+
+/* Cada actividad: la hora, el título y lo demás, y los botones a la derecha. */
+.esp-act { display: grid; grid-template-columns: 3.6em minmax(0, 1fr) auto; gap: 4px 12px; padding: 10px 14px; align-items: start; }
+.esp-act + .esp-act { border-top: 1px solid color-mix(in srgb, var(--texto) 14%, transparent); }
+.esp-act.en-plan { background: color-mix(in srgb, var(--mostaza) 18%, transparent); }
+.esp-hora { font: 800 1rem/1.15 var(--display); display: flex; flex-direction: column; }
+.esp-hora small { font: 600 0.72rem var(--sans); color: var(--texto-suave); }
+.esp-cuerpo { min-width: 0; }
+.esp-cuerpo p { margin: 0; }
+.esp-titulo { font-weight: 700; line-height: 1.25; }
+.esp-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 8px; font-size: 0.8rem; color: var(--texto-suave); margin-top: 2px !important; }
+.esp-tipo { font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.7rem; color: var(--cobalto-texto); }
+.esp-act.cat-musica .esp-tipo { color: var(--cobalto-texto); }
+.esp-act.cat-infantil .esp-tipo, .esp-act.cat-taller .esp-tipo { color: var(--coral-texto); }
+.esp-ir-lugar { border: 0; background: none; padding: 2px 0; min-height: 24px; color: var(--texto); font-weight: 700; text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px; cursor: pointer; text-align: left; }
+.esp-barrio-chico::before { content: "· "; }
+.esp-desc {
+  margin-top: 4px !important; font-size: 0.86rem; color: var(--texto-suave); cursor: pointer;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.esp-desc.abierta { -webkit-line-clamp: unset; display: block; }
+.esp-acciones { display: flex; gap: 6px; align-items: center; }
+.esp-acciones .agregar-plan { margin-left: 0; white-space: nowrap; }
+
+/* Por hora: un bloque por hora, cada uno con su color, que se pliega tocando la hora (arranca abierto). */
+.esp-por-hora { display: grid; gap: 16px; }
+/* El color es del bloque (--hora), no de cada actividad: así cada hora se distingue de la siguiente. */
+.esp-bloque { --hora: var(--cobalto); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 4px 4px 0 var(--hora); background: color-mix(in srgb, var(--hora) 6%, var(--superficie)); overflow: hidden; }
+.esp-bloque.acento-coral { --hora: var(--coral); }
+.esp-bloque.acento-mostaza { --hora: var(--mostaza); }
+.esp-bloque.acento-tinta { --hora: var(--tinta); }
+.esp-bloque.acento-larga { --hora: var(--coral); }
+.esp-bloque > summary {
+  list-style: none; cursor: pointer; display: flex; align-items: center; gap: 12px; padding: 8px 14px;
+  background: color-mix(in srgb, var(--hora) 22%, var(--superficie)); border-left: 10px solid var(--hora);
+}
+.esp-bloque > summary::-webkit-details-marker { display: none; }
+.esp-bloque > summary::after { content: "▾"; margin-left: auto; font-size: 1.1rem; transition: transform 0.15s ease; }
+.esp-bloque:not([open]) > summary::after { transform: rotate(-90deg); }
+.esp-bloque[open] > summary { border-bottom: 2px solid var(--borde); }
+.esp-bloque-hora { font: 800 1.35rem var(--display); }
+.esp-bloque > summary small { font-weight: 600; font-size: 0.85rem; color: var(--texto-suave); }
+.esp-bloque .esp-act { border-left: 10px solid color-mix(in srgb, var(--hora) 45%, transparent); }
+
+/* Por lugar, en la compu: la grilla de la noche, con un renglón por lugar y las horas de costado. */
+.esp-grilla-envoltura { position: relative; }
+.esp-grilla-envoltura > .esp-nota { margin: 0 0 8px; }
+.esp-grilla { position: relative; border: 2px solid var(--borde); border-radius: var(--radio); background: var(--superficie); box-shadow: 4px 4px 0 var(--sombra); overflow: hidden; }
+.esp-grilla-envoltura { overflow-x: auto; padding-bottom: 8px; }
+.eg-fila { display: flex; border-top: 1px solid color-mix(in srgb, var(--texto) 14%, transparent); scroll-margin-top: 120px; transition: background 0.3s ease; }
+.eg-fila.resaltada { background: color-mix(in srgb, var(--mostaza) 35%, transparent); }
+.eg-lugar {
+  position: sticky; left: 0; z-index: 2; flex: none; width: var(--ancho-lugar); padding: 8px 12px; background: var(--superficie);
+  border-right: 2px solid var(--borde); display: flex; flex-direction: column; gap: 2px; justify-content: center;
+}
+.eg-lugar strong { font: 800 0.95rem/1.15 var(--display); }
+.eg-lugar a { font-size: 0.78rem; font-weight: 700; color: var(--cobalto-texto); text-underline-offset: 3px; }
+.eg-pista {
+  position: relative; flex: 1; min-height: 40px;
+  background-image: repeating-linear-gradient(to right, color-mix(in srgb, var(--texto) 12%, transparent) 0 1px, transparent 1px var(--px-hora));
+}
+.eg-cabeza { border-top: 0; background: var(--tinta); color: var(--crema); position: sticky; top: 0; z-index: 3; }
+.eg-cabeza .eg-lugar { background: var(--tinta); color: var(--mostaza); font: 800 0.8rem var(--sans); text-transform: uppercase; letter-spacing: 0.06em; }
+.eg-cabeza .eg-pista { height: 34px; background-image: none; }
+.eg-hora { position: absolute; top: 8px; transform: translateX(6px); font: 800 0.9rem var(--display); }
+.eg-barrio { position: sticky; left: 0; padding: 4px 12px; background: color-mix(in srgb, var(--cobalto) 14%, var(--superficie)); border-top: 2px solid var(--borde); font: 800 0.95rem var(--display); color: var(--cobalto-texto); }
+.eg-barrio span { position: sticky; left: 12px; }
+.eg-act {
+  --acento: var(--cobalto); position: absolute; height: 46px; padding: 4px 8px; text-align: left; cursor: pointer; overflow: hidden;
+  border: 2px solid var(--borde); border-left: 6px solid var(--acento); border-radius: 8px; background: var(--superficie); color: var(--texto);
+  display: flex; flex-direction: column; justify-content: center; font: inherit; line-height: 1.15;
+}
+.eg-act:hover, .eg-act:focus-visible { z-index: 1; box-shadow: 3px 3px 0 var(--acento); }
+.eg-act.cat-musica { --acento: var(--cobalto); }
+.eg-act.cat-infantil, .eg-act.cat-taller { --acento: var(--coral); }
+.eg-act.cat-charla, .eg-act.cat-exposicion { --acento: var(--mostaza); }
+.eg-act.larga { background: color-mix(in srgb, var(--acento) 12%, var(--superficie)); border-style: dashed; border-left-style: solid; }
+.eg-act.en-plan { background: var(--mostaza); color: var(--tinta); border-left-color: var(--coral); }
+.eg-act.en-plan .eg-act-hora::before { content: "★ "; }
+.eg-act-hora { font: 800 0.72rem var(--sans); color: var(--texto-suave); }
+.eg-act.en-plan .eg-act-hora { color: var(--tinta); }
+.eg-act-titulo { font-weight: 700; font-size: 0.8rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.eg-ficha {
+  position: absolute; z-index: 5; width: min(440px, 92%); background: var(--superficie); border: 2px solid var(--borde);
+  border-radius: var(--radio); box-shadow: 6px 6px 0 var(--coral); padding-top: 4px;
+}
+.eg-ficha .esp-desc { -webkit-line-clamp: unset; display: block; }
+.eg-cerrar { position: absolute; top: 2px; right: 6px; border: 0; background: none; font-size: 1.5rem; line-height: 1; cursor: pointer; color: var(--texto); padding: 4px; }
+.eg-ficha .esp-act { padding-right: 34px; grid-template-columns: 3.6em minmax(0, 1fr); }
+.eg-ficha .esp-acciones { grid-column: 2; margin-top: 6px; }
+
+/* Filtros del programa: en la compu, a la vista; en el celular, en un panel (ver la media query de 860 px). */
+.esp-busqueda { display: flex; gap: 8px; align-items: center; }
+.esp-panel { display: grid; gap: 10px; }
+.esp-panel-titulo, .esp-panel-pie, .esp-velo { display: none; }
+@media (max-width: 860px) {
+  .esp-busqueda .esp-buscar { flex: 1; }
+  .esp-abrir-filtros { flex: none; min-height: 40px; }
+  .esp-panel {
+    position: fixed; top: 0; bottom: 0; left: 0; z-index: 60; width: min(88vw, 380px); align-content: start;
+    background: var(--superficie); color: var(--texto); border: 2px solid var(--borde); border-left: 0; border-radius: 0 var(--radio) var(--radio) 0;
+    padding: 14px 16px 0; overflow-y: auto; gap: 18px; transform: translateX(-105%); visibility: hidden;
+  }
+  .esp-panel.abierto { transform: none; visibility: visible; box-shadow: 6px 0 0 var(--sombra); }
+  .esp-panel-titulo { display: flex; align-items: center; gap: 10px; }
+  .esp-panel-titulo strong { font: 800 1.35rem var(--display); }
+  .esp-panel-titulo .esp-borrar { margin-left: auto; }
+  .esp-panel-titulo .cerrar-filtros { margin-left: auto; }
+  .esp-panel-titulo .esp-borrar + .cerrar-filtros { margin-left: 0; }
+  /* Adentro del panel, cada grupo con su título arriba y los botones en varias líneas. */
+  .esp-panel .esp-fila { flex-direction: column; align-items: stretch; gap: 8px; }
+  .esp-panel .esp-fila-titulo { width: auto; font-size: 0.78rem; }
+  .esp-panel .esp-chips { flex-wrap: wrap; overflow: visible; }
+  .esp-panel-pie { display: block; position: sticky; bottom: 0; background: var(--superficie); padding: 12px 0 16px; margin-top: auto; }
+  .esp-panel-pie .boton-principal { width: 100%; min-height: 44px; font-size: 1rem; }
+  .esp-velo { display: block; position: fixed; inset: 0; z-index: 55; background: rgba(24, 38, 74, 0.5); }
+}
+
+/* La grilla del celular: una columna por lugar y las horas hacia abajo, dentro de un marco que se desliza en los
+   dos sentidos (así los nombres y las horas quedan siempre a la vista). */
+.esp-forma { display: inline-flex; gap: 6px; margin-bottom: 10px; }
+.egv { position: relative; max-height: 74vh; overflow: auto; border: 2px solid var(--borde); border-radius: var(--radio); background: var(--superficie); box-shadow: 4px 4px 0 var(--sombra); overscroll-behavior: contain; }
+.egv-tabla { display: inline-block; min-width: 100%; }
+.egv-cabeza { position: sticky; top: 0; z-index: 3; display: flex; background: var(--tinta); color: var(--crema); }
+.egv-esquina { position: sticky; left: 0; z-index: 4; flex: none; width: 50px; background: var(--tinta); }
+.egv-cabeza-lugar { flex: none; padding: 6px 8px 8px; border-left: 1px solid rgba(255, 255, 255, 0.18); display: flex; flex-direction: column; gap: 1px; min-height: 74px; justify-content: flex-end; transition: background 0.3s ease; }
+.egv-cabeza-lugar.nuevo-barrio { border-left: 3px solid var(--mostaza); }
+.egv-cabeza-lugar.resaltada { background: var(--coral); }
+.egv-cabeza-lugar strong { font: 800 0.86rem/1.15 var(--display); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.egv-cabeza-lugar a { font-size: 0.72rem; color: var(--mostaza); font-weight: 700; text-underline-offset: 2px; }
+.egv-barrio { font-size: 0.66rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: #C9D3EE; }
+.egv-cuerpo { display: flex; }
+.egv-horas { position: sticky; left: 0; z-index: 2; flex: none; width: 50px; background: var(--superficie); border-right: 2px solid var(--borde); }
+.egv-horas span { position: absolute; left: 0; right: 0; padding-top: 3px; text-align: center; font: 800 0.76rem var(--display); }
+.egv-columna {
+  position: relative; flex: none; border-left: 1px solid color-mix(in srgb, var(--texto) 12%, transparent);
+  background-image: repeating-linear-gradient(to bottom, color-mix(in srgb, var(--texto) 12%, transparent) 0 1px, transparent 1px var(--px-hora));
+}
+.egv-columna.nuevo-barrio { border-left: 3px solid var(--mostaza); }
+.egv .eg-act { height: auto; justify-content: flex-start; padding: 4px 7px; }
+.egv .eg-act-titulo { white-space: normal; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; font-size: 0.78rem; }
+.eg-ficha.hoja { position: fixed; left: 8px; right: 8px; bottom: 86px; width: auto; max-height: 62vh; overflow: auto; z-index: 60; }
+
+/* Mi recorrido: las paradas en orden, con lo que hay que caminar entre una y otra, y el mapa al lado. */
+.esp-recorrido-cabeza { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin: 6px 0 14px; }
+.esp-recorrido-titulo { margin: 0; font: 800 1.35rem var(--display); }
+.esp-recorrido-acciones { display: flex; flex-wrap: wrap; gap: 8px; }
+.boton-recorrido { border: 2px solid var(--borde); border-radius: 999px; padding: 6px 14px; min-height: 38px; font-weight: 800; cursor: pointer; background: var(--coral); color: var(--tinta); box-shadow: 3px 3px 0 var(--borde); }
+.boton-recorrido.secundario { background: var(--superficie); color: var(--texto); box-shadow: none; }
+.esp-guardalo {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin: 20px 0 6px;
+  background: var(--mostaza); color: var(--tinta); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 4px 4px 0 var(--coral); padding: 12px 14px;
+}
+.esp-guardalo p { margin: 0; flex: 1 1 280px; font-size: 0.92rem; }
+/* En la compu, el aviso va arriba (se ve sin bajar); en el celular, al final, después de ver el recorrido. */
+.esp-recorrido { display: flex; flex-direction: column; }
+@media (min-width: 900px) {
+  .esp-recorrido-cabeza { order: -2; }
+  .esp-guardalo { order: -1; margin: 0 0 16px; }
+}
+.esp-guardalo-botones { display: flex; flex-wrap: wrap; gap: 8px; }
+.esp-guardalo .boton-recorrido.secundario { background: var(--superficie); color: var(--tinta); }
+.esp-recorrido-columnas { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; align-items: start; }
+@media (min-width: 900px) { .esp-recorrido-columnas { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); } .esp-recorrido-mapa { position: sticky; top: 16px; } }
+.esp-paradas { list-style: none; margin: 0; padding: 0; }
+.esp-parada {
+  --acento: var(--cobalto); display: grid; grid-template-columns: 40px minmax(0, 1fr) auto; gap: 4px 12px; align-items: start;
+  background: var(--superficie); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 4px 4px 0 var(--acento); padding: 12px 14px;
+}
+.esp-parada-numero { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; background: var(--coral); color: var(--tinta); border: 2px solid var(--borde); font: 800 1.1rem var(--display); }
+.esp-parada-cuerpo p { margin: 0; }
+.esp-parada-hora { font: 800 1.05rem var(--display); color: var(--coral-texto); }
+.esp-parada .esp-meta a { color: var(--cobalto-texto); font-weight: 700; text-underline-offset: 3px; }
+.esp-tramo a { color: var(--cobalto-texto); font-weight: 700; text-underline-offset: 3px; }
+.esp-tramo-dato { font-weight: 700; color: var(--texto); }
+.esp-tramo { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; padding: 10px 0 10px 18px; margin-left: 18px; border-left: 3px dashed var(--coral); font-size: 0.86rem; color: var(--texto-suave); }
+.esp-tramo-linea { display: none; }
+.esp-alerta { color: var(--coral-texto); }
+.esp-alerta::before { content: "⚠ "; }
+.esp-mapa-recorrido { height: min(60vh, 460px); }
+.parada-mapa span { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: #F06C4F; color: #18264A; border: 2px solid #18264A; font: 800 0.95rem "Bricolage Grotesque", sans-serif; }
+.esp-recorrido-vacio { background: var(--superficie); border: 2px dashed var(--coral); border-radius: var(--radio); padding: 18px 20px; }
+.esp-recorrido-vacio ol { margin: 8px 0 0; padding-left: 1.3em; display: grid; gap: 6px; }
+.esp-enlace { border: 0; background: none; padding: 0; font: inherit; font-weight: 700; color: var(--cobalto-texto); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+
+/* La barra de abajo, mientras se mira el programa: cuánto llevás y un atajo al recorrido. */
+.esp-barra-recorrido {
+  position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); z-index: 40; display: flex; align-items: center; gap: 14px;
+  background: var(--tinta); color: var(--crema); border: 2px solid var(--borde); border-radius: 999px; padding: 8px 8px 8px 18px;
+  box-shadow: 4px 4px 0 var(--coral); max-width: calc(100vw - 24px); white-space: nowrap;
+}
+.esp-barra-recorrido strong { color: var(--mostaza); }
+.esp-barra-recorrido button { border: 2px solid var(--borde); border-radius: 999px; background: var(--coral); color: var(--tinta); font-weight: 800; padding: 6px 14px; cursor: pointer; }
+
+.esp-mapa { height: min(70vh, 560px); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 4px 4px 0 var(--sombra); position: relative; }
+
+/* En la agenda: la tarjeta que junta las actividades de un especial de ese día. */
+.tarjeta-especial { --acento: var(--coral); background: var(--cobalto); }
+.especial-atajo {
+  flex: 1; display: flex; flex-direction: column; align-items: flex-start; gap: 8px; text-align: left; border: 0; cursor: pointer;
+  background: var(--cobalto); color: #fff; padding: 18px 16px; font: inherit; min-height: 180px;
+}
+.especial-atajo strong { font: 800 1.35rem/1.15 var(--display); }
+.especial-atajo .ir { margin-top: auto; font-weight: 800; color: var(--mostaza); }
+/* La pestaña del especial: se destaca entre las demás (en el celular, primera dentro de "Más"). */
+.boton-especial span { color: var(--coral); }
+.boton-especial:not(.activa) { border-color: var(--coral) !important; }
+.insignia-especial { background: var(--mostaza); color: var(--tinta); transform: rotate(-3deg); }
+
+@media (max-width: 600px) {
+  .especial-cabeza, .especial-programa { padding-left: 14px; padding-right: 14px; }
+  /* Cada fila de filtros, en una línea que se desliza: el título chico a la izquierda, sin barra de desplazamiento. */
+  .esp-fila { gap: 6px; }
+  .esp-fila-titulo { width: 3.7em; font-size: 0.7rem; }
+  .esp-chips { scrollbar-width: none; padding-bottom: 2px; }
+  .esp-chips::-webkit-scrollbar { display: none; }
+  .esp-chip { min-height: 34px; padding: 4px 11px; font-size: 0.84rem; }
+  .esp-modos { width: 100%; }
+  .esp-modos .esp-chip { flex: 1; padding-left: 6px; padding-right: 6px; }
+  .esp-mio { width: 100%; min-height: 42px; }
+  .esp-barra-recorrido { bottom: 88px; gap: 10px; padding-left: 14px; font-size: 0.9rem; }
+  .esp-parada { grid-template-columns: 36px minmax(0, 1fr); }
+  .esp-parada .esp-acciones { grid-column: 2; justify-content: flex-end; }
+  /* En el celular los botones bajan, debajo del texto, para que el título tenga todo el ancho. */
+  .esp-act { grid-template-columns: 3.3em minmax(0, 1fr); }
+  .esp-acciones { grid-column: 2; justify-content: flex-end; }
+}
 .vacio p { font: 800 1.3rem var(--display); margin: 0 0 12px; }
 .vacio button { background: var(--coral); color: var(--tinta); }
 .pie-pagina { color: var(--texto-suave); font-size: 0.85rem; padding-top: 14px; padding-bottom: 40px; border-top: 2px dashed color-mix(in srgb, var(--texto) 30%, transparent); }
@@ -592,6 +876,12 @@ button.pc-numero { border: 0; background: none; padding: 0; color: inherit; text
   .pestanas .largo { display: none; }
   .pestanas #cuenta-plan { position: absolute; top: 2px; right: calc(50% - 26px); margin: 0; background: var(--coral); color: var(--tinta); font-weight: 700; }
   .boton-mas { display: flex; }
+  /* Mientras se muestra un especial, su pestaña reemplaza a "Mapa" en la barra; "Mapa" pasa a "Más". */
+  .pestanas.con-especial > button[data-seccion="mapa"] { display: none; }
+  .pestanas.con-especial > .pestana-especial { display: flex; }
+  .pestanas.con-especial > .pestana-especial:not(.activa) .icono-seccion { color: var(--mostaza); }
+  .pestanas.con-especial .secciones-mas .boton-especial { display: none; }
+  .pestanas.con-especial .secciones-mas .mas-mapa { display: flex; }
   .secciones-mas {
     display: none; position: absolute; right: 8px; bottom: calc(100% + 8px); flex-direction: column; gap: 4px; padding: 8px;
     min-width: 240px; background: var(--superficie); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 5px 5px 0 var(--sombra);
@@ -706,11 +996,25 @@ body.imprimiendo > :not(.imprimible) { display: none !important; }
 body.imprimiendo { background: #fff; color: var(--tinta); }
 body.imprimiendo .imprimible { display: block; }
 @page { size: A4 landscape; margin: 10mm; }
+/* El recorrido va en vertical (es una lista, y así se lee mejor en el celular). Página con nombre: el plan del mes
+   sigue apaisado. */
+@page vertical { size: A4 portrait; margin: 14mm 12mm; }
+.imp-recorrido { page: vertical; max-width: 180mm; }
 .imp-hoja { break-after: page; padding: 4px; }
 .imp-hoja:last-child { break-after: auto; }
 .imp-cabezal { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 3px solid var(--cobalto); margin-bottom: 8px; padding-bottom: 4px; }
 .imp-cabezal h1 { font: 800 1.6rem var(--display); color: var(--cobalto); margin: 0; }
 .imp-cabezal span { font: 700 0.9rem var(--display); color: var(--coral); }
+/* La hoja del recorrido (Guardar en PDF): las paradas en orden, con lo que se camina entre una y otra. */
+.imp-recorrido .imp-fecha { margin: 0 0 14px; font-weight: 700; color: var(--coral-texto); }
+.imp-paradas { list-style: none; margin: 0; padding: 0; }
+.imp-parada { display: grid; grid-template-columns: 34px 1fr; gap: 10px; padding: 8px 0; break-inside: avoid; }
+.imp-parada strong { font: 800 1.05rem var(--display); }
+.imp-parada p { margin: 2px 0 0; font-size: 0.9rem; }
+.imp-desc { color: #4A5578; }
+.imp-numero-parada { width: 28px; height: 28px; border-radius: 50%; border: 2px solid var(--tinta); display: grid; place-items: center; font: 800 0.95rem var(--display); background: #F06C4F; }
+.imp-tramo { margin-left: 13px; padding: 4px 0 4px 20px; border-left: 3px dashed #F06C4F; font-size: 0.85rem; color: #4A5578; }
+.imp-pie { margin-top: 18px; font-size: 0.85rem; word-break: break-all; }
 .imp-semana, .imp-grilla { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); }
 .imp-semana span { font: 700 0.75rem var(--sans); text-transform: uppercase; letter-spacing: 0.05em; padding: 2px 4px; color: var(--tinta); }
 .imp-grilla { border-top: 1.5px solid var(--tinta); border-left: 1.5px solid var(--tinta); }

@@ -1,10 +1,17 @@
 # Eventos especiales: jornadas de una vez por año con muchas actividades a la vez.
 #
-# Apagado (5/11/2026): la pestaña "Especiales" no se muestra y no se abren avisos, porque varias jornadas ya
-# tenían fecha anunciada y acá todavía no aparecían. Para volver a usarlos, poner `activo = true`.
-activo = false
+# `activo = false` apaga la pestaña "Especiales" y los avisos.
+activo = true
+
+# Qué especiales se muestran en la pestaña (por su `id`), en este orden. Se eligen a mano, uno por vez: el que
+# viene y tiene programa. Los demás quedan guardados acá abajo, sin mostrarse (y sin avisos).
+mostrar = ["noche-de-las-librerias"]
 
 # `sitio` no se muestra en la web (varios no eran el sitio correcto): solo va en el aviso interno, para revisar.
+# `pagina` sí se muestra: es la página oficial del programa. `pestana` y `pestana_corta` son el nombre de la pestaña
+# (en la compu y en la barra de abajo del celular, donde reemplaza a "Mapa" mientras se muestra); `icono`, su dibujo;
+# `enlace`, el atajo para difundirlo (lagestoriacultural.uy/<enlace>). Con `mapa` (el id de un mapa de Google My Maps),
+# `desde` y `horario`, la fuente "mapas_especiales" lee el programa del mapa y cada actividad es un evento.
 # La pestaña "Especiales" muestra cada uno con su próxima fecha y, cuando aparece el programa en las fuentes,
 # con sus actividades. Un mes antes, si todavía no hay nada, GitHub Actions abre un issue para avisar.
 #
@@ -47,12 +54,21 @@ palabras = ["museos en la noche"]
 [[especial]]
 id = "noche-de-las-librerias"
 nombre = "La Noche de las Librerías"
-descripcion = "Librerías abiertas hasta tarde, con lecturas, música y charlas en la calle."
+descripcion = "Librerías de toda la ciudad abiertas hasta tarde, con presentaciones de libros, charlas, música, talleres y propuestas para chicos."
 cuando = "un viernes de noviembre"
 regla = "meses"
 meses = [11]
-sitio = "https://ccemontevideo.aecid.es/"
+sitio = "https://eventos.montevideo.gub.uy/nochelibrerias"
 palabras = ["noche de (las )?librerias"]
+# Edición 2026: el programa está en un mapa de Google de la Intendencia (fuente "mapas_especiales").
+desde = 2026-11-13
+horario = ["19:00", "01:00"]
+lugares = "librerías"  # cómo se llaman los lugares en la pestaña ("41 librerías")
+enlace = "librerias"  # atajo para difundir: lagestoriacultural.uy/librerias lleva directo a la pestaña
+pestana_corta = "Librerías"  # en la barra de abajo del celular, donde entra poco
+icono = "libro"
+pagina = "https://eventos.montevideo.gub.uy/nochelibrerias"
+mapa = "1unh4KD7uo9wdVfES4n5EXEobNB1S4HA"
 
 [[especial]]
 id = "montevideo-mas-museos"
