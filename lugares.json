@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-08T11:30:29.217305-03:00",
- "cantidad": 203,
+ "generado": "2026-11-08T12:40:13.977295-03:00",
+ "cantidad": 209,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -50,6 +50,16 @@
    "lat": -34.9185227,
    "lon": -56.1594728,
    "barrio": "Punta Carretas",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "afrodita-libros",
+   "nombre": "Afrodita Libros",
+   "alias": [],
+   "direccion": "Dr. Tristán Narvaja 1528",
+   "lat": -34.9018024,
+   "lon": -56.1775527,
+   "barrio": "Cordón",
    "ciudad": "Montevideo"
   },
   {
@@ -916,6 +926,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "idea-libreria",
+   "nombre": "Idea Librería",
+   "alias": [],
+   "direccion": "Dr. Tristán Narvaja 1578",
+   "lat": -34.9010301,
+   "lon": -56.1780235,
+   "barrio": "Cordón",
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "indoorclub-1983",
    "nombre": "Indoorclub 1983",
    "alias": [],
@@ -1096,6 +1116,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "libreria-arete",
+   "nombre": "Librería Areté",
+   "alias": [],
+   "direccion": "Dr. Tristán Narvaja 1641",
+   "lat": -34.9001381,
+   "lon": -56.1787855,
+   "barrio": "Cordón",
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "libreria-cultural-alfabeta",
    "nombre": "Librería Cultural Alfabeta",
    "alias": [],
@@ -1123,6 +1153,16 @@
    "lat": -34.905439,
    "lon": -56.2046609,
    "barrio": "Ciudad Vieja",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "libreria-guyunusa",
+   "nombre": "Librería Guyunusa",
+   "alias": [],
+   "direccion": "Dr. Tristán Narvaja 1601",
+   "lat": -34.900668,
+   "lon": -56.178469,
+   "barrio": "Cordón",
    "ciudad": "Montevideo"
   },
   {
@@ -1173,6 +1213,16 @@
    "lat": -34.909655,
    "lon": -56.1637003,
    "barrio": "Parque Rodó",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "libreria-vila",
+   "nombre": "Librería Vila",
+   "alias": [],
+   "direccion": "Dr. Tristán Narvaja 1642",
+   "lat": -34.9000063,
+   "lon": -56.1786391,
+   "barrio": "Cordón",
    "ciudad": "Montevideo"
   },
   {
@@ -1296,6 +1346,16 @@
    "lat": -34.909757,
    "lon": -56.179353,
    "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "minerva-libros",
+   "nombre": "Minerva Libros",
+   "alias": [],
+   "direccion": "Dr. Tristán Narvaja 1679",
+   "lat": -34.8995364,
+   "lon": -56.1791452,
+   "barrio": "Cordón",
    "ciudad": "Montevideo"
   },
   {
