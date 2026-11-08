@@ -1,50 +1,10 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-07T21:57:23.772189-03:00",
+ "corrida": "2026-11-08T11:30:05.530167-03:00",
  "ok": true,
- "cantidad": 5,
+ "cantidad": 4,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "cobraticket",
-   "id_externo": "706242",
-   "url": "https://cobraticket.uy/e/marikocracia-cabaret-706242",
-   "titulo": "MARIKOCRACIA CABARET",
-   "categoria": "fiesta",
-   "categoria_segura": true,
-   "descripcion_corta": "Sábado a pura fiesta con: 🌈MARIKOCRACIA CABARET💃 👠Una noche a puro show con tres de las más importantes drag queen de nuestro país. Inspiradas en un cabaret Nichols, Negrashka y Miranda serán nuestras anfitrionas quienes te recibirán y junto a Santi y Edson animarán la noche desde arriba de…",
-   "lugar": {
-    "nombre": "Zoba Club",
-    "direccion": "Bv. España 2218",
-    "lat": -34.9095744,
-    "lon": -56.1679561,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-07T23:50:00-03:00",
-     "fin": "2026-11-08T06:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://cobraticket.uy/e/marikocracia-cabaret-706242",
-     "via": "cobraticket"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://img.cobraticket.uy/eHXPW8So-ao-khr-vK87B.jpg",
-   "productor": "Zoba Club",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "cobraticket",
    "id_externo": "396368",

@@ -1,6 +1,6 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-07T21:53:11.256376-03:00",
+ "corrida": "2026-11-08T11:25:51.832884-03:00",
  "ok": true,
  "cantidad": 27,
  "errores": [],
@@ -392,13 +392,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-07T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": "Sala Zavala Muniz",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-08T00:00:00-03:00",
      "fin": null,
@@ -938,13 +931,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-07T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": "Sala Principal",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-08T00:00:00-03:00",
      "fin": null,

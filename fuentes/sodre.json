@@ -1,6 +1,6 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-07T21:50:04.451596-03:00",
+ "corrida": "2026-11-08T11:23:01.659051-03:00",
  "ok": true,
  "cantidad": 39,
  "errores": [],
@@ -715,13 +715,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-07T20:00:00-03:00",
-     "fin": "2026-11-07T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-08T20:00:00-03:00",
      "fin": "2026-11-08T22:00:00-03:00",
      "sin_hora": false,
@@ -1184,13 +1177,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-07T17:00:00-03:00",
-     "fin": "2026-11-07T19:01:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-13T17:00:00-03:00",
      "fin": "2026-11-13T19:00:00-03:00",
      "sin_hora": false,
@@ -1345,13 +1331,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-07T18:50:00-03:00",
-     "fin": "2026-11-07T20:50:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-13T19:00:00-03:00",
      "fin": "2026-11-13T21:00:00-03:00",
      "sin_hora": false,
@@ -1393,13 +1372,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-07T20:50:00-03:00",
-     "fin": "2026-11-07T22:50:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T20:55:00-03:00",
      "fin": "2026-11-13T22:55:00-03:00",

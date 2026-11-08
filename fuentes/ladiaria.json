@@ -1,8 +1,8 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-07T21:56:01.756350-03:00",
+ "corrida": "2026-11-08T11:28:47.137020-03:00",
  "ok": true,
- "cantidad": 69,
+ "cantidad": 67,
  "errores": [],
  "eventos": [
   {
@@ -21,13 +21,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-07T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-08T20:30:00-03:00",
      "fin": null,
@@ -1735,13 +1728,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-07T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-08T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1981,13 +1967,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-07T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T21:30:00-03:00",
      "fin": null,
@@ -2359,51 +2338,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/CAPITAL-HUMANO/33355/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18117",
-   "url": "https://beneficios.ladiaria.com.uy/eli-almic/",
-   "titulo": "Eli Almic",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "¿Qué abrió La Llave? Aún lo estamos descifrando. Lo que sí sabemos es que, desde aquella Zavala Muniz de Eli Almic y su banda —esa puesta en escena única donde un disco se convirtió en algo parecido a una obra—, cerrar ya no es posible. Les invitamos a seguir abriendo mundos, recorriendo rincones…",
-   "lugar": {
-    "nombre": "Sala Rondeau",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 450.0,
-    "hasta": 450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/ELI-ALMIC/33303/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/eli-almic/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/ELI-ALMIC/33303/"
    ],
    "ciclo": null,
    "muestra": false,
@@ -3193,13 +3127,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-07T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-08T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -3481,51 +3408,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/DILLOM--PRADO/32949/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "17973",
-   "url": "https://beneficios.ladiaria.com.uy/uno/",
-   "titulo": "Uno",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Tres cuerpos deformes atrapados en un sistema artificial de consumo. Tres cuerpos condenados que nadie quiere ver. El hambre es la única constante: el deseo de consumo y el consumo de deseo. Uno es una obra de teatro físico que explora la relación entre cuerpo , poder y consumo . Hibridando…",
-   "lugar": {
-    "nombre": "Teatro Stella D´Italia Sala 1 (Mercedes 1805)",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 330.0,
-    "hasta": 330.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Uno/32244/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/uno/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Uno/32244/"
    ],
    "ciclo": null,
    "muestra": false,

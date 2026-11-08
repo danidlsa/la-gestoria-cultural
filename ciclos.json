@@ -1,46 +1,14 @@
 {
- "generado": "2026-11-07T21:57:51.267427-03:00",
- "cantidad": 22,
+ "generado": "2026-11-08T11:30:29.217305-03:00",
+ "cantidad": 21,
  "ciclos": [
   {
    "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
    "titulo": "Estreno de obras Fortalecimiento de las Artes",
    "lugar_id": null,
-   "desde": "2026-11-07T16:00:00-03:00",
+   "desde": "2026-11-08T16:00:00-03:00",
    "hasta": "2026-12-04T21:00:00-03:00",
    "cantidad": 4
-  },
-  {
-   "id": "ciclo-ciclo-de-teatro",
-   "titulo": "Ciclo de teatro",
-   "lugar_id": null,
-   "desde": "2026-11-07T18:00:00-03:00",
-   "hasta": "2026-12-12T18:00:00-03:00",
-   "cantidad": 14
-  },
-  {
-   "id": "ciclo-andrzej-wajda-en-su-centenario",
-   "titulo": "Andrzej Wajda, en su centenario",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-07T19:50:00-03:00",
-   "hasta": "2026-11-13T19:20:00-03:00",
-   "cantidad": 8
-  },
-  {
-   "id": "ciclo-encuentro-de-murga-joven-2026",
-   "titulo": "Encuentro de Murga Joven 2026",
-   "lugar_id": "centro-cultural-las-duranas",
-   "desde": "2026-11-07T20:00:00-03:00",
-   "hasta": "2026-11-16T20:00:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-the-apartment-station-presenta-trasnoches-en-cinemateca-rocky-50-anos",
-   "titulo": "The Apartment Station presenta: Trasnoches en Cinemateca / Rocky, 50 años",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-07T23:30:00-03:00",
-   "hasta": "2026-11-07T23:30:00-03:00",
-   "cantidad": 1
   },
   {
    "id": "ciclo-musica-en-el-parque",
@@ -51,12 +19,28 @@
    "cantidad": 1
   },
   {
+   "id": "ciclo-andrzej-wajda-en-su-centenario",
+   "titulo": "Andrzej Wajda, en su centenario",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-08T17:40:00-03:00",
+   "hasta": "2026-11-14T17:40:00-03:00",
+   "cantidad": 8
+  },
+  {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
    "lugar_id": null,
    "desde": "2026-11-09T11:00:00-03:00",
    "hasta": "2026-12-11T16:00:00-03:00",
    "cantidad": 6
+  },
+  {
+   "id": "ciclo-encuentro-de-murga-joven-2026",
+   "titulo": "Encuentro de Murga Joven 2026",
+   "lugar_id": "centro-cultural-las-duranas",
+   "desde": "2026-11-09T20:00:00-03:00",
+   "hasta": "2026-11-16T20:00:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-particulas",
@@ -73,6 +57,14 @@
    "desde": "2026-11-11T20:30:00-03:00",
    "hasta": "2026-11-22T20:00:00-03:00",
    "cantidad": 5
+  },
+  {
+   "id": "ciclo-ciclo-de-teatro",
+   "titulo": "Ciclo de teatro",
+   "lugar_id": null,
+   "desde": "2026-11-12T20:30:00-03:00",
+   "hasta": "2026-12-12T18:00:00-03:00",
+   "cantidad": 13
   },
   {
    "id": "ciclo-la-noche-de-las-librerias-2026",

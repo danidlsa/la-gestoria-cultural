@@ -1,55 +1,10 @@
 {
  "fuente": "entraste",
- "corrida": "2026-11-07T21:57:42.100684-03:00",
+ "corrida": "2026-11-08T11:30:21.761761-03:00",
  "ok": true,
- "cantidad": 7,
+ "cantidad": 6,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "entraste",
-   "id_externo": "355",
-   "url": "https://app.entraste.com/events/sabado-07-de-noviembre-reggaeton-cumbia-vieja-ft-smirnoff-ice",
-   "titulo": "SÁBADO 07 DE NOVIEMBRE – REGGAETON & CUMBIA VIEJA ft. SMIRNOFF ICE",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": "Reggaeton viejo y cumbia vieja en el club. Invita SMIRNOFF ICE. Reservas y mesas: 098 814 543 *Al ingresar estás aceptando aparecer en material fotográfico y/o audiovisual que puede ser utilizado en piezas comunicacionales de la marca. *No se permite el ingreso con ropa deportiva.",
-   "lugar": {
-    "nombre": "VOU",
-    "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
-    "lat": -34.9155965,
-    "lon": -56.1687301,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-07T23:30:00-03:00",
-     "fin": "2026-11-08T06:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://app.entraste.com/events/sabado-07-de-noviembre-reggaeton-cumbia-vieja-ft-smirnoff-ice",
-     "via": "entraste"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://storage.googleapis.com/entraste-media/1793372492_ccaa02140078f4c5.webp",
-   "productor": "VOU",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "entraste",
    "id_externo": "366",
