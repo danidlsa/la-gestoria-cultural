@@ -42,6 +42,17 @@ def desabreviar(direccion: str) -> str:
     return direccion
 
 
+# Títulos de personas en los nombres de calles: en OpenStreetMap a veces están y a veces no.
+TITULOS = re.compile(r"\b(?:Dr\.?|Doctor|Ing\.?|Ingeniero|Prof\.?|Profesor|Arq\.?|Arquitecto|Pbro\.?)\s+", re.I)
+
+
+def sin_titulo(direccion: str) -> str | None:
+    """'Dr. Tristán Narvaja 1528' -> 'Tristán Narvaja 1528' (con las demás abreviaturas desarmadas); None si no tenía."""
+    if not TITULOS.search(direccion):
+        return None
+    return desabreviar(TITULOS.sub("", direccion))
+
+
 class Geocodificador:
     def __init__(self):
         self._http: httpx.Client | None = None
@@ -54,11 +65,20 @@ class Geocodificador:
 
     def __call__(self, consulta: str) -> tuple[float, float] | None:
         """(lat, lon) de una dirección o nombre de sala en Montevideo, o None."""
-        # Lo que ya se encontró con la dirección tal cual queda; si no, se busca con las abreviaturas desarmadas.
+        # Lo que ya se encontró con la dirección tal cual queda.
         anterior = self._cache.get(consulta.strip().lower())
         if anterior and anterior["punto"]:
             return tuple(anterior["punto"])
-        consulta = desabreviar(consulta)
+        # Si no, se prueba con las abreviaturas desarmadas ("Av. Gral. Rivera" -> "Avenida General Rivera") y, si
+        # tampoco, sin el título de la persona: OpenStreetMap tiene "Tristán Narvaja", no "Doctor Tristán Narvaja".
+        variantes = list(dict.fromkeys(v for v in (desabreviar(consulta), sin_titulo(consulta)) if v))
+        for variante in variantes:
+            punto = self._buscar(variante)
+            if punto:
+                return punto
+        return None
+
+    def _buscar(self, consulta: str) -> tuple[float, float] | None:
         clave = consulta.strip().lower()
         guardado = self._cache.get(clave)
         if guardado and (guardado["punto"] or datetime.now() - datetime.fromisoformat(guardado["fecha"]) < REINTENTAR_FALLIDAS):

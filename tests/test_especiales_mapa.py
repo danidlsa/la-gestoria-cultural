@@ -145,3 +145,34 @@ def test_cuando_termina_un_especial():
     assert especiales.termina({**noche, "horario": ["10:00", "18:00"]}).isoformat() == "2026-11-13T18:00:00-03:00"
     assert especiales.termina({**noche, "horario": None}).isoformat() == "2026-11-14T00:00:00-03:00"
     assert especiales.termina({**noche, "a_confirmar": True}) is None
+
+
+def test_direcciones_con_titulo_se_prueban_tambien_sin_el(tmp_path, monkeypatch):
+    from cartelera import geocodificar
+
+    assert geocodificar.sin_titulo("Dr. Tristán Narvaja 1528") == "Tristán Narvaja 1528"
+    assert geocodificar.sin_titulo("Av. Gral. Rivera 2298") is None  # "General" sí está en el mapa
+    monkeypatch.setattr(geocodificar, "CACHE", tmp_path / "geo.json")
+    pedidas = []
+
+    class Respuesta:
+        def __init__(self, q):
+            self.q = q
+
+        def raise_for_status(self):
+            pass
+
+        def json(self):
+            return [{"lat": "-34.9018", "lon": "-56.1775"}] if self.q.startswith("Tristán") else []
+
+    class Cliente:
+        def get(self, url, params):
+            pedidas.append(params["q"])
+            return Respuesta(params["q"])
+
+    monkeypatch.setattr(geocodificar.time, "sleep", lambda _: None)
+    geo = geocodificar.Geocodificador()
+    geo._http = Cliente()
+    assert geo("Dr. Tristán Narvaja 1528") == (-34.9018, -56.1775)
+    assert pedidas == ["Doctor Tristán Narvaja 1528, Montevideo, Uruguay", "Tristán Narvaja 1528, Montevideo, Uruguay"]
+    assert geo("Dr. Tristán Narvaja 1528") == (-34.9018, -56.1775) and len(pedidas) == 2  # de la caché
