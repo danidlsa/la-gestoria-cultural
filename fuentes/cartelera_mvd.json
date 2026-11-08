@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-07T16:28:23.411369-03:00",
+ "corrida": "2026-11-07T21:51:28.864971-03:00",
  "ok": true,
- "cantidad": 98,
+ "cantidad": 99,
  "errores": [],
  "eventos": [
   {
@@ -2368,6 +2368,51 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42266.jpg",
    "productor": "Félix Correa",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "34939",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34939",
+   "titulo": "El hombre de la capa roja",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Una noche de misterio, historia y alquimia en el Castillo Pittamiglio. En el aniversario del nacimiento de Humberto Pittamiglio, la Compañía Teatral Aventura presenta una función especial de El Hombre de la Capa Roja , una experiencia teatral que invita a descubrir los secretos, las leyendas y el…",
+   "lugar": {
+    "nombre": "Castillo Pittamiglio",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-23T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1400.0,
+    "hasta": 1400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34939",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42278.jpg",
+   "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

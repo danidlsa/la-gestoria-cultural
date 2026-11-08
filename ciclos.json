@@ -1,15 +1,7 @@
 {
- "generado": "2026-11-07T16:34:50.296193-03:00",
+ "generado": "2026-11-07T21:57:51.267427-03:00",
  "cantidad": 22,
  "ciclos": [
-  {
-   "id": "ciclo-ciclo-de-teatro",
-   "titulo": "Ciclo de teatro",
-   "lugar_id": null,
-   "desde": "2026-11-07T14:00:00-03:00",
-   "hasta": "2026-12-12T18:00:00-03:00",
-   "cantidad": 15
-  },
   {
    "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
    "titulo": "Estreno de obras Fortalecimiento de las Artes",
@@ -19,10 +11,18 @@
    "cantidad": 4
   },
   {
+   "id": "ciclo-ciclo-de-teatro",
+   "titulo": "Ciclo de teatro",
+   "lugar_id": null,
+   "desde": "2026-11-07T18:00:00-03:00",
+   "hasta": "2026-12-12T18:00:00-03:00",
+   "cantidad": 14
+  },
+  {
    "id": "ciclo-andrzej-wajda-en-su-centenario",
    "titulo": "Andrzej Wajda, en su centenario",
    "lugar_id": "cinemateca",
-   "desde": "2026-11-07T17:40:00-03:00",
+   "desde": "2026-11-07T19:50:00-03:00",
    "hasta": "2026-11-13T19:20:00-03:00",
    "cantidad": 8
   },

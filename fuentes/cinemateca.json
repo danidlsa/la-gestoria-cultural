@@ -1,6 +1,6 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-07T16:27:06.943103-03:00",
+ "corrida": "2026-11-07T21:50:12.431488-03:00",
  "ok": true,
  "cantidad": 19,
  "errores": [],
@@ -21,13 +21,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-07T15:30:00-03:00",
-     "fin": "2026-11-07T17:38:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-08T15:30:00-03:00",
      "fin": "2026-11-08T17:38:00-03:00",
@@ -126,13 +119,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-07T15:40:00-03:00",
-     "fin": "2026-11-07T17:21:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-08T21:45:00-03:00",
      "fin": "2026-11-08T23:26:00-03:00",
      "sin_hora": false,
@@ -209,13 +195,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-07T15:45:00-03:00",
-     "fin": "2026-11-07T17:57:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-08T15:45:00-03:00",
      "fin": "2026-11-08T17:57:00-03:00",
      "sin_hora": false,
@@ -291,13 +270,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-07T18:00:00-03:00",
-     "fin": "2026-11-07T19:45:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-08T18:00:00-03:00",
      "fin": "2026-11-08T19:45:00-03:00",
@@ -395,13 +367,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-07T18:15:00-03:00",
-     "fin": "2026-11-07T20:04:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-08T18:15:00-03:00",
      "fin": "2026-11-08T20:04:00-03:00",
@@ -1012,13 +977,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-07T17:40:00-03:00",
-     "fin": "2026-11-07T19:29:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-07T19:50:00-03:00",
      "fin": "2026-11-07T21:39:00-03:00",
