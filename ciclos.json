@@ -1,28 +1,20 @@
 {
- "generado": "2026-11-08T13:14:02.949558-03:00",
- "cantidad": 21,
+ "generado": "2026-11-08T22:11:17.368145-03:00",
+ "cantidad": 20,
  "ciclos": [
   {
    "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
    "titulo": "Estreno de obras Fortalecimiento de las Artes",
    "lugar_id": null,
-   "desde": "2026-11-08T16:00:00-03:00",
+   "desde": "2026-11-08T19:00:00-03:00",
    "hasta": "2026-12-04T21:00:00-03:00",
    "cantidad": 4
-  },
-  {
-   "id": "ciclo-musica-en-el-parque",
-   "titulo": "Música en el Parque",
-   "lugar_id": "jardin-botanico",
-   "desde": "2026-11-08T16:00:00-03:00",
-   "hasta": "2026-11-08T16:00:00-03:00",
-   "cantidad": 1
   },
   {
    "id": "ciclo-andrzej-wajda-en-su-centenario",
    "titulo": "Andrzej Wajda, en su centenario",
    "lugar_id": "cinemateca",
-   "desde": "2026-11-08T17:40:00-03:00",
+   "desde": "2026-11-08T19:45:00-03:00",
    "hasta": "2026-11-14T17:40:00-03:00",
    "cantidad": 8
   },

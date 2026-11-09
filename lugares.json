@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-08T13:14:02.949558-03:00",
- "cantidad": 209,
+ "generado": "2026-11-08T22:11:17.368145-03:00",
+ "cantidad": 207,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -441,7 +441,7 @@
    "id": "centro-de-eventos-del-parque-de-innovacion-del-latu",
    "nombre": "Centro de Eventos del Parque de Innovación del LATU",
    "alias": [],
-   "direccion": "Av. Dra. María Luisa Saldún de Rodríguez",
+   "direccion": "Montevideo",
    "lat": -34.879002,
    "lon": -56.080881,
    "barrio": null,
@@ -976,16 +976,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "jardin-botanico",
-   "nombre": "Jardín Botánico",
-   "alias": [],
-   "direccion": "Av. 19 de Abril 1181",
-   "lat": -34.861277,
-   "lon": -56.198477,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "kibon-avanza",
    "nombre": "Kibón Avanza",
    "alias": [],
@@ -998,7 +988,9 @@
   {
    "id": "latu-laboratorio-tecnologico-del-uruguay",
    "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
-   "alias": [],
+   "alias": [
+    "LATU"
+   ],
    "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
@@ -1266,12 +1258,14 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "lotus-club",
-   "nombre": "Lotus Club",
-   "alias": [],
-   "direccion": "Contador Luis E. Lecueder 3536, 11300 Mo",
-   "lat": -34.904232,
-   "lon": -56.136056,
+   "id": "lotus-wtc",
+   "nombre": "Lotus WTC",
+   "alias": [
+    "Lotus Club"
+   ],
+   "direccion": "Contador Luis E. Lecueder",
+   "lat": -34.9042323,
+   "lon": -56.1360561,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2158,16 +2152,6 @@
    "direccion": "Av. Agraciada 2623",
    "lat": -34.883707,
    "lon": -56.194297,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "world-trade-center-montevideo-tower-2",
-   "nombre": "World Trade Center Montevideo - Tower 2",
-   "alias": [],
-   "direccion": "Tower 2 - Contador Luis E. Lecueder 3536, 11300 Mo",
-   "lat": -34.904409,
-   "lon": -56.136299,
    "barrio": null,
    "ciudad": "Montevideo"
   },

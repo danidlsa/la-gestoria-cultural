@@ -1,8 +1,8 @@
 {
  "fuente": "entraste",
- "corrida": "2026-11-08T13:13:55.604760-03:00",
+ "corrida": "2026-11-08T22:11:08.515080-03:00",
  "ok": true,
- "cantidad": 6,
+ "cantidad": 7,
  "errores": [],
  "eventos": [
   {
@@ -133,6 +133,51 @@
    ],
    "beneficios": [],
    "imagen_url": "https://storage.googleapis.com/entraste-media/1793747795_07a544299c11cfbc.webp",
+   "productor": "VOU",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "entraste",
+   "id_externo": "377",
+   "url": "https://app.entraste.com/events/viernes-20-de-noviembre-el-karnal-en-vivo",
+   "titulo": "VIERNES 20 DE NOVIEMBRE – EL KARNAL EN VIVO",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "Un viernes cada tanto en Vou. Primera edición con El Karnal en vivo. Reservas y mesas: 098 814 543 *Al ingresar estás aceptando aparecer en material fotográfico y/o audiovisual que puede ser utilizado en piezas comunicacionales de la marca. *No se permite el ingreso con ropa deportiva.",
+   "lugar": {
+    "nombre": "VOU",
+    "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
+    "lat": -34.9155965,
+    "lon": -56.1687301,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T23:30:00-03:00",
+     "fin": "2026-11-21T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/viernes-20-de-noviembre-el-karnal-en-vivo",
+     "via": "entraste"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1793976229_73ad192981999c82.webp",
    "productor": "VOU",
    "region": "montevideo",
    "enlaces": [],

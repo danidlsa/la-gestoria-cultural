@@ -1,644 +1,12 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-08T13:02:15.865701-03:00",
+ "corrida": "2026-11-08T21:58:54.173900-03:00",
  "ok": true,
- "cantidad": 129,
+ "cantidad": 122,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021761",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021761/rasgar-la-tierra",
-   "titulo": "Rasgar la tierra",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "COMUNICADO: La Comedia Nacional informa que, la función prevista para el viernes 6 de noviembre, queda cancelada debido a las afectaciones en la circulación y el acceso a Ciudad Vieja con motivo de la visita del Papa León XIV. Sobre la devolución de las entradas: Quienes hayan comprado sus entradas…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T16:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": {
-    "desde": 550.0,
-    "hasta": 550.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021761/rasgar-la-tierra",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021761/Tickantel1_(1)_(1).jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021822",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021822/el-bano-del-papa",
-   "titulo": "El baño del papa",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Es el año 1988 y el Papa Juan Pablo II visitará Melo. Se calcula que 50.000 personas asistirán a verlo. Los pobladores más humildes creen que vendiéndole comida y bebida a esa multitud se harán casi ricos. Beto, un contrabandista en bicicleta, decide en cambio construir un excusado en el frente de…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021822/el-bano-del-papa",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021822/BannerBP.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021852",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021852/ciclo-de-piano-raquel-boldorini",
-   "titulo": "Ciclo de piano Raquel Boldorini",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "El histórico Ciclo Internacional de Piano inicia una nueva etapa en 2026 y se presenta bajo el nombre de Ciclo de Piano Raquel Boldorini, en reconocimiento a la trayectoria de la destacada pianista nacional y a su labor sostenida al frente de esta propuesta desde la reapertura del Teatro Solís. A…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 250.0,
-    "hasta": 250.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021852/ciclo-de-piano-raquel-boldorini",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021852/700x390_banner_web_generico_TS.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020154",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020154/cnmc-diafanas-melodias",
-   "titulo": "CNMC - Diáfanas melodías",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "El Conjunto Nacional de Música de Cámara, bajo la dirección de Juan Cannavó, presenta “Diáfanas melodías”, un programa centrado en la claridad del gesto musical y la fluidez melódica. El concierto se inicia con el Cuarteto con flauta n.º 1 en re mayor de Wolfgang Amadeus Mozart, que propone un…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 550.0,
-    "hasta": 550.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020154/cnmc-diafanas-melodias",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020154/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021679",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021679/tmc-un-viaje-musical",
-   "titulo": "TMC: Un viaje musical",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Alejandro Vega, trompeta 1 Dante Vargas, trompeta 2 Ana Holguera, corno César Roig, trombón Max Paulsen, trombón bajo Kevin McKee — Escape Daniel Perpiñán — Vimana Suite for Brass (Estreno en Latinoamérica, Uruguay) Leonard Bernstein — West Side Story: Suite (arr. Jack Gale) Astor Piazzolla — Adiós…",
-   "lugar": {
-    "nombre": "Auditorio Vaz Ferreira",
-    "direccion": null,
-    "lat": -34.9026912,
-    "lon": -56.1776624,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 250.0,
-    "hasta": 250.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021679/tmc-un-viaje-musical",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021679/Nov,_8_-_Un_viaje_musical_Tickantel.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020828",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
-   "titulo": "Ay! La miseria nos hará felices",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "El cierre de la pentalogía llega al escenario de Sala Verdi con una distopía teatral sobre robots, actores y la pregunta más urgente del presente: ¿qué queda de lo humano cuando la máquina puede hacerlo todo? Veintiún años después de escribir UZ: El Pueblo (2005), el dramaturgo uruguayo Gabriel…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-22T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020828/Ay_la_miseria_nos_hara_felices_-_tickantel_banner-05.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021820",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021820/elena-quinteros",
-   "titulo": "Elena Quinteros",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "A 50 años de su desaparición: un documental con testimonios de docentes contemporáneas/os a Elena, compañeras/os de colegio y de Magisterio, de militancia, periodistas, entre otras/os. Un elenco con figuras de destacada trayectoria. Una parte del documental es una breve ficción, con diálogos entre…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T18:50:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-12T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-14T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021820/elena-quinteros",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021820/BannerEQ.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021401",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021401/el-teatro",
-   "titulo": "El Teatro",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "COMUNICADO: La Comedia Nacional informa que, la función prevista para el viernes 6 de noviembre, queda cancelada debido a las afectaciones en la circulación y el acceso a Ciudad Vieja con motivo de la visita del Papa León XIV. Sobre la devolución de las entradas: Quienes hayan comprado sus entradas…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-19T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-22T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021401/el-teatro",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021401/El_teatro_banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021158",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021158/isabel-lenoir",
-   "titulo": "Isabel Lenoir",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "El proyecto Amanda propone la presentación en vivo del nuevo LP de la cantautora uruguaya Isabel Lenoir, una de las voces jóvenes más representativas de la nueva canción rioplatense. Su obra parte del candombe y dialoga con la milonga y el tango canción, renovando la tradición afro-latinoamericana…",
-   "lugar": {
-    "nombre": "Centro Cultural Florencio Sánchez",
-    "direccion": null,
-    "lat": -34.89231,
-    "lon": -56.24801,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021158/isabel-lenoir",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021158/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021860",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021860/encantea-repiqueteando-magia",
-   "titulo": "Encantéa: Repiqueteando magia",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "Escuela de Formación Artística del SODRE ENFAS: Muestra final del Área Folclore. Proyecto egreso. Este proyecto plantea al circo y su estética como eje central, mostrando lo esencial de cada integrante y cómo esta comunidad se fortalece al mostrar diferentes roles fundamentales dentro de un…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021860/encantea-repiqueteando-magia",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021860/BANNER.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021644",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021644/karibe-con-k-colosal",
-   "titulo": "¡Karibe con K, Colosal!",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Karibe con K, COLOSAL! ¡Karibe con K llega al Teatro de Verano con un espectáculo colosal e imperdible! Una noche para disfrutar de sus grandes clásicos, nuevas versiones y todo el ritmo de la banda, en un show renovado y pensado para cantar, bailar y disfrutar de principio a fin. Esta nueva etapa…",
-   "lugar": {
-    "nombre": "Teatro de Verano",
-    "direccion": null,
-    "lat": -34.9198517,
-    "lon": -56.1698383,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021644/karibe-con-k-colosal",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021644/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021823",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021823/narciso",
-   "titulo": "Narciso",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "“NARCISO” Paraguay, 1959. El país vive bajo un régimen militar sofocante, Narciso regresa de Buenos Aires con el rock & roll como bandera. Carismático, provocador y deseado por hombres y mujeres, pronto se convierte en una estrella de la radio y en símbolo de libertad. Su programa sacude una…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T21:10:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021823/narciso",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021823/BannerNARCISO.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021489",
@@ -945,6 +313,58 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021471/700_x_390_(1).jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021820",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021820/elena-quinteros",
+   "titulo": "Elena Quinteros",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "A 50 años de su desaparición: un documental con testimonios de docentes contemporáneas/os a Elena, compañeras/os de colegio y de Magisterio, de militancia, periodistas, entre otras/os. Un elenco con figuras de destacada trayectoria. Una parte del documental es una breve ficción, con diálogos entre…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021820/elena-quinteros",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021820/BannerEQ.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1990,6 +1410,95 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40020828",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
+   "titulo": "Ay! La miseria nos hará felices",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "El cierre de la pentalogía llega al escenario de Sala Verdi con una distopía teatral sobre robots, actores y la pregunta más urgente del presente: ¿qué queda de lo humano cuando la máquina puede hacerlo todo? Veintiún años después de escribir UZ: El Pueblo (2005), el dramaturgo uruguayo Gabriel…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": -34.90821430964771,
+    "lon": -56.196500823734254,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020828/Ay_la_miseria_nos_hara_felices_-_tickantel_banner-05.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021568",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021568/natalie-perez",
    "titulo": "Natalie Pérez",
@@ -2061,6 +1570,51 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020912/midachi_GRAFICAS-ANTEL-ARENA_GRILLA-WEB.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021822",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021822/el-bano-del-papa",
+   "titulo": "El baño del papa",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Es el año 1988 y el Papa Juan Pablo II visitará Melo. Se calcula que 50.000 personas asistirán a verlo. Los pobladores más humildes creen que vendiéndole comida y bebida a esa multitud se harán casi ricos. Beto, un contrabandista en bicicleta, decide en cambio construir un excusado en el frente de…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021822/el-bano-del-papa",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021822/BannerBP.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2191,6 +1745,58 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020890/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021823",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021823/narciso",
+   "titulo": "Narciso",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "“NARCISO” Paraguay, 1959. El país vive bajo un régimen militar sofocante, Narciso regresa de Buenos Aires con el rock & roll como bandera. Carismático, provocador y deseado por hombres y mujeres, pronto se convierte en una estrella de la radio y en símbolo de libertad. Su programa sacude una…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-08T21:10:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021823/narciso",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021823/BannerNARCISO.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2356,6 +1962,67 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021609/CCM_octubre_tickantel_2026.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021401",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021401/el-teatro",
+   "titulo": "El Teatro",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "COMUNICADO: La Comedia Nacional informa que, la función prevista para el viernes 6 de noviembre, queda cancelada debido a las afectaciones en la circulación y el acceso a Ciudad Vieja con motivo de la visita del Papa León XIV. Sobre la devolución de las entradas: Quienes hayan comprado sus entradas…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021401/el-teatro",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021401/El_teatro_banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4140,7 +3807,7 @@
      "fin": null,
      "sin_hora": false,
      "sala": null,
-     "agotada": false
+     "agotada": true
     }
    ],
    "precio": null,
