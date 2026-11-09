@@ -1,111 +1,10 @@
 {
  "fuente": "zitarrosa",
- "corrida": "2026-11-06T16:57:50.695222-03:00",
+ "corrida": "2026-11-09T11:01:49.996531-03:00",
  "ok": true,
- "cantidad": 23,
+ "cantidad": 21,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "lucia-chappe-ciclo-marea",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/lucia-chappe-ciclo-marea/",
-   "titulo": "Lucía Chappe",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Lucia Chappe, presenta su primer disco, “Un puñado de mi ser”, dentro del Ciclo MAREA. La joven cantautora de Sarandí Grande, Florida, presenta su primer disco, una obra que reúne tradición, identidad y una mirada renovada sobre la música de raíz. Lucía Chappe, una de las nuevas voces que viene…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021646/espectaculo/Ciclo%20Marea%20-%20Luc%C3%ADa%20Chappe?2",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/lucia-chappe-ciclo-marea/"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/lucia-chappe-ciclo-marea/"
-    }
-   ],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/09/FOTO-1.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40021646/espectaculo/Ciclo%20Marea%20-%20Luc%C3%ADa%20Chappe?2"
-   ],
-   "ciclo": "Ciclo MAREA",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "coro-notas-del-tesoro",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/coro-notas-del-tesoro/",
-   "titulo": "Coro Notas del Tesoro",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "El Coro Notas del Tesoro del BCU celebra su 10° aniversario con un encuentro coral muy especial. Una velada de música y emoción, con invitados internacionales y la participación especial del maestro Julio Cobelli y sus guitarras.",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-07T18:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/coro-notas-del-tesoro/",
-     "via": "zitarrosa"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/DSC01932.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "zitarrosa",
    "id_externo": "cine-accesibleuy",
@@ -118,7 +17,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -162,7 +62,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -208,7 +109,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -265,7 +167,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -322,7 +225,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -366,7 +270,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -410,7 +315,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -456,7 +362,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -513,7 +420,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -559,7 +467,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -598,7 +507,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -655,7 +565,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -701,7 +612,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -747,7 +659,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -793,7 +706,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -839,7 +753,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -885,7 +800,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -931,7 +847,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -975,7 +892,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1021,7 +939,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1065,7 +984,8 @@
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
-    "lon": -56.19441
+    "lon": -56.19441,
+    "barrio": null
    },
    "funciones": [
     {

@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-06T16:56:11.640266-03:00",
+ "corrida": "2026-11-09T11:00:14.362438-03:00",
  "ok": true,
- "cantidad": 38,
+ "cantidad": 37,
  "errores": [],
  "eventos": [
   {
@@ -17,7 +17,8 @@
     "nombre": "Teatro de Verano",
     "direccion": "Rambla Wilson s/n esq. Andrés Cachón",
     "lat": -34.918974,
-    "lon": -56.16947
+    "lon": -56.16947,
+    "barrio": null
    },
    "funciones": [
     {
@@ -56,30 +57,10 @@
     "nombre": "Varios barrios de Montevideo",
     "direccion": null,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T13:30:00-03:00",
-     "fin": "2026-11-06T15:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Biblioteca Villa Colón",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-06T15:30:00-03:00",
-     "fin": "2026-11-06T17:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Club Huracán de Paso de la Arena",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-06T16:00:00-03:00",
-     "fin": "2026-11-06T18:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Centro Cultural del Parque Villa García",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-10T10:00:00-03:00",
      "fin": "2026-11-10T12:00:00-03:00",
@@ -424,7 +405,8 @@
     "nombre": "Centro Juvenil Salesiano",
     "direccion": "Bv. José Batlle y Ordóñez 6182",
     "lat": -34.830528,
-    "lon": -56.214691
+    "lon": -56.214691,
+    "barrio": null
    },
    "funciones": [
     {
@@ -491,7 +473,8 @@
     "nombre": "Cooperativa 3 de Abril",
     "direccion": "Av. Luis Batlle Berres 5870",
     "lat": -34.84115655034,
-    "lon": -56.257511188715
+    "lon": -56.257511188715,
+    "barrio": null
    },
    "funciones": [
     {
@@ -558,16 +541,10 @@
     "nombre": "Cabaña Anaya",
     "direccion": "Lomas de Zamora esq. Luis Batlle Berres",
     "lat": -34.817073965653,
-    "lon": -56.311527508593
+    "lon": -56.311527508593,
+    "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T16:00:00-03:00",
-     "fin": "2026-11-06T18:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T16:00:00-03:00",
      "fin": "2026-11-13T18:00:00-03:00",
@@ -622,45 +599,6 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "818-1018",
-   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/edipo-en-ezeiza",
-   "titulo": "Edipo en Ezeiza",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "En un paisaje nacional fragmentado, una familia se somete a feroces interrogatorios para descubrir al enemigo infiltrado. Tras el “picnic de Ezeiza”, el padre, la madre y el hijo ven sus identidades quebrarse bajo un símbolo patrio que asfixia. Apagones, sirenas y linternas construyen una atmósfera…",
-   "lugar": {
-    "nombre": "Almacén Cultural Los Macanudos",
-    "direccion": "Gualconda y Magalona",
-    "lat": -34.767031042661,
-    "lon": -56.224814615342
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-06T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-07/EDIPO%20EN%20EZEIZA%20-%202%20-%20Micaela%20Larrocca.jpg",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Ciclo de teatro",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
    "id_externo": "818-42",
    "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/edipo-en-ezeiza",
    "titulo": "Edipo en Ezeiza",
@@ -671,7 +609,8 @@
     "nombre": "Centro Cultural Florencio Sánchez",
     "direccion": "Grecia 3281",
     "lat": -34.89227,
-    "lon": -56.247973
+    "lon": -56.247973,
+    "barrio": null
    },
    "funciones": [
     {
@@ -700,45 +639,6 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "820-364",
-   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/parte-de-este-mundo",
-   "titulo": "Parte de Este Mundo",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Esta obra invita a los espectadores a compartir una mesa con los actores. A través de relatos improvisados que revelan las fragilidades de la condición humana, los personajes enfrentan pequeños desastres emocionales que emergen de situaciones cotidianas. La comunión en la mesa, la música y la…",
-   "lugar": {
-    "nombre": "Molino de Pérez",
-    "direccion": "Pasaje Arq. Juan Veltron",
-    "lat": -34.894116,
-    "lon": -56.090633
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-07T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-07/Parte%20de%20este%20mundo%202%20%281%29.jpg",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Ciclo de teatro",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
    "id_externo": "820-907",
    "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/parte-de-este-mundo",
    "titulo": "Parte de Este Mundo",
@@ -749,7 +649,8 @@
     "nombre": "INJU",
     "direccion": "Av. 18 de Julio 1865",
     "lat": -34.901780233484,
-    "lon": -56.17602420257
+    "lon": -56.17602420257,
+    "barrio": null
    },
    "funciones": [
     {
@@ -788,7 +689,8 @@
     "nombre": "Parque Capurro",
     "direccion": "Brigadier Gral. Manuel Oribe 136",
     "lat": -34.87287,
-    "lon": -56.215035
+    "lon": -56.215035,
+    "barrio": null
    },
    "funciones": [
     {
@@ -827,7 +729,8 @@
     "nombre": "Cedel Carrasco",
     "direccion": "Dr. Benito Cuñarro S/N (ex Hotel del Lago, Parque Rivera)",
     "lat": -34.87814,
-    "lon": -56.087715
+    "lon": -56.087715,
+    "barrio": null
    },
    "funciones": [
     {
@@ -866,7 +769,8 @@
     "nombre": "Asociación de Sordos del Uruguay",
     "direccion": "Hermanos Gil 945",
     "lat": -34.870814,
-    "lon": -56.198579
+    "lon": -56.198579,
+    "barrio": null
    },
    "funciones": [
     {
@@ -905,7 +809,8 @@
     "nombre": "Balcón del Cerro",
     "direccion": "Filipinas 3661",
     "lat": -34.886471,
-    "lon": -56.256732
+    "lon": -56.256732,
+    "barrio": null
    },
    "funciones": [
     {
@@ -944,7 +849,8 @@
     "nombre": "Centro Cultural del Oeste Casona Abayubá",
     "direccion": "Gutiérrez 3258",
     "lat": -34.768464873351,
-    "lon": -56.22741281037
+    "lon": -56.22741281037,
+    "barrio": null
    },
    "funciones": [
     {
@@ -983,7 +889,8 @@
     "nombre": "Centro Cultural del D",
     "direccion": "Gral. Flores 5171, esquina Jorge Isaacs",
     "lat": -34.835956062666,
-    "lon": -56.14728362987
+    "lon": -56.14728362987,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1022,7 +929,8 @@
     "nombre": "Complejo Malvín Alto",
     "direccion": "Hipólito Yrigoyen entre Cno. Carrasco y Petrona Rosende",
     "lat": -34.87123073205,
-    "lon": -56.115868171921
+    "lon": -56.115868171921,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1061,7 +969,8 @@
     "nombre": "Centro Cultural Club Fraternidad",
     "direccion": "Heraclio C. Fajardo 3464",
     "lat": -34.861031000662,
-    "lon": -56.16556628754
+    "lon": -56.16556628754,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1100,16 +1009,10 @@
     "nombre": "Parque de la Amistad",
     "direccion": "Av. Gral Rivera 3245",
     "lat": -34.902332,
-    "lon": -56.144034
+    "lon": -56.144034,
+    "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T11:00:00-03:00",
-     "fin": "2026-11-06T13:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T11:00:00-03:00",
      "fin": "2026-11-13T13:00:00-03:00",
@@ -1174,7 +1077,8 @@
     "nombre": "Ansina e Isla de Flores",
     "direccion": "Ansina e Isla de Flores",
     "lat": -34.910662638218,
-    "lon": -56.179798565469
+    "lon": -56.179798565469,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1203,45 +1107,6 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "956-1019",
-   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/diciembre",
-   "titulo": "Diciembre",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Obra unipersonal que aborda la desaparición forzada desde la perspectiva de quienes quedan y deben reconstruir su historia personal a partir de la ausencia. El texto de Marcel Sawchik parte de su conocimiento personal y de su relación de amistad con Pablo Sobrino, hijo de Guillermo Manuel Sobrino…",
-   "lugar": {
-    "nombre": "Espacio Pueblo Nuevo",
-    "direccion": "Pernas 2882",
-    "lat": -34.87183732268,
-    "lon": -56.148199189388
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-07T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/Diciembre%203.JPG",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Ciclo de teatro",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
    "id_externo": "956-33",
    "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/diciembre",
    "titulo": "Diciembre",
@@ -1252,7 +1117,8 @@
     "nombre": "Sala Lazaroff",
     "direccion": "Av. 8 de Octubre 4849",
     "lat": -34.855863,
-    "lon": -56.132473
+    "lon": -56.132473,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1291,7 +1157,8 @@
     "nombre": "Centro Cultural del D",
     "direccion": "Gral. Flores 5171, esquina Jorge Isaacs",
     "lat": -34.835956062666,
-    "lon": -56.14728362987
+    "lon": -56.14728362987,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1330,7 +1197,8 @@
     "nombre": "Museo de la memoria",
     "direccion": "Av. de las Instrucciones 1057",
     "lat": -34.842152,
-    "lon": -56.19857
+    "lon": -56.19857,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1369,23 +1237,10 @@
     "nombre": "Teatro El Galpón",
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.904041,
-    "lon": -56.181207
+    "lon": -56.181207,
+    "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-07T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-08T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T16:00:00-03:00",
      "fin": null,
@@ -1457,16 +1312,10 @@
     "nombre": "Espacio Teatro",
     "direccion": "Mercedes 865",
     "lat": -34.904423,
-    "lon": -56.197943
+    "lon": -56.197943,
+    "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T21:00:00-03:00",
      "fin": null,
@@ -1552,23 +1401,10 @@
     "nombre": "Teatro Stella D’Italia",
     "direccion": "Mercedes 1805",
     "lat": -34.900608,
-    "lon": -56.178207
+    "lon": -56.178207,
+    "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-07T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-08T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T20:00:00-03:00",
      "fin": null,
@@ -1612,7 +1448,8 @@
     "nombre": "Teatro Circular",
     "direccion": "Av Gral Rondeau 1388, 11100 Montevideo, Departamento de Montevideo",
     "lat": -34.905036129982,
-    "lon": -56.191339919039
+    "lon": -56.191339919039,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1662,33 +1499,20 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "1000",
-   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-viernes-6-de-noviembre",
+   "id_externo": "1002",
+   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-lunes-9-de-noviembre",
    "titulo": "Murga Joven",
    "categoria": "carnaval",
    "categoria_segura": false,
-   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Viernes 6 de noviembre 20:00 h – Ruidos Modestos 20:50 h – La Cancionera 21:40 h – La Bajada 22:30 h – La Planchada de Salomone 23:20 h – La Resaka que te mantiene",
+   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Lunes 9 de noviembre 20:00 h – Me anotó un amigo 20:50 h – La Amanecida 21:40 h – La Peor 22:30 h – La Décima",
    "lugar": {
     "nombre": "Centro Cultural Las Duranas",
     "direccion": "Pedro Trápani 1350 esquina Bayona.",
     "lat": -34.854031611412,
-    "lon": -56.189780492925
+    "lon": -56.189780492925,
+    "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-06T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-07T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-09T20:00:00-03:00",
      "fin": null,
@@ -1754,7 +1578,7 @@
    },
    "entradas": [],
    "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20251103dicimouyjmr1485.jpg",
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20251110dicimouyjmr2907.jpg",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
@@ -1774,7 +1598,8 @@
     "nombre": "Espacio integral para personas mayores",
     "direccion": "Camino Carrasco y Pirán",
     "lat": -34.872635,
-    "lon": -56.122541
+    "lon": -56.122541,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1848,7 +1673,8 @@
     "nombre": "Centro Cultural Terminal Goes",
     "direccion": "Gral. Flores y Domingo Aramburú",
     "lat": -34.882708,
-    "lon": -56.181856
+    "lon": -56.181856,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1877,45 +1703,6 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "1021",
-   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque/musica-en-el-jardin-botanico",
-   "titulo": "Música en el Jardín Botánico",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Música en el Parque propone una jornada de espectáculos musicales al aire libre, con la participación de artistas de distintos géneros. Domingo 8 de noviembre 16:00 – Pedro Michelena 17:00 – La Cosa 18:00 – MINIMALmambo Entrada libre",
-   "lugar": {
-    "nombre": "Jardín Botánico",
-    "direccion": "Av. 19 de Abril 1181",
-    "lat": -34.861277,
-    "lon": -56.198477
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/pexels-danielpratt-12927900.jpg",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Música en el Parque",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
    "id_externo": "1028",
    "url": "https://eventos.montevideo.gub.uy/evento/primavera-tango/hagopian-irigoyen-arenas-el-tango-esa-diablura",
    "titulo": "Hagopián-Irigoyen-Arenas: el tango, esa diablura",
@@ -1926,7 +1713,8 @@
     "nombre": "Centro Cultural Florencio Sánchez",
     "direccion": "Grecia 3281",
     "lat": -34.89227,
-    "lon": -56.247973
+    "lon": -56.247973,
+    "barrio": null
    },
    "funciones": [
     {
@@ -1965,7 +1753,8 @@
     "nombre": "Sala Lazaroff",
     "direccion": "Av. 8 de Octubre 4849",
     "lat": -34.855863,
-    "lon": -56.132473
+    "lon": -56.132473,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2004,7 +1793,8 @@
     "nombre": "Centro Cultural Artesano",
     "direccion": "Bv. Aparicio Saravía 4697",
     "lat": -34.825201,
-    "lon": -56.204054
+    "lon": -56.204054,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2043,7 +1833,8 @@
     "nombre": "Centro Cultural Terminal Goes",
     "direccion": "Gral. Flores y Domingo Aramburú",
     "lat": -34.882708,
-    "lon": -56.181856
+    "lon": -56.181856,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2082,7 +1873,8 @@
     "nombre": "Centro Cultural Terminal Goes",
     "direccion": "Gral. Flores y Domingo Aramburú",
     "lat": -34.882708,
-    "lon": -56.181856
+    "lon": -56.181856,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2121,7 +1913,8 @@
     "nombre": "Ciudad Vieja",
     "direccion": null,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2155,7 +1948,8 @@
     "nombre": "Ciudad Vieja",
     "direccion": null,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "barrio": null
    },
    "funciones": [
     {
@@ -2174,6 +1968,133 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Sábados en Ciudad Vieja",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "994-2026-11-15",
+   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
+   "titulo": "Música en el Parque",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
+   "lugar": {
+    "nombre": "Parque Villa Dolores",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Música en el Parque",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "994-2026-11-22",
+   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
+   "titulo": "Música en el Parque",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
+   "lugar": {
+    "nombre": "Parque Villa García",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Música en el Parque",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "994-2026-11-28",
+   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
+   "titulo": "Música en el Parque: Músicas Pioneras",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
+   "lugar": {
+    "nombre": "Las Pioneras",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Música en el Parque",
    "muestra": false,
    "hasta": null
   }

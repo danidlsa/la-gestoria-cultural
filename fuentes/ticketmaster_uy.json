@@ -1,6 +1,6 @@
 {
  "fuente": "ticketmaster_uy",
- "corrida": "2026-11-06T16:58:18.295507-03:00",
+ "corrida": "2026-11-09T11:02:15.278513-03:00",
  "ok": true,
  "cantidad": 1,
  "errores": [],
@@ -17,7 +17,8 @@
     "nombre": "Centenario",
     "direccion": "Avenida Doctor Américo Ricaldoni 1861",
     "lat": -34.8935527,
-    "lon": -56.1525826
+    "lon": -56.1525826,
+    "barrio": null
    },
    "funciones": [
     {
