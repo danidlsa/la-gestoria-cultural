@@ -1,8 +1,8 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-08T21:58:54.173900-03:00",
+ "corrida": "2026-11-09T16:53:33.835730-03:00",
  "ok": true,
- "cantidad": 122,
+ "cantidad": 125,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
@@ -820,6 +820,86 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021457",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "CICLO (No tan) Solos al mediodía 17va edición - Diversidad Dirección artística y curaduría: Andrea Arobba Producción ejecutiva: GEN Centro de Artes y Ciencias Producción: Polen productora cultural - Catalina Lans Asistencia de producción: Emiliano Bittencourt Registro audiovisual: Daiana Di Candia…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390_banner_web_generico_TS.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021919",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
    "titulo": "EMI",
@@ -1014,7 +1094,7 @@
    "titulo": "El Jubilate",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Cantoría, el ensamble vocal español especializado en música antigua nos visitará en el SODRE. Inés Alonso Botella - Soprano Belén Herrero Pérez - Contralto / mezzosoprano Jorge Losana García - Tenor y director musical David Guitart Solanes - Bajo Marc de la Linde Bonal - Viola da gamba Jeremy…",
+   "descripcion_corta": "Cantoría, ensamble vocal español especializado en música antigua La propuesta de concierto se plantea como un recorrido por la música vocal de los siglos XVI y XVII, poniendo en diálogo el patrimonio musical catalán con repertorios del ámbito iberoamericano. El programa estará articulado en torno a…",
    "lugar": {
     "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
@@ -1769,13 +1849,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-08T21:10:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-15T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2438,46 +2511,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40020784",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020784/german-medina",
-   "titulo": "Germán Medina",
-   "categoria": "humor",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Germán Medina vuelve al Teatro de Verano! Con su estilo único, cercano y explosivo, Germán se ha consolidado como una de las figuras más destacadas del humor nacional, conquistando al público con anécdotas cotidianas, improvisación y una energía arrolladora en escena. Una noche imperdible para…",
-   "lugar": {
-    "nombre": "Teatro de Verano",
-    "direccion": null,
-    "lat": -34.9198517,
-    "lon": -56.1698383,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020784/german-medina",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020784/700_X_390_(2).jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021134",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
    "titulo": "Buenos Muchachos",
@@ -2549,6 +2582,46 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020967/hilda700x390_copia_4-100.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40020784",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020784/german-medina",
+   "titulo": "Germán Medina",
+   "categoria": "humor",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Germán Medina vuelve al Teatro de Verano! Con su estilo único, cercano y explosivo, Germán se ha consolidado como una de las figuras más destacadas del humor nacional, conquistando al público con anécdotas cotidianas, improvisación y una energía arrolladora en escena. Una noche imperdible para…",
+   "lugar": {
+    "nombre": "Teatro de Verano",
+    "direccion": null,
+    "lat": -34.9198517,
+    "lon": -56.1698383,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020784/german-medina",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020784/700_X_390_(2).jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2733,46 +2806,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021756",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021756/particulas-sofia-alvez-animales-de-poder",
-   "titulo": "Partículas: Sofía Alvez + Animales de Poder",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021756/particulas-sofia-alvez-animales-de-poder",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021756/BANNER.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021798",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021798/gala-lirica-opereta-vianesa-y-francesa",
    "titulo": "Gala Lírica - Opereta - Vienesa y Francesa",
@@ -2809,6 +2842,46 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021798/Banner24_11.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021756",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021756/particulas-sofia-alvez-animales-de-poder",
+   "titulo": "Partículas: Sofía Alvez + Animales de Poder",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": -34.90821430964771,
+    "lon": -56.196500823734254,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021756/particulas-sofia-alvez-animales-de-poder",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021756/BANNER.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2928,7 +3001,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020172/CNJS-Tramas_852_Banner.png",
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020172/Tramas_852_Adaptaciones_banner.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3094,6 +3167,58 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021691/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021962",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021962/necrotours",
+   "titulo": "NecroTours",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "En este evento los visitantes podrán hacer un walking tour en el que descubrirán símbolos ocultos, panteones colosales, obras con mensajes subliminales de un cementerio laico donde se conjugan todas las teologías e incluso pensamientos de culturas lejanas. Entrada $550 Comprá tus entradas por la…",
+   "lugar": {
+    "nombre": "Cementerio Central",
+    "direccion": null,
+    "lat": -34.91322,
+    "lon": -56.18744,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 550.0,
+    "hasta": 550.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021962/necrotours",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021962/Necro700x390.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3808,6 +3933,13 @@
      "sin_hora": false,
      "sala": null,
      "agotada": true
+    },
+    {
+     "inicio": "2026-12-04T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": null,
@@ -4289,6 +4421,51 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021857/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021799",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021799/gala-lirica-zarzuela-y-canciones-italianas",
+   "titulo": "Gala Lírica - Zarzuela y canciones italianas",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "ProOpera presenta una Gala Lírica con artistas del Teatro Colón de Buenos Aires. La mezzosoprano Cecilia Díaz y el barítono Leonardo Estévez, acompañados al piano por Juan Ufor, ofrecerán un programa dedicado a la zarzuela y las canciones italianas. Fecha: 8 de diciembre de 2026 – 20:00 h. Lugar…",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": -34.9026912,
+    "lon": -56.1776624,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-08T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1000.0,
+    "hasta": 1000.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021799/gala-lirica-zarzuela-y-canciones-italianas",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021799/Banner8_12.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

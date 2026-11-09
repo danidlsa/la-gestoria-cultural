@@ -1,18 +1,18 @@
 {
  "fuente": "torres_garcia",
- "corrida": "2026-11-08T22:10:14.353312-03:00",
+ "corrida": "2026-11-09T17:10:34.450597-03:00",
  "ok": true,
- "cantidad": 2,
+ "cantidad": 3,
  "errores": [],
  "eventos": [
   {
    "fuente": "torres_garcia",
-   "id_externo": "encandilar_silencios",
-   "url": "https://www.torresgarcia.org.uy/exposiciones/encandilar_silencios/",
-   "titulo": "Encandilar silencios - Estudiantes UCU",
+   "id_externo": "hola_taller",
+   "url": "https://www.torresgarcia.org.uy/exposiciones/hola_taller/",
+   "titulo": "Hola Taller - Talleres de infancias del Museo Torres García",
    "categoria": "exposicion",
    "categoria_segura": true,
-   "descripcion_corta": "La propuesta de esta exposición parte de una paradoja: un punto ciego que es ciego por saturado y no por invisible. Adentrándonos en lo que no percibimos en un mundo sobreexpuesto, donde la mirada se abruma y pierde foco: ¿Qué dejamos de ver cuando hay demasiada luz? ¿Qué se calla cuando todo está…",
+   "descripcion_corta": "La exposición reúne los procesos y creaciones del año 2026 de los y las integrantes de los talleres para infancias que se dictan en el museo.",
    "lugar": {
     "nombre": "Museo Torres García",
     "direccion": "Sarandí 683",
@@ -21,13 +21,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-09T00:00:00-03:00",
      "fin": null,
@@ -233,6 +226,263 @@
     },
     {
      "inicio": "2026-12-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-09T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.torresgarcia.org.uy/exposiciones/hola_taller/",
+     "via": "torres_garcia"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Museo Torres García",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": true,
+   "hasta": null
+  },
+  {
+   "fuente": "torres_garcia",
+   "id_externo": "encandilar_silencios",
+   "url": "https://www.torresgarcia.org.uy/exposiciones/encandilar_silencios/",
+   "titulo": "Encandilar silencios - Estudiantes UCU",
+   "categoria": "exposicion",
+   "categoria_segura": true,
+   "descripcion_corta": "La propuesta de esta exposición parte de una paradoja: un punto ciego que es ciego por saturado y no por invisible. Adentrándonos en lo que no percibimos en un mundo sobreexpuesto, donde la mirada se abruma y pierde foco: ¿Qué dejamos de ver cuando hay demasiada luz? ¿Qué se calla cuando todo está…",
+   "lugar": {
+    "nombre": "Museo Torres García",
+    "direccion": "Sarandí 683",
+    "lat": -34.90646,
+    "lon": -56.20138,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-09T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-10T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-23T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-03T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-06T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-07T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-09T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -272,13 +522,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-08T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-09T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -483,6 +726,13 @@
     },
     {
      "inicio": "2026-12-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-09T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,

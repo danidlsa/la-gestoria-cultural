@@ -1,52 +1,10 @@
 {
  "fuente": "teatro_de_verano",
- "corrida": "2026-11-08T22:06:46.404818-03:00",
+ "corrida": "2026-11-09T17:07:16.267403-03:00",
  "ok": true,
- "cantidad": 12,
+ "cantidad": 11,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "teatro_de_verano",
-   "id_externo": "231",
-   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Karibe-con-K-uc231",
-   "titulo": "Karibe con K",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "8 de noviembre, 21:00 h.",
-   "lugar": {
-    "nombre": "Teatro de Verano Ramón Collazo",
-    "direccion": "Rambla Wilson s/n, Parque Rodó",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021644/espectaculo/%C2%A1Karibe%20con%20K,%20Colosal?8",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202609/W655_H370/941.jpg",
-   "productor": "Teatro de Verano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40021644/espectaculo/%C2%A1Karibe%20con%20K,%20Colosal?8"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "teatro_de_verano",
    "id_externo": "136-etapa-1",

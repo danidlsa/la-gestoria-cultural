@@ -1,6 +1,6 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-08T22:05:00.218130-03:00",
+ "corrida": "2026-11-09T17:05:31.781097-03:00",
  "ok": true,
  "cantidad": 96,
  "errores": [],
@@ -190,13 +190,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T20:30:00-03:00",
      "fin": null,
@@ -433,13 +426,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T21:00:00-03:00",
      "fin": null,
@@ -687,13 +673,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T20:00:00-03:00",
      "fin": null,
@@ -1173,51 +1152,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41873.jpg",
    "productor": "Micaela Carrión",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34711",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34711",
-   "titulo": "Cartas para Emilio",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una obra psicológica que invita a reflexionar sobre nuestros vacíos y como los llenamos. ¿Quiénes somos cuando nuestra ausencia ocupa más que nuestra propia presencia?",
-   "lugar": {
-    "nombre": "Espacio Palermo",
-    "direccion": "Isla de Flores 1627",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34711",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42001.jpg",
-   "productor": "Nora Dufrechu",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -1834,6 +1768,86 @@
   },
   {
    "fuente": "cartelera_mvd",
+   "id_externo": "34949",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34949",
+   "titulo": "Dos enteros",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "¿Es posible construir un proyecto común sin dejar de ser uno mismo? ¿Cómo se sostiene el amor cuando las personas cambian? Carolina y Salvador descubrirán que el verdadero conflicto nunca está en aquello que parece desencadenarlo. Juntos transitan por los desafíos cotidianos de la vida en común…",
+   "lugar": {
+    "nombre": "Centro Cultural H. Bosch",
+    "direccion": "Gonzalo Ramírez 1824",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-05T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34949",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42293.jpg",
+   "productor": "Alvaro Martínez",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
    "id_externo": "34807",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34807",
    "titulo": "El Pitufo",
@@ -1937,6 +1951,51 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/39493.jpg",
    "productor": "Mario Esteban N.",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "34950",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34950",
+   "titulo": "El búnker de la comedia",
+   "categoria": "humor",
+   "categoria_segura": true,
+   "descripcion_corta": "Un show de stand up de dos comediantes con mucha experiencia cómo Germán Bernárdez y Mati Morales, dirigido y producido por Ernesto Muniz. Un espectáculo que trata de representar al género de Stand up desde su origen más puro y genuino. Función: miércoles 11 de noviembre 20:00 horas - Teatrón (Av…",
+   "lugar": {
+    "nombre": "Teatrón",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 550.0,
+    "hasta": 550.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34950",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42294.jpg",
+   "productor": "Ernesto Muniz",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -2200,13 +2259,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-08T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-12T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2393,7 +2445,7 @@
    "titulo": "El nudo de Gidion",
    "categoria": "teatro",
    "categoria_segura": true,
-   "descripcion_corta": "En un aula vacía, una madre y una maestra se encuentran después de la muerte de Gidion, un niño de once años. Lo que comienza como una conversación para intentar desanudar lo ocurrido, se transforma en un enfrentamiento que pone en tela de juicio la responsabilidad institucional, la educación, la…",
+   "descripcion_corta": "En un aula vacía, una madre y una maestra se encuentran después de un hecho irreparable. Lo que comienza como una conversación para intentar desanudar lo ocurrido, se transforma en un enfrentamiento que pone en tela de juicio la responsabilidad institucional, la educación, la violencia, y los…",
    "lugar": {
     "nombre": "El Tinglado",
     "direccion": "Colonia 2035",
@@ -2553,13 +2605,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-08T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-12T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2677,13 +2722,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-08T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-19T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2755,13 +2793,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-15T18:00:00-03:00",
      "fin": null,
@@ -3134,13 +3165,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-08T17:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T17:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -3253,6 +3277,65 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41960.jpg",
    "productor": "Pablo 'Pinocho' Routin",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "34951",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34951",
+   "titulo": "Jubiladas",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Cuatro amigas se juntan para festejar la jubilación de una de ellas; deciden sumar a alguien mas y no es justamente lo que esperaban, pero el amor y la amistad todo lo pueden.",
+   "lugar": {
+    "nombre": "Espacio Finisterre",
+    "direccion": "Convención 1328 - Galería del Sol",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34951",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42295.jpg",
+   "productor": "Jimena Romero",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -3791,13 +3874,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-08T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-15T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -4323,13 +4399,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-08T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-15T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -4698,13 +4767,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-08T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-14T21:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -4795,13 +4857,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T20:30:00-03:00",
      "fin": null,
@@ -5205,67 +5260,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34599",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34599",
-   "titulo": "Peng",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una comedia incómoda que explora las formas contemporáneas del poder, donde la política, los medios y el espectáculo se entrelazan en la construcción de relato. A través de la figura de Peng, la obra expone la infantilización del discurso público y la emergencia de liderazgos autoritarios. Un…",
-   "lugar": {
-    "nombre": "El Galpón - Sala César Campodónico",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 700.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34599",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio El Galpón y Espectacular libre",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34599"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34599"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34599"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41871.jpg",
-   "productor": "Luciano Cáceres - Soledad Lacassy",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34808",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34808",
    "titulo": "Pervertimento y otros gestos para nada",
@@ -5280,13 +5274,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T20:00:00-03:00",
      "fin": null,
@@ -5376,6 +5363,62 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42093.jpg",
    "productor": "Jimena Romero - Álvaro Sevrini",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "25251",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?25251",
+   "titulo": "Por hoy dejamos acá",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Dolores es la empleada doméstica del consultorio de una psicóloga y escritora de renombre, Cecilia Kauffman. La distancia intelectual y social que hay entre ambas deja en la cuerda floja a Dolores porque se avecina la noticia de que será despedida de su trabajo. ¡Por bestia bruta!, dirá ella, pero…",
+   "lugar": {
+    "nombre": "Ánima Espacio Cultural",
+    "direccion": "San José 822",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 490.0,
+    "hasta": 490.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?25251",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?25251"
+    },
+    {
+     "programa": "Club El País",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?25251"
+    }
+   ],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42292.jpg",
+   "productor": "Natalia Vega",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -5693,57 +5736,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34200",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34200",
-   "titulo": "Rasgar la tierra",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una casa de la cultura en un barrio periférico, semirrural, de una ciudad. Dos funcionarios públicos. Un vecino que colabora. Un triángulo de vínculos. Una historia aparentemente simple. Omisiones y secretos no develados. Rasgar la tierra: sacar a la luz lo oculto. Desde la cotidianidad de un…",
-   "lugar": {
-    "nombre": "Sala Zavala Muniz - Teatro Solís",
-    "direccion": "\"Rectangular1\"",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T16:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 550.0,
-    "hasta": 550.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34200",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "OCA",
-     "tipo": "Financian: Oca, Visa y Master",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34200"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41349.jpg",
-   "productor": "Fernando Toja",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34689",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34689",
    "titulo": "Sombras, por supuesto",
@@ -5909,67 +5901,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34493",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34493",
-   "titulo": "Tom en la granja",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Tras la muerte de su pareja, Tom llega a una granja para asistir al funeral y se encuentra con una familia que desconoce quién era realmente su hijo. Entre secretos, silencios y verdades que no pueden salir a la luz, el duelo se transforma en un inquietante juego de poder. Un thriller dramático…",
-   "lugar": {
-    "nombre": "El Galpón - Sala Cero",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 325.0,
-    "hasta": 650.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34493",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socios El Galpón y Espectacular libre",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34493"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34493"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34493"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41757.jpg",
-   "productor": "Marcos Acuña",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34627",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34627",
    "titulo": "Un estúpido cuento",
@@ -5984,13 +5915,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T20:00:00-03:00",
      "fin": null,
@@ -6068,13 +5992,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T21:00:00-03:00",
      "fin": null,

@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-08T22:03:50.165448-03:00",
+ "corrida": "2026-11-09T17:04:34.240327-03:00",
  "ok": true,
- "cantidad": 39,
+ "cantidad": 38,
  "errores": [],
  "eventos": [
   {
@@ -42,48 +42,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021843/cns-beatles-y-bach"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "10898",
-   "url": "https://sodre.gub.uy/espectaculos/diafanas-melodias/",
-   "titulo": "Diáfanas melodías",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Programa centrado en la claridad del gesto musical y la fluidez melódica",
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T18:00:00-03:00",
-     "fin": "2026-11-08T20:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40020154/espectaculo/CNMC%20-%20Di%C3%A1fanas%20melod%C3%ADas?79",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/01/adaptaciones_DIAFANAS_MELODIAS_destacada-1-768x420.png",
-   "productor": "Conjunto Nacional de Música de Cámara del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40020154/espectaculo/CNMC%20-%20Di%C3%A1fanas%20melod%C3%ADas?79"
    ],
    "ciclo": null,
    "muestra": false,
@@ -413,48 +371,6 @@
   },
   {
    "fuente": "sodre",
-   "id_externo": "13126",
-   "url": "https://sodre.gub.uy/espectaculos/un-viaje-musical/",
-   "titulo": "Un viaje musical",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Temporada de Música de Cámara",
-   "lugar": {
-    "nombre": "Auditorio Vaz Ferreira",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T18:00:00-03:00",
-     "fin": "2026-11-08T20:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021679/tmc-un-viaje-musical",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/09/Un-viaje-musical_destacada-1-768x420.png",
-   "productor": "Temporada de Música de Cámara del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021679/tmc-un-viaje-musical"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
    "id_externo": "13311",
    "url": "https://sodre.gub.uy/espectaculos/pulmones/",
    "titulo": "Pulmones",
@@ -532,13 +448,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T21:10:00-03:00",
-     "fin": "2026-11-08T23:10:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-15T21:00:00-03:00",
      "fin": "2026-11-15T23:00:00-03:00",
@@ -693,48 +602,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13528",
-   "url": "https://sodre.gub.uy/espectaculos/encantea-repiqueteando-magia/",
-   "titulo": "Encantéa: Repiqueteando magia",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "Escuela Nacional de Formación Artística del Sodre: Muestra final del Área Folclore",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T20:00:00-03:00",
-     "fin": "2026-11-08T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021860/encantea-repiqueteando-magia",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/DESTACADA.folclore.6.8nov-768x420.jpg",
-   "productor": "Producción Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021860/encantea-repiqueteando-magia"
    ],
    "ciclo": null,
    "muestra": false,
@@ -1226,13 +1093,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-08T17:00:00-03:00",
-     "fin": "2026-11-08T19:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-15T17:00:00-03:00",
      "fin": "2026-11-15T19:00:00-03:00",
      "sin_hora": false,
@@ -1274,13 +1134,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T18:50:00-03:00",
-     "fin": "2026-11-08T20:50:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T17:00:00-03:00",
      "fin": "2026-11-12T19:00:00-03:00",
@@ -1799,6 +1652,111 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021958/el-jubilate"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13752",
+   "url": "https://sodre.gub.uy/espectaculos/premios-alas-2026/",
+   "titulo": "Premios ALAS 2026",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Ceremonia de entrega",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T19:00:00-03:00",
+     "fin": "2026-12-06T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/ALAS-2026-web-DESTACADO-web-900x492-1-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13756",
+   "url": "https://sodre.gub.uy/espectaculos/musica-de-regreso-a-casa/",
+   "titulo": "Música de regreso a casa",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Comedia nacional uruguaya",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": "2026-11-25T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T20:00:00-03:00",
+     "fin": "2026-11-26T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T20:00:00-03:00",
+     "fin": "2026-11-27T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": "2026-11-28T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T19:00:00-03:00",
+     "fin": "2026-11-29T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/DESTACADOweb.900x492.plantilla-Musicaderegreso-1-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa"
    ],
    "ciclo": null,
    "muestra": false,

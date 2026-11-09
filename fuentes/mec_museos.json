@@ -1,10 +1,50 @@
 {
  "fuente": "mec_museos",
- "corrida": "2026-11-08T22:10:22.126028-03:00",
+ "corrida": "2026-11-09T17:10:42.594749-03:00",
  "ok": true,
- "cantidad": 2,
+ "cantidad": 3,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "mec_museos",
+   "id_externo": "lanzamiento-del-circuito-torres-garcia",
+   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/lanzamiento-del-circuito-torres-garcia",
+   "titulo": "Lanzamiento del Circuito Torres García",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Torres García",
+    "direccion": "Sarandí 683",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T12:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/lanzamiento-del-circuito-torres-garcia",
+     "via": "mec_museos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Ministerio de Educación y Cultura",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "mec_museos",
    "id_externo": "entrega-del-premio-figari-2026-artista-visual-claudia-anselmi",

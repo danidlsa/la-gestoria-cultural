@@ -1,8 +1,8 @@
 {
  "fuente": "gaucho",
- "corrida": "2026-11-08T22:09:28.583456-03:00",
+ "corrida": "2026-11-09T17:09:50.691458-03:00",
  "ok": true,
- "cantidad": 9,
+ "cantidad": 10,
  "errores": [],
  "eventos": [
   {
@@ -210,6 +210,48 @@
    "region": "montevideo",
    "enlaces": [
     "https://www.antelarena.com.uy/events/detail/haash-2027"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "gaucho",
+   "id_externo": "2027-02-27-lali-miranda",
+   "url": "https://www.gaucho.com.uy/shows.php",
+   "titulo": "Lali + Miranda! BOM [ BAILAR O MORIR ] Miranda! + Lali",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Rambla de Montevideo",
+    "direccion": "Rambla de Montevideo",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-27T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Lali---Miranda-BOM-BAILAR-O-MORIR-TOUR-Miranda---Lali/34801/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.gaucho.com.uy/images/banners/2027/2027-02-27-lali-miranda.jpg",
+   "productor": "Gaucho",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Lali---Miranda-BOM-BAILAR-O-MORIR-TOUR-Miranda---Lali/34801/"
    ],
    "ciclo": null,
    "muestra": false,

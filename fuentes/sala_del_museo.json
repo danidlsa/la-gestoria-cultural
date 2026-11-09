@@ -1,6 +1,6 @@
 {
  "fuente": "sala_del_museo",
- "corrida": "2026-11-08T22:09:15.612697-03:00",
+ "corrida": "2026-11-09T17:09:37.345371-03:00",
  "ok": true,
  "cantidad": 12,
  "errores": [],
@@ -210,6 +210,48 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Zell-en-Montevideo/31987/"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "una-fiesta-no-apta-para-centennials",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/una-fiesta-no-apta-para-centennials.html",
+   "titulo": "UNA FIESTA NO APTA PARA CENTENNIALS",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "La unión hace la FIESTA y por eso @____guadaloop & @_hastaelpiso presentan: *UN FIESTA NO APTA PARA CENTINELAS* ☎️ CUMBIA, REGGAETON, PLENA, POP y todos los delirios que vivis cuando venís a una de nuestras ediciones. Se junta la casa de Jacinto Vera con la pista que rinde homenaje a las canciones…",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T23:50:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/GUADALOOP-Y-HASTA-EL-PISO-O-NADA-UNA-FIESTA-NO-APTA-PARA--CENTENNIALS/33830/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/Una_fiesta_no_apta_1080x1080_7d374cef8e39b7ac9d5549c1f85b0248.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/GUADALOOP-Y-HASTA-EL-PISO-O-NADA-UNA-FIESTA-NO-APTA-PARA--CENTENNIALS/33830/"
    ],
    "ciclo": null,
    "muestra": false,
@@ -462,48 +504,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/El-Sueno-de-los-Elefantes--MONTEVIDEO-NOVIEMBRE/34210/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sala_del_museo",
-   "id_externo": "mvd-canta",
-   "url": "https://www.saladelmuseo.com.uy/shows/item/mvd-canta.html",
-   "titulo": "MVD CANTA",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Montevideo tiene música en el alma. Suena a tambor, a tango, a murga, a cumbia. Suena a barrio, a abrazo y a esas canciones que nos sabemos todos y que, al cantarlas juntos, nos hacen sentir en casa. Por una noche, esos sonidos se encuentran en el Museo del Carnaval: La Rueda de Candombe y Lucila…",
-   "lugar": {
-    "nombre": "Sala del Museo",
-    "direccion": "Rambla 25 de Agosto esq. Maciel",
-    "lat": -34.905789,
-    "lon": -56.212222,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-02T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/MVD-CANTA/34407/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/1080x1080_1_1_0fd034b9d48b608d773bff721613f935.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/MVD-CANTA/34407/"
    ],
    "ciclo": null,
    "muestra": false,

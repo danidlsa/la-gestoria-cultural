@@ -1,10 +1,128 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-08T22:09:32.033839-03:00",
+ "corrida": "2026-11-09T17:09:53.964166-03:00",
  "ok": true,
- "cantidad": 67,
+ "cantidad": 69,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18387",
+   "url": "https://beneficios.ladiaria.com.uy/expo-cannabis-3/",
+   "titulo": "Expo Cannabis",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¡La comunidad de La Diaria tiene beneficios especiales en ExpoCannabis Uruguay 2026! Dos jornadas para descubrir el universo del cannabis en todas sus dimensiones: cannabis medicinal, cultura, marco legal e industria. Una propuesta que reúne stands, marcas, emprendimientos, conferencias, talleres y…",
+   "lugar": {
+    "nombre": "Centro de Eventos del Parque de Innovación del LATU – Av. Dra. María Luisa Saldún de Rodríguez",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-06T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 175.0,
+    "hasta": 175.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/ExpoCannabis-Uruguay-2026/32928/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/expo-cannabis-3/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/ExpoCannabis-Uruguay-2026/32928/"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18383",
+   "url": "https://beneficios.ladiaria.com.uy/godzillazo/",
+   "titulo": "Godzillazo",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Shows de las bandas de Canelones: “Las Antenas”, “Pobre Mundo” y la presencia de la banda tacuaremboense “Incluso si es un susurro soviético”. Comienzo: 20:00 hs.La sala se habilita 30 minutos antes del comienzo de la función.",
+   "lugar": {
+    "nombre": "Complejo Cultural Politeama – Sala Atahualpa del Cioppo",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-11T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021911/godzillazo",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/godzillazo/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021911/godzillazo"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "ladiaria",
    "id_externo": "18376",
@@ -21,13 +139,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T20:30:00-03:00",
      "fin": null,
@@ -1728,13 +1839,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-08T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2903,15 +3007,7 @@
     "lon": null,
     "barrio": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 650.0,
     "hasta": 650.0,
@@ -3126,13 +3222,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-19T00:00:00-03:00",
      "fin": null,

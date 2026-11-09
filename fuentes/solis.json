@@ -1,8 +1,8 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-08T22:06:41.282834-03:00",
+ "corrida": "2026-11-09T17:07:09.488965-03:00",
  "ok": true,
- "cantidad": 27,
+ "cantidad": 25,
  "errores": [],
  "eventos": [
   {
@@ -30,12 +30,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021954/ciclo-de-piano-raquel-boldorini",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202611/W756_H530/7047.png",
    "productor": "Teatro Solís",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021954/ciclo-de-piano-raquel-boldorini"
+   ],
    "ciclo": null,
    "muestra": false,
    "hasta": null
@@ -371,90 +378,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021789/la-filarmonica-beethoven-2027-vanguardia"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "solis",
-   "id_externo": "3073",
-   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Rasgar-la-tierra-uc3073",
-   "titulo": "Rasgar la tierra",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": "Sala Zavala Muniz",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021761/rasgar-la-tierra",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7009.png",
-   "productor": "Comedia Nacional",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021761/rasgar-la-tierra"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "solis",
-   "id_externo": "3068",
-   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Duo-de-violin-y-piano-uc3068",
-   "titulo": "Dúo de violín y piano",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Delmira Agustini",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021852/ciclo-de-piano-raquel-boldorini",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/6952.jpg",
-   "productor": "Teatro Solís",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021852/ciclo-de-piano-raquel-boldorini"
    ],
    "ciclo": null,
    "muestra": false,
@@ -931,13 +854,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": "Sala Principal",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-19T00:00:00-03:00",
      "fin": null,

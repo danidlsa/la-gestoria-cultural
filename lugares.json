@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-08T22:11:17.368145-03:00",
- "cantidad": 207,
+ "generado": "2026-11-09T17:11:45.609500-03:00",
+ "cantidad": 216,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -27,6 +27,16 @@
    "nombre": "ACJ Montevideo - Centro",
    "alias": [],
    "direccion": "Centro - Colonia 1870, 11200 Montevideo, Departam",
+   "lat": -34.901043,
+   "lon": -56.176327,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "acj-colonia-1870-sala-felipe-conard",
+   "nombre": "ACJ – (Colonia 1870) – Sala Felipe Conard",
+   "alias": [],
+   "direccion": "Colonia 1870, 11200 Montevideo, Departam",
    "lat": -34.901043,
    "lon": -56.176327,
    "barrio": null,
@@ -358,6 +368,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "cementerio-central",
+   "nombre": "Cementerio Central",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.91322,
+   "lon": -56.18744,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "centro-cultural-artesano",
    "nombre": "Centro Cultural Artesano",
    "alias": [],
@@ -384,6 +404,16 @@
    "direccion": "Grecia 3281",
    "lat": -34.89227,
    "lon": -56.247973,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "centro-cultural-h-bosch",
+   "nombre": "Centro Cultural H. Bosch",
+   "alias": [],
+   "direccion": "Gonzalo Ramírez 1824",
+   "lat": -34.9121121,
+   "lon": -56.1753235,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -752,7 +782,7 @@
    "id": "espacio-palermo",
    "nombre": "Espacio Palermo",
    "alias": [],
-   "direccion": "Isla de Flores 1627",
+   "direccion": "Isla de Flores 1631",
    "lat": -34.910571,
    "lon": -56.179747,
    "barrio": null,
@@ -986,12 +1016,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu-laboratorio-tecnologico-del-uruguay",
-   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
+   "id": "latu",
+   "nombre": "LATU",
    "alias": [
-    "LATU"
+    "LATU - Laboratorio Tecnológico del Uruguay"
    ],
-   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
+   "direccion": "Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1333,6 +1363,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "miguelete-piedra-alta",
+   "nombre": "Miguelete & Piedra Alta",
+   "alias": [],
+   "direccion": "Miguelete & Piedra Alta, 11800 Montevide",
+   "lat": -34.897587,
+   "lon": -56.185189,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "minas-durazno",
    "nombre": "Minas & Durazno",
    "alias": [],
@@ -1518,6 +1558,26 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "parque-villa-dolores",
+   "nombre": "Parque Villa Dolores",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9007158,
+   "lon": -56.1452772,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "parque-villa-garcia",
+   "nombre": "Parque Villa García",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.803696,
+   "lon": -56.0803352,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "parque-de-la-amistad",
    "nombre": "Parque de la Amistad",
    "alias": [],
@@ -1580,6 +1640,21 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "plaza-de-las-pioneras",
+   "nombre": "Plaza de las Pioneras",
+   "alias": [
+    "Las Pioneras",
+    "Espacio Las Pioneras",
+    "Espacio Feminista Las Pioneras",
+    "Plaza Las Pioneras"
+   ],
+   "direccion": "Av. Agraciada, Arroyo Seco",
+   "lat": -34.88435,
+   "lon": -56.19304,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "pocho-kids",
    "nombre": "Pocho Kids",
    "alias": [],
@@ -1610,12 +1685,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "q-atrevido",
-   "nombre": "Q'atrevido",
+   "id": "qatrevido",
+   "nombre": "QAtrevido",
    "alias": [
-    "QAtrevido"
+    "Q'atrevido"
    ],
-   "direccion": "S. José 907, 11100 Montevideo, Departame",
+   "direccion": "San José 907",
    "lat": -34.907129,
    "lon": -56.196424,
    "barrio": null,
@@ -1648,6 +1723,16 @@
    "direccion": "Rbla. Pdte. Wilson, Montevideo, Departam",
    "lat": -34.921047,
    "lon": -56.169149,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "rambla-de-montevideo",
+   "nombre": "Rambla de Montevideo",
+   "alias": [],
+   "direccion": "Rambla de Montevideo",
+   "lat": -34.9052121,
+   "lon": -56.2114261,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1775,6 +1860,16 @@
    "direccion": "Av Gral Rondeau 1904, 11800 Montevideo,",
    "lat": -34.894936,
    "lon": -56.192403,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "sala-teatro-mad",
+   "nombre": "Sala Teatro MAD",
+   "alias": [],
+   "direccion": "Av. Alfredo Arocena 1660",
+   "lat": -34.886947,
+   "lon": -56.057888,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2159,7 +2254,7 @@
    "id": "anima-espacio-cultural",
    "nombre": "Ánima Espacio Cultural",
    "alias": [],
-   "direccion": "S. José 822, 11100 Montevideo, Departame",
+   "direccion": "San José 822",
    "lat": -34.907534,
    "lon": -56.198681,
    "barrio": null,

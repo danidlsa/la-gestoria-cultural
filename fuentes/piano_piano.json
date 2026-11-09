@@ -1,6 +1,6 @@
 {
  "fuente": "piano_piano",
- "corrida": "2026-11-08T22:09:30.701449-03:00",
+ "corrida": "2026-11-09T17:09:52.461298-03:00",
  "ok": true,
  "cantidad": 21,
  "errores": [],
@@ -210,48 +210,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/DILLOM--PRADO/32949/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "piano_piano",
-   "id_externo": "2026-11-14-SITIO Te Mueve",
-   "url": "https://pianopiano.uy/agenda/",
-   "titulo": "SITIO Te Mueve",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "SITIO - Parque Roosevelt",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/SITIO-TE-MUEVE-La-Vela-Puerca-Agarrate-Catalina-y-Malapraxxis/33347/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://pianopiano.uy/wp-content/uploads/316314503_681772389983143_1366953369507687948_n-2-piano-piano.jpg",
-   "productor": "Piano Piano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/SITIO-TE-MUEVE-La-Vela-Puerca-Agarrate-Catalina-y-Malapraxxis/33347/"
    ],
    "ciclo": null,
    "muestra": false,
@@ -672,6 +630,48 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/EL-CUARTETO-DE-NOS/30560/"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2027-01-08-K4OS",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "K4OS",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Open Park - Punta del Este",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/K4OS--Open-Park/34772/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/IMG_6715.JPG-piano-piano.jpeg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/K4OS--Open-Park/34772/"
    ],
    "ciclo": null,
    "muestra": false,

@@ -1,8 +1,8 @@
 {
  "fuente": "mapas_especiales",
- "corrida": "2026-11-08T22:11:16.740415-03:00",
+ "corrida": "2026-11-09T17:11:45.049022-03:00",
  "ok": true,
- "cantidad": 141,
+ "cantidad": 145,
  "errores": [],
  "eventos": [
   {
@@ -1332,7 +1332,7 @@
    "titulo": "Lucrecia Martel presenta Un destino común",
    "categoria": "charla",
    "categoria_segura": false,
-   "descripcion_corta": "Encuentro sobre universos sonoros y dispositivos narrativos para imaginar futuros colectivos.",
+   "descripcion_corta": "Encuentro sobre universos sonoros y dispositivos narrativos para imaginar futuros colectivos. Participan Lucrecia Martel y Natalia Ortiz Maldonado (entrevista).",
    "lugar": {
     "nombre": "Escaramuza",
     "direccion": "Dr. Pablo de María 1185",
@@ -1372,7 +1372,7 @@
    "titulo": "Una ciudad fracturada",
    "categoria": "charla",
    "categoria_segura": false,
-   "descripcion_corta": "Reimaginar Montevideo. Conversación sobre alquileres, transporte público y vecindad.",
+   "descripcion_corta": "Reimaginar Montevideo. Conversación sobre alquileres, transporte público y vecindad. Participan Fernando Filgueira, Víctor Borrás Ramos, Anabel Rieiro y Sebastián Aguiar.",
    "lugar": {
     "nombre": "Escaramuza",
     "direccion": "Dr. Pablo de María 1185",
@@ -1383,6 +1383,86 @@
    "funciones": [
     {
      "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2100-fernando-cabrera-y-su-dulzura-distante",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Fernando Cabrera y su dulzura distante",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación musical con guitarra y voz a cargo de Fernando Cabrera.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2100-fragmentos-sin-lugar-metapaisajes",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Fragmentos sin lugar, metapaisajes",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Cruce de voces e imágenes. Participan Lourdes Silva y Leo Giráldez.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -1447,12 +1527,12 @@
   },
   {
    "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2100-fragmentos-sin-lugar-metapaisajes",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2130-cruzar-el-umbral",
    "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Fragmentos sin lugar, metapaisajes",
+   "titulo": "Cruzar el umbral",
    "categoria": "charla",
    "categoria_segura": false,
-   "descripcion_corta": "Cruce de voces e imágenes.",
+   "descripcion_corta": "Reminiscencias y fantasías en el limbo. Conversación con Salomé Esper, Leticia Jorge y Gonzalo Deniz (Franny Glass). Modera Laura Amaya.",
    "lugar": {
     "nombre": "Escaramuza",
     "direccion": "Dr. Pablo de María 1185",
@@ -1462,7 +1542,7 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-13T21:00:00-03:00",
+     "inicio": "2026-11-13T21:30:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -1487,12 +1567,12 @@
   },
   {
    "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2130-cruzar-el-umbral",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2200-guadalupe-nettel",
    "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Cruzar el umbral",
+   "titulo": "Guadalupe Nettel",
    "categoria": "charla",
    "categoria_segura": false,
-   "descripcion_corta": "Reminiscencias y fantasías en el limbo. Conversación.",
+   "descripcion_corta": "La belleza del monstruo. Entrevista en tres partes con Guadalupe Nettel, Noelia Carrancio, Soledad Gago y Tania de Tomas.",
    "lugar": {
     "nombre": "Escaramuza",
     "direccion": "Dr. Pablo de María 1185",
@@ -1502,7 +1582,7 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-13T21:30:00-03:00",
+     "inicio": "2026-11-13T22:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -1567,6 +1647,46 @@
   },
   {
    "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2230-performatica-de-lina-meruane-chile",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Performática de Lina Meruane (Chile)",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Coloquio de las quiltras.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T22:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
    "id_externo": "noche-de-las-librerias-2026-escaramuza-2230-esto-tambien-es-tarot",
    "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
    "titulo": "Esto también es tarot",
@@ -1607,12 +1727,52 @@
   },
   {
    "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-2300-esto-tambien-es-tarot",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "Esto también es tarot",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Elisa Carricajo presenta su libro y propone una tirada colectiva de cartas. Participan Elisa Carricajo, Federica Folco y Mercedes Dellatorre.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
    "id_externo": "noche-de-las-librerias-2026-escaramuza-2300-martin-buscaglia-junto-a-sus-bochamakers",
    "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
    "titulo": "Martín Buscaglia junto a sus Bochamakers",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Presentación musical.",
+   "descripcion_corta": "Presentación musical con Martín Buscaglia, Martín Ibarburu, Coby Acosta, Juana Buscaglia, Facundo Guiondjian y Tomás Nieves.",
    "lugar": {
     "nombre": "Escaramuza",
     "direccion": "Dr. Pablo de María 1185",
@@ -1652,7 +1812,7 @@
    "titulo": "Boni",
    "categoria": "charla",
    "categoria_segura": false,
-   "descripcion_corta": "Avant-première musical.",
+   "descripcion_corta": "Avant-première musical. Presentación musical con Emiliano Aquino, Diego Pollovero, Agustina Canavesi, Álvaro Cardoso y Nicolás Grieco.",
    "lugar": {
     "nombre": "Escaramuza",
     "direccion": "Dr. Pablo de María 1185",

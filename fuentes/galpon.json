@@ -1,8 +1,8 @@
 {
  "fuente": "galpon",
- "corrida": "2026-11-08T22:06:54.304542-03:00",
+ "corrida": "2026-11-09T17:07:23.736342-03:00",
  "ok": true,
- "cantidad": 26,
+ "cantidad": 25,
  "errores": [],
  "eventos": [
   {
@@ -133,174 +133,6 @@
   },
   {
    "fuente": "galpon",
-   "id_externo": "peng",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/peng/",
-   "titulo": "Peng",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "** Hasta el 8 de noviembre** Mayenburg muestra cómo se gesta un dominador: con culpa, miedo, silencio y buena intención. Cuando crece, Peng ya no pide permiso. Una obra sobre cómo criamos a los que después nos gobiernan.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T19:30:00-03:00",
-     "fin": "2026-11-08T20:50:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": "2026-11-14T22:20:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T19:30:00-03:00",
-     "fin": "2026-11-15T20:50:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": "2026-11-21T22:20:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-22T19:30:00-03:00",
-     "fin": "2026-11-22T20:50:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T21:00:00-03:00",
-     "fin": "2026-11-28T22:20:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T19:30:00-03:00",
-     "fin": "2026-11-29T20:50:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 700.0,
-    "hasta": 700.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/PENG--Sala-Campodonico/33499/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio El Galpón y Espectacular libre",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/peng/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/peng/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/peng/"
-    }
-   ],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/09/PENG-2560x1000-2.jpg",
-   "productor": "Producción de Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/PENG--Sala-Campodonico/33499/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
-   "id_externo": "tom-en-la-granja",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/tom-en-la-granja/",
-   "titulo": "Tom en la granja",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "**Hasta el 8 de noviembre** Tom llega a una granja para asistir al funeral y se encuentra con una familia que desconoce quién era realmente su hijo.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-08T19:00:00-03:00",
-     "fin": "2026-11-08T20:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Cero",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 650.0,
-    "hasta": 650.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/TOM-EN-LA-GRANJA-Sala-Cero/33089/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio El Galpón y Espectacular libre",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/tom-en-la-granja/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/tom-en-la-granja/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/tom-en-la-granja/"
-    }
-   ],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/09/TOM-EN-LA-GRANJA-con-horario-1200X628.jpg",
-   "productor": "Producción de Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/TOM-EN-LA-GRANJA-Sala-Cero/33089/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
    "id_externo": "el-eterno-glorioso-y-mas-pequeno-circo-del-mundo",
    "url": "https://www.teatroelgalpon.org.uy/espectaculos/el-eterno-glorioso-y-mas-pequeno-circo-del-mundo/",
    "titulo": "El eterno, glorioso y más pequeño circo del mundo",
@@ -413,13 +245,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-08T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T20:30:00-03:00",
      "fin": null,
@@ -1048,6 +873,48 @@
   },
   {
    "fuente": "galpon",
+   "id_externo": "el-hombre-inesperado",
+   "url": "https://www.teatroelgalpon.org.uy/espectaculos/el-hombre-inesperado/",
+   "titulo": "El hombre inesperado",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Una aclamada comedia dramática de la autora francesa Yasmina Reza que relata el encuentro fortuito entre un reconocido escritor y una de sus admiradoras en un vagón de tren que viaja de París a Frankfurt.",
+   "lugar": {
+    "nombre": "Teatro El Galpón",
+    "direccion": "Av. 18 de Julio 1618",
+    "lat": -34.90403,
+    "lon": -56.181082,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": "2026-11-27T22:15:00-03:00",
+     "sin_hora": false,
+     "sala": "Sala César Campodónico",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/eventoprivado/33832/ELHOMBREINESPERADOSalaCampodonico-843786/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/09/27-11-El-Hombre_Montevideo_2560x1000-scaled.jpg",
+   "productor": "Teatro El Galpón",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/eventoprivado/33832/ELHOMBREINESPERADOSalaCampodonico-843786/"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "galpon",
    "id_externo": "daniel-habif",
    "url": "https://www.teatroelgalpon.org.uy/espectaculos/daniel-habif/",
    "titulo": "Daniel Habif",
@@ -1220,48 +1087,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/NITO-MESTRE-Sala-Campodonico/33205/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
-   "id_externo": "el-hombre-inesperado",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/el-hombre-inesperado/",
-   "titulo": "El hombre inesperado",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Una aclamada comedia dramática de la autora francesa Yasmina Reza que relata el encuentro fortuito entre un reconocido escritor y una de sus admiradoras en un vagón de tren que viaja de París a Frankfurt.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": "2026-11-27T22:15:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/eventoprivado/33832/ELHOMBREINESPERADOSalaCampodonico-843786/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/09/27-11-El-Hombre_Montevideo_2560x1000-scaled.jpg",
-   "productor": "Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/eventoprivado/33832/ELHOMBREINESPERADOSalaCampodonico-843786/"
    ],
    "ciclo": null,
    "muestra": false,
@@ -1599,6 +1424,48 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/JAVIER-SANTAOLALLA-Sala-Campodonico/32410/"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "galpon",
+   "id_externo": "julian-hernandez-experto-en-medicina-china-tu-cuerpo-no-se-equivoca",
+   "url": "https://www.teatroelgalpon.org.uy/espectaculos/julian-hernandez-experto-en-medicina-china-tu-cuerpo-no-se-equivoca/",
+   "titulo": "JULIÁN HERNÁNDEZ - Experto en medicina china - \"Tu cuerpo no se equivoca\"",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "¿Y si un síntoma no fuera sólo algo que hay que eliminar, sino un mensaje que necesita ser escuchado? Esa pregunta atraviesa “Tu cuerpo no se equivoca”, la charla en la que Julián Hernández explora la relación entre las emociones, la historia personal, los vínculos y el cuerpo desde la perspectiva…",
+   "lugar": {
+    "nombre": "Teatro El Galpón",
+    "direccion": "Av. 18 de Julio 1618",
+    "lat": -34.90403,
+    "lon": -56.181082,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-28T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala César Campodónico",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/JULIAN-HERNANDEZ-Experto-en-Medicina-China-Sala-Campodonico/34704/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/11/galpon_2560x1000.jpg",
+   "productor": "Teatro El Galpón",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/JULIAN-HERNANDEZ-Experto-en-Medicina-China-Sala-Campodonico/34704/"
    ],
    "ciclo": null,
    "muestra": false,
