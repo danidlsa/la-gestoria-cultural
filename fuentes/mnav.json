@@ -1,8 +1,8 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-09T17:10:31.064700-03:00",
+ "corrida": "2026-11-10T00:49:28.167160-03:00",
  "ok": true,
- "cantidad": 29,
+ "cantidad": 30,
  "errores": [],
  "eventos": [
   {
@@ -21,13 +21,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-09T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-10T00:00:00-03:00",
      "fin": null,
@@ -109,13 +102,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-09T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-10T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -534,6 +520,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-09T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -573,13 +566,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-09T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-10T00:00:00-03:00",
      "fin": null,
@@ -661,13 +647,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-09T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-10T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1082,6 +1061,13 @@
     },
     {
      "inicio": "2027-01-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-09T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1126,13 +1112,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-09T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-10T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1547,6 +1526,13 @@
     },
     {
      "inicio": "2027-01-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-09T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1883,6 +1869,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-09T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -2211,6 +2204,13 @@
     },
     {
      "inicio": "2027-01-08T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-09T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -2831,6 +2831,46 @@
    ],
    "beneficios": [],
    "imagen_url": "https://mnav.gub.uy/img.php?p=vozdesbord02",
+   "productor": "Museo Nacional de Artes Visuales",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mnav",
+   "id_externo": "kohen2026",
+   "url": "https://mnav.gub.uy/cms.php?id=kohen2026",
+   "titulo": "Apertura de la exposición \"El Misterio - Linda Kohen\"",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales",
+    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+    "lat": -34.91384,
+    "lon": -56.16497,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T13:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mnav.gub.uy/cms.php?id=kohen2026",
+     "via": "mnav"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://mnav.gub.uy/img.php?p=kohen2026",
    "productor": "Museo Nacional de Artes Visuales",
    "region": "montevideo",
    "enlaces": [],

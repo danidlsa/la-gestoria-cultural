@@ -1,6 +1,6 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-09T17:04:41.418836-03:00",
+ "corrida": "2026-11-10T00:43:33.390175-03:00",
  "ok": true,
  "cantidad": 15,
  "errores": [],
@@ -21,13 +21,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-09T17:15:00-03:00",
-     "fin": "2026-11-09T19:23:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-10T17:15:00-03:00",
      "fin": "2026-11-10T19:23:00-03:00",
@@ -112,13 +105,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-09T17:30:00-03:00",
-     "fin": "2026-11-09T19:19:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-10T17:30:00-03:00",
      "fin": "2026-11-10T19:19:00-03:00",
      "sin_hora": false,
@@ -201,13 +187,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-09T19:30:00-03:00",
-     "fin": "2026-11-09T21:04:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-10T19:30:00-03:00",
      "fin": "2026-11-10T21:04:00-03:00",
@@ -292,13 +271,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-09T19:45:00-03:00",
-     "fin": "2026-11-09T21:18:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-10T19:45:00-03:00",
      "fin": "2026-11-10T21:18:00-03:00",
      "sin_hora": false,
@@ -367,6 +339,89 @@
   },
   {
    "fuente": "cinemateca",
+   "id_externo": "9655",
+   "url": "https://cinemateca.org.uy/peliculas/9655",
+   "titulo": "Tierra de mi padre",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Pawel Pawlikowski. Esta película polaca se centra en la relación entre Thomas Mann, -el escritor alemán, autor de obras mayores como La montaña mágica y Los Buddenbrock y ganador del Premio Nobel- y su hija Erika, actriz, escritora y piloto de rally. En el verano de 1949 en plena Guerra Fría…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-10T21:00:00-03:00",
+     "fin": "2026-11-10T22:22:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-11T21:40:00-03:00",
+     "fin": "2026-11-11T23:02:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9655",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40856/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
    "id_externo": "9643",
    "url": "https://cinemateca.org.uy/peliculas/9643",
    "titulo": "Naza",
@@ -381,20 +436,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-09T20:20:00-03:00",
-     "fin": "2026-11-09T21:40:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-09T21:25:00-03:00",
-     "fin": "2026-11-09T22:45:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-10T21:25:00-03:00",
      "fin": "2026-11-10T22:45:00-03:00",
@@ -486,13 +527,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-09T21:40:00-03:00",
-     "fin": "2026-11-09T23:25:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-10T21:40:00-03:00",
      "fin": "2026-11-10T23:25:00-03:00",
      "sin_hora": false,
@@ -556,172 +590,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9655",
-   "url": "https://cinemateca.org.uy/peliculas/9655",
-   "titulo": "Tierra de mi padre",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Pawel Pawlikowski. Esta película polaca se centra en la relación entre Thomas Mann, -el escritor alemán, autor de obras mayores como La montaña mágica y Los Buddenbrock y ganador del Premio Nobel- y su hija Erika, actriz, escritora y piloto de rally. En el verano de 1949 en plena Guerra Fría…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-09T22:00:00-03:00",
-     "fin": "2026-11-09T23:22:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-10T21:00:00-03:00",
-     "fin": "2026-11-10T22:22:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-11T21:40:00-03:00",
-     "fin": "2026-11-11T23:02:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9655",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40856/image_still_binary",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9671",
-   "url": "https://cinemateca.org.uy/peliculas/9671",
-   "titulo": "La tierra prometida",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Andrzej Wajda. Un grupo de ambiciosos cuyo ascenso y caída Wajda describe en esta amplia crónica de la revolución industrial en Lodz, Polonia, hacia fines del siglo XIX. Vasto cuadro histórico, con aliento novelesco y forma deslumbrante. Un grupo de ambiciosos cuyo ascenso y caída Wajda describe…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-09T17:00:00-03:00",
-     "fin": "2026-11-09T19:25:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9671",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://thumb.canalplus.pro/http/unsafe/1440x810/filters:quality(80)/mms-images-prod.pl.canalplus.com/exported/11250000/A_11257704.jpg",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario",
    "muestra": false,
    "hasta": null
   },
@@ -1271,6 +1139,89 @@
     }
    ],
    "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/danton.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Andrzej Wajda, en su centenario",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9669",
+   "url": "https://cinemateca.org.uy/peliculas/9669",
+   "titulo": "Un amor en Alemania",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Andrej Wajda. En mayo de 1983, un hombre de 49 años, acompañado de su hijo, viaja al pueblo de su infancia, en Baden. Su deseo es descubrir qué le sucedió en realidad a su madre. El largo flashback que se desenvuelve a partir de ahí cuenta el amor del título, la complicada relación entre una…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-16T17:00:00-03:00",
+     "fin": "2026-11-16T18:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T19:10:00-03:00",
+     "fin": "2026-11-16T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9669",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://m.media-amazon.com/images/S/pv-target-images/9efc83f481069d181a50b6809006c633b419e74f221e2669a155f97e304751b6.jpg",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],

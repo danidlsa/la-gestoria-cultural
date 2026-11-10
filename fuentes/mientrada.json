@@ -1,8 +1,8 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-09T17:11:07.285964-03:00",
+ "corrida": "2026-11-10T00:50:02.561778-03:00",
  "ok": true,
- "cantidad": 10,
+ "cantidad": 13,
  "errores": [],
  "eventos": [
   {
@@ -167,6 +167,86 @@
   },
   {
    "fuente": "mientrada",
+   "id_externo": "30790",
+   "url": "https://mientrada.com.uy/evento/cadaveres-ilustres-30790",
+   "titulo": "CADAVERES ILUSTRES",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Contáctanos a nuestro WhatsApp Oficial",
+   "lugar": {
+    "nombre": "Debbie 80s Music Club",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mientrada.com.uy/evento/cadaveres-ilustres-30790",
+     "via": "mientrada"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30790_banner5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mientrada",
+   "id_externo": "30789",
+   "url": "https://mientrada.com.uy/evento/emile-presenta-pryma-showcase-montei-nico-lampariello-vinz-30789",
+   "titulo": "EMILE PRESENTA: PRYMA SHOWCASE; MONTEI / NICO LAMPARIELLO / VINZ",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "VIERNES 20/11 Desde Argentina desembarca Pryma y toma el control de la casa para presentar su segundo showcase en el club. El warm up estará dirigido por Nico Lampariello, reconocido artista Montevideano, y desde Buenos Aires, Montei, una de las mentes maestras detrás del Sello y productora; un B2B…",
+   "lugar": {
+    "nombre": "Emile",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T23:59:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mientrada.com.uy/evento/emile-presenta-pryma-showcase-montei-nico-lampariello-vinz-30789",
+     "via": "mientrada"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30789_banner5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mientrada",
    "id_externo": "29299",
    "url": "https://mientrada.com.uy/evento/raca-negra-en-montevideo-29299",
    "titulo": "RACA NEGRA EN MONTEVIDEO",
@@ -198,6 +278,46 @@
    ],
    "beneficios": [],
    "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/29299_banner5.jpeg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mientrada",
+   "id_externo": "30788",
+   "url": "https://mientrada.com.uy/evento/apoca-luz-cuban-party-30788",
+   "titulo": "APOCA LUZ- CUBAN PARTY",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "Contáctanos a nuestro WhatsApp Oficial 💜💙 ¿UNA FIESTA NEÓN? NOSOTROS TE VAMOS A MOSTRAR CÓMO SE HACE. ⚡ Hay noches que se anuncian… y otras que se quedan en la historia. 👀 Este SÁBADO 21 DE NOVIEMBRE llega APOCA LUZ – NEÓN PARTY. Una experiencia donde las luces, los colores y la energía van a…",
+   "lugar": {
+    "nombre": "L´Club",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T23:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mientrada.com.uy/evento/apoca-luz-cuban-party-30788",
+     "via": "mientrada"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30788_banner5.jpeg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

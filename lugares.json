@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-09T17:11:45.609500-03:00",
- "cantidad": 216,
+ "generado": "2026-11-10T00:50:47.613872-03:00",
+ "cantidad": 220,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -651,6 +651,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "el-barzon",
+   "nombre": "El Barzón",
+   "alias": [],
+   "direccion": "Av.Gral Rivera 2019",
+   "lat": -34.902133,
+   "lon": -56.172788,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "el-callejon-tango-bar",
    "nombre": "El Callejon Tango Bar",
    "alias": [],
@@ -1098,6 +1108,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "la-trastienda",
+   "nombre": "La Trastienda",
+   "alias": [],
+   "direccion": "Daniel Fernández Crespo 1763",
+   "lat": -34.8983906,
+   "lon": -56.1783966,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "lago-cachon",
    "nombre": "Lago Cachón",
    "alias": [],
@@ -1314,8 +1334,10 @@
   },
   {
    "id": "l-club",
-   "nombre": "L’Club",
-   "alias": [],
+   "nombre": "L´Club",
+   "alias": [
+    "L’Club"
+   ],
    "direccion": "Av. Uruguay 1136, 11100 Montevideo, Depa",
    "lat": -34.903194,
    "lon": -56.192042,
@@ -1588,16 +1610,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "planetario-municipal-villa-dolores",
-   "nombre": "Planetario Municipal (Villa Dolores)",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.9018747,
-   "lon": -56.1445488,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "planetario-de-montevideo",
    "nombre": "Planetario de Montevideo",
    "alias": [],
@@ -1832,6 +1844,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "sala-corchea",
+   "nombre": "Sala Corchea",
+   "alias": [],
+   "direccion": "Soriano 1243",
+   "lat": -34.9075611,
+   "lon": -56.1891336,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "sala-ducon",
    "nombre": "Sala Ducón",
    "alias": [],
@@ -1842,11 +1864,19 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "sala-jorge-lazaroff",
+   "nombre": "Sala Jorge Lazaroff",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.8557558,
+   "lon": -56.1324247,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "sala-lazaroff",
    "nombre": "Sala Lazaroff",
-   "alias": [
-    "Sala Jorge Lazaroff"
-   ],
+   "alias": [],
    "direccion": "Av. 8 de Octubre 4849",
    "lat": -34.855863,
    "lon": -56.132473,
@@ -1857,7 +1887,7 @@
    "id": "sala-rondeau",
    "nombre": "Sala Rondeau",
    "alias": [],
-   "direccion": "Av Gral Rondeau 1904, 11800 Montevideo,",
+   "direccion": "Av. Gral. Rondeau 1904",
    "lat": -34.894936,
    "lon": -56.192403,
    "barrio": null,
@@ -1870,18 +1900,6 @@
    "direccion": "Av. Alfredo Arocena 1660",
    "lat": -34.886947,
    "lon": -56.057888,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "sala-teatro-movie",
-   "nombre": "Sala Teatro Movie",
-   "alias": [
-    "Teatro Movie"
-   ],
-   "direccion": "\"Rectangular1\"",
-   "lat": -34.903471,
-   "lon": -56.136638,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1990,8 +2008,8 @@
     "ACJ"
    ],
    "direccion": "Colonia 1870",
-   "lat": -34.901187,
-   "lon": -56.176217,
+   "lat": -34.900928,
+   "lon": -56.1762836,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2026,8 +2044,7 @@
     "El Galpón",
     "Teatro Galpon Sala Cero",
     "Teatro Galpón, Sala Cero",
-    "Teatro el Gapón",
-    "Sala Cero | Teatro el Galpón"
+    "Teatro el Gapón"
    ],
    "direccion": "Av. 18 de Julio 1618",
    "lat": -34.90403,
@@ -2186,6 +2203,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "templo-ingles",
+   "nombre": "Templo Inglés",
+   "alias": [],
+   "direccion": "Templo Inglés, Reconquista 522, 11000 Mo",
+   "lat": -34.909385,
+   "lon": -56.20359,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "the-cube",
    "nombre": "The Cube",
    "alias": [],
@@ -2247,6 +2274,16 @@
    "direccion": "Av. Agraciada 2623",
    "lat": -34.883707,
    "lon": -56.194297,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "zoba-club",
+   "nombre": "Zoba Club",
+   "alias": [],
+   "direccion": "Bv. España 2218",
+   "lat": -34.9095744,
+   "lon": -56.1679561,
    "barrio": null,
    "ciudad": "Montevideo"
   },

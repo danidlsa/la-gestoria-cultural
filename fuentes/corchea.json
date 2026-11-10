@@ -1,0 +1,1551 @@
+{
+ "fuente": "corchea",
+ "corrida": "2026-11-10T00:50:34.955608-03:00",
+ "ok": true,
+ "cantidad": 32,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "corchea",
+   "id_externo": "24455",
+   "url": "https://corchea.uy/11-11-lucas-cary/",
+   "titulo": "Lucas Cary",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "El próximo 11 de noviembre, Lucas Cary llega a la Sala Zitarrosa para presentar en vivo «LA OPORTUNIDAD», su segundo trabajo discográfico. Acompañado por su banda completa e invitados especiales, el cantautor recorrerá las canciones de este nuevo álbum junto a temas de su primer disco y singles que…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1200.0,
+    "hasta": 1200.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021471/espectaculo/Lucas%20Cary?7",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/11-11-lucas-cary/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25229",
+   "url": "https://corchea.uy/12-11-el-asilo-de-la-bestia/",
+   "titulo": "El Asilo de la Bestia",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "El Asilo de la Bestia en vivo",
+   "lugar": {
+    "nombre": "La Trastienda",
+    "direccion": "Daniel Fernández Crespo 1763",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 750.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.passline.com/eventos-plano/infernus-el-asilo-de-la-bestia-en-vivo",
+     "via": "passline"
+    },
+    {
+     "url": "https://corchea.uy/12-11-el-asilo-de-la-bestia/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25094",
+   "url": "https://corchea.uy/12-11-las-flores-del-mal/",
+   "titulo": "Las Flores del Mal",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación de Invierno (primer trabajo discográfico de Las Flores del Mal) + banda invitada.",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021778/las-flores-del-mal-presenta-invierno",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/12-11-las-flores-del-mal/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24830",
+   "url": "https://corchea.uy/12-11-lule-y-elena-ciavaglia/",
+   "titulo": "Lule y Elena Ciavaglia",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "ÍNTIMA es una plataforma cultural y ciclo itinerante de mujeres y disidencias de la música uruguaya. Con una estética minimalista fundada en los lazos entre canción y voz, el ciclo en vivo reúne a cantautoras de distintas generaciones y trayectorias todos los jueves de noviembre en la Sala Corchea…",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 590.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/Lule-y-Elena-Ciavaglia---Ciclo-Intima/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/12-11-lule-y-elena-ciavaglia/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24945",
+   "url": "https://corchea.uy/12-y-13-11-buceo-invisible/",
+   "titulo": "Buceo Invisible",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "«La música estaba en el aire, una música que era como un aroma, flotando y cambiando » R. Bradbury. Aterrizamos por una noche en el domo del Planetario de Montevideo para presentar canciones de nuestro último disco «La mañana del incendio » y recorrer parte de la historia de la banda. Diseñamos una…",
+   "lugar": {
+    "nombre": "Planetario de Montevideo",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021712/buceo-invisible-en-el-planetario",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/12-y-13-11-buceo-invisible/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24717",
+   "url": "https://corchea.uy/13-11-superestar-unplugged/",
+   "titulo": "Superestar (Unplugged)",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Vickinson , proyecto liderado por la cantautora, bajista y contrabajista de tango Virginia Álvarez, presenta una versión acústica de Superestar, su álbum debut. En un formato íntimo y especialmente concebido para esta ocasión, las canciones adquieren una sonoridad más cercana, donde conviven la…",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/Superestar--Unplugged-/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/13-11-superestar-unplugged/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24720",
+   "url": "https://corchea.uy/14-11-cristhian-ortega/",
+   "titulo": "Cristhian Ortega",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Con la presentación de su nuevo trabajo discográfico Andar, el cantautor fernandino Cristhian Ortega ofrece un espectáculo donde la canción es el punto de encuentro entre la palabra, la música y la emoción. Acompañado por Martín Muguerza en batería y Bettina Lain flauta despliega un repertorio que…",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 590.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/Andar---Cristhian-Ortega--Presentacion-album-/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/14-11-cristhian-ortega/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "23819",
+   "url": "https://corchea.uy/15-11-nelson-pino/",
+   "titulo": "Nelson Pino",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Nelson Pino celebra 45 años dedicados al tango con un espectáculo que reúne emoción, historia y la fuerza interpretativa que lo convirtió en una de las voces más queridas del género. En esta noche especial, Pino recorre los momentos más significativos de su carrera, combinando clásicos, nuevas…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 900.0,
+    "hasta": 1300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40020890/espectaculo/Nelson%20Pino%20-%2045%20a%C3%B1os%20en%20el%20tango?1",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/15-11-nelson-pino/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24931",
+   "url": "https://corchea.uy/17-11-particulas-miel-malapraxxis/",
+   "titulo": "Partículas: Miel + Malapraxxis",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-17T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 800.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021757/particulas-miel-malapraxxis",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/17-11-particulas-miel-malapraxxis/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25073",
+   "url": "https://corchea.uy/19-11-sofia-siola-y-victoria-brion-ciclo-intima/",
+   "titulo": "Sofia Siola y Victoria Brion – Ciclo Intima",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "ÍNTIMA es una plataforma cultural y ciclo itinerante de mujeres y disidencias de la música uruguaya. Con una estética minimalista fundada en los lazos entre canción y voz, el ciclo en vivo reúne a cantautoras de distintas generaciones y trayectorias todos los jueves de noviembre en la Sala Corchea…",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 590.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/Sofia-Siola-y-Victoria-Brion---Ciclo-Intima/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/19-11-sofia-siola-y-victoria-brion-ciclo-intima/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25076",
+   "url": "https://corchea.uy/20-11-la-gramillera/",
+   "titulo": "La Gramillera",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La Gramillera propone un espectáculo de música uruguaya y latinoamericana innovador con arreglos originales para septeto de cuerdas. Ritmos como el candombe, la marcha camión, el forró, la milonga se combinan con la improvisación y con la recreación de melodías de nuestra cultura musical para…",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 590.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/la-gramillera-en-sala-corchea/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/20-11-la-gramillera/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24928",
+   "url": "https://corchea.uy/20-11-nordeste-y-chernobyl/",
+   "titulo": "Nordeste y Chernobyl",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Nordeste y Chernobyl presentan VIVO2026. Dos bandas de rock con años de trayectoria en la escena under. Temas de los discos de ambas bandas y temas nuevos.Rock en contacto con otras músicas de aca y el mundo. Barrial y contemporáneo. ATP Duración: 120 min. Edad máxima (inclusive) con acceso…",
+   "lugar": {
+    "nombre": "Sala Jorge Lazaroff",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 250.0,
+    "hasta": 250.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021764/nordeste-y-chernobyl",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/20-11-nordeste-y-chernobyl/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24925",
+   "url": "https://corchea.uy/20-11-nina-lobo/",
+   "titulo": "Niña Lobo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Edad máxima con acceso gratuito permitido: 5",
+   "lugar": {
+    "nombre": "Centro Cultural Florencio Sánchez",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021726/nina-lobo",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/20-11-nina-lobo/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24134",
+   "url": "https://corchea.uy/20-11-ascenso/",
+   "titulo": "Ascenso",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Show musical de cumbia romántica de alrededor de 90 minutos, con un telonero incluido en ese tiempo y artistas invitados.",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021309/espectaculo/Ascenso?1",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/20-11-ascenso/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25223",
+   "url": "https://corchea.uy/21-11-nahual-y-tunda-prada/",
+   "titulo": "Nahual y Tunda Prada",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "FLORENCIO CENTRO MUSICAL presenta una noche de encuentro con dos referentes de la canción y la creación artística: Nahual y Tunda Prada. Nahual propone un recorrido íntimo por sus canciones y composiciones originales, forjadas a lo largo de más de dos décadas de trayectoria. Por su parte, Tunda…",
+   "lugar": {
+    "nombre": "Centro Cultural Florencio Sánchez",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021786/nahual-y-tunda-prada",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/21-11-nahual-y-tunda-prada/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25079",
+   "url": "https://corchea.uy/21-11-zafiro-vocal/",
+   "titulo": "Zafiro Vocal",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Zafiro Vocal es un coro de voces femeninas que nace en el año 2015 bajo la dirección del músico, compositor y arreglador musical Wilmer Márquez. El repertorio aborda los géneros de Rock y Pop en habla hispana priorizando a la canción en sí misma a través de singulares versiones corales polifónicas…",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 590.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/Zafiro-Vocal---Intimo---Cada-cancion-es-una-experiencia/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/21-11-zafiro-vocal/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25082",
+   "url": "https://corchea.uy/22-11-andres-mendiondo/",
+   "titulo": "Andrés Mendiondo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Andrés Mendiondo ESTA NOCHE NO SE QUEJA es un espectáculo SOLISTA de canciones propias, en un formato de trío semi acústico, donde confluyen la canción de autor, la música popular uruguaya y elementos del rock y el pop. Las obras abordan temáticas como memoria, identidad y v​ínculo entre…",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 590.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/Andres-Mendiondo-esta-noche-no-se-queja/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/22-11-andres-mendiondo/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24935",
+   "url": "https://corchea.uy/24-11-sofia-alvez-animales-de-poder/",
+   "titulo": "Sofía Alvez + Animales de Poder",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 800.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://corchea.uy/24-11-sofia-alvez-animales-de-poder/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25100",
+   "url": "https://corchea.uy/25-11-cielos-de-plomo/",
+   "titulo": "Cielos de Plomo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La banda Cielos de plomo celebra el lanzamiento de su nuevo álbum Tierra escondida en una presentación especial en formato extendido. Tierra escondida es el tercer lanzamiento de la banda, siguiendo a Entre luces (2020). En esta ocasión se presentan en vivo en un formato extendido con la…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 550.0,
+    "hasta": 550.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/25-11-cielos-de-plomo/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25085",
+   "url": "https://corchea.uy/26-11-samantha-navarro-y-ceci-torres-ciclo-intima/",
+   "titulo": "Samantha Navarro y Ceci Torres – Ciclo Intima",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "ÍNTIMA es una plataforma cultural y ciclo itinerante de mujeres y disidencias de la música uruguaya. Con una estética minimalista fundada en los lazos entre canción y voz, el ciclo en vivo reúne a cantautoras de distintas generaciones y trayectorias todos los jueves de noviembre en la Sala Corchea…",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 590.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/Samantha-Navarro-y-Ceci-Torres-Ciclo-Intima/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/26-11-samantha-navarro-y-ceci-torres-ciclo-intima/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24961",
+   "url": "https://corchea.uy/26-11-lu-ferreira-en-la-trastienda/",
+   "titulo": "Lu Ferreira en La Trastienda",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Lu Ferreira llega a La Trastienda el próximo 26 de noviembre con su banda, en un momento muy especial de su camino artístico: la grabación de su primer disco, «Aterrizar al cielo». Una noche para encontrarse con sus canciones y con una voz que reúne sensibilidad, fuerza y una manera profundamente…",
+   "lugar": {
+    "nombre": "La Trastienda",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.passline.com/eventos-ficha-dvm/lu-ferreira-en-la-trastienda",
+     "via": "passline"
+    },
+    {
+     "url": "https://corchea.uy/26-11-lu-ferreira-en-la-trastienda/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25091",
+   "url": "https://corchea.uy/28-11-ismael-berois/",
+   "titulo": "Ismael Berois",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Desde mi primer contacto con una guitarra el mundo, tuvo sentido. Tenía quince años y una Giannini, tiempo y un camino. Hoy con cuarenta y cinco años y dos hijos, el tiempo es una gema y el camino, se transita. Hace tiempo que decidí realizar un evento anual en donde me pongo a prueba y presento…",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021780/ismael-berois",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/28-11-ismael-berois/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25088",
+   "url": "https://corchea.uy/28-11-patrick-deakin/",
+   "titulo": "Patrick Deakin",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Patrick Deakin deja los seudónimos y presenta Granos de Arena, un repertorio de canciones nuevas, en su mayoría inéditas, en formato acústico, junto a Magela Giorgi, Rafael Antúnez y Mauricio Rocha. Abre la noche: Muñe",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 590.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/Granos-de-Arena/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/28-11-patrick-deakin/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24911",
+   "url": "https://corchea.uy/28-11-agustin-casulo/",
+   "titulo": "Agustín Casulo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "El cantante y productor uruguayo Agustín Casulo presenta LOS AMANTES, su sexto álbum de estudio con banda completa e invitados especiales.",
+   "lugar": {
+    "nombre": "Sala Rondeau",
+    "direccion": "Av. Gral. Rondeau 1904",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/AGUSTIN-CASULO-PRESENTA-LOS-AMANTES/32972/",
+     "via": "redtickets"
+    },
+    {
+     "url": "https://corchea.uy/28-11-agustin-casulo/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24437",
+   "url": "https://corchea.uy/28-11-jazz-cartoons-por-paris-jazz-club/",
+   "titulo": "Jazz Cartoons por Paris Jazz Club",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Jazz Cartoons es uno de los espectáculos más celebrados de Paris Jazz Club y regresa en una versión renovada que reúne lo mejor de sus distintas etapas. Con música jazz en vivo, humor y proyecciones audiovisuales, el show propone un recorrido por el universo de los dibujos animados y el cine…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 1400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021445/espectaculo/Jazz%20Cartoons%20por%20Paris%20Jazz%20Club?1",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/28-11-jazz-cartoons-por-paris-jazz-club/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24434",
+   "url": "https://corchea.uy/29-11-woody-allen-night-por-paris-jazz-club/",
+   "titulo": "Woody Allen Night por Paris Jazz Club",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Woody Allen Night es un espectáculo multisensorial original de Paris Jazz Club donde la música, el cine y el humor se fusionan en una experiencia elegante, nostálgica y profundamente cinematográfica. A través de jazz en vivo, proyecciones visuales y monólogos, el show recorre el universo sonoro de…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 1400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021434/espectaculo/Woody%20Allen%20Night%20por%20Paris%20Jazz%20Club?0",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/29-11-woody-allen-night-por-paris-jazz-club/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24955",
+   "url": "https://corchea.uy/01-12-pago-y-arrabal/",
+   "titulo": "Pago y Arrabal",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Pago y Arrabal es un espectáculo que propone revelar las raíces comunes que unen al tango y al folclore, dos expresiones fundamentales de la identidad rioplatense. A través de una sucesión alternada de obras de ambos géneros, y mediante textos que funcionan como hilo conductor, la puesta va…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-01T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021642/pago-y-arrabal",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/01-12-pago-y-arrabal/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24449",
+   "url": "https://corchea.uy/03-12-una-nueva-travesia/",
+   "titulo": "Una nueva Travesía",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Publicado en 1983 por el sello Ayuí, «Ni un minuto más de dolor» fue el único álbum de Travesía, el trío integrado por Estela Magnone, Mariana Ingold y Mayra Hugo, considerado el primer grupo femenino de la música popular uruguaya en arreglar e interpretar vocal e instrumentalmente su repertorio…",
+   "lugar": {
+    "nombre": "Planetario de Montevideo",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 750.0,
+    "hasta": 900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://corchea.uy/03-12-una-nueva-travesia/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25097",
+   "url": "https://corchea.uy/04-12-betty-navajas-y-los-pesados-de-cantina/",
+   "titulo": "Betty Navajas y Los Pesados de Cantina",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación disco oficial de Betty Navajas y los pesados de la cantina",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021811/betty-navajas-y-los-pesados-de-cantina",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/04-12-betty-navajas-y-los-pesados-de-cantina/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25235",
+   "url": "https://corchea.uy/25235-2/",
+   "titulo": "Contacto Final – Satori Punk",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Contacto Final es el espectáculo con el que Satori Punk despide el año 2026, cerrando una etapa muy especial marcada por la celebración de sus 18 años de trayectoria en la escena del rock alternativo uruguayo. La propuesta combina canciones originales, una puesta en escena de fuerte identidad…",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 590.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/Contacto-Final---Satori-Punk/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/25235-2/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24313",
+   "url": "https://corchea.uy/12-12-rio-pop-fest/",
+   "titulo": "Río Pop Fest",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¿Quién dijo que en Uruguay no hay Pop? RÍO DEL POP FEST reúne en una misma noche a Eros White y Gia Love, dos de los nombres más destacados del pop local, y suma a bautibit, una de las nuevas estrellas del Pop argentino, que cruza el charco por primera vez para presentarse en Uruguay. La noche más…",
+   "lugar": {
+    "nombre": "Sala Rondeau",
+    "direccion": "Av Gral Rondeau 1904",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 550.0,
+    "hasta": 550.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/RIO-DEL-POP-FEST/32455/",
+     "via": "redtickets"
+    },
+    {
+     "url": "https://corchea.uy/12-12-rio-pop-fest/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "24942",
+   "url": "https://corchea.uy/13-12-taddei-masliah-etchenique-bentancur/",
+   "titulo": "Taddei – Masliah – Etchenique – Bentancur",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Cuatro grandes de la música uruguaya que vienen desarrollando una intensa labor como dúos (Taddei/Etchenique – Maslíah/Bentancur) se encuentran en escena para compartir un concierto atravesado por los cruces, el diálogo y distintas formas de interacción entre los músicos. Rossana Taddei, Leo…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 900.0,
+    "hasta": 900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021766/taddei-masliah-etchenique-bentancur",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/13-12-taddei-masliah-etchenique-bentancur/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  }
+ ]
+}

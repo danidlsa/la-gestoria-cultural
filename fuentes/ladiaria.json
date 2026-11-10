@@ -1,8 +1,8 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-09T17:09:53.964166-03:00",
+ "corrida": "2026-11-10T00:48:45.090475-03:00",
  "ok": true,
- "cantidad": 69,
+ "cantidad": 68,
  "errores": [],
  "eventos": [
   {
@@ -2987,51 +2987,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/EL-ZAR/33077/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18045",
-   "url": "https://beneficios.ladiaria.com.uy/tom-en-la-granja/",
-   "titulo": "Tom en la Granja",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Un thriller dramático que, desde una atmósfera opresiva, se adentra en las violencias ocultas de los vínculos familiares. Tras la muerte de su pareja, Tom llega a una granja para asistir al funeral y se encuentra con una familia que desconoce quién era realmente su hijo. Entre secretos, silencios y…",
-   "lugar": {
-    "nombre": "Sala Cero | Teatro el Galpón",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 650.0,
-    "hasta": 650.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/TOM-EN-LA-GRANJA-Sala-Cero/33089/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/tom-en-la-granja/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/TOM-EN-LA-GRANJA-Sala-Cero/33089/"
    ],
    "ciclo": null,
    "muestra": false,

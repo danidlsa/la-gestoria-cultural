@@ -1,48 +1,48 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-09T17:10:02.355578-03:00",
+ "corrida": "2026-11-10T00:48:53.506910-03:00",
  "ok": true,
  "cantidad": 6,
  "errores": [],
  "eventos": [
   {
    "fuente": "fever",
-   "id_externo": "525129",
-   "url": "https://feverup.com/m/525129",
-   "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
+   "id_externo": "662344",
+   "url": "https://feverup.com/m/662344",
+   "titulo": "Candlelight: Clásicos de Navidad",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Vive un concierto Candlelight en el Salón Doré del Sofitel Montevideo Casino Carrasco and Spa: la música de Las cuatro estaciones de Vivaldi, interpretada en vivo por un cuarteto de cuerda en una sala iluminada por velas, en una experiencia musical y multisensorial. Esta experiencia de concierto es…",
+   "descripcion_corta": "Celebra la época más especial del año con una colección de queridas canciones navideñas. Desde villancicos atemporales hasta favoritas festivas, vive los clásicos de estas fechas junto a quienes más quieres en un acogedor concierto a la luz de las velas. Esta experiencia de concierto es un tributo…",
    "lugar": {
-    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
+    "nombre": "Hotel Radisson Victoria Plaza",
     "direccion": null,
-    "lat": -34.8905846,
-    "lon": -56.0553743,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
     "barrio": null
    },
    "funciones": [
     {
-     "inicio": "2026-12-27T16:30:00-03:00",
-     "fin": "2026-12-27T20:30:00-03:00",
+     "inicio": "2026-12-23T19:00:00-03:00",
+     "fin": "2026-12-23T21:30:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 1050.0,
-    "hasta": 1050.0,
+    "desde": 1150.0,
+    "hasta": 1150.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://feverup.com/m/525129",
+     "url": "https://feverup.com/m/662344",
      "via": "fever"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/9bdc2556-1ab4-11f0-8624-6e8226e0238e.jpg",
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/fe5444ee-3f93-11f0-a5a4-6ee326aa2bcb.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -97,42 +97,42 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "662344",
-   "url": "https://feverup.com/m/662344",
-   "titulo": "Candlelight: Clásicos de Navidad",
+   "id_externo": "525129",
+   "url": "https://feverup.com/m/525129",
+   "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Celebra la época más especial del año con una colección de queridas canciones navideñas. Desde villancicos atemporales hasta favoritas festivas, vive los clásicos de estas fechas junto a quienes más quieres en un acogedor concierto a la luz de las velas. Esta experiencia de concierto es un tributo…",
+   "descripcion_corta": "Vive un concierto Candlelight en el Salón Doré del Sofitel Montevideo Casino Carrasco and Spa: la música de Las cuatro estaciones de Vivaldi, interpretada en vivo por un cuarteto de cuerda en una sala iluminada por velas, en una experiencia musical y multisensorial. Esta experiencia de concierto es…",
    "lugar": {
-    "nombre": "Hotel Radisson Victoria Plaza",
+    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
     "direccion": null,
-    "lat": -34.9058104,
-    "lon": -56.1995027,
+    "lat": -34.8905846,
+    "lon": -56.0553743,
     "barrio": null
    },
    "funciones": [
     {
-     "inicio": "2026-12-23T19:00:00-03:00",
-     "fin": "2026-12-23T21:30:00-03:00",
+     "inicio": "2026-12-27T16:30:00-03:00",
+     "fin": "2026-12-27T20:30:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 1150.0,
-    "hasta": 1150.0,
+    "desde": 1050.0,
+    "hasta": 1050.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://feverup.com/m/662344",
+     "url": "https://feverup.com/m/525129",
      "via": "fever"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/fe5444ee-3f93-11f0-a5a4-6ee326aa2bcb.jpg",
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/9bdc2556-1ab4-11f0-8624-6e8226e0238e.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],

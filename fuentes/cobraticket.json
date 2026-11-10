@@ -1,8 +1,8 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-09T17:11:17.680970-03:00",
+ "corrida": "2026-11-10T00:50:16.061782-03:00",
  "ok": true,
- "cantidad": 5,
+ "cantidad": 6,
  "errores": [],
  "eventos": [
   {
@@ -39,6 +39,46 @@
    "beneficios": [],
    "imagen_url": "https://img.cobraticket.uy/YP2cPsFgFJ5sCWHwpay5m.jpg",
    "productor": "Lotus WTC",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "386699",
+   "url": "https://cobraticket.uy/e/levante-night-friday-the-13th-386699",
+   "titulo": "LEVANTE NIGHT - FRIDAY THE 13th",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "Viernes a pura fiesta con: LEVANTE NIGHT ♥️🔪 FRIDAY THE 13th La noche donde tus mensajes salen en nuestras pantallas. Al llegar ingresás en nuesta app, allí vas a poder enviar y recibir mensajes que aparecerán en todas las pantallas de Zoba. Andrómeda, Santi y Edson serán los anfitriones de la…",
+   "lugar": {
+    "nombre": "Zoba Club",
+    "direccion": "Bv. España 2218",
+    "lat": -34.9095744,
+    "lon": -56.1679561,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T00:50:00-03:00",
+     "fin": "2026-11-14T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/levante-night-friday-the-13th-386699",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/1K98VnV6K_gmzjCzSJlBc.jpg",
+   "productor": "Zoba Club",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
