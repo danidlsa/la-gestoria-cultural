@@ -168,7 +168,7 @@ def test_el_mismo_evento_en_varios_posts_es_un_borrador_y_el_lugar_sale_del_pin(
     assert a["id"] == b["id"] == "mbc-20261113"
     (sin_pin,) = ig.borradores_del_post(post(5, 9, "Una década de planes merecía una noche así, con todo\n13 de noviembre 21 hs"), cuenta, perfil, AHORA)
     junto = ig.juntar(ig.juntar(a, b), sin_pin)
-    assert junto["titulo"] == "Se suma otra banda" and len(junto["posts"]) == 3  # el título más corto
+    assert junto["titulo"] == "Montevideo Beer Company: Se suma otra banda" and len(junto["posts"]) == 3  # el título más corto
     assert junto["url"].endswith("/5/")  # el enlace principal, el post más reciente
     assert junto["lugar"] == "Museo Oceanográfico" and junto["barrio"] is None  # aunque el último post no traiga 📍
     renglon = ig.renglon_del_borrador(junto)
@@ -214,17 +214,19 @@ def test_una_agenda_es_un_borrador_por_dia():
     cuenta, perfil = {"usuario": "theshannonuy"}, {"name": "The Shannon"}
     mes = ig.borradores_del_post(_post(1, SHANNON_MES), cuenta, perfil, AHORA)
     assert [(b["titulo"], b["funciones"][0]["sin_hora"]) for b in mes] == [
-        ("OPEN MIC", True), ("SPAGUETTI WESTERN", True), ("PROYECTO OLDIES", True), ("MORRIGAN'S", True)]
+        ("The Shannon: OPEN MIC", True), ("The Shannon: SPAGUETTI WESTERN", True), ("The Shannon: PROYECTO OLDIES", True),
+        ("The Shannon: MORRIGAN'S", True)]
     assert "VOLDCAST" in mes[2]["extracto"]  # lo de la otra sala del mismo día va en la descripción
     semana = ig.borradores_del_post(_post(2, SHANNON_SEMANA, "2026-11-09"), cuenta, perfil, AHORA)
-    assert [(b["titulo"], b["funciones"][0]["inicio"][11:16]) for b in semana] == [("OPEN MIC NIGHT", "21:30"), ("PROYECTO OLDIES", "22:00")]
+    assert [(b["titulo"], b["funciones"][0]["inicio"][11:16]) for b in semana] == [
+        ("The Shannon: OPEN MIC NIGHT", "21:30"), ("The Shannon: PROYECTO OLDIES", "22:00")]
     # La agenda del mes y la de la semana hablan del mismo día: queda uno, con la hora de la de la semana.
     assert mes[2]["id"] == semana[1]["id"] == "theshannonuy-20261113"
     junto = ig.juntar(mes[2], semana[1])
     assert junto["funciones"] == [{"inicio": "2026-11-13T22:00:00-03:00", "sin_hora": False}]
     assert "(la hora está en el post)" in ig.renglon_del_borrador(mes[0])
     evento = ig.evento_de(semana[1], AHORA)
-    assert evento.precio.desde == 350 and evento.titulo == "PROYECTO OLDIES"
+    assert evento.precio.desde == 350 and evento.titulo == "The Shannon: PROYECTO OLDIES"
 
 
 def test_la_agenda_del_mingus():
@@ -233,7 +235,7 @@ def test_la_agenda_del_mingus():
              "Reservá tu mesa via Whatsapp al 093 651 305.")
     lista = ig.borradores_del_post(_post(1, texto, "2026-11-09"), {"usuario": "el.mingus"}, {"name": "El Mingus"}, AHORA)
     assert [(b["titulo"], b["funciones"][0]["sin_hora"]) for b in lista] == [
-        ("Martes de Jazz", True), ("Jazz & Bossa", True), ("Piano Bar", False)]
+        ("El Mingus: Martes de Jazz", True), ("El Mingus: Jazz & Bossa", True), ("El Mingus: Piano Bar", False)]
     assert lista[2]["funciones"][0]["inicio"][11:16] == "12:00"  # al mediodía
 
 
@@ -293,3 +295,18 @@ def test_lo_que_ya_no_sale_se_va_salvo_lo_aprobado(tmp_path, monkeypatch):
     monkeypatch.setattr(ig, "avisos_en_github", lambda: None)  # sin GitHub: valen las decisiones guardadas
     eventos, _ = ig.scrapear(None, AHORA)
     assert set(ig.cargar_borradores()) == {"elbar-20261125"} and [e.id_externo for e in eventos] == ["elbar-20261125"]
+
+
+
+def test_el_nombre_del_bar_en_el_titulo():
+    assert ig.nombre_corto("MBC | MONTEVIDEO BEER COMPANY") == "MBC"
+    assert ig.nombre_corto("Brecha Bar y Café 🏳️‍🌈") == "Brecha Bar y Café"
+    assert ig.nombre_corto("INMIGRANTES") == "Inmigrantes"
+    assert ig.con_el_bar("SPAGUETTI WESTERN", "The Shannon") == "The Shannon: SPAGUETTI WESTERN"
+    # Si el título ya lo nombra, no se repite.
+    assert ig.con_el_bar("Celebramos la Noche de las Librerías en Mercado Ferrando", "Mercado Ferrando") == \
+        "Celebramos la Noche de las Librerías en Mercado Ferrando"
+    # El nombre corto de la lista de bares gana sobre el del perfil.
+    (b,) = ig.borradores_del_post(_post(1, "Jueves 12: SPAGUETTI WESTERN 22 hs", "2026-11-09"),
+                                  {"usuario": "theshannonuy", "corto": "The Shannon"}, {"name": "The Shannon irish pub"}, AHORA)
+    assert b["titulo"] == "The Shannon: SPAGUETTI WESTERN" and b["lugar"] == "The Shannon irish pub"

@@ -7,6 +7,8 @@
 #
 #   usuario    el usuario de Instagram, sin @
 #   nombre     cómo se llama el lugar
+#   corto      cómo se lo nombra en el título ("The Shannon: SPAGUETTI WESTERN"); si no está, sale del nombre del
+#              perfil de Instagram, limpio
 #   direccion  calle y número
 #   barrio     el barrio, como en el sitio
 #   notas      lo que quieras recordar (por ejemplo, "solo los jueves de jazz")
@@ -77,6 +79,7 @@ notas = "¿es el «Gelos Comedy Coffee Bar» (Soriano 757), que ya está en el s
 
 [[bar]]
 usuario = "theshannonuy"
+corto = "The Shannon"
 
 [[bar]]
 usuario = "bluzzbar"

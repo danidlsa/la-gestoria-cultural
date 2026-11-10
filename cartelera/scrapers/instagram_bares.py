@@ -262,6 +262,8 @@ def titulo_de(texto: str, cuenta: str) -> str:
         sin_principio = _FECHA_AL_PRINCIPIO.sub("", limpio)
         sin_fecha = _FECHA_AL_FINAL.sub("", sin_principio).strip(" -–—:.,")
         sin_fecha = re.sub(r"\s+(?:este|esta|el|la|del|de|en|por)$", "", sin_fecha, flags=re.I)  # "…por eso este 24 de dic"
+        # La hora también va aparte: "SPAGUETTI WESTERN 22 hs" es "SPAGUETTI WESTERN".
+        sin_fecha = re.sub(r"\s*[-–·,/|]?\s*\b\d{1,2}(?:[:.]\d{2})?\s*(?:h|hs|hrs|horas)\b.*$", "", sin_fecha, flags=re.I).strip(" -–—:.,")
         if len(re.sub(r"\W", "", sin_fecha)) < 4:
             continue
         if sin_principio != limpio and i + 1 < len(renglones):
@@ -273,7 +275,7 @@ def titulo_de(texto: str, cuenta: str) -> str:
         if len(limpio) > 90:
             limpio = re.split(r"(?<=[.!?])\s", limpio)[0]
         return limpio if len(limpio) <= 90 else limpio[:87].rsplit(" ", 1)[0] + "…"
-    return f"En {cuenta}"
+    return f"En {cuenta}"  # con_el_bar no le vuelve a sumar el nombre
 
 
 def precio_del_texto(texto: str):
@@ -320,6 +322,24 @@ def titulo_del_bloque(originales: list[str]) -> str | None:
     return None
 
 
+def nombre_corto(nombre: str) -> str:
+    """Cómo se nombra al bar en el título: sin emojis, hasta el primer "|" o " - ", y sin todo en mayúsculas.
+
+    "MBC | MONTEVIDEO BEER COMPANY" → "MBC"; "Brecha Bar y Café 🏳️‍🌈" → "Brecha Bar y Café"; "INMIGRANTES" → "Inmigrantes".
+    """
+    limpio = _limpiar(re.split(r"\s*[|·•]\s*|\s[-–—]\s", nombre)[0])
+    if limpio.isupper() and len(limpio) > 4:
+        limpio = limpio.title()
+    return limpio or nombre
+
+
+def con_el_bar(titulo: str, bar: str) -> str:
+    """"The Shannon: SPAGUETTI WESTERN". Si el título ya nombra al bar, queda como está."""
+    if sin_tildes(bar) in sin_tildes(titulo):
+        return titulo
+    return f"{bar}: {titulo}"
+
+
 def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, funciones: list[tuple[datetime, bool]],
                  titulo: str, extracto: str) -> dict:
     texto = post.get("caption") or ""
@@ -345,7 +365,7 @@ def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, fu
         "direccion": direccion if otro_lugar else cuenta.get("direccion") or direccion,
         "barrio": None if otro_lugar else cuenta.get("barrio"),
         "lugar_del_pin": bool(otro_lugar),
-        "titulo": titulo,
+        "titulo": con_el_bar(titulo, cuenta.get("corto") or nombre_corto(del_bar)),
         "texto": texto,
         "extracto": extracto,
         "funciones": [{"inicio": inicio.isoformat(), "sin_hora": sin_hora} for inicio, sin_hora in lista],
