@@ -71,6 +71,11 @@ jobs:
       - name: Scrapear las fuentes de GitHub Actions
         # Si una fuente falla, se conserva su último resultado bueno y se sigue.
         continue-on-error: true
+        env:
+          # Bares por Instagram: la clave de la página (no vence) y GitHub, para leer qué borradores se tildaron.
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         run: uv run python -m cartelera scrapear --donde actions
 
       - name: Unificar
@@ -125,8 +130,9 @@ jobs:
 
       # Avisos por issue (GitHub los manda por mail), sin repetir títulos:
       # - un evento especial (config/eventos_especiales.toml) que se acerca sin programa;
-      # - la tarea local, si un día de semana no subió datos (se cierra solo cuando vuelven a llegar).
-      - name: Avisos (eventos especiales y tarea local)
+      # - la tarea local, si un día de semana no subió datos (se cierra solo cuando vuelven a llegar);
+      # - posts nuevos de bares por Instagram, con una casilla para aprobar cada uno.
+      - name: Avisos (eventos especiales, tarea local y borradores de Instagram)
         continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}

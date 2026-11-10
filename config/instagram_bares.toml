@@ -1,0 +1,103 @@
+# Bares (y salas chicas) que programan por Instagram. Ver docs/instagram-bares.md.
+#
+# Por ahora es solo la lista: todavía no hay nada que la lea. Cuando la API de Meta ande con tu cuenta, una fuente
+# va a leer los posts nuevos de cada cuenta y armar borradores para aprobar en la planilla de "Agregá tu evento".
+#
+# Un bloque [[bar]] por cuenta. Solo `usuario` es obligatorio (sin @); lo demás, si no lo sabés, lo completo yo.
+#
+#   usuario    el usuario de Instagram, sin @
+#   nombre     cómo se llama el lugar
+#   direccion  calle y número
+#   barrio     el barrio, como en el sitio
+#   notas      lo que quieras recordar (por ejemplo, "solo los jueves de jazz")
+
+# [[bar]]
+# usuario = "nombre_del_bar"
+# nombre = "Nombre del Bar"
+# direccion = "Calle 1234"
+# barrio = "Cordón"
+
+# Lista inicial: 26 cuentas, cargadas el 10/11/2026. Los nombres y direcciones se completan cuando ande la API.
+
+[[bar]]
+usuario = "finisterrebaruy"
+
+[[bar]]
+usuario = "elhormiguerobar"
+notas = "también vende por Tikzet: lo que esté ahí ya entra solo"
+
+[[bar]]
+usuario = "latabernadebrecha"
+
+[[bar]]
+usuario = "elbar_delxsamigxs"
+
+[[bar]]
+usuario = "bar.ducon"
+notas = "el bar de la Sala Ducón"
+
+[[bar]]
+usuario = "sala.ducon"
+notas = "ya está en el sitio como «Sala Ducón»"
+
+[[bar]]
+usuario = "andromedabarcoop"
+
+[[bar]]
+usuario = "barandorra"
+
+[[bar]]
+usuario = "santacatalinabar"
+
+[[bar]]
+usuario = "barlarondacafe"
+
+[[bar]]
+usuario = "ciudadela_bar"
+
+[[bar]]
+usuario = "submarino_bar_mdeo"
+
+[[bar]]
+usuario = "mvdalsur"
+
+[[bar]]
+usuario = "barfacal"
+
+[[bar]]
+usuario = "lacretinacasa"
+notas = "¿es «La Cretina» (Soriano 1236), que ya está en el sitio?"
+
+[[bar]]
+usuario = "lapiqueuy"
+
+[[bar]]
+usuario = "elcomedybar"
+notas = "¿es el «Gelos Comedy Coffee Bar» (Soriano 757), que ya está en el sitio?"
+
+[[bar]]
+usuario = "theshannonuy"
+
+[[bar]]
+usuario = "bluzzbar"
+
+[[bar]]
+usuario = "_labatea_"
+
+[[bar]]
+usuario = "el.mingus"
+
+[[bar]]
+usuario = "cordonbeer"
+
+[[bar]]
+usuario = "elespacio.vacio"
+
+[[bar]]
+usuario = "mercadoferrando"
+
+[[bar]]
+usuario = "montevideobeercompany"
+
+[[bar]]
+usuario = "cervezapuntorojo"

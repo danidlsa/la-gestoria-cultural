@@ -3,7 +3,8 @@
     python -m cartelera scrapear --donde actions   solo las fuentes que corren en ese lugar (config/fuentes.toml)
     python -m cartelera unificar                arma datos/eventos.json y datos/lugares.json
     python -m cartelera sitio                   genera la web en sitio_generado/
-    python -m cartelera avisos [--github]       eventos especiales sin programa y tarea local sin datos (con --github, issues)
+    python -m cartelera avisos [--github]       eventos especiales sin programa, tarea local sin datos y borradores de
+                                                Instagram para aprobar (con --github, issues)
     python -m cartelera historico --dir DIR     suma la cartelera al histórico privado (--reconstruir: desde la rama datos)
 """
 
@@ -68,8 +69,10 @@ def main() -> int:
     if args.comando == "avisos":
         from cartelera.especiales import avisar
         from cartelera.vigilancia import revisar
+        from cartelera.scrapers import instagram_bares
         avisar(en_github=args.github)
         revisar(en_github=args.github)  # si la tarea local no subió datos, otro aviso
+        instagram_bares.avisar(en_github=args.github)  # posts de bares para aprobar
         return 0
     return 2
 

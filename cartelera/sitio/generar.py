@@ -70,7 +70,8 @@ FUENTES = {
     "mec_museos": "el calendario del Ministerio de Educación y Cultura",
     "salacamacua": "la Sala Camacuá", "mientrada": "MiEntrada", "cobraticket": "CobraTicket", "entraste": "Entraste",
     "corchea": "la cartelera de Corchea", "propuestos": "los organizadores que mandan sus eventos",
-    "mapas_especiales": "el programa oficial de los eventos especiales",
+    "mapas_especiales": "el programa oficial de los eventos especiales", "tikzet": "Tikzet",
+    "instagram_bares": "las cuentas de Instagram de bares y salas chicas",
 }
 # Para los botones de compra: dónde se consigue la entrada.
 VIAS = {
@@ -80,7 +81,7 @@ VIAS = {
     "museos_im": "el museo", "mnav": "el MNAV", "torres_garcia": "el Museo Torres García",
     "gurvich": "el Museo Gurvich", "mapi": "el MAPI", "mec_museos": "el MEC",
     "salacamacua": "la Sala Camacuá", "corchea": "Corchea", "passline": "Passline", "entradasfans": "Entradas Fans",
-    "instagram": "Instagram", "propuestos": "su web", "mapas_especiales": "la Intendencia",
+    "instagram": "Instagram", "propuestos": "su web", "mapas_especiales": "la Intendencia", "tikzet": "Tikzet",
 }
 # Vías que son la ficha del evento, no una venta: el botón dice "Ver en …" y no "Entradas en …".
 SOLO_INFORMACION = {
@@ -260,6 +261,7 @@ def datos_para_el_navegador(eventos: list[dict], lugares: dict[str, dict], ciclo
     por_lugar: dict[str, list[dict]] = {}
     for e in eventos:
         por_lugar.setdefault(e["lugar_id"], []).append(e)
+    nombre_ciclo = {c["id"]: c["titulo"] for c in ciclos}
     return {
         "eventos": [
             {
@@ -277,7 +279,9 @@ def datos_para_el_navegador(eventos: list[dict], lugares: dict[str, dict], ciclo
                 "presupuesto": presupuesto(e.get("precio")),
                 "promos": [b["programa"] for b in e.get("beneficios", [])],
                 "funciones": [[f["inicio"], f.get("sin_hora", False), f.get("fin")] for f in e["funciones"]],
-                "texto": " ".join(filter(None, [e["titulo"], lugares.get(e["lugar_id"], {}).get("nombre"), e.get("productor")])),
+                # Lo que mira el buscador: también el nombre del ciclo, para encontrar "cine accesible" y similares.
+                "texto": " ".join(filter(None, [e["titulo"], lugares.get(e["lugar_id"], {}).get("nombre"), e.get("productor"),
+                                                nombre_ciclo.get(e.get("ciclo_id"))])),
             }
             for e in eventos
         ],

@@ -97,3 +97,12 @@ corre_en = "local"
 # Por ahora, la Noche de las Librerías (Intendencia de Montevideo).
 [mapas_especiales]
 corre_en = "actions"
+
+# Ticketera de salas y productoras independientes (El Hormiguero, Tatu…). 9/11/2026.
+[tikzet]
+corre_en = "actions"
+
+# Bares y salas chicas por Instagram (API oficial de Meta, secreto INSTAGRAM_TOKEN). Solo se publica lo que se
+# tilda en un aviso de GitHub; ver cartelera/scrapers/instagram_bares.py. 10/11/2026.
+[instagram_bares]
+corre_en = "actions"

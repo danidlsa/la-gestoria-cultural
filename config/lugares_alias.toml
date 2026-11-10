@@ -129,3 +129,15 @@ direccion = "Altamirano esquina Luis Alberto de Herrera"
 lat = -34.8714543
 lon = -56.162738
 barrio = "Bolívar"
+
+# Sitio, el espacio de conciertos del Parque Roosevelt: queda en Canelones (Ciudad de la Costa), pero es casi
+# Montevideo y se suma igual (9/11/2026). Ubicación: el parque, según OpenStreetMap.
+[[lugar]]
+id = "sitio-parque-roosevelt"
+nombre = "Sitio · Parque Roosevelt"
+alias = ["Sitio", "SITIO - Parque Roosevelt", "Sitio Parque Roosevelt", "SITIO"]
+direccion = "Parque Roosevelt, Ciudad de la Costa (Canelones)"
+lat = -34.8591365
+lon = -56.0217968
+barrio = "Parque Roosevelt (Canelones)"
+solo_por_nombre = true

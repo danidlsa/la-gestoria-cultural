@@ -1,0 +1,417 @@
+diff --git a/cartelera/sitio/estaticos/app.js b/cartelera/sitio/estaticos/app.js
+index 47340e4..4848db6 100644
+--- a/cartelera/sitio/estaticos/app.js
++++ b/cartelera/sitio/estaticos/app.js
+@@ -351,6 +351,340 @@
+     window.open(`https://wa.me/?text=${encodeURIComponent(texto)}`, "_blank", "noopener");
+   }
+ 
++  // --- Compartir: el mensaje de siempre, o una imagen lista para Instagram ---------------------------
++  // El botón de compartir abre un menú chico: mandar el dato (WhatsApp o el menú del celular) o armar una tarjeta
++  // con la estética de la marca, en formato historia (9:16) o posteo (4:5). La tarjeta se dibuja acá, en el
++  // navegador (sin servidores): por eso no lleva el flyer, que es de otro sitio y el navegador no deja usarlo.
++  let menuCompartir = null;
++  function cerrarMenuCompartir() {
++    menuCompartir?.remove();
++    menuCompartir = null;
++  }
++  function abrirMenuCompartir(boton, id, inicio) {
++    cerrarMenuCompartir();
++    const opcion = (icono, texto, como) => el("button", { type: "button", role: "menuitem", "data-compartir-como": como },
++      el("span", { "aria-hidden": "true" }, icono), texto);
++    menuCompartir = el("div", { class: "menu-compartir", role: "menu", "aria-label": "Compartir" },
++      opcion("💬", "Mandar el dato", "texto"),
++      opcion("📱", "Imagen para historia", "historia"),
++      opcion("🖼️", "Imagen para posteo", "posteo"));
++    menuCompartir.dataset.compartirDe = `${id}|${inicio}`;
++    document.body.appendChild(menuCompartir);
++    // En la compu, al lado del botón; en el celular, abajo de la pantalla (lo resuelve el CSS).
++    const caja = boton.getBoundingClientRect();
++    const ancho = menuCompartir.offsetWidth;
++    menuCompartir.style.left = `${Math.max(8, Math.min(caja.right - ancho, window.innerWidth - ancho - 8))}px`;
++    const arriba = caja.top - menuCompartir.offsetHeight - 8;
++    menuCompartir.style.top = `${arriba > 8 ? arriba : caja.bottom + 8}px`;
++    menuCompartir.querySelector("button").focus();
++  }
++  document.addEventListener("click", (e) => {
++    if (!menuCompartir) return;
++    const opcion = e.target.closest("[data-compartir-como]");
++    if (opcion) {
++      const [id, inicio] = menuCompartir.dataset.compartirDe.split("|");
++      const como = opcion.dataset.compartirComo;
++      cerrarMenuCompartir();
++      if (como === "texto") compartir(id, inicio);
++      else mostrarTarjeta(id, inicio, como);
++    } else if (!e.target.closest(".menu-compartir, [data-compartir]")) {
++      cerrarMenuCompartir();
++    }
++  });
++  document.addEventListener("keydown", (e) => { if (e.key === "Escape") { cerrarMenuCompartir(); cerrarVistaTarjeta(); } });
++
++  // La G de la marca (la misma forma que favicon.svg), dibujada directo en el canvas: no hay que esperar a que
++  // cargue ninguna imagen.
++  const FORMA_G = "M29.05 42Q26.15 42 23.94 40.62Q21.72 39.24 20.48 36.61Q19.24 33.98 19.24 30.23Q19.24 27.47 19.95 25.23Q20.67 22.98 22.11 21.37Q23.55 19.75 25.69 18.87Q27.83 18 30.71 18Q32.99 18 34.75 18.56Q36.51 19.13 37.73 20.14Q38.95 21.16 39.55 22.54Q40.15 23.93 40.1 25.58L34.81 26.81Q34.82 25.4 34.27 24.48Q33.71 23.55 32.73 23.07Q31.75 22.59 30.48 22.59Q28.8 22.59 27.6 23.41Q26.41 24.22 25.78 25.86Q25.15 27.51 25.15 29.98Q25.15 31.81 25.5 33.23Q25.86 34.64 26.58 35.59Q27.3 36.54 28.36 37.02Q29.42 37.51 30.82 37.51Q32.23 37.51 33.24 37.05Q34.25 36.59 34.83 35.7Q35.4 34.81 35.42 33.51H31.53V29.53H40.76V33.94V41.51H36.93L36.87 35.56H36.34Q35.93 37.64 35.02 39.08Q34.12 40.52 32.64 41.26Q31.17 42 29.05 42Z";
++  function dibujarLogo(ctx, x, y, tamano) {
++    ctx.save();
++    ctx.translate(x, y);
++    ctx.scale(tamano / 64, tamano / 64);
++    ctx.fillStyle = "#F06C4F";
++    ctx.beginPath(); ctx.roundRect(7, 7, 54, 54, 14); ctx.fill();
++    ctx.fillStyle = "#3256A8";
++    ctx.beginPath(); ctx.roundRect(3, 3, 54, 54, 14); ctx.fill();
++    ctx.lineWidth = 3; ctx.strokeStyle = "#18264A"; ctx.stroke();
++    ctx.translate(30, 30); ctx.rotate((-6 * Math.PI) / 180); ctx.translate(-30, -30);
++    ctx.fillStyle = "#E4A94A";
++    ctx.beginPath(); ctx.roundRect(12, 13, 36, 34, 7); ctx.fill();
++    ctx.lineWidth = 2.5; ctx.stroke();
++    ctx.fillStyle = "#18264A";
++    ctx.fill(new Path2D(FORMA_G));
++    ctx.restore();
++  }
++
++  const FORMATOS = {
++    // Historia: Instagram tapa unos 250 px arriba y 300 abajo; el contenido va entre medio.
++    historia: { ancho: 1080, alto: 1920, arriba: 270, abajo: 1600, tarjeta: 888 },
++    posteo: { ancho: 1080, alto: 1350, arriba: 70, abajo: 1270, tarjeta: 780 },
++  };
++  // El color de cada tipo de evento, como en las tarjetas del sitio (.cat-…).
++  const ACENTO = {
++    teatro: "#F06C4F", carnaval: "#F06C4F", humor: "#F06C4F",
++    danza: "#E4A94A", infantil: "#E4A94A", tour: "#E4A94A", taller: "#E4A94A",
++    musica: "#3256A8", cine: "#3256A8", festival: "#3256A8",
++  };
++  const COLOR = { cobalto: "#3256A8", mostaza: "#E4A94A", coral: "#F06C4F", crema: "#F4E9D5", tinta: "#18264A", suave: "#E6ECFA" };
++
++  function renglones(ctx, texto, ancho) {
++    const lineas = [];
++    let actual = "";
++    for (const palabra of texto.split(/\s+/)) {
++      const prueba = actual ? `${actual} ${palabra}` : palabra;
++      if (ctx.measureText(prueba).width <= ancho || !actual) actual = prueba;
++      else { lineas.push(actual); actual = palabra; }
++    }
++    if (actual) lineas.push(actual);
++    return lineas;
++  }
++
++  function chispa(ctx, x, y, r, color) {
++    ctx.save();
++    ctx.beginPath();
++    ctx.moveTo(x, y - r);
++    ctx.quadraticCurveTo(x + r * 0.18, y - r * 0.18, x + r, y);
++    ctx.quadraticCurveTo(x + r * 0.18, y + r * 0.18, x, y + r);
++    ctx.quadraticCurveTo(x - r * 0.18, y + r * 0.18, x - r, y);
++    ctx.quadraticCurveTo(x - r * 0.18, y - r * 0.18, x, y - r);
++    ctx.fillStyle = color;
++    ctx.fill();
++    ctx.lineWidth = Math.max(2, r * 0.07);
++    ctx.strokeStyle = COLOR.tinta;
++    ctx.stroke();
++    ctx.restore();
++  }
++
++  // Una etiqueta mostaza inclinada con sombra coral (como las del sitio). Devuelve dónde termina.
++  function etiqueta(ctx, texto, x, y, { tamano = 40, fondo = COLOR.mostaza, sombra = COLOR.coral, giro = -2.5 } = {}) {
++    ctx.save();
++    ctx.font = `800 ${tamano}px "Bricolage Grotesque", sans-serif`;
++    const ancho = ctx.measureText(texto).width + tamano * 1.1;
++    const alto = tamano * 1.45;
++    ctx.translate(x, y);
++    ctx.rotate((giro * Math.PI) / 180);
++    ctx.fillStyle = sombra;
++    ctx.beginPath(); ctx.roundRect(10, 10, ancho, alto, alto * 0.32); ctx.fill();
++    ctx.fillStyle = fondo;
++    ctx.beginPath(); ctx.roundRect(0, 0, ancho, alto, alto * 0.32); ctx.fill();
++    ctx.lineWidth = 5; ctx.strokeStyle = COLOR.tinta; ctx.stroke();
++    ctx.fillStyle = COLOR.tinta;
++    ctx.textBaseline = "middle";
++    ctx.fillText(texto, tamano * 0.55, alto / 2 + tamano * 0.03);
++    ctx.restore();
++    return { ancho, alto };
++  }
++
++  // El flyer. El navegador solo deja usar en el dibujo imágenes de sitios que lo autorizan (CORS): Tickantel y
++  // los afiches propios, sí; el resto (RedTickets, el Sodre, la Intendencia…), no. Esos se piden a wsrv.nl, un
++  // servicio gratuito de imágenes (de código abierto) que las entrega con esa autorización. Si igual falla, queda
++  // el respaldo del sitio: el color del tipo de evento con su nombre.
++  const FLYERS_DIRECTOS = new Set(["tickantel.cdn.antel.net.uy", location.host]);
++  function direccionDelFlyer(url) {
++    const absoluta = new URL(url, location.href);
++    if (FLYERS_DIRECTOS.has(absoluta.host)) return absoluta.href;
++    return `https://wsrv.nl/?url=${encodeURIComponent(absoluta.href)}&w=1200&we`;
++  }
++  // Se trae con fetch (y no con una imagen suelta, que algunos navegadores demoran) y se convierte en un mapa de
++  // bits para dibujarlo. Si tarda más de 6 segundos o falla, la tarjeta sale con el respaldo.
++  async function cargarFlyer(url) {
++    if (!url) return null;
++    const corte = new AbortController();
++    const espera = setTimeout(() => corte.abort(), 6000);
++    try {
++      const respuesta = await fetch(direccionDelFlyer(url), { mode: "cors", credentials: "omit", referrerPolicy: "no-referrer", signal: corte.signal });
++      if (!respuesta.ok) return null;
++      return await createImageBitmap(await respuesta.blob());
++    } catch (_) {
++      return null;
++    } finally {
++      clearTimeout(espera);
++    }
++  }
++
++  async function dibujarTarjeta(evento, inicio, formato) {
++    const f = FORMATOS[formato];
++    const original = evento.tarjeta;
++    const flyerUrl = original?.querySelector(".flyer img")?.getAttribute("src");
++    const [flyer] = await Promise.all([
++      cargarFlyer(flyerUrl),
++      document.fonts.load('800 80px "Bricolage Grotesque"'), document.fonts.load('700 40px "DM Sans"'),
++      document.fonts.load('500 40px "DM Sans"'),
++    ]);
++    const lienzo = document.createElement("canvas");
++    lienzo.width = f.ancho;
++    lienzo.height = f.alto;
++    const ctx = lienzo.getContext("2d");
++    ctx.fillStyle = COLOR.cobalto;
++    ctx.fillRect(0, 0, f.ancho, f.alto);
++
++    // Lo que va en la tarjeta: lo mismo que la del sitio.
++    const acento = ACENTO[evento.categoria] || COLOR.tinta;
++    const tipo = (original?.querySelector(".tipo")?.textContent || datos.categorias[evento.categoria] || "").trim().toUpperCase();
++    const insignias = [...(original?.querySelectorAll(".insignia") || [])].map((n) => n.textContent.trim().toUpperCase());
++    const lugar = nombreLugar(evento);
++    const funcion = evento.funciones.find(([i]) => i === inicio) || [inicio, false];
++    const cuando = original?.querySelector(".periodo")?.textContent.trim() || textoFuncion(funcion);
++    const precio = evento.precioTexto;
++
++    const ancho = f.tarjeta;
++    const x = (f.ancho - ancho) / 2;
++    const altoFlyer = Math.round(ancho * 9 / 16);
++    const margen = Math.round(ancho * 0.05);
++    const anchoTexto = ancho - margen * 2;
++    const k = ancho / 888; // las medidas, pensadas para la historia, se achican en el posteo
++    let tamanoTitulo = Math.round(64 * k);
++    let lineasTitulo;
++    for (; tamanoTitulo >= 44 * k; tamanoTitulo -= 2) {
++      ctx.font = `800 ${tamanoTitulo}px "Bricolage Grotesque", sans-serif`;
++      lineasTitulo = renglones(ctx, evento.titulo, anchoTexto);
++      if (lineasTitulo.length <= 4) break;
++    }
++    if (lineasTitulo.length > 4) {
++      lineasTitulo = lineasTitulo.slice(0, 4);
++      lineasTitulo[3] = `${lineasTitulo[3].replace(/\s+\S*$/, "")}…`;
++    }
++    const altoCuerpo = margen + 36 * k + 14 * k + lineasTitulo.length * tamanoTitulo * 1.12 + 22 * k + 44 * k + 14 * k + 48 * k
++      + (precio ? 22 * k + 54 * k : 0) + margen;
++    const altoTarjeta = altoFlyer + altoCuerpo;
++
++    // Marca arriba y pie abajo; la tarjeta, centrada entre los dos.
++    dibujarLogo(ctx, 96, f.arriba, 76);
++    ctx.fillStyle = "#fff";
++    ctx.font = '800 40px "Bricolage Grotesque", sans-serif';
++    ctx.textBaseline = "middle";
++    ctx.fillText("La Gestoría Cultural", 96 + 96, f.arriba + 38);
++    const libreArriba = f.arriba + 130;
++    const libreAbajo = f.abajo - 170;
++    const y0 = Math.max(libreArriba, libreArriba + (libreAbajo - libreArriba - altoTarjeta) / 2);
++    chispa(ctx, f.ancho - 70, y0 - 20, 40, COLOR.mostaza);
++    chispa(ctx, f.ancho - 30, y0 + 50, 18, COLOR.coral);
++    chispa(ctx, 50, y0 + altoTarjeta + 30, 30, COLOR.crema);
++
++    // La tarjeta: sombra del color del tipo (sobre el azul, la de los azules va en tinta), papel y borde.
++    const radio = 34 * k;
++    ctx.fillStyle = acento === COLOR.cobalto ? COLOR.tinta : acento;
++    ctx.beginPath(); ctx.roundRect(x + 16 * k, y0 + 16 * k, ancho, altoTarjeta, radio); ctx.fill();
++    ctx.save();
++    ctx.beginPath(); ctx.roundRect(x, y0, ancho, altoTarjeta, radio); ctx.clip();
++    ctx.fillStyle = "#FFF8EC";
++    ctx.fillRect(x, y0, ancho, altoTarjeta);
++    // El flyer, recortado para llenar el espacio (como en el sitio); si no se puede usar, el respaldo.
++    if (flyer) {
++      const escala = Math.max(ancho / flyer.width, altoFlyer / flyer.height);
++      const w = flyer.width * escala;
++      const h = flyer.height * escala;
++      ctx.drawImage(flyer, x + (ancho - w) / 2, y0 + (altoFlyer - h) / 2, w, h);
++    } else {
++      ctx.fillStyle = acento;
++      ctx.fillRect(x, y0, ancho, altoFlyer);
++      ctx.fillStyle = acento === COLOR.mostaza ? COLOR.tinta : COLOR.crema;
++      ctx.font = `800 ${Math.round(64 * k)}px "Bricolage Grotesque", sans-serif`;
++      ctx.textAlign = "center";
++      ctx.textBaseline = "middle";
++      ctx.fillText(datos.categorias[evento.categoria] || "", x + ancho / 2, y0 + altoFlyer / 2);
++      ctx.textAlign = "left";
++    }
++    ctx.fillStyle = COLOR.tinta;
++    ctx.fillRect(x, y0 + altoFlyer - 2.5 * k, ancho, 5 * k);
++    ctx.restore();
++    ctx.lineWidth = 5 * k;
++    ctx.strokeStyle = COLOR.tinta;
++    ctx.beginPath(); ctx.roundRect(x, y0, ancho, altoTarjeta, radio); ctx.stroke();
++    // Las insignias sobre el flyer (Gratis, 2x1, Agotado).
++    let xi = x + 26 * k;
++    insignias.forEach((texto, n) => {
++      const fondo = texto === "GRATIS" ? COLOR.mostaza : texto === "AGOTADO" ? COLOR.tinta : COLOR.coral;
++      const caja = etiqueta(ctx, texto, xi, y0 + 26 * k, { tamano: Math.round(34 * k), fondo, sombra: COLOR.tinta, giro: n % 2 ? 3 : -4 });
++      xi += caja.ancho + 16 * k;
++    });
++
++    // El cuerpo: tipo, título, sala, cuándo y precio.
++    let y = y0 + altoFlyer + margen;
++    const izq = x + margen;
++    ctx.textBaseline = "alphabetic";
++    ctx.fillStyle = COLOR.cobalto;
++    ctx.font = `700 ${Math.round(30 * k)}px "DM Sans", sans-serif`;
++    if ("letterSpacing" in ctx) ctx.letterSpacing = `${Math.round(3 * k)}px`;
++    y += 30 * k;
++    ctx.fillText(tipo, izq, y);
++    if ("letterSpacing" in ctx) ctx.letterSpacing = "0px";
++    y += 20 * k;
++    ctx.fillStyle = COLOR.tinta;
++    ctx.font = `800 ${tamanoTitulo}px "Bricolage Grotesque", sans-serif`;
++    for (const linea of lineasTitulo) { y += tamanoTitulo * 1.12; ctx.fillText(linea, izq, y - tamanoTitulo * 0.12); }
++    y += 22 * k + 40 * k;
++    ctx.fillStyle = "#4A5578";
++    ctx.font = `500 ${Math.round(38 * k)}px "DM Sans", sans-serif`;
++    const lugarCorto = renglones(ctx, lugar, anchoTexto)[0] || "";
++    ctx.fillText(lugarCorto, izq, y);
++    ctx.setLineDash([3 * k, 5 * k]);
++    ctx.lineWidth = 2.5 * k;
++    ctx.strokeStyle = "#4A5578";
++    ctx.beginPath(); ctx.moveTo(izq, y + 8 * k); ctx.lineTo(izq + ctx.measureText(lugarCorto).width, y + 8 * k); ctx.stroke();
++    ctx.setLineDash([]);
++    y += 14 * k + 48 * k;
++    ctx.fillStyle = COLOR.tinta;
++    ctx.font = `800 ${Math.round(42 * k)}px "DM Sans", sans-serif`;
++    ctx.fillText(cuando, izq, y);
++    if (precio) {
++      y += 22 * k + 50 * k;
++      ctx.font = `800 ${Math.round(46 * k)}px "Bricolage Grotesque", sans-serif`;
++      ctx.fillText(precio, izq, y);
++    }
++
++    // Abajo: dónde encontrarlo.
++    ctx.fillStyle = COLOR.suave;
++    ctx.font = '700 36px "DM Sans", sans-serif';
++    ctx.fillText("Lo vi en", 96, f.abajo - 92);
++    etiqueta(ctx, "lagestoriacultural.uy", 96, f.abajo - 70, { tamano: 44 });
++    // La imagen como archivo (para compartirla) y como "data:" (para mostrarla y bajarla: la política de seguridad
++    // del sitio no deja mostrar imágenes "blob:").
++    const archivo = await new Promise((ok) => lienzo.toBlob(ok, "image/png"));
++    return { archivo, dataUrl: lienzo.toDataURL("image/png") };
++  }
++
++
++  // La vista previa: la imagen, y los botones para compartirla (Instagram aparece en el menú del celular) o bajarla.
++  let vistaTarjeta = null;
++  function cerrarVistaTarjeta() {
++    vistaTarjeta?.remove();
++    vistaTarjeta = null;
++  }
++  async function mostrarTarjeta(id, inicio, formato) {
++    const evento = porId.get(id);
++    if (!evento) return;
++    contarUso(`tarjeta-${formato}`);
++    const { archivo: imagen, dataUrl } = await dibujarTarjeta(evento, inicio, formato);
++    cerrarVistaTarjeta();
++    const nombre = `la-gestoria-${plano(evento.titulo).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40)}-${formato}.png`;
++    const archivo = new File([imagen], nombre, { type: "image/png" });
++    const puedeCompartir = Boolean(navigator.canShare?.({ files: [archivo] }));
++    const botonCompartir = puedeCompartir
++      ? el("button", { type: "button", class: "boton-principal" }, "Compartir")
++      : null;
++    botonCompartir?.addEventListener("click", async () => {
++      try {
++        await navigator.share({ files: [archivo], title: evento.titulo });
++        contarUso(`tarjeta-${formato}-compartida`);
++      } catch (_) { /* la persona cerró el menú */ }
++    });
++    vistaTarjeta = el("div", { class: "vista-tarjeta", role: "dialog", "aria-modal": "true", "aria-label": "Imagen para compartir" },
++      el("div", { class: "vista-tarjeta-caja" },
++        el("button", { type: "button", class: "cerrar-filtros vista-tarjeta-cerrar", "aria-label": "Cerrar", "data-cerrar-tarjeta": "" }, "×"),
++        el("img", { src: dataUrl, alt: `Tarjeta de ${evento.titulo} para compartir`, class: `vista-tarjeta-img ${formato}` }),
++        el("p", { class: "vista-tarjeta-ayuda" }, puedeCompartir
++          ? "Tocá Compartir y elegí Instagram (historia o posteo), WhatsApp o donde quieras."
++          : "Bajala y subila a Instagram como historia o posteo."),
++        el("div", { class: "vista-tarjeta-botones" }, botonCompartir,
++          el("a", { href: dataUrl, download: nombre, class: `boton-secundario${puedeCompartir ? "" : " boton-principal"}` }, "Descargar"))));
++    vistaTarjeta.addEventListener("click", (e) => {
++      if (e.target === vistaTarjeta || e.target.closest("[data-cerrar-tarjeta]")) cerrarVistaTarjeta();
++    });
++    document.body.appendChild(vistaTarjeta);
++    (botonCompartir || vistaTarjeta.querySelector("a")).focus();
++  }
++
+   // Copia de la tarjeta de un evento, mostrando una función en particular.
+   function tarjetaPara(evento, [inicio, sinHora]) {
+     const copia = evento.tarjeta.cloneNode(true);
+@@ -2061,7 +2395,7 @@
+       boton.setAttribute("aria-expanded", String(!plegado));
+     } else if (d.compartir) {
+       const [id, inicio] = d.compartir.split("|");
+-      compartir(id, inicio);
++      abrirMenuCompartir(boton, id, inicio);
+     } else if ("verTodos" in d) {
+       boton.closest(".carril").classList.remove("recortado");
+       boton.remove();
+diff --git a/cartelera/sitio/estaticos/estilos.css b/cartelera/sitio/estaticos/estilos.css
+index 3d835e9..a336f7e 100644
+--- a/cartelera/sitio/estaticos/estilos.css
++++ b/cartelera/sitio/estaticos/estilos.css
+@@ -1035,3 +1035,32 @@ body.imprimiendo .imprimible { display: block; }
+ .imp-detalle li { break-inside: avoid; margin-bottom: 3px; }
+ .imp-cuando { font-weight: 700; margin-right: 6px; }
+ * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
++
++/* --- Compartir: el menú chico y la vista previa de la tarjeta para Instagram --------------------- */
++.menu-compartir {
++  position: fixed; z-index: 70; display: grid; gap: 2px; min-width: 230px; padding: 6px;
++  background: var(--superficie); color: var(--texto); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 5px 5px 0 var(--coral);
++}
++.menu-compartir button {
++  display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 6px 12px; border: 0; border-radius: 10px;
++  background: none; color: inherit; font: inherit; font-weight: 700; text-align: left; cursor: pointer;
++}
++.menu-compartir button:hover, .menu-compartir button:focus-visible { background: color-mix(in srgb, var(--mostaza) 30%, transparent); }
++@media (max-width: 600px) {
++  /* En el celular, el menú sale abajo, a todo lo ancho (más fácil de tocar). */
++  .menu-compartir { left: 8px !important; right: 8px; top: auto !important; bottom: 86px; }
++}
++.vista-tarjeta { position: fixed; inset: 0; z-index: 80; display: grid; place-items: center; padding: 16px; background: rgba(24, 38, 74, 0.7); }
++.vista-tarjeta-caja {
++  position: relative; display: flex; flex-direction: column; align-items: center; gap: 12px; max-height: calc(100vh - 32px);
++  background: var(--superficie); color: var(--texto); border: 2px solid var(--borde); border-radius: var(--radio); box-shadow: 6px 6px 0 var(--coral); padding: 18px;
++}
++.vista-tarjeta-img { display: block; max-width: min(78vw, 360px); max-height: calc(100vh - 210px); width: auto; height: auto; border-radius: 10px; border: 2px solid var(--borde); }
++.vista-tarjeta-ayuda { margin: 0; max-width: 360px; text-align: center; font-size: 0.9rem; color: var(--texto-suave); }
++.vista-tarjeta-botones { display: flex; gap: 10px; }
++.vista-tarjeta-botones .boton-principal, .vista-tarjeta-botones .boton-secundario { min-height: 42px; padding: 8px 18px; font-size: 1rem; text-decoration: none; display: inline-flex; align-items: center; }
++.vista-tarjeta-cerrar {
++  position: absolute; top: -14px; right: -14px; display: inline-grid !important; place-items: center; width: 40px; height: 40px;
++  border: 2px solid var(--borde); border-radius: 50%; background: var(--superficie); color: var(--texto); font-size: 1.4rem; font-weight: 800; line-height: 1; cursor: pointer;
++}
++
+diff --git a/cartelera/sitio/plantillas/index.html.j2 b/cartelera/sitio/plantillas/index.html.j2
+index 1f6331d..de4651f 100644
+--- a/cartelera/sitio/plantillas/index.html.j2
++++ b/cartelera/sitio/plantillas/index.html.j2
+@@ -9,7 +9,7 @@
+ {% include "_metadatos.html.j2" %}
+   <!-- Política de contenido: solo corre código del propio sitio (y Leaflet, verificado); ningún script en línea.
+        Las imágenes de los eventos vienen de cada fuente, siempre por https. -->
+-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://cdnjs.cloudflare.com; img-src 'self' https: data:; font-src 'self'; connect-src 'self' https://la-gestoria-cultural.goatcounter.com https://routing.openstreetmap.de; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
++  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://cdnjs.cloudflare.com; img-src 'self' https: data:; font-src 'self'; connect-src 'self' https://la-gestoria-cultural.goatcounter.com https://routing.openstreetmap.de https://wsrv.nl https://tickantel.cdn.antel.net.uy; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+   <meta name="referrer" content="strict-origin-when-cross-origin">
+   <link rel="preload" href="fuentes/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+   <!-- Ícono de la pestaña: SVG para los navegadores actuales, PNG para los viejos y para la pantalla de inicio del iPhone. -->
+diff --git a/cartelera/sitio/plantillas/que-es.html.j2 b/cartelera/sitio/plantillas/que-es.html.j2
+index 4758e14..c61872c 100644
+--- a/cartelera/sitio/plantillas/que-es.html.j2
++++ b/cartelera/sitio/plantillas/que-es.html.j2
+@@ -58,7 +58,7 @@
+       <summary><h2>Privacidad</h2></summary>
+       <p>El sitio no usa cookies y no tiene cuentas. Lo que elegís (tu plan, lo que excluís, el modo claro u oscuro) queda guardado solo en tu navegador: no llega a ningún servidor, y se borra con "Vaciar" o borrando los datos del sitio en el navegador.</p>
+       <p>Las visitas se cuentan de forma anónima con <a href="https://www.goatcounter.com">GoatCounter</a>, un contador sin fines de lucro: no usa cookies ni guarda tu IP. Solo registra qué página se visitó, desde dónde se llegó (por ejemplo, un enlace en WhatsApp) y el tamaño de la pantalla, para saber cuánta gente usa el sitio. En los eventos especiales también cuenta cuántas veces se usan algunos botones (por ejemplo, "Guardar en PDF"), sin saber quién.</p>
+-      <p>Al abrir el mapa, tu navegador se conecta a OpenStreetMap, que ofrece los mapas, y a cdnjs, un servicio gratuito desde donde se descarga la herramienta que los dibuja. Las imágenes de cada evento se cargan directamente desde la página de su fuente.</p>
++      <p>Al abrir el mapa, tu navegador se conecta a OpenStreetMap, que ofrece los mapas, y a cdnjs, un servicio gratuito desde donde se descarga la herramienta que los dibuja. Las imágenes de cada evento se cargan directamente desde la página de su fuente. Si armás la imagen de un evento para compartir, el flyer se pide a <a href="https://wsrv.nl/">wsrv.nl</a>, un servicio gratuito de imágenes.</p>
+       <p>Si armás un recorrido en Especiales, para dibujar el camino a pie entre tus paradas el mapa se lo pide al servicio de rutas de OpenStreetMap que mantiene <a href="https://routing.openstreetmap.de/about.html">FOSSGIS</a>, una asociación sin fines de lucro. Solo van las ubicaciones de esos lugares, que son públicas; nada tuyo.</p>
+       <p>Si escribís por el formulario de contacto (de Google Forms), tu correo y tu mensaje se usan solo para responderte.</p>
+       {%- if agrega_tu_evento %}

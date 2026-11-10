@@ -15,6 +15,10 @@ __pycache__/
 # Investigación de fuentes: queda solo en el equipo, no se publica.
 /docs/fuentes.md
 
+# Notas de trabajo: quedan solo en el equipo.
+/docs/pendientes.md
+/docs/instagram-bares.md
+
 # Vista previa local
 .claude/launch.json
 /brag-output*/
