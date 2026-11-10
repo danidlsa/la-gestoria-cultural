@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10T20:03:31.188965-03:00",
+ "generado": "2026-11-10T20:26:25.148196-03:00",
  "cantidad": 226,
  "lugares": [
   {
@@ -1106,12 +1106,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu-laboratorio-tecnologico-del-uruguay",
-   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
+   "id": "latu",
+   "nombre": "LATU",
    "alias": [
-    "LATU"
+    "LATU - Laboratorio Tecnológico del Uruguay"
    ],
-   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
+   "direccion": "Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
