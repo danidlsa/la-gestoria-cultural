@@ -1,6 +1,6 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-10T20:18:06.754742-03:00",
+ "corrida": "2026-11-10T20:41:58.871493-03:00",
  "ok": true,
  "cantidad": 15,
  "errores": [],
@@ -97,13 +97,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-10T17:30:00-03:00",
-     "fin": "2026-11-10T19:19:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-11T17:30:00-03:00",
      "fin": "2026-11-11T19:19:00-03:00",

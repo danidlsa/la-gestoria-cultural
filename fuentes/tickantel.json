@@ -1,170 +1,12 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-10T20:13:38.857392-03:00",
+ "corrida": "2026-11-10T20:37:28.389102-03:00",
  "ok": true,
- "cantidad": 126,
+ "cantidad": 125,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021489",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021489/festival-musica-que-transforma",
-   "titulo": "Festival Música Que Transforma",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "El Festival Música que Transforma reúne cada año en Montevideo a las agrupaciones sinfónicas y corales del Programa Un Niño Un Instrumento de los núcleos de todo el país. Son conciertos muy especiales, que permiten compartir con el público el crecimiento y la evolución artística de los niños y…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-10T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-17T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-08T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-15T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021489/festival-musica-que-transforma",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021489/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021755",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021755/particulas-ninguna-higuera-guadalupe-calzada",
-   "titulo": "Partículas: Ninguna Higuera + Guadalupe Calzada",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-10T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021755/particulas-ninguna-higuera-guadalupe-calzada",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021755/BANNER.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021230",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021230/sombras-por-supuesto",
-   "titulo": "Sombras por supuesto",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "La compañía El Silencio vuelve a reunirse después de obras tan emblemáticas como Algo de Ruido hace, El tiempo todo entero y Fauna. Diez años después, se preguntan cómo se vinculan hoy esos cuerpos y esas voces, si conservan entre sí los lazos que supieron construir o si están llamados a fundar…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-10T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-11T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": {
-    "desde": 2000.0,
-    "hasta": 2000.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021230/sombras-por-supuesto",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021230/Sombras_Tickantel_2.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40020117",
@@ -273,6 +115,58 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021658/BANNER_MI_AMIGA_FANTASMA.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021230",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021230/sombras-por-supuesto",
+   "titulo": "Sombras por supuesto",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "La compañía El Silencio vuelve a reunirse después de obras tan emblemáticas como Algo de Ruido hace, El tiempo todo entero y Fauna. Diez años después, se preguntan cómo se vinculan hoy esos cuerpos y esas voces, si conservan entre sí los lazos que supieron construir o si están llamados a fundar…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-10T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-11T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    }
+   ],
+   "precio": {
+    "desde": 2000.0,
+    "hasta": 2000.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021230/sombras-por-supuesto",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021230/Sombras_Tickantel_2.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1901,6 +1795,72 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021871/web_(PLMCH)2026_(1).jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021489",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021489/festival-musica-que-transforma",
+   "titulo": "Festival Música Que Transforma",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "El Festival Música que Transforma reúne cada año en Montevideo a las agrupaciones sinfónicas y corales del Programa Un Niño Un Instrumento de los núcleos de todo el país. Son conciertos muy especiales, que permiten compartir con el público el crecimiento y la evolución artística de los niños y…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-10T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-08T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-15T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021489/festival-musica-que-transforma",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021489/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
