@@ -168,7 +168,7 @@ def test_el_mismo_evento_en_varios_posts_es_un_borrador_y_el_lugar_sale_del_pin(
     assert a["id"] == b["id"] == "mbc-20261113"
     (sin_pin,) = ig.borradores_del_post(post(5, 9, "Una década de planes merecía una noche así, con todo\n13 de noviembre 21 hs"), cuenta, perfil, AHORA)
     junto = ig.juntar(ig.juntar(a, b), sin_pin)
-    assert junto["titulo"] == "Se suma otra banda!" and len(junto["posts"]) == 3  # el título más corto
+    assert junto["titulo"] == "Se suma otra banda" and len(junto["posts"]) == 3  # el título más corto
     assert junto["url"].endswith("/5/")  # el enlace principal, el post más reciente
     assert junto["lugar"] == "Museo Oceanográfico" and junto["barrio"] is None  # aunque el último post no traiga 📍
     renglon = ig.renglon_del_borrador(junto)
@@ -222,7 +222,7 @@ def test_una_agenda_es_un_borrador_por_dia():
     assert mes[2]["id"] == semana[1]["id"] == "theshannonuy-20261113"
     junto = ig.juntar(mes[2], semana[1])
     assert junto["funciones"] == [{"inicio": "2026-11-13T22:00:00-03:00", "sin_hora": False}]
-    assert "(hora a confirmar)" in ig.renglon_del_borrador(mes[0])
+    assert "(la hora está en el post)" in ig.renglon_del_borrador(mes[0])
     evento = ig.evento_de(semana[1], AHORA)
     assert evento.precio.desde == 350 and evento.titulo == "PROYECTO OLDIES"
 
@@ -244,3 +244,52 @@ def test_un_dia_con_numero_sin_hora_entra_como_hora_a_confirmar():
     # Pero "el viernes" sin hora, o un período, no.
     assert ig.borradores_del_post(_post(2, "Este viernes nos vemos", "2026-11-09"), {"usuario": "bar"}, {}, AHORA) == []
     assert ig.borradores_del_post(_post(3, "Cerramos del 20/12 al 5/1", "2026-11-09"), {"usuario": "bar"}, {}, AHORA) == []
+
+
+
+def test_lo_que_mostraron_los_posts_reales():
+    cuenta = {"usuario": "bar"}
+    # Un ciclo: "Martes de noviembre / 21:00 h" son todos los martes que quedan del mes.
+    (taberna,) = ig.borradores_del_post(_post(1, "Se acerca el cierre pero aún quedan martes y mucha música.\n\n"
+                                                 "Martes de noviembre / 21:00 h.\nEntrada libre.", "2026-11-09"), cuenta, {}, AHORA)
+    assert [f["inicio"][:16] for f in taberna["funciones"]] == ["2026-11-10T21:00", "2026-11-17T21:00", "2026-11-24T21:00"]
+    # Un sorteo no es un evento, aunque diga "jueves 12/11".
+    sorteo = "Sorteamos una mesa para 10 personas.\n\nAnunciamos ganador el jueves 12/11 👀\n\nVálido hasta el 31/12/2026."
+    assert ig.borradores_del_post(_post(2, sorteo, "2026-11-09"), cuenta, {}, AHORA) == []
+    # Títulos sin la fecha, sin propaganda y con el nombre de abajo si es corto.
+    assert ig.titulo_de("Este miércoles en Noches De Ensayos Abiertos\n\nLali Gaspari\n\nMúsica y compositora.", "x") == \
+        "Noches De Ensayos Abiertos · Lali Gaspari"
+    assert ig.titulo_de("FERIADO + MONKELIS I 2 DE DICIEMBRE EN LA CRETINA\n\n@feriado.uy se presenta", "x") == "FERIADO + MONKELIS"
+    assert ig.titulo_de("🍻🎧 ¡ENTRADA GRATIS! INSCRIBITE EN EL LINK DE NUESTRA BIO.\nLa noche tiene dos lados", "x") == \
+        "La noche tiene dos lados"
+    assert ig.titulo_de("Este viernes 13 de noviembre celebramos la Noche de las Librerías en Mercado Ferrando", "x") == \
+        "Celebramos la Noche de las Librerías en Mercado Ferrando"
+    # Dos horas para el mismo día: la que aparece primero (el afiche de Mané dice 20 h).
+    mane = ("El próximo domingo 6 de diciembre, a las 20 horas, Mané abre las puertas.\n\n"
+            "📍 LA CRETINA\n🗓️ Domingo 6 de diciembre\n🎶 19:00 h")
+    (b,) = ig.borradores_del_post(_post(3, mane), {"usuario": "lacretinacasa", "nombre": "La Cretina"}, {}, AHORA)
+    assert b["funciones"][0]["inicio"][11:16] == "20:00"
+    # El ciclo del mes y el post de un martes se juntan sin perder días.
+    (un_martes,) = ig.borradores_del_post(_post(4, "Qué martes se viene\nMartes 10 de noviembre / 21:00 h.", "2026-11-10"), cuenta, {}, AHORA)
+    assert len(ig.juntar(taberna, un_martes)["funciones"]) == 3
+
+
+def test_lo_que_ya_no_sale_se_va_salvo_lo_aprobado(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    (tmp_path / "bares.toml").write_text('[[bar]]\nusuario = "elbar"\n')
+    monkeypatch.setattr(ig, "CONFIG", tmp_path / "bares.toml")
+    monkeypatch.setenv("INSTAGRAM_TOKEN", "x")
+    viejo = {"id": "elbar-20261120", "usuario": "elbar", "titulo": "Sorteo", "lugar": "Bar", "texto": "t",
+             "funciones": [{"inicio": "2026-11-20T21:00:00-03:00", "sin_hora": False}], "url": "https://www.instagram.com/p/9/"}
+    ig.guardar_borradores({"elbar-20261120": viejo, "elbar-20261125": {**viejo, "id": "elbar-20261125", "aprobado": True,
+                           "funciones": [{"inicio": "2026-11-25T21:00:00-03:00", "sin_hora": False}]}})
+
+    def responder(pedido):
+        if pedido.url.path.endswith("/me"):
+            return httpx.Response(200, json={"instagram_business_account": {"id": "1"}})
+        return httpx.Response(200, json={"business_discovery": {"name": "Bar", "media": {"data": []}}})
+
+    monkeypatch.setattr(ig, "TRANSPORTE", httpx.MockTransport(responder))
+    monkeypatch.setattr(ig, "avisos_en_github", lambda: None)  # sin GitHub: valen las decisiones guardadas
+    eventos, _ = ig.scrapear(None, AHORA)
+    assert set(ig.cargar_borradores()) == {"elbar-20261125"} and [e.id_externo for e in eventos] == ["elbar-20261125"]

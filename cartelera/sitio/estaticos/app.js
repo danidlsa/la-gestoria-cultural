@@ -352,6 +352,10 @@
   }
 
   // Copia de la tarjeta de un evento, mostrando una función en particular.
+  // Los posts de bares (Instagram) sin hora en el texto: casi siempre está en la imagen del post.
+  const horaEnInstagram = (evento) => /instagram\.com\//.test(evento.url);
+  const sinHoraTexto = (evento) => (horaEnInstagram(evento) ? "Hora en Instagram" : "Todo el día");
+
   function tarjetaPara(evento, [inicio, sinHora]) {
     const copia = evento.tarjeta.cloneNode(true);
     const hora = copia.querySelector(".proxima");
@@ -360,7 +364,7 @@
       marcarCompartir(copia.querySelector(".compartir"), evento, inicio);
       return copia;
     }
-    hora.textContent = textoFuncion([inicio, sinHora]);
+    hora.textContent = textoFuncion([inicio, sinHora]) + (sinHora && horaEnInstagram(evento) ? " · hora en Instagram" : "");
     hora.dateTime = inicio;
     const otras = evento.funciones.length - 1;
     const mas = copia.querySelector(".mas");
@@ -1544,7 +1548,7 @@
       el("ul", {}, ...elegidas.map((p) => {
         const evento = porId.get(p.id);
         return el("li", {},
-          el("span", { class: "pc-detalle-hora" }, p.sinHora ? "Todo el día" : p.inicio.slice(11, 16)),
+          el("span", { class: "pc-detalle-hora" }, p.sinHora ? sinHoraTexto(evento) : p.inicio.slice(11, 16)),
           el("span", { class: "mi-plan-evento" },
             el("a", { href: evento.url, target: "_blank", rel: "noopener" }, evento.titulo),
             el("small", {}, nombreLugar(evento))),
@@ -1643,7 +1647,7 @@
             return el("button", {
               type: "button", class: `horario${enPlan ? " en-plan" : ""}`, "data-plan": clavePlan(id, inicio),
               "aria-pressed": String(enPlan), title: enPlan ? "Quitar de mi plan" : "Agregar a mi plan",
-            }, `${enPlan ? "✓" : "＋"} ${sinHora ? "Todo el día" : inicio.slice(11, 16)}`);
+            }, `${enPlan ? "✓" : "＋"} ${sinHora ? sinHoraTexto(evento) : inicio.slice(11, 16)}`);
           })),
           el("div", { class: "plan-info" },
             el("a", { href: evento.url, target: "_blank", rel: "noopener" }, evento.titulo),
