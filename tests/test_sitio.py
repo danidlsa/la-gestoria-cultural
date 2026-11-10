@@ -82,6 +82,14 @@ def test_rock_y_pop_va_con_otros_en_los_generos():
     assert datos["subcategoriasOtros"]["musica"] == "Rock, pop y otros"
 
 
+def test_el_buscador_encuentra_el_nombre_del_ciclo():
+    from cartelera.sitio.generar import datos_para_el_navegador
+    evento = {"id": "1", "titulo": "La caja negra", "categoria": "cine", "lugar_id": "l", "ciclo_id": "c1",
+              "fuentes": [{"url": "https://x.uy"}], "funciones": [{"inicio": "2026-11-11T19:00:00-03:00"}]}
+    datos = datos_para_el_navegador([evento], {"l": {"nombre": "Terminal Goes"}}, [{"id": "c1", "titulo": "Ciclo de Cine Accesible 2026"}])
+    assert "Cine Accesible" in datos["eventos"][0]["texto"]
+
+
 def test_un_solo_enlace_y_nunca_la_cartelera():
     from cartelera.sitio.generar import entrada_principal, promos_ordenadas
     fuentes = [{"fuente": "cartelera_mvd", "url": "https://cartelera.montevideo.com.uy/x"}]

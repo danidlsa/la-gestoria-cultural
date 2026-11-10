@@ -129,3 +129,24 @@ def test_entraste_solo_montevideo_y_con_sala():
     assert clave_de_url(fiesta.url) == "entraste:pariseo-vie-13-nov"
     vermut = eventos["Vermut Session"]
     assert (vermut.categoria, vermut.precio.gratis) == ("musica", True)  # a las 19:00 no es una fiesta
+
+
+def test_tikzet_ficha_de_una_sala_chica(pagina):
+    import json
+    from datetime import datetime
+
+    from cartelera.scrapers import tikzet
+
+    ahora = datetime(2026, 11, 9, 12, 0, tzinfo=MONTEVIDEO)
+    ficha = json.loads(pagina("tikzet_ficha.json"))
+    ficha = ficha.get("event", ficha)
+    evento = tikzet.armar_evento(ficha, ahora)
+    assert (evento.titulo, evento.lugar.nombre, evento.lugar.direccion) == ("Homenaje a Gilberto Gil", "El Hormiguero", "San Salvador 1644")
+    assert evento.funciones[0].inicio.isoformat() == "2026-11-12T21:00:00-03:00"  # de UTC a Montevideo
+    assert (evento.categoria, evento.precio.desde) == ("musica", 350)
+    assert clave_de_url(evento.url) == "tikzet:homenaje-a-gilberto-gil"
+    # Fuera de Uruguay, cursos y rifas: afuera. Una productora no es la sala: queda la dirección.
+    assert tikzet.armar_evento({**ficha, "country": 0}, ahora) is None
+    assert tikzet.armar_evento({**ficha, "name": "Curso de Cocina Saludable"}, ahora) is None
+    otra = tikzet.armar_evento({**ficha, "organization": {"name": "Green Producciones y Eventos"}, "address": "Buenos Aires 314"}, ahora)
+    assert (otra.lugar.nombre, otra.productor) == ("Buenos Aires 314", "Green Producciones y Eventos")
