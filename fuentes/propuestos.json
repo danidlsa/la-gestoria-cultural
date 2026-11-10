@@ -1,8 +1,54 @@
 {
  "fuente": "propuestos",
- "corrida": "2026-11-10T00:50:37.533778-03:00",
+ "corrida": "2026-11-10T10:28:14.167175-03:00",
  "ok": true,
- "cantidad": 0,
+ "cantidad": 1,
  "errores": [],
- "eventos": []
+ "eventos": [
+  {
+   "fuente": "propuestos",
+   "id_externo": "7b000b178cd3",
+   "url": "https://florencio.montevideo.gub.uy/evento/jorge-bonaldi-y-adriana-ducret",
+   "titulo": "Jorge Bonaldi y Adriana Ducret",
+   "categoria": "infantil",
+   "categoria_segura": true,
+   "descripcion_corta": "Nos vemos el viernes 13 de noviembre en Centro Cultural Florencio Sanchéz donde compartiremos con niños, niñas y familias algunos de nuestros más grandes éxitos desde “Canciones para no dormir la siesta” hasta la actualidad. Entrada libre. ¡Será una fiesta! Jorge Bonaldi y Adriana Ducret. Entrada…",
+   "lugar": {
+    "nombre": "Centro Cultural Florencio Sánchez",
+    "direccion": "Grecia 3281, Cerro, Montevideo",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://florencio.montevideo.gub.uy/evento/jorge-bonaldi-y-adriana-ducret",
+     "via": "propuestos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/7b000b178cd3.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  }
+ ]
 }

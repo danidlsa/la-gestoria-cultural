@@ -1,15 +1,7 @@
 {
- "generado": "2026-11-10T00:50:47.613872-03:00",
+ "generado": "2026-11-10T10:28:25.862200-03:00",
  "cantidad": 22,
  "ciclos": [
-  {
-   "id": "ciclo-encuentro-de-murga-joven-2026",
-   "titulo": "Encuentro de Murga Joven 2026",
-   "lugar_id": "centro-cultural-las-duranas",
-   "desde": "2026-11-09T20:00:00-03:00",
-   "hasta": "2026-11-16T20:00:00-03:00",
-   "cantidad": 1
-  },
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
@@ -25,6 +17,14 @@
    "desde": "2026-11-10T17:00:00-03:00",
    "hasta": "2026-11-16T19:10:00-03:00",
    "cantidad": 8
+  },
+  {
+   "id": "ciclo-encuentro-de-murga-joven-2026",
+   "titulo": "Encuentro de Murga Joven 2026",
+   "lugar_id": "centro-cultural-las-duranas",
+   "desde": "2026-11-10T20:00:00-03:00",
+   "hasta": "2026-11-16T20:00:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-particulas",
