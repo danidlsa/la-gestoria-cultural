@@ -1,8 +1,8 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-10T10:27:54.208296-03:00",
+ "corrida": "2026-11-10T14:25:22.772523-03:00",
  "ok": true,
- "cantidad": 6,
+ "cantidad": 7,
  "errores": [],
  "eventos": [
   {
@@ -159,6 +159,46 @@
    "beneficios": [],
    "imagen_url": "https://img.cobraticket.uy/l5ae6DOvbZNupu-INSZqX.jpg",
    "productor": "EPIC",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "559253",
+   "url": "https://cobraticket.uy/e/noche-no7-by-jack-daniels-559253",
+   "titulo": "Noche Nº7 by Jack Daniel’s",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Lotus WTC",
+    "direccion": "Contador Luis E. Lecueder",
+    "lat": -34.9042323,
+    "lon": -56.1360561,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T23:59:00-03:00",
+     "fin": "2026-11-22T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/noche-no7-by-jack-daniels-559253",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/g5Sm_b5MfXUUM6p-r59Ii.jpg",
+   "productor": "Lotus WTC",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

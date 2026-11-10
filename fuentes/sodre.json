@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-10T10:21:01.799011-03:00",
+ "corrida": "2026-11-10T14:18:37.932016-03:00",
  "ok": true,
- "cantidad": 38,
+ "cantidad": 39,
  "errores": [],
  "eventos": [
   {
@@ -1757,6 +1757,48 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa"
+   ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13766",
+   "url": "https://sodre.gub.uy/espectaculos/gala-lirica-3/",
+   "titulo": "Gala Lírica",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Zarzuela y canciones italianas",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-08T20:00:00-03:00",
+     "fin": "2026-12-08T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021799/gala-lirica-zarzuela-y-canciones-italianas",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Destacado-web-12-1-768x420.png",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021799/gala-lirica-zarzuela-y-canciones-italianas"
    ],
    "ciclo": null,
    "muestra": false,

@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-10T10:28:25.862200-03:00",
- "cantidad": 220,
+ "generado": "2026-11-10T14:25:54.265167-03:00",
+ "cantidad": 218,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -167,6 +167,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "asociacion-de-estudiantes-y-profesionales-catolicos-aepc",
+   "nombre": "Asociación de Estudiantes y Profesionales Católicos (AEPC",
+   "alias": [],
+   "direccion": "Bv. Gral. Artigas 1327, 11200 Montevideo",
+   "lat": -34.904099,
+   "lon": -56.164257,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "asociacion-de-sordos-del-uruguay",
    "nombre": "Asociación de Sordos del Uruguay",
    "alias": [],
@@ -199,6 +209,16 @@
    "direccion": null,
    "lat": -34.90642,
    "lon": -56.19628,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "auditorio-nelly-goitino-del-sodre",
+   "nombre": "Auditorio Nelly Goitiño del SODRE",
+   "alias": [],
+   "direccion": "Av. 18 de Julio 930",
+   "lat": -34.9063824,
+   "lon": -56.1963038,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -769,16 +789,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "espacio-cultural-federico-garcia-lorca",
-   "nombre": "Espacio Cultural Federico García Lorca",
-   "alias": [],
-   "direccion": "Av. Brasil 3085",
-   "lat": -34.913432,
-   "lon": -56.149734,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "espacio-la-huella",
    "nombre": "Espacio La Huella",
    "alias": [],
@@ -1013,6 +1023,16 @@
    "lat": -34.9186471,
    "lon": -56.1559112,
    "barrio": "Punta Carretas",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "jose-enrique-rodo-1995",
+   "nombre": "José Enrique Rodó 1995",
+   "alias": [],
+   "direccion": "Rodo1995",
+   "lat": -34.9033829,
+   "lon": -56.1739249,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1580,29 +1600,11 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "parque-villa-dolores",
-   "nombre": "Parque Villa Dolores",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.9007158,
-   "lon": -56.1452772,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "parque-villa-garcia",
-   "nombre": "Parque Villa García",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.803696,
-   "lon": -56.0803352,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "parque-de-la-amistad",
    "nombre": "Parque de la Amistad",
-   "alias": [],
+   "alias": [
+    "Parque Villa Dolores"
+   ],
    "direccion": "Av. Gral Rivera 3245",
    "lat": -34.902332,
    "lon": -56.144034,
@@ -1648,21 +1650,6 @@
    "direccion": "Rbla. Pdte. Wilson esq, 11200 Montevideo",
    "lat": -34.915753,
    "lon": -56.168935,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "plaza-de-las-pioneras",
-   "nombre": "Plaza de las Pioneras",
-   "alias": [
-    "Las Pioneras",
-    "Espacio Las Pioneras",
-    "Espacio Feminista Las Pioneras",
-    "Plaza Las Pioneras"
-   ],
-   "direccion": "Av. Agraciada, Arroyo Seco",
-   "lat": -34.88435,
-   "lon": -56.19304,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1837,7 +1824,7 @@
    "id": "sala-camacua",
    "nombre": "Sala Camacuá",
    "alias": [],
-   "direccion": "Camacuá 575, 11000 Montevideo, Departame",
+   "direccion": "Camacuá 575",
    "lat": -34.909122,
    "lon": -56.202256,
    "barrio": null,
@@ -1932,8 +1919,8 @@
    "nombre": "Sala Zitarrosa",
    "alias": [],
    "direccion": "Av. 18 de Julio 1012",
-   "lat": -34.90626,
-   "lon": -56.19441,
+   "lat": -34.906238,
+   "lon": -56.194472,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2186,19 +2173,6 @@
    "direccion": "Av.Gral Rivera 3406, 11300 Montevideo, D",
    "lat": -34.902037,
    "lon": -56.140804,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "telon-rojo",
-   "nombre": "Telón Rojo Espacio Teatral",
-   "alias": [
-    "Escuela de Actuación ESCUELA DEL ACTOR. Teatro TELON ROJO",
-    "Teatro Telón Rojo"
-   ],
-   "direccion": "Soriano 1274",
-   "lat": -34.9076556,
-   "lon": -56.188426,
    "barrio": null,
    "ciudad": "Montevideo"
   },

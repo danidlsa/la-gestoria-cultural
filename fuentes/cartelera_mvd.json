@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-10T10:21:52.982499-03:00",
+ "corrida": "2026-11-10T14:19:29.739180-03:00",
  "ok": true,
- "cantidad": 96,
+ "cantidad": 100,
  "errores": [],
  "eventos": [
   {
@@ -398,7 +398,7 @@
    "beneficios": [
     {
      "programa": "Socio Espectacular",
-     "tipo": "Beneficio para Socio Espectacular",
+     "tipo": "Socio Espectacular y El Galpón libre con cupo limitado, cubierto éste 50% descuento con cupo limitado",
      "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?27588"
     }
    ],
@@ -1152,6 +1152,74 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41873.jpg",
    "productor": "Micaela Carrión",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "34547",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34547",
+   "titulo": "Cartografía sobre la identidad - Mariana Zaffaroni",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Cartografía sobre la identidad aborda el proceso de construcción de la identidad de Mariana Zaffaroni, secuestrada en Argentina en 1976, cuando tenía apenas 18 meses, junto a sus padres, uruguayos detenidos desaparecidos. Gracias a la búsqueda incansable de su familia biológica, a los 17 años le…",
+   "lugar": {
+    "nombre": "Sala Camacuá",
+    "direccion": "Camacuá 575",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 800.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34547",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34547"
+    },
+    {
+     "programa": "Club El País",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34547"
+    },
+    {
+     "programa": "AEBU",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34547"
+    }
+   ],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42312.jpg",
+   "productor": "Fernando Parodi",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -3793,72 +3861,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34629",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34629",
-   "titulo": "La ronda",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Telón Rojo presenta La ronda , una de las obras más célebres y provocadoras de la literatura europea, escrita por el dramaturgo austríaco Arthur Schnitzler en 1897. A través de una cadena de encuentros entre personajes de distintos mundos y clases sociales, la obra explora con humor, ironía y…",
-   "lugar": {
-    "nombre": "Telón Rojo Espacio Teatral",
-    "direccion": "Soriano 1274",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-22T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34629",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41893.jpg",
-   "productor": "Matías Laglère - Manuel Miranda",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34678",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34678",
    "titulo": "Las viejas",
@@ -4843,6 +4845,153 @@
   },
   {
    "fuente": "cartelera_mvd",
+   "id_externo": "4791",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?4791",
+   "titulo": "Murga madre",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Estrenada en 2002, Murga Madre es una obra de teatro creada por Eduardo \"Pitufo\" Lombardo, Pablo \"Pinocho\" Routín y Fernando Toja. Dos personajes sin nombre, sin tiempo y sin lugar habitan un espacio donde los recuerdos aparecen fragmentados. A través de canciones, silencios y encuentros intentan…",
+   "lugar": {
+    "nombre": "El Galpón - Sala César Campodónico",
+    "direccion": "Av. 18 de Julio 1618",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 900.0,
+    "hasta": 900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?4791",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular y El Galpón 50 % con cupo limitado",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?4791"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?4791"
+    },
+    {
+     "programa": "Club El País",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?4791"
+    }
+   ],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42311.jpg",
+   "productor": "Fernando Toja",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "33534",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33534",
+   "titulo": "Música de regreso a casa",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Viernes de noche. Una mujer avisa que ya salió de la oficina. Enciende la radio. Maneja. Nunca llega. “Hay noches que no sé si soy yo la que maneja el auto, o si es el auto que me maneja a mí.” Música de regreso a casa transcurre en ese recorrido donde la ruta se vuelve escenario y los pensamientos…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño del SODRE - Sala Héctor Tosar",
+    "direccion": "Av. 18 de Julio 930",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33534",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular gratis",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33534"
+    }
+   ],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/40446.jpg",
+   "productor": "Victoria Vera",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
    "id_externo": "34643",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34643",
    "titulo": "Napas subterráneas",
@@ -5182,6 +5331,81 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42158.jpg",
    "productor": "Federico Longo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "30834",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?30834",
+   "titulo": "Parque temático",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "A la madrugada y sola, una periodista cultural se fuerza en escribir sobre un espectáculo que califica de 'medio pelo', cuando el déficit atencional, el multitasking y otros efectos del capitalismo tardío, la empujan una crisis neurótica donde fantasea con llevar a un montón de gente a un festival…",
+   "lugar": {
+    "nombre": "Teatro Stella D'Italia - La Gaviota",
+    "direccion": "Mercedes 1805",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 550.0,
+    "hasta": 550.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?30834",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Promo grupal",
+     "tipo": "Promo 2 x $ 800",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?30834"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?30834"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?30834"
+    }
+   ],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42298.jpg",
+   "productor": "Agustín Luque",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -6266,6 +6490,51 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41955.jpg",
    "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "34962",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34962",
+   "titulo": "Zumbido",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Un espectáculo de comedia que te lleva a los primeros (y fallidos) intentos de existir en redes sociales. Iara se sumerge en lo más profundo de la web de los 2010s: ese escrache en Twitter que te arruinó la vida, la foto de Facebook que te persigue hasta hoy y la primera vez que, en un chat de MSN…",
+   "lugar": {
+    "nombre": "UnderMovie",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T20:45:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 800.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34962",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42306.jpg",
+   "productor": "Federico Novick",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
