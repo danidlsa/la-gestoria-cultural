@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-10T14:25:54.265167-03:00",
- "cantidad": 218,
+ "generado": "2026-11-10T19:49:05.456894-03:00",
+ "cantidad": 226,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -288,6 +288,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "buenos-aires-314",
+   "nombre": "Buenos Aires 314",
+   "alias": [],
+   "direccion": "Buenos Aires 314",
+   "lat": -34.9095986,
+   "lon": -56.2082176,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "bulevar-general-artigas-3946",
    "nombre": "Bulevar General Artigas 3946",
    "alias": [],
@@ -334,6 +344,16 @@
    "direccion": "Canelones 1963",
    "lat": -34.907325,
    "lon": -56.1728223,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "canelones-2150",
+   "nombre": "Canelones 2150",
+   "alias": [],
+   "direccion": "Canelones 2150",
+   "lat": -34.9071895,
+   "lon": -56.168825,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -651,6 +671,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "debbie-music-club",
+   "nombre": "Debbie Music Club",
+   "alias": [],
+   "direccion": "Dr. Aquiles R. Lanza 1234, 11100 Montevi",
+   "lat": -34.907834,
+   "lon": -56.187646,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "diomedes-libros",
    "nombre": "Diomedes Libros",
    "alias": [],
@@ -697,6 +727,16 @@
    "direccion": "25 de Mayo 591, 11000 Montevideo, Depart",
    "lat": -34.90505,
    "lon": -56.203959,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "el-hormiguero",
+   "nombre": "El Hormiguero",
+   "alias": [],
+   "direccion": "San Salvador 1644",
+   "lat": -34.9116208,
+   "lon": -56.1793355,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -883,6 +923,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "facultad-de-informacion-y-comunicacion-udelar-patio-piso-1",
+   "nombre": "Facultad de Información y Comunicación (Udelar) – Patio piso 1",
+   "alias": [],
+   "direccion": "San Salvador 1944",
+   "lat": -34.911538,
+   "lon": -56.1729409,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "feltrinelli",
    "nombre": "Feltrinelli",
    "alias": [],
@@ -920,6 +970,16 @@
    "lat": -34.9045693,
    "lon": -56.1813451,
    "barrio": "Centro",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "gozar-mvd",
+   "nombre": "Gozar MVD",
+   "alias": [],
+   "direccion": "Cooper 2091, Av. Dr. Juan Bautista Alber",
+   "lat": -34.88063,
+   "lon": -56.066946,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1046,12 +1106,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu-laboratorio-tecnologico-del-uruguay",
-   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
+   "id": "latu",
+   "nombre": "LATU",
    "alias": [
-    "LATU"
+    "LATU - Laboratorio Tecnológico del Uruguay"
    ],
-   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
+   "direccion": "Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1361,6 +1421,16 @@
    "direccion": "Av. Uruguay 1136, 11100 Montevideo, Depa",
    "lat": -34.903194,
    "lon": -56.192042,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "mamba-club",
+   "nombre": "MAMBA CLUB",
+   "alias": [],
+   "direccion": "Avenida Uruguay 1136",
+   "lat": -34.9031884,
+   "lon": -56.1919403,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1945,6 +2015,21 @@
    "lat": -34.911423,
    "lon": -56.1787539,
    "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "sitio-parque-roosevelt",
+   "nombre": "Sitio · Parque Roosevelt",
+   "alias": [
+    "Sitio",
+    "SITIO - Parque Roosevelt",
+    "Sitio Parque Roosevelt",
+    "SITIO"
+   ],
+   "direccion": "Parque Roosevelt, Ciudad de la Costa (Canelones)",
+   "lat": -34.8591365,
+   "lon": -56.0217968,
+   "barrio": "Parque Roosevelt (Canelones)",
    "ciudad": "Montevideo"
   },
   {

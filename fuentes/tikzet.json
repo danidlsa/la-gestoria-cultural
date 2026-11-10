@@ -1,0 +1,684 @@
+{
+ "fuente": "tikzet",
+ "corrida": "2026-11-10T19:48:04.008865-03:00",
+ "ok": true,
+ "cantidad": 15,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "tikzet",
+   "id_externo": "a498d3ea-3b3f-40a6-bbf1-2602c33b5821",
+   "url": "https://www.tikzet.com/events/antologia-tributo-a-shakira",
+   "titulo": "Antología Tributo a Shakira",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Antologia Tributo a Shakira presenta: 25 años de Laundry Service * Este show es con el público de pie.",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T21:00:00-03:00",
+     "fin": "2026-11-20T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/antologia-tributo-a-shakira",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F6ac5d468-4cd7-4cd4-934d-d3785c12ea83.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "7e65a42c-0cbe-4e63-9c6c-227aba684e13",
+   "url": "https://www.tikzet.com/events/el-deseo-no-duerme",
+   "titulo": "EL DESEO NO DUERME",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "EL DESEO NO DUERME es un tributo coreográfico inspirado en el universo de Moulin Rouge. Una experiencia escénica que combina danza, actuación y una puesta visual atravesada por el deseo, el romance y el exceso. A través de una puesta creada especialmente para esta función, los alumnos de Crew…",
+   "lugar": {
+    "nombre": "Canelones 2150",
+    "direccion": "Canelones 2150",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-15T20:30:00-03:00",
+     "fin": "2026-12-15T21:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/el-deseo-no-duerme",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F579bd903-8fe4-4efa-8d62-f785e6d5802b.original",
+   "productor": "CREW REVOLUTION",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "1db887ab-4ff8-42ca-b3e8-7560a922f2a4",
+   "url": "https://www.tikzet.com/events/lucia-caballero-ano-nuevo",
+   "titulo": "Lucía Caballero \"Año Nuevo\"",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Lucía Caballero presenta junto a su banda, su primer disco solista: Año Nuevo. Una colección de 10 canciones que recorren distintos momentos emocionales, revelando una identidad oscilante entre la ternura naíf y la oscuridad fantasiosa. Abre la noche Sofía Siola, con sus canciones magnéticas ✨ Será…",
+   "lugar": {
+    "nombre": "El Chamuyo",
+    "direccion": "25 de mayo 591",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": "2026-11-28T02:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/lucia-caballero-ano-nuevo",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F89903bf7-02f6-4d6f-8086-3d2d42817b1b.original",
+   "productor": "El Chamuyo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "f0fb3315-42ef-489a-a4f1-6ad404ca7387",
+   "url": "https://www.tikzet.com/events/homenaje-a-gilberto-gil",
+   "titulo": "Homenaje a Gilberto Gil",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Refazendo Gilberto Gil Beto Ponce guitarra Ani Ruiz voz Álvaro Cardozo teclados Fede blois percusión *Las mesas son de 4/5 personas por lo que pueden ser compartidas. *Si venis en grupo: recomendamos hacer una única compra *En caso de hacer compras por separado y querer sentarse en conjunto avisar…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T21:00:00-03:00",
+     "fin": "2026-11-12T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/homenaje-a-gilberto-gil",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fce6c44a1-277e-45cc-90d5-904a1d5a0868.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "9435362b-2897-49bd-b9bf-4fc13a978a35",
+   "url": "https://www.tikzet.com/events/wrrn-days-of-the-phoenix-y-amour-en-tatu-314",
+   "titulo": "Wrrn, Days of the Phoenix y Amour en Tatu 314",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Buenos Aires 314",
+    "direccion": "Buenos Aires 314",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": "2026-11-21T23:43:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/wrrn-days-of-the-phoenix-y-amour-en-tatu-314",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F3a67e4e3-55b4-4cc3-a629-68b376182828.original",
+   "productor": "Green Producciones y Eventos",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "46b79334-f8f1-478c-a0bf-4797e1b73742",
+   "url": "https://www.tikzet.com/events/tablao-flamenco-2221",
+   "titulo": "Tablao Flamenco",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "PUREZA, Espectáculo Flamenco 🌹 Es flamenco en su esencia: baile, cante y toque respirando al unísono. Desde Chile: Morete guitarrista Desde Argentina: Gastón Stazzone bailaor Nicolás Narváez cantaor Lola Munaretto bailaora Jonathan Acosta percusión Una propuesta que cuida cada silencio, cada…",
+   "lugar": {
+    "nombre": "El Chamuyo",
+    "direccion": "25 de mayo 591",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T21:00:00-03:00",
+     "fin": "2026-11-15T01:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/tablao-flamenco-2221",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F96f17990-0570-4acf-bd71-f9ea60fd3621.original",
+   "productor": "El Chamuyo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
+   "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
+   "titulo": "Javier Zubillaga De Vivo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Javier Zubillaga despide el año con un show íntimo dedicado a su repertorio humorístico, con canciones de sus dos trabajos discográficos y varios temas inéditos.",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": "2026-11-27T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "fa34481c-ba2c-453c-827a-3f3257cfdbef",
+   "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
+   "titulo": "Jengibre y Lipe Gómez",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Por primera vez Jengibre y Lipe Gómez (en banda) se presentan en un mismo escenario. Dos proyectos que experimentan y abarcan influencias desde el rock alternativo y el R&B hasta ritmos latinoamericanos como el candombe y la samba. Este sábado 21 de noviembre en el escenario del hormiguero: Lipe…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": "2026-11-21T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F6316ecda-2c01-4beb-9961-e1d8b47f94a1.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "ab487087-b2b8-41d2-902e-71467f67c7ca",
+   "url": "https://www.tikzet.com/events/acampo-reggae-festival",
+   "titulo": "Acampo Reggae Festival",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Acampo Reggae es mucho más que un festival: es un espacio de encuentro para espíritus libres, sin prejuicios, unidos por la música y el deseo de compartir. Creemos en valores como la unidad, la paz, el amor, la cultura, las artes, el respeto por el medio ambiente y la libertad de ser quienes somos…",
+   "lugar": {
+    "nombre": "ACAMPOREGGAE FESTIVAL",
+    "direccion": "La Vieja Escuela, Oceanía del Polonio",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T14:00:00-03:00",
+     "fin": "2026-12-06T20:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 700.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/acampo-reggae-festival",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fe5c4bd28-3f61-4e03-9030-1b89d516597d.original",
+   "productor": "ACAMPOREGGAE FESTIVAL",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "a766a550-a019-4abf-9e7a-99fe9d1ecc45",
+   "url": "https://www.tikzet.com/events/paranormales-veneno-en-vivo",
+   "titulo": "Paranormales: Veneno en vivo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Veneno Presenta: Paranormales: Una noche para asustar.",
+   "lugar": {
+    "nombre": "Caos Records",
+    "direccion": "Gutenberg 6485, Barrio Lezica",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-13T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 150.0,
+    "hasta": 150.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/paranormales-veneno-en-vivo",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Ffb3db284-9c02-4359-be62-fdf4ee88d425.original",
+   "productor": "Caos Records",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "dbdedcc5-b5d5-472c-929a-32947d6cd1ee",
+   "url": "https://www.tikzet.com/events/mamba-club",
+   "titulo": "MAMBA CLUB",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "MAMBA CLUB",
+    "direccion": "Avenida Uruguay 1136",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:50:00-03:00",
+     "fin": "2026-11-14T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 250.0,
+    "hasta": 250.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/mamba-club",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Ff82269df-a85f-438e-a65d-60210c04ea17.original",
+   "productor": "MAMBA CLUB",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "27d891c2-4908-47ad-9908-62834fa8b5d6",
+   "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
+   "titulo": "Jula Andina presenta “Fecunda”",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La cantautora argentina JULA ANDINA presenta FECUNDA el próximo 24 de Noviembre en El Hormiguero. En un encuentro entre canciones, viajes y universos propios, la noche abrirá con Fulana de Val y contará con la participación especial de Clara Pregliasco, ambas cantautoras uruguayas. FECUNDA nace de…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T21:00:00-03:00",
+     "fin": "2026-11-24T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "151dec2c-5b9f-40fa-90e9-dcc4b69fa97c",
+   "url": "https://www.tikzet.com/events/noche-flamenca-ice",
+   "titulo": "NOCHE FLAMENCA ICE",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "25 de mayo 422, San José de Mayo",
+    "direccion": "25 de mayo 422, San José de Mayo",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T20:00:00-03:00",
+     "fin": "2026-11-22T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/noche-flamenca-ice",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fc0806e7c-a39f-49d0-b03c-628bf5062b20.original",
+   "productor": "Gema Producciones",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "a33a93fb-def1-4438-afc8-3d99e4de2138",
+   "url": "https://www.tikzet.com/events/craig-carri-cuarteto",
+   "titulo": "Craig Carri Cuarteto",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Desde la escena de jazz de Londres, el guitarrista irlandés Craig Carri presenta su cuarteto montevideano en El Hormiguero, con música de su próximo disco, Hubbub, y algunos standards elegidos para la ocasión. Composiciones construidas sobre estructuras rítmicas que abren el camino a la exploración…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T21:00:00-03:00",
+     "fin": "2026-11-18T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/craig-carri-cuarteto",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F1964316e-fa61-403c-b44a-0e9baa902d42.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "a410902f-b1fe-463e-a7e5-2aca8af8ba89",
+   "url": "https://www.tikzet.com/events/gota-serena-54b7",
+   "titulo": "Gota Serena",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "El Chamuyo",
+    "direccion": "25 de mayo 591",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": "2026-11-29T03:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/gota-serena-54b7",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F6520d919-2b36-47e3-b6a2-0e969819753f.original",
+   "productor": "El Chamuyo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  }
+ ]
+}

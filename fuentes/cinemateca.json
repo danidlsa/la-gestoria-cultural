@@ -1,6 +1,6 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-10T14:18:46.226080-03:00",
+ "corrida": "2026-11-10T19:40:12.342052-03:00",
  "ok": true,
  "cantidad": 15,
  "errores": [],
@@ -200,6 +200,34 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T17:10:00-03:00",
+     "fin": "2026-11-12T18:44:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T18:10:00-03:00",
+     "fin": "2026-11-14T19:44:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T18:10:00-03:00",
+     "fin": "2026-11-15T19:44:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T17:10:00-03:00",
+     "fin": "2026-11-16T18:44:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -280,6 +308,41 @@
     {
      "inicio": "2026-11-11T19:45:00-03:00",
      "fin": "2026-11-11T21:18:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T21:20:00-03:00",
+     "fin": "2026-11-12T22:53:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T21:20:00-03:00",
+     "fin": "2026-11-13T22:53:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T22:05:00-03:00",
+     "fin": "2026-11-14T23:38:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T22:10:00-03:00",
+     "fin": "2026-11-15T23:43:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T21:30:00-03:00",
+     "fin": "2026-11-16T23:03:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -453,6 +516,41 @@
     {
      "inicio": "2026-11-11T21:25:00-03:00",
      "fin": "2026-11-11T22:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T21:25:00-03:00",
+     "fin": "2026-11-12T22:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T17:20:00-03:00",
+     "fin": "2026-11-13T18:40:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T20:35:00-03:00",
+     "fin": "2026-11-14T21:55:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T21:10:00-03:00",
+     "fin": "2026-11-15T22:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T21:25:00-03:00",
+     "fin": "2026-11-16T22:45:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false

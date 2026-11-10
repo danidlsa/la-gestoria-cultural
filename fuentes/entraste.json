@@ -1,8 +1,8 @@
 {
  "fuente": "entraste",
- "corrida": "2026-11-10T14:25:45.045402-03:00",
+ "corrida": "2026-11-10T19:47:54.143646-03:00",
  "ok": true,
- "cantidad": 7,
+ "cantidad": 8,
  "errores": [],
  "eventos": [
   {
@@ -223,6 +223,51 @@
    ],
    "beneficios": [],
    "imagen_url": "https://storage.googleapis.com/entraste-media/1793195903_291c0e0a922d509c.webp",
+   "productor": "Pariseo.dc",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "entraste",
+   "id_externo": "383",
+   "url": "https://app.entraste.com/events/pariseo-brasil-club-vie-27-nov",
+   "titulo": "PARISEO BRASIL CLUB - VIE 27 NOV",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "Mesas&Cumpleaños al 097 785 470",
+   "lugar": {
+    "nombre": "VOU CLUB",
+    "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
+    "lat": -34.9155965,
+    "lon": -56.1687301,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T23:59:00-03:00",
+     "fin": "2026-11-28T05:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/pariseo-brasil-club-vie-27-nov",
+     "via": "entraste"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1794338379_bd2fa083aba81749.webp",
    "productor": "Pariseo.dc",
    "region": "montevideo",
    "enlaces": [],

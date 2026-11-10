@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-10T14:18:37.932016-03:00",
+ "corrida": "2026-11-10T19:40:04.517583-03:00",
  "ok": true,
- "cantidad": 39,
+ "cantidad": 40,
  "errores": [],
  "eventos": [
   {
@@ -1800,6 +1800,41 @@
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021799/gala-lirica-zarzuela-y-canciones-italianas"
    ],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13770",
+   "url": "https://sodre.gub.uy/espectaculos/ismael-berois/",
+   "titulo": "Ismael Berois",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Presenta el espectáculo \"Vale la pena\"",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:30:00-03:00",
+     "fin": "2026-11-28T23:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Auditorio_destacado-1-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [],
    "ciclo": null,
    "muestra": false,
    "hasta": null

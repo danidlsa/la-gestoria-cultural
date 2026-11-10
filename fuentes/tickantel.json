@@ -1,8 +1,8 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-10T14:07:47.428986-03:00",
+ "corrida": "2026-11-10T19:35:41.090192-03:00",
  "ok": true,
- "cantidad": 125,
+ "cantidad": 126,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
@@ -134,7 +134,7 @@
      "fin": null,
      "sin_hora": false,
      "sala": null,
-     "agotada": true
+     "agotada": false
     },
     {
      "inicio": "2026-11-11T20:30:00-03:00",
@@ -615,46 +615,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021274",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021274/festival-fado-mvd-2026",
-   "titulo": "Festival Fado Mvd 2026",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Regresa a Montevideo la mayor muestra internacional del género más popular de la canción portuguesa, con la temática ‘El fado y los barrios’. La nueva edición del Festival de Fado contará con la presencia de la artista Sara Correia, el día jueves 12 noviembre, a las 20.30 horas, en la Sala…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021274/festival-fado-mvd-2026",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021274/FF_Montevideo_2026_WebBanner_700x390.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021712",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021712/buceo-invisible-en-el-planetario",
    "titulo": "Buceo Invisible en el Planetario",
@@ -759,6 +719,46 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021640/Banner.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021274",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021274/festival-fado-mvd-2026",
+   "titulo": "Festival Fado Mvd 2026",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Regresa a Montevideo la mayor muestra internacional del género más popular de la canción portuguesa, con la temática ‘El fado y los barrios’. La nueva edición del Festival de Fado contará con la presencia de la artista Sara Correia, el día jueves 12 noviembre, a las 20.30 horas, en la Sala…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": -34.90626,
+    "lon": -56.19441,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021274/festival-fado-mvd-2026",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021274/FF_Montevideo_2026_WebBanner_700x390.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1405,20 +1405,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T19:00:00-03:00",
      "fin": null,
@@ -4170,6 +4156,51 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021957",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021957/la-fontaine-en-scene-fables-en-mouvement",
+   "titulo": "La Fontaine en scène : fables en mouvement",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "A través de algunas de las célebres fábulas de Jean de La Fontaine, los alumnos de CM1 (4to año) del Liceo Francés nos invitan a descubrir un mundo de animales, personajes y situaciones que, aunque fueron imaginados hace más de tres siglos, siguen hablándonos del presente. La cigarra y la hormiga…",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": -34.9026912,
+    "lon": -56.1776624,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T15:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021957/la-fontaine-en-scene-fables-en-mouvement",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021957/Vaz-700x390.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021515",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021515/nu-ritmo-con-senas",
    "titulo": "Ñu ritmo con señas",
@@ -4560,6 +4591,46 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021903",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
+   "titulo": "Gala de Tango",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Vuelve la Gran Gala de Tango. La danza, la pasión y la poesía del género ciudadano, con el sello inconfundible de la Orquesta Filarmónica de Montevideo. Un espectáculo que celebra la riqueza de uno de los géneros musicales más representativos de nuestra identidad cultural. Con la voz de Valeria…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-10T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021903/BANNER_TICKANTEL_OFM_GRAN_GALA_TANGO_DIC_700x390.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40020133",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020133/bns-el-cascanueces",
    "titulo": "BNS - El Cascanueces",
@@ -4654,46 +4725,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020133/Banner_nuevo.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021903",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
-   "titulo": "Gala de Tango",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "Vuelve la Gran Gala de Tango. La danza, la pasión y la poesía del género ciudadano, con el sello inconfundible de la Orquesta Filarmónica de Montevideo. Un espectáculo que celebra la riqueza de uno de los géneros musicales más representativos de nuestra identidad cultural. Con la voz de Valeria…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-10T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021903/BANNER_TICKANTEL_OFM_GRAN_GALA_TANGO_DIC_700x390.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

@@ -1,8 +1,8 @@
 {
  "fuente": "propuestos",
- "corrida": "2026-11-10T14:25:43.787636-03:00",
+ "corrida": "2026-11-10T19:47:43.117147-03:00",
  "ok": true,
- "cantidad": 1,
+ "cantidad": 7,
  "errores": [],
  "eventos": [
   {
@@ -43,6 +43,276 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/7b000b178cd3.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "propuestos",
+   "id_externo": "d1830022b217",
+   "url": "https://www.instagram.com/p/DfkIzzvFjeL/",
+   "titulo": "La caja negra - Cine AccesibleUy",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "La caja negra En 1969, un hombre identificado como David Chavarriaga desvía un avión colombiano hacia Cuba. Con el tiempo, será reconocido como el escritor Daniel Chavarría. Décadas después, Elisa Barbosa Riva reconstruye sus huellas y recuerdos en una investigación sobre las aventuras de una vida…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Avenida General Flores esquina Domingo Aramburú",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfkIzzvFjeL/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/d1830022b217.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "propuestos",
+   "id_externo": "f71b95c1ee34",
+   "url": "https://cineaccesible.uy/?p=1056",
+   "titulo": "Un cabo suelto - Ciclo de Cine AccesibleUy",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Santiago, un oficial de bajo rango, deambula por Fray Bentos en busca de un nuevo destino, escapando de la fuerza policial argentina que lo anda buscando. Sin dinero ni hospedaje pero con simpatía y astucia, va sorteando obstáculos, recibe la ayuda de personajes locales que se va cruzando en el…",
+   "lugar": {
+    "nombre": "Sala Lazaroff",
+    "direccion": "Av. 8 de Octubre 4849",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://cineaccesible.uy/?p=1056",
+     "via": "propuestos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/f71b95c1ee34.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "propuestos",
+   "id_externo": "3f1f1b061a59",
+   "url": "https://www.instagram.com/p/DfZuIxzASmr/",
+   "titulo": "Quemadura china - Ciclo de Cine AccesibleUy",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Los siameses Annie y Dani se enfrentan a la separación física, en un acto tan quirúrgico como existencial. Willie, el hermano que los opera, confiesa su deseo de ser siamés y pide coserse a uno de ellos. Las tensiones y obsesiones del elenco se van enredando con la ficción fantástica. Mientras, la…",
+   "lugar": {
+    "nombre": "Centro Cultural Artesano",
+    "direccion": "Bulevar Aparicio Saravía 4697",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfZuIxzASmr/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/3f1f1b061a59.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "propuestos",
+   "id_externo": "d9f4fc0970cf",
+   "url": "https://cineaccesible.uy/?p=1063",
+   "titulo": "Mi mundial - Ciclo de Cine AccesibleUy",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Tito es un genio con la pelota. Con sólo 13 años le ofrecen un contrato con el que podría dedicarse a lo que le gusta y sacar a su familia de la pobreza. Poco preparado para lidiar con las presiones de la vida de jugador profesional, abandona la escuela y se aleja de los amigos. A un paso de…",
+   "lugar": {
+    "nombre": "Parque Villa Dolores",
+    "direccion": "Av. Rivera 3275",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://cineaccesible.uy/?p=1063",
+     "via": "propuestos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/d9f4fc0970cf.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "propuestos",
+   "id_externo": "82aa3000f1d7",
+   "url": "https://cineaccesible.uy/?p=1075",
+   "titulo": "Ese soplo - Ciclo de Cine AccesibleUy",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "A sus 88 años, mi abuelo Fernando me propone hacer una película ȷuntos. Su propuesta llega cuando le digo que me voy a mudar de su casa. Así empezamos a filmar, yo con mi cámara y él con la suya. Si bien hemos convivido por más de 20 años, es a través de la cámara que nos vemos como nunca antes lo…",
+   "lugar": {
+    "nombre": "Balcón del Cerro",
+    "direccion": "Filipinas 3671",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-16T10:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://cineaccesible.uy/?p=1075",
+     "via": "propuestos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/82aa3000f1d7.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "propuestos",
+   "id_externo": "c85f26a9a0e0",
+   "url": "https://cineaccesible.uy/?p=1077",
+   "titulo": "Mamá está acá - Ciclo de Cine AccesibleUy",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Este documental entrelaza la vida personal y la creación artística, la maternidad y el proceso creativo. Cuatro mujeres artistas trabajan juntas en la creación de una obra de teatro. El documental sigue los ensayos de la obra Hanami: el placer de contemplar las flores, escrita por una de las…",
+   "lugar": {
+    "nombre": "Facultad de Información y Comunicación (Udelar) – Patio piso 1",
+    "direccion": "San Salvador 1944",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://cineaccesible.uy/?p=1077",
+     "via": "propuestos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/c85f26a9a0e0.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
