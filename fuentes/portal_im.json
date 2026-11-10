@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-09T11:00:14.362438-03:00",
+ "corrida": "2026-11-10T11:00:14.215847-03:00",
  "ok": true,
- "cantidad": 37,
+ "cantidad": 40,
  "errores": [],
  "eventos": [
   {
@@ -409,13 +409,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-09T11:00:00-03:00",
-     "fin": "2026-11-09T13:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-16T11:00:00-03:00",
      "fin": "2026-11-16T13:00:00-03:00",
@@ -1499,12 +1492,12 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "1002",
-   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-lunes-9-de-noviembre",
+   "id_externo": "1003",
+   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-martes-10-de-noviembre",
    "titulo": "Murga Joven",
    "categoria": "carnaval",
    "categoria_segura": false,
-   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Lunes 9 de noviembre 20:00 h – Me anotó un amigo 20:50 h – La Amanecida 21:40 h – La Peor 22:30 h – La Décima",
+   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Martes 10 de noviembre 20:00 h – Mala Fama 20:50 h – La Mojarrita 21:40 h – No Nos Gusta 22:30 h – Mandala por encomienda",
    "lugar": {
     "nombre": "Centro Cultural Las Duranas",
     "direccion": "Pedro Trápani 1350 esquina Bayona.",
@@ -1513,13 +1506,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-09T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-10T20:00:00-03:00",
      "fin": null,
@@ -1578,7 +1564,7 @@
    },
    "entradas": [],
    "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20251110dicimouyjmr2907.jpg",
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20251103dicimouyjmr1567.jpg",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
@@ -1903,6 +1889,246 @@
   },
   {
    "fuente": "portal_im",
+   "id_externo": "1033",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-cine-accesible-2026/un-futuro-brillante",
+   "titulo": "Un futuro brillante",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Sinopsis Elisa es una de las últimas jóvenes elegidas para viajar al Norte, un destino que su comunidad considera una promesa de progreso. Su madre espera con ilusión la partida, pero Elisa empieza a dudar. En un entorno gobernado por la productividad y la perfección, descubre que no quiere irse y…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.906238,
+    "lon": -56.194472,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-10T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/Untitled-design-1-1-930x450.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de Cine Accesible 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1034",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-cine-accesible-2026/la-caja-negra",
+   "titulo": "La caja negra",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Sinopsis En 1969, un hombre identificado como David Chavarriaga desvía un avión colombiano hacia Cuba. Con el tiempo, será reconocido como el escritor Daniel Chavarría. Décadas después, Elisa Barbosa Riva reconstruye sus huellas y recuerdos en una investigación sobre las aventuras de una vida, el…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/la%20caja%20negra.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de Cine Accesible 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1035",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-cine-accesible-2026/un-cabo-suelto",
+   "titulo": "Un cabo suelto",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Sinopsis Santiago, un cabo de la policía argentina, cruza hacia Uruguay para escapar de otros agentes. Sin dinero ni alojamiento, usa el uniforme y su ingenio para salir adelante. Los encuentros con habitantes de la zona le ofrecen ayuda, nuevas complicidades y la posibilidad de empezar otra vida.",
+   "lugar": {
+    "nombre": "Sala Lazaroff",
+    "direccion": "Av. 8 de Octubre 4849",
+    "lat": -34.855863,
+    "lon": -56.132473,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/Un%20cabo%20suelto%20%282025%29%20-%20STILL%2001.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de Cine Accesible 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1036",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-cine-accesible-2026/quemadura-china",
+   "titulo": "Quemadura china",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Sinopsis Annie y Dani son hermanos siameses que se preparan para una operación de separación. Willie, el hermano encargado de intervenirlos, desea unirse a uno de ellos. La historia fantástica se cruza con los conflictos del elenco y con una locación que amenaza con venirse abajo, en una película…",
+   "lugar": {
+    "nombre": "Centro Cultural Artesano",
+    "direccion": "Bv. Aparicio Saravía 4697",
+    "lat": -34.825201,
+    "lon": -56.204054,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/Quemadura%20China%20%282025%29%20-%20STILL%2002.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de Cine Accesible 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1037",
+   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-cine-accesible-2026/mi-mundial",
+   "titulo": "Mi mundial",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Sinopsis Tito tiene trece años y un talento excepcional para el fútbol. Un contrato lo lleva a la capital y promete mejorar la situación económica de su familia. Pero la presión por triunfar lo aleja de la escuela, los amigos y el juego. Una situación inesperada lo obliga a revisar sus sueños…",
+   "lugar": {
+    "nombre": "Parque Villa Dolores",
+    "direccion": "Avenida Gral. Rivera 3245",
+    "lat": -34.902578,
+    "lon": -56.144804,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/Mi%20mundial%201.jpeg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo de Cine Accesible 2026",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1038",
+   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque/musica-en-el-parque-villa-dolores",
+   "titulo": "Música en el Parque Villa Dolores",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Música en el Parque propone una jornada de espectáculos musicales al aire libre, con la participación de artistas de distintos géneros. En esta edición, Mai de Maite presentará canciones de autor con raíces en la música popular latinoamericana. Nico Román ofrecerá un espectáculo acústico de voz y…",
+   "lugar": {
+    "nombre": "Parque Villa Dolores",
+    "direccion": "Avenida Gral. Rivera 3245",
+    "lat": -34.902578,
+    "lon": -56.144804,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/pexels-danielpratt-12927900%20%281%29.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Música en el Parque",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
    "id_externo": "476-2026-11-21",
    "url": "https://eventos.montevideo.gub.uy/sabadosenciudadvieja",
    "titulo": "Sábados en Ciudad Vieja",
@@ -1968,133 +2194,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Sábados en Ciudad Vieja",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "994-2026-11-15",
-   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
-   "titulo": "Música en el Parque",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
-   "lugar": {
-    "nombre": "Parque Villa Dolores",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Música en el Parque",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "994-2026-11-22",
-   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
-   "titulo": "Música en el Parque",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
-   "lugar": {
-    "nombre": "Parque Villa García",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Música en el Parque",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "994-2026-11-28",
-   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
-   "titulo": "Música en el Parque: Músicas Pioneras",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
-   "lugar": {
-    "nombre": "Las Pioneras",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Música en el Parque",
    "muestra": false,
    "hasta": null
   }
