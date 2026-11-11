@@ -201,6 +201,11 @@ def _parecidos(a: EventoCrudo, b: EventoCrudo) -> bool:
     """En la misma sala y el mismo día. Un post de bar se escribe distinto que la ficha de la ticketera ("FESTIVAL
     NUESTRO" y "Festival Nuestro 2026"): alcanza con que compartan lo esencial del nombre."""
     if "instagram_bares" in (a.fuente, b.fuente):
+        # En un bar, a la misma hora exacta hay un solo show: "LADO A, LADO B - MBC ombú" (RedTickets) y "MBC: La noche
+        # tiene dos lados" (el post) son lo mismo aunque no se parezcan.
+        horas_a = {f.inicio for f in a.funciones if not f.sin_hora}
+        if horas_a & {f.inicio for f in b.funciones if not f.sin_hora}:
+            return True
         return fuzz.token_set_ratio(titulo_comparable(_sin_bar(a)), titulo_comparable(_sin_bar(b))) >= 75
     return titulos_parecidos(a.titulo, b.titulo)
 
@@ -321,6 +326,7 @@ def fusionar(crudos: list[EventoCrudo], lugar_id: str, corridas: dict[str, datet
         beneficios=list(beneficios.values()),
         imagen_url=principal.imagen_url or next((c.imagen_url for c in crudos if c.imagen_url), None),
         ciclo_nombre=next((c.ciclo for c in crudos if c.ciclo), None),
+        etiquetas=sorted({e for c in crudos for e in c.etiquetas}),
         muestra=any(c.muestra for c in crudos),
         hasta=max((c.hasta for c in crudos if c.hasta), default=None),
         productor=next((c.productor for c in crudos if c.productor), None),

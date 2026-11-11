@@ -164,6 +164,9 @@ def detectar_ciclos(eventos: list[Evento]) -> list[Ciclo]:
 
 def etiquetar(eventos: list[Evento], nombres_lugar: dict[str, str], buscar_genero=None) -> list[Ciclo]:
     """`buscar_genero(titulo)` es el respaldo para la música que no se clasifica por palabras (Wikidata)."""
+    # Un lugar que una fuente marca como bar (los bares de Instagram): todo lo que pasa ahí lleva "bar", venga de
+    # donde venga (lo que vende RedTickets en Inmigrantes, por ejemplo).
+    bares = {e.lugar_id for e in eventos if "bar" in e.etiquetas}
     for evento in eventos:
         evento.subcategoria = subcategoria(evento, nombres_lugar.get(evento.lugar_id, ""))
         if evento.subcategoria == "stand_up":
@@ -172,5 +175,5 @@ def etiquetar(eventos: list[Evento], nombres_lugar: dict[str, str], buscar_gener
             evento.categoria, evento.subcategoria = "tour", None
         if evento.categoria == "musica" and not evento.subcategoria:
             evento.subcategoria = genero_por_texto(evento) or (buscar_genero(evento.titulo) if buscar_genero else None)
-        evento.etiquetas = etiquetas(evento, nombres_lugar.get(evento.lugar_id, ""))
+        evento.etiquetas = etiquetas(evento, nombres_lugar.get(evento.lugar_id, "")) + (["bar"] if evento.lugar_id in bares else [])
     return detectar_ciclos(eventos)

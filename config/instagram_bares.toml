@@ -13,6 +13,7 @@
 #   barrio     el barrio, como en el sitio
 #   lat, lon   coordenadas, para los que solo dan una esquina ("Durazno y Jackson"): el buscador de direcciones no
 #              encuentra esquinas, y un evento sin ubicación conocida no se publica
+#   bar        false si no es un bar (una sala, un teatro, un mercado): sus eventos no llevan la etiqueta "Bares"
 #   notas      lo que quieras recordar (por ejemplo, "solo los jueves de jazz")
 
 # [[bar]]
@@ -52,6 +53,7 @@ notas = "el bar de la Sala Ducón"
 [[bar]]
 usuario = "sala.ducon"
 notas = "ya está en el sitio como «Sala Ducón»"
+bar = false
 
 [[bar]]
 usuario = "andromedabarcoop"
@@ -122,9 +124,11 @@ usuario = "cordonbeer"
 [[bar]]
 usuario = "elespacio.vacio"
 direccion = "Gutiérrez Ruiz 1111"
+bar = false
 
 [[bar]]
 usuario = "mercadoferrando"
+bar = false
 
 [[bar]]
 usuario = "montevideobeercompany"

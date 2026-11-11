@@ -418,6 +418,10 @@ def generar() -> Path:
             rubros.append(("etiqueta", "museo", "Museos"))
     if ("etiqueta", "museo", "Museos") not in rubros:
         rubros.append(("etiqueta", "museo", "Museos"))
+    # "Bares" también es una etiqueta (lo que pasa en un bar, sea música, fiesta o humor): va después de Música.
+    if any("bar" in e.get("etiquetas", []) for e in eventos):
+        i = next((n + 1 for n, r in enumerate(rubros) if r[1] == "musica"), len(rubros))
+        rubros.insert(i, ("etiqueta", "bar", "Bares"))
     nombres_fuentes = [FUENTES[f] for f in sorted({p["fuente"] for e in eventos for p in e["fuentes"]}) if f in FUENTES]
     agrega = formulario_para_agregar(configuracion_agrega())
     pagina = entorno.get_template("index.html.j2").render(

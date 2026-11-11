@@ -198,4 +198,25 @@ def test_un_post_de_bar_se_une_con_la_ticketera():
 
     crudos = [crudo("instagram_bares", "Inmigrantes: FESTIVAL NUESTRO"), crudo("redtickets", "Festival Nuestro 2026"),
               crudo("redtickets", "SEXY LITTLE SWINE - Tributo a Arctic Monkeys")]
+    crudos[2].funciones = [Funcion(inicio=inicio.replace(hour=22))]  # otro show, otra hora
     assert sorted(map(sorted, agrupar(crudos, ["inmigrantes"] * 3))) == [[0, 1], [2]]
+    # Misma sala y misma hora exacta: el mismo show, aunque los títulos no se parezcan.
+    mbc = [crudo("instagram_bares", "MBC: La noche tiene dos lados"), crudo("redtickets", "LADO A, LADO B - MBC ombú")]
+    assert agrupar(mbc, ["mbc"] * 2) == [[0, 1]]
+
+
+def test_lo_que_pasa_en_un_bar_lleva_la_etiqueta_aunque_venga_de_otra_fuente():
+    from zoneinfo import ZoneInfo
+    from cartelera.etiquetas import etiquetar
+    from cartelera.modelo import Evento, Funcion, Procedencia
+    inicio = datetime(2026, 12, 4, 21, 0, tzinfo=ZoneInfo("America/Montevideo"))
+
+    def evento(titulo, lugar, fuente, etiquetas=()):
+        return Evento(id=titulo, titulo=titulo, categoria="musica", lugar_id=lugar, funciones=[Funcion(inicio=inicio)],
+                      etiquetas=list(etiquetas), actualizado=inicio,
+                      fuentes=[Procedencia(fuente=fuente, id_externo=titulo, url="https://x.uy", visto=inicio)])
+
+    eventos = [evento("Jam", "inmigrantes", "instagram_bares", ["bar"]), evento("POTRA", "inmigrantes", "redtickets"),
+               evento("Orquesta", "sodre", "sodre")]
+    etiquetar(eventos, {})
+    assert [("bar" in e.etiquetas) for e in eventos] == [True, True, False]

@@ -98,6 +98,8 @@ class EventoCrudo(BaseModel):
     # Enlaces a eventos de otras fuentes (por ejemplo, a RedTickets), para deduplicar de forma exacta.
     enlaces: list[str] = []
     ciclo: str | None = None  # nombre del ciclo, cuando la fuente lo informa (Cinemateca)
+    # Etiquetas que da la fuente: "bar" (los bares de Instagram). Se suman a las que se detectan al unificar.
+    etiquetas: list[str] = []
     # Una exposición: se muestra con su período ("Hasta el 28 feb") y no como una función por día.
     muestra: bool = False
     hasta: date | None = None  # cierre de la exposición, si la fuente lo informa
@@ -149,7 +151,7 @@ class Evento(BaseModel):
     titulo: str
     categoria: Categoria
     subcategoria: Subcategoria | None = None
-    etiquetas: list[str] = []  # por ahora: "festival"
+    etiquetas: list[str] = []  # "festival", "museo", "bar"
     descripcion_corta: str | None = None
     lugar_id: str
     ciclo_id: str | None = None

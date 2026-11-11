@@ -372,3 +372,12 @@ def test_dos_posts_de_la_misma_obra_son_un_borrador():
     (junto,) = ig.juntar_parecidos({viejo["id"]: viejo, nuevo["id"]: nuevo}).values()
     assert junto["id"] == viejo["id"] and len(junto["posts"]) == 2
     assert all(f["inicio"][11:16] == "20:30" for f in junto["funciones"])
+
+
+def test_la_etiqueta_bares():
+    (en_el_bar,) = ig.borradores_del_post(_post(1, "Jueves 12: SPAGUETTI WESTERN 22 hs", "2026-11-09"), {"usuario": "theshannonuy"}, {}, AHORA)
+    assert ig.evento_de(en_el_bar, AHORA).etiquetas == ["bar"]
+    # En otro lugar (📍), o en una cuenta que no es de un bar, no.
+    (afuera,) = ig.borradores_del_post(_post(2, "13 de noviembre 21 hs\n📍 Museo Oceanográfico", "2026-11-09"), {"usuario": "mbc"}, {"name": "MBC"}, AHORA)
+    (sala,) = ig.borradores_del_post(_post(3, "Sábado 14 de noviembre 21 hs", "2026-11-09"), {"usuario": "sala.ducon", "bar": False}, {}, AHORA)
+    assert ig.evento_de(afuera, AHORA).etiquetas == [] and ig.evento_de(sala, AHORA).etiquetas == []

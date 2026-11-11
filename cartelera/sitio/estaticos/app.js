@@ -180,7 +180,7 @@
   };
 
   // Etiquetas que cruzan rubros: se filtran y se excluyen como un tipo más.
-  const NOMBRE_ETIQUETA = { festival: "Festivales", museo: "Museos" };
+  const NOMBRE_ETIQUETA = { festival: "Festivales", museo: "Museos", bar: "Bares" };
 
   // Lo excluido ("nada de infantil") queda guardado en este navegador, como el plan.
   const CLAVE_EXCLUIR = "lgc-excluir";

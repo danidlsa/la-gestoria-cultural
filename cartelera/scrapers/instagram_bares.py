@@ -407,6 +407,9 @@ def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, fu
         "lat": None if otro_lugar else cuenta.get("lat"),
         "lon": None if otro_lugar else cuenta.get("lon"),
         "lugar_del_pin": bool(otro_lugar),
+        # Lo que pasa en el bar lleva la etiqueta "Bares" en el sitio; no si es en otro lugar, ni si la cuenta no es de
+        # un bar (una sala o un mercado: `bar = false` en la lista).
+        "bar": not otro_lugar and cuenta.get("bar", True),
         "titulo": con_el_bar(titulo, cuenta.get("corto") or nombre_corto(del_bar)),
         "texto": texto,
         "extracto": extracto,
@@ -462,7 +465,7 @@ def juntar(previo: dict, nuevo: dict) -> dict:
     if len(otro["titulo"]) >= 8 and len(otro["titulo"]) < len(base["titulo"]):
         junto["titulo"] = otro["titulo"]
     if otro.get("lugar_del_pin") and not base.get("lugar_del_pin"):
-        junto.update({k: otro.get(k) for k in ("lugar", "direccion", "barrio", "lat", "lon", "lugar_del_pin")})
+        junto.update({k: otro.get(k) for k in ("lugar", "direccion", "barrio", "lat", "lon", "lugar_del_pin", "bar")})
     # Los días de los dos (un post con el ciclo del mes y otro con un martes); para cada día, con hora si alguno la da.
     por_dia: dict[date, dict] = {}
     for f in base["funciones"] + otro["funciones"]:
@@ -514,6 +517,7 @@ def evento_de(b: dict, ahora: datetime) -> EventoCrudo | None:
         funciones=funciones,
         precio=precio_del_texto(texto),
         entradas=[Entrada(url=b["url"], via="instagram")],
+        etiquetas=["bar"] if b.get("bar") else [],
     )
 
 
