@@ -851,10 +851,12 @@ button.pc-numero { border: 0; background: none; padding: 0; color: inherit; text
 /* --- Celular --------------------------------------------------------------------------------- */
 @media (max-width: 860px) {
   /* Cabezal compacto: el nombre en una línea con el botón de tema; el buscador abajo. Lo demás está en "¿Qué es?". */
-  .cabezal-interior { flex-wrap: nowrap; align-items: center; gap: 12px; padding-top: 14px; padding-bottom: 12px; }
+  .cabezal-interior { flex-wrap: nowrap; align-items: flex-start; gap: 12px; padding-top: 14px; padding-bottom: 12px; }
+  .marca { flex: 1; min-width: 0; }
   .cabezal h1 { font-size: clamp(1.45rem, 7vw, 2.1rem); white-space: nowrap; }
   .cabezal h1 span { box-shadow: 3px 3px 0 var(--coral); border-radius: 8px; }
-  .bajada, .cifras > span { display: none; }
+  .bajada { margin-top: 10px; font-size: 0.9rem; line-height: 1.35; }
+  .cifras > span { display: none; }
   .cifras { flex-wrap: nowrap; }
   .boton-tema { width: 42px; height: 42px; padding: 0; display: grid; place-items: center; font-size: 1.1rem; }
   .boton-tema .tema-texto { display: none; }
