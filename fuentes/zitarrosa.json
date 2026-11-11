@@ -1,55 +1,10 @@
 {
  "fuente": "zitarrosa",
- "corrida": "2026-11-10T11:02:01.386815-03:00",
+ "corrida": "2026-11-11T11:01:56.894615-03:00",
  "ok": true,
- "cantidad": 21,
+ "cantidad": 20,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "cine-accesibleuy",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/cine-accesibleuy/",
-   "titulo": "Cine AccesibleUY",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Cine AccesibleUy cumple una década de trabajo sostenido y colectivo. La Sala Zitarrosa tiene el agrado de invitarles a la Apertura del ciclo Cine AccesibleUY que cumple diez años de trabajo sostenido y colectivo. El ciclo es una experiencia comunitaria que invita a encontrarse y compartir el cine…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-10T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/cine-accesibleuy/",
-     "via": "zitarrosa"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/unnamed-2-1.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "zitarrosa",
    "id_externo": "lucas-cary",

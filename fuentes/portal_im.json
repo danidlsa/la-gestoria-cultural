@@ -1,6 +1,6 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-10T11:00:14.215847-03:00",
+ "corrida": "2026-11-11T11:00:14.961622-03:00",
  "ok": true,
  "cantidad": 40,
  "errores": [],
@@ -61,27 +61,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-10T10:00:00-03:00",
-     "fin": "2026-11-10T12:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Casa de Jóvenes Adultos Mayores de Pajas Blancas",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-10T13:30:00-03:00",
-     "fin": "2026-11-10T15:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Centro Comunal Zonal 14",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-10T16:30:00-03:00",
-     "fin": "2026-11-10T18:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Comisión Fomento Larrañaga",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-11T16:00:00-03:00",
      "fin": "2026-11-11T18:00:00-03:00",
@@ -470,13 +449,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-10T13:30:00-03:00",
-     "fin": "2026-11-10T15:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-17T13:30:00-03:00",
      "fin": "2026-11-17T15:30:00-03:00",
@@ -1492,12 +1464,12 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "1003",
-   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-martes-10-de-noviembre",
+   "id_externo": "1004",
+   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-miercoles-11-de-noviembre",
    "titulo": "Murga Joven",
    "categoria": "carnaval",
    "categoria_segura": false,
-   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Martes 10 de noviembre 20:00 h – Mala Fama 20:50 h – La Mojarrita 21:40 h – No Nos Gusta 22:30 h – Mandala por encomienda",
+   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Miércoles 11 de noviembre 20:00 h – Secretos Públicos 20:50 h – Marta está llegan2(do) 21:40 h – Trapecistas del Tablón 22:30 h – Big Tulequi",
    "lugar": {
     "nombre": "Centro Cultural Las Duranas",
     "direccion": "Pedro Trápani 1350 esquina Bayona.",
@@ -1506,13 +1478,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-10T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-11T20:00:00-03:00",
      "fin": null,
@@ -1564,7 +1529,7 @@
    },
    "entradas": [],
    "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20251103dicimouyjmr1567.jpg",
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20241104dicimouyjmr-6500.jpg",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
@@ -1588,13 +1553,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-10T10:00:00-03:00",
-     "fin": "2026-11-10T12:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T10:00:00-03:00",
      "fin": "2026-11-12T12:00:00-03:00",
@@ -1889,46 +1847,6 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "1033",
-   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-cine-accesible-2026/un-futuro-brillante",
-   "titulo": "Un futuro brillante",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Sinopsis Elisa es una de las últimas jóvenes elegidas para viajar al Norte, un destino que su comunidad considera una promesa de progreso. Su madre espera con ilusión la partida, pero Elisa empieza a dudar. En un entorno gobernado por la productividad y la perfección, descubre que no quiere irse y…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.906238,
-    "lon": -56.194472,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-10T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/Untitled-design-1-1-930x450.jpg",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Ciclo de Cine Accesible 2026",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
    "id_externo": "1034",
    "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-cine-accesible-2026/la-caja-negra",
    "titulo": "La caja negra",
@@ -2124,6 +2042,62 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Música en el Parque",
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1041",
+   "url": "https://eventos.montevideo.gub.uy/evento/prueba-de-admision-del-carnaval-2027/prueba-de-admision-miercoles-11-de-noviembre",
+   "titulo": "Prueba de Admisión",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Conocé la programación de la segunda etapa de la Prueba de Admisión del Carnaval 2027. Miércoles 11 de noviembre 20:30 – Manda la Vuelta (Murga) 21:05 – Fantoches (Humoristas) 21:45 – Sorda de un Oído (Murga) 22:20 – La Pandilla (Parodistas) 23:05 – Araca la Cana (Murga) Entrada: un alimento no…",
+   "lugar": {
+    "nombre": "Teatro de Verano",
+    "direccion": "Rambla Wilson s/n esq. Andrés Cachón",
+    "lat": -34.918974,
+    "lon": -56.16947,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/20251112dicimouyjmr3379.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Prueba de Admisión del Carnaval 2027",
    "muestra": false,
    "hasta": null
   },
