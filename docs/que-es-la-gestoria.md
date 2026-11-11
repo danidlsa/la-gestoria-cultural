@@ -12,7 +12,13 @@ En resumen: no hago todos los planes que quiero, porque llego tarde, y cuando ha
 
 Acá entra a jugar La Gestoría Cultural, pensada para gente con problemas boludos como los míos. 'La Gestoría' es un chiste interno que tenemos con un par de amigas, con quienes conformamos el motor de búsqueda y gestión de planes de un grupo más numeroso y free rider (vamos, hay una gestoría en cada grupo de amigas en sus 30, o el grupo deja de existir). A los efectos de esta plataforma, le agregué el 'Cultural' porque gente externa podría pensar que es un sitio web para escribanos, y dios me libre.
 
-Esto es una **iniciativa sin ánimo de lucro**. En la página no se puede hacer más nada que no sea explorar los eventos que hay en la ciudad, filtrarlos y clasificarlos, y jugar con un calendario para planificarte mejor. No hay *ads* ni canjes ni nada por el estilo, nadie gana plata ni se le cobra nada a nadie.
+# Una plataforma gratis, privada y sin IA
+
+Esto es una **iniciativa sin ánimo de lucro**. En la página no se puede hacer más nada que no sea explorar los eventos que hay en la ciudad, filtrarlos y clasificarlos, y jugar con un calendario para planificarte mejor. No hay *ads* ni canjes ni nada por el estilo, nadie gana plata ni se le cobra nada a nadie. No se publicitan eventos con prioridad porque paguen. Tampoco te podés hacer usuario plus o premium: todas las personas usuarias reciben lo mismo.
+
+**Protegemos tus datos**: no guardamos en ningún lugar tus correos, ni tu IP, ni lo que elegís compartir o guardarte en tu calendario. Y esto tampoco es una red social: no hay comunidades de usuarios ni nada de ese estilo. Vos te armás tu plan y lo compartís con tu gente (si querés) como tengas ganas: por whatsapp, por instagram, los llamás por teléfono (?), les mandás un mail o les contás en persona. Genuinamente no nos importa.
+
+Una cosa más, que considero importante en 2026: esto es una **plataforma antialgorítmica**. ¿Qué quiero decir? No hay ningún algoritmo de inteligencia artificial que medie entre vos y tus planes. No hay recomendaciones basadas en tu comportamiento (porque no guardamos tus datos personales ni mucho menos tu comportamiento), ni aprendizaje automático de ningún tipo. Los planes los armás vos solito o solita, como la persona adulta con libre albedrío que sos. 
 
 # ¿Qué eventos se incluyen?
 
@@ -20,7 +26,11 @@ Todo dentro de Montevideo:
 
 Conciertos y festivales de música, la cartelera de teatro, humor (sobre todo shows de stand-up), walking tours que no son dirigidos necesariamente a turistas (aquí no tomo datos de plataformas como Viator o Civitatis, por ejemplo, sino caminatas de la IM, de Peatonal tours, entre otros proveedores más orientados a público local), algo de cine (básicamente Cinemateca - dejé por fuera la mayoría de las salas comerciales, para no sobrecargar), exposiciones y actividades de museos, movidas de bares, y talleres y actividades gratuitas de la Intendencia. No se incluyen eventos deportivos, y es posible que buena parte de la agenda 'under' se escape, aunque estamos trabajando en incluir cosas publicadas en instagram (sin que eso implique un costo extra para la gestión de la plataforma). Si tenés una cuenta que publica eventos y no aparecen aún en nuestra cartelera, podés avisarnos.
 
-# ¿Cómo funciona?
+## Sobre los eventos especiales
+
+Cada vez que haya eventos especiales (como la Noche de las Librerías, Noche de los Museos, Día del Patrimonio, incluso la época de Carnaval), la idea es armar cosas específicas que puedan ayudarte a planificar las cosas que querés ver. Aparecerán pestañas pensadas para el evento, con features que te pueden facilitar la navegación por esos programas enormes. Vamos a ir probando cosas y mejorando con cada evento! Así que paciencia :) 
+
+# ¿Cómo funciona La Gestoría Cultural?
 
 La plataforma toma datos de distintas fuentes abiertas, siguiendo sus normativas de scrapeo de datos: ticketeras, sitios de carteleras y portales de eventos, sitios web de salas de eventos, productoras y páginas de beneficios. Cuando una fuente no trae la ubicación de la sala, se busca la dirección en OpenStreetMap, que es también el mapa del sitio. Para generar algunos etiquetados uso bancos de palabras clave caseros y, para el género musical de algunos artistas, Wikidata.
 
@@ -30,7 +40,7 @@ Es posible que la plataforma experimente fallos cuando, por ejemplo, un sitio we
 
 Por cierto, esto es un sitio de código abierto. El código queda público en mi repo de GitHub, para quien quiera conocer más sobre su funcionamiento y arquitectura: [github.com/danidlsa/la-gestoria-cultural](https://github.com/danidlsa/la-gestoria-cultural). 
 
-Tenés algún comentario re buena onda? Encontraste alguna inconsistencia o error? Me podés escribir por acá: [dejame un mensaje en este formulario](https://docs.google.com/forms/d/e/1FAIpQLSckAwGEcbi1d2X5UHb0nNBAMZ6AnbqtBwHU_MD2ciX_PHLDxg/viewform).
+Tenés algún comentario re buena onda? Encontraste alguna inconsistencia o error? Me podés escribir por acá: [formulario](https://docs.google.com/forms/d/e/1FAIpQLSckAwGEcbi1d2X5UHb0nNBAMZ6AnbqtBwHU_MD2ciX_PHLDxg/viewform), o en nuestro instagram: [@lagestoria.cultural](https://www.instagram.com/lagestoria.cultural/).
 Si tenés un comentario mala onda, guardátelo que esto no es X.
 
 ---
