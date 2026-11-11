@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-11T12:40:44.464552-03:00",
- "cantidad": 234,
+ "generado": "2026-11-11T13:18:26.731641-03:00",
+ "cantidad": 238,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -9,6 +9,16 @@
    "direccion": "25 de Mayo 263, 11000 Montevideo, Depart",
    "lat": -34.907359,
    "lon": -56.210401,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "25-de-mayo-422-san-jose-de-mayo",
+   "nombre": "25 de mayo 422, San José de Mayo",
+   "alias": [],
+   "direccion": "25 de mayo 422, San José de Mayo",
+   "lat": -34.9058556,
+   "lon": -56.2055855,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -601,6 +611,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "club-de-el-viejo-oeste",
+   "nombre": "Club de El Viejo Oeste",
+   "alias": [],
+   "direccion": "Complejo Prado",
+   "lat": -34.861076,
+   "lon": -56.20152,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "club-de-anita",
    "nombre": "Club de anita",
    "alias": [],
@@ -803,6 +823,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "el-espacio-vacio",
+   "nombre": "El espacio vacío",
+   "alias": [],
+   "direccion": "GUTIÉRREZ RUIZ 1111 esq. DURAZNO",
+   "lat": -34.91036,
+   "lon": -56.1910121,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "emile-club",
    "nombre": "Emile Club",
    "alias": [
@@ -845,6 +875,16 @@
    "direccion": "Piedras 425",
    "lat": -34.904648,
    "lon": -56.207897,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "espacio-finisterre",
+   "nombre": "Espacio Finisterre",
+   "alias": [],
+   "direccion": "Convención 1328 - Galería del Sol",
+   "lat": -34.9068458,
+   "lon": -56.1968398,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1136,12 +1176,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu",
-   "nombre": "LATU",
+   "id": "latu-laboratorio-tecnologico-del-uruguay",
+   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
    "alias": [
-    "LATU - Laboratorio Tecnológico del Uruguay"
+    "LATU"
    ],
-   "direccion": "Carrasco, Montevideo",
+   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
