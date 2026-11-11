@@ -1,6 +1,6 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-11T11:13:04.180216-03:00",
+ "corrida": "2026-11-11T12:07:21.821864-03:00",
  "ok": true,
  "cantidad": 23,
  "errores": [],
@@ -15,9 +15,9 @@
    "descripcion_corta": "Se acerca el cierre pero aún quedan martes y mucha música. Martes de noviembre / 21:00 h. Entrada libre. Localidades limitadas por orden de llegada. Entrega de accesos a partir de las 20:00. Nos vemos abajo.",
    "lugar": {
     "nombre": "La Taberna de Brecha",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
+    "direccion": "Durazno y Jackson",
+    "lat": -34.909634,
+    "lon": -56.172902,
     "barrio": null
    },
    "funciones": [
@@ -54,251 +54,9 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "elbar_delxsamigxs-20261129",
-   "url": "https://www.instagram.com/reel/DfiGE9UpbNf/",
-   "titulo": "Brecha Bar y Cafe: Cumplimos 12 años",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Cumplimos 12 años. El 29 de noviembre nos vemos en la calle Ya avisamos.",
-   "lugar": {
-    "nombre": "Brecha Bar y Café 🏳️‍🌈",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-29T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
+   "etiquetas": [
+    "bar"
    ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/DfiGE9UpbNf/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "barlarondacafe-20261111",
-   "url": "https://www.instagram.com/reel/DflP41YgbD6/",
-   "titulo": "La Ronda: Noches De Ensayos Abiertos · Lali Gaspari",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Esto fue NDEA el pasado miércoles con adri_h_z Mañana los esperamos con una nueva edición de NDEA con lali_gaspari en vivo Musicaliza _wandixx_ 20h Ciudadela 1182",
-   "lugar": {
-    "nombre": "La Ronda",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/DflP41YgbD6/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3e819dcf5ab0.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "lacretinacasa-20261121",
-   "url": "https://www.instagram.com/p/DfiK_MivhXn/",
-   "titulo": "La Cretina: TABAREK & LA KABARET",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Tenemos el honor de recibir en casa, para su Debut oficial, a estos queridos amigos con su nuevo y espectacular proyecto! TABAREK & LA KABARET Tabaré Rivero presenta en vivo su nuevo proyecto musical: Tabarek & La Kabaret. Un recorrido por algunas de sus canciones en un formato acústico, íntimo y…",
-   "lugar": {
-    "nombre": "La Cretina",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfiK_MivhXn/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b1ec83d60b82.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "lacretinacasa-20261213",
-   "url": "https://www.instagram.com/p/Dfcdqx-BZCl/",
-   "titulo": "La Cretina: HIP HOP CRETINO vol.7",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "HIP HOP CRETINO vol.7 Para despedir el año! Vuelve la fiesta con más street de La Cretina: música, flow, baile, tinta, graffiti y cultura viva en cada rincón. Una edición con más estilo, más crew y más sangre nueva. DOM 13 DIC 18 H MÚSICA EN VIVO ger1one gblues_oficial yatucypher nico.sald_…",
-   "lugar": {
-    "nombre": "La Cretina",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-13T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfcdqx-BZCl/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/83687e2842c5.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "lacretinacasa-20261202",
-   "url": "https://www.instagram.com/p/DfQjbTcNR_r/",
-   "titulo": "La Cretina: FERIADO + MONKELIS",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "FERIADO + MONKELIS I 2 DE DICIEMBRE EN LA CRETINA feriado.uy se presenta por primera vez en en La Cretina. Abre la noche monkelismusic. Entradas a la venta en redtickets.uy - 2 de Diciembre 21 hs La Cretina, Soriano 1236",
-   "lugar": {
-    "nombre": "La Cretina",
-    "direccion": "Soriano 1236",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-02T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfQjbTcNR_r/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/64e4e06cfda4.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "lacretinacasa-20261206",
-   "url": "https://www.instagram.com/p/DeYID5KDQ4h/",
-   "titulo": "La Cretina: Mané Pérez & Compañía presenta: EL TIEMPO EN EL INTENTO",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Mané Pérez & Compañía presenta: EL TIEMPO EN EL INTENTO El próximo domingo 6 de diciembre, a las 20 horas, Mané abre las puertas de su universo musical y se presenta por primera vez con una banda de mujeres para compartir sus canciones. Durante años, Mané Pérez hizo que sus canciones crecieran en…",
-   "lugar": {
-    "nombre": "La Cretina",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-06T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DeYID5KDQ4h/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e007ff46442c.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
    "muestra": false,
    "hasta": null
   },
@@ -312,7 +70,7 @@
    "descripcion_corta": "Miércoles 11: OPEN MIC",
    "lugar": {
     "nombre": "The Shannon irish pub",
-    "direccion": null,
+    "direccion": "Bartolomé Mitre 1318",
     "lat": null,
     "lon": null,
     "barrio": null
@@ -339,427 +97,30 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261112",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: SPAGUETTI WESTERN",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Jueves 12: SPAGUETTI WESTERN",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/978f49f4207f.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261113",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: PROYECTO OLDIES",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Viernes 13: PROYECTO OLDIES Club Shannon: VOLDCAST, ATROPELLO y SABOTAJE",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2b493eb3549a.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261114",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: MORRIGAN'S",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábado 14: MORRIGAN'S Club Shannon: LA RITUAL",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a6ceee8b5d64.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261118",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: OPEN MIC",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Miércoles 18: OPEN MIC",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ffaa16e987bc.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261119",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: PRIMA DONNA",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Jueves 19: PRIMA DONNA Club Shannon: ABIIRI Y LOS PÉTALOS DE CRISTAL, NYXIA y POLIFAGIA",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1b37816a9388.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261120",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: PIANO BAR",
+   "id_externo": "barlarondacafe-20261111",
+   "url": "https://www.instagram.com/reel/DflP41YgbD6/",
+   "titulo": "La Ronda: Noches De Ensayos Abiertos · Lali Gaspari",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Viernes 20: PIANO BAR Club Shannon: NENES DE ANTES – TRIBUTO A DIVIDIDOS",
+   "descripcion_corta": "Esto fue NDEA el pasado miércoles con adri_h_z Mañana los esperamos con una nueva edición de NDEA con lali_gaspari en vivo Musicaliza _wandixx_ 20h Ciudadela 1182",
    "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": null,
+    "nombre": "La Ronda",
+    "direccion": "Ciudadela 1182",
     "lat": null,
     "lon": null,
     "barrio": null
    },
    "funciones": [
     {
-     "inicio": "2026-11-20T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b0988bc32710.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261121",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: TREBOADA",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábado 21: TREBOADA Club Shannon: TERCETO",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/dfe7e9b3578a.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261125",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: OPEN MIC",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Miércoles 25: OPEN MIC",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/93c695acfbe7.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261127",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: KARAOKE EN VIVO",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Viernes 27: KARAOKE EN VIVO. con Mauricio Basalo Club Shannon: LUMEN",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8e5f2d80c017.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261128",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: EASYBAND",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábado 28: EASYBAND",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8df5b8bddf99.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "cordonbeer-20261224",
-   "url": "https://www.instagram.com/p/DfVX3lkCkwV/",
-   "titulo": "Cordón Beer: Las tradiciones se respetan por eso",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Las tradiciones se respetan por eso este 24 de diciembre volvemos con el clásico de siempre: Navidad al mediodía MUY PRONTO + INFO No digan que no les avisamos.",
-   "lugar": {
-    "nombre": "Cordón Beer",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-24T12:00:00-03:00",
+     "inicio": "2026-11-11T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -769,56 +130,19 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DfVX3lkCkwV/",
+     "url": "https://www.instagram.com/reel/DflP41YgbD6/",
      "via": "instagram"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6ae0e96ca40c.jpg",
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3e819dcf5ab0.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "mercadoferrando-20261113",
-   "url": "https://www.instagram.com/p/Dfh3ILHGnMj/",
-   "titulo": "Celebramos la Noche de las Librerías en Mercado Ferrando",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Este viernes 13 de noviembre celebramos la Noche de las Librerías en Mercado Ferrando Una noche para disfrutar de buenas historias, gastronomía y música, junto a djpaoladalto desde las 20 h ¡Los esperamos! ;)))",
-   "lugar": {
-    "nombre": "Mercado Ferrando",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
+   "etiquetas": [
+    "bar"
    ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfh3ILHGnMj/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/becbc65597df.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
    "muestra": false,
    "hasta": null
   },
@@ -864,6 +188,50 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261112",
+   "url": "https://www.instagram.com/p/DfUjlSARymU/",
+   "titulo": "The Shannon: SPAGUETTI WESTERN",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Jueves 12: SPAGUETTI WESTERN",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfUjlSARymU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/978f49f4207f.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
@@ -904,6 +272,564 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261113",
+   "url": "https://www.instagram.com/p/DfUjlSARymU/",
+   "titulo": "The Shannon: PROYECTO OLDIES",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Viernes 13: PROYECTO OLDIES Club Shannon: VOLDCAST, ATROPELLO y SABOTAJE",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfUjlSARymU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2b493eb3549a.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "mercadoferrando-20261113",
+   "url": "https://www.instagram.com/p/Dfh3ILHGnMj/",
+   "titulo": "Celebramos la Noche de las Librerías en Mercado Ferrando",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Este viernes 13 de noviembre celebramos la Noche de las Librerías en Mercado Ferrando Una noche para disfrutar de buenas historias, gastronomía y música, junto a djpaoladalto desde las 20 h ¡Los esperamos! ;)))",
+   "lugar": {
+    "nombre": "Mercado Ferrando",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfh3ILHGnMj/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/becbc65597df.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261114",
+   "url": "https://www.instagram.com/p/DfUjlSARymU/",
+   "titulo": "The Shannon: MORRIGAN'S",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábado 14: MORRIGAN'S Club Shannon: LA RITUAL",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfUjlSARymU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a6ceee8b5d64.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261118",
+   "url": "https://www.instagram.com/p/DfUjlSARymU/",
+   "titulo": "The Shannon: OPEN MIC",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Miércoles 18: OPEN MIC",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfUjlSARymU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ffaa16e987bc.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261119",
+   "url": "https://www.instagram.com/p/DfUjlSARymU/",
+   "titulo": "The Shannon: PRIMA DONNA",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Jueves 19: PRIMA DONNA Club Shannon: ABIIRI Y LOS PÉTALOS DE CRISTAL, NYXIA y POLIFAGIA",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfUjlSARymU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1b37816a9388.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261120",
+   "url": "https://www.instagram.com/p/DfUjlSARymU/",
+   "titulo": "The Shannon: PIANO BAR",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Viernes 20: PIANO BAR Club Shannon: NENES DE ANTES – TRIBUTO A DIVIDIDOS",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfUjlSARymU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b0988bc32710.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261121",
+   "url": "https://www.instagram.com/p/DfUjlSARymU/",
+   "titulo": "The Shannon: TREBOADA",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábado 21: TREBOADA Club Shannon: TERCETO",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfUjlSARymU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/dfe7e9b3578a.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lacretinacasa-20261121",
+   "url": "https://www.instagram.com/p/DfiK_MivhXn/",
+   "titulo": "La Cretina: TABAREK & LA KABARET",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Tenemos el honor de recibir en casa, para su Debut oficial, a estos queridos amigos con su nuevo y espectacular proyecto! TABAREK & LA KABARET Tabaré Rivero presenta en vivo su nuevo proyecto musical: Tabarek & La Kabaret. Un recorrido por algunas de sus canciones en un formato acústico, íntimo y…",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfiK_MivhXn/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b1ec83d60b82.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261125",
+   "url": "https://www.instagram.com/p/DfUjlSARymU/",
+   "titulo": "The Shannon: OPEN MIC",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Miércoles 25: OPEN MIC",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfUjlSARymU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/93c695acfbe7.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261127",
+   "url": "https://www.instagram.com/p/DfUjlSARymU/",
+   "titulo": "The Shannon: KARAOKE EN VIVO",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Viernes 27: KARAOKE EN VIVO. con Mauricio Basalo Club Shannon: LUMEN",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfUjlSARymU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8e5f2d80c017.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261128",
+   "url": "https://www.instagram.com/p/DfUjlSARymU/",
+   "titulo": "The Shannon: EASYBAND",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábado 28: EASYBAND",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfUjlSARymU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8df5b8bddf99.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "elbar_delxsamigxs-20261129",
+   "url": "https://www.instagram.com/reel/DfiGE9UpbNf/",
+   "titulo": "Brecha Bar y Cafe: Cumplimos 12 años",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Cumplimos 12 años. El 29 de noviembre nos vemos en la calle Ya avisamos.",
+   "lugar": {
+    "nombre": "Brecha Bar y Café 🏳️‍🌈",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/DfiGE9UpbNf/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lacretinacasa-20261202",
+   "url": "https://www.instagram.com/p/DfQjbTcNR_r/",
+   "titulo": "La Cretina: FERIADO + MONKELIS",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "FERIADO + MONKELIS I 2 DE DICIEMBRE EN LA CRETINA feriado.uy se presenta por primera vez en en La Cretina. Abre la noche monkelismusic. Entradas a la venta en redtickets.uy - 2 de Diciembre 21 hs La Cretina, Soriano 1236",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfQjbTcNR_r/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/64e4e06cfda4.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
@@ -916,8 +842,8 @@
    "categoria_segura": false,
    "descripcion_corta": "FESTIVAL NUESTRO Este 4 de diciembre nos encontramos en Inmigrantes para una noche bien nuestra. Arrancamos en la calle y cuando cae la noche, la seguimos en el sótano, para no molestar a los vecinos lagrecia__ DJ santiricors DJ brunoborlone el.club.del.lobo Viernes 4 de diciembre Desde las 19:30 h…",
    "lugar": {
-    "nombre": "INMIGRANTES",
-    "direccion": null,
+    "nombre": "Inmigrantes MVD",
+    "direccion": "Juan Paullier 1252",
     "lat": null,
     "lon": null,
     "barrio": null
@@ -944,6 +870,143 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lacretinacasa-20261206",
+   "url": "https://www.instagram.com/p/DeYID5KDQ4h/",
+   "titulo": "La Cretina: Mané Pérez & Compañía presenta: EL TIEMPO EN EL INTENTO",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Mané Pérez & Compañía presenta: EL TIEMPO EN EL INTENTO El próximo domingo 6 de diciembre, a las 20 horas, Mané abre las puertas de su universo musical y se presenta por primera vez con una banda de mujeres para compartir sus canciones. Durante años, Mané Pérez hizo que sus canciones crecieran en…",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DeYID5KDQ4h/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e007ff46442c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lacretinacasa-20261213",
+   "url": "https://www.instagram.com/p/Dfcdqx-BZCl/",
+   "titulo": "La Cretina: HIP HOP CRETINO vol.7",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "HIP HOP CRETINO vol.7 Para despedir el año! Vuelve la fiesta con más street de La Cretina: música, flow, baile, tinta, graffiti y cultura viva en cada rincón. Una edición con más estilo, más crew y más sangre nueva. DOM 13 DIC 18 H MÚSICA EN VIVO ger1one gblues_oficial yatucypher nico.sald_…",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-13T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfcdqx-BZCl/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/83687e2842c5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "cordonbeer-20261224",
+   "url": "https://www.instagram.com/p/DfVX3lkCkwV/",
+   "titulo": "Cordón Beer: Las tradiciones se respetan por eso",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Las tradiciones se respetan por eso este 24 de diciembre volvemos con el clásico de siempre: Navidad al mediodía MUY PRONTO + INFO No digan que no les avisamos.",
+   "lugar": {
+    "nombre": "Cordón Beer",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-24T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfVX3lkCkwV/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6ae0e96ca40c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   }

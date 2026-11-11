@@ -1,8 +1,8 @@
 {
  "fuente": "propuestos",
- "corrida": "2026-11-11T11:12:31.139472-03:00",
+ "corrida": "2026-11-11T12:06:47.617540-03:00",
  "ok": true,
- "cantidad": 7,
+ "cantidad": 9,
  "errores": [],
  "eventos": [
   {
@@ -47,6 +47,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -92,6 +93,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -137,6 +139,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -182,6 +185,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -227,6 +231,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -272,6 +277,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -317,6 +323,99 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "propuestos",
+   "id_externo": "caf1db324b96",
+   "url": "https://cineaccesible.uy/?p=1079",
+   "titulo": "Whisky - Ciclo de Cine AccesibleUy",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Jacobo, el dueño de una fábrica de medias montevideana, Marta, su empleada de confianza que acepta hacerse pasar por su esposa y el proclamadamente más próspero hermano de Jacobo, Herman, que vive en Brasil y viene de visita. A partir de allí se desencadena entre estos tres personajes un juego de…",
+   "lugar": {
+    "nombre": "Universidad Católica del Uruguay (UCU) – Auditorio San José",
+    "direccion": "Av. 8 de Octubre 2733",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://cineaccesible.uy/?p=1079",
+     "via": "propuestos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/caf1db324b96.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "propuestos",
+   "id_externo": "ee5f4c3802f6",
+   "url": "https://www.instagram.com/elespacio.vacio",
+   "titulo": "Sol Bassa",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Desde Bs As llega Sol Bassa, acompañada por los locatarios Pancho Coelho, Clara Lassus y Monkelis anticipando el cierre del 2026 y augurando nuevos comienzos para este 2027. Lxs esperamos!",
+   "lugar": {
+    "nombre": "El espacio vacío",
+    "direccion": "GUTIÉRREZ RUIZ 1111 esq. DURAZNO",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/elespacio.vacio",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   }

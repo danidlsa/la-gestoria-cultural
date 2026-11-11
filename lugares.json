@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-11T11:13:50.448799-03:00",
- "cantidad": 230,
+ "generado": "2026-11-11T12:08:47.995308-03:00",
+ "cantidad": 232,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -1079,7 +1079,7 @@
    "id": "inmigrantes-mvd",
    "nombre": "Inmigrantes MVD",
    "alias": [],
-   "direccion": "Juan Paullier 1252, 11200 Montevideo, De",
+   "direccion": "Juan Paullier 1252",
    "lat": -34.904758,
    "lon": -56.1676,
    "barrio": null,
@@ -1211,9 +1211,19 @@
    "id": "la-ronda",
    "nombre": "La Ronda",
    "alias": [],
-   "direccion": null,
-   "lat": -34.9096247,
-   "lon": -56.2000541,
+   "direccion": "Ciudadela 1182",
+   "lat": -34.9096038,
+   "lon": -56.2000503,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "la-taberna-de-brecha",
+   "nombre": "La Taberna de Brecha",
+   "alias": [],
+   "direccion": "Durazno y Jackson",
+   "lat": -34.909634,
+   "lon": -56.172902,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2029,8 +2039,8 @@
    "nombre": "Sala Zitarrosa",
    "alias": [],
    "direccion": "Av. 18 de Julio 1012",
-   "lat": -34.906238,
-   "lon": -56.194472,
+   "lat": -34.90626,
+   "lon": -56.19441,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2312,9 +2322,19 @@
    "id": "the-shannon-irish-pub",
    "nombre": "The Shannon irish pub",
    "alias": [],
-   "direccion": null,
-   "lat": -34.9070916,
-   "lon": -56.2016946,
+   "direccion": "Bartolomé Mitre 1318",
+   "lat": -34.9070495,
+   "lon": -56.2017409,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "universidad-catolica-del-uruguay-ucu-auditorio-san-jose",
+   "nombre": "Universidad Católica del Uruguay (UCU) – Auditorio San José",
+   "alias": [],
+   "direccion": "Av. 8 de Octubre 2733",
+   "lat": -34.8885145,
+   "lon": -56.1596085,
    "barrio": null,
    "ciudad": "Montevideo"
   },

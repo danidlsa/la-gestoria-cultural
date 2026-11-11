@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-11T11:13:50.448799-03:00",
- "cantidad": 24,
+ "generado": "2026-11-11T12:08:47.995308-03:00",
+ "cantidad": 25,
  "ciclos": [
   {
    "id": "ciclo-the-shannon",
@@ -49,6 +49,14 @@
    "desde": "2026-11-11T20:30:00-03:00",
    "hasta": "2026-11-22T20:00:00-03:00",
    "cantidad": 5
+  },
+  {
+   "id": "ciclo-prueba-de-admision-del-carnaval-2027",
+   "titulo": "Prueba de Admisión del Carnaval 2027",
+   "lugar_id": "teatro-de-verano",
+   "desde": "2026-11-11T20:30:00-03:00",
+   "hasta": "2026-11-14T20:30:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-ciclo-de-teatro",
