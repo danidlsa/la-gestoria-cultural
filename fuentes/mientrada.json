@@ -1,8 +1,8 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-10T21:17:50.602591-03:00",
+ "corrida": "2026-11-11T11:11:49.057971-03:00",
  "ok": true,
- "cantidad": 13,
+ "cantidad": 15,
  "errores": [],
  "eventos": [
   {
@@ -287,6 +287,46 @@
   },
   {
    "fuente": "mientrada",
+   "id_externo": "30798",
+   "url": "https://mientrada.com.uy/evento/la-de-antes-21noviembre-30798",
+   "titulo": "LA DE ANTES 21.NOVIEMBRE",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "Contáctanos a nuestro WhatsApp Oficial ?? ¡NUEVA FECHA CONFIRMADA! LA DE ANTES ? FIESTA RETRO ????? ¡Volvemos con una noche para viajar en el tiempo y bailar como antes! ?? Los clásicos que nunca pasan de moda, esas canciones que cantamos de principio a fin y toda la diversión que solo LA DE ANTES…",
+   "lugar": {
+    "nombre": "Hotel Radisson, Piso 02 - Ballro",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T22:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mientrada.com.uy/evento/la-de-antes-21noviembre-30798",
+     "via": "mientrada"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30798_banner5.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mientrada",
    "id_externo": "30788",
    "url": "https://mientrada.com.uy/evento/apoca-luz-cuban-party-30788",
    "titulo": "APOCA LUZ- CUBAN PARTY",
@@ -438,6 +478,46 @@
    ],
    "beneficios": [],
    "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30731_banner5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mientrada",
+   "id_externo": "30799",
+   "url": "https://mientrada.com.uy/evento/la-de-antes-fiesta-final-05diciembre-30799",
+   "titulo": "LA DE ANTES FIESTA FINAL 05.DICIEMBRE",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Contáctanos a nuestro WhatsApp Oficial ?? ¡LA ÚLTIMA LA DE ANTES DE 2026! ?? El sábado 5 de diciembre despedimos el año en el Radisson con ¡DENIS ELÍAS EN VIVO! ?? Juntá a tu gente y vení a brindar, bailar los clásicos de siempre y cantar a todo pulmón. ¡Nos queda una noche más para darlo todo en…",
+   "lugar": {
+    "nombre": "Hotel Radisson, Piso 02 - Ballro",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T23:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mientrada.com.uy/evento/la-de-antes-fiesta-final-05diciembre-30799",
+     "via": "mientrada"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30799_banner5.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

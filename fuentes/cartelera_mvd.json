@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-10T21:12:05.072614-03:00",
+ "corrida": "2026-11-11T11:05:57.700363-03:00",
  "ok": true,
- "cantidad": 100,
+ "cantidad": 99,
  "errores": [],
  "eventos": [
   {
@@ -2200,65 +2200,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41915.jpg",
    "productor": "Beatriz Sayad - Virginia Caputi",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34785",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34785",
-   "titulo": "El festejo",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Sandra y Micaela prepararon cada detalle para que la noche sea perfecta: comida, bebida, decoración y una casa impecablemente ordenada. Todo está en su lugar. O casi todo. Cuando Juan llega al festejo, una serie de preguntas incómodas, silencios inexplicables y una misteriosa vitrina comienza a…",
-   "lugar": {
-    "nombre": "Asociación Cristiana de Jóvenes",
-    "direccion": "Colonia 1870",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34785",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42092.jpg",
-   "productor": "Martín De Brun",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -5974,13 +5915,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-10T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-11T20:30:00-03:00",
      "fin": null,

@@ -1,55 +1,10 @@
 {
  "fuente": "entraste",
- "corrida": "2026-11-10T21:18:32.533785-03:00",
+ "corrida": "2026-11-11T11:12:32.644903-03:00",
  "ok": true,
  "cantidad": 8,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "entraste",
-   "id_externo": "366",
-   "url": "https://app.entraste.com/events/pariseo-latin-club-en-2019-vie-13-nov",
-   "titulo": "PARISEO LATIN CLUB EN 2019 - VIE 13 NOV",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": "Pariseo presenta una noche en 2019, viernes 13 de noviembre nos encontramos en Vou Club para una noche de mucho reggaetón del colegio",
-   "lugar": {
-    "nombre": "VOU CLUB",
-    "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
-    "lat": -34.9155965,
-    "lon": -56.1687301,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T23:59:00-03:00",
-     "fin": "2026-11-14T05:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 650.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://app.entraste.com/events/pariseo-latin-club-en-2019-vie-13-nov",
-     "via": "entraste"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://storage.googleapis.com/entraste-media/1793729079_1a7d425e0404301b.webp",
-   "productor": "Pariseo.dc",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "entraste",
    "id_externo": "295",
@@ -89,6 +44,51 @@
    "beneficios": [],
    "imagen_url": "https://storage.googleapis.com/entraste-media/1791905822_e327dc3fea414d19.webp",
    "productor": "Resilence",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "entraste",
+   "id_externo": "366",
+   "url": "https://app.entraste.com/events/pariseo-latin-club-en-2019-vie-13-nov",
+   "titulo": "PARISEO LATIN CLUB EN 2019 - VIE 13 NOV",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "Pariseo presenta una noche en 2019, viernes 13 de noviembre nos encontramos en Vou Club para una noche de mucho reggaetón del colegio",
+   "lugar": {
+    "nombre": "VOU CLUB",
+    "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
+    "lat": -34.9155965,
+    "lon": -56.1687301,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:59:00-03:00",
+     "fin": "2026-11-14T05:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/pariseo-latin-club-en-2019-vie-13-nov",
+     "via": "entraste"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1793729079_1a7d425e0404301b.webp",
+   "productor": "Pariseo.dc",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -211,7 +211,7 @@
    ],
    "precio": {
     "desde": 500.0,
-    "hasta": 1050.0,
+    "hasta": 1150.0,
     "moneda": "UYU",
     "gratis": false
    },

@@ -1,55 +1,10 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-10T21:16:39.333093-03:00",
+ "corrida": "2026-11-11T11:10:41.013501-03:00",
  "ok": true,
  "cantidad": 6,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "fever",
-   "id_externo": "662344",
-   "url": "https://feverup.com/m/662344",
-   "titulo": "Candlelight: Clásicos de Navidad",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Celebra la época más especial del año con una colección de queridas canciones navideñas. Desde villancicos atemporales hasta favoritas festivas, vive los clásicos de estas fechas junto a quienes más quieres en un acogedor concierto a la luz de las velas. Esta experiencia de concierto es un tributo…",
-   "lugar": {
-    "nombre": "Hotel Radisson Victoria Plaza",
-    "direccion": null,
-    "lat": -34.9058104,
-    "lon": -56.1995027,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-23T19:00:00-03:00",
-     "fin": "2026-12-23T21:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1150.0,
-    "hasta": 1150.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/662344",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/fe5444ee-3f93-11f0-a5a4-6ee326aa2bcb.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "fever",
    "id_externo": "603812",
@@ -88,6 +43,51 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/951da558-0f94-11f0-8078-762b521a76e7.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "662344",
+   "url": "https://feverup.com/m/662344",
+   "titulo": "Candlelight: Clásicos de Navidad",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Celebra la época más especial del año con una colección de queridas canciones navideñas. Desde villancicos atemporales hasta favoritas festivas, vive los clásicos de estas fechas junto a quienes más quieres en un acogedor concierto a la luz de las velas. Esta experiencia de concierto es un tributo…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-23T19:00:00-03:00",
+     "fin": "2026-12-23T21:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1150.0,
+    "hasta": 1150.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/662344",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/fe5444ee-3f93-11f0-a5a4-6ee326aa2bcb.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],

@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10T21:19:41.964726-03:00",
+ "generado": "2026-11-11T11:13:50.448799-03:00",
  "cantidad": 230,
  "lugares": [
   {
@@ -1211,9 +1211,9 @@
    "id": "la-ronda",
    "nombre": "La Ronda",
    "alias": [],
-   "direccion": "Ciudadela 1182",
-   "lat": -34.9096038,
-   "lon": -56.2000503,
+   "direccion": null,
+   "lat": -34.9096247,
+   "lon": -56.2000541,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1700,6 +1700,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "parque-cupra-club-seminario",
+   "nombre": "Parque Cupra - Club Seminario",
+   "alias": [],
+   "direccion": "Cochabamba 2882",
+   "lat": -34.8488928,
+   "lon": -56.1099432,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "parque-dr-julio-cesar-grauert",
    "nombre": "Parque Dr. Julio César Grauert",
    "alias": [],
@@ -2099,19 +2109,6 @@
    "direccion": "Canelones 782",
    "lat": -34.909444,
    "lon": -56.199444,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "teatro-acj",
-   "nombre": "Teatro ACJ",
-   "alias": [
-    "Asociación Cristiana de Jóvenes",
-    "ACJ"
-   ],
-   "direccion": "Colonia 1870",
-   "lat": -34.900928,
-   "lon": -56.1762836,
    "barrio": null,
    "ciudad": "Montevideo"
   },

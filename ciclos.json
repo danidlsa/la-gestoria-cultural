@@ -1,47 +1,7 @@
 {
- "generado": "2026-11-10T21:19:41.964726-03:00",
+ "generado": "2026-11-11T11:13:50.448799-03:00",
  "cantidad": 24,
  "ciclos": [
-  {
-   "id": "ciclo-envejecimiento-activo",
-   "titulo": "Envejecimiento activo",
-   "lugar_id": null,
-   "desde": "2026-11-10T16:30:00-03:00",
-   "hasta": "2026-12-11T16:00:00-03:00",
-   "cantidad": 6
-  },
-  {
-   "id": "ciclo-andrzej-wajda-en-su-centenario",
-   "titulo": "Andrzej Wajda, en su centenario",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-10T19:00:00-03:00",
-   "hasta": "2026-11-16T19:10:00-03:00",
-   "cantidad": 8
-  },
-  {
-   "id": "ciclo-ciclo-de-cine-accesible-2026",
-   "titulo": "Ciclo de Cine Accesible 2026",
-   "lugar_id": null,
-   "desde": "2026-11-10T19:30:00-03:00",
-   "hasta": "2026-11-14T19:30:00-03:00",
-   "cantidad": 5
-  },
-  {
-   "id": "ciclo-encuentro-de-murga-joven-2026",
-   "titulo": "Encuentro de Murga Joven 2026",
-   "lugar_id": "centro-cultural-las-duranas",
-   "desde": "2026-11-10T20:00:00-03:00",
-   "hasta": "2026-11-16T20:00:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-particulas",
-   "titulo": "Partículas",
-   "lugar_id": "sala-verdi",
-   "desde": "2026-11-10T20:00:00-03:00",
-   "hasta": "2026-11-24T20:00:00-03:00",
-   "cantidad": 2
-  },
   {
    "id": "ciclo-the-shannon",
    "titulo": "The Shannon",
@@ -49,6 +9,38 @@
    "desde": "2026-11-11T00:00:00-03:00",
    "hasta": "2026-11-28T00:00:00-03:00",
    "cantidad": 11
+  },
+  {
+   "id": "ciclo-envejecimiento-activo",
+   "titulo": "Envejecimiento activo",
+   "lugar_id": null,
+   "desde": "2026-11-11T16:00:00-03:00",
+   "hasta": "2026-12-11T16:00:00-03:00",
+   "cantidad": 6
+  },
+  {
+   "id": "ciclo-andrzej-wajda-en-su-centenario",
+   "titulo": "Andrzej Wajda, en su centenario",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-11T17:00:00-03:00",
+   "hasta": "2026-11-17T19:20:00-03:00",
+   "cantidad": 8
+  },
+  {
+   "id": "ciclo-ciclo-de-cine-accesible-2026",
+   "titulo": "Ciclo de Cine Accesible 2026",
+   "lugar_id": null,
+   "desde": "2026-11-11T19:00:00-03:00",
+   "hasta": "2026-11-14T19:30:00-03:00",
+   "cantidad": 4
+  },
+  {
+   "id": "ciclo-encuentro-de-murga-joven-2026",
+   "titulo": "Encuentro de Murga Joven 2026",
+   "lugar_id": "centro-cultural-las-duranas",
+   "desde": "2026-11-11T20:00:00-03:00",
+   "hasta": "2026-11-16T20:00:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-primavera-tango",
@@ -121,6 +113,14 @@
    "desde": "2026-11-15T17:00:00-03:00",
    "hasta": "2026-11-15T17:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-particulas",
+   "titulo": "Partículas",
+   "lugar_id": "sala-verdi",
+   "desde": "2026-11-17T20:00:00-03:00",
+   "hasta": "2026-11-24T20:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-atlantidoc",

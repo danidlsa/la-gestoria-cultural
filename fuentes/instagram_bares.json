@@ -1,6 +1,6 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-10T21:19:03.451458-03:00",
+ "corrida": "2026-11-11T11:13:04.180216-03:00",
  "ok": true,
  "cantidad": 23,
  "errores": [],
@@ -21,13 +21,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-10T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-17T21:00:00-03:00",
      "fin": null,
@@ -107,36 +100,31 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "barlarondacafe-20261111",
-   "url": "https://www.instagram.com/p/Dfa_6kstPzC/",
+   "url": "https://www.instagram.com/reel/DflP41YgbD6/",
    "titulo": "La Ronda: Noches De Ensayos Abiertos · Lali Gaspari",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Este miércoles en Noches De Ensayos Abiertos Lali Gaspari Música y compositora, su propuesta artística nace de la composición en piano, donde conviven la estructura de la canción y la búsqueda de texturas contemporáneas. En su trabajo, las piezas de corte pop dialogan con pasajes instrumentales, a…",
+   "descripcion_corta": "Esto fue NDEA el pasado miércoles con adri_h_z Mañana los esperamos con una nueva edición de NDEA con lali_gaspari en vivo Musicaliza _wandixx_ 20h Ciudadela 1182",
    "lugar": {
     "nombre": "La Ronda",
-    "direccion": "Ciudadela 1182",
+    "direccion": null,
     "lat": null,
     "lon": null,
     "barrio": null
    },
    "funciones": [
     {
-     "inicio": "2026-11-11T00:00:00-03:00",
+     "inicio": "2026-11-11T20:00:00-03:00",
      "fin": null,
-     "sin_hora": true,
+     "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
+   "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Dfa_6kstPzC/",
+     "url": "https://www.instagram.com/reel/DflP41YgbD6/",
      "via": "instagram"
     }
    ],

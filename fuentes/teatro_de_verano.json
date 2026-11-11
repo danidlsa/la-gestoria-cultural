@@ -1,55 +1,10 @@
 {
  "fuente": "teatro_de_verano",
- "corrida": "2026-11-10T21:13:53.264739-03:00",
+ "corrida": "2026-11-11T11:07:54.166967-03:00",
  "ok": true,
- "cantidad": 11,
+ "cantidad": 10,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "teatro_de_verano",
-   "id_externo": "136-etapa-1",
-   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
-   "titulo": "Prueba de Admisión - Carnaval 2027 · Etapa 1: La Malandra, Desirée, Inframurga, El Clan, La Justa",
-   "categoria": "carnaval",
-   "categoria_segura": true,
-   "descripcion_corta": "Etapa 1: La Malandra (murga), Desirée (humoristas), Inframurga (murga), El Clan (parodistas) y La Justa (murga). Entrada libre, hasta agotar localidades, con la entrega de un alimento no perecedero.",
-   "lugar": {
-    "nombre": "Teatro de Verano Ramón Collazo",
-    "direccion": "Rambla Wilson s/n, Parque Rodó",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-10T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
-     "via": "teatro_de_verano"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/613.jpg",
-   "productor": "Teatro de Verano",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "teatro_de_verano",
    "id_externo": "136-etapa-2",

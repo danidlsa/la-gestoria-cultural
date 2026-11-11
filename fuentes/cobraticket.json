@@ -1,8 +1,8 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-10T21:18:08.166899-03:00",
+ "corrida": "2026-11-11T11:12:04.895532-03:00",
  "ok": true,
- "cantidad": 9,
+ "cantidad": 10,
  "errores": [],
  "eventos": [
   {
@@ -319,6 +319,46 @@
    "beneficios": [],
    "imagen_url": "https://img.cobraticket.uy/mfre_bE3Hfb2ThQ1jjNnU.jpg",
    "productor": "MIS URUGUAY",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "001934",
+   "url": "https://cobraticket.uy/e/fiesta-interno-bordo-001934",
+   "titulo": "Fiesta Interno Bordó",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "Fiesta final Interno Bordó 2026 Sábado 5 de diciembre 23:59 Parque Cupra - Club Seminario Barra libre toda la noche Cerramos el torneo más lindo del mundo como se merece!",
+   "lugar": {
+    "nombre": "Parque Cupra - Club Seminario",
+    "direccion": "Cochabamba 2882",
+    "lat": -34.8488928,
+    "lon": -56.1099432,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T22:00:00-03:00",
+     "fin": "2026-12-06T07:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/fiesta-interno-bordo-001934",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Interno Bordó",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

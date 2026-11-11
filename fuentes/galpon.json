@@ -1,8 +1,8 @@
 {
  "fuente": "galpon",
- "corrida": "2026-11-10T21:14:00.812414-03:00",
+ "corrida": "2026-11-11T11:08:00.840973-03:00",
  "ok": true,
- "cantidad": 25,
+ "cantidad": 24,
  "errores": [],
  "eventos": [
   {
@@ -338,48 +338,6 @@
   },
   {
    "fuente": "galpon",
-   "id_externo": "estanislao-bachrach",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/estanislao-bachrach/",
-   "titulo": "Estanislao Bachrach",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Un viaje al interior de nuestro cuerpo para comprender qué son las emociones, cómo aparecen, qué las dispara y cómo afectan nuestro cuerpo y nuestra mente.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-10T20:00:00-03:00",
-     "fin": "2026-11-10T21:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/ESTANISLAO-BACHRACH--Sala-Campodonico/33826/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2025/04/ESTANISLAO_Redtickets_1200xx628.jpg",
-   "productor": "Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/ESTANISLAO-BACHRACH--Sala-Campodonico/33826/"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
    "id_externo": "codigo-cero",
    "url": "https://www.teatroelgalpon.org.uy/espectaculos/codigo-cero/",
    "titulo": "Código Cero",
@@ -394,13 +352,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-10T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-11T21:00:00-03:00",
      "fin": null,
@@ -1150,13 +1101,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-10T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-17T20:00:00-03:00",
      "fin": null,
