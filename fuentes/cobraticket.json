@@ -1,8 +1,8 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-10T20:48:46.692941-03:00",
+ "corrida": "2026-11-10T21:18:08.166899-03:00",
  "ok": true,
- "cantidad": 8,
+ "cantidad": 9,
  "errores": [],
  "eventos": [
   {
@@ -159,6 +159,46 @@
    "beneficios": [],
    "imagen_url": "https://img.cobraticket.uy/l5ae6DOvbZNupu-INSZqX.jpg",
    "productor": "EPIC",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "041862",
+   "url": "https://cobraticket.uy/e/marikoteca-hot-and-candy-041862",
+   "titulo": "MARIKOTECA HOT & CANDY",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "Sábado a pura fiesta en 🌈MARIKOTECA H🔥T & CANDY 🍭 💪Santi, Edson y Albert serán nuestros anfitriones quienes te recibirán y animarán la noche desde arriba de nuestras tarimas. 🍭Además estarán repartiendo picos dulces. ​🥳En nuestras barras tendremos promo de 2 Fernet 1882 a $400 hasta las 2.00hs. 🎧En…",
+   "lugar": {
+    "nombre": "Zoba Club",
+    "direccion": "Bv. España 2218",
+    "lat": -34.9095744,
+    "lon": -56.1679561,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T23:50:00-03:00",
+     "fin": "2026-11-15T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/marikoteca-hot-and-candy-041862",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/vpeODJiPP0-gns1QqFkzp.jpg",
+   "productor": "Zoba Club",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

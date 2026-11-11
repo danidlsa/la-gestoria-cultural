@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-10T20:49:18.879115-03:00",
+ "corrida": "2026-11-10T21:18:41.989232-03:00",
  "ok": true,
  "cantidad": 15,
  "errores": [],
@@ -457,51 +457,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "27d891c2-4908-47ad-9908-62834fa8b5d6",
-   "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
-   "titulo": "Jula Andina presenta “Fecunda”",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La cantautora argentina JULA ANDINA presenta FECUNDA el próximo 24 de Noviembre en El Hormiguero. En un encuentro entre canciones, viajes y universos propios, la noche abrirá con Fulana de Val y contará con la participación especial de Clara Pregliasco, ambas cantautoras uruguayas. FECUNDA nace de…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T21:00:00-03:00",
-     "fin": "2026-11-24T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "dbdedcc5-b5d5-472c-929a-32947d6cd1ee",
    "url": "https://www.tikzet.com/events/mamba-club",
    "titulo": "MAMBA CLUB",
@@ -674,6 +629,51 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F6520d919-2b36-47e3-b6a2-0e969819753f.original",
    "productor": "El Chamuyo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "27d891c2-4908-47ad-9908-62834fa8b5d6",
+   "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
+   "titulo": "Jula Andina presenta “Fecunda”",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La cantautora argentina JULA ANDINA presenta FECUNDA el próximo 24 de Noviembre en El Hormiguero. En un encuentro entre canciones, viajes y universos propios, la noche abrirá con Fulana de Val y contará con la participación especial de Clara Pregliasco, ambas cantautoras uruguayas. FECUNDA nace de…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T21:00:00-03:00",
+     "fin": "2026-11-24T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
+   "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

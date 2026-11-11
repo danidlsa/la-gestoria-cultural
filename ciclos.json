@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-10T20:50:38.301072-03:00",
- "cantidad": 23,
+ "generado": "2026-11-10T21:19:41.964726-03:00",
+ "cantidad": 24,
  "ciclos": [
   {
    "id": "ciclo-envejecimiento-activo",
@@ -41,6 +41,14 @@
    "desde": "2026-11-10T20:00:00-03:00",
    "hasta": "2026-11-24T20:00:00-03:00",
    "cantidad": 2
+  },
+  {
+   "id": "ciclo-the-shannon",
+   "titulo": "The Shannon",
+   "lugar_id": "the-shannon-irish-pub",
+   "desde": "2026-11-11T00:00:00-03:00",
+   "hasta": "2026-11-28T00:00:00-03:00",
+   "cantidad": 11
   },
   {
    "id": "ciclo-primavera-tango",

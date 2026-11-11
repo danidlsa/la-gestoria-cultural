@@ -1,8 +1,8 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-10T20:48:02.168543-03:00",
+ "corrida": "2026-11-10T21:17:12.122077-03:00",
  "ok": true,
- "cantidad": 30,
+ "cantidad": 29,
  "errores": [],
  "eventos": [
   {
@@ -2237,46 +2237,6 @@
    "ciclo": null,
    "muestra": true,
    "hasta": "2027-02-28"
-  },
-  {
-   "fuente": "mnav",
-   "id_externo": "rimer2026",
-   "url": "https://mnav.gub.uy/cms.php?id=rimer2026",
-   "titulo": "Presentación del libro Rimer Cardillo: relatos, crónicas y ensayos",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-10T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=rimer2026",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=rimer2026",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
   },
   {
    "fuente": "mnav",

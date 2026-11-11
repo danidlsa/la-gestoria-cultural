@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-10T20:50:38.301072-03:00",
- "cantidad": 226,
+ "generado": "2026-11-10T21:19:41.964726-03:00",
+ "cantidad": 230,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -284,6 +284,16 @@
    "direccion": "Complejo Prado",
    "lat": -34.861076,
    "lon": -56.20152,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "brecha-bar-y-cafe",
+   "nombre": "Brecha Bar y Café 🏳️‍🌈",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9084142,
+   "lon": -56.18779,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -657,6 +667,16 @@
    "direccion": "Av. Luis Batlle Berres 5870",
    "lat": -34.84115655034,
    "lon": -56.257511188715,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "cordon-beer",
+   "nombre": "Cordón Beer",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9030672,
+   "lon": -56.1691678,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1188,6 +1208,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "la-ronda",
+   "nombre": "La Ronda",
+   "alias": [],
+   "direccion": "Ciudadela 1182",
+   "lat": -34.9096038,
+   "lon": -56.2000503,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "la-trastienda",
    "nombre": "La Trastienda",
    "alias": [],
@@ -1462,6 +1492,16 @@
    "lat": -34.9109531,
    "lon": -56.1719738,
    "barrio": "Parque Rodó",
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "mercado-ferrando",
+   "nombre": "Mercado Ferrando",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9042129,
+   "lon": -56.170688,
+   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -1772,16 +1812,6 @@
    "direccion": "3RFM+PM6, Rbla. Pdte. Wilson, 11300 Mont",
    "lat": -34.925712,
    "lon": -56.165869,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "rambla-gandhi-633",
-   "nombre": "Rambla Gandhi 633",
-   "alias": [],
-   "direccion": "Rbla. Gandhi 633, 11300 Montevideo, Depa",
-   "lat": -34.920993,
-   "lon": -56.149864,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2278,6 +2308,16 @@
    "direccion": "Rincón 687",
    "lat": -34.905411,
    "lon": -56.201545,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "the-shannon-irish-pub",
+   "nombre": "The Shannon irish pub",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9070916,
+   "lon": -56.2016946,
    "barrio": null,
    "ciudad": "Montevideo"
   },
