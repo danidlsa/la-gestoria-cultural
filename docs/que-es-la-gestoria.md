@@ -18,7 +18,7 @@ Esto es una **iniciativa sin ánimo de lucro**. En la página no se puede hacer 
 
 Todo dentro de Montevideo:
 
-Conciertos y festivales de música, la cartelera de teatro, humor (sobre todo shows de stand-up), walking tours que no son dirigidos necesariamente a turistas (aquí no tomo datos de plataformas como Viator o Civitatis, por ejemplo, sino caminatas de la IM, de Peatonal tours, entre otros proveedores más orientados a público local), algo de cine (básicamente Cinemateca - dejé por fuera la mayoría de las salas comerciales, para no sobrecargar), exposiciones y actividades de museos, y talleres y actividades gratuitas de la Intendencia. No se incluyen eventos deportivos, y es posible que buena parte de la agenda 'under' se escape. Esto, en parte, porque no incluyo instagram ni ninguna red social como fuente (para eso hay que pagar y no suele ser barato).
+Conciertos y festivales de música, la cartelera de teatro, humor (sobre todo shows de stand-up), walking tours que no son dirigidos necesariamente a turistas (aquí no tomo datos de plataformas como Viator o Civitatis, por ejemplo, sino caminatas de la IM, de Peatonal tours, entre otros proveedores más orientados a público local), algo de cine (básicamente Cinemateca - dejé por fuera la mayoría de las salas comerciales, para no sobrecargar), exposiciones y actividades de museos, y talleres y actividades gratuitas de la Intendencia. No se incluyen eventos deportivos, y es posible que buena parte de la agenda 'under' se escape, aunque estamos trabajando en incluir cosas publicadas en instagram (sin que eso implique un costo extra para la gestión de la plataforma). Si tenés una cuenta que publica eventos y no aparecen aún en nuestra cartelera, podés avisarnos.
 
 # ¿Cómo funciona?
 
