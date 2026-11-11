@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-11T11:58:47.605384-03:00",
+ "corrida": "2026-11-11T12:16:57.054615-03:00",
  "ok": true,
- "cantidad": 40,
+ "cantidad": 41,
  "errores": [],
  "eventos": [
   {
@@ -1874,6 +1874,49 @@
    "productor": "Espectáculos del Sodre",
    "region": "montevideo",
    "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13779",
+   "url": "https://sodre.gub.uy/espectaculos/cuadros-tangueros-retratos-de-tango-de-distintas-epocas-pablo-agri-junto-a-musicos-de-la-ossodre/",
+   "titulo": "Cuadros tangueros. Retratos de tango de distintas épocas. Pablo Agri junto a músicos de la Ossodre",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Temporada de Música de Cámara",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T20:00:00-03:00",
+     "fin": "2026-11-26T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/buscar?0&texto=Cuadros%20tangueros",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Adaptaciones_CUADROS_TANGUEROS_destacada-1-768x420.png",
+   "productor": "Temporada de Música de Cámara del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/buscar?0&texto=Cuadros%20tangueros"
+   ],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,

@@ -1,10 +1,187 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-11T12:07:21.821864-03:00",
+ "corrida": "2026-11-11T12:25:06.643177-03:00",
  "ok": true,
- "cantidad": 23,
+ "cantidad": 36,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lacretinacasa-20261021",
+   "url": "https://www.instagram.com/p/DfmmFjPFYbV/",
+   "titulo": "La Cretina: MAMBO",
+   "categoria": "humor",
+   "categoria_segura": false,
+   "descripcion_corta": "Esta noche: MAMBO ¡MAMBO! Un retrato contemporáneo, mordaz, profundamente humano y de humor corrosivo, donde la venganza, el dinero y la búsqueda frenética de la felicidad se cruzan en escena. Porque como decía Denis de Rougemont, el amor feliz no tiene historia ... y Mambo promete no dejar a nadie…",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-18T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-07T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-21T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfmmFjPFYbV/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/14917c830e7a.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "centroculturalterminalgoes-20261103",
+   "url": "https://www.instagram.com/p/DfSSI5DFIG9/",
+   "titulo": "Centro Cultural Terminal Goes: Festival Internacional Atlantidoc",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Festival Internacional Atlantidoc | Ciclo de cine Deslizá para conocer las propuestas para este mes Todos los miércoles | 19 horas Centro Cultural Terminal Goes Entrada libre y gratuita atlantidoc.uy mvdaudiovisual Festival Internacional Atlantidoc | Ciclo de cine Con los brazos abiertos Con los…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-25T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfSSI5DFIG9/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/93e5b66a9033.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "sansuena_cafevivero-20261108",
+   "url": "https://www.instagram.com/p/DffynDHiEgp/",
+   "titulo": "UN TRIBUTO AL DARNO LLEGA A SANSUEÑA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¡UN TRIBUTO AL DARNO LLEGA A SANSUEÑA! Hay nombres que guardan historias y encuentran distintas formas de seguir viviendo. Sansueña, además de ser este rincón natural donde las plantas, el café y la música son protagonistas, es también el nombre del tercer disco de Eduardo Darnauchans, una de las…",
+   "lugar": {
+    "nombre": "Orinoco 4968",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DffynDHiEgp/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/408822156a53.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "instagram_bares",
    "id_externo": "latabernadebrecha-20261110",
@@ -237,6 +414,47 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "centroculturalterminalgoes-20261112",
+   "url": "https://www.instagram.com/p/DfVJwXclu3T/",
+   "titulo": "Centro Cultural Terminal Goes: LAS FLORES DEL MAL",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "LAS FLORES DEL MAL Las flores del mal presenta INVIERNO, su primer trabajo discográfico. Banda invitada: Fonamor. Jueves 12 de noviembre 20:30 horas Centro Cultural Terminal Goes Entradas en Tickantel",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfVJwXclu3T/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/460162c5bf42.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "montevideobeercompany-20261113",
    "url": "https://www.instagram.com/p/DfSebJtGEzX/",
    "titulo": "MBC: Una década de planes merecía una noche así",
@@ -321,6 +539,47 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "centroculturalterminalgoes-20261113",
+   "url": "https://www.instagram.com/p/DfXTcW0DUo1/",
+   "titulo": "Centro Cultural Terminal Goes: LUCA PRODAN: LA VIDA QUE NUNCA TE CONTARON",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "LUCA PRODAN: LA VIDA QUE NUNCA TE CONTARON Proyección del documental \"LUCA\", dirigido por Rodrigo Espina, sobre la vida de Luca Prodan, fundador de la banda Sumo y figura fundamental del rock argentino de los años '80. La película, ganadora del 4º Festival Internacional de Cine Documental Musical…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfXTcW0DUo1/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/c6ea9b7da2c4.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "mercadoferrando-20261113",
    "url": "https://www.instagram.com/p/Dfh3ILHGnMj/",
    "titulo": "Celebramos la Noche de las Librerías en Mercado Ferrando",
@@ -400,6 +659,221 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "fama.tours-20261114",
+   "url": "https://www.instagram.com/p/DffwBQuK4SF/",
+   "titulo": "fama.tours: Oro en los Salones.",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Oro en los Salones. Reconocimiento estilístico de los interiores de Quinta de Mendilaharsu (Museo de Antropología), Foyer del Teatro Solís, Palacio Taranco (Museo de Artes Decorativas) y Palacete Beatriz. Merienda. Sábado 14 de Noviembre - 14:00 hs 1300 pesos uruguayos Reservas 095 002 623 . . .",
+   "lugar": {
+    "nombre": "Oro en los Salones. Reconocimiento estilístico de los interiores de Quinta de Mendilaharsu (Museo de Antropología)",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DffwBQuK4SF/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/07e15268eed7.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "fenixbaruy-20261114",
+   "url": "https://www.instagram.com/p/Dfk7fcrGqfB/",
+   "titulo": "Fénix Bar: La esquina de fiesta",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La esquina de fiesta Este sábado celebramos los 10 años de nuestros amigos de sayaga_beer y, como la ocasión lo amerita, cerramos la calle. Nos llevamos el bar para afuera y armamos una fiesta de esas que nos gustan. Música durante toda la jornada, con martin.chispi , gabinosuanes y zingabeat.dj…",
+   "lugar": {
+    "nombre": "Juan Carlos Gómez y Reconquista",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T15:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfk7fcrGqfB/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d2bf1cf701c3.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "jardinbotanicodemontevideo-20261114",
+   "url": "https://www.instagram.com/p/DflCVAyj1rU/",
+   "titulo": "Jardín Botánico: De 9 a",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábado 14 de noviembre de 9 a 18 h. Los esperamos para una nueva edición de la feria de plantas del Jardín Botánico. Exposición y venta más de diversos expositores. El evento se suspende por inclemencias climáticas. Organiza: ABOV (Asociación de Amigos del Jardín Botánico y otros espacios verdes)…",
+   "lugar": {
+    "nombre": "Jardín Botánico",
+    "direccion": "Av. 19 de Abril 1181",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DflCVAyj1rU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6cc4c75f2108.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lamadredelassecond-20261114",
+   "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
+   "titulo": "La Madre de las Second Hand: PLAZA DE LAS PIONERAS",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "SÁBADO 14 – PLAZA DE LAS PIONERAS Más de 150 stands con ropa, calzado, accesorios, libros, juguetes y objetos de segunda mano. ¡Además, food trucks! Av. Agraciada esquina Gral. Fausto Aguilar. De 11 a 18 hs.",
+   "lugar": {
+    "nombre": "Av. Agraciada esquina Gral. Fausto Aguilar",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a3c1133c2fd8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lamadredelassecond-20261115",
+   "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
+   "titulo": "La Madre de las Second Hand: PASO MOLINO",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "DOMINGO 15 – PASO MOLINO Celebramos los 134 años de Belvedere con La Madre de las Second Hand, feria de artesanos, plaza de comidas y espectáculos en vivo: Damián Lescano, Mariano Bermúdez, Demostración de Taekwondo, Fusión Murguera, De Todas Partes, Hay Banda, Murga La Margarita, Murga Araca la…",
+   "lugar": {
+    "nombre": "Av. Agraciada esquina Gral. Fausto Aguilar",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/31db3cd88355.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -491,6 +965,52 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "centroculturalterminalgoes-20261119",
+   "url": "https://www.instagram.com/p/De-MrIVjQ4T/",
+   "titulo": "Centro Cultural Terminal Goes: LIBERANDO LODIO",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "LIBERANDO LODIO Teatro Ritual Bufón Liberando lodio es una experiencia escénica de teatro bufón que, desde el humor grotesco y una poética ritual, propone una crítica sarcástica al uso del poder, el fanatismo y a los dogmas que vacían de sentido la espiritualidad. La obra se articula como un…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/De-MrIVjQ4T/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e727b639fc0e.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "theshannonuy-20261120",
    "url": "https://www.instagram.com/p/DfUjlSARymU/",
    "titulo": "The Shannon: PIANO BAR",
@@ -529,6 +1049,54 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "centroculturalterminalgoes-20261120",
+   "url": "https://www.instagram.com/p/DfhmnO1DeE5/",
+   "titulo": "Centro Cultural Terminal Goes: ASCENSO",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "ASCENSO Santiago Alvez presenta su proyecto con un show musical de cumbia romántica. Show de apertura: Talya Godoy Más artistas invitados. Viernes 20 de noviembre 20:30 horas Centro Cultural Terminal Goes Entradas en Tickantel tickantel.ok imcultura esquinasdelaculturaim municipioc",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T15:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfhmnO1DeE5/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d574dc5d518d.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -658,6 +1226,47 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "fenixbaruy-20261126",
+   "url": "https://www.instagram.com/p/DfP_SXhP6Lg/",
+   "titulo": "Fénix Bar: Picudo Rojo llega al Fénix",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Picudo Rojo llega al Fénix! El jueves 26 recibimos a siyofuerareymago , que llega a la esquina para presentar su último disco: PICUDO ROJO. Una noche para meternos en el universo audiovisual del álbum, recorrer sus videoclips y conocer un poco más de cerca el trabajo detrás de cada canción. Jueves…",
+   "lugar": {
+    "nombre": "Bar Fénix",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfP_SXhP6Lg/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3bf3aa296475.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },

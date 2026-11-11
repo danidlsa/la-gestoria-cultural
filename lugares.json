@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-11T12:08:47.995308-03:00",
- "cantidad": 232,
+ "generado": "2026-11-11T12:26:19.577891-03:00",
+ "cantidad": 234,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -1106,6 +1106,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "jardin-botanico",
+   "nombre": "Jardín Botánico",
+   "alias": [],
+   "direccion": "Av. 19 de Abril 1181",
+   "lat": -34.862599,
+   "lon": -56.2011142,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "jose-enrique-rodo-1995",
    "nombre": "José Enrique Rodó 1995",
    "alias": [],
@@ -1666,6 +1676,16 @@
    "direccion": "Av. de las Instrucciones 1057",
    "lat": -34.842152,
    "lon": -56.19857,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "orinoco-4968",
+   "nombre": "Orinoco 4968",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.8958906,
+   "lon": -56.0979762,
    "barrio": null,
    "ciudad": "Montevideo"
   },
