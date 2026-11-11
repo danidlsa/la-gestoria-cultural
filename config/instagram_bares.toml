@@ -142,3 +142,39 @@ usuario = "inmigrantesmvd"
 nombre = "Inmigrantes MVD"  # como ya está en el sitio (lo vende RedTickets)
 corto = "Inmigrantes"
 direccion = "Juan Paullier 1252"
+
+# Sumadas el 11/11/2026.
+[[bar]]
+usuario = "jardinbotanicodemontevideo"
+nombre = "Jardín Botánico"
+direccion = "Av. 19 de Abril 1181"
+bar = false
+
+[[bar]]
+usuario = "centroculturalterminalgoes"
+nombre = "Centro Cultural Terminal Goes"  # como ya está en el sitio
+direccion = "Gral. Flores y Domingo Aramburú"
+lat = -34.882708
+lon = -56.181856
+bar = false
+
+[[bar]]
+usuario = "sansuena_cafevivero"
+nombre = "Sansueña"
+direccion = "Orinoco 4968"
+bar = false
+
+[[bar]]
+usuario = "fenixbaruy"
+nombre = "Fénix Bar"
+direccion = "Juan Carlos Gómez 1251"
+
+[[bar]]
+usuario = "lamadredelassecond"
+notas = "ferias second hand: cada una en un lugar distinto; entra lo que diga dónde es con 📍"
+bar = false
+
+[[bar]]
+usuario = "fama.tours"
+notas = "recorridos: cada uno sale de un lugar distinto; entra lo que diga el punto de encuentro con 📍"
+bar = false
