@@ -650,7 +650,7 @@ def scrapear(cliente, ahora: datetime) -> tuple[list[EventoCrudo], list[str]]:
 
 INTRO = (
     "Posts de bares y salas que parecen anunciar algo. **Tildá los que querés publicar**: entran al sitio en la "
-    "próxima actualización (6:17, 12:17 o 18:17).\n\n"
+    "próxima actualización (8:17, 12:17 o 18:17; GitHub a veces las atrasa).\n\n"
     "- Para cambiar el título, editá el aviso (los tres puntos ⋯ → Edit) y cambiá lo que va entre `**`.\n"
     "- Si te arrepentís, sacá el tilde y se va en la actualización siguiente.\n"
     "- Lo que no tildes no se publica. Este aviso se cierra solo cuando pasan todas las fechas.\n"

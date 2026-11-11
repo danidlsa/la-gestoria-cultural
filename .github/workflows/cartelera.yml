@@ -1,12 +1,14 @@
 name: Cartelera
 
 # Scrapea, unifica, guarda los datos en la rama `datos` y publica la web.
-# 6:17, 12:17 y 18:17 de Uruguay (UTC-3). La de las 12 levanta lo que sube la corrida local de las 11.
+# 8:17, 12:17 y 18:17 de Uruguay (UTC-3). La de las 12 levanta lo que sube la corrida local de las 11.
+# GitHub atrasa mucho las corridas programadas (de 1 a 6 horas) y a veces las saltea: la de las 6:17 no corría
+# nunca, y se pasó a las 8:17 (10/11/2026).
 # Los minutos van fuera de la hora en punto: ahí GitHub atrasa o saltea más las corridas programadas.
 # Las actions de terceros van fijadas a un commit exacto: una versión nueva (o comprometida) no entra sola.
 on:
   schedule:
-    - cron: "17 9,15,21 * * *"
+    - cron: "17 11,15,21 * * *"
   workflow_dispatch:
 
 # Permisos mínimos: nada por defecto, y cada trabajo pide solo lo que usa.
