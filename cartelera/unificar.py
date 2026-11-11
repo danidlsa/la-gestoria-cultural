@@ -247,23 +247,43 @@ def agrupar(crudos: list[EventoCrudo], lugar_de: list[str]) -> list[list[int]]:
                 conjuntos.unir(i, dueno[clave])
 
     # 2. Coincidencia difusa: mismo lugar, alguna función el mismo día y títulos parecidos.
+    dias = [{f.inicio.date() for f in crudo.funciones} for crudo in crudos]
+    pares: list[tuple[int, int]] = []
+    candidatos: dict[int, list[int]] = defaultdict(list)
     por_lugar: dict[str, list[int]] = defaultdict(list)
     for i, lugar_id in enumerate(lugar_de):
         por_lugar[lugar_id].append(i)
     for indices in por_lugar.values():
         for posicion, i in enumerate(indices):
-            dias_i = {f.inicio.date() for f in crudos[i].funciones}
             for j in indices[posicion + 1:]:
                 if crudos[i].fuente == crudos[j].fuente or conjuntos.raiz(i) == conjuntos.raiz(j):
                     continue
-                if not dias_i & {f.inicio.date() for f in crudos[j].funciones}:
-                    continue
-                if _parecidos(crudos[i], crudos[j]):
-                    conjuntos.unir(i, j)
+                if dias[i] & dias[j] and _parecidos(crudos[i], crudos[j]):
+                    pares.append((i, j))
+                    candidatos[i].append(j)
+                    candidatos[j].append(i)
+
+    # Un evento "paraguas" ("Prueba de Admisión", del 11 al 14) se parece a varios eventos distintos de otra fuente
+    # (cada etapa, una noche). Si se uniera con todos, pegaría las etapas en uno solo: queda afuera. Si esos eventos
+    # ya cubren todos sus días, sobra; si no, sale aparte.
+    paraguas: set[int] = set()
+    sobran: set[int] = set()
+    for i, js in candidatos.items():
+        por_fuente: dict[str, set[int]] = defaultdict(set)
+        for j in js:
+            por_fuente[crudos[j].fuente].add(conjuntos.raiz(j))
+        if any(len(raices) > 1 for raices in por_fuente.values()):
+            paraguas.add(i)
+            if dias[i] <= set().union(*(dias[j] for j in js)):
+                sobran.add(i)
+    for i, j in pares:
+        if i not in paraguas and j not in paraguas:
+            conjuntos.unir(i, j)
 
     grupos: dict[int, list[int]] = defaultdict(list)
     for i in range(len(crudos)):
-        grupos[conjuntos.raiz(i)].append(i)
+        if i not in sobran:
+            grupos[conjuntos.raiz(i)].append(i)
     return list(grupos.values())
 
 

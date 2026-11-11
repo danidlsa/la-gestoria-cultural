@@ -220,3 +220,25 @@ def test_lo_que_pasa_en_un_bar_lleva_la_etiqueta_aunque_venga_de_otra_fuente():
                evento("Orquesta", "sodre", "sodre")]
     etiquetar(eventos, {})
     assert [("bar" in e.etiquetas) for e in eventos] == [True, True, False]
+
+
+def test_un_evento_paraguas_no_pega_las_etapas():
+    """La Intendencia publica "Prueba de Admisión" del 11 al 14; el Teatro de Verano, cada etapa en su noche."""
+    from zoneinfo import ZoneInfo
+    from cartelera.modelo import EventoCrudo, Funcion, LugarCrudo
+    from cartelera.unificar import agrupar
+    noche = [datetime(2026, 11, d, 20, 30, tzinfo=ZoneInfo("America/Montevideo")) for d in (11, 12, 13, 14)]
+
+    def crudo(fuente, titulo, inicios):
+        return EventoCrudo(fuente=fuente, id_externo=titulo, url="https://x.uy", titulo=titulo,
+                           lugar=LugarCrudo(nombre="Teatro de Verano"), funciones=[Funcion(inicio=i) for i in inicios])
+
+    etapas = [crudo("teatro_de_verano", f"Prueba de Admisión - Carnaval 2027 · Etapa {n}: grupos", [noche[n - 2]])
+              for n in (2, 3, 4, 5)]
+    paraguas = crudo("portal_im", "Prueba de Admisión", noche)
+    assert sorted(map(sorted, agrupar([*etapas, paraguas], ["tv"] * 5))) == [[0], [1], [2], [3]]
+    # Si el paraguas tiene un día que las etapas no cubren, sale aparte (no se pierde).
+    paraguas.funciones.append(Funcion(inicio=noche[3].replace(day=15)))
+    assert sorted(map(sorted, agrupar([*etapas, paraguas], ["tv"] * 5))) == [[0], [1], [2], [3], [4]]
+    # Con una sola etapa parecida, se une como siempre.
+    assert sorted(map(sorted, agrupar([etapas[0], crudo("portal_im", "Prueba de Admisión", noche[:1])], ["tv"] * 2))) == [[0, 1]]
