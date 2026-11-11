@@ -1,51 +1,10 @@
 {
  "fuente": "mec_museos",
- "corrida": "2026-11-11T13:13:38.776711-03:00",
+ "corrida": "2026-11-11T15:56:03.611891-03:00",
  "ok": true,
  "cantidad": 3,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "mec_museos",
-   "id_externo": "lanzamiento-del-circuito-torres-garcia",
-   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/lanzamiento-del-circuito-torres-garcia",
-   "titulo": "Lanzamiento del Circuito Torres García",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Torres García",
-    "direccion": "Sarandí 683",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T12:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/lanzamiento-del-circuito-torres-garcia",
-     "via": "mec_museos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Ministerio de Educación y Cultura",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "mec_museos",
    "id_externo": "entrega-del-premio-figari-2026-artista-visual-claudia-anselmi",
@@ -74,6 +33,47 @@
    "entradas": [
     {
      "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/entrega-del-premio-figari-2026-artista-visual-claudia-anselmi",
+     "via": "mec_museos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Ministerio de Educación y Cultura",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mec_museos",
+   "id_externo": "xxx-premio-figari",
+   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/xxx-premio-figari",
+   "titulo": "XXX Premio Figari",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Figari. Juan C. Gómez 1427",
+    "direccion": "Montevideo",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-11T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/xxx-premio-figari",
      "via": "mec_museos"
     }
    ],

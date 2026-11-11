@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-11T13:18:26.731641-03:00",
- "cantidad": 238,
+ "generado": "2026-11-11T15:58:33.839653-03:00",
+ "cantidad": 243,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -378,6 +378,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "carmelo-1478",
+   "nombre": "Carmelo 1478",
+   "alias": [],
+   "direccion": "Carmelo 1478, 11700 Montevideo, Departam",
+   "lat": -34.863715,
+   "lon": -56.189107,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "carrasco-lawn-tennis-club",
    "nombre": "Carrasco Lawn Tennis Club",
    "alias": [],
@@ -531,7 +541,7 @@
    "id": "centro-de-eventos-del-parque-de-innovacion-del-latu",
    "nombre": "Centro de Eventos del Parque de Innovación del LATU",
    "alias": [],
-   "direccion": "Montevideo",
+   "direccion": "Av. Dra. María Luisa Saldún de Rodríguez",
    "lat": -34.879002,
    "lon": -56.080881,
    "barrio": null,
@@ -1106,6 +1116,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "impulsus",
+   "nombre": "Impulsus",
+   "alias": [],
+   "direccion": "Maldonado 1994, 11200 Montevideo, Depart",
+   "lat": -34.908449,
+   "lon": -56.17213,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "indoorclub-1983",
    "nombre": "Indoorclub 1983",
    "alias": [],
@@ -1176,12 +1196,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu-laboratorio-tecnologico-del-uruguay",
-   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
+   "id": "latu",
+   "nombre": "LATU",
    "alias": [
-    "LATU"
+    "LATU - Laboratorio Tecnológico del Uruguay"
    ],
-   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
+   "direccion": "Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1637,6 +1657,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "museo-figari-juan-c-gomez-1427",
+   "nombre": "Museo Figari. Juan C. Gómez 1427",
+   "alias": [],
+   "direccion": "Montevideo",
+   "lat": -34.9058916,
+   "lon": -56.1913095,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "museo-gurvich",
    "nombre": "Museo Gurvich",
    "alias": [],
@@ -1864,6 +1894,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "predio-aute",
+   "nombre": "Predio AUTE",
+   "alias": [],
+   "direccion": "Agraciada 2463",
+   "lat": -34.8868372,
+   "lon": -56.1913446,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "puro-verso",
    "nombre": "Puro Verso",
    "alias": [],
@@ -2071,6 +2111,18 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "sala-teatro-movie",
+   "nombre": "Sala Teatro Movie",
+   "alias": [
+    "Teatro Movie"
+   ],
+   "direccion": "\"Rectangular1\"",
+   "lat": -34.903471,
+   "lon": -56.136638,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "sala-valle-inclan",
    "nombre": "Sala Valle Inclán",
    "alias": [
@@ -2273,8 +2325,8 @@
    "nombre": "Teatro Stella D'Italia - La Gaviota",
    "alias": [
     "Teatro Stella D'Italia. La Gaviota",
-    "Teatro Stella DItalia. La Gaviota.",
-    "Teatro Stella D'Italia. La Gaviota."
+    "Teatro Stella D'Italia. La Gaviota.",
+    "Teatro Stella DItalia. La Gaviota."
    ],
    "direccion": "Mercedes 1805",
    "lat": -34.900541,

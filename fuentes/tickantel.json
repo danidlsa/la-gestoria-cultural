@@ -1,6 +1,6 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-11T13:02:41.083146-03:00",
+ "corrida": "2026-11-11T15:45:12.210911-03:00",
  "ok": true,
  "cantidad": 125,
  "errores": [
@@ -740,7 +740,7 @@
      "fin": null,
      "sin_hora": false,
      "sala": null,
-     "agotada": true
+     "agotada": false
     },
     {
      "inicio": "2026-11-14T14:00:00-03:00",
@@ -1349,47 +1349,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021821",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021821/2da-degustacion-de-vinos-y-alimentos-la-cata",
-   "titulo": "2da Degustación de Vinos y Alimentos. LA CATA",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "Sumérjase en un viaje de sabores y conocimientos en la 'Cata de Vinos y Muestra de Alimentos de Atlántida', un evento imperdible que celebra la riqueza vitivinícola y gastronómica de nuestra región. Una oportunidad única para conectar con productores locales, degustar exquisitos vinos y descubrir…",
-   "lugar": {
-    "nombre": "Liga de Fomento Atlántida (LIFA) R11 y R Inter",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021821/2da-degustacion-de-vinos-y-alimentos-la-cata",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021821/2da_Expo_Feria_Atlántida__Sabores_y_Cultura.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40020828",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
    "titulo": "Ay! La miseria nos hará felices",
@@ -1470,6 +1429,47 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020828/Ay_la_miseria_nos_hara_felices_-_tickantel_banner-05.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021821",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021821/2da-degustacion-de-vinos-y-alimentos-la-cata",
+   "titulo": "2da Degustación de Vinos y Alimentos. LA CATA",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "Sumérjase en un viaje de sabores y conocimientos en la 'Cata de Vinos y Muestra de Alimentos de Atlántida', un evento imperdible que celebra la riqueza vitivinícola y gastronómica de nuestra región. Una oportunidad única para conectar con productores locales, degustar exquisitos vinos y descubrir…",
+   "lugar": {
+    "nombre": "Liga de Fomento Atlántida (LIFA) R11 y R Inter",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021821/2da-degustacion-de-vinos-y-alimentos-la-cata",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021821/2da_Expo_Feria_Atlántida__Sabores_y_Cultura.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

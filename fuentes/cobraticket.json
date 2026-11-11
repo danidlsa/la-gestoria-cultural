@@ -1,8 +1,8 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-11T13:16:17.062961-03:00",
+ "corrida": "2026-11-11T15:56:47.441818-03:00",
  "ok": true,
- "cantidad": 10,
+ "cantidad": 11,
  "errores": [],
  "eventos": [
   {
@@ -244,6 +244,47 @@
    "beneficios": [],
    "imagen_url": "https://img.cobraticket.uy/g5Sm_b5MfXUUM6p-r59Ii.jpg",
    "productor": "Lotus WTC",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "325463",
+   "url": "https://cobraticket.uy/e/festival-mai-325463",
+   "titulo": "Festival MAI",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Predio AUTE",
+    "direccion": "Agraciada 2463",
+    "lat": -34.8868372,
+    "lon": -56.1913446,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T17:00:00-03:00",
+     "fin": "2026-11-28T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/festival-mai-325463",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/AUYtAdjdWg7Pd4U8YxX0P.jpg",
+   "productor": "MAI",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

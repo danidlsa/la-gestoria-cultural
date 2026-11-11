@@ -1,56 +1,10 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-11T13:16:52.036211-03:00",
+ "corrida": "2026-11-11T15:57:22.931650-03:00",
  "ok": true,
  "cantidad": 15,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "tikzet",
-   "id_externo": "a498d3ea-3b3f-40a6-bbf1-2602c33b5821",
-   "url": "https://www.tikzet.com/events/antologia-tributo-a-shakira",
-   "titulo": "Antología Tributo a Shakira",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Antologia Tributo a Shakira presenta: 25 años de Laundry Service * Este show es con el público de pie.",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T21:00:00-03:00",
-     "fin": "2026-11-20T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 450.0,
-    "hasta": 450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/antologia-tributo-a-shakira",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F6ac5d468-4cd7-4cd4-934d-d3785c12ea83.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tikzet",
    "id_externo": "7e65a42c-0cbe-4e63-9c6c-227aba684e13",
@@ -90,6 +44,52 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F579bd903-8fe4-4efa-8d62-f785e6d5802b.original",
    "productor": "CREW REVOLUTION",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "a498d3ea-3b3f-40a6-bbf1-2602c33b5821",
+   "url": "https://www.tikzet.com/events/antologia-tributo-a-shakira",
+   "titulo": "Antología Tributo a Shakira",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Antologia Tributo a Shakira presenta: 25 años de Laundry Service * Este show es con el público de pie.",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T21:00:00-03:00",
+     "fin": "2026-11-20T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/antologia-tributo-a-shakira",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F6ac5d468-4cd7-4cd4-934d-d3785c12ea83.original",
+   "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -375,6 +375,52 @@
   },
   {
    "fuente": "tikzet",
+   "id_externo": "ab487087-b2b8-41d2-902e-71467f67c7ca",
+   "url": "https://www.tikzet.com/events/acampo-reggae-festival",
+   "titulo": "Acampo Reggae Festival",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Acampo Reggae es mucho más que un festival: es un espacio de encuentro para espíritus libres, sin prejuicios, unidos por la música y el deseo de compartir. Creemos en valores como la unidad, la paz, el amor, la cultura, las artes, el respeto por el medio ambiente y la libertad de ser quienes somos…",
+   "lugar": {
+    "nombre": "ACAMPOREGGAE FESTIVAL",
+    "direccion": "La Vieja Escuela, Oceanía del Polonio",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T14:00:00-03:00",
+     "fin": "2026-12-06T20:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 700.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/acampo-reggae-festival",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fe5c4bd28-3f61-4e03-9030-1b89d516597d.original",
+   "productor": "ACAMPOREGGAE FESTIVAL",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
    "id_externo": "a410902f-b1fe-463e-a7e5-2aca8af8ba89",
    "url": "https://www.tikzet.com/events/gota-serena-54b7",
    "titulo": "Gota Serena",
@@ -467,43 +513,43 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "ab487087-b2b8-41d2-902e-71467f67c7ca",
-   "url": "https://www.tikzet.com/events/acampo-reggae-festival",
-   "titulo": "Acampo Reggae Festival",
-   "categoria": "musica",
+   "id_externo": "dbdedcc5-b5d5-472c-929a-32947d6cd1ee",
+   "url": "https://www.tikzet.com/events/mamba-club",
+   "titulo": "MAMBA CLUB",
+   "categoria": "fiesta",
    "categoria_segura": false,
-   "descripcion_corta": "Acampo Reggae es mucho más que un festival: es un espacio de encuentro para espíritus libres, sin prejuicios, unidos por la música y el deseo de compartir. Creemos en valores como la unidad, la paz, el amor, la cultura, las artes, el respeto por el medio ambiente y la libertad de ser quienes somos…",
+   "descripcion_corta": null,
    "lugar": {
-    "nombre": "ACAMPOREGGAE FESTIVAL",
-    "direccion": "La Vieja Escuela, Oceanía del Polonio",
+    "nombre": "MAMBA CLUB",
+    "direccion": "Avenida Uruguay 1136",
     "lat": null,
     "lon": null,
     "barrio": null
    },
    "funciones": [
     {
-     "inicio": "2026-12-05T14:00:00-03:00",
-     "fin": "2026-12-06T20:00:00-03:00",
+     "inicio": "2026-11-13T23:50:00-03:00",
+     "fin": "2026-11-14T06:00:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 700.0,
-    "hasta": 700.0,
+    "desde": 250.0,
+    "hasta": 250.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/acampo-reggae-festival",
+     "url": "https://www.tikzet.com/events/mamba-club",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fe5c4bd28-3f61-4e03-9030-1b89d516597d.original",
-   "productor": "ACAMPOREGGAE FESTIVAL",
+   "imagen_url": "https://cdn.tikzet.com/images%2Ff82269df-a85f-438e-a65d-60210c04ea17.original",
+   "productor": "MAMBA CLUB",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -550,52 +596,6 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
    "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "dbdedcc5-b5d5-472c-929a-32947d6cd1ee",
-   "url": "https://www.tikzet.com/events/mamba-club",
-   "titulo": "MAMBA CLUB",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "MAMBA CLUB",
-    "direccion": "Avenida Uruguay 1136",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T23:50:00-03:00",
-     "fin": "2026-11-14T06:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 250.0,
-    "hasta": 250.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/mamba-club",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Ff82269df-a85f-438e-a65d-60210c04ea17.original",
-   "productor": "MAMBA CLUB",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
