@@ -25,6 +25,7 @@ from datetime import date, datetime, time, timedelta
 from pathlib import Path
 
 import httpx
+from rapidfuzz import fuzz
 
 from cartelera.categorias import clasificar
 from cartelera.extraer import precio_de, recortar
@@ -72,7 +73,10 @@ _RECURRENTE = re.compile(
 )
 _FECHA_MES = re.compile(rf"\b(\d{{1,2}})\s*(?:de\s+|[/.\-]\s*)?{_MES}\b")  # "13 de noviembre", "04/Noviembre"
 _FECHA_BARRA = re.compile(r"\b(\d{1,2})/(\d{1,2})(?:/(\d{2,4}))?\b")
-_DIA_NUMERO = re.compile(rf"\b{_DIA}\s+(\d{{1,2}})\b(?!\s*/)")
+# "jueves 12", y también listas: "miércoles 11 y 18", "lunes 7, 14 y 21" (todos el mismo día de la semana).
+_DIA_NUMERO = re.compile(rf"\b{_DIA}\s+(\d{{1,2}}(?:\s*(?:,|\by\b|\be\b)\s*\d{{1,2}}\b(?!\s*[:./h]))*)\b(?!\s*/)")
+# "13, 14 y 15 de noviembre": varios días del mismo mes.
+_LISTA_MES = re.compile(rf"\b(\d{{1,2}}(?:\s*(?:,|\by\b)\s*\d{{1,2}})+)\s*(?:de\s+)?{_MES}\b")
 _DIA_SOLO = re.compile(rf"\b{_DIA}\b(?!\s+\d)")
 _HOY = re.compile(r"\b(hoy|esta\s+noche)\b")
 _MANANA = re.compile(r"(?<!la )\bmanana\b")  # "mañana", pero no "a la mañana"
@@ -90,15 +94,18 @@ _NO_ES_EVENTO = re.compile(r"ganador|sorteo|sorteamos|participa[rn]?\b|valido|vi
 
 
 def _dia_con_numero(numero: int, dia_semana: int | None, desde: date) -> date | None:
-    """El próximo día con ese número (este mes o el siguiente); si se dijo el día de la semana, tiene que coincidir."""
-    for meses in (0, 1):
+    """El próximo día con ese número (este mes o los dos siguientes) que caiga en ese día de la semana, si se dijo.
+
+    "Lunes 14" leído el 11 de noviembre: el 14 de noviembre es sábado, así que es el lunes 14 de diciembre.
+    """
+    for meses in (0, 1, 2):
         anio, mes = desde.year + (desde.month + meses - 1) // 12, (desde.month + meses - 1) % 12 + 1
         try:
             candidata = date(anio, mes, numero)
         except ValueError:
             continue
-        if candidata >= desde:
-            return candidata if dia_semana is None or candidata.weekday() == dia_semana else None
+        if candidata >= desde and (dia_semana is None or candidata.weekday() == dia_semana):
+            return candidata
     return None
 
 
@@ -115,18 +122,27 @@ def _con_mes(dia: int, mes: int, anio: int | None, desde: date) -> date | None:
 def fechas_explicitas(texto: str, publicado: date) -> list[tuple[date, bool]]:
     """Las fechas de un renglón, cada una con si tiene número de día ("jueves 12", "13/11") o es "hoy"/"mañana"."""
     fechas = []
+    for numeros, mes in _LISTA_MES.findall(texto):
+        for numero in re.findall(r"\d{1,2}", numeros):
+            fechas.append((_con_mes(int(numero), MESES[mes], None, publicado), True))
     for dia, mes in _FECHA_MES.findall(texto):
         fechas.append((_con_mes(int(dia), MESES[mes], None, publicado), True))
     for dia, mes, anio in _FECHA_BARRA.findall(texto):
         if 1 <= int(mes) <= 12:
             fechas.append((_con_mes(int(dia), int(mes), int(anio) if anio else None, publicado), True))
-    for nombre, numero in _DIA_NUMERO.findall(texto):
-        fechas.append((_dia_con_numero(int(numero), DIAS[nombre], publicado), True))
+    for nombre, numeros in _DIA_NUMERO.findall(texto):
+        for numero in re.findall(r"\d{1,2}", numeros):
+            fechas.append((_dia_con_numero(int(numero), DIAS[nombre], publicado), True))
     if _HOY.search(texto):
         fechas.append((publicado, False))
     if _MANANA.search(texto):
         fechas.append((publicado + timedelta(days=1), False))
-    return [(f, numerada) for f, numerada in fechas if f]
+    vistas, resultado = set(), []
+    for f, numerada in fechas:
+        if f and f not in vistas:
+            vistas.add(f)
+            resultado.append((f, numerada))
+    return resultado
 
 
 def fechas_de_serie(texto: str, publicado: date) -> list[tuple[date, bool]]:
@@ -203,20 +219,25 @@ def bloques(texto: str, publicado: datetime) -> list[dict]:
     return resultado
 
 
-def _funciones_del_bloque(bloque: dict, unica: time | None, publicado: datetime, ahora: datetime) -> list[tuple[datetime, bool]]:
+def _funciones_del_bloque(bloque: dict, unica: time | None, publicado: datetime, desde: datetime) -> list[tuple[datetime, bool]]:
+    """Las funciones de un bloque desde `desde` (la hora actual o, para armar el borrador, la del post)."""
     hora = hora_principal(" ".join(bloque["planos"])) or unica
     resultado = []
     for fecha, numerada in bloque["fechas"]:
         if hora is None:
             # Sin hora, solo con el día escrito con número ("jueves 12", "29 de noviembre"), no con "hoy" o "el viernes".
-            if numerada and ahora.date() <= fecha <= (publicado + HORIZONTE).date():
-                resultado.append((datetime.combine(fecha, time(0, 0), tzinfo=ahora.tzinfo), True))
+            if numerada and desde.date() <= fecha <= (publicado + HORIZONTE).date():
+                resultado.append((datetime.combine(fecha, time(0, 0), tzinfo=desde.tzinfo), True))
             continue
         # "Sábado 14, 00:30" es la madrugada del domingo.
-        inicio = datetime.combine(fecha + timedelta(days=1 if hora.hour < 6 else 0), hora, tzinfo=ahora.tzinfo)
-        if ahora - timedelta(hours=3) <= inicio <= publicado + HORIZONTE:
+        inicio = datetime.combine(fecha + timedelta(days=1 if hora.hour < 6 else 0), hora, tzinfo=desde.tzinfo)
+        if desde - timedelta(hours=3) <= inicio <= publicado + HORIZONTE:
             resultado.append((inicio, False))
     return resultado
+
+
+def _por_venir(funciones: list[tuple[datetime, bool]], ahora: datetime) -> bool:
+    return any(f.date() >= ahora.date() if sin_hora else f >= ahora - timedelta(hours=3) for f, sin_hora in funciones)
 
 
 def leer_funciones(texto: str, publicado: datetime, ahora: datetime, con_hora: bool = True) -> list[datetime]:
@@ -230,14 +251,15 @@ def leer_funciones(texto: str, publicado: datetime, ahora: datetime, con_hora: b
 
 # --- Del post al borrador -----------------------------------------------------------------------------------------
 
-_ADORNOS = re.compile(r"[#@]\w[\w.]*|[^\w\s¡!¿?.,:;\-–—'\"()&/$%+°ºª]", re.UNICODE)
+_ADORNOS = re.compile(r"[#@]\w[\w.]*|[^\w\s¡!¿?.,:;\-–—'\"()&/$%+°ºª|]", re.UNICODE)
 
 
 _DIA_TILDE = r"(?:lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo)"
 _MES_TEXTO = r"(?:enero|febrero|marzo|abril|mayo|junio|julio|agosto|se?tiembre|octubre|noviembre|diciembre)"
 # "Este miércoles en …", "Este viernes 13 de noviembre …": la fecha al principio del título sobra (va aparte).
 _FECHA_AL_PRINCIPIO = re.compile(
-    rf"^(?:(?:este|esta|el|la)\s+(?:pr[oó]ximo\s+)?)?{_DIA_TILDE}\s*(?:\d{{1,2}}(?:\s+de\s+{_MES_TEXTO})?)?\s*(?:en\s+|[:,\-–]\s*)?", re.I)
+    rf"^(?:hoy|esta\s+noche|ma[ñn]ana)\b\s*[:,\-–!]*\s*"
+    rf"|^(?:(?:este|esta|el|la)\s+(?:pr[oó]ximo\s+)?)?{_DIA_TILDE}\s*(?:\d{{1,2}}(?:\s+de\s+{_MES_TEXTO})?)?\s*(?:en\s+|[:,\-–]\s*)?", re.I)
 # "FERIADO + MONKELIS I 2 DE DICIEMBRE EN LA CRETINA": desde la fecha, sobra.
 _FECHA_AL_FINAL = re.compile(rf"\s*(?:[|I·\-–—,]\s*)?\b\d{{1,2}}\s+de\s+{_MES_TEXTO}\b.*$", re.I)
 # Renglones de propaganda que no sirven de título.
@@ -257,7 +279,7 @@ def titulo_de(texto: str, cuenta: str) -> str:
     renglones = [_limpiar(r) for r in (texto or "").splitlines()]
     renglones = [r for r in renglones if len(re.sub(r"\W", "", r)) >= 4]
     for i, limpio in enumerate(renglones):
-        if _PROPAGANDA.search(limpio):
+        if _PROPAGANDA.search(limpio) or re.fullmatch(r"[a-z0-9._]{4,}", limpio):
             continue
         sin_principio = _FECHA_AL_PRINCIPIO.sub("", limpio)
         sin_fecha = _FECHA_AL_FINAL.sub("", sin_principio).strip(" -–—:.,")
@@ -269,8 +291,13 @@ def titulo_de(texto: str, cuenta: str) -> str:
         if sin_principio != limpio and i + 1 < len(renglones):
             abajo = renglones[i + 1]
             if len(abajo) <= 40 and len(abajo.split()) <= 5 and abajo[:1].isupper() and not _PROPAGANDA.search(abajo) \
-                    and not re.search(r"\d", abajo) and not abajo.endswith("."):
+                    and not re.search(r"\d", abajo) and not abajo.endswith(".") \
+                    and sin_tildes(abajo) not in sin_tildes(sin_fecha):
                 sin_fecha = f"{sin_fecha} · {abajo}"
+        # "MAMBO | De Miguel Morillo": el nombre es lo de antes de la barra.
+        partes = re.split(r"\s\|\s", sin_fecha)
+        if len(partes) > 1 and len(re.sub(r"\W", "", partes[0])) >= 4:
+            sin_fecha = partes[0]
         limpio = sin_fecha[0].upper() + sin_fecha[1:]
         if len(limpio) > 90:
             limpio = re.split(r"(?<=[.!?])\s", limpio)[0]
@@ -307,6 +334,7 @@ def lugar_del_texto(texto: str) -> tuple[str | None, str | None]:
 
 _SEPARADOR = re.compile(r"\s*[:–—|]\s*|\s-\s")
 _SIN_NOMBRE = re.compile(r"a confirmar|cerrado|^\W*$", re.I)
+_DATOS_PRACTICOS = re.compile(r"entradas|venta|reserv|cubierto|precio|\$|whatsapp|tel[eé]fono", re.I)
 
 
 def titulo_del_bloque(originales: list[str]) -> str | None:
@@ -314,12 +342,23 @@ def titulo_del_bloque(originales: list[str]) -> str | None:
     primero = _SEPARADOR.split(originales[0], maxsplit=1)
     candidatos = ([primero[1]] if len(primero) > 1 else []) + originales[1:2]
     for candidato in candidatos:
+        # Ni el lugar (📍) ni la venta de entradas o el precio son el nombre de lo que pasa ese día.
+        if "📍" in candidato or _DATOS_PRACTICOS.search(candidato):
+            continue
         limpio = re.sub(r"\s+", " ", _ADORNOS.sub(" ", candidato)).strip()
         # Hasta el primer " - ", paréntesis, punto u hora: "OPEN MIC NIGHT - 4ta temporada" es "OPEN MIC NIGHT".
         limpio = re.split(r"\s[-–—|]\s|\(|\.\s|\.$|\b\d{1,2}([:.]\d{2})?\s*(h|hs|hrs|horas)\b", limpio)[0].strip(" -–—:.,")
-        if len(re.sub(r"\W", "", limpio)) >= 3 and not _SIN_NOMBRE.search(limpio):
+        if len(re.sub(r"\W", "", limpio)) >= 3 and not _SIN_NOMBRE.search(limpio) and not _no_es_titulo(limpio):
             return limpio if len(limpio) <= 90 else limpio[:87].rsplit(" ", 1)[0] + "…"
     return None
+
+
+def _no_es_titulo(texto: str) -> bool:
+    """Un pedazo de fecha ("lunes 30") o un usuario de Instagram suelto ("alejandropersichetti") no son un título."""
+    sin_fecha = _FECHA_AL_PRINCIPIO.sub("", texto).strip(" -–—:.,|")
+    # Tampoco un encabezado ("Diciembre:", "Funciones:") ni algo hecho solo de fechas ("Miércoles 11 y 18 | Lunes 30").
+    resto = re.sub(rf"{_DIA}s?|{_MES}|funciones|fechas|horarios|agenda|\d+|\by\b|\bde\b|\W", "", sin_tildes(texto))
+    return len(re.sub(r"\W", "", sin_fecha)) < 3 or bool(re.fullmatch(r"[a-z0-9._]{4,}", texto)) or len(resto) < 3
 
 
 def nombre_corto(nombre: str) -> str:
@@ -364,6 +403,9 @@ def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, fu
         "lugar": nombre if otro_lugar else del_bar,
         "direccion": direccion if otro_lugar else cuenta.get("direccion") or direccion,
         "barrio": None if otro_lugar else cuenta.get("barrio"),
+        # Para los bares que solo dan una esquina ("Durazno y Jackson"), que el buscador de direcciones no encuentra.
+        "lat": None if otro_lugar else cuenta.get("lat"),
+        "lon": None if otro_lugar else cuenta.get("lon"),
         "lugar_del_pin": bool(otro_lugar),
         "titulo": con_el_bar(titulo, cuenta.get("corto") or nombre_corto(del_bar)),
         "texto": texto,
@@ -394,15 +436,17 @@ def borradores_del_post(post: dict, cuenta: dict, perfil: dict, ahora: datetime)
     # Una agenda: varios días, cada uno con su nombre ("Jueves 12: SPAGUETTI WESTERN", "Viernes 13: PROYECTO OLDIES").
     dias = {f for b in lista for f, _ in b["fechas"]}
     titulos = [titulo_del_bloque(b["originales"]) for b in lista]
+    # Las funciones se cuentan desde el post, no desde hoy: así el borrador conserva su identificador (el de su primer
+    # día) aunque ese día ya haya pasado. Las que ya pasaron no se publican (ver evento_de).
     if len(dias) >= 2 and sum(1 for t in titulos if t) >= 2:
         resultado = []
         for b, titulo in zip(lista, titulos):
-            funciones = _funciones_del_bloque(b, None, publicado, ahora)
-            if titulo and funciones:
+            funciones = _funciones_del_bloque(b, None, publicado, publicado)
+            if titulo and _por_venir(funciones, ahora):
                 resultado.append(_un_borrador(cuenta, perfil, post, publicado, funciones, titulo, " ".join(b["originales"])))
         return resultado
-    funciones = [f for b in lista for f in _funciones_del_bloque(b, unica, publicado, ahora)]
-    if not funciones:
+    funciones = [f for b in lista for f in _funciones_del_bloque(b, unica, publicado, publicado)]
+    if not _por_venir(funciones, ahora):
         return []
     return [_un_borrador(cuenta, perfil, post, publicado, funciones, titulo_de(texto, del_bar), texto)]
 
@@ -418,7 +462,7 @@ def juntar(previo: dict, nuevo: dict) -> dict:
     if len(otro["titulo"]) >= 8 and len(otro["titulo"]) < len(base["titulo"]):
         junto["titulo"] = otro["titulo"]
     if otro.get("lugar_del_pin") and not base.get("lugar_del_pin"):
-        junto.update({k: otro.get(k) for k in ("lugar", "direccion", "barrio", "lugar_del_pin")})
+        junto.update({k: otro.get(k) for k in ("lugar", "direccion", "barrio", "lat", "lon", "lugar_del_pin")})
     # Los días de los dos (un post con el ciclo del mes y otro con un martes); para cada día, con hora si alguno la da.
     por_dia: dict[date, dict] = {}
     for f in base["funciones"] + otro["funciones"]:
@@ -427,6 +471,26 @@ def juntar(previo: dict, nuevo: dict) -> dict:
             por_dia[dia] = f
     junto["funciones"] = [por_dia[d] for d in sorted(por_dia)]
     return junto
+
+
+def juntar_parecidos(borradores: dict[str, dict]) -> dict[str, dict]:
+    """Junta los borradores del mismo bar que comparten algún día y tienen un título parecido.
+
+    Pasa con una obra en temporada: el post del estreno ("21 de octubre…") y el de "Esta noche: MAMBO" arrancan en días
+    distintos y tendrían dos identificadores. Queda el del primer día (el que ya se avisó, casi siempre).
+    """
+    lista = sorted(borradores.values(), key=lambda b: (b["funciones"][0]["inicio"], b["id"]))
+    resultado: list[dict] = []
+    for b in lista:
+        dias = {_dia(f.inicio) for f in _funciones(b)}
+        for i, otro in enumerate(resultado):
+            if otro["usuario"] == b["usuario"] and dias & {_dia(f.inicio) for f in _funciones(otro)} \
+                    and fuzz.token_set_ratio(sin_tildes(otro["titulo"]), sin_tildes(b["titulo"])) >= 75:
+                resultado[i] = {**juntar(otro, b), "id": otro["id"]}
+                break
+        else:
+            resultado.append(b)
+    return {b["id"]: b for b in resultado}
 
 
 def _funciones(b: dict) -> list[Funcion]:
@@ -446,7 +510,7 @@ def evento_de(b: dict, ahora: datetime) -> EventoCrudo | None:
         titulo=titulo,
         categoria=clasificar(titulo, texto, por_defecto="otros"),
         descripcion_corta=recortar(re.sub(r"\s+", " ", _ADORNOS.sub(" ", texto)).strip()),
-        lugar=LugarCrudo(nombre=b["lugar"], direccion=b.get("direccion"), barrio=b.get("barrio")),
+        lugar=LugarCrudo(nombre=b["lugar"], direccion=b.get("direccion"), barrio=b.get("barrio"), lat=b.get("lat"), lon=b.get("lon")),
         funciones=funciones,
         precio=precio_del_texto(texto),
         entradas=[Entrada(url=b["url"], via="instagram")],
@@ -606,6 +670,7 @@ def scrapear(cliente, ahora: datetime) -> tuple[list[EventoCrudo], list[str]]:
         # un evento anunciado con mucha anticipación puede quedar fuera de los últimos posts y tiene que seguir.
         anteriores = borradores
         borradores = {i: b for i, b in anteriores.items() if b.get("aprobado") and i not in esta_corrida}
+        esta_corrida = juntar_parecidos(esta_corrida)
         for id_, nuevo in esta_corrida.items():
             anterior = anteriores.get(id_, {})
             # Lo que se decidió en GitHub se conserva; lo demás se actualiza (la imagen vence).

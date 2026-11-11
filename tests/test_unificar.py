@@ -184,3 +184,18 @@ def test_un_enlace_equivocado_no_une_dos_obras_distintas(ahora):
     assert titulos == ["Cenizas de Familia", "El eterno, glorioso y más pequeño circo del mundo"]
     cenizas_final = next(e for e in eventos if e.titulo == "Cenizas de Familia")
     assert {p.fuente for p in cenizas_final.fuentes} == {"redtickets", "ladiaria"}  # se une por sala, día y título
+
+
+def test_un_post_de_bar_se_une_con_la_ticketera():
+    from zoneinfo import ZoneInfo
+    from cartelera.modelo import EventoCrudo, Funcion, LugarCrudo
+    from cartelera.unificar import agrupar
+    inicio = datetime(2026, 12, 4, 19, 30, tzinfo=ZoneInfo("America/Montevideo"))
+
+    def crudo(fuente, titulo):
+        return EventoCrudo(fuente=fuente, id_externo=titulo, url="https://x.uy", titulo=titulo,
+                           lugar=LugarCrudo(nombre="Inmigrantes MVD"), funciones=[Funcion(inicio=inicio)])
+
+    crudos = [crudo("instagram_bares", "Inmigrantes: FESTIVAL NUESTRO"), crudo("redtickets", "Festival Nuestro 2026"),
+              crudo("redtickets", "SEXY LITTLE SWINE - Tributo a Arctic Monkeys")]
+    assert sorted(map(sorted, agrupar(crudos, ["inmigrantes"] * 3))) == [[0, 1], [2]]

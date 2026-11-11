@@ -1,6 +1,6 @@
 import io
 import json
-from datetime import datetime
+from datetime import date, datetime
 from zoneinfo import ZoneInfo
 
 import httpx
@@ -310,3 +310,65 @@ def test_el_nombre_del_bar_en_el_titulo():
     (b,) = ig.borradores_del_post(_post(1, "Jueves 12: SPAGUETTI WESTERN 22 hs", "2026-11-09"),
                                   {"usuario": "theshannonuy", "corto": "The Shannon"}, {"name": "The Shannon irish pub"}, AHORA)
     assert b["titulo"] == "The Shannon: SPAGUETTI WESTERN" and b["lugar"] == "The Shannon irish pub"
+
+
+MAMBO = """⚠️ Esta noche: MAMBO
+
+🎭✨ ¡MAMBO!
+
+Un retrato contemporáneo, mordaz, profundamente humano y de humor corrosivo.
+
+Elenco: amaral2435 y laleochavarria
+Dirección: alfredo.goldstein
+
+🗓️ Funciones:
+Noviembre:
+miércoles 11 y 18 | lunes 30 (20:30 hs) 🗓️🕒
+Diciembre:
+lunes 7, 14 y 21 (20:30 hs) 🗓️🕒
+
+📷 alejandropersichetti
+Produce: weproducciones"""
+
+
+def test_una_obra_con_varias_funciones_es_un_borrador():
+    ahora = datetime(2026, 11, 11, 10, 0, tzinfo=MVD)
+    (b,) = ig.borradores_del_post(_post(1, MAMBO, "2026-11-11"), {"usuario": "lacretinacasa", "corto": "La Cretina"}, {}, ahora)
+    assert b["titulo"] == "La Cretina: MAMBO"
+    assert [f["inicio"][:16] for f in b["funciones"]] == [
+        "2026-11-11T20:30", "2026-11-18T20:30", "2026-11-30T20:30", "2026-12-07T20:30", "2026-12-14T20:30", "2026-12-21T20:30"]
+    assert ig.fechas_explicitas("13, 14 y 15 de noviembre", AHORA.date()) == [
+        (date(2026, 11, 13), True), (date(2026, 11, 14), True), (date(2026, 11, 15), True)]
+
+
+def test_el_borrador_no_cambia_de_identificador_cuando_pasa_su_primer_dia():
+    texto = "Se acerca el cierre pero aún quedan martes y mucha música.\n\nMartes de noviembre / 21:00 h."
+    ayer = ig.borradores_del_post(_post(1, texto, "2026-11-09"), {"usuario": "bar"}, {}, datetime(2026, 11, 10, 12, tzinfo=MVD))
+    hoy = ig.borradores_del_post(_post(1, texto, "2026-11-09"), {"usuario": "bar"}, {}, datetime(2026, 11, 11, 12, tzinfo=MVD))
+    assert ayer[0]["id"] == hoy[0]["id"] == "bar-20261110"
+    # El día que ya pasó no se publica.
+    evento = ig.evento_de(hoy[0], datetime(2026, 11, 11, 12, tzinfo=MVD))
+    assert [f.inicio.day for f in evento.funciones] == [17, 24]
+
+
+def test_las_coordenadas_de_la_lista_de_bares():
+    cuenta = {"usuario": "latabernadebrecha", "direccion": "Durazno y Jackson", "lat": -34.909634, "lon": -56.172902}
+    (b,) = ig.borradores_del_post(_post(1, "Martes 17 de noviembre 21 h", "2026-11-11"), cuenta, {"name": "La Taberna de Brecha"}, AHORA)
+    lugar = ig.evento_de(b, AHORA).lugar
+    assert (lugar.direccion, lugar.lat, lugar.lon) == ("Durazno y Jackson", -34.909634, -56.172902)
+
+
+
+def test_dos_posts_de_la_misma_obra_son_un_borrador():
+    estreno = ("🎭 MAMBO | De Miguel Morillo\n\n📅 ESTRENO: Miércoles 21 de octubre – 20:30 hs\n📍 La Cretina (Soriano 1236)\n\n"
+               "🗓️ FUNCIONES (20:30 hs):\n▪️ Octubre: Miércoles 21 y 28\n▪️ Noviembre: Miércoles 11 y 18 | Lunes 30\n"
+               "▪️ Diciembre: Lunes 7, 14 y 21\n\n🎫 Venta de entradas: Red Tickets 🎟️")
+    cuenta = {"usuario": "lacretinacasa", "corto": "La Cretina"}
+    ahora = datetime(2026, 11, 11, 10, 0, tzinfo=MVD)
+    (viejo,) = ig.borradores_del_post(_post(1, estreno, "2026-10-10"), cuenta, {}, ahora)
+    (nuevo,) = ig.borradores_del_post(_post(2, MAMBO, "2026-11-11"), cuenta, {}, ahora)
+    assert viejo["titulo"] == nuevo["titulo"] == "La Cretina: MAMBO"
+    assert viejo["id"] != nuevo["id"]
+    (junto,) = ig.juntar_parecidos({viejo["id"]: viejo, nuevo["id"]: nuevo}).values()
+    assert junto["id"] == viejo["id"] and len(junto["posts"]) == 2
+    assert all(f["inicio"][11:16] == "20:30" for f in junto["funciones"])

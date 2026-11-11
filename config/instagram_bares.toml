@@ -11,6 +11,8 @@
 #              perfil de Instagram, limpio
 #   direccion  calle y número
 #   barrio     el barrio, como en el sitio
+#   lat, lon   coordenadas, para los que solo dan una esquina ("Durazno y Jackson"): el buscador de direcciones no
+#              encuentra esquinas, y un evento sin ubicación conocida no se publica
 #   notas      lo que quieras recordar (por ejemplo, "solo los jueves de jazz")
 
 # [[bar]]
@@ -19,17 +21,26 @@
 # direccion = "Calle 1234"
 # barrio = "Cordón"
 
-# Lista inicial: 26 cuentas, cargadas el 10/11/2026. Los nombres y direcciones se completan cuando ande la API.
+# Lista inicial: 26 cuentas, cargadas el 10/11/2026. Las direcciones salen de los posts de cada bar (11/11/2026).
 
 [[bar]]
 usuario = "finisterrebaruy"
+direccion = "Rodó y Gaboto"
+lat = -34.904705
+lon = -56.177463
 
 [[bar]]
 usuario = "elhormiguerobar"
 notas = "también vende por Tikzet: lo que esté ahí ya entra solo"
+direccion = "San Salvador y Minas"
+lat = -34.911546
+lon = -56.179175
 
 [[bar]]
 usuario = "latabernadebrecha"
+direccion = "Durazno y Jackson"
+lat = -34.909634
+lon = -56.172902
 
 [[bar]]
 usuario = "elbar_delxsamigxs"
@@ -44,34 +55,48 @@ notas = "ya está en el sitio como «Sala Ducón»"
 
 [[bar]]
 usuario = "andromedabarcoop"
+direccion = "Durazno y Convención"
+lat = -34.910982
+lon = -56.196493
 
 [[bar]]
 usuario = "barandorra"
+direccion = "Canelones entre Aquiles Lanza y Ejido"
+lat = -34.908481
+lon = -56.187691
 
 [[bar]]
 usuario = "santacatalinabar"
+direccion = "Ciudadela 1200"
 
 [[bar]]
 usuario = "barlarondacafe"
+direccion = "Ciudadela 1182"
 
 [[bar]]
 usuario = "ciudadela_bar"
+direccion = "Ciudadela 1224"
 
 [[bar]]
 usuario = "submarino_bar_mdeo"
+direccion = "Estanislao López 4603"
 
 [[bar]]
 usuario = "mvdalsur"
+direccion = "Paraguay 1150"
 
 [[bar]]
 usuario = "barfacal"
+direccion = "Av. 18 de Julio 1249"
 
 [[bar]]
 usuario = "lacretinacasa"
 notas = "¿es «La Cretina» (Soriano 1236), que ya está en el sitio?"
+direccion = "Soriano 1236"
 
 [[bar]]
 usuario = "lapiqueuy"
+direccion = "Maldonado 2047"
 
 [[bar]]
 usuario = "elcomedybar"
@@ -80,6 +105,7 @@ notas = "¿es el «Gelos Comedy Coffee Bar» (Soriano 757), que ya está en el s
 [[bar]]
 usuario = "theshannonuy"
 corto = "The Shannon"
+direccion = "Bartolomé Mitre 1318"
 
 [[bar]]
 usuario = "bluzzbar"
@@ -95,6 +121,7 @@ usuario = "cordonbeer"
 
 [[bar]]
 usuario = "elespacio.vacio"
+direccion = "Gutiérrez Ruiz 1111"
 
 [[bar]]
 usuario = "mercadoferrando"
@@ -104,6 +131,10 @@ usuario = "montevideobeercompany"
 
 [[bar]]
 usuario = "cervezapuntorojo"
+direccion = "Rivera 2078"
 
 [[bar]]
 usuario = "inmigrantesmvd"
+nombre = "Inmigrantes MVD"  # como ya está en el sitio (lo vende RedTickets)
+corto = "Inmigrantes"
+direccion = "Juan Paullier 1252"

@@ -49,6 +49,16 @@ _OTRA_CIUDAD = re.compile(
 )
 
 
+# Pero una esquina o una sala con ese nombre es de Montevideo: "Gutiérrez Ruiz 1111 esq. Durazno", "Auditorio San
+# José", "Soriano y Colonia".
+_CALLE_O_SALA = re.compile(
+    r"\b(esq\.?|esquina|y|e/|entre|auditorio|sala|calle|av\.?|avenida|bv\.?|bulevar|plaza|pasaje|edificio)\s+"
+    r"(artigas|canelones|cerro largo|colonia|durazno|flores|florida|lavalleja|maldonado|punta del este|paysandu|"
+    r"rio negro|rivera|rocha|salto|san jose|soriano|tacuarembo|treinta y tres)\s*\.?$"
+)
+
+
 def menciona_otra_ciudad(texto: str) -> bool:
-    return bool(_OTRA_CIUDAD.search(sin_tildes(texto.strip())))
+    plano = sin_tildes(texto.strip())
+    return bool(_OTRA_CIUDAD.search(plano)) and not _CALLE_O_SALA.search(plano)
 

@@ -192,6 +192,19 @@ def titulos_parecidos(a: str, b: str) -> bool:
     return len(corto.split()) >= 3 and f" {corto} " in f" {largo} "
 
 
+def _sin_bar(crudo: EventoCrudo) -> str:
+    """El título de un post de bar sin el nombre del bar adelante ("Inmigrantes: FESTIVAL NUESTRO" → "FESTIVAL NUESTRO")."""
+    return re.sub(r"^[^:]{2,40}:\s+", "", crudo.titulo) if crudo.fuente == "instagram_bares" else crudo.titulo
+
+
+def _parecidos(a: EventoCrudo, b: EventoCrudo) -> bool:
+    """En la misma sala y el mismo día. Un post de bar se escribe distinto que la ficha de la ticketera ("FESTIVAL
+    NUESTRO" y "Festival Nuestro 2026"): alcanza con que compartan lo esencial del nombre."""
+    if "instagram_bares" in (a.fuente, b.fuente):
+        return fuzz.token_set_ratio(titulo_comparable(_sin_bar(a)), titulo_comparable(_sin_bar(b))) >= 75
+    return titulos_parecidos(a.titulo, b.titulo)
+
+
 def _compatibles(a: EventoCrudo, b: EventoCrudo, misma_sala: bool) -> bool:
     """¿Pueden ser el mismo evento? Misma sala, o títulos que comparten lo esencial."""
     return misma_sala or fuzz.token_set_ratio(titulo_comparable(a.titulo), titulo_comparable(b.titulo)) >= 60
@@ -240,7 +253,7 @@ def agrupar(crudos: list[EventoCrudo], lugar_de: list[str]) -> list[list[int]]:
                     continue
                 if not dias_i & {f.inicio.date() for f in crudos[j].funciones}:
                     continue
-                if titulos_parecidos(crudos[i].titulo, crudos[j].titulo):
+                if _parecidos(crudos[i], crudos[j]):
                     conjuntos.unir(i, j)
 
     grupos: dict[int, list[int]] = defaultdict(list)

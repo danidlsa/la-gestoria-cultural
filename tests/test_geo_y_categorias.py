@@ -39,3 +39,12 @@ def test_esta_cancelado():
     assert esta_cancelado("Zarzuela - La del Manojo de rosas - CANCELADO")
     assert esta_cancelado("Show suspendido")
     assert not esta_cancelado("Florencia Núñez - REPROGRAMADO")
+
+
+def test_una_esquina_o_una_sala_no_es_otra_ciudad():
+    from cartelera.geo import menciona_otra_ciudad
+    assert menciona_otra_ciudad("Harlem Globetrotters – Durazno")
+    assert menciona_otra_ciudad("No Te Va Gustar en Salto")
+    assert not menciona_otra_ciudad("GUTIÉRREZ RUIZ 1111 esq. DURAZNO")
+    assert not menciona_otra_ciudad("Universidad Católica del Uruguay (UCU) – Auditorio San José")
+    assert not menciona_otra_ciudad("Soriano y Colonia")

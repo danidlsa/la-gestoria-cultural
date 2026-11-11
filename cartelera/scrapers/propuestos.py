@@ -23,7 +23,7 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 from cartelera.extraer import fecha_sin_anio, precio_de, recortar, texto_plano
-from cartelera.geo import menciona_otra_ciudad, sin_tildes
+from cartelera.geo import sin_tildes
 from cartelera.http import Cliente
 from cartelera.modelo import Entrada, EventoCrudo, Funcion, LugarCrudo
 
@@ -149,8 +149,8 @@ def armar_evento(datos: dict, ahora: datetime) -> EventoCrudo | None:
     url = _link(datos.get("link", ""))
     if not titulo or not lugar or not url:
         return None
-    if menciona_otra_ciudad(lugar) or (direccion and menciona_otra_ciudad(direccion)):
-        return None
+    # No se filtra por ciudad: quien lo manda confirma que es en Montevideo, y cada evento se aprueba a mano. El filtro
+    # de las otras fuentes se confundía con "esq. Durazno" o "Auditorio San José" (11/11/2026).
     lista = funciones(datos, ahora)
     if not lista:
         return None

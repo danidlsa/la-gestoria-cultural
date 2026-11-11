@@ -68,9 +68,18 @@ def test_evento_propuesto(ahora):
     assert taller.funciones[0].sin_hora
 
 
-def test_quedan_afuera_lo_pasado_el_interior_y_lo_incompleto(ahora):
+def test_quedan_afuera_lo_pasado_y_lo_incompleto(ahora):
     titulos = [e.titulo for f in propuestos.filas(CSV) if (e := propuestos.armar_evento(f, ahora))]
-    assert titulos == ["Noche de jazz en el patio", "Taller de grabado"]
+    # El del interior entra: acá no se filtra por ciudad (quien lo manda confirma que es en Montevideo, y se aprueba a
+    # mano). El filtro se confundía con "esq. Durazno" o "Auditorio San José".
+    assert titulos == ["Noche de jazz en el patio", "Taller de grabado", "Show en el interior"]
+
+
+def test_una_esquina_o_una_sala_con_nombre_de_departamento(ahora):
+    fila = {"titulo": "Sol Bassa", "lugar": "El espacio vacío", "direccion": "GUTIÉRREZ RUIZ 1111 esq. DURAZNO",
+            "fecha": "2026-11-15", "hora": "19:00", "link": "https://www.instagram.com/elespacio.vacio", "precio": "$400 o 2 por $600"}
+    evento = propuestos.armar_evento(fila, ahora)
+    assert evento.lugar.direccion == "GUTIÉRREZ RUIZ 1111 esq. DURAZNO" and evento.precio.desde == 400
 
 
 def test_scrapear_sin_formulario_no_pide_nada(monkeypatch, ahora):
@@ -85,7 +94,7 @@ def test_scrapear_avisa_lo_aprobado_que_esta_incompleto(monkeypatch, ahora):
 
     monkeypatch.setattr(propuestos, "configuracion", lambda: {"csv": "https://docs.google.com/spreadsheets/d/e/x/pub?output=csv"})
     eventos, errores = propuestos.scrapear(Cliente(), ahora)
-    assert len(eventos) == 2
+    assert len(eventos) == 3
     assert errores == ["Sin link: falta la sala, el link o una fecha que se entienda"]  # lo pasado no es un error
 
 
