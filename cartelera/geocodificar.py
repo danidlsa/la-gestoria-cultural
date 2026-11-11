@@ -53,6 +53,17 @@ def sin_titulo(direccion: str) -> str | None:
     return desabreviar(TITULOS.sub("", direccion))
 
 
+# Lo que sigue al número de puerta: la esquina o la cuadra. OpenStreetMap encuentra "Gutiérrez Ruiz 1111", pero no
+# "Gutiérrez Ruiz 1111 esq. Durazno".
+_ESQUINA = re.compile(r"^(.*?\b\d{1,5}(?:\s*bis)?)\s*(?:,|\(|-|–|\besq(?:uina)?\b\.?|\bentre\b|\by\b|\be/).*$", re.I)
+
+
+def sin_esquina(direccion: str) -> str | None:
+    """'Gutiérrez Ruiz 1111 esq. Durazno' -> 'Gutiérrez Ruiz 1111'; None si no hay número o no hay nada después."""
+    encontrado = _ESQUINA.match(direccion.strip())
+    return desabreviar(encontrado.group(1)) if encontrado else None
+
+
 class Geocodificador:
     def __init__(self):
         self._http: httpx.Client | None = None
@@ -71,7 +82,8 @@ class Geocodificador:
             return tuple(anterior["punto"])
         # Si no, se prueba con las abreviaturas desarmadas ("Av. Gral. Rivera" -> "Avenida General Rivera") y, si
         # tampoco, sin el título de la persona: OpenStreetMap tiene "Tristán Narvaja", no "Doctor Tristán Narvaja".
-        variantes = list(dict.fromkeys(v for v in (desabreviar(consulta), sin_titulo(consulta)) if v))
+        # Y, por último, sin la esquina: el número de puerta alcanza.
+        variantes = list(dict.fromkeys(v for v in (desabreviar(consulta), sin_titulo(consulta), sin_esquina(consulta)) if v))
         for variante in variantes:
             punto = self._buscar(variante)
             if punto:

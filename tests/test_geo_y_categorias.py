@@ -48,3 +48,12 @@ def test_una_esquina_o_una_sala_no_es_otra_ciudad():
     assert not menciona_otra_ciudad("GUTIÉRREZ RUIZ 1111 esq. DURAZNO")
     assert not menciona_otra_ciudad("Universidad Católica del Uruguay (UCU) – Auditorio San José")
     assert not menciona_otra_ciudad("Soriano y Colonia")
+
+
+def test_la_direccion_sin_la_esquina():
+    from cartelera.geocodificar import sin_esquina
+    assert sin_esquina("GUTIÉRREZ RUIZ 1111 esq. DURAZNO") == "GUTIÉRREZ RUIZ 1111"
+    assert sin_esquina("Durazno 895 y Convención") == "Durazno 895"
+    assert sin_esquina("Av. 18 de Julio 1249 esq. Yí") == "Avenida 18 de Julio 1249"
+    assert sin_esquina("Soriano 1236") is None  # no hay nada que sacar
+    assert sin_esquina("Gral. Flores y Domingo Aramburú") is None  # sin número, la esquina es todo lo que hay
