@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-11T12:24:44.403387-03:00",
+ "corrida": "2026-11-11T12:39:14.945123-03:00",
  "ok": true,
  "cantidad": 15,
  "errores": [],
@@ -421,52 +421,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "ab487087-b2b8-41d2-902e-71467f67c7ca",
-   "url": "https://www.tikzet.com/events/acampo-reggae-festival",
-   "titulo": "Acampo Reggae Festival",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Acampo Reggae es mucho más que un festival: es un espacio de encuentro para espíritus libres, sin prejuicios, unidos por la música y el deseo de compartir. Creemos en valores como la unidad, la paz, el amor, la cultura, las artes, el respeto por el medio ambiente y la libertad de ser quienes somos…",
-   "lugar": {
-    "nombre": "ACAMPOREGGAE FESTIVAL",
-    "direccion": "La Vieja Escuela, Oceanía del Polonio",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-05T14:00:00-03:00",
-     "fin": "2026-12-06T20:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 700.0,
-    "hasta": 700.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/acampo-reggae-festival",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fe5c4bd28-3f61-4e03-9030-1b89d516597d.original",
-   "productor": "ACAMPOREGGAE FESTIVAL",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "a766a550-a019-4abf-9e7a-99fe9d1ecc45",
    "url": "https://www.tikzet.com/events/paranormales-veneno-en-vivo",
    "titulo": "Paranormales: Veneno en vivo",
@@ -513,43 +467,43 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "dbdedcc5-b5d5-472c-929a-32947d6cd1ee",
-   "url": "https://www.tikzet.com/events/mamba-club",
-   "titulo": "MAMBA CLUB",
-   "categoria": "fiesta",
+   "id_externo": "ab487087-b2b8-41d2-902e-71467f67c7ca",
+   "url": "https://www.tikzet.com/events/acampo-reggae-festival",
+   "titulo": "Acampo Reggae Festival",
+   "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": null,
+   "descripcion_corta": "Acampo Reggae es mucho más que un festival: es un espacio de encuentro para espíritus libres, sin prejuicios, unidos por la música y el deseo de compartir. Creemos en valores como la unidad, la paz, el amor, la cultura, las artes, el respeto por el medio ambiente y la libertad de ser quienes somos…",
    "lugar": {
-    "nombre": "MAMBA CLUB",
-    "direccion": "Avenida Uruguay 1136",
+    "nombre": "ACAMPOREGGAE FESTIVAL",
+    "direccion": "La Vieja Escuela, Oceanía del Polonio",
     "lat": null,
     "lon": null,
     "barrio": null
    },
    "funciones": [
     {
-     "inicio": "2026-11-13T23:50:00-03:00",
-     "fin": "2026-11-14T06:00:00-03:00",
+     "inicio": "2026-12-05T14:00:00-03:00",
+     "fin": "2026-12-06T20:00:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 250.0,
-    "hasta": 250.0,
+    "desde": 700.0,
+    "hasta": 700.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/mamba-club",
+     "url": "https://www.tikzet.com/events/acampo-reggae-festival",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Ff82269df-a85f-438e-a65d-60210c04ea17.original",
-   "productor": "MAMBA CLUB",
+   "imagen_url": "https://cdn.tikzet.com/images%2Fe5c4bd28-3f61-4e03-9030-1b89d516597d.original",
+   "productor": "ACAMPOREGGAE FESTIVAL",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -596,6 +550,52 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
    "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "dbdedcc5-b5d5-472c-929a-32947d6cd1ee",
+   "url": "https://www.tikzet.com/events/mamba-club",
+   "titulo": "MAMBA CLUB",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "MAMBA CLUB",
+    "direccion": "Avenida Uruguay 1136",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:50:00-03:00",
+     "fin": "2026-11-14T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 250.0,
+    "hasta": 250.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/mamba-club",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Ff82269df-a85f-438e-a65d-60210c04ea17.original",
+   "productor": "MAMBA CLUB",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
