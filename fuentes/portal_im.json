@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-11T11:00:14.961622-03:00",
+ "corrida": "2026-11-12T11:00:14.536093-03:00",
  "ok": true,
- "cantidad": 40,
+ "cantidad": 38,
  "errores": [],
  "eventos": [
   {
@@ -42,6 +42,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Carnaval de las Promesas",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -61,13 +62,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-11T16:00:00-03:00",
-     "fin": "2026-11-11T18:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Centro Comunal Zonal 10",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T16:00:00-03:00",
      "fin": "2026-11-12T18:00:00-03:00",
@@ -369,6 +363,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Envejecimiento activo",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -430,6 +425,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Envejecimiento activo",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -491,6 +487,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Envejecimiento activo",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -559,6 +556,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Envejecimiento activo",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -599,6 +597,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de teatro",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -639,6 +638,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de teatro",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -679,6 +679,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de teatro",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -719,6 +720,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de teatro",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -759,6 +761,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de teatro",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -799,6 +802,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de teatro",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -839,6 +843,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de teatro",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -879,6 +884,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de teatro",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -919,6 +925,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de teatro",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -959,6 +966,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de teatro",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1027,6 +1035,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Envejecimiento activo",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1067,6 +1076,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Paseo Sur Palermo",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1107,6 +1117,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de teatro",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1147,6 +1158,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de teatro",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1187,6 +1199,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de teatro",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1262,6 +1275,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Estreno de obras Fortalecimiento de las Artes",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1351,6 +1365,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Estreno de obras Fortalecimiento de las Artes",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1398,6 +1413,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Estreno de obras Fortalecimiento de las Artes",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1459,17 +1475,18 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Estreno de obras Fortalecimiento de las Artes",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
   {
    "fuente": "portal_im",
-   "id_externo": "1004",
-   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-miercoles-11-de-noviembre",
+   "id_externo": "1005",
+   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-jueves-12-de-noviembre",
    "titulo": "Murga Joven",
    "categoria": "carnaval",
    "categoria_segura": false,
-   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Miércoles 11 de noviembre 20:00 h – Secretos Públicos 20:50 h – Marta está llegan2(do) 21:40 h – Trapecistas del Tablón 22:30 h – Big Tulequi",
+   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Jueves 12 de noviembre 20:00 h – Ésta 20:50 h – La Relegada 21:40 h – Corte Petróleo 22:30 h – La Resumida 23:20 h – Amarga",
    "lugar": {
     "nombre": "Centro Cultural Las Duranas",
     "direccion": "Pedro Trápani 1350 esquina Bayona.",
@@ -1478,13 +1495,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-11T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T20:00:00-03:00",
      "fin": null,
@@ -1529,11 +1539,12 @@
    },
    "entradas": [],
    "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20241104dicimouyjmr-6500.jpg",
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20251110dicimouyjmr2927%20%281%29.jpg",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Encuentro de Murga Joven 2026",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1602,6 +1613,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Envejecimiento activo",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1642,46 +1654,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Atlantidoc",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "1028",
-   "url": "https://eventos.montevideo.gub.uy/evento/primavera-tango/hagopian-irigoyen-arenas-el-tango-esa-diablura",
-   "titulo": "Hagopián-Irigoyen-Arenas: el tango, esa diablura",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "El trío uruguayo integrado por Álvaro Hagopián, Gonzalo Irigoyen y José Arenas presenta \"El tango, esa diablura: cantando a Borges\", un espectáculo basado en textos y canciones de Jorge Luis Borges, a 40 años de su fallecimiento. La propuesta reúne composiciones de Ástor Piazzolla, Pedro Aznar…",
-   "lugar": {
-    "nombre": "Centro Cultural Florencio Sánchez",
-    "direccion": "Grecia 3281",
-    "lat": -34.89227,
-    "lon": -56.247973,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/Hagopian-Irigoyen-Arenas%20-%20Julia%CC%81n%20Mazzoni.jpg",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Primavera Tango",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1722,6 +1695,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Primavera Tango",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1762,6 +1736,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Primavera Tango",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1802,6 +1777,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Primavera Tango",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1842,46 +1818,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Primavera Tango",
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "1034",
-   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-cine-accesible-2026/la-caja-negra",
-   "titulo": "La caja negra",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Sinopsis En 1969, un hombre identificado como David Chavarriaga desvía un avión colombiano hacia Cuba. Con el tiempo, será reconocido como el escritor Daniel Chavarría. Décadas después, Elisa Barbosa Riva reconstruye sus huellas y recuerdos en una investigación sobre las aventuras de una vida, el…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/la%20caja%20negra.jpg",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Ciclo de Cine Accesible 2026",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1922,6 +1859,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de Cine Accesible 2026",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1962,6 +1900,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de Cine Accesible 2026",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -2002,6 +1941,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de Cine Accesible 2026",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -2042,17 +1982,18 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Música en el Parque",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
   {
    "fuente": "portal_im",
-   "id_externo": "1041",
-   "url": "https://eventos.montevideo.gub.uy/evento/prueba-de-admision-del-carnaval-2027/prueba-de-admision-miercoles-11-de-noviembre",
+   "id_externo": "1042",
+   "url": "https://eventos.montevideo.gub.uy/evento/prueba-de-admision-del-carnaval-2027/prueba-de-admision-jueves-12-de-noviembre",
    "titulo": "Prueba de Admisión",
    "categoria": "teatro",
    "categoria_segura": false,
-   "descripcion_corta": "Conocé la programación de la segunda etapa de la Prueba de Admisión del Carnaval 2027. Miércoles 11 de noviembre 20:30 – Manda la Vuelta (Murga) 21:05 – Fantoches (Humoristas) 21:45 – Sorda de un Oído (Murga) 22:20 – La Pandilla (Parodistas) 23:05 – Araca la Cana (Murga) Entrada: un alimento no…",
+   "descripcion_corta": "Conocé la programación de la tercera etapa de la Prueba de Admisión del Carnaval 2027. Jueves 12 de noviembre 20:30 – La Nueva Escuela (Sociedad de negros y lubolos) 21:10 – Social Club (Humoristas) 21:50 – La Sandía De La Torta (Murga) 22:25 – Ítacos (Parodistas) 23:10 – La Reina de la Teja…",
    "lugar": {
     "nombre": "Teatro de Verano",
     "direccion": "Rambla Wilson s/n esq. Andrés Cachón",
@@ -2061,13 +2002,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-11T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T20:30:00-03:00",
      "fin": null,
@@ -2088,16 +2022,31 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": null,
    "entradas": [],
    "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/20251112dicimouyjmr3379.jpg",
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/20251112dicimouyjmr3361.jpg",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Prueba de Admisión del Carnaval 2027",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -2133,6 +2082,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -2168,6 +2118,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   }

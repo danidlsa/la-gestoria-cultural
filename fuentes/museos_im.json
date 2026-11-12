@@ -1,6 +1,6 @@
 {
  "fuente": "museos_im",
- "corrida": "2026-11-11T11:02:22.106469-03:00",
+ "corrida": "2026-11-12T11:02:15.615545-03:00",
  "ok": true,
  "cantidad": 5,
  "errores": [],
@@ -21,13 +21,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-11T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T00:00:00-03:00",
      "fin": null,
@@ -180,6 +173,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": true,
    "hasta": "2026-11-30"
   },
@@ -199,13 +193,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-11T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T00:00:00-03:00",
      "fin": null,
@@ -621,6 +608,13 @@
     },
     {
      "inicio": "2027-01-10T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-11T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -645,6 +639,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": true,
    "hasta": "2027-04-30"
   },
@@ -664,13 +659,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-11T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T00:00:00-03:00",
      "fin": null,
@@ -1090,6 +1078,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -1110,6 +1105,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": true,
    "hasta": "2027-02-28"
   },
@@ -1129,13 +1125,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-11T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T00:00:00-03:00",
      "fin": null,
@@ -1341,6 +1330,13 @@
     },
     {
      "inicio": "2026-12-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-12T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1365,6 +1361,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": true,
    "hasta": null
   },
@@ -1384,13 +1381,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-11T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T00:00:00-03:00",
      "fin": null,
@@ -1600,6 +1590,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-12-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -1620,6 +1617,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": true,
    "hasta": null
   }

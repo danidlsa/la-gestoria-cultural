@@ -1,57 +1,10 @@
 {
  "fuente": "zitarrosa",
- "corrida": "2026-11-11T11:01:56.894615-03:00",
+ "corrida": "2026-11-12T11:01:52.383824-03:00",
  "ok": true,
- "cantidad": 20,
+ "cantidad": 19,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "lucas-cary",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/lucas-cary/",
-   "titulo": "Lucas Cary presenta «La oportunidad»",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Lucas Cary llega a la Sala Zitarrosa para presentar en vivo \"La oportunidad\", su segundo trabajo discográfico. Acompañado por su banda completa e invitados especiales, el cantautor recorrerá las canciones de este nuevo álbum junto a temas de su primer disco y singles que marcaron su carrera. Será…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 700.0,
-    "hasta": 900.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021471/espectaculo/Lucas%20Cary?2",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/09/1R5A2356.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40021471/espectaculo/Lucas%20Cary?2"
-   ],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "zitarrosa",
    "id_externo": "festival-de-fado-sara-correia",
@@ -107,6 +60,7 @@
     "https://tickantel.com.uy/inicio/espectaculo/40021274/espectaculo/Festival%20Fado%20Mvd%202026?0"
    ],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -165,6 +119,7 @@
     "https://tickantel.com.uy/inicio/alta_demanda/40021568/espectaculo/Natalie%20Perez"
    ],
    "ciclo": "Ciclo MAREA",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -210,6 +165,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -255,6 +211,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -302,6 +259,7 @@
     "https://tickantel.com.uy/inicio/espectaculo/40021523/espectaculo/El%20club%20de%20Tobi%2030%20a%C3%B1os?2"
    ],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -360,6 +318,7 @@
     "https://tickantel.com.uy/inicio/espectaculo/40021263/espectaculo/Raly%20Barrionuevo?2"
    ],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -407,6 +366,7 @@
     "https://tickantel.com.uy/inicio/espectaculo/40020967/espectaculo/Hilda%20Lizarazu?2"
    ],
    "ciclo": "Ciclo MAREA",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -434,19 +394,27 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 700.0,
+    "hasta": 800.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/mujeres-de-todas-partes-ciclo-marea/",
-     "via": "zitarrosa"
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021807/mujeres-de-todas-partes",
+     "via": "tickantel"
     }
    ],
    "beneficios": [],
    "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/mujeres-1.png",
    "productor": null,
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021807/mujeres-de-todas-partes"
+   ],
    "ciclo": "Ciclo MAREA",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -505,6 +473,7 @@
     "https://tickantel.com.uy/inicio/alta_demanda/40021526/espectaculo/Julieta%20Laso"
    ],
    "ciclo": "Ciclo MAREA",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -552,6 +521,7 @@
     "https://tickantel.com.uy/inicio/espectaculo/40021445/espectaculo/Jazz%20Cartoons%20por%20Paris%20Jazz%20Club?2"
    ],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -599,6 +569,7 @@
     "https://tickantel.com.uy/inicio/espectaculo/40021434/espectaculo/Woody%20Allen%20Night%20por%20Paris%20Jazz%20Club?0"
    ],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -646,6 +617,7 @@
     "https://tickantel.com.uy/inicio/espectaculo/40021642/espectaculo/Pago%20y%20Arrabal?1"
    ],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -693,6 +665,7 @@
     "https://tickantel.com.uy/inicio/espectaculo/40021475/espectaculo/Coltrane%20100%20a%C3%B1os%20-%2019%C2%B0%20Fest%20Jazz%20MVD?2"
    ],
    "ciclo": "19° Fest Jazz Mvd",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -740,6 +713,7 @@
     "https://tickantel.com.uy/inicio/espectaculo/40021476/espectaculo/Desid%C3%A9rio%20L%C3%A1zaro%20Trio%20-%2019%C2%B0%20Fest%20Jazz%20MVD?0"
    ],
    "ciclo": "19° Fest Jazz Mvd",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -787,6 +761,7 @@
     "https://tickantel.com.uy/ng/espectaculo/40021491/nuestro-canto-sin-fronteras-3era-edicion"
    ],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -832,6 +807,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo MAREA",
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -879,6 +855,7 @@
     "https://tickantel.com.uy/inicio/espectaculo/40021626/espectaculo/Balbis?0"
    ],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -924,6 +901,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -971,6 +949,7 @@
     "https://tickantel.com.uy/ng/espectaculo/40021888/encuentro-espectaculo-de-danza-espanola"
    ],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   }
