@@ -381,3 +381,46 @@ def test_la_etiqueta_bares():
     (afuera,) = ig.borradores_del_post(_post(2, "13 de noviembre 21 hs\n📍 Museo Oceanográfico", "2026-11-09"), {"usuario": "mbc"}, {"name": "MBC"}, AHORA)
     (sala,) = ig.borradores_del_post(_post(3, "Sábado 14 de noviembre 21 hs", "2026-11-09"), {"usuario": "sala.ducon", "bar": False}, {}, AHORA)
     assert ig.evento_de(afuera, AHORA).etiquetas == [] and ig.evento_de(sala, AHORA).etiquetas == []
+
+
+def test_las_horas_en_rango_y_las_convocatorias():
+    assert funciones("Sábado 14 de noviembre, 13 (17-22h)") == ["14/11 17:00"]  # la feria abre a las 17
+    assert funciones("Viernes 20/11 | 18.30 a 20.30 h") == ["20/11 18:30"]
+    assert funciones("Sábado 14 de noviembre, de 14 a 20 hs") == ["14/11 14:00"]
+    # Las fechas de una convocatoria son de inscripción, no de un evento.
+    mes = ("Mes de las Migraciones\n18 de noviembre - 18 de diciembre\n✍️ Inscribí tu propuesta cultural-artística y "
+           "participá de la agenda\n📅 Fecha límite: 15 de noviembre")
+    assert ig.borradores_del_post(_post(1, mes, "2026-11-03"), {"usuario": "museomumi"}, {}, AHORA) == []
+    assert funciones("Postulaciones hasta el viernes 20 de noviembre a las 18 h") == []
+    # Una muestra abierta "del 18 de noviembre - 18 de diciembre" tampoco es un evento de cada día.
+    assert funciones("Exposición abierta 18 de noviembre - 18 de diciembre, de 12 a 18 h") == []
+
+
+def test_el_titulo_despues_de_un_encabezado():
+    assert ig.titulo_de('INAUGURACIÓN EXPOSITIVA \n"La sal en las paredes"\n\n📅 Miércoles 18, 19h', "MuMI") \
+        == 'Inauguración de "La sal en las paredes"'
+    assert ig.titulo_de("NUEVA EDICIÓN! Laboratorio de escritura a cargo de terepuppo , para explorar otras maneras "
+                        "de mirar, recordar, narrar y construir sentido.", "FAC") == "Laboratorio de escritura"
+
+
+def test_el_lugar_sale_de_la_lista(tmp_path, monkeypatch):
+    monkeypatch.setattr(ig, "CONFIG", tmp_path / "bares.toml")
+    (tmp_path / "bares.toml").write_text(
+        '[[bar]]\nusuario = "museomumi"\nnombre = "MuMI - Muralla Abierta"\ndireccion = "Bartolomé Mitre 1550"\nbar = false\n\n'
+        '[[bar]]\nusuario = "centroculturalterminalgoes"\nnombre = "Centro Cultural Terminal Goes"\n'
+        'direccion = "Gral. Flores y Domingo Aramburú"\nlat = -34.882708\nlon = -56.181856\nbar = false\n', encoding="utf-8")
+    feria = {"usuario": "feriadearteimpresomvd", "itinerante": True}
+    # El 📍 "MuMi" es el MuMI de la lista, con su dirección.
+    (b,) = ig.borradores_del_post(_post(1, "13, 14 y 15 de noviembre, 14-20h\n📍 MuMi – Muralla Abierta (Piedras y "
+                                           "Bartolomé Mitre)", "2026-11-05"), feria, {}, AHORA)
+    assert (b["lugar"], b["direccion"], b["bar"]) == ("MuMI - Muralla Abierta", "Bartolomé Mitre 1550", False)
+    # Sin 📍, una cuenta sin lugar fijo puede nombrar al lugar por su usuario.
+    (c,) = ig.borradores_del_post(_post(2, "Este Sábado 14 de Noviembre de 16 a 22 hs\n🏓 Plaza ex Terminal Goes "
+                                           "centroculturalterminalgoes", "2026-11-11"), {"usuario": "feeldeagua", "itinerante": True},
+                                  {}, AHORA)
+    assert (c["lugar"], c["lat"], c["funciones"][0]["inicio"][11:16]) == ("Centro Cultural Terminal Goes", -34.882708, "16:00")
+    # "📍 Modalidad presencial o virtual" no es un lugar: queda el de la cuenta.
+    fac = {"usuario": "facmvd", "nombre": "FAC", "direccion": "Av. Sarmiento 2244"}
+    (d,) = ig.borradores_del_post(_post(3, "Sábado 14 de noviembre\n🕕 De 11 a 13 h\n📍 Modalidad presencial o virtual",
+                                        "2026-11-05"), fac, {}, AHORA)
+    assert (d["lugar"], d["direccion"]) == ("FAC", "Av. Sarmiento 2244")

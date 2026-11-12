@@ -14,6 +14,8 @@
 #   lat, lon   coordenadas, para los que solo dan una esquina ("Durazno y Jackson"): el buscador de direcciones no
 #              encuentra esquinas, y un evento sin ubicación conocida no se publica
 #   bar        false si no es un bar (una sala, un teatro, un mercado): sus eventos no llevan la etiqueta "Bares"
+#   itinerante true si no tiene lugar fijo (una feria, un festival): el lugar sale del 📍 o de la cuenta de un lugar de
+#              esta lista que nombre el post ("Plaza ex Terminal Goes centroculturalterminalgoes")
 #   notas      lo que quieras recordar (por ejemplo, "solo los jueves de jazz")
 
 # [[bar]]
@@ -111,6 +113,10 @@ direccion = "Bartolomé Mitre 1318"
 
 [[bar]]
 usuario = "bluzzbar"
+nombre = "Bluzz Bar"
+corto = "Bluzz"
+direccion = "Canelones 760"
+notas = "muchas fechas las anuncia en historias, reposteando a jazzclub.uy: esas entran por esa cuenta"
 
 [[bar]]
 usuario = "_labatea_"
@@ -171,10 +177,96 @@ direccion = "Juan Carlos Gómez 1251"
 
 [[bar]]
 usuario = "lamadredelassecond"
+itinerante = true
 notas = "ferias second hand: cada una en un lugar distinto; entra lo que diga dónde es con 📍"
 bar = false
 
 [[bar]]
 usuario = "fama.tours"
+itinerante = true
 notas = "recorridos: cada uno sale de un lugar distinto; entra lo que diga el punto de encuentro con 📍"
+bar = false
+
+# Sumadas el 12/11/2026.
+[[bar]]
+usuario = "ccemontevideo"
+nombre = "Centro Cultural de España"
+direccion = "Rincón 629"
+barrio = "Ciudad Vieja"
+bar = false
+
+[[bar]]
+usuario = "mambapercusion"
+itinerante = true
+notas = "grupo de percusión: toca en distintos lugares; entra lo que diga dónde es con 📍"
+bar = false
+
+[[bar]]
+usuario = "espaciomodelomvd"
+nombre = "Espacio Modelo"
+direccion = "Cádiz 3280"
+bar = false
+
+[[bar]]
+usuario = "museomumi"
+nombre = "MuMI - Muralla Abierta"  # Museo de la Movilidad y las Identidades
+direccion = "Bartolomé Mitre 1550"
+barrio = "Ciudad Vieja"
+bar = false
+
+[[bar]]
+usuario = "feriadearteimpresomvd"
+itinerante = true
+notas = "feria de arte impreso: cada edición en un lugar distinto; entra lo que diga dónde es con 📍"
+bar = false
+
+[[bar]]
+usuario = "subtemvd"
+nombre = "Centro de Exposiciones Subte"  # como ya está en el sitio
+direccion = "Plaza Fabini"
+lat = -34.90563
+lon = -56.19423
+notas = "lo que está en sala ya entra por la Intendencia; de acá salen las inauguraciones, por adelantado"
+bar = false
+
+[[bar]]
+usuario = "feeldeagua"
+itinerante = true
+notas = "festival: cada edición en un lugar distinto; entra lo que diga dónde es con 📍"
+bar = false
+
+[[bar]]
+usuario = "facmvd"
+nombre = "FAC - Fundación de Arte Contemporáneo"
+direccion = "Av. Sarmiento 2244"
+notas = "también expone en otros lugares: esos entran si el post dice dónde con 📍"
+bar = false
+
+[[bar]]
+usuario = "molinodeperez"
+nombre = "Molino de Pérez"
+direccion = "Pasaje Arq. Juan Veltroni"
+barrio = "Malvín"
+lat = -34.8941793
+lon = -56.0905563
+bar = false
+
+[[bar]]
+usuario = "casainju"
+nombre = "INJU"  # como ya está en el sitio
+direccion = "Av. 18 de Julio 1865"
+lat = -34.901780
+lon = -56.176024
+notas = "publica muchas convocatorias y llamados abiertos: no son eventos"
+bar = false
+
+[[bar]]
+usuario = "fotocluburuguayo"
+nombre = "Foto Club Uruguayo"
+bar = false
+
+[[bar]]
+usuario = "jazzclub.uy"
+notas = "las fechas de jazz que Bluzz repostea; el lugar sale del 📍 o de la cuenta que nombre (bluzzbar)"
+itinerante = true
 bar = false

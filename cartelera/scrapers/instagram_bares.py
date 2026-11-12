@@ -70,6 +70,7 @@ _RECURRENTE = re.compile(
     rf"\b(de\s+)?{_DIA}\s+(a|al|y)\s+{_DIA}\b|\b(todos\s+los|todas\s+las|cada)\s+\w+|\b(sabados|domingos)\b"
     rf"|\b(del?|desde\s+el)\s+\d{{1,2}}(\s*(de\s+|/)\s*{_MES}|/\d{{1,2}})?\s+(al|hasta\s+el)\s+\d{{1,2}}(\s*(de\s+|/)\s*{_MES}|/\d{{1,2}})?"
     rf"|\bhasta\s+el\s+\d{{1,2}}(\s*(de\s+|/)\s*{_MES}|/\d{{1,2}})?"
+    rf"|\b\d{{1,2}}\s*(de\s+)?{_MES}\s*[-–]\s*\d{{1,2}}\s*(de\s+)?{_MES}"  # "18 de noviembre - 18 de diciembre"
 )
 _FECHA_MES = re.compile(rf"\b(\d{{1,2}})\s*(?:de\s+|[/.\-]\s*)?{_MES}\b")  # "13 de noviembre", "04/Noviembre"
 _FECHA_BARRA = re.compile(r"\b(\d{1,2})/(\d{1,2})(?:/(\d{2,4}))?\b")
@@ -84,13 +85,19 @@ _HORA = re.compile(
     r"\b(?:a|desde|de)\s+las\s+(\d{1,2})(?:[:.](\d{2}))?\b"  # "a las 21", "desde las 20.30"
     r"|\b(\d{1,2})[:.](\d{2})\s*(?:h|hs|hrs|horas)\b"  # "20.30 hs"
     r"|\b(\d{1,2}):(\d{2})\b"  # "21:30"
+    r"|\b(\d{1,2})(?:[:.](\d{2}))?\s*(?:-|–|a)\s*\d{1,2}(?:[:.]\d{2})?\s*(?:h|hs|hrs|horas)\b"  # "17-22h", "18.30 a 20.30 h": la primera
     r"|\b(\d{1,2})\s*(?:h|hs|hrs|horas)\b"  # "21h", "21 hs"
 )
 _MEDIODIA = re.compile(r"\bmediodia\b")
 # "Martes de noviembre", "todos los jueves de diciembre": un ciclo, todas las fechas de ese día en ese mes.
 _SERIE = re.compile(rf"\b(lunes|martes|miercoles|jueves|viernes|sabado|domingo)s?\s+de\s+{_MES}\b")
 # Las fechas de un sorteo, un descuento o una vigencia no son de un evento ("Anunciamos ganador el jueves 12/11").
-_NO_ES_EVENTO = re.compile(r"ganador|sorteo|sorteamos|participa[rn]?\b|valido|vigente|descuento|vence")
+_NO_ES_EVENTO = re.compile(r"ganador|sorteo|sorteamos|participa[rn]?\b|valido|vigente|descuento|vence|fecha limite|postula"
+                           r"|convocatoria|inscripciones?\s+(hasta|cierra)|cierre\s+de\s+(inscripciones|postulaciones)")
+# Un post que abre con una convocatoria o un llamado ("CONVOCATORIA ABIERTA", "Inscribí tu propuesta") no anuncia un
+# evento: sus fechas son de inscripción. Se mira solo el principio, para no perder un evento que la menciona al final.
+_CONVOCATORIA = re.compile(r"convocatoria|convocamos|llamado\s+(abierto|a\s)|postula|inscribi\s+tu\s+propuesta"
+                           r"|recepcion\s+de\s+(propuestas|postulaciones)")
 
 
 def _dia_con_numero(numero: int, dia_semana: int | None, desde: date) -> date | None:
@@ -164,8 +171,8 @@ def fechas_por_dia_de_semana(texto: str, publicado: date) -> list[tuple[date, bo
 def horas(texto: str) -> list[time]:
     resultado = []
     for grupos in _HORA.findall(texto):
-        h1, m1, h2, m2, h3, m3, h4 = grupos
-        hora, minutos = (h1, m1) if h1 else (h2, m2) if h2 else (h3, m3) if h3 else (h4, "")
+        h1, m1, h2, m2, h3, m3, h4, m4, h5 = grupos
+        hora, minutos = (h1, m1) if h1 else (h2, m2) if h2 else (h3, m3) if h3 else (h4, m4) if h4 else (h5, "")
         hora, minutos = int(hora), int(minutos or 0)
         # Un evento a las 5 de la mañana es más probable que sea un error de lectura (o el cierre del bar).
         if minutos < 60 and (hora >= 9 and hora <= 23 or hora <= 3):
@@ -264,6 +271,11 @@ _FECHA_AL_PRINCIPIO = re.compile(
 _FECHA_AL_FINAL = re.compile(rf"\s*(?:[|I·\-–—,]\s*)?\b\d{{1,2}}\s+de\s+{_MES_TEXTO}\b.*$", re.I)
 # Renglones de propaganda que no sirven de título.
 _PROPAGANDA = re.compile(r"inscrib|link (?:en|de) (?:la |nuestra )?bio|entrada (?:gratis|libre)|sorte|reserv|^calendario\b", re.I)
+# Encabezados que no son el nombre de nada: el nombre es lo que sigue ("INAUGURACIÓN EXPOSITIVA" y abajo "La sal en las
+# paredes"; "NUEVA EDICIÓN! Laboratorio de escritura…"). De una inauguración o un estreno queda dicho en el título.
+_ENCABEZADO = re.compile(
+    r"^(?:(inauguraci[oó]n|estreno)(?:\s+expositiva|\s+de\s+(?:la\s+)?(?:muestra|exposici[oó]n))?"
+    r"|nueva\s+edici[oó]n|nueva\s+fecha|se\s+viene|atenci[oó]n|importante|[uú]ltimos?\s+(?:lugares|cupos))\s*(?:[!:.]+\s*|$)", re.I)
 
 
 def _limpiar(renglon: str) -> str:
@@ -278,7 +290,14 @@ def titulo_de(texto: str, cuenta: str) -> str:
     """
     renglones = [_limpiar(r) for r in (texto or "").splitlines()]
     renglones = [r for r in renglones if len(re.sub(r"\W", "", r)) >= 4]
+    prefijo = None
     for i, limpio in enumerate(renglones):
+        encabezado = _ENCABEZADO.match(limpio)
+        if encabezado:
+            prefijo = prefijo or (encabezado.group(1) or "").capitalize() or None
+            limpio = limpio[encabezado.end():].strip(" -–—:.,!¡")
+            if len(re.sub(r"\W", "", limpio)) < 4:
+                continue
         if _PROPAGANDA.search(limpio) or re.fullmatch(r"[a-z0-9._]{4,}", limpio):
             continue
         sin_principio = _FECHA_AL_PRINCIPIO.sub("", limpio)
@@ -299,8 +318,14 @@ def titulo_de(texto: str, cuenta: str) -> str:
         if len(partes) > 1 and len(re.sub(r"\W", "", partes[0])) >= 4:
             sin_fecha = partes[0]
         limpio = sin_fecha[0].upper() + sin_fecha[1:]
+        if len(limpio) > 60:
+            # "Laboratorio de escritura a cargo de terepuppo, para explorar…": el nombre es lo de antes.
+            corto = re.split(r"\s+a\s+cargo\s+de\b", limpio)[0]
+            limpio = corto if len(re.sub(r"\W", "", corto)) >= 4 else limpio
         if len(limpio) > 90:
             limpio = re.split(r"(?<=[.!?])\s", limpio)[0]
+        if prefijo and sin_tildes(prefijo) not in sin_tildes(limpio):
+            limpio = f"{prefijo} de {limpio}"
         return limpio if len(limpio) <= 90 else limpio[:87].rsplit(" ", 1)[0] + "…"
     return f"En {cuenta}"  # con_el_bar no le vuelve a sumar el nombre
 
@@ -314,13 +339,14 @@ def precio_del_texto(texto: str):
 
 
 _PIN = re.compile(r"📍\s*([^\n]+)")
+_NO_ES_LUGAR = re.compile(r"modalidad|virtual|online|zoom|a confirmar|por definir|\blink\b", re.I)
 
 
 def lugar_del_texto(texto: str) -> tuple[str | None, str | None]:
     """El lugar que dice el post con 📍: "📍La Cretina, Soriano 1236" o "📍 Museo Oceanográfico". (nombre, dirección)."""
     encontrado = _PIN.search(texto or "")
-    if not encontrado:
-        return None, None
+    if not encontrado or _NO_ES_LUGAR.search(encontrado.group(1)):
+        return None, None  # "📍 Modalidad presencial o virtual" no dice dónde
     # Hasta el primer emoji: "📍 MBC Ombú ⚠️ Cupos limitados" es solo "MBC Ombú".
     renglon = re.split(r"[^\w\s,.'\-–&/°ºª()]", encontrado.group(1))[0].strip(" -–,.")
     partes = [p.strip() for p in re.split(r",|\s[-–]\s", renglon) if p.strip()]
@@ -379,6 +405,34 @@ def con_el_bar(titulo: str, bar: str) -> str:
     return f"{bar}: {titulo}"
 
 
+def _clave(texto: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", sin_tildes(texto))
+
+
+def _con_lugar_fijo(cuenta: dict) -> bool:
+    return bool(cuenta.get("direccion") or cuenta.get("lat"))
+
+
+def cuenta_del_lugar(nombre: str) -> dict | None:
+    """La cuenta de la lista que es ese lugar, si se sabe dónde queda: el 📍 "MuMi" es "MuMI - Muralla Abierta"."""
+    buscado = _clave(nombre)
+    if len(buscado) < 4:
+        return None
+    for c in cuentas():
+        nombres = {c["usuario"], c.get("corto") or "", c.get("nombre") or "", re.split(r"\s[-–]\s", c.get("nombre") or "")[0]}
+        if _con_lugar_fijo(c) and buscado in {_clave(n) for n in nombres if n}:
+            return c
+    return None
+
+
+def cuenta_mencionada(texto: str, propia: str) -> dict | None:
+    """El primer lugar de la lista que nombra el post por su usuario ("Plaza ex Terminal Goes centroculturalterminalgoes")."""
+    for c in cuentas():
+        if c["usuario"] != propia and _con_lugar_fijo(c) and re.search(rf"(?<![\w.]){re.escape(c['usuario'])}(?![\w])", texto):
+            return c
+    return None
+
+
 def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, funciones: list[tuple[datetime, bool]],
                  titulo: str, extracto: str) -> dict:
     texto = post.get("caption") or ""
@@ -395,6 +449,15 @@ def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, fu
     nombre, direccion = lugar_del_texto(texto)
     # Si el 📍 nombra al mismo bar (o solo da la dirección), el lugar es el bar; si nombra otro lugar, ese.
     otro_lugar = nombre and sin_tildes(nombre) not in sin_tildes(del_bar) and sin_tildes(del_bar) not in sin_tildes(nombre)
+    # Si ese otro lugar está en la lista, con su dirección. Una cuenta sin lugar fijo (una feria, un festival) que no
+    # dice dónde con 📍 puede nombrar al lugar por su usuario.
+    conocido = cuenta_del_lugar(nombre) if otro_lugar else None
+    if not nombre and cuenta.get("itinerante"):
+        conocido = cuenta_mencionada(texto, cuenta["usuario"])
+    if conocido and conocido["usuario"] != cuenta["usuario"]:
+        nombre, direccion, otro_lugar = conocido.get("nombre") or nombre or conocido["usuario"], conocido.get("direccion"), True
+    else:
+        conocido = None
     return {
         # Un borrador por cuenta y día: el mismo evento anunciado en varios posts (o en la agenda del mes y en la de
         # la semana) queda uno solo.
@@ -402,14 +465,14 @@ def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, fu
         "usuario": cuenta["usuario"],
         "lugar": nombre if otro_lugar else del_bar,
         "direccion": direccion if otro_lugar else cuenta.get("direccion") or direccion,
-        "barrio": None if otro_lugar else cuenta.get("barrio"),
+        "barrio": (conocido or {}).get("barrio") if otro_lugar else cuenta.get("barrio"),
         # Para los bares que solo dan una esquina ("Durazno y Jackson"), que el buscador de direcciones no encuentra.
-        "lat": None if otro_lugar else cuenta.get("lat"),
-        "lon": None if otro_lugar else cuenta.get("lon"),
+        "lat": (conocido or {}).get("lat") if otro_lugar else cuenta.get("lat"),
+        "lon": (conocido or {}).get("lon") if otro_lugar else cuenta.get("lon"),
         "lugar_del_pin": bool(otro_lugar),
         # Lo que pasa en el bar lleva la etiqueta "Bares" en el sitio; no si es en otro lugar, ni si la cuenta no es de
         # un bar (una sala o un mercado: `bar = false` en la lista).
-        "bar": not otro_lugar and cuenta.get("bar", True),
+        "bar": conocido.get("bar", True) if conocido else not otro_lugar and cuenta.get("bar", True),
         "titulo": con_el_bar(titulo, cuenta.get("corto") or nombre_corto(del_bar)),
         "texto": texto,
         "extracto": extracto,
@@ -430,7 +493,7 @@ def borradores_del_post(post: dict, cuenta: dict, perfil: dict, ahora: datetime)
     """Lo que anuncia un post, todavía por venir: un borrador, o uno por día si es una agenda."""
     texto = post.get("caption") or ""
     publicado = datetime.fromisoformat(post["timestamp"].replace("+0000", "+00:00")).astimezone(ahora.tzinfo)
-    if ahora - publicado > ANTIGUEDAD_MAXIMA:
+    if ahora - publicado > ANTIGUEDAD_MAXIMA or _CONVOCATORIA.search(sin_tildes(texto[:300])):
         return []
     lista = bloques(texto, publicado)
     todas = {h for b in lista for h in [hora_principal(" ".join(b["planos"]))] if h}
