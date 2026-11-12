@@ -1,10 +1,228 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-11T23:29:31.683881-03:00",
+ "corrida": "2026-11-12T11:44:53.174412-03:00",
  "ok": true,
  "cantidad": 68,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18401",
+   "url": "https://beneficios.ladiaria.com.uy/el-sueno-de-los-elefantes/",
+   "titulo": "El Sueño de los Elefantes",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "La compañía El Sueño de los Elefantes, en sus quince años de trayectoria, se caracteriza por proponer experiencias donde lo sensorial, la espacialidad del sonido y el cruce de disciplinas se utilizan como vehículo primordial del discurso artístico, generando una condición perceptual extra…",
+   "lugar": {
+    "nombre": "Sala del Museo del Carnaval",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 980.0,
+    "hasta": 980.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/El-Sueno-de-los-Elefantes--MONTEVIDEO-NOVIEMBRE/34210/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/el-sueno-de-los-elefantes/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/El-Sueno-de-los-Elefantes--MONTEVIDEO-NOVIEMBRE/34210/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18396",
+   "url": "https://beneficios.ladiaria.com.uy/el-nudo-de-gidion/",
+   "titulo": "El Nudo de Gidion",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "En un aula vacía, una madre y una maestra se encuentran después de un hecho irreparable. Lo que comienza como una conversación para intentar desanudar lo ocurrido, se transforma en un enfrentamiento que pone en tela de juicio la responsabilidad institucional, la educación, la violencia, y los…",
+   "lugar": {
+    "nombre": "Teatro El Tinglado",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-06T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 680.0,
+    "hasta": 680.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/El-Nudo-de-Gidion/34297/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/el-nudo-de-gidion/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/El-Nudo-de-Gidion/34297/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18393",
+   "url": "https://beneficios.ladiaria.com.uy/parque-tematico-2/",
+   "titulo": "Parque Temático",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "A la madrugada y sola, una periodista cultural se fuerza en escribir sobre un espectáculo que califica de ‘medio pelo’, cuando el déficit atencional, el multitasking y otros efectos del capitalismo tardío, la empujan una crisis neurótica donde fantasea con llevar a un montón de gente a un festival…",
+   "lugar": {
+    "nombre": "Teatro El Galpón | Sala Cero",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 275.0,
+    "hasta": 275.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/parque-tematico-2/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "ladiaria",
    "id_externo": "18387",
@@ -424,57 +642,6 @@
      "programa": "la diaria",
      "tipo": "2x1",
      "url": "https://beneficios.ladiaria.com.uy/particulas-miel-malapraxxis-2/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/ng/espectaculo/40021755/particulas-ninguna-higuera-guadalupe-calzada"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18355",
-   "url": "https://beneficios.ladiaria.com.uy/particulas-ninguna-higuera-guadalupe-romero/",
-   "titulo": "PARTÍCULAS: Ninguna Higuera & Guadalupe Romero",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Ninguna Higuera y Guadalupe Calzada se encuentran en una fecha atravesada por la canción, la composición y las distintas vertientes de la música popular uruguaya y latinoamericana. Dos universos que parten de la palabra y la búsqueda autoral para construir paisajes sonoros propios. Ninguna Higuera…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021755/particulas-ninguna-higuera-guadalupe-calzada",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/particulas-ninguna-higuera-guadalupe-romero/"
     }
    ],
    "imagen_url": null,
@@ -1623,57 +1790,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18240",
-   "url": "https://beneficios.ladiaria.com.uy/particulas-ninguna-higuera-guadalupe-calzada/",
-   "titulo": "Partículas: Ninguna Higuera + Guadalupe Calzada",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
-   "lugar": {
-    "nombre": "Sala Verdí",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021755/particulas-ninguna-higuera-guadalupe-calzada",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/particulas-ninguna-higuera-guadalupe-calzada/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/ng/espectaculo/40021755/particulas-ninguna-higuera-guadalupe-calzada"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18228",
    "url": "https://beneficios.ladiaria.com.uy/hasta-aca-llego-mi-amor-2/",
    "titulo": "Hasta acá llego mi amor",
@@ -1905,52 +2021,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Un-lugar-al-que-volver/33592/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18207",
-   "url": "https://beneficios.ladiaria.com.uy/estanislao-bachrach/",
-   "titulo": "Estanislao Bachrach",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "ESTANISLAO BACHRACH , el autor best seller de “Ágilmente” y “En el limbo”, presenta su nueva charla. Un viaje al interior de nuestro cuerpo para comprender qué son las emociones, cómo aparecen, qué las dispara y cómo afectan nuestro cuerpo y nuestra mente. Comparte los últimos descubrimientos de la…",
-   "lugar": {
-    "nombre": "Teatro El Galpón | Sala Campodónico",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 1830.0,
-    "hasta": 1830.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/ESTANISLAO-BACHRACH--Sala-Campodonico/33826/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/estanislao-bachrach/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/ESTANISLAO-BACHRACH--Sala-Campodonico/33826/"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -2872,15 +2942,7 @@
     "lon": null,
     "barrio": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 690.0,
     "hasta": 690.0,
@@ -3401,7 +3463,7 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-13T00:00:00-03:00",
+     "inicio": "2026-11-27T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,

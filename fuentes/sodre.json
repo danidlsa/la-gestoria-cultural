@@ -1,6 +1,6 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-11T23:23:46.953826-03:00",
+ "corrida": "2026-11-12T11:38:53.959056-03:00",
  "ok": true,
  "cantidad": 41,
  "errores": [],
@@ -1078,6 +1078,27 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T21:00:00-03:00",
+     "fin": "2026-11-19T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T21:00:00-03:00",
+     "fin": "2026-11-20T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": "2026-11-21T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": null,
@@ -1254,6 +1275,13 @@
     {
      "inicio": "2026-11-13T20:55:00-03:00",
      "fin": "2026-11-13T22:55:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T20:50:00-03:00",
+     "fin": "2026-11-20T22:50:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -1479,6 +1507,20 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T17:00:00-03:00",
+     "fin": "2026-11-20T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T20:50:00-03:00",
+     "fin": "2026-11-22T22:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": null,
@@ -1529,6 +1571,27 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T19:00:00-03:00",
+     "fin": "2026-11-19T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T19:00:00-03:00",
+     "fin": "2026-11-20T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T19:00:00-03:00",
+     "fin": "2026-11-21T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": null,
@@ -1544,49 +1607,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021956/dios-es-una-palabra"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13732",
-   "url": "https://sodre.gub.uy/espectaculos/festival-de-fado-2026/",
-   "titulo": "Festival de Fado 2026",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Embajada de Portugal en Montevideo. Camões – Instituto da Cooperação e da Língua, I.P.",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T19:00:00-03:00",
-     "fin": "2026-11-11T21:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/alta-demanda/40021858/conferencia-la-calle-y-el-fado",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-57-768x307.png",
-   "productor": "Espectáculos del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/alta-demanda/40021858/conferencia-la-calle-y-el-fado"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -1917,6 +1937,49 @@
    "enlaces": [
     "https://tickantel.com.uy/inicio/buscar?0&texto=Cuadros%20tangueros"
    ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13784",
+   "url": "https://sodre.gub.uy/espectaculos/la-hija-condor/",
+   "titulo": "La hija cóndor",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T17:00:00-03:00",
+     "fin": "2026-11-19T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T17:00:00-03:00",
+     "fin": "2026-11-21T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-60-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,

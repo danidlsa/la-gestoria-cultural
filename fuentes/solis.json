@@ -1,8 +1,8 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-11T23:26:53.049822-03:00",
+ "corrida": "2026-11-12T11:42:14.216162-03:00",
  "ok": true,
- "cantidad": 25,
+ "cantidad": 23,
  "errores": [],
  "eventos": [
   {
@@ -809,49 +809,6 @@
   },
   {
    "fuente": "solis",
-   "id_externo": "2951",
-   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Sombras-por-supuesto-uc2951",
-   "titulo": "Sombras, por supuesto",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Zavala Muniz",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021230/espectaculo/Sombras%20por%20supuesto?3",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/6963.png",
-   "productor": "Teatro Solís",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40021230/espectaculo/Sombras%20por%20supuesto?3"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "solis",
    "id_externo": "2946",
    "url": "https://www.teatrosolis.org.uy/PROGRAMACION/El-Teatro-uc2946",
    "titulo": "El Teatro",
@@ -1065,49 +1022,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/inicio/espectaculo/40020236/espectaculo/Tablao%20Flamenco%20-%20Noviembre?3"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "solis",
-   "id_externo": "2897",
-   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Canto-del-cisne-uc2897",
-   "titulo": "Canto del cisne",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40020117/espectaculo/Canto%20del%20Cisne?10",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202602/W756_H530/6524.jpg",
-   "productor": "Teatro Solís",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40020117/espectaculo/Canto%20del%20Cisne?10"
    ],
    "ciclo": null,
    "etiquetas": [],

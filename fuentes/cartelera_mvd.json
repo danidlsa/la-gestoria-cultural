@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-11T23:25:11.709454-03:00",
+ "corrida": "2026-11-12T11:40:15.227426-03:00",
  "ok": true,
- "cantidad": 99,
+ "cantidad": 97,
  "errores": [],
  "eventos": [
   {
@@ -848,13 +848,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-11T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T21:00:00-03:00",
      "fin": null,
@@ -2047,52 +2040,6 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/39493.jpg",
    "productor": "Mario Esteban N.",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34950",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34950",
-   "titulo": "El búnker de la comedia",
-   "categoria": "humor",
-   "categoria_segura": true,
-   "descripcion_corta": "Un show de stand up de dos comediantes con mucha experiencia cómo Germán Bernárdez y Mati Morales, dirigido y producido por Ernesto Muniz. Un espectáculo que trata de representar al género de Stand up desde su origen más puro y genuino. Función: miércoles 11 de noviembre 20:00 horas - Teatrón (Av…",
-   "lugar": {
-    "nombre": "Teatrón",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 550.0,
-    "hasta": 550.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34950",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42294.jpg",
-   "productor": "Ernesto Muniz",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -4325,13 +4272,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-11T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-18T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -4550,13 +4490,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-11T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T20:00:00-03:00",
      "fin": null,
@@ -5981,58 +5914,6 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41961.jpg",
    "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34689",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34689",
-   "titulo": "Sombras, por supuesto",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Sombras, por supuesto marca el esperado reencuentro del grupo El Silencio, integrado por algunos de los artistas más destacados del teatro argentino actual. Diez años después de su último trabajo conjunto, vuelven a reunirse bajo la dirección y dramaturgia de Romina Paula para construir una obra…",
-   "lugar": {
-    "nombre": "Sala Zavala Muniz - Teatro Solís",
-    "direccion": "\"Rectangular1\"",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 2000.0,
-    "hasta": 2000.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34689",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "OCA",
-     "tipo": "Financian: Oca, Visa y Master",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34689"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41975.jpg",
-   "productor": "Romina Paula",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

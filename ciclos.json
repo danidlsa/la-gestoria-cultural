@@ -1,39 +1,7 @@
 {
- "generado": "2026-11-11T23:32:41.991170-03:00",
- "cantidad": 24,
+ "generado": "2026-11-12T11:48:34.480864-03:00",
+ "cantidad": 25,
  "ciclos": [
-  {
-   "id": "ciclo-ciclo-de-cine-accesible-2026",
-   "titulo": "Ciclo de Cine Accesible 2026",
-   "lugar_id": null,
-   "desde": "2026-11-11T19:00:00-03:00",
-   "hasta": "2026-11-14T19:30:00-03:00",
-   "cantidad": 4
-  },
-  {
-   "id": "ciclo-encuentro-de-murga-joven-2026",
-   "titulo": "Encuentro de Murga Joven 2026",
-   "lugar_id": "centro-cultural-las-duranas",
-   "desde": "2026-11-11T20:00:00-03:00",
-   "hasta": "2026-11-16T20:00:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-primavera-tango",
-   "titulo": "Primavera Tango",
-   "lugar_id": null,
-   "desde": "2026-11-11T20:30:00-03:00",
-   "hasta": "2026-11-22T20:00:00-03:00",
-   "cantidad": 5
-  },
-  {
-   "id": "ciclo-the-shannon",
-   "titulo": "The Shannon",
-   "lugar_id": "the-shannon-irish-pub",
-   "desde": "2026-11-11T22:00:00-03:00",
-   "hasta": "2026-11-28T00:00:00-03:00",
-   "cantidad": 11
-  },
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
@@ -49,6 +17,22 @@
    "desde": "2026-11-12T17:00:00-03:00",
    "hasta": "2026-11-17T19:20:00-03:00",
    "cantidad": 7
+  },
+  {
+   "id": "ciclo-ciclo-de-cine-accesible-2026",
+   "titulo": "Ciclo de Cine Accesible 2026",
+   "lugar_id": null,
+   "desde": "2026-11-12T19:00:00-03:00",
+   "hasta": "2026-11-14T19:30:00-03:00",
+   "cantidad": 3
+  },
+  {
+   "id": "ciclo-encuentro-de-murga-joven-2026",
+   "titulo": "Encuentro de Murga Joven 2026",
+   "lugar_id": "centro-cultural-las-duranas",
+   "desde": "2026-11-12T20:00:00-03:00",
+   "hasta": "2026-11-16T20:00:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-ciclo-de-teatro",
@@ -67,12 +51,20 @@
    "cantidad": 4
   },
   {
+   "id": "ciclo-the-shannon",
+   "titulo": "The Shannon",
+   "lugar_id": "the-shannon-irish-pub",
+   "desde": "2026-11-12T22:00:00-03:00",
+   "hasta": "2026-11-28T00:00:00-03:00",
+   "cantidad": 10
+  },
+  {
    "id": "ciclo-la-noche-de-las-librerias-2026",
    "titulo": "La Noche de las Librerías 2026",
    "lugar_id": null,
    "desde": "2026-11-13T09:00:00-03:00",
    "hasta": "2026-11-14T00:30:00-03:00",
-   "cantidad": 145
+   "cantidad": 132
   },
   {
    "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
@@ -97,6 +89,14 @@
    "desde": "2026-11-14T16:00:00-03:00",
    "hasta": "2026-11-14T16:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-primavera-tango",
+   "titulo": "Primavera Tango",
+   "lugar_id": null,
+   "desde": "2026-11-14T20:30:00-03:00",
+   "hasta": "2026-11-22T20:00:00-03:00",
+   "cantidad": 4
   },
   {
    "id": "ciclo-ciclo-marea",
@@ -139,12 +139,20 @@
    "cantidad": 2
   },
   {
+   "id": "ciclo-cordon-beer",
+   "titulo": "Cordón Beer",
+   "lugar_id": "cordon-beer",
+   "desde": "2026-11-21T18:00:00-03:00",
+   "hasta": "2026-12-24T12:00:00-03:00",
+   "cantidad": 2
+  },
+  {
    "id": "ciclo-candlelight",
    "titulo": "Candlelight",
    "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
    "desde": "2026-11-21T21:30:00-03:00",
    "hasta": "2026-12-27T16:30:00-03:00",
-   "cantidad": 2
+   "cantidad": 3
   },
   {
    "id": "ciclo-tmc",

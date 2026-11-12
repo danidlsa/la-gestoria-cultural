@@ -1,8 +1,8 @@
 {
  "fuente": "galpon",
- "corrida": "2026-11-11T23:27:08.824505-03:00",
+ "corrida": "2026-11-12T11:42:29.784892-03:00",
  "ok": true,
- "cantidad": 24,
+ "cantidad": 23,
  "errores": [],
  "eventos": [
   {
@@ -333,54 +333,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Adicto-Sala-Atahualpa/33962/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
-   "id_externo": "codigo-cero",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/codigo-cero/",
-   "titulo": "Código Cero",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "La propuesta lleva la potencia de la calle al escenario, reinterpretando la memoria de las danzas sociales como el Hip Hop y el Dance hall.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/CODIGO-CERO-Sala-Atahualpa/33895/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/10/redtickets-web2.jpg.jpeg",
-   "productor": "Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/CODIGO-CERO-Sala-Atahualpa/33895/"
    ],
    "ciclo": null,
    "etiquetas": [],

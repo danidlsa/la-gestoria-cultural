@@ -1,9 +1,11 @@
 {
  "fuente": "mapas_especiales",
- "corrida": "2026-11-11T23:31:35.684646-03:00",
+ "corrida": "2026-11-12T11:46:52.769357-03:00",
  "ok": true,
- "cantidad": 145,
- "errores": [],
+ "cantidad": 132,
+ "errores": [
+  "noche-de-las-librerias: Escenario musical: sin actividades con hora"
+ ],
  "eventos": [
   {
    "fuente": "mapas_especiales",
@@ -1360,586 +1362,12 @@
   },
   {
    "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2000-lucrecia-martel-presenta-un-destino-comu",
+   "id_externo": "noche-de-las-librerias-2026-escaramuza-1900-en-la-calle-feria-de-libros-tienda-de-vi",
    "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Lucrecia Martel presenta Un destino común",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": "Encuentro sobre universos sonoros y dispositivos narrativos para imaginar futuros colectivos. Participan Lucrecia Martel y Natalia Ortiz Maldonado (entrevista).",
-   "lugar": {
-    "nombre": "Escaramuza",
-    "direccion": "Dr. Pablo de María 1185",
-    "lat": null,
-    "lon": null,
-    "barrio": "Cordón"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-     "via": "mapas_especiales"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "La Noche de las Librerías 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2000-una-ciudad-fracturada",
-   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Una ciudad fracturada",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": "Reimaginar Montevideo. Conversación sobre alquileres, transporte público y vecindad. Participan Fernando Filgueira, Víctor Borrás Ramos, Anabel Rieiro y Sebastián Aguiar.",
-   "lugar": {
-    "nombre": "Escaramuza",
-    "direccion": "Dr. Pablo de María 1185",
-    "lat": null,
-    "lon": null,
-    "barrio": "Cordón"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-     "via": "mapas_especiales"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "La Noche de las Librerías 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2100-fernando-cabrera-y-su-dulzura-distante",
-   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Fernando Cabrera y su dulzura distante",
+   "titulo": "En la calle Feria de libros / Tienda de vinilos Discomoda + La Mesa de los Discos - Dj…",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Presentación musical con guitarra y voz a cargo de Fernando Cabrera.",
-   "lugar": {
-    "nombre": "Escaramuza",
-    "direccion": "Dr. Pablo de María 1185",
-    "lat": null,
-    "lon": null,
-    "barrio": "Cordón"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-     "via": "mapas_especiales"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "La Noche de las Librerías 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2100-fragmentos-sin-lugar-metapaisajes",
-   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Fragmentos sin lugar, metapaisajes",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": "Cruce de voces e imágenes. Participan Lourdes Silva y Leo Giráldez.",
-   "lugar": {
-    "nombre": "Escaramuza",
-    "direccion": "Dr. Pablo de María 1185",
-    "lat": null,
-    "lon": null,
-    "barrio": "Cordón"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-     "via": "mapas_especiales"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "La Noche de las Librerías 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2100-guadalupe-nettel",
-   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Guadalupe Nettel",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": "La belleza del monstruo. Entrevista en tres partes.",
-   "lugar": {
-    "nombre": "Escaramuza",
-    "direccion": "Dr. Pablo de María 1185",
-    "lat": null,
-    "lon": null,
-    "barrio": "Cordón"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-     "via": "mapas_especiales"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "La Noche de las Librerías 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2130-cruzar-el-umbral",
-   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Cruzar el umbral",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": "Reminiscencias y fantasías en el limbo. Conversación con Salomé Esper, Leticia Jorge y Gonzalo Deniz (Franny Glass). Modera Laura Amaya.",
-   "lugar": {
-    "nombre": "Escaramuza",
-    "direccion": "Dr. Pablo de María 1185",
-    "lat": null,
-    "lon": null,
-    "barrio": "Cordón"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-     "via": "mapas_especiales"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "La Noche de las Librerías 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2200-guadalupe-nettel",
-   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Guadalupe Nettel",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": "La belleza del monstruo. Entrevista en tres partes con Guadalupe Nettel, Noelia Carrancio, Soledad Gago y Tania de Tomas.",
-   "lugar": {
-    "nombre": "Escaramuza",
-    "direccion": "Dr. Pablo de María 1185",
-    "lat": null,
-    "lon": null,
-    "barrio": "Cordón"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-     "via": "mapas_especiales"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "La Noche de las Librerías 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2200-alejandro-zambra-en-primera-persona",
-   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Alejandro Zambra en primera persona",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": "Jugar, garabatear, escribir. Entrevista al escritor.",
-   "lugar": {
-    "nombre": "Escaramuza",
-    "direccion": "Dr. Pablo de María 1185",
-    "lat": null,
-    "lon": null,
-    "barrio": "Cordón"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-     "via": "mapas_especiales"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "La Noche de las Librerías 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2230-performatica-de-lina-meruane-chile",
-   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Performática de Lina Meruane (Chile)",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": "Coloquio de las quiltras.",
-   "lugar": {
-    "nombre": "Escaramuza",
-    "direccion": "Dr. Pablo de María 1185",
-    "lat": null,
-    "lon": null,
-    "barrio": "Cordón"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T22:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-     "via": "mapas_especiales"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "La Noche de las Librerías 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2230-esto-tambien-es-tarot",
-   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Esto también es tarot",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": "Elisa Carricajo presenta su libro y propone una tirada colectiva de cartas.",
-   "lugar": {
-    "nombre": "Escaramuza",
-    "direccion": "Dr. Pablo de María 1185",
-    "lat": null,
-    "lon": null,
-    "barrio": "Cordón"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T22:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-     "via": "mapas_especiales"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "La Noche de las Librerías 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2300-esto-tambien-es-tarot",
-   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Esto también es tarot",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": "Elisa Carricajo presenta su libro y propone una tirada colectiva de cartas. Participan Elisa Carricajo, Federica Folco y Mercedes Dellatorre.",
-   "lugar": {
-    "nombre": "Escaramuza",
-    "direccion": "Dr. Pablo de María 1185",
-    "lat": null,
-    "lon": null,
-    "barrio": "Cordón"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T23:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-     "via": "mapas_especiales"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "La Noche de las Librerías 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2300-martin-buscaglia-junto-a-sus-bochamakers",
-   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Martín Buscaglia junto a sus Bochamakers",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Presentación musical con Martín Buscaglia, Martín Ibarburu, Coby Acosta, Juana Buscaglia, Facundo Guiondjian y Tomás Nieves.",
-   "lugar": {
-    "nombre": "Escaramuza",
-    "direccion": "Dr. Pablo de María 1185",
-    "lat": null,
-    "lon": null,
-    "barrio": "Cordón"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T23:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-     "via": "mapas_especiales"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "La Noche de las Librerías 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-2330-boni",
-   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Boni",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": "Avant-première musical. Presentación musical con Emiliano Aquino, Diego Pollovero, Agustina Canavesi, Álvaro Cardoso y Nicolás Grieco.",
-   "lugar": {
-    "nombre": "Escaramuza",
-    "direccion": "Dr. Pablo de María 1185",
-    "lat": null,
-    "lon": null,
-    "barrio": "Cordón"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T23:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-     "via": "mapas_especiales"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "La Noche de las Librerías 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-0000-karibe-con-k",
-   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Karibe con K",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Presentación musical.",
-   "lugar": {
-    "nombre": "Escaramuza",
-    "direccion": "Dr. Pablo de María 1185",
-    "lat": null,
-    "lon": null,
-    "barrio": "Cordón"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-     "via": "mapas_especiales"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "La Noche de las Librerías 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mapas_especiales",
-   "id_externo": "noche-de-las-librerias-2026-escaramuza-1900-feria-de-libros-y-vinilos-dj-set-de-lbr-",
-   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
-   "titulo": "Feria de libros y vinilos, DJ set de LBR y propuestas gastronómicas",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Participan Discomoda y La Mesa de los Discos.",
+   "descripcion_corta": "En la calle Feria de libros / Tienda de vinilos Discomoda + La Mesa de los Discos - Dj set LBR / Gastronomía. 20:00 h | Lucrecia Martel (Argentina) presenta «Un destino común». Universos sonoros y dispositivos narrativos para la invención de futuros colectivos. Entrevista a cargo de Natalia Ortiz Maldonado. 21:00 | Fernando Cabrera y su dulzura distante. Nos acompaña en la noche con su guitarra y…",
    "lugar": {
     "nombre": "Escaramuza",
     "direccion": "Dr. Pablo de María 1185",
@@ -5928,6 +5356,47 @@
     {
      "inicio": "2026-11-13T20:00:00-03:00",
      "fin": "2026-11-13T23:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+     "via": "mapas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "La Noche de las Librerías 2026",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mapas_especiales",
+   "id_externo": "noche-de-las-librerias-2026-cine-al-aire-libre-1900-20-00-h-cine-al-aire-libre",
+   "url": "https://eventos.montevideo.gub.uy/nochelibrerias",
+   "titulo": "20:00 h Cine al aire libre",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Proyección de Rada, la película, dirigida por Luis Ara. Duración: 70 minutos. Entrada libre.",
+   "lugar": {
+    "nombre": "Cine al aire libre",
+    "direccion": "Tristán Narvaja entre Mercedes y Uruguay",
+    "lat": -34.9003335,
+    "lon": -56.1785561,
+    "barrio": "Cordón"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-14T01:00:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false

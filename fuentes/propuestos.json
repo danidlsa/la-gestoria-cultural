@@ -1,8 +1,8 @@
 {
  "fuente": "propuestos",
- "corrida": "2026-11-11T23:31:22.871322-03:00",
+ "corrida": "2026-11-12T11:46:41.992576-03:00",
  "ok": true,
- "cantidad": 11,
+ "cantidad": 10,
  "errores": [],
  "eventos": [
   {
@@ -43,52 +43,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/7b000b178cd3.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "propuestos",
-   "id_externo": "d1830022b217",
-   "url": "https://www.instagram.com/p/DfkIzzvFjeL/",
-   "titulo": "La caja negra - Cine AccesibleUy",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "La caja negra En 1969, un hombre identificado como David Chavarriaga desvía un avión colombiano hacia Cuba. Con el tiempo, será reconocido como el escritor Daniel Chavarría. Décadas después, Elisa Barbosa Riva reconstruye sus huellas y recuerdos en una investigación sobre las aventuras de una vida…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Avenida General Flores esquina Domingo Aramburú",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfkIzzvFjeL/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/d1830022b217.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

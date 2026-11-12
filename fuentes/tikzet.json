@@ -1,8 +1,8 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-11T23:31:35.980497-03:00",
+ "corrida": "2026-11-12T11:46:53.046888-03:00",
  "ok": true,
- "cantidad": 15,
+ "cantidad": 16,
  "errores": [],
  "eventos": [
   {
@@ -421,6 +421,52 @@
   },
   {
    "fuente": "tikzet",
+   "id_externo": "a766a550-a019-4abf-9e7a-99fe9d1ecc45",
+   "url": "https://www.tikzet.com/events/paranormales-veneno-en-vivo",
+   "titulo": "Paranormales: Veneno en vivo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Veneno Presenta: Paranormales: Una noche para asustar.",
+   "lugar": {
+    "nombre": "Caos Records",
+    "direccion": "Gutenberg 6485, Barrio Lezica",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": "2026-11-13T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 150.0,
+    "hasta": 150.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/paranormales-veneno-en-vivo",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Ffb3db284-9c02-4359-be62-fdf4ee88d425.original",
+   "productor": "Caos Records",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
    "id_externo": "a410902f-b1fe-463e-a7e5-2aca8af8ba89",
    "url": "https://www.tikzet.com/events/gota-serena-54b7",
    "titulo": "Gota Serena",
@@ -467,43 +513,43 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "a766a550-a019-4abf-9e7a-99fe9d1ecc45",
-   "url": "https://www.tikzet.com/events/paranormales-veneno-en-vivo",
-   "titulo": "Paranormales: Veneno en vivo",
+   "id_externo": "68bfb10e-f938-4a19-a28e-85476eac3e17",
+   "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
+   "titulo": "Alhelíes + Tengo un amigo que anda",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Veneno Presenta: Paranormales: Una noche para asustar.",
+   "descripcion_corta": "Alhelíes y tengo un amigo que anda bien pa’ los audiovisuales por primera vez compartiendo fecha. Dos bandas con una fuerte impronta paisajística y experimental, otra noche en los recovecos de la noche Montevideana. *Este show es con mi público con sillas y las mesas son compartidas",
    "lugar": {
-    "nombre": "Caos Records",
-    "direccion": "Gutenberg 6485, Barrio Lezica",
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
     "lat": null,
     "lon": null,
     "barrio": null
    },
    "funciones": [
     {
-     "inicio": "2026-11-13T19:00:00-03:00",
-     "fin": "2026-11-13T23:00:00-03:00",
+     "inicio": "2026-11-19T21:00:00-03:00",
+     "fin": "2026-11-19T23:59:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 150.0,
-    "hasta": 150.0,
+    "desde": 300.0,
+    "hasta": 300.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/paranormales-veneno-en-vivo",
+     "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Ffb3db284-9c02-4359-be62-fdf4ee88d425.original",
-   "productor": "Caos Records",
+   "imagen_url": "https://cdn.tikzet.com/images%2F59aae68e-c969-4698-8ee6-4a992d6dab33.original",
+   "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

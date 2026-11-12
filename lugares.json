@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-11T23:32:41.991170-03:00",
+ "generado": "2026-11-12T11:48:34.480864-03:00",
  "cantidad": 240,
  "lugares": [
   {
@@ -565,6 +565,16 @@
    "lat": -34.908593,
    "lon": -56.188195,
    "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "cine-al-aire-libre",
+   "nombre": "Cine al aire libre",
+   "alias": [],
+   "direccion": "Tristán Narvaja entre Mercedes y Uruguay",
+   "lat": -34.9003335,
+   "lon": -56.1785561,
+   "barrio": "Cordón",
    "ciudad": "Montevideo"
   },
   {
@@ -1176,12 +1186,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu",
-   "nombre": "LATU",
+   "id": "latu-laboratorio-tecnologico-del-uruguay",
+   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
    "alias": [
-    "LATU - Laboratorio Tecnológico del Uruguay"
+    "LATU"
    ],
-   "direccion": "Carrasco, Montevideo",
+   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1255,16 +1265,6 @@
    "lat": -34.9070447,
    "lon": -56.2013156,
    "barrio": "Ciudad Vieja",
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "la-ronda",
-   "nombre": "La Ronda",
-   "alias": [],
-   "direccion": "Ciudadela 1182",
-   "lat": -34.9096038,
-   "lon": -56.2000503,
-   "barrio": null,
    "ciudad": "Montevideo"
   },
   {

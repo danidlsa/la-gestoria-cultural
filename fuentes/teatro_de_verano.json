@@ -1,56 +1,10 @@
 {
  "fuente": "teatro_de_verano",
- "corrida": "2026-11-11T23:27:00.632666-03:00",
+ "corrida": "2026-11-12T11:42:22.307505-03:00",
  "ok": true,
- "cantidad": 10,
+ "cantidad": 9,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "teatro_de_verano",
-   "id_externo": "136-etapa-2",
-   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
-   "titulo": "Prueba de Admisión - Carnaval 2027 · Etapa 2: Manda la Vuelta, Fantoches, Sorda de un Oído, La Pandilla, Araca la Cana",
-   "categoria": "carnaval",
-   "categoria_segura": true,
-   "descripcion_corta": "Etapa 2: Manda la Vuelta (murga), Fantoches (humoristas), Sorda de un Oído (murga), La Pandilla (parodistas) y Araca la Cana (murga). Entrada libre, hasta agotar localidades, con la entrega de un alimento no perecedero.",
-   "lugar": {
-    "nombre": "Teatro de Verano Ramón Collazo",
-    "direccion": "Rambla Wilson s/n, Parque Rodó",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
-     "via": "teatro_de_verano"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/613.jpg",
-   "productor": "Teatro de Verano",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "teatro_de_verano",
    "id_externo": "136-etapa-3",

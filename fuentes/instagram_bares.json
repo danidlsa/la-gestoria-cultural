@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-11T23:32:00.435411-03:00",
+ "corrida": "2026-11-12T11:47:16.274295-03:00",
  "ok": true,
- "cantidad": 35,
+ "cantidad": 34,
  "errores": [],
  "eventos": [
   {
@@ -220,102 +220,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3c58327bdcc1.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "barlarondacafe-20261111",
-   "url": "https://www.instagram.com/p/Dfa_6kstPzC/",
-   "titulo": "La Ronda: Noches De Ensayos Abiertos · Lali Gaspari",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Este miércoles en Noches De Ensayos Abiertos Lali Gaspari Música y compositora, su propuesta artística nace de la composición en piano, donde conviven la estructura de la canción y la búsqueda de texturas contemporáneas. En su trabajo, las piezas de corte pop dialogan con pasajes instrumentales, a…",
-   "lugar": {
-    "nombre": "La Ronda",
-    "direccion": "Ciudadela 1182",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfa_6kstPzC/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3e819dcf5ab0.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261111",
-   "url": "https://www.instagram.com/p/DfnNgADKU0J/",
-   "titulo": "The Shannon: OPEN MIC",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Miércoles 11/Noviembre: OPEN MIC NIGHT - 4ta temporada Bienvenidos al primer Open Mic de Uruguay. Participa, compartí tu arte. Entrada libre 22 hrs",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfnNgADKU0J/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/92ecccfa8351.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -588,6 +492,93 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "jardinbotanicodemontevideo-20261114",
+   "url": "https://www.instagram.com/p/DflCVAyj1rU/",
+   "titulo": "Jardín Botánico: De 9 a",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábado 14 de noviembre de 9 a 18 h. Los esperamos para una nueva edición de la feria de plantas del Jardín Botánico. Exposición y venta más de diversos expositores. El evento se suspende por inclemencias climáticas. Organiza: ABOV (Asociación de Amigos del Jardín Botánico y otros espacios verdes)…",
+   "lugar": {
+    "nombre": "Jardín Botánico",
+    "direccion": "Av. 19 de Abril 1181",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T09:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DflCVAyj1rU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6cc4c75f2108.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lamadredelassecond-20261114",
+   "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
+   "titulo": "La Madre de las Second Hand: PLAZA DE LAS PIONERAS",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "SÁBADO 14 – PLAZA DE LAS PIONERAS Más de 150 stands con ropa, calzado, accesorios, libros, juguetes y objetos de segunda mano. ¡Además, food trucks! Av. Agraciada esquina Gral. Fausto Aguilar. De 11 a 18 hs.",
+   "lugar": {
+    "nombre": "Av. Agraciada esquina Gral. Fausto Aguilar",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a3c1133c2fd8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "fama.tours-20261114",
    "url": "https://www.instagram.com/p/DffwBQuK4SF/",
    "titulo": "fama.tours: Oro en los Salones.",
@@ -675,93 +666,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "jardinbotanicodemontevideo-20261114",
-   "url": "https://www.instagram.com/p/DflCVAyj1rU/",
-   "titulo": "Jardín Botánico: De 9 a",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábado 14 de noviembre de 9 a 18 h. Los esperamos para una nueva edición de la feria de plantas del Jardín Botánico. Exposición y venta más de diversos expositores. El evento se suspende por inclemencias climáticas. Organiza: ABOV (Asociación de Amigos del Jardín Botánico y otros espacios verdes)…",
-   "lugar": {
-    "nombre": "Jardín Botánico",
-    "direccion": "Av. 19 de Abril 1181",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DflCVAyj1rU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6cc4c75f2108.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "lamadredelassecond-20261114",
-   "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
-   "titulo": "La Madre de las Second Hand: PLAZA DE LAS PIONERAS",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "SÁBADO 14 – PLAZA DE LAS PIONERAS Más de 150 stands con ropa, calzado, accesorios, libros, juguetes y objetos de segunda mano. ¡Además, food trucks! Av. Agraciada esquina Gral. Fausto Aguilar. De 11 a 18 hs.",
-   "lugar": {
-    "nombre": "Av. Agraciada esquina Gral. Fausto Aguilar",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a3c1133c2fd8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "theshannonuy-20261114",
    "url": "https://www.instagram.com/p/DfnNgADKU0J/",
    "titulo": "The Shannon: MORRIGAN'S",
@@ -825,7 +729,7 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-15T18:00:00-03:00",
+     "inicio": "2026-11-15T11:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -1048,7 +952,7 @@
      "agotada": false
     },
     {
-     "inicio": "2026-11-21T15:00:00-03:00",
+     "inicio": "2026-11-21T10:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -1105,6 +1009,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/dfe7e9b3578a.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "cordonbeer-20261121",
+   "url": "https://www.instagram.com/p/DfnpWaYCyEr/",
+   "titulo": "Cordón Beer: Volvemos a las raíces con una buena joda en Requena y Rodó",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Y SI CORTAMOS LA CALLE CON ENTRADA GRATIS? el sábado 21 volvemos a las raíces con una buena joda en Requena y Rodó. Accesos disponibles a partir del viernes a las 18h Atentxs al las historias!",
+   "lugar": {
+    "nombre": "Cordón Beer",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfnpWaYCyEr/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/78755b424d96.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
