@@ -1,31 +1,7 @@
 {
- "generado": "2026-11-11T15:58:33.839653-03:00",
- "cantidad": 25,
+ "generado": "2026-11-11T23:32:41.991170-03:00",
+ "cantidad": 24,
  "ciclos": [
-  {
-   "id": "ciclo-the-shannon",
-   "titulo": "The Shannon",
-   "lugar_id": "the-shannon-irish-pub",
-   "desde": "2026-11-11T00:00:00-03:00",
-   "hasta": "2026-11-28T00:00:00-03:00",
-   "cantidad": 11
-  },
-  {
-   "id": "ciclo-envejecimiento-activo",
-   "titulo": "Envejecimiento activo",
-   "lugar_id": null,
-   "desde": "2026-11-11T16:00:00-03:00",
-   "hasta": "2026-12-11T16:00:00-03:00",
-   "cantidad": 6
-  },
-  {
-   "id": "ciclo-andrzej-wajda-en-su-centenario",
-   "titulo": "Andrzej Wajda, en su centenario",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-11T17:00:00-03:00",
-   "hasta": "2026-11-17T19:20:00-03:00",
-   "cantidad": 8
-  },
   {
    "id": "ciclo-ciclo-de-cine-accesible-2026",
    "titulo": "Ciclo de Cine Accesible 2026",
@@ -51,12 +27,28 @@
    "cantidad": 5
   },
   {
-   "id": "ciclo-prueba-de-admision-del-carnaval-2027",
-   "titulo": "Prueba de Admisión del Carnaval 2027",
-   "lugar_id": "teatro-de-verano",
-   "desde": "2026-11-11T20:30:00-03:00",
-   "hasta": "2026-11-14T20:30:00-03:00",
-   "cantidad": 1
+   "id": "ciclo-the-shannon",
+   "titulo": "The Shannon",
+   "lugar_id": "the-shannon-irish-pub",
+   "desde": "2026-11-11T22:00:00-03:00",
+   "hasta": "2026-11-28T00:00:00-03:00",
+   "cantidad": 11
+  },
+  {
+   "id": "ciclo-envejecimiento-activo",
+   "titulo": "Envejecimiento activo",
+   "lugar_id": null,
+   "desde": "2026-11-12T10:00:00-03:00",
+   "hasta": "2026-12-11T16:00:00-03:00",
+   "cantidad": 6
+  },
+  {
+   "id": "ciclo-andrzej-wajda-en-su-centenario",
+   "titulo": "Andrzej Wajda, en su centenario",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-12T17:00:00-03:00",
+   "hasta": "2026-11-17T19:20:00-03:00",
+   "cantidad": 7
   },
   {
    "id": "ciclo-ciclo-de-teatro",

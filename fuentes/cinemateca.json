@@ -1,8 +1,8 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-11T15:49:52.642184-03:00",
+ "corrida": "2026-11-11T23:23:54.243606-03:00",
  "ok": true,
- "cantidad": 15,
+ "cantidad": 18,
  "errores": [],
  "eventos": [
   {
@@ -22,8 +22,15 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-11T17:15:00-03:00",
-     "fin": "2026-11-11T19:23:00-03:00",
+     "inicio": "2026-11-14T15:30:00-03:00",
+     "fin": "2026-11-14T17:38:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T15:30:00-03:00",
+     "fin": "2026-11-15T17:38:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -99,8 +106,15 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-11T17:30:00-03:00",
-     "fin": "2026-11-11T19:19:00-03:00",
+     "inicio": "2026-11-14T15:35:00-03:00",
+     "fin": "2026-11-14T17:24:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T15:35:00-03:00",
+     "fin": "2026-11-15T17:24:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -175,13 +189,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-11T19:30:00-03:00",
-     "fin": "2026-11-11T21:04:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T17:10:00-03:00",
      "fin": "2026-11-12T18:44:00-03:00",
@@ -287,13 +294,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-11T19:45:00-03:00",
-     "fin": "2026-11-11T21:18:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T21:20:00-03:00",
      "fin": "2026-11-12T22:53:00-03:00",
@@ -406,13 +406,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-11T20:00:00-03:00",
-     "fin": "2026-11-11T21:20:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-11T21:25:00-03:00",
      "fin": "2026-11-11T22:45:00-03:00",
@@ -615,6 +608,48 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-12T17:20:00-03:00",
+     "fin": "2026-11-12T19:05:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T17:30:00-03:00",
+     "fin": "2026-11-13T19:15:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T18:00:00-03:00",
+     "fin": "2026-11-14T19:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T18:00:00-03:00",
+     "fin": "2026-11-15T19:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T17:20:00-03:00",
+     "fin": "2026-11-16T19:05:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T17:20:00-03:00",
+     "fin": "2026-11-17T19:05:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -672,12 +707,12 @@
   },
   {
    "fuente": "cinemateca",
-   "id_externo": "1594",
-   "url": "https://cinemateca.org.uy/peliculas/1594",
-   "titulo": "El hombre de mármol",
+   "id_externo": "9678",
+   "url": "https://cinemateca.org.uy/peliculas/9678",
+   "titulo": "Caballo salvaje nueve",
    "categoria": "cine",
    "categoria_segura": true,
-   "descripcion_corta": "De Andrzej Wajda. Ascenso, caída y olvido de un “héroe del trabajo” en tiempos del stalinismo, evocado por una cineasta en ciernes que enfrenta sus propios problemas. Un lúcido examen social e histórico que también le creó problemas a Wajda con la burocracia de turno. Ascenso, caída y olvido de un…",
+   "descripcion_corta": "De Martin McDonagh. Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris (John Malkovich) y Lee (Sam Rockwell) son enviados desde Santiago a la Isla de Pascua por su jefe de oficina, MJ (Steve Buscemi). Entre las emblemáticas estatuas de la isla, y mientras los veteranos…",
    "lugar": {
     "nombre": "Cinemateca",
     "direccion": "Bartolomé Mitre 1236",
@@ -687,8 +722,43 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-11T17:00:00-03:00",
-     "fin": "2026-11-11T19:40:00-03:00",
+     "inicio": "2026-11-12T19:05:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T20:05:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T19:05:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T19:05:00-03:00",
+     "fin": null,
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -702,7 +772,7 @@
    },
    "entradas": [
     {
-     "url": "https://cinemateca.org.uy/peliculas/1594",
+     "url": "https://cinemateca.org.uy/peliculas/9678",
      "via": "cinemateca"
     }
    ],
@@ -738,11 +808,11 @@
      "url": "https://cinemateca.org.uy/"
     }
    ],
-   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/El-hombre-de-marmol-1.jpg",
+   "imagen_url": "https://escribiendocine-s3.cdn.net.ar/s3i233/2026/09/escribiendocine/images/02/75/51/2755112_088bccb53f8fd44c7bbf7accded8b9679f0739b33863ac5d391d3cba9dd26650/lg.webp",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario",
+   "ciclo": null,
    "etiquetas": [],
    "muestra": false,
    "hasta": null
@@ -910,6 +980,83 @@
   },
   {
    "fuente": "cinemateca",
+   "id_externo": "3512",
+   "url": "https://cinemateca.org.uy/peliculas/3512",
+   "titulo": "Almudena",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Azucena Rodríguez. Con sus propias palabras, a lo largo de los años, Almudena Grandes cuenta su manera de ver el mundo, de entender la vida y la escritura. Pero Almudena ya no está. El anhelo de esta película es mantener viva su memoria, celebrar su vida y su obra, sin olvidar el doloroso vacío…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:30:00-03:00",
+     "fin": "2026-11-13T20:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/3512",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/ALMUDENA_STILL_06.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
    "id_externo": "9667",
    "url": "https://cinemateca.org.uy/peliculas/9667",
    "titulo": "Las señoritas de Wilko",
@@ -988,6 +1135,167 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Andrzej Wajda, en su centenario",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9676",
+   "url": "https://cinemateca.org.uy/peliculas/9676",
+   "titulo": "Wildwood: El bosque salvaje",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Travis Knight. Cuando el hermanito de Prue McKeel es raptado por una bandada de cuervos, se verá obligada a emprender una desesperada misión de rescate. Acompañada por su torpe pero leal compañero de clase Curtis Mehlberg, Prue se adentra en un mundo de animales parlantes, bandidos y poderosos…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T15:40:00-03:00",
+     "fin": "2026-11-14T17:52:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T15:40:00-03:00",
+     "fin": "2026-11-15T17:52:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9676",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://www.pagina12.com.ar/resizer/v2/L6JQDTUNWRDJRKYNQF42OBAJDI.jpeg?quality=75&amp;auth=059664f3a26e1f41ee77b96cb0ca0a6e54681de658d9c4d139b46122ca5407db&amp;width=1556",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "618",
+   "url": "https://cinemateca.org.uy/peliculas/618",
+   "titulo": "25 watts 25 años",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Juan Pablo Rebella, Pablo Stoll. La historia del cine uruguayo fue harto precaria en el siglo XX y ha adquirido una mayor densidad en el siglo XXI, cuando por ahí dijeron, con Godard a la cabeza que el cine había muerto. Ya habían pasado cosas importantes en Uruguay antes del 2001, por cierto…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:05:00-03:00",
+     "fin": "2026-11-14T21:39:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/618",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/25_watts.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
    "etiquetas": [],
    "muestra": false,
    "hasta": null

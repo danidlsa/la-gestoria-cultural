@@ -1,8 +1,8 @@
 {
  "fuente": "propuestos",
- "corrida": "2026-11-11T15:57:12.114811-03:00",
+ "corrida": "2026-11-11T23:31:22.871322-03:00",
  "ok": true,
- "cantidad": 9,
+ "cantidad": 11,
  "errores": [],
  "eventos": [
   {
@@ -411,6 +411,93 @@
    ],
    "beneficios": [],
    "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "propuestos",
+   "id_externo": "2d3d01322539",
+   "url": "https://Instagram.com/latemeraria",
+   "titulo": "Ecos en el monte y Fer Henry en vivo en La Temeraria",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Noche folk-rock en La Temeraria junto a Jona Smith y Fer Henry cancionistas de guitarras, librerta y birome que compartiran su música sobre el salon de la casa que les recibe y con invitación libre para tode aquel que quiera acompañar. . Sábado 14 de noviembre. 20hrs. ,La Temeraria . Jona Smith es…",
+   "lugar": {
+    "nombre": "La Temeraria",
+    "direccion": "Juan Paullier 1046",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://Instagram.com/latemeraria",
+     "via": "propuestos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/2d3d01322539.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "propuestos",
+   "id_externo": "0aa81e53cbbc",
+   "url": "https://www.instagram.com/p/DfS_oEKJO5C/?xtok=MTZpeWIwZ3cybjR4dA==",
+   "titulo": "Jesús Percutor y La Banda Oriental",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Música en vivo en el Mítico Punto Rojo Jesús Percutor y el Duo Lima Piedra, canciones inéditas La Banda Oriental, canciones uruguayas",
+   "lugar": {
+    "nombre": "Punto Rojo",
+    "direccion": "Avenida Gral Rivera 2078 esq Salterain",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 150.0,
+    "hasta": 150.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfS_oEKJO5C/?xtok=MTZpeWIwZ3cybjR4dA==",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/0aa81e53cbbc.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

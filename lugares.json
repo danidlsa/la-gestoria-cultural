@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-11T15:58:33.839653-03:00",
- "cantidad": 243,
+ "generado": "2026-11-11T23:32:41.991170-03:00",
+ "cantidad": 240,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -374,16 +374,6 @@
    "direccion": "Canelones 2150",
    "lat": -34.9071895,
    "lon": -56.168825,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "carmelo-1478",
-   "nombre": "Carmelo 1478",
-   "alias": [],
-   "direccion": "Carmelo 1478, 11700 Montevideo, Departam",
-   "lat": -34.863715,
-   "lon": -56.189107,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1116,16 +1106,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "impulsus",
-   "nombre": "Impulsus",
-   "alias": [],
-   "direccion": "Maldonado 1994, 11200 Montevideo, Depart",
-   "lat": -34.908449,
-   "lon": -56.17213,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "indoorclub-1983",
    "nombre": "Indoorclub 1983",
    "alias": [],
@@ -1290,10 +1270,22 @@
   {
    "id": "la-taberna-de-brecha",
    "nombre": "La Taberna de Brecha",
-   "alias": [],
+   "alias": [
+    "Taberna de Brecha"
+   ],
    "direccion": "Durazno y Jackson",
    "lat": -34.909634,
    "lon": -56.172902,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "la-temeraria",
+   "nombre": "La Temeraria",
+   "alias": [],
+   "direccion": "Juan Paullier 1046",
+   "lat": -34.9093059,
+   "lon": -56.1671268,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1545,16 +1537,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "mbc-ombu",
-   "nombre": "MBC Ombú",
-   "alias": [],
-   "direccion": "Bv. España 2614, 11300 Montevideo, Depar",
-   "lat": -34.913063,
-   "lon": -56.157456,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "magnolio-sala",
    "nombre": "Magnolio Sala",
    "alias": [],
@@ -1643,26 +1625,6 @@
    "direccion": "Av. Dámaso A. Larrañaga 3195, 11600 Mont",
    "lat": -34.880615,
    "lon": -56.15275,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "museo-figari",
-   "nombre": "Museo Figari",
-   "alias": [],
-   "direccion": "Juan Carlos Gómez 1427",
-   "lat": -34.9056221,
-   "lon": -56.2035786,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "museo-figari-juan-c-gomez-1427",
-   "nombre": "Museo Figari. Juan C. Gómez 1427",
-   "alias": [],
-   "direccion": "Montevideo",
-   "lat": -34.9058916,
-   "lon": -56.1913095,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1884,6 +1846,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "pocitos-dance-danzas-arabes-al-sharq-expat-belly-dance-santiago-vazquez-1147",
+   "nombre": "Pocitos Dance Danzas Arabes Al Sharq Expat Belly Dance - Santiago Vázquez 1147",
+   "alias": [],
+   "direccion": "Santiago Vázquez 1147 - entre Av. Brasil y José Martí.",
+   "lat": -34.90953,
+   "lon": -56.152046,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "pocitos-libros",
    "nombre": "Pocitos Libros",
    "alias": [],
@@ -1900,6 +1872,16 @@
    "direccion": "Agraciada 2463",
    "lat": -34.8868372,
    "lon": -56.1913446,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "punto-rojo",
+   "nombre": "Punto Rojo",
+   "alias": [],
+   "direccion": "Avenida Gral Rivera 2078 esq Salterain",
+   "lat": -34.9023205,
+   "lon": -56.1708504,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2014,9 +1996,9 @@
    "id": "rural-del-prado",
    "nombre": "Rural del Prado",
    "alias": [],
-   "direccion": "Av. Lucas Obes 1010, 11700 Montevideo, D",
-   "lat": -34.863049,
-   "lon": -56.203285,
+   "direccion": null,
+   "lat": -34.8612106,
+   "lon": -56.2030031,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2111,18 +2093,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "sala-teatro-movie",
-   "nombre": "Sala Teatro Movie",
-   "alias": [
-    "Teatro Movie"
-   ],
-   "direccion": "\"Rectangular1\"",
-   "lat": -34.903471,
-   "lon": -56.136638,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "sala-valle-inclan",
    "nombre": "Sala Valle Inclán",
    "alias": [
@@ -2163,9 +2133,9 @@
     "Sala del Museo del Carnaval",
     "Museo del Carnaval"
    ],
-   "direccion": "of Maciel, Maciel 218, 11000 Montevideo,",
-   "lat": -34.905789,
-   "lon": -56.212222,
+   "direccion": "Sala del Museo del Carnaval",
+   "lat": -34.905874,
+   "lon": -56.212285,
    "barrio": null,
    "ciudad": "Montevideo"
   },
