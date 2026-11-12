@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-12T11:47:16.274295-03:00",
+ "corrida": "2026-11-12T16:11:13.131858-03:00",
  "ok": true,
- "cantidad": 34,
+ "cantidad": 53,
  "errores": [],
  "eventos": [
   {
@@ -131,6 +131,107 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261104",
+   "url": "https://www.instagram.com/p/DfVV0jpGAf0/",
+   "titulo": "Centro Cultural de España: Llega una nueva Noche de las Librerías al CCE",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Llega una nueva Noche de las Librerías al CCE! Este viernes 13 de noviembre celebramos la décima edición de la Noche de las Librerías, una iniciativa que nació en el Centro Cultural de España y que hoy continúa creciendo como una gran fiesta de los libros y la lectura. Te invitamos a compartir una…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfVV0jpGAf0/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/97cb960f4c2b.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "facmvd-20261107",
+   "url": "https://www.instagram.com/p/De_5SnwlghR/",
+   "titulo": "FAC: 2.ª edición del TALLER DE SEMIÓTICA",
+   "categoria": "humor",
+   "categoria_segura": false,
+   "descripcion_corta": "2.ª edición del TALLER DE SEMIÓTICA Para leer más que palabras Un espacio para reflexionar sobre el arte contemporáneo y su universo, tanto si formás parte de él como si lo mirás desde afuera. A cargo de Claudia Mera. SÁBADOS DE NOVIEMBRE De 11 a 13 h Modalidad presencial o virtual Cupos limitados…",
+   "lugar": {
+    "nombre": "FAC - Fundación de Arte Contemporáneo",
+    "direccion": "Av. Sarmiento 2244",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/De_5SnwlghR/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8b41c3bdd72f.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "sansuena_cafevivero-20261108",
    "url": "https://www.instagram.com/p/DffynDHiEgp/",
    "titulo": "UN TRIBUTO AL DARNO LLEGA A SANSUEÑA",
@@ -167,6 +268,61 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/408822156a53.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "facmvd-20261109",
+   "url": "https://www.instagram.com/p/DeO8rNoym_C/",
+   "titulo": "FAC: Laboratorio de escritura",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "NUEVA EDICIÓN! Laboratorio de escritura a cargo de terepuppo , para explorar otras maneras de mirar, recordar, narrar y construir sentido. Un taller orientado al desarrollo de la escritura creativa mediante ejercicios de experimentación y exploración de diversas formas narrativas. Propone un…",
+   "lugar": {
+    "nombre": "FAC - Fundación de Arte Contemporáneo",
+    "direccion": "Av. Sarmiento 2244",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DeO8rNoym_C/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2ccc7f82fd46.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -227,6 +383,98 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261111",
+   "url": "https://www.instagram.com/p/DfiNaf8mFgg/",
+   "titulo": "Centro Cultural de España: Beethoven 199",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Beethoven 199! Se acerca el bicentenario de la muerte de Ludwig van Beethoven y lo conmemoramos con un ciclo de conciertos de música de cámara que reúne a jóvenes talentos de nuestro país junto a destacados artistas. Una oportunidad para disfrutar en vivo de algunas de las grandes obras del…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfiNaf8mFgg/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/db13f0afa4cb.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "subtemvd-20261112",
+   "url": "https://www.instagram.com/p/Dew-yEBFE8S/",
+   "titulo": "Centro de Exposiciones Subte: EPISODIO 3: LA SUBTERADORA.",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "EPISODIO 3: LA SUBTERADORA. Un aparato para cosechar comunitas de Ana Laura López de la Torre y Niklaus Strobel INAUGURACIÓN Jueves 12 de noviembre de 2026 - 19:00 h Entrada libre y gratuita La Subteradora es un aparato multipropósito, un archipiélago de funciones conectadas y puestas al servicio…",
+   "lugar": {
+    "nombre": "Centro de Exposiciones Subte",
+    "direccion": "Plaza Fabini",
+    "lat": -34.90563,
+    "lon": -56.19423,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dew-yEBFE8S/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5845b36b8a62.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -352,6 +600,52 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a361573dcf33.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261113",
+   "url": "https://www.instagram.com/p/DfSx0BmGNHf/",
+   "titulo": "Centro Cultural de España: A mover las cachas! 2026",
+   "categoria": "humor",
+   "categoria_segura": false,
+   "descripcion_corta": "¡A mover las cachas! 2026 ¡Vuelve el ciclo donde el ritmo y el baile son protagonistas! Y esta vez, con Goro Gocher como primer invitado. El viernes 13 de noviembre, Goro Gocher, junto a Muñe en teclados y Luispa Goggia en guitarras y bajos, llega al CCE para compartir canciones de su último álbum…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfSx0BmGNHf/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b3d4246d3b1f.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -492,6 +786,47 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "molinodeperez-20261114",
+   "url": "https://www.instagram.com/p/Dfn0YGlOkA2/",
+   "titulo": "Molino de Pérez: El circo llega al Molino",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "¡El circo llega al Molino! En el mes de los Derechos de las Infancias, nos encontramos para compartir una tarde de juegos, alegría y circo en el Molino de Pérez. Nos visita Circo Lumiere, con una propuesta llena de personajes, acrobacias, malabares y sorpresas para disfrutar en comunidad. 14:30 a…",
+   "lugar": {
+    "nombre": "Molino de Pérez",
+    "direccion": "Pasaje Arq. Juan Veltroni",
+    "lat": -34.8941793,
+    "lon": -56.0905563,
+    "barrio": "Malvín"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfn0YGlOkA2/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b4f939c3ddc5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "jardinbotanicodemontevideo-20261114",
    "url": "https://www.instagram.com/p/DflCVAyj1rU/",
    "titulo": "Jardín Botánico: De 9 a",
@@ -620,6 +955,52 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261114",
+   "url": "https://www.instagram.com/p/DfZ55fyIFNi/",
+   "titulo": "Centro Cultural de España: ¿Y si un recuerdo se convirtiera en una historieta?",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "¿Y si un recuerdo se convirtiera en una historieta? En este taller de historieta autobiográfica vamos a partir de recuerdos personales para transformarlos en pequeñas historias de ficción. A través del dibujo y las palabras, exploraremos el fuera de campo, el paso del tiempo y las posibilidades…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T15:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfZ55fyIFNi/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/bfdccf1f5f66.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "fenixbaruy-20261114",
    "url": "https://www.instagram.com/p/Dfk7fcrGqfB/",
    "titulo": "Fénix Bar: La esquina de fiesta",
@@ -656,6 +1037,100 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d2bf1cf701c3.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "feeldeagua-20261114",
+   "url": "https://www.instagram.com/p/DfnVqM_AHJF/",
+   "titulo": "feel de agua: Alo alo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Buenooo falta poco se viene una tarde de mucha música, bebida, amistad y cosas lindas Este Sabado 14 de Noviembre de 16 a 22 hs Plaza ex Terminal Goes centroculturalterminalgoes Acuérdense del efectivo para la feria, ya avisamos Seguimos con las bandas que tocarannn Mux es un sexteto uruguayo, que…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfnVqM_AHJF/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6f44783e925b.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "feriadearteimpresomvd-20261114",
+   "url": "https://www.instagram.com/p/DfX_zpToyzs/",
+   "titulo": "Microutopiaspress ps_montevideo (UY) participa de la FERIA DE ARTE IMPRESO DE…",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "microutopiaspress ps_montevideo (UY) participa de la FERIA DE ARTE IMPRESO DE MONTEVIDEO 2026 — Montevideo Art Book Fair — 13 (17-22h), 14 y 15 NOVIEMBRE, 14-20h MuMi – Muralla Abierta (Piedras y Bartolomé Mitre) Entrada libre y gratuita feriadearteimpresomvd Publicaciones gráficas, libros de…",
+   "lugar": {
+    "nombre": "MuMI - Muralla Abierta",
+    "direccion": "Bartolomé Mitre 1550",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfX_zpToyzs/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/fa87c22d9821.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -755,6 +1230,180 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "feriadearteimpresomvd-20261115",
+   "url": "https://www.instagram.com/p/DfksfFZI0Pz/",
+   "titulo": "microutopías: Al igual que an os pasados junto a lxs expositorxs participantes tendremos una mesa…",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Al igual que an os pasados junto a lxs expositorxs participantes tendremos una mesa colectiva para que ma s proyectos puedan sumarse libremente y mostrar sus trabajos. Funcionara autogestionada por las propias personas interesadas que asistan cada día, hasta completar el espacio disponible. Corran…",
+   "lugar": {
+    "nombre": "MuMI - Muralla Abierta",
+    "direccion": "Bartolomé Mitre 1550",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfksfFZI0Pz/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b0d3814477a8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "fotocluburuguayo-20261115",
+   "url": "https://www.instagram.com/p/Dfe0XyukaW5/",
+   "titulo": "Foto Club Uruguayo: Se viene otra Feria Fotográfica de Primavera",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Se viene otra Feria Fotográfica de Primavera! El domingo 15 de noviembre, de 14 a 20 h, te esperamos en La Cretina con una gran variedad de propuestas vinculadas a la fotografía y las artes visuales. Fotografías, grabados, cianotipias, libros, postales, totes, fondos pintados, guías de naturaleza…",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfe0XyukaW5/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/68d44878ca0f.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261116",
+   "url": "https://www.instagram.com/p/DfmsJ7PIIEv/",
+   "titulo": "Centro Cultural de España: Mujeres de Cine",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Mujeres de Cine | La furia En el marco del Día Internacional de la Eliminación de la Violencia contra la Mujer, proyectamos La furia, de Gemma Blasco, una película cruda y necesaria que aborda las consecuencias de una violación y las distintas formas de transitar el dolor, la culpa, el silencio y…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-16T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfmsJ7PIIEv/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ea5059c0927b.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261117",
+   "url": "https://www.instagram.com/p/DfiDMgDGDk4/",
+   "titulo": "Centro Cultural de España: ¿Cómo trabajamos el consentimiento en el entorno digital?",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "¿Cómo trabajamos el consentimiento en el entorno digital? Te invitamos a participar de Consentir y Conectar, un taller vivencial para experimentar los Juegos de ConSentimiento y explorar, a través de herramientas lúdicas, cómo las emociones, los vínculos y nuestras prácticas cotidianas atraviesan…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-17T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfiDMgDGDk4/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2457675337e8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "theshannonuy-20261118",
    "url": "https://www.instagram.com/p/DfUjlSARymU/",
    "titulo": "The Shannon: OPEN MIC",
@@ -793,6 +1442,47 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "museomumi-20261118",
+   "url": "https://www.instagram.com/p/Dfkh99Vphrg/",
+   "titulo": "MuMI: Inauguración de \"La sal en las paredes\"",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "INAUGURACIÓN EXPOSITIVA \"La sal en las paredes\" Miércoles 18, 19h Bartolomé Mitre 1550 esq. Piedras La sal en las paredes es una exposición colectiva de los artistas Liliana Zapata, Acaymo S. Cuesta, Ricardo Zamora y Francis Naranjo, con curaduría de Eduardo Caballero, presentada en el Museo de la…",
+   "lugar": {
+    "nombre": "MuMI - Muralla Abierta",
+    "direccion": "Bartolomé Mitre 1550",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfkh99Vphrg/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ed517e5ba392.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1021,6 +1711,52 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261121",
+   "url": "https://www.instagram.com/p/DfmxU10IOrh/",
+   "titulo": "Centro Cultural de España: Trazar una ruta lectora y dejar lugar a lo inesperado",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Trazar una ruta lectora y dejar lugar a lo inesperado ¿Cómo crear recorridos lectores que despierten el interés, estimulen la participación y mantengan vivo el deseo de compartir lecturas? En este taller del ciclo Lecturas en red, exploraremos herramientas y estrategias para dinamizar clubes y…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfmxU10IOrh/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1085dfeadda8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "cordonbeer-20261121",
    "url": "https://www.instagram.com/p/DfnpWaYCyEr/",
    "titulo": "Cordón Beer: Volvemos a las raíces con una buena joda en Requena y Rodó",
@@ -1107,6 +1843,59 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261123",
+   "url": "https://www.instagram.com/p/DfpYoOZFg-v/",
+   "titulo": "Centro Cultural de España: Alerta rosa",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Una tarde para descubrir los sonidos y las tradiciones musicales de la península ibérica. Te invitamos a participar en un taller a cargo de Violeta Diez (ES), donde nos acercaremos al folklore ibérico a través de sus melodías, ritmos e instrumentos tradicionales. Durante el encuentro construiremos…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-23T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfpYoOZFg-v/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b6245c64b9f8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1234,6 +2023,52 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261127",
+   "url": "https://www.instagram.com/p/DfnEZWNGHn8/",
+   "titulo": "Centro Cultural de España: A mover las cachas! Llega La Ventolera al CCE",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "¡A mover las cachas! Llega La Ventolera al CCE ¡Que suenen los tambores, las trompetas y los saxos! Con doce años de trayectoria ininterrumpida, La Ventolera es una orquesta marchante que recupera los orígenes del candombe y los reinterpreta con una mirada fresca y contemporánea. Trompetas…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfnEZWNGHn8/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ee4f034eb33c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1406,6 +2241,52 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "mambapercusion-20261205",
+   "url": "https://www.instagram.com/p/DfniyXLgX1E/",
+   "titulo": "Estamos muy felices de contarles que se viene la fiesta de fin de año de Mamba a la…",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "Estamos muy felices de contarles que se viene la fiesta de fin de año de Mamba a la Calle de Noche con invitadas de lujo El 5 de diciembre nos encontramos en el lugar de siempre para despedir el año como más nos gusta: ¡con música, baile mucho Mamba y acceso gratuito! La primera tanda de accesos ya…",
+   "lugar": {
+    "nombre": "Mamba",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfniyXLgX1E/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/986198210831.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },

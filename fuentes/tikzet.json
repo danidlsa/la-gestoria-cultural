@@ -1,8 +1,8 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-12T11:46:53.046888-03:00",
+ "corrida": "2026-11-12T16:10:48.672648-03:00",
  "ok": true,
- "cantidad": 16,
+ "cantidad": 17,
  "errores": [],
  "eventos": [
   {
@@ -99,52 +99,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "1db887ab-4ff8-42ca-b3e8-7560a922f2a4",
-   "url": "https://www.tikzet.com/events/lucia-caballero-ano-nuevo",
-   "titulo": "Lucía Caballero \"Año Nuevo\"",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Lucía Caballero presenta junto a su banda, su primer disco solista: Año Nuevo. Una colección de 10 canciones que recorren distintos momentos emocionales, revelando una identidad oscilante entre la ternura naíf y la oscuridad fantasiosa. Abre la noche Sofía Siola, con sus canciones magnéticas ✨ Será…",
-   "lugar": {
-    "nombre": "El Chamuyo",
-    "direccion": "25 de mayo 591",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": "2026-11-28T02:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/lucia-caballero-ano-nuevo",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F89903bf7-02f6-4d6f-8086-3d2d42817b1b.original",
-   "productor": "El Chamuyo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "f0fb3315-42ef-489a-a4f1-6ad404ca7387",
    "url": "https://www.tikzet.com/events/homenaje-a-gilberto-gil",
    "titulo": "Homenaje a Gilberto Gil",
@@ -182,6 +136,52 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fce6c44a1-277e-45cc-90d5-904a1d5a0868.original",
    "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "1db887ab-4ff8-42ca-b3e8-7560a922f2a4",
+   "url": "https://www.tikzet.com/events/lucia-caballero-ano-nuevo",
+   "titulo": "Lucía Caballero \"Año Nuevo\"",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Lucía Caballero presenta junto a su banda, su primer disco solista: Año Nuevo. Una colección de 10 canciones que recorren distintos momentos emocionales, revelando una identidad oscilante entre la ternura naíf y la oscuridad fantasiosa. Abre la noche Sofía Siola, con sus canciones magnéticas ✨ Será…",
+   "lugar": {
+    "nombre": "El Chamuyo",
+    "direccion": "25 de mayo 591",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": "2026-11-28T02:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/lucia-caballero-ano-nuevo",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F89903bf7-02f6-4d6f-8086-3d2d42817b1b.original",
+   "productor": "El Chamuyo",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -283,52 +283,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
-   "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
-   "titulo": "Javier Zubillaga De Vivo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Javier Zubillaga despide el año con un show íntimo dedicado a su repertorio humorístico, con canciones de sus dos trabajos discográficos y varios temas inéditos.",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": "2026-11-27T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "fa34481c-ba2c-453c-827a-3f3257cfdbef",
    "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
    "titulo": "Jengibre y Lipe Gómez",
@@ -365,6 +319,52 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F6316ecda-2c01-4beb-9961-e1d8b47f94a1.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
+   "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
+   "titulo": "Javier Zubillaga De Vivo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Javier Zubillaga despide el año con un show íntimo dedicado a su repertorio humorístico, con canciones de sus dos trabajos discográficos y varios temas inéditos.",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": "2026-11-27T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -513,43 +513,43 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "68bfb10e-f938-4a19-a28e-85476eac3e17",
-   "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
-   "titulo": "Alhelíes + Tengo un amigo que anda",
-   "categoria": "musica",
+   "id_externo": "dbdedcc5-b5d5-472c-929a-32947d6cd1ee",
+   "url": "https://www.tikzet.com/events/mamba-club",
+   "titulo": "MAMBA CLUB",
+   "categoria": "fiesta",
    "categoria_segura": false,
-   "descripcion_corta": "Alhelíes y tengo un amigo que anda bien pa’ los audiovisuales por primera vez compartiendo fecha. Dos bandas con una fuerte impronta paisajística y experimental, otra noche en los recovecos de la noche Montevideana. *Este show es con mi público con sillas y las mesas son compartidas",
+   "descripcion_corta": null,
    "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
+    "nombre": "MAMBA CLUB",
+    "direccion": "Avenida Uruguay 1136",
     "lat": null,
     "lon": null,
     "barrio": null
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T21:00:00-03:00",
-     "fin": "2026-11-19T23:59:00-03:00",
+     "inicio": "2026-11-13T23:50:00-03:00",
+     "fin": "2026-11-14T06:00:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
+    "desde": 250.0,
+    "hasta": 250.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
+     "url": "https://www.tikzet.com/events/mamba-club",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F59aae68e-c969-4698-8ee6-4a992d6dab33.original",
-   "productor": "El Hormiguero",
+   "imagen_url": "https://cdn.tikzet.com/images%2Ff82269df-a85f-438e-a65d-60210c04ea17.original",
+   "productor": "MAMBA CLUB",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -605,52 +605,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "dbdedcc5-b5d5-472c-929a-32947d6cd1ee",
-   "url": "https://www.tikzet.com/events/mamba-club",
-   "titulo": "MAMBA CLUB",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "MAMBA CLUB",
-    "direccion": "Avenida Uruguay 1136",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T23:50:00-03:00",
-     "fin": "2026-11-14T06:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 250.0,
-    "hasta": 250.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/mamba-club",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Ff82269df-a85f-438e-a65d-60210c04ea17.original",
-   "productor": "MAMBA CLUB",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "151dec2c-5b9f-40fa-90e9-dcc4b69fa97c",
    "url": "https://www.tikzet.com/events/noche-flamenca-ice",
    "titulo": "NOCHE FLAMENCA ICE",
@@ -697,6 +651,52 @@
   },
   {
    "fuente": "tikzet",
+   "id_externo": "68bfb10e-f938-4a19-a28e-85476eac3e17",
+   "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
+   "titulo": "Alhelíes + Tengo un amigo que anda",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Alhelíes y tengo un amigo que anda bien pa’ los audiovisuales por primera vez compartiendo fecha. Dos bandas con una fuerte impronta paisajística y experimental, otra noche en los recovecos de la noche Montevideana. *Este show es con mi público con sillas y las mesas son compartidas",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T21:00:00-03:00",
+     "fin": "2026-11-19T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F59aae68e-c969-4698-8ee6-4a992d6dab33.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
    "id_externo": "a33a93fb-def1-4438-afc8-3d99e4de2138",
    "url": "https://www.tikzet.com/events/craig-carri-cuarteto",
    "titulo": "Craig Carri Cuarteto",
@@ -734,6 +734,52 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F1964316e-fa61-403c-b44a-0e9baa902d42.original",
    "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
+   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+   "titulo": "Narciso en Montevideo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
+   "lugar": {
+    "nombre": "Piffa",
+    "direccion": "Convención 1101",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-26T21:00:00-03:00",
+     "fin": "2026-12-26T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
+   "productor": "Piffa",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

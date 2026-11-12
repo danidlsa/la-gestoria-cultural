@@ -1,6 +1,6 @@
 {
  "fuente": "redtickets",
- "corrida": "2026-11-12T11:31:12.255010-03:00",
+ "corrida": "2026-11-12T16:01:55.684270-03:00",
  "ok": true,
  "cantidad": 440,
  "errores": [],
@@ -1757,52 +1757,6 @@
    ],
    "imagen_url": "https://files.redtickets.uy/imagenes/8d3c9ff4-466f-4e45-a80d-e7432e832cc2_Event_34061.jpg",
    "productor": "Sala Del Museo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
-   "id_externo": "34497",
-   "url": "https://www.redtickets.uy/evento/JUECES-DE-MARMOL--Tributo-a-PAPPO-Arg/34497/",
-   "titulo": "JUECES DE MARMOL - Tributo a PAPPO (Arg)",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "JUECES DE MÁRMOL LLEGA POR PRIMERA VEZ A URUGUAY Más de 25 años homenajeando al Carpo. El legado de Pappo cruza el Río de la Plata. Después de más de 25 años recorriendo escenarios y manteniendo viva la música de Pappo Napolitano, JUECES DE MÁRMOL llega por primera vez a Uruguay con uno de los…",
-   "lugar": {
-    "nombre": "Live Era",
-    "direccion": "Uruguay 960, 11200 Montevideo, Departame",
-    "lat": -34.903487,
-    "lon": -56.195803,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 580.0,
-    "hasta": 580.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/JUECES-DE-MARMOL--Tributo-a-PAPPO-Arg/34497/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/9cc875b4-c8de-4c25-91ff-4bfa670f25fe_Event_0.jpg",
-   "productor": "Live Era",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -4108,73 +4062,6 @@
   },
   {
    "fuente": "redtickets",
-   "id_externo": "32869",
-   "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/",
-   "titulo": "Cámara Hamlet",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "CAMARA HAMLET de Marcel Sawchik Monegal Una corporación virtual inicia un proyecto de experimentación que tiene como cometido en una primera instancia la puesta en escena de una versión de la obra Hamlet en formato unipersonal. En ella, un actor será guiado únicamente por una IA antropomórfica…",
-   "lugar": {
-    "nombre": "ESNADE (Escuela Nacional de Declamación)",
-    "direccion": "José Enrique Rodó 1712",
-    "lat": -34.905642,
-    "lon": -56.179245,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
-    },
-    {
-     "programa": "Socios ESNADE",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
-    },
-    {
-     "programa": "Otras promos",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
-    }
-   ],
-   "imagen_url": "https://files.redtickets.uy/imagenes/6743d21a-9c42-46e0-9f38-2ae85332ab86_Event_32869.jpg",
-   "productor": "Miriam Pelegrinetti",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
    "id_externo": "33260",
    "url": "https://www.redtickets.uy/evento/Contarte-el-mundo/33260/",
    "titulo": "Contarte el mundo",
@@ -4776,6 +4663,73 @@
    "beneficios": [],
    "imagen_url": "https://files.redtickets.uy/imagenes/8ca4b20c-0d2d-49e7-9b2b-2debed992b7e_Event_34733.jpg",
    "productor": "Sala Rondeau",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
+   "id_externo": "32869",
+   "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/",
+   "titulo": "Cámara Hamlet",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "CAMARA HAMLET de Marcel Sawchik Monegal Una corporación virtual inicia un proyecto de experimentación que tiene como cometido en una primera instancia la puesta en escena de una versión de la obra Hamlet en formato unipersonal. En ella, un actor será guiado únicamente por una IA antropomórfica…",
+   "lugar": {
+    "nombre": "ESNADE (Escuela Nacional de Declamación)",
+    "direccion": "José Enrique Rodó 1712",
+    "lat": -34.905642,
+    "lon": -56.179245,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "2x1",
+     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
+    },
+    {
+     "programa": "Socios ESNADE",
+     "tipo": "2x1",
+     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
+    },
+    {
+     "programa": "Otras promos",
+     "tipo": "2x1",
+     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
+    }
+   ],
+   "imagen_url": "https://files.redtickets.uy/imagenes/6743d21a-9c42-46e0-9f38-2ae85332ab86_Event_32869.jpg",
+   "productor": "Miriam Pelegrinetti",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -8065,6 +8019,52 @@
   },
   {
    "fuente": "redtickets",
+   "id_externo": "34688",
+   "url": "https://www.redtickets.uy/evento/ZARAMAY-EN-VIVO/34688/",
+   "titulo": "ZARAMAY EN VIVO",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "GHETTO URBAN CLUB Live Show Exclusivo : Zaramay Una noche donde se cruzan la música urbana, el arte y una atmósfera distinta. 📍 The Cube 🕒 Open doors 23:00 Por reserva de Mesas VIP comunicar por Whatsapp 097-438373 -Evento exclusivo para mayores de 18 años. -Estricto derecho de admisión y…",
+   "lugar": {
+    "nombre": "Plaza Independencia",
+    "direccion": "Pl. Independencia, Montevideo, Departame",
+    "lat": -34.907017,
+    "lon": -56.199716,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T23:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 200.0,
+    "hasta": 575.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/ZARAMAY-EN-VIVO/34688/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/8e87c245-044b-4c78-9822-94191fc3e0bb_Event_34688.jpg",
+   "productor": "The Cube",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
    "id_externo": "34797",
    "url": "https://www.redtickets.uy/evento/LA-CASA-DEL-PERREO-VOL-2/34797/",
    "titulo": "LA CASA DEL PERREO VOL. 2",
@@ -8246,52 +8246,6 @@
    "beneficios": [],
    "imagen_url": "https://files.redtickets.uy/imagenes/e61ee0a8-2920-458b-a870-6948b98d433f_Event_34872.jpg",
    "productor": "FARRA",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
-   "id_externo": "34688",
-   "url": "https://www.redtickets.uy/evento/ZARAMAY-EN-VIVO/34688/",
-   "titulo": "ZARAMAY EN VIVO",
-   "categoria": "fiesta",
-   "categoria_segura": true,
-   "descripcion_corta": "GHETTO URBAN CLUB Live Show Exclusivo : Zaramay Una noche donde se cruzan la música urbana, el arte y una atmósfera distinta. 📍 The Cube 🕒 Open doors 23:00 Por reserva de Mesas VIP comunicar por Whatsapp 097-438373 -Evento exclusivo para mayores de 18 años. -Estricto derecho de admisión y…",
-   "lugar": {
-    "nombre": "Plaza Independencia",
-    "direccion": "Pl. Independencia, Montevideo, Departame",
-    "lat": -34.907017,
-    "lon": -56.199716,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T23:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 200.0,
-    "hasta": 575.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/ZARAMAY-EN-VIVO/34688/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/8e87c245-044b-4c78-9822-94191fc3e0bb_Event_34688.jpg",
-   "productor": "The Cube",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -10280,52 +10234,6 @@
    "beneficios": [],
    "imagen_url": "https://files.redtickets.uy/imagenes/d5c276a9-1063-4a83-a680-1020e0c26ad8_Event_33980.jpg",
    "productor": "Teatro Metro",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
-   "id_externo": "34144",
-   "url": "https://www.redtickets.uy/evento/GRANDES-DE-VERDAD-PASEN-Y-VEAN/34144/",
-   "titulo": "GRANDES DE VERDAD: PASEN Y VEAN",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "GRANDES DE VERDAD, ES UN PROGRAMA DE RADIO QUE LLEVA EL SHOW AL ESPACIO ZORRILLA",
-   "lugar": {
-    "nombre": "Espacio Zorrilla",
-    "direccion": "Cerrito 475",
-    "lat": -34.904859,
-    "lon": -56.206546,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": {
-    "desde": 330.0,
-    "hasta": 330.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/GRANDES-DE-VERDAD-PASEN-Y-VEAN/34144/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/4744f38b-3a6e-4071-85b6-ba1f4e26f862_Event_34144.jpg",
-   "productor": "Espacio Zorrilla",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -14708,6 +14616,52 @@
   },
   {
    "fuente": "redtickets",
+   "id_externo": "34144",
+   "url": "https://www.redtickets.uy/evento/GRANDES-DE-VERDAD-PASEN-Y-VEAN/34144/",
+   "titulo": "GRANDES DE VERDAD: PASEN Y VEAN",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "GRANDES DE VERDAD, ES UN PROGRAMA DE RADIO QUE LLEVA EL SHOW AL ESPACIO ZORRILLA",
+   "lugar": {
+    "nombre": "Espacio Zorrilla",
+    "direccion": "Cerrito 475",
+    "lat": -34.904859,
+    "lon": -56.206546,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    }
+   ],
+   "precio": {
+    "desde": 330.0,
+    "hasta": 330.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/GRANDES-DE-VERDAD-PASEN-Y-VEAN/34144/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/4744f38b-3a6e-4071-85b6-ba1f4e26f862_Event_34144.jpg",
+   "productor": "Espacio Zorrilla",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
    "id_externo": "34296",
    "url": "https://www.redtickets.uy/evento/TRIBUTO-A-COLDPLAY--Desde-Argentina-LIGHTPLAY/34296/",
    "titulo": "TRIBUTO A COLDPLAY - Desde Argentina LIGHTPLAY",
@@ -15501,6 +15455,52 @@
   },
   {
    "fuente": "redtickets",
+   "id_externo": "34383",
+   "url": "https://www.redtickets.uy/evento/WannaBus--Transporte-Ida-y-Vuelta--WannaBe-Project-6/34383/",
+   "titulo": "WannaBus | Transporte Ida y Vuelta - WannaBe Project #6",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Opción 1 – Kibón Ubicación: Rambla Presidente Charles de Gaulle Horario de subida: 16:00 hs Salida puntual: 16:15 hs Opción 2 – Plaza Virgilio Ubicación: Rambla República de México, junto al restaurante Almar Horario de subida: 16:25 hs Salida puntual: 16:35 hs",
+   "lugar": {
+    "nombre": "Rbla. Pte. Charles De Gaulle 1569",
+    "direccion": "Kibón, Montevideo",
+    "lat": -34.910901,
+    "lon": -56.135397,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/WannaBus--Transporte-Ida-y-Vuelta--WannaBe-Project-6/34383/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/1aef5fa7-6b13-40cc-99ea-65fdbe983a34_Event_34383.jpg",
+   "productor": "Wanna Be Project",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
    "id_externo": "33112",
    "url": "https://www.redtickets.uy/evento/BUITRES/33112/",
    "titulo": "BUITRES",
@@ -15554,52 +15554,6 @@
    ],
    "imagen_url": "https://files.redtickets.uy/imagenes/2956a291-c39f-4976-8c59-e9da51630ce7_Event_33112.jpg",
    "productor": "Sala Del Museo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
-   "id_externo": "34383",
-   "url": "https://www.redtickets.uy/evento/WannaBus--Transporte-Ida-y-Vuelta--WannaBe-Project-6/34383/",
-   "titulo": "WannaBus | Transporte Ida y Vuelta - WannaBe Project #6",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Opción 1 – Kibón Ubicación: Rambla Presidente Charles de Gaulle Horario de subida: 16:00 hs Salida puntual: 16:15 hs Opción 2 – Plaza Virgilio Ubicación: Rambla República de México, junto al restaurante Almar Horario de subida: 16:25 hs Salida puntual: 16:35 hs",
-   "lugar": {
-    "nombre": "Rbla. Pte. Charles De Gaulle 1569",
-    "direccion": "Kibón, Montevideo",
-    "lat": -34.910901,
-    "lon": -56.135397,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/WannaBus--Transporte-Ida-y-Vuelta--WannaBe-Project-6/34383/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/1aef5fa7-6b13-40cc-99ea-65fdbe983a34_Event_34383.jpg",
-   "productor": "Wanna Be Project",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -17016,7 +16970,7 @@
    "titulo": "MUESTRA ANUAL HACIENDO TEATRO",
    "categoria": "teatro",
    "categoria_segura": true,
-   "descripcion_corta": "🎭 HACIENDO TEATRO – MUESTRA FINAL 2026 Llega el cierre de año de los cursos de niños y adolescentes de Haciendo Teatro , un encuentro para compartir con el público todo el trabajo, la creatividad y el recorrido realizado durante este año. En esta muestra final presentaremos dos obras que fueron…",
+   "descripcion_corta": "🎭 HACIENDO TEATRO – MUESTRA ANUAL 2026 Llega el cierre de año de los cursos de niños y adolescentes de Haciendo Teatro , un encuentro para compartir con el público todo el trabajo, la creatividad y el recorrido realizado durante este año. En esta muestra final presentaremos dos obras que fueron…",
    "lugar": {
     "nombre": "Teatro Stella D'Italia. La Gaviota.",
     "direccion": "Mercedes 1805, 11200 Montevideo, Departa",
@@ -17034,8 +16988,8 @@
     }
    ],
    "precio": {
-    "desde": 440.0,
-    "hasta": 440.0,
+    "desde": 400.0,
+    "hasta": 400.0,
     "moneda": "UYU",
     "gratis": false
    },
@@ -17046,7 +17000,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/b6b57ff8-ff6f-47d4-9bb3-0e89591eee27_Event_0.jpg",
+   "imagen_url": "https://files.redtickets.uy/imagenes/7f88c6fe-071e-43a9-9d4e-36968dc55754_Event_34916.jpg",
    "productor": "Tamara Emilia Septier",
    "region": "montevideo",
    "enlaces": [],
@@ -17207,52 +17161,6 @@
   },
   {
    "fuente": "redtickets",
-   "id_externo": "34290",
-   "url": "https://www.redtickets.uy/evento/EL-CRIMEN-DEL-SIGLO/34290/",
-   "titulo": "EL CRIMEN DEL SIGLO",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "El Crimen del Siglo despide el año debutando en el sótano más icónico de Montevideo. Un show especial en formato banda extendida. Artistas invitados por anunciarse.",
-   "lugar": {
-    "nombre": "Inmigrantes MVD",
-    "direccion": "Juan Paullier 1252, 11200 Montevideo, De",
-    "lat": -34.904758,
-    "lon": -56.1676,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-03T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 450.0,
-    "hasta": 450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/EL-CRIMEN-DEL-SIGLO/34290/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/38474916-2968-42a3-81a2-d7706b9282fc_Event_34290.jpg",
-   "productor": "Inmigrantes MVD",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
    "id_externo": "34341",
    "url": "https://www.redtickets.uy/evento/Croupier-Funk--La-maquina-del-Groove-II/34341/",
    "titulo": "Croupier Funk – La máquina del Groove II",
@@ -17305,22 +17213,22 @@
   },
   {
    "fuente": "redtickets",
-   "id_externo": "34779",
-   "url": "https://www.redtickets.uy/evento/Gradu-Santa-Luisa/34779/",
-   "titulo": "Gradu Santa Luisa",
-   "categoria": "fiesta",
+   "id_externo": "34290",
+   "url": "https://www.redtickets.uy/evento/EL-CRIMEN-DEL-SIGLO/34290/",
+   "titulo": "EL CRIMEN DEL SIGLO",
+   "categoria": "musica",
    "categoria_segura": true,
-   "descripcion_corta": "aa",
+   "descripcion_corta": "El Crimen del Siglo despide el año debutando en el sótano más icónico de Montevideo. Un show especial en formato banda extendida. Artistas invitados por anunciarse.",
    "lugar": {
-    "nombre": "Club Fuerza Aérea",
-    "direccion": "Lido 1800, 11500 Montevideo, Departament",
-    "lat": -34.878285,
-    "lon": -56.043716,
+    "nombre": "Inmigrantes MVD",
+    "direccion": "Juan Paullier 1252, 11200 Montevideo, De",
+    "lat": -34.904758,
+    "lon": -56.1676,
     "barrio": null
    },
    "funciones": [
     {
-     "inicio": "2026-12-03T23:59:00-03:00",
+     "inicio": "2026-12-03T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -17328,20 +17236,20 @@
     }
    ],
    "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
+    "desde": 450.0,
+    "hasta": 450.0,
     "moneda": "UYU",
-    "gratis": true
+    "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.redtickets.uy/evento/Gradu-Santa-Luisa/34779/",
+     "url": "https://www.redtickets.uy/evento/EL-CRIMEN-DEL-SIGLO/34290/",
      "via": "redtickets"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/01729b3e-4249-434f-a54a-0cb928b9731b_Event_0.jpg",
-   "productor": "gradusanta26 - highlights",
+   "imagen_url": "https://files.redtickets.uy/imagenes/38474916-2968-42a3-81a2-d7706b9282fc_Event_34290.jpg",
+   "productor": "Inmigrantes MVD",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -17757,6 +17665,52 @@
   },
   {
    "fuente": "redtickets",
+   "id_externo": "13860",
+   "url": "https://www.redtickets.uy/evento/DELGROSSI-POLITICAMENTE-INCORRECTO--2/13860/",
+   "titulo": "“DELGROSSI POLÍTICAMENTE INCORRECTO”  2",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "El espectáculo \"Políticamente Incorrecto 2\" de Diego Delgrossi ha sido renovado este año 2026, tras su éxito anterior. Se centra en explorar la humorística a través de la complejidad política y social actual, mencionando la influencia de lo políticamente correcto en el humor. Delgrossi destaca que…",
+   "lugar": {
+    "nombre": "Vieja Farmacia Solís",
+    "direccion": "Vieja Farmacia Solís, Av. Agraciada 2623",
+    "lat": -34.883707,
+    "lon": -56.194297,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 760.0,
+    "hasta": 760.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/DELGROSSI-POLITICAMENTE-INCORRECTO--2/13860/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/42587928-6141-4ac5-8d0c-1ecdcd48aeb2_Event_13860.jpg",
+   "productor": "VIEJA FARMACIA SOLIS",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
    "id_externo": "29678",
    "url": "https://www.redtickets.uy/evento/Hasta-las-manos--El-nuevo-unipersonal-de-Dario-Orsi/29678/",
    "titulo": "\"Hasta las manos\" - El nuevo unipersonal de Darío Orsi",
@@ -18036,52 +17990,6 @@
    "beneficios": [],
    "imagen_url": "https://files.redtickets.uy/imagenes/816cd64c-a5c4-4c8e-909d-6c2b44051cec_Event_0.jpg",
    "productor": "Joana Loaces",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
-   "id_externo": "13860",
-   "url": "https://www.redtickets.uy/evento/DELGROSSI-POLITICAMENTE-INCORRECTO--2/13860/",
-   "titulo": "“DELGROSSI POLÍTICAMENTE INCORRECTO”  2",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "El espectáculo \"Políticamente Incorrecto 2\" de Diego Delgrossi ha sido renovado este año 2026, tras su éxito anterior. Se centra en explorar la humorística a través de la complejidad política y social actual, mencionando la influencia de lo políticamente correcto en el humor. Delgrossi destaca que…",
-   "lugar": {
-    "nombre": "Vieja Farmacia Solís",
-    "direccion": "Vieja Farmacia Solís, Av. Agraciada 2623",
-    "lat": -34.883707,
-    "lon": -56.194297,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-04T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 760.0,
-    "hasta": 760.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/DELGROSSI-POLITICAMENTE-INCORRECTO--2/13860/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/42587928-6141-4ac5-8d0c-1ecdcd48aeb2_Event_13860.jpg",
-   "productor": "VIEJA FARMACIA SOLIS",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -23238,6 +23146,80 @@
   },
   {
    "fuente": "redtickets",
+   "id_externo": "34938",
+   "url": "https://www.redtickets.uy/evento/EL-UMBRAL-DEL-TERROR-en-el-Castillo-Pittamiglio--20-de-Diciembre/34938/",
+   "titulo": "EL UMBRAL DEL TERROR en el Castillo Pittamiglio - 20 de Diciembre",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "\"El umbral del terror - en el Castillo Pittamiglio\" Cuenta la leyenda que en el Castillo Pittamiglio cuando cae el sol se abre un portal mágico que conecta con el \"Más Allá\" y que aquellos que lo atraviesen podrán interactuar con seres que no son de este mundo. Por eso, queremos invitarte a que…",
+   "lugar": {
+    "nombre": "Castillo Pittamiglio",
+    "direccion": "Rbla. Gandhi 633",
+    "lat": -34.920998,
+    "lon": -56.149856,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-20T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-20T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-20T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-20T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 759.0,
+    "hasta": 759.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/EL-UMBRAL-DEL-TERROR-en-el-Castillo-Pittamiglio--20-de-Diciembre/34938/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/01bc642e-3253-4ef5-b1b0-6c616ec196ec_Event_34938.jpg",
+   "productor": "Museo del Terror - Voces Anónimas",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
    "id_externo": "34651",
    "url": "https://www.redtickets.uy/evento/KNAK--CIERRE-DE-ANO/34651/",
    "titulo": "KNAK - CIERRE DE AÑO",
@@ -23722,6 +23704,52 @@
    ],
    "imagen_url": "https://files.redtickets.uy/imagenes/1b7c18ca-2bbb-4623-a96a-308527280be4_Event_34704.jpg",
    "productor": "Teatro El Galpón",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
+   "id_externo": "34497",
+   "url": "https://www.redtickets.uy/evento/JUECES-DE-MARMOL--Tributo-a-PAPPO-Arg/34497/",
+   "titulo": "JUECES DE MARMOL - Tributo a PAPPO (Arg)",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "JUECES DE MÁRMOL LLEGA POR PRIMERA VEZ A URUGUAY Más de 25 años homenajeando al Carpo. El legado de Pappo cruza el Río de la Plata. Después de más de 25 años recorriendo escenarios y manteniendo viva la música de Pappo Napolitano, JUECES DE MÁRMOL llega por primera vez a Uruguay con uno de los…",
+   "lugar": {
+    "nombre": "Live Era",
+    "direccion": "Uruguay 960, 11200 Montevideo, Departame",
+    "lat": -34.903487,
+    "lon": -56.195803,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-12T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 580.0,
+    "hasta": 580.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/JUECES-DE-MARMOL--Tributo-a-PAPPO-Arg/34497/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/9cc875b4-c8de-4c25-91ff-4bfa670f25fe_Event_0.jpg",
+   "productor": "Live Era",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

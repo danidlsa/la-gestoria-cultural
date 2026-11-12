@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-12T11:48:34.480864-03:00",
- "cantidad": 25,
+ "generado": "2026-11-12T16:12:53.949335-03:00",
+ "cantidad": 27,
  "ciclos": [
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
    "lugar_id": null,
-   "desde": "2026-11-12T10:00:00-03:00",
+   "desde": "2026-11-12T16:00:00-03:00",
    "hasta": "2026-12-11T16:00:00-03:00",
    "cantidad": 6
   },
@@ -17,6 +17,14 @@
    "desde": "2026-11-12T17:00:00-03:00",
    "hasta": "2026-11-17T19:20:00-03:00",
    "cantidad": 7
+  },
+  {
+   "id": "ciclo-fac",
+   "titulo": "FAC",
+   "lugar_id": "fac-fundacion-de-arte-contemporaneo",
+   "desde": "2026-11-12T18:00:00-03:00",
+   "hasta": "2026-11-28T11:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-ciclo-de-cine-accesible-2026",
@@ -81,6 +89,14 @@
    "desde": "2026-11-13T16:30:00-03:00",
    "hasta": "2026-12-11T17:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-centro-cultural-de-espana",
+   "titulo": "Centro Cultural de España",
+   "lugar_id": "centro-cultural-de-espana",
+   "desde": "2026-11-13T18:00:00-03:00",
+   "hasta": "2026-11-27T19:00:00-03:00",
+   "cantidad": 9
   },
   {
    "id": "ciclo-paseo-sur-palermo",

@@ -1,6 +1,6 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-12T11:28:06.832642-03:00",
+ "corrida": "2026-11-12T15:58:50.929543-03:00",
  "ok": true,
  "cantidad": 123,
  "errores": [
@@ -85,6 +85,20 @@
     },
     {
      "inicio": "2026-11-14T19:20:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T20:50:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -560,6 +574,27 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -694,6 +729,20 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -736,6 +785,13 @@
    "funciones": [
     {
      "inicio": "2026-11-13T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T17:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -970,6 +1026,13 @@
    "funciones": [
     {
      "inicio": "2026-11-13T20:55:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T20:50:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -3113,7 +3176,12 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 650.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://tickantel.com.uy/ng/espectaculo/40020667/la-filarmonica-los-planetas",

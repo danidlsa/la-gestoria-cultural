@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-12T11:48:34.480864-03:00",
- "cantidad": 240,
+ "generado": "2026-11-12T16:12:53.949335-03:00",
+ "cantidad": 245,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -498,6 +498,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "centro-cultural-de-espana",
+   "nombre": "Centro Cultural de España",
+   "alias": [],
+   "direccion": "Rincón 629",
+   "lat": -34.905695,
+   "lon": -56.202374,
+   "barrio": "Ciudad Vieja",
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "centro-cultural-del-d",
    "nombre": "Centro Cultural del D",
    "alias": [],
@@ -989,6 +999,16 @@
    "direccion": "Charrúa 1838",
    "lat": -34.9059878,
    "lon": -56.1757494,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "fac-fundacion-de-arte-contemporaneo",
+   "nombre": "FAC - Fundación de Arte Contemporáneo",
+   "alias": [],
+   "direccion": "Av. Sarmiento 2244",
+   "lat": -34.9150652,
+   "lon": -56.1654115,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1527,22 +1547,24 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "mamba-club",
-   "nombre": "MAMBA CLUB",
-   "alias": [],
-   "direccion": "Avenida Uruguay 1136",
-   "lat": -34.9031884,
-   "lon": -56.1919403,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "magnolio-sala",
    "nombre": "Magnolio Sala",
    "alias": [],
    "direccion": "Doctor Pablo de María 1015",
    "lat": -34.91042,
    "lon": -56.170582,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "mamba",
+   "nombre": "Mamba",
+   "alias": [
+    "MAMBA CLUB"
+   ],
+   "direccion": "Avenida Uruguay 1136",
+   "lat": -34.9031884,
+   "lon": -56.1919403,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1607,6 +1629,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "molino-de-perez",
+   "nombre": "Molino de Pérez",
+   "alias": [],
+   "direccion": "Pasaje Arq. Juan Veltroni",
+   "lat": -34.8941793,
+   "lon": -56.0905563,
+   "barrio": "Malvín",
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "montevideo-departamento-de-montevideo",
    "nombre": "Montevideo Departamento de Montevideo",
    "alias": [],
@@ -1626,6 +1658,16 @@
    "lat": -34.880615,
    "lon": -56.15275,
    "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "mumi-muralla-abierta",
+   "nombre": "MuMI - Muralla Abierta",
+   "alias": [],
+   "direccion": "Bartolomé Mitre 1550",
+   "lat": -34.9035307,
+   "lon": -56.2034954,
+   "barrio": "Ciudad Vieja",
    "ciudad": "Montevideo"
   },
   {
@@ -1790,6 +1832,16 @@
    "direccion": "Av. Gral Rivera 3245",
    "lat": -34.902332,
    "lon": -56.144034,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "piffa",
+   "nombre": "Piffa",
+   "alias": [],
+   "direccion": "Convención 1101",
+   "lat": -34.9108255,
+   "lon": -56.1966122,
    "barrio": null,
    "ciudad": "Montevideo"
   },

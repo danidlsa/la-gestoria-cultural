@@ -1,6 +1,6 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-12T11:42:14.216162-03:00",
+ "corrida": "2026-11-12T16:06:17.088141-03:00",
  "ok": true,
  "cantidad": 23,
  "errores": [],
@@ -888,37 +888,44 @@
    },
    "funciones": [
     {
-     "inicio": "2026-12-23T00:00:00-03:00",
+     "inicio": "2026-12-22T20:00:00-03:00",
      "fin": null,
-     "sin_hora": true,
+     "sin_hora": false,
      "sala": "Sala Principal",
      "agotada": false
     },
     {
-     "inicio": "2026-12-26T00:00:00-03:00",
+     "inicio": "2026-12-23T20:00:00-03:00",
      "fin": null,
-     "sin_hora": true,
+     "sin_hora": false,
      "sala": "Sala Principal",
      "agotada": false
     },
     {
-     "inicio": "2026-12-27T00:00:00-03:00",
+     "inicio": "2026-12-26T20:00:00-03:00",
      "fin": null,
-     "sin_hora": true,
+     "sin_hora": false,
      "sala": "Sala Principal",
      "agotada": false
     },
     {
-     "inicio": "2026-12-28T00:00:00-03:00",
+     "inicio": "2026-12-27T20:00:00-03:00",
      "fin": null,
-     "sin_hora": true,
+     "sin_hora": false,
      "sala": "Sala Principal",
      "agotada": false
     },
     {
-     "inicio": "2026-12-29T00:00:00-03:00",
+     "inicio": "2026-12-28T20:00:00-03:00",
      "fin": null,
-     "sin_hora": true,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-29T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
      "sala": "Sala Principal",
      "agotada": false
     }

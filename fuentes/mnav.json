@@ -1,8 +1,8 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-12T11:45:37.347906-03:00",
+ "corrida": "2026-11-12T16:09:31.630699-03:00",
  "ok": true,
- "cantidad": 25,
+ "cantidad": 26,
  "errores": [],
  "eventos": [
   {
@@ -1539,9 +1539,9 @@
   },
   {
    "fuente": "mnav",
-   "id_externo": "kohen2026-el misterio - linda kohen",
+   "id_externo": "kohen2026-linda kohen: el misterio",
    "url": "https://mnav.gub.uy/cms.php?id=kohen2026",
-   "titulo": "El Misterio - Linda Kohen",
+   "titulo": "Linda Kohen: El misterio",
    "categoria": "exposicion",
    "categoria_segura": true,
    "descripcion_corta": null,
@@ -2975,6 +2975,47 @@
    ],
    "beneficios": [],
    "imagen_url": "https://mnav.gub.uy/img.php?p=grpuodelecturascriticas2026",
+   "productor": "Museo Nacional de Artes Visuales",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mnav",
+   "id_externo": "poloni2027",
+   "url": "https://mnav.gub.uy/cms.php?id=poloni2027",
+   "titulo": "Presentación del libro \"El país de los colores - El país del amor\"",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales",
+    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+    "lat": -34.91384,
+    "lon": -56.16497,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-26T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mnav.gub.uy/cms.php?id=poloni2027",
+     "via": "mnav"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://mnav.gub.uy/img.php?p=poloni2027",
    "productor": "Museo Nacional de Artes Visuales",
    "region": "montevideo",
    "enlaces": [],
