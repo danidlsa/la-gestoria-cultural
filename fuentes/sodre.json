@@ -1,53 +1,10 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-12T23:00:14.662245-03:00",
+ "corrida": "2026-11-13T15:45:14.625995-03:00",
  "ok": true,
- "cantidad": 42,
+ "cantidad": 44,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "sodre",
-   "id_externo": "10876",
-   "url": "https://sodre.gub.uy/espectaculos/beatles-y-bach/",
-   "titulo": "Beatles y Bach",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Una fusión inédita de estilos",
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": "2026-11-12T22:01:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021843/cns-beatles-y-bach",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/01/BEATLES-Y-BACH_Adaptaciones_Web_Destacada1-768x420.png",
-   "productor": "Coro Nacional del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021843/cns-beatles-y-bach"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "sodre",
    "id_externo": "10914",
@@ -392,13 +349,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": "2026-11-12T22:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T20:30:00-03:00",
      "fin": "2026-11-13T22:30:00-03:00",
@@ -965,49 +915,6 @@
   },
   {
    "fuente": "sodre",
-   "id_externo": "13571",
-   "url": "https://sodre.gub.uy/espectaculos/pasiones-en-contraste/",
-   "titulo": "Pasiones en contraste",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Temporada de Música de Cámara",
-   "lugar": {
-    "nombre": "Auditorio Vaz Ferreira",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": "2026-11-12T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021680/tmc-pasiones-en-contraste",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Pasiones-en-contraste_destacada-1-768x420.png",
-   "productor": "Temporada de Música de Cámara del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021680/tmc-pasiones-en-contraste"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
    "id_externo": "13593",
    "url": "https://sodre.gub.uy/espectaculos/origen-y-destino/",
    "titulo": "Origen y Destino",
@@ -1488,13 +1395,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-12T19:20:00-03:00",
-     "fin": "2026-11-12T21:20:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-14T19:20:00-03:00",
      "fin": "2026-11-14T21:20:00-03:00",
      "sin_hora": false,
@@ -1551,13 +1451,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T21:10:00-03:00",
-     "fin": "2026-11-12T23:10:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T21:10:00-03:00",
      "fin": "2026-11-14T23:10:00-03:00",
@@ -1622,13 +1515,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": "2026-11-12T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T20:00:00-03:00",
      "fin": "2026-11-13T22:00:00-03:00",
@@ -2009,6 +1895,185 @@
    "productor": "Cine Nacional y Latinoamericano del Sodre",
    "region": "montevideo",
    "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13810",
+   "url": "https://sodre.gub.uy/espectaculos/luis-fonsi/",
+   "titulo": "Luis Fonsi",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Llega a Uruguay en el marco de su gira “Mar Infinito World Tour” que recorrerá varios continentes",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-04-15T21:00:00-03:00",
+     "fin": "2027-04-15T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/alta-demanda/40021889/luis-fonsi",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Destacado-2-768x420.jpg",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/alta-demanda/40021889/luis-fonsi"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13814",
+   "url": "https://sodre.gub.uy/espectaculos/don-quijote-2/",
+   "titulo": "Don Quijote",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Muestra Académica de Ballet 2026",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T11:00:00-03:00",
+     "fin": "2026-12-06T13:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021944/muestra-academica-de-ballet-2026",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/DESTACADO2-INES_CAMOU_DONQUIJOTE-1-768x420.png",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021944/muestra-academica-de-ballet-2026"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13818",
+   "url": "https://sodre.gub.uy/espectaculos/muestra-final-2026-area-candombe/",
+   "titulo": "Muestra final 2026: Área Candombe",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Escuela Nacional de Formación Artística",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:00:00-03:00",
+     "fin": "2026-11-13T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T20:00:00-03:00",
+     "fin": "2026-11-14T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/DESTACADAhome.candom_12.14nov-768x420.jpg",
+   "productor": "Producción Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13823",
+   "url": "https://sodre.gub.uy/espectaculos/postales-del-siglo-xx-quinteto-urumare/",
+   "titulo": "Postales del Siglo XX. Quinteto Urumare",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Temporada de Música de Cámara",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T18:00:00-03:00",
+     "fin": "2026-11-29T20:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021683/tmc-postales-del-siglo-xx-quinteto-urumare",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/postales-siglo-xx_destacada-1-768x420.png",
+   "productor": "Temporada de Música de Cámara del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021683/tmc-postales-del-siglo-xx-quinteto-urumare"
+   ],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,

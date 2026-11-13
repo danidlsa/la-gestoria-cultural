@@ -1,8 +1,8 @@
 {
  "fuente": "propuestos",
- "corrida": "2026-11-12T23:07:47.532194-03:00",
+ "corrida": "2026-11-13T15:52:57.488290-03:00",
  "ok": true,
- "cantidad": 10,
+ "cantidad": 8,
  "errores": [],
  "eventos": [
   {
@@ -43,52 +43,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/7b000b178cd3.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "propuestos",
-   "id_externo": "f71b95c1ee34",
-   "url": "https://cineaccesible.uy/?p=1056",
-   "titulo": "Un cabo suelto - Ciclo de Cine AccesibleUy",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Santiago, un oficial de bajo rango, deambula por Fray Bentos en busca de un nuevo destino, escapando de la fuerza policial argentina que lo anda buscando. Sin dinero ni hospedaje pero con simpatía y astucia, va sorteando obstáculos, recibe la ayuda de personajes locales que se va cruzando en el…",
-   "lugar": {
-    "nombre": "Sala Lazaroff",
-    "direccion": "Av. 8 de Octubre 4849",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://cineaccesible.uy/?p=1056",
-     "via": "propuestos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/f71b95c1ee34.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -406,52 +360,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/2d3d01322539.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "propuestos",
-   "id_externo": "0aa81e53cbbc",
-   "url": "https://www.instagram.com/p/DfS_oEKJO5C/?xtok=MTZpeWIwZ3cybjR4dA==",
-   "titulo": "Jesús Percutor y La Banda Oriental",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Música en vivo en el Mítico Punto Rojo Jesús Percutor y el Duo Lima Piedra, canciones inéditas La Banda Oriental, canciones uruguayas",
-   "lugar": {
-    "nombre": "Punto Rojo",
-    "direccion": "Avenida Gral Rivera 2078 esq Salterain",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 150.0,
-    "hasta": 150.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfS_oEKJO5C/?xtok=MTZpeWIwZ3cybjR4dA==",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/0aa81e53cbbc.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

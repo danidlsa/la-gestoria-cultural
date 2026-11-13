@@ -1,70 +1,22 @@
 {
- "generado": "2026-11-12T23:09:18.791770-03:00",
+ "generado": "2026-11-13T15:54:26.512236-03:00",
  "cantidad": 27,
  "ciclos": [
-  {
-   "id": "ciclo-ciclo-de-cine-accesible-2026",
-   "titulo": "Ciclo de Cine Accesible 2026",
-   "lugar_id": null,
-   "desde": "2026-11-12T19:00:00-03:00",
-   "hasta": "2026-11-14T19:30:00-03:00",
-   "cantidad": 3
-  },
-  {
-   "id": "ciclo-encuentro-de-murga-joven-2026",
-   "titulo": "Encuentro de Murga Joven 2026",
-   "lugar_id": "centro-cultural-las-duranas",
-   "desde": "2026-11-12T20:00:00-03:00",
-   "hasta": "2026-11-16T20:00:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-ciclo-de-teatro",
-   "titulo": "Ciclo de teatro",
-   "lugar_id": null,
-   "desde": "2026-11-12T20:30:00-03:00",
-   "hasta": "2026-12-12T18:00:00-03:00",
-   "cantidad": 13
-  },
-  {
-   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
-   "titulo": "Estreno de obras Fortalecimiento de las Artes",
-   "lugar_id": null,
-   "desde": "2026-11-12T21:00:00-03:00",
-   "hasta": "2026-12-04T21:00:00-03:00",
-   "cantidad": 4
-  },
-  {
-   "id": "ciclo-the-shannon",
-   "titulo": "The Shannon",
-   "lugar_id": "the-shannon-irish-pub",
-   "desde": "2026-11-12T22:00:00-03:00",
-   "hasta": "2026-11-28T00:00:00-03:00",
-   "cantidad": 10
-  },
-  {
-   "id": "ciclo-la-noche-de-las-librerias-2026",
-   "titulo": "La Noche de las Librerías 2026",
-   "lugar_id": null,
-   "desde": "2026-11-13T09:00:00-03:00",
-   "hasta": "2026-11-14T00:30:00-03:00",
-   "cantidad": 132
-  },
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
    "lugar_id": null,
    "desde": "2026-11-13T10:00:00-03:00",
    "hasta": "2026-12-11T16:00:00-03:00",
-   "cantidad": 6
+   "cantidad": 7
   },
   {
-   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
-   "titulo": "Ciclo (no tan) Solos al mediodía",
-   "lugar_id": "teatro-solis",
-   "desde": "2026-11-13T14:00:00-03:00",
-   "hasta": "2026-11-28T14:00:00-03:00",
-   "cantidad": 1
+   "id": "ciclo-la-noche-de-las-librerias-2026",
+   "titulo": "La Noche de las Librerías 2026",
+   "lugar_id": null,
+   "desde": "2026-11-13T15:00:00-03:00",
+   "hasta": "2026-11-14T00:30:00-03:00",
+   "cantidad": 129
   },
   {
    "id": "ciclo-ciclo-de-cine",
@@ -91,12 +43,60 @@
    "cantidad": 9
   },
   {
+   "id": "ciclo-encuentro-de-murga-joven-2026",
+   "titulo": "Encuentro de Murga Joven 2026",
+   "lugar_id": "centro-cultural-las-duranas",
+   "desde": "2026-11-13T20:00:00-03:00",
+   "hasta": "2026-11-16T20:00:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-ciclo-de-cine-accesible-2026",
+   "titulo": "Ciclo de Cine Accesible 2026",
+   "lugar_id": null,
+   "desde": "2026-11-13T20:00:00-03:00",
+   "hasta": "2026-11-14T19:30:00-03:00",
+   "cantidad": 2
+  },
+  {
+   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
+   "titulo": "Estreno de obras Fortalecimiento de las Artes",
+   "lugar_id": null,
+   "desde": "2026-11-13T21:00:00-03:00",
+   "hasta": "2026-12-04T21:00:00-03:00",
+   "cantidad": 4
+  },
+  {
+   "id": "ciclo-the-shannon",
+   "titulo": "The Shannon",
+   "lugar_id": "the-shannon-irish-pub",
+   "desde": "2026-11-13T22:00:00-03:00",
+   "hasta": "2026-11-28T00:00:00-03:00",
+   "cantidad": 9
+  },
+  {
    "id": "ciclo-fac",
    "titulo": "FAC",
    "lugar_id": "fac-fundacion-de-arte-contemporaneo",
    "desde": "2026-11-14T11:00:00-03:00",
    "hasta": "2026-11-28T11:00:00-03:00",
    "cantidad": 2
+  },
+  {
+   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "lugar_id": "teatro-solis",
+   "desde": "2026-11-14T14:00:00-03:00",
+   "hasta": "2026-11-28T14:00:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-ciclo-de-teatro",
+   "titulo": "Ciclo de teatro",
+   "lugar_id": null,
+   "desde": "2026-11-14T14:00:00-03:00",
+   "hasta": "2026-12-12T18:00:00-03:00",
+   "cantidad": 12
   },
   {
    "id": "ciclo-paseo-sur-palermo",
@@ -155,20 +155,20 @@
    "cantidad": 2
   },
   {
-   "id": "ciclo-candlelight",
-   "titulo": "Candlelight",
-   "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
-   "desde": "2026-11-21T17:30:00-03:00",
-   "hasta": "2026-12-19T17:30:00-03:00",
-   "cantidad": 3
-  },
-  {
    "id": "ciclo-cordon-beer",
    "titulo": "Cordón Beer",
    "lugar_id": "cordon-beer",
    "desde": "2026-11-21T18:00:00-03:00",
-   "hasta": "2026-12-24T12:00:00-03:00",
-   "cantidad": 2
+   "hasta": "2027-01-05T00:00:00-03:00",
+   "cantidad": 3
+  },
+  {
+   "id": "ciclo-candlelight",
+   "titulo": "Candlelight",
+   "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
+   "desde": "2026-11-21T21:30:00-03:00",
+   "hasta": "2026-12-27T16:30:00-03:00",
+   "cantidad": 3
   },
   {
    "id": "ciclo-tmc",
@@ -176,7 +176,7 @@
    "lugar_id": "auditorio-vaz-ferreira",
    "desde": "2026-11-26T20:00:00-03:00",
    "hasta": "2026-12-17T20:00:00-03:00",
-   "cantidad": 6
+   "cantidad": 5
   },
   {
    "id": "ciclo-19-fest-jazz-mvd",

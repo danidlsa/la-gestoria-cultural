@@ -1,10 +1,139 @@
 {
  "fuente": "galpon",
- "corrida": "2026-11-12T23:03:42.426859-03:00",
+ "corrida": "2026-11-13T15:48:49.766667-03:00",
  "ok": true,
- "cantidad": 23,
+ "cantidad": 24,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "galpon",
+   "id_externo": "festival-de-dramaturgia-emergente-de-teatro-el-galpon",
+   "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-de-teatro-el-galpon/",
+   "titulo": "FESTIVAL DE DRAMATURGIA EMERGENTE DE TEATRO EL GALPÓN",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Festival de Dramaturgia Emergente del 17 de noviembre al 9 de diciembre Cuatro espectáculos que resultaron seleccionados tras el llamado realizado por El Galpón. Cada uno realizará dos funciones en la Sala Cero los martes y miércoles. El Festival se complementará con la realización de lecturas…",
+   "lugar": {
+    "nombre": "Teatro El Galpón",
+    "direccion": "Av. 18 de Julio 1618",
+    "lat": -34.90403,
+    "lon": -56.181082,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-17T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-18T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-23T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-25T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-07T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-08T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-09T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 650.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/productor/TeatroElGalpon",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Generales $ 650 Socio Espectacular y El Galpón libre con cupo limitado",
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-de-teatro-el-galpon/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-de-teatro-el-galpon/"
+    }
+   ],
+   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/11/WEB.png",
+   "productor": "Teatro El Galpón",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/productor/TeatroElGalpon"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "galpon",
    "id_externo": "la-gaviota-ensayo-abierto",
@@ -21,13 +150,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": "2026-11-12T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T20:30:00-03:00",
      "fin": "2026-11-13T22:00:00-03:00",
@@ -356,13 +478,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": "2026-11-12T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Cero",
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-19T20:30:00-03:00",
      "fin": "2026-11-19T22:00:00-03:00",
      "sin_hora": false,
@@ -430,13 +545,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T21:00:00-03:00",
      "fin": null,

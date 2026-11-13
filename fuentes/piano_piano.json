@@ -1,268 +1,10 @@
 {
  "fuente": "piano_piano",
- "corrida": "2026-11-12T23:05:59.144201-03:00",
+ "corrida": "2026-11-13T15:51:10.442735-03:00",
  "ok": true,
- "cantidad": 21,
+ "cantidad": 16,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "piano_piano",
-   "id_externo": "2026-11-11-Saramalacara",
-   "url": "https://pianopiano.uy/agenda/",
-   "titulo": "Saramalacara",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Sala del Museo del Carnaval",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Saramalacara/32418/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://pianopiano.uy/wp-content/uploads/SaramalacaraTHEGOATLollaPalooza-4-piano-piano-e1788295257544.jpg",
-   "productor": "Piano Piano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Saramalacara/32418/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "piano_piano",
-   "id_externo": "2026-11-13-La Vela Puerca",
-   "url": "https://pianopiano.uy/agenda/",
-   "titulo": "La Vela Puerca",
-   "categoria": "fiesta",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "SITIO - Parque Roosevelt",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/SITIO-TE-MUEVE/33347/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://pianopiano.uy/wp-content/uploads/LVP_FotoPrensa_2026-1-piano-piano.jpg",
-   "productor": "Piano Piano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/SITIO-TE-MUEVE/33347/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "piano_piano",
-   "id_externo": "2026-11-13-Luciano Pereyra",
-   "url": "https://pianopiano.uy/agenda/",
-   "titulo": "Luciano Pereyra",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.antelarena.com.uy/events/detail/luciano-pereyra-2026",
-     "via": "antel_arena"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://pianopiano.uy/wp-content/uploads/DSC_9028_1-piano-piano-1-e1781013390218.jpg",
-   "productor": "Piano Piano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.antelarena.com.uy/events/detail/luciano-pereyra-2026"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "piano_piano",
-   "id_externo": "2026-11-14-Midachi",
-   "url": "https://pianopiano.uy/agenda/",
-   "titulo": "Midachi",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.antelarena.com.uy/events/detail/midachi-2026",
-     "via": "antel_arena"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://pianopiano.uy/wp-content/uploads/MIDACHI-7-piano-piano-1.jpeg",
-   "productor": "Piano Piano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.antelarena.com.uy/events/detail/midachi-2026"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "piano_piano",
-   "id_externo": "2026-11-14-Dillom",
-   "url": "https://pianopiano.uy/agenda/",
-   "titulo": "Dillom",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Rural del Prado",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/DILLOM--PRADO/32949/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://pianopiano.uy/wp-content/uploads/OLS1463-piano-piano.jpg",
-   "productor": "Piano Piano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/DILLOM--PRADO/32949/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "piano_piano",
-   "id_externo": "2026-11-14-Natalie Pérez",
-   "url": "https://pianopiano.uy/agenda/",
-   "titulo": "Natalie Pérez",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021568/espectaculo/Natalie%20Perez?0",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://pianopiano.uy/wp-content/uploads/Natalie-Foto-de-@agustindusserre-Captura-sin-titulo1084-2-piano-piano-e1790351042323.jpg",
-   "productor": "Piano Piano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40021568/espectaculo/Natalie%20Perez?0"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "piano_piano",
    "id_externo": "2026-11-19-El Plan de la Mariposa",
@@ -695,6 +437,49 @@
   },
   {
    "fuente": "piano_piano",
+   "id_externo": "2027-01-10-Jorge Drexler",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Jorge Drexler",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Open Park - Punta del Este",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-10T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Jorge-Drexler--Taraca--Open-Park/34875/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/WOC6913_enderezada-piano-piano.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Jorge-Drexler--Taraca--Open-Park/34875/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "piano_piano",
    "id_externo": "2027-03-19-LOVE REGGAETON",
    "url": "https://pianopiano.uy/agenda/",
    "titulo": "LOVE REGGAETON",
@@ -840,12 +625,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/alta-demanda/40021889/luis-fonsi",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://pianopiano.uy/wp-content/uploads/GettyImages-1398617469-1-1200x800-piano-piano.jpg",
    "productor": "Piano Piano",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/alta-demanda/40021889/luis-fonsi"
+   ],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,

@@ -1,53 +1,10 @@
 {
  "fuente": "sala_del_museo",
- "corrida": "2026-11-12T23:05:43.923131-03:00",
+ "corrida": "2026-11-13T15:50:56.062000-03:00",
  "ok": true,
  "cantidad": 12,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "sala_del_museo",
-   "id_externo": "samba-do-marcio-10",
-   "url": "https://www.saladelmuseo.com.uy/shows/item/samba-do-marcio-10.html",
-   "titulo": "SAMBA DO MARCIO",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Samba Do Marcio - NOVIEMBRE",
-   "lugar": {
-    "nombre": "Sala del Museo",
-    "direccion": "Rambla 25 de Agosto esq. Maciel",
-    "lat": -34.905789,
-    "lon": -56.212222,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Samba-Do-Marcio--NOVIEMBRE/34061/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_22_bda52f575bce47f269fed241d6f6b2cd.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Samba-Do-Marcio--NOVIEMBRE/34061/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "sala_del_museo",
    "id_externo": "el-cumple-de-mabel-5",
@@ -515,6 +472,49 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/MVD-CANTA/34407/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "mateo-x-6",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/mateo-x-6.html",
+   "titulo": "MATEO X 6",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Mateo x6 llega al Patio de Sala del Museo para una noche especial al aire libre. El próximo sábado 5 de diciembre, nos encontramos en el Patio de Sala para disfrutar de Mateo x6 en un formato cercano, en uno de los espacios más lindos del Museo del Carnaval. Una noche para encontrarnos, escuchar…",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/MATEO-X6/33381/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/MATEOX6_SDM_1080X1080_2e9496a29ab0a8486ac7bdf724d957d1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/MATEO-X6/33381/"
    ],
    "ciclo": null,
    "etiquetas": [],

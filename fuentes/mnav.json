@@ -1,6 +1,6 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-12T23:06:43.384613-03:00",
+ "corrida": "2026-11-13T15:51:54.966915-03:00",
  "ok": true,
  "cantidad": 24,
  "errores": [],
@@ -21,13 +21,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T00:00:00-03:00",
      "fin": null,
@@ -89,13 +82,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-12T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-13T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -514,6 +500,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -554,13 +547,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T00:00:00-03:00",
      "fin": null,
@@ -622,13 +608,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-12T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-13T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1043,6 +1022,13 @@
     },
     {
      "inicio": "2027-01-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-12T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1088,13 +1074,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-12T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-13T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1513,6 +1492,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -1541,7 +1527,7 @@
    "fuente": "mnav",
    "id_externo": "kohen2026-linda kohen: el misterio",
    "url": "https://mnav.gub.uy/cms.php?id=kohen2026",
-   "titulo": "Linda Kohen: El misterio",
+   "titulo": "Linda Kohen: el misterio",
    "categoria": "exposicion",
    "categoria_segura": true,
    "descripcion_corta": null,
@@ -1863,6 +1849,13 @@
     },
     {
      "inicio": "2027-01-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-12T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -2217,6 +2210,13 @@
     },
     {
      "inicio": "2027-01-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-12T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -2577,7 +2577,7 @@
    "fuente": "mnav",
    "id_externo": "kohen2026",
    "url": "https://mnav.gub.uy/cms.php?id=kohen2026",
-   "titulo": "Inauguración de la exposición \"Linda Kohen: El misterio\"",
+   "titulo": "Inauguración de la exposición \"Linda Kohen: el misterio\"",
    "categoria": "charla",
    "categoria_segura": false,
    "descripcion_corta": null,

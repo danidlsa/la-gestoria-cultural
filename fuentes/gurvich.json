@@ -1,6 +1,6 @@
 {
  "fuente": "gurvich",
- "corrida": "2026-11-12T23:06:47.980912-03:00",
+ "corrida": "2026-11-13T15:51:59.673492-03:00",
  "ok": true,
  "cantidad": 2,
  "errores": [],
@@ -21,13 +21,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T00:00:00-03:00",
      "fin": null,
@@ -443,6 +436,13 @@
     },
     {
      "inicio": "2027-01-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-12T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,

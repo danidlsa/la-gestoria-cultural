@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-12T23:08:19.351669-03:00",
+ "corrida": "2026-11-13T15:53:30.529215-03:00",
  "ok": true,
- "cantidad": 53,
+ "cantidad": 52,
  "errores": [],
  "eventos": [
   {
@@ -422,95 +422,6 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "centroculturalterminalgoes-20261112",
-   "url": "https://www.instagram.com/p/DfVJwXclu3T/",
-   "titulo": "Centro Cultural Terminal Goes: LAS FLORES DEL MAL",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "LAS FLORES DEL MAL Las flores del mal presenta INVIERNO, su primer trabajo discográfico. Banda invitada: Fonamor. Jueves 12 de noviembre 20:30 horas Centro Cultural Terminal Goes Entradas en Tickantel",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfVJwXclu3T/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/460162c5bf42.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261112",
-   "url": "https://www.instagram.com/p/DfnNgADKU0J/",
-   "titulo": "The Shannon: SPAGUETTI WESTERN",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Jueves 12/Noviembre: MANO A MANO Con Modernel y Bustamante Clásicos de rock - 22 hs Cubierto artístico $280",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 280.0,
-    "hasta": 280.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfnNgADKU0J/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/978f49f4207f.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
    "muestra": false,
    "hasta": null
   },
@@ -2407,6 +2318,49 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6ae0e96ca40c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "cordonbeer-20270105",
+   "url": "https://www.instagram.com/reel/DfqMm9xE3NM/",
+   "titulo": "Cordón Beer: El verano está llegando y nosotros ya tenemos planes para vos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "El verano está llegando y nosotros ya tenemos planes para vos Este 5 de enero presentamos a lakongaoficial en vivo y djsanata para arrancar el año bailando, en una noche que promete cumbia de principio a fin",
+   "lugar": {
+    "nombre": "Cordón Beer",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/DfqMm9xE3NM/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

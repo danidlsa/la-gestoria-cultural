@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-12T23:07:56.019888-03:00",
+ "corrida": "2026-11-13T15:53:07.064582-03:00",
  "ok": true,
  "cantidad": 16,
  "errores": [],
@@ -237,52 +237,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "fa34481c-ba2c-453c-827a-3f3257cfdbef",
-   "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
-   "titulo": "Jengibre y Lipe Gómez",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Por primera vez Jengibre y Lipe Gómez (en banda) se presentan en un mismo escenario. Dos proyectos que experimentan y abarcan influencias desde el rock alternativo y el R&B hasta ritmos latinoamericanos como el candombe y la samba. Este sábado 21 de noviembre en el escenario del hormiguero: Lipe…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": "2026-11-21T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F6316ecda-2c01-4beb-9961-e1d8b47f94a1.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
    "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
    "titulo": "Javier Zubillaga De Vivo",
@@ -319,6 +273,52 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "fa34481c-ba2c-453c-827a-3f3257cfdbef",
+   "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
+   "titulo": "Jengibre y Lipe Gómez",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Por primera vez Jengibre y Lipe Gómez (en banda) se presentan en un mismo escenario. Dos proyectos que experimentan y abarcan influencias desde el rock alternativo y el R&B hasta ritmos latinoamericanos como el candombe y la samba. Este sábado 21 de noviembre en el escenario del hormiguero: Lipe…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": "2026-11-21T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F6316ecda-2c01-4beb-9961-e1d8b47f94a1.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -456,54 +456,8 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F6520d919-2b36-47e3-b6a2-0e969819753f.original",
+   "imagen_url": "https://cdn.tikzet.com/images%2F472a8506-25d5-4da6-aefa-d689cfb1ed5a.original",
    "productor": "El Chamuyo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "dbdedcc5-b5d5-472c-929a-32947d6cd1ee",
-   "url": "https://www.tikzet.com/events/mamba-club",
-   "titulo": "MAMBA CLUB",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "MAMBA CLUB",
-    "direccion": "Avenida Uruguay 1136",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T23:50:00-03:00",
-     "fin": "2026-11-14T06:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 250.0,
-    "hasta": 250.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/mamba-club",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Ff82269df-a85f-438e-a65d-60210c04ea17.original",
-   "productor": "MAMBA CLUB",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -734,6 +688,52 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
    "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "dbdedcc5-b5d5-472c-929a-32947d6cd1ee",
+   "url": "https://www.tikzet.com/events/mamba-club",
+   "titulo": "MAMBA CLUB",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "MAMBA CLUB",
+    "direccion": "Avenida Uruguay 1136",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:50:00-03:00",
+     "fin": "2026-11-14T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 250.0,
+    "hasta": 250.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/mamba-club",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Ff82269df-a85f-438e-a65d-60210c04ea17.original",
+   "productor": "MAMBA CLUB",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

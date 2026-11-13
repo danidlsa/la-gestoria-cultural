@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-12T23:09:18.791770-03:00",
- "cantidad": 243,
+ "generado": "2026-11-13T15:54:26.512236-03:00",
+ "cantidad": 240,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -178,9 +178,11 @@
   },
   {
    "id": "asociacion-de-estudiantes-y-profesionales-catolicos-aepc",
-   "nombre": "Asociación de Estudiantes y Profesionales Católicos (AEPC",
-   "alias": [],
-   "direccion": "Bv. Gral. Artigas 1327, 11200 Montevideo",
+   "nombre": "Asociación de Estudiantes y Profesionales Católicos - AEPC",
+   "alias": [
+    "Asociación de Estudiantes y Profesionales Católicos (AEPC"
+   ],
+   "direccion": "Br. Artigas 1327 entre Chaná y Guaná",
    "lat": -34.904099,
    "lon": -56.164257,
    "barrio": null,
@@ -451,9 +453,9 @@
    "id": "centro-cultural-florencio-sanchez",
    "nombre": "Centro Cultural Florencio Sánchez",
    "alias": [],
-   "direccion": "Grecia 3281",
-   "lat": -34.89227,
-   "lon": -56.247973,
+   "direccion": "Grecia 3281, Cerro, Montevideo",
+   "lat": -34.89231,
+   "lon": -56.24801,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -481,7 +483,7 @@
    "id": "centro-cultural-terminal-goes",
    "nombre": "Centro Cultural Terminal Goes",
    "alias": [],
-   "direccion": "Gral. Flores y Domingo Aramburú",
+   "direccion": "\"Rectangular1\"",
    "lat": -34.882708,
    "lon": -56.181856,
    "barrio": null,
@@ -661,6 +663,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "colonia-del-sacramento",
+   "nombre": "Colonia del Sacramento",
+   "alias": [],
+   "direccion": "Colonia del Sacramento",
+   "lat": -34.46746260954,
+   "lon": -57.843696992634,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "complejo-malvin-alto",
    "nombre": "Complejo Malvín Alto",
    "alias": [],
@@ -757,16 +769,6 @@
    "direccion": "Av.Gral Rivera 2019",
    "lat": -34.902133,
    "lon": -56.172788,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "el-callejon-tango-bar",
-   "nombre": "El Callejon Tango Bar",
-   "alias": [],
-   "direccion": "Soriano 1203",
-   "lat": -34.907561,
-   "lon": -56.189819,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -889,6 +891,18 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "espacio-cultural-las-bovedas",
+   "nombre": "Espacio Cultural Las Bóvedas",
+   "alias": [
+    "Espacio cultural Las Bóvedas"
+   ],
+   "direccion": "Rambla 25 de Agosto 575",
+   "lat": -34.902881,
+   "lon": -56.205543,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "espacio-finisterre",
    "nombre": "Espacio Finisterre",
    "alias": [],
@@ -937,16 +951,6 @@
    "direccion": "Cerrito 475",
    "lat": -34.904859,
    "lon": -56.206546,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "espacio-cultural-las-bovedas",
-   "nombre": "Espacio cultural Las Bóvedas",
-   "alias": [],
-   "direccion": "25 de Agosto 575, 11000 Montevideo, Depa",
-   "lat": -34.902881,
-   "lon": -56.205543,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1186,12 +1190,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu-laboratorio-tecnologico-del-uruguay",
-   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
+   "id": "latu",
+   "nombre": "LATU",
    "alias": [
-    "LATU"
+    "LATU - Laboratorio Tecnológico del Uruguay"
    ],
-   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
+   "direccion": "Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1367,16 +1371,6 @@
    "lat": -34.9173165,
    "lon": -56.1574892,
    "barrio": "Punta Carretas",
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "libreria-fundacion-de-cultura-universitaria",
-   "nombre": "Librería Fundación de Cultura Universitaria",
-   "alias": [],
-   "direccion": "25 de Mayo 553",
-   "lat": -34.905439,
-   "lon": -56.2046609,
-   "barrio": "Ciudad Vieja",
    "ciudad": "Montevideo"
   },
   {
@@ -1908,16 +1902,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "punto-rojo",
-   "nombre": "Punto Rojo",
-   "alias": [],
-   "direccion": "Avenida Gral Rivera 2078 esq Salterain",
-   "lat": -34.9023205,
-   "lon": -56.1708504,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "puro-verso",
    "nombre": "Puro Verso",
    "alias": [],
@@ -1982,16 +1966,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "rbla-pte-charles-de-gaulle-1569",
-   "nombre": "Rbla. Pte. Charles De Gaulle 1569",
-   "alias": [],
-   "direccion": "Kibón, Montevideo",
-   "lat": -34.910901,
-   "lon": -56.135397,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "restaurante-el-berretin",
    "nombre": "Restaurante El Berretín",
    "alias": [],
@@ -2028,9 +2002,9 @@
    "id": "rural-del-prado",
    "nombre": "Rural del Prado",
    "alias": [],
-   "direccion": null,
-   "lat": -34.8612106,
-   "lon": -56.2030031,
+   "direccion": "Galpón 1, ingreso por Av. Buschental",
+   "lat": -34.861306,
+   "lon": -56.204944,
    "barrio": null,
    "ciudad": "Montevideo"
   },

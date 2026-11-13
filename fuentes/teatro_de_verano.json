@@ -1,56 +1,10 @@
 {
  "fuente": "teatro_de_verano",
- "corrida": "2026-11-12T23:03:36.259912-03:00",
+ "corrida": "2026-11-13T15:48:41.381819-03:00",
  "ok": true,
- "cantidad": 9,
+ "cantidad": 16,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "teatro_de_verano",
-   "id_externo": "136-etapa-3",
-   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
-   "titulo": "Prueba de Admisión - Carnaval 2027 · Etapa 3: La Nueva Escuela, Social Club, La Sandía de la Torta, Ítacos, La Reina de la Teja",
-   "categoria": "carnaval",
-   "categoria_segura": true,
-   "descripcion_corta": "Etapa 3: La Nueva Escuela (sociedad de negros y lubolos), Social Club (humoristas), La Sandía de la Torta (murga), Ítacos (parodistas) y La Reina de la Teja (murga). Entrada libre, hasta agotar localidades, con la entrega de un alimento no perecedero.",
-   "lugar": {
-    "nombre": "Teatro de Verano Ramón Collazo",
-    "direccion": "Rambla Wilson s/n, Parque Rodó",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
-     "via": "teatro_de_verano"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/613.jpg",
-   "productor": "Teatro de Verano",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "teatro_de_verano",
    "id_externo": "136-etapa-4",
@@ -359,6 +313,334 @@
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021890/sodre-celebra"
    ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "140-etapa-1",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+   "titulo": "Carnaval de las Promesas · Etapa 1: Surgen, La Zafada, Príncipes, Descardados",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 1: Surgen (sociedad de negros y lubolos), La Zafada (murga), Príncipes (parodistas) y Descardados (humoristas).",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-21T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+     "via": "teatro_de_verano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/611.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "140-etapa-2",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+   "titulo": "Carnaval de las Promesas · Etapa 2: Sueño Candombero, Mano a Mano, Los Chapitas, Saphirus",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 2: Sueño Candombero (sociedad de negros y lubolos), Mano a Mano (murga), Los Chapitas (parodistas) y Saphirus (revista).",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-22T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+     "via": "teatro_de_verano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/611.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "140-etapa-3",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+   "titulo": "Carnaval de las Promesas · Etapa 3: Peregrinos DLI, Celestinos, Wicked’s, Mandala",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 3: Peregrinos DLI (humoristas), Celestinos (parodistas), Wicked’s (parodistas) y Mandala (revista).",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-23T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+     "via": "teatro_de_verano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/611.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "140-etapa-4",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+   "titulo": "Carnaval de las Promesas · Etapa 4: Klau’s, Nemesis, Herederos, Quijotes",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 4: Klau’s (parodistas), Nemesis (revista), Herederos (humoristas) y Quijotes (parodistas).",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-26T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+     "via": "teatro_de_verano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/611.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "140-etapa-5",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+   "titulo": "Carnaval de las Promesas · Etapa 5: Frenesi, Bubys Bis, Zodíaco, Ohana",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 5: Frenesi (revista), Bubys Bis (parodistas), Zodíaco (parodistas) y Ohana (sociedad de negros y lubolos).",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-27T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+     "via": "teatro_de_verano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/611.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "140-etapa-6",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+   "titulo": "Carnaval de las Promesas · Etapa 6: La Resiliente, Yoguis, Guerrero’s, Dulcinea",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 6: La Resiliente (murga), Yoguis (humoristas), Guerrero’s (parodistas) y Dulcinea (revista).",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-28T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+     "via": "teatro_de_verano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/611.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "140-etapa-7",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+   "titulo": "Carnaval de las Promesas · Etapa 7: Aprendices, Wonkas, Fantástica, Los Pepinitos",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 7: Aprendices (parodistas), Wonkas (parodistas), Fantástica (revista) y Los Pepinitos (murga).",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-29T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+     "via": "teatro_de_verano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/611.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "140-etapa-8",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+   "titulo": "Carnaval de las Promesas · Etapa 8: Wizards, Gnomos, Fénix, La Descocada",
+   "categoria": "carnaval",
+   "categoria_segura": true,
+   "descripcion_corta": "Etapa 8: Wizards (parodistas), Gnomos (humoristas), Fénix (revista) y La Descocada (murga).",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-30T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Carnaval-de-las-Promesas-uc140",
+     "via": "teatro_de_verano"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/611.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,

@@ -1,8 +1,8 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-12T23:06:00.461394-03:00",
+ "corrida": "2026-11-13T15:51:11.657209-03:00",
  "ok": true,
- "cantidad": 68,
+ "cantidad": 67,
  "errores": [],
  "eventos": [
   {
@@ -475,13 +475,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-13T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -851,13 +844,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-12T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-15T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1116,15 +1102,7 @@
     "lon": null,
     "barrio": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 1600.0,
     "hasta": 1600.0,
@@ -1175,15 +1153,7 @@
     "lon": null,
     "barrio": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 1100.0,
     "hasta": 1100.0,
@@ -1538,13 +1508,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-19T00:00:00-03:00",
      "fin": null,
@@ -2387,15 +2350,7 @@
     "lon": null,
     "barrio": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 680.0,
     "hasta": 680.0,
@@ -2664,13 +2619,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-19T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2921,52 +2869,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/MATEO-X6/33381/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18075",
-   "url": "https://beneficios.ladiaria.com.uy/saramalacara-2/",
-   "titulo": "Saramalacara",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Una de las voces más singulares de la nueva escena urbana argentina regresa a Montevideo. Saramalacara llega con su universo sonoro y estético, en una noche que promete intensidad, energía y una propuesta que cruza trap, electrónica y sonidos experimentales.",
-   "lugar": {
-    "nombre": "Sala del Museo del Carnaval",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 690.0,
-    "hasta": 690.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Saramalacara/32418/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/saramalacara-2/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Saramalacara/32418/"
    ],
    "ciclo": null,
    "etiquetas": [],

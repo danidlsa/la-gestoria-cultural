@@ -1,93 +1,12 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-12T22:54:50.889867-03:00",
+ "corrida": "2026-11-13T15:34:40.553923-03:00",
  "ok": true,
- "cantidad": 121,
+ "cantidad": 124,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021457",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
-   "titulo": "Ciclo (no tan) Solos al mediodía",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "CICLO (No tan) Solos al mediodía 17va edición - Diversidad Dirección artística y curaduría: Andrea Arobba Producción ejecutiva: GEN Centro de Artes y Ciencias Producción: Polen productora cultural - Catalina Lans Asistencia de producción: Emiliano Bittencourt Registro audiovisual: Daiana Di Candia…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-14T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390_banner_web_generico_TS.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021919",
@@ -466,13 +385,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    },
-    {
      "inicio": "2026-11-13T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -710,6 +622,80 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021637/BANNER.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021457",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "CICLO (No tan) Solos al mediodía 17va edición - Diversidad Dirección artística y curaduría: Andrea Arobba Producción ejecutiva: GEN Centro de Artes y Ciencias Producción: Polen productora cultural - Catalina Lans Asistencia de producción: Emiliano Bittencourt Registro audiovisual: Daiana Di Candia…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390_banner_web_generico_TS.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1159,13 +1145,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T21:10:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T21:10:00-03:00",
      "fin": null,
@@ -1735,6 +1714,52 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021990",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021990/recital-de-egreso-alessandra-suarez",
+   "titulo": "Recital de Egreso Alessandra Suárez",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La Orquesta Juvenil Nacional del SODRE, junto a la Escuela Nacional de Música del SODRE, invita al Egreso de Alessandra Suárez. A través de un recital, el jurado evaluará el desarrollo técnico y musical alcanzado por su formación en la Escuela Nacional de Música del Sodre, evidenciando su…",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": -34.9026912,
+    "lon": -56.1776624,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021990/recital-de-egreso-alessandra-suarez",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021990/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021983",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021983/la-hija-condor",
    "titulo": "La hija cóndor",
@@ -2089,9 +2114,9 @@
    "id_externo": "40021726",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021726/nina-lobo",
    "titulo": "Niña Lobo",
-   "categoria": "otros",
+   "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": null,
+   "descripcion_corta": "La banda uruguaya Niña Lobo se presentará por primera vez en el Centro Cultural Florencio Sánchez el viernes 20 de noviembre de 2026 a las 20:30h, en el marco de la gira de presentación de su último disco Montevideo Despierta.",
    "lugar": {
     "nombre": "Centro Cultural Florencio Sánchez",
     "direccion": null,
@@ -2782,47 +2807,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40020172",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
-   "titulo": "CNNS – Tramas 852",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Coro Nacional Juvenil Tramas propone un recorrido por músicas, tiempos y sensibilidades que, al encontrarse, revelan nuevas conexiones. Un entramado de historias, emociones y resonancias en el que las voces del coro enlazan universos diversos, desde obras profundamente significativas para su…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020172/Tramas_852_Adaptaciones_banner.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021939",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa",
    "titulo": "Música de regreso a casa",
@@ -2882,6 +2866,47 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021939/BannerNuevo.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40020172",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
+   "titulo": "CNNS – Tramas 852",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Propone un recorrido por músicas, tiempos y sensibilidades que, al encontrarse, revelan nuevas conexiones Un entramado de historias, emociones y resonancias en el que las voces del coro enlazan universos diversos, desde obras profundamente significativas para su identidad hasta la música de Alfredo…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020172/Tramas_852_Adaptaciones_banner.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3515,6 +3540,52 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021434/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021991",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021991/recital-de-egreso-alvaro-montemuino-viola",
+   "titulo": "Recital de Egreso Álvaro Montemuiño - Viola",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La Orquesta Juvenil Nacional del SODRE, junto a la Escuela Nacional de Música del SODRE, invitan al Egreso de Álvaro Montemuiño A través de un recital, el jurado evaluará el desarrollo técnico y musical alcanzado por su formación en la Escuela Nacional de Música del Sodre, evidenciando su…",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": -34.9026912,
+    "lon": -56.1776624,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-30T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021991/recital-de-egreso-alvaro-montemuino-viola",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021991/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -5212,6 +5283,101 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021775/700x390_nunca.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021483",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021483/carnaval-de-las-promesas-2027",
+   "titulo": "Carnaval de las Promesas 2027",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Carnaval, la maxima expresion cultural de nuestro pais, nos convoca en esta ocasion para ver a niños niñas y adolescentes de 5 a 18 años en las cinco categorias (Parodistas, Murgas, Revistas, Humoristas y Sociedad de Negros y Lubolos) en el marco del Concurso oficial de Carnaval de las Promesas…",
+   "lugar": {
+    "nombre": "Teatro de Verano",
+    "direccion": null,
+    "lat": -34.9198517,
+    "lon": -56.1698383,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-21T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-22T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-23T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-26T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-27T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-28T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-29T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-30T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 290.0,
+    "hasta": 290.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021483/carnaval-de-las-promesas-2027",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021483/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
