@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-12T11:00:14.536093-03:00",
+ "corrida": "2026-11-13T11:00:42.851349-03:00",
  "ok": true,
- "cantidad": 38,
+ "cantidad": 37,
  "errores": [],
  "eventos": [
   {
@@ -62,13 +62,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T16:00:00-03:00",
-     "fin": "2026-11-12T18:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Club La Virgen",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T10:00:00-03:00",
      "fin": "2026-11-13T12:00:00-03:00",
@@ -556,47 +549,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Envejecimiento activo",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "818-42",
-   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/edipo-en-ezeiza",
-   "titulo": "Edipo en Ezeiza",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "En un paisaje nacional fragmentado, una familia se somete a feroces interrogatorios para descubrir al enemigo infiltrado. Tras el “picnic de Ezeiza”, el padre, la madre y el hijo ven sus identidades quebrarse bajo un símbolo patrio que asfixia. Apagones, sirenas y linternas construyen una atmósfera…",
-   "lugar": {
-    "nombre": "Centro Cultural Florencio Sánchez",
-    "direccion": "Grecia 3281",
-    "lat": -34.89227,
-    "lon": -56.247973,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-07/EDIPO%20EN%20EZEIZA%20-%202%20-%20Micaela%20Larrocca.jpg",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Ciclo de teatro",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
@@ -1296,13 +1248,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-12T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-13T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1481,12 +1426,12 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "1005",
-   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-jueves-12-de-noviembre",
+   "id_externo": "1006",
+   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-viernes-13-de-noviembre",
    "titulo": "Murga Joven",
    "categoria": "carnaval",
    "categoria_segura": false,
-   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Jueves 12 de noviembre 20:00 h – Ésta 20:50 h – La Relegada 21:40 h – Corte Petróleo 22:30 h – La Resumida 23:20 h – Amarga",
+   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Viernes 13 de noviembre 20:00 h – Los Jamones veganos 20:50 h – La última esquina 21:40 h – Conlaprole 22:30 h – La Pikadita 23:20 h – Barranca Abajo",
    "lugar": {
     "nombre": "Centro Cultural Las Duranas",
     "direccion": "Pedro Trápani 1350 esquina Bayona.",
@@ -1495,13 +1440,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T20:00:00-03:00",
      "fin": null,
@@ -1539,7 +1477,7 @@
    },
    "entradas": [],
    "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20251110dicimouyjmr2927%20%281%29.jpg",
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20231108-dicimouyit6450.jpg",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
@@ -1564,13 +1502,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T10:00:00-03:00",
-     "fin": "2026-11-12T12:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-19T10:00:00-03:00",
      "fin": "2026-11-19T12:00:00-03:00",
@@ -1824,47 +1755,6 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "1035",
-   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-cine-accesible-2026/un-cabo-suelto",
-   "titulo": "Un cabo suelto",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Sinopsis Santiago, un cabo de la policía argentina, cruza hacia Uruguay para escapar de otros agentes. Sin dinero ni alojamiento, usa el uniforme y su ingenio para salir adelante. Los encuentros con habitantes de la zona le ofrecen ayuda, nuevas complicidades y la posibilidad de empezar otra vida.",
-   "lugar": {
-    "nombre": "Sala Lazaroff",
-    "direccion": "Av. 8 de Octubre 4849",
-    "lat": -34.855863,
-    "lon": -56.132473,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/Un%20cabo%20suelto%20%282025%29%20-%20STILL%2001.jpg",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Ciclo de Cine Accesible 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
    "id_externo": "1036",
    "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-cine-accesible-2026/quemadura-china",
    "titulo": "Quemadura china",
@@ -1988,12 +1878,12 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "1042",
-   "url": "https://eventos.montevideo.gub.uy/evento/prueba-de-admision-del-carnaval-2027/prueba-de-admision-jueves-12-de-noviembre",
+   "id_externo": "1043",
+   "url": "https://eventos.montevideo.gub.uy/evento/prueba-de-admision-del-carnaval-2027/prueba-de-admision-viernes-13-de-noviembre",
    "titulo": "Prueba de Admisión",
    "categoria": "teatro",
    "categoria_segura": false,
-   "descripcion_corta": "Conocé la programación de la tercera etapa de la Prueba de Admisión del Carnaval 2027. Jueves 12 de noviembre 20:30 – La Nueva Escuela (Sociedad de negros y lubolos) 21:10 – Social Club (Humoristas) 21:50 – La Sandía De La Torta (Murga) 22:25 – Ítacos (Parodistas) 23:10 – La Reina de la Teja…",
+   "descripcion_corta": "Conocé la programación de la cuarta etapa de la Prueba de Admisión del Carnaval 2027. Viernes 13 de noviembre 20:30 – M.Q.L. (Sociedad de negros y lubolos) 21:10 – Los Chobys (Humoristas) 21:50 – Ay Alberto (Murga) 22:25 – Los Más Apasionados (Parodistas) 23:10 – La Mojigata (Murga) Entrada: un…",
    "lugar": {
     "nombre": "Teatro de Verano",
     "direccion": "Rambla Wilson s/n esq. Andrés Cachón",
@@ -2002,13 +1892,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-13T20:30:00-03:00",
      "fin": null,
@@ -2041,11 +1924,52 @@
    "precio": null,
    "entradas": [],
    "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/20251112dicimouyjmr3361.jpg",
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/20251112dicimouyjmr3356.jpg",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Prueba de Admisión del Carnaval 2027",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1047",
+   "url": "https://eventos.montevideo.gub.uy/evento/envejecimiento-activo/paseo-para-personas-mayores-colonia",
+   "titulo": "Paseo para personas mayores a Colonia",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "El viernes 4 de diciembre se realizará un nuevo paseo para personas mayores a Colonia, con visitas a distintos puntos de interés de la ciudad. Inscripciones Las inscripciones se realizarán el viernes 20 de noviembre, de 10:00 a 14:00, en las oficinas de la Unidad de Atención y Orientación sobre…",
+   "lugar": {
+    "nombre": "Colonia del Sacramento",
+    "direccion": "Colonia del Sacramento",
+    "lat": -34.46746260954,
+    "lon": -57.843696992634,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T08:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/paseo-de-personas-mayores-a-colonia_55515215587_o.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Envejecimiento activo",
    "etiquetas": [],
    "muestra": false,
    "hasta": null

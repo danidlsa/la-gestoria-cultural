@@ -1,69 +1,10 @@
 {
  "fuente": "zitarrosa",
- "corrida": "2026-11-12T11:01:52.383824-03:00",
+ "corrida": "2026-11-13T11:02:18.914641-03:00",
  "ok": true,
- "cantidad": 19,
+ "cantidad": 18,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "festival-de-fado-sara-correia",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/festival-de-fado-sara-correia/",
-   "titulo": "Festival de Fado – Sara Correia",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Regresa a Montevideo la mayor muestra internacional del género más popular de la canción portuguesa, con la temática “El fado y los barrios”. La nueva edición del Festival de Fado contará con la presencia de la artista Sara Correia. Sara Correia llega al Festival se Fado con el justo estatus de…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1000.0,
-    "hasta": 1600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021274/espectaculo/Festival%20Fado%20Mvd%202026?0",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/festival-de-fado-sara-correia/"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/festival-de-fado-sara-correia/"
-    }
-   ],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/07/Untitled-2-21-Creditos_-Maria-Rita.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40021274/espectaculo/Festival%20Fado%20Mvd%202026?0"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "zitarrosa",
    "id_externo": "natalie-perez-ciclo-marea",
