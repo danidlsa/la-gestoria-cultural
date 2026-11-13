@@ -1,8 +1,8 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-12T16:10:48.672648-03:00",
+ "corrida": "2026-11-12T23:07:56.019888-03:00",
  "ok": true,
- "cantidad": 17,
+ "cantidad": 16,
  "errores": [],
  "eventos": [
   {
@@ -89,52 +89,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F6ac5d468-4cd7-4cd4-934d-d3785c12ea83.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "f0fb3315-42ef-489a-a4f1-6ad404ca7387",
-   "url": "https://www.tikzet.com/events/homenaje-a-gilberto-gil",
-   "titulo": "Homenaje a Gilberto Gil",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Refazendo Gilberto Gil Beto Ponce guitarra Ani Ruiz voz Álvaro Cardozo teclados Fede blois percusión *Las mesas son de 4/5 personas por lo que pueden ser compartidas. *Si venis en grupo: recomendamos hacer una única compra *En caso de hacer compras por separado y querer sentarse en conjunto avisar…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T21:00:00-03:00",
-     "fin": "2026-11-12T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/homenaje-a-gilberto-gil",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fce6c44a1-277e-45cc-90d5-904a1d5a0868.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -559,52 +513,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "27d891c2-4908-47ad-9908-62834fa8b5d6",
-   "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
-   "titulo": "Jula Andina presenta “Fecunda”",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La cantautora argentina JULA ANDINA presenta FECUNDA el próximo 24 de Noviembre en El Hormiguero. En un encuentro entre canciones, viajes y universos propios, la noche abrirá con Fulana de Val y contará con la participación especial de Clara Pregliasco, ambas cantautoras uruguayas. FECUNDA nace de…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T21:00:00-03:00",
-     "fin": "2026-11-24T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "151dec2c-5b9f-40fa-90e9-dcc4b69fa97c",
    "url": "https://www.tikzet.com/events/noche-flamenca-ice",
    "titulo": "NOCHE FLAMENCA ICE",
@@ -780,6 +688,52 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
    "productor": "Piffa",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "27d891c2-4908-47ad-9908-62834fa8b5d6",
+   "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
+   "titulo": "Jula Andina presenta “Fecunda”",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La cantautora argentina JULA ANDINA presenta FECUNDA el próximo 24 de Noviembre en El Hormiguero. En un encuentro entre canciones, viajes y universos propios, la noche abrirá con Fulana de Val y contará con la participación especial de Clara Pregliasco, ambas cantautoras uruguayas. FECUNDA nace de…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T21:00:00-03:00",
+     "fin": "2026-11-24T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
+   "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

@@ -1,8 +1,8 @@
 {
  "fuente": "redtickets",
- "corrida": "2026-11-12T16:01:55.684270-03:00",
+ "corrida": "2026-11-12T22:57:58.285821-03:00",
  "ok": true,
- "cantidad": 440,
+ "cantidad": 438,
  "errores": [],
  "eventos": [
   {
@@ -21,69 +21,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-12T11:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-12T12:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-12T13:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-12T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-12T14:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-12T15:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-12T15:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-12T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-12T16:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-12T17:00:00-03:00",
      "fin": null,
@@ -1215,52 +1152,6 @@
   },
   {
    "fuente": "redtickets",
-   "id_externo": "34279",
-   "url": "https://www.redtickets.uy/evento/HISTORIAS-CON-BERRETINES-1211/34279/",
-   "titulo": "HISTORIAS CON BERRETINES 12.11",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "La compra de tu entrada incluye un servicio completo de té y café para disfrutar durante la actividad.",
-   "lugar": {
-    "nombre": "Restaurante El Berretín",
-    "direccion": "Dr. José María Montero 3052",
-    "lat": -34.9227,
-    "lon": -56.155186,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T17:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1070.0,
-    "hasta": 1070.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/HISTORIAS-CON-BERRETINES-1211/34279/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/5c703f1a-854e-4eb5-86b9-1532cd1d9b8b_Event_34279.jpg",
-   "productor": "El Berretín",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
    "id_externo": "34049",
    "url": "https://www.redtickets.uy/evento/Perseverancia-en-el-dialogo/34049/",
    "titulo": "Perseverancia en el diálogo",
@@ -1356,52 +1247,6 @@
   },
   {
    "fuente": "redtickets",
-   "id_externo": "33048",
-   "url": "https://www.redtickets.uy/evento/VOCES-ANONIMAS--Silent-Horror-Tour-Prado--12-de-Noviembre/33048/",
-   "titulo": "VOCES ANÓNIMAS | Silent Horror Tour: Prado - 12 de Noviembre",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Silent Horror Tour: Prado El jueves 22 de Octubre te invitamos a recorrer uno de los barrios más mágicos de Uruguay: El Prado. En este paseo fascinante, disfrutarás de un walking tour en el que serán protagonistas las historias y leyendas más conocidas de la zona, a través de la magia del sonido de…",
-   "lugar": {
-    "nombre": "Hotel del Prado",
-    "direccion": "Av. Gabriela Mistral 4223",
-    "lat": -34.85503,
-    "lon": -56.207084,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 759.0,
-    "hasta": 759.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/VOCES-ANONIMAS--Silent-Horror-Tour-Prado--12-de-Noviembre/33048/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/f245be0f-893f-4384-880d-7402f5b04510_Event_33048.jpg",
-   "productor": "Museo del Terror - Voces Anónimas",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
    "id_externo": "33063",
    "url": "https://www.redtickets.uy/evento/SOY-TODAS/33063/",
    "titulo": "SOY TODAS",
@@ -1457,166 +1302,6 @@
    ],
    "imagen_url": "https://files.redtickets.uy/imagenes/cda2fc28-3c27-4f07-b3b4-64893a83c67e_Event_33063.jpg",
    "productor": "Espacio Zorrilla",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
-   "id_externo": "33514",
-   "url": "https://www.redtickets.uy/evento/ZARZUELA--FLAMENCO/33514/",
-   "titulo": "ZARZUELA & FLAMENCO",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Pedro Embrujo presenta su nuevo espectáculo ZARZUELA&FLAMENCO, Un Legado en Hispanoamérica, inspirada en Faustino García, el “Quijote de la Zarzuela”, quién desde muy joven llevó la Zarzuela hacia Hispanoamérica, sembrando en el público un férreo amor por este género. La Obra recoge el legado de…",
-   "lugar": {
-    "nombre": "Teatro Stella D'Italia. La Gaviota",
-    "direccion": "Mercedes 1805",
-    "lat": -34.900541,
-    "lon": -56.178195,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 850.0,
-    "hasta": 1100.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/ZARZUELA--FLAMENCO/33514/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/ZARZUELA--FLAMENCO/33514/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/ZARZUELA--FLAMENCO/33514/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/ZARZUELA--FLAMENCO/33514/"
-    }
-   ],
-   "imagen_url": "https://files.redtickets.uy/imagenes/79d00c3a-1961-4b48-98b0-a1ab8ea2fb60_Event_33514.jpg",
-   "productor": "Institución Teatral de La Gaviota",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
-   "id_externo": "33732",
-   "url": "https://www.redtickets.uy/evento/GLADYS-FLORIMONTE-en-FLORIMONTE-MANIA-con-Jeronimo-Toquero-y-Alejandro-Bertero/33732/",
-   "titulo": "GLADYS FLORIMONTE en \"FLORIMONTE MANÍA\" con Jerónimo Toquero y Alejandro Bertero",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "🇦🇷✨ ¡DESDE ARGENTINA, GLADYS FLORIMONTE LLEGA A TEATRÓN! La gran artista argentina Gladys Florimonte llega con FLORIMONTE MANÍA , una noche para reencontrarnos con varios de sus personajes más queridos: Zulma de Tinelli, La Muda, La Española y muchas sorpresas más. La acompañan dos talentosos…",
-   "lugar": {
-    "nombre": "Teatrón",
-    "direccion": "Av.Gral Rivera 3406, 11300 Montevideo, D",
-    "lat": -34.902037,
-    "lon": -56.140804,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 870.0,
-    "hasta": 12070.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/GLADYS-FLORIMONTE-en-FLORIMONTE-MANIA-con-Jeronimo-Toquero-y-Alejandro-Bertero/33732/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/0b9d7a26-3f42-4385-a2c4-613886c10c86_Event_33732.jpg",
-   "productor": "TEATRON",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
-   "id_externo": "33806",
-   "url": "https://www.redtickets.uy/evento/KINGARUTS--Presentacion-de-INTRO-FULL-ALBUM/33806/",
-   "titulo": "KINGARUTS - Presentación de INTRO FULL ALBUM",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "KINGARUTS llega junto a THE LIONS FULL BAND para presentar en vivo su álbum debut, “INTRO FULL ÁLBUM”, producido por Gianni Maggioli / La Floresta Crew y gestado durante seis años de trabajo entre Uruguay y Argentina. El show será mucho más que la presentación de un disco: será un encuentro de…",
-   "lugar": {
-    "nombre": "Sala Camacuá",
-    "direccion": "Camacuá 575, 11000 Montevideo, Departame",
-    "lat": -34.909122,
-    "lon": -56.202256,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/KINGARUTS--Presentacion-de-INTRO-FULL-ALBUM/33806/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "AEBU",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/KINGARUTS--Presentacion-de-INTRO-FULL-ALBUM/33806/"
-    }
-   ],
-   "imagen_url": "https://files.redtickets.uy/imagenes/a2737609-215e-4441-89fa-cb480ebed6e1_Event_0.jpg",
-   "productor": "Sala Camacuá",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -1695,68 +1380,6 @@
    ],
    "imagen_url": "https://files.redtickets.uy/imagenes/b667d99e-aba8-4ccf-ba1e-016c3d8d41cc_Event_33843.jpg",
    "productor": "Camila Grill",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
-   "id_externo": "34061",
-   "url": "https://www.redtickets.uy/evento/Samba-Do-Marcio--NOVIEMBRE/34061/",
-   "titulo": "Samba Do Marcio - NOVIEMBRE",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Samba do Marcio vuelve para hacer vibrar la Sala del Museo del Carnaval un jueves de cada mes. El espectáculo se desarrolla en un escenario 360° en el centro del público, generando una experiencia cercana, participativa y envolvente. Con Marcio como anfitrión y acompañado por talentosos músicos y…",
-   "lugar": {
-    "nombre": "Sala del Museo del Carnaval",
-    "direccion": "Sala del Museo del Carnaval",
-    "lat": -34.905874,
-    "lon": -56.212285,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 1200.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/Samba-Do-Marcio--NOVIEMBRE/34061/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/Samba-Do-Marcio--NOVIEMBRE/34061/"
-    },
-    {
-     "programa": "Futurock",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/Samba-Do-Marcio--NOVIEMBRE/34061/"
-    },
-    {
-     "programa": "Santander",
-     "tipo": "Canje de Puntos Soy Santander - PISTA GENERAL",
-     "url": "https://www.redtickets.uy/evento/Samba-Do-Marcio--NOVIEMBRE/34061/"
-    }
-   ],
-   "imagen_url": "https://files.redtickets.uy/imagenes/8d3c9ff4-466f-4e45-a80d-e7432e832cc2_Event_34061.jpg",
-   "productor": "Sala Del Museo",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -1991,120 +1614,6 @@
    ],
    "imagen_url": "https://files.redtickets.uy/imagenes/8db04fda-d273-468f-874c-d78a36d29f5f_Event_33627.jpg",
    "productor": "we producciones",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
-   "id_externo": "33915",
-   "url": "https://www.redtickets.uy/evento/Viva-Ritual-Escenico/33915/",
-   "titulo": "Viva. Ritual Escénico",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "“VIVA” es una invitación a transitar un universo de sensaciones y recuerdos, un puente directo hacia la sabiduría de la vida y el reencuentro con lo sagrado. Impulsada por una necesidad profunda de volver a lo esencial, esta pieza responde al llamado de lo ancestral y originario, reconociendo el…",
-   "lugar": {
-    "nombre": "Alejandria Café de las Artes",
-    "direccion": "Gaboto 1384, 11200 Montevideo",
-    "lat": -34.903989,
-    "lon": -56.177825,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 700.0,
-    "hasta": 700.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/Viva-Ritual-Escenico/33915/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Otras promos",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/Viva-Ritual-Escenico/33915/"
-    }
-   ],
-   "imagen_url": "https://files.redtickets.uy/imagenes/72c048b9-b82e-4e70-bd40-86d73d038e5d_Event_33915.jpg",
-   "productor": "Verónica Lena",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
-   "id_externo": "34135",
-   "url": "https://www.redtickets.uy/evento/Futuros-Presidentes-Banda-invitada-Amador/34135/",
-   "titulo": "Futuros Presidentes. Banda invitada: Amador",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Futuros Presidentes se presenta en la Sociedad Urbana para consolidar 8 años de permanente campaña electoral, sótanos del under, su álbum ya grabado en 2022 y sus canciones nuevas. -------------------------------------------------- (Formato del show: de pie) Conocé más sobre la SUVD…",
-   "lugar": {
-    "nombre": "Sociedad Urbana Villa Dolores",
-    "direccion": "Alejo Rosell y Rius 1483, Montevideo",
-    "lat": -34.900614,
-    "lon": -56.146561,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/Futuros-Presidentes-Banda-invitada-Amador/34135/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios SUVD",
-     "tipo": "SOCIOS SUVD",
-     "url": "https://www.redtickets.uy/evento/Futuros-Presidentes-Banda-invitada-Amador/34135/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/Futuros-Presidentes-Banda-invitada-Amador/34135/"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/Futuros-Presidentes-Banda-invitada-Amador/34135/"
-    }
-   ],
-   "imagen_url": "https://files.redtickets.uy/imagenes/5f58a9fc-c2fb-4a1b-b0f4-3a35c93dfdd5_Event_34135.jpg",
-   "productor": "SOCIEDAD URBANA VILLA DOLORES",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -4062,6 +3571,73 @@
   },
   {
    "fuente": "redtickets",
+   "id_externo": "32869",
+   "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/",
+   "titulo": "Cámara Hamlet",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "CAMARA HAMLET de Marcel Sawchik Monegal Una corporación virtual inicia un proyecto de experimentación que tiene como cometido en una primera instancia la puesta en escena de una versión de la obra Hamlet en formato unipersonal. En ella, un actor será guiado únicamente por una IA antropomórfica…",
+   "lugar": {
+    "nombre": "ESNADE (Escuela Nacional de Declamación)",
+    "direccion": "José Enrique Rodó 1712",
+    "lat": -34.905642,
+    "lon": -56.179245,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "2x1",
+     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
+    },
+    {
+     "programa": "Socios ESNADE",
+     "tipo": "2x1",
+     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
+    },
+    {
+     "programa": "Otras promos",
+     "tipo": "2x1",
+     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
+    }
+   ],
+   "imagen_url": "https://files.redtickets.uy/imagenes/6743d21a-9c42-46e0-9f38-2ae85332ab86_Event_32869.jpg",
+   "productor": "Miriam Pelegrinetti",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
    "id_externo": "33260",
    "url": "https://www.redtickets.uy/evento/Contarte-el-mundo/33260/",
    "titulo": "Contarte el mundo",
@@ -4663,73 +4239,6 @@
    "beneficios": [],
    "imagen_url": "https://files.redtickets.uy/imagenes/8ca4b20c-0d2d-49e7-9b2b-2debed992b7e_Event_34733.jpg",
    "productor": "Sala Rondeau",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
-   "id_externo": "32869",
-   "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/",
-   "titulo": "Cámara Hamlet",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "CAMARA HAMLET de Marcel Sawchik Monegal Una corporación virtual inicia un proyecto de experimentación que tiene como cometido en una primera instancia la puesta en escena de una versión de la obra Hamlet en formato unipersonal. En ella, un actor será guiado únicamente por una IA antropomórfica…",
-   "lugar": {
-    "nombre": "ESNADE (Escuela Nacional de Declamación)",
-    "direccion": "José Enrique Rodó 1712",
-    "lat": -34.905642,
-    "lon": -56.179245,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
-    },
-    {
-     "programa": "Socios ESNADE",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
-    },
-    {
-     "programa": "Otras promos",
-     "tipo": "2x1",
-     "url": "https://www.redtickets.uy/evento/Camara-Hamlet/32869/"
-    }
-   ],
-   "imagen_url": "https://files.redtickets.uy/imagenes/6743d21a-9c42-46e0-9f38-2ae85332ab86_Event_32869.jpg",
-   "productor": "Miriam Pelegrinetti",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -7353,59 +6862,6 @@
   },
   {
    "fuente": "redtickets",
-   "id_externo": "34523",
-   "url": "https://www.redtickets.uy/evento/Rincon-infantil-Atrapasuenos-en-TEATRO-MANDRAGORA/34523/",
-   "titulo": "Rincón infantíl Atrapasueños en TEATRO MANDRÁGORA",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "¡VENÍ AL TEATRO SIN PREOCUPARTE POR DÓNDE DEJAR A TUS PEQUES! Ahora podés disfrutar de algunas de nuestras funciones teatrales mientras tus hijos se divierten en un espacio de recreación especialmente pensado para ellos. 🎨 Juegos, Ludotéca, actividades y diversión acompañados por el equipo de…",
-   "lugar": {
-    "nombre": "Teatro MANDRÁGORA Escuela de Artes",
-    "direccion": "Dr Javier Barrios Amorín 1312, 11200 Mon",
-    "lat": -34.906059,
-    "lon": -56.184418,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-22T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 325.0,
-    "hasta": 325.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/Rincon-infantil-Atrapasuenos-en-TEATRO-MANDRAGORA/34523/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/2d70cb98-f4dd-4391-97a8-d85192462210_Event_34523.jpg",
-   "productor": "Francisco Benítez",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
    "id_externo": "34137",
    "url": "https://www.redtickets.uy/evento/La-Cueva-de-los-Druidas--Edicion-10-Aniversario/34137/",
    "titulo": "La Cueva de los Druidas – Edición 10º Aniversario",
@@ -7593,6 +7049,59 @@
    ],
    "imagen_url": "https://files.redtickets.uy/imagenes/80cd93f1-8abd-4ac5-a949-9d15d9553c56_Event_34206.jpg",
    "productor": "TEATRO LAWN TENNIS - Sala Antonio Larreta",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
+   "id_externo": "34523",
+   "url": "https://www.redtickets.uy/evento/Rincon-infantil-Atrapasuenos-en-TEATRO-MANDRAGORA/34523/",
+   "titulo": "Rincón infantíl Atrapasueños en TEATRO MANDRÁGORA",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "¡VENÍ AL TEATRO SIN PREOCUPARTE POR DÓNDE DEJAR A TUS PEQUES! Ahora podés disfrutar de algunas de nuestras funciones teatrales mientras tus hijos se divierten en un espacio de recreación especialmente pensado para ellos. 🎨 Juegos, Ludotéca, actividades y diversión acompañados por el equipo de…",
+   "lugar": {
+    "nombre": "Teatro MANDRÁGORA Escuela de Artes",
+    "direccion": "Dr Javier Barrios Amorín 1312, 11200 Mon",
+    "lat": -34.906059,
+    "lon": -56.184418,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 325.0,
+    "hasta": 325.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/Rincon-infantil-Atrapasuenos-en-TEATRO-MANDRAGORA/34523/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/2d70cb98-f4dd-4391-97a8-d85192462210_Event_34523.jpg",
+   "productor": "Francisco Benítez",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -7964,6 +7473,52 @@
    ],
    "imagen_url": "https://files.redtickets.uy/imagenes/a3c60dfe-d93f-40ab-b24a-48d682c47aa1_Event_34167.jpg",
    "productor": "Sala Valle Inclán",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
+   "id_externo": "32735",
+   "url": "https://www.redtickets.uy/evento/El-juego-de-la-Felicidad/32735/",
+   "titulo": "El juego de la Felicidad",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "SI EL MUNDO APURA PARAMOS ACÁ, PARA VIVIR LA VIDA HAY QUE SOLTAR Y DIS-FRU-TAR ♫♬♪ Margarita la Drag Queen del momento abre las puertas de su propio programa de televisión: un disparatado show de transformismo en vivo donde el humor, los juegos, la música y el baile se apoderan de la pantalla… y…",
+   "lugar": {
+    "nombre": "Teatro MANDRÁGORA Escuela de Artes",
+    "direccion": "Dr Javier Barrios Amorín 1312, 11200 Mon",
+    "lat": -34.906059,
+    "lon": -56.184418,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 325.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/El-juego-de-la-Felicidad/32735/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/90eed2cd-0e49-4c37-adc2-53c6be4f7be4_Event_32735.jpg",
+   "productor": "Francisco Benítez",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -8384,52 +7939,6 @@
    "beneficios": [],
    "imagen_url": "https://files.redtickets.uy/imagenes/c68906ce-fa8b-4c2c-a425-edf6bd57260b_Event_0.jpg",
    "productor": "Live Era",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
-   "id_externo": "32735",
-   "url": "https://www.redtickets.uy/evento/El-juego-de-la-Felicidad/32735/",
-   "titulo": "El juego de la Felicidad",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "SI EL MUNDO APURA PARAMOS ACÁ, PARA VIVIR LA VIDA HAY QUE SOLTAR Y DIS-FRU-TAR ♫♬♪ Margarita la Drag Queen del momento abre las puertas de su propio programa de televisión: un disparatado show de transformismo en vivo donde el humor, los juegos, la música y el baile se apoderan de la pantalla… y…",
-   "lugar": {
-    "nombre": "Teatro MANDRÁGORA Escuela de Artes",
-    "direccion": "Dr Javier Barrios Amorín 1312, 11200 Mon",
-    "lat": -34.906059,
-    "lon": -56.184418,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 325.0,
-    "hasta": 650.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/El-juego-de-la-Felicidad/32735/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/90eed2cd-0e49-4c37-adc2-53c6be4f7be4_Event_32735.jpg",
-   "productor": "Francisco Benítez",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -14326,6 +13835,52 @@
   },
   {
    "fuente": "redtickets",
+   "id_externo": "34943",
+   "url": "https://www.redtickets.uy/evento/75x75--CELEBRAMOS-LA-VIDA-Y-OBRA-DE-CHARLY/34943/",
+   "titulo": "75x75 - CELEBRAMOS LA VIDA Y OBRA DE CHARLY",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "JAM de OTRO PLANETA - EDICIÓN ESPECIAL Jueves 26 de noviembre desde las 21hs. La JAM en SATURNO se despide de su casa por más de 3 años, La Morada de Saturno, y se muda a un espacio mucho más amplio: INDOORCLUB 1983, para la primera edición de la JAM de OTRO PLANETA. En esta edición especial…",
+   "lugar": {
+    "nombre": "Indoorclub 1983",
+    "direccion": "Av. Luis Alberto de Herrera 2883, 11000",
+    "lat": -34.876545,
+    "lon": -56.157533,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/75x75--CELEBRAMOS-LA-VIDA-Y-OBRA-DE-CHARLY/34943/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/6ecc3736-a106-47cc-883e-df13de3efb10_Event_0.jpg",
+   "productor": "Pablo Reyes",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
    "id_externo": "34712",
    "url": "https://www.redtickets.uy/evento/Homenaje-a-Marley-por-Jam-de-la-Costa-y-Ale-Larrandaburu/34712/",
    "titulo": "Homenaje a Marley por Jam de la Costa y Ale Larrandaburu",
@@ -14501,6 +14056,58 @@
    "beneficios": [],
    "imagen_url": "https://files.redtickets.uy/imagenes/f98d4057-f1fb-44ca-ad00-2598d1159417_Event_34846.jpg",
    "productor": "El Berretín",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
+   "id_externo": "34940",
+   "url": "https://www.redtickets.uy/evento/Documental-Elena-Quinteros/34940/",
+   "titulo": "Documental Elena Quinteros",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Documental Elena Quinteros A 50 años de su desaparición: con testimonios de docentes contemporáneas/os a Elena, compañeras/os de colegio y de Magisterio, de militancia, periodistas, entre otras/os. Una parte del documental es una breve ficción, con diálogos entre Elena, su amiga Teresa y su madre…",
+   "lugar": {
+    "nombre": "Sala Camacuá",
+    "direccion": "Camacuá 575, 11000 Montevideo, Departame",
+    "lat": -34.909122,
+    "lon": -56.202256,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 125.0,
+    "hasta": 250.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/Documental-Elena-Quinteros/34940/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "AEBU",
+     "tipo": "2x1",
+     "url": "https://www.redtickets.uy/evento/Documental-Elena-Quinteros/34940/"
+    }
+   ],
+   "imagen_url": "https://files.redtickets.uy/imagenes/1b9413aa-5afd-4c00-8f57-e0a89f199431_Event_0.jpg",
+   "productor": "Sala Camacuá",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -15455,52 +15062,6 @@
   },
   {
    "fuente": "redtickets",
-   "id_externo": "34383",
-   "url": "https://www.redtickets.uy/evento/WannaBus--Transporte-Ida-y-Vuelta--WannaBe-Project-6/34383/",
-   "titulo": "WannaBus | Transporte Ida y Vuelta - WannaBe Project #6",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Opción 1 – Kibón Ubicación: Rambla Presidente Charles de Gaulle Horario de subida: 16:00 hs Salida puntual: 16:15 hs Opción 2 – Plaza Virgilio Ubicación: Rambla República de México, junto al restaurante Almar Horario de subida: 16:25 hs Salida puntual: 16:35 hs",
-   "lugar": {
-    "nombre": "Rbla. Pte. Charles De Gaulle 1569",
-    "direccion": "Kibón, Montevideo",
-    "lat": -34.910901,
-    "lon": -56.135397,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/WannaBus--Transporte-Ida-y-Vuelta--WannaBe-Project-6/34383/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/1aef5fa7-6b13-40cc-99ea-65fdbe983a34_Event_34383.jpg",
-   "productor": "Wanna Be Project",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
    "id_externo": "33112",
    "url": "https://www.redtickets.uy/evento/BUITRES/33112/",
    "titulo": "BUITRES",
@@ -15882,6 +15443,52 @@
    "beneficios": [],
    "imagen_url": "https://files.redtickets.uy/imagenes/de0f57bc-268f-41fb-86f6-1494002cd629_Event_32972.jpg",
    "productor": "Sala Rondeau",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
+   "id_externo": "34383",
+   "url": "https://www.redtickets.uy/evento/WannaBus--Transporte-Ida-y-Vuelta--WannaBe-Project-6/34383/",
+   "titulo": "WannaBus | Transporte Ida y Vuelta - WannaBe Project #6",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Opción 1 – Kibón Ubicación: Rambla Presidente Charles de Gaulle Horario de subida: 16:00 hs Salida puntual: 16:15 hs Opción 2 – Plaza Virgilio Ubicación: Rambla República de México, junto al restaurante Almar Horario de subida: 16:25 hs Salida puntual: 16:35 hs",
+   "lugar": {
+    "nombre": "Rbla. Pte. Charles De Gaulle 1569",
+    "direccion": "Kibón, Montevideo",
+    "lat": -34.910901,
+    "lon": -56.135397,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/WannaBus--Transporte-Ida-y-Vuelta--WannaBe-Project-6/34383/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/1aef5fa7-6b13-40cc-99ea-65fdbe983a34_Event_34383.jpg",
+   "productor": "Wanna Be Project",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -16873,6 +16480,52 @@
   },
   {
    "fuente": "redtickets",
+   "id_externo": "34936",
+   "url": "https://www.redtickets.uy/evento/RICO--LOS-ROBADOS/34936/",
+   "titulo": "RICO & LOS ROBADOS",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Rico y los Robados vuelven a la Sociedad Urbana Villa Dolores con tremendo show cargado de energía. Un momentazo para cerrar el año y celebrar con amigos una noche de verano. Festejan un año de su primer disco Algo Dejamos , mezclando todo el sabor del funk, disco y rock para hacerte gozar de…",
+   "lugar": {
+    "nombre": "Sociedad Urbana Villa Dolores",
+    "direccion": "Alejo Rosell y Rius 1483, Montevideo",
+    "lat": -34.900614,
+    "lon": -56.146561,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/RICO--LOS-ROBADOS/34936/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/2072a6e9-d934-4640-a76e-620eaa8acafa_Event_34936.jpg",
+   "productor": "SOCIEDAD URBANA VILLA DOLORES",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
    "id_externo": "34554",
    "url": "https://www.redtickets.uy/evento/FERIADO---MONKELIS-en-La-Cretina/34554/",
    "titulo": "FERIADO + MONKELIS en La Cretina",
@@ -17161,6 +16814,52 @@
   },
   {
    "fuente": "redtickets",
+   "id_externo": "34290",
+   "url": "https://www.redtickets.uy/evento/EL-CRIMEN-DEL-SIGLO/34290/",
+   "titulo": "EL CRIMEN DEL SIGLO",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "El Crimen del Siglo despide el año debutando en el sótano más icónico de Montevideo. Un show especial en formato banda extendida. Artistas invitados por anunciarse.",
+   "lugar": {
+    "nombre": "Inmigrantes MVD",
+    "direccion": "Juan Paullier 1252, 11200 Montevideo, De",
+    "lat": -34.904758,
+    "lon": -56.1676,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/EL-CRIMEN-DEL-SIGLO/34290/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/38474916-2968-42a3-81a2-d7706b9282fc_Event_34290.jpg",
+   "productor": "Inmigrantes MVD",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
    "id_externo": "34341",
    "url": "https://www.redtickets.uy/evento/Croupier-Funk--La-maquina-del-Groove-II/34341/",
    "titulo": "Croupier Funk – La máquina del Groove II",
@@ -17204,52 +16903,6 @@
    ],
    "imagen_url": "https://files.redtickets.uy/imagenes/e1b13a73-a126-4408-9b70-d0c28776db1e_Event_34341.jpg",
    "productor": "SOCIEDAD URBANA VILLA DOLORES",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "redtickets",
-   "id_externo": "34290",
-   "url": "https://www.redtickets.uy/evento/EL-CRIMEN-DEL-SIGLO/34290/",
-   "titulo": "EL CRIMEN DEL SIGLO",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "El Crimen del Siglo despide el año debutando en el sótano más icónico de Montevideo. Un show especial en formato banda extendida. Artistas invitados por anunciarse.",
-   "lugar": {
-    "nombre": "Inmigrantes MVD",
-    "direccion": "Juan Paullier 1252, 11200 Montevideo, De",
-    "lat": -34.904758,
-    "lon": -56.1676,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-03T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 450.0,
-    "hasta": 450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.redtickets.uy/evento/EL-CRIMEN-DEL-SIGLO/34290/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://files.redtickets.uy/imagenes/38474916-2968-42a3-81a2-d7706b9282fc_Event_34290.jpg",
-   "productor": "Inmigrantes MVD",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -20807,7 +20460,13 @@
      "via": "redtickets"
     }
    ],
-   "beneficios": [],
+   "beneficios": [
+    {
+     "programa": "Santander",
+     "tipo": "Canje de Puntos Soy Santander - Tanda 2",
+     "url": "https://www.redtickets.uy/evento/TUSSIWARRIORS/34706/"
+    }
+   ],
    "imagen_url": "https://files.redtickets.uy/imagenes/64ff40d5-5fa7-421c-b6f3-3e41981951c7_Event_34706.jpg",
    "productor": "Sala Del Museo",
    "region": "montevideo",
@@ -23312,6 +22971,98 @@
   },
   {
    "fuente": "redtickets",
+   "id_externo": "34950",
+   "url": "https://www.redtickets.uy/evento/Camila-Vaccaro-en-La-Cretina/34950/",
+   "titulo": "Camila Vaccaro en La Cretina",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Llega desde Chile por unica vez en Montevideo, Camila Vaccaro con su show EL Gabinete de las Condenadas. Unica oportunidad para ver a esta artista en vivo en MVD, en La Cretina.",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236, 11100 Montevideo, Departam",
+    "lat": -34.907876,
+    "lon": -56.189303,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-20T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 605.0,
+    "hasta": 605.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/Camila-Vaccaro-en-La-Cretina/34950/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/6ed57c2b-b526-4e80-8774-fd925c2b41b5_Event_34950.jpg",
+   "productor": "La Cretina",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
+   "id_externo": "34949",
+   "url": "https://www.redtickets.uy/evento/TRAIDORES--El-ultimo-pogo-del-ano/34949/",
+   "titulo": "TRAIDORES - El ultimo pogo del año",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "TRAIDORES: EL ÚLTIMO POGO DEL AÑO Después de un año histórico celebrando los 40 años de Montevideo Agoniza y tras una noche inolvidable a sala llena en La Trastienda, Traidores vuelve al escenario para despedir el 2026 como corresponde: con toda la energía y con la gente bien cerca. Este 20 de…",
+   "lugar": {
+    "nombre": "Live Era",
+    "direccion": "Uruguay 960, 11200 Montevideo, Departame",
+    "lat": -34.903487,
+    "lon": -56.195803,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 780.0,
+    "hasta": 1580.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/TRAIDORES--El-ultimo-pogo-del-ano/34949/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/d2d0e51b-11f6-4d27-a855-1872f2d060be_Event_0.jpg",
+   "productor": "Live Era",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
    "id_externo": "34608",
    "url": "https://www.redtickets.uy/evento/ILAN-AMORES--SALA-RONDEAU/34608/",
    "titulo": "ILAN AMORES - SALA RONDEAU",
@@ -24137,6 +23888,52 @@
    "beneficios": [],
    "imagen_url": "https://files.redtickets.uy/imagenes/99595ade-ecf4-490c-a203-03120957f8e3_Event_0.jpg",
    "productor": "Live Era",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "redtickets",
+   "id_externo": "34944",
+   "url": "https://www.redtickets.uy/evento/SOY-KLEIII/34944/",
+   "titulo": "SOY KLEIII",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "¡URUGUAY, PREPÁRATE PARA UNA NOCHE DE RISAS! 😂🔥 Por primera vez en Uruguay llega SOYKLEIII, el comediante venezolano que ha conquistado al público con sus personajes, imitaciones, ocurrencias y un humor único que no deja a nadie sin reír. Después de agotar todo en 2026, regresa en 2027 con un nuevo…",
+   "lugar": {
+    "nombre": "Radisson Montevideo Victoria Plaza Hotel",
+    "direccion": "Pl. Independencia 759, 11100 Montevideo,",
+    "lat": -34.90581,
+    "lon": -56.199503,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-04-01T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1320.0,
+    "hasta": 2200.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.redtickets.uy/evento/SOY-KLEIII/34944/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://files.redtickets.uy/imagenes/fdf7d716-14a4-4ecc-a5c1-e80a69f17ad4_Event_34944.jpg",
+   "productor": "Producciones VU",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

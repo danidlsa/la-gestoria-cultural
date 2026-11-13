@@ -1,31 +1,7 @@
 {
- "generado": "2026-11-12T16:12:53.949335-03:00",
+ "generado": "2026-11-12T23:09:18.791770-03:00",
  "cantidad": 27,
  "ciclos": [
-  {
-   "id": "ciclo-envejecimiento-activo",
-   "titulo": "Envejecimiento activo",
-   "lugar_id": null,
-   "desde": "2026-11-12T16:00:00-03:00",
-   "hasta": "2026-12-11T16:00:00-03:00",
-   "cantidad": 6
-  },
-  {
-   "id": "ciclo-andrzej-wajda-en-su-centenario",
-   "titulo": "Andrzej Wajda, en su centenario",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-12T17:00:00-03:00",
-   "hasta": "2026-11-17T19:20:00-03:00",
-   "cantidad": 7
-  },
-  {
-   "id": "ciclo-fac",
-   "titulo": "FAC",
-   "lugar_id": "fac-fundacion-de-arte-contemporaneo",
-   "desde": "2026-11-12T18:00:00-03:00",
-   "hasta": "2026-11-28T11:00:00-03:00",
-   "cantidad": 2
-  },
   {
    "id": "ciclo-ciclo-de-cine-accesible-2026",
    "titulo": "Ciclo de Cine Accesible 2026",
@@ -75,6 +51,14 @@
    "cantidad": 132
   },
   {
+   "id": "ciclo-envejecimiento-activo",
+   "titulo": "Envejecimiento activo",
+   "lugar_id": null,
+   "desde": "2026-11-13T10:00:00-03:00",
+   "hasta": "2026-12-11T16:00:00-03:00",
+   "cantidad": 6
+  },
+  {
    "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
    "titulo": "Ciclo (no tan) Solos al mediodía",
    "lugar_id": "teatro-solis",
@@ -91,12 +75,28 @@
    "cantidad": 1
   },
   {
+   "id": "ciclo-andrzej-wajda-en-su-centenario",
+   "titulo": "Andrzej Wajda, en su centenario",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-13T17:00:00-03:00",
+   "hasta": "2026-11-17T19:20:00-03:00",
+   "cantidad": 6
+  },
+  {
    "id": "ciclo-centro-cultural-de-espana",
    "titulo": "Centro Cultural de España",
    "lugar_id": "centro-cultural-de-espana",
    "desde": "2026-11-13T18:00:00-03:00",
    "hasta": "2026-11-27T19:00:00-03:00",
    "cantidad": 9
+  },
+  {
+   "id": "ciclo-fac",
+   "titulo": "FAC",
+   "lugar_id": "fac-fundacion-de-arte-contemporaneo",
+   "desde": "2026-11-14T11:00:00-03:00",
+   "hasta": "2026-11-28T11:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-paseo-sur-palermo",
@@ -155,20 +155,20 @@
    "cantidad": 2
   },
   {
+   "id": "ciclo-candlelight",
+   "titulo": "Candlelight",
+   "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
+   "desde": "2026-11-21T17:30:00-03:00",
+   "hasta": "2026-12-19T17:30:00-03:00",
+   "cantidad": 3
+  },
+  {
    "id": "ciclo-cordon-beer",
    "titulo": "Cordón Beer",
    "lugar_id": "cordon-beer",
    "desde": "2026-11-21T18:00:00-03:00",
    "hasta": "2026-12-24T12:00:00-03:00",
    "cantidad": 2
-  },
-  {
-   "id": "ciclo-candlelight",
-   "titulo": "Candlelight",
-   "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
-   "desde": "2026-11-21T21:30:00-03:00",
-   "hasta": "2026-12-27T16:30:00-03:00",
-   "cantidad": 3
   },
   {
    "id": "ciclo-tmc",

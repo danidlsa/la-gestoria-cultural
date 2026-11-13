@@ -1,6 +1,6 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-12T16:11:13.131858-03:00",
+ "corrida": "2026-11-12T23:08:19.351669-03:00",
  "ok": true,
  "cantidad": 53,
  "errores": [],
@@ -293,13 +293,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-12T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-16T18:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -424,52 +417,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/db13f0afa4cb.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "subtemvd-20261112",
-   "url": "https://www.instagram.com/p/Dew-yEBFE8S/",
-   "titulo": "Centro de Exposiciones Subte: EPISODIO 3: LA SUBTERADORA.",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "EPISODIO 3: LA SUBTERADORA. Un aparato para cosechar comunitas de Ana Laura López de la Torre y Niklaus Strobel INAUGURACIÓN Jueves 12 de noviembre de 2026 - 19:00 h Entrada libre y gratuita La Subteradora es un aparato multipropósito, un archipiélago de funciones conectadas y puestas al servicio…",
-   "lugar": {
-    "nombre": "Centro de Exposiciones Subte",
-    "direccion": "Plaza Fabini",
-    "lat": -34.90563,
-    "lon": -56.19423,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dew-yEBFE8S/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5845b36b8a62.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1272,11 +1219,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "fotocluburuguayo-20261115",
-   "url": "https://www.instagram.com/p/Dfe0XyukaW5/",
+   "url": "https://www.instagram.com/p/DfqRZciGO64/",
    "titulo": "Foto Club Uruguayo: Se viene otra Feria Fotográfica de Primavera",
-   "categoria": "musica",
+   "categoria": "carnaval",
    "categoria_segura": false,
-   "descripcion_corta": "¡Se viene otra Feria Fotográfica de Primavera! El domingo 15 de noviembre, de 14 a 20 h, te esperamos en La Cretina con una gran variedad de propuestas vinculadas a la fotografía y las artes visuales. Fotografías, grabados, cianotipias, libros, postales, totes, fondos pintados, guías de naturaleza…",
+   "descripcion_corta": "Música en vivo en la Feria Fotográfica de Primavera Este domingo 15 de noviembre a las 18 h nos acompaña Manolo Varela, integrante de Varelman v4relman Manolo Varela es músico y compositor montevideano. Su música cruza rock, candombe, milonga, reggae y bolero, con letras que van de lo social a lo…",
    "lugar": {
     "nombre": "La Cretina",
     "direccion": "Soriano 1236",
@@ -1286,7 +1233,7 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-15T14:00:00-03:00",
+     "inicio": "2026-11-15T18:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -1296,7 +1243,7 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Dfe0XyukaW5/",
+     "url": "https://www.instagram.com/p/DfqRZciGO64/",
      "via": "instagram"
     }
    ],
@@ -1747,6 +1694,52 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1085dfeadda8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "fama.tours-20261121",
+   "url": "https://www.instagram.com/p/DfpYrZ4KUfC/",
+   "titulo": "fama.tours: En nuestra última participación del año en volvemos a un reconocimiento arquitectónico…",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "En nuestra última participación del año en volvemos a un reconocimiento arquitectónico por sus calles. Caminata Art Nouveau Sábado 21 de Noviembre de 2026 12:00 a 13:30 horas Punto de encuentro: Bacacay y Buenos Aires Itinerario Edificio Tienda La Nueva Sirena Edificio Pablo Ferrando Casa José…",
+   "lugar": {
+    "nombre": "Caminata Art Nouveau",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfpYrZ4KUfC/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/cf8e45c7f214.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
