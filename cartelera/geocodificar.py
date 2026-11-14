@@ -97,6 +97,46 @@ def _patron(calle: str) -> str:
     return patron
 
 
+# Plus codes de Google ("3RMJ+QG6, 11200 Montevideo"): algunas ticketeras ponen eso en vez de la dirección. Son
+# códigos abiertos (Open Location Code) y se pasan a coordenadas sin consultar a nadie. Los cortos (4 + 2 o 3
+# caracteres) se completan con un punto de referencia: el centro de Montevideo.
+_OLC = "23456789CFGHJMPQRVWX"
+_PLUS_CODE = re.compile(rf"(?<![\w+])([{_OLC}]{{4}})\+([{_OLC}]{{2,3}})(?![\w+])", re.I)
+_REFERENCIA = (-34.88, -56.17)
+
+
+def plus_code(texto: str) -> tuple[float, float] | None:
+    """(lat, lon) del centro de la celda de un plus code corto de Montevideo, o None si el texto no tiene uno."""
+    encontrado = _PLUS_CODE.search(texto or "")
+    if not encontrado:
+        return None
+    ref_lat, ref_lon = _REFERENCIA[0] + 90, _REFERENCIA[1] + 180
+    prefijo = _OLC[int(ref_lat // 20)] + _OLC[int(ref_lon // 20)] + _OLC[int(ref_lat % 20)] + _OLC[int(ref_lon % 20)]
+    codigo = (prefijo + encontrado.group(1) + encontrado.group(2)).upper()
+    lat, lon, celda = -90.0, -180.0, 20.0
+    for i in range(0, 10, 2):
+        lat += _OLC.index(codigo[i]) * celda
+        lon += _OLC.index(codigo[i + 1]) * celda
+        if i < 8:
+            celda /= 20
+    alto, ancho = celda, celda
+    if len(codigo) > 10:  # el undécimo carácter parte la celda en 5 filas y 4 columnas
+        fila, columna = divmod(_OLC.index(codigo[10]), 4)
+        alto, ancho = celda / 5, celda / 4
+        lat, lon = lat + fila * alto, lon + columna * ancho
+    lat, lon = lat + alto / 2, lon + ancho / 2
+    # Con 4 caracteres de menos, el código se repite cada 1 grado: el más cercano a la referencia.
+    if lat - _REFERENCIA[0] > 0.5:
+        lat -= 1
+    elif _REFERENCIA[0] - lat > 0.5:
+        lat += 1
+    if lon - _REFERENCIA[1] > 0.5:
+        lon -= 1
+    elif _REFERENCIA[1] - lon > 0.5:
+        lon += 1
+    return (round(lat, 6), round(lon, 6)) if en_montevideo(lat, lon) else None
+
+
 class Geocodificador:
     def __init__(self):
         self._http: httpx.Client | None = None
@@ -113,6 +153,8 @@ class Geocodificador:
         anterior = self._cache.get(consulta.strip().lower())
         if anterior and anterior["punto"]:
             return tuple(anterior["punto"])
+        if punto := plus_code(consulta):
+            return punto
         if cruce := calles_del_cruce(consulta):
             return self._esquina(*cruce)
         # Si no, se prueba con las abreviaturas desarmadas ("Av. Gral. Rivera" -> "Avenida General Rivera") y, si

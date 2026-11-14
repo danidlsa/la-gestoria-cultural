@@ -138,7 +138,7 @@ Un mismo evento puede llegar por varias fuentes. El paso de unificación las cru
 ## Pipeline
 
 ```
- GitHub Actions (cron)              Equipo local en Uruguay (días de semana 11 h)
+ GitHub Actions (cron)              Equipo local en Uruguay (lun-vie 11 h, sáb-dom 12 h)
  ─ 15 fuentes ─────────┐            ┌─ portal IM, Zitarrosa, Ticketmaster.uy
                        ▼            ▼
               datos/fuentes/<fuente>.json   (crudo normalizado, último bueno)
@@ -231,7 +231,7 @@ Una vez por día, el programador de tareas del equipo ejecuta código **de este 
   2. Trae la rama `datos` (en `datos/` adentro del clon), para que cada fuente compare con su último resultado bueno.
   3. Corre `scrapear --donde local`. Si una fuente falla, queda su último resultado bueno.
   4. Hace commit solo de `datos/fuentes/<fuente>.json` de esas fuentes y pushea a `datos` con la deploy key.
-- [`scripts/local/cartelera.plist`](../scripts/local/cartelera.plist) es la plantilla de la tarea programada (`launchd`): días de semana a las 11, con prioridad baja. El log queda en `~/Library/Logs/cartelera-cultural.log`.
+- [`scripts/local/cartelera.plist`](../scripts/local/cartelera.plist) es la plantilla de la tarea programada (`launchd`): días de semana a las 11 y fines de semana a las 12, con prioridad baja. El log queda en `~/Library/Logs/cartelera-cultural.log`.
 - [`scripts/local/instalar.sh`](../scripts/local/instalar.sh) se corre una vez, a mano: genera la deploy key (y muestra la parte pública para pegarla en GitHub), clona el repo y registra el job. Al principio del script están los comandos para desinstalarlo.
 
 Para instalarlo hace falta que `main` tenga este código y que exista la rama `datos` (la crea la primera corrida del workflow).

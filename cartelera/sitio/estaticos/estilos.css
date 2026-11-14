@@ -1037,3 +1037,7 @@ body.imprimiendo .imprimible { display: block; }
 .imp-detalle li { break-inside: avoid; margin-bottom: 3px; }
 .imp-cuando { font-weight: 700; margin-right: 6px; }
 * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+/* Un recorrido que no dice de dónde sale: el lugar es una de sus paradas. */
+.aproximada { font-style: italic; color: var(--texto-suave); }
+.leaflet-popup .aproximada { display: inline-block; margin-top: 2px; font-size: 0.85em; }

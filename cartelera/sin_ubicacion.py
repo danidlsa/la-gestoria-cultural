@@ -26,7 +26,8 @@ log = logging.getLogger(__name__)
 # Ciudades de fuera de Montevideo que no siempre van al final del nombre ("Teatro La Sala - Las Piedras").
 _INTERIOR = re.compile(r"\b(las piedras|la paz|ciudad de la costa|el pinar|solymar|lagomar|pando|atlantida|parque del plata|"
                        r"la floresta|piriapolis|punta del este|jose ignacio|la barra|maldonado|polonio|la paloma|"
-                       r"colonia del sacramento|minas|rocha|salto|paysandu|tacuarembo|rivera|treinta y tres)\b")
+                       r"colonia del sacramento|minas|rocha|salto|paysandu|tacuarembo|rivera|treinta y tres|"
+                       r"complejo cultural politeama)\b")  # el Politeama es de la ciudad de Canelones
 
 
 def del_interior(evento: EventoCrudo) -> bool:

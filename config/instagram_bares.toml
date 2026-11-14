@@ -11,11 +11,14 @@
 #              perfil de Instagram, limpio
 #   direccion  calle y número
 #   barrio     el barrio, como en el sitio
-#   lat, lon   coordenadas, para los que solo dan una esquina ("Durazno y Jackson"): el buscador de direcciones no
-#              encuentra esquinas, y un evento sin ubicación conocida no se publica
+#   lat, lon   coordenadas, si el buscador de direcciones no encuentra el lugar
+#              (un evento sin ubicación conocida no se publica)
 #   bar        false si no es un bar (una sala, un teatro, un mercado): sus eventos no llevan la etiqueta "Bares"
 #   itinerante true si no tiene lugar fijo (una feria, un festival): el lugar sale del 📍 o de la cuenta de un lugar de
 #              esta lista que nombre el post ("Plaza ex Terminal Goes centroculturalterminalgoes")
+#              Si es un recorrido y no dice de dónde sale, va a la primera parada que se encuentre, con la nota
+#              "ubicación aproximada"
+#   categoria  si la cuenta hace siempre lo mismo: "tour" (recorridos), "musica", "teatro", "taller"… (las del sitio)
 #   notas      lo que quieras recordar (por ejemplo, "solo los jueves de jazz")
 
 # [[bar]]
@@ -184,6 +187,7 @@ bar = false
 [[bar]]
 usuario = "fama.tours"
 itinerante = true
+categoria = "tour"
 notas = "recorridos: cada uno sale de un lugar distinto; entra lo que diga el punto de encuentro con 📍"
 bar = false
 

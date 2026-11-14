@@ -75,6 +75,9 @@ class LugarCrudo(BaseModel):
     lat: float | None = None
     lon: float | None = None
     barrio: str | None = None  # pocas fuentes lo dicen (el mapa de la Noche de las Librerías sí)
+    # Otros lugares que nombra la fuente, en orden (las paradas de un recorrido): si este no se puede ubicar, el evento
+    # va al primero de esos que se encuentre, como ubicación aproximada.
+    alternativas: list[str] = []
 
 
 class EventoCrudo(BaseModel):
@@ -165,5 +168,7 @@ class Evento(BaseModel):
     imagen_url: ImagenWeb = None
     productor: str | None = None
     region: Region = "montevideo"
+    # El lugar es una parada del recorrido y no el punto de encuentro, que la fuente no dice.
+    ubicacion_aproximada: bool = False
     fuentes: list[Procedencia]
     actualizado: datetime

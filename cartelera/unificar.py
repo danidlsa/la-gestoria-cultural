@@ -73,6 +73,33 @@ def distancia_m(a: Lugar, lat: float, lon: float) -> float:
     return math.hypot(dx, dy)
 
 
+# Partes de un nombre compuesto que no son una sala: la ciudad o un barrio ("Café X, Pocitos").
+_NO_ES_SALA = {
+    "montevideo", "uruguay", "ciudad vieja", "centro", "cordon", "pocitos", "punta carretas", "parque rodo", "palermo",
+    "barrio sur", "malvin", "buceo", "prado", "aguada", "carrasco", "tres cruces", "la blanqueada", "parque batlle",
+    "punta gorda", "la teja", "cerro", "goes", "reducto", "jacinto vera", "belvedere", "sayago", "colon", "union",
+}
+_PARTES = re.compile(r"\s*[|/,]\s*|\s+[-–]\s+")
+
+
+def partes_del_nombre(nombre: str) -> tuple[list[str], str | None]:
+    """Las partes de un nombre compuesto que pueden ser la sala, y la dirección si viene pegada.
+    'Espacio Palermo | Isla de Flores 1631' -> (['Espacio Palermo'], 'Isla de Flores 1631');
+    'Museo Nacional de Artes Visuales (MNAV)' -> (['Museo Nacional de Artes Visuales'], None)."""
+    sin_parentesis = re.sub(r"\s*\([^)]*\)", "", nombre).strip()
+    candidatas, direccion = [], None
+    for parte in [sin_parentesis, *_PARTES.split(nombre)]:
+        parte = parte.strip()
+        if not parte or parte == nombre:
+            continue
+        if re.search(r"\b\d{2,5}\b", parte):
+            if not re.match(r"(?i)(piso|local|oficina|apto|planta|nivel)\b", parte):
+                direccion = direccion or parte
+        elif len(parte.split()) >= 2 and normalizar(parte) not in _NO_ES_SALA:
+            candidatas.append(parte)
+    return candidatas, direccion
+
+
 class Catalogo:
     """Asigna un lugar del catálogo a cada lugar crudo, por alias, por nombre o por cercanía."""
 
@@ -112,10 +139,38 @@ class Catalogo:
                 return lugar.id
         return None
 
+    def por_partes(self, nombre: str) -> str | None:
+        """La sala conocida que nombra alguna parte de un nombre compuesto, tal cual."""
+        partes, _ = partes_del_nombre(nombre)
+        return next((self._por_nombre[normalizar(p)] for p in partes if normalizar(p) in self._por_nombre), None)
+
+    def ubicar_parada(self, nombres: list[str], geocodificar=None) -> str | None:
+        """El primero de esos lugares (las paradas de un recorrido) que se puede ubicar: una sala conocida, que se
+        nombre tal cual o dentro del texto ("Foyer del Teatro Solís"), o un lugar que encuentre el buscador."""
+        for nombre in nombres:
+            clave = normalizar(nombre)
+            candidatos = [self._por_nombre.get(clave), self.por_partes(nombre)]
+            # Una sala conocida nombrada adentro: la de nombre más largo ("Teatro Solís" antes que "Solís").
+            adentro = sorted((k for k in self._por_nombre if len(k.split()) >= 2 and k not in _NO_ES_SALA
+                              and f" {k} " in f" {clave} "), key=len, reverse=True)
+            candidatos += [self._por_nombre[k] for k in adentro]
+            for lugar_id in candidatos:
+                if lugar_id and self.lugares[lugar_id].lat is not None:
+                    return lugar_id
+            if geocodificar and (punto := geocodificar(nombre)):
+                return self.asignar(nombre, None, *punto)
+        return None
+
     def asignar(self, nombre: str, direccion: str | None, lat: float | None, lon: float | None, barrio: str | None = None) -> str:
         nombre, _sala = separar_sala(nombre)
         clave = normalizar(nombre)
-        lugar_id = self._por_nombre.get(clave) or self._por_parecido(nombre, lat, lon)
+        lugar_id = self._por_nombre.get(clave)
+        if lugar_id is None:
+            # Un nombre compuesto ("Hotel Radisson, Piso 02", "Sala Zabala Muniz – Teatro Solís") es de una sala
+            # conocida si alguna de sus partes lo es tal cual; y si trae la dirección pegada, sirve para ubicarlo.
+            lugar_id = self.por_partes(nombre)
+            direccion = direccion or partes_del_nombre(nombre)[1]
+        lugar_id = lugar_id or self._por_parecido(nombre, lat, lon)
         if lugar_id is None and lat is not None and lon is not None:
             cercanos = [
                 l for l in self.lugares.values()
@@ -229,8 +284,9 @@ class _Conjuntos:
         self.padre[self.raiz(a)] = self.raiz(b)
 
 
-def agrupar(crudos: list[EventoCrudo], lugar_de: list[str]) -> list[list[int]]:
-    """Índices de `crudos` agrupados por evento real."""
+def agrupar(crudos: list[EventoCrudo], lugar_de: list[str], sueltos: set[int] = frozenset()) -> list[list[int]]:
+    """Índices de `crudos` agrupados por evento real. Los `sueltos` (los de ubicación aproximada) no se unen por
+    parecido: un recorrido ubicado en el Solís no es la obra que da el Solís a la misma hora."""
     conjuntos = _Conjuntos(len(crudos))
     dueno: dict[str, int] = {}
 
@@ -256,7 +312,7 @@ def agrupar(crudos: list[EventoCrudo], lugar_de: list[str]) -> list[list[int]]:
     for indices in por_lugar.values():
         for posicion, i in enumerate(indices):
             for j in indices[posicion + 1:]:
-                if crudos[i].fuente == crudos[j].fuente or conjuntos.raiz(i) == conjuntos.raiz(j):
+                if crudos[i].fuente == crudos[j].fuente or conjuntos.raiz(i) == conjuntos.raiz(j) or {i, j} & sueltos:
                     continue
                 if dias[i] & dias[j] and _parecidos(crudos[i], crudos[j]):
                     pares.append((i, j))
@@ -383,6 +439,11 @@ def armar_cartelera(
     corridas = {r.fuente: r.corrida for r in resultados}
     catalogo = Catalogo(alias)
     lugar_de = [catalogo.asignar(c.lugar.nombre, c.lugar.direccion, c.lugar.lat, c.lugar.lon, c.lugar.barrio) for c in crudos]
+    # Segunda pasada, para los que quedaron sin ubicar: un nombre compuesto ("Espacio Palermo | Isla de Flores 1631")
+    # puede ser de una sala que apareció después, con su nombre solo y con coordenadas.
+    for i, c in enumerate(crudos):
+        if catalogo.lugares[lugar_de[i]].lat is None and (otro := catalogo.por_partes(separar_sala(c.lugar.nombre)[0])):
+            lugar_de[i] = otro
 
     # Salas que ninguna fuente ubica: se buscan por dirección (o por nombre) en OpenStreetMap.
     if geocodificar:
@@ -396,6 +457,15 @@ def armar_cartelera(
                 if punto:
                     lugar.lat, lugar.lon = punto
 
+    # Un recorrido que no dice de dónde sale (o un lugar que no se encuentra) va a la primera de sus paradas que se
+    # pueda ubicar, marcado como ubicación aproximada.
+    aproximados: set[int] = set()
+    for i, c in enumerate(crudos):
+        if c.lugar.alternativas and c.lugar.lat is None and catalogo.lugares[lugar_de[i]].lat is None:
+            if parada := catalogo.ubicar_parada(c.lugar.alternativas, geocodificar):
+                lugar_de[i] = parada
+                aproximados.add(i)
+
     # Sin coordenadas no se puede saber si es Montevideo: entra solo si la sala ya es conocida con ubicación.
     ubicables = [
         i for i, c in enumerate(crudos)
@@ -407,12 +477,14 @@ def armar_cartelera(
                  "; ".join(sin_ubicar[:30]))
         if descartados is not None:
             descartados += [crudos[i] for i in sorted(set(range(len(crudos))) - set(ubicables))]
+    aproximados = {n for n, i in enumerate(ubicables) if i in aproximados}
     crudos = [crudos[i] for i in ubicables]
     lugar_de = [lugar_de[i] for i in ubicables]
 
     eventos = []
-    for grupo in agrupar(crudos, lugar_de):
+    for grupo in agrupar(crudos, lugar_de, aproximados):
         evento = fusionar([crudos[i] for i in grupo], lugar_de[grupo[0]], corridas, ahora)
+        evento.ubicacion_aproximada = all(i in aproximados for i in grupo)
         evento.funciones = [f for f in evento.funciones if vigente(f, ahora)]
         if evento.funciones:
             eventos.append(evento)

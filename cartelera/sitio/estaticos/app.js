@@ -627,8 +627,11 @@
     capaMarcadores.clearLayers();
 
     const porLugar = new Map();
+    const aproximados = new Map();  // recorridos ubicados por una de sus paradas
     for (const evento of eventos) {
-      if (coincide(evento)) porLugar.set(evento.lugar, (porLugar.get(evento.lugar) || 0) + 1);
+      if (!coincide(evento)) continue;
+      porLugar.set(evento.lugar, (porLugar.get(evento.lugar) || 0) + 1);
+      if (evento.aprox) aproximados.set(evento.lugar, (aproximados.get(evento.lugar) || 0) + 1);
     }
     const puntos = [];
     for (const [lugarId, cantidad] of porLugar) {
@@ -637,10 +640,13 @@
       const boton = el("button", { type: "button", class: "ver-sala" }, "Ver sus eventos");
       boton.addEventListener("click", () => cambiar({ sala: lugarId, seccion: "agenda" }));
       const tipo = lugar.tipo || "otro";
+      const aprox = aproximados.get(lugarId) || 0;
+      const nota = !aprox ? null : el("span", { class: "aproximada" },
+        aprox === cantidad ? "Ubicación aproximada" : `${aprox} con ubicación aproximada`);
       const punto = L.circleMarker([lugar.lat, lugar.lon], {
         radius: 7 + Math.min(14, Math.sqrt(cantidad) * 3),
         className: `punto tipo-${tipo}`, color: COLOR_BORDE, weight: 2, fillColor: COLORES_LUGAR[tipo], fillOpacity: 0.9,
-      }).bindPopup(el("div", {}, el("strong", {}, lugar.nombre), el("br"), el("span", { class: "tipo-popup" }, datos.tiposDeLugar[tipo]), el("br"), plural(cantidad, "evento"), el("br"), boton))
+      }).bindPopup(el("div", {}, el("strong", {}, lugar.nombre), el("br"), el("span", { class: "tipo-popup" }, datos.tiposDeLugar[tipo]), el("br"), plural(cantidad, "evento"), el("br"), ...(nota ? [nota, el("br")] : []), boton))
         .bindTooltip(`${lugar.nombre} · ${plural(cantidad, "evento")}`, { direction: "top", offset: [0, -8] })
         .addTo(capaMarcadores);
       // Al pasar el mouse, el punto crece (por CSS) y queda adelante de los vecinos.

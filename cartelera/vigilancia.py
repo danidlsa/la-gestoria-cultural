@@ -1,7 +1,7 @@
 """Vigila la tarea local desde GitHub Actions: si un día de semana no subió datos, abre un aviso (issue).
 
-La tarea local (scripts/local/) corre los días de semana a las 11 en un equipo en Uruguay. Si ese día el equipo
-no estuvo prendido o la corrida falló, sus fuentes quedan con el último resultado bueno y nadie se entera.
+La tarea local (scripts/local/) corre los días de semana a las 11 (y los fines de semana a las 12) en un equipo en
+Uruguay. Si un día de semana el equipo no estuvo prendido o la corrida falló, sus fuentes quedan con el último resultado bueno y nadie se entera.
 Como GitHub Actions corre igual, la corrida de la tarde mira cuándo fue la última vez que cada fuente local trajo
 datos y, si no fue ese día, abre un issue (GitHub lo manda por mail). Cuando vuelven a llegar datos, lo cierra.
 

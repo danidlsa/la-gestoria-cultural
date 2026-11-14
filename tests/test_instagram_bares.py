@@ -441,3 +441,23 @@ def test_el_punto_de_encuentro_y_el_mismo_bar_con_otras_palabras(tmp_path, monke
     fenix = {"usuario": "fenixbaruy", "nombre": "Fénix Bar", "direccion": "Juan Carlos Gómez 1251"}
     (c,) = ig.borradores_del_post(_post(2, "Jueves 26 de noviembre, 20:30 h\n📍 Bar Fénix", "2026-11-12"), fenix, {}, AHORA)
     assert (c["lugar"], c["direccion"], c["bar"], c["lugar_del_pin"]) == ("Fénix Bar", "Juan Carlos Gómez 1251", True, False)
+
+
+def test_las_paradas_de_un_recorrido():
+    oro = ("📍Oro en los Salones. Reconocimiento estilístico de los interiores de Quinta de Mendilaharsu (Museo de "
+           "Antropología), Foyer del Teatro Solís, Palacio Taranco (Museo de Artes Decorativas) y Palacete Beatriz. "
+           "Merienda. \n\n📅 Sábado 14 de Noviembre - 14:00 hs")
+    assert ig.paradas_del_recorrido(oro)[:3] == ["Quinta de Mendilaharsu", "Museo de Antropología", "Foyer del Teatro Solís"]
+    caminata = ("📍 Caminata Art Nouveau\n\n👉 Itinerario \n*Edificio Tienda La Nueva Sirena \n*Casa Mojana (Centro "
+                "Cultural de España)\n\n📍Actividad sin costo")
+    assert ig.paradas_del_recorrido(caminata) == ["Edificio Tienda La Nueva Sirena", "Casa Mojana", "Centro Cultural de España"]
+    assert ig.paradas_del_recorrido("📍 MBC Ombú\nViernes 20 h") == []
+
+
+def test_la_categoria_de_la_cuenta():
+    fama = {"usuario": "fama.tours", "itinerante": True, "bar": False, "categoria": "tour"}
+    (b,) = ig.borradores_del_post(_post(1, "📍Oro en los Salones. Reconocimiento de Quinta de Mendilaharsu, Foyer del "
+                                        "Teatro Solís y Palacete Beatriz.\n\n📅 Sábado 21 de Noviembre - 14:00 hs", "2026-11-12"),
+                                  fama, {}, AHORA)
+    evento = ig.evento_de({**b, "aprobado": True}, AHORA)
+    assert (evento.categoria, evento.lugar.alternativas[0]) == ("tour", "Quinta de Mendilaharsu")

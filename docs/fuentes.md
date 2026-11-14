@@ -403,7 +403,7 @@ El mismo evento puede llegar por Tickantel, la web de la sala, la Cartelera, el 
   - **Seguridad:** el repo es público, y GitHub desaconseja runners self-hosted en repos públicos, porque un pull request de un tercero podría ejecutar código en la máquina.
   - **Reposo:** si el equipo estaba dormido a la hora programada, la tarea corre apenas se despierta. Un runner, en cambio, deja el job en cola y GitHub lo cancela a las 24 horas.
   - **La tarea** corre sus scrapers, guarda el JSON y hace `git push`. Después, GitHub Actions arma la web con todo junto.
-- **Horario**: días de semana a las 11 h.
+- **Horario**: días de semana a las 11 h y fines de semana a las 12 h.
 - **Fines de semana**: esas fuentes quedan con el dato del viernes. No es grave, porque los eventos del finde ya se scrapearon antes.
 - **Cada fuente guarda su último resultado bueno**, para que una caída, un bloqueo o el equipo apagado no vacíen la cartelera.
 - **Más adelante**, el mismo job se puede pasar a otro equipo (una compu vieja con Linux o una Raspberry Pi) sin cambiar el código.

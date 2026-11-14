@@ -370,6 +370,48 @@ def punto_de_encuentro(texto: str) -> str | None:
     return lugar or None
 
 
+_PARADAS = re.compile(r"^\s*(?:👉\s*)?(?:itinerario|recorrido|paradas|visitamos|vamos a recorrer)\b.*$", re.I | re.M)
+_VIÑETA = re.compile(r"^\s*(?:[*•·▪️◾▫️✔️✅🔸🔹]|[-–]\s|\d+[.)]\s)\s*(.+)$")
+_NOMBRE_PROPIO = re.compile(r"((?:[A-ZÁÉÍÓÚÑ][\wáéíóúñ'.]*)(?:\s+(?:de|del|la|las|los|el|y|[A-ZÁÉÍÓÚÑ0-9][\wáéíóúñ'.]*))*)\s*$")
+
+
+def _variantes(trozo: str) -> list[str]:
+    """Cómo buscar una parada: 'los interiores de Quinta de Mendilaharsu (Museo de Antropología)' ->
+    ['Quinta de Mendilaharsu', 'Museo de Antropología']."""
+    sin_parentesis = re.sub(r"\s*\([^)]*\)", "", trozo).strip(" .,:;")
+    propio = _NOMBRE_PROPIO.search(sin_parentesis)
+    nombre = propio.group(1).strip() if propio else sin_parentesis
+    # Lo que nombra la actividad no es parte del lugar: "Reconocimiento de Quinta de Mendilaharsu".
+    nombre = re.sub(r"(?i)^(?:reconocimiento|recorrido|visita|caminata|paseo|tour)\w*\s+(?:de|del|por|a)(?:\s+(?:la|el|los|las))?\s+",
+                    "", nombre)
+    variantes = [nombre, *re.findall(r"\(([^)]+)\)", trozo)]
+    return [v.strip() for v in variantes if len(v.strip()) >= 6]
+
+
+def paradas_del_recorrido(texto: str) -> list[str]:
+    """Los lugares que nombra un recorrido, en orden: la lista del itinerario ("*Edificio Pablo Ferrando") o, si no
+    hay, la enumeración del 📍 ("📍Oro en los Salones. Reconocimiento de Quinta de Mendilaharsu, Foyer del Teatro
+    Solís, Palacio Taranco y Palacete Beatriz")."""
+    paradas: list[str] = []
+    if encabezado := _PARADAS.search(texto or ""):
+        for renglon in texto[encabezado.end():].splitlines():
+            if not renglon.strip():
+                if paradas:
+                    break
+                continue
+            vineta = _VIÑETA.match(renglon)
+            if not vineta:
+                break
+            paradas += _variantes(vineta.group(1))
+    if not paradas and (pin := _PIN.search(texto or "")):
+        # La oración del 📍 que enumera (con comas o "y"), partida en sus lugares.
+        for oracion in re.split(r"(?<=[a-záéíóúñ)])\.\s+", pin.group(1)):
+            if "," in oracion:
+                for trozo in re.split(r",\s*|\s+y\s+", oracion):
+                    paradas += _variantes(trozo)
+    return list(dict.fromkeys(paradas))
+
+
 _SEPARADOR = re.compile(r"\s*[:–—|]\s*|\s-\s")
 _SIN_NOMBRE = re.compile(r"a confirmar|cerrado|^\W*$", re.I)
 _DATOS_PRACTICOS = re.compile(r"entradas|venta|reserv|cubierto|precio|\$|whatsapp|tel[eé]fono", re.I)
@@ -495,6 +537,10 @@ def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, fu
         "lat": (conocido or {}).get("lat") if otro_lugar else cuenta.get("lat"),
         "lon": (conocido or {}).get("lon") if otro_lugar else cuenta.get("lon"),
         "lugar_del_pin": bool(otro_lugar),
+        # Las paradas de un recorrido: si el lugar no se puede ubicar, el evento va a la primera que se encuentre.
+        "paradas": paradas_del_recorrido(texto) if cuenta.get("itinerante") else [],
+        # Una cuenta que hace siempre lo mismo (fama.tours: recorridos) dice su categoría en la lista.
+        "categoria": cuenta.get("categoria"),
         # Lo que pasa en el bar lleva la etiqueta "Bares" en el sitio; no si es en otro lugar, ni si la cuenta no es de
         # un bar (una sala o un mercado: `bar = false` en la lista).
         "bar": conocido.get("bar", True) if conocido else not otro_lugar and cuenta.get("bar", True),
@@ -554,6 +600,7 @@ def juntar(previo: dict, nuevo: dict) -> dict:
         junto["titulo"] = otro["titulo"]
     if otro.get("lugar_del_pin") and not base.get("lugar_del_pin"):
         junto.update({k: otro.get(k) for k in ("lugar", "direccion", "barrio", "lat", "lon", "lugar_del_pin", "bar")})
+    junto["paradas"] = base.get("paradas") or otro.get("paradas") or []
     # Los días de los dos (un post con el ciclo del mes y otro con un martes); para cada día, con hora si alguno la da.
     por_dia: dict[date, dict] = {}
     for f in base["funciones"] + otro["funciones"]:
@@ -599,9 +646,11 @@ def evento_de(b: dict, ahora: datetime) -> EventoCrudo | None:
         id_externo=b["id"],
         url=b["url"],
         titulo=titulo,
-        categoria=clasificar(titulo, texto, por_defecto="otros"),
+        categoria=b.get("categoria") or clasificar(titulo, texto, por_defecto="otros"),
+        categoria_segura=bool(b.get("categoria")),
         descripcion_corta=recortar(re.sub(r"\s+", " ", _ADORNOS.sub(" ", texto)).strip()),
-        lugar=LugarCrudo(nombre=b["lugar"], direccion=b.get("direccion"), barrio=b.get("barrio"), lat=b.get("lat"), lon=b.get("lon")),
+        lugar=LugarCrudo(nombre=b["lugar"], direccion=b.get("direccion"), barrio=b.get("barrio"), lat=b.get("lat"), lon=b.get("lon"),
+                         alternativas=b.get("paradas") or []),
         funciones=funciones,
         precio=precio_del_texto(texto),
         entradas=[Entrada(url=b["url"], via="instagram")],

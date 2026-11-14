@@ -265,3 +265,36 @@ def test_los_descartados_por_ubicacion_van_al_aviso(ahora, tmp_path, monkeypatch
     cuerpo = sin_ubicacion.cuerpo(items)
     assert cuerpo.index("Caminata Art Nouveau") < cuerpo.index("Sala Zavala Muniz")
     assert "<!-- lugar:sala-zavala-muniz -->" in cuerpo
+
+
+def test_un_nombre_compuesto_es_de_la_sala_conocida():
+    catalogo = Catalogo([
+        {"id": "espacio-palermo", "nombre": "Espacio Palermo", "lat": -34.910571, "lon": -56.179747},
+        {"id": "teatro-solis", "nombre": "Teatro Solís"},
+        {"id": "mnav", "nombre": "Museo Nacional de Artes Visuales"},
+        {"id": "palermo", "nombre": "Plaza Palermo"},
+    ])
+    assert catalogo.asignar("Espacio Palermo | Isla de Flores 1631", None, None, None) == "espacio-palermo"
+    assert catalogo.asignar("Sala Zabala Muniz – Teatro Solís", None, None, None) == "teatro-solis"
+    assert catalogo.asignar("Museo Nacional de Artes Visuales (MNAV)", None, None, None) == "mnav"
+    # Un barrio no es una sala: "Café X, Palermo" es otro lugar.
+    nuevo = catalogo.asignar("Café Nuevo, Palermo", None, None, None)
+    assert nuevo not in {"espacio-palermo", "palermo"}
+    # Si no se conoce, la dirección pegada al nombre sirve para ubicarlo.
+    otro = catalogo.asignar("La Sala Nueva | Soriano 1236", None, None, None)
+    assert catalogo.lugares[otro].direccion == "Soriano 1236"
+
+
+def test_un_recorrido_sin_punto_de_encuentro_va_a_su_primera_parada(ahora):
+    funcion = ahora + timedelta(days=1)
+    solis = crudo("redtickets", "1", "Obra", "Teatro Solís", funcion)
+    tour = crudo("instagram_bares", "2", "fama.tours: Oro en los Salones", "Oro en los Salones", funcion)
+    tour.lugar = LugarCrudo(nombre="Oro en los Salones",
+                            alternativas=["Quinta de Mendilaharsu", "Foyer del Teatro Solís", "Palacete Beatriz"])
+    # La Quinta no está en el catálogo ni la encuentra el buscador; el Foyer es del Teatro Solís, que sí.
+    eventos, _, _ = armar_cartelera([resultado("redtickets", [solis], ahora), resultado("instagram_bares", [tour], ahora)],
+                                    ALIAS, ahora, geocodificar=lambda nombre: None)
+    (recorrido,) = [e for e in eventos if e.titulo.startswith("fama")]
+    assert recorrido.lugar_id == next(e for e in eventos if e.titulo == "Obra").lugar_id
+    assert recorrido.ubicacion_aproximada
+    assert not next(e for e in eventos if e.titulo == "Obra").ubicacion_aproximada

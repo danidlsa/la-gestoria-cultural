@@ -5,7 +5,9 @@
 [[lugar]]
 id = "auditorio-nacional-del-sodre"
 nombre = "Auditorio Nacional del Sodre"
-alias = ["Auditorio Adela Reta", "Auditorio Nacional del Sodre Dra. Adela Reta", "Auditorio Nacional Adela Reta", "Sodre"]
+# La Sala Hugo Balzo está adentro del Auditorio (Andes y Mercedes).
+alias = ["Auditorio Adela Reta", "Auditorio Nacional del Sodre Dra. Adela Reta", "Auditorio Nacional Adela Reta", "Sodre",
+         "Sala Hugo Balzo", "Sodre-Salga Hugo Balzo", "Sodre - Sala Hugo Balzo"]
 
 [[lugar]]
 id = "teatro-el-galpon"
@@ -15,12 +17,13 @@ alias = ["Teatro Galpón", "El Galpón", "Teatro Galpon Sala Cero"]
 [[lugar]]
 id = "teatro-solis"
 nombre = "Teatro Solís"
-alias = ["Solís", "Teatro Solis"]
+alias = ["Solís", "Teatro Solis", "Sala Zavala Muniz", "Sala Zabala Muniz", "Sala Principal Teatro Solís",
+         "Sala Principal del Teatro Solís"]
 
 [[lugar]]
 id = "sala-del-museo"
 nombre = "Sala del Museo"
-alias = ["Sala del Museo del Carnaval", "Museo del Carnaval"]
+alias = ["Sala del Museo del Carnaval", "Museo del Carnaval", "Patio del Museo del Carnaval"]
 
 [[lugar]]
 id = "montevideo-music-box"
@@ -141,3 +144,78 @@ lat = -34.8591365
 lon = -56.0217968
 barrio = "Parque Roosevelt (Canelones)"
 solo_por_nombre = true
+
+# Sumadas el 14/11/2026, desde el aviso de eventos sin ubicación.
+[[lugar]]
+id = "movie-montevideo-shopping"
+nombre = "Movie Montevideo Shopping"
+alias = ["UnderMovie", "Undermovie, Montevideo Shopping", "Sala Teatro Movie", "Teatro Movie"]
+direccion = "Av. Luis Alberto de Herrera 1290"
+barrio = "Buceo"
+lat = -34.90306
+lon = -56.13636
+
+[[lugar]]
+id = "escuela-nacional-de-declamacion-esnade"
+nombre = "Escuela Nacional de Declamación - ESNADE"
+alias = ["ESNADE", "ESNADE (Escuela Nacional de Declamación)"]
+direccion = "José Enrique Rodó 1712"
+lat = -34.905642
+lon = -56.179245
+
+[[lugar]]
+id = "debbie-music-club"
+nombre = "Debbie Music Club"
+alias = ["Debbie 80s Music Club"]
+direccion = "Dr. Aquiles R. Lanza 1234"
+lat = -34.907834
+lon = -56.187646
+
+[[lugar]]
+id = "botanica-sala"
+nombre = "Botánica Sala"
+alias = ["Sala Botánica", "Complejo Prado/Sala Botanica"]
+direccion = "Complejo Prado"
+lat = -34.861076
+lon = -56.20152
+
+[[lugar]]
+id = "hotel-radisson-victoria-plaza"
+nombre = "Hotel Radisson Victoria Plaza"
+alias = ["Hotel Radisson", "Radisson Montevideo Victoria Plaza Hotel", "Radisson Victoria Plaza Hotel"]
+direccion = "Plaza Independencia 759"
+lat = -34.9058104
+lon = -56.1995027
+
+[[lugar]]
+id = "museo-nacional-de-artes-visuales"
+nombre = "Museo Nacional de Artes Visuales"
+alias = ["MNAV", "Museo Nacional de Artes Visuales (MNAV)"]
+direccion = "Tomás Giribaldi 2283"
+barrio = "Parque Rodó"
+lat = -34.91384
+lon = -56.16497
+
+[[lugar]]
+id = "alianza-francesa"
+nombre = "Alianza Francesa"
+alias = ["Sala Cultural de la Alianza Francesa", "Alianza Francesa de Montevideo"]
+direccion = "Bvar. Artigas 1271"
+barrio = "Parque Rodó"
+lat = -34.90511
+lon = -56.16407
+
+[[lugar]]
+id = "plaza-primero-de-mayo"
+nombre = "Plaza 1° de Mayo"
+alias = ["Plaza Primero de Mayo", "Plaza 1 de Mayo"]
+lat = -34.88965
+lon = -56.18599
+
+[[lugar]]
+id = "anastasia"
+nombre = "Anastasia"
+direccion = "Canelones 2121"
+barrio = "Parque Rodó"
+lat = -34.907029
+lon = -56.169168

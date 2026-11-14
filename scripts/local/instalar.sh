@@ -50,5 +50,5 @@ sed -e "s|__CORRER__|$DIR/scripts/local/correr.sh|" -e "s|__LOG__|$LOG|" "$AQUI/
 launchctl bootout "gui/$(id -u)/$ETIQUETA" 2>/dev/null || true
 launchctl bootstrap "gui/$(id -u)" "$PLIST"
 
-echo "Listo: el job corre los días de semana a las 11. El log queda en $LOG."
+echo "Listo: el job corre los días de semana a las 11 y los fines de semana a las 12. El log queda en $LOG."
 echo "Para probarlo ahora: launchctl kickstart gui/$(id -u)/$ETIQUETA"

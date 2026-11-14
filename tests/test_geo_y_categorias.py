@@ -77,3 +77,13 @@ def test_un_paseo_musical_es_un_recorrido():
     assert RECORRIDO_EN_TEXTO.search(sin_tildes("Sumergite en un paseo musical inmersivo por la ciudad, recorriendo barrios"))
     # Una muestra que ofrece visitas guiadas sigue siendo una muestra.
     assert not RECORRIDO_EN_TEXTO.search(sin_tildes("La exposición cuenta con visitas guiadas los sábados"))
+
+
+def test_los_plus_codes_se_pasan_a_coordenadas():
+    from cartelera.geocodificar import plus_code
+
+    # La Sala Hugo Balzo (Sodre, Andes y Mercedes): a unos metros de -34.9043, -56.1987.
+    lat, lon = plus_code("3RW2+69X Estudio Auditorio del Sodre")
+    assert abs(lat + 34.9043) < 0.001 and abs(lon + 56.1987) < 0.001
+    assert plus_code("3RMJ+QG6, 11200 Montevideo, Departamento de Montevideo") is not None
+    assert plus_code("Soriano 1236") is None
