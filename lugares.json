@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-14T12:44:22.847539-03:00",
- "cantidad": 205,
+ "generado": "2026-11-14T14:25:18.450600-03:00",
+ "cantidad": 207,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -1138,6 +1138,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "la-ronda",
+   "nombre": "La Ronda",
+   "alias": [],
+   "direccion": "Ciudadela 1182",
+   "lat": -34.9096038,
+   "lon": -56.2000503,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "la-taberna-de-brecha",
    "nombre": "La Taberna de Brecha",
    "alias": [
@@ -1543,6 +1553,16 @@
    "direccion": "Rbla. Pdte. Wilson esq, 11200 Montevideo",
    "lat": -34.915753,
    "lon": -56.168935,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "plaza-viejo-pancho",
+   "nombre": "Plaza Viejo Pancho",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.910003,
+   "lon": -56.1576635,
    "barrio": null,
    "ciudad": "Montevideo"
   },

@@ -1,23 +1,7 @@
 {
- "generado": "2026-11-14T12:44:22.847539-03:00",
- "cantidad": 28,
+ "generado": "2026-11-14T14:25:18.450600-03:00",
+ "cantidad": 27,
  "ciclos": [
-  {
-   "id": "ciclo-fac",
-   "titulo": "FAC",
-   "lugar_id": "fac-fundacion-de-arte-contemporaneo",
-   "desde": "2026-11-14T11:00:00-03:00",
-   "hasta": "2026-11-28T11:00:00-03:00",
-   "cantidad": 2
-  },
-  {
-   "id": "ciclo-jardin-botanico",
-   "titulo": "Jardín Botánico",
-   "lugar_id": "jardin-botanico",
-   "desde": "2026-11-14T11:00:00-03:00",
-   "hasta": "2026-11-15T09:00:00-03:00",
-   "cantidad": 2
-  },
   {
    "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
    "titulo": "Ciclo (no tan) Solos al mediodía",
@@ -129,6 +113,14 @@
    "desde": "2026-11-16T11:00:00-03:00",
    "hasta": "2026-12-11T16:00:00-03:00",
    "cantidad": 7
+  },
+  {
+   "id": "ciclo-fac",
+   "titulo": "FAC",
+   "lugar_id": "fac-fundacion-de-arte-contemporaneo",
+   "desde": "2026-11-16T18:00:00-03:00",
+   "hasta": "2026-11-28T11:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-particulas",
