@@ -13,6 +13,7 @@ from cartelera.beneficios import beneficios_de_entradas
 from cartelera.categorias import esta_cancelado
 from cartelera.extraer import fecha_sin_anio, precio_de, recortar, texto_plano
 from cartelera.geo import sin_tildes
+from cartelera.geocodificar import calles_del_cruce
 from cartelera.http import Cliente
 from cartelera.modelo import Entrada, EventoCrudo, Funcion, LugarCrudo
 
@@ -64,6 +65,24 @@ def _campo(texto: str, nombre: str) -> str | None:
     return encontrado.group(1).strip() if encontrado else None
 
 
+# Lo que dice "Funciones:", hasta los precios o los anuncios. Más allá está el código de la publicidad, con
+# paréntesis como ("Rectangular1") que no son direcciones.
+_FUNCIONES = re.compile(r"Funciones:(.*?)(?:Localidades|Publicidad|$)")
+
+
+def direccion_de(texto: str) -> str | None:
+    """La dirección entre paréntesis de las funciones: "UnderMovie (Movie Montevideo Shopping)" no es una, pero
+    "(Soriano 1236)" y "(Buenos Aires y Bartolomé Mitre)" sí."""
+    bloque = _FUNCIONES.search(texto)
+    if not bloque:
+        return None
+    for dentro in re.findall(r"\(([^()\"']+)\)", bloque.group(1)):
+        dentro = dentro.strip()
+        if re.search(r"\d", dentro) or calles_del_cruce(dentro):
+            return dentro
+    return None
+
+
 def parsear_ficha(pagina: str, id_externo: str, categoria: str, hoy: date, zona) -> list[EventoCrudo]:
     """Un evento por sala (algunas obras se dan en más de una)."""
     texto = texto_plano(pagina)
@@ -79,7 +98,7 @@ def parsear_ficha(pagina: str, id_externo: str, categoria: str, hoy: date, zona)
     resumen = re.search(r"Resumen\s+(.+?)\s+(?:Funciones:|Localidades|Publicidad)", texto)
     localidades = re.search(r"Localidades\s+(.+?)\s+(?:Publicidad|Salas)", texto)
     localidades = localidades.group(1) if localidades else ""
-    direccion = re.search(r"Funciones:.*?\(([^)]*\d[^)]*)\)", texto)
+    direccion = direccion_de(texto)
     imagen = re.search(r'<img[^>]+src="([^"]+imagenes_espectaculos[^"]+)"', pagina)
     url = f"{BASE}/averespectaculo.aspx?{id_externo}"
 
@@ -96,7 +115,7 @@ def parsear_ficha(pagina: str, id_externo: str, categoria: str, hoy: date, zona)
             categoria=categoria,
             categoria_segura=True,
             descripcion_corta=recortar(resumen.group(1) if resumen else None),
-            lugar=LugarCrudo(nombre=sala, direccion=direccion.group(1).strip() if direccion and len(salas) == 1 else None),
+            lugar=LugarCrudo(nombre=sala, direccion=direccion if len(salas) == 1 else None),
             funciones=sorted(funciones, key=lambda f: f.inicio),
             precio=precio_de(localidades),
             entradas=[Entrada(url=url, via=NOMBRE)],

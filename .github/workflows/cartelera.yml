@@ -133,8 +133,9 @@ jobs:
       # Avisos por issue (GitHub los manda por mail), sin repetir títulos:
       # - un evento especial (config/eventos_especiales.toml) que se acerca sin programa;
       # - la tarea local, si un día de semana no subió datos (se cierra solo cuando vuelven a llegar);
-      # - posts nuevos de bares por Instagram, con una casilla para aprobar cada uno.
-      - name: Avisos (eventos especiales, tarea local y borradores de Instagram)
+      # - posts nuevos de bares por Instagram, con una casilla para aprobar cada uno;
+      # - eventos que no salen por no saber dónde son (uno solo, que se actualiza y se cierra cuando no queda ninguno).
+      - name: Avisos (eventos especiales, tarea local, borradores de Instagram y eventos sin ubicación)
         continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}

@@ -270,3 +270,29 @@ usuario = "jazzclub.uy"
 notas = "las fechas de jazz que Bluzz repostea; el lugar sale del 📍 o de la cuenta que nombre (bluzzbar)"
 itinerante = true
 bar = false
+
+# Sumadas el 13/11/2026.
+[[bar]]
+usuario = "porlaramblasur"
+nombre = "Por la Rambla Sur"
+notas = "vecinos en defensa del espacio público: actividades en distintos puntos de la rambla"
+itinerante = true
+bar = false
+
+[[bar]]
+usuario = "ideasmasferia"
+nombre = "Feria Ideas+"
+corto = "Ideas+"
+direccion = "21 de Setiembre y Gonzalo Ramírez"
+barrio = "Parque Rodó"
+lat = -34.9112717
+lon = -56.165584
+notas = "feria de diseño, libros, comida y música; en 2026, del 1 al 24 de diciembre"
+bar = false
+
+[[bar]]
+usuario = "horizontes.sonoro"
+nombre = "Horizontes Sonoros"
+notas = "festival de música contemporánea, entrada libre: el lugar sale del 📍"
+itinerante = true
+bar = false

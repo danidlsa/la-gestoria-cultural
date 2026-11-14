@@ -1,6 +1,9 @@
 """Coordenadas para las salas que ninguna fuente ubica, con Nominatim (OpenStreetMap).
 
-Gratis, sin API key y con una política de uso estricta (operations.osmfoundation.org/policies/nominatim):
+Las esquinas sin número de puerta ("Bacacay y Buenos Aires"), que Nominatim no encuentra, se buscan con Overpass
+(también de OpenStreetMap, gratis): el punto donde se cruzan las dos calles.
+
+Nominatim es gratis, sin API key y con una política de uso estricta (operations.osmfoundation.org/policies/nominatim):
 un pedido por segundo, User-Agent propio y caché de resultados. Cada dirección se consulta una sola
 vez; las que no se encuentran se reintentan recién después de un mes.
 
@@ -17,11 +20,12 @@ from pathlib import Path
 
 import httpx
 
-from cartelera.geo import en_montevideo
+from cartelera.geo import en_montevideo, sin_tildes
 from cartelera.http import USER_AGENT
 
 CACHE = Path("datos/cache/geocodificacion.json")
 URL = "https://nominatim.openstreetmap.org/search"
+OVERPASS = "https://overpass-api.de/api/interpreter"
 MAX_CONSULTAS = 25  # por corrida
 REINTENTAR_FALLIDAS = timedelta(days=30)
 log = logging.getLogger(__name__)
@@ -64,6 +68,35 @@ def sin_esquina(direccion: str) -> str | None:
     return desabreviar(encontrado.group(1)) if encontrado else None
 
 
+# Una esquina sin número de puerta: "Bacacay y Buenos Aires", "Av. Agraciada esquina Gral. Fausto Aguilar".
+_CRUCE = re.compile(r"^\s*(?P<a>[^,;()]+?)\s+(?:y|e|esq(?:uina)?\.?)\s+(?P<b>[^,;()]+?)\s*\.?\s*$", re.I)
+# Los únicos números que puede tener una esquina son los de las calles con fecha ("21 de Setiembre", "18 de Julio"):
+# cualquier otro es un número de puerta, y eso lo busca Nominatim.
+_CALLE_CON_FECHA = re.compile(
+    r"\b\d{1,2}\s+de\s+(?:enero|febrero|marzo|abril|mayo|junio|julio|agosto|se(?:p)?tiembre|octubre|noviembre|diciembre)\b", re.I)
+# Lo que en OpenStreetMap a veces está y a veces no ("Avenida Agraciada" o "Agraciada"): se busca sin eso.
+_PREFIJOS = re.compile(
+    r"^(?:(?:av(?:da)?\.?|avenida|gral\.?|general|dr\.?|doctor|bv\.?|bulevar|calle|cnel\.?|coronel|pte\.?|presidente|"
+    r"ing\.?|ingeniero|mcal\.?|mariscal|arq\.?|arquitecto|prof\.?|profesor|pbro\.?)\s+)+", re.I)
+
+
+def calles_del_cruce(texto: str) -> tuple[str, str] | None:
+    """'Av. Agraciada esquina Gral. Fausto Aguilar' -> ('Agraciada', 'Fausto Aguilar'); None si no es una esquina."""
+    encontrado = _CRUCE.match(texto)
+    if not encontrado or re.search(r"\d", _CALLE_CON_FECHA.sub("", texto)):
+        return None
+    calles = tuple(_PREFIJOS.sub("", c.strip()).strip() for c in (encontrado["a"], encontrado["b"]))
+    return calles if all(len(c) >= 4 for c in calles) else None
+
+
+def _patron(calle: str) -> str:
+    """Una expresión para el nombre de la calle que no se fija en tildes ni en mayúsculas."""
+    patron = re.escape(sin_tildes(calle))
+    for vocal, clase in (("a", "[aá]"), ("e", "[eé]"), ("i", "[ií]"), ("o", "[oó]"), ("u", "[uúü]"), ("n", "[nñ]")):
+        patron = patron.replace(vocal, clase)
+    return patron
+
+
 class Geocodificador:
     def __init__(self):
         self._http: httpx.Client | None = None
@@ -80,6 +113,8 @@ class Geocodificador:
         anterior = self._cache.get(consulta.strip().lower())
         if anterior and anterior["punto"]:
             return tuple(anterior["punto"])
+        if cruce := calles_del_cruce(consulta):
+            return self._esquina(*cruce)
         # Si no, se prueba con las abreviaturas desarmadas ("Av. Gral. Rivera" -> "Avenida General Rivera") y, si
         # tampoco, sin el título de la persona: OpenStreetMap tiene "Tristán Narvaja", no "Doctor Tristán Narvaja".
         # Y, por último, sin la esquina: el número de puerta alcanza.
@@ -113,6 +148,38 @@ class Geocodificador:
                 punto = (lat, lon) if en_montevideo(lat, lon) else None
         except Exception as error:  # noqa: BLE001 - sin geocodificación la sala queda sin ubicar, nada más
             log.warning("geocodificar %r: %s", consulta, error)
+            return None
+        self._cache[clave] = {"punto": list(punto) if punto else None, "fecha": datetime.now().isoformat()}
+        return punto
+
+    def _esquina(self, a: str, b: str) -> tuple[float, float] | None:
+        """Donde se cruzan dos calles de Montevideo, con Overpass: el nodo que comparten las dos."""
+        clave = f"esquina: {a.lower()} | {b.lower()}"
+        guardado = self._cache.get(clave)
+        if guardado and (guardado["punto"] or datetime.now() - datetime.fromisoformat(guardado["fecha"]) < REINTENTAR_FALLIDAS):
+            return tuple(guardado["punto"]) if guardado["punto"] else None
+        if self._consultas >= MAX_CONSULTAS:
+            return None
+        self._consultas += 1
+        consulta = (
+            '[out:json][timeout:25];area["name"="Montevideo"]["admin_level"="4"]->.m;'
+            f'way(area.m)["highway"]["name"~"{_patron(a)}",i]->.a;'
+            f'way(area.m)["highway"]["name"~"{_patron(b)}",i]->.b;'
+            "node(w.a)(w.b);out 1;"
+        )
+        punto = None
+        try:
+            self._http = self._http or httpx.Client(headers={"User-Agent": USER_AGENT}, timeout=20)
+            time.sleep(max(0.0, self._ultimo + 1.1 - time.monotonic()))
+            self._ultimo = time.monotonic()
+            respuesta = self._http.post(OVERPASS, data={"data": consulta}, timeout=60)
+            respuesta.raise_for_status()
+            nodos = respuesta.json().get("elements") or []
+            if nodos:
+                lat, lon = float(nodos[0]["lat"]), float(nodos[0]["lon"])
+                punto = (lat, lon) if en_montevideo(lat, lon) else None
+        except Exception as error:  # noqa: BLE001 - sin geocodificación la sala queda sin ubicar, nada más
+            log.warning("esquina %r y %r: %s", a, b, error)
             return None
         self._cache[clave] = {"punto": list(punto) if punto else None, "fecha": datetime.now().isoformat()}
         return punto

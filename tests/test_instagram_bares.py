@@ -424,3 +424,20 @@ def test_el_lugar_sale_de_la_lista(tmp_path, monkeypatch):
     (d,) = ig.borradores_del_post(_post(3, "Sábado 14 de noviembre\n🕕 De 11 a 13 h\n📍 Modalidad presencial o virtual",
                                         "2026-11-05"), fac, {}, AHORA)
     assert (d["lugar"], d["direccion"]) == ("FAC", "Av. Sarmiento 2244")
+
+
+def test_el_punto_de_encuentro_y_el_mismo_bar_con_otras_palabras(tmp_path, monkeypatch):
+    monkeypatch.setattr(ig, "CONFIG", tmp_path / "bares.toml")
+    (tmp_path / "bares.toml").write_text(
+        '[[bar]]\nusuario = "fenixbaruy"\nnombre = "Fénix Bar"\ndireccion = "Juan Carlos Gómez 1251"\n', encoding="utf-8")
+    # En un recorrido, el 📍 es el nombre de la actividad: el lugar es el punto de encuentro.
+    fama = {"usuario": "fama.tours", "itinerante": True, "bar": False}
+    (b,) = ig.borradores_del_post(_post(1, "Volvemos a un reconocimiento arquitectónico.\n\n📍 Caminata Art Nouveau \n\n"
+                                        "📅 Sábado 21 de Noviembre de 2026 \n🕜 12:00 a 13:30 horas\n\n"
+                                        "👉 Punto de encuentro: Bacacay y Buenos Aires\n\n👉 Itinerario", "2026-11-12"),
+                                  fama, {}, AHORA)
+    assert (b["lugar"], b["funciones"][0]["inicio"][:16]) == ("Bacacay y Buenos Aires", "2026-11-21T12:00")
+    # "📍 Bar Fénix" en la cuenta de "Fénix Bar" es el mismo bar, con su dirección y la etiqueta.
+    fenix = {"usuario": "fenixbaruy", "nombre": "Fénix Bar", "direccion": "Juan Carlos Gómez 1251"}
+    (c,) = ig.borradores_del_post(_post(2, "Jueves 26 de noviembre, 20:30 h\n📍 Bar Fénix", "2026-11-12"), fenix, {}, AHORA)
+    assert (c["lugar"], c["direccion"], c["bar"], c["lugar_del_pin"]) == ("Fénix Bar", "Juan Carlos Gómez 1251", True, False)

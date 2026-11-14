@@ -358,6 +358,18 @@ def lugar_del_texto(texto: str) -> tuple[str | None, str | None]:
     return partes[0], direccion
 
 
+_ENCUENTRO = re.compile(r"punto\s+de\s+(?:encuentro|partida|salida)\s*:?\s*([^\n]+)", re.I)
+
+
+def punto_de_encuentro(texto: str) -> str | None:
+    """De dónde sale un recorrido: "👉 Punto de encuentro: Bacacay y Buenos Aires" -> "Bacacay y Buenos Aires"."""
+    encontrado = _ENCUENTRO.search(texto or "")
+    if not encontrado:
+        return None
+    lugar = re.split(r"[^\w\s,.'\-–&/°ºª()]", encontrado.group(1))[0].strip(" -–,.")
+    return lugar or None
+
+
 _SEPARADOR = re.compile(r"\s*[:–—|]\s*|\s-\s")
 _SIN_NOMBRE = re.compile(r"a confirmar|cerrado|^\W*$", re.I)
 _DATOS_PRACTICOS = re.compile(r"entradas|venta|reserv|cubierto|precio|\$|whatsapp|tel[eé]fono", re.I)
@@ -409,18 +421,24 @@ def _clave(texto: str) -> str:
     return re.sub(r"[^a-z0-9]", "", sin_tildes(texto))
 
 
+def _claves(texto: str) -> set[str]:
+    """Las formas de reconocer un nombre: tal cual y con las palabras en otro orden ("Bar Fénix" es "Fénix Bar")."""
+    palabras = sorted(re.findall(r"[a-z0-9]+", sin_tildes(texto)))
+    return {_clave(texto), "".join(palabras)}
+
+
 def _con_lugar_fijo(cuenta: dict) -> bool:
     return bool(cuenta.get("direccion") or cuenta.get("lat"))
 
 
 def cuenta_del_lugar(nombre: str) -> dict | None:
     """La cuenta de la lista que es ese lugar, si se sabe dónde queda: el 📍 "MuMi" es "MuMI - Muralla Abierta"."""
-    buscado = _clave(nombre)
-    if len(buscado) < 4:
+    buscado = _claves(nombre)
+    if len(_clave(nombre)) < 4:
         return None
     for c in cuentas():
         nombres = {c["usuario"], c.get("corto") or "", c.get("nombre") or "", re.split(r"\s[-–]\s", c.get("nombre") or "")[0]}
-        if _con_lugar_fijo(c) and buscado in {_clave(n) for n in nombres if n}:
+        if _con_lugar_fijo(c) and buscado & {k for n in nombres if n for k in _claves(n)}:
             return c
     return None
 
@@ -447,6 +465,11 @@ def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, fu
     imagen = post.get("media_url") if post.get("media_type") in ("IMAGE", "CAROUSEL_ALBUM") else None
     del_bar = cuenta.get("nombre") or perfil.get("name") or cuenta["usuario"]
     nombre, direccion = lugar_del_texto(texto)
+    # Un recorrido (una caminata, una visita) sale de un punto de encuentro, que es más preciso que el 📍: en
+    # "📍 Caminata Art Nouveau" el 📍 es el nombre de la actividad. Solo en cuentas sin lugar fijo: en una sala, "punto
+    # de encuentro: la puerta" no es otro lugar.
+    if (encuentro := punto_de_encuentro(texto)) and (cuenta.get("itinerante") or not _con_lugar_fijo(cuenta)):
+        nombre, direccion = encuentro, None
     # Si el 📍 nombra al mismo bar (o solo da la dirección), el lugar es el bar; si nombra otro lugar, ese.
     otro_lugar = nombre and sin_tildes(nombre) not in sin_tildes(del_bar) and sin_tildes(del_bar) not in sin_tildes(nombre)
     # Si ese otro lugar está en la lista, con su dirección. Una cuenta sin lugar fijo (una feria, un festival) que no
@@ -457,6 +480,8 @@ def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, fu
     if conocido and conocido["usuario"] != cuenta["usuario"]:
         nombre, direccion, otro_lugar = conocido.get("nombre") or nombre or conocido["usuario"], conocido.get("direccion"), True
     else:
+        if conocido:  # el 📍 nombra al mismo bar con otras palabras ("📍 Bar Fénix" en la cuenta de "Fénix Bar")
+            otro_lugar = False
         conocido = None
     return {
         # Un borrador por cuenta y día: el mismo evento anunciado en varios posts (o en la agenda del mes y en la de

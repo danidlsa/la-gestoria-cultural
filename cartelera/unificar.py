@@ -376,7 +376,9 @@ def cargar_resultados(directorio: Path = DIR_FUENTES) -> list[ResultadoFuente]:
 
 def armar_cartelera(
     resultados: list[ResultadoFuente], alias: list[dict], ahora: datetime, geocodificar=None, buscar_genero=None,
+    descartados: list[EventoCrudo] | None = None,
 ) -> tuple[list[Evento], list[Lugar], list[Ciclo]]:
+    """Arma la cartelera. Si se pasa `descartados`, ahí quedan los eventos que no salen por no tener ubicación."""
     crudos = [e for r in resultados for e in r.eventos]
     corridas = {r.fuente: r.corrida for r in resultados}
     catalogo = Catalogo(alias)
@@ -400,7 +402,11 @@ def armar_cartelera(
         if c.lugar.lat is not None or catalogo.lugares[lugar_de[i]].lat is not None
     ]
     if len(ubicables) < len(crudos):
-        log.info("unificar: %s eventos descartados por no tener ubicación conocida", len(crudos) - len(ubicables))
+        sin_ubicar = sorted({f"{crudos[i].titulo} ({crudos[i].lugar.nombre})" for i in set(range(len(crudos))) - set(ubicables)})
+        log.info("unificar: %s eventos descartados por no tener ubicación conocida: %s", len(crudos) - len(ubicables),
+                 "; ".join(sin_ubicar[:30]))
+        if descartados is not None:
+            descartados += [crudos[i] for i in sorted(set(range(len(crudos))) - set(ubicables))]
     crudos = [crudos[i] for i in ubicables]
     lugar_de = [lugar_de[i] for i in ubicables]
 
@@ -427,13 +433,18 @@ def unificar(ahora: datetime | None = None) -> list[Evento]:
     ahora = ahora or datetime.now(MONTEVIDEO)
     resultados = cargar_resultados()
     geocodificador, generos = Geocodificador(), BuscadorDeGeneros()
-    eventos, lugares, ciclos = armar_cartelera(resultados, cargar_alias(), ahora, geocodificador, generos)
+    descartados: list[EventoCrudo] = []
+    eventos, lugares, ciclos = armar_cartelera(resultados, cargar_alias(), ahora, geocodificador, generos, descartados)
     geocodificador.guardar()
     generos.guardar()
     DIR_DATOS.mkdir(exist_ok=True)
     _escribir("eventos.json", "eventos", eventos, ahora)
     _escribir("lugares.json", "lugares", lugares, ahora)
     _escribir("ciclos.json", "ciclos", ciclos, ahora)
+    # Lo que no sale por no saber dónde es: para el aviso en GitHub (ver sin_ubicacion.py).
+    from cartelera.sin_ubicacion import guardar as guardar_sin_ubicacion
+
+    guardar_sin_ubicacion(descartados, ahora)
     # Para "Mi recorrido" de los especiales: las caminatas entre sus lugares, ya en la caché (ver caminatas.py).
     from cartelera.caminatas import precalcular
 

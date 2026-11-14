@@ -57,3 +57,23 @@ def test_la_direccion_sin_la_esquina():
     assert sin_esquina("Av. 18 de Julio 1249 esq. Yí") == "Avenida 18 de Julio 1249"
     assert sin_esquina("Soriano 1236") is None  # no hay nada que sacar
     assert sin_esquina("Gral. Flores y Domingo Aramburú") is None  # sin número, la esquina es todo lo que hay
+
+
+def test_las_esquinas_sin_numero_de_puerta():
+    from cartelera.geocodificar import calles_del_cruce
+
+    assert calles_del_cruce("Bacacay y Buenos Aires") == ("Bacacay", "Buenos Aires")
+    assert calles_del_cruce("Av. Agraciada esquina Gral. Fausto Aguilar") == ("Agraciada", "Fausto Aguilar")
+    assert calles_del_cruce("21 de Setiembre y Gonzalo Ramírez") == ("21 de Setiembre", "Gonzalo Ramírez")
+    # Con número de puerta lo busca Nominatim; un nombre de sala no es una esquina.
+    assert calles_del_cruce("Soriano 1236 y Andes") is None
+    assert calles_del_cruce("Teatro Solís") is None
+
+
+def test_un_paseo_musical_es_un_recorrido():
+    from cartelera.etiquetas import RECORRIDO_EN_TEXTO
+    from cartelera.geo import sin_tildes
+
+    assert RECORRIDO_EN_TEXTO.search(sin_tildes("Sumergite en un paseo musical inmersivo por la ciudad, recorriendo barrios"))
+    # Una muestra que ofrece visitas guiadas sigue siendo una muestra.
+    assert not RECORRIDO_EN_TEXTO.search(sin_tildes("La exposición cuenta con visitas guiadas los sábados"))

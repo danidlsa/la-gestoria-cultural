@@ -36,6 +36,12 @@ RECORRIDO = re.compile(
     r"recorridos? (a pie|guiados?|historicos?|nocturnos?|por (la ciudad|el barrio|ciudad vieja))|paseos? guiados?|"
     r"horror tours?|tours? (a pie|guiados?|historicos?|nocturnos?))\b"
 )
+# Lo mismo en la descripción, pero solo con frases que no dejan dudas: un paseo musical que recorre la ciudad
+# ("Montevideo Sonoro - Palermo": el título no lo dice) es un recorrido, aunque lo venda una ticketera de música.
+RECORRIDO_EN_TEXTO = re.compile(
+    r"\b(paseos? (musicales?|sonoros?|guiados?|historicos?|a pie)|recorriendo (barrios|calles|la ciudad|el barrio)|"
+    r"recorridos? (musicales?|sonoros?|a pie|guiados?)|walking tours?)\b"
+)
 # Lugares que son en sí mismos una visita: lo que pasa ahí es un recorrido. (El Castillo Pittamiglio no:
 # también hace obras e infantiles; sus visitas guiadas entran por el título.)
 LUGARES_DE_VISITA = {"palacio-salvo"}
@@ -171,7 +177,8 @@ def etiquetar(eventos: list[Evento], nombres_lugar: dict[str, str], buscar_gener
         evento.subcategoria = subcategoria(evento, nombres_lugar.get(evento.lugar_id, ""))
         if evento.subcategoria == "stand_up":
             evento.categoria = "humor"
-        if RECORRIDO.search(sin_tildes(evento.titulo)) or evento.lugar_id in LUGARES_DE_VISITA:
+        if (RECORRIDO.search(sin_tildes(evento.titulo)) or evento.lugar_id in LUGARES_DE_VISITA
+                or RECORRIDO_EN_TEXTO.search(sin_tildes(evento.descripcion_corta or ""))):
             evento.categoria, evento.subcategoria = "tour", None
         if evento.categoria == "musica" and not evento.subcategoria:
             evento.subcategoria = genero_por_texto(evento) or (buscar_genero(evento.titulo) if buscar_genero else None)

@@ -242,3 +242,26 @@ def test_un_evento_paraguas_no_pega_las_etapas():
     assert sorted(map(sorted, agrupar([*etapas, paraguas], ["tv"] * 5))) == [[0], [1], [2], [3], [4]]
     # Con una sola etapa parecida, se une como siempre.
     assert sorted(map(sorted, agrupar([etapas[0], crudo("portal_im", "Prueba de Admisión", noche[:1])], ["tv"] * 2))) == [[0, 1]]
+
+
+def test_los_descartados_por_ubicacion_van_al_aviso(ahora, tmp_path, monkeypatch):
+    from cartelera import sin_ubicacion
+
+    monkeypatch.setattr(sin_ubicacion, "ARCHIVO", tmp_path / "sin_ubicacion.json")
+    funcion = ahora + timedelta(days=1)
+    caminata = crudo("instagram_bares", "1", "fama.tours: Caminata", "Caminata Art Nouveau", funcion)
+    caminata.lugar = LugarCrudo(nombre="Caminata Art Nouveau")
+    sala = crudo("ladiaria", "2", "Obra", "Sala Zavala Muniz", funcion)
+    sala.lugar = LugarCrudo(nombre="Sala Zavala Muniz")
+    del_interior = crudo("tickantel", "3", "Recital", "Teatro La Sala - Las Piedras", funcion)
+    del_interior.lugar = LugarCrudo(nombre="Teatro La Sala - Las Piedras")
+    descartados = []
+    armar_cartelera([resultado("instagram_bares", [caminata], ahora), resultado("otras", [sala, del_interior], ahora)],
+                    ALIAS, ahora, descartados=descartados)
+    assert len(descartados) == 3
+    # Al aviso va lo de Montevideo (o que podría serlo), no lo del interior; primero lo que vino de Instagram.
+    items = sin_ubicacion.guardar(descartados, ahora)
+    assert [i["lugar"] for i in items] == ["Caminata Art Nouveau", "Sala Zavala Muniz"]
+    cuerpo = sin_ubicacion.cuerpo(items)
+    assert cuerpo.index("Caminata Art Nouveau") < cuerpo.index("Sala Zavala Muniz")
+    assert "<!-- lugar:sala-zavala-muniz -->" in cuerpo

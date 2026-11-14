@@ -32,3 +32,14 @@ def test_precio_de_las_localidades():
     assert (precio.desde, precio.hasta) == (600, 600)
     assert cartelera_mvd.precio_de("Entrada libre y gratuita").gratis
     assert cartelera_mvd.precio_de("Consultar en boletería") is None
+
+
+def test_la_direccion_sale_de_las_funciones_no_de_la_publicidad():
+    anuncio = ' Publicidad sas.cmd.push(function() { sas.render("Rectangular1"); });'
+    # Sin dirección: el paréntesis del anuncio no cuenta.
+    assert cartelera_mvd.direccion_de("Funciones: viernes 21:00 horas - UnderMovie (Movie Montevideo Shopping). "
+                                      "Localidades $ 800." + anuncio) is None
+    # Una esquina sin número también es una dirección.
+    assert cartelera_mvd.direccion_de("Funciones: sábados 20:00 horas - Salida desde la Explanada del Teatro Solís "
+                                      "(Buenos Aires y Bartolomé Mitre). Localidades $ 600." + anuncio) == "Buenos Aires y Bartolomé Mitre"
+    assert cartelera_mvd.direccion_de("Funciones: jueves 20:30 - La Cretina (Soriano 1236). Localidades $ 500.") == "Soriano 1236"
