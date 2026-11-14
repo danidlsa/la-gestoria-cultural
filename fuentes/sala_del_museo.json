@@ -1,53 +1,10 @@
 {
  "fuente": "sala_del_museo",
- "corrida": "2026-11-13T23:04:38.870423-03:00",
+ "corrida": "2026-11-14T12:40:12.950913-03:00",
  "ok": true,
  "cantidad": 12,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "sala_del_museo",
-   "id_externo": "el-cumple-de-mabel-5",
-   "url": "https://www.saladelmuseo.com.uy/shows/item/el-cumple-de-mabel-5.html",
-   "titulo": "EL CUMPLE DE MABEL",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Llegó Noviembre, se nos fue el año… prepárate que ya estamos en los meses más lindos del año y MABEL está lista!!! Venite a festejar con tu TEAM que en la pista te espera nuestra reina DJ BEVE y muchas sorpresas. Si cumplís, festejas. Si no venís igual. Mabel es la fiesta de todxs! ADVERTENCIA El…",
-   "lugar": {
-    "nombre": "Sala del Museo",
-    "direccion": "Rambla 25 de Agosto esq. Maciel",
-    "lat": -34.905789,
-    "lon": -56.212222,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/EL-CUMPLE-DE-MABEL--La-fiesta-mas-divertida--NOVIEMBRE/33608/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/__2_Cuadrada_1080_7_2_5a5ed67174c667fb47c7778d226b65d9.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/EL-CUMPLE-DE-MABEL--La-fiesta-mas-divertida--NOVIEMBRE/33608/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "sala_del_museo",
    "id_externo": "el-zar-3",
@@ -61,7 +18,8 @@
     "direccion": "Rambla 25 de Agosto esq. Maciel",
     "lat": -34.905789,
     "lon": -56.212222,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -104,7 +62,8 @@
     "direccion": "Rambla 25 de Agosto esq. Maciel",
     "lat": -34.905789,
     "lon": -56.212222,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -147,7 +106,8 @@
     "direccion": "Rambla 25 de Agosto esq. Maciel",
     "lat": -34.905789,
     "lon": -56.212222,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -190,7 +150,8 @@
     "direccion": "Rambla 25 de Agosto esq. Maciel",
     "lat": -34.905789,
     "lon": -56.212222,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -233,7 +194,8 @@
     "direccion": "Rambla 25 de Agosto esq. Maciel",
     "lat": -34.905789,
     "lon": -56.212222,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -276,7 +238,8 @@
     "direccion": "Rambla 25 de Agosto esq. Maciel",
     "lat": -34.905789,
     "lon": -56.212222,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -319,7 +282,8 @@
     "direccion": "Rambla 25 de Agosto esq. Maciel",
     "lat": -34.905789,
     "lon": -56.212222,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -362,7 +326,8 @@
     "direccion": "Rambla 25 de Agosto esq. Maciel",
     "lat": -34.905789,
     "lon": -56.212222,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -405,7 +370,8 @@
     "direccion": "Rambla 25 de Agosto esq. Maciel",
     "lat": -34.905789,
     "lon": -56.212222,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -448,7 +414,8 @@
     "direccion": "Rambla 25 de Agosto esq. Maciel",
     "lat": -34.905789,
     "lon": -56.212222,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -491,7 +458,8 @@
     "direccion": "Rambla 25 de Agosto esq. Maciel",
     "lat": -34.905789,
     "lon": -56.212222,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -515,6 +483,50 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/MATEO-X6/33381/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "llenxs-de-sentimiento-el-festival-de-julen-y-la-gente-sola",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/llenxs-de-sentimiento-el-festival-de-julen-y-la-gente-sola.html",
+   "titulo": "JULEN Y LA GENTE SOLA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Llegamos a Sala del Museo con la primera edición de nuestro festival “Llenxs de Sentimientos”! Esto es un llamado a todxs, a los de siempre, a los de antes, a los que vendrán. Llevamos 16 años construyendo un camino colectivo con la escena y nuestrxs amigxs, en este pueblo y en pueblos vecinos…",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Llenxs-de-Sentimiento-el-festival-de-Julen-y-la-gente-sola/34240/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_24_1_30b51029af7dcb80a6aaed143753eac5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Llenxs-de-Sentimiento-el-festival-de-Julen-y-la-gente-sola/34240/"
    ],
    "ciclo": null,
    "etiquetas": [],

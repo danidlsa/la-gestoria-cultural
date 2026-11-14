@@ -1,8 +1,8 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-13T23:05:59.109928-03:00",
+ "corrida": "2026-11-14T12:41:40.174191-03:00",
  "ok": true,
- "cantidad": 15,
+ "cantidad": 14,
  "errores": [],
  "eventos": [
   {
@@ -18,7 +18,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -59,7 +60,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -100,7 +102,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -141,7 +144,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -182,7 +186,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -223,7 +228,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -264,7 +270,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -305,7 +312,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -346,7 +354,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -387,7 +396,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -428,7 +438,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -469,7 +480,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -510,7 +522,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -540,47 +553,6 @@
   },
   {
    "fuente": "mientrada",
-   "id_externo": "30672",
-   "url": "https://mientrada.com.uy/evento/sunset-open-summer-middot-hypnose-30672",
-   "titulo": "SUNSET OPEN SUMMER · HYPNOSE",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Contáctanos a nuestro WhatsApp Oficial Hypnose Prrsents : Sunset OPEN SSUMMER",
-   "lugar": {
-    "nombre": "Carrasco Polo Club",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-13T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mientrada.com.uy/evento/sunset-open-summer-middot-hypnose-30672",
-     "via": "mientrada"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30672_banner5.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mientrada",
    "id_externo": "30765",
    "url": "https://mientrada.com.uy/evento/the-madman-lives-30765",
    "titulo": "THE MADMAN LIVES",
@@ -592,7 +564,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {

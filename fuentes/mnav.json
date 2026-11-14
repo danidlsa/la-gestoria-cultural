@@ -1,6 +1,6 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-13T23:05:37.865755-03:00",
+ "corrida": "2026-11-14T12:41:15.284317-03:00",
  "ok": true,
  "cantidad": 23,
  "errores": [],
@@ -18,16 +18,10 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T00:00:00-03:00",
      "fin": null,
@@ -78,16 +72,10 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T00:00:00-03:00",
      "fin": null,
@@ -507,6 +495,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -544,16 +539,10 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T00:00:00-03:00",
      "fin": null,
@@ -604,16 +593,10 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T00:00:00-03:00",
      "fin": null,
@@ -1029,6 +1012,13 @@
     },
     {
      "inicio": "2027-01-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-13T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1070,16 +1060,10 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T00:00:00-03:00",
      "fin": null,
@@ -1499,6 +1483,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -1536,7 +1527,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1856,6 +1848,13 @@
     },
     {
      "inicio": "2027-01-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-13T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1897,7 +1896,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2221,6 +2221,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -2258,7 +2265,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2299,7 +2307,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2340,7 +2349,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2381,7 +2391,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2422,7 +2433,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2463,7 +2475,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2504,7 +2517,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2545,7 +2559,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2586,7 +2601,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2627,7 +2643,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2668,7 +2685,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2709,7 +2727,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2750,7 +2769,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2791,7 +2811,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2832,7 +2853,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2873,7 +2895,8 @@
     "direccion": "Tomás Giribaldi 2283, Parque Rodó",
     "lat": -34.91384,
     "lon": -56.16497,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {

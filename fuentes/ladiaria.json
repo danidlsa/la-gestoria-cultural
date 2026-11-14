@@ -1,8 +1,8 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-13T23:04:55.053411-03:00",
+ "corrida": "2026-11-14T12:40:31.108713-03:00",
  "ok": true,
- "cantidad": 67,
+ "cantidad": 64,
  "errores": [],
  "eventos": [
   {
@@ -18,7 +18,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -72,16 +73,10 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T00:00:00-03:00",
      "fin": null,
@@ -175,7 +170,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -236,7 +232,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -297,7 +294,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -356,16 +354,10 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T20:30:00-03:00",
      "fin": null,
@@ -417,7 +409,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -471,16 +464,10 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T20:00:00-03:00",
      "fin": null,
@@ -544,7 +531,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -603,7 +591,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -662,17 +651,10 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 660.0,
     "hasta": 660.0,
@@ -716,7 +698,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -840,7 +823,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -936,7 +920,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -995,7 +980,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [],
    "precio": {
@@ -1041,7 +1027,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1089,108 +1076,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18305",
-   "url": "https://beneficios.ladiaria.com.uy/fado/",
-   "titulo": "FADO",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Regresa a Montevideo la mayor muestra internacional del género más popular de la canción portuguesa, con la temática ‘El fado y los barrios’. La nueva edición del Festival de Fado contará con la presencia de la artista Sara Correia, el día jueves 12 noviembre, a las 20.30 horas, en la Sala…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 1600.0,
-    "hasta": 1600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021274/festival-fado-mvd-2026",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/fado/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/ng/espectaculo/40021274/festival-fado-mvd-2026"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18288",
-   "url": "https://beneficios.ladiaria.com.uy/buceo-invisible-3/",
-   "titulo": "Buceo Invisible",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Buceo invisible en el Planetario. «La música estaba en el aire, una música que era como un aroma, flotando y cambiando » R. Bradbury. Aterrizamos por una noche en el domo del Planetario de Montevideo para presentar canciones de nuestro último disco «La mañana del incendio » y recorrer parte de la…",
-   "lugar": {
-    "nombre": "Planetario Municipal (Villa Dolores)",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 1100.0,
-    "hasta": 1100.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021712/buceo-invisible-en-el-planetario",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/buceo-invisible-3/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/ng/espectaculo/40021712/buceo-invisible-en-el-planetario"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18280",
    "url": "https://beneficios.ladiaria.com.uy/agrandado/",
    "titulo": "Agrandado",
@@ -1202,7 +1087,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [],
    "precio": {
@@ -1241,7 +1127,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1300,17 +1187,10 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 350.0,
     "hasta": 350.0,
@@ -1354,7 +1234,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1408,7 +1289,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [],
    "precio": {
@@ -1459,7 +1341,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [],
    "precio": {
@@ -1505,7 +1388,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1587,17 +1471,10 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 3200.0,
     "hasta": 3200.0,
@@ -1646,7 +1523,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1705,7 +1583,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1764,7 +1643,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [],
    "precio": {
@@ -1810,7 +1690,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1869,7 +1750,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1928,7 +1810,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2003,7 +1886,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2057,7 +1941,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2111,7 +1996,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2179,16 +2065,10 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T21:00:00-03:00",
      "fin": null,
@@ -2240,17 +2120,10 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 530.0,
     "hasta": 530.0,
@@ -2294,7 +2167,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2337,52 +2211,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18143",
-   "url": "https://beneficios.ladiaria.com.uy/zell/",
-   "titulo": "Zell",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Una de las figuras más prometedoras de la nueva escena urbana argentina, construyendo un universo donde trap, pop, estética digital y cultura visual conviven en una misma identidad artística. Con una propuesta que dialoga directamente con el sonido del underground estadounidense pero desde una…",
-   "lugar": {
-    "nombre": "Sala del Museo del Carnaval",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 680.0,
-    "hasta": 680.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Zell-en-Montevideo/31987/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/zell/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Zell-en-Montevideo/31987/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18130",
    "url": "https://beneficios.ladiaria.com.uy/la-habitacion-de-veronica/",
    "titulo": "La habitación de Verónica",
@@ -2394,7 +2222,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2448,7 +2277,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2502,7 +2332,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2561,7 +2392,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2615,7 +2447,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2683,7 +2516,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [],
    "precio": {
@@ -2734,7 +2568,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2788,7 +2623,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [],
    "precio": {
@@ -2834,7 +2670,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2888,7 +2725,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2942,7 +2780,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2996,17 +2835,10 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 900.0,
     "hasta": 900.0,
@@ -3050,7 +2882,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3109,7 +2942,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3168,7 +3002,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3248,7 +3083,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3302,7 +3138,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3361,7 +3198,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3415,7 +3253,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3469,7 +3308,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3528,7 +3368,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3589,7 +3430,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [],
    "precio": {
@@ -3640,7 +3482,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [],
    "precio": {
@@ -3691,7 +3534,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3750,7 +3594,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [],
    "precio": {
@@ -3801,7 +3646,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [],
    "precio": {
@@ -3852,7 +3698,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [],
    "precio": {
@@ -3898,7 +3745,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [],
    "precio": {

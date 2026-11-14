@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-13T23:07:10.230533-03:00",
+ "corrida": "2026-11-14T12:42:47.228823-03:00",
  "ok": true,
- "cantidad": 58,
+ "cantidad": 56,
  "errores": [],
  "eventos": [
   {
@@ -18,7 +18,8 @@
     "direccion": "Soriano 1236",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -89,7 +90,8 @@
     "direccion": "Gral. Flores y Domingo Aramburú",
     "lat": -34.882708,
     "lon": -56.181856,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -142,7 +144,8 @@
     "direccion": "Av. Sarmiento 2244",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -197,7 +200,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -243,7 +247,8 @@
     "direccion": "Av. Sarmiento 2244",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -291,7 +296,8 @@
     "direccion": "Durazno y Jackson",
     "lat": -34.909634,
     "lon": -56.172902,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -346,7 +352,8 @@
     "direccion": "Rincón 629",
     "lat": null,
     "lon": null,
-    "barrio": "Ciudad Vieja"
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
    },
    "funciones": [
     {
@@ -381,95 +388,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "montevideobeercompany-20261113",
-   "url": "https://www.instagram.com/reel/Dfnho-1oKlz/",
-   "titulo": "MBC: Una década de planes merecía una noche así",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "¡LA CUENTA REGRESIVA YA EMPEZÓ! Estamos a nada de vivir una noche que va a quedar para el recuerdo. Este 13 de noviembre festejamos a lo grande. ¿Están listos? ¿Ya tenés tu entrada? No te quedes afuera. https://redtickets.uy/evento/MBC-10-ANOS—1311–MUSEO-OCEANOGRAFICO/33741",
-   "lugar": {
-    "nombre": "Museo Oceanográfico",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/Dfnho-1oKlz/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a361573dcf33.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261113",
-   "url": "https://www.instagram.com/p/DfnNgADKU0J/",
-   "titulo": "The Shannon: PROYECTO OLDIES",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Viernes 13/Noviembre: JAM SESSION Clásicos de rock& pop - 22 hs Cubierto artístico $200 Club Shannon: VOLDCAST, ATROPELLO y SABOTAJE Rock&Roll - 22 hs Cubierto artístico $200",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 200.0,
-    "hasta": 200.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfnNgADKU0J/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2b493eb3549a.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "molinodeperez-20261114",
    "url": "https://www.instagram.com/p/Dfn0YGlOkA2/",
    "titulo": "Molino de Pérez: El circo llega al Molino",
@@ -481,7 +399,8 @@
     "direccion": "Pasaje Arq. Juan Veltroni",
     "lat": -34.8941793,
     "lon": -56.0905563,
-    "barrio": "Malvín"
+    "barrio": "Malvín",
+    "alternativas": []
    },
    "funciones": [
     {
@@ -522,7 +441,8 @@
     "direccion": "Av. 19 de Abril 1181",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -563,7 +483,11 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": [
+     "Agraciada",
+     "San Quintín"
+    ]
    },
    "funciones": [
     {
@@ -610,15 +534,23 @@
    "id_externo": "fama.tours-20261114",
    "url": "https://www.instagram.com/p/DffwBQuK4SF/",
    "titulo": "fama.tours: Oro en los Salones.",
-   "categoria": "musica",
-   "categoria_segura": false,
+   "categoria": "tour",
+   "categoria_segura": true,
    "descripcion_corta": "Oro en los Salones. Reconocimiento estilístico de los interiores de Quinta de Mendilaharsu (Museo de Antropología), Foyer del Teatro Solís, Palacio Taranco (Museo de Artes Decorativas) y Palacete Beatriz. Merienda. Sábado 14 de Noviembre - 14:00 hs 1300 pesos uruguayos Reservas 095 002 623 . . .",
    "lugar": {
     "nombre": "Oro en los Salones. Reconocimiento estilístico de los interiores de Quinta de Mendilaharsu (Museo de Antropología)",
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": [
+     "Quinta de Mendilaharsu",
+     "Museo de Antropología",
+     "Foyer del Teatro Solís",
+     "Palacio Taranco",
+     "Museo de Artes Decorativas",
+     "Palacete Beatriz"
+    ]
    },
    "funciones": [
     {
@@ -659,7 +591,8 @@
     "direccion": "Rincón 629",
     "lat": null,
     "lon": null,
-    "barrio": "Ciudad Vieja"
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
    },
    "funciones": [
     {
@@ -705,7 +638,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -751,7 +685,8 @@
     "direccion": "Gral. Flores y Domingo Aramburú",
     "lat": -34.882708,
     "lon": -56.181856,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -792,7 +727,8 @@
     "direccion": "Bartolomé Mitre 1550",
     "lat": null,
     "lon": null,
-    "barrio": "Ciudad Vieja"
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
    },
    "funciones": [
     {
@@ -845,7 +781,8 @@
     "direccion": "Bartolomé Mitre 1318",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -893,7 +830,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -936,7 +874,8 @@
     "direccion": "Av. 19 de Abril 1181",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -982,7 +921,8 @@
     "direccion": "Bartolomé Mitre 1550",
     "lat": null,
     "lon": null,
-    "barrio": "Ciudad Vieja"
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1023,7 +963,8 @@
     "direccion": "Soriano 1236",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1064,7 +1005,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1107,7 +1049,8 @@
     "direccion": "Rincón 629",
     "lat": null,
     "lon": null,
-    "barrio": "Ciudad Vieja"
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1153,7 +1096,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1196,7 +1140,8 @@
     "direccion": "Rincón 629",
     "lat": null,
     "lon": null,
-    "barrio": "Ciudad Vieja"
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1242,7 +1187,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1285,7 +1231,8 @@
     "direccion": "Bartolomé Mitre 1318",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1328,7 +1275,8 @@
     "direccion": "Bartolomé Mitre 1550",
     "lat": null,
     "lon": null,
-    "barrio": "Ciudad Vieja"
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1369,7 +1317,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1412,7 +1361,8 @@
     "direccion": "Bartolomé Mitre 1318",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1455,7 +1405,8 @@
     "direccion": "Gral. Flores y Domingo Aramburú",
     "lat": -34.882708,
     "lon": -56.181856,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1501,7 +1452,8 @@
     "direccion": "Bartolomé Mitre 1318",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1544,7 +1496,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1587,7 +1540,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1628,7 +1582,8 @@
     "direccion": "Gral. Flores y Domingo Aramburú",
     "lat": -34.882708,
     "lon": -56.181856,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1676,7 +1631,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1719,7 +1675,8 @@
     "direccion": "Bartolomé Mitre 1318",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1762,7 +1719,8 @@
     "direccion": "Rincón 629",
     "lat": null,
     "lon": null,
-    "barrio": "Ciudad Vieja"
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1800,15 +1758,29 @@
    "id_externo": "fama.tours-20261121",
    "url": "https://www.instagram.com/p/DfpYrZ4KUfC/",
    "titulo": "fama.tours: En nuestra última participación del año en volvemos a un reconocimiento arquitectónico…",
-   "categoria": "musica",
-   "categoria_segura": false,
+   "categoria": "tour",
+   "categoria_segura": true,
    "descripcion_corta": "En nuestra última participación del año en volvemos a un reconocimiento arquitectónico por sus calles. Caminata Art Nouveau Sábado 21 de Noviembre de 2026 12:00 a 13:30 horas Punto de encuentro: Bacacay y Buenos Aires Itinerario Edificio Tienda La Nueva Sirena Edificio Pablo Ferrando Casa José…",
    "lugar": {
     "nombre": "Bacacay y Buenos Aires",
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": [
+     "Edificio Tienda La Nueva Sirena",
+     "Edificio Pablo Ferrando",
+     "Casa José Pedro Rodríguez",
+     "Casa Mojana",
+     "Centro Cultural de España",
+     "Edificio 25 de Mayo 591",
+     "El Chamuyo",
+     "Edificio 25 de Mayo 550",
+     "Café Brasilero",
+     "Restaurante Las Misiones",
+     "Edificio Banco Popular",
+     "MVOTMA"
+    ]
    },
    "funciones": [
     {
@@ -1854,7 +1826,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1902,7 +1875,8 @@
     "direccion": "20 de noviembre",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1948,7 +1922,8 @@
     "direccion": "Soriano 1236",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1991,7 +1966,8 @@
     "direccion": "Rincón 629",
     "lat": null,
     "lon": null,
-    "barrio": "Ciudad Vieja"
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2044,7 +2020,8 @@
     "direccion": "Bartolomé Mitre 1318",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2087,7 +2064,8 @@
     "direccion": "Juan Carlos Gómez 1251",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2130,7 +2108,8 @@
     "direccion": "Bartolomé Mitre 1318",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2173,7 +2152,8 @@
     "direccion": "Rincón 629",
     "lat": null,
     "lon": null,
-    "barrio": "Ciudad Vieja"
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2219,7 +2199,8 @@
     "direccion": "Bartolomé Mitre 1318",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2262,7 +2243,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2305,7 +2287,8 @@
     "direccion": "Rincón 629",
     "lat": null,
     "lon": null,
-    "barrio": "Ciudad Vieja"
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2353,7 +2336,8 @@
     "direccion": "Soriano 1236",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2396,7 +2380,8 @@
     "direccion": "Juan Paullier 1252",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2439,7 +2424,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2485,7 +2471,8 @@
     "direccion": "Soriano 1236",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2528,7 +2515,8 @@
     "direccion": "Soriano 1236",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2576,7 +2564,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2619,7 +2608,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {

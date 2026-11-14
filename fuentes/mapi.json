@@ -1,6 +1,6 @@
 {
  "fuente": "mapi",
- "corrida": "2026-11-13T23:05:43.942236-03:00",
+ "corrida": "2026-11-14T12:41:21.360341-03:00",
  "ok": true,
  "cantidad": 4,
  "errores": [],
@@ -18,16 +18,10 @@
     "direccion": "25 de Mayo 279",
     "lat": -34.90715,
     "lon": -56.21011,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T00:00:00-03:00",
      "fin": null,
@@ -233,6 +227,13 @@
     },
     {
      "inicio": "2026-12-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-14T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -269,16 +270,10 @@
     "direccion": "25 de Mayo 279",
     "lat": -34.90715,
     "lon": -56.21011,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T00:00:00-03:00",
      "fin": null,
@@ -484,6 +479,13 @@
     },
     {
      "inicio": "2026-12-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-14T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -520,16 +522,10 @@
     "direccion": "25 de Mayo 279",
     "lat": -34.90715,
     "lon": -56.21011,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T00:00:00-03:00",
      "fin": null,
@@ -735,6 +731,13 @@
     },
     {
      "inicio": "2026-12-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-14T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -771,16 +774,10 @@
     "direccion": "25 de Mayo 279",
     "lat": -34.90715,
     "lon": -56.21011,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T00:00:00-03:00",
      "fin": null,
@@ -986,6 +983,13 @@
     },
     {
      "inicio": "2026-12-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-14T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,

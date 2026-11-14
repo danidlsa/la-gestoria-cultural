@@ -1,102 +1,10 @@
 {
  "fuente": "propuestos",
- "corrida": "2026-11-13T23:06:37.371483-03:00",
+ "corrida": "2026-11-14T12:42:17.219790-03:00",
  "ok": true,
- "cantidad": 8,
+ "cantidad": 6,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "propuestos",
-   "id_externo": "7b000b178cd3",
-   "url": "https://florencio.montevideo.gub.uy/evento/jorge-bonaldi-y-adriana-ducret",
-   "titulo": "Jorge Bonaldi y Adriana Ducret",
-   "categoria": "infantil",
-   "categoria_segura": true,
-   "descripcion_corta": "Nos vemos el viernes 13 de noviembre en Centro Cultural Florencio Sanchéz donde compartiremos con niños, niñas y familias algunos de nuestros más grandes éxitos desde “Canciones para no dormir la siesta” hasta la actualidad. Entrada libre. ¡Será una fiesta! Jorge Bonaldi y Adriana Ducret. Entrada…",
-   "lugar": {
-    "nombre": "Centro Cultural Florencio Sánchez",
-    "direccion": "Grecia 3281, Cerro, Montevideo",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://florencio.montevideo.gub.uy/evento/jorge-bonaldi-y-adriana-ducret",
-     "via": "propuestos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/7b000b178cd3.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "propuestos",
-   "id_externo": "3f1f1b061a59",
-   "url": "https://www.instagram.com/p/DfZuIxzASmr/",
-   "titulo": "Quemadura china - Ciclo de Cine AccesibleUy",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Los siameses Annie y Dani se enfrentan a la separación física, en un acto tan quirúrgico como existencial. Willie, el hermano que los opera, confiesa su deseo de ser siamés y pide coserse a uno de ellos. Las tensiones y obsesiones del elenco se van enredando con la ficción fantástica. Mientras, la…",
-   "lugar": {
-    "nombre": "Centro Cultural Artesano",
-    "direccion": "Bulevar Aparicio Saravía 4697",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfZuIxzASmr/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/3f1f1b061a59.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "propuestos",
    "id_externo": "d9f4fc0970cf",
@@ -110,7 +18,8 @@
     "direccion": "Av. Rivera 3275",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -156,7 +65,8 @@
     "direccion": "Filipinas 3671",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -202,7 +112,8 @@
     "direccion": "San Salvador 1944",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -248,7 +159,8 @@
     "direccion": "Av. 8 de Octubre 2733",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -294,7 +206,8 @@
     "direccion": "GUTIÉRREZ RUIZ 1111 esq. DURAZNO",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -340,7 +253,8 @@
     "direccion": "Juan Paullier 1046",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {

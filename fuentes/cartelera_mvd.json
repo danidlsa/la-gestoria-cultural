@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-13T23:00:36.804825-03:00",
+ "corrida": "2026-11-14T12:36:09.276057-03:00",
  "ok": true,
- "cantidad": 102,
+ "cantidad": 95,
  "errores": [],
  "eventos": [
   {
@@ -18,7 +18,8 @@
     "direccion": "Galería De Las Américas – Av. 18 de Julio 1236",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -78,7 +79,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -130,16 +132,10 @@
     "direccion": "Carlos Roxlo 1359 bis esq. Av. 18 de Julio",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T21:00:00-03:00",
      "fin": null,
@@ -190,7 +186,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -296,7 +293,8 @@
     "direccion": "Canelones 1136",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -356,7 +354,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -422,16 +421,10 @@
     "direccion": "Río Negro 1477",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T21:00:00-03:00",
      "fin": null,
@@ -549,7 +542,8 @@
     "direccion": "Mercedes 1805",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -601,7 +595,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -658,7 +653,8 @@
     "direccion": "Soriano 914",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -764,7 +760,8 @@
     "direccion": "Mercedes 865",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -824,16 +821,10 @@
     "direccion": "Paysandú 769",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T21:00:00-03:00",
      "fin": null,
@@ -947,7 +938,8 @@
     "direccion": "Buenos Aires y Bartolomé Mitre",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1020,7 +1012,8 @@
     "direccion": "José Ellauri 308",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1073,16 +1066,10 @@
     "direccion": "Dr. Javier Barrios Amorín 1312",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T21:00:00-03:00",
      "fin": null,
@@ -1144,16 +1131,10 @@
     "direccion": "Camacuá 575",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T20:30:00-03:00",
      "fin": null,
@@ -1213,7 +1194,8 @@
     "direccion": "Br. Artigas 1327 entre Chaná y Guaná",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1269,58 +1251,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34639",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34639",
-   "titulo": "Cenizas de familia",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Luego de diez años, cuatro hermanos se reúnen a decidir qué hacer con las cenizas de su padre. Lo que podía ser una oportunidad de reencuentro y reconciliación, se transforma rápidamente en un absurdo y caótico intercambio de reclamos y frustrados intentos de sanar antiguos traumas. Los fuertes…",
-   "lugar": {
-    "nombre": "Teatro Alianza",
-    "direccion": "Paraguay 1217",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 560.0,
-    "hasta": 1300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34639",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "BBVA",
-     "tipo": "BBVA $ 560",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34639"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41910.jpg",
-   "productor": "Franco Balestrino Centeno",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "32266",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32266",
    "titulo": "Como te mueras te mato",
@@ -1332,16 +1262,10 @@
     "direccion": "José Ellauri 308",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T21:00:00-03:00",
      "fin": null,
@@ -1392,16 +1316,10 @@
     "direccion": "Av. Rondeau 1388",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T21:00:00-03:00",
      "fin": null,
@@ -1463,16 +1381,10 @@
     "direccion": "Isla de Flores 1631",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-19T21:00:00-03:00",
      "fin": null,
@@ -1548,7 +1460,8 @@
     "direccion": "Av. General Flores esquina Domingo Aramburú",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1610,7 +1523,8 @@
     "direccion": "Charrúa 1838",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1663,16 +1577,10 @@
     "direccion": "José Enrique Rodó 1712",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T21:00:00-03:00",
      "fin": null,
@@ -1734,7 +1642,8 @@
     "direccion": "José Ellauri 308",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1794,16 +1703,10 @@
     "direccion": "Sarandí 683",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T21:00:00-03:00",
      "fin": null,
@@ -1861,7 +1764,8 @@
     "direccion": "Gaboto 1384",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1921,7 +1825,8 @@
     "direccion": "Rambla Gandhi 633",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1967,7 +1872,8 @@
     "direccion": "Gonzalo Ramírez 1824",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2048,7 +1954,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2101,7 +2008,8 @@
     "direccion": "Carlos Roxlo 1359 bis esq. Av. 18 de Julio",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2150,52 +2058,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "26405",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?26405",
-   "titulo": "El castillo del horror",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "¿Te animarías a entrar a un castillo siniestro en plena oscuridad? No deberías tener mayores problemas si tu guía es un muerto viviente. Un vampiro es el excéntrico anfitrión de una morada oscura donde los espectadores se convierten en sus huéspedes. A lo largo del desarrollo aparecen y desaparecen…",
-   "lugar": {
-    "nombre": "Castillo Pittamiglio",
-    "direccion": "Rambla Gandhi 633",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 1400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?26405",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42255.jpg",
-   "productor": "Pablo Ferrería",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34644",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34644",
    "titulo": "El eterno, glorioso y más pequeño circo del mundo",
@@ -2207,7 +2069,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2299,7 +2162,8 @@
     "direccion": "Rambla Gandhi 633",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2345,7 +2209,8 @@
     "direccion": "Colonia 2035",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2425,7 +2290,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2471,7 +2337,8 @@
     "direccion": "Carlos Quijano 1216",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2537,16 +2404,10 @@
     "direccion": "Colonia 2035",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T21:00:00-03:00",
      "fin": null,
@@ -2643,7 +2504,8 @@
     "direccion": "Av. Agraciada 2623",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2689,16 +2551,10 @@
     "direccion": "Piedras 425",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T21:00:00-03:00",
      "fin": null,
@@ -2744,52 +2600,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34393",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34393",
-   "titulo": "El silencio es un lenguaje universal",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "El silencio es un idioma universal es un unipersonal que nos introduce en el mundo interior de una mujer neurodivergente que ha pasado gran parte de su vida intentando aprender las reglas de un mundo que nunca termina de comprenderla. A través de una sucesión de situaciones cotidianas —la infancia…",
-   "lugar": {
-    "nombre": "Alejandría Café de las Artes",
-    "direccion": "Gaboto 1384",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34393",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41583.jpg",
-   "productor": "Fabián Collazo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34628",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34628",
    "titulo": "El teatro",
@@ -2801,7 +2611,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2874,7 +2685,8 @@
     "direccion": "Gaboto 1384",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -2940,16 +2752,10 @@
     "direccion": "Canelones 1136",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-19T20:00:00-03:00",
      "fin": null,
@@ -3014,7 +2820,8 @@
     "direccion": "San José 1426",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3071,7 +2878,8 @@
     "direccion": "José Ellauri 308",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3131,7 +2939,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3198,7 +3007,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3244,7 +3054,8 @@
     "direccion": "Rambla Gandhi 633",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3290,7 +3101,8 @@
     "direccion": "Rambla Gandhi 633",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3325,52 +3137,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34674",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34674",
-   "titulo": "Imanol Sibes - Contador de historias",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una desconcertante doble vida: de día, contador público; de noche, carnaval, personajes y escenarios. Entre llamadas inoportunas, un escritorio lleno de papeles y una imaginación que aparece cuando menos corresponde, esos dos mundos empiezan a mezclarse cada vez más. Con humor, personajes y una…",
-   "lugar": {
-    "nombre": "UnderMovie",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 800.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34674",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41960.jpg",
-   "productor": "Pablo 'Pinocho' Routin",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34951",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34951",
    "titulo": "Jubiladas",
@@ -3382,7 +3148,8 @@
     "direccion": "Convención 1328 - Galería del Sol",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3442,7 +3209,8 @@
     "direccion": "José Enrique Rodó 1712",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3527,16 +3295,10 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-19T20:30:00-03:00",
      "fin": null,
@@ -3645,7 +3407,8 @@
     "direccion": "Javier Barrios Amorín 1312",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3711,7 +3474,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3757,7 +3521,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3882,7 +3647,8 @@
     "direccion": "José Ellauri 308",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -3917,114 +3683,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34849",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34849",
-   "titulo": "Lo frío y lo caliente",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una madre, una hija y un vínculo donde la ternura y la manipulación se confunden. La compañía teatral Contraescena, de Rocha, presenta Lo frío y lo caliente , del dramaturgo argentino Pacho O’Donnell. ¿Hasta dónde puede llegar el amor cuando se confunde con la posesión? Atravesada por el humor…",
-   "lugar": {
-    "nombre": "Espacio Zorrilla",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 660.0,
-    "hasta": 660.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34849",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42170.jpg",
-   "productor": "José Pereyra",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "33951",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33951",
-   "titulo": "Loop",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "La nueva y explosiva comedia de Robin Goupil llega con una historia tan delirante como adictiva, donde nada es lo que parece y cada decisión puede desatar un caos imposible de detener. Loop juega con la Teoría del Caos en una obra irreverente, ganadora del Premio Molière a Mejor Comedia.",
-   "lugar": {
-    "nombre": "Teatro Alianza",
-    "direccion": "Paraguay 1217",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 850.0,
-    "hasta": 850.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33951",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33951"
-    },
-    {
-     "programa": "Promo grupal",
-     "tipo": "Promo 2 x $ 1600",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33951"
-    },
-    {
-     "programa": "BBVA",
-     "tipo": "20% BBVA",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33951"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41259.jpg",
-   "productor": "Diego Devincenzi",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34850",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34850",
    "titulo": "Los hombres de Vitruvio",
@@ -4036,7 +3694,8 @@
     "direccion": "Canelones 1136",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -4135,16 +3794,10 @@
     "direccion": "Canelones 1136",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T21:30:00-03:00",
      "fin": null,
@@ -4201,7 +3854,8 @@
     "direccion": "Sarandí 683",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -4267,16 +3921,10 @@
     "direccion": "Carlos Quijano 1216",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T21:00:00-03:00",
      "fin": null,
@@ -4327,7 +3975,8 @@
     "direccion": "Gaboto 1384",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -4380,7 +4029,8 @@
     "direccion": "Soriano 1236",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -4454,7 +4104,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -4507,7 +4158,8 @@
     "direccion": "Av. Agraciada 2623",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -4553,7 +4205,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -4599,7 +4252,8 @@
     "direccion": "Soriano 914",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -4666,7 +4320,8 @@
     "direccion": "Guayabo 1729",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -4723,7 +4378,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -4769,7 +4425,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -4815,7 +4472,8 @@
     "direccion": "San José 870",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -4907,7 +4565,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -4942,68 +4601,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "4791",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?4791",
-   "titulo": "Murga madre",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Estrenada en 2002, Murga Madre es una obra de teatro creada por Eduardo \"Pitufo\" Lombardo, Pablo \"Pinocho\" Routín y Fernando Toja. Dos personajes sin nombre, sin tiempo y sin lugar habitan un espacio donde los recuerdos aparecen fragmentados. A través de canciones, silencios y encuentros intentan…",
-   "lugar": {
-    "nombre": "El Galpón - Sala César Campodónico",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 900.0,
-    "hasta": 900.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?4791",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular y El Galpón 50 % con cupo limitado",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?4791"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?4791"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?4791"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42311.jpg",
-   "productor": "Fernando Toja",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "33534",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33534",
    "titulo": "Música de regreso a casa",
@@ -5015,7 +4612,8 @@
     "direccion": "Av. 18 de Julio 930",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -5095,7 +4693,8 @@
     "direccion": "Av. Gral. Rondeau 1388",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -5187,7 +4786,8 @@
     "direccion": "Gaboto 1384",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -5247,16 +4847,10 @@
     "direccion": "Mercedes 865",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-19T21:00:00-03:00",
      "fin": null,
@@ -5341,7 +4935,8 @@
     "direccion": "Rambla Gandhi 633",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -5387,7 +4982,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -5440,7 +5036,8 @@
     "direccion": "Mercedes 1805",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -5516,7 +5113,8 @@
     "direccion": "Canelones 1136",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -5587,7 +5185,8 @@
     "direccion": "Paraguay 1217",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -5640,7 +5239,8 @@
     "direccion": "Convención 1328 - Galería Del Sol local 26",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -5700,7 +5300,8 @@
     "direccion": "San José 822",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -5757,7 +5358,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -5809,16 +5411,10 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T20:30:00-03:00",
      "fin": null,
@@ -5880,16 +5476,10 @@
     "direccion": "Av. Gral. Rondeau 1388",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T21:30:00-03:00",
      "fin": null,
@@ -5951,16 +5541,10 @@
     "direccion": "Soriano 914",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T22:00:00-03:00",
      "fin": null,
@@ -6018,7 +5602,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -6064,7 +5649,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -6121,7 +5707,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -6173,7 +5760,8 @@
     "direccion": "Rambla 25 de Agosto 575",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -6260,7 +5848,8 @@
     "direccion": "Mercedes 1805",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -6338,7 +5927,8 @@
     "direccion": "Av. Gral Rondeau 1388",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -6416,16 +6006,10 @@
     "direccion": "Convención 1328 – Local 26 de Galería del Sol",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T20:30:00-03:00",
      "fin": null,
@@ -6482,7 +6066,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -6534,16 +6119,10 @@
     "direccion": "Gonzalo Ramírez 1595",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T21:00:00-03:00",
      "fin": null,
@@ -6587,7 +6166,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -6639,7 +6219,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {

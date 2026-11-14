@@ -1,47 +1,7 @@
 {
- "generado": "2026-11-13T23:07:59.508852-03:00",
- "cantidad": 29,
+ "generado": "2026-11-14T12:44:22.847539-03:00",
+ "cantidad": 28,
  "ciclos": [
-  {
-   "id": "ciclo-la-noche-de-las-librerias-2026",
-   "titulo": "La Noche de las Librerías 2026",
-   "lugar_id": null,
-   "desde": "2026-11-13T17:50:00-03:00",
-   "hasta": "2026-11-14T00:30:00-03:00",
-   "cantidad": 128
-  },
-  {
-   "id": "ciclo-encuentro-de-murga-joven-2026",
-   "titulo": "Encuentro de Murga Joven 2026",
-   "lugar_id": "centro-cultural-las-duranas",
-   "desde": "2026-11-13T20:00:00-03:00",
-   "hasta": "2026-11-16T20:00:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-ciclo-de-cine-accesible-2026",
-   "titulo": "Ciclo de Cine Accesible 2026",
-   "lugar_id": null,
-   "desde": "2026-11-13T20:00:00-03:00",
-   "hasta": "2026-11-14T19:30:00-03:00",
-   "cantidad": 2
-  },
-  {
-   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
-   "titulo": "Estreno de obras Fortalecimiento de las Artes",
-   "lugar_id": null,
-   "desde": "2026-11-13T21:00:00-03:00",
-   "hasta": "2026-12-04T21:00:00-03:00",
-   "cantidad": 4
-  },
-  {
-   "id": "ciclo-the-shannon",
-   "titulo": "The Shannon",
-   "lugar_id": "the-shannon-irish-pub",
-   "desde": "2026-11-13T22:00:00-03:00",
-   "hasta": "2026-11-28T00:00:00-03:00",
-   "cantidad": 9
-  },
   {
    "id": "ciclo-fac",
    "titulo": "FAC",
@@ -83,6 +43,14 @@
    "cantidad": 8
   },
   {
+   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
+   "titulo": "Estreno de obras Fortalecimiento de las Artes",
+   "lugar_id": null,
+   "desde": "2026-11-14T16:00:00-03:00",
+   "hasta": "2026-12-04T21:00:00-03:00",
+   "cantidad": 4
+  },
+  {
    "id": "ciclo-paseo-sur-palermo",
    "titulo": "Paseo Sur Palermo",
    "lugar_id": "ansina-e-isla-de-flores",
@@ -99,6 +67,22 @@
    "cantidad": 5
   },
   {
+   "id": "ciclo-ciclo-de-cine-accesible-2026",
+   "titulo": "Ciclo de Cine Accesible 2026",
+   "lugar_id": "parque-de-la-amistad",
+   "desde": "2026-11-14T19:30:00-03:00",
+   "hasta": "2026-11-14T19:30:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-encuentro-de-murga-joven-2026",
+   "titulo": "Encuentro de Murga Joven 2026",
+   "lugar_id": "centro-cultural-las-duranas",
+   "desde": "2026-11-14T20:00:00-03:00",
+   "hasta": "2026-11-16T20:00:00-03:00",
+   "cantidad": 1
+  },
+  {
    "id": "ciclo-primavera-tango",
    "titulo": "Primavera Tango",
    "lugar_id": null,
@@ -113,6 +97,14 @@
    "desde": "2026-11-14T20:30:00-03:00",
    "hasta": "2026-12-05T21:30:00-03:00",
    "cantidad": 5
+  },
+  {
+   "id": "ciclo-the-shannon",
+   "titulo": "The Shannon",
+   "lugar_id": "the-shannon-irish-pub",
+   "desde": "2026-11-14T22:00:00-03:00",
+   "hasta": "2026-11-28T00:00:00-03:00",
+   "cantidad": 8
   },
   {
    "id": "ciclo-el-mingus",
@@ -158,9 +150,9 @@
    "id": "ciclo-sabados-en-ciudad-vieja",
    "titulo": "Sábados en Ciudad Vieja",
    "lugar_id": "ciudad-vieja",
-   "desde": "2026-11-21T10:00:00-03:00",
-   "hasta": "2026-12-19T10:00:00-03:00",
-   "cantidad": 2
+   "desde": "2026-11-21T11:00:00-03:00",
+   "hasta": "2026-11-21T13:00:00-03:00",
+   "cantidad": 9
   },
   {
    "id": "ciclo-cordon-beer",

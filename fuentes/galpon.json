@@ -1,8 +1,8 @@
 {
  "fuente": "galpon",
- "corrida": "2026-11-13T23:02:32.681898-03:00",
+ "corrida": "2026-11-14T12:38:06.632419-03:00",
  "ok": true,
- "cantidad": 24,
+ "cantidad": 23,
  "errores": [],
  "eventos": [
   {
@@ -18,7 +18,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -147,16 +148,10 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": "2026-11-13T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-19T20:30:00-03:00",
      "fin": "2026-11-19T22:00:00-03:00",
@@ -267,7 +262,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -366,7 +362,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -474,7 +471,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -531,65 +529,6 @@
   },
   {
    "fuente": "galpon",
-   "id_externo": "murga-madre",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/murga-madre/",
-   "titulo": "Murga Madre",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Más de veinte años después de su estreno, la obra vuelve a escena manteniendo intacta la emoción y la vigencia de una propuesta que dialoga con distintas generaciones desde el lenguaje de la murga y el teatro.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Murga-Madre-Sala-Campodonico/30917/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular y El Galpón 50 % con cupo limitado",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/murga-madre/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/murga-madre/"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/murga-madre/"
-    }
-   ],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/06/MurgaMadre-2560X1000.jpg",
-   "productor": "Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Murga-Madre-Sala-Campodonico/30917/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
    "id_externo": "la-rebelion-de-la-carne",
    "url": "https://www.teatroelgalpon.org.uy/espectaculos/la-rebelion-de-la-carne/",
    "titulo": "La rebelión de la carne",
@@ -601,7 +540,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -723,7 +663,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -773,7 +714,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -839,7 +781,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -905,7 +848,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -948,7 +892,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -991,7 +936,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1034,7 +980,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1088,7 +1035,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1131,7 +1079,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1174,7 +1123,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1242,7 +1192,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1308,7 +1259,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1374,7 +1326,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1417,7 +1370,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1467,7 +1421,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1510,7 +1465,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1560,7 +1516,8 @@
     "direccion": "Av. 18 de Julio 1618",
     "lat": -34.90403,
     "lon": -56.181082,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {

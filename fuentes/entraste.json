@@ -1,97 +1,10 @@
 {
  "fuente": "entraste",
- "corrida": "2026-11-13T23:06:38.536619-03:00",
+ "corrida": "2026-11-14T12:42:18.623984-03:00",
  "ok": true,
- "cantidad": 7,
+ "cantidad": 5,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "entraste",
-   "id_externo": "366",
-   "url": "https://app.entraste.com/events/pariseo-latin-club-en-2019-vie-13-nov",
-   "titulo": "PARISEO LATIN CLUB EN 2019 - VIE 13 NOV",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": "Pariseo presenta una noche en 2019, viernes 13 de noviembre nos encontramos en Vou Club para una noche de mucho reggaetón del colegio",
-   "lugar": {
-    "nombre": "VOU CLUB",
-    "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
-    "lat": -34.9155965,
-    "lon": -56.1687301,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T23:59:00-03:00",
-     "fin": "2026-11-14T05:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 550.0,
-    "hasta": 550.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://app.entraste.com/events/pariseo-latin-club-en-2019-vie-13-nov",
-     "via": "entraste"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://storage.googleapis.com/entraste-media/1793729079_1a7d425e0404301b.webp",
-   "productor": "Pariseo.dc",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "entraste",
-   "id_externo": "295",
-   "url": "https://app.entraste.com/events/resilience",
-   "titulo": "RESILIENCE",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": "Vuelve Resilience a EMILE Club! Este 13 de noviembre Resilience - Presenta KARBONI (IT) ALEJO KATO B3B DIEGO BANDERA B3B OMNI WHITE",
-   "lugar": {
-    "nombre": "Mercedes 1820",
-    "direccion": "Mercedes 1820",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T23:59:00-03:00",
-     "fin": "2026-11-14T06:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://app.entraste.com/events/resilience",
-     "via": "entraste"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://storage.googleapis.com/entraste-media/1791905822_e327dc3fea414d19.webp",
-   "productor": "Resilence",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "entraste",
    "id_externo": "367",
@@ -105,7 +18,8 @@
     "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
     "lat": -34.9155965,
     "lon": -56.1687301,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -151,7 +65,8 @@
     "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
     "lat": -34.9155965,
     "lon": -56.1687301,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -197,7 +112,8 @@
     "direccion": "3RMJ+QG6, 11200 Montevideo, Departamento de Montevideo",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -243,7 +159,8 @@
     "direccion": "Canelones 1963",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -289,7 +206,8 @@
     "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
     "lat": -34.9155965,
     "lon": -56.1687301,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {

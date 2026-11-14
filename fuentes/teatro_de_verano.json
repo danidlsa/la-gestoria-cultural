@@ -1,56 +1,10 @@
 {
  "fuente": "teatro_de_verano",
- "corrida": "2026-11-13T23:02:25.496623-03:00",
+ "corrida": "2026-11-14T12:37:57.430119-03:00",
  "ok": true,
- "cantidad": 16,
+ "cantidad": 15,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "teatro_de_verano",
-   "id_externo": "136-etapa-4",
-   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
-   "titulo": "Prueba de Admisión - Carnaval 2027 · Etapa 4: M.Q.L., Los Chobys, Ay Alberto, Los Más Apasionados, La Mojigata",
-   "categoria": "carnaval",
-   "categoria_segura": true,
-   "descripcion_corta": "Etapa 4: M.Q.L. (sociedad de negros y lubolos), Los Chobys (humoristas), Ay Alberto (murga), Los Más Apasionados (parodistas) y La Mojigata (murga). Entrada libre, hasta agotar localidades, con la entrega de un alimento no perecedero.",
-   "lugar": {
-    "nombre": "Teatro de Verano Ramón Collazo",
-    "direccion": "Rambla Wilson s/n, Parque Rodó",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Prueba-de-Admision--Carnaval-2027-uc136",
-     "via": "teatro_de_verano"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/613.jpg",
-   "productor": "Teatro de Verano",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "teatro_de_verano",
    "id_externo": "136-etapa-5",
@@ -64,7 +18,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -110,7 +65,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -156,7 +112,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -202,7 +159,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -245,7 +203,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -288,7 +247,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -331,7 +291,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -372,7 +333,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -413,7 +375,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -454,7 +417,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -495,7 +459,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -536,7 +501,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -577,7 +543,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -618,7 +585,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -659,7 +627,8 @@
     "direccion": "Rambla Wilson s/n, Parque Rodó",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
