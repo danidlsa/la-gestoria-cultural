@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-13T22:41:54.706416-03:00",
+ "corrida": "2026-11-13T23:06:46.721045-03:00",
  "ok": true,
  "cantidad": 16,
  "errores": [],
@@ -237,52 +237,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "fa34481c-ba2c-453c-827a-3f3257cfdbef",
-   "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
-   "titulo": "Jengibre y Lipe Gómez",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Por primera vez Jengibre y Lipe Gómez (en banda) se presentan en un mismo escenario. Dos proyectos que experimentan y abarcan influencias desde el rock alternativo y el R&B hasta ritmos latinoamericanos como el candombe y la samba. Este sábado 21 de noviembre en el escenario del hormiguero: Lipe…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": "2026-11-21T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F6316ecda-2c01-4beb-9961-e1d8b47f94a1.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
    "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
    "titulo": "Javier Zubillaga De Vivo",
@@ -319,6 +273,52 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "fa34481c-ba2c-453c-827a-3f3257cfdbef",
+   "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
+   "titulo": "Jengibre y Lipe Gómez",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Por primera vez Jengibre y Lipe Gómez (en banda) se presentan en un mismo escenario. Dos proyectos que experimentan y abarcan influencias desde el rock alternativo y el R&B hasta ritmos latinoamericanos como el candombe y la samba. Este sábado 21 de noviembre en el escenario del hormiguero: Lipe…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": "2026-11-21T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F6316ecda-2c01-4beb-9961-e1d8b47f94a1.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -467,43 +467,89 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "dbdedcc5-b5d5-472c-929a-32947d6cd1ee",
-   "url": "https://www.tikzet.com/events/mamba-club",
-   "titulo": "MAMBA CLUB",
-   "categoria": "fiesta",
+   "id_externo": "a33a93fb-def1-4438-afc8-3d99e4de2138",
+   "url": "https://www.tikzet.com/events/craig-carri-cuarteto",
+   "titulo": "Craig Carri Cuarteto",
+   "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": null,
+   "descripcion_corta": "Desde la escena de jazz de Londres, el guitarrista irlandés Craig Carri presenta su cuarteto montevideano en El Hormiguero, con música de su próximo disco, Hubbub, y algunos standards elegidos para la ocasión. Composiciones construidas sobre estructuras rítmicas que abren el camino a la exploración…",
    "lugar": {
-    "nombre": "MAMBA CLUB",
-    "direccion": "Avenida Uruguay 1136",
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
     "lat": null,
     "lon": null,
     "barrio": null
    },
    "funciones": [
     {
-     "inicio": "2026-11-13T23:50:00-03:00",
-     "fin": "2026-11-14T06:00:00-03:00",
+     "inicio": "2026-11-18T21:00:00-03:00",
+     "fin": "2026-11-18T23:59:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 250.0,
-    "hasta": 250.0,
+    "desde": 400.0,
+    "hasta": 400.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/mamba-club",
+     "url": "https://www.tikzet.com/events/craig-carri-cuarteto",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Ff82269df-a85f-438e-a65d-60210c04ea17.original",
-   "productor": "MAMBA CLUB",
+   "imagen_url": "https://cdn.tikzet.com/images%2F1964316e-fa61-403c-b44a-0e9baa902d42.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
+   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+   "titulo": "Narciso en Montevideo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
+   "lugar": {
+    "nombre": "Piffa",
+    "direccion": "Convención 1101",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-26T21:00:00-03:00",
+     "fin": "2026-12-26T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
+   "productor": "Piffa",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -550,6 +596,52 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
    "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "dbdedcc5-b5d5-472c-929a-32947d6cd1ee",
+   "url": "https://www.tikzet.com/events/mamba-club",
+   "titulo": "MAMBA CLUB",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "MAMBA CLUB",
+    "direccion": "Avenida Uruguay 1136",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:50:00-03:00",
+     "fin": "2026-11-14T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 250.0,
+    "hasta": 250.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/mamba-club",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Ff82269df-a85f-438e-a65d-60210c04ea17.original",
+   "productor": "MAMBA CLUB",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -642,98 +734,6 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fccf19bc7-f6f4-4858-b045-967370cbe72b.original",
    "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "a33a93fb-def1-4438-afc8-3d99e4de2138",
-   "url": "https://www.tikzet.com/events/craig-carri-cuarteto",
-   "titulo": "Craig Carri Cuarteto",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Desde la escena de jazz de Londres, el guitarrista irlandés Craig Carri presenta su cuarteto montevideano en El Hormiguero, con música de su próximo disco, Hubbub, y algunos standards elegidos para la ocasión. Composiciones construidas sobre estructuras rítmicas que abren el camino a la exploración…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T21:00:00-03:00",
-     "fin": "2026-11-18T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/craig-carri-cuarteto",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F1964316e-fa61-403c-b44a-0e9baa902d42.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
-   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
-   "titulo": "Narciso en Montevideo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
-   "lugar": {
-    "nombre": "Piffa",
-    "direccion": "Convención 1101",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-26T21:00:00-03:00",
-     "fin": "2026-12-26T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 450.0,
-    "hasta": 450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
-   "productor": "Piffa",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

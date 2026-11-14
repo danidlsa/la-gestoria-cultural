@@ -1,72 +1,12 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-13T22:28:55.737915-03:00",
+ "corrida": "2026-11-13T22:55:01.619106-03:00",
  "ok": true,
  "cantidad": 120,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021637",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021637/quiero-que-me-susurres-una-cancion-para-mi-muerte",
-   "titulo": "Quiero que me susurres una canción para mi muerte",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "SINOPSIS: Un sótano. Un stripper. Un poeta. Un suicida. Jorge acaba de terminar su show y les propone un pacto a los espectadores: si ellos se quedan hasta el final, él no se mata.Quizás contar su historia sea una forma de pedir ayuda y salvarse. Dramaturgia: Analía Torres y Pedro Fernando Oliveri…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021637/quiero-que-me-susurres-una-cancion-para-mi-muerte",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021637/BANNER.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021457",
@@ -588,13 +528,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-14T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -676,13 +609,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T20:30:00-03:00",
      "fin": null,
@@ -820,6 +746,66 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021956/700_x_390_deup.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021637",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021637/quiero-que-me-susurres-una-cancion-para-mi-muerte",
+   "titulo": "Quiero que me susurres una canción para mi muerte",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "SINOPSIS: Un sótano. Un stripper. Un poeta. Un suicida. Jorge acaba de terminar su show y les propone un pacto a los espectadores: si ellos se quedan hasta el final, él no se mata.Quizás contar su historia sea una forma de pedir ayuda y salvarse. Dramaturgia: Analía Torres y Pedro Fernando Oliveri…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": -34.90821430964771,
+    "lon": -56.196500823734254,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021637/quiero-que-me-susurres-una-cancion-para-mi-muerte",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021637/BANNER.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1863,13 +1849,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T20:55:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T20:50:00-03:00",
      "fin": null,

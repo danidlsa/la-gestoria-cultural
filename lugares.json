@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-13T22:43:20.587430-03:00",
+ "generado": "2026-11-13T23:07:59.508852-03:00",
  "cantidad": 243,
  "lugares": [
   {
@@ -1077,6 +1077,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "horizontes-sonoros",
+   "nombre": "Horizontes Sonoros",
+   "alias": [],
+   "direccion": "20 de noviembre",
+   "lat": -34.862754,
+   "lon": -56.1632096,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "hotel-cottage-carrasco",
    "nombre": "Hotel Cottage Carrasco",
    "alias": [],
@@ -1560,16 +1570,6 @@
    "lat": -34.9109531,
    "lon": -56.1719738,
    "barrio": "Parque Rodó",
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "mercado-ferrando",
-   "nombre": "Mercado Ferrando",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.9042129,
-   "lon": -56.170688,
-   "barrio": null,
    "ciudad": "Montevideo"
   },
   {

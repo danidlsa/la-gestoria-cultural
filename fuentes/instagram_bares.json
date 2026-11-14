@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-13T22:42:17.946198-03:00",
+ "corrida": "2026-11-13T23:07:10.230533-03:00",
  "ok": true,
- "cantidad": 57,
+ "cantidad": 58,
  "errores": [],
  "eventos": [
   {
@@ -412,88 +412,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a361573dcf33.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "centroculturalterminalgoes-20261113",
-   "url": "https://www.instagram.com/p/DfXTcW0DUo1/",
-   "titulo": "Centro Cultural Terminal Goes: LUCA PRODAN: LA VIDA QUE NUNCA TE CONTARON",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "LUCA PRODAN: LA VIDA QUE NUNCA TE CONTARON Proyección del documental \"LUCA\", dirigido por Rodrigo Espina, sobre la vida de Luca Prodan, fundador de la banda Sumo y figura fundamental del rock argentino de los años '80. La película, ganadora del 4º Festival Internacional de Cine Documental Musical…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfXTcW0DUo1/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/c6ea9b7da2c4.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "mercadoferrando-20261113",
-   "url": "https://www.instagram.com/p/Dfh3ILHGnMj/",
-   "titulo": "Celebramos la Noche de las Librerías en Mercado Ferrando",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Este viernes 13 de noviembre celebramos la Noche de las Librerías en Mercado Ferrando Una noche para disfrutar de buenas historias, gastronomía y música, junto a djpaoladalto desde las 20 h ¡Los esperamos! ;)))",
-   "lugar": {
-    "nombre": "Mercado Ferrando",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfh3ILHGnMj/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/becbc65597df.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1002,6 +920,52 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "jardinbotanicodemontevideo-20261115",
+   "url": "https://www.instagram.com/p/Dfsf1-YFpLo/",
+   "titulo": "Jardín Botánico: De 9 a",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "Domingo 15 de noviembre de 9 a 18 h. Los esperamos para una nueva edición de la feria de plantas del Jardín Botánico. Exposición y venta más de diversos expositores. El evento se suspende por inclemencias climáticas. Organiza: ABOV (Asociación de Amigos del Jardín Botánico y otros espacios verdes)…",
+   "lugar": {
+    "nombre": "Jardín Botánico",
+    "direccion": "Av. 19 de Abril 1181",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T09:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfsf1-YFpLo/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/fa8d199e07c8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1927,6 +1891,52 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "horizontes.sonoro-20261121",
+   "url": "https://www.instagram.com/p/De5OnpUPHzV/",
+   "titulo": "Horizontes Sonoros: Espacio Quitapenas Paysandú 847, Montevideo",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "21 de noviembre | 20 h Espacio Quitapenas Paysandú 847, Montevideo ENTRADA LIBRE ¡Les esperamos!",
+   "lugar": {
+    "nombre": "Horizontes Sonoros",
+    "direccion": "20 de noviembre",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/De5OnpUPHzV/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2efd46a122e5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "lacretinacasa-20261121",
    "url": "https://www.instagram.com/p/DfiK_MivhXn/",
    "titulo": "La Cretina: TABAREK & LA KABARET",
@@ -2279,6 +2289,54 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261202",
+   "url": "https://www.instagram.com/p/DfsWAkbGCpT/",
+   "titulo": "Centro Cultural de España: Laboratorio de guion adaptado",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Laboratorio de guion adaptado | Festival Anfibia Montevideo ¿Cómo se transforma una obra de teatro en una historia para la pantalla? A partir de La piel en llamas, obra teatral de Guillem Clua, este laboratorio propone explorar, desde la práctica, las herramientas y decisiones que intervienen en la…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T10:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-03T10:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfsWAkbGCpT/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/84095090e04c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
