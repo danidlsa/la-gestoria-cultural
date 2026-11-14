@@ -461,3 +461,19 @@ def test_la_categoria_de_la_cuenta():
                                   fama, {}, AHORA)
     evento = ig.evento_de({**b, "aprobado": True}, AHORA)
     assert (evento.categoria, evento.lugar.alternativas[0]) == ("tour", "Quinta de Mendilaharsu")
+
+
+def test_una_correccion_a_mano_cambia_el_lugar_de_esa_fecha(tmp_path, monkeypatch):
+    monkeypatch.setattr(ig, "CONFIG", tmp_path / "bares.toml")
+    (tmp_path / "bares.toml").write_text(
+        '[[bar]]\nusuario = "mambapercusion"\nitinerante = true\nbar = false\n\n'
+        '[[correccion]]\nid = "mambapercusion-20261205"\nlugar = "Plaza Viejo Pancho"\nlat = -34.910003\nlon = -56.1576635\n'
+        'notas = "en el afiche"\n', encoding="utf-8")
+    mamba = {"usuario": "mambapercusion", "itinerante": True, "bar": False}
+    (b,) = ig.borradores_del_post(_post(1, "El 5 de diciembre a las 20 h nos encontramos en el lugar de siempre", "2026-11-12"),
+                                  mamba, {}, AHORA)
+    evento = ig.evento_de({**b, "aprobado": True}, AHORA)
+    assert (evento.lugar.nombre, evento.lugar.lat, evento.lugar.lon) == ("Plaza Viejo Pancho", -34.910003, -56.1576635)
+    # Otra fecha de la misma cuenta no cambia.
+    (c,) = ig.borradores_del_post(_post(2, "El 12 de diciembre a las 20 h, fiesta", "2026-11-12"), mamba, {}, AHORA)
+    assert ig.evento_de({**c, "aprobado": True}, AHORA).lugar.lat is None

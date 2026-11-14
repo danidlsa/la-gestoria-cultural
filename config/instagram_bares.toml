@@ -21,6 +21,11 @@
 #   categoria  si la cuenta hace siempre lo mismo: "tour" (recorridos), "musica", "teatro", "taller"… (las del sitio)
 #   notas      lo que quieras recordar (por ejemplo, "solo los jueves de jazz")
 
+# Correcciones a mano de un borrador: cuando el lugar de una fecha está solo en el afiche, por ejemplo. Va el id del
+# borrador (en el aviso de GitHub, al final de cada renglón: <!-- ig:usuario-AAAAMMDD -->) y lo que cambia: lugar, y si
+# el buscador no lo encuentra, lat y lon (también se puede poner direccion, barrio o bar = false). Vale solo para esa
+# fecha; las demás de la cuenta siguen igual. Están al final de este archivo.
+
 # [[bar]]
 # usuario = "nombre_del_bar"
 # nombre = "Nombre del Bar"
@@ -300,3 +305,11 @@ nombre = "Horizontes Sonoros"
 notas = "festival de música contemporánea, entrada libre: el lugar sale del 📍"
 itinerante = true
 bar = false
+
+# --- Correcciones a mano ---------------------------------------------------------------------------------------------
+[[correccion]]
+id = "mambapercusion-20261205"
+lugar = "Plaza Viejo Pancho"
+lat = -34.910003
+lon = -56.1576635
+notas = "fiesta de fin de año de Mamba: el lugar está en el afiche (en OpenStreetMap, Plazuela \"El Viejo Pancho\")"

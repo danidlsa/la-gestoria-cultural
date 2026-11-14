@@ -636,6 +636,9 @@ def _funciones(b: dict) -> list[Funcion]:
 
 
 def evento_de(b: dict, ahora: datetime) -> EventoCrudo | None:
+    # Una corrección a mano manda sobre lo que salió del post (el lugar de una fecha que está solo en el afiche).
+    if correccion := correcciones().get(b["id"]):
+        b = {**b, "direccion": None, "barrio": None, "lat": None, "lon": None, "paradas": [], **correccion}
     funciones = [f for f in _funciones(b) if (f.inicio.date() >= ahora.date() if f.sin_hora else f.inicio >= ahora - timedelta(hours=3))]
     if not funciones:
         return None
@@ -713,6 +716,16 @@ def avisos_en_github() -> list[dict] | None:
 
 def cuentas(ruta: Path | None = None) -> list[dict]:
     return tomllib.loads((ruta or CONFIG).read_text(encoding="utf-8")).get("bar", [])
+
+
+# Lo que se puede corregir a mano de un borrador (sección [[correccion]] de la lista, por el id del borrador).
+_CORREGIBLE = ("lugar", "direccion", "barrio", "lat", "lon", "bar")
+
+
+def correcciones(ruta: Path | None = None) -> dict[str, dict]:
+    """Las correcciones a mano, por id de borrador: {"mambapercusion-20261205": {"lugar": "…", "lat": …}}."""
+    lista = tomllib.loads((ruta or CONFIG).read_text(encoding="utf-8")).get("correccion", [])
+    return {c["id"]: {k: c[k] for k in _CORREGIBLE if k in c} for c in lista if c.get("id")}
 
 
 def cargar_borradores() -> dict[str, dict]:
