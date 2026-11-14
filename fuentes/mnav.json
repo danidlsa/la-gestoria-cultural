@@ -1,8 +1,8 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-13T15:51:54.966915-03:00",
+ "corrida": "2026-11-13T22:40:38.904260-03:00",
  "ok": true,
- "cantidad": 24,
+ "cantidad": 23,
  "errores": [],
  "eventos": [
   {
@@ -2247,88 +2247,6 @@
   },
   {
    "fuente": "mnav",
-   "id_externo": "ciclodecine2026",
-   "url": "https://mnav.gub.uy/cms.php?id=ciclodecine2026",
-   "titulo": "Ciclo de Cine - Fronteras de la Imagen Cine y Artes Visuales en el MNAV: Cinemateca del Tercer Mundo",
-   "categoria": "cine",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T16:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=ciclodecine2026",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=ciclodecine2026",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mnav",
-   "id_externo": "ama2026",
-   "url": "https://mnav.gub.uy/cms.php?id=ama2026",
-   "titulo": "Conversatorio FAARA: Patricia Belli, Delcy Morelos y Pablo León de la Barra",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T18:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=ama2026",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=ama2026",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mnav",
    "id_externo": "brugninimaratonica",
    "url": "https://mnav.gub.uy/cms.php?id=brugninimaratonica",
    "titulo": "Maratónica de la muestra \"Romance entre el todo y la nada\" de Cecilia Brugnini: Virginia Sosa, Sonia Bandrymer, Roxana Fabius y proyección de material de Juan José Mugni",
@@ -2811,6 +2729,47 @@
    ],
    "beneficios": [],
    "imagen_url": "https://mnav.gub.uy/img.php?p=somosjugandolambertmorera",
+   "productor": "Museo Nacional de Artes Visuales",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mnav",
+   "id_externo": "portocasas",
+   "url": "https://mnav.gub.uy/cms.php?id=portocasas",
+   "titulo": "Apertura de intervención en el Auditorio de la artista en residencia 2026: Mary Porto Casas",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales",
+    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+    "lat": -34.91384,
+    "lon": -56.16497,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-10T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mnav.gub.uy/cms.php?id=portocasas",
+     "via": "mnav"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://mnav.gub.uy/img.php?p=portocasas",
    "productor": "Museo Nacional de Artes Visuales",
    "region": "montevideo",
    "enlaces": [],

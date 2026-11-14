@@ -1,8 +1,8 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-13T15:45:24.208785-03:00",
+ "corrida": "2026-11-13T22:34:17.994500-03:00",
  "ok": true,
- "cantidad": 18,
+ "cantidad": 16,
  "errores": [],
  "eventos": [
   {
@@ -21,13 +21,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T17:20:00-03:00",
-     "fin": "2026-11-13T18:40:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T20:35:00-03:00",
      "fin": "2026-11-14T21:55:00-03:00",
@@ -134,13 +127,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-13T17:30:00-03:00",
-     "fin": "2026-11-13T19:15:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-14T18:00:00-03:00",
      "fin": "2026-11-14T19:45:00-03:00",
      "sin_hora": false,
@@ -246,13 +232,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-13T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-14T22:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -333,195 +312,6 @@
     }
    ],
    "imagen_url": "https://escribiendocine-s3.cdn.net.ar/s3i233/2026/09/escribiendocine/images/02/75/51/2755112_088bccb53f8fd44c7bbf7accded8b9679f0739b33863ac5d391d3cba9dd26650/lg.webp",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "3512",
-   "url": "https://cinemateca.org.uy/peliculas/3512",
-   "titulo": "Almudena",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Azucena Rodríguez. Con sus propias palabras, a lo largo de los años, Almudena Grandes cuenta su manera de ver el mundo, de entender la vida y la escritura. Pero Almudena ya no está. El anhelo de esta película es mantener viva su memoria, celebrar su vida y su obra, sin olvidar el doloroso vacío…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T19:30:00-03:00",
-     "fin": "2026-11-13T20:50:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/3512",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/ALMUDENA_STILL_06.jpg",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9062",
-   "url": "https://cinemateca.org.uy/peliculas/9062",
-   "titulo": "Emi",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Ezequiel Erriquez. Emi, de 18 años, vive con sus padres en los suburbios de Buenos Aires. Tres meses atrás empezó a trabajar en un taller de reparación de motos en un barrio obrero. Emi quiere saber acerca de su familia biológica y pasa sus días armando el rompecabezas de su historia. La…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T21:20:00-03:00",
-     "fin": "2026-11-13T22:53:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-14T22:05:00-03:00",
-     "fin": "2026-11-14T23:38:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T22:10:00-03:00",
-     "fin": "2026-11-15T23:43:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-16T21:30:00-03:00",
-     "fin": "2026-11-16T23:03:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-17T21:30:00-03:00",
-     "fin": "2026-11-17T23:03:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-18T21:20:00-03:00",
-     "fin": "2026-11-18T22:53:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9062",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40346/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
@@ -644,6 +434,118 @@
   },
   {
    "fuente": "cinemateca",
+   "id_externo": "9062",
+   "url": "https://cinemateca.org.uy/peliculas/9062",
+   "titulo": "Emi",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Ezequiel Erriquez. Emi, de 18 años, vive con sus padres en los suburbios de Buenos Aires. Tres meses atrás empezó a trabajar en un taller de reparación de motos en un barrio obrero. Emi quiere saber acerca de su familia biológica y pasa sus días armando el rompecabezas de su historia. La…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T21:20:00-03:00",
+     "fin": "2026-11-13T22:53:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T22:05:00-03:00",
+     "fin": "2026-11-14T23:38:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T22:10:00-03:00",
+     "fin": "2026-11-15T23:43:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T21:30:00-03:00",
+     "fin": "2026-11-16T23:03:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T21:30:00-03:00",
+     "fin": "2026-11-17T23:03:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-18T21:20:00-03:00",
+     "fin": "2026-11-18T22:53:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9062",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40346/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
    "id_externo": "9655",
    "url": "https://cinemateca.org.uy/peliculas/9655",
    "titulo": "Tierra de mi padre",
@@ -750,90 +652,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9667",
-   "url": "https://cinemateca.org.uy/peliculas/9667",
-   "titulo": "Las señoritas de Wilko",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Andrzej Wajda. Un veterano de la Primera Guerra Mundial regresa al pueblo de sus vacaciones infantiles. Allí, en casa de sus tíos se reencontrará con una familia formada casi únicamente por mujeres: todas lo amaron, pero él solo amó a una, que murió durante la guerra. Todas se sienten…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T17:00:00-03:00",
-     "fin": "2026-11-13T18:55:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-13T19:20:00-03:00",
-     "fin": "2026-11-13T21:15:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9667",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQdlv4YJ5oLU_Je43mU0N3Woj4nDitbtZ6v-SXw9ed3okq3UCzm_CloyUk&amp;s=10",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario",
    "etiquetas": [],
    "muestra": false,
    "hasta": null

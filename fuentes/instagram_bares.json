@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-13T15:53:30.529215-03:00",
+ "corrida": "2026-11-13T22:42:17.946198-03:00",
  "ok": true,
- "cantidad": 52,
+ "cantidad": 57,
  "errores": [],
  "eventos": [
   {
@@ -121,52 +121,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/93e5b66a9033.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261104",
-   "url": "https://www.instagram.com/p/DfVV0jpGAf0/",
-   "titulo": "Centro Cultural de España: Llega una nueva Noche de las Librerías al CCE",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Llega una nueva Noche de las Librerías al CCE! Este viernes 13 de noviembre celebramos la décima edición de la Noche de las Librerías, una iniciativa que nació en el Centro Cultural de España y que hoy continúa creciendo como una gran fiesta de los libros y la lectura. Te invitamos a compartir una…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfVV0jpGAf0/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/97cb960f4c2b.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -468,52 +422,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261113",
-   "url": "https://www.instagram.com/p/DfSx0BmGNHf/",
-   "titulo": "Centro Cultural de España: A mover las cachas! 2026",
-   "categoria": "humor",
-   "categoria_segura": false,
-   "descripcion_corta": "¡A mover las cachas! 2026 ¡Vuelve el ciclo donde el ritmo y el baile son protagonistas! Y esta vez, con Goro Gocher como primer invitado. El viernes 13 de noviembre, Goro Gocher, junto a Muñe en teclados y Luispa Goggia en guitarras y bajos, llega al CCE para compartir canciones de su último álbum…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfSx0BmGNHf/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b3d4246d3b1f.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "centroculturalterminalgoes-20261113",
    "url": "https://www.instagram.com/p/DfXTcW0DUo1/",
    "titulo": "Centro Cultural Terminal Goes: LUCA PRODAN: LA VIDA QUE NUNCA TE CONTARON",
@@ -686,60 +594,14 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "jardinbotanicodemontevideo-20261114",
-   "url": "https://www.instagram.com/p/DflCVAyj1rU/",
+   "url": "https://www.instagram.com/p/DfsVPvxjOoS/",
    "titulo": "Jardín Botánico: De 9 a",
-   "categoria": "exposicion",
+   "categoria": "otros",
    "categoria_segura": false,
-   "descripcion_corta": "Sábado 14 de noviembre de 9 a 18 h. Los esperamos para una nueva edición de la feria de plantas del Jardín Botánico. Exposición y venta más de diversos expositores. El evento se suspende por inclemencias climáticas. Organiza: ABOV (Asociación de Amigos del Jardín Botánico y otros espacios verdes)…",
+   "descripcion_corta": "Sábado 14 de noviembre de 11 a 16 h. Actividades: 11 h - Taller de alimentación segura, jugando aprendemos a cargo de Lic. Alexandra Cabrera de Cica (Centro de Información al Consumidor de Alimentos) Servicio de regulación alimentaria División Salud Intendencia de Montevideo. 13 h. - Medicina de la…",
    "lugar": {
     "nombre": "Jardín Botánico",
     "direccion": "Av. 19 de Abril 1181",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T09:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DflCVAyj1rU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6cc4c75f2108.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "lamadredelassecond-20261114",
-   "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
-   "titulo": "La Madre de las Second Hand: PLAZA DE LAS PIONERAS",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "SÁBADO 14 – PLAZA DE LAS PIONERAS Más de 150 stands con ropa, calzado, accesorios, libros, juguetes y objetos de segunda mano. ¡Además, food trucks! Av. Agraciada esquina Gral. Fausto Aguilar. De 11 a 18 hs.",
-   "lugar": {
-    "nombre": "Av. Agraciada esquina Gral. Fausto Aguilar",
-    "direccion": null,
     "lat": null,
     "lon": null,
     "barrio": null
@@ -756,7 +618,62 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
+     "url": "https://www.instagram.com/p/DfsVPvxjOoS/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6cc4c75f2108.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lamadredelassecond-20261114",
+   "url": "https://www.instagram.com/p/DfsVfx7RRQq/",
+   "titulo": "La Madre de las Second Hand: PLAZA DE LAS PIONERAS",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¡IMPORTANTE! CAMBIO DE FECHA Y LOCACIÓN Debido a los pronósticos de lluvia, SUSPENDEMOS la feria prevista para este sábado 14 de noviembre. ¡Pero ya tenemos nueva fecha y lugar! SÁBADO 21 DE NOVIEMBRE Plaza Primero de Mayo De 11 a 18 hs. ¡ATENCIÓN! LA FERIA DEL DOMINGO 15 EN PASO MOLINO SIGUE EN…",
+   "lugar": {
+    "nombre": "Plaza Primero de Mayo",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfsVfx7RRQq/",
      "via": "instagram"
     }
    ],
@@ -1047,14 +964,14 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "lamadredelassecond-20261115",
-   "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
-   "titulo": "La Madre de las Second Hand: PASO MOLINO",
-   "categoria": "carnaval",
+   "id_externo": "el.mingus-20261115",
+   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Jazz Sobre el Bidet -Músicas de Patricio Rey",
+   "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "DOMINGO 15 – PASO MOLINO Celebramos los 134 años de Belvedere con La Madre de las Second Hand, feria de artesanos, plaza de comidas y espectáculos en vivo: Damián Lescano, Mariano Bermúdez, Demostración de Taekwondo, Fusión Murguera, De Todas Partes, Hay Banda, Murga La Margarita, Murga Araca la…",
+   "descripcion_corta": "Domingo 15 de noviembre: Jazz Sobre el Bidet -Músicas de Patricio Rey",
    "lugar": {
-    "nombre": "Av. Agraciada esquina Gral. Fausto Aguilar",
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
     "direccion": null,
     "lat": null,
     "lon": null,
@@ -1062,9 +979,9 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-15T11:00:00-03:00",
+     "inicio": "2026-11-15T00:00:00-03:00",
      "fin": null,
-     "sin_hora": false,
+     "sin_hora": true,
      "sala": null,
      "agotada": false
     }
@@ -1072,17 +989,19 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
+     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
      "via": "instagram"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/31db3cd88355.jpg",
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5d0d3e348f1f.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "etiquetas": [],
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
@@ -1170,6 +1089,49 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261116",
+   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Residencia de Homenajes: Esperanza Spalding",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Lunes 16 de noviembre: Residencia de Homenajes: Esperanza Spalding",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-16T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6d499383e0a6.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261116",
    "url": "https://www.instagram.com/p/DfmsJ7PIIEv/",
    "titulo": "Centro Cultural de España: Mujeres de Cine",
@@ -1216,6 +1178,49 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261117",
+   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Martes de Jazz",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Martes 17 de noviembre: Martes de Jazz (todos los martes)",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-17T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/dce730d14042.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261117",
    "url": "https://www.instagram.com/p/DfiDMgDGDk4/",
    "titulo": "Centro Cultural de España: ¿Cómo trabajamos el consentimiento en el entorno digital?",
@@ -1257,6 +1262,49 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261118",
+   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Mujeres de Brasil",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Miércoles 18 de Noviembre: Mujeres de Brasil",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/152970698171.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
@@ -1341,6 +1389,49 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261119",
+   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Jazzterday",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Jueves 19 de noviembre: Jazzterday",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5201ad786202.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
@@ -1478,6 +1569,90 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261120",
+   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Piano Bar",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábado 20 de noviembre (al mediodía): Piano Bar",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a9a7a1b72ebc.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "facmvd-20261120",
+   "url": "https://www.instagram.com/p/DfrhWVgFiEO/",
+   "titulo": "FAC: Presentación editorial",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación editorial Margen de maniobra Con Fabiana Puentes y Alejandro Cruz. alejandro_cruz_art puentesfabiana 20 de noviembre 18 h Museo Nacional de Artes Visuales (MNAV) Av. Tomás Giribaldi 2283, esquina Julio Herrera y Reissig doteditorial _anastrauss_ angela_lopez_ruiz lopezlage…",
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales (MNAV)",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfrhWVgFiEO/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b59ef628b273.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "centroculturalterminalgoes-20261120",
    "url": "https://www.instagram.com/p/DfhmnO1DeE5/",
    "titulo": "Centro Cultural Terminal Goes: ASCENSO",
@@ -1521,6 +1696,49 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261121",
+   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Tony Rey",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Domingo 21 de noviembre: Tony Rey (desde España) Reservá tu mesa via Whatsapp al 093 651 305. Te esperamos!",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/107ef10e9417.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
@@ -1622,7 +1840,7 @@
    "categoria_segura": false,
    "descripcion_corta": "En nuestra última participación del año en volvemos a un reconocimiento arquitectónico por sus calles. Caminata Art Nouveau Sábado 21 de Noviembre de 2026 12:00 a 13:30 horas Punto de encuentro: Bacacay y Buenos Aires Itinerario Edificio Tienda La Nueva Sirena Edificio Pablo Ferrando Casa José…",
    "lugar": {
-    "nombre": "Caminata Art Nouveau",
+    "nombre": "Bacacay y Buenos Aires",
     "direccion": null,
     "lat": null,
     "lon": null,
@@ -1855,8 +2073,8 @@
    "categoria_segura": false,
    "descripcion_corta": "Picudo Rojo llega al Fénix! El jueves 26 recibimos a siyofuerareymago , que llega a la esquina para presentar su último disco: PICUDO ROJO. Una noche para meternos en el universo audiovisual del álbum, recorrer sus videoclips y conocer un poco más de cerca el trabajo detrás de cada canción. Jueves…",
    "lugar": {
-    "nombre": "Bar Fénix",
-    "direccion": null,
+    "nombre": "Fénix Bar",
+    "direccion": "Juan Carlos Gómez 1251",
     "lat": null,
     "lon": null,
     "barrio": null
@@ -1883,7 +2101,9 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "etiquetas": [],
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },

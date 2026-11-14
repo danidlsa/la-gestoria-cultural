@@ -1,46 +1,22 @@
 {
- "generado": "2026-11-13T15:54:26.512236-03:00",
- "cantidad": 27,
+ "generado": "2026-11-13T22:43:20.587430-03:00",
+ "cantidad": 29,
  "ciclos": [
-  {
-   "id": "ciclo-envejecimiento-activo",
-   "titulo": "Envejecimiento activo",
-   "lugar_id": null,
-   "desde": "2026-11-13T10:00:00-03:00",
-   "hasta": "2026-12-11T16:00:00-03:00",
-   "cantidad": 7
-  },
   {
    "id": "ciclo-la-noche-de-las-librerias-2026",
    "titulo": "La Noche de las Librerías 2026",
    "lugar_id": null,
-   "desde": "2026-11-13T15:00:00-03:00",
+   "desde": "2026-11-13T17:50:00-03:00",
    "hasta": "2026-11-14T00:30:00-03:00",
-   "cantidad": 129
+   "cantidad": 128
   },
   {
-   "id": "ciclo-ciclo-de-cine",
-   "titulo": "Ciclo de Cine",
-   "lugar_id": "museo-nacional-de-artes-visuales",
-   "desde": "2026-11-13T16:30:00-03:00",
-   "hasta": "2026-12-11T17:00:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-andrzej-wajda-en-su-centenario",
-   "titulo": "Andrzej Wajda, en su centenario",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-13T17:00:00-03:00",
-   "hasta": "2026-11-17T19:20:00-03:00",
-   "cantidad": 6
-  },
-  {
-   "id": "ciclo-centro-cultural-de-espana",
-   "titulo": "Centro Cultural de España",
-   "lugar_id": "centro-cultural-de-espana",
-   "desde": "2026-11-13T18:00:00-03:00",
-   "hasta": "2026-11-27T19:00:00-03:00",
-   "cantidad": 9
+   "id": "ciclo-centro-cultural-terminal-goes",
+   "titulo": "Centro Cultural Terminal Goes",
+   "lugar_id": "centro-cultural-terminal-goes",
+   "desde": "2026-11-13T20:00:00-03:00",
+   "hasta": "2026-11-19T20:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-encuentro-de-murga-joven-2026",
@@ -99,12 +75,28 @@
    "cantidad": 12
   },
   {
+   "id": "ciclo-centro-cultural-de-espana",
+   "titulo": "Centro Cultural de España",
+   "lugar_id": "centro-cultural-de-espana",
+   "desde": "2026-11-14T15:00:00-03:00",
+   "hasta": "2026-11-27T19:00:00-03:00",
+   "cantidad": 7
+  },
+  {
    "id": "ciclo-paseo-sur-palermo",
    "titulo": "Paseo Sur Palermo",
    "lugar_id": "ansina-e-isla-de-flores",
    "desde": "2026-11-14T16:00:00-03:00",
    "hasta": "2026-11-14T16:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-andrzej-wajda-en-su-centenario",
+   "titulo": "Andrzej Wajda, en su centenario",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-14T17:40:00-03:00",
+   "hasta": "2026-11-17T19:20:00-03:00",
+   "cantidad": 5
   },
   {
    "id": "ciclo-primavera-tango",
@@ -123,12 +115,28 @@
    "cantidad": 5
   },
   {
+   "id": "ciclo-el-mingus",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+   "lugar_id": "el-mingus",
+   "desde": "2026-11-15T00:00:00-03:00",
+   "hasta": "2026-11-21T00:00:00-03:00",
+   "cantidad": 7
+  },
+  {
    "id": "ciclo-musica-en-el-parque",
    "titulo": "Música en el Parque",
    "lugar_id": "parque-de-la-amistad",
    "desde": "2026-11-15T17:00:00-03:00",
    "hasta": "2026-11-15T17:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-envejecimiento-activo",
+   "titulo": "Envejecimiento activo",
+   "lugar_id": null,
+   "desde": "2026-11-16T11:00:00-03:00",
+   "hasta": "2026-12-11T16:00:00-03:00",
+   "cantidad": 7
   },
   {
    "id": "ciclo-particulas",
@@ -185,6 +193,14 @@
    "desde": "2026-12-02T20:00:00-03:00",
    "hasta": "2026-12-03T20:00:00-03:00",
    "cantidad": 2
+  },
+  {
+   "id": "ciclo-ciclo-de-cine",
+   "titulo": "Ciclo de Cine",
+   "lugar_id": "museo-nacional-de-artes-visuales",
+   "desde": "2026-12-11T17:00:00-03:00",
+   "hasta": "2026-12-11T17:00:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-ciclo-de-piano",

@@ -1,568 +1,12 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-13T15:34:40.553923-03:00",
+ "corrida": "2026-11-13T22:28:55.737915-03:00",
  "ok": true,
- "cantidad": 124,
+ "cantidad": 120,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021919",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
-   "titulo": "EMI",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "“EMI” Emi, de 18 años, vive con sus padres en los suburbios de Buenos Aires. Hace unos meses empezó a trabajar en un taller de reparación de motos en un barrio obrero. Emi quiere saber acerca de su familia biológica y pasa sus días armando el rompecabezas de su historia. Dirección: Ezequiel…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-19T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021919/700_x_390_e.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021868",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021868/diciembre",
-   "titulo": "Diciembre",
-   "categoria": "cine",
-   "categoria_segura": false,
-   "descripcion_corta": "“DICIEMBRE” Diciembre es un viaje temporal y una reconstrucción inmersiva, atmosférica y dramática de los acontecimientos ocurridos en Argentina durante diciembre de 2001. Utilizando únicamente material de archivo registrado a lo largo de ese mes, la película no solo revisita, sino que reactiva en…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-22T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021868/diciembre",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021868/700_x_390_d.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021666",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021666/luca-prodan-la-vida-que-nunca-te-contaron",
-   "titulo": "Luca Prodan: La vida que nunca te contaron",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Proyección del documental \"LUCA\", dirigido por Rodrigo Espina, sobre la vida de Luca Prodan, fundador de la banda Sumo y figura fundamental del rock argentino de los años '80. La película, ganadora del 4º Festival Internacional de Cine Documental Musical IN-EDIT, reconstruye la historia de Prodan a…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": null,
-    "lat": -34.8822811,
-    "lon": -56.1829079,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 450.0,
-    "hasta": 450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021666/luca-prodan-la-vida-que-nunca-te-contaron",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021666/banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021111",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021111/washington-y-cristina",
-   "titulo": "Washington y Cristina",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "WASHINGTON Y CRISTINA – CONCIERTO 50° ANIVERSARIO Dos noches únicas en el Teatro Solís para celebrar cincuenta años de música, escenarios y canciones compartidas. Referentes fundamentales de la canción uruguaya, Washington Carrasco y Cristina Fernández han construido a lo largo de cinco décadas una…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021111/washington-y-cristina",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021111/BANNER_TICKANTEL.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021958",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021958/el-jubilate",
-   "titulo": "El Jubilate",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Cantoría, ensamble vocal español especializado en música antigua La propuesta de concierto se plantea como un recorrido por la música vocal de los siglos XVI y XVII, poniendo en diálogo el patrimonio musical catalán con repertorios del ámbito iberoamericano. El programa estará articulado en torno a…",
-   "lugar": {
-    "nombre": "Auditorio Vaz Ferreira",
-    "direccion": null,
-    "lat": -34.9026912,
-    "lon": -56.1776624,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021958/el-jubilate",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021958/Adaptaciones_CANTORIA_banner.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021938",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-y-area-candombe",
-   "titulo": "Muestra final 2026: Área Tango y Área Candombe",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Escuela de Formación Artística del SODRE ENFAS: Muestra final del Área TANGO y Área CANDOMBE. Este espectáculo forma parte del cierre de cursos 2026 del Área Tango y el Área Candombe de la ENFAS. Cada curso presenta un proyecto final que sintetiza un proceso creativo y pone en escena el trabajo…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    },
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-y-area-candombe",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021938/BANNER_TANG.CAND_12.14nov.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021670",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021670/el-de-las-tinieblas-a-la-luz",
-   "titulo": "Él, de las tinieblas a la luz",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Temporada lírica 2026. Cien años después de que Mercedes Pinto encontrara en Montevideo el lugar para publicar su historia, su voz vuelve a esta ciudad transformada en música, en una ópera que recupera su lucha y la proyecta hacia el presente. La obra, con música de Laura Vega y dramaturgia de Rita…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021670/el-de-las-tinieblas-a-la-luz",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021670/Tickantel-700x390.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021712",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021712/buceo-invisible-en-el-planetario",
-   "titulo": "Buceo Invisible en el Planetario",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Buceo invisible en el Planetario. \"La música estaba en el aire, una música que era como un aroma, flotando y cambiando \" R. Bradbury. Aterrizamos por una noche en el domo del Planetario de Montevideo para presentar canciones de nuestro último disco \"La mañana del incendio \" y recorrer parte de la…",
-   "lugar": {
-    "nombre": "Planetario de Montevideo",
-    "direccion": null,
-    "lat": -34.9023524,
-    "lon": -56.1445355,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021712/buceo-invisible-en-el-planetario",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021712/BANNER_BUCEO_INVIISBLE.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021640",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021640/pulmones",
-   "titulo": "Pulmones",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Alfonso Tort y Leonor Svarcas. Con la direccion de Fernando Dianesi y la produccion de Diego Sorondo.",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 940.0,
-    "hasta": 940.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021640/pulmones",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021640/Banner.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021870",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021870/carne",
-   "titulo": "Carne",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "“CARNE” En un país cuya identidad gira en torno a la carne, la extinción del ganado desata una crisis social, económica y moral sin precedentes. Mientras el gobierno permanece paralizado, Matías, un empresario ambicioso marcado por un perturbador pasado familiar, propone una polémica ley con la que…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:55:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T20:50:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021870/carne",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021870/700_x_390_c.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020898",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020898/luciano-pereyra",
-   "titulo": "Luciano Pereyra",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Luciano Pereyra, uno de los artistas más queridos y consagrados de la música latina, regresa a Montevideo con un espectáculo imperdible y una puesta en escena totalmente renovada. En el marco de su nueva gira Te Sigo Amando, el cantautor argentino brindará una serie de shows que prometen emoción…",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020898/luciano-pereyra",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020898/GRILLA-WEB-700x390.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021637",
@@ -579,13 +23,6 @@
     "barrio": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-13T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-14T22:00:00-03:00",
      "fin": null,
@@ -918,6 +355,47 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021111",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021111/washington-y-cristina",
+   "titulo": "Washington y Cristina",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "WASHINGTON Y CRISTINA – CONCIERTO 50° ANIVERSARIO Dos noches únicas en el Teatro Solís para celebrar cincuenta años de música, escenarios y canciones compartidas. Referentes fundamentales de la canción uruguaya, Washington Carrasco y Cristina Fernández han construido a lo largo de cinco décadas una…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021111/washington-y-cristina",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021111/BANNER_TICKANTEL.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40020828",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
    "titulo": "Ay! La miseria nos hará felices",
@@ -1049,6 +527,100 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021938",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-y-area-candombe",
+   "titulo": "Muestra final 2026: Área Tango y Área Candombe",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Escuela de Formación Artística del SODRE ENFAS: Muestra final del Área TANGO y Área CANDOMBE. Este espectáculo forma parte del cierre de cursos 2026 del Área Tango y el Área Candombe de la ENFAS. Cada curso presenta un proyecto final que sintetiza un proceso creativo y pone en escena el trabajo…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-y-area-candombe",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021938/BANNER_TANG.CAND_12.14nov.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021670",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021670/el-de-las-tinieblas-a-la-luz",
+   "titulo": "Él, de las tinieblas a la luz",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Temporada lírica 2026. Cien años después de que Mercedes Pinto encontrara en Montevideo el lugar para publicar su historia, su voz vuelve a esta ciudad transformada en música, en una ópera que recupera su lucha y la proyecta hacia el presente. La obra, con música de Laura Vega y dramaturgia de Rita…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021670/el-de-las-tinieblas-a-la-luz",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021670/Tickantel-700x390.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021568",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021568/natalie-perez",
    "titulo": "Natalie Pérez",
@@ -1080,6 +652,66 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021568/700x390__copia_4.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021640",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021640/pulmones",
+   "titulo": "Pulmones",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Alfonso Tort y Leonor Svarcas. Con la direccion de Fernando Dianesi y la produccion de Diego Sorondo.",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 940.0,
+    "hasta": 940.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021640/pulmones",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021640/Banner.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1336,6 +968,66 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021919",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
+   "titulo": "EMI",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "“EMI” Emi, de 18 años, vive con sus padres en los suburbios de Buenos Aires. Hace unos meses empezó a trabajar en un taller de reparación de motos en un barrio obrero. Emi quiere saber acerca de su familia biológica y pasa sus días armando el rompecabezas de su historia. Dirección: Ezequiel…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021919/700_x_390_e.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40020890",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020890/nelson-pino-45-anos-en-el-tango",
    "titulo": "Nelson Pino - 45 años en el tango",
@@ -1469,6 +1161,47 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021757",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021757/particulas-miel-malapraxxis",
+   "titulo": "Partículas: Miel + Malapraxxis",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": -34.90821430964771,
+    "lon": -56.196500823734254,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-17T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021757/particulas-miel-malapraxxis",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021757/BANNER.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021489",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021489/festival-musica-que-transforma",
    "titulo": "Festival Música Que Transforma",
@@ -1519,47 +1252,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021489/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021757",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021757/particulas-miel-malapraxxis",
-   "titulo": "Partículas: Miel + Malapraxxis",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-17T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021757/particulas-miel-malapraxxis",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021757/BANNER.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2157,6 +1849,59 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021870",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021870/carne",
+   "titulo": "Carne",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "“CARNE” En un país cuya identidad gira en torno a la carne, la extinción del ganado desata una crisis social, económica y moral sin precedentes. Mientras el gobierno permanece paralizado, Matías, un empresario ambicioso marcado por un perturbador pasado familiar, propone una polémica ley con la que…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T20:55:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T20:50:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021870/carne",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021870/700_x_390_c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021764",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021764/nordeste-y-chernobyl",
    "titulo": "Nordeste y Chernobyl",
@@ -2449,6 +2194,52 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021796/banner_generico_florencio_s_.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021868",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021868/diciembre",
+   "titulo": "Diciembre",
+   "categoria": "cine",
+   "categoria_segura": false,
+   "descripcion_corta": "“DICIEMBRE” Diciembre es un viaje temporal y una reconstrucción inmersiva, atmosférica y dramática de los acontecimientos ocurridos en Argentina durante diciembre de 2001. Utilizando únicamente material de archivo registrado a lo largo de ese mes, la película no solo revisita, sino que reactiva en…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021868/diciembre",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021868/700_x_390_d.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2807,6 +2598,47 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40020172",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
+   "titulo": "CNNS – Tramas 852",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Propone un recorrido por músicas, tiempos y sensibilidades que, al encontrarse, revelan nuevas conexiones Un entramado de historias, emociones y resonancias en el que las voces del coro enlazan universos diversos, desde obras profundamente significativas para su identidad hasta la música de Alfredo…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020172/Tramas_852_Adaptaciones_banner.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021939",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa",
    "titulo": "Música de regreso a casa",
@@ -2866,47 +2698,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021939/BannerNuevo.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020172",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
-   "titulo": "CNNS – Tramas 852",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Propone un recorrido por músicas, tiempos y sensibilidades que, al encontrarse, revelan nuevas conexiones Un entramado de historias, emociones y resonancias en el que las voces del coro enlazan universos diversos, desde obras profundamente significativas para su identidad hasta la música de Alfredo…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020172/Tramas_852_Adaptaciones_banner.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3586,52 +3377,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021991/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021642",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021642/pago-y-arrabal",
-   "titulo": "Pago y Arrabal",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Pago y Arrabal es un espectáculo que propone revelar las raíces comunes que unen al tango y al folclore, dos expresiones fundamentales de la identidad rioplatense. A través de una sucesión alternada de obras de ambos géneros, y mediante textos que funcionan como hilo conductor, la puesta va…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-01T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 700.0,
-    "hasta": 700.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021642/pago-y-arrabal",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021642/700x390.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -5378,6 +5123,52 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021483/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021989",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021989/muestra-final-danza-arte",
+   "titulo": "Muestra Final Danza Arte",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Muestra coreográfica de niños, adolescentes y adultos. Con diferentes expresiones artísticas, ballet, flamenco, kpop, salsa, bachata y mas Duración del espectáculo dos horas. Acceso gratuito para menores de 3 incluisive",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-22T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021989/muestra-final-danza-arte",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021989/BANNER-MUESTRA_DANZA_ARTE.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

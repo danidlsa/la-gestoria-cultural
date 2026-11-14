@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-13T15:54:26.512236-03:00",
- "cantidad": 240,
+ "generado": "2026-11-13T22:43:20.587430-03:00",
+ "cantidad": 243,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -245,6 +245,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "bacacay-y-buenos-aires",
+   "nombre": "Bacacay y Buenos Aires",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9074127,
+   "lon": -56.2014439,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "balcon-del-cerro",
    "nombre": "Balcón del Cerro",
    "alias": [],
@@ -483,7 +493,7 @@
    "id": "centro-cultural-terminal-goes",
    "nombre": "Centro Cultural Terminal Goes",
    "alias": [],
-   "direccion": "\"Rectangular1\"",
+   "direccion": "Av. General Flores esquina Domingo Aramburú",
    "lat": -34.882708,
    "lon": -56.181856,
    "barrio": null,
@@ -610,16 +620,6 @@
    "lat": -34.9090027,
    "lon": -56.1835608,
    "barrio": "Palermo",
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "club-fuerza-aerea",
-   "nombre": "Club Fuerza Aérea",
-   "alias": [],
-   "direccion": "Lido 1800, 11500 Montevideo, Departament",
-   "lat": -34.878285,
-   "lon": -56.043716,
-   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -793,16 +793,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "el-imperio-bar",
-   "nombre": "El Imperio bar",
-   "alias": [],
-   "direccion": "Tristán Narvaja 1752",
-   "lat": -34.8980845,
-   "lon": -56.179802,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "el-milongon",
    "nombre": "El Milongon",
    "alias": [],
@@ -949,8 +939,8 @@
     "Espacio Zorilla"
    ],
    "direccion": "Cerrito 475",
-   "lat": -34.904859,
-   "lon": -56.206546,
+   "lat": -34.904952,
+   "lon": -56.206637,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1033,6 +1023,16 @@
    "direccion": "Eduardo Victor Haedo 2244",
    "lat": -34.8965078,
    "lon": -56.1687212,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "fenix-bar",
+   "nombre": "Fénix Bar",
+   "alias": [],
+   "direccion": "Juan Carlos Gómez 1251",
+   "lat": -34.9084962,
+   "lon": -56.2020929,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1176,6 +1176,16 @@
    "direccion": "Rodo1995",
    "lat": -34.9033829,
    "lon": -56.1739249,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "juan-carlos-gomez-y-reconquista",
+   "nombre": "Juan Carlos Gómez y Reconquista",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9085693,
+   "lon": -56.2019618,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2139,7 +2149,7 @@
     "Sala del Museo del Carnaval",
     "Museo del Carnaval"
    ],
-   "direccion": "Maciel 218, 11000 Montevideo, Departamen",
+   "direccion": "of Maciel, Maciel 218, 11000 Montevideo,",
    "lat": -34.905789,
    "lon": -56.212222,
    "barrio": null,
@@ -2284,13 +2294,23 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "teatro-sobre-ruedas",
+   "nombre": "Teatro Sobre Ruedas",
+   "alias": [],
+   "direccion": "Buenos Aires y Bartolomé Mitre",
+   "lat": -34.9074769,
+   "lon": -56.2016088,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "teatro-solis",
    "nombre": "Teatro Solís",
    "alias": [
     "Solís",
     "Teatro Solis"
    ],
-   "direccion": "\"Rectangular1\"",
+   "direccion": "Reconquista s/n esq. Bartolomé Mitre",
    "lat": -34.90786,
    "lon": -56.20101,
    "barrio": null,
@@ -2476,8 +2496,8 @@
    "nombre": "Vieja Farmacia Solís",
    "alias": [],
    "direccion": "Av. Agraciada 2623",
-   "lat": -34.883707,
-   "lon": -56.194297,
+   "lat": -34.883768,
+   "lon": -56.194264,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2508,6 +2528,16 @@
    "direccion": "casa de cervezas - - Ábalos 3196, 11600 Montevideo, Departame",
    "lat": -34.888826,
    "lon": -56.144721,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "el-mingus",
+   "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9058916,
+   "lon": -56.1913095,
    "barrio": null,
    "ciudad": "Montevideo"
   }

@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-13T15:53:07.064582-03:00",
+ "corrida": "2026-11-13T22:41:54.706416-03:00",
  "ok": true,
  "cantidad": 16,
  "errores": [],
@@ -237,52 +237,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
-   "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
-   "titulo": "Javier Zubillaga De Vivo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Javier Zubillaga despide el año con un show íntimo dedicado a su repertorio humorístico, con canciones de sus dos trabajos discográficos y varios temas inéditos.",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": "2026-11-27T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "fa34481c-ba2c-453c-827a-3f3257cfdbef",
    "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
    "titulo": "Jengibre y Lipe Gómez",
@@ -329,89 +283,43 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "ab487087-b2b8-41d2-902e-71467f67c7ca",
-   "url": "https://www.tikzet.com/events/acampo-reggae-festival",
-   "titulo": "Acampo Reggae Festival",
+   "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
+   "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
+   "titulo": "Javier Zubillaga De Vivo",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Acampo Reggae es mucho más que un festival: es un espacio de encuentro para espíritus libres, sin prejuicios, unidos por la música y el deseo de compartir. Creemos en valores como la unidad, la paz, el amor, la cultura, las artes, el respeto por el medio ambiente y la libertad de ser quienes somos…",
+   "descripcion_corta": "Javier Zubillaga despide el año con un show íntimo dedicado a su repertorio humorístico, con canciones de sus dos trabajos discográficos y varios temas inéditos.",
    "lugar": {
-    "nombre": "ACAMPOREGGAE FESTIVAL",
-    "direccion": "La Vieja Escuela, Oceanía del Polonio",
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
     "lat": null,
     "lon": null,
     "barrio": null
    },
    "funciones": [
     {
-     "inicio": "2026-12-05T14:00:00-03:00",
-     "fin": "2026-12-06T20:00:00-03:00",
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": "2026-11-27T23:59:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 700.0,
-    "hasta": 700.0,
+    "desde": 400.0,
+    "hasta": 400.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/acampo-reggae-festival",
+     "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fe5c4bd28-3f61-4e03-9030-1b89d516597d.original",
-   "productor": "ACAMPOREGGAE FESTIVAL",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "a766a550-a019-4abf-9e7a-99fe9d1ecc45",
-   "url": "https://www.tikzet.com/events/paranormales-veneno-en-vivo",
-   "titulo": "Paranormales: Veneno en vivo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Veneno Presenta: Paranormales: Una noche para asustar.",
-   "lugar": {
-    "nombre": "Caos Records",
-    "direccion": "Gutenberg 6485, Barrio Lezica",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T19:00:00-03:00",
-     "fin": "2026-11-13T23:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 150.0,
-    "hasta": 150.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/paranormales-veneno-en-vivo",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Ffb3db284-9c02-4359-be62-fdf4ee88d425.original",
-   "productor": "Caos Records",
+   "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
+   "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -467,6 +375,190 @@
   },
   {
    "fuente": "tikzet",
+   "id_externo": "ab487087-b2b8-41d2-902e-71467f67c7ca",
+   "url": "https://www.tikzet.com/events/acampo-reggae-festival",
+   "titulo": "Acampo Reggae Festival",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Acampo Reggae es mucho más que un festival: es un espacio de encuentro para espíritus libres, sin prejuicios, unidos por la música y el deseo de compartir. Creemos en valores como la unidad, la paz, el amor, la cultura, las artes, el respeto por el medio ambiente y la libertad de ser quienes somos…",
+   "lugar": {
+    "nombre": "ACAMPOREGGAE FESTIVAL",
+    "direccion": "La Vieja Escuela, Oceanía del Polonio",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T14:00:00-03:00",
+     "fin": "2026-12-06T20:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 700.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/acampo-reggae-festival",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fe5c4bd28-3f61-4e03-9030-1b89d516597d.original",
+   "productor": "ACAMPOREGGAE FESTIVAL",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "68bfb10e-f938-4a19-a28e-85476eac3e17",
+   "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
+   "titulo": "Alhelíes + Tengo un amigo que anda",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Alhelíes y tengo un amigo que anda bien pa’ los audiovisuales por primera vez compartiendo fecha. Dos bandas con una fuerte impronta paisajística y experimental, otra noche en los recovecos de la noche Montevideana. *Este show es con mi público con sillas y las mesas son compartidas",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T21:00:00-03:00",
+     "fin": "2026-11-19T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F59aae68e-c969-4698-8ee6-4a992d6dab33.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "dbdedcc5-b5d5-472c-929a-32947d6cd1ee",
+   "url": "https://www.tikzet.com/events/mamba-club",
+   "titulo": "MAMBA CLUB",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "MAMBA CLUB",
+    "direccion": "Avenida Uruguay 1136",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-13T23:50:00-03:00",
+     "fin": "2026-11-14T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 250.0,
+    "hasta": 250.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/mamba-club",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Ff82269df-a85f-438e-a65d-60210c04ea17.original",
+   "productor": "MAMBA CLUB",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "27d891c2-4908-47ad-9908-62834fa8b5d6",
+   "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
+   "titulo": "Jula Andina presenta “Fecunda”",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La cantautora argentina JULA ANDINA presenta FECUNDA el próximo 24 de Noviembre en El Hormiguero. En un encuentro entre canciones, viajes y universos propios, la noche abrirá con Fulana de Val y contará con la participación especial de Clara Pregliasco, ambas cantautoras uruguayas. FECUNDA nace de…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T21:00:00-03:00",
+     "fin": "2026-11-24T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
    "id_externo": "151dec2c-5b9f-40fa-90e9-dcc4b69fa97c",
    "url": "https://www.tikzet.com/events/noche-flamenca-ice",
    "titulo": "NOCHE FLAMENCA ICE",
@@ -513,12 +605,12 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "68bfb10e-f938-4a19-a28e-85476eac3e17",
-   "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
-   "titulo": "Alhelíes + Tengo un amigo que anda",
+   "id_externo": "10272af4-5882-411e-bf7f-1dde4bfc299e",
+   "url": "https://www.tikzet.com/events/catalina-erdelyi-cuarteto",
+   "titulo": "Catalina Erdelyi Cuarteto",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Alhelíes y tengo un amigo que anda bien pa’ los audiovisuales por primera vez compartiendo fecha. Dos bandas con una fuerte impronta paisajística y experimental, otra noche en los recovecos de la noche Montevideana. *Este show es con mi público con sillas y las mesas son compartidas",
+   "descripcion_corta": "*Este show es con el público sentado con mesas y sillas.",
    "lugar": {
     "nombre": "El Hormiguero",
     "direccion": "San Salvador 1644",
@@ -528,27 +620,27 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T21:00:00-03:00",
-     "fin": "2026-11-19T23:59:00-03:00",
+     "inicio": "2026-11-26T20:30:00-03:00",
+     "fin": "2026-11-26T23:59:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
+    "desde": 340.0,
+    "hasta": 340.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
+     "url": "https://www.tikzet.com/events/catalina-erdelyi-cuarteto",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F59aae68e-c969-4698-8ee6-4a992d6dab33.original",
+   "imagen_url": "https://cdn.tikzet.com/images%2Fccf19bc7-f6f4-4858-b045-967370cbe72b.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -642,98 +734,6 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
    "productor": "Piffa",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "27d891c2-4908-47ad-9908-62834fa8b5d6",
-   "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
-   "titulo": "Jula Andina presenta “Fecunda”",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La cantautora argentina JULA ANDINA presenta FECUNDA el próximo 24 de Noviembre en El Hormiguero. En un encuentro entre canciones, viajes y universos propios, la noche abrirá con Fulana de Val y contará con la participación especial de Clara Pregliasco, ambas cantautoras uruguayas. FECUNDA nace de…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T21:00:00-03:00",
-     "fin": "2026-11-24T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "dbdedcc5-b5d5-472c-929a-32947d6cd1ee",
-   "url": "https://www.tikzet.com/events/mamba-club",
-   "titulo": "MAMBA CLUB",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "MAMBA CLUB",
-    "direccion": "Avenida Uruguay 1136",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T23:50:00-03:00",
-     "fin": "2026-11-14T06:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 250.0,
-    "hasta": 250.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/mamba-club",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Ff82269df-a85f-438e-a65d-60210c04ea17.original",
-   "productor": "MAMBA CLUB",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

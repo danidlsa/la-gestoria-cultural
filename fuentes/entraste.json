@@ -1,6 +1,6 @@
 {
  "fuente": "entraste",
- "corrida": "2026-11-13T15:52:58.724999-03:00",
+ "corrida": "2026-11-13T22:41:45.902832-03:00",
  "ok": true,
  "cantidad": 7,
  "errores": [],
@@ -75,12 +75,7 @@
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
+   "precio": null,
    "entradas": [
     {
      "url": "https://app.entraste.com/events/resilience",
@@ -307,7 +302,7 @@
    ],
    "precio": {
     "desde": 300.0,
-    "hasta": 650.0,
+    "hasta": 500.0,
     "moneda": "UYU",
     "gratis": false
    },
