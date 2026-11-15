@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-14T22:20:12.572050-03:00",
+ "corrida": "2026-11-14T22:35:43.227862-03:00",
  "ok": true,
- "cantidad": 53,
+ "cantidad": 54,
  "errores": [],
  "eventos": [
   {
@@ -694,6 +694,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/fa8d199e07c8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "espaciomodelomvd-20261115",
+   "url": "https://www.instagram.com/reel/DfvBCOQSxpV/",
+   "titulo": "Llegó la Friki Fest 10 años al Espacio Modelo",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Llegó la Friki Fest 10 años al Espacio Modelo! Hoy estamos viviendo un día increíble lleno de personajes y mucha diversión en el Espacio Modelo. Hoy podes sumarte hasta las 20h, y mañana domingo de 14 a 20h Entrada libre y gratuita Cádiz 3280, Espacio Modelo Vas a encontrar: Paseo de compras…",
+   "lugar": {
+    "nombre": "Cádiz 3280",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/DfvBCOQSxpV/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

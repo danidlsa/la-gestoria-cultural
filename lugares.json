@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-14T22:21:23.583829-03:00",
- "cantidad": 197,
+ "generado": "2026-11-14T22:36:57.965329-03:00",
+ "cantidad": 198,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -636,6 +636,16 @@
    "direccion": null,
    "lat": -34.9030672,
    "lon": -56.1691678,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "cadiz-3280",
+   "nombre": "Cádiz 3280",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.8720088,
+   "lon": -56.1551128,
    "barrio": null,
    "ciudad": "Montevideo"
   },
