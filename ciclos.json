@@ -1,63 +1,7 @@
 {
- "generado": "2026-11-14T22:36:57.965329-03:00",
+ "generado": "2026-11-15T15:06:46.822912-03:00",
  "cantidad": 25,
  "ciclos": [
-  {
-   "id": "ciclo-ciclo-de-teatro",
-   "titulo": "Ciclo de teatro",
-   "lugar_id": null,
-   "desde": "2026-11-14T18:00:00-03:00",
-   "hasta": "2026-12-12T18:00:00-03:00",
-   "cantidad": 11
-  },
-  {
-   "id": "ciclo-ciclo-de-cine-accesible-2026",
-   "titulo": "Ciclo de Cine Accesible 2026",
-   "lugar_id": "parque-de-la-amistad",
-   "desde": "2026-11-14T19:30:00-03:00",
-   "hasta": "2026-11-14T19:30:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-encuentro-de-murga-joven-2026",
-   "titulo": "Encuentro de Murga Joven 2026",
-   "lugar_id": "centro-cultural-las-duranas",
-   "desde": "2026-11-14T20:00:00-03:00",
-   "hasta": "2026-11-16T20:00:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-primavera-tango",
-   "titulo": "Primavera Tango",
-   "lugar_id": null,
-   "desde": "2026-11-14T20:30:00-03:00",
-   "hasta": "2026-11-22T20:00:00-03:00",
-   "cantidad": 4
-  },
-  {
-   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
-   "titulo": "Estreno de obras Fortalecimiento de las Artes",
-   "lugar_id": null,
-   "desde": "2026-11-14T20:30:00-03:00",
-   "hasta": "2026-12-04T21:00:00-03:00",
-   "cantidad": 4
-  },
-  {
-   "id": "ciclo-ciclo-marea",
-   "titulo": "Ciclo MAREA",
-   "lugar_id": "sala-zitarrosa",
-   "desde": "2026-11-14T20:30:00-03:00",
-   "hasta": "2026-12-05T21:30:00-03:00",
-   "cantidad": 5
-  },
-  {
-   "id": "ciclo-the-shannon",
-   "titulo": "The Shannon",
-   "lugar_id": "the-shannon-irish-pub",
-   "desde": "2026-11-14T22:00:00-03:00",
-   "hasta": "2026-11-28T00:00:00-03:00",
-   "cantidad": 8
-  },
   {
    "id": "ciclo-el-mingus",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
@@ -65,6 +9,22 @@
    "desde": "2026-11-15T00:00:00-03:00",
    "hasta": "2026-11-21T00:00:00-03:00",
    "cantidad": 7
+  },
+  {
+   "id": "ciclo-ciclo-de-teatro",
+   "titulo": "Ciclo de teatro",
+   "lugar_id": null,
+   "desde": "2026-11-15T14:00:00-03:00",
+   "hasta": "2026-12-12T18:00:00-03:00",
+   "cantidad": 10
+  },
+  {
+   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
+   "titulo": "Estreno de obras Fortalecimiento de las Artes",
+   "lugar_id": null,
+   "desde": "2026-11-15T16:00:00-03:00",
+   "hasta": "2026-12-04T21:00:00-03:00",
+   "cantidad": 4
   },
   {
    "id": "ciclo-musica-en-el-parque",
@@ -81,6 +41,30 @@
    "desde": "2026-11-15T17:40:00-03:00",
    "hasta": "2026-11-17T19:20:00-03:00",
    "cantidad": 4
+  },
+  {
+   "id": "ciclo-primavera-tango",
+   "titulo": "Primavera Tango",
+   "lugar_id": null,
+   "desde": "2026-11-15T19:00:00-03:00",
+   "hasta": "2026-11-22T20:00:00-03:00",
+   "cantidad": 3
+  },
+  {
+   "id": "ciclo-encuentro-de-murga-joven-2026",
+   "titulo": "Encuentro de Murga Joven 2026",
+   "lugar_id": "centro-cultural-las-duranas",
+   "desde": "2026-11-15T20:00:00-03:00",
+   "hasta": "2026-11-16T20:00:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-prueba-de-admision-del-carnaval-2027",
+   "titulo": "Prueba de Admisión del Carnaval 2027",
+   "lugar_id": "teatro-de-verano",
+   "desde": "2026-11-15T20:30:00-03:00",
+   "hasta": "2026-11-16T20:30:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-envejecimiento-activo",
@@ -115,6 +99,14 @@
    "cantidad": 2
   },
   {
+   "id": "ciclo-the-shannon",
+   "titulo": "The Shannon",
+   "lugar_id": "the-shannon-irish-pub",
+   "desde": "2026-11-18T00:00:00-03:00",
+   "hasta": "2026-11-28T00:00:00-03:00",
+   "cantidad": 7
+  },
+  {
    "id": "ciclo-atlantidoc",
    "titulo": "Atlantidoc",
    "lugar_id": "centro-cultural-terminal-goes",
@@ -137,6 +129,14 @@
    "desde": "2026-11-21T18:00:00-03:00",
    "hasta": "2027-01-05T00:00:00-03:00",
    "cantidad": 3
+  },
+  {
+   "id": "ciclo-ciclo-marea",
+   "titulo": "Ciclo MAREA",
+   "lugar_id": "sala-zitarrosa",
+   "desde": "2026-11-21T21:00:00-03:00",
+   "hasta": "2026-12-05T21:30:00-03:00",
+   "cantidad": 4
   },
   {
    "id": "ciclo-tmc",

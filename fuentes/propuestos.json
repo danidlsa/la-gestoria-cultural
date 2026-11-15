@@ -1,57 +1,10 @@
 {
  "fuente": "propuestos",
- "corrida": "2026-11-14T22:35:16.076787-03:00",
+ "corrida": "2026-11-15T15:05:10.785747-03:00",
  "ok": true,
- "cantidad": 6,
+ "cantidad": 4,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "propuestos",
-   "id_externo": "d9f4fc0970cf",
-   "url": "https://cineaccesible.uy/?p=1063",
-   "titulo": "Mi mundial - Ciclo de Cine AccesibleUy",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Tito es un genio con la pelota. Con sólo 13 años le ofrecen un contrato con el que podría dedicarse a lo que le gusta y sacar a su familia de la pobreza. Poco preparado para lidiar con las presiones de la vida de jugador profesional, abandona la escuela y se aleja de los amigos. A un paso de…",
-   "lugar": {
-    "nombre": "Parque Villa Dolores",
-    "direccion": "Av. Rivera 3275",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://cineaccesible.uy/?p=1063",
-     "via": "propuestos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/d9f4fc0970cf.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "propuestos",
    "id_externo": "82aa3000f1d7",
@@ -232,48 +185,6 @@
    ],
    "beneficios": [],
    "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "propuestos",
-   "id_externo": "2d3d01322539",
-   "url": "https://Instagram.com/latemeraria",
-   "titulo": "Ecos en el monte y Fer Henry en vivo en La Temeraria",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Noche folk-rock en La Temeraria junto a Jona Smith y Fer Henry cancionistas de guitarras, librerta y birome que compartiran su música sobre el salon de la casa que les recibe y con invitación libre para tode aquel que quiera acompañar. . Sábado 14 de noviembre. 20hrs. ,La Temeraria . Jona Smith es…",
-   "lugar": {
-    "nombre": "La Temeraria",
-    "direccion": "Juan Paullier 1046",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://Instagram.com/latemeraria",
-     "via": "propuestos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/2d3d01322539.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-14T22:29:20.246006-03:00",
+ "corrida": "2026-11-15T14:59:19.317393-03:00",
  "ok": true,
- "cantidad": 95,
+ "cantidad": 88,
  "errores": [],
  "eventos": [
   {
@@ -22,13 +22,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T22:00:00-03:00",
      "fin": null,
@@ -191,13 +184,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-15T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -297,13 +283,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T20:00:00-03:00",
      "fin": null,
@@ -425,13 +404,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-15T19:30:00-03:00",
      "fin": null,
@@ -658,13 +630,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-15T18:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -765,13 +730,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -825,13 +783,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T21:00:00-03:00",
      "fin": null,
@@ -942,13 +893,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T20:00:00-03:00",
      "fin": null,
@@ -1111,69 +1055,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41873.jpg",
    "productor": "Micaela Carrión",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34547",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34547",
-   "titulo": "Cartografía sobre la identidad - Mariana Zaffaroni",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Cartografía sobre la identidad aborda el proceso de construcción de la identidad de Mariana Zaffaroni, secuestrada en Argentina en 1976, cuando tenía apenas 18 meses, junto a sus padres, uruguayos detenidos desaparecidos. Gracias a la búsqueda incansable de su familia biológica, a los 17 años le…",
-   "lugar": {
-    "nombre": "Sala Camacuá",
-    "direccion": "Camacuá 575",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 800.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34547",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34547"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34547"
-    },
-    {
-     "programa": "AEBU",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34547"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42312.jpg",
-   "productor": "Fernando Parodi",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -1528,13 +1409,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-15T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1646,13 +1520,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T18:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T18:30:00-03:00",
      "fin": null,
@@ -1768,13 +1635,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T20:00:00-03:00",
      "fin": null,
@@ -2013,13 +1873,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T16:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T16:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2135,53 +1988,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41915.jpg",
    "productor": "Beatriz Sayad - Virginia Caputi",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "32126",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32126",
-   "titulo": "El gran safari",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "En una selva muy, muy divertida se encuentra un castillo perdido. Allí puede hallarse una reliquia arqueológica invaluable: el Cáliz Sagrado. Tres locos exploradores emprenderán una gran aventura en su búsqueda. Se cruzarán con los animalitos de la selva y, en la travesía, se enfrentarán a grandes…",
-   "lugar": {
-    "nombre": "Castillo Pittamiglio",
-    "direccion": "Rambla Gandhi 633",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T17:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 1400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32126",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42256.jpg",
-   "productor": "Sole Rosa",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -2335,13 +2141,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2401,13 +2200,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T21:00:00-03:00",
      "fin": null,
@@ -2548,13 +2340,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-15T19:00:00-03:00",
      "fin": null,
@@ -2802,64 +2587,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "31750",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?31750",
-   "titulo": "Entre ella y yo",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una comedia delirante, cargada de humor y situaciones radicales que se generan en la cabeza de sus protagonistas, Diego y Valeria, mientras esperan el resultado de un test de embarazo. Un hijo. Un sueño. Una pesadilla. Durante los cinco minutos de espera por un resultado, los protagonistas vivirán…",
-   "lugar": {
-    "nombre": "Teatro del Anglo",
-    "direccion": "San José 1426",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 780.0,
-    "hasta": 780.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?31750",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?31750"
-    },
-    {
-     "programa": "Otras promos",
-     "tipo": "ANDA 20% de descuento",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?31750"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/38361.jpg",
-   "productor": "Juan Luis Granato",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34170",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34170",
    "titulo": "Espejo roto",
@@ -2875,13 +2602,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T21:00:00-03:00",
      "fin": null,
@@ -2912,74 +2632,6 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41308.jpg",
    "productor": "Rafael Pence",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34093",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34093",
-   "titulo": "Extraña pareja",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Dos hombres completamente opuestos obligados a convivir. Uno obsesivo, ordenado y meticuloso. El otro caótico, relajado y desprolijo. El resultado: una sucesión imparable de situaciones desopilantes, diálogos brillantes y momentos que hicieron de esa obra de Neil Simon una de las comedias más…",
-   "lugar": {
-    "nombre": "Teatro Alianza",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 850.0,
-    "hasta": 850.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34093",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34093"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34093"
-    },
-    {
-     "programa": "BBVA",
-     "tipo": "20% BBVA",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34093"
-    },
-    {
-     "programa": "Promo grupal",
-     "tipo": "Promo 2 x $ 1600",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34093"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41205.jpg",
-   "productor": "Álvaro Ahunchain",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -3083,53 +2735,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "33084",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33084",
-   "titulo": "Hologramas - El guardián de Punta de Carretas",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Hologramas - El guardián de Punta de Carretas es un recorrido multimedia que transporta al histórico Castillo Pittamiglio. Telmo Valdemar, el último de un linaje de fareros, invita a un viaje lleno de encanto y sorpresa, donde la historia esotérica del lugar se entrelaza con la fantasía. El…",
-   "lugar": {
-    "nombre": "Castillo Pittamiglio",
-    "direccion": "Rambla Gandhi 633",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 1400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33084",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42257.jpg",
-   "productor": "colectiva",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34951",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34951",
    "titulo": "Jubiladas",
@@ -3145,13 +2750,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T22:00:00-03:00",
      "fin": null,
@@ -3405,13 +3003,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -3518,13 +3109,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-15T19:00:00-03:00",
      "fin": null,
@@ -3851,13 +3435,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T20:30:00-03:00",
      "fin": null,
@@ -4302,64 +3879,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "30243",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?30243",
-   "titulo": "Mi madre, mi novia y yo",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Esta comedia narra el desarraigo del protagonista y el vínculo del joven con su madre, una mujer de otro tiempo, de modales grotescos y que encuentra en su hijo la figura masculina que perdió con el fallecimiento de su alcohólico y violento esposo. La llegada de la novia de Fernando, que tiene una…",
-   "lugar": {
-    "nombre": "Teatro del Notariado",
-    "direccion": "Guayabo 1729",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 780.0,
-    "hasta": 780.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?30243",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?30243"
-    },
-    {
-     "programa": "Otras promos",
-     "tipo": "ANDA 20% de descuento",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?30243"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/40436.jpg",
-   "productor": "Juan Luis Granato",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34894",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34894",
    "titulo": "Midachi - La despedida",
@@ -4407,53 +3926,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34543",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34543",
-   "titulo": "Midachi: la despedida",
-   "categoria": "humor",
-   "categoria_segura": true,
-   "descripcion_corta": "El trío humorístico integrado por Miguel del Sel, Dady Brieva y el Chino Volpato anunció oficialmente su regreso con una serie de funciones que marcarán una despedida histórica. Recorrerán los sketchs, personajes y momentos más emblemáticos de su carrera, funcionando como un gran viaje emocional…",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1500.0,
-    "hasta": 6500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34543",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41784.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34851",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34851",
    "titulo": "Misántropo",
@@ -4469,13 +3941,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-15T19:00:00-03:00",
      "fin": null,
@@ -4691,13 +4156,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-15T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -4783,13 +4241,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T21:30:00-03:00",
      "fin": null,
@@ -4980,13 +4431,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T20:45:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T20:45:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -5111,13 +4555,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T21:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -5183,13 +4620,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-15T19:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -5236,13 +4666,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T20:00:00-03:00",
      "fin": null,
@@ -5409,13 +4832,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-15T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -5538,13 +4954,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T22:00:00-03:00",
      "fin": null,
@@ -5845,13 +5254,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-15T19:00:00-03:00",
      "fin": null,

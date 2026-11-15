@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-14T22:28:06.426708-03:00",
+ "corrida": "2026-11-15T14:58:19.395695-03:00",
  "ok": true,
- "cantidad": 43,
+ "cantidad": 40,
  "errores": [],
  "eventos": [
   {
@@ -356,13 +356,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": "2026-11-14T22:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-15T20:30:00-03:00",
      "fin": "2026-11-15T22:30:00-03:00",
@@ -1073,50 +1066,6 @@
   },
   {
    "fuente": "sodre",
-   "id_externo": "13614",
-   "url": "https://sodre.gub.uy/espectaculos/elena-quinteros/",
-   "titulo": "Elena Quinteros",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Estreno",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T17:00:00-03:00",
-     "fin": "2026-11-14T19:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021820/elena-quinteros",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Slider-web-Sodre-45-768x307.png",
-   "productor": "Cine Nacional y Latinoamericano del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021820/elena-quinteros"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
    "id_externo": "13621",
    "url": "https://sodre.gub.uy/espectaculos/diciembre-2/",
    "titulo": "Diciembre",
@@ -1397,13 +1346,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T19:20:00-03:00",
-     "fin": "2026-11-14T21:20:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-20T17:00:00-03:00",
      "fin": "2026-11-20T19:00:00-03:00",
      "sin_hora": false,
@@ -1455,13 +1397,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T21:10:00-03:00",
-     "fin": "2026-11-14T23:10:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-19T19:00:00-03:00",
      "fin": "2026-11-19T21:00:00-03:00",
      "sin_hora": false,
@@ -1496,50 +1431,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021956/dios-es-una-palabra"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13736",
-   "url": "https://sodre.gub.uy/espectaculos/muestra-final-25-area-tango/",
-   "titulo": "Muestra final 26: Área Tango",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Escuela Nacional de Formación Artística",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": "2026-11-14T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-y-area-candombe",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/destacada.TANGO_12.14nov-768x420.jpg",
-   "productor": "Producción Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-y-area-candombe"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -1943,50 +1834,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021944/muestra-academica-de-ballet-2026"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13818",
-   "url": "https://sodre.gub.uy/espectaculos/muestra-final-2026-area-candombe/",
-   "titulo": "Muestra final 2026: Área Candombe",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Escuela Nacional de Formación Artística",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": "2026-11-14T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/DESTACADAhome.candom_12.14nov-768x420.jpg",
-   "productor": "Producción Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-"
    ],
    "ciclo": null,
    "etiquetas": [],

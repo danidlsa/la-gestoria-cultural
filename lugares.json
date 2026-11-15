@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-14T22:36:57.965329-03:00",
- "cantidad": 198,
+ "generado": "2026-11-15T15:06:46.822912-03:00",
+ "cantidad": 181,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -277,16 +277,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "bulevar-general-artigas-3946",
-   "nombre": "Bulevar General Artigas 3946",
-   "alias": [],
-   "direccion": "Bv. Gral. Artigas 3946, 11700 Montevideo",
-   "lat": -34.871123,
-   "lon": -56.190083,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "cold-music-bar",
    "nombre": "COLD Music Bar",
    "alias": [],
@@ -333,16 +323,6 @@
    "direccion": "Canelones 2150",
    "lat": -34.9071895,
    "lon": -56.168825,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "carrasco-polo-club",
-   "nombre": "Carrasco Polo Club",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.8627617,
-   "lon": -56.0641586,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -560,16 +540,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "colonia-2235",
-   "nombre": "Colonia 2235",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.8973619,
-   "lon": -56.16769,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "colonia-894",
    "nombre": "Colonia 894",
    "alias": [],
@@ -606,16 +576,6 @@
    "direccion": "Río Branco 1627, 11100 Montevideo, Depar",
    "lat": -34.901084,
    "lon": -56.196562,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "contador-luis-e-lecueder",
-   "nombre": "Contador Luis E. Lecueder",
-   "alias": [],
-   "direccion": "Contador Luis E. Lecueder, 11300 Montevi",
-   "lat": -34.904241,
-   "lon": -56.136899,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -662,26 +622,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "durazno-895",
-   "nombre": "Durazno 895",
-   "alias": [],
-   "direccion": "Durazno 895, 11100 Montevideo, Departame",
-   "lat": -34.910908,
-   "lon": -56.196675,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "el-barzon",
-   "nombre": "El Barzón",
-   "alias": [],
-   "direccion": "Av.Gral Rivera 2019",
-   "lat": -34.902133,
-   "lon": -56.172788,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "el-chamuyo",
    "nombre": "El Chamuyo",
    "alias": [],
@@ -698,16 +638,6 @@
    "direccion": "San Salvador 1644",
    "lat": -34.9116208,
    "lon": -56.1793355,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "el-milongon",
-   "nombre": "El Milongon",
-   "alias": [],
-   "direccion": "Gaboto 1812, 11800 Montevideo, Departame",
-   "lat": -34.897038,
-   "lon": -56.182087,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1004,26 +934,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "jardin-botanico",
-   "nombre": "Jardín Botánico",
-   "alias": [],
-   "direccion": "Av. 19 de Abril 1181",
-   "lat": -34.862599,
-   "lon": -56.2011142,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "jose-enrique-rodo-1995",
-   "nombre": "José Enrique Rodó 1995",
-   "alias": [],
-   "direccion": "Rodo 1995",
-   "lat": -34.9033829,
-   "lon": -56.1739249,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "kibon-avanza",
    "nombre": "Kibón Avanza",
    "alias": [],
@@ -1034,24 +944,14 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu",
-   "nombre": "LATU",
+   "id": "latu-laboratorio-tecnologico-del-uruguay",
+   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
    "alias": [
-    "LATU - Laboratorio Tecnológico del Uruguay"
+    "LATU"
    ],
-   "direccion": "Carrasco, Montevideo",
+   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "la-bodeguita-del-sur",
-   "nombre": "La Bodeguita del Sur",
-   "alias": [],
-   "direccion": "Soriano 840",
-   "lat": -34.908433,
-   "lon": -56.198165,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1118,16 +1018,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "la-temeraria",
-   "nombre": "La Temeraria",
-   "alias": [],
-   "direccion": "Juan Paullier 1046",
-   "lat": -34.9093059,
-   "lon": -56.1671268,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "la-trastienda",
    "nombre": "La Trastienda",
    "alias": [],
@@ -1183,24 +1073,12 @@
    "id": "lustrino-espacio-cultural",
    "nombre": "Lustrino Espacio Cultural",
    "alias": [
-    "Lustrino - Espacio Cultural",
-    "Lustrino"
+    "Lustrino",
+    "Lustrino - Espacio Cultural"
    ],
    "direccion": "Carlos Roxlo 1359 bis esq. Av. 18 de Julio",
    "lat": -34.904767,
    "lon": -56.181377,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "l-club",
-   "nombre": "L´Club",
-   "alias": [
-    "L’Club"
-   ],
-   "direccion": "Av. Uruguay 1136, 11100 Montevideo, Depa",
-   "lat": -34.903194,
-   "lon": -56.192042,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1212,26 +1090,6 @@
    "lat": -34.91042,
    "lon": -56.170582,
    "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "miguelete-piedra-alta",
-   "nombre": "Miguelete & Piedra Alta",
-   "alias": [],
-   "direccion": "Miguelete & Piedra Alta, 11800 Montevide",
-   "lat": -34.897587,
-   "lon": -56.185189,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "molino-de-perez",
-   "nombre": "Molino de Pérez",
-   "alias": [],
-   "direccion": "Pasaje Arq. Juan Veltroni",
-   "lat": -34.8941793,
-   "lon": -56.0905563,
-   "barrio": "Malvín",
    "ciudad": "Montevideo"
   },
   {
@@ -1358,16 +1216,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "orinoco-4968",
-   "nombre": "Orinoco 4968",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.8958906,
-   "lon": -56.0979762,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "pivo-metal-rock-bar",
    "nombre": "PIVO  Metal & Rock Bar",
    "alias": [],
@@ -1455,9 +1303,7 @@
   {
    "id": "plaza-independencia-846",
    "nombre": "Plaza Independencia 846",
-   "alias": [
-    "Plaza Independencia"
-   ],
+   "alias": [],
    "direccion": "Pl. Independencia 846, 11100 Montevideo,",
    "lat": -34.906706,
    "lon": -56.198496,
@@ -1505,12 +1351,10 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "q-atrevido",
-   "nombre": "Q'atrevido",
-   "alias": [
-    "QAtrevido"
-   ],
-   "direccion": "S. José 907, 11100 Montevideo, Departame",
+   "id": "qatrevido",
+   "nombre": "QAtrevido",
+   "alias": [],
+   "direccion": "San José 907, Montevideo",
    "lat": -34.907129,
    "lon": -56.196424,
    "barrio": null,
@@ -1569,22 +1413,24 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "rincon-687",
+   "nombre": "Rincón 687",
+   "alias": [
+    "Sala Rincon"
+   ],
+   "direccion": "Rincón 687, 11000 Montevideo, Departamen",
+   "lat": -34.905411,
+   "lon": -56.201545,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "rural-del-prado",
    "nombre": "Rural del Prado",
    "alias": [],
    "direccion": "Galpón 1, ingreso por Av. Buschental",
    "lat": -34.861306,
    "lon": -56.204944,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "sala-13",
-   "nombre": "SALA 13",
-   "alias": [],
-   "direccion": "Bartolomé Mitre 1321, 11000 Montevideo,",
-   "lat": -34.907138,
-   "lon": -56.201924,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1602,7 +1448,7 @@
    "id": "sala-camacua",
    "nombre": "Sala Camacuá",
    "alias": [],
-   "direccion": "Camacuá 575",
+   "direccion": "Camacuá 575, 11000 Montevideo, Departame",
    "lat": -34.909122,
    "lon": -56.202256,
    "barrio": null,
@@ -1645,18 +1491,6 @@
    "direccion": "Av. 8 de Octubre 4849",
    "lat": -34.855863,
    "lon": -56.132473,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "sala-rincon",
-   "nombre": "Sala Rincon",
-   "alias": [
-    "Rincón 687"
-   ],
-   "direccion": "Rincón 732, 11000 Montevideo, Departamen",
-   "lat": -34.90522,
-   "lon": -56.200533,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1722,7 +1556,7 @@
     "Museo del Carnaval",
     "Patio del Museo del Carnaval"
    ],
-   "direccion": "of Maciel, Maciel 218, 11000 Montevideo,",
+   "direccion": "Maciel, 11000 Montevideo",
    "lat": -34.905789,
    "lon": -56.212222,
    "barrio": null,
@@ -1971,7 +1805,7 @@
    "id": "teatro-del-anglo",
    "nombre": "Teatro del Anglo",
    "alias": [],
-   "direccion": "San José 1426",
+   "direccion": "S. José 1426, 11100 Montevideo, Departam",
    "lat": -34.906601,
    "lon": -56.184888,
    "barrio": null,
@@ -1981,7 +1815,7 @@
    "id": "teatro-del-notariado",
    "nombre": "Teatro del Notariado",
    "alias": [],
-   "direccion": "Guayabo 1729",
+   "direccion": "Guayabo 1729, 11200 Montevideo, Departam",
    "lat": -34.903847,
    "lon": -56.178616,
    "barrio": null,
@@ -2079,16 +1913,6 @@
    "direccion": "Av. Agraciada 2623",
    "lat": -34.883768,
    "lon": -56.194264,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "zoba-club",
-   "nombre": "Zoba Club",
-   "alias": [],
-   "direccion": "Bv. España 2218",
-   "lat": -34.9095744,
-   "lon": -56.1679561,
    "barrio": null,
    "ciudad": "Montevideo"
   },

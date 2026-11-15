@@ -1,8 +1,8 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-14T22:33:34.811949-03:00",
+ "corrida": "2026-11-15T15:03:30.672417-03:00",
  "ok": true,
- "cantidad": 64,
+ "cantidad": 58,
  "errores": [],
  "eventos": [
   {
@@ -77,13 +77,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T00:00:00-03:00",
      "fin": null,
@@ -357,15 +350,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 800.0,
     "hasta": 800.0,
@@ -468,13 +453,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-15T20:00:00-03:00",
      "fin": null,
@@ -640,53 +618,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18350",
-   "url": "https://beneficios.ladiaria.com.uy/lo-frio-y-lo-caliente-de-pacho-odonell/",
-   "titulo": "Lo frio y lo caliente de Pacho O’Donell",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "«Lo frío y lo caliente» , del dramaturgo argentino Pacho O’Donnell, explora los límites del amor entre una madre y su hija, donde la ternura, la dependencia y la manipulación se confunden. Con humor negro y tensión psicológica, la compañía Contraescena, de Rocha, presenta una historia inquietante…",
-   "lugar": {
-    "nombre": "Espacio Zorrilla",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 660.0,
-    "hasta": 660.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Lo-frio-y-lo-caliente-de-Pacho-ODonell/33851/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/lo-frio-y-lo-caliente-de-pacho-odonell/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Lo-frio-y-lo-caliente-de-Pacho-ODonell/33851/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18344",
    "url": "https://beneficios.ladiaria.com.uy/la-rebelion-de-la-carne/",
    "titulo": "La rebelión de la carne",
@@ -702,13 +633,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-15T00:00:00-03:00",
      "fin": null,
@@ -1076,46 +1000,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18280",
-   "url": "https://beneficios.ladiaria.com.uy/agrandado/",
-   "titulo": "Agrandado",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Mati Morales se agrandó este año: viajó a Argentina y España, y estrena un show 100 % nuevo en Undermovie. Quería anunciarlo como “Luego de su gira por América y Europa vuelve a Montevideo”… pero ta, no daba para tanto. Dejó atrás la envidia por los “agrandados” de la vida y las redes, y terminó…",
-   "lugar": {
-    "nombre": "Undermovie, Montevideo Shopping",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 440.0,
-    "hasta": 440.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "Descuento",
-     "url": "https://beneficios.ladiaria.com.uy/agrandado/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18277",
    "url": "https://beneficios.ladiaria.com.uy/el-de-las-tinieblas-a-la-luz/",
    "titulo": "ÉL, de las tinieblas a la luz",
@@ -1130,15 +1014,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 600.0,
     "hasta": 600.0,
@@ -1168,53 +1044,6 @@
    "enlaces": [
     "https://www.tickantel.com.uy/inicio/registrarse",
     "https://tickantel.com.uy/ng/espectaculo/40021670/el-de-las-tinieblas-a-la-luz"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18274",
-   "url": "https://beneficios.ladiaria.com.uy/cenizas-de-familia/",
-   "titulo": "Cenizas de familia",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Cenizas de familia es una comedia que habla de los cambios generacionales. Cuando cuatro hermanos se reúnen, luego de diez años, a decidir qué hacer con las cenizas de su padre, lo que era una oportunidad de reencuentro y reconciliación se transforma rápidamente en un absurdo y caótico intercambio…",
-   "lugar": {
-    "nombre": "Teatro Alianza",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/El-eterno-glorioso-y-mas-pequeno-circo-del-mundo-Sala-Atahualpa/33647/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/cenizas-de-familia/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/El-eterno-glorioso-y-mas-pequeno-circo-del-mundo-Sala-Atahualpa/33647/"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -1460,58 +1289,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18249",
-   "url": "https://beneficios.ladiaria.com.uy/luciano-pereyra-te-sigo-amando/",
-   "titulo": "Luciano Pereyra – Te sigo amando",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Luciano Pereyra, uno de los artistas más queridos y consagrados de la música latina, regresa a Montevideo con un espectáculo imperdible y una puesta en escena totalmente renovada. En el marco de su nueva gira Te Sigo Amando, el cantautor argentino brindará una serie de shows que prometen emoción…",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 3200.0,
-    "hasta": 3200.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020898/luciano-pereyra",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/luciano-pereyra-te-sigo-amando/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/ng/espectaculo/40020898/luciano-pereyra"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18246",
    "url": "https://beneficios.ladiaria.com.uy/particulas-miel-malapraxxis/",
    "titulo": "Partículas: Miel + Malapraxxis",
@@ -1693,15 +1470,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 500.0,
     "hasta": 500.0,
@@ -2001,13 +1770,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-14T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T21:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2068,15 +1830,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 990.0,
     "hasta": 990.0,
@@ -2101,53 +1855,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/SITIO-TE-MUEVE-La-Vela-Puerca-Agarrate-Catalina-y-Malapraxxis/33347/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18152",
-   "url": "https://beneficios.ladiaria.com.uy/el-cumple-de-mabel-5/",
-   "titulo": "El cumple de Mabel",
-   "categoria": "danza",
-   "categoria_segura": true,
-   "descripcion_corta": "Llegó Noviembre, se nos fue el año… prepárate que ya estamos en los meses más lindos del año y MABEL está lista!!! Venite a festejar con tu TEAM que en la pista te espera nuestra reina DJ BEVE y muchas sorpresas. Si cumplís, festejas. Si no venís igual. Mabel es la fiesta de todxs! ADVERTENCIA El…",
-   "lugar": {
-    "nombre": "Sala del Museo del Carnaval",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 530.0,
-    "hasta": 530.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/EL-CUMPLE-DE-MABEL--La-fiesta-mas-divertida--NOVIEMBRE/33608/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/el-cumple-de-mabel-5/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/EL-CUMPLE-DE-MABEL--La-fiesta-mas-divertida--NOVIEMBRE/33608/"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -2783,15 +2490,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 740.0,
     "hasta": 740.0,
@@ -2816,53 +2515,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/EL-ZAR/33077/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18039",
-   "url": "https://beneficios.ladiaria.com.uy/murga-madre-2/",
-   "titulo": "Murga Madre",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "MURGA MADRE «El reloj no ha parado nunca» Estrenada en 2002, Murga Madre es una obra de teatro creada por Eduardo «Pitufo» Lombardo, Pablo «Pinocho» Routín y Fernando Toja. Dos personajes sin nombre, sin tiempo y sin lugar habitan un espacio donde los recuerdos aparecen fragmentados. A través de…",
-   "lugar": {
-    "nombre": "Teatro El Galpón | Sala Campodónico",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 900.0,
-    "hasta": 900.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Murga-Madre-Sala-Campodonico/30917/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/murga-madre-2/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Murga-Madre-Sala-Campodonico/30917/"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -3141,15 +2793,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 1300.0,
     "hasta": 1300.0,
@@ -3256,15 +2900,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 890.0,
     "hasta": 890.0,

@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-14T22:35:43.227862-03:00",
+ "corrida": "2026-11-15T15:05:37.637508-03:00",
  "ok": true,
- "cantidad": 54,
+ "cantidad": 49,
  "errores": [],
  "eventos": [
   {
@@ -182,53 +182,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "sansuena_cafevivero-20261108",
-   "url": "https://www.instagram.com/p/DffynDHiEgp/",
-   "titulo": "UN TRIBUTO AL DARNO LLEGA A SANSUEÑA",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "¡UN TRIBUTO AL DARNO LLEGA A SANSUEÑA! Hay nombres que guardan historias y encuentran distintas formas de seguir viviendo. Sansueña, además de ser este rincón natural donde las plantas, el café y la música son protagonistas, es también el nombre del tercer disco de Eduardo Darnauchans, una de las…",
-   "lugar": {
-    "nombre": "Orinoco 4968",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DffynDHiEgp/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/408822156a53.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "facmvd-20261109",
    "url": "https://www.instagram.com/p/DeO8rNoym_C/",
    "titulo": "FAC: Laboratorio de escritura",
@@ -381,90 +334,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "feeldeagua-20261114",
-   "url": "https://www.instagram.com/p/DfXNAzSgt1j/",
-   "titulo": "feel de agua: Alo alo",
-   "categoria": "cine",
-   "categoria_segura": false,
-   "descripcion_corta": "Buenooooo Se viene otraaaaaa GENUFLEXOS Genuflexos cursa sus estudios de llanto sinfónico con la docencia a cargo de Jorge Batlle en 2002 y en un taller de pintura aprende a combinar lágrimas de cocodrilo con tinta china zorrilla. Desde aquel entonces hasta nuestros días se arrastra alternando…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfXNAzSgt1j/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6f44783e925b.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "molinodeperez-20261114",
-   "url": "https://www.instagram.com/p/Dfn0YGlOkA2/",
-   "titulo": "Molino de Pérez: El circo llega al Molino",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "¡El circo llega al Molino! En el mes de los Derechos de las Infancias, nos encontramos para compartir una tarde de juegos, alegría y circo en el Molino de Pérez. Nos visita Circo Lumiere, con una propuesta llena de personajes, acrobacias, malabares y sorpresas para disfrutar en comunidad. 14:30 a…",
-   "lugar": {
-    "nombre": "Molino de Pérez",
-    "direccion": "Pasaje Arq. Juan Veltroni",
-    "lat": -34.8941793,
-    "lon": -56.0905563,
-    "barrio": "Malvín",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfn0YGlOkA2/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b4f939c3ddc5.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "lamadredelassecond-20261114",
    "url": "https://www.instagram.com/p/DfsVfx7RRQq/",
    "titulo": "La Madre de las Second Hand: PLAZA DE LAS PIONERAS",
@@ -477,19 +346,9 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": [
-     "Agraciada",
-     "San Quintín"
-    ]
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-15T11:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T11:00:00-03:00",
      "fin": null,
@@ -564,55 +423,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261114",
-   "url": "https://www.instagram.com/p/DfnNgADKU0J/",
-   "titulo": "The Shannon: MORRIGAN'S",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábado 14/Noviembre: MORRIGAN'S Música celta - 22 hs Cubierto artístico $250 Nota: el cubierto artístico se cobra en efectivo o por transferencia. Gracias por valorar y apoyar la música en vivo pagando el cubierto artístico. NO SE PERMITEN MENORES DE EDAD",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 250.0,
-    "hasta": 250.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfnNgADKU0J/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a6ceee8b5d64.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "el.mingus-20261115",
    "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Jazz Sobre el Bidet -Músicas de Patricio Rey",
@@ -652,53 +462,6 @@
    "etiquetas": [
     "bar"
    ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "jardinbotanicodemontevideo-20261115",
-   "url": "https://www.instagram.com/p/Dfsf1-YFpLo/",
-   "titulo": "Jardín Botánico: De 9 a",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "Domingo 15 de noviembre de 9 a 18 h. Los esperamos para una nueva edición de la feria de plantas del Jardín Botánico. Exposición y venta más de diversos expositores. El evento se suspende por inclemencias climáticas. Organiza: ABOV (Asociación de Amigos del Jardín Botánico y otros espacios verdes)…",
-   "lugar": {
-    "nombre": "Jardín Botánico",
-    "direccion": "Av. 19 de Abril 1181",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T09:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfsf1-YFpLo/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/fa8d199e07c8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },

@@ -1,8 +1,8 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-14T22:28:13.984459-03:00",
+ "corrida": "2026-11-15T14:58:26.790068-03:00",
  "ok": true,
- "cantidad": 15,
+ "cantidad": 14,
  "errores": [],
  "eventos": [
   {
@@ -439,296 +439,6 @@
   },
   {
    "fuente": "cinemateca",
-   "id_externo": "9131",
-   "url": "https://cinemateca.org.uy/peliculas/9131",
-   "titulo": "Padre",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Tereza Nvotová. El extenso plano secuencia inicial (recurso que la directora volverá a utilizar reiteradamente a lo largo de su película) sigue mientras hace ejercicio, llega a su casa, se baña y, por pedido de su mujer (como excepción por ese día), lleva a su pequeña hija a la guardería. Una…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": "2026-11-14T21:43:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T20:05:00-03:00",
-     "fin": "2026-11-15T21:48:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-16T19:25:00-03:00",
-     "fin": "2026-11-16T21:08:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-17T19:25:00-03:00",
-     "fin": "2026-11-17T21:08:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-18T19:20:00-03:00",
-     "fin": "2026-11-18T21:03:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9131",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40415/image_still_binary",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "618",
-   "url": "https://cinemateca.org.uy/peliculas/618",
-   "titulo": "25 watts 25 años",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Juan Pablo Rebella, Pablo Stoll. La historia del cine uruguayo fue harto precaria en el siglo XX y ha adquirido una mayor densidad en el siglo XXI, cuando por ahí dijeron, con Godard a la cabeza que el cine había muerto. Ya habían pasado cosas importantes en Uruguay antes del 2001, por cierto…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:05:00-03:00",
-     "fin": "2026-11-14T21:39:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/618",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/25_watts.jpg",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9643",
-   "url": "https://cinemateca.org.uy/peliculas/9643",
-   "titulo": "Naza",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Yuval Abraham, Rachel Szor. El término “NAZA” es un acrónimo de la expresión militar hebrea nezek agavi que puede traducirse como “daño colateral”, y alude a las víctimas civiles de una guerra, en este caso la que las Fuerzas de Defensa de Israel llevan a cabo contra Hamas y la población de…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:35:00-03:00",
-     "fin": "2026-11-14T21:55:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T21:10:00-03:00",
-     "fin": "2026-11-15T22:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-16T21:25:00-03:00",
-     "fin": "2026-11-16T22:45:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-17T21:25:00-03:00",
-     "fin": "2026-11-17T22:45:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-18T21:25:00-03:00",
-     "fin": "2026-11-18T22:45:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9643",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40845/image_still_binary",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
    "id_externo": "9678",
    "url": "https://cinemateca.org.uy/peliculas/9678",
    "titulo": "Caballo salvaje nueve",
@@ -744,13 +454,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-15T20:05:00-03:00",
      "fin": null,
@@ -835,6 +538,204 @@
   },
   {
    "fuente": "cinemateca",
+   "id_externo": "9131",
+   "url": "https://cinemateca.org.uy/peliculas/9131",
+   "titulo": "Padre",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Tereza Nvotová. El extenso plano secuencia inicial (recurso que la directora volverá a utilizar reiteradamente a lo largo de su película) sigue mientras hace ejercicio, llega a su casa, se baña y, por pedido de su mujer (como excepción por ese día), lleva a su pequeña hija a la guardería. Una…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T20:05:00-03:00",
+     "fin": "2026-11-15T21:48:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T19:25:00-03:00",
+     "fin": "2026-11-16T21:08:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T19:25:00-03:00",
+     "fin": "2026-11-17T21:08:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-18T19:20:00-03:00",
+     "fin": "2026-11-18T21:03:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9131",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40415/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9643",
+   "url": "https://cinemateca.org.uy/peliculas/9643",
+   "titulo": "Naza",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Yuval Abraham, Rachel Szor. El término “NAZA” es un acrónimo de la expresión militar hebrea nezek agavi que puede traducirse como “daño colateral”, y alude a las víctimas civiles de una guerra, en este caso la que las Fuerzas de Defensa de Israel llevan a cabo contra Hamas y la población de…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T21:10:00-03:00",
+     "fin": "2026-11-15T22:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-16T21:25:00-03:00",
+     "fin": "2026-11-16T22:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-17T21:25:00-03:00",
+     "fin": "2026-11-17T22:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-18T21:25:00-03:00",
+     "fin": "2026-11-18T22:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9643",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40845/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
    "id_externo": "9062",
    "url": "https://cinemateca.org.uy/peliculas/9062",
    "titulo": "Emi",
@@ -850,13 +751,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T22:05:00-03:00",
-     "fin": "2026-11-14T23:38:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-15T22:10:00-03:00",
      "fin": "2026-11-15T23:43:00-03:00",
@@ -956,13 +850,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T22:15:00-03:00",
-     "fin": "2026-11-14T23:37:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-15T22:25:00-03:00",
      "fin": "2026-11-15T23:47:00-03:00",

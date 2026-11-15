@@ -1,94 +1,10 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-14T22:34:41.012837-03:00",
+ "corrida": "2026-11-15T15:04:41.436227-03:00",
  "ok": true,
- "cantidad": 14,
+ "cantidad": 12,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "mientrada",
-   "id_externo": "30416",
-   "url": "https://mientrada.com.uy/evento/4tho-aniversario-la-crew-music-press-inndrive-30416",
-   "titulo": "4THO ANIVERSARIO LA CREW MUSIC PRESS INNDRIVE",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Contáctanos a nuestro WhatsApp Oficial Celebramos nuestro 4.º aniversario 🎂 El próximo 14 de noviembre nos encontramos en un NUEVO SPOT, con una edición OPEN AIR en Carrasco Polo Club. Para este festejo vuelve @inndrive , parte de nuestra historia desde la primera fecha, con una propuesta musical…",
-   "lugar": {
-    "nombre": "Carrasco Polo Club",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T23:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mientrada.com.uy/evento/4tho-aniversario-la-crew-music-press-inndrive-30416",
-     "via": "mientrada"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30416_banner5.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mientrada",
-   "id_externo": "30521",
-   "url": "https://mientrada.com.uy/evento/pm-spicy-night-x-absolut-30521",
-   "titulo": "PM SPICY NIGHT X ABSOLUT",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": "Contáctanos a nuestro WhatsApp Oficial PM SPICY NIGHT x ABSOLUT Hay algo nuevo de ABSOLUT en Uruguay. Nosotros decidimos estrenarlo bailando. El sábado 14 de noviembre PM vuelve con una edición especial. Hace tiempo no nos encontrábamos un sábado. Y esta vez, además, estrenamos spot. Nuevo spot…",
-   "lugar": {
-    "nombre": "Colonia 2235",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T23:59:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mientrada.com.uy/evento/pm-spicy-night-x-absolut-30521",
-     "via": "mientrada"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30521_banner5.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "mientrada",
    "id_externo": "30502",
