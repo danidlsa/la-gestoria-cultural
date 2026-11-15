@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-14T14:25:18.450600-03:00",
- "cantidad": 207,
+ "generado": "2026-11-14T22:21:23.583829-03:00",
+ "cantidad": 197,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -39,16 +39,6 @@
    "direccion": "Complejo Sala Show",
    "lat": -34.901063,
    "lon": -56.196562,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "acj-montevideo-centro",
-   "nombre": "ACJ Montevideo - Centro",
-   "alias": [],
-   "direccion": "Centro - Colonia 1870, 11200 Montevideo, Departam",
-   "lat": -34.901043,
-   "lon": -56.176327,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -119,16 +109,6 @@
    "lat": -34.907029,
    "lon": -56.169168,
    "barrio": "Parque Rodó",
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "ansina-e-isla-de-flores",
-   "nombre": "Ansina e Isla de Flores",
-   "alias": [],
-   "direccion": "Ansina e Isla de Flores",
-   "lat": -34.910662638218,
-   "lon": -56.179798565469,
-   "barrio": null,
    "ciudad": "Montevideo"
   },
   {
@@ -253,14 +233,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "bartolome-mitre-1323",
-   "nombre": "Bartolomé Mitre 1323",
-   "alias": [
-    "Bartolomé Mitre 1321"
-   ],
-   "direccion": "3QVX+56Q, Bartolomé Mitre 1323, 11000 Mo",
-   "lat": -34.907083,
-   "lon": -56.201942,
+   "id": "bartolome-mitre-1321",
+   "nombre": "Bartolomé Mitre 1321",
+   "alias": [],
+   "direccion": "Ciudad Vieja",
+   "lat": -34.907138,
+   "lon": -56.201924,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -355,16 +333,6 @@
    "direccion": "Canelones 2150",
    "lat": -34.9071895,
    "lon": -56.168825,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "carrasco-lawn-tennis-club",
-   "nombre": "Carrasco Lawn Tennis Club",
-   "alias": [],
-   "direccion": "4W8Q+5WG, Dr Eduardo Couture, 11500 Mont",
-   "lat": -34.884562,
-   "lon": -56.060176,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -996,16 +964,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "inju",
-   "nombre": "INJU",
-   "alias": [],
-   "direccion": "Av. 18 de Julio 1865",
-   "lat": -34.901780233484,
-   "lon": -56.17602420257,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "indoorclub-1983",
    "nombre": "Indoorclub 1983",
    "alias": [],
@@ -1052,16 +1010,6 @@
    "direccion": "Rodo 1995",
    "lat": -34.9033829,
    "lon": -56.1739249,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "juan-carlos-gomez-y-reconquista",
-   "nombre": "Juan Carlos Gómez y Reconquista",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.9085693,
-   "lon": -56.2019618,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1193,7 +1141,7 @@
    "id": "live-era",
    "nombre": "Live Era",
    "alias": [],
-   "direccion": "Uruguay 960",
+   "direccion": "Uruguay 960, 11200 Montevideo, Departame",
    "lat": -34.903487,
    "lon": -56.195803,
    "barrio": null,
@@ -1257,32 +1205,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "mercado-del-puerto",
-   "nombre": "Mercado del Puerto",
-   "alias": [],
-   "direccion": "Piedras 237, 11000 Montevideo, Departame",
-   "lat": -34.905685,
-   "lon": -56.211752,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "miguelete-piedra-alta",
    "nombre": "Miguelete & Piedra Alta",
    "alias": [],
    "direccion": "Miguelete & Piedra Alta, 11800 Montevide",
    "lat": -34.897587,
    "lon": -56.185189,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "minas-durazno",
-   "nombre": "Minas & Durazno",
-   "alias": [],
-   "direccion": "Minas & Durazno, 11200 Montevideo, Depar",
-   "lat": -34.909757,
-   "lon": -56.179353,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1350,16 +1278,6 @@
    "direccion": "Sarandí 524",
    "lat": -34.90748,
    "lon": -56.2043,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "museo-nacional-de-antropologia",
-   "nombre": "Museo Nacional de Antropología",
-   "alias": [],
-   "direccion": "Av. de las Instrucciones 948, Montevideo",
-   "lat": -34.8450435,
-   "lon": -56.1999532,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1480,16 +1398,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "parque-dr-julio-cesar-grauert",
-   "nombre": "Parque Dr. Julio César Grauert",
-   "alias": [],
-   "direccion": "Carrasco, Montevideo",
-   "lat": -34.884275,
-   "lon": -56.059145,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "parque-de-la-amistad",
    "nombre": "Parque de la Amistad",
    "alias": [
@@ -1595,16 +1503,6 @@
    "direccion": "S. José 907, 11100 Montevideo, Departame",
    "lat": -34.907129,
    "lon": -56.196424,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "quinta-de-mendilaharsu",
-   "nombre": "Quinta de Mendilaharsu",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.8450435,
-   "lon": -56.1999532,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1827,6 +1725,16 @@
    "direccion": "San Salvador 1673",
    "lat": -34.911423,
    "lon": -56.1787539,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "salon-del-centro-cultural-armenio",
+   "nombre": "Salón del Centro Cultural Armenio",
+   "alias": [],
+   "direccion": "Av. Agraciada 2842, 11800 Montevideo, De",
+   "lat": -34.878155,
+   "lon": -56.195991,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2139,16 +2047,6 @@
    "direccion": null,
    "lat": -34.906,
    "lon": -56.1855,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "velodromo-de-montevideo",
-   "nombre": "Velodromo de Montevideo",
-   "alias": [],
-   "direccion": "Av. Ramón V. Benzano 3471, 11600 Montevideo, Departamento de Montevideo",
-   "lat": -34.89782710000001,
-   "lon": -56.1559067,
    "barrio": null,
    "ciudad": "Montevideo"
   },

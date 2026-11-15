@@ -1,6 +1,6 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-14T14:22:05.658187-03:00",
+ "corrida": "2026-11-14T22:18:13.152423-03:00",
  "ok": true,
  "cantidad": 7,
  "errores": [],
@@ -44,53 +44,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/6e89eade-c92d-11f0-ab44-1e339e1eaa9a.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
-   "id_externo": "603812",
-   "url": "https://feverup.com/m/603812",
-   "titulo": "Candlelight: Queen vs. ABBA",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Queen y ABBA, frente a frente en un concierto Candlelight: los grandes éxitos de dos leyendas del pop y el rock, interpretados en vivo por un cuarteto de cuerda y rodeados de velas en el Sofitel Montevideo Casino Carrasco and Spa. Esta experiencia de concierto es un tributo. No está vinculada…",
-   "lugar": {
-    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
-    "direccion": null,
-    "lat": -34.8905846,
-    "lon": -56.0553743,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:30:00-03:00",
-     "fin": "2026-12-27T18:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1200.0,
-    "hasta": 1200.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/603812",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/951da558-0f94-11f0-8078-762b521a76e7.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -185,6 +138,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/9bdc2556-1ab4-11f0-8624-6e8226e0238e.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "603812",
+   "url": "https://feverup.com/m/603812",
+   "titulo": "Candlelight: Queen vs. ABBA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Queen y ABBA, frente a frente en un concierto Candlelight: los grandes éxitos de dos leyendas del pop y el rock, interpretados en vivo por un cuarteto de cuerda y rodeados de velas en el Sofitel Montevideo Casino Carrasco and Spa. Esta experiencia de concierto es un tributo. No está vinculada…",
+   "lugar": {
+    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
+    "direccion": null,
+    "lat": -34.8905846,
+    "lon": -56.0553743,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-27T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1200.0,
+    "hasta": 1200.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/603812",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/951da558-0f94-11f0-8078-762b521a76e7.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],

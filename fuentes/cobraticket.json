@@ -1,52 +1,10 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-14T14:23:22.921203-03:00",
+ "corrida": "2026-11-14T22:19:24.679373-03:00",
  "ok": true,
- "cantidad": 9,
+ "cantidad": 8,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "cobraticket",
-   "id_externo": "396368",
-   "url": "https://cobraticket.uy/e/bs-as-cumbia-edicion-montevideo-396368",
-   "titulo": "Bs As Cumbia edición Montevideo",
-   "categoria": "fiesta",
-   "categoria_segura": true,
-   "descripcion_corta": "Edición Montevideo: Festival de cumbia, plena y candombe. La marca Buenos Aires Cumbia desembarca en Montevideo y para hacerla bien a la uruguaya, le sumamos dos género: plena y candombe, representados por artistas locales que se suman a la grilla. Una mega pista de baile con un escenario de…",
-   "lugar": {
-    "nombre": "Velodromo de Montevideo",
-    "direccion": "Av. Ramón V. Benzano 3471, 11600 Montevideo, Departamento de Montevideo",
-    "lat": -34.89782710000001,
-    "lon": -56.1559067,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T16:00:00-03:00",
-     "fin": "2026-11-15T01:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://cobraticket.uy/e/bs-as-cumbia-edicion-montevideo-396368",
-     "via": "cobraticket"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://img.cobraticket.uy/iTGkAuOmWHeuYuaVItmG_.jpg",
-   "productor": "Quienes Son",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "cobraticket",
    "id_externo": "054494",

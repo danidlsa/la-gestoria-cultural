@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-14T14:24:13.695251-03:00",
+ "corrida": "2026-11-14T22:20:12.572050-03:00",
  "ok": true,
- "cantidad": 56,
+ "cantidad": 53,
  "errores": [],
  "eventos": [
   {
@@ -381,6 +381,48 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "feeldeagua-20261114",
+   "url": "https://www.instagram.com/p/DfXNAzSgt1j/",
+   "titulo": "feel de agua: Alo alo",
+   "categoria": "cine",
+   "categoria_segura": false,
+   "descripcion_corta": "Buenooooo Se viene otraaaaaa GENUFLEXOS Genuflexos cursa sus estudios de llanto sinfónico con la docencia a cargo de Jorge Batlle en 2002 y en un taller de pintura aprende a combinar lágrimas de cocodrilo con tinta china zorrilla. Desde aquel entonces hasta nuestros días se arrastra alternando…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfXNAzSgt1j/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6f44783e925b.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "molinodeperez-20261114",
    "url": "https://www.instagram.com/p/Dfn0YGlOkA2/",
    "titulo": "Molino de Pérez: El circo llega al Molino",
@@ -475,191 +517,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "fama.tours-20261114",
-   "url": "https://www.instagram.com/p/DffwBQuK4SF/",
-   "titulo": "fama.tours: Oro en los Salones.",
-   "categoria": "tour",
-   "categoria_segura": true,
-   "descripcion_corta": "Oro en los Salones. Reconocimiento estilístico de los interiores de Quinta de Mendilaharsu (Museo de Antropología), Foyer del Teatro Solís, Palacio Taranco (Museo de Artes Decorativas) y Palacete Beatriz. Merienda. Sábado 14 de Noviembre - 14:00 hs 1300 pesos uruguayos Reservas 095 002 623 . . .",
-   "lugar": {
-    "nombre": "Oro en los Salones. Reconocimiento estilístico de los interiores de Quinta de Mendilaharsu (Museo de Antropología)",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [
-     "Quinta de Mendilaharsu",
-     "Museo de Antropología",
-     "Foyer del Teatro Solís",
-     "Palacio Taranco",
-     "Museo de Artes Decorativas",
-     "Palacete Beatriz"
-    ]
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DffwBQuK4SF/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/07e15268eed7.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261114",
-   "url": "https://www.instagram.com/p/DfZ55fyIFNi/",
-   "titulo": "Centro Cultural de España: ¿Y si un recuerdo se convirtiera en una historieta?",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "¿Y si un recuerdo se convirtiera en una historieta? En este taller de historieta autobiográfica vamos a partir de recuerdos personales para transformarlos en pequeñas historias de ficción. A través del dibujo y las palabras, exploraremos el fuera de campo, el paso del tiempo y las posibilidades…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T15:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfZ55fyIFNi/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/bfdccf1f5f66.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "fenixbaruy-20261114",
-   "url": "https://www.instagram.com/p/Dfk7fcrGqfB/",
-   "titulo": "Fénix Bar: La esquina de fiesta",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La esquina de fiesta Este sábado celebramos los 10 años de nuestros amigos de sayaga_beer y, como la ocasión lo amerita, cerramos la calle. Nos llevamos el bar para afuera y armamos una fiesta de esas que nos gustan. Música durante toda la jornada, con martin.chispi , gabinosuanes y zingabeat.dj…",
-   "lugar": {
-    "nombre": "Juan Carlos Gómez y Reconquista",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T15:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfk7fcrGqfB/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d2bf1cf701c3.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "feeldeagua-20261114",
-   "url": "https://www.instagram.com/p/DfnVqM_AHJF/",
-   "titulo": "feel de agua: Alo alo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Buenooo falta poco se viene una tarde de mucha música, bebida, amistad y cosas lindas Este Sabado 14 de Noviembre de 16 a 22 hs Plaza ex Terminal Goes centroculturalterminalgoes Acuérdense del efectivo para la feria, ya avisamos Seguimos con las bandas que tocarannn Mux es un sexteto uruguayo, que…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfnVqM_AHJF/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6f44783e925b.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "feriadearteimpresomvd-20261114",
    "url": "https://www.instagram.com/p/DfX_zpToyzs/",
    "titulo": "Microutopiaspress ps_montevideo (UY) participa de la FERIA DE ARTE IMPRESO DE…",
@@ -675,13 +532,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-15T17:00:00-03:00",
      "fin": null,

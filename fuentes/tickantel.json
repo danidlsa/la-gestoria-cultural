@@ -1,773 +1,10 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-14T14:12:13.514764-03:00",
+ "corrida": "2026-11-14T22:06:09.013796-03:00",
  "ok": true,
- "cantidad": 120,
- "errores": [
-  "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
- ],
+ "cantidad": 113,
+ "errores": [],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021457",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
-   "titulo": "Ciclo (no tan) Solos al mediodía",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "CICLO (No tan) Solos al mediodía 17va edición - Diversidad Dirección artística y curaduría: Andrea Arobba Producción ejecutiva: GEN Centro de Artes y Ciencias Producción: Polen productora cultural - Catalina Lans Asistencia de producción: Emiliano Bittencourt Registro audiovisual: Daiana Di Candia…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    },
-    {
-     "inicio": "2026-11-20T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390_banner_web_generico_TS.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021820",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021820/elena-quinteros",
-   "titulo": "Elena Quinteros",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "A 50 años de su desaparición: un documental con testimonios de docentes contemporáneas/os a Elena, compañeras/os de colegio y de Magisterio, de militancia, periodistas, entre otras/os. Un elenco con figuras de destacada trayectoria. Una parte del documental es una breve ficción, con diálogos entre…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021820/elena-quinteros",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021820/BannerEQ.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021449",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021449/buitres-nido-de-espinas-sesiones-inmersivas",
-   "titulo": "Buitres - Nido de Espinas – Sesiones Inmersivas",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "BUITRES ESCUCHAS NUEVO DISCO NIDO DE ESPINAS El nuevo disco de Buitres llega al Planetario de Montevideo convertido en una experiencia audiovisual inmersiva. Música, imagen y tecnología se fusionan bajo la cúpula en un viaje que se vive desde adentro de las canciones. Viernes, sábados y domingos…",
-   "lugar": {
-    "nombre": "Planetario de Montevideo",
-    "direccion": null,
-    "lat": -34.9023524,
-    "lon": -56.1445355,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021449/buitres-nido-de-espinas-sesiones-inmersivas",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021449/Buitres_Planetario_700x390.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021925",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021925/naturaleza-hackeada",
-   "titulo": "Naturaleza hackeada",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Un cuerpo, una maleta llena de código y una lechuga convertida en instrumento musical. En la frontera entre el circo contemporáneo, la pantomima y el arte digital en tiempo real, un performer explora la frágil relación entre la tecnología y la vida orgánica. Mediante cámaras que leen sus gestos…",
-   "lugar": {
-    "nombre": "Centro Cultural Artesano",
-    "direccion": null,
-    "lat": -34.8253632,
-    "lon": -56.2043076,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021925/naturaleza-hackeada",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021925/banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021955",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021955/las-7-balas",
-   "titulo": "Las 7 balas",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Montevideo es golpeada por un violento copamiento en un bar céntrico. Una bala pérdida que impacta a un transeúnte. La prensa desesperada por dar la primicia y la policía tratando de proceder con cautela. La trama se complejiza conforme la historia narra los diferentes eventos del golpe, que se…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T19:20:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-22T20:50:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021955/las-7-balas",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021955/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021111",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021111/washington-y-cristina",
-   "titulo": "Washington y Cristina",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "WASHINGTON Y CRISTINA – CONCIERTO 50° ANIVERSARIO Dos noches únicas en el Teatro Solís para celebrar cincuenta años de música, escenarios y canciones compartidas. Referentes fundamentales de la canción uruguaya, Washington Carrasco y Cristina Fernández han construido a lo largo de cinco décadas una…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021111/washington-y-cristina",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021111/BANNER_TICKANTEL.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020828",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
-   "titulo": "Ay! La miseria nos hará felices",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "El cierre de la pentalogía llega al escenario de Sala Verdi con una distopía teatral sobre robots, actores y la pregunta más urgente del presente: ¿qué queda de lo humano cuando la máquina puede hacerlo todo? Veintiún años después de escribir UZ: El Pueblo (2005), el dramaturgo uruguayo Gabriel…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-22T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020828/Ay_la_miseria_nos_hara_felices_-_tickantel_banner-05.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021821",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021821/2da-degustacion-de-vinos-y-alimentos-la-cata",
-   "titulo": "2da Degustación de Vinos y Alimentos. LA CATA",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "Sumérjase en un viaje de sabores y conocimientos en la 'Cata de Vinos y Muestra de Alimentos de Atlántida', un evento imperdible que celebra la riqueza vitivinícola y gastronómica de nuestra región. Una oportunidad única para conectar con productores locales, degustar exquisitos vinos y descubrir…",
-   "lugar": {
-    "nombre": "Liga de Fomento Atlántida (LIFA) R11 y R Inter",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021821/2da-degustacion-de-vinos-y-alimentos-la-cata",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021821/2da_Expo_Feria_Atlántida__Sabores_y_Cultura.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021938",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-y-area-candombe",
-   "titulo": "Muestra final 2026: Área Tango y Área Candombe",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Escuela de Formación Artística del SODRE ENFAS: Muestra final del Área TANGO y Área CANDOMBE. Este espectáculo forma parte del cierre de cursos 2026 del Área Tango y el Área Candombe de la ENFAS. Cada curso presenta un proyecto final que sintetiza un proceso creativo y pone en escena el trabajo…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021938/muestra-final-2026-area-tango-y-area-candombe",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021938/BANNER_TANG.CAND_12.14nov.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021670",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021670/el-de-las-tinieblas-a-la-luz",
-   "titulo": "Él, de las tinieblas a la luz",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Temporada lírica 2026. Cien años después de que Mercedes Pinto encontrara en Montevideo el lugar para publicar su historia, su voz vuelve a esta ciudad transformada en música, en una ópera que recupera su lucha y la proyecta hacia el presente. La obra, con música de Laura Vega y dramaturgia de Rita…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021670/el-de-las-tinieblas-a-la-luz",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021670/Tickantel-700x390.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021568",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021568/natalie-perez",
-   "titulo": "Natalie Pérez",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La talentosa artista argentina Natalie Pérez llega a la Sala Zitarrosa para presentar un show íntimo y vibrante. En esta velada, el público podrá disfrutar de lo mejor de su repertorio, fusionando su carisma único con una propuesta musical que recorre diferentes ritmos y emociones. Una cita…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021568/natalie-perez",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021568/700x390__copia_4.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021640",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021640/pulmones",
-   "titulo": "Pulmones",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Alfonso Tort y Leonor Svarcas. Con la direccion de Fernando Dianesi y la produccion de Diego Sorondo.",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 940.0,
-    "hasta": 940.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021640/pulmones",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021640/Banner.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020912",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020912/midachi",
-   "titulo": "Midachi",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "MIDACHI vuelve a los escenarios. El trío humorístico integrado por Miguel del Sel, Dady Brieva y el Chino Volpato anunció oficialmente su regreso con una serie de funciones que marcarán una despedida histórica. Recorrerán los sketchs, personajes y momentos más emblemáticos de su carrera…",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020912/midachi",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020912/midachi_GRAFICAS-ANTEL-ARENA_GRILLA-WEB.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021956",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021956/dios-es-una-palabra",
-   "titulo": "Dios es una palabra",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "En Barcelona, a pocos días del estreno de Dios es una palabra, 19 artistas atraviesan los últimos ensayos de una obra de danza-teatro dirigida por Andrés Waksman. Entre ensayos, testimonios y fragmentos de la obra, el documental se adentra en un proceso colectivo donde cuerpo y palabra revelan las…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T21:10:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-19T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021956/dios-es-una-palabra",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021956/700_x_390_deup.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021637",
@@ -868,6 +105,90 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021822/BannerBP.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40020828",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
+   "titulo": "Ay! La miseria nos hará felices",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "El cierre de la pentalogía llega al escenario de Sala Verdi con una distopía teatral sobre robots, actores y la pregunta más urgente del presente: ¿qué queda de lo humano cuando la máquina puede hacerlo todo? Veintiún años después de escribir UZ: El Pueblo (2005), el dramaturgo uruguayo Gabriel…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": -34.90821430964771,
+    "lon": -56.196500823734254,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-15T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020828/Ay_la_miseria_nos_hara_felices_-_tickantel_banner-05.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1065,6 +386,60 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020890/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021640",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021640/pulmones",
+   "titulo": "Pulmones",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Alfonso Tort y Leonor Svarcas. Con la direccion de Fernando Dianesi y la produccion de Diego Sorondo.",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-15T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 940.0,
+    "hasta": 940.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021640/pulmones",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021640/Banner.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1520,6 +895,74 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021956",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021956/dios-es-una-palabra",
+   "titulo": "Dios es una palabra",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "En Barcelona, a pocos días del estreno de Dios es una palabra, 19 artistas atraviesan los últimos ensayos de una obra de danza-teatro dirigida por Andrés Waksman. Entre ensayos, testimonios y fragmentos de la obra, el documental se adentra en un proceso colectivo donde cuerpo y palabra revelan las…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-14T21:10:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021956/dios-es-una-palabra",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021956/700_x_390_deup.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021401",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021401/el-teatro",
    "titulo": "El Teatro",
@@ -1725,6 +1168,60 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020587/700x390_EPDM_MONTEVIDEO.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021955",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021955/las-7-balas",
+   "titulo": "Las 7 balas",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Montevideo es golpeada por un violento copamiento en un bar céntrico. Una bala pérdida que impacta a un transeúnte. La prensa desesperada por dar la primicia y la policía tratando de proceder con cautela. La trama se complejiza conforme la historia narra los diferentes eventos del golpe, que se…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T20:50:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021955/las-7-balas",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021955/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1955,6 +1452,107 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021764/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021449",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021449/buitres-nido-de-espinas-sesiones-inmersivas",
+   "titulo": "Buitres - Nido de Espinas – Sesiones Inmersivas",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "BUITRES ESCUCHAS NUEVO DISCO NIDO DE ESPINAS El nuevo disco de Buitres llega al Planetario de Montevideo convertido en una experiencia audiovisual inmersiva. Música, imagen y tecnología se fusionan bajo la cúpula en un viaje que se vive desde adentro de las canciones. Viernes, sábados y domingos…",
+   "lugar": {
+    "nombre": "Planetario de Montevideo",
+    "direccion": null,
+    "lat": -34.9023524,
+    "lon": -56.1445355,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021449/buitres-nido-de-espinas-sesiones-inmersivas",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021449/Buitres_Planetario_700x390.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021925",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021925/naturaleza-hackeada",
+   "titulo": "Naturaleza hackeada",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Un cuerpo, una maleta llena de código y una lechuga convertida en instrumento musical. En la frontera entre el circo contemporáneo, la pantomima y el arte digital en tiempo real, un performer explora la frágil relación entre la tecnología y la vida orgánica. Mediante cámaras que leen sus gestos…",
+   "lugar": {
+    "nombre": "Centro Cultural Artesano",
+    "direccion": null,
+    "lat": -34.8253632,
+    "lon": -56.2043076,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021925/naturaleza-hackeada",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021925/banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4658,6 +4256,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021890/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021895",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada",
+   "titulo": "Nadie dice nada",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Nadie dice nada en vivo",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021895/NDN-AntelArena-WebTickantel-12dic-700x390.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

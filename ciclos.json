@@ -1,54 +1,14 @@
 {
- "generado": "2026-11-14T14:25:18.450600-03:00",
- "cantidad": 27,
+ "generado": "2026-11-14T22:21:23.583829-03:00",
+ "cantidad": 25,
  "ciclos": [
-  {
-   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
-   "titulo": "Ciclo (no tan) Solos al mediodía",
-   "lugar_id": "teatro-solis",
-   "desde": "2026-11-14T14:00:00-03:00",
-   "hasta": "2026-11-28T14:00:00-03:00",
-   "cantidad": 1
-  },
   {
    "id": "ciclo-ciclo-de-teatro",
    "titulo": "Ciclo de teatro",
    "lugar_id": null,
-   "desde": "2026-11-14T14:00:00-03:00",
+   "desde": "2026-11-14T18:00:00-03:00",
    "hasta": "2026-12-12T18:00:00-03:00",
-   "cantidad": 12
-  },
-  {
-   "id": "ciclo-centro-cultural-de-espana",
-   "titulo": "Centro Cultural de España",
-   "lugar_id": "centro-cultural-de-espana",
-   "desde": "2026-11-14T15:00:00-03:00",
-   "hasta": "2026-12-03T10:00:00-03:00",
-   "cantidad": 8
-  },
-  {
-   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
-   "titulo": "Estreno de obras Fortalecimiento de las Artes",
-   "lugar_id": null,
-   "desde": "2026-11-14T16:00:00-03:00",
-   "hasta": "2026-12-04T21:00:00-03:00",
-   "cantidad": 4
-  },
-  {
-   "id": "ciclo-paseo-sur-palermo",
-   "titulo": "Paseo Sur Palermo",
-   "lugar_id": "ansina-e-isla-de-flores",
-   "desde": "2026-11-14T16:00:00-03:00",
-   "hasta": "2026-11-14T16:00:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-andrzej-wajda-en-su-centenario",
-   "titulo": "Andrzej Wajda, en su centenario",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-14T17:40:00-03:00",
-   "hasta": "2026-11-17T19:20:00-03:00",
-   "cantidad": 5
+   "cantidad": 11
   },
   {
    "id": "ciclo-ciclo-de-cine-accesible-2026",
@@ -72,6 +32,14 @@
    "lugar_id": null,
    "desde": "2026-11-14T20:30:00-03:00",
    "hasta": "2026-11-22T20:00:00-03:00",
+   "cantidad": 4
+  },
+  {
+   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
+   "titulo": "Estreno de obras Fortalecimiento de las Artes",
+   "lugar_id": null,
+   "desde": "2026-11-14T20:30:00-03:00",
+   "hasta": "2026-12-04T21:00:00-03:00",
    "cantidad": 4
   },
   {
@@ -107,6 +75,14 @@
    "cantidad": 1
   },
   {
+   "id": "ciclo-andrzej-wajda-en-su-centenario",
+   "titulo": "Andrzej Wajda, en su centenario",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-15T17:40:00-03:00",
+   "hasta": "2026-11-17T19:20:00-03:00",
+   "cantidad": 4
+  },
+  {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
    "lugar_id": null,
@@ -121,6 +97,14 @@
    "desde": "2026-11-16T18:00:00-03:00",
    "hasta": "2026-11-28T11:00:00-03:00",
    "cantidad": 2
+  },
+  {
+   "id": "ciclo-centro-cultural-de-espana",
+   "titulo": "Centro Cultural de España",
+   "lugar_id": "centro-cultural-de-espana",
+   "desde": "2026-11-16T19:30:00-03:00",
+   "hasta": "2026-12-03T10:00:00-03:00",
+   "cantidad": 7
   },
   {
    "id": "ciclo-particulas",
@@ -155,14 +139,6 @@
    "cantidad": 3
   },
   {
-   "id": "ciclo-candlelight",
-   "titulo": "Candlelight",
-   "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
-   "desde": "2026-11-21T21:30:00-03:00",
-   "hasta": "2026-12-27T16:30:00-03:00",
-   "cantidad": 3
-  },
-  {
    "id": "ciclo-tmc",
    "titulo": "TMC",
    "lugar_id": "auditorio-vaz-ferreira",
@@ -193,6 +169,14 @@
    "desde": "2026-12-13T18:00:00-03:00",
    "hasta": "2026-12-13T18:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-candlelight",
+   "titulo": "Candlelight",
+   "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
+   "desde": "2026-12-19T17:30:00-03:00",
+   "hasta": "2026-12-27T18:30:00-03:00",
+   "cantidad": 3
   },
   {
    "id": "ciclo-candlelight",
