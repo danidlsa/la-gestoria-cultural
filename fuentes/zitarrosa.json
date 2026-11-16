@@ -1,69 +1,10 @@
 {
  "fuente": "zitarrosa",
- "corrida": "2026-11-14T12:18:18.186239-03:00",
+ "corrida": "2026-11-16T11:01:53.031803-03:00",
  "ok": true,
- "cantidad": 18,
+ "cantidad": 17,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "natalie-perez-ciclo-marea",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/natalie-perez-ciclo-marea/",
-   "titulo": "Natalie Pérez",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Natalie Pérez presenta \"Casa\", su quinto álbum de estudio, dentreo del Ciclo MAREA de la Sala Zitarrosa. Tras un recorrido que la llevó por distintas ciudades de Argentina y consolidó la gran recepción de este nuevo repertorio en vivo, Natalie inicia un nuevo tramo de la gira con una parada…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1100.0,
-    "hasta": 1500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/alta_demanda/40021568/espectaculo/Natalie%20Perez",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/natalie-perez-ciclo-marea/"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/natalie-perez-ciclo-marea/"
-    }
-   ],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/09/Natalie-Foto-de-@agustindusserre-NP-1574-2-1-copia.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/alta_demanda/40021568/espectaculo/Natalie%20Perez"
-   ],
-   "ciclo": "Ciclo MAREA",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "zitarrosa",
    "id_externo": "por-los-mas-chiquititos-3",
@@ -77,7 +18,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -123,7 +65,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -169,7 +112,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -217,7 +161,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -276,7 +221,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -324,7 +270,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -372,7 +319,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -431,7 +379,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -479,7 +428,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -527,7 +477,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -575,7 +526,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -623,7 +575,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -671,7 +624,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -719,7 +673,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -765,7 +720,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -813,7 +769,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -859,7 +816,8 @@
     "direccion": "Av. 18 de Julio 1012",
     "lat": -34.90626,
     "lon": -56.19441,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {

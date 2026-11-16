@@ -1,6 +1,6 @@
 {
  "fuente": "museos_im",
- "corrida": "2026-11-14T12:18:40.187017-03:00",
+ "corrida": "2026-11-16T11:02:15.928985-03:00",
  "ok": true,
  "cantidad": 5,
  "errores": [],
@@ -18,23 +18,10 @@
     "direccion": "Juan Carlos Gómez 1362",
     "lat": -34.90653,
     "lon": -56.20278,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-16T00:00:00-03:00",
      "fin": null,
@@ -176,23 +163,10 @@
     "direccion": "Juan Carlos Gómez 1362",
     "lat": -34.90653,
     "lon": -56.20278,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-16T00:00:00-03:00",
      "fin": null,
@@ -601,6 +575,20 @@
     },
     {
      "inicio": "2027-01-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-15T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -642,23 +630,10 @@
     "direccion": "Juan Carlos Gómez 1362",
     "lat": -34.90653,
     "lon": -56.20278,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-16T00:00:00-03:00",
      "fin": null,
@@ -1071,6 +1046,20 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -1108,23 +1097,10 @@
     "direccion": "Plaza Fabini",
     "lat": -34.90563,
     "lon": -56.19423,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-16T00:00:00-03:00",
      "fin": null,
@@ -1323,6 +1299,20 @@
     },
     {
      "inicio": "2026-12-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-16T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1364,23 +1354,10 @@
     "direccion": "Plaza Fabini",
     "lat": -34.90563,
     "lon": -56.19423,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-14T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-15T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-16T00:00:00-03:00",
      "fin": null,
@@ -1579,6 +1556,20 @@
     },
     {
      "inicio": "2026-12-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-16T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,

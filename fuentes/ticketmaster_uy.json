@@ -1,6 +1,6 @@
 {
  "fuente": "ticketmaster_uy",
- "corrida": "2026-11-14T12:18:38.701148-03:00",
+ "corrida": "2026-11-16T11:02:14.396883-03:00",
  "ok": true,
  "cantidad": 1,
  "errores": [],
@@ -18,7 +18,8 @@
     "direccion": "Avenida Doctor Américo Ricaldoni 1861",
     "lat": -34.8935527,
     "lon": -56.1525826,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
