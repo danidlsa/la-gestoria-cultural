@@ -61,6 +61,23 @@ def leer_ficha(pagina: str) -> dict:
     return {"descripcion": texto_plano(descripcion.group(1)) if descripcion else "", "ciudad": ciudad}
 
 
+# La dirección que da la descripción después del 📍: "📍 L'CLUB MONTEVIDEO Av. Uruguay 1136." (la tarjeta solo trae el
+# nombre de la sala). Primero una calle con su prefijo ("Av.", "Bvar."…); si no, las palabras antes de un número.
+_CON_PREFIJO = re.compile(
+    r"\b(?:Av(?:da)?\.?|Avenida|Bv\.?|Bvar\.?|Bulevar|Rambla|Calle|Pasaje|Gral\.?|General|Dr\.?|Doctor)\s+"
+    r"[\wÁÉÍÓÚÑáéíóúñ.' ]{2,40}?\s\d{2,5}\b")
+_SIN_PREFIJO = re.compile(r"\b(?:[A-ZÁÉÍÓÚÑ][\wáéíóúñ.]*\s+){1,3}\d{2,5}\b")
+
+
+def direccion_de(descripcion: str) -> str | None:
+    pin = descripcion.find("📍")
+    if pin < 0:
+        return None
+    tramo = descripcion[pin + 1:pin + 140]
+    encontrado = _CON_PREFIJO.search(tramo) or _SIN_PREFIJO.search(tramo)
+    return encontrado.group(0).strip() if encontrado else None
+
+
 def armar_evento(tarjeta: dict, ficha: dict, ahora: datetime) -> EventoCrudo | None:
     titulo, descripcion = tarjeta["titulo"], ficha["descripcion"]
     if esta_cancelado(titulo) or es_deporte(titulo, descripcion) or tarjeta["dia"] < ahora.date():
@@ -82,7 +99,7 @@ def armar_evento(tarjeta: dict, ficha: dict, ahora: datetime) -> EventoCrudo | N
         titulo=titulo,
         categoria=categoria,
         descripcion_corta=recortar(descripcion),
-        lugar=LugarCrudo(nombre=tarjeta["sala"]),
+        lugar=LugarCrudo(nombre=tarjeta["sala"], direccion=direccion_de(descripcion)),
         funciones=[Funcion(
             inicio=datetime.combine(tarjeta["dia"], hora or time(0, 0), tzinfo=ahora.tzinfo), sin_hora=hora is None,
         )],

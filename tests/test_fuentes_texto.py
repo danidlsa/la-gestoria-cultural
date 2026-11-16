@@ -43,3 +43,11 @@ def test_la_direccion_sale_de_las_funciones_no_de_la_publicidad():
     assert cartelera_mvd.direccion_de("Funciones: sábados 20:00 horas - Salida desde la Explanada del Teatro Solís "
                                       "(Buenos Aires y Bartolomé Mitre). Localidades $ 600." + anuncio) == "Buenos Aires y Bartolomé Mitre"
     assert cartelera_mvd.direccion_de("Funciones: jueves 20:30 - La Cretina (Soriano 1236). Localidades $ 500.") == "Soriano 1236"
+
+
+def test_mientrada_toma_la_direccion_del_pin():
+    from cartelera.scrapers import mientrada
+
+    assert mientrada.direccion_de("Llega APOCA LUZ. 📍 L’CLUB MONTEVIDEO Av. Uruguay 1136. 🎫 PROMOCIONES") == "Av. Uruguay 1136"
+    assert mientrada.direccion_de("📍 La Cretina, Soriano 1236 · desde las 21") == "Soriano 1236"
+    assert mientrada.direccion_de("Sin dirección. Entradas $500") is None
