@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-16T18:22:07.676826-03:00",
+ "corrida": "2026-11-16T19:52:38.898860-03:00",
  "ok": true,
- "cantidad": 47,
+ "cantidad": 51,
  "errores": [],
  "eventos": [
   {
@@ -136,7 +136,7 @@
    "id_externo": "facmvd-20261107",
    "url": "https://www.instagram.com/p/De_5SnwlghR/",
    "titulo": "FAC: 2.ª edición del TALLER DE SEMIÓTICA",
-   "categoria": "humor",
+   "categoria": "taller",
    "categoria_segura": false,
    "descripcion_corta": "2.ª edición del TALLER DE SEMIÓTICA Para leer más que palabras Un espacio para reflexionar sobre el arte contemporáneo y su universo, tanto si formás parte de él como si lo mirás desde afuera. A cargo de Claudia Mera. SÁBADOS DE NOVIEMBRE De 11 a 13 h Modalidad presencial o virtual Cupos limitados…",
    "lugar": {
@@ -185,7 +185,7 @@
    "id_externo": "facmvd-20261109",
    "url": "https://www.instagram.com/p/DeO8rNoym_C/",
    "titulo": "FAC: Laboratorio de escritura",
-   "categoria": "carnaval",
+   "categoria": "taller",
    "categoria_segura": false,
    "descripcion_corta": "NUEVA EDICIÓN! Laboratorio de escritura a cargo de terepuppo , para explorar otras maneras de mirar, recordar, narrar y construir sentido. Un taller orientado al desarrollo de la escritura creativa mediante ejercicios de experimentación y exploración de diversas formas narrativas. Propone un…",
    "lugar": {
@@ -337,8 +337,8 @@
    "id_externo": "lamadredelassecond-20261114",
    "url": "https://www.instagram.com/p/DfsVfx7RRQq/",
    "titulo": "La Madre de las Second Hand: PLAZA DE LAS PIONERAS",
-   "categoria": "musica",
-   "categoria_segura": false,
+   "categoria": "feria",
+   "categoria_segura": true,
    "descripcion_corta": "¡IMPORTANTE! CAMBIO DE FECHA Y LOCACIÓN Debido a los pronósticos de lluvia, SUSPENDEMOS la feria prevista para este sábado 14 de noviembre. ¡Pero ya tenemos nueva fecha y lugar! SÁBADO 21 DE NOVIEMBRE Plaza Primero de Mayo De 11 a 18 hs. ¡ATENCIÓN! LA FERIA DEL DOMINGO 15 EN PASO MOLINO SIGUE EN…",
    "lugar": {
     "nombre": "Plaza Primero de Mayo",
@@ -379,7 +379,7 @@
    "id_externo": "el.mingus-20261116",
    "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Residencia de Homenajes: Esperanza Spalding",
-   "categoria": "otros",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "Lunes 16 de noviembre: Residencia de Homenajes: Esperanza Spalding",
    "lugar": {
@@ -561,7 +561,7 @@
    "id_externo": "el.mingus-20261118",
    "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Mujeres de Brasil",
-   "categoria": "otros",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "Miércoles 18 de Noviembre: Mujeres de Brasil",
    "lugar": {
@@ -605,7 +605,7 @@
    "id_externo": "theshannonuy-20261118",
    "url": "https://www.instagram.com/p/DfUjlSARymU/",
    "titulo": "The Shannon: OPEN MIC",
-   "categoria": "otros",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "Miércoles 18: OPEN MIC",
    "lugar": {
@@ -641,6 +641,48 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "sansuena_cafevivero-20261118",
+   "url": "https://www.instagram.com/p/Df0AaviCMXX/",
+   "titulo": "Recibiremos en Sansueña a Daniel Parada, quien nos acompañará en la presentación de su…",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Este miércoles 18 de noviembre recibiremos en Sansueña a Daniel Parada, quien nos acompañará en la presentación de su libro Besar, vivir, cantar y morir. Una instancia para acercarnos a su obra, conocer más sobre su proceso creativo e intercambiar miradas y reflexiones junto a Alberto Silva…",
+   "lugar": {
+    "nombre": "Sansueña",
+    "direccion": "Orinoco 4968",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df0AaviCMXX/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1e77ca7f6d39.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -740,7 +782,7 @@
    "id_externo": "el.mingus-20261119",
    "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Jazzterday",
-   "categoria": "otros",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "Jueves 19 de noviembre: Jazzterday",
    "lugar": {
@@ -784,7 +826,7 @@
    "id_externo": "theshannonuy-20261119",
    "url": "https://www.instagram.com/p/DfUjlSARymU/",
    "titulo": "The Shannon: PRIMA DONNA",
-   "categoria": "otros",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "Jueves 19: PRIMA DONNA Club Shannon: ABIIRI Y LOS PÉTALOS DE CRISTAL, NYXIA y POLIFAGIA",
    "lugar": {
@@ -820,6 +862,53 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261119",
+   "url": "https://www.instagram.com/p/DfzZxVioAoW/",
+   "titulo": "Centro Cultural de España: Ilustrando feminismos.",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "Ilustrando feminismos. Lápices para resistir reúne a 14 ilustradoras de Latinoamérica y Guinea Ecuatorial en una exposición colectiva que, a través del arte y la ilustración, propone una reflexión sobre las luchas feministas, la memoria y la defensa de los derechos de las mujeres. Con la curaduría…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfzZxVioAoW/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/41d9a4ed5882.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1054,7 +1143,7 @@
    "id_externo": "el.mingus-20261121",
    "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Tony Rey",
-   "categoria": "otros",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "Domingo 21 de noviembre: Tony Rey (desde España) Reservá tu mesa via Whatsapp al 093 651 305. Te esperamos!",
    "lugar": {
@@ -1098,7 +1187,7 @@
    "id_externo": "theshannonuy-20261121",
    "url": "https://www.instagram.com/p/DfUjlSARymU/",
    "titulo": "The Shannon: TREBOADA",
-   "categoria": "otros",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "Sábado 21: TREBOADA Club Shannon: TERCETO",
    "lugar": {
@@ -1187,13 +1276,13 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "lamadredelassecond-20261121",
-   "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
+   "url": "https://www.instagram.com/p/Df0csQtR7nG/",
    "titulo": "La Madre de las Second Hand: PLAZA PRIMERO DE MAYO",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "SÁBADO 21 – PLAZA PRIMERO DE MAYO Más de 150 stands con ropa, calzado, accesorios, libros, juguetes y objetos de segunda mano. ¡Además, food trucks! Av. de las Leyes esquina Gral Flores. De 11 a 18 hs. ¡Dos días para recorrer y disfrutar! Apoya: municipio_a",
+   "categoria": "feria",
+   "categoria_segura": true,
+   "descripcion_corta": "¡ESTE SÁBADO NOS VOLVEMOS A ENCONTRAMOS EN LA MADRE DE LAS SECOND! SÁBADO 21 DE NOVIEMBRE te esperamos en una nueva edición de nuestra feria en Plaza Primero de Mayo. De 11 a 18 h Plaza Primero de Mayo (atrás del Palacio Legislativo). ¡150 STANDS para recorrer y descubrir! Ropa, calzado…",
    "lugar": {
-    "nombre": "Av. Agraciada",
+    "nombre": "Plaza Primero de Mayo (atrás del Palacio Legislativo)",
     "direccion": null,
     "lat": null,
     "lon": null,
@@ -1215,7 +1304,7 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
+     "url": "https://www.instagram.com/p/Df0csQtR7nG/",
      "via": "instagram"
     }
    ],
@@ -1281,6 +1370,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/cf8e45c7f214.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "mercadoferrando-20261121",
+   "url": "https://www.instagram.com/p/Df0KuZ0s8x8/",
+   "titulo": "Mercado Ferrando: Show de títeres en Ferrando",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Show de títeres en Ferrando Este sábado 21 de noviembre nos espera El Tipití – La aventura jamás contada , de lalocacompania ¡Los esperamos a las 14 hs para disfrutar en familia!",
+   "lugar": {
+    "nombre": "Mercado Ferrando",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df0KuZ0s8x8/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ea7a37c8a1da.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1535,7 +1666,7 @@
    "id_externo": "theshannonuy-20261125",
    "url": "https://www.instagram.com/p/DfUjlSARymU/",
    "titulo": "The Shannon: OPEN MIC",
-   "categoria": "otros",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "Miércoles 25: OPEN MIC",
    "lugar": {
@@ -1714,7 +1845,7 @@
    "id_externo": "theshannonuy-20261128",
    "url": "https://www.instagram.com/p/DfUjlSARymU/",
    "titulo": "The Shannon: EASYBAND",
-   "categoria": "otros",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "Sábado 28: EASYBAND",
    "lugar": {
@@ -1750,6 +1881,48 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "fama.tours-20261128",
+   "url": "https://www.instagram.com/p/Df0Sr-1qlR0/",
+   "titulo": "fama.tours: Carrasco y Bodega",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "Carrasco y Bodega. Caminata por Carrasco viejo, con la participación de Arq. Beatriz Pittamiglio. Visita guiada a viñedos e instalaciones de Bodega Varela Zarranz, con degustación de 4 vinos y picada de campo. Sábado 28 de Noviembre 10:30 a 16:00 horas 3.200 pesos uruguayos Reservas 095 002 623…",
+   "lugar": {
+    "nombre": "Carrasco y Bodega",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T10:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df0Sr-1qlR0/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1910c933c565.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1847,7 +2020,7 @@
    "id_externo": "ccemontevideo-20261202",
    "url": "https://www.instagram.com/p/DfsWAkbGCpT/",
    "titulo": "Centro Cultural de España: Laboratorio de guion adaptado",
-   "categoria": "teatro",
+   "categoria": "taller",
    "categoria_segura": false,
    "descripcion_corta": "Laboratorio de guion adaptado | Festival Anfibia Montevideo ¿Cómo se transforma una obra de teatro en una historia para la pantalla? A partir de La piel en llamas, obra teatral de Guillem Clua, este laboratorio propone explorar, desde la práctica, las herramientas y decisiones que intervienen en la…",
    "lugar": {

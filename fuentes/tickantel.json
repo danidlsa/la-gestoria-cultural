@@ -1,8 +1,8 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-16T18:05:56.386501-03:00",
+ "corrida": "2026-11-16T19:40:40.034619-03:00",
  "ok": true,
- "cantidad": 108,
+ "cantidad": 109,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
@@ -5126,6 +5126,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020971/Grilla_Web_Tickantel_(700x390px)_repro.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021501",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021501/melendi-pop-rock",
+   "titulo": "Melendi \"Pop Rock\"",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Luego de su último sold out en Montevideo, el reconocido cantautor asturiano confirma un nuevo show en el país. Presentará su nuevo álbum titulado Pop Rock. Tras el arrollador éxito de la gira por sus 20 años de carrera, el artista regresa con un sonido renovado, desenfadado y lleno de fuerza para…",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-04-17T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021501/melendi-pop-rock",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021501/GRILLA-MELENDI.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

@@ -1,8 +1,8 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-16T18:21:46.529383-03:00",
+ "corrida": "2026-11-16T19:52:18.492598-03:00",
  "ok": true,
- "cantidad": 15,
+ "cantidad": 14,
  "errores": [],
  "eventos": [
   {
@@ -45,53 +45,6 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F579bd903-8fe4-4efa-8d62-f785e6d5802b.original",
    "productor": "CREW REVOLUTION",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "a498d3ea-3b3f-40a6-bbf1-2602c33b5821",
-   "url": "https://www.tikzet.com/events/antologia-tributo-a-shakira",
-   "titulo": "Antología Tributo a Shakira",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Antologia Tributo a Shakira presenta: 25 años de Laundry Service * Este show es con el público de pie.",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T21:00:00-03:00",
-     "fin": "2026-11-20T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 450.0,
-    "hasta": 450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/antologia-tributo-a-shakira",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F6ac5d468-4cd7-4cd4-934d-d3785c12ea83.original",
-   "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-16T18:23:09.950083-03:00",
- "cantidad": 28,
+ "generado": "2026-11-16T19:53:44.622911-03:00",
+ "cantidad": 29,
  "ciclos": [
   {
    "id": "ciclo-el-mingus",
@@ -32,7 +32,7 @@
    "lugar_id": "centro-cultural-de-espana",
    "desde": "2026-11-16T19:30:00-03:00",
    "hasta": "2026-12-03T10:00:00-03:00",
-   "cantidad": 8
+   "cantidad": 9
   },
   {
    "id": "ciclo-encuentro-de-murga-joven-2026",
@@ -105,6 +105,14 @@
    "desde": "2026-11-21T11:00:00-03:00",
    "hasta": "2026-11-21T13:00:00-03:00",
    "cantidad": 9
+  },
+  {
+   "id": "ciclo-la-madre-de-las-second-hand",
+   "titulo": "La Madre de las Second Hand",
+   "lugar_id": "plaza-primero-de-mayo",
+   "desde": "2026-11-21T11:00:00-03:00",
+   "hasta": "2026-11-21T11:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-ciclo-de-teatro",

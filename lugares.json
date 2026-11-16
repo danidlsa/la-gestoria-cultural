@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-16T18:23:09.950083-03:00",
- "cantidad": 189,
+ "generado": "2026-11-16T19:53:44.622911-03:00",
+ "cantidad": 190,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -208,16 +208,6 @@
    "direccion": null,
    "lat": -34.9026912,
    "lon": -56.1776624,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "av-agraciada",
-   "nombre": "Av. Agraciada",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.8621373,
-   "lon": -56.2121191,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -545,6 +535,16 @@
    "direccion": "Av. Agraciada 2385, 11800 Montevideo, De",
    "lat": -34.887789,
    "lon": -56.189609,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "clube-brasileiro",
+   "nombre": "Clube Brasileiro",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9063064,
+   "lon": -56.1950345,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1354,7 +1354,8 @@
    "nombre": "Plaza 1° de Mayo",
    "alias": [
     "Plaza Primero de Mayo",
-    "Plaza 1 de Mayo"
+    "Plaza 1 de Mayo",
+    "Plaza Primero de Mayo (atrás del Palacio Legislativo)"
    ],
    "direccion": null,
    "lat": -34.88965,
@@ -1669,6 +1670,16 @@
    "direccion": "Av. Agraciada 2842, 11800 Montevideo, De",
    "lat": -34.878155,
    "lon": -56.195991,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "sansuena",
+   "nombre": "Sansueña",
+   "alias": [],
+   "direccion": "Orinoco 4968",
+   "lat": -34.8958906,
+   "lon": -56.0979762,
    "barrio": null,
    "ciudad": "Montevideo"
   },

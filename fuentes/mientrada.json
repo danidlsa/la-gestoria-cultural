@@ -1,8 +1,8 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-16T18:21:07.682519-03:00",
+ "corrida": "2026-11-16T19:51:38.064294-03:00",
  "ok": true,
- "cantidad": 12,
+ "cantidad": 13,
  "errores": [],
  "eventos": [
   {
@@ -417,6 +417,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30799_banner5.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mientrada",
+   "id_externo": "30832",
+   "url": "https://mientrada.com.uy/evento/fiesta-de-fin-de-ano-clube-brasileiro-30832",
+   "titulo": "FIESTA DE FIN DE AÑO CLUBE BRASILEIRO",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Contáctanos a nuestro WhatsApp Oficial Con mucho orgullo anunciamos nuestra Fiesta de Año 2026. Clube Brasileiro junto a Clube do Samba Uy te invitan a una gran noche de fiesta. Sábado 12 de diciembre a partir de las 21.30 hs Abrimos con DJ Nico Luego show de Samba de Luna Y por primera vez en el…",
+   "lugar": {
+    "nombre": "Clube Brasileiro",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mientrada.com.uy/evento/fiesta-de-fin-de-ano-clube-brasileiro-30832",
+     "via": "mientrada"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30832_banner5.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
