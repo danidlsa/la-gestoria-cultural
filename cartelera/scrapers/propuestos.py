@@ -52,6 +52,7 @@ TIPOS = {
     "musica": "musica", "teatro": "teatro", "danza": "danza", "humor": "humor", "stand": "humor", "cine": "cine",
     "exposicion": "exposicion", "muestra": "exposicion", "infantil": "infantil", "chicos": "infantil",
     "fiesta": "fiesta", "festival": "festival", "carnaval": "carnaval", "charla": "charla", "taller": "taller",
+    "feria": "feria",
     "recorrido": "tour", "visita": "tour",
 }
 VIAS = {

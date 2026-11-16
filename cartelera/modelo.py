@@ -22,7 +22,7 @@ ImagenWeb = Annotated[str | None, AfterValidator(_imagen_web)]
 
 Categoria = Literal[
     "musica", "teatro", "danza", "humor", "cine", "exposicion", "infantil",
-    "fiesta", "festival", "carnaval", "tour", "charla", "taller", "otros",
+    "fiesta", "festival", "carnaval", "tour", "charla", "taller", "feria", "otros",
 ]
 Region = Literal["montevideo", "buenos_aires"]
 

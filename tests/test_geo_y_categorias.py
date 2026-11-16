@@ -87,3 +87,13 @@ def test_los_plus_codes_se_pasan_a_coordenadas():
     assert abs(lat + 34.9043) < 0.001 and abs(lon + 56.1987) < 0.001
     assert plus_code("3RMJ+QG6, 11200 Montevideo, Departamento de Montevideo") is not None
     assert plus_code("Soriano 1236") is None
+
+
+def test_el_titulo_dice_si_es_taller_o_feria():
+    from cartelera.categorias import clasificar
+    # El texto habla de una revista y de espectáculos en vivo, pero el título manda.
+    assert clasificar("FAC: Laboratorio de escritura", "Fue directora editorial de la revista ARTE") == "taller"
+    assert clasificar("Feria de emprendedores", "con espectáculos en vivo y food trucks") == "feria"
+    assert clasificar("FERIADO + MONKELIS en La Cretina", "banda en vivo") == "musica"  # "feriado" no es feria
+    # "revista" ya no es carnaval.
+    assert clasificar("Presentación", "la revista Lento presenta su número 20") != "carnaval"

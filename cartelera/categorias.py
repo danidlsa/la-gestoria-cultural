@@ -6,7 +6,9 @@ from cartelera.geo import sin_tildes
 
 # Palabras completas (con plural opcional) y algunas raíces marcadas con "*".
 REGLAS: list[tuple[str, list[str]]] = [
-    ("carnaval", ["murga", "carnaval", "parodistas", "humoristas", "revista", "lubolos", "candombe"]),
+    # "revista" no: casi siempre es una revista de papel ("fue directora de la revista ARTE"); las de carnaval igual
+    # dicen "carnaval".
+    ("carnaval", ["murga", "carnaval", "parodistas", "humoristas", "lubolos", "candombe"]),
     ("infantil", ["infantil", "infantiles", "ninos", "ninas", "familia", "familiar", "chicos", "titeres", "princesa"]),
     ("danza", ["ballet", "danza", "bailarin*", "coreograf*", "flamenco"]),
     ("humor", ["stand up", "standup", "humor", "humorista", "monologo"]),
@@ -36,8 +38,25 @@ DEPORTE = re.compile(
 )
 
 
+# Lo que se decide por el título, antes que el texto largo: un taller o una feria lo dicen en el nombre ("Laboratorio
+# de escritura", "Feria Bohemia"), y la descripción suele hablar de todo ("espectáculos en vivo", "fue directora de una
+# revista"). En el texto no se buscan: "el elenco del taller de teatro" presenta una obra.
+_POR_TITULO = [
+    ("feria", re.compile(r"\b(ferias?|mercadillos?)\b")),
+    ("taller", re.compile(r"\b(taller(es)?|cursos?|workshops?|laboratorios?|clases?\s+abiertas?|seminario\s+taller)\b")),
+]
+
+
+def por_titulo(titulo: str | None) -> str | None:
+    """La categoría que dice el título por sí solo (taller, feria), o None."""
+    plano = sin_tildes(titulo or "")
+    return next((categoria for categoria, patron in _POR_TITULO if patron.search(plano)), None)
+
+
 def clasificar(*textos: str | None, por_defecto: str = "otros") -> str:
-    """Devuelve la primera categoría cuyas palabras clave aparecen en el texto."""
+    """Devuelve la categoría que dice el título (el primer texto), o la primera cuyas palabras clave aparecen."""
+    if categoria := por_titulo(textos[0] if textos else None):
+        return categoria
     plano = sin_tildes(" ".join(t for t in textos if t))
     for categoria, patron in _COMPILADAS:
         if patron.search(plano):

@@ -19,7 +19,7 @@ from urllib.parse import urlencode
 
 from dateutil.rrule import rrulestr
 
-from cartelera.categorias import clasificar, es_deporte, esta_cancelado
+from cartelera.categorias import clasificar, es_deporte, esta_cancelado, por_titulo
 from cartelera.extraer import precio_de, recortar, texto_plano
 from cartelera.geo import VARIOS_BARRIOS, sin_tildes
 from cartelera.http import Cliente
@@ -137,6 +137,8 @@ def _categoria(nombre: str | None, titulo: str, resumen: str, publico: list[str]
     todo: "una niña curiosa", "la historia de una familia de circo")."""
     if _TALLER.search(sin_tildes(titulo)):
         return "taller", True
+    if por_titulo(titulo) == "feria":  # "Feria de artesanos" viene en "Paseos"
+        return "feria", True
     categoria, segura = CATEGORIAS.get(sin_tildes(nombre or ""), ("otros", False))
     if segura:
         return categoria, True

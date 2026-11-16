@@ -169,18 +169,20 @@
   };
   let estado = { seccion: "agenda", mes: hoy.slice(0, 7), planMes: hoy.slice(0, 7), ...FILTROS_INICIALES };
 
-  // Tipos de evento elegidos: "categoria:teatro" o "etiqueta:museo". Se pueden elegir varios (teatro o música).
+  // Tipos de evento elegidos: "categoria:teatro" o "etiqueta:bar". Los rubros se suman entre sí (teatro o música); las
+  // etiquetas van aparte, como "Solo en bares", y achican lo elegido (solo en bares + música: música en bares).
   const categoriasElegidas = () => estado.tipos.filter((t) => t.startsWith("categoria:")).map((t) => t.slice(10));
   const etiquetasElegidas = () => estado.tipos.filter((t) => t.startsWith("etiqueta:")).map((t) => t.slice(9));
-  // Los subtipos (géneros de música, por ejemplo) solo se ofrecen con un único tipo elegido.
-  const unaCategoria = () => (estado.tipos.length === 1 ? categoriasElegidas()[0] || "" : "");
+  // Los subtipos (géneros de música, por ejemplo) solo se ofrecen con un único rubro elegido (con o sin etiquetas).
+  const unaCategoria = () => (categoriasElegidas().length === 1 ? categoriasElegidas()[0] : "");
   const nombreTipo = (tipo) => {
     const [clase, valor] = tipo.split(":");
-    return clase === "categoria" ? datos.categorias[valor] : NOMBRE_ETIQUETA[valor] || valor;
+    return clase === "categoria" ? datos.categorias[valor] : `Solo en ${(NOMBRE_ETIQUETA[valor] || valor).toLowerCase()}`;
   };
 
   // Etiquetas que cruzan rubros: se filtran y se excluyen como un tipo más.
-  const NOMBRE_ETIQUETA = { festival: "Festivales", museo: "Museos", bar: "Bares" };
+  // ("museo" también existe en los datos, para el mapa, pero no es un filtro: un "Museos" excluido de antes se descarta.)
+  const NOMBRE_ETIQUETA = { festival: "Festivales", bar: "Bares" };
 
   // Lo excluido ("nada de infantil") queda guardado en este navegador, como el plan.
   const CLAVE_EXCLUIR = "lgc-excluir";
@@ -229,11 +231,10 @@
     for (const etiqueta of evento.etiquetas) {
       if (estado.excluir.includes(etiqueta) && !(etiqueta === "festival" && s === "festivales")) return false;
     }
-    if (estado.tipos.length) {
-      const deUnTipo = categoriasElegidas().includes(evento.categoria)
-        || etiquetasElegidas().some((etiqueta) => evento.etiquetas.includes(etiqueta));
-      if (!deUnTipo) return false;
-    }
+    const rubros = categoriasElegidas();
+    const etiquetasPedidas = etiquetasElegidas();
+    if (rubros.length && !rubros.includes(evento.categoria)) return false;
+    if (etiquetasPedidas.length && !etiquetasPedidas.some((etiqueta) => evento.etiquetas.includes(etiqueta))) return false;
     if (unaCategoria()) {
       if (estado.sub === "otros" && evento.sub) return false;
       if (estado.sub && estado.sub !== "otros" && evento.sub !== estado.sub) return false;
@@ -1945,10 +1946,10 @@
       boton.classList.toggle("activo", boton.dataset.periodo === estado.periodo);
       boton.setAttribute("aria-pressed", String(boton.dataset.periodo === estado.periodo));
     }
-    for (const boton of document.querySelectorAll("#rubros button:not(.ver-mas)")) {
-      // "Todos" se prende sin ningún tipo elegido; los demás, si están en la lista.
+    for (const boton of document.querySelectorAll("#rubros button:not(.ver-mas), .solo-en button")) {
+      // "Todos" se prende sin ningún rubro elegido ("Solo en bares" va aparte); los demás, si están en la lista.
       const tipo = boton.dataset.etiqueta ? `etiqueta:${boton.dataset.etiqueta}` : `categoria:${boton.dataset.categoria}`;
-      const activo = boton.dataset.categoria === "" ? !estado.tipos.length : estado.tipos.includes(tipo);
+      const activo = boton.dataset.categoria === "" ? !categoriasElegidas().length : estado.tipos.includes(tipo);
       boton.classList.toggle("activo", activo);
       boton.setAttribute("aria-pressed", String(activo));
     }
@@ -2147,12 +2148,13 @@
       cambiar(mismo ? { periodo: "todo", dia: null } : { periodo: "dia", dia: d.dia });
     } else if (d.mes) cambiar({ mes: sumarMeses(estado.mes, Number(d.mes)) });
     else if ("categoria" in d || d.etiqueta) {
-      // Cada tipo se prende y se apaga solo (se pueden combinar); "Todos" los apaga a todos.
-      if (d.categoria === "") cambiar({ tipos: [], sub: "" });
+      // Cada tipo se prende y se apaga solo (se pueden combinar); "Todos" apaga los rubros, no el "Solo en".
+      if (d.categoria === "") cambiar({ tipos: estado.tipos.filter((t) => t.startsWith("etiqueta:")), sub: "" });
       else {
         const tipo = d.etiqueta ? `etiqueta:${d.etiqueta}` : `categoria:${d.categoria}`;
         const tipos = estado.tipos.includes(tipo) ? estado.tipos.filter((t) => t !== tipo) : [...estado.tipos, tipo];
-        cambiar({ tipos, sub: "" });
+        // Sumar o sacar una etiqueta (Bares) no cambia el rubro: el género elegido sigue.
+        cambiar({ tipos, sub: d.etiqueta ? estado.sub : "" });
       }
     }
     else if ("sub" in d) cambiar({ sub: d.sub });

@@ -463,6 +463,21 @@ def test_la_categoria_de_la_cuenta():
     assert (evento.categoria, evento.lugar.alternativas[0]) == ("tour", "Quinta de Mendilaharsu")
 
 
+def test_el_tipo_por_defecto_de_un_bar_de_musica(tmp_path, monkeypatch):
+    monkeypatch.setattr(ig, "CONFIG", tmp_path / "bares.toml")
+    (tmp_path / "bares.toml").write_text('[[bar]]\nusuario = "el.mingus"\npor_defecto = "musica"\n', encoding="utf-8")
+    mingus = {"usuario": "el.mingus", "direccion": "San Salvador 1952"}
+    (b,) = ig.borradores_del_post(_post(1, "Jazzterday\nJueves 26 de noviembre, 21 h", "2026-11-12"), mingus, {}, AHORA)
+    assert ig.evento_de({**b, "aprobado": True}, AHORA).categoria == "musica"
+    # Si el post dice qué es, manda el post.
+    (c,) = ig.borradores_del_post(_post(2, "Noche de stand up\nViernes 27 de noviembre, 21 h", "2026-11-12"), mingus, {}, AHORA)
+    assert ig.evento_de({**c, "aprobado": True}, AHORA).categoria == "humor"
+    # Otra cuenta, sin tipo por defecto, sigue en "otros".
+    (d,) = ig.borradores_del_post(_post(3, "Jazzterday\nJueves 26 de noviembre, 21 h", "2026-11-12"),
+                                  {"usuario": "cordonbeer"}, {}, AHORA)
+    assert ig.evento_de({**d, "aprobado": True}, AHORA).categoria == "otros"
+
+
 def test_una_correccion_a_mano_cambia_el_lugar_de_esa_fecha(tmp_path, monkeypatch):
     monkeypatch.setattr(ig, "CONFIG", tmp_path / "bares.toml")
     (tmp_path / "bares.toml").write_text(
@@ -477,3 +492,25 @@ def test_una_correccion_a_mano_cambia_el_lugar_de_esa_fecha(tmp_path, monkeypatc
     # Otra fecha de la misma cuenta no cambia.
     (c,) = ig.borradores_del_post(_post(2, "El 12 de diciembre a las 20 h, fiesta", "2026-11-12"), mamba, {}, AHORA)
     assert ig.evento_de({**c, "aprobado": True}, AHORA).lugar.lat is None
+
+
+def test_fecha_con_punto_y_sin_la_de_las_entradas():
+    texto = ("El 14.11 (mañana) largamos la primer tanda de entradas a $400!\n\nGuardate el 12.12!\n@kumbiaracha\n\n"
+             "En Sala Rincón")
+    publicado = datetime(2026, 11, 13, 12, 0, tzinfo=MVD)
+    (b,) = ig.borradores_del_post(_post(1, texto, "2026-11-13"), {"usuario": "andromedabarcoop", "direccion": "Durazno 1100"},
+                                  {"name": "Andrómeda"}, publicado)
+    assert [f["inicio"][:10] for f in b["funciones"]] == ["2026-12-12"]
+    assert b["lugar"] == "Sala Rincón"
+    # Una hora o un precio con punto no son una fecha.
+    assert ig.fechas_explicitas("a las 21.10 hs, entrada $1.200", publicado.date()) == []
+
+
+def test_un_pin_con_otra_direccion_es_otro_lugar():
+    cuenta = {"usuario": "contraplano.cineclub", "nombre": "Contraplano Cineclub", "direccion": "Ecuador 1680", "bar": False}
+    otro = "Vemos HER\n28 de noviembre\n20 hs\n📍 Maciel 1384, Ciudad Vieja"
+    (b,) = ig.borradores_del_post(_post(1, otro, "2026-11-09"), cuenta, {}, AHORA)
+    assert (b["lugar"], b["direccion"]) == ("Maciel 1384", "Maciel 1384")
+    propio = "Vemos El laberinto del fauno\n28 de noviembre\n17 hs\n📍 Ecuador 1680, Villa del Cerro"
+    (c,) = ig.borradores_del_post(_post(2, propio, "2026-11-09"), cuenta, {}, AHORA)
+    assert (c["lugar"], c["direccion"]) == ("Contraplano Cineclub", "Ecuador 1680")

@@ -35,7 +35,8 @@ MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "
 CATEGORIAS = {
     "musica": "Música", "teatro": "Teatro", "danza": "Danza", "humor": "Humor", "cine": "Cine",
     "exposicion": "Exposiciones", "infantil": "Infantil", "fiesta": "Fiestas", "festival": "Festivales",
-    "carnaval": "Carnaval", "tour": "Recorridos y tours", "charla": "Charlas", "taller": "Talleres y cursos", "otros": "Otros",
+    "carnaval": "Carnaval", "tour": "Recorridos y tours", "charla": "Charlas", "taller": "Talleres y cursos",
+    "feria": "Ferias", "otros": "Otros",
 }
 # Subrubros que se ofrecen al elegir un rubro, aunque todavía no haya eventos (llegan con nuevas fuentes).
 SUBCATEGORIAS = {
@@ -411,19 +412,13 @@ def generar() -> Path:
 
     # "Festivales" va como etiqueta aparte (incluye festivales de cualquier rubro).
     categorias = [(k, v, por_categoria[k]) for k, v in CATEGORIAS.items() if por_categoria[k] and k != "festival"]
-    # Los botones de tipo de evento: "Museos" (una etiqueta) va junto a Exposiciones. Los que pasan de los
-    # visibles quedan plegados detrás de "Más tipos".
-    rubros = []
-    for clave, nombre, _ in categorias:
-        rubros.append(("categoria", clave, nombre))
-        if clave == "exposicion":
-            rubros.append(("etiqueta", "museo", "Museos"))
-    if ("etiqueta", "museo", "Museos") not in rubros:
-        rubros.append(("etiqueta", "museo", "Museos"))
-    # "Bares" también es una etiqueta (lo que pasa en un bar, sea música, fiesta o humor): va después de Música.
-    if any("bar" in e.get("etiquetas", []) for e in eventos):
-        i = next((n + 1 for n, r in enumerate(rubros) if r[1] == "musica"), len(rubros))
-        rubros.insert(i, ("etiqueta", "bar", "Bares"))
+    # Los botones de tipo de evento (se suman entre sí). Los que pasan de los visibles quedan plegados detrás de
+    # "Más tipos".
+    rubros = [("categoria", clave, nombre) for clave, nombre, _ in categorias]
+    # "Bares" es una etiqueta (lo que pasa en un bar, sea música, fiesta o humor): no se suma a los tipos sino que los
+    # achica ("Solo en bares" + Música: música en bares), así que va aparte, con otro nombre. "Museos" también es una
+    # etiqueta, pero no se ofrece como filtro: lo de los museos son casi todas exposiciones, que ya tienen su tipo.
+    solo_en = [("bar", "Bares")] if any("bar" in e.get("etiquetas", []) for e in eventos) else []
     nombres_fuentes = [FUENTES[f] for f in sorted({p["fuente"] for e in eventos for p in e["fuentes"]}) if f in FUENTES]
     agrega = formulario_para_agregar(configuracion_agrega())
     pagina = entorno.get_template("index.html.j2").render(
@@ -441,6 +436,7 @@ def generar() -> Path:
         salas=sorted(((l["id"], l["nombre"], por_lugar[l["id"]]) for l in lugares_lista), key=lambda s: s[1].lower()),
         promos=promos.most_common(),
         rubros=rubros,
+        solo_en=solo_en,
         rubros_visibles=7,
         programas_visibles=6,
         fuentes={**FUENTES, **VIAS},

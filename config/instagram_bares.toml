@@ -19,6 +19,8 @@
 #              Si es un recorrido y no dice de dónde sale, va a la primera parada que se encuentre, con la nota
 #              "ubicación aproximada"
 #   categoria  si la cuenta hace siempre lo mismo: "tour" (recorridos), "musica", "teatro", "taller"… (las del sitio)
+#   por_defecto  el tipo cuando el post no dice qué es: "musica" en un bar de música en vivo ("Jazzterday", "Tony Rey"
+#              no dicen "show" ni "banda"). Si el post sí lo dice ("stand up", "fiesta"), manda el post
 #   notas      lo que quieras recordar (por ejemplo, "solo los jueves de jazz")
 
 # Correcciones a mano de un borrador: cuando el lugar de una fecha está solo en el afiche, por ejemplo. Va el id del
@@ -118,6 +120,7 @@ notas = "¿es el «Gelos Comedy Coffee Bar» (Soriano 757), que ya está en el s
 usuario = "theshannonuy"
 corto = "The Shannon"
 direccion = "Bartolomé Mitre 1318"
+por_defecto = "musica"
 
 [[bar]]
 usuario = "bluzzbar"
@@ -125,12 +128,14 @@ nombre = "Bluzz Bar"
 corto = "Bluzz"
 direccion = "Canelones 760"
 notas = "muchas fechas las anuncia en historias, reposteando a jazzclub.uy: esas entran por esa cuenta"
+por_defecto = "musica"
 
 [[bar]]
 usuario = "_labatea_"
 
 [[bar]]
 usuario = "el.mingus"
+por_defecto = "musica"
 
 [[bar]]
 usuario = "cordonbeer"
@@ -186,6 +191,7 @@ direccion = "Juan Carlos Gómez 1251"
 [[bar]]
 usuario = "lamadredelassecond"
 itinerante = true
+categoria = "feria"
 notas = "ferias second hand: cada una en un lugar distinto; entra lo que diga dónde es con 📍"
 bar = false
 
@@ -226,6 +232,7 @@ bar = false
 [[bar]]
 usuario = "feriadearteimpresomvd"
 itinerante = true
+categoria = "feria"
 notas = "feria de arte impreso: cada edición en un lugar distinto; entra lo que diga dónde es con 📍"
 bar = false
 
@@ -279,6 +286,7 @@ usuario = "jazzclub.uy"
 notas = "las fechas de jazz que Bluzz repostea; el lugar sale del 📍 o de la cuenta que nombre (bluzzbar)"
 itinerante = true
 bar = false
+por_defecto = "musica"
 
 # Sumadas el 13/11/2026.
 [[bar]]
@@ -298,6 +306,7 @@ lat = -34.9112717
 lon = -56.165584
 notas = "feria de diseño, libros, comida y música; en 2026, del 1 al 24 de diciembre"
 bar = false
+categoria = "feria"
 
 [[bar]]
 usuario = "horizontes.sonoro"
@@ -305,6 +314,31 @@ nombre = "Horizontes Sonoros"
 notas = "festival de música contemporánea, entrada libre: el lugar sale del 📍"
 itinerante = true
 bar = false
+
+# Sumadas el 16/11/2026.
+[[bar]]
+usuario = "paseo_cultural_ciudad_vieja"
+nombre = "Paseo Cultural Ciudad Vieja"
+itinerante = true
+bar = false
+notas = "organización del casco histórico: muchas crónicas y reposteos; entra lo que diga dónde es con 📍"
+
+[[bar]]
+usuario = "museozorrilla"
+nombre = "Museo Zorrilla"  # como ya está en el sitio
+direccion = "José Luis Zorrilla de San Martín 96"
+barrio = "Punta Carretas"
+bar = false
+
+[[bar]]
+usuario = "contraplano.cineclub"
+nombre = "Contraplano Cineclub"
+corto = "Contraplano"
+direccion = "Ecuador 1680"
+barrio = "Cerro"
+categoria = "cine"
+bar = false
+notas = "cineclub con debate; a veces proyecta en otro lado (📍 con la dirección)"
 
 # --- Correcciones a mano ---------------------------------------------------------------------------------------------
 [[correccion]]

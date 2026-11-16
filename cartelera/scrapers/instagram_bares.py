@@ -74,6 +74,8 @@ _RECURRENTE = re.compile(
 )
 _FECHA_MES = re.compile(rf"\b(\d{{1,2}})\s*(?:de\s+|[/.\-]\s*)?{_MES}\b")  # "13 de noviembre", "04/Noviembre"
 _FECHA_BARRA = re.compile(r"\b(\d{1,2})/(\d{1,2})(?:/(\d{2,4}))?\b")
+# "Guardate el 12.12", "El 14.11": con punto, pero no una hora ("a las 21.10", "21.10 hs") ni un precio ("$1.200").
+_FECHA_PUNTO = re.compile(r"(?<![\d$.:])(?<!las )\b(\d{1,2})\.(\d{1,2})\b(?![.\d]|\s*(?:h|hs|hrs|horas)\b)")
 # "jueves 12", y también listas: "miércoles 11 y 18", "lunes 7, 14 y 21" (todos el mismo día de la semana).
 _DIA_NUMERO = re.compile(rf"\b{_DIA}\s+(\d{{1,2}}(?:\s*(?:,|\by\b|\be\b)\s*\d{{1,2}}\b(?!\s*[:./h]))*)\b(?!\s*/)")
 # "13, 14 y 15 de noviembre": varios días del mismo mes.
@@ -92,7 +94,9 @@ _MEDIODIA = re.compile(r"\bmediodia\b")
 # "Martes de noviembre", "todos los jueves de diciembre": un ciclo, todas las fechas de ese día en ese mes.
 _SERIE = re.compile(rf"\b(lunes|martes|miercoles|jueves|viernes|sabado|domingo)s?\s+de\s+{_MES}\b")
 # Las fechas de un sorteo, un descuento o una vigencia no son de un evento ("Anunciamos ganador el jueves 12/11").
+# Tampoco la de cuándo salen las entradas ("El 14.11 largamos la primer tanda de entradas").
 _NO_ES_EVENTO = re.compile(r"ganador|sorteo|sorteamos|participa[rn]?\b|valido|vigente|descuento|vence|fecha limite|postula"
+                           r"|tanda\s+de\s+entradas|preventa|venta\s+de\s+entradas|salen\s+(a\s+la\s+venta|las\s+entradas)"
                            r"|convocatoria|inscripciones?\s+(hasta|cierra)|cierre\s+de\s+(inscripciones|postulaciones)")
 # Un post que abre con una convocatoria o un llamado ("CONVOCATORIA ABIERTA", "Inscribí tu propuesta") no anuncia un
 # evento: sus fechas son de inscripción. Se mira solo el principio, para no perder un evento que la menciona al final.
@@ -137,6 +141,9 @@ def fechas_explicitas(texto: str, publicado: date) -> list[tuple[date, bool]]:
     for dia, mes, anio in _FECHA_BARRA.findall(texto):
         if 1 <= int(mes) <= 12:
             fechas.append((_con_mes(int(dia), int(mes), int(anio) if anio else None, publicado), True))
+    for dia, mes in _FECHA_PUNTO.findall(texto):
+        if 1 <= int(dia) <= 31 and 1 <= int(mes) <= 12:
+            fechas.append((_con_mes(int(dia), int(mes), None, publicado), True))
     for nombre, numeros in _DIA_NUMERO.findall(texto):
         for numero in re.findall(r"\d{1,2}", numeros):
             fechas.append((_dia_con_numero(int(numero), DIAS[nombre], publicado), True))
@@ -342,9 +349,20 @@ _PIN = re.compile(r"📍\s*([^\n]+)")
 _NO_ES_LUGAR = re.compile(r"modalidad|virtual|online|zoom|a confirmar|por definir|\blink\b", re.I)
 
 
+# Sin 📍, un renglón suelto que dice dónde: "En Sala Rincón", "En el Teatro del Centro". Solo con una palabra de lugar
+# al principio, para no tomar "En vivo" o "En la previa".
+_EN_LUGAR = re.compile(r"^\s*en\s+(?:el\s+|la\s+)?((?:sala|teatro|club|espacio|centro|casa|museo|plaza|parque)\s[^\n.!]{2,40})\s*$",
+                       re.I | re.M)
+
+
 def lugar_del_texto(texto: str) -> tuple[str | None, str | None]:
-    """El lugar que dice el post con 📍: "📍La Cretina, Soriano 1236" o "📍 Museo Oceanográfico". (nombre, dirección)."""
+    """El lugar que dice el post con 📍: "📍La Cretina, Soriano 1236" o "📍 Museo Oceanográfico". (nombre, dirección).
+
+    Si no hay 📍, un renglón que sea solo "En Sala Rincón".
+    """
     encontrado = _PIN.search(texto or "")
+    if not encontrado and (en := _EN_LUGAR.search(texto or "")):
+        return en.group(1).strip(), None
     if not encontrado or _NO_ES_LUGAR.search(encontrado.group(1)):
         return None, None  # "📍 Modalidad presencial o virtual" no dice dónde
     # Hasta el primer emoji: "📍 MBC Ombú ⚠️ Cupos limitados" es solo "MBC Ombú".
@@ -352,8 +370,8 @@ def lugar_del_texto(texto: str) -> tuple[str | None, str | None]:
     partes = [p.strip() for p in re.split(r",|\s[-–]\s", renglon) if p.strip()]
     if not partes:
         return None, None
-    if len(partes) == 1 and re.search(r"\d", partes[0]):
-        return None, partes[0]  # "📍 Soriano 1236": solo la dirección
+    if re.search(r"\d", partes[0]):
+        return None, partes[0]  # "📍 Soriano 1236" o "📍 Ecuador 1680, Villa del Cerro": solo la dirección
     direccion = next((p for p in partes[1:] if re.search(r"\d", p)), None)
     return partes[0], direccion
 
@@ -493,6 +511,11 @@ def cuenta_mencionada(texto: str, propia: str) -> dict | None:
     return None
 
 
+def _calle(direccion: str) -> str:
+    """La calle de una dirección, sin el número: "Ecuador 1680" → "ecuador"."""
+    return re.sub(r"\s*\d.*$", "", sin_tildes(direccion)).strip()
+
+
 def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, funciones: list[tuple[datetime, bool]],
                  titulo: str, extracto: str) -> dict:
     texto = post.get("caption") or ""
@@ -507,6 +530,11 @@ def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, fu
     imagen = post.get("media_url") if post.get("media_type") in ("IMAGE", "CAROUSEL_ALBUM") else None
     del_bar = cuenta.get("nombre") or perfil.get("name") or cuenta["usuario"]
     nombre, direccion = lugar_del_texto(texto)
+    # Solo una dirección, y no es la del lugar ("📍 Maciel 1384" en la cuenta de un cineclub del Cerro): la función es
+    # en otro lado, que se nombra por esa dirección.
+    propia = cuenta.get("direccion")
+    if not nombre and direccion and propia and _calle(direccion) != _calle(propia):
+        nombre = direccion
     # Un recorrido (una caminata, una visita) sale de un punto de encuentro, que es más preciso que el 📍: en
     # "📍 Caminata Art Nouveau" el 📍 es el nombre de la actividad. Solo en cuentas sin lugar fijo: en una sala, "punto
     # de encuentro: la puerta" no es otro lugar.
@@ -649,7 +677,8 @@ def evento_de(b: dict, ahora: datetime) -> EventoCrudo | None:
         id_externo=b["id"],
         url=b["url"],
         titulo=titulo,
-        categoria=b.get("categoria") or clasificar(titulo, texto, por_defecto="otros"),
+        # Si el post no dice qué es, el tipo de siempre de la cuenta (un bar de jazz: música); si no, "otros".
+        categoria=b.get("categoria") or clasificar(titulo, texto, por_defecto=por_defecto().get(b["usuario"]) or "otros"),
         categoria_segura=bool(b.get("categoria")),
         descripcion_corta=recortar(re.sub(r"\s+", " ", _ADORNOS.sub(" ", texto)).strip()),
         lugar=LugarCrudo(nombre=b["lugar"], direccion=b.get("direccion"), barrio=b.get("barrio"), lat=b.get("lat"), lon=b.get("lon"),
@@ -716,6 +745,11 @@ def avisos_en_github() -> list[dict] | None:
 
 def cuentas(ruta: Path | None = None) -> list[dict]:
     return tomllib.loads((ruta or CONFIG).read_text(encoding="utf-8")).get("bar", [])
+
+
+def por_defecto(ruta: Path | None = None) -> dict[str, str]:
+    """El tipo de evento de cada cuenta cuando el post no lo dice: {"el.mingus": "musica"}."""
+    return {c["usuario"]: c["por_defecto"] for c in cuentas(ruta) if c.get("por_defecto")}
 
 
 # Lo que se puede corregir a mano de un borrador (sección [[correccion]] de la lista, por el id del borrador).

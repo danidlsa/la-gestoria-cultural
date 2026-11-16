@@ -194,6 +194,11 @@ details.pregunta > div > :first-child { margin-top: 0; }
 .opciones button.excluido { background: var(--coral); color: var(--tinta); border-color: var(--borde); text-decoration: line-through; }
 .opciones button.excluido::before { content: "− "; }
 .subrubros { margin-top: 8px; padding: 8px; border-radius: 12px; background: color-mix(in srgb, var(--mostaza) 22%, transparent); }
+/* "Solo en bares": no es un tipo más sino un recorte de lo elegido; va aparte y se marca como casilla. */
+.solo-en { align-items: center; margin-top: 10px; padding-top: 10px; border-top: 1px dashed color-mix(in srgb, var(--texto-suave) 45%, transparent); }
+.solo-en-titulo { font-size: 0.82rem; font-weight: 700; color: var(--texto-suave); margin-right: 2px; }
+.solo-en button::before { content: "○ "; }
+.solo-en button.activo::before { content: "✓ "; }
 select {
   width: 100%; font: inherit; padding: 9px 12px; border: 2px solid var(--borde);
   border-radius: 12px; background: var(--superficie); color: var(--texto);
@@ -293,7 +298,7 @@ select {
 .cat-teatro, .cat-carnaval, .cat-humor { --acento: var(--coral); }
 .cat-danza, .cat-infantil, .cat-tour, .cat-taller { --acento: var(--mostaza); }
 .cat-musica, .cat-cine, .cat-festival { --acento: var(--cobalto); }
-.cat-exposicion, .cat-charla, .cat-fiesta, .cat-otros { --acento: var(--tinta); }
+.cat-exposicion, .cat-charla, .cat-fiesta, .cat-feria, .cat-otros { --acento: var(--tinta); }
 
 .barrios { font-size: 0.85rem; margin: -2px 0 6px; }
 .barrios summary { cursor: pointer; min-height: 24px; display: flex; align-items: center; color: var(--cobalto-texto); font-weight: 600; }
