@@ -1,6 +1,6 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-16T19:45:32.602255-03:00",
+ "corrida": "2026-11-16T20:29:24.591168-03:00",
  "ok": true,
  "cantidad": 9,
  "errores": [],
@@ -22,13 +22,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-16T17:10:00-03:00",
-     "fin": "2026-11-16T18:44:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-17T17:10:00-03:00",
      "fin": "2026-11-17T18:44:00-03:00",
@@ -114,13 +107,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-16T17:20:00-03:00",
-     "fin": "2026-11-16T19:05:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-17T17:20:00-03:00",
      "fin": "2026-11-17T19:05:00-03:00",
@@ -666,13 +652,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-16T17:00:00-03:00",
-     "fin": "2026-11-16T18:50:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-16T19:10:00-03:00",
      "fin": "2026-11-16T21:00:00-03:00",

@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-16T19:53:44.622911-03:00",
- "cantidad": 190,
+ "generado": "2026-11-16T20:37:36.490546-03:00",
+ "cantidad": 192,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -256,6 +256,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "brecha-bar-y-cafe",
+   "nombre": "Brecha Bar y Café 🏳️‍🌈",
+   "alias": [],
+   "direccion": "Aquiles Lanza y Canelones",
+   "lat": -34.9084142,
+   "lon": -56.18779,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "buenos-aires-314",
    "nombre": "Buenos Aires 314",
    "alias": [],
@@ -312,6 +322,16 @@
    "direccion": "Canelones 2150",
    "lat": -34.9071895,
    "lon": -56.168825,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "carrasco",
+   "nombre": "Carrasco",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.8855774,
+   "lon": -56.0581498,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -545,16 +565,6 @@
    "direccion": null,
    "lat": -34.9063064,
    "lon": -56.1950345,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "colonia-894",
-   "nombre": "Colonia 894",
-   "alias": [],
-   "direccion": "Colonia 894, 11100 Montevideo, Departame",
-   "lat": -34.905443,
-   "lon": -56.197351,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1506,8 +1516,7 @@
    "id": "rincon-687",
    "nombre": "Rincón 687",
    "alias": [
-    "Rincón 732",
-    "Sala Rincon"
+    "Rincón 732"
    ],
    "direccion": "Rincón 687, 11000 Montevideo, Departamen",
    "lat": -34.905411,
@@ -1582,6 +1591,18 @@
    "direccion": "Av. 8 de Octubre 4849",
    "lat": -34.855863,
    "lon": -56.132473,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "sala-rincon",
+   "nombre": "Sala Rincón",
+   "alias": [
+    "Sala Rincon"
+   ],
+   "direccion": "Rincón 732, 11000 Montevideo, Departamen",
+   "lat": -34.90522,
+   "lon": -56.200533,
    "barrio": null,
    "ciudad": "Montevideo"
   },

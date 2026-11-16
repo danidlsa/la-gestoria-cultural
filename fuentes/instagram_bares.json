@@ -1,10 +1,57 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-16T19:52:38.898860-03:00",
+ "corrida": "2026-11-16T20:36:06.966249-03:00",
  "ok": true,
- "cantidad": 51,
+ "cantidad": 53,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "horizontes.sonoro-20261121",
+   "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
+   "titulo": "Horizontes Sonoros: Espacio Quitapenas Paysandú 847, Montevideo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "21 de noviembre | 20 h Espacio Quitapenas – Montevideo Entrada libre en ambos conciertos. ¡Te esperamos!",
+   "lugar": {
+    "nombre": "Horizontes Sonoros",
+    "direccion": "20 de noviembre",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2efd46a122e5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "instagram_bares",
    "id_externo": "lacretinacasa-20261021",
@@ -961,6 +1008,48 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "mercadoferrando-20261120",
+   "url": "https://www.instagram.com/p/DfxNwAroMhp/",
+   "titulo": "Mercado Ferrando: El 20.11 beertruckopb cumple 10 años y en Ferrando lo festejamos a lo grande",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "El 20.11 beertruckopb cumple 10 años y en Ferrando lo festejamos a lo grande Seguimos disfrutando de un mes lleno de festejos, encuentros y propuestas artísticas. Con un line up para celebrar de principio a fin ¡Los esperamos para brindar, bailar y celebrar juntos estos 10 años!",
+   "lugar": {
+    "nombre": "Mercado Ferrando",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfxNwAroMhp/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b556e967e906.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "theshannonuy-20261120",
    "url": "https://www.instagram.com/p/DfUjlSARymU/",
    "titulo": "The Shannon: PIANO BAR",
@@ -1471,53 +1560,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "horizontes.sonoro-20261121",
-   "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
-   "titulo": "Horizontes Sonoros: Espacio Quitapenas Paysandú 847, Montevideo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "21 de noviembre | 20 h Espacio Quitapenas – Montevideo Entrada libre en ambos conciertos. ¡Te esperamos!",
-   "lugar": {
-    "nombre": "Horizontes Sonoros",
-    "direccion": "20 de noviembre",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2efd46a122e5.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "lacretinacasa-20261121",
    "url": "https://www.instagram.com/p/DfiK_MivhXn/",
    "titulo": "La Cretina: TABAREK & LA KABARET",
@@ -1893,12 +1935,14 @@
    "categoria_segura": true,
    "descripcion_corta": "Carrasco y Bodega. Caminata por Carrasco viejo, con la participación de Arq. Beatriz Pittamiglio. Visita guiada a viñedos e instalaciones de Bodega Varela Zarranz, con degustación de 4 vinos y picada de campo. Sábado 28 de Noviembre 10:30 a 16:00 horas 3.200 pesos uruguayos Reservas 095 002 623…",
    "lugar": {
-    "nombre": "Carrasco y Bodega",
-    "direccion": null,
+    "nombre": "fama.tours",
+    "direccion": "Carrasco y Bodega",
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Carrasco"
+    ]
    },
    "funciones": [
     {
@@ -1977,8 +2021,8 @@
    "categoria_segura": false,
    "descripcion_corta": "Son años. Es una costumbre que hicimos fiesta. Este 29 de noviembre nos encontramos en la calle, todo el día y como siempre Entrada libre. Aquiles Lanza y Canelones. Desde las 12:00 h.",
    "lugar": {
-    "nombre": "Aquiles Lanza y Canelones",
-    "direccion": null,
+    "nombre": "Brecha Bar y Café 🏳️‍🌈",
+    "direccion": "Aquiles Lanza y Canelones",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -2011,7 +2055,9 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "etiquetas": [],
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
@@ -2240,6 +2286,53 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "andromedabarcoop-20261212",
+   "url": "https://www.instagram.com/p/Dfs_s4wiZIl/",
+   "titulo": "ANDRÓMEDA Bar Cooperativo: Volvimos a juntarnos, porque la autogestión y el cooperativismo se celebra y porque…",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "Volvimos a juntarnos, porque la autogestión y el cooperativismo se celebra y porque queremos cerrar el año juntes El 14.11 (mañana) largamos la primer tanda de entradas a $400! Guardate el 12.12! kumbiaracha na7a.ok lu_telis Dj Ositx Dj Abrupto Pedí tus entradas por el 099973295 (finisterre) o por…",
+   "lugar": {
+    "nombre": "Sala Rincón",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfs_s4wiZIl/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1872b308c76e.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },

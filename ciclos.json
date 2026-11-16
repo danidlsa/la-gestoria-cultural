@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-16T19:53:44.622911-03:00",
- "cantidad": 29,
+ "generado": "2026-11-16T20:37:36.490546-03:00",
+ "cantidad": 30,
  "ciclos": [
   {
    "id": "ciclo-el-mingus",
@@ -11,19 +11,19 @@
    "cantidad": 6
   },
   {
-   "id": "ciclo-andrzej-wajda-en-su-centenario",
-   "titulo": "Andrzej Wajda, en su centenario",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-16T17:00:00-03:00",
-   "hasta": "2026-11-17T19:20:00-03:00",
-   "cantidad": 2
-  },
-  {
    "id": "ciclo-fac",
    "titulo": "FAC",
    "lugar_id": "fac-fundacion-de-arte-contemporaneo",
    "desde": "2026-11-16T18:00:00-03:00",
    "hasta": "2026-11-28T11:00:00-03:00",
+   "cantidad": 2
+  },
+  {
+   "id": "ciclo-andrzej-wajda-en-su-centenario",
+   "titulo": "Andrzej Wajda, en su centenario",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-16T19:10:00-03:00",
+   "hasta": "2026-11-17T19:20:00-03:00",
    "cantidad": 2
   },
   {
@@ -89,6 +89,14 @@
    "desde": "2026-11-19T21:00:00-03:00",
    "hasta": "2026-12-04T21:00:00-03:00",
    "cantidad": 4
+  },
+  {
+   "id": "ciclo-mercado-ferrando",
+   "titulo": "Mercado Ferrando",
+   "lugar_id": "mercado-ferrando",
+   "desde": "2026-11-20T00:00:00-03:00",
+   "hasta": "2026-11-21T14:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
