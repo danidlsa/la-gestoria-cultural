@@ -77,6 +77,8 @@ h1 span {
 .boton-tema { border: 2px solid rgba(255, 255, 255, 0.7); background: transparent; color: #fff; border-radius: 999px; padding: 4px 12px; min-height: 36px; font-weight: 700; font-size: 0.9rem; }
 .cifras .boton-tema span { background: none; padding: 0; font-size: inherit; }
 .boton-tema:hover { background: rgba(255, 255, 255, 0.18); }
+.boton-ig { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; }
+.boton-ig .icono-ig { flex: none; }
 .cifras .actualizado { background: none; padding: 0; opacity: 0.8; font-size: 0.8rem; width: 100%; text-align: right; }
 
 .saltar { position: absolute; left: 12px; top: -60px; z-index: 100; background: var(--mostaza); color: var(--tinta); font-weight: 700; padding: 10px 16px; border: 2px solid var(--tinta); border-radius: 999px; }
@@ -1046,3 +1048,11 @@ body.imprimiendo .imprimible { display: block; }
 /* Un recorrido que no dice de dónde sale: el lugar es una de sus paradas. */
 .aproximada { font-style: italic; color: var(--texto-suave); }
 .leaflet-popup .aproximada { display: inline-block; margin-top: 2px; font-size: 0.85em; }
+
+/* Celulares muy angostos (320 px): el nombre y los dos botones redondos (Instagram y tema) entran en una línea. */
+@media (max-width: 380px) {
+  .cabezal-interior { gap: 8px; }
+  .cabezal h1 { font-size: 1.3rem; }
+  .cifras { gap: 6px; }
+  .boton-tema { width: 36px; height: 36px; font-size: 1rem; }
+}

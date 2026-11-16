@@ -38,6 +38,8 @@
         <span><strong>{{ eventos|length }}</strong> eventos</span>
         <span><strong>{{ salas|length }}</strong> salas</span>
         <span class="actualizado">Actualizado {{ generado }}</span>
+        {#- Mucha gente llega por un enlace de WhatsApp: el Instagram, a mano arriba (en el celular, solo el ícono). #}
+        <a class="boton-tema boton-ig" href="https://www.instagram.com/lagestoria.cultural/" aria-label="Instagram de La Gestoría (@lagestoria.cultural)"><svg class="icono-ig" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg> <span class="tema-texto" aria-hidden="true">Instagram</span></a>
         <button type="button" class="boton-tema" id="boton-tema" aria-pressed="false" aria-label="Modo oscuro"><span class="tema-icono" aria-hidden="true">☾</span> <span class="tema-texto" aria-hidden="true">Oscuro</span></button>
       </p>
     </div>
@@ -206,6 +208,7 @@
             <li><span aria-hidden="true">✦</span> <span>En <strong>Planeá tu mes</strong> armás tu agenda y la pasás a tu calendario o a WhatsApp.</span></li>
             <li><span aria-hidden="true">🗺️</span> <span>Explorá otras opciones como <strong>Mapa</strong>, <strong>Gratis</strong> y <strong>Promos</strong>.</span></li>
             <li><span aria-hidden="true">🎟️</span> <span>Cada evento te lleva a su fuente para sacar entradas.</span></li>
+            <li><span aria-hidden="true">📸</span> <span>Seguinos en Instagram: <a href="https://www.instagram.com/lagestoria.cultural/">@lagestoria.cultural</a>, con tips y recomendaciones.</span></li>
           </ul>
         </div>
         <button type="button" class="quitar" data-cerrar-bienvenida aria-label="Cerrar la bienvenida">×</button>
@@ -386,7 +389,7 @@
   <footer class="contenedor pie-pagina">
     <p><strong>{{ sitio }}</strong> · Montevideo, 2026 · Proyecto sin fines de lucro</p>
     <p>Cada evento enlaza a su fuente original para comprar o reservar.
-       <a href="que-es.html">Qué es</a> · <a href="que-es.html#fuentes">Fuentes</a> · <a href="https://docs.google.com/forms/d/e/1FAIpQLSckAwGEcbi1d2X5UHb0nNBAMZ6AnbqtBwHU_MD2ciX_PHLDxg/viewform">Contacto</a> · {% if agrega_tu_evento %}<a href="agrega-tu-evento.html">Agregá tu evento</a> · {% endif %}<a href="https://github.com/danidlsa/la-gestoria-cultural">Código</a> · <a href="que-es.html#privacidad">Privacidad</a> · <a href="eventos.json">Datos</a></p>
+       <a href="que-es.html">Qué es</a> · <a href="que-es.html#fuentes">Fuentes</a> · <a href="https://docs.google.com/forms/d/e/1FAIpQLSckAwGEcbi1d2X5UHb0nNBAMZ6AnbqtBwHU_MD2ciX_PHLDxg/viewform">Contacto</a> · <a href="https://www.instagram.com/lagestoria.cultural/">Instagram</a> · {% if agrega_tu_evento %}<a href="agrega-tu-evento.html">Agregá tu evento</a> · {% endif %}<a href="https://github.com/danidlsa/la-gestoria-cultural">Código</a> · <a href="que-es.html#privacidad">Privacidad</a> · <a href="eventos.json">Datos</a></p>
   </footer>
 
   <div class="imprimible" id="imprimible" aria-hidden="true"></div>
