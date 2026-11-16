@@ -1,8 +1,8 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-15T22:17:36.694144-03:00",
+ "corrida": "2026-11-16T18:21:07.682519-03:00",
  "ok": true,
- "cantidad": 11,
+ "cantidad": 12,
  "errores": [],
  "eventos": [
   {
@@ -99,7 +99,7 @@
    "descripcion_corta": "VIERNES 20/11 Desde Argentina desembarca Pryma y toma el control de la casa para presentar su segundo showcase en el club. El warm up estará dirigido por Vinz. artista integrante de Pryma. Y para dar cierre a la noche un B2B que conecta las dos escenas underground del Río de la Plata…",
    "lugar": {
     "nombre": "Emile",
-    "direccion": null,
+    "direccion": "Mercedes 1820",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -225,7 +225,7 @@
    "descripcion_corta": "Contáctanos a nuestro WhatsApp Oficial 💜💙 ¿UNA FIESTA NEÓN? NOSOTROS TE VAMOS A MOSTRAR CÓMO SE HACE. ⚡ Hay noches que se anuncian… y otras que se quedan en la historia. 👀 Este SÁBADO 21 DE NOVIEMBRE llega APOCA LUZ – NEÓN PARTY. Una experiencia donde las luces, los colores y la energía van a…",
    "lugar": {
     "nombre": "L´Club",
-    "direccion": null,
+    "direccion": "Av. Uruguay 1136",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -417,6 +417,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30799_banner5.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mientrada",
+   "id_externo": "30672",
+   "url": "https://mientrada.com.uy/evento/sunset-open-summer-middot-hypnose-30672",
+   "titulo": "SUNSET OPEN SUMMER · HYPNOSE",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Contáctanos a nuestro WhatsApp Oficial Hypnose Prrsents : Sunset OPEN SSUMMER",
+   "lugar": {
+    "nombre": "Carrasco Polo Club",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-13T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mientrada.com.uy/evento/sunset-open-summer-middot-hypnose-30672",
+     "via": "mientrada"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30672_banner5.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

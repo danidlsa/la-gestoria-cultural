@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-15T22:11:24.938567-03:00",
+ "corrida": "2026-11-16T18:15:11.523357-03:00",
  "ok": true,
- "cantidad": 40,
+ "cantidad": 36,
  "errores": [],
  "eventos": [
   {
@@ -246,50 +246,6 @@
   },
   {
    "fuente": "sodre",
-   "id_externo": "12285",
-   "url": "https://sodre.gub.uy/espectaculos/nelson-pino/",
-   "titulo": "Nelson Pino",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "45 años en el tango",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T20:00:00-03:00",
-     "fin": "2026-11-15T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/alta_demanda/40020890/espectaculo/Nelson%20Pino%20-%2045%20a%C3%B1os%20en%20el%20tango",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/06/DESTACADOweb.900x492-Nelson_Pino-768x420.jpg",
-   "productor": "Espectáculos del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/alta_demanda/40020890/espectaculo/Nelson%20Pino%20-%2045%20a%C3%B1os%20en%20el%20tango"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
    "id_externo": "13078",
    "url": "https://sodre.gub.uy/espectaculos/gabriel-rolon/",
    "titulo": "Gabriel Rolón",
@@ -333,94 +289,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/inicio/alta_demanda/40021474/espectaculo/Gabriel%20Rol%C3%B3n"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13311",
-   "url": "https://sodre.gub.uy/espectaculos/pulmones/",
-   "titulo": "Pulmones",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Dirección de Fernando Dianesi",
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T20:30:00-03:00",
-     "fin": "2026-11-15T22:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021640/espectaculo/Pulmones?2",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/09/DESTACADO-Pulmones-2-2-768x420.jpg",
-   "productor": "Espectáculos del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40021640/espectaculo/Pulmones?2"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13416",
-   "url": "https://sodre.gub.uy/espectaculos/narciso/",
-   "titulo": "Narciso",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Estreno",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T21:00:00-03:00",
-     "fin": "2026-11-15T23:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021823/narciso",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/09/Slider-web-Sodre-47-768x307.png",
-   "productor": "Cine Nacional y Latinoamericano del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021823/narciso"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -980,13 +848,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-15T19:00:00-03:00",
-     "fin": "2026-11-15T21:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-19T21:00:00-03:00",
      "fin": "2026-11-19T23:00:00-03:00",
      "sin_hora": false,
@@ -1014,50 +875,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021919/emi"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13604",
-   "url": "https://sodre.gub.uy/espectaculos/el-bano-del-papa/",
-   "titulo": "El baño del Papa",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Estreno",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T17:00:00-03:00",
-     "fin": "2026-11-15T19:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021822/el-bano-del-papa",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Slider-web-Sodre-46-768x307.png",
-   "productor": "Cine Nacional y Latinoamericano del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021822/el-bano-del-papa"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -1278,50 +1095,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021890/sodre-celebra"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13694",
-   "url": "https://sodre.gub.uy/espectaculos/cuarteto-de-vientos-madera/",
-   "titulo": "Cuarteto de Vientos Madera",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Temporada de Música de Cámara",
-   "lugar": {
-    "nombre": "Auditorio Vaz Ferreira",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T18:00:00-03:00",
-     "fin": "2026-11-15T20:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021681/tmc-cuarteto-de-vientos-madera",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/cuarteto-vientos-madera_destacada-1-768x420.png",
-   "productor": "Temporada de Música de Cámara del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021681/tmc-cuarteto-de-vientos-madera"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -1878,6 +1651,50 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021683/tmc-postales-del-siglo-xx-quinteto-urumare"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13827",
+   "url": "https://sodre.gub.uy/espectaculos/muestra-final/",
+   "titulo": "Muestra Final",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Danza Arte",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-22T20:00:00-03:00",
+     "fin": "2026-12-22T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021989/muestra-final-danza-arte",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Destacado_900x492-768x420.png",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021989/muestra-final-danza-arte"
    ],
    "ciclo": null,
    "etiquetas": [],

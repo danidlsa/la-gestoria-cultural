@@ -1,8 +1,8 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-15T22:06:38.092631-03:00",
+ "corrida": "2026-11-16T18:05:56.386501-03:00",
  "ok": true,
- "cantidad": 106,
+ "cantidad": 108,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
@@ -737,6 +737,74 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021457",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "CICLO (No tan) Solos al mediodía 17va edición - Diversidad Dirección artística y curaduría: Andrea Arobba Producción ejecutiva: GEN Centro de Artes y Ciencias Producción: Polen productora cultural - Catalina Lans Asistencia de producción: Emiliano Bittencourt Registro audiovisual: Daiana Di Candia…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390_banner_web_generico_TS.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021955",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021955/las-7-balas",
    "titulo": "Las 7 balas",
@@ -915,48 +983,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021263",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021263/raly-barrionuevo",
-   "titulo": "Raly Barrionuevo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Raly Barrionuevo regresa a Montevideo para presentar su nuevo trabajo, \"El camino de Solgo\", un disco que marca su retorno a las composiciones inéditas tras un necesario período de maduración y búsqueda interna. El esperado reencuentro con el público uruguayo se materializará el 20 de noviembre en…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021263/raly-barrionuevo",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021263/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021726",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021726/nina-lobo",
    "titulo": "Niña Lobo",
@@ -994,6 +1020,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021726/ninalobo-tickantel.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021263",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021263/raly-barrionuevo",
+   "titulo": "Raly Barrionuevo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Raly Barrionuevo regresa a Montevideo para presentar su nuevo trabajo, \"El camino de Solgo\", un disco que marca su retorno a las composiciones inéditas tras un necesario período de maduración y búsqueda interna. El esperado reencuentro con el público uruguayo se materializará el 20 de noviembre en…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": -34.90626,
+    "lon": -56.19441,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021263/raly-barrionuevo",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021263/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3364,6 +3432,53 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021934",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021934/vanina-soldevila-y-martin-lima",
+   "titulo": "Vanina Soldevila y Martín Lima",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Vanina Soldevila, en voz, y Martín Lima, en bajo, convierten el escenario en su casa e invitan al público a un recorrido musical y escénico por canciones y artistas que marcaron sus vidas. Con arreglos originales y la participación de artistas invitados, “Como en casa” reúne un repertorio que…",
+   "lugar": {
+    "nombre": "Sala Jorge Lazaroff",
+    "direccion": null,
+    "lat": -34.8557558,
+    "lon": -56.1324247,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021934/vanina-soldevila-y-martin-lima",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021934/banner2.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021869",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021869/adriana-calanhotto",
    "titulo": "Adriana Calanhotto",
@@ -4527,7 +4642,7 @@
      "fin": null,
      "sin_hora": false,
      "sala": null,
-     "agotada": false
+     "agotada": true
     }
    ],
    "precio": {

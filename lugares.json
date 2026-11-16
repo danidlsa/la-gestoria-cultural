@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-15T22:19:46.458628-03:00",
- "cantidad": 179,
+ "generado": "2026-11-16T18:23:09.950083-03:00",
+ "cantidad": 189,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -173,8 +173,7 @@
     "Sodre",
     "Sala Hugo Balzo",
     "Sodre-Salga Hugo Balzo",
-    "Sodre - Sala Hugo Balzo",
-    "Auditorio Nacional del SODRE"
+    "Sodre - Sala Hugo Balzo"
    ],
    "direccion": "Andes 1459",
    "lat": -34.90428,
@@ -209,6 +208,16 @@
    "direccion": null,
    "lat": -34.9026912,
    "lon": -56.1776624,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "av-agraciada",
+   "nombre": "Av. Agraciada",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.8621373,
+   "lon": -56.2121191,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -253,16 +262,6 @@
    "direccion": "Complejo Prado",
    "lat": -34.861076,
    "lon": -56.20152,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "brecha-bar-y-cafe",
-   "nombre": "Brecha Bar y Café 🏳️‍🌈",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.9084142,
-   "lon": -56.18779,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -327,6 +326,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "carrasco-polo-club",
+   "nombre": "Carrasco Polo Club",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.8627617,
+   "lon": -56.0641586,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "casona-de-vilardebo",
    "nombre": "Casona de Vilardebó",
    "alias": [],
@@ -370,9 +379,9 @@
    "id": "centro-cultural-artesano",
    "nombre": "Centro Cultural Artesano",
    "alias": [],
-   "direccion": "Bv. Aparicio Saravía 4697",
-   "lat": -34.825201,
-   "lon": -56.204054,
+   "direccion": null,
+   "lat": -34.8253632,
+   "lon": -56.2043076,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -612,6 +621,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "doctor-joaquin-requena-1351",
+   "nombre": "Doctor Joaquín Requena 1351",
+   "alias": [],
+   "direccion": "Dr. Joaquín Requena 1351, 11200 Montevid",
+   "lat": -34.903067,
+   "lon": -56.169118,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "el-chamuyo",
    "nombre": "El Chamuyo",
    "alias": [],
@@ -640,16 +659,6 @@
    "direccion": "Colonia 2035",
    "lat": -34.898852,
    "lon": -56.172319,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "el-espacio-vacio",
-   "nombre": "El espacio vacío",
-   "alias": [],
-   "direccion": "GUTIÉRREZ RUIZ 1111 esq. DURAZNO",
-   "lat": -34.91036,
-   "lon": -56.1910121,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -684,7 +693,7 @@
    "id": "espacio-cultural-extasia",
    "nombre": "Espacio Cultural Extasia",
    "alias": [],
-   "direccion": "Piedras 425",
+   "direccion": "Piedras 425, 11000 Montevideo, Departame",
    "lat": -34.904648,
    "lon": -56.207897,
    "barrio": null,
@@ -789,16 +798,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "estudio-la-ratonera",
-   "nombre": "Estudio La Ratonera",
-   "alias": [],
-   "direccion": "Charrúa 1838",
-   "lat": -34.9059878,
-   "lon": -56.1757494,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "fac-fundacion-de-arte-contemporaneo",
    "nombre": "FAC - Fundación de Arte Contemporáneo",
    "alias": [],
@@ -880,6 +879,16 @@
    "direccion": "Plaza Independencia 759",
    "lat": -34.9058104,
    "lon": -56.1995027,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "hyatt-centric",
+   "nombre": "Hyatt Centric",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.909643,
+   "lon": -56.1385076,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1073,12 +1082,42 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "l-club",
+   "nombre": "L´Club",
+   "alias": [],
+   "direccion": "Av. Uruguay 1136",
+   "lat": -34.9031884,
+   "lon": -56.1919403,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "magnolio-sala",
    "nombre": "Magnolio Sala",
    "alias": [],
-   "direccion": "Doctor Pablo de María 1015",
+   "direccion": "Pablo de María 1015",
    "lat": -34.91042,
    "lon": -56.170582,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "mercado-ferrando",
+   "nombre": "Mercado Ferrando",
+   "alias": [],
+   "direccion": "Chaná 2120",
+   "lat": -34.904322,
+   "lon": -56.170631,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "miguelete-piedra-alta",
+   "nombre": "Miguelete & Piedra Alta",
+   "alias": [],
+   "direccion": "Miguelete & Piedra Alta, 11800 Montevide",
+   "lat": -34.897587,
+   "lon": -56.185189,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1098,7 +1137,7 @@
    "alias": [
     "MMB"
    ],
-   "direccion": "Av. Dámaso A. Larrañaga 3195, 11600 Mont",
+   "direccion": "Av. Dámaso A. Larrañaga 3195, 11600",
    "lat": -34.880615,
    "lon": -56.15275,
    "barrio": null,
@@ -1140,6 +1179,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "museo-historico-nacional",
+   "nombre": "Museo Histórico Nacional",
+   "alias": [],
+   "direccion": "Casa de Rivera. Rincón 437 esquina Misiones, Montevideo",
+   "lat": -34.9070064,
+   "lon": -56.2066155,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "museo-nacional-de-artes-visuales",
    "nombre": "Museo Nacional de Artes Visuales",
    "alias": [
@@ -1176,12 +1225,37 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "museo-zorrilla",
+   "nombre": "Museo Zorrilla",
+   "alias": [
+    "Museo Casa de Zorrilla",
+    "Museo Juan Zorrilla de San Martín"
+   ],
+   "direccion": "José Luis Zorrilla de San Martín 96, Punta Carretas",
+   "lat": -34.92763,
+   "lon": -56.15977,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "museo-de-arte-precolombino-e-indigena-mapi",
    "nombre": "Museo de Arte Precolombino e Indígena (MAPI)",
-   "alias": [],
+   "alias": [
+    "Museo de Arte Precolombino e Indígena - MAPI"
+   ],
    "direccion": "25 de Mayo 279",
    "lat": -34.90715,
    "lon": -56.21011,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "museo-de-la-gran-logia-femenina",
+   "nombre": "Museo de la Gran Logia Femenina",
+   "alias": [],
+   "direccion": "Maldonado 1066",
+   "lat": -34.9098671,
+   "lon": -56.1928307,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1236,11 +1310,19 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "parque-villa-garcia",
+   "nombre": "Parque Villa García",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.803696,
+   "lon": -56.0803352,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "parque-de-la-amistad",
    "nombre": "Parque de la Amistad",
-   "alias": [
-    "Parque Villa Dolores"
-   ],
+   "alias": [],
    "direccion": "Av. Gral Rivera 3245",
    "lat": -34.902332,
    "lon": -56.144034,
@@ -1283,7 +1365,9 @@
   {
    "id": "plaza-independencia-846",
    "nombre": "Plaza Independencia 846",
-   "alias": [],
+   "alias": [
+    "Plaza Independencia"
+   ],
    "direccion": "Pl. Independencia 846, 11100 Montevideo,",
    "lat": -34.906706,
    "lon": -56.198496,
@@ -1307,6 +1391,21 @@
    "direccion": null,
    "lat": -34.910003,
    "lon": -56.1576635,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "plaza-de-las-pioneras",
+   "nombre": "Plaza de las Pioneras",
+   "alias": [
+    "Las Pioneras",
+    "Espacio Las Pioneras",
+    "Espacio Feminista Las Pioneras",
+    "Plaza Las Pioneras"
+   ],
+   "direccion": "Av. Agraciada, Arroyo Seco",
+   "lat": -34.88435,
+   "lon": -56.19304,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1383,6 +1482,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "rbla-pte-charles-de-gaulle-1569",
+   "nombre": "Rbla. Pte. Charles De Gaulle 1569",
+   "alias": [],
+   "direccion": "Kibón, Montevideo",
+   "lat": -34.910901,
+   "lon": -56.135397,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "restaurante-el-berretin",
    "nombre": "Restaurante El Berretín",
    "alias": [],
@@ -1396,6 +1505,7 @@
    "id": "rincon-687",
    "nombre": "Rincón 687",
    "alias": [
+    "Rincón 732",
     "Sala Rincon"
    ],
    "direccion": "Rincón 687, 11000 Montevideo, Departamen",
@@ -1501,8 +1611,8 @@
     "La Sala Valle Inclán"
    ],
    "direccion": "San José 870",
-   "lat": -34.90741,
-   "lon": -56.197553,
+   "lat": -34.9074103,
+   "lon": -56.1975527,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1536,7 +1646,7 @@
     "Museo del Carnaval",
     "Patio del Museo del Carnaval"
    ],
-   "direccion": "Maciel, 11000 Montevideo",
+   "direccion": "Rambla 25 de Agosto esq. Maciel",
    "lat": -34.905789,
    "lon": -56.212222,
    "barrio": null,
@@ -1624,7 +1734,7 @@
     "Paraguay 1217",
     "Alianza Cultural Uruguay Estados Unidos"
    ],
-   "direccion": "Paraguay 1217",
+   "direccion": "Paraguay 1217, 11100 Montevideo, Departa",
    "lat": -34.908454,
    "lon": -56.192501,
    "barrio": null,
@@ -1805,9 +1915,9 @@
    "id": "teatron",
    "nombre": "Teatrón",
    "alias": [],
-   "direccion": "Av.Gral Rivera 3406, 11300 Montevideo, D",
-   "lat": -34.902037,
-   "lon": -56.140804,
+   "direccion": "Av.Gral Rivera 3406",
+   "lat": -34.902048,
+   "lon": -56.140795,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1897,12 +2007,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "anima-espacio-cultural",
-   "nombre": "Ánima Espacio Cultural",
+   "id": "zoba-club",
+   "nombre": "Zoba Club",
    "alias": [],
-   "direccion": "San José 822",
-   "lat": -34.9074753,
-   "lon": -56.1986295,
+   "direccion": "Bv. España 2218",
+   "lat": -34.9095744,
+   "lon": -56.1679561,
    "barrio": null,
    "ciudad": "Montevideo"
   },

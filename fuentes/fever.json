@@ -1,8 +1,8 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-15T22:16:38.158660-03:00",
+ "corrida": "2026-11-16T18:20:05.041779-03:00",
  "ok": true,
- "cantidad": 7,
+ "cantidad": 16,
  "errores": [],
  "eventos": [
   {
@@ -54,53 +54,6 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "662344",
-   "url": "https://feverup.com/m/662344",
-   "titulo": "Candlelight: Clásicos de Navidad",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Celebra la época más especial del año con una colección de queridas canciones navideñas. Desde villancicos atemporales hasta favoritas festivas, vive los clásicos de estas fechas junto a quienes más quieres en un acogedor concierto a la luz de las velas. Esta experiencia de concierto es un tributo…",
-   "lugar": {
-    "nombre": "Hotel Radisson Victoria Plaza",
-    "direccion": null,
-    "lat": -34.9058104,
-    "lon": -56.1995027,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-23T19:00:00-03:00",
-     "fin": "2026-12-23T21:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1150.0,
-    "hasta": 1150.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/662344",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/fe5444ee-3f93-11f0-a5a4-6ee326aa2bcb.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
    "id_externo": "525129",
    "url": "https://feverup.com/m/525129",
    "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
@@ -138,6 +91,147 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/9bdc2556-1ab4-11f0-8624-6e8226e0238e.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "689993",
+   "url": "https://feverup.com/m/689993",
+   "titulo": "Candlelight: Ed Sheeran & Coldplay",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Vive las emotivas canciones de Coldplay y Ed Sheeran reinterpretadas en un ambiente íntimo Candlelight. De Yellow y Perfect a Photograph y más, redescubre las melodías que se han convertido en la banda sonora de momentos inolvidables. Esta experiencia de concierto es un tributo. No está vinculada…",
+   "lugar": {
+    "nombre": "Hyatt Centric",
+    "direccion": null,
+    "lat": -34.909643,
+    "lon": -56.1385076,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T17:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1450.0,
+    "hasta": 1450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/689993",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/8aec2300-148c-11f0-91fe-f65f346f445e.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "689992",
+   "url": "https://feverup.com/m/689992",
+   "titulo": "Candlelight: Lo Mejor de Hans Zimmer",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Vive las bandas sonoras más icónicas de Hans Zimmer bajo una nueva luz. Rodeado del cálido resplandor de miles de velas, músicos en directo dan vida a melodías inolvidables de Origen, Interstellar, El Rey León, Gladiator y más en un concierto sobrecogedor. Esta experiencia de concierto es un…",
+   "lugar": {
+    "nombre": "Hyatt Centric",
+    "direccion": null,
+    "lat": -34.909643,
+    "lon": -56.1385076,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1400.0,
+    "hasta": 1400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/689992",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/5c755a1c-0b29-11f0-827c-a2cfe8261701.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "662344",
+   "url": "https://feverup.com/m/662344",
+   "titulo": "Candlelight: Clásicos de Navidad",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Celebra la época más especial del año con una colección de queridas canciones navideñas. Desde villancicos atemporales hasta favoritas festivas, vive los clásicos de estas fechas junto a quienes más quieres en un acogedor concierto a la luz de las velas. Esta experiencia de concierto es un tributo…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-23T19:00:00-03:00",
+     "fin": "2026-12-23T21:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1150.0,
+    "hasta": 1150.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/662344",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/fe5444ee-3f93-11f0-a5a4-6ee326aa2bcb.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -289,6 +383,100 @@
   },
   {
    "fuente": "fever",
+   "id_externo": "836762",
+   "url": "https://feverup.com/m/836762",
+   "titulo": "Candlelight: Tributo a Queen y The Beatles",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Tributo a Queen y The Beatles en Hotel Radisson Victoria Plaza bajo la tenue luz de…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-30T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 900.0,
+    "hasta": 900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/836762",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/4671982c-1a9f-11f0-9bc4-3a9b5e2c983e.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "836763",
+   "url": "https://feverup.com/m/836763",
+   "titulo": "Candlelight: Himnos del Rock de los 80",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Himnos del Rock de los 80 en Hotel Radisson Victoria Plaza bajo la tenue luz de las…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-30T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 900.0,
+    "hasta": 900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/836763",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/a4251344-6861-11f0-90b8-ee5a9ea828c9.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
    "id_externo": "662345",
    "url": "https://feverup.com/m/662345",
    "titulo": "Candlelight: Especial de San Valentín",
@@ -326,6 +514,241 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/49de4a16-11de-11ef-813a-a2c797bffe77.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "838624",
+   "url": "https://feverup.com/m/838624",
+   "titulo": "Candlelight: Lo Mejor de Hans Zimmer",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Lo Mejor de Hans Zimmer en Hotel Radisson Victoria Plaza bajo la tenue luz de las…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-28T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 900.0,
+    "hasta": 900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/838624",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/b2a5d1a8-1396-11f0-9f4b-e25e224a365e.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "838625",
+   "url": "https://feverup.com/m/838625",
+   "titulo": "Candlelight: Queen vs. ABBA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Los conciertos Candlelight llevan la magia de la música en vivo a lugares increíbles de Montevideo, bajo la luz tenue de las velas. ¡Conseguí tus entradas para descubrir la música de Candlelight: Queen vs. ABBA en Sala Valle Inclán! Esta experiencia de concierto es un tributo. No está vinculada…",
+   "lugar": {
+    "nombre": "Sala Valle Inclán",
+    "direccion": null,
+    "lat": -34.9074103,
+    "lon": -56.1975527,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-03-12T19:00:00-03:00",
+     "fin": "2027-04-17T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 820.0,
+    "hasta": 820.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/838625",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/ad60b410-1945-11f0-bf40-961efeb2b763.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "838626",
+   "url": "https://feverup.com/m/838626",
+   "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Las Cuatro Estaciones de Vivaldi en Hotel Radisson Victoria Plaza bajo la tenue luz…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-28T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 900.0,
+    "hasta": 900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/838626",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/7c807528-1ab3-11f0-9eff-324ba1e3eb01.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "838622",
+   "url": "https://feverup.com/m/838622",
+   "titulo": "Candlelight: Tributo a Joan Manuel Serrat",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Tributo a Joan Manuel Serrat en Sala Valle Inclán bajo la tenue luz de las velas!…",
+   "lugar": {
+    "nombre": "Sala Valle Inclán",
+    "direccion": null,
+    "lat": -34.9074103,
+    "lon": -56.1975527,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-03-12T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 820.0,
+    "hasta": 820.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/838622",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/57ccb306-1462-11f0-879a-6e847126acd3.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "838623",
+   "url": "https://feverup.com/m/838623",
+   "titulo": "Candlelight: Tributo a Coldplay",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Tributo a Coldplay en Sala Valle Inclán bajo la tenue luz de las velas! Esta es una…",
+   "lugar": {
+    "nombre": "Sala Valle Inclán",
+    "direccion": null,
+    "lat": -34.9074103,
+    "lon": -56.1975527,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-04-17T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 820.0,
+    "hasta": 820.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/838623",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/01ff4670-145b-11f0-8212-f2dde2fbf63d.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],

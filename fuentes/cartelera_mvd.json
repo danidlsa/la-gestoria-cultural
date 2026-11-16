@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-15T22:12:25.240403-03:00",
+ "corrida": "2026-11-16T18:15:52.465523-03:00",
  "ok": true,
- "cantidad": 88,
+ "cantidad": 84,
  "errores": [],
  "eventos": [
   {
@@ -183,13 +183,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-15T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T20:30:00-03:00",
      "fin": null,
@@ -404,13 +397,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-15T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-19T21:00:00-03:00",
      "fin": null,
@@ -629,13 +615,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-15T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T20:00:00-03:00",
      "fin": null,
@@ -1393,53 +1372,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "31688",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?31688",
-   "titulo": "Cuando se acaba la cuerda",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una cajita de música, de esas antiguas que funcionan a cuerda con cajones, puertitas y una tapa que al abrirse devela una bailarina girando. En este caso la cajita es también un edificio, donde vive una bailarina en cada apartamento, así como también en el hall y el subsuelo. Se le da cuerda a la…",
-   "lugar": {
-    "nombre": "Estudio La Ratonera",
-    "direccion": "Charrúa 1838",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?31688",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42052.jpg",
-   "productor": "Paula Evans",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34519",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34519",
    "titulo": "Cámara Hamlet",
@@ -2006,13 +1938,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-15T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-19T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2318,59 +2243,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34910",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34910",
-   "titulo": "El productivista",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "En una oficina donde el tiempo parece repetirse, un grupo de personas atraviesa sus jornadas entre deseos, frustraciones, vínculos y mandatos invisibles. Con humor, ironía y absurdo, la obra pone en escena una pregunta cada vez más difícil de ignorar: ¿hasta qué punto vivimos y hasta qué punto solo…",
-   "lugar": {
-    "nombre": "Espacio Cultural Extasia",
-    "direccion": "Piedras 425",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34910",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34910"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42238.jpg",
-   "productor": "Horacio Camandulle",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34628",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34628",
    "titulo": "El teatro",
@@ -2460,13 +2332,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-15T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-22T18:00:00-03:00",
      "fin": null,
@@ -2868,6 +2733,67 @@
   },
   {
    "fuente": "cartelera_mvd",
+   "id_externo": "33245",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33245",
+   "titulo": "L.E.D: Luces, Extravío y Delirio",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "El nuevo espectáculo unipersonal de Jorge Esmoris propone un viaje tan imposible como real: la historia de la humanidad desde la Prehistoria hasta este presente, a un paso de convertirse en Prehistoria. Un monólogo, en formato Charla TED, que no se limita a enumerar hechos, sino que los mezcla, los…",
+   "lugar": {
+    "nombre": "Magnolio Sala",
+    "direccion": "Pablo de María 1015",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 750.0,
+    "hasta": 750.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33245",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41262.jpg",
+   "productor": "Jorge Esmoris",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
    "id_externo": "34726",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34726",
    "titulo": "La Gaviota, ensayo abierto",
@@ -3103,13 +3029,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-15T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -3206,15 +3125,15 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34678",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34678",
-   "titulo": "Las viejas",
+   "id_externo": "33980",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33980",
+   "titulo": "Las hijas",
    "categoria": "teatro",
    "categoria_segura": true,
-   "descripcion_corta": "Tres actrices octogenarias fueron divas una vez. Hoy, el teléfono no suena ni para un comercial de papas fritas. Cansadas de esperar, deciden montar su propio espectáculo. Las viejas es una comedia actual que se ríe de las desgracias de sus propios personajes. Pero desde la risa surge una pregunta…",
+   "descripcion_corta": "Las hijas es una comedia sensible y emotiva que narra el reto al que se enfrentan tres hermanas: una madre con Alzheimer. Elena fue una madre presente, a veces demasiado exigente y firme. Una jueza de profesión que no supo dejar la ley fuera de la casa. Una obra que explora las contradicciones…",
    "lugar": {
-    "nombre": "Teatro de la Candela",
-    "direccion": "José Ellauri 308",
+    "nombre": "El Galpón - Sala César Campodónico",
+    "direccion": "Av. 18 de Julio 1618",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -3222,7 +3141,14 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-15T19:00:00-03:00",
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T18:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -3230,20 +3156,36 @@
     }
    ],
    "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
+    "desde": 1980.0,
+    "hasta": 2480.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34678",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33980",
      "via": "cartelera_mvd"
     }
    ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41964.jpg",
-   "productor": "Pablo Dive",
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "Beneficios con El País, La Diaria y Millas Itaú",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33980"
+    },
+    {
+     "programa": "Club El País",
+     "tipo": "Beneficios con El País, La Diaria y Millas Itaú",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33980"
+    },
+    {
+     "programa": "Itaú",
+     "tipo": "Beneficios con El País, La Diaria y Millas Itaú",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33980"
+    }
+   ],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41052.jpg",
+   "productor": "Adrián Suar",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -3268,13 +3210,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-15T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-19T21:30:00-03:00",
      "fin": null,
@@ -3672,13 +3607,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-15T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-22T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -3935,13 +3863,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-15T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T21:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -4148,13 +4069,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-15T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T20:30:00-03:00",
      "fin": null,
@@ -4597,53 +4511,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34808",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34808",
-   "titulo": "Pervertimento y otros gestos para nada",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Catorce actrices y actores se encuentran unidos por una fuerza desconocida que los empuja, una y otra vez, hacia el mundo del teatro. Como si no pudieran escapar de él, transitan situaciones absurdas, delirantes y profundamente humanas, donde la realidad y la ficción comienzan a confundirse. Entre…",
-   "lugar": {
-    "nombre": "Teatro Alianza",
-    "direccion": "Paraguay 1217",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 680.0,
-    "hasta": 680.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34808",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42121.jpg",
-   "productor": "Fernando Amaral",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34786",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34786",
    "titulo": "Plata fácil",
@@ -4698,64 +4565,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "25251",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?25251",
-   "titulo": "Por hoy dejamos acá",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Dolores es la empleada doméstica del consultorio de una psicóloga y escritora de renombre, Cecilia Kauffman. La distancia intelectual y social que hay entre ambas deja en la cuerda floja a Dolores porque se avecina la noticia de que será despedida de su trabajo. ¡Por bestia bruta!, dirá ella, pero…",
-   "lugar": {
-    "nombre": "Ánima Espacio Cultural",
-    "direccion": "San José 822",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 490.0,
-    "hasta": 490.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?25251",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?25251"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?25251"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42292.jpg",
-   "productor": "Natalia Vega",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34669",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34669",
    "titulo": "Precoz",
@@ -4800,64 +4609,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41950.jpg",
    "productor": "Lorena Vega",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34646",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34646",
-   "titulo": "Pulmones",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una conversación de toda la vida. Una pregunta, que da origen a los deseos y miedos de una pareja. Pulmones , de Duncan Macmillan, es una historia vertiginosa, divertida y profundamente conmovedora sobre el amor, el paso del tiempo y esas decisiones que pueden cambiar para siempre, la vida de dos…",
-   "lugar": {
-    "nombre": "Auditorio Nacional del SODRE - Sala Hugo Balzo",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 940.0,
-    "hasta": 940.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34646",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34646"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34646"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41924.jpg",
-   "productor": "Fernando Dianesi",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -5247,13 +4998,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-15T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T20:00:00-03:00",
      "fin": null,

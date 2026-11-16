@@ -1,8 +1,8 @@
 {
  "fuente": "propuestos",
- "corrida": "2026-11-15T22:18:05.913204-03:00",
+ "corrida": "2026-11-16T18:21:38.421356-03:00",
  "ok": true,
- "cantidad": 4,
+ "cantidad": 3,
  "errores": [],
  "eventos": [
   {
@@ -138,53 +138,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/caf1db324b96.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "propuestos",
-   "id_externo": "ee5f4c3802f6",
-   "url": "https://www.instagram.com/elespacio.vacio",
-   "titulo": "Sol Bassa",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Desde Bs As llega Sol Bassa, acompañada por los locatarios Pancho Coelho, Clara Lassus y Monkelis anticipando el cierre del 2026 y augurando nuevos comienzos para este 2027. Lxs esperamos!",
-   "lugar": {
-    "nombre": "El espacio vacío",
-    "direccion": "GUTIÉRREZ RUIZ 1111 esq. DURAZNO",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/elespacio.vacio",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

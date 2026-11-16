@@ -1,57 +1,10 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-15T22:17:14.680610-03:00",
+ "corrida": "2026-11-16T18:20:38.907216-03:00",
  "ok": true,
- "cantidad": 22,
+ "cantidad": 20,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "mnav",
-   "id_externo": "indigenas2026-borramientos, invenciones y faltantes in",
-   "url": "https://mnav.gub.uy/cms.php?id=indigenas2026",
-   "titulo": "Borramientos, invenciones y faltantes indígenas en el acervo",
-   "categoria": "exposicion",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=indigenas2026",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=indigenas2026",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": true,
-   "hasta": "2026-11-15"
-  },
   {
    "fuente": "mnav",
    "id_externo": "somosjugando-somos jugando",
@@ -69,13 +22,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-15T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-16T00:00:00-03:00",
      "fin": null,
@@ -491,6 +437,13 @@
     },
     {
      "inicio": "2027-01-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-15T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -521,53 +474,6 @@
   },
   {
    "fuente": "mnav",
-   "id_externo": "brugnini2026-cecilia brugnini - romance entre el todo",
-   "url": "https://mnav.gub.uy/cms.php?id=brugnini2026",
-   "titulo": "Cecilia Brugnini - Romance entre el todo y la nada",
-   "categoria": "exposicion",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=brugnini2026",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=brugnini2026",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": true,
-   "hasta": "2026-11-15"
-  },
-  {
-   "fuente": "mnav",
    "id_externo": "gallo2026-pensar el tiempo y las cosas - daniel ga",
    "url": "https://mnav.gub.uy/cms.php?id=gallo2026",
    "titulo": "Pensar el tiempo y las cosas - Daniel Gallo",
@@ -583,13 +489,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-15T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-16T00:00:00-03:00",
      "fin": null,
@@ -1005,6 +904,13 @@
     },
     {
      "inicio": "2027-01-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-15T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1051,13 +957,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-15T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-16T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1472,6 +1371,13 @@
     },
     {
      "inicio": "2027-01-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-15T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1852,6 +1758,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-15T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -2224,6 +2137,13 @@
     },
     {
      "inicio": "2027-01-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-15T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,

@@ -1,10 +1,188 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-15T22:16:30.328155-03:00",
+ "corrida": "2026-11-16T18:19:58.202673-03:00",
  "ok": true,
- "cantidad": 58,
+ "cantidad": 54,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18415",
+   "url": "https://beneficios.ladiaria.com.uy/tu-cuerpo-no-se-equivoca/",
+   "titulo": "Tu cuerpo no se equivoca",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "¿Y si un síntoma no fuera sólo algo que hay que eliminar, sino un mensaje que necesita ser escuchado? Esa pregunta atraviesa “Tu cuerpo no se equivoca”, la charla en la que Julián Hernández explora la relación entre las emociones, la historia personal, los vínculos y el cuerpo desde la perspectiva…",
+   "lugar": {
+    "nombre": "Teatro El Galpón, Sala Campodónico",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-28T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1530.0,
+    "hasta": 1530.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/JULIAN-HERNANDEZ-Experto-en-Medicina-China-Sala-Campodonico/34704/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/tu-cuerpo-no-se-equivoca/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/JULIAN-HERNANDEZ-Experto-en-Medicina-China-Sala-Campodonico/34704/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18411",
+   "url": "https://beneficios.ladiaria.com.uy/humorisima-2/",
+   "titulo": "Humorisima",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Regresa la cena-show más divertida de Montevideo, con los personajes que siempre querés volver a ver. Las divas de la televisión argentina: Susana, Moria y Mirtha, show drag, muchos personajes y cambios de vestuario y mucha participación del público. Vení en grupo a jugar con nosotros y divertirte!",
+   "lugar": {
+    "nombre": "Teatrón Av Gral Rivera 3406",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/HUMORISIMAS-CENA-SHOW--GRAN-REGRESO/34681/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/humorisima-2/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/HUMORISIMAS-CENA-SHOW--GRAN-REGRESO/34681/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18408",
+   "url": "https://beneficios.ladiaria.com.uy/vuelo-de-locos/",
+   "titulo": "Vuelo de locos",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "¡PASAJEROS, PREPÁRENSE PARA DESPEGAR! VUELO DE LOCOS, su nuevo espectáculo, donde esta vez los espectadores son los pasajeros de un vuelo muy particular. Una tripulación desopilante los hará reír, sorprenderse y viajar por distintos lugares del mundo en una noche llena de humor, nuevos personajes…",
+   "lugar": {
+    "nombre": "Teatron Av Gral Rivera 3406",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/VUELO-DE-LOCOS--8-UNICAS-FUNCIONES/34683/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/vuelo-de-locos/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/VUELO-DE-LOCOS--8-UNICAS-FUNCIONES/34683/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "ladiaria",
    "id_externo": "18401",
@@ -336,53 +514,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18376",
-   "url": "https://beneficios.ladiaria.com.uy/cartografia-sobre-la-identidad-mariana-zaffaroni/",
-   "titulo": "CARTOGRAFÍA SOBRE LA IDENTIDAD – Mariana Zaffaroni",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Tenía apenas un año y seis meses. ¿Con un año y seis meses, qué sentimientos se pueden generar? ¿Qué afectos, qué vínculos se pueden llegar a tener? Seguramente muchos. Pero si hablamos de recuerdos, tangibles, patentes, yo no tuve ninguno. «Cartografía sobre la identidad» aborda el proceso de…",
-   "lugar": {
-    "nombre": "Sala Camacuá",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 800.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/CARTOGRAFIA-SOBRE-LA-IDENTIDAD--Mariana-Zaffaroni/34375/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/cartografia-sobre-la-identidad-mariana-zaffaroni/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/CARTOGRAFIA-SOBRE-LA-IDENTIDAD--Mariana-Zaffaroni/34375/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18372",
    "url": "https://beneficios.ladiaria.com.uy/noelia-pace-la-medium/",
    "titulo": "NOELIA PACE, la Médium.",
@@ -452,15 +583,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 940.0,
     "hasta": 940.0,
@@ -634,13 +757,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-15T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -751,13 +867,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-15T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-19T00:00:00-03:00",
      "fin": null,
@@ -992,58 +1101,6 @@
    "enlaces": [
     "https://www.tickantel.com.uy/inicio/registrarse",
     "https://tickantel.com.uy/ng/espectaculo/40021704/la-solteriaesta-de-moda"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18277",
-   "url": "https://beneficios.ladiaria.com.uy/el-de-las-tinieblas-a-la-luz/",
-   "titulo": "ÉL, de las tinieblas a la luz",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Ópera de cámara en un acto, inspirada libremente en la novela homónima de Mercedes Pinto, este estreno se inscribe en un marco de memoria: se conmemoran los cincuenta años de su muerte y los cien años de la publicación de Él en Montevideo. La ópera no propone una ilustración literal del texto, sino…",
-   "lugar": {
-    "nombre": "Sala Zavala Muniz",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021670/el-de-las-tinieblas-a-la-luz",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/el-de-las-tinieblas-a-la-luz/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/ng/espectaculo/40021670/el-de-las-tinieblas-a-la-luz"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -1456,58 +1513,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18225",
-   "url": "https://beneficios.ladiaria.com.uy/una-noche-con-queen-voices/",
-   "titulo": "Una noche con Queen – Voices",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "El grupo vocal a cappella Voices presenta “Una Noche con Queen”, tributo que hará un recorrido por las canciones más exitosas del grupo, cerrando el show con la Rapsodia Bohemia, tema emblemático de Queen. “Voices” es un grupo de música a cappella integrado por cantantes de larga trayectoria. Un…",
-   "lugar": {
-    "nombre": "Complejo Cultural Politeama – Sala Atahualpa del Cioppo",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021485/una-noche-con-queen",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/una-noche-con-queen-voices/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/ng/espectaculo/40021485/una-noche-con-queen"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18216",
    "url": "https://beneficios.ladiaria.com.uy/taddei-masliah-etchenique-bentancur/",
    "titulo": "Taddei – Masliah – Etchenique – Bentancur",
@@ -1808,53 +1813,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Pasando-lista/32687/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18156",
-   "url": "https://beneficios.ladiaria.com.uy/sitio-te-mueve/",
-   "titulo": "Sitio te mueve",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "La Vela Puerca, Agarrate Catalina y Malapraxxis juntos en SITIO – Parque Roosevelt el 13 y 14 de noviembre. Tres artistas de la música uruguaya, tres propuestas diferentes y dos jornadas llenas de música para disfrutar de un encuentro que promete ser uno de los grandes cierres del año. Niños de…",
-   "lugar": {
-    "nombre": "Sitio",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 990.0,
-    "hasta": 990.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/SITIO-TE-MUEVE-La-Vela-Puerca-Agarrate-Catalina-y-Malapraxxis/33347/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/sitio-te-mueve/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/SITIO-TE-MUEVE-La-Vela-Puerca-Agarrate-Catalina-y-Malapraxxis/33347/"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -2476,53 +2434,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18057",
-   "url": "https://beneficios.ladiaria.com.uy/el-zar-4/",
-   "titulo": "El Zar",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "El próximo 14 de Noviembre, vuelve EL ZAR a nuestro patio. La banda Argentina trae su nuevo show para celebrar los 10 años de recorrido. 20hs. Patio del Museo del Carnaval.",
-   "lugar": {
-    "nombre": "Patio del Museo del Carnaval",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 740.0,
-    "hasta": 740.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/EL-ZAR/33077/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/el-zar-4/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/EL-ZAR/33077/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18030",
    "url": "https://beneficios.ladiaria.com.uy/julieta-laso-2/",
    "titulo": "Julieta Laso",
@@ -2779,58 +2690,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18011",
-   "url": "https://beneficios.ladiaria.com.uy/natalie-perez-casa/",
-   "titulo": "Natalie Pérez – CASA",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Después de una exitosa gira por los principales escenarios de la Argentina, Natalie Pérez cruza fronteras y llega a Uruguay con la gira de Casa, su quinto álbum de estudio. El próximo 14 de noviembre, la artista se presentará en la Sala Zitarrosa de Montevideo, en el primer show internacional de…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 1300.0,
-    "hasta": 1300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021568/espectaculo/Natalie%20Perez?0",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/natalie-perez-casa/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/inicio/espectaculo/40021568/espectaculo/Natalie%20Perez?0"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18001",
    "url": "https://beneficios.ladiaria.com.uy/camara-hamlet/",
    "titulo": "Cámara Hamlet",
@@ -2878,53 +2737,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Camara-Hamlet/32869/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "17980",
-   "url": "https://beneficios.ladiaria.com.uy/dillom/",
-   "titulo": "Dillom",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Dillom regresa a Uruguay para presentar La nueva violencia , su más reciente trabajo discográfico, con un show que promete desplegar toda la intensidad, provocación y potencia que caracterizan al artista argentino. Después de Post Mortem y Por cesárea , Dillom abre una nueva etapa con un álbum de…",
-   "lugar": {
-    "nombre": "Rural del Prado",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 890.0,
-    "hasta": 890.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/DILLOM--PRADO/32949/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/dillom/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/DILLOM--PRADO/32949/"
    ],
    "ciclo": null,
    "etiquetas": [],

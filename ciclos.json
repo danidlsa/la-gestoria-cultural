@@ -1,70 +1,22 @@
 {
- "generado": "2026-11-15T22:19:46.458628-03:00",
- "cantidad": 25,
+ "generado": "2026-11-16T18:23:09.950083-03:00",
+ "cantidad": 28,
  "ciclos": [
   {
    "id": "ciclo-el-mingus",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
    "lugar_id": "el-mingus",
-   "desde": "2026-11-15T00:00:00-03:00",
+   "desde": "2026-11-16T00:00:00-03:00",
    "hasta": "2026-11-21T00:00:00-03:00",
-   "cantidad": 7
-  },
-  {
-   "id": "ciclo-musica-en-el-parque",
-   "titulo": "Música en el Parque",
-   "lugar_id": "parque-de-la-amistad",
-   "desde": "2026-11-15T17:00:00-03:00",
-   "hasta": "2026-11-15T17:00:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
-   "titulo": "Estreno de obras Fortalecimiento de las Artes",
-   "lugar_id": null,
-   "desde": "2026-11-15T19:00:00-03:00",
-   "hasta": "2026-12-04T21:00:00-03:00",
-   "cantidad": 4
-  },
-  {
-   "id": "ciclo-primavera-tango",
-   "titulo": "Primavera Tango",
-   "lugar_id": null,
-   "desde": "2026-11-15T19:00:00-03:00",
-   "hasta": "2026-11-22T20:00:00-03:00",
-   "cantidad": 3
-  },
-  {
-   "id": "ciclo-encuentro-de-murga-joven-2026",
-   "titulo": "Encuentro de Murga Joven 2026",
-   "lugar_id": "centro-cultural-las-duranas",
-   "desde": "2026-11-15T20:00:00-03:00",
-   "hasta": "2026-11-16T20:00:00-03:00",
-   "cantidad": 1
+   "cantidad": 6
   },
   {
    "id": "ciclo-andrzej-wajda-en-su-centenario",
    "titulo": "Andrzej Wajda, en su centenario",
    "lugar_id": "cinemateca",
-   "desde": "2026-11-15T20:20:00-03:00",
+   "desde": "2026-11-16T17:00:00-03:00",
    "hasta": "2026-11-17T19:20:00-03:00",
-   "cantidad": 3
-  },
-  {
-   "id": "ciclo-prueba-de-admision-del-carnaval-2027",
-   "titulo": "Prueba de Admisión del Carnaval 2027",
-   "lugar_id": "teatro-de-verano",
-   "desde": "2026-11-15T20:30:00-03:00",
-   "hasta": "2026-11-16T20:30:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-envejecimiento-activo",
-   "titulo": "Envejecimiento activo",
-   "lugar_id": null,
-   "desde": "2026-11-16T11:00:00-03:00",
-   "hasta": "2026-12-11T16:00:00-03:00",
-   "cantidad": 7
+   "cantidad": 2
   },
   {
    "id": "ciclo-fac",
@@ -80,6 +32,30 @@
    "lugar_id": "centro-cultural-de-espana",
    "desde": "2026-11-16T19:30:00-03:00",
    "hasta": "2026-12-03T10:00:00-03:00",
+   "cantidad": 8
+  },
+  {
+   "id": "ciclo-encuentro-de-murga-joven-2026",
+   "titulo": "Encuentro de Murga Joven 2026",
+   "lugar_id": "centro-cultural-las-duranas",
+   "desde": "2026-11-16T20:00:00-03:00",
+   "hasta": "2026-11-16T20:00:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-prueba-de-admision-del-carnaval-2027",
+   "titulo": "Prueba de Admisión del Carnaval 2027",
+   "lugar_id": "teatro-de-verano",
+   "desde": "2026-11-16T20:30:00-03:00",
+   "hasta": "2026-11-16T20:30:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-envejecimiento-activo",
+   "titulo": "Envejecimiento activo",
+   "lugar_id": null,
+   "desde": "2026-11-17T10:00:00-03:00",
+   "hasta": "2026-12-11T16:00:00-03:00",
    "cantidad": 7
   },
   {
@@ -107,6 +83,22 @@
    "cantidad": 1
   },
   {
+   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
+   "titulo": "Estreno de obras Fortalecimiento de las Artes",
+   "lugar_id": null,
+   "desde": "2026-11-19T21:00:00-03:00",
+   "hasta": "2026-12-04T21:00:00-03:00",
+   "cantidad": 4
+  },
+  {
+   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "lugar_id": "teatro-solis",
+   "desde": "2026-11-20T14:00:00-03:00",
+   "hasta": "2026-11-28T14:00:00-03:00",
+   "cantidad": 1
+  },
+  {
    "id": "ciclo-sabados-en-ciudad-vieja",
    "titulo": "Sábados en Ciudad Vieja",
    "lugar_id": "ciudad-vieja",
@@ -131,12 +123,28 @@
    "cantidad": 3
   },
   {
+   "id": "ciclo-primavera-tango",
+   "titulo": "Primavera Tango",
+   "lugar_id": "centro-cultural-terminal-goes",
+   "desde": "2026-11-21T20:00:00-03:00",
+   "hasta": "2026-11-22T20:00:00-03:00",
+   "cantidad": 2
+  },
+  {
    "id": "ciclo-ciclo-marea",
    "titulo": "Ciclo MAREA",
    "lugar_id": "sala-zitarrosa",
    "desde": "2026-11-21T21:00:00-03:00",
    "hasta": "2026-12-05T21:30:00-03:00",
    "cantidad": 4
+  },
+  {
+   "id": "ciclo-musica-en-el-parque",
+   "titulo": "Música en el Parque",
+   "lugar_id": null,
+   "desde": "2026-11-22T18:00:00-03:00",
+   "hasta": "2026-11-29T16:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-tmc",
@@ -152,6 +160,14 @@
    "lugar_id": "sala-zitarrosa",
    "desde": "2026-12-02T20:00:00-03:00",
    "hasta": "2026-12-03T20:00:00-03:00",
+   "cantidad": 2
+  },
+  {
+   "id": "ciclo-candlelight",
+   "titulo": "Candlelight",
+   "lugar_id": "hyatt-centric",
+   "desde": "2026-12-05T17:30:00-03:00",
+   "hasta": "2026-12-05T19:30:00-03:00",
    "cantidad": 2
   },
   {
@@ -183,8 +199,8 @@
    "titulo": "Candlelight",
    "lugar_id": "hotel-radisson-victoria-plaza",
    "desde": "2026-12-23T19:00:00-03:00",
-   "hasta": "2027-02-14T19:00:00-03:00",
-   "cantidad": 4
+   "hasta": "2027-02-28T20:30:00-03:00",
+   "cantidad": 8
   },
   {
    "id": "ciclo-carnaval-de-las-promesas",
@@ -201,6 +217,14 @@
    "desde": "2027-02-11T20:30:00-03:00",
    "hasta": "2027-02-16T20:30:00-03:00",
    "cantidad": 2
+  },
+  {
+   "id": "ciclo-candlelight",
+   "titulo": "Candlelight",
+   "lugar_id": "sala-valle-inclan",
+   "desde": "2027-03-12T19:00:00-03:00",
+   "hasta": "2027-04-17T21:00:00-03:00",
+   "cantidad": 3
   }
  ]
 }

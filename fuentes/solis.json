@@ -1,10 +1,68 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-15T22:13:55.957637-03:00",
+ "corrida": "2026-11-16T18:17:20.319028-03:00",
  "ok": true,
- "cantidad": 21,
+ "cantidad": 22,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "solis",
+   "id_externo": "3092",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Tierra-Santa-uc3092",
+   "titulo": "Tierra Santa",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-18T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-19T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-20T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202611/W756_H530/7068.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "solis",
    "id_externo": "3090",
@@ -52,8 +110,8 @@
   {
    "fuente": "solis",
    "id_externo": "3089",
-   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/ICARO-dance-with-me-uc3089",
-   "titulo": "ICARO, dance with me",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Icaro-dance-with-me-uc3089",
+   "titulo": "Ícaro, dance with me",
    "categoria": "musica",
    "categoria_segura": true,
    "descripcion_corta": null,
@@ -902,7 +960,7 @@
    "precio": null,
    "entradas": [],
    "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202611/W756_H530/7042.png",
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202611/W756_H530/7066.png",
    "productor": "Teatro Solís",
    "region": "montevideo",
    "enlaces": [],
