@@ -94,7 +94,9 @@ def _patron(calle: str) -> str:
     patron = re.escape(sin_tildes(calle))
     for vocal, clase in (("a", "[aá]"), ("e", "[eé]"), ("i", "[ií]"), ("o", "[oó]"), ("u", "[uúü]"), ("n", "[nñ]")):
         patron = patron.replace(vocal, clase)
-    return patron
+    # Entre dos palabras puede haber una inicial: "Aquiles Lanza" es "Aquiles R. Lanza" en OpenStreetMap. (Overpass
+    # usa expresiones POSIX: sin "\\s" ni "(?:".)
+    return patron.replace("\\ ", " +([A-Z][.] *)?")
 
 
 # Plus codes de Google ("3RMJ+QG6, 11200 Montevideo"): algunas ticketeras ponen eso en vez de la dirección. Son

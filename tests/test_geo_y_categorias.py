@@ -97,3 +97,11 @@ def test_el_titulo_dice_si_es_taller_o_feria():
     assert clasificar("FERIADO + MONKELIS en La Cretina", "banda en vivo") == "musica"  # "feriado" no es feria
     # "revista" ya no es carnaval.
     assert clasificar("Presentación", "la revista Lento presenta su número 20") != "carnaval"
+
+
+def test_una_calle_con_inicial_en_openstreetmap():
+    import re
+    from cartelera.geocodificar import _patron
+    assert re.search(_patron("Aquiles Lanza"), "Aquiles R. Lanza", re.I)
+    assert re.search(_patron("Aquiles Lanza"), "Aquiles Lanza", re.I)
+    assert "(?:" not in _patron("Aquiles Lanza")  # Overpass no entiende esa sintaxis

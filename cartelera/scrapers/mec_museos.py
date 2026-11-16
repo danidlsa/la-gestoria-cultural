@@ -60,8 +60,9 @@ def armar_evento(item: dict, ahora: datetime) -> EventoCrudo | None:
     fecha = date(int(item["anio"]), mes, int(dia.group(0)))
     if fecha < ahora.date():
         return None
-    # "Museo Gurvich (Sarandí 524). Museo Gurvich" / "Museo Zorrilla, José Luis Zorrilla de San Martín 96."
-    partes = re.split(r"\s*[,(]\s*", lugar.strip(" ."), maxsplit=1)
+    # "Museo Gurvich (Sarandí 524). Museo Gurvich" / "Museo Zorrilla, José Luis Zorrilla de San Martín 96." /
+    # "Museo del Carnaval. Rambla 25 de Agosto 218" (con punto, si lo que sigue es una dirección con número).
+    partes = re.split(r"\s*[,(]\s*|\.\s+(?=[A-ZÁÉÍÓÚÑ][^.]*\d)", lugar.strip(" ."), maxsplit=1)
     nombre = partes[0].strip(" .")
     direccion = partes[1].split(")")[0].strip(" .") if len(partes) > 1 else None
     inicio = datetime.combine(fecha, time(int(hora.group(1)), int(hora.group(2))) if hora else time(0, 0), tzinfo=ahora.tzinfo)

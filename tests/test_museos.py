@@ -73,3 +73,10 @@ def test_mec_solo_museos_de_montevideo(pagina, ahora):
     zorrilla = next(e for e in eventos if e.lugar.nombre == "Museo Zorrilla")
     assert zorrilla.funciones[0].inicio.isoformat() == "2026-11-04T18:30:00-03:00"
     assert zorrilla.lugar.direccion.startswith("José Luis Zorrilla de San Martín 96")
+
+
+def test_mec_lugar_y_direccion_separados_por_punto(ahora):
+    item = {"ruta": "/todo-ano-es-carnaval-0", "titulo": "Todo el año es carnaval", "dia": "21", "mes": "Nov", "anio": "2026",
+            "lugar": "11:30 - Museo del Carnaval. Rambla 25 de Agosto 218"}
+    evento = mec_museos.armar_evento(item, ahora)
+    assert (evento.lugar.nombre, evento.lugar.direccion) == ("Museo del Carnaval", "Rambla 25 de Agosto 218")

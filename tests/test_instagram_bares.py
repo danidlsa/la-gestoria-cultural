@@ -514,3 +514,18 @@ def test_un_pin_con_otra_direccion_es_otro_lugar():
     propio = "Vemos El laberinto del fauno\n28 de noviembre\n17 hs\n📍 Ecuador 1680, Villa del Cerro"
     (c,) = ig.borradores_del_post(_post(2, propio, "2026-11-09"), cuenta, {}, AHORA)
     assert (c["lugar"], c["direccion"]) == ("Contraplano Cineclub", "Ecuador 1680")
+
+
+def test_un_pin_que_es_una_esquina_es_la_direccion():
+    assert ig.lugar_del_texto("📍 Aquiles Lanza y Canelones.\n🕛 Desde las 12:00 h.") == (None, "Aquiles Lanza y Canelones")
+    bar = {"usuario": "elbar_delxsamigxs"}
+    (b,) = ig.borradores_del_post(_post(1, "Este 29 de noviembre nos encontramos en la calle\n📍 Aquiles Lanza y Canelones.\n"
+                                        "🕛 Desde las 12:00 h.", "2026-11-12"), bar, {"name": "Brecha Bar y Cafe"}, AHORA)
+    assert (b["lugar"], b["direccion"]) == ("Brecha Bar y Cafe", "Aquiles Lanza y Canelones")
+
+
+def test_un_recorrido_sin_paradas_va_al_barrio_que_recorre():
+    fama = ("📍Carrasco y Bodega.\n\n👉 Caminata por Carrasco viejo, con la participación de Arq. Beatriz Pittamiglio. "
+            "Visita guiada a viñedos de Bodega Varela Zarranz.")
+    assert ig.paradas_del_recorrido(fama) == ["Carrasco"]
+    assert ig.paradas_del_recorrido("Paseo por Ciudad Vieja, sábado 10 h") == ["Ciudad Vieja"]

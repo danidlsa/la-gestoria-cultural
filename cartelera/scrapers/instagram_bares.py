@@ -30,6 +30,7 @@ from rapidfuzz import fuzz
 from cartelera.categorias import clasificar
 from cartelera.extraer import precio_de, recortar
 from cartelera.geo import sin_tildes
+from cartelera.geocodificar import calles_del_cruce
 from cartelera.http import USER_AGENT
 from cartelera.modelo import Entrada, EventoCrudo, Funcion, LugarCrudo
 from cartelera.scrapers.base import MONTEVIDEO
@@ -370,8 +371,9 @@ def lugar_del_texto(texto: str) -> tuple[str | None, str | None]:
     partes = [p.strip() for p in re.split(r",|\s[-–]\s", renglon) if p.strip()]
     if not partes:
         return None, None
-    if re.search(r"\d", partes[0]):
-        return None, partes[0]  # "📍 Soriano 1236" o "📍 Ecuador 1680, Villa del Cerro": solo la dirección
+    if re.search(r"\d", partes[0]) or calles_del_cruce(partes[0]):
+        # "📍 Soriano 1236", "📍 Ecuador 1680, Villa del Cerro" o "📍 Aquiles Lanza y Canelones": solo la dirección
+        return None, partes[0]
     direccion = next((p for p in partes[1:] if re.search(r"\d", p)), None)
     return partes[0], direccion
 
@@ -391,6 +393,10 @@ def punto_de_encuentro(texto: str) -> str | None:
 _PARADAS = re.compile(r"^\s*(?:👉\s*)?(?:itinerario|recorrido|paradas|visitamos|vamos a recorrer)\b.*$", re.I | re.M)
 _VIÑETA = re.compile(r"^\s*(?:[*•·▪️◾▫️✔️✅🔸🔹]|[-–]\s|\d+[.)]\s)\s*(.+)$")
 _NOMBRE_PROPIO = re.compile(r"((?:[A-ZÁÉÍÓÚÑ][\wáéíóúñ'.]*)(?:\s+(?:de|del|la|las|los|el|y|[A-ZÁÉÍÓÚÑ0-9][\wáéíóúñ'.]*))*)\s*$")
+
+
+_RECORRE = re.compile(r"\b(?i:caminata|recorrido|paseo|tour|visita\s+guiada)\s+(?i:por|en)\s+(?:(?i:el|la)\s+)?"
+                      r"([A-ZÁÉÍÓÚÑ][\wáéíóúñ]*(?:\s+(?:de|del|la|el|[A-ZÁÉÍÓÚÑ][\wáéíóúñ]*)){0,3})")
 
 
 def _variantes(trozo: str) -> list[str]:
@@ -421,6 +427,10 @@ def paradas_del_recorrido(texto: str) -> list[str]:
             if not vineta:
                 break
             paradas += _variantes(vineta.group(1))
+    if not paradas:
+        # "Caminata por Carrasco viejo, con…": el barrio o el lugar que se recorre (para ubicarlo, aunque sea aproximado).
+        for encontrado in _RECORRE.finditer(texto or ""):
+            paradas += _variantes(encontrado.group(1))
     if not paradas and (pin := _PIN.search(texto or "")):
         # La oración del 📍 que enumera (con comas o "y"), partida en sus lugares.
         for oracion in re.split(r"(?<=[a-záéíóúñ)])\.\s+", pin.group(1)):
