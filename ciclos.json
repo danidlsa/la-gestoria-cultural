@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-15T15:06:46.822912-03:00",
+ "generado": "2026-11-15T22:19:46.458628-03:00",
  "cantidad": 25,
  "ciclos": [
   {
@@ -11,22 +11,6 @@
    "cantidad": 7
   },
   {
-   "id": "ciclo-ciclo-de-teatro",
-   "titulo": "Ciclo de teatro",
-   "lugar_id": null,
-   "desde": "2026-11-15T14:00:00-03:00",
-   "hasta": "2026-12-12T18:00:00-03:00",
-   "cantidad": 10
-  },
-  {
-   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
-   "titulo": "Estreno de obras Fortalecimiento de las Artes",
-   "lugar_id": null,
-   "desde": "2026-11-15T16:00:00-03:00",
-   "hasta": "2026-12-04T21:00:00-03:00",
-   "cantidad": 4
-  },
-  {
    "id": "ciclo-musica-en-el-parque",
    "titulo": "Música en el Parque",
    "lugar_id": "parque-de-la-amistad",
@@ -35,11 +19,11 @@
    "cantidad": 1
   },
   {
-   "id": "ciclo-andrzej-wajda-en-su-centenario",
-   "titulo": "Andrzej Wajda, en su centenario",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-15T17:40:00-03:00",
-   "hasta": "2026-11-17T19:20:00-03:00",
+   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
+   "titulo": "Estreno de obras Fortalecimiento de las Artes",
+   "lugar_id": null,
+   "desde": "2026-11-15T19:00:00-03:00",
+   "hasta": "2026-12-04T21:00:00-03:00",
    "cantidad": 4
   },
   {
@@ -57,6 +41,14 @@
    "desde": "2026-11-15T20:00:00-03:00",
    "hasta": "2026-11-16T20:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-andrzej-wajda-en-su-centenario",
+   "titulo": "Andrzej Wajda, en su centenario",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-15T20:20:00-03:00",
+   "hasta": "2026-11-17T19:20:00-03:00",
+   "cantidad": 3
   },
   {
    "id": "ciclo-prueba-de-admision-del-carnaval-2027",
@@ -120,6 +112,14 @@
    "lugar_id": "ciudad-vieja",
    "desde": "2026-11-21T11:00:00-03:00",
    "hasta": "2026-11-21T13:00:00-03:00",
+   "cantidad": 9
+  },
+  {
+   "id": "ciclo-ciclo-de-teatro",
+   "titulo": "Ciclo de teatro",
+   "lugar_id": null,
+   "desde": "2026-11-21T18:00:00-03:00",
+   "hasta": "2026-12-12T18:00:00-03:00",
    "cantidad": 9
   },
   {

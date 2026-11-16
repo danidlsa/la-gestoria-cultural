@@ -1,52 +1,10 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-15T15:04:41.436227-03:00",
+ "corrida": "2026-11-15T22:17:36.694144-03:00",
  "ok": true,
- "cantidad": 12,
+ "cantidad": 11,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "mientrada",
-   "id_externo": "30502",
-   "url": "https://mientrada.com.uy/evento/miss-15-fashion-show-2026-30502",
-   "titulo": "MISS 15 FASHION SHOW - 2026",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Contáctanos a nuestro WhatsApp Oficial ➡️ Apertura de puertas: 18:30 hrs 👠 Comienzo de Pasarela: 20:00 hrs 👶 Menores de 5 años de edad no abonan entrada.",
-   "lugar": {
-    "nombre": "Hotel Cottage Carrasco",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T18:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mientrada.com.uy/evento/miss-15-fashion-show-2026-30502",
-     "via": "mientrada"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30502_banner5.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "mientrada",
    "id_externo": "30729",

@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-15T15:05:37.637508-03:00",
+ "corrida": "2026-11-15T22:18:32.900177-03:00",
  "ok": true,
- "cantidad": 49,
+ "cantidad": 46,
  "errores": [],
  "eventos": [
   {
@@ -376,53 +376,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "feriadearteimpresomvd-20261114",
-   "url": "https://www.instagram.com/p/DfX_zpToyzs/",
-   "titulo": "Microutopiaspress ps_montevideo (UY) participa de la FERIA DE ARTE IMPRESO DE…",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "microutopiaspress ps_montevideo (UY) participa de la FERIA DE ARTE IMPRESO DE MONTEVIDEO 2026 — Montevideo Art Book Fair — 13 (17-22h), 14 y 15 NOVIEMBRE, 14-20h MuMi – Muralla Abierta (Piedras y Bartolomé Mitre) Entrada libre y gratuita feriadearteimpresomvd Publicaciones gráficas, libros de…",
-   "lugar": {
-    "nombre": "MuMI - Muralla Abierta",
-    "direccion": "Bartolomé Mitre 1550",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfX_zpToyzs/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/fa87c22d9821.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "el.mingus-20261115",
    "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Jazz Sobre el Bidet -Músicas de Patricio Rey",
@@ -467,14 +420,14 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "espaciomodelomvd-20261115",
-   "url": "https://www.instagram.com/reel/DfvBCOQSxpV/",
-   "titulo": "Llegó la Friki Fest 10 años al Espacio Modelo",
-   "categoria": "otros",
+   "id_externo": "fotocluburuguayo-20261115",
+   "url": "https://www.instagram.com/p/DeekSoPxMqB/",
+   "titulo": "Foto Club Uruguayo: Se viene otra Feria Fotográfica de Primavera",
+   "categoria": "teatro",
    "categoria_segura": false,
-   "descripcion_corta": "¡Llegó la Friki Fest 10 años al Espacio Modelo! Hoy estamos viviendo un día increíble lleno de personajes y mucha diversión en el Espacio Modelo. Hoy podes sumarte hasta las 20h, y mañana domingo de 14 a 20h Entrada libre y gratuita Cádiz 3280, Espacio Modelo Vas a encontrar: Paseo de compras…",
+   "descripcion_corta": "Queres sumar tu emprendimiento a la Feria Fotográfica de Primavera 26? El 15 de noviembre en la Cretina tenemos una nueva edición de la feria, y estamos convocando a emprendimientos vinculados a la fotografía que quieran sumarse y compartir su propuesta: publicaciones, obra, accesorios, insumos…",
    "lugar": {
-    "nombre": "Cádiz 3280",
+    "nombre": "Foto Club Uruguayo",
     "direccion": null,
     "lat": null,
     "lon": null,
@@ -483,56 +436,9 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-15T14:00:00-03:00",
+     "inicio": "2026-11-15T00:00:00-03:00",
      "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/DfvBCOQSxpV/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "feriadearteimpresomvd-20261115",
-   "url": "https://www.instagram.com/p/DfksfFZI0Pz/",
-   "titulo": "microutopías: Al igual que an os pasados junto a lxs expositorxs participantes tendremos una mesa…",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Al igual que an os pasados junto a lxs expositorxs participantes tendremos una mesa colectiva para que ma s proyectos puedan sumarse libremente y mostrar sus trabajos. Funcionara autogestionada por las propias personas interesadas que asistan cada día, hasta completar el espacio disponible. Corran…",
-   "lugar": {
-    "nombre": "MuMI - Muralla Abierta",
-    "direccion": "Bartolomé Mitre 1550",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
+     "sin_hora": true,
      "sala": null,
      "agotada": false
     }
@@ -540,49 +446,7 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DfksfFZI0Pz/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b0d3814477a8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "fotocluburuguayo-20261115",
-   "url": "https://www.instagram.com/p/DfqRZciGO64/",
-   "titulo": "Foto Club Uruguayo: Se viene otra Feria Fotográfica de Primavera",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Música en vivo en la Feria Fotográfica de Primavera Este domingo 15 de noviembre a las 18 h nos acompaña Manolo Varela, integrante de Varelman v4relman Manolo Varela es músico y compositor montevideano. Su música cruza rock, candombe, milonga, reggae y bolero, con letras que van de lo social a lo…",
-   "lugar": {
-    "nombre": "La Cretina",
-    "direccion": "Soriano 1236",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfqRZciGO64/",
+     "url": "https://www.instagram.com/p/DeekSoPxMqB/",
      "via": "instagram"
     }
    ],
@@ -1518,11 +1382,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "horizontes.sonoro-20261121",
-   "url": "https://www.instagram.com/p/De5OnpUPHzV/",
+   "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
    "titulo": "Horizontes Sonoros: Espacio Quitapenas Paysandú 847, Montevideo",
-   "categoria": "otros",
+   "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "21 de noviembre | 20 h Espacio Quitapenas Paysandú 847, Montevideo ENTRADA LIBRE ¡Les esperamos!",
+   "descripcion_corta": "21 de noviembre | 20 h Espacio Quitapenas – Montevideo Entrada libre en ambos conciertos. ¡Te esperamos!",
    "lugar": {
     "nombre": "Horizontes Sonoros",
     "direccion": "20 de noviembre",
@@ -1548,7 +1412,7 @@
    },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/De5OnpUPHzV/",
+     "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
      "via": "instagram"
     }
    ],

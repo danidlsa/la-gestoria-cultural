@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-15T15:06:46.822912-03:00",
- "cantidad": 181,
+ "generado": "2026-11-15T22:19:46.458628-03:00",
+ "cantidad": 179,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -600,16 +600,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "cadiz-3280",
-   "nombre": "Cádiz 3280",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.8720088,
-   "lon": -56.1551128,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "debbie-music-club",
    "nombre": "Debbie Music Club",
    "alias": [
@@ -879,16 +869,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "hotel-cottage-carrasco",
-   "nombre": "Hotel Cottage Carrasco",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.894051,
-   "lon": -56.0599223,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "hotel-radisson-victoria-plaza",
    "nombre": "Hotel Radisson Victoria Plaza",
    "alias": [
@@ -934,6 +914,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "jose-enrique-rodo-1995",
+   "nombre": "José Enrique Rodó 1995",
+   "alias": [],
+   "direccion": "Rodo 1995",
+   "lat": -34.9033829,
+   "lon": -56.1739249,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "kibon-avanza",
    "nombre": "Kibón Avanza",
    "alias": [],
@@ -944,12 +934,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu-laboratorio-tecnologico-del-uruguay",
-   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
+   "id": "latu",
+   "nombre": "LATU",
    "alias": [
-    "LATU"
+    "LATU - Laboratorio Tecnológico del Uruguay"
    ],
-   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
+   "direccion": "Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1232,16 +1222,6 @@
    "direccion": "Pl. Independencia 848, 11100 Montevideo,",
    "lat": -34.906479,
    "lon": -56.198509,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "parque-capurro",
-   "nombre": "Parque Capurro",
-   "alias": [],
-   "direccion": "Brigadier Gral. Manuel Oribe 136",
-   "lat": -34.87287,
-   "lon": -56.215035,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1921,8 +1901,8 @@
    "nombre": "Ánima Espacio Cultural",
    "alias": [],
    "direccion": "San José 822",
-   "lat": -34.907534,
-   "lon": -56.198681,
+   "lat": -34.9074753,
+   "lon": -56.1986295,
    "barrio": null,
    "ciudad": "Montevideo"
   },
