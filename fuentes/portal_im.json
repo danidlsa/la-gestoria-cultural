@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-16T11:00:16.089347-03:00",
+ "corrida": "2026-11-17T11:00:17.783386-03:00",
  "ok": true,
- "cantidad": 37,
+ "cantidad": 43,
  "errores": [],
  "eventos": [
   {
@@ -352,13 +352,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-16T11:00:00-03:00",
-     "fin": "2026-11-16T13:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-23T11:00:00-03:00",
      "fin": "2026-11-23T13:00:00-03:00",
      "sin_hora": false,
@@ -525,6 +518,45 @@
   },
   {
    "fuente": "portal_im",
+   "id_externo": "487",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/dj-y-degustacion-en-espacio-bilu",
+   "titulo": "DJ y degustación en Espacio Bilu",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "DJ Funky de 15:00 a 18:00. Degustación gratuita de vinos, cervezas y vermut artesanal. También habrá sorteos de productos. Lugar : Espacio Bilu (Pérez Castellano 1408)",
+   "lugar": {
+    "nombre": "Espacio Bilu",
+    "direccion": "Pérez Castellano 1408",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T15:00:00-03:00",
+     "fin": "2026-11-21T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-04/musicachillhouse.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
    "id_externo": "560",
    "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/musica-en-vivo-de-juany-bones",
    "titulo": "Música en vivo de Juany Bones",
@@ -532,12 +564,14 @@
    "categoria_segura": true,
    "descripcion_corta": "Presentación en vivo de Juany Bones. Lugar: Salón Andy (Pérez Castellano 1462)",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Salón Andy",
+    "direccion": "Pérez Castellano 1462",
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -574,12 +608,14 @@
    "categoria_segura": true,
    "descripcion_corta": "Presentación musical en vivo en Montevideo Indoor Coffee Shop (Pérez Castellano 1545).",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Montevideo Indoor Coffee Shop",
+    "direccion": "Pérez Castellano 1545",
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -654,16 +690,18 @@
    "id_externo": "684",
    "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/feria-de-cafe-y-degustacion",
    "titulo": "Feria de café y degustación",
-   "categoria": "otros",
-   "categoria_segura": false,
+   "categoria": "feria",
+   "categoria_segura": true,
    "descripcion_corta": "Feria de café con degustación, venta y ofertas. Organiza Alto Café (Pérez Castellano 1417 bis).",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Alto Café",
+    "direccion": "Pérez Castellano 1417 bis",
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -688,6 +726,94 @@
   },
   {
    "fuente": "portal_im",
+   "id_externo": "686",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/musica-en-vivo-en-restaurante-almazara",
+   "titulo": "Música en vivo en Restaurante Almazara",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Música en vivo, parrilla y barra en la vereda.",
+   "lugar": {
+    "nombre": "Restaurante Almazara",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-06/pexels-gezerasph-guitarra.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "692",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/exposiciones-del-museo-historico-cabildo",
+   "titulo": "Exposiciones del Museo Histórico Cabildo",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "Recorrido por las exposiciones del Museo Histórico Cabildo: \"Infancias en la ciudad\", \"Tributo de Sangre. 300 años de presencia canaria en Montevideo\", \"Montevideo, moda y vida urbana en el siglo XX\" y \"Gabinete de curiosidades\".",
+   "lugar": {
+    "nombre": "Museo Histórico Cabildo",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T11:00:00-03:00",
+     "fin": "2026-11-21T16:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-06/Cabildo_2_0.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
    "id_externo": "783",
    "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/musica-en-vivo-y-muestra-de-productos",
    "titulo": "Música en vivo y muestra de productos",
@@ -695,12 +821,14 @@
    "categoria_segura": true,
    "descripcion_corta": "Música en vivo y muestras de productos. Entre Masas y Tannat (Pérez Castellano 1400).",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Entre Masas y Tannat",
+    "direccion": "Pérez Castellano 1400",
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -733,7 +861,7 @@
    "id_externo": "796",
    "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/feria-de-artesanos-residentes-de-ciudad-vieja",
    "titulo": "Feria de artesanos residentes de Ciudad Vieja",
-   "categoria": "tour",
+   "categoria": "feria",
    "categoria_segura": true,
    "descripcion_corta": "Feria de artesanos residentes de Ciudad Vieja, junto al Municipio B.",
    "lugar": {
@@ -851,6 +979,50 @@
   },
   {
    "fuente": "portal_im",
+   "id_externo": "866",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/recorrido-libre-por-el-teatro-solis",
+   "titulo": "Recorrido libre por el Teatro Solís",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "En el marco de la celebración de los 170 años del Teatro Solís, se invita a recorrer libremente el edificio que acompaña la historia cultural del país desde 1856. Una oportunidad para caminar por sus pasillos, detenerse en sus detalles, contemplar su arquitectura y descubrir la historia de sus…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T15:00:00-03:00",
+     "fin": "2026-11-21T17:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-08/20260107dicimouyar6685.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
    "id_externo": "871",
    "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/charlas-y-muestras-sobre-diseno-en-asterisco",
    "titulo": "Charlas y muestras sobre diseño en Asterisco",
@@ -900,12 +1072,14 @@
    "categoria_segura": false,
    "descripcion_corta": "Presentación de música en vivo.",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Café Brasilero",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -1203,6 +1377,50 @@
   },
   {
    "fuente": "portal_im",
+   "id_externo": "931",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/milonga-en-el-museo-romantico",
+   "titulo": "Milonga en el Museo Romántico",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Milonga libre y gratuita a cargo de TDJ Esteban Cortez, en coordinación con Esquinas de la Cultura de la Intendencia de Montevideo. Lugar: Museo Romántico, 25 de Mayo 428.",
+   "lugar": {
+    "nombre": "Museo Romántico",
+    "direccion": "25 de Mayo 428",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T14:00:00-03:00",
+     "fin": "2026-11-21T16:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-03/showdemilonga.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
    "id_externo": "956-33",
    "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/diciembre",
    "titulo": "Diciembre",
@@ -1323,6 +1541,48 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Ciclo de teatro",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "971",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/corso-comunitario-de-la-escuela-esquinera",
+   "titulo": "Corso comunitario de la Escuela Esquinera",
+   "categoria": "taller",
+   "categoria_segura": true,
+   "descripcion_corta": "Corso comunitario del Taller de Murga de la Escuela Esquinera, una propuesta de encuentro, expresión y creación que recupera las matrices culturales de los carnavales de antes y la murga como tradición popular.",
+   "lugar": {
+    "nombre": "Ciudad Vieja",
+    "direccion": "Ciudad Vieja",
+    "lat": -34.90776664705883,
+    "lon": -56.20743817647059,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T13:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/escuelaesquinera_1.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
@@ -1567,48 +1827,6 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "1009",
-   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-lunes-16-de-noviembre",
-   "titulo": "Murga Joven",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Conocé la programación de la primera instancia de muestra del Encuentro de Murga Joven 2026, con entrada libre. Lunes 16 de noviembre 20:00 h – La coqueta 2042 20:50 h – Aguante el fasismo 21:40 h – La Próxima Sale 22:30 h – Sing a Roos (Cantate un Jaime)",
-   "lugar": {
-    "nombre": "Centro Cultural Las Duranas",
-    "direccion": "Pedro Trápani 1350 esquina Bayona.",
-    "lat": -34.854031611412,
-    "lon": -56.189780492925,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-16T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/20241205dicimouyit9608.jpg",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Encuentro de Murga Joven 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
    "id_externo": "1012",
    "url": "https://eventos.montevideo.gub.uy/evento/envejecimiento-activo/inclusion-digital-para-personas-mayores",
    "titulo": "Inclusión digital para personas mayores",
@@ -1798,43 +2016,6 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "1046",
-   "url": "https://eventos.montevideo.gub.uy/evento/prueba-de-admision-del-carnaval-2027/prueba-de-admision-lunes-16-de-noviembre",
-   "titulo": "Prueba de Admisión",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Conocé la programación de la séptima etapa de la Prueba de Admisión del Carnaval 2027. Lunes 16 de noviembre 20:30 – Carambola (Revista) 21:10 – A la Bartola (Murga) 21:45 – Don Bochinche y Cía. (Murga) 22:20 – Agarrate Catalina (Murga) Entrada: un alimento no perecedero.",
-   "lugar": {
-    "nombre": "Teatro de Verano",
-    "direccion": "Rambla Wilson s/n esq. Andrés Cachón",
-    "lat": -34.918974,
-    "lon": -56.16947,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-16T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/20251112dicimouyjmr3426.jpg",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Prueba de Admisión del Carnaval 2027",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
    "id_externo": "1047",
    "url": "https://eventos.montevideo.gub.uy/evento/envejecimiento-activo/paseo-para-personas-mayores-colonia",
    "titulo": "Paseo para personas mayores a Colonia",
@@ -1871,6 +2052,92 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Envejecimiento activo",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1051",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/feria-en-covi-funac",
+   "titulo": "Feria en Covi Funac",
+   "categoria": "feria",
+   "categoria_segura": true,
+   "descripcion_corta": "Feria organizada por la cooperativa de viviendas Covi Funac para recaudar fondos para sus proyectos. Lugar: terreno de Covi Funac, entre las calles Juncal y Cerrito.",
+   "lugar": {
+    "nombre": "terreno de Covi Funac",
+    "direccion": "Juncal y Cerrito",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T15:00:00-03:00",
+     "fin": "2026-11-21T20:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/20260926dicimouypd3567.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1052",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/lectura-performatica-la-opera-de-medio-centavo",
+   "titulo": "Lectura performática: La Ópera de Medio Centavo",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Estudiantes de la EMAD presentan una lectura performática de La Ópera de los Dos Centavos, que invita a reflexionar sobre las diferencias entre una persona honesta y un delincuente.",
+   "lugar": {
+    "nombre": "Ciudad Vieja",
+    "direccion": "Ciudad Vieja",
+    "lat": -34.90776664705883,
+    "lon": -56.20743817647059,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/img9506.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
