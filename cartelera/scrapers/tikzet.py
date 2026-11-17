@@ -14,8 +14,11 @@ from datetime import datetime, timezone
 
 from cartelera.categorias import clasificar, es_deporte, esta_cancelado
 from cartelera.extraer import recortar, texto_plano
+from cartelera.geo import sin_tildes
+from cartelera.scrapers.instagram_bares import lugar_del_texto
 from cartelera.http import Cliente
 from cartelera.modelo import Entrada, EventoCrudo, Funcion, LugarCrudo, Precio
+from cartelera.scrapers.base import cargar
 from cartelera.scrapers.mientrada import HORA_DE_FIESTA
 
 NOMBRE = "tikzet"
@@ -61,6 +64,11 @@ def armar_evento(ficha: dict, ahora: datetime) -> EventoCrudo | None:
     if productora:
         sala = ""
     direccion = texto_plano(ficha.get("address")) or None
+    # Si la descripción dice dónde es ("📍 Sala Ducón, Montevideo"), eso manda: a veces la organización es una
+    # productora con un nombre que no lo dice (Piffa).
+    en_el_texto, _ = lugar_del_texto(ficha.get("description") or "")
+    if en_el_texto and sin_tildes(en_el_texto).lower() not in ("montevideo", "uruguay"):
+        sala = en_el_texto
     if not sala and not direccion:
         return None
     # Las series traen sus fechas en `dates`; un evento suelto, en `startDateTime` y `endDateTime`.
@@ -104,11 +112,33 @@ def armar_evento(ficha: dict, ahora: datetime) -> EventoCrudo | None:
     )
 
 
+def agotados(cliente: Cliente, ahora: datetime, vistos: set[str], anteriores: list[EventoCrudo]) -> list[EventoCrudo]:
+    """Los de la corrida anterior que ya no están en la cartelera de Tikzet pero siguen en pie: agotados.
+
+    Tikzet saca de su cartelera lo que se agotó (el tributo a Shakira en El Hormiguero, 20/11/2026), pero la ficha
+    sigue ahí y sin terminar. Así no desaparecen del sitio: quedan con "agotado".
+    """
+    resultado = []
+    for previo in anteriores:
+        slug = previo.url.rstrip("/").rsplit("/", 1)[-1]
+        if slug in vistos or not any(f.inicio >= ahora for f in previo.funciones):
+            continue
+        try:
+            ficha = cliente.get(f"{API}/events/by-slug/{slug}").json()
+            armado = armar_evento(ficha.get("event", ficha), ahora)
+        except Exception:  # noqa: BLE001 - si la ficha ya no existe (la bajaron), no hay nada que mostrar
+            continue
+        if armado:
+            resultado.append(armado.model_copy(update={"funciones": [f.model_copy(update={"agotada": True}) for f in armado.funciones]}))
+    return resultado
+
+
 def scrapear(cliente: Cliente, ahora: datetime) -> tuple[list[EventoCrudo], list[str]]:
-    eventos, errores = [], []
+    eventos, errores, vistos = [], [], set()
     for item in listado(cliente, ahora):
         if item.get("country") != URUGUAY or _AFUERA.search(item.get("name") or ""):
             continue  # ni se pide la ficha
+        vistos.add(item["slug"])
         try:
             ficha = cliente.get(f"{API}/events/by-slug/{item['slug']}").json()
             armado = armar_evento(ficha.get("event", ficha), ahora)
@@ -117,4 +147,6 @@ def scrapear(cliente: Cliente, ahora: datetime) -> tuple[list[EventoCrudo], list
             continue
         if armado:
             eventos.append(armado)
+    anterior = cargar(NOMBRE)
+    eventos += agotados(cliente, ahora, vistos, anterior.eventos if anterior else [])
     return eventos, errores

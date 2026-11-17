@@ -150,3 +150,46 @@ def test_tikzet_ficha_de_una_sala_chica(pagina):
     assert tikzet.armar_evento({**ficha, "name": "Curso de Cocina Saludable"}, ahora) is None
     otra = tikzet.armar_evento({**ficha, "organization": {"name": "Green Producciones y Eventos"}, "address": "Buenos Aires 314"}, ahora)
     assert (otra.lugar.nombre, otra.productor) == ("Buenos Aires 314", "Green Producciones y Eventos")
+
+
+def test_tikzet_la_sala_del_pin_manda_sobre_la_organizacion(pagina):
+    """Piffa es una productora, pero su nombre no lo dice: la sala es la que nombra el 📍."""
+    import json
+    from datetime import datetime
+
+    from cartelera.scrapers import tikzet
+
+    ahora = datetime(2026, 11, 9, 12, 0, tzinfo=MONTEVIDEO)
+    ficha = json.loads(pagina("tikzet_ficha.json"))
+    ficha = ficha.get("event", ficha)
+    narciso = {**ficha, "organization": {"name": "Piffa"}, "address": "Convención 1101",
+               "description": "La banda revelación de Rosario.\n\n📍 Sala Ducón, Montevideo\n📅 26/12/2026\n🕘 21 hs"}
+    assert tikzet.armar_evento(narciso, ahora).lugar.nombre == "Sala Ducón"
+    # "📍 Montevideo" no dice nada: queda la organización.
+    assert tikzet.armar_evento({**narciso, "description": "📍 Montevideo"}, ahora).lugar.nombre == "Piffa"
+
+
+def test_tikzet_lo_que_sale_de_la_cartelera_queda_como_agotado(pagina):
+    """Tikzet saca de su cartelera lo agotado; si la ficha sigue en pie, el evento queda con "agotado"."""
+    import json
+    from datetime import datetime
+
+    from cartelera.scrapers import tikzet
+
+    ahora = datetime(2026, 11, 9, 12, 0, tzinfo=MONTEVIDEO)
+    ficha = json.loads(pagina("tikzet_ficha.json"))
+    ficha = ficha.get("event", ficha)
+    previo = tikzet.armar_evento(ficha, ahora)
+
+    class Cliente:
+        def get(self, url):
+            class R:
+                def json(self_):
+                    return {"event": ficha}
+            return R()
+
+    (agotado,) = tikzet.agotados(Cliente(), ahora, set(), [previo])
+    assert all(f.agotada for f in agotado.funciones)
+    # Si sigue en la cartelera, no se repite; si ya pasó, tampoco.
+    assert tikzet.agotados(Cliente(), ahora, {ficha["slug"]}, [previo]) == []
+    assert tikzet.agotados(Cliente(), datetime(2027, 1, 1, tzinfo=MONTEVIDEO), set(), [previo]) == []
