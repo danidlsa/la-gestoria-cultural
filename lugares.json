@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-17T01:11:41.422549-03:00",
- "cantidad": 193,
+ "generado": "2026-11-17T17:14:07.007178-03:00",
+ "cantidad": 202,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -96,6 +96,16 @@
    "direccion": "Bv. Gral. Artigas 1271, 11200 Montevideo",
    "lat": -34.905102,
    "lon": -56.164132,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "alto-cafe",
+   "nombre": "Alto Café",
+   "alias": [],
+   "direccion": "Pérez Castellano 1417 bis",
+   "lat": -34.9080079,
+   "lon": -56.2104173,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -310,6 +320,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "cafe-brasilero",
+   "nombre": "Café Brasilero",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9056692,
+   "lon": -56.2046929,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "canelones-1963",
    "nombre": "Canelones 1963",
    "alias": [],
@@ -426,16 +446,6 @@
    "direccion": "Gonzalo Ramírez 1824",
    "lat": -34.9121121,
    "lon": -56.1753235,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "centro-cultural-las-duranas",
-   "nombre": "Centro Cultural Las Duranas",
-   "alias": [],
-   "direccion": "Pedro Trápani 1350 esquina Bayona.",
-   "lat": -34.854031611412,
-   "lon": -56.189780492925,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -623,6 +633,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "dom-13-dic-18-h",
+   "nombre": "DOM 13 DIC 18 H",
+   "alias": [],
+   "direccion": "DOM 13 DIC 18 H",
+   "lat": -34.9058916,
+   "lon": -56.1913095,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "debbie-music-club",
    "nombre": "Debbie Music Club",
    "alias": [
@@ -677,6 +697,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "el-tropy",
+   "nombre": "El Tropy",
+   "alias": [],
+   "direccion": "Av Gral Rondeau 2477, 11800 Montevideo,",
+   "lat": -34.884626,
+   "lon": -56.193819,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "emile-club",
    "nombre": "Emile Club",
    "alias": [
@@ -691,6 +721,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "entre-masas-y-tannat",
+   "nombre": "Entre Masas y Tannat",
+   "alias": [],
+   "direccion": "Pérez Castellano 1400",
+   "lat": -34.9083756,
+   "lon": -56.2101162,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "escuela-nacional-de-declamacion-esnade",
    "nombre": "Escuela Nacional de Declamación - ESNADE",
    "alias": [
@@ -700,6 +740,16 @@
    "direccion": "José Enrique Rodó 1712",
    "lat": -34.905642,
    "lon": -56.179245,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "espacio-bilu",
+   "nombre": "Espacio Bilu",
+   "alias": [],
+   "direccion": "Pérez Castellano 1408",
+   "lat": -34.9080699,
+   "lon": -56.2102505,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -989,6 +1039,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "la-cuarenta",
+   "nombre": "La Cuarenta",
+   "alias": [],
+   "direccion": "Urquiza 2551",
+   "lat": -34.8919747,
+   "lon": -56.1638326,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "la-gringa-teatro",
    "nombre": "La Gringa Teatro",
    "alias": [],
@@ -1156,6 +1216,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "montevideo-indoor-coffee-shop",
+   "nombre": "Montevideo Indoor Coffee Shop",
+   "alias": [],
+   "direccion": "Pérez Castellano 1545",
+   "lat": -34.9061559,
+   "lon": -56.2112717,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "montevideo-music-box",
    "nombre": "Montevideo Music Box",
    "alias": [
@@ -1232,6 +1302,16 @@
    "direccion": "Rbla. República de Chile 4215",
    "lat": -34.903292,
    "lon": -56.123554,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "museo-romantico",
+   "nombre": "Museo Romántico",
+   "alias": [],
+   "direccion": "25 de Mayo 428",
+   "lat": -34.9064142,
+   "lon": -56.2070091,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1701,6 +1781,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "salon-andy",
+   "nombre": "Salón Andy",
+   "alias": [],
+   "direccion": "Pérez Castellano 1462",
+   "lat": -34.9073273,
+   "lon": -56.2105812,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "salon-del-centro-cultural-armenio",
    "nombre": "Salón del Centro Cultural Armenio",
    "alias": [],
@@ -1870,6 +1960,7 @@
     "Sala Zabala Muniz",
     "Sala Principal Teatro Solís",
     "Sala Principal del Teatro Solís",
+    "Sala Zavala Muniz - Teatro Solís",
     "Sala Zabala Muniz – Teatro Solís",
     "Zavala Muniz | Teatro Solís"
    ],

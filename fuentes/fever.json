@@ -1,8 +1,8 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-17T01:08:36.809439-03:00",
+ "corrida": "2026-11-17T17:10:45.091449-03:00",
  "ok": true,
- "cantidad": 16,
+ "cantidad": 17,
  "errores": [],
  "eventos": [
   {
@@ -524,6 +524,53 @@
   },
   {
    "fuente": "fever",
+   "id_externo": "603820",
+   "url": "https://feverup.com/m/603820",
+   "titulo": "Candlelight: De Música Ligera",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "⭐ Candlelight son los conciertos a la luz de las velas que traen la magia de una experiencia musical y multisensorial en vivo a lugares increíbles en Montevideo. Compra ya tus entradas para descubrir la música de De Música Ligera en Sofitel Montevideo Casino Carrasco and Spa bajo la tenue luz de…",
+   "lugar": {
+    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
+    "direccion": null,
+    "lat": -34.8905846,
+    "lon": -56.0553743,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-12T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 890.0,
+    "hasta": 890.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/603820",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/b45b5dfe-5c36-11f0-b9cb-9688bf056b6f.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
    "id_externo": "838624",
    "url": "https://feverup.com/m/838624",
    "titulo": "Candlelight: Lo Mejor de Hans Zimmer",
@@ -571,53 +618,6 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "838625",
-   "url": "https://feverup.com/m/838625",
-   "titulo": "Candlelight: Queen vs. ABBA",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Los conciertos Candlelight llevan la magia de la música en vivo a lugares increíbles de Montevideo, bajo la luz tenue de las velas. ¡Conseguí tus entradas para descubrir la música de Candlelight: Queen vs. ABBA en Sala Valle Inclán! Esta experiencia de concierto es un tributo. No está vinculada…",
-   "lugar": {
-    "nombre": "Sala Valle Inclán",
-    "direccion": null,
-    "lat": -34.9074103,
-    "lon": -56.1975527,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2027-03-12T19:00:00-03:00",
-     "fin": "2027-04-17T19:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 820.0,
-    "hasta": 820.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/838625",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/ad60b410-1945-11f0-bf40-961efeb2b763.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
    "id_externo": "838626",
    "url": "https://feverup.com/m/838626",
    "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
@@ -655,6 +655,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/7c807528-1ab3-11f0-9eff-324ba1e3eb01.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "838625",
+   "url": "https://feverup.com/m/838625",
+   "titulo": "Candlelight: Queen vs. ABBA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Los conciertos Candlelight llevan la magia de la música en vivo a lugares increíbles de Montevideo, bajo la luz tenue de las velas. ¡Conseguí tus entradas para descubrir la música de Candlelight: Queen vs. ABBA en Sala Valle Inclán! Esta experiencia de concierto es un tributo. No está vinculada…",
+   "lugar": {
+    "nombre": "Sala Valle Inclán",
+    "direccion": null,
+    "lat": -34.9074103,
+    "lon": -56.1975527,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-03-12T19:00:00-03:00",
+     "fin": "2027-04-17T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 820.0,
+    "hasta": 820.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/838625",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/ad60b410-1945-11f0-bf40-961efeb2b763.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],

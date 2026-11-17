@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-17T01:03:14.765423-03:00",
+ "corrida": "2026-11-17T17:04:55.394887-03:00",
  "ok": true,
- "cantidad": 36,
+ "cantidad": 37,
  "errores": [],
  "eventos": [
   {
@@ -1695,6 +1695,50 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021989/muestra-final-danza-arte"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13842",
+   "url": "https://sodre.gub.uy/espectaculos/melodias-olvidadas/",
+   "titulo": "Melodías olvidadas",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Temporada de Música de Cámara",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T20:00:00-03:00",
+     "fin": "2026-12-03T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021684/tmc-melodias-olvidadas",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Adaptaciones_MELODIAS_OLVIDADAS_destacada-1-768x420.png",
+   "productor": "Temporada de Música de Cámara del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021684/tmc-melodias-olvidadas"
    ],
    "ciclo": null,
    "etiquetas": [],

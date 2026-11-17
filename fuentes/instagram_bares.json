@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-17T01:10:35.840442-03:00",
+ "corrida": "2026-11-17T17:12:49.950044-03:00",
  "ok": true,
- "cantidad": 56,
+ "cantidad": 55,
  "errores": [],
  "eventos": [
   {
@@ -504,50 +504,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261118",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: OPEN MIC",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Miércoles 18: OPEN MIC",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ffaa16e987bc.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "sansuena_cafevivero-20261118",
    "url": "https://www.instagram.com/p/Df0AaviCMXX/",
    "titulo": "Recibiremos en Sansueña a Daniel Parada, quien nos acompañará en la presentación de su…",
@@ -681,6 +637,55 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261118",
+   "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+   "titulo": "The Shannon: OPEN MIC",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Miércoles 18/Noviembre: OPEN MIC NIGHT - 4ta temporada Bienvenidos al primer Open Mic de Uruguay. Participa, compartí tu arte. Entrada libre 22 hrs",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ffaa16e987bc.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "el.mingus-20261119",
    "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Jazzterday",
@@ -713,50 +718,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5201ad786202.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261119",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: PRIMA DONNA",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Jueves 19: PRIMA DONNA Club Shannon: ABIIRI Y LOS PÉTALOS DE CRISTAL, NYXIA y POLIFAGIA",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1b37816a9388.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -863,6 +824,55 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261119",
+   "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+   "titulo": "The Shannon: PRIMA DONNA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Jueves 19/Noviembre: PRIMA DONNA Clásicos de rock - 22 hs Cubierto artístico $150 Club Shannon: ABIIRI Y LOS PÉTALOS DE CRISTAL, NYXIA y POLIFAGIA Rock&Roll - 22 hs Cubierto artístico $100",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 100.0,
+    "hasta": 150.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1b37816a9388.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "mercadoferrando-20261120",
    "url": "https://www.instagram.com/p/DfxNwAroMhp/",
    "titulo": "Mercado Ferrando: El 20.11 beertruckopb cumple 10 años y en Ferrando lo festejamos a lo grande",
@@ -900,50 +910,6 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261120",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: PIANO BAR",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Viernes 20: PIANO BAR Club Shannon: NENES DE ANTES – TRIBUTO A DIVIDIDOS",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b0988bc32710.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
    "muestra": false,
    "hasta": null
   },
@@ -1036,11 +1002,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "centroculturalterminalgoes-20261120",
-   "url": "https://www.instagram.com/p/DfhmnO1DeE5/",
+   "url": "https://www.instagram.com/p/Df2KAYlnLV7/",
    "titulo": "Centro Cultural Terminal Goes: ASCENSO",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "ASCENSO Santiago Alvez presenta su proyecto con un show musical de cumbia romántica. Show de apertura: Talya Godoy Más artistas invitados. Viernes 20 de noviembre 20:30 horas Centro Cultural Terminal Goes Entradas en Tickantel tickantel.ok imcultura esquinasdelaculturaim municipioc",
+   "descripcion_corta": "¡Te invitamos a disfrutar de Primavera Tango! Dúo 1071 Integrado por Abril Farolini (bandoneón) y Matías Craciun (violín), propone un viaje sonoro por las músicas del Río de la Plata desde una formación de cámara singular. A través de arreglos originales, el dúo ofrece una mirada renovada sobre…",
    "lugar": {
     "nombre": "Centro Cultural Terminal Goes",
     "direccion": "Gral. Flores y Domingo Aramburú",
@@ -1058,17 +1024,22 @@
      "agotada": false
     },
     {
-     "inicio": "2026-11-21T10:00:00-03:00",
+     "inicio": "2026-11-21T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DfhmnO1DeE5/",
+     "url": "https://www.instagram.com/p/Df2KAYlnLV7/",
      "via": "instagram"
     }
    ],
@@ -1079,6 +1050,55 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261120",
+   "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+   "titulo": "The Shannon: PIANO BAR",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Viernes 20/Noviembre: PIANO BAR Clásicos de rock& pop - 22 hs Cubierto artístico $250 Club Shannon: NENES DE ANTES Tributo a Divididos - 22 hs Cubierto artístico $300",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 250.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b0988bc32710.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
@@ -1116,50 +1136,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/107ef10e9417.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261121",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: TREBOADA",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábado 21: TREBOADA Club Shannon: TERCETO",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/dfe7e9b3578a.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1511,8 +1487,8 @@
    "categoria_segura": false,
    "descripcion_corta": "Tenemos el honor de recibir en casa, para su Debut oficial, a estos queridos amigos con su nuevo y espectacular proyecto! TABAREK & LA KABARET Tabaré Rivero presenta en vivo su nuevo proyecto musical: Tabarek & La Kabaret. Un recorrido por algunas de sus canciones en un formato acústico, íntimo y…",
    "lugar": {
-    "nombre": "La Cretina",
-    "direccion": "Soriano 1236",
+    "nombre": "SÁBADO 21 DE NOV",
+    "direccion": "SÁBADO 21 DE NOV",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -1536,6 +1512,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b1ec83d60b82.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261121",
+   "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+   "titulo": "The Shannon: TREBOADA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábado 21/Noviembre: TREBOADA Música celta - 22 hs Cubierto artístico $200 Club Shannon: VIEJOS ROCKEROS Rock&Roll - 22 hs Cubierto artístico $200 Nota: el cubierto artístico se cobra en efectivo o por transferencia. Gracias por valorar y apoyar la música en vivo pagando el cubierto artístico. NO…",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 200.0,
+    "hasta": 200.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/dfe7e9b3578a.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1565,13 +1588,6 @@
    "funciones": [
     {
      "inicio": "2026-11-23T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-26T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -1656,7 +1672,7 @@
    "categoria_segura": false,
    "descripcion_corta": "presenta una nueva Gala Lírica, esta vez con una propuesta dedicada a la opereta vienesa y francesa basada en obras de Lehár, Offenbach, Reynaldo Hahn y Planquette de la mano de destacados artistas del de Buenos Aires. Una velada para dejarse llevar por la música, las voces y el encanto de la…",
    "lugar": {
-    "nombre": "Paseo Cultural Ciudad Vieja",
+    "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
     "lat": null,
     "lon": null,
@@ -2138,48 +2154,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "paseo_cultural_ciudad_vieja-20261202",
-   "url": "https://www.instagram.com/p/DfVouKZkcJt/",
-   "titulo": "Paseo Cultural Ciudad Vieja: Esta música cobró movimiento a través de los bailarines de tango poggiofavotto y…",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "presentó por primera vez LluviasRemix, en el Foro de Mujeres Líderes de omeu_uy en el teatrosolis El 2 de diciembre de 2025. Esta música cobró movimiento a través de los bailarines de tango poggiofavotto y tanrodrigofleitas. Lluvias es parte de una cadena creativa que nació de un poema de María…",
-   "lugar": {
-    "nombre": "Paseo Cultural Ciudad Vieja",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-02T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfVouKZkcJt/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/301e2efe315f.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261202",
    "url": "https://www.instagram.com/p/DfsWAkbGCpT/",
    "titulo": "Centro Cultural de España: Laboratorio de guion adaptado",
@@ -2462,8 +2436,8 @@
    "categoria_segura": false,
    "descripcion_corta": "HIP HOP CRETINO vol.7 Para despedir el año! Vuelve la fiesta con más street de La Cretina: música, flow, baile, tinta, graffiti y cultura viva en cada rincón. Una edición con más estilo, más crew y más sangre nueva. DOM 13 DIC 18 H MÚSICA EN VIVO ger1one gblues_oficial yatucypher nico.sald_…",
    "lugar": {
-    "nombre": "La Cretina",
-    "direccion": "Soriano 1236",
+    "nombre": "DOM 13 DIC 18 H",
+    "direccion": "DOM 13 DIC 18 H",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -2496,9 +2470,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },

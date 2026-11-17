@@ -1,8 +1,8 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-17T01:10:14.532311-03:00",
+ "corrida": "2026-11-17T17:12:27.793864-03:00",
  "ok": true,
- "cantidad": 15,
+ "cantidad": 16,
  "errores": [],
  "eventos": [
   {
@@ -31,8 +31,8 @@
     }
    ],
    "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
+    "desde": 550.0,
+    "hasta": 550.0,
     "moneda": "UYU",
     "gratis": false
    },
@@ -477,53 +477,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "7ebaa549-795f-4525-9c8f-3a963e1372c9",
-   "url": "https://www.tikzet.com/events/javier-ventoso",
-   "titulo": "Javier Ventoso",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-22T21:00:00-03:00",
-     "fin": "2026-12-22T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/javier-ventoso",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Ffe957b7d-f2ed-4c67-a998-1da80da079f2.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "27d891c2-4908-47ad-9908-62834fa8b5d6",
    "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
    "titulo": "Jula Andina presenta “Fecunda”",
@@ -608,6 +561,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fccf19bc7-f6f4-4858-b045-967370cbe72b.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "7ebaa549-795f-4525-9c8f-3a963e1372c9",
+   "url": "https://www.tikzet.com/events/javier-ventoso",
+   "titulo": "Javier Ventoso",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-22T21:00:00-03:00",
+     "fin": "2026-12-22T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/javier-ventoso",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Ffe957b7d-f2ed-4c67-a998-1da80da079f2.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -703,6 +703,53 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
    "productor": "Piffa",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "bcb430b1-cfb2-4271-8fbe-fed3682e1461",
+   "url": "https://www.tikzet.com/events/buceo-invisible-14bc",
+   "titulo": "Buceo Invisible",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T21:00:00-03:00",
+     "fin": "2026-12-03T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/buceo-invisible-14bc",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F70837979-a01f-4c0d-b746-3025e88ce795.original",
+   "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

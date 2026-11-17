@@ -1,8 +1,8 @@
 {
  "fuente": "propuestos",
- "corrida": "2026-11-17T01:10:07.291497-03:00",
+ "corrida": "2026-11-17T17:12:18.713415-03:00",
  "ok": true,
- "cantidad": 2,
+ "cantidad": 3,
  "errores": [],
  "eventos": [
   {
@@ -91,6 +91,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/caf1db324b96.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "propuestos",
+   "id_externo": "a69a6d2468bb",
+   "url": "https://wa.link/zccvtm",
+   "titulo": "La Cuarenta",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Show en vivo de distintos artistas",
+   "lugar": {
+    "nombre": "La Cuarenta",
+    "direccion": "Urquiza 2551",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T13:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://wa.link/zccvtm",
+     "via": "propuestos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/a69a6d2468bb.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

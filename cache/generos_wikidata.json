@@ -2245,6 +2245,45 @@
 "id": null,
 "generos": [],
 "fecha": "2026-11-17T04:11:47.571653"
+},
+"musica en restaurante almazara": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-17T20:14:24.231950"
+},
+"la cuarenta": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-17T20:14:24.660515"
+},
+"dj y degustacion en espacio bilu": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-17T20:14:25.102384"
+},
+"dj y degustacion": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-17T20:14:25.555213"
+},
+"fantasmas en el castillo pittamiglio": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-17T20:14:26.066421"
+},
+"fantasmas": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-17T20:14:27.146516"
+},
+"astor piazzolla": {
+"id": "Q172505",
+"generos": [
+"Q1344",
+"Q1632601",
+"Q14390274"
+],
+"fecha": "2026-11-17T20:14:28.633651"
 }
 },
 "generos": {
@@ -2315,6 +2354,8 @@
 "Q185162": "rock latino",
 "Q316930": "música de baile",
 "Q43343": "música folclórica",
-"Q3360459": "Pagode"
+"Q3360459": "Pagode",
+"Q1344": "ópera",
+"Q1632601": "nuevo tango"
 }
 }

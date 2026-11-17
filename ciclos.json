@@ -1,23 +1,7 @@
 {
- "generado": "2026-11-17T01:11:41.422549-03:00",
- "cantidad": 32,
+ "generado": "2026-11-17T17:14:07.007178-03:00",
+ "cantidad": 30,
  "ciclos": [
-  {
-   "id": "ciclo-encuentro-de-murga-joven-2026",
-   "titulo": "Encuentro de Murga Joven 2026",
-   "lugar_id": "centro-cultural-las-duranas",
-   "desde": "2026-11-16T20:00:00-03:00",
-   "hasta": "2026-11-16T20:00:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-prueba-de-admision-del-carnaval-2027",
-   "titulo": "Prueba de Admisión del Carnaval 2027",
-   "lugar_id": "teatro-de-verano",
-   "desde": "2026-11-16T20:30:00-03:00",
-   "hasta": "2026-11-16T20:30:00-03:00",
-   "cantidad": 1
-  },
   {
    "id": "ciclo-el-mingus",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
@@ -30,7 +14,7 @@
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
    "lugar_id": null,
-   "desde": "2026-11-17T10:00:00-03:00",
+   "desde": "2026-11-17T13:30:00-03:00",
    "hasta": "2026-12-11T16:00:00-03:00",
    "cantidad": 7
   },
@@ -59,14 +43,6 @@
    "cantidad": 2
   },
   {
-   "id": "ciclo-the-shannon",
-   "titulo": "The Shannon",
-   "lugar_id": "the-shannon-irish-pub",
-   "desde": "2026-11-18T00:00:00-03:00",
-   "hasta": "2026-11-28T00:00:00-03:00",
-   "cantidad": 7
-  },
-  {
    "id": "ciclo-bazofi-oriental-2026",
    "titulo": "BAZOFI ORIENTAL 2026",
    "lugar_id": "cinemateca",
@@ -81,6 +57,14 @@
    "desde": "2026-11-18T19:00:00-03:00",
    "hasta": "2026-11-25T19:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-the-shannon",
+   "titulo": "The Shannon",
+   "lugar_id": "the-shannon-irish-pub",
+   "desde": "2026-11-18T22:00:00-03:00",
+   "hasta": "2026-11-28T00:00:00-03:00",
+   "cantidad": 7
   },
   {
    "id": "ciclo-fac",
@@ -115,12 +99,20 @@
    "cantidad": 1
   },
   {
+   "id": "ciclo-primavera-tango",
+   "titulo": "Primavera Tango",
+   "lugar_id": "centro-cultural-terminal-goes",
+   "desde": "2026-11-20T20:00:00-03:00",
+   "hasta": "2026-11-22T20:00:00-03:00",
+   "cantidad": 2
+  },
+  {
    "id": "ciclo-sabados-en-ciudad-vieja",
    "titulo": "Sábados en Ciudad Vieja",
-   "lugar_id": "ciudad-vieja",
+   "lugar_id": null,
    "desde": "2026-11-21T11:00:00-03:00",
-   "hasta": "2026-11-21T13:00:00-03:00",
-   "cantidad": 9
+   "hasta": "2026-11-21T16:00:00-03:00",
+   "cantidad": 17
   },
   {
    "id": "ciclo-la-madre-de-las-second-hand",
@@ -145,14 +137,6 @@
    "desde": "2026-11-21T18:00:00-03:00",
    "hasta": "2027-01-05T00:00:00-03:00",
    "cantidad": 3
-  },
-  {
-   "id": "ciclo-primavera-tango",
-   "titulo": "Primavera Tango",
-   "lugar_id": "centro-cultural-terminal-goes",
-   "desde": "2026-11-21T20:00:00-03:00",
-   "hasta": "2026-11-22T20:00:00-03:00",
-   "cantidad": 2
   },
   {
    "id": "ciclo-ciclo-marea",
@@ -184,7 +168,7 @@
    "lugar_id": "auditorio-vaz-ferreira",
    "desde": "2026-11-26T20:00:00-03:00",
    "hasta": "2026-12-17T20:00:00-03:00",
-   "cantidad": 5
+   "cantidad": 4
   },
   {
    "id": "ciclo-19-fest-jazz-mvd",
@@ -223,8 +207,8 @@
    "titulo": "Candlelight",
    "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
    "desde": "2026-12-19T17:30:00-03:00",
-   "hasta": "2026-12-27T18:30:00-03:00",
-   "cantidad": 3
+   "hasta": "2027-02-12T19:30:00-03:00",
+   "cantidad": 4
   },
   {
    "id": "ciclo-candlelight",

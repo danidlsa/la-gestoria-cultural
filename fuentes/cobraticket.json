@@ -1,8 +1,8 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-17T01:09:47.011747-03:00",
+ "corrida": "2026-11-17T17:11:59.679449-03:00",
  "ok": true,
- "cantidad": 7,
+ "cantidad": 8,
  "errores": [],
  "eventos": [
   {
@@ -81,6 +81,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://img.cobraticket.uy/g5Sm_b5MfXUUM6p-r59Ii.jpg",
+   "productor": "Lotus WTC",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "683799",
+   "url": "https://cobraticket.uy/e/club-jueves-black-683799",
+   "titulo": "CLUB JUEVES BLACK",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Lotus WTC",
+    "direccion": "Contador Luis E. Lecueder",
+    "lat": -34.9042323,
+    "lon": -56.1360561,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T23:59:00-03:00",
+     "fin": "2026-11-27T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/club-jueves-black-683799",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/05t8sPY8fBJ3QSc9uTRI8.jpg",
    "productor": "Lotus WTC",
    "region": "montevideo",
    "enlaces": [],
