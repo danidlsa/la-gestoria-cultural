@@ -529,3 +529,14 @@ def test_un_recorrido_sin_paradas_va_al_barrio_que_recorre():
             "Visita guiada a viñedos de Bodega Varela Zarranz.")
     assert ig.paradas_del_recorrido(fama) == ["Carrasco"]
     assert ig.paradas_del_recorrido("Paseo por Ciudad Vieja, sábado 10 h") == ["Ciudad Vieja"]
+
+
+def test_una_fecha_con_anio_pasado_no_es_un_evento():
+    texto = "Pamela presentó por primera vez Lluvias en el teatrosolis el 2 de diciembre de 2025.\nLa cita es esta noche."
+    assert ig.borradores_del_post(_post(1, texto, "2026-11-04"), {"usuario": "paseo"}, {}, AHORA) == []
+    assert ig.fechas_explicitas("2 de diciembre de 2026", AHORA.date()) == [(date(2026, 12, 2), True)]
+
+
+def test_el_lugar_tambien_con_otros_iconos():
+    assert ig.lugar_del_texto("🗓️ 24 de noviembre\n🕖 20 H\n🏛️Auditorio Vaz Ferreira\n🎟️Entradas") == ("Auditorio Vaz Ferreira", None)
+    assert ig.lugar_del_texto("📌 Sala Hugo Balzo") == ("Sala Hugo Balzo", None)

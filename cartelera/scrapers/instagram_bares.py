@@ -73,7 +73,8 @@ _RECURRENTE = re.compile(
     rf"|\bhasta\s+el\s+\d{{1,2}}(\s*(de\s+|/)\s*{_MES}|/\d{{1,2}})?"
     rf"|\b\d{{1,2}}\s*(de\s+)?{_MES}\s*[-–]\s*\d{{1,2}}\s*(de\s+)?{_MES}"  # "18 de noviembre - 18 de diciembre"
 )
-_FECHA_MES = re.compile(rf"\b(\d{{1,2}})\s*(?:de\s+|[/.\-]\s*)?{_MES}\b")  # "13 de noviembre", "04/Noviembre"
+# "13 de noviembre", "04/Noviembre", y con año: "2 de diciembre de 2025" (una fecha pasada que el post recuerda).
+_FECHA_MES = re.compile(rf"\b(\d{{1,2}})\s*(?:de\s+|[/.\-]\s*)?{_MES}\b(?:\s+(?:de\s+|del\s+)?(20\d\d)\b)?")
 _FECHA_BARRA = re.compile(r"\b(\d{1,2})/(\d{1,2})(?:/(\d{2,4}))?\b")
 # "Guardate el 12.12", "El 14.11": con punto, pero no una hora ("a las 21.10", "21.10 hs") ni un precio ("$1.200").
 _FECHA_PUNTO = re.compile(r"(?<![\d$.:])(?<!las )\b(\d{1,2})\.(\d{1,2})\b(?![.\d]|\s*(?:h|hs|hrs|horas)\b)")
@@ -137,8 +138,8 @@ def fechas_explicitas(texto: str, publicado: date) -> list[tuple[date, bool]]:
     for numeros, mes in _LISTA_MES.findall(texto):
         for numero in re.findall(r"\d{1,2}", numeros):
             fechas.append((_con_mes(int(numero), MESES[mes], None, publicado), True))
-    for dia, mes in _FECHA_MES.findall(texto):
-        fechas.append((_con_mes(int(dia), MESES[mes], None, publicado), True))
+    for dia, mes, anio in _FECHA_MES.findall(texto):
+        fechas.append((_con_mes(int(dia), MESES[mes], int(anio) if anio else None, publicado), True))
     for dia, mes, anio in _FECHA_BARRA.findall(texto):
         if 1 <= int(mes) <= 12:
             fechas.append((_con_mes(int(dia), int(mes), int(anio) if anio else None, publicado), True))
@@ -346,7 +347,8 @@ def precio_del_texto(texto: str):
     return precio_de(" - ".join(montos)) if montos else None
 
 
-_PIN = re.compile(r"📍\s*([^\n]+)")
+# El lugar: con 📍, o con 📌 o 🏛️ ("🏛️Auditorio Vaz Ferreira").
+_PIN = re.compile(r"(?:📍|📌|🏛\ufe0f?)\s*([^\n]+)")
 _NO_ES_LUGAR = re.compile(r"modalidad|virtual|online|zoom|a confirmar|por definir|\blink\b", re.I)
 
 
