@@ -1,8 +1,8 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-16T20:29:24.591168-03:00",
+ "corrida": "2026-11-17T01:03:19.805324-03:00",
  "ok": true,
- "cantidad": 9,
+ "cantidad": 18,
  "errores": [],
  "eventos": [
   {
@@ -193,13 +193,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-16T19:05:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-17T19:05:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -285,13 +278,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-16T19:25:00-03:00",
-     "fin": "2026-11-16T21:08:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-17T19:25:00-03:00",
      "fin": "2026-11-17T21:08:00-03:00",
      "sin_hora": false,
@@ -361,98 +347,6 @@
   },
   {
    "fuente": "cinemateca",
-   "id_externo": "9655",
-   "url": "https://cinemateca.org.uy/peliculas/9655",
-   "titulo": "Tierra de mi padre",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Pawel Pawlikowski. Esta película polaca se centra en la relación entre Thomas Mann, -el escritor alemán, autor de obras mayores como La montaña mágica y Los Buddenbrock y ganador del Premio Nobel- y su hija Erika, actriz, escritora y piloto de rally. En el verano de 1949 en plena Guerra Fría…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-16T21:20:00-03:00",
-     "fin": "2026-11-16T22:42:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-17T21:35:00-03:00",
-     "fin": "2026-11-17T22:57:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-18T21:30:00-03:00",
-     "fin": "2026-11-18T22:52:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9655",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40856/image_still_binary",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
    "id_externo": "9643",
    "url": "https://cinemateca.org.uy/peliculas/9643",
    "titulo": "Naza",
@@ -468,13 +362,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-16T21:25:00-03:00",
-     "fin": "2026-11-16T22:45:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-17T21:25:00-03:00",
      "fin": "2026-11-17T22:45:00-03:00",
@@ -561,13 +448,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-16T21:30:00-03:00",
-     "fin": "2026-11-16T23:03:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-17T21:30:00-03:00",
      "fin": "2026-11-17T23:03:00-03:00",
      "sin_hora": false,
@@ -637,12 +517,12 @@
   },
   {
    "fuente": "cinemateca",
-   "id_externo": "9669",
-   "url": "https://cinemateca.org.uy/peliculas/9669",
-   "titulo": "Un amor en Alemania",
+   "id_externo": "9655",
+   "url": "https://cinemateca.org.uy/peliculas/9655",
+   "titulo": "Tierra de mi padre",
    "categoria": "cine",
    "categoria_segura": true,
-   "descripcion_corta": "De Andrej Wajda. En mayo de 1983, un hombre de 49 años, acompañado de su hijo, viaja al pueblo de su infancia, en Baden. Su deseo es descubrir qué le sucedió en realidad a su madre. El largo flashback que se desenvuelve a partir de ahí cuenta el amor del título, la complicada relación entre una…",
+   "descripcion_corta": "De Pawel Pawlikowski. Esta película polaca se centra en la relación entre Thomas Mann, -el escritor alemán, autor de obras mayores como La montaña mágica y Los Buddenbrock y ganador del Premio Nobel- y su hija Erika, actriz, escritora y piloto de rally. En el verano de 1949 en plena Guerra Fría…",
    "lugar": {
     "nombre": "Cinemateca",
     "direccion": "Bartolomé Mitre 1236",
@@ -653,8 +533,15 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-16T19:10:00-03:00",
-     "fin": "2026-11-16T21:00:00-03:00",
+     "inicio": "2026-11-17T21:35:00-03:00",
+     "fin": "2026-11-17T22:57:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-18T21:30:00-03:00",
+     "fin": "2026-11-18T22:52:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -668,7 +555,7 @@
    },
    "entradas": [
     {
-     "url": "https://cinemateca.org.uy/peliculas/9669",
+     "url": "https://cinemateca.org.uy/peliculas/9655",
      "via": "cinemateca"
     }
    ],
@@ -704,11 +591,11 @@
      "url": "https://cinemateca.org.uy/"
     }
    ],
-   "imagen_url": "https://m.media-amazon.com/images/S/pv-target-images/9efc83f481069d181a50b6809006c633b419e74f221e2669a155f97e304751b6.jpg",
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40856/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario",
+   "ciclo": null,
    "etiquetas": [],
    "muestra": false,
    "hasta": null
@@ -794,6 +681,786 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Andrzej Wajda, en su centenario",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9681",
+   "url": "https://cinemateca.org.uy/peliculas/9681",
+   "titulo": "Palabras que matan",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De John Flynn. Un asesino a sueldo quiere publicar un libro con todos los detalles de su oscura vida y procura interesar a un escritor (que además es un ex policía). Durante el proceso de chequear la información, ambos descubren que hay fuertes interesados en que el libro nunca se escriba. Este…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T17:30:00-03:00",
+     "fin": "2026-11-18T19:05:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9681",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://misantropey.com/wp-content/uploads/2015/05/bestseller2.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "BAZOFI ORIENTAL 2026",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9682",
+   "url": "https://cinemateca.org.uy/peliculas/9682",
+   "titulo": "Ataúd para un vampiro",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Jimmy Sangster. Aunque el mito del vampirismo estuvo siempre relacionado con la sexualidad, recién a fines de los ’60 el cine (y en particular la legendaria productora Hammer) se atrevió a relacionar ambos más o menos explícitamente en una serie de films con atractivas damas ligeras de ropa…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T19:30:00-03:00",
+     "fin": "2026-11-18T21:01:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9682",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrhdAk-wM0l00QvuG5eGaKcrmzEIMBEzXVshpCgYo9MWvKisFU6pPAGxww&amp;s=10",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "BAZOFI ORIENTAL 2026",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9683",
+   "url": "https://cinemateca.org.uy/peliculas/9683",
+   "titulo": "Doctor Jekyll y la bestia",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Roy Ward Baker. El título de estreno rioplatense esconde la verdadera naturaleza de las investigaciones que realiza el Dr. Jekyll de este film y que su creador Robert L. Stevenson nunca sospechó: un producto para garantizar la longevidad basado en hormonas femeninas, dado que las mujeres tienden…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T17:20:00-03:00",
+     "fin": "2026-11-19T18:54:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9683",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://m.media-amazon.com/images/M/MV5BMzI4MGM2OGEtODVmZS00OWYyLWE3OGUtOWJjNjAzYTk5NGQzXkEyXkFqcGc@._V1_.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "BAZOFI ORIENTAL 2026",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9684",
+   "url": "https://cinemateca.org.uy/peliculas/9684",
+   "titulo": "La hija del médico y la bestia",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Edgar Ulmer. En la década de 1950 la crisis del sistema de estudios atomizó la producción y la exhibición y se multiplicaron las empresas dedicadas a realizar films de género con presupuestos exiguos, explotados con títulos sensacionalistas. Al mismo tiempo, una joven generación —que no había…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T19:20:00-03:00",
+     "fin": "2026-11-19T20:31:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9684",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmq5aVQjdm3iroqHzjB7ErXn3lPIbzNjiuA9wdPR-p6lOAstUvU-Ei3pWh&amp;s=10",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "BAZOFI ORIENTAL 2026",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "1595",
+   "url": "https://cinemateca.org.uy/peliculas/1595",
+   "titulo": "Sexmission",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Juliusz Machulski. Dos voluntarios para un experimento de hibernación controlada se despiertan por error en un futuro más lejano del previsto, donde la sociedad está completamente dominada por las mujeres. El sistema de humor del film es viejo como el mundo y tiene poderosos antecedentes ya que…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T17:20:00-03:00",
+     "fin": "2026-11-20T19:16:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/1595",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/Sexmission.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "BAZOFI ORIENTAL 2026",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9686",
+   "url": "https://cinemateca.org.uy/peliculas/9686",
+   "titulo": "Pacto de amor",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De David Cronenberg. Los gemelos Mantle (Jeremy Irons por dos) se destacan en el campo de la ginecología y todo el mundo los confunde, pero en realidad son muy distintos. Cronenberg desarrolla esta obra maestra sobre la idea de que la conexión psíquica entre los protagonistas es tan concreta como…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T19:45:00-03:00",
+     "fin": "2026-11-20T21:41:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9686",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy94UZw1tsSJkB4W_JiEL5L-jbzmBTJ54etGN10zxYt9fu6PAqTZ_s0Pi2&amp;s=10",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "BAZOFI ORIENTAL 2026",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9687",
+   "url": "https://cinemateca.org.uy/peliculas/9687",
+   "titulo": "El día de la luna negra",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Harley Cokliss. La Luna Negra del título es el prototipo de un automóvil supersónico que termina involucrado en una trama de acción y aventuras, porque esconde información secreta que dos bandos opuestos reclaman. Fue escrita y coproducida por John Carpenter y podría formar parte de un hermoso…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T17:40:00-03:00",
+     "fin": "2026-11-21T19:20:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9687",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://blueprintreview.co.uk/wp-content/uploads/2019/04/002.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "BAZOFI ORIENTAL 2026",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9688",
+   "url": "https://cinemateca.org.uy/peliculas/9688",
+   "titulo": "El diablo en la carne",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Paul Wendkos, Hubert Cornfield. Aunque la película quedó opacada por la casi simultánea Elmer Gantry , de temática similar, va más lejos en su descripción descarnada de los mecanismos con los que un predicador seduce a sus fieles, en este caso con ayuda de una muchacha que cree ser efectivamente…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T19:45:00-03:00",
+     "fin": "2026-11-21T21:22:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9688",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://assets.mubicdn.net/images/film/164070/image-w1280.jpg?1745493501",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "BAZOFI ORIENTAL 2026",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9689",
+   "url": "https://cinemateca.org.uy/peliculas/9689",
+   "titulo": "Peña sin cadenas 29",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Fernando Peña. No serán sólo funciones sorpresa: serán secretas. Desde el momento en que ingresen en la sala se establece un pacto que impide revelar el título del film que verán. Para los que vayan, ese misterio se resolverá in situ; para los que no, será un enigma eterno. Ambos films se…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T17:40:00-03:00",
+     "fin": "2026-11-22T19:43:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9689",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40889/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Peña sin cadenas",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9690",
+   "url": "https://cinemateca.org.uy/peliculas/9690",
+   "titulo": "Peña sin cadenas 30",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Fernando Peña. No serán sólo funciones sorpresa: serán secretas. Desde el momento en que ingresen en la sala se establece un pacto que impide revelar el título del film que verán. Para los que vayan, ese misterio se resolverá in situ; para los que no, será un enigma eterno. Se proyectarán en…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T20:05:00-03:00",
+     "fin": "2026-11-22T21:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9690",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40891/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Peña sin cadenas",
    "etiquetas": [],
    "muestra": false,
    "hasta": null

@@ -1,57 +1,10 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-16T20:36:06.966249-03:00",
+ "corrida": "2026-11-17T01:10:35.840442-03:00",
  "ok": true,
- "cantidad": 53,
+ "cantidad": 56,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "horizontes.sonoro-20261121",
-   "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
-   "titulo": "Horizontes Sonoros: Espacio Quitapenas Paysandú 847, Montevideo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "21 de noviembre | 20 h Espacio Quitapenas – Montevideo Entrada libre en ambos conciertos. ¡Te esperamos!",
-   "lugar": {
-    "nombre": "Horizontes Sonoros",
-    "direccion": "20 de noviembre",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2efd46a122e5.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "instagram_bares",
    "id_externo": "lacretinacasa-20261021",
@@ -245,13 +198,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-16T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-19T18:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -413,97 +359,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a3c1133c2fd8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "el.mingus-20261116",
-   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
-   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Residencia de Homenajes: Esperanza Spalding",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Lunes 16 de noviembre: Residencia de Homenajes: Esperanza Spalding",
-   "lugar": {
-    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-16T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6d499383e0a6.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261116",
-   "url": "https://www.instagram.com/p/DfmsJ7PIIEv/",
-   "titulo": "Centro Cultural de España: Mujeres de Cine",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Mujeres de Cine | La furia En el marco del Día Internacional de la Eliminación de la Violencia contra la Mujer, proyectamos La furia, de Gemma Blasco, una película cruda y necesaria que aborda las consecuencias de una violación y las distintas formas de transitar el dolor, la culpa, el silencio y…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-16T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfmsJ7PIIEv/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ea5059c0927b.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1317,6 +1172,48 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "museozorrilla-20261121",
+   "url": "https://www.instagram.com/p/DfmxnTBhpPe/",
+   "titulo": "Museo Zorrilla: En el lugar donde hasta hace poco crecía un ombú centenario, plantado por Juan…",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "En el lugar donde hasta hace poco crecía un ombú centenario, plantado por Juan Zorrilla de San Martín, nos reuniremos para dar vida a un nuevo árbol. Emblemáticos del paisaje costero de Punta Carretas, los ombúes forman parte de la historia y la memoria del jardín del museo, donde Zorrilla plantó y…",
+   "lugar": {
+    "nombre": "Museo Zorrilla",
+    "direccion": "José Luis Zorrilla de San Martín 96",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T10:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfmxnTBhpPe/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/60f77875374f.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261121",
    "url": "https://www.instagram.com/p/DfmxU10IOrh/",
    "titulo": "Centro Cultural de España: Trazar una ruta lectora y dejar lugar a lo inesperado",
@@ -1560,6 +1457,53 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "horizontes.sonoro-20261121",
+   "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
+   "titulo": "Horizontes Sonoros: Espacio Quitapenas Paysandú 847, Montevideo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "21 de noviembre | 20 h Espacio Quitapenas – Montevideo Entrada libre en ambos conciertos. ¡Te esperamos!",
+   "lugar": {
+    "nombre": "Horizontes Sonoros",
+    "direccion": "20 de noviembre",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2efd46a122e5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "lacretinacasa-20261121",
    "url": "https://www.instagram.com/p/DfiK_MivhXn/",
    "titulo": "La Cretina: TABAREK & LA KABARET",
@@ -1695,6 +1639,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/82356c392b32.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "paseo_cultural_ciudad_vieja-20261124",
+   "url": "https://www.instagram.com/p/DfDWRJVCNSz/",
+   "titulo": "Paseo Cultural Ciudad Vieja: Presenta una nueva Gala Lírica, esta vez con una propuesta dedicada a la opereta…",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "presenta una nueva Gala Lírica, esta vez con una propuesta dedicada a la opereta vienesa y francesa basada en obras de Lehár, Offenbach, Reynaldo Hahn y Planquette de la mano de destacados artistas del de Buenos Aires. Una velada para dejarse llevar por la música, las voces y el encanto de la…",
+   "lugar": {
+    "nombre": "Paseo Cultural Ciudad Vieja",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfDWRJVCNSz/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/820173819a62.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1972,6 +1958,95 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "museozorrilla-20261128",
+   "url": "https://www.instagram.com/p/Dfzeii8RigE/",
+   "titulo": "Museo Zorrilla: Presentación del Calendario Caja Baja 2027",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación del Calendario Caja Baja 2027 El sábado 28 de noviembre a las 14 horas te invitamos al Museo Zorrilla a descubrir las 12 obras que integran esta nueva edición. Artistas participantes: Horacio Añon Luis Scafati luisscafati (Arg) Francisca Maya franciscamaya._ Diego López Brandón…",
+   "lugar": {
+    "nombre": "Museo Zorrilla",
+    "direccion": "José Luis Zorrilla de San Martín 96",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfzeii8RigE/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8b5939d4e5ed.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "contraplano.cineclub-20261128",
+   "url": "https://www.instagram.com/p/DfioVMvgbIX/",
+   "titulo": "Contraplano: Se puede amar a alguien que no tiene cuerpo?",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Se puede amar a alguien que no tiene cuerpo? Los Ángeles, en un futuro cercano. Theodore escribe cartas de amor para otros y no logra escribir la suya. Hasta que instala un OS que elige su propio nombre: Samantha. La película que imaginaba hablar con una inteligencia artificial ya no parece ciencia…",
+   "lugar": {
+    "nombre": "Maciel 1384",
+    "direccion": "Maciel 1384",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfioVMvgbIX/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3b71e4c376b7.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "centroculturalterminalgoes-20261128",
    "url": "https://www.instagram.com/p/DfxDaO6CetM/",
    "titulo": "Centro Cultural Terminal Goes: Vuelve con una ÚNICA función",
@@ -2058,6 +2133,48 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "paseo_cultural_ciudad_vieja-20261202",
+   "url": "https://www.instagram.com/p/DfVouKZkcJt/",
+   "titulo": "Paseo Cultural Ciudad Vieja: Esta música cobró movimiento a través de los bailarines de tango poggiofavotto y…",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "presentó por primera vez LluviasRemix, en el Foro de Mujeres Líderes de omeu_uy en el teatrosolis El 2 de diciembre de 2025. Esta música cobró movimiento a través de los bailarines de tango poggiofavotto y tanrodrigofleitas. Lluvias es parte de una cadena creativa que nació de un poema de María…",
+   "lugar": {
+    "nombre": "Paseo Cultural Ciudad Vieja",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfVouKZkcJt/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/301e2efe315f.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },

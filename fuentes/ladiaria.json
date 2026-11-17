@@ -1,65 +1,10 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-16T20:33:59.580049-03:00",
+ "corrida": "2026-11-17T01:08:29.795478-03:00",
  "ok": true,
- "cantidad": 54,
+ "cantidad": 52,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18415",
-   "url": "https://beneficios.ladiaria.com.uy/tu-cuerpo-no-se-equivoca/",
-   "titulo": "Tu cuerpo no se equivoca",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": "¿Y si un síntoma no fuera sólo algo que hay que eliminar, sino un mensaje que necesita ser escuchado? Esa pregunta atraviesa “Tu cuerpo no se equivoca”, la charla en la que Julián Hernández explora la relación entre las emociones, la historia personal, los vínculos y el cuerpo desde la perspectiva…",
-   "lugar": {
-    "nombre": "Teatro El Galpón, Sala Campodónico",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2027-01-28T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1530.0,
-    "hasta": 1530.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/JULIAN-HERNANDEZ-Experto-en-Medicina-China-Sala-Campodonico/34704/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/tu-cuerpo-no-se-equivoca/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/JULIAN-HERNANDEZ-Experto-en-Medicina-China-Sala-Campodonico/34704/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "ladiaria",
    "id_externo": "18411",
@@ -561,58 +506,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/NOELIA-PACE--La-Medium--Sala-Campodonico/33007/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18341",
-   "url": "https://beneficios.ladiaria.com.uy/pulmones/",
-   "titulo": "Pulmones",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una conversación de toda la vida. Una pregunta que da origen a los deseos y miedos de una pareja. Pulmones de Duncan Macmillan, es una historia vertiginosa, divertida y profundamente conmovedora sobre el amor, el paso del tiempo y esas decisiones que pueden cambiar para siempre la vida de dos…",
-   "lugar": {
-    "nombre": "Sala Hugo Balzo",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 940.0,
-    "hasta": 940.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021640/pulmones",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/pulmones/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/ng/espectaculo/40021640/pulmones"
    ],
    "ciclo": null,
    "etiquetas": [],

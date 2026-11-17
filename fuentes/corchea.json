@@ -1,399 +1,10 @@
 {
  "fuente": "corchea",
- "corrida": "2026-11-10T00:50:34.955608-03:00",
+ "corrida": "2026-11-17T01:10:04.974177-03:00",
  "ok": true,
- "cantidad": 32,
+ "cantidad": 30,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "corchea",
-   "id_externo": "24455",
-   "url": "https://corchea.uy/11-11-lucas-cary/",
-   "titulo": "Lucas Cary",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "El próximo 11 de noviembre, Lucas Cary llega a la Sala Zitarrosa para presentar en vivo «LA OPORTUNIDAD», su segundo trabajo discográfico. Acompañado por su banda completa e invitados especiales, el cantautor recorrerá las canciones de este nuevo álbum junto a temas de su primer disco y singles que…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-11T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1200.0,
-    "hasta": 1200.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021471/espectaculo/Lucas%20Cary?7",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://corchea.uy/11-11-lucas-cary/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "25229",
-   "url": "https://corchea.uy/12-11-el-asilo-de-la-bestia/",
-   "titulo": "El Asilo de la Bestia",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "El Asilo de la Bestia en vivo",
-   "lugar": {
-    "nombre": "La Trastienda",
-    "direccion": "Daniel Fernández Crespo 1763",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 750.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.passline.com/eventos-plano/infernus-el-asilo-de-la-bestia-en-vivo",
-     "via": "passline"
-    },
-    {
-     "url": "https://corchea.uy/12-11-el-asilo-de-la-bestia/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "25094",
-   "url": "https://corchea.uy/12-11-las-flores-del-mal/",
-   "titulo": "Las Flores del Mal",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Presentación de Invierno (primer trabajo discográfico de Las Flores del Mal) + banda invitada.",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021778/las-flores-del-mal-presenta-invierno",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://corchea.uy/12-11-las-flores-del-mal/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "24830",
-   "url": "https://corchea.uy/12-11-lule-y-elena-ciavaglia/",
-   "titulo": "Lule y Elena Ciavaglia",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "ÍNTIMA es una plataforma cultural y ciclo itinerante de mujeres y disidencias de la música uruguaya. Con una estética minimalista fundada en los lazos entre canción y voz, el ciclo en vivo reúne a cantautoras de distintas generaciones y trayectorias todos los jueves de noviembre en la Sala Corchea…",
-   "lugar": {
-    "nombre": "Sala Corchea",
-    "direccion": "Soriano 1243",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 590.0,
-    "hasta": 590.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://entradasfans.com/Lule-y-Elena-Ciavaglia---Ciclo-Intima/",
-     "via": "entradasfans"
-    },
-    {
-     "url": "https://corchea.uy/12-11-lule-y-elena-ciavaglia/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "24945",
-   "url": "https://corchea.uy/12-y-13-11-buceo-invisible/",
-   "titulo": "Buceo Invisible",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "«La música estaba en el aire, una música que era como un aroma, flotando y cambiando » R. Bradbury. Aterrizamos por una noche en el domo del Planetario de Montevideo para presentar canciones de nuestro último disco «La mañana del incendio » y recorrer parte de la historia de la banda. Diseñamos una…",
-   "lugar": {
-    "nombre": "Planetario de Montevideo",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-12T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021712/buceo-invisible-en-el-planetario",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://corchea.uy/12-y-13-11-buceo-invisible/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "24717",
-   "url": "https://corchea.uy/13-11-superestar-unplugged/",
-   "titulo": "Superestar (Unplugged)",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Vickinson , proyecto liderado por la cantautora, bajista y contrabajista de tango Virginia Álvarez, presenta una versión acústica de Superestar, su álbum debut. En un formato íntimo y especialmente concebido para esta ocasión, las canciones adquieren una sonoridad más cercana, donde conviven la…",
-   "lugar": {
-    "nombre": "Sala Corchea",
-    "direccion": "Soriano 1243",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-13T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 590.0,
-    "hasta": 650.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://entradasfans.com/Superestar--Unplugged-/",
-     "via": "entradasfans"
-    },
-    {
-     "url": "https://corchea.uy/13-11-superestar-unplugged/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "24720",
-   "url": "https://corchea.uy/14-11-cristhian-ortega/",
-   "titulo": "Cristhian Ortega",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Con la presentación de su nuevo trabajo discográfico Andar, el cantautor fernandino Cristhian Ortega ofrece un espectáculo donde la canción es el punto de encuentro entre la palabra, la música y la emoción. Acompañado por Martín Muguerza en batería y Bettina Lain flauta despliega un repertorio que…",
-   "lugar": {
-    "nombre": "Sala Corchea",
-    "direccion": "Soriano 1243",
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-14T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 590.0,
-    "hasta": 590.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://entradasfans.com/Andar---Cristhian-Ortega--Presentacion-album-/",
-     "via": "entradasfans"
-    },
-    {
-     "url": "https://corchea.uy/14-11-cristhian-ortega/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "23819",
-   "url": "https://corchea.uy/15-11-nelson-pino/",
-   "titulo": "Nelson Pino",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Nelson Pino celebra 45 años dedicados al tango con un espectáculo que reúne emoción, historia y la fuerza interpretativa que lo convirtió en una de las voces más queridas del género. En esta noche especial, Pino recorre los momentos más significativos de su carrera, combinando clásicos, nuevas…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-15T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 900.0,
-    "hasta": 1300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40020890/espectaculo/Nelson%20Pino%20-%2045%20a%C3%B1os%20en%20el%20tango?1",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://corchea.uy/15-11-nelson-pino/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "corchea",
    "id_externo": "24931",
@@ -407,7 +18,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -440,23 +52,25 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
   {
    "fuente": "corchea",
-   "id_externo": "25073",
-   "url": "https://corchea.uy/19-11-sofia-siola-y-victoria-brion-ciclo-intima/",
-   "titulo": "Sofia Siola y Victoria Brion – Ciclo Intima",
+   "id_externo": "25334",
+   "url": "https://corchea.uy/19-11-rodra/",
+   "titulo": "Rodra",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "ÍNTIMA es una plataforma cultural y ciclo itinerante de mujeres y disidencias de la música uruguaya. Con una estética minimalista fundada en los lazos entre canción y voz, el ciclo en vivo reúne a cantautoras de distintas generaciones y trayectorias todos los jueves de noviembre en la Sala Corchea…",
+   "descripcion_corta": "Este 19 de noviembre en Sala Rondeau, Rodra presenta cosas que no mueren: su segundo álbum de estudio luego de 6 años de su último disco. Regresa uniendo todas sus partes fusionando: el rock, el pop, la electrónica, el jazz, la canción de autor y a la vez de nada de eso. Un disco atravesado por una…",
    "lugar": {
-    "nombre": "Sala Corchea",
-    "direccion": "Soriano 1243",
+    "nombre": "Sala Rondeau",
+    "direccion": "Av Gral Rondeau 1904",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -467,19 +81,14 @@
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 590.0,
-    "hasta": 590.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
+   "precio": null,
    "entradas": [
     {
-     "url": "https://entradasfans.com/Sofia-Siola-y-Victoria-Brion---Ciclo-Intima/",
-     "via": "entradasfans"
+     "url": "https://redtickets.uy/evento/RODRA-presenta-Cosas-que-no-Mueren/32627/",
+     "via": "redtickets"
     },
     {
-     "url": "https://corchea.uy/19-11-sofia-siola-y-victoria-brion-ciclo-intima/",
+     "url": "https://corchea.uy/19-11-rodra/",
      "via": "corchea"
     }
    ],
@@ -489,6 +98,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -505,7 +115,8 @@
     "direccion": "Soriano 1243",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -538,6 +149,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -554,7 +166,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -587,6 +200,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -603,7 +217,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -636,6 +251,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -652,7 +268,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -685,6 +302,53 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25331",
+   "url": "https://corchea.uy/21-11-buenos-muchachos/",
+   "titulo": "Buenos Muchachos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "En cualquier momento. En algún lugar. En ningún caso. En las nubes. En abstracto. En alerta. En sueños. En vano. En definitiva. En absoluto. En concreto. En peligro. En soledad. En banda. En sentido opuesto. En secreto. En confianza. En común. En la espera. En realidad… El año termina como empezó…",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/21-11-buenos-muchachos/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -701,7 +365,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -729,6 +394,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -745,7 +411,8 @@
     "direccion": "Soriano 1243",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -778,6 +445,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -794,7 +462,8 @@
     "direccion": "Soriano 1243",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -827,6 +496,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -843,7 +513,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -872,6 +543,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -888,7 +560,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -921,6 +594,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -937,7 +611,8 @@
     "direccion": "Soriano 1243",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -970,6 +645,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -986,7 +662,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1019,6 +696,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1035,7 +713,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1063,6 +742,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1079,7 +759,8 @@
     "direccion": "Soriano 1243",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1112,6 +793,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1128,7 +810,8 @@
     "direccion": "Av. Gral. Rondeau 1904",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1161,6 +844,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1177,7 +861,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1210,6 +895,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1226,7 +912,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1259,6 +946,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1275,7 +963,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1303,6 +992,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1319,7 +1009,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1348,6 +1039,58 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25316",
+   "url": "https://corchea.uy/04-12-los-de-siempre/",
+   "titulo": "Los de Siempre",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Los de Siempre es un viaje musical a la época en la que las canciones tenían sus propias coreografías y se cantaba a los gritos para hacer catarsis. Un espectáculo que revive los grandes éxitos de los 90 y principios del 2000. ¿Están listos para volver a viajar en el tiempo?",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 590.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/Los-de-Siempre-en-Sala-Corchea/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/04-12-los-de-siempre/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1364,7 +1107,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1397,6 +1141,58 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25325",
+   "url": "https://corchea.uy/11-12-origen-y-destino/",
+   "titulo": "Origen y Destino",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Origen & Destino. Ellas también escribieron el tango es una profunda inmersión, vibrante y conmovedora en el alma del género rioplatense, que traza con exquisitez la fascinante evolución y el protagonismo indiscutible de la mujer en toda la historia del tango. Desde los lejanos arquetipos de la…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-11T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021885/origen-y-destino",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/11-12-origen-y-destino/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1413,7 +1209,8 @@
     "direccion": "Soriano 1243",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1446,6 +1243,7 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1462,7 +1260,8 @@
     "direccion": "Av Gral Rondeau 1904",
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1495,6 +1294,104 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25328",
+   "url": "https://corchea.uy/13-12-academia-genesis/",
+   "titulo": "Academia Génesis",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Audición de alumnos de la academia Génesis. Evento en el cual los alumnos van a tocar canciones en formato ensamble. Duración: 120 min Apto todo público",
+   "lugar": {
+    "nombre": "Sala Jorge Lazaroff",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-13T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021930/academia-genesis",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/13-12-academia-genesis/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25319",
+   "url": "https://corchea.uy/13-12-cuarteto-trama-y-mati-genta/",
+   "titulo": "Cuarteto TRAMA y Mati Genta",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "TRAMA es un cuarteto de música popular integrado por dos músicas y dos músicos de distintas generaciones, que se enlazan para compartir canciones, experiencias y recorridos artísticos. Como los hilos de un tejido, cada integrante aporta su propia historia, su manera de sentir y habitar la música…",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 690.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/Cuarteto-TRAMA-y-Mati-Genta-en-vivo/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/13-12-cuarteto-trama-y-mati-genta/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1511,7 +1408,8 @@
     "direccion": null,
     "lat": null,
     "lon": null,
-    "barrio": null
+    "barrio": null,
+    "alternativas": []
    },
    "funciones": [
     {
@@ -1544,6 +1442,58 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25322",
+   "url": "https://corchea.uy/16-12-mujeres-al-tango-presenta-a-manuela-hernandez/",
+   "titulo": "Mujeres al Tango presenta a Manuela Hernández",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Mujeres al Tango es un ciclo que reúne propuestas de tango lideradas por mujeres y disidencias, con una mirada innovadora y sensible sobre el género. Un espacio para visibilizar nuevas voces, promover la diversidad de expresiones y abrir nuevas perspectivas dentro de la escena tanguera. En esta…",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-16T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 590.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/Mujeres-al-Tango-presenta-a-Manuela-Hernandez-/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/16-12-mujeres-al-tango-presenta-a-manuela-hernandez/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   }

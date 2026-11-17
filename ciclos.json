@@ -1,39 +1,7 @@
 {
- "generado": "2026-11-16T20:37:36.490546-03:00",
- "cantidad": 30,
+ "generado": "2026-11-17T01:11:41.422549-03:00",
+ "cantidad": 32,
  "ciclos": [
-  {
-   "id": "ciclo-el-mingus",
-   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-   "lugar_id": "el-mingus",
-   "desde": "2026-11-16T00:00:00-03:00",
-   "hasta": "2026-11-21T00:00:00-03:00",
-   "cantidad": 6
-  },
-  {
-   "id": "ciclo-fac",
-   "titulo": "FAC",
-   "lugar_id": "fac-fundacion-de-arte-contemporaneo",
-   "desde": "2026-11-16T18:00:00-03:00",
-   "hasta": "2026-11-28T11:00:00-03:00",
-   "cantidad": 2
-  },
-  {
-   "id": "ciclo-andrzej-wajda-en-su-centenario",
-   "titulo": "Andrzej Wajda, en su centenario",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-16T19:10:00-03:00",
-   "hasta": "2026-11-17T19:20:00-03:00",
-   "cantidad": 2
-  },
-  {
-   "id": "ciclo-centro-cultural-de-espana",
-   "titulo": "Centro Cultural de España",
-   "lugar_id": "centro-cultural-de-espana",
-   "desde": "2026-11-16T19:30:00-03:00",
-   "hasta": "2026-12-03T10:00:00-03:00",
-   "cantidad": 9
-  },
   {
    "id": "ciclo-encuentro-de-murga-joven-2026",
    "titulo": "Encuentro de Murga Joven 2026",
@@ -51,12 +19,36 @@
    "cantidad": 1
   },
   {
+   "id": "ciclo-el-mingus",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+   "lugar_id": "el-mingus",
+   "desde": "2026-11-17T00:00:00-03:00",
+   "hasta": "2026-11-21T00:00:00-03:00",
+   "cantidad": 5
+  },
+  {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
    "lugar_id": null,
    "desde": "2026-11-17T10:00:00-03:00",
    "hasta": "2026-12-11T16:00:00-03:00",
    "cantidad": 7
+  },
+  {
+   "id": "ciclo-andrzej-wajda-en-su-centenario",
+   "titulo": "Andrzej Wajda, en su centenario",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-17T17:00:00-03:00",
+   "hasta": "2026-11-17T19:20:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-centro-cultural-de-espana",
+   "titulo": "Centro Cultural de España",
+   "lugar_id": "centro-cultural-de-espana",
+   "desde": "2026-11-17T19:00:00-03:00",
+   "hasta": "2026-12-03T10:00:00-03:00",
+   "cantidad": 8
   },
   {
    "id": "ciclo-particulas",
@@ -75,12 +67,28 @@
    "cantidad": 7
   },
   {
+   "id": "ciclo-bazofi-oriental-2026",
+   "titulo": "BAZOFI ORIENTAL 2026",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-18T17:30:00-03:00",
+   "hasta": "2026-11-21T19:45:00-03:00",
+   "cantidad": 8
+  },
+  {
    "id": "ciclo-atlantidoc",
    "titulo": "Atlantidoc",
    "lugar_id": "centro-cultural-terminal-goes",
    "desde": "2026-11-18T19:00:00-03:00",
    "hasta": "2026-11-25T19:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-fac",
+   "titulo": "FAC",
+   "lugar_id": "fac-fundacion-de-arte-contemporaneo",
+   "desde": "2026-11-19T18:00:00-03:00",
+   "hasta": "2026-11-28T11:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
@@ -153,6 +161,14 @@
    "desde": "2026-11-21T21:00:00-03:00",
    "hasta": "2026-12-05T21:30:00-03:00",
    "cantidad": 4
+  },
+  {
+   "id": "ciclo-pena-sin-cadenas",
+   "titulo": "Peña sin cadenas",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-22T17:40:00-03:00",
+   "hasta": "2026-11-22T20:05:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-musica-en-el-parque",

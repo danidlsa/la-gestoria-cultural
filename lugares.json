@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-16T20:37:36.490546-03:00",
- "cantidad": 192,
+ "generado": "2026-11-17T01:11:41.422549-03:00",
+ "cantidad": 193,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -298,7 +298,11 @@
   {
    "id": "cabildo-de-montevideo",
    "nombre": "Cabildo de Montevideo",
-   "alias": [],
+   "alias": [
+    "Museo Histórico Cabildo",
+    "Museo Histórico Cabildo de Montevideo",
+    "Cabildo"
+   ],
    "direccion": "Juan Carlos Gómez 1362",
    "lat": -34.90653,
    "lon": -56.20278,
@@ -1030,9 +1034,9 @@
    "id": "la-trastienda",
    "nombre": "La Trastienda",
    "alias": [],
-   "direccion": "Daniel Fernández Crespo 1763",
-   "lat": -34.8983906,
-   "lon": -56.1783966,
+   "direccion": null,
+   "lat": -34.8984034,
+   "lon": -56.1784225,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1098,6 +1102,16 @@
    "direccion": "Av. Uruguay 1136",
    "lat": -34.9031884,
    "lon": -56.1919403,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "maciel-1384",
+   "nombre": "Maciel 1384",
+   "alias": [],
+   "direccion": "Maciel 1384",
+   "lat": -34.9089224,
+   "lon": -56.2109976,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1244,7 +1258,7 @@
    "direccion": "José Luis Zorrilla de San Martín 96, Punta Carretas",
    "lat": -34.92763,
    "lon": -56.15977,
-   "barrio": null,
+   "barrio": "Punta Carretas",
    "ciudad": "Montevideo"
   },
   {
@@ -1443,7 +1457,9 @@
   {
    "id": "qatrevido",
    "nombre": "QAtrevido",
-   "alias": [],
+   "alias": [
+    "Q'atrevido"
+   ],
    "direccion": "San José 907, Montevideo",
    "lat": -34.907129,
    "lon": -56.196424,
@@ -1610,7 +1626,7 @@
    "id": "sala-rondeau",
    "nombre": "Sala Rondeau",
    "alias": [],
-   "direccion": "Av. Gral. Rondeau 1904",
+   "direccion": "Av Gral Rondeau 1904",
    "lat": -34.894936,
    "lon": -56.192403,
    "barrio": null,
@@ -1947,9 +1963,9 @@
    "id": "teatron",
    "nombre": "Teatrón",
    "alias": [],
-   "direccion": "Av.Gral Rivera 3406",
-   "lat": -34.902048,
-   "lon": -56.140795,
+   "direccion": "Av.Gral Rivera 3406, 11300 Montevideo, D",
+   "lat": -34.902037,
+   "lon": -56.140804,
    "barrio": null,
    "ciudad": "Montevideo"
   },

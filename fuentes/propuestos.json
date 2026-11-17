@@ -1,57 +1,10 @@
 {
  "fuente": "propuestos",
- "corrida": "2026-11-16T20:35:39.102799-03:00",
+ "corrida": "2026-11-17T01:10:07.291497-03:00",
  "ok": true,
- "cantidad": 3,
+ "cantidad": 2,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "propuestos",
-   "id_externo": "82aa3000f1d7",
-   "url": "https://cineaccesible.uy/?p=1075",
-   "titulo": "Ese soplo - Ciclo de Cine AccesibleUy",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "A sus 88 años, mi abuelo Fernando me propone hacer una película ȷuntos. Su propuesta llega cuando le digo que me voy a mudar de su casa. Así empezamos a filmar, yo con mi cámara y él con la suya. Si bien hemos convivido por más de 20 años, es a través de la cámara que nos vemos como nunca antes lo…",
-   "lugar": {
-    "nombre": "Balcón del Cerro",
-    "direccion": "Filipinas 3671",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-16T10:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://cineaccesible.uy/?p=1075",
-     "via": "propuestos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/82aa3000f1d7.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "propuestos",
    "id_externo": "c85f26a9a0e0",
