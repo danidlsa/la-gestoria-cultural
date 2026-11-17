@@ -78,6 +78,14 @@ def proxima_edicion(especial: dict, hoy: date) -> dict:
         horario = especial.get("horario")
         termina = hasta + timedelta(days=1) if horario and horario[1] < horario[0] else hasta
         return {"desde": desde, "hasta": hasta, "estimada": False, "a_confirmar": False, "ventana": (desde, termina)}
+    if especial["regla"] == "cada_mes":
+        # Un ciclo mensual con día fijo ("el tercer sábado de cada mes"): la de este mes o, si ya pasó, la del que viene.
+        dia_semana, ordinal = DIAS_SEMANA.index(especial["dia"]), especial.get("ordinal", 1)
+        desde = _enesimo(hoy.year, hoy.month, dia_semana, ordinal)
+        if desde < hoy:
+            anio, mes = (hoy.year + 1, 1) if hoy.month == 12 else (hoy.year, hoy.month + 1)
+            desde = _enesimo(anio, mes, dia_semana, ordinal)
+        return {"desde": desde, "hasta": desde, "ventana": (desde, desde), "estimada": False, "a_confirmar": False}
     desde, hasta = _edicion(especial, hoy.year)
     if hasta < hoy:
         desde, hasta = _edicion(especial, hoy.year + 1)

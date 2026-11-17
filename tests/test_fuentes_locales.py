@@ -121,3 +121,33 @@ def test_portal_im_junta_en_una_tarjeta_lo_que_se_hace_en_muchos_lugares(pagina,
     assert {f.sala for f in taller[0].funciones} == {"Centro Juvenil Salesiano", "Cooperativa 3 de Abril", "Cabaña Anaya"}
     assert len(taller[0].funciones) == 19
 
+
+
+def test_portal_im_en_un_barrio_entero_busca_el_sitio_en_el_texto(ahora):
+    """Sábados en Ciudad Vieja: el "lugar" es el barrio (un polígono); el sitio exacto está en el texto."""
+    area = {"type": "node--lugar", "id": "cv", "attributes": {"title": "Ciudad Vieja", "field_direccion": "Ciudad Vieja",
+            "field_ubicacion": {"value": "POLYGON ((-56.21 -34.90, -56.20 -34.90, -56.20 -34.91, -56.21 -34.90))", "geo_type": "Polygon"}}}
+    funciones = {"type": "paragraph--funciones", "id": "f", "attributes": {"field_fechas_horarios": [
+        {"value": "2026-11-21T11:00:00-03:00", "end_value": "2026-11-21T20:00:00-03:00"}]},
+        "relationships": {"field_donde": {"data": {"type": "node--lugar", "id": "cv"}}}}
+    actividad = {"type": "node--actividad", "id": "a", "attributes": {
+        "drupal_internal__nid": 1, "title": "Roda de Samba", "path": {"alias": "/evento/sabados-en-ciudad-vieja/roda-de-samba"},
+        "field_resumen": {"value": "<p>Sábado 21 de noviembre de 11:00 a 20:00</p>"},
+        "field_contenido": {"value": "<p>Presentación musical en vivo en Montevideo Indoor Coffee Shop (Pérez Castellano 1545).</p>"}},
+        "relationships": {"field_fechas_horarios": {"data": [{"type": "paragraph--funciones", "id": "f"}]}}}
+    (evento,) = portal_im.armar_eventos(actividad, Indice([area, funciones]), ahora)
+    assert (evento.lugar.nombre, evento.lugar.direccion, evento.lugar.lat) == ("Montevideo Indoor Coffee Shop", "Pérez Castellano 1545", None)
+    assert evento.lugar.alternativas == ["Ciudad Vieja"]  # si no se lo encuentra, queda en el barrio (aproximado)
+
+
+def test_portal_im_el_sitio_en_el_texto():
+    s = portal_im.sitio_en_el_texto
+    assert s("x", "Lugar: Salón Andy (Pérez Castellano 1462)") == ("Salón Andy", "Pérez Castellano 1462")
+    assert s("x", "Organiza Alto Café (Pérez Castellano 1417 bis).") == ("Alto Café", "Pérez Castellano 1417 bis")
+    assert s("x", "en Bar Andorra (25 de Mayo 591).") == ("Bar Andorra", "25 de Mayo 591")
+    assert s("Música en vivo en Café Brasilero", "Presentación de música en vivo.") == ("Café Brasilero", None)
+    assert s("Visita a la cripta", "la historia de la Cripta (siglo 18)") is None
+    assert s("Milonga en el Museo Romántico", "Lugar: Museo Romántico, 25 de Mayo 428.") == ("Museo Romántico", "25 de Mayo 428")
+    assert s("Feria en Covi Funac", "Lugar: terreno de Covi Funac, entre las calles Juncal y Cerrito.") == (
+        "terreno de Covi Funac", "Juncal y Cerrito")
+    assert s("Recorrido libre por el Teatro Solís", "") == ("Teatro Solís", None)

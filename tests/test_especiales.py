@@ -93,3 +93,11 @@ def test_se_pueden_apagar(tmp_path, monkeypatch):
     assert especiales.activo(config) is True  # sin la clave, siguen como antes
     monkeypatch.setattr(especiales, "activo", lambda: False)
     assert especiales.avisar() == []  # apagados: no lee nada ni abre avisos
+
+
+def test_un_ciclo_de_todos_los_meses():
+    ciudad_vieja = {"regla": "cada_mes", "dia": "sabado", "ordinal": 3}
+    assert especiales.proxima_edicion(ciudad_vieja, date(2026, 11, 16))["desde"] == date(2026, 11, 21)
+    assert especiales.proxima_edicion(ciudad_vieja, date(2026, 11, 21))["desde"] == date(2026, 11, 21)  # es hoy
+    assert especiales.proxima_edicion(ciudad_vieja, date(2026, 11, 22))["desde"] == date(2026, 12, 19)
+    assert especiales.proxima_edicion(ciudad_vieja, date(2026, 12, 20))["desde"] == date(2027, 1, 16)

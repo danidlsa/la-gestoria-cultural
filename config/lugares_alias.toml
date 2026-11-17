@@ -219,3 +219,8 @@ direccion = "Canelones 2121"
 barrio = "Parque Rodó"
 lat = -34.907029
 lon = -56.169168
+
+[[lugar]]
+id = "cabildo-de-montevideo"
+nombre = "Cabildo de Montevideo"
+alias = ["Museo Histórico Cabildo", "Museo Histórico Cabildo de Montevideo", "Cabildo"]

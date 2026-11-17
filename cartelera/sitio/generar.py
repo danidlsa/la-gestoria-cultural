@@ -482,7 +482,7 @@ def generar() -> Path:
             carpeta.mkdir(exist_ok=True)
             (carpeta / "index.html").write_text(entorno.get_template("atajo.html.j2").render(
                 sitio=NOMBRE_SITIO, url_sitio=URL_SITIO, nombre=especial["nombre"], enlace=especial["enlace"],
-                descripcion=f"{especial['nombre']}: todo el programa en un lugar. Filtrá por barrio y armá tu recorrido de la noche.",
+                descripcion=f"{especial['nombre']}: todo el programa en un lugar, para filtrar y armar tu recorrido.",
             ), encoding="utf-8")
     # Para los buscadores.
     (SALIDA / "robots.txt").write_text(robots_txt(URL_SITIO), encoding="utf-8")

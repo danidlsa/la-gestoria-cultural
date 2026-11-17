@@ -111,6 +111,33 @@ def coordenadas(wkt: str | None) -> tuple[float | None, float | None]:
     return sum(lats) / len(lats), sum(lons) / len(lons)
 
 
+# Cuando el "lugar" del portal es un área (un barrio entero, como en Sábados en Ciudad Vieja), el sitio exacto suele
+# estar en el texto: "en Montevideo Indoor Coffee Shop (Pérez Castellano 1545)", "Lugar: Salón Andy (Pérez Castellano
+# 1462)", "Organiza Alto Café (Pérez Castellano 1417 bis)". Y si no, a veces en el título: "Música en vivo en Café
+# Brasilero".
+_NOMBRE_CON_DIRECCION = re.compile(
+    r"([A-ZÁÉÍÓÚÑ][\w'&.\-]*(?:\s+(?:de|del|la|las|los|el|y|[A-ZÁÉÍÓÚÑ0-9][\w'&.\-]*))*)\s*\(((?:\d{1,2}\s+de\s+\w+|[A-ZÁÉÍÓÚÑ][^()\d]{1,40}?)\s\d{2,5}\b[^()]*)\)")
+# "Lugar: Museo Romántico, 25 de Mayo 428." / "Lugar: terreno de Covi Funac, entre las calles Juncal y Cerrito."
+_LUGAR_DOS_PUNTOS = re.compile(r"\bLugar:\s*([^,.()]+?)(?:,\s*(?:entre\s+las\s+calles\s+)?([^.()]+?))?\s*(?:\.|$)")
+_ANTES_DEL_NOMBRE = re.compile(r"^(?:Organizan?|Lugar|En|Participa|Presenta)\s*:?\s+")
+_SALA_EN_TITULO = re.compile(
+    r"\b(?:en|por|del)\s+(?:el\s+|la\s+)?((?:Caf[eé]|Bar|Restaurante|Museo|Galer[ií]a|Teatro|Sala|Espacio|Centro|Casa|Plaza|"
+    r"Librer[ií]a|Taller|Cabildo|Iglesia|Catedral|Templo)\s.+)$")
+
+
+def sitio_en_el_texto(titulo: str, *textos: str | None) -> tuple[str, str | None] | None:
+    """(nombre, dirección) del sitio exacto que nombra el texto, para una actividad cargada en un área; o None."""
+    for texto in textos:
+        if encontrado := _NOMBRE_CON_DIRECCION.search(texto or ""):
+            return _ANTES_DEL_NOMBRE.sub("", encontrado.group(1)).strip(), encontrado.group(2).strip(" .")
+    for texto in textos:
+        if encontrado := _LUGAR_DOS_PUNTOS.search(texto or ""):
+            return encontrado.group(1).strip(), (encontrado.group(2) or "").strip() or None
+    if encontrado := _SALA_EN_TITULO.search(titulo):
+        return encontrado.group(1).strip(), None
+    return None
+
+
 def funciones_de(fechas: list[dict], ahora: datetime) -> list[Funcion] | None:
     """Funciones futuras de un paragraph--funciones. None si se repite sin fecha de fin."""
     desde, hasta = ahora - MARGEN_PASADO, ahora + timedelta(days=DIAS_ADELANTE)
@@ -234,17 +261,21 @@ def armar_eventos(actividad: dict, indice: Indice, ahora: datetime) -> list[Even
 
     eventos = []
     for lugar, funciones in con_funciones:
-        lat, lon = coordenadas((lugar["attributes"].get("field_ubicacion") or {}).get("value"))
+        ubicacion = lugar["attributes"].get("field_ubicacion") or {}
+        lat, lon = coordenadas(ubicacion.get("value"))
+        nombre_lugar = lugar["attributes"]["title"].strip()
+        direccion = (lugar["attributes"].get("field_direccion") or "").strip() or None
+        alternativas: list[str] = []
+        # Un área (el barrio entero): el sitio exacto, si el texto lo dice; si no se lo encuentra en el mapa, el
+        # evento queda en el barrio, con "ubicación aproximada".
+        if ubicacion.get("geo_type") == "Polygon" and (sitio := sitio_en_el_texto(titulo, contenido, descripcion)):
+            alternativas = [nombre_lugar]
+            (nombre_lugar, direccion), lat, lon = sitio, None, None
         eventos.append(EventoCrudo(
             **comunes,
             id_externo=nid if len(por_lugar) == 1 else f"{nid}-{lugar['attributes']['drupal_internal__nid']}",
             descripcion_corta=recortar(contenido or descripcion),
-            lugar=LugarCrudo(
-                nombre=lugar["attributes"]["title"].strip(),
-                direccion=(lugar["attributes"].get("field_direccion") or "").strip() or None,
-                lat=lat,
-                lon=lon,
-            ),
+            lugar=LugarCrudo(nombre=nombre_lugar, direccion=direccion, lat=lat, lon=lon, alternativas=alternativas),
             funciones=sorted(funciones, key=lambda f: f.inicio),
         ))
     return eventos

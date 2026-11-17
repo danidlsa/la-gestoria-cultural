@@ -21,6 +21,7 @@ mostrar = ["noche-de-las-librerias"]
 #   regla = "dia_del_mes", mes, dia, ordinal, dias
 #                                               por ejemplo, el primer sábado de octubre y el día siguiente
 #   regla = "meses", meses = [11]               solo se sabe el mes: la fecha queda "a confirmar"
+#   regla = "cada_mes", dia, ordinal            un ciclo de todos los meses, por ejemplo el tercer sábado
 #
 # `palabras` son expresiones regulares (sin tildes, sin mayúsculas) que se buscan en el título del evento
 # y en el de su ciclo. Solo cuentan los eventos con alguna función dentro de las fechas del especial.
@@ -118,3 +119,21 @@ cuando = "en la Semana de Turismo"
 regla = "semana_de_turismo"
 sitio = "https://montevideo.gub.uy/"
 palabras = ["criolla del prado", "semana criolla"]
+
+[[especial]]
+id = "sabados-en-ciudad-vieja"
+nombre = "Sábados en Ciudad Vieja"
+descripcion = "Actividades culturales, gastronómicas y artísticas en las calles de Ciudad Vieja, casi todas gratis: música en vivo, ferias, visitas guiadas y recorridos. Organiza la Intendencia con el Municipio B, comerciantes y organizaciones del barrio."
+cuando = "el tercer sábado de cada mes"
+regla = "cada_mes"
+dia = "sabado"
+ordinal = 3
+sitio = "https://eventos.montevideo.gub.uy/sabadosenciudadvieja"
+pagina = "https://eventos.montevideo.gub.uy/sabadosenciudadvieja"
+# Las actividades llegan por el portal de eventos de la Intendencia (fuente "portal_im"), con este ciclo.
+palabras = ["sabados en ciudad vieja"]
+horario = ["11:00", "18:00"]
+lugares = "lugares"
+enlace = "ciudadvieja"  # lagestoriacultural.uy/ciudadvieja lleva directo a la pestaña
+pestana = "Sábados en Ciudad Vieja"
+pestana_corta = "Ciudad Vieja"
