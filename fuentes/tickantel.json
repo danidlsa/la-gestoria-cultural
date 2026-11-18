@@ -1,9 +1,11 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-17T23:56:52.891087-03:00",
+ "corrida": "2026-11-18T12:46:50.834148-03:00",
  "ok": true,
  "cantidad": 108,
- "errores": [],
+ "errores": [
+  "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+ ],
  "eventos": [
   {
    "fuente": "tickantel",
@@ -2961,6 +2963,48 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021215",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
+   "titulo": "Karina en Concierto",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Karina La Princesita, vuelve al Antel Arena. Este 4 de diciembre, Karina en vivo, presentando todos sus grandes temas y sus nuevos éxitos. Única función: Antel Arena, 4 de diciembre - 21 horas. No te pierdas una noche muy especial, Karina en Uruguay, no te quedes afuera.",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021215/700X390_.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021511",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021511/kind-of-blue-davis-100-anos",
    "titulo": "Kind of Blue - Davis 100 años",
@@ -2998,48 +3042,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021511/Banner_Tickantel_Festival_2026_V1.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021215",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
-   "titulo": "Karina en Concierto",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Karina La Princesita, vuelve al Antel Arena. Este 4 de diciembre, Karina en vivo, presentando todos sus grandes temas y sus nuevos éxitos. Única función: Antel Arena, 4 de diciembre - 21 horas. No te pierdas una noche muy especial, Karina en Uruguay, no te quedes afuera.",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-04T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021215/karina-en-concierto",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021215/700X390_.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3191,53 +3193,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021514",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021514/mvd-simoni-colom",
-   "titulo": "Mvd - Simoni - Colom",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "19° Festival de Jazz de Montevideo SÁBADO 5 DE DICIEMBRE 2026 – 21.00 horas Teatro Solís – Sala Principal MVD BIG BAND & SIMONI, saxo (Italia) – COLOM, trompeta (Francia) El Instituto Italiano de Cultura de Montevideo y la Embajada de Francia en Uruguay, presentan al saxofonista italiano Lorenzo…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-05T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1200.0,
-    "hasta": 1200.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021514/mvd-simoni-colom",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021514/Banner_Tickantel_Festival_2026_V1.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021934",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021934/vanina-soldevila-y-martin-lima",
    "titulo": "Vanina Soldevila y Martín Lima",
@@ -3275,6 +3230,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021934/banner2.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021514",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021514/mvd-simoni-colom",
+   "titulo": "Mvd - Simoni - Colom",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "19° Festival de Jazz de Montevideo SÁBADO 5 DE DICIEMBRE 2026 – 21.00 horas Teatro Solís – Sala Principal MVD BIG BAND & SIMONI, saxo (Italia) – COLOM, trompeta (Francia) El Instituto Italiano de Cultura de Montevideo y la Embajada de Francia en Uruguay, presentan al saxofonista italiano Lorenzo…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1200.0,
+    "hasta": 1200.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021514/mvd-simoni-colom",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021514/Banner_Tickantel_Festival_2026_V1.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3653,48 +3655,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021903",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
-   "titulo": "Gala de Tango",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "Vuelve la Gran Gala de Tango. La danza, la pasión y la poesía del género ciudadano, con el sello inconfundible de la Orquesta Filarmónica de Montevideo. Un espectáculo que celebra la riqueza de uno de los géneros musicales más representativos de nuestra identidad cultural. Con la voz de Valeria…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-10T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021903/BANNER_TICKANTEL_OFM_GRAN_GALA_TANGO_DIC_700x390.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40020133",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020133/bns-el-cascanueces",
    "titulo": "BNS - El Cascanueces",
@@ -3790,6 +3750,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020133/Banner_nuevo.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021903",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
+   "titulo": "Gala de Tango",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Vuelve la Gran Gala de Tango. La danza, la pasión y la poesía del género ciudadano, con el sello inconfundible de la Orquesta Filarmónica de Montevideo. Un espectáculo que celebra la riqueza de uno de los géneros musicales más representativos de nuestra identidad cultural. Con la voz de Valeria…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-10T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021903/BANNER_TICKANTEL_OFM_GRAN_GALA_TANGO_DIC_700x390.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3921,48 +3923,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021890/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021895",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada",
-   "titulo": "Nadie dice nada",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Nadie dice nada en vivo",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-12T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021895/NDN-AntelArena-WebTickantel-12dic-700x390.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4324,6 +4284,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021887/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021996",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021996/lubola-banda-gira-25-aniversario",
+   "titulo": "Lubola Banda  “Gira 25 aniversario”",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Lubola Banda celebra sus 25 años de trayectoria con un espectáculo imperdible, lleno de energía y Candombe Fusión. El próximo 20 de diciembre a las 20:00 hs en la Sala Zitarrosa; El grupo recorrerá las canciones más emblemáticas de su historia, con versiones renovadas y la participación especial de…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": -34.90626,
+    "lon": -56.19441,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021996/lubola-banda-gira-25-aniversario",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021996/700x390.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

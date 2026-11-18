@@ -1,6 +1,6 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-18T00:02:19.638410-03:00",
+ "corrida": "2026-11-18T12:52:22.917605-03:00",
  "ok": true,
  "cantidad": 85,
  "errores": [],
@@ -4880,6 +4880,13 @@
    "funciones": [
     {
      "inicio": "2026-11-24T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,

@@ -1,10 +1,68 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-18T00:03:54.380298-03:00",
+ "corrida": "2026-11-18T12:53:57.936402-03:00",
  "ok": true,
- "cantidad": 22,
+ "cantidad": 24,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "solis",
+   "id_externo": "3093",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Mala-persona-uc3093",
+   "titulo": "Mala persona",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-11T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-13T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-14T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202611/W756_H530/7069.jpg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "solis",
    "id_externo": "3092",
@@ -827,6 +885,43 @@
    "enlaces": [
     "https://tickantel.com.uy/inicio/espectaculo/40020603/espectaculo/BANDA%20SINF%C3%93NICA%20-%20Cascanueces?2"
    ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2944",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/La-casa-de-Bernarda-Alba-uc2944",
+   "titulo": "La casa de Bernarda Alba",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202606/W756_H530/6746.jpg",
+   "productor": "Comedia Nacional",
+   "region": "montevideo",
+   "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,

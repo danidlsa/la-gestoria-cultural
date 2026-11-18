@@ -1,10 +1,52 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-18T00:08:40.079267-03:00",
+ "corrida": "2026-11-18T12:58:51.096659-03:00",
  "ok": true,
- "cantidad": 56,
+ "cantidad": 57,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "centroculturalterminalgoes-20261128",
+   "url": "https://www.instagram.com/p/DfxDaO6CetM/",
+   "titulo": "Centro Cultural Terminal Goes: Vuelve con una ÚNICA función",
+   "categoria": "humor",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Vuelve con una ÚNICA función! CRUDO Un monólogo de humor ácido y vulnerable sobre la ansiedad, la identidad y el deseo urgente de dejar de actuar incluso cuando nadie está mirando. Sábado 28 de noviembre 20:30 h Centro Cultural Terminal Goes Entradas en Tickantel Solicitá tu código para obtener…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfxDaO6CetM/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/73d0d83f1bd8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "instagram_bares",
    "id_externo": "lacretinacasa-20261021",
@@ -717,17 +759,17 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261119",
-   "url": "https://www.instagram.com/p/DfzZxVioAoW/",
+   "url": "https://www.instagram.com/p/Df4wznYIL7a/",
    "titulo": "Centro Cultural de España: Ilustrando feminismos.",
    "categoria": "exposicion",
    "categoria_segura": false,
-   "descripcion_corta": "Ilustrando feminismos. Lápices para resistir reúne a 14 ilustradoras de Latinoamérica y Guinea Ecuatorial en una exposición colectiva que, a través del arte y la ilustración, propone una reflexión sobre las luchas feministas, la memoria y la defensa de los derechos de las mujeres. Con la curaduría…",
+   "descripcion_corta": "¡La exposición está tomando forma en el CCE! Ya estamos trabajando en el montaje de Ilustrando feminismos. Lápices para resistir , una muestra que reúne el trabajo de 14 ilustradoras de Latinoamérica y Guinea Ecuatorial para homenajear a las mujeres que han puesto el cuerpo y la creatividad al…",
    "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
+    "nombre": "CCE (Rincón 629)",
+    "direccion": "CCE (Rincón 629)",
     "lat": null,
     "lon": null,
-    "barrio": "Ciudad Vieja",
+    "barrio": null,
     "alternativas": []
    },
    "funciones": [
@@ -747,7 +789,7 @@
    },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DfzZxVioAoW/",
+     "url": "https://www.instagram.com/p/Df4wznYIL7a/",
      "via": "instagram"
     }
    ],
@@ -1654,7 +1696,7 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "paseo_cultural_ciudad_vieja-20261124",
-   "url": "https://www.instagram.com/p/DfDWRJVCNSz/",
+   "url": "https://www.instagram.com/reel/Df4e-aCijGM/",
    "titulo": "Paseo Cultural Ciudad Vieja: Presenta una nueva Gala Lírica, esta vez con una propuesta dedicada a la opereta…",
    "categoria": "musica",
    "categoria_segura": false,
@@ -1679,7 +1721,7 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DfDWRJVCNSz/",
+     "url": "https://www.instagram.com/reel/Df4e-aCijGM/",
      "via": "instagram"
     }
    ],
@@ -2098,48 +2140,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "centroculturalterminalgoes-20261128",
-   "url": "https://www.instagram.com/p/DfxDaO6CetM/",
-   "titulo": "Centro Cultural Terminal Goes: Vuelve con una ÚNICA función",
-   "categoria": "humor",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Vuelve con una ÚNICA función! CRUDO Un monólogo de humor ácido y vulnerable sobre la ansiedad, la identidad y el deseo urgente de dejar de actuar incluso cuando nadie está mirando. Sábado 28 de noviembre 20:30 h Centro Cultural Terminal Goes Entradas en Tickantel Solicitá tu código para obtener…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfxDaO6CetM/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/73d0d83f1bd8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "elbar_delxsamigxs-20261129",
    "url": "https://www.instagram.com/p/Df0IbtaGBqM/",
    "titulo": "Brecha Bar y Cafe: Cumplimos 12 años",
@@ -2506,6 +2506,50 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lacretinacasa-20261220",
+   "url": "https://www.instagram.com/p/Df25Q3FD7v6/",
+   "titulo": "Llega a La Cretina la cantante, compositora y multiinstrumentista chilena…",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "El domingo 20 de diciembre llega a La Cretina la cantante, compositora y multiinstrumentista chilena camilavaccaro.musica Luego de 7 años vuelve a Uruguay para presentar por única vez su disco y concierto \"El Gabinete de las Condenadas\". El espectáculo cruza música en vivo, performance y poesía…",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df25Q3FD7v6/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/6704a63d17c3.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },

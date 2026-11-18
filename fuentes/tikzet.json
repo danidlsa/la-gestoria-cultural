@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-18T00:08:18.756439-03:00",
+ "corrida": "2026-11-18T12:58:29.217946-03:00",
  "ok": true,
  "cantidad": 15,
  "errores": [],
@@ -148,53 +148,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
-   "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
-   "titulo": "Javier Zubillaga De Vivo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Javier Zubillaga despide el año con un show íntimo dedicado a su repertorio humorístico, con canciones de sus dos trabajos discográficos y varios temas inéditos.",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": "2026-11-27T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "fa34481c-ba2c-453c-827a-3f3257cfdbef",
    "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
    "titulo": "Jengibre y Lipe Gómez",
@@ -242,6 +195,53 @@
   },
   {
    "fuente": "tikzet",
+   "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
+   "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
+   "titulo": "Javier Zubillaga De Vivo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Javier Zubillaga despide el año con un show íntimo dedicado a su repertorio humorístico, con canciones de sus dos trabajos discográficos y varios temas inéditos.",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": "2026-11-27T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
    "id_externo": "68bfb10e-f938-4a19-a28e-85476eac3e17",
    "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
    "titulo": "Alhelíes + Tengo un amigo que anda",
@@ -279,6 +279,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F59aae68e-c969-4698-8ee6-4a992d6dab33.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "a33a93fb-def1-4438-afc8-3d99e4de2138",
+   "url": "https://www.tikzet.com/events/craig-carri-cuarteto",
+   "titulo": "Craig Carri Cuarteto",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Desde la escena de jazz de Londres, el guitarrista irlandés Craig Carri presenta su cuarteto montevideano en El Hormiguero, con música de su próximo disco, Hubbub, y algunos standards elegidos para la ocasión. Composiciones construidas sobre estructuras rítmicas que abren el camino a la exploración…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T21:00:00-03:00",
+     "fin": "2026-11-18T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/craig-carri-cuarteto",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F1964316e-fa61-403c-b44a-0e9baa902d42.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -618,53 +665,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "a33a93fb-def1-4438-afc8-3d99e4de2138",
-   "url": "https://www.tikzet.com/events/craig-carri-cuarteto",
-   "titulo": "Craig Carri Cuarteto",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Desde la escena de jazz de Londres, el guitarrista irlandés Craig Carri presenta su cuarteto montevideano en El Hormiguero, con música de su próximo disco, Hubbub, y algunos standards elegidos para la ocasión. Composiciones construidas sobre estructuras rítmicas que abren el camino a la exploración…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T21:00:00-03:00",
-     "fin": "2026-11-18T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/craig-carri-cuarteto",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F1964316e-fa61-403c-b44a-0e9baa902d42.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
    "url": "https://www.tikzet.com/events/narciso-en-montevideo",
    "titulo": "Narciso en Montevideo",
@@ -672,7 +672,7 @@
    "categoria_segura": false,
    "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
    "lugar": {
-    "nombre": "Sala Duc&oacute",
+    "nombre": "Sala Ducón",
     "direccion": "Convención 1101",
     "lat": null,
     "lon": null,
@@ -702,7 +702,7 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
-   "productor": "Sala Duc&oacute",
+   "productor": "Sala Ducón",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

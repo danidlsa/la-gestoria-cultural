@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-18T00:10:00.545662-03:00",
- "cantidad": 204,
+ "generado": "2026-11-18T13:00:06.561713-03:00",
+ "cantidad": 206,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -816,6 +816,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "espacio-modelo",
+   "nombre": "Espacio Modelo",
+   "alias": [],
+   "direccion": "Espacio Modelo. Cádiz 3294",
+   "lat": -34.871917,
+   "lon": -56.154874,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "espacio-palermo",
    "nombre": "Espacio Palermo",
    "alias": [
@@ -958,6 +968,7 @@
     "Hotel Radisson",
     "Radisson Montevideo Victoria Plaza Hotel",
     "Radisson Victoria Plaza Hotel",
+    "Radisson Piso 2",
     "Hotel Radisson, Piso 02 - Ballro"
    ],
    "direccion": "Plaza Independencia 759",
@@ -1027,12 +1038,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu-laboratorio-tecnologico-del-uruguay",
-   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
+   "id": "latu",
+   "nombre": "LATU",
    "alias": [
-    "LATU"
+    "LATU - Laboratorio Tecnológico del Uruguay"
    ],
-   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
+   "direccion": "Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1117,6 +1128,16 @@
    "direccion": null,
    "lat": -34.8984034,
    "lon": -56.1784225,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "la-vida-en-rosa",
+   "nombre": "La vida en Rosa",
+   "alias": [],
+   "direccion": "Acevedo Díaz 1769, 11800 Montevideo, Dep",
+   "lat": -34.894372,
+   "lon": -56.167512,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1510,6 +1531,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "plaza-zabala",
+   "nombre": "Plaza Zabala",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9076019,
+   "lon": -56.2081314,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "plaza-de-las-pioneras",
    "nombre": "Plaza de las Pioneras",
    "alias": [
@@ -1671,16 +1702,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "sala-duc-oacute",
-   "nombre": "Sala Duc&oacute",
-   "alias": [],
-   "direccion": "Convención 1101",
-   "lat": -34.9108255,
-   "lon": -56.1966122,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "sala-ducon",
    "nombre": "Sala Ducón",
    "alias": [],
@@ -1771,8 +1792,8 @@
    "nombre": "Sala Zitarrosa",
    "alias": [],
    "direccion": "Av. 18 de Julio 1012",
-   "lat": -34.90626,
-   "lon": -56.19441,
+   "lat": -34.906238,
+   "lon": -56.194472,
    "barrio": null,
    "ciudad": "Montevideo"
   },

@@ -1,15 +1,7 @@
 {
- "generado": "2026-11-18T00:10:00.545662-03:00",
+ "generado": "2026-11-18T13:00:06.561713-03:00",
  "cantidad": 28,
  "ciclos": [
-  {
-   "id": "ciclo-particulas",
-   "titulo": "PARTÍCULAS",
-   "lugar_id": "sala-verdi",
-   "desde": "2026-11-17T20:00:00-03:00",
-   "hasta": "2026-11-24T20:00:00-03:00",
-   "cantidad": 3
-  },
   {
    "id": "ciclo-el-mingus",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
@@ -59,14 +51,6 @@
    "cantidad": 2
   },
   {
-   "id": "ciclo-centro-cultural-de-espana",
-   "titulo": "Centro Cultural de España",
-   "lugar_id": "centro-cultural-de-espana",
-   "desde": "2026-11-19T19:00:00-03:00",
-   "hasta": "2026-12-03T10:00:00-03:00",
-   "cantidad": 8
-  },
-  {
    "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
    "titulo": "Estreno de obras Fortalecimiento de las Artes",
    "lugar_id": null,
@@ -91,6 +75,14 @@
    "cantidad": 1
   },
   {
+   "id": "ciclo-centro-cultural-de-espana",
+   "titulo": "Centro Cultural de España",
+   "lugar_id": "centro-cultural-de-espana",
+   "desde": "2026-11-20T20:00:00-03:00",
+   "hasta": "2026-12-03T10:00:00-03:00",
+   "cantidad": 7
+  },
+  {
    "id": "ciclo-primavera-tango",
    "titulo": "Primavera Tango",
    "lugar_id": "centro-cultural-terminal-goes",
@@ -103,8 +95,8 @@
    "titulo": "Sábados en Ciudad Vieja",
    "lugar_id": null,
    "desde": "2026-11-21T11:00:00-03:00",
-   "hasta": "2026-11-21T16:00:00-03:00",
-   "cantidad": 17
+   "hasta": "2026-11-21T18:00:00-03:00",
+   "cantidad": 22
   },
   {
    "id": "ciclo-candlelight",
@@ -177,6 +169,14 @@
    "desde": "2026-12-05T17:30:00-03:00",
    "hasta": "2026-12-05T19:30:00-03:00",
    "cantidad": 2
+  },
+  {
+   "id": "ciclo-montevideo-de-los-derechos",
+   "titulo": "Montevideo de los Derechos",
+   "lugar_id": "espacio-modelo",
+   "desde": "2026-12-11T16:00:00-03:00",
+   "hasta": "2026-12-11T16:00:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-ciclo-de-cine",
