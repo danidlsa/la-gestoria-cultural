@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-17T11:00:17.783386-03:00",
+ "corrida": "2026-11-18T11:00:15.789709-03:00",
  "ok": true,
- "cantidad": 43,
+ "cantidad": 50,
  "errores": [],
  "eventos": [
   {
@@ -64,27 +64,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-17T10:00:00-03:00",
-     "fin": "2026-11-17T12:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Casa de Jóvenes Adultos Mayores de Pajas Blancas",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-17T13:30:00-03:00",
-     "fin": "2026-11-17T15:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Centro Comunal Zonal 14",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-17T16:30:00-03:00",
-     "fin": "2026-11-17T18:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Comisión Fomento Larrañaga",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-18T16:00:00-03:00",
      "fin": "2026-11-18T18:00:00-03:00",
@@ -408,13 +387,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-17T13:30:00-03:00",
-     "fin": "2026-11-17T15:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-24T13:30:00-03:00",
      "fin": "2026-11-24T15:30:00-03:00",
      "sin_hora": false,
@@ -591,6 +563,50 @@
    "entradas": [],
    "beneficios": [],
    "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-04/20251031dicimouyjmr1527.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "568",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/paseo-de-las-artes-en-plaza-zabala",
+   "titulo": "Paseo de las Artes en Plaza Zabala",
+   "categoria": "exposicion",
+   "categoria_segura": true,
+   "descripcion_corta": "Atelier a cielo abierto con artistas plásticos pintando en vivo y exposición de obras. Participan los ateliers de Laura Morás y Erika Melusso. También habrá espacios temáticos dedicados a la Ruta de las Cafeterías y a Primavera en las Bodegas. Plaza Zabala",
+   "lugar": {
+    "nombre": "Plaza Zabala",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T12:00:00-03:00",
+     "fin": "2026-11-21T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-04/intervencionart%C3%ADstica.jpg",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
@@ -2058,6 +2074,48 @@
   },
   {
    "fuente": "portal_im",
+   "id_externo": "1049",
+   "url": "https://eventos.montevideo.gub.uy/evento/montevideo-de-los-derechos/montevideo-de-los-derechos",
+   "titulo": "Montevideo de los Derechos",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Montevideo de los Derechos propone una jornada de encuentro, cultura, convivencia y participación, en el marco del Día Internacional de los Derechos Humanos. La actividad contará con stands informativos, feria de organizaciones y emprendimientos, talleres, propuestas para todo público y…",
+   "lugar": {
+    "nombre": "Espacio Modelo",
+    "direccion": "Espacio Modelo. Cádiz 3294",
+    "lat": -34.871917,
+    "lon": -56.154874,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-11T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/300x200_Montevideo_Derechos.png",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Montevideo de los Derechos",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
    "id_externo": "1051",
    "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/feria-en-covi-funac",
    "titulo": "Feria en Covi Funac",
@@ -2134,6 +2192,239 @@
    "entradas": [],
    "beneficios": [],
    "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/img9506.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1053",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/ensayo-abierto-de-lonjas-de-ciudad-vieja",
+   "titulo": "Ensayo abierto de Lonjas de Ciudad Vieja",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Ensayo abierto para conocer los preparativos de la comparsa para las Llamadas 2027. Habrá toque de tambor, coreografías, taller de gramilla y porta trofeos. También se realizará un desfile desde Plaza Zabala por 1.º de Mayo hasta 25 de Mayo, y desde allí hasta Ituzaingó, para regresar por el mismo…",
+   "lugar": {
+    "nombre": "Ciudad Vieja",
+    "direccion": "Ciudad Vieja",
+    "lat": -34.90776664705883,
+    "lon": -56.20743817647059,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T18:00:00-03:00",
+     "fin": "2026-11-21T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-06/20131231dicimouyem0224-4%20candombe.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1054",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/exposicion-de-antiguedades-y-musica-en-vivo",
+   "titulo": "Exposición de antigüedades y música en vivo",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "Exposición de primus y antigüedades, acompañada de música en vivo. Ingreso con consumición. Lugar : Primuseum y La Chipatería, Pérez Castellano 1389.",
+   "lugar": {
+    "nombre": "Ciudad Vieja",
+    "direccion": "Ciudad Vieja",
+    "lat": -34.90776664705883,
+    "lon": -56.20743817647059,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T13:00:00-03:00",
+     "fin": "2026-11-21T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-07/caja%20registradora%20antigua.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1055",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/feria-del-vino-y-las-bodegas",
+   "titulo": "Feria del vino y las bodegas",
+   "categoria": "feria",
+   "categoria_segura": true,
+   "descripcion_corta": "En el marco del ciclo Primavera en las Bodegas, participan bodegas de Montevideo y Canelones con degustaciones, venta y actividades culturales. También habrá stands de cafés de Montevideo.",
+   "lugar": {
+    "nombre": "Ciudad Vieja",
+    "direccion": "Ciudad Vieja",
+    "lat": -34.90776664705883,
+    "lon": -56.20743817647059,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T11:00:00-03:00",
+     "fin": "2026-11-21T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-06/pexels-splitshire-copa%20de%20vino.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1056",
+   "url": "https://eventos.montevideo.gub.uy/actividad/visitas-guiadas-en-la-sala-zitarrosa",
+   "titulo": "Visitas guiadas en la Sala Zitarrosa",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "Con 27 años de historia, la Sala Zitarrosa es un espacio de referencia de la cultura uruguaya, que reúne distintas expresiones y estilos artísticos, como la música, el cine y otras propuestas culturales dirigidas a diversos públicos. Las visitas guiadas serán una oportunidad para conocer la…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.906238,
+    "lon": -56.194472,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T15:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T15:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-05T15:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-19T15:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-26T15:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/20260306dicimouyar17039%20%281%29.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1057",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/musica-en-vivo-y-feria-de-emprendimientos",
+   "titulo": "Música en vivo y feria de emprendimientos",
+   "categoria": "feria",
+   "categoria_segura": true,
+   "descripcion_corta": "Escenario del Banco República del Uruguay (BROU) por su 130° aniversario. Lugar : Piedras esquina Zabala Actuarán: Gato Renato Proyecto Mancuso Camila Ferrari Pitufo Lombardo La Decana Funcionará una feria de emprendimientos y plaza gastronómica.",
+   "lugar": {
+    "nombre": "Ciudad Vieja",
+    "direccion": "Ciudad Vieja",
+    "lat": -34.90776664705883,
+    "lon": -56.20743817647059,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T11:00:00-03:00",
+     "fin": "2026-11-21T18:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-09/s%C3%A1bado%20en%20ciudad%20vieja_musica.jpg",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
