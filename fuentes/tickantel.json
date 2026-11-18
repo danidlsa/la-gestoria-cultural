@@ -1,6 +1,6 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-18T16:31:23.605465-03:00",
+ "corrida": "2026-11-18T19:26:12.410952-03:00",
  "ok": true,
  "cantidad": 107,
  "errores": [
@@ -565,7 +565,7 @@
      "fin": null,
      "sin_hora": false,
      "sala": null,
-     "agotada": false
+     "agotada": true
     },
     {
      "inicio": "2026-11-21T14:00:00-03:00",
@@ -1752,90 +1752,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021781",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
-   "titulo": "Cielos de plomo. Tierra escondida",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La banda Cielos de plomo celebra el lanzamiento de su nuevo álbum Tierra escondida en una presentación especial en formato extendido. Tierra escondida es el tercer lanzamiento de la banda, siguiendo a Entre luces (2020). En esta ocasión se presentan en vivo en un formato extendido con la…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021781/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020172",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
-   "titulo": "CNNS – Tramas 852",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Propone un recorrido por músicas, tiempos y sensibilidades que, al encontrarse, revelan nuevas conexiones Un entramado de historias, emociones y resonancias en el que las voces del coro enlazan universos diversos, desde obras profundamente significativas para su identidad hasta la música de Alfredo…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020172/Tramas_852_Adaptaciones_banner.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021939",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa",
    "titulo": "Música de regreso a casa",
@@ -1896,6 +1812,90 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021939/BannerNuevo.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40020172",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
+   "titulo": "CNNS – Tramas 852",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Propone un recorrido por músicas, tiempos y sensibilidades que, al encontrarse, revelan nuevas conexiones Un entramado de historias, emociones y resonancias en el que las voces del coro enlazan universos diversos, desde obras profundamente significativas para su identidad hasta la música de Alfredo…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020172/Tramas_852_Adaptaciones_banner.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021781",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
+   "titulo": "Cielos de plomo. Tierra escondida",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La banda Cielos de plomo celebra el lanzamiento de su nuevo álbum Tierra escondida en una presentación especial en formato extendido. Tierra escondida es el tercer lanzamiento de la banda, siguiendo a Entre luces (2020). En esta ocasión se presentan en vivo en un formato extendido con la…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021781/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3099,53 +3099,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021838",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021838/viviana-ruiz",
-   "titulo": "Viviana Ruiz",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Espectáculo musical de Viviana Ruiz en formato trío, con Sebastián Pereira en batería y percusión y Victoria Gutiérrez en guitarrón, guitarras y coros. Tres, el espectáculo, tiene tres artistas en escena, recorre canciones de tres discos de Viviana Ruiz, dos editados (Madreselva y Añil) y uno por…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-05T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 750.0,
-    "hasta": 750.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021838/viviana-ruiz",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021838/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021934",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021934/vanina-soldevila-y-martin-lima",
    "titulo": "Vanina Soldevila y Martín Lima",
@@ -3230,6 +3183,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021514/Banner_Tickantel_Festival_2026_V1.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021838",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021838/viviana-ruiz",
+   "titulo": "Viviana Ruiz",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Espectáculo musical de Viviana Ruiz en formato trío, con Sebastián Pereira en batería y percusión y Victoria Gutiérrez en guitarrón, guitarras y coros. Tres, el espectáculo, tiene tres artistas en escena, recorre canciones de tres discos de Viviana Ruiz, dos editados (Madreselva y Añil) y uno por…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 750.0,
+    "hasta": 750.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021838/viviana-ruiz",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021838/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4573,48 +4573,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40020161",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020161/cns-concierto-de-navidad",
-   "titulo": "CNS - Concierto de Navidad",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "CNS - Concierto de Navidad Edad máxima (inclusive) con acceso gratuito permitido: 3 años. Este espectáculo cuenta con dispositivo de hipoacusia, disponibles en la recepción del Auditorio.",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-23T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020161/cns-concierto-de-navidad",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020161/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021906",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021906/el-duo-de-la-africana",
    "titulo": "El dúo de \"La Africana\"",
@@ -4675,6 +4633,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021906/Tickantel_2_Temporada_lírica.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40020161",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020161/cns-concierto-de-navidad",
+   "titulo": "CNS - Concierto de Navidad",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "CNS - Concierto de Navidad Edad máxima (inclusive) con acceso gratuito permitido: 3 años. Este espectáculo cuenta con dispositivo de hipoacusia, disponibles en la recepción del Auditorio.",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-23T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020161/cns-concierto-de-navidad",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020161/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

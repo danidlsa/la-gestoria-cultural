@@ -1,6 +1,6 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-18T16:40:54.238142-03:00",
+ "corrida": "2026-11-18T19:35:46.618475-03:00",
  "ok": true,
  "cantidad": 17,
  "errores": [],
@@ -44,53 +44,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/6e89eade-c92d-11f0-ab44-1e339e1eaa9a.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
-   "id_externo": "525129",
-   "url": "https://feverup.com/m/525129",
-   "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Reserva antes de que acabe Black Friday. Ya pensabas ir... ¡y ahora está de oferta! Vive un concierto Candlelight en el Salón Doré del Sofitel Montevideo Casino Carrasco and Spa: la música de Las cuatro estaciones de Vivaldi, interpretada en vivo por un cuarteto de cuerda en una sala iluminada por…",
-   "lugar": {
-    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
-    "direccion": null,
-    "lat": -34.8905846,
-    "lon": -56.0553743,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T17:30:00-03:00",
-     "fin": "2026-12-27T20:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1080.0,
-    "hasta": 1080.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/525129",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/9bdc2556-1ab4-11f0-8624-6e8226e0238e.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -232,6 +185,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/fe5444ee-3f93-11f0-a5a4-6ee326aa2bcb.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "525129",
+   "url": "https://feverup.com/m/525129",
+   "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Reserva antes de que acabe Black Friday. Ya pensabas ir... ¡y ahora está de oferta! Vive un concierto Candlelight en el Salón Doré del Sofitel Montevideo Casino Carrasco and Spa: la música de Las cuatro estaciones de Vivaldi, interpretada en vivo por un cuarteto de cuerda en una sala iluminada por…",
+   "lugar": {
+    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
+    "direccion": null,
+    "lat": -34.8905846,
+    "lon": -56.0553743,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-27T16:30:00-03:00",
+     "fin": "2026-12-27T20:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1080.0,
+    "hasta": 1080.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/525129",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/9bdc2556-1ab4-11f0-8624-6e8226e0238e.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],

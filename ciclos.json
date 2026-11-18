@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T16:43:47.877754-03:00",
+ "generado": "2026-11-18T19:40:26.197618-03:00",
  "cantidad": 29,
  "ciclos": [
   {
@@ -107,14 +107,6 @@
    "cantidad": 22
   },
   {
-   "id": "ciclo-candlelight",
-   "titulo": "Candlelight",
-   "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
-   "desde": "2026-11-21T17:30:00-03:00",
-   "hasta": "2027-02-12T19:30:00-03:00",
-   "cantidad": 4
-  },
-  {
    "id": "ciclo-ciclo-de-teatro",
    "titulo": "Ciclo de teatro",
    "lugar_id": null,
@@ -201,6 +193,14 @@
    "desde": "2026-12-13T18:00:00-03:00",
    "hasta": "2026-12-13T18:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-candlelight",
+   "titulo": "Candlelight",
+   "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
+   "desde": "2026-12-19T17:30:00-03:00",
+   "hasta": "2027-02-12T19:30:00-03:00",
+   "cantidad": 4
   },
   {
    "id": "ciclo-candlelight",

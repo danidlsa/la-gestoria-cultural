@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-18T16:43:47.877754-03:00",
- "cantidad": 208,
+ "generado": "2026-11-18T19:40:26.197618-03:00",
+ "cantidad": 209,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -1216,6 +1216,18 @@
    "direccion": "Av. Uruguay 1136",
    "lat": -34.9031884,
    "lon": -56.1919403,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "mbc-punta-carretas",
+   "nombre": "MBC Punta Carretas",
+   "alias": [
+    "Montevideo Beer Company Punta Carretas"
+   ],
+   "direccion": "Francisco Solano García 2576, Punta Carretas",
+   "lat": -34.92403,
+   "lon": -56.15725,
    "barrio": null,
    "ciudad": "Montevideo"
   },
