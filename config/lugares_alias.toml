@@ -234,3 +234,13 @@ alias = ["CCE", "Centro Cultural de España en Montevideo"]
 id = "teatron"
 nombre = "Teatrón"
 alias = ["Teatrón Av Gral Rivera 3406", "Teatron Av Gral Rivera 3406", "Teatron"]
+
+# Montevideo Beer Company tiene más de un local; los posts dicen cuál ("MBC Punta Carretas"). El buscador de
+# direcciones no encuentra el nombre: la ubicación es la del local en OpenStreetMap (18/11/2026).
+[[lugar]]
+id = "mbc-punta-carretas"
+nombre = "MBC Punta Carretas"
+alias = ["Montevideo Beer Company Punta Carretas"]
+direccion = "Francisco Solano García 2576, Punta Carretas"
+lat = -34.92403
+lon = -56.15725
