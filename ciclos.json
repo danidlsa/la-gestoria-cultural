@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-18T16:29:38.566311-03:00",
- "cantidad": 28,
+ "generado": "2026-11-18T16:43:47.877754-03:00",
+ "cantidad": 29,
  "ciclos": [
   {
    "id": "ciclo-el-mingus",
@@ -41,6 +41,14 @@
    "desde": "2026-11-18T22:00:00-03:00",
    "hasta": "2026-11-28T00:00:00-03:00",
    "cantidad": 7
+  },
+  {
+   "id": "ciclo-centro-de-exposiciones-subte",
+   "titulo": "Centro de Exposiciones Subte",
+   "lugar_id": "centro-de-exposiciones-subte",
+   "desde": "2026-11-19T12:00:00-03:00",
+   "hasta": "2026-11-21T17:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-fac",

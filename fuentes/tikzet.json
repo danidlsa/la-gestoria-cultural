@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-18T16:28:06.926901-03:00",
+ "corrida": "2026-11-18T16:42:38.071057-03:00",
  "ok": true,
  "cantidad": 16,
  "errores": [],
@@ -54,53 +54,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "1db887ab-4ff8-42ca-b3e8-7560a922f2a4",
-   "url": "https://www.tikzet.com/events/lucia-caballero-ano-nuevo",
-   "titulo": "Lucía Caballero \"Año Nuevo\"",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Lucía Caballero presenta junto a su banda, su primer disco solista: Año Nuevo. Una colección de 10 canciones que recorren distintos momentos emocionales, revelando una identidad oscilante entre la ternura naíf y la oscuridad fantasiosa. Abre la noche Sofía Siola, con sus canciones magnéticas ✨ Será…",
-   "lugar": {
-    "nombre": "El Chamuyo",
-    "direccion": "25 de mayo 591",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": "2026-11-28T02:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/lucia-caballero-ano-nuevo",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F89903bf7-02f6-4d6f-8086-3d2d42817b1b.original",
-   "productor": "El Chamuyo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "9435362b-2897-49bd-b9bf-4fc13a978a35",
    "url": "https://www.tikzet.com/events/wrrn-days-of-the-phoenix-y-amour-en-tatu-314",
    "titulo": "Wrrn, Days of the Phoenix y Amour en Tatu 314",
@@ -139,6 +92,53 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F3a67e4e3-55b4-4cc3-a629-68b376182828.original",
    "productor": "Green Producciones y Eventos",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "1db887ab-4ff8-42ca-b3e8-7560a922f2a4",
+   "url": "https://www.tikzet.com/events/lucia-caballero-ano-nuevo",
+   "titulo": "Lucía Caballero \"Año Nuevo\"",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Lucía Caballero presenta junto a su banda, su primer disco solista: Año Nuevo. Una colección de 10 canciones que recorren distintos momentos emocionales, revelando una identidad oscilante entre la ternura naíf y la oscuridad fantasiosa. Abre la noche Sofía Siola, con sus canciones magnéticas ✨ Será…",
+   "lugar": {
+    "nombre": "El Chamuyo",
+    "direccion": "25 de mayo 591",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": "2026-11-28T02:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/lucia-caballero-ano-nuevo",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F89903bf7-02f6-4d6f-8086-3d2d42817b1b.original",
+   "productor": "El Chamuyo",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -477,53 +477,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "bcb430b1-cfb2-4271-8fbe-fed3682e1461",
-   "url": "https://www.tikzet.com/events/buceo-invisible-14bc",
-   "titulo": "Buceo Invisible",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-03T21:00:00-03:00",
-     "fin": "2026-12-03T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/buceo-invisible-14bc",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F70837979-a01f-4c0d-b746-3025e88ce795.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "29b67f42-54aa-40b5-ba07-560cc0847b89",
    "url": "https://www.tikzet.com/events/barrio-chino",
    "titulo": "Barrio Chino",
@@ -750,6 +703,53 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
    "productor": "Sala Ducón",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "bcb430b1-cfb2-4271-8fbe-fed3682e1461",
+   "url": "https://www.tikzet.com/events/buceo-invisible-14bc",
+   "titulo": "Buceo Invisible",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T21:00:00-03:00",
+     "fin": "2026-12-03T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/buceo-invisible-14bc",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F70837979-a01f-4c0d-b746-3025e88ce795.original",
+   "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

@@ -1,6 +1,6 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-18T16:20:32.110301-03:00",
+ "corrida": "2026-11-18T16:35:20.052735-03:00",
  "ok": true,
  "cantidad": 21,
  "errores": [],
@@ -392,13 +392,6 @@
     {
      "inicio": "2026-11-23T21:20:00-03:00",
      "fin": "2026-11-23T23:03:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-24T21:20:00-03:00",
-     "fin": "2026-11-24T23:03:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -1111,8 +1104,8 @@
      "agotada": false
     },
     {
-     "inicio": "2026-11-24T19:10:00-03:00",
-     "fin": "2026-11-24T21:00:00-03:00",
+     "inicio": "2026-11-24T21:20:00-03:00",
+     "fin": "2026-11-24T23:10:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false

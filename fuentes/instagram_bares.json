@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-18T16:28:30.311772-03:00",
+ "corrida": "2026-11-18T16:43:01.489814-03:00",
  "ok": true,
- "cantidad": 57,
+ "cantidad": 59,
  "errores": [],
  "eventos": [
   {
@@ -716,6 +716,53 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "montevideobeercompany-20261119",
+   "url": "https://www.instagram.com/p/Df5GWpclLPH/",
+   "titulo": "MBC: Vamos con una noche de música para conmemorar la salida del jueguito?",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Vamos con una noche de música para conmemorar la salida del jueguito? Show en vivo Entrada libre MBC Punta Carretas Jueves 19/11 losamigosdeunamigo en vivo para estirar la jornada",
+   "lugar": {
+    "nombre": "MBC Punta Carretas",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df5GWpclLPH/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e5efcf2603e3.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "subtemvd-20261119",
    "url": "https://www.instagram.com/p/Df5Eh-6lJVz/",
    "titulo": "Centro de Exposiciones Subte: Seguimos construyendo LA SUBTERADORA",
@@ -1409,6 +1456,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ea7a37c8a1da.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "subtemvd-20261121",
+   "url": "https://www.instagram.com/p/Df4_poRFDsG/",
+   "titulo": "Centro de Exposiciones Subte: PROGRAMA PÚBLICO: NO MIRAMOS MÁS LAS ESTRELLAS , de Proyecto CasaMario",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "PROGRAMA PÚBLICO: NO MIRAMOS MÁS LAS ESTRELLAS , de Proyecto CasaMario Conversatorio entre artistas y curadores de la exposición Sábado 21 de noviembre 17:00 h Centro de exposiciones Subte, Sala L Entrada libre y gratuita Conversación entre los curadores Camila Arbeláez y Sebastián Alonso, y los y…",
+   "lugar": {
+    "nombre": "Centro de Exposiciones Subte",
+    "direccion": "Plaza Fabini",
+    "lat": -34.90563,
+    "lon": -56.19423,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df4_poRFDsG/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2e4be400f9b4.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
