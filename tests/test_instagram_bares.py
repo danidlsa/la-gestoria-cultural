@@ -540,3 +540,13 @@ def test_una_fecha_con_anio_pasado_no_es_un_evento():
 def test_el_lugar_tambien_con_otros_iconos():
     assert ig.lugar_del_texto("🗓️ 24 de noviembre\n🕖 20 H\n🏛️Auditorio Vaz Ferreira\n🎟️Entradas") == ("Auditorio Vaz Ferreira", None)
     assert ig.lugar_del_texto("📌 Sala Hugo Balzo") == ("Sala Hugo Balzo", None)
+
+
+def test_un_icono_de_lugar_que_marca_la_fecha_no_es_el_lugar():
+    texto = "TABAREK & LA KABARET\n\n📌SÁBADO 21 DE NOV\n🕘 21 H"
+    assert ig.lugar_del_texto(texto) == (None, None)
+    assert ig.lugar_del_texto("📌 Jueves 26\n📍 Sala Hugo Balzo") == ("Sala Hugo Balzo", None)
+
+
+def test_el_pin_con_la_direccion_entre_parentesis():
+    assert ig.lugar_del_texto("📍 CCE (Rincón 629)") == ("CCE", "Rincón 629")

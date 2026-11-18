@@ -5,12 +5,14 @@ activo = true
 
 # Qué especiales se muestran en la pestaña (por su `id`), en este orden. Se eligen a mano, uno por vez: el que
 # viene y tiene programa. Los demás quedan guardados acá abajo, sin mostrarse (y sin avisos).
-mostrar = ["noche-de-las-librerias"]
+mostrar = ["sabados-en-ciudad-vieja"]
 
 # `sitio` no se muestra en la web (varios no eran el sitio correcto): solo va en el aviso interno, para revisar.
 # `pagina` sí se muestra: es la página oficial del programa. `pestana` y `pestana_corta` son el nombre de la pestaña
 # (en la compu y en la barra de abajo del celular, donde reemplaza a "Mapa" mientras se muestra); `icono`, su dibujo;
-# `enlace`, el atajo para difundirlo (lagestoriacultural.uy/<enlace>). Con `mapa` (el id de un mapa de Google My Maps),
+# `enlace`, el atajo para difundirlo (lagestoriacultural.uy/<enlace>); `grilla = false` esconde la vista grilla; `vista = "tipo"`
+# muestra el programa por tipo de evento en vez de por lugar (`nombres_tipo` cambia el nombre de algún tipo solo en ese especial,
+# como `{ teatro = "Artes escénicas" }`), y `filtros = false` saca los filtros. Con `mapa` (el id de un mapa de Google My Maps),
 # `desde` y `horario`, la fuente "mapas_especiales" lee el programa del mapa y cada actividad es un evento.
 # La pestaña "Especiales" muestra cada uno con su próxima fecha y, cuando aparece el programa en las fuentes,
 # con sus actividades. Un mes antes, si todavía no hay nada, GitHub Actions abre un issue para avisar.
@@ -137,3 +139,9 @@ lugares = "lugares"
 enlace = "ciudadvieja"  # lagestoriacultural.uy/ciudadvieja lleva directo a la pestaña
 pestana = "Sábados en Ciudad Vieja"
 pestana_corta = "Ciudad Vieja"
+grilla = false  # sin vista grilla: casi todo dura horas, la lista por lugar alcanza
+barrio = "Ciudad Vieja"  # el barrio de los lugares que no lo tienen cargado
+vista = "tipo"  # todo queda a pocas cuadras: el programa por tipo de evento, no por lugar
+filtros = false  # y sin filtros (ni buscador)
+# El portal de la IM pone en "Artes escénicas" el teatro, la danza y hasta las milongas: el bloque se llama así.
+nombres_tipo = { teatro = "Artes escénicas" }

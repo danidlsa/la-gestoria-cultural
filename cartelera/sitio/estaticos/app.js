@@ -694,7 +694,8 @@
   const hhmm = (iso) => iso.slice(11, 16);
   const funcionDe = (a) => a.evento.funciones[0];
   const lugarDe = (a) => datos.lugares[a.evento.lugar] || {};
-  const barrioDe = (a) => lugarDe(a).barrio || "Otros barrios";
+  // Un lugar sin barrio cargado toma el del especial, si lo dice (`barrio` en la config: "Ciudad Vieja").
+  const barrioDe = (a) => lugarDe(a).barrio || jornadaDe.get(a.id)?.barrio || "Otros barrios";
   // Lo que dura casi toda la noche va aparte: no es de ninguna hora en particular.
   const esLarga = ([inicio, , fin]) => Boolean(fin) && horaNoche(fin) - horaNoche(inicio) >= 3;
   const singular = (lugares) => lugares.replace(/es$/, "").replace(/s$/, "");
@@ -757,11 +758,11 @@
     const enMio = v.modo === "mio";
     const modos = el("div", { class: "esp-arriba" },
       el("div", { class: "esp-modos", role: "group", "aria-label": "Cómo ver el programa" },
-        ...[["lugares", `Por ${singular(jornada.lugares)}`], ["hora", "Por hora"]]
+        ...[["lugares", jornada.vista === "tipo" ? "Por tipo" : `Por ${singular(jornada.lugares)}`], ["hora", "Por hora"]]
           .map(([modo, texto]) => chip(texto, v.modo === modo, { "data-esp-modo": modo }))),
       chip(textoMio(elegidas), enMio, { "data-esp-modo": "mio", class: `esp-chip esp-mio${enMio ? " activo" : ""}` }));
-    // En "Mi recorrido" no hay filtros: es tu lista.
-    if (enMio) return el("div", { class: "esp-controles" }, modos);
+    // En "Mi recorrido" no hay filtros: es tu lista. Tampoco en un especial chico (`filtros = false`).
+    if (enMio || jornada.filtros === false) return el("div", { class: "esp-controles" }, modos);
     // Barrio y tipo: en la compu, a la vista; en el celular, en un panel que entra desde la izquierda, como los
     // filtros del resto de la página (con el botón "Filtros" al lado del buscador).
     const elegidos = v.barrios.length + v.tipos.length;
@@ -776,8 +777,9 @@
       el("div", { class: "esp-panel-titulo" }, el("strong", {}, "Filtros"),
         elegidos ? el("button", { type: "button", class: "esp-borrar", "data-esp-borrar": "" }, "Borrar") : null,
         el("button", { type: "button", class: "cerrar-filtros", "data-esp-cerrar-filtros": "", "aria-label": "Cerrar filtros" }, "×")),
-      filaDeChips("Barrio", chip("Todos", !v.barrios.length, { "data-esp-barrio": "" }),
-        ...barrios.map(([barrio]) => chip(barrio, v.barrios.includes(barrio), { "data-esp-barrio": barrio }))),
+      // Con un solo barrio, filtrar por barrio no sirve: la fila no va.
+      barrios.length > 1 ? filaDeChips("Barrio", chip("Todos", !v.barrios.length, { "data-esp-barrio": "" }),
+        ...barrios.map(([barrio]) => chip(barrio, v.barrios.includes(barrio), { "data-esp-barrio": barrio }))) : null,
       filaDeChips("Tipo", chip("Todo", !v.tipos.length, { "data-esp-tipo": "" }),
         ...tipos.map(([tipo]) => chip(datos.categorias[tipo] || tipo, v.tipos.includes(tipo), { "data-esp-tipo": tipo }))),
       el("div", { class: "esp-panel-pie" },
@@ -803,7 +805,7 @@
     return el("div", { class: "esp-acciones" }, botonCompartir, botonPlan);
   }
 
-  function filaActividad(a, { conLugar }) {
+  function filaActividad(a, { conLugar, comoLlegarAca = false, conTipo = true }) {
     const [inicio, , fin] = funcionDe(a);
     const evento = a.evento;
     return el("li", { class: `esp-act cat-${evento.categoria}${enRecorrido(a) ? " en-plan" : ""}` },
@@ -811,9 +813,13 @@
       el("div", { class: "esp-cuerpo" },
         el("p", { class: "esp-titulo" }, evento.titulo),
         el("p", { class: "esp-meta" },
-          el("span", { class: "esp-tipo" }, datos.categorias[evento.categoria] || ""),
-          conLugar ? el("button", { type: "button", class: "esp-ir-lugar", "data-esp-lugar": evento.lugar, title: "Ver todo lo de este lugar" }, lugarDe(a).nombre || "") : null,
-          conLugar ? el("span", { class: "esp-barrio-chico" }, barrioDe(a)) : null),
+          conTipo ? el("span", { class: "esp-tipo" }, datos.categorias[evento.categoria] || "") : null,
+          conLugar && !comoLlegarAca ? el("button", { type: "button", class: "esp-ir-lugar", "data-esp-lugar": evento.lugar, title: "Ver todo lo de este lugar" }, lugarDe(a).nombre || "") : null,
+          conLugar && !comoLlegarAca ? el("span", { class: "esp-barrio-chico" }, barrioDe(a)) : null,
+          // Sin vista por lugar (un especial "por tipo"): el lugar, su dirección y cómo llegar, ahí mismo.
+          comoLlegarAca ? el("span", { class: "esp-lugar-chico" }, el("strong", {}, lugarDe(a).nombre || ""),
+            lugarDe(a).direccion && lugarDe(a).direccion !== lugarDe(a).nombre ? ` · ${lugarDe(a).direccion}` : "") : null,
+          comoLlegarAca ? el("a", { class: "esp-como-llegar", href: comoLlegar(lugarDe(a)), target: "_blank", rel: "noopener" }, "Cómo llegar ↗") : null),
         a.desc ? el("p", { class: "esp-desc", tabindex: "0", title: "Tocá para leer todo" }, a.desc) : null),
       botonesActividad(a));
   }
@@ -856,6 +862,28 @@
       bloque.open = !v.plegadas.has(`barrio:${barrio}`);
       return bloque;
     }));
+  }
+
+  // Por tipo (un especial donde todo queda a pocas cuadras, como Sábados en Ciudad Vieja): un bloque por tipo de
+  // evento, con sus actividades por hora y, en cada una, el lugar y cómo llegar.
+  function vistaPorTipo(jornada, lista) {
+    const porTipo = new Map();
+    for (const a of [...lista].sort(ordenNoche)) {
+      if (!porTipo.has(a.evento.categoria)) porTipo.set(a.evento.categoria, []);
+      porTipo.get(a.evento.categoria).push(a);
+    }
+    const v = vistaDe(jornada.id);
+    const nombre = (tipo) => jornada.nombresTipo?.[tipo] || datos.categorias[tipo] || tipo;
+    return el("div", { class: "esp-por-lugar esp-por-tipo" }, ...[...porTipo]
+      .sort((x, y) => y[1].length - x[1].length || nombre(x[0]).localeCompare(nombre(y[0]), "es"))
+      .map(([tipo, actividades]) => {
+        const bloque = el("details", { class: `esp-barrio cat-${tipo}`, "data-esp-bloque": `tipo:${tipo}` },
+          el("summary", {}, el("span", { class: "esp-barrio-nombre" }, nombre(tipo)), el("small", {}, cuantas(actividades.length))),
+          el("article", { class: "esp-lugar" },
+            el("ol", { class: "esp-actividades" }, ...actividades.map((a) => filaActividad(a, { conLugar: true, comoLlegarAca: true, conTipo: false })))));
+        bloque.open = !v.plegadas.has(`tipo:${tipo}`);
+        return bloque;
+      }));
   }
 
   // Por lugar, como la grilla de un festival: en la compu, un renglón por lugar con las horas de costado; en el
@@ -1000,7 +1028,7 @@
     return el("div", { class: "esp-por-hora" }, ...bloques.map(([clave, titulo, actividades], i) => {
       const bloque = el("details", { class: `esp-bloque acento-${clave === "larga" ? "larga" : ACENTOS[i % ACENTOS.length]}`, "data-esp-bloque": clave },
         el("summary", {}, el("span", { class: "esp-bloque-hora" }, titulo), el("small", {}, cuantas(actividades.length))),
-        el("ol", { class: "esp-actividades" }, ...actividades.map((a) => filaActividad(a, { conLugar: true }))));
+        el("ol", { class: "esp-actividades" }, ...actividades.map((a) => filaActividad(a, { conLugar: true, comoLlegarAca: jornada.vista === "tipo" }))));
       bloque.open = !v.plegadas.has(clave);
       return bloque;
     }));
@@ -1214,9 +1242,9 @@
     const lista = jornada.actividades.filter(enRecorrido).sort(ordenNoche);
     if (!lista.length) {
       contenedor.replaceChildren(el("div", { class: "esp-recorrido-vacio" },
-        el("p", { class: "esp-recorrido-titulo" }, "Armá tu recorrido de la noche"),
+        el("p", { class: "esp-recorrido-titulo" }, "Armá tu recorrido"),
         el("ol", {},
-          el("li", {}, "Mirá el programa por ", el("button", { type: "button", class: "esp-enlace", "data-esp-modo": "lugares" }, singular(jornada.lugares)),
+          el("li", {}, "Mirá el programa por ", el("button", { type: "button", class: "esp-enlace", "data-esp-modo": "lugares" }, jornada.vista === "tipo" ? "tipo" : singular(jornada.lugares)),
             " o ", el("button", { type: "button", class: "esp-enlace", "data-esp-modo": "hora" }, "por hora"), "."),
           el("li", {}, "Tocá ", el("b", {}, "＋ Mi recorrido"), " en lo que te tiente."),
           el("li", {}, "Acá lo ves en orden, con cuánto se tarda caminando de un lugar al otro y si algo se superpone. Lo podés compartir o mandar al calendario."))));
@@ -1288,6 +1316,11 @@
     }
     if (v.modo === "hora") {
       resultados.replaceChildren(vistaPorHora(jornada, lista));
+    } else if (jornada.vista === "tipo") {
+      resultados.replaceChildren(vistaPorTipo(jornada, lista));
+    } else if (jornada.grilla === false) {
+      // Un especial sin grilla (Sábados en Ciudad Vieja: es de día y casi todo dura horas): siempre la lista.
+      resultados.replaceChildren(vistaPorLugar(jornada, lista));
     } else if (ANCHA.matches) {
       resultados.replaceChildren();
       resultados.appendChild(vistaGrilla(jornada, lista, resultados));

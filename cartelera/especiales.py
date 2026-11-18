@@ -191,6 +191,9 @@ def armar(eventos: list[dict], ciclos: list[dict], hoy: date, especiales: list[d
             # El nombre de la pestaña cuando se muestra solo este: "Noche de las Librerías" (sin el artículo).
             "pestana": especial.get("pestana") or re.sub(r"^(La|El|Las|Los) ", "", especial["nombre"]),
             "pestana_corta": especial.get("pestana_corta"), "icono": especial.get("icono"), "enlace": especial.get("enlace"),
+            "grilla": especial.get("grilla", True), "barrio": especial.get("barrio"),
+            "vista": especial.get("vista", "lugares"), "filtros": especial.get("filtros", True),
+            "nombres_tipo": especial.get("nombres_tipo", {}),
             "desde": desde, "hasta": hasta, "estimada": estimada, "a_confirmar": a_confirmar,
             "en_curso": desde <= hoy <= hasta,
             "dias_para": (desde - hoy).days,

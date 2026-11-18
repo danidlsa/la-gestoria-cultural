@@ -23,7 +23,7 @@ alias = ["Solís", "Teatro Solis", "Sala Zavala Muniz", "Sala Zabala Muniz", "Sa
 [[lugar]]
 id = "sala-del-museo"
 nombre = "Sala del Museo"
-alias = ["Sala del Museo del Carnaval", "Museo del Carnaval", "Patio del Museo del Carnaval"]
+alias = ["Sala del Museo del Carnaval", "Museo del Carnaval", "Patio del Museo del Carnaval", "Plaza del Museo del Carnaval"]
 
 [[lugar]]
 id = "montevideo-music-box"
@@ -224,3 +224,13 @@ lon = -56.169168
 id = "cabildo-de-montevideo"
 nombre = "Cabildo de Montevideo"
 alias = ["Museo Histórico Cabildo", "Museo Histórico Cabildo de Montevideo", "Cabildo"]
+
+[[lugar]]
+id = "centro-cultural-de-espana"
+nombre = "Centro Cultural de España"
+alias = ["CCE", "Centro Cultural de España en Montevideo"]
+
+[[lugar]]
+id = "teatron"
+nombre = "Teatrón"
+alias = ["Teatrón Av Gral Rivera 3406", "Teatron Av Gral Rivera 3406", "Teatron"]

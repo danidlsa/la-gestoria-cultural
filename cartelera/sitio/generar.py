@@ -172,6 +172,14 @@ def especiales_para_el_navegador(armados: list[dict], lugares: dict[str, dict], 
         }
         resultado.append({
             "id": a["id"], "nombre": a["nombre"], "lugares": a.get("lugares", "lugares"), "enlace": a.get("enlace"),
+            # Sin grilla (`grilla = false` en la config): "Por lugar" es siempre la lista, en la compu y en el celular.
+            "grilla": a.get("grilla", True),
+            # El barrio de los lugares que no lo tienen cargado (todo Sábados en Ciudad Vieja es en Ciudad Vieja).
+            "barrio": a.get("barrio"),
+            # `vista = "tipo"`: el programa por tipo de evento en vez de por lugar; `filtros = false`: sin filtros.
+            "vista": a.get("vista", "lugares"), "filtros": a.get("filtros", True),
+            # Otro nombre para algún tipo, solo en este especial: `{ teatro = "Artes escénicas" }`.
+            "nombresTipo": a.get("nombres_tipo", {}),
             "actividades": [{"id": e["id"], "desc": e.get("descripcion_corta") or ""} for e in a["eventos"]],
             # Para "Mi recorrido": metros y minutos a pie entre cada par de lugares, por la calle.
             "caminatas": calcular_caminatas(ubicados) if len(ubicados) > 1 else {},

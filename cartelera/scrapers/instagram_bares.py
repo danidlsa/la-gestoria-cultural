@@ -358,12 +358,16 @@ _EN_LUGAR = re.compile(r"^\s*en\s+(?:el\s+|la\s+)?((?:sala|teatro|club|espacio|c
                        re.I | re.M)
 
 
+_ES_FECHA = re.compile(rf"(?:{_DIA}\b|\d{{1,2}}\s*(?:de\s+)?{_MES}\b|\d{{1,2}}/\d{{1,2}}\b|hoy\b|manana\b)", re.I)
+
+
 def lugar_del_texto(texto: str) -> tuple[str | None, str | None]:
     """El lugar que dice el post con 📍: "📍La Cretina, Soriano 1236" o "📍 Museo Oceanográfico". (nombre, dirección).
 
     Si no hay 📍, un renglón que sea solo "En Sala Rincón".
     """
-    encontrado = _PIN.search(texto or "")
+    # El primer ícono que no marque una fecha: hay quien usa 📌 para el día ("📌SÁBADO 21 DE NOV").
+    encontrado = next((m for m in _PIN.finditer(texto or "") if not _ES_FECHA.match(sin_tildes(m.group(1)).strip())), None)
     if not encontrado and (en := _EN_LUGAR.search(texto or "")):
         return en.group(1).strip(), None
     if not encontrado or _NO_ES_LUGAR.search(encontrado.group(1)):
@@ -373,6 +377,9 @@ def lugar_del_texto(texto: str) -> tuple[str | None, str | None]:
     partes = [p.strip() for p in re.split(r",|\s[-–]\s", renglon) if p.strip()]
     if not partes:
         return None, None
+    # "📍 CCE (Rincón 629)": el nombre y, entre paréntesis, la dirección.
+    if (con_parentesis := re.match(r"^(.+?)\s*\(([^()]*\d[^()]*)\)$", partes[0])) and not re.search(r"\d", con_parentesis.group(1)):
+        return con_parentesis.group(1).strip(), con_parentesis.group(2).strip()
     if re.search(r"\d", partes[0]) or calles_del_cruce(partes[0]):
         # "📍 Soriano 1236", "📍 Ecuador 1680, Villa del Cerro" o "📍 Aquiles Lanza y Canelones": solo la dirección
         return None, partes[0]

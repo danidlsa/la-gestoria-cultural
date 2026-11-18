@@ -22,6 +22,7 @@ from dateutil.rrule import rrulestr
 from cartelera.categorias import clasificar, es_deporte, esta_cancelado, por_titulo
 from cartelera.extraer import precio_de, recortar, texto_plano
 from cartelera.geo import VARIOS_BARRIOS, sin_tildes
+from cartelera.geocodificar import calles_del_cruce
 from cartelera.http import Cliente
 from cartelera.modelo import EventoCrudo, Funcion, LugarCrudo, Precio
 from cartelera.scrapers.muestras import mes_de
@@ -118,8 +119,13 @@ def coordenadas(wkt: str | None) -> tuple[float | None, float | None]:
 _NOMBRE_CON_DIRECCION = re.compile(
     r"([A-ZÁÉÍÓÚÑ][\w'&.\-]*(?:\s+(?:de|del|la|las|los|el|y|[A-ZÁÉÍÓÚÑ0-9][\w'&.\-]*))*)\s*\(((?:\d{1,2}\s+de\s+\w+|[A-ZÁÉÍÓÚÑ][^()\d]{1,40}?)\s\d{2,5}\b[^()]*)\)")
 # "Lugar: Museo Romántico, 25 de Mayo 428." / "Lugar: terreno de Covi Funac, entre las calles Juncal y Cerrito."
-_LUGAR_DOS_PUNTOS = re.compile(r"\bLugar:\s*([^,.()]+?)(?:,\s*(?:entre\s+las\s+calles\s+)?([^.()]+?))?\s*(?:\.|$)")
+# Termina en el punto, o donde empieza otro dato ("Lugar : Piedras esquina Zabala Actuarán: Gato Renato…").
+_LUGAR_DOS_PUNTOS = re.compile(r"\bLugar\s*:\s*([^,.():]+?)(?:,\s*(?:entre\s+las\s+calles\s+)?([^.():]+?))?"
+                               r"\s*(?:\.|$|(?=\s+[A-ZÁÉÍÓÚÑ][\wáéíóúñ]*\s*:))")
 _ANTES_DEL_NOMBRE = re.compile(r"^(?:Organizan?|Lugar|En|Participa|Presenta)\s*:?\s+")
+# "La caminata comienza en el Museo del Carnaval y recorre…": de dónde sale un recorrido.
+_SALE_DE = re.compile(r"\b(?:comienza|empieza|sale|parte|arranca)\s+(?:en|desde)\s+(?:el\s+|la\s+)?"
+                      r"((?:Museo|Plaza|Teatro|Cabildo|Mercado|Puerta|Iglesia|Catedral|Centro)\s[^.,;]+?)(?:\s+y\s|[.,;]|$)")
 _SALA_EN_TITULO = re.compile(
     r"\b(?:en|por|del)\s+(?:el\s+|la\s+)?((?:Caf[eé]|Bar|Restaurante|Museo|Galer[ií]a|Teatro|Sala|Espacio|Centro|Casa|Plaza|"
     r"Librer[ií]a|Taller|Cabildo|Iglesia|Catedral|Templo)\s.+)$")
@@ -132,7 +138,14 @@ def sitio_en_el_texto(titulo: str, *textos: str | None) -> tuple[str, str | None
             return _ANTES_DEL_NOMBRE.sub("", encontrado.group(1)).strip(), encontrado.group(2).strip(" .")
     for texto in textos:
         if encontrado := _LUGAR_DOS_PUNTOS.search(texto or ""):
-            return encontrado.group(1).strip(), (encontrado.group(2) or "").strip() or None
+            nombre, direccion = encontrado.group(1).strip(), (encontrado.group(2) or "").strip() or None
+            # "Lugar : Piedras esquina Zabala": es una esquina, que también sirve de dirección.
+            if not direccion and calles_del_cruce(nombre):
+                direccion = nombre
+            return nombre, direccion
+    for texto in textos:
+        if encontrado := _SALE_DE.search(texto or ""):
+            return encontrado.group(1).strip(), None
     if encontrado := _SALA_EN_TITULO.search(titulo):
         return encontrado.group(1).strip(), None
     return None

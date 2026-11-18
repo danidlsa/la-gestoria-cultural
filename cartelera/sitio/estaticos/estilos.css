@@ -297,10 +297,10 @@ select {
 }
 .evento:hover { transform: translate(-2px, -2px); box-shadow: 8px 8px 0 var(--acento); }
 /* Cada tipo de evento tiene su color de acento. */
-.cat-teatro, .cat-carnaval, .cat-humor { --acento: var(--coral); }
+.cat-teatro, .cat-carnaval, .cat-humor, .cat-feria { --acento: var(--coral); }
 .cat-danza, .cat-infantil, .cat-tour, .cat-taller { --acento: var(--mostaza); }
 .cat-musica, .cat-cine, .cat-festival { --acento: var(--cobalto); }
-.cat-exposicion, .cat-charla, .cat-fiesta, .cat-feria, .cat-otros { --acento: var(--tinta); }
+.cat-exposicion, .cat-charla, .cat-fiesta, .cat-otros { --acento: var(--tinta); }
 
 .barrios { font-size: 0.85rem; margin: -2px 0 6px; }
 .barrios summary { cursor: pointer; min-height: 24px; display: flex; align-items: center; color: var(--cobalto-texto); font-weight: 600; }
@@ -443,6 +443,20 @@ select {
 .esp-act.cat-infantil .esp-tipo, .esp-act.cat-taller .esp-tipo { color: var(--coral-texto); }
 .esp-ir-lugar { border: 0; background: none; padding: 2px 0; min-height: 24px; color: var(--texto); font-weight: 700; text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px; cursor: pointer; text-align: left; }
 .esp-barrio-chico::before { content: "· "; }
+.esp-lugar-chico { color: var(--texto); }
+.esp-como-llegar { color: var(--cobalto-texto); font-weight: 700; text-underline-offset: 3px; }
+/* Por tipo: un bloque ancho por tipo de evento, no una tarjeta por lugar, con el color de su tipo (el mismo acento
+   que las tarjetas de la agenda): el nombre en una etiqueta de ese color y una franja a la izquierda. */
+.esp-por-tipo .esp-barrio > summary { border-bottom: 0; align-items: center; }
+.esp-por-tipo .esp-barrio-nombre {
+  background: var(--acento); color: #fff; padding: 2px 14px 4px; border: 2px solid var(--borde); border-radius: 12px;
+  box-shadow: 3px 3px 0 var(--sombra); transform: rotate(-1.5deg);
+}
+.esp-por-tipo .cat-danza .esp-barrio-nombre, .esp-por-tipo .cat-infantil .esp-barrio-nombre, .esp-por-tipo .cat-tour .esp-barrio-nombre,
+.esp-por-tipo .cat-taller .esp-barrio-nombre, .esp-por-tipo .cat-teatro .esp-barrio-nombre, .esp-por-tipo .cat-carnaval .esp-barrio-nombre,
+.esp-por-tipo .cat-humor .esp-barrio-nombre, .esp-por-tipo .cat-feria .esp-barrio-nombre { color: var(--tinta); }
+.esp-por-tipo .esp-barrio > .esp-lugar { margin-top: 4px; border-left: 10px solid var(--acento); }
+.esp-por-tipo .esp-act.en-plan { background: color-mix(in srgb, var(--acento) 14%, transparent); }
 .esp-desc {
   margin-top: 4px !important; font-size: 0.86rem; color: var(--texto-suave); cursor: pointer;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;

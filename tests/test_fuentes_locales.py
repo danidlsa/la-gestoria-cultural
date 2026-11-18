@@ -151,3 +151,8 @@ def test_portal_im_el_sitio_en_el_texto():
     assert s("Feria en Covi Funac", "Lugar: terreno de Covi Funac, entre las calles Juncal y Cerrito.") == (
         "terreno de Covi Funac", "Juncal y Cerrito")
     assert s("Recorrido libre por el Teatro Solís", "") == ("Teatro Solís", None)
+    assert s("x", "Ingreso con consumición. Lugar : Primuseum y La Chipatería, Pérez Castellano 1389.") == (
+        "Primuseum y La Chipatería", "Pérez Castellano 1389")
+    assert s("x", "Escenario del BROU. Lugar : Piedras esquina Zabala Actuarán: Gato Renato") == (
+        "Piedras esquina Zabala", "Piedras esquina Zabala")  # una esquina: también es la dirección
+    assert s("Caminatour", "La caminata comienza en el Museo del Carnaval y recorre las calles") == ("Museo del Carnaval", None)
