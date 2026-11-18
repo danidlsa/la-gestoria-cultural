@@ -1,8 +1,8 @@
 {
  "fuente": "entraste",
- "corrida": "2026-11-18T12:58:22.861383-03:00",
+ "corrida": "2026-11-18T16:27:59.694384-03:00",
  "ok": true,
- "cantidad": 5,
+ "cantidad": 6,
  "errores": [],
  "eventos": [
   {
@@ -233,6 +233,53 @@
    "beneficios": [],
    "imagen_url": "https://storage.googleapis.com/entraste-media/1791910956_fcc3eb13f2e22e18.webp",
    "productor": "Don Juan",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "entraste",
+   "id_externo": "321",
+   "url": "https://app.entraste.com/events/navidad-en-el-yacht-2026",
+   "titulo": "Navidad en el Yacht 2026",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Av. República Federal de Alemania",
+    "direccion": "Av. República Federal de Alemania, 11300 Montevideo, Departamento de Montevideo",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-24T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 990.0,
+    "hasta": 990.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/navidad-en-el-yacht-2026",
+     "via": "entraste"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1792536644_08b050e95cb2403c.webp",
+   "productor": "YACHT",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

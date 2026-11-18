@@ -1,6 +1,6 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-18T12:58:51.096659-03:00",
+ "corrida": "2026-11-18T16:28:30.311772-03:00",
  "ok": true,
  "cantidad": 57,
  "errores": [],
@@ -717,11 +717,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "subtemvd-20261119",
-   "url": "https://www.instagram.com/p/Df2mfb-FIZR/",
+   "url": "https://www.instagram.com/p/Df5Eh-6lJVz/",
    "titulo": "Centro de Exposiciones Subte: Seguimos construyendo LA SUBTERADORA",
-   "categoria": "exposicion",
+   "categoria": "teatro",
    "categoria_segura": false,
-   "descripcion_corta": "¡Seguimos construyendo LA SUBTERADORA! Te esperamos todos los martes de 14:00 a 18:00 h y los jueves de 11:00 a 15:00 h, hasta enero de 2027, para conversar, preguntar, proponer y armar con Ana Laura López de la Torre y Niklaus Strobel. ¡Pasá y sumate!",
+   "descripcion_corta": "Compartimos algunas imágenes de la inauguración de EPISODIO 3: LA SUBTERADORA. Un aparato para cosechar comunitas , de Ana Laura López de la Torre y Niklaus Strobel Gracias especiales a los y las artistas que participaron de la inauguracion y a todos y todas quienes se acercaron a acompañarnos y…",
    "lugar": {
     "nombre": "Centro de Exposiciones Subte",
     "direccion": "Plaza Fabini",
@@ -732,17 +732,22 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T14:00:00-03:00",
+     "inicio": "2026-11-19T12:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Df2mfb-FIZR/",
+     "url": "https://www.instagram.com/p/Df5Eh-6lJVz/",
      "via": "instagram"
     }
    ],
@@ -765,8 +770,8 @@
    "categoria_segura": false,
    "descripcion_corta": "¡La exposición está tomando forma en el CCE! Ya estamos trabajando en el montaje de Ilustrando feminismos. Lápices para resistir , una muestra que reúne el trabajo de 14 ilustradoras de Latinoamérica y Guinea Ecuatorial para homenajear a las mujeres que han puesto el cuerpo y la creatividad al…",
    "lugar": {
-    "nombre": "CCE (Rincón 629)",
-    "direccion": "CCE (Rincón 629)",
+    "nombre": "CCE",
+    "direccion": "Rincón 629",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -1471,7 +1476,7 @@
    "descripcion_corta": "21 de noviembre | 20 h Espacio Quitapenas – Montevideo Entrada libre en ambos conciertos. ¡Te esperamos!",
    "lugar": {
     "nombre": "Horizontes Sonoros",
-    "direccion": "20 de noviembre",
+    "direccion": null,
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -1517,8 +1522,8 @@
    "categoria_segura": false,
    "descripcion_corta": "Tenemos el honor de recibir en casa, para su Debut oficial, a estos queridos amigos con su nuevo y espectacular proyecto! TABAREK & LA KABARET Tabaré Rivero presenta en vivo su nuevo proyecto musical: Tabarek & La Kabaret. Un recorrido por algunas de sus canciones en un formato acústico, íntimo y…",
    "lugar": {
-    "nombre": "SÁBADO 21 DE NOV",
-    "direccion": "SÁBADO 21 DE NOV",
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -1546,7 +1551,9 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "etiquetas": [],
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
@@ -2053,8 +2060,8 @@
    "categoria_segura": false,
    "descripcion_corta": "¡El circo llega al CCE! El sábado 28 de noviembre te invitamos a disfrutar de una Varieté circense a cargo de El Picadero: un espectáculo irrepetible que reúne distintas disciplinas, números y creaciones en una misma función. Un espacio de encuentro entre artistas y público, donde la sorpresa y la…",
    "lugar": {
-    "nombre": "CCE (Rincón 629)",
-    "direccion": "CCE (Rincón 629)",
+    "nombre": "CCE",
+    "direccion": "Rincón 629",
     "lat": null,
     "lon": null,
     "barrio": null,

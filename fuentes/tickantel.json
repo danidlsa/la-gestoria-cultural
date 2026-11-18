@@ -1,8 +1,8 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-18T12:46:50.834148-03:00",
+ "corrida": "2026-11-18T16:09:51.534940-03:00",
  "ok": true,
- "cantidad": 108,
+ "cantidad": 107,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
@@ -2229,53 +2229,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021527/BANNER_WEB_TICKANTEL1.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021368",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021368/crudo",
-   "titulo": "Crudo",
-   "categoria": "humor",
-   "categoria_segura": false,
-   "descripcion_corta": "Ileana se muda para escapar de Montevideo, su ex, del teatro y de esa sensación persistente de no saber respirar. Busca algo en que creer. En una noche de insomnio se anota impulsivamente en un reality show particular. Entre encuentros absurdos y confesiones incómodas algo dentro de su cabeza…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": null,
-    "lat": -34.8822811,
-    "lon": -56.1829079,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021368/crudo",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021368/700x390_Crudo.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

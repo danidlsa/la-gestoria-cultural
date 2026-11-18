@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-18T13:00:06.561713-03:00",
- "cantidad": 206,
+ "generado": "2026-11-18T16:29:38.566311-03:00",
+ "cantidad": 208,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -218,6 +218,16 @@
    "direccion": null,
    "lat": -34.9026912,
    "lon": -56.1776624,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "av-republica-federal-de-alemania",
+   "nombre": "Av. República Federal de Alemania",
+   "alias": [],
+   "direccion": "Av. República Federal de Alemania, 11300 Montevideo, Departamento de Montevideo",
+   "lat": -34.9105987,
+   "lon": -56.1317516,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -472,7 +482,10 @@
   {
    "id": "centro-cultural-de-espana",
    "nombre": "Centro Cultural de España",
-   "alias": [],
+   "alias": [
+    "CCE",
+    "Centro Cultural de España en Montevideo"
+   ],
    "direccion": "Rincón 629",
    "lat": -34.905695,
    "lon": -56.202374,
@@ -952,16 +965,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "horizontes-sonoros",
-   "nombre": "Horizontes Sonoros",
-   "alias": [],
-   "direccion": "20 de noviembre",
-   "lat": -34.862754,
-   "lon": -56.1632096,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "hotel-radisson-victoria-plaza",
    "nombre": "Hotel Radisson Victoria Plaza",
    "alias": [
@@ -1046,6 +1049,16 @@
    "direccion": "Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "la-bodeguita-del-sur",
+   "nombre": "La Bodeguita del Sur",
+   "alias": [],
+   "direccion": "Soriano 840",
+   "lat": -34.908433,
+   "lon": -56.198165,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1803,9 +1816,10 @@
    "alias": [
     "Sala del Museo del Carnaval",
     "Museo del Carnaval",
-    "Patio del Museo del Carnaval"
+    "Patio del Museo del Carnaval",
+    "Plaza del Museo del Carnaval"
    ],
-   "direccion": "Rambla 25 de Agosto esq. Maciel",
+   "direccion": "Rambla 25 de Agosto 218",
    "lat": -34.905789,
    "lon": -56.212222,
    "barrio": null,
@@ -2094,7 +2108,11 @@
   {
    "id": "teatron",
    "nombre": "Teatrón",
-   "alias": [],
+   "alias": [
+    "Teatrón Av Gral Rivera 3406",
+    "Teatron Av Gral Rivera 3406",
+    "Teatron"
+   ],
    "direccion": "Av.Gral Rivera 3406, 11300 Montevideo, D",
    "lat": -34.902037,
    "lon": -56.140804,
@@ -2193,6 +2211,16 @@
    "direccion": "Bv. España 2218",
    "lat": -34.9095744,
    "lon": -56.1679561,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "terreno-de-covi-funac",
+   "nombre": "terreno de Covi Funac",
+   "alias": [],
+   "direccion": "Juncal y Cerrito",
+   "lat": -34.9036763,
+   "lon": -56.2019418,
    "barrio": null,
    "ciudad": "Montevideo"
   },

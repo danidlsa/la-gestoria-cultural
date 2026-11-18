@@ -1,8 +1,8 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-18T12:53:57.936402-03:00",
+ "corrida": "2026-11-18T16:23:33.444109-03:00",
  "ok": true,
- "cantidad": 24,
+ "cantidad": 25,
  "errores": [],
  "eventos": [
   {
@@ -1060,7 +1060,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202611/W756_H530/7066.png",
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202611/W756_H530/7071.jpg",
    "productor": "Teatro Solís",
    "region": "montevideo",
    "enlaces": [
@@ -1154,6 +1154,43 @@
    "enlaces": [
     "https://tickantel.com.uy/inicio/espectaculo/40020667/espectaculo/La%20Filarm%C3%B3nica%20-%20Los%20Planetas?4"
    ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "2665",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Studio-Ghibli-Sinfonico-uc2665",
+   "titulo": "Studio Ghibli Sinfónico",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-23T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202602/W756_H530/6509.jpeg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,

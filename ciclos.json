@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T13:00:06.561713-03:00",
+ "generado": "2026-11-18T16:29:38.566311-03:00",
  "cantidad": 28,
  "ciclos": [
   {
@@ -51,6 +51,14 @@
    "cantidad": 2
   },
   {
+   "id": "ciclo-centro-cultural-de-espana",
+   "titulo": "Centro Cultural de España",
+   "lugar_id": "centro-cultural-de-espana",
+   "desde": "2026-11-19T19:00:00-03:00",
+   "hasta": "2026-12-03T10:00:00-03:00",
+   "cantidad": 9
+  },
+  {
    "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
    "titulo": "Estreno de obras Fortalecimiento de las Artes",
    "lugar_id": null,
@@ -73,14 +81,6 @@
    "desde": "2026-11-20T14:00:00-03:00",
    "hasta": "2026-11-28T14:00:00-03:00",
    "cantidad": 1
-  },
-  {
-   "id": "ciclo-centro-cultural-de-espana",
-   "titulo": "Centro Cultural de España",
-   "lugar_id": "centro-cultural-de-espana",
-   "desde": "2026-11-20T20:00:00-03:00",
-   "hasta": "2026-12-03T10:00:00-03:00",
-   "cantidad": 7
   },
   {
    "id": "ciclo-primavera-tango",

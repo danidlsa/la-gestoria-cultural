@@ -1,8 +1,8 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-18T12:58:29.217946-03:00",
+ "corrida": "2026-11-18T16:28:06.926901-03:00",
  "ok": true,
- "cantidad": 15,
+ "cantidad": 16,
  "errores": [],
  "eventos": [
   {
@@ -524,6 +524,53 @@
   },
   {
    "fuente": "tikzet",
+   "id_externo": "29b67f42-54aa-40b5-ba07-560cc0847b89",
+   "url": "https://www.tikzet.com/events/barrio-chino",
+   "titulo": "Barrio Chino",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Se nos viene un gran show para ir despidiendo el año 🎆 Será una noche de candombe, rock y, por supuesto, alguna cumbia. También habrá invitados de lujo que nos estarán acompañando. 📆 Sábado 28/11 - 21.30 h 📍@elhormiguerobar San Salvador y Minas ¡Les esperamos!🪘🎸🎵🔥 *Este show es con el público de…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": "2026-11-28T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 280.0,
+    "hasta": 280.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/barrio-chino",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fcb8a0854-a474-4ab9-a790-3cb0621b6d8e.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
    "id_externo": "27d891c2-4908-47ad-9908-62834fa8b5d6",
    "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
    "titulo": "Jula Andina presenta “Fecunda”",
@@ -571,53 +618,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "7ebaa549-795f-4525-9c8f-3a963e1372c9",
-   "url": "https://www.tikzet.com/events/javier-ventoso",
-   "titulo": "Javier Ventoso",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-22T21:00:00-03:00",
-     "fin": "2026-12-22T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/javier-ventoso",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Ffe957b7d-f2ed-4c67-a998-1da80da079f2.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "10272af4-5882-411e-bf7f-1dde4bfc299e",
    "url": "https://www.tikzet.com/events/catalina-erdelyi-cuarteto",
    "titulo": "Catalina Erdelyi Cuarteto",
@@ -655,6 +655,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fccf19bc7-f6f4-4858-b045-967370cbe72b.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "7ebaa549-795f-4525-9c8f-3a963e1372c9",
+   "url": "https://www.tikzet.com/events/javier-ventoso",
+   "titulo": "Javier Ventoso",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-22T21:00:00-03:00",
+     "fin": "2026-12-22T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/javier-ventoso",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Ffe957b7d-f2ed-4c67-a998-1da80da079f2.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],

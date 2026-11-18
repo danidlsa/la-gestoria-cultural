@@ -1,52 +1,10 @@
 {
  "fuente": "mec_museos",
- "corrida": "2026-11-18T12:57:33.504113-03:00",
+ "corrida": "2026-11-18T16:27:06.721231-03:00",
  "ok": true,
- "cantidad": 7,
+ "cantidad": 6,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "mec_museos",
-   "id_externo": "muestra-final-centros-capacitacion-arte-produccion-cecap",
-   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/muestra-final-centros-capacitacion-arte-produccion-cecap",
-   "titulo": "Muestra Final de los Centros de Capacitación, Arte y Producción (CECAP)",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo del Carnaval",
-    "direccion": "Rambla 25 de Agosto esq. Maciel",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T10:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/muestra-final-centros-capacitacion-arte-produccion-cecap",
-     "via": "mec_museos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Ministerio de Educación y Cultura",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "mec_museos",
    "id_externo": "presentacion-del-libro-linaje-canario-fundacion-montevideo",

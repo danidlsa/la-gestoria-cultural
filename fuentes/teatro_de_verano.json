@@ -1,8 +1,8 @@
 {
  "fuente": "teatro_de_verano",
- "corrida": "2026-11-18T12:54:11.537845-03:00",
+ "corrida": "2026-11-18T16:23:43.578536-03:00",
  "ok": true,
- "cantidad": 12,
+ "cantidad": 13,
  "errores": [],
  "eventos": [
   {
@@ -88,6 +88,64 @@
    "enlaces": [
     "https://tickantel.com.uy/inicio/alta_demanda/40021101"
    ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "138",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Murga-Joven--Fase-final-uc138",
+   "titulo": "Murga Joven - Fase final",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "1, 2, 3 y 4 de diciembre.",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-01T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-03T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/612.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,

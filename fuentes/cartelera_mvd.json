@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-18T12:52:22.917605-03:00",
+ "corrida": "2026-11-18T16:21:59.612929-03:00",
  "ok": true,
- "cantidad": 85,
+ "cantidad": 87,
  "errores": [],
  "eventos": [
   {
@@ -2113,6 +2113,69 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42278.jpg",
    "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "35010",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35010",
+   "titulo": "El jefe del jefe",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Gabriel (Federico D'Elia) es el dueño de una empresa en venta. El problema es que cuando fundó la empresa, Gabriel inventó a un presidente ficticio para quitarse de encima el peso de tomar decisiones incómodas o impopulares. De esta manera, Gabriel quedó siempre bien parado ante sus empleados. Pero…",
+   "lugar": {
+    "nombre": "Sala Teatro Movie",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35010",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42366.jpg",
+   "productor": "Javier Daulte",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -4581,6 +4644,53 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41997.jpg",
    "productor": "Mavi Pouso",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "34752",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34752",
+   "titulo": "Patotera",
+   "categoria": "humor",
+   "categoria_segura": true,
+   "descripcion_corta": "Después de casi 7 meses en aislamiento, y sobrevivir a una convivencia tan loca cómo divertida, Yipio vuelve al escenario con su nuevo show de Stand Up: Patotera , en el que va a contar todos los detalles de su pasaje por el reality. Fiel a su estilo, con sus ocurrencias y esa forma divertida de…",
+   "lugar": {
+    "nombre": "Sala Teatro Movie",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 750.0,
+    "hasta": 950.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34752",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42049.jpg",
+   "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
