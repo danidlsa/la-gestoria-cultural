@@ -1,8 +1,8 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-17T17:11:43.652094-03:00",
+ "corrida": "2026-11-18T00:07:32.878022-03:00",
  "ok": true,
- "cantidad": 13,
+ "cantidad": 12,
  "errores": [],
  "eventos": [
   {
@@ -39,48 +39,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30729_banner5.jpeg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mientrada",
-   "id_externo": "30790",
-   "url": "https://mientrada.com.uy/evento/cadaveres-ilustres-30790",
-   "titulo": "CADAVERES ILUSTRES",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Contáctanos a nuestro WhatsApp Oficial",
-   "lugar": {
-    "nombre": "Debbie 80s Music Club",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mientrada.com.uy/evento/cadaveres-ilustres-30790",
-     "via": "mientrada"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30790_banner5.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

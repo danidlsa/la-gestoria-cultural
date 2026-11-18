@@ -1,61 +1,10 @@
 {
  "fuente": "corchea",
- "corrida": "2026-11-17T01:10:04.974177-03:00",
+ "corrida": "2026-11-18T00:08:08.710751-03:00",
  "ok": true,
- "cantidad": 30,
+ "cantidad": 29,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "corchea",
-   "id_externo": "24931",
-   "url": "https://corchea.uy/17-11-particulas-miel-malapraxxis/",
-   "titulo": "Partículas: Miel + Malapraxxis",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-17T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 800.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021757/particulas-miel-malapraxxis",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://corchea.uy/17-11-particulas-miel-malapraxxis/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "corchea",
    "id_externo": "25334",

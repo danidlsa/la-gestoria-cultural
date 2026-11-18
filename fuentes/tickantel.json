@@ -1,202 +1,10 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-17T16:54:29.889873-03:00",
+ "corrida": "2026-11-17T23:56:52.891087-03:00",
  "ok": true,
- "cantidad": 111,
+ "cantidad": 108,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021871",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021871/por-los-mas-chiquititos-11-anos",
-   "titulo": "Por los más chiquititos – 11 años",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "Concierto Coral a total beneficio de la Fundación Álvarez Caldeyro Barcia que trabaja por los niños prematuros que nacen en el Centro Hospitalario Pereira Rossell. Organizado por la Asociación Coral Cantemus como forma de su responsabilidad social. La duración será de aproximadamente una hora…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-17T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021871/por-los-mas-chiquititos-11-anos",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021871/web_(PLMCH)2026_(1).jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021757",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021757/particulas-miel-malapraxxis",
-   "titulo": "Partículas: Miel + Malapraxxis",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-17T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021757/particulas-miel-malapraxxis",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021757/BANNER.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021489",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021489/festival-musica-que-transforma",
-   "titulo": "Festival Música Que Transforma",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "El Festival Música que Transforma reúne cada año en Montevideo a las agrupaciones sinfónicas y corales del Programa Un Niño Un Instrumento de los núcleos de todo el país. Son conciertos muy especiales, que permiten compartir con el público el crecimiento y la evolución artística de los niños y…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-17T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-08T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-15T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021489/festival-musica-que-transforma",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021489/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020902",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020902/soy-luna",
-   "titulo": "Soy Luna",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "SOY LUNA VUELVE A LOS ESCENARIOS LUEGO DE 10 AÑOS CON SOY LUNA TOUR, EL ÚLTIMO SHOW. Soy Luna, llegará a URUGUAY el próximo 17 de noviembre al Antel Arena de Montevideo. En una celebración inolvidable para los fans de la serie, Karol Sevilla, Michael Ronda, Ruggero Pasquarelli, Malena Ratner y…",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-17T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020902/soy-luna",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020902/SOY_LUNA_TICKANTEL_GRILLA-2.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021609",
@@ -639,48 +447,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40020587",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020587/el-plan-de-la-mariposa",
-   "titulo": "El Plan de la Mariposa",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Vuelve El Plan de la Mariposa a Montevideo",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020587/el-plan-de-la-mariposa",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020587/700x390_EPDM_MONTEVIDEO.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021919",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
    "titulo": "EMI",
@@ -725,6 +491,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021919/700_x_390_e.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40020587",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020587/el-plan-de-la-mariposa",
+   "titulo": "El Plan de la Mariposa",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Vuelve El Plan de la Mariposa a Montevideo",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020587/el-plan-de-la-mariposa",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020587/700x390_EPDM_MONTEVIDEO.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1450,48 +1258,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40020967",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020967/hilda-lizarazu",
-   "titulo": "Hilda Lizarazu",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Hilda Lizarazu llega a Montevideo estrenando nuevo disco y repasando todos los clásicos. La artista se presenta para disfrutar de una noche llena de Pop y Rock and Roll. Duración del show: 90 minutos",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020967/hilda-lizarazu",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020967/hilda700x390_copia_4-100.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40020784",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020784/german-medina",
    "titulo": "Germán Medina",
@@ -1524,6 +1290,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020784/700_X_390_(2).jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40020967",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020967/hilda-lizarazu",
+   "titulo": "Hilda Lizarazu",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Hilda Lizarazu llega a Montevideo estrenando nuevo disco y repasando todos los clásicos. La artista se presenta para disfrutar de una noche llena de Pop y Rock and Roll. Duración del show: 90 minutos",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": -34.90626,
+    "lon": -56.19441,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020967/hilda-lizarazu",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020967/hilda700x390_copia_4-100.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2299,11 +2107,11 @@
   {
    "fuente": "tickantel",
    "id_externo": "40021526",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021526/julieta-laso",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021526/julieta-laso-postergado",
    "titulo": "Julieta Laso - POSTERGADO",
    "categoria": "teatro",
    "categoria_segura": false,
-   "descripcion_corta": "INFORMACIÓN IMPORTANTE: Las entradas adquiridas por la web están autorizadas a través de Tickantel. Las entradas que se compraron en efectivo se devuelven en la boletería de la sala de martes a sábados de 15:30hs a 21:15hs presentando el ticket en buenas condiciones.",
+   "descripcion_corta": "INFORMACIÓN IMPORTANTE: Las entradas adquiridas por la web serán autorizadas para devolución a través de Tickantel. Las entradas que se compraron en efectivo se devuelven en la boletería de la sala de martes a sábados de 15:30hs a 21:15hs presentando el ticket en buenas condiciones.",
    "lugar": {
     "nombre": "Sala Zitarrosa",
     "direccion": null,
@@ -2324,7 +2132,7 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021526/julieta-laso",
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021526/julieta-laso-postergado",
      "via": "tickantel"
     }
    ],
@@ -3702,6 +3510,60 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021489",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021489/festival-musica-que-transforma",
+   "titulo": "Festival Música Que Transforma",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "El Festival Música que Transforma reúne cada año en Montevideo a las agrupaciones sinfónicas y corales del Programa Un Niño Un Instrumento de los núcleos de todo el país. Son conciertos muy especiales, que permiten compartir con el público el crecimiento y la evolución artística de los niños y…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-08T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-15T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021489/festival-musica-que-transforma",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021489/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021783",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021783/pasos-largos",
    "titulo": "Pasos Largos",
@@ -3781,6 +3643,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021686/Adaptaciones_PECADO_LUZ_tickantel.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021903",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
+   "titulo": "Gala de Tango",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Vuelve la Gran Gala de Tango. La danza, la pasión y la poesía del género ciudadano, con el sello inconfundible de la Orquesta Filarmónica de Montevideo. Un espectáculo que celebra la riqueza de uno de los géneros musicales más representativos de nuestra identidad cultural. Con la voz de Valeria…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-10T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021903/BANNER_TICKANTEL_OFM_GRAN_GALA_TANGO_DIC_700x390.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3886,48 +3790,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020133/Banner_nuevo.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021903",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
-   "titulo": "Gala de Tango",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "Vuelve la Gran Gala de Tango. La danza, la pasión y la poesía del género ciudadano, con el sello inconfundible de la Orquesta Filarmónica de Montevideo. Un espectáculo que celebra la riqueza de uno de los géneros musicales más representativos de nuestra identidad cultural. Con la voz de Valeria…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-10T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021903/gala-de-tango",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021903/BANNER_TICKANTEL_OFM_GRAN_GALA_TANGO_DIC_700x390.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

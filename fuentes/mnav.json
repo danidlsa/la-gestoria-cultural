@@ -1,8 +1,8 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-17T17:11:18.985610-03:00",
+ "corrida": "2026-11-18T00:07:05.303933-03:00",
  "ok": true,
- "cantidad": 21,
+ "cantidad": 20,
  "errores": [],
  "eventos": [
   {
@@ -22,13 +22,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-17T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-18T00:00:00-03:00",
      "fin": null,
@@ -444,6 +437,13 @@
     },
     {
      "inicio": "2027-01-16T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-17T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -490,13 +490,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-17T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-18T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -911,6 +904,13 @@
     },
     {
      "inicio": "2027-01-16T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-17T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -957,13 +957,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-17T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-18T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1378,6 +1371,13 @@
     },
     {
      "inicio": "2027-01-16T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-17T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1772,6 +1772,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-17T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -2162,6 +2169,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-17T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -2185,48 +2199,6 @@
    "etiquetas": [],
    "muestra": true,
    "hasta": "2027-02-28"
-  },
-  {
-   "fuente": "mnav",
-   "id_externo": "grupodelecturascriticas2026",
-   "url": "https://mnav.gub.uy/cms.php?id=grupodelecturascriticas2026",
-   "titulo": "Grupo de Lecturas Críticas MNAV Noviembre: Textos de Olga Larnaudie, Alicia Haber y Ramón Grosfoguel",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-17T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=grupodelecturascriticas2026",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=grupodelecturascriticas2026",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
   },
   {
    "fuente": "mnav",

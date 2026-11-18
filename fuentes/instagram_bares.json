@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-17T17:12:49.950044-03:00",
+ "corrida": "2026-11-18T00:08:40.079267-03:00",
  "ok": true,
- "cantidad": 55,
+ "cantidad": 56,
  "errores": [],
  "eventos": [
   {
@@ -240,13 +240,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-17T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-24T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -328,18 +321,21 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "lamadredelassecond-20261114",
-   "url": "https://www.instagram.com/p/DfsVfx7RRQq/",
+   "url": "https://www.instagram.com/reel/Df3E6fkM0aB/",
    "titulo": "La Madre de las Second Hand: PLAZA DE LAS PIONERAS",
    "categoria": "feria",
    "categoria_segura": true,
-   "descripcion_corta": "¡IMPORTANTE! CAMBIO DE FECHA Y LOCACIÓN Debido a los pronósticos de lluvia, SUSPENDEMOS la feria prevista para este sábado 14 de noviembre. ¡Pero ya tenemos nueva fecha y lugar! SÁBADO 21 DE NOVIEMBRE Plaza Primero de Mayo De 11 a 18 hs. ¡ATENCIÓN! LA FERIA DEL DOMINGO 15 EN PASO MOLINO SIGUE EN…",
+   "descripcion_corta": "¡ESTE SÁBADO TENEMOS PLAN! ¡Vuelve La Madre de las Second Hand a Plaza Primero de Mayo! Una jornada para disfrutar, pasear, encontrarse y descubrir un montón de cosas. Ropa, calzado, accesorios, libros, juguetes, objetos y muchísimas oportunidades. Más de una excusa para salir de casa, recorrer la…",
    "lugar": {
-    "nombre": "Plaza Primero de Mayo",
+    "nombre": "PLAZA PRIMERO DE MAYO",
     "direccion": null,
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Agraciada",
+     "San Quintín"
+    ]
    },
    "funciones": [
     {
@@ -353,103 +349,12 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DfsVfx7RRQq/",
+     "url": "https://www.instagram.com/reel/Df3E6fkM0aB/",
      "via": "instagram"
     }
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a3c1133c2fd8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "el.mingus-20261117",
-   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
-   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Martes de Jazz",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Martes 17 de noviembre: Martes de Jazz (todos los martes)",
-   "lugar": {
-    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-17T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/dce730d14042.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261117",
-   "url": "https://www.instagram.com/p/DfzYmzPoDF-/",
-   "titulo": "Centro Cultural de España: ¿Cómo trabajamos el consentimiento en el entorno digital?",
-   "categoria": "humor",
-   "categoria_segura": false,
-   "descripcion_corta": "¿Dibujar a mano en tiempos de Inteligencia Artificial es un acto de resistencia? En un mundo cada vez más poblado de imágenes generadas por IA, ¿qué lugar ocupa el dibujo hecho a mano? ¿Puede el cómic convertirse en una herramienta de activismo y una forma de tomar posición? La ilustradora y autora…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-17T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfzYmzPoDF-/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2457675337e8.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -589,11 +494,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "barlarondacafe-20261118",
-   "url": "https://www.instagram.com/p/DftOoqWOlSI/",
+   "url": "https://www.instagram.com/reel/Df3EiidBgm5/",
    "titulo": "La Ronda: Noches De Ensayos Abiertos · Magela Ferrero",
-   "categoria": "teatro",
+   "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Este miércoles en Noches De Ensayos Abiertos Magela Ferrero Nace en Montevideo en el invierno de 1966, hija de Hilda y de Antonio. Su niñez y adolescencia transcurren en el barrio de La Unión. A los nueve años, un deseo bien lustrado pone el azar a su favor y consigue su primera cámara de fotos…",
+   "descripcion_corta": "Esto fue Noches de Ensayos Abiertos el pasado miércoles con lali_gaspari Mañana te esperamos con una nueva edición de NDEA con Magela Ferrero en vivo Musicaliza _wandixx_ 20hs Ciudadela 1182",
    "lugar": {
     "nombre": "La Ronda",
     "direccion": "Ciudadela 1182",
@@ -611,20 +516,59 @@
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
+   "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DftOoqWOlSI/",
+     "url": "https://www.instagram.com/reel/Df3EiidBgm5/",
      "via": "instagram"
     }
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/bf29c333363b.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "jazzclub.uy-20261118",
+   "url": "https://www.instagram.com/p/Df2Iz_OTSo8/",
+   "titulo": "Jazz Club: COMO TODAS LAS SEMANASSSS · GRAAAAAATIS bluzzbar bluzzbar bluzzbar",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "ESTE MIÉRCOLES COMO TODAS LAS SEMANASSSS GRAAAAAATIS bluzzbar bluzzbar bluzzbar VUELVE EL DE LA GENTE 20HS 20HS 20HSSSSSSS jazzclub.uy ottonello.musica andonigajduk manza______ nachocorreapacifico lawrelenzo . 2x1 en gin destileriacapicua Apoya fundamento.pizza & destileriacapicua",
+   "lugar": {
+    "nombre": "Bluzz Bar",
+    "direccion": "Canelones 760",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2Iz_OTSo8/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e854a1194cad.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -725,6 +669,48 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "subtemvd-20261119",
+   "url": "https://www.instagram.com/p/Df2mfb-FIZR/",
+   "titulo": "Centro de Exposiciones Subte: Seguimos construyendo LA SUBTERADORA",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Seguimos construyendo LA SUBTERADORA! Te esperamos todos los martes de 14:00 a 18:00 h y los jueves de 11:00 a 15:00 h, hasta enero de 2027, para conversar, preguntar, proponer y armar con Ana Laura López de la Torre y Niklaus Strobel. ¡Pasá y sumate!",
+   "lugar": {
+    "nombre": "Centro de Exposiciones Subte",
+    "direccion": "Plaza Fabini",
+    "lat": -34.90563,
+    "lon": -56.19423,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2mfb-FIZR/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2c6c5bb7d275.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1001,6 +987,53 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261120",
+   "url": "https://www.instagram.com/p/Df2JUKbIJRv/",
+   "titulo": "Centro Cultural de España: PUENTES AL SUR",
+   "categoria": "cine",
+   "categoria_segura": false,
+   "descripcion_corta": "PUENTES AL SUR | Festival de cine Historias que cruzan fronteras, desafían estereotipos y nos invitan a mirar la migración desde otras perspectivas. Llega al CCE Puentes al Sur, una iniciativa que, a través del cine, busca visibilizar las experiencias y trayectorias de las personas migrantes…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2JUKbIJRv/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/658a3bbc08b3.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "centroculturalterminalgoes-20261120",
    "url": "https://www.instagram.com/p/Df2KAYlnLV7/",
    "titulo": "Centro Cultural Terminal Goes: ASCENSO",
@@ -1227,51 +1260,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1085dfeadda8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "lamadredelassecond-20261121",
-   "url": "https://www.instagram.com/p/Df0csQtR7nG/",
-   "titulo": "La Madre de las Second Hand: PLAZA PRIMERO DE MAYO",
-   "categoria": "feria",
-   "categoria_segura": true,
-   "descripcion_corta": "¡ESTE SÁBADO NOS VOLVEMOS A ENCONTRAMOS EN LA MADRE DE LAS SECOND! SÁBADO 21 DE NOVIEMBRE te esperamos en una nueva edición de nuestra feria en Plaza Primero de Mayo. De 11 a 18 h Plaza Primero de Mayo (atrás del Palacio Legislativo). ¡150 STANDS para recorrer y descubrir! Ropa, calzado…",
-   "lugar": {
-    "nombre": "Plaza Primero de Mayo (atrás del Palacio Legislativo)",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [
-     "Agraciada",
-     "San Quintín"
-    ]
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T11:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df0csQtR7nG/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e478fd70d8d3.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2006,6 +1994,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8b5939d4e5ed.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261128",
+   "url": "https://www.instagram.com/p/Df2kh9wGBtj/",
+   "titulo": "Centro Cultural de España: El circo llega al CCE",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "¡El circo llega al CCE! El sábado 28 de noviembre te invitamos a disfrutar de una Varieté circense a cargo de El Picadero: un espectáculo irrepetible que reúne distintas disciplinas, números y creaciones en una misma función. Un espacio de encuentro entre artistas y público, donde la sorpresa y la…",
+   "lugar": {
+    "nombre": "CCE (Rincón 629)",
+    "direccion": "CCE (Rincón 629)",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T15:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2kh9wGBtj/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f329edfb078c.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

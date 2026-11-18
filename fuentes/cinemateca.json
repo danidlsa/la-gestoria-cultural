@@ -1,8 +1,8 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-17T17:05:01.447064-03:00",
+ "corrida": "2026-11-18T00:01:07.721572-03:00",
  "ok": true,
- "cantidad": 19,
+ "cantidad": 18,
  "errores": [],
  "eventos": [
   {
@@ -22,13 +22,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-17T17:10:00-03:00",
-     "fin": "2026-11-17T18:44:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-18T17:10:00-03:00",
      "fin": "2026-11-18T18:44:00-03:00",
@@ -67,6 +60,13 @@
     {
      "inicio": "2026-11-23T17:15:00-03:00",
      "fin": "2026-11-23T18:49:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T17:15:00-03:00",
+     "fin": "2026-11-24T18:49:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -142,13 +142,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-17T17:20:00-03:00",
-     "fin": "2026-11-17T19:05:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-18T17:20:00-03:00",
      "fin": "2026-11-18T19:05:00-03:00",
@@ -242,50 +235,50 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-17T19:05:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-18T19:05:00-03:00",
-     "fin": null,
+     "fin": "2026-11-18T21:03:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     },
     {
      "inicio": "2026-11-19T21:15:00-03:00",
-     "fin": null,
+     "fin": "2026-11-19T23:13:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     },
     {
      "inicio": "2026-11-20T21:15:00-03:00",
-     "fin": null,
+     "fin": "2026-11-20T23:13:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     },
     {
      "inicio": "2026-11-21T21:35:00-03:00",
-     "fin": null,
+     "fin": "2026-11-21T23:33:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     },
     {
      "inicio": "2026-11-22T21:35:00-03:00",
-     "fin": null,
+     "fin": "2026-11-22T23:33:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     },
     {
      "inicio": "2026-11-23T21:25:00-03:00",
-     "fin": null,
+     "fin": "2026-11-23T23:23:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T21:25:00-03:00",
+     "fin": "2026-11-24T23:23:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -362,13 +355,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-17T19:25:00-03:00",
-     "fin": "2026-11-17T21:08:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-18T19:20:00-03:00",
      "fin": "2026-11-18T21:03:00-03:00",
      "sin_hora": false,
@@ -406,6 +392,13 @@
     {
      "inicio": "2026-11-23T21:20:00-03:00",
      "fin": "2026-11-23T23:03:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T21:20:00-03:00",
+     "fin": "2026-11-24T23:03:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -466,126 +459,6 @@
   },
   {
    "fuente": "cinemateca",
-   "id_externo": "9643",
-   "url": "https://cinemateca.org.uy/peliculas/9643",
-   "titulo": "Naza",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Yuval Abraham, Rachel Szor. El término “NAZA” es un acrónimo de la expresión militar hebrea nezek agavi que puede traducirse como “daño colateral”, y alude a las víctimas civiles de una guerra, en este caso la que las Fuerzas de Defensa de Israel llevan a cabo contra Hamas y la población de…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-17T21:25:00-03:00",
-     "fin": "2026-11-17T22:45:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-18T21:25:00-03:00",
-     "fin": "2026-11-18T22:45:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-19T17:00:00-03:00",
-     "fin": "2026-11-19T18:20:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T17:00:00-03:00",
-     "fin": "2026-11-20T18:20:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T17:25:00-03:00",
-     "fin": "2026-11-21T18:45:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-22T22:10:00-03:00",
-     "fin": "2026-11-22T23:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-23T17:10:00-03:00",
-     "fin": "2026-11-23T18:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9643",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40845/image_still_binary",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
    "id_externo": "9062",
    "url": "https://cinemateca.org.uy/peliculas/9062",
    "titulo": "Emi",
@@ -601,13 +474,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-17T21:30:00-03:00",
-     "fin": "2026-11-17T23:03:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-18T21:20:00-03:00",
      "fin": "2026-11-18T22:53:00-03:00",
@@ -685,6 +551,126 @@
   },
   {
    "fuente": "cinemateca",
+   "id_externo": "9643",
+   "url": "https://cinemateca.org.uy/peliculas/9643",
+   "titulo": "Naza",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Yuval Abraham, Rachel Szor. El término “NAZA” es un acrónimo de la expresión militar hebrea nezek agavi que puede traducirse como “daño colateral”, y alude a las víctimas civiles de una guerra, en este caso la que las Fuerzas de Defensa de Israel llevan a cabo contra Hamas y la población de…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-18T21:25:00-03:00",
+     "fin": "2026-11-18T22:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-19T17:00:00-03:00",
+     "fin": "2026-11-19T18:20:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T17:00:00-03:00",
+     "fin": "2026-11-20T18:20:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T17:25:00-03:00",
+     "fin": "2026-11-21T18:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T22:10:00-03:00",
+     "fin": "2026-11-22T23:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-23T17:10:00-03:00",
+     "fin": "2026-11-23T18:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T17:10:00-03:00",
+     "fin": "2026-11-24T18:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9643",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40845/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
    "id_externo": "9655",
    "url": "https://cinemateca.org.uy/peliculas/9655",
    "titulo": "Tierra de mi padre",
@@ -700,13 +686,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-17T21:35:00-03:00",
-     "fin": "2026-11-17T22:57:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-18T21:30:00-03:00",
      "fin": "2026-11-18T22:52:00-03:00",
@@ -745,6 +724,13 @@
     {
      "inicio": "2026-11-23T21:05:00-03:00",
      "fin": "2026-11-23T22:27:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T21:30:00-03:00",
+     "fin": "2026-11-24T22:52:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -799,91 +785,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9670",
-   "url": "https://cinemateca.org.uy/peliculas/9670",
-   "titulo": "Los poseídos",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Andrzej Wajda. Rusia, año 1870. Un grupo de jóvenes revolucionarios anarquistas se propone derribar el régimen zarista por medio de la violencia. Sus atentados crean un clima de psicosis y desconfianza. Revolucionarios y represores están siendo manipulados por un individuo que se sirve de la…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-17T17:00:00-03:00",
-     "fin": "2026-11-17T18:56:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-17T19:20:00-03:00",
-     "fin": "2026-11-17T21:16:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9670",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://assets.mubicdn.net/images/film/24309/image-w1280.jpg?1745490453",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Andrzej Wajda, en su centenario",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
