@@ -121,3 +121,29 @@ def test_robots_y_sitemap_para_buscadores():
     mapa = sitemap_xml("https://ejemplo.uy/", "2026-11-02")
     assert "<loc>https://ejemplo.uy/</loc><lastmod>2026-11-02</lastmod>" in mapa
     assert "<loc>https://ejemplo.uy/que-es.html</loc>" in mapa
+
+
+def test_donde_pasa_la_config_es_valida():
+    import tomllib
+    from cartelera.donde_pasa import CONFIG, cargar
+    nombres, de_lugar = cargar()
+    assert set(nombres) == {"bares", "espacios", "chicas", "grandes", "aire_libre"}  # "no aplica" no se muestra
+    config = tomllib.loads(CONFIG.read_text(encoding="utf-8"))
+    todos = [lugar for grupo in config.values() for lugar in grupo["lugares"]]
+    assert len(todos) == len(set(todos)), "un lugar está en dos grupos"
+    assert de_lugar["the-shannon-irish-pub"] == "bares" and de_lugar["teatro-solis"] == "grandes"
+
+
+def test_donde_pasa_avisa_de_los_lugares_sin_etiqueta(tmp_path):
+    from cartelera import donde_pasa
+    config = tmp_path / "donde_pasa.toml"
+    config.write_text('[bares]\nnombre = "Bares y cafés"\nlugares = ["the-shannon"]\n\n'
+                      '[no_aplica]\nnombre = "No aplica"\nlugares = ["cinemateca"]\n', encoding="utf-8")
+    evento = lambda lugar, titulo: {"lugar_id": lugar, "titulo": titulo, "categoria": "musica",
+                                    "funciones": [{"inicio": "2026-11-20T21:00:00-03:00"}], "fuentes": [{"url": "https://x.uy/"}]}
+    eventos = [evento("the-shannon", "Open mic"), evento("cinemateca", "Una película"),
+               evento("sala-nueva", "Banda A"), evento("sala-nueva", "Banda B")]
+    items = donde_pasa.pendientes(eventos, {"sala-nueva": {"nombre": "Sala Nueva", "direccion": "Soriano 1"}}, config)
+    assert [(i["id"], i["cantidad"]) for i in items] == [("sala-nueva", 2)]  # ni el clasificado ni el de "no aplica"
+    cuerpo = donde_pasa.cuerpo(items)
+    assert "**Sala Nueva** (Soriano 1) · `sala-nueva` · 2 eventos" in cuerpo and "<!-- lugar:sala-nueva -->" in cuerpo

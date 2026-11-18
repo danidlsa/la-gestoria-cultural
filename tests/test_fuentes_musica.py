@@ -165,6 +165,9 @@ def test_tikzet_la_sala_del_pin_manda_sobre_la_organizacion(pagina):
     narciso = {**ficha, "organization": {"name": "Piffa"}, "address": "Convención 1101",
                "description": "La banda revelación de Rosario.\n\n📍 Sala Ducón, Montevideo\n📅 26/12/2026\n🕘 21 hs"}
     assert tikzet.armar_evento(narciso, ahora).lugar.nombre == "Sala Ducón"
+    # Como viene de verdad: en HTML.
+    en_html = {**narciso, "description": "<p>La banda.</p><p>&#128205; Sala Duc&oacute;n, Montevideo<br>&#128197; 26/12</p>"}
+    assert tikzet.armar_evento(en_html, ahora).lugar.nombre == "Sala Ducón"
     # "📍 Montevideo" no dice nada: queda la organización.
     assert tikzet.armar_evento({**narciso, "description": "📍 Montevideo"}, ahora).lugar.nombre == "Piffa"
 

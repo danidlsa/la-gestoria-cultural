@@ -75,6 +75,8 @@ def main() -> int:
         instagram_bares.avisar(en_github=args.github)  # posts de bares para aprobar
         from cartelera.sin_ubicacion import avisar as avisar_sin_ubicacion
         avisar_sin_ubicacion(en_github=args.github)  # eventos que no salen por no saber dónde son
+        from cartelera.donde_pasa import avisar as avisar_donde_pasa
+        avisar_donde_pasa(en_github=args.github)  # lugares nuevos sin etiqueta de "Dónde pasa"
         return 0
     return 2
 

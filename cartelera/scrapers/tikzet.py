@@ -66,7 +66,8 @@ def armar_evento(ficha: dict, ahora: datetime) -> EventoCrudo | None:
     direccion = texto_plano(ficha.get("address")) or None
     # Si la descripción dice dónde es ("📍 Sala Ducón, Montevideo"), eso manda: a veces la organización es una
     # productora con un nombre que no lo dice (Piffa).
-    en_el_texto, _ = lugar_del_texto(ficha.get("description") or "")
+    # (La descripción viene en HTML, con "&oacute;" y "&#128205;": se lee como texto.)
+    en_el_texto, _ = lugar_del_texto(texto_plano(ficha.get("description")) or "")
     if en_el_texto and sin_tildes(en_el_texto).lower() not in ("montevideo", "uruguay"):
         sala = en_el_texto
     if not sala and not direccion:

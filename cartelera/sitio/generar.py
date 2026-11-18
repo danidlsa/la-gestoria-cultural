@@ -17,6 +17,7 @@ from markupsafe import Markup
 
 from cartelera import especiales
 from cartelera.caminatas import caminatas
+from cartelera.donde_pasa import cargar as donde_pasa
 from cartelera.geo import VARIOS_BARRIOS
 from cartelera.scrapers.base import MONTEVIDEO
 from cartelera.scrapers.propuestos import configuracion as configuracion_agrega
@@ -263,6 +264,7 @@ def datos_para_el_navegador(eventos: list[dict], lugares: dict[str, dict], ciclo
     for e in eventos:
         por_lugar.setdefault(e["lugar_id"], []).append(e)
     nombre_ciclo = {c["id"]: c["titulo"] for c in ciclos}
+    nombres_donde, de_lugar = donde_pasa()
     return {
         "eventos": [
             {
@@ -293,11 +295,13 @@ def datos_para_el_navegador(eventos: list[dict], lugares: dict[str, dict], ciclo
                 "nombre": l["nombre"], "lat": l.get("lat"), "lon": l.get("lon"), "direccion": l.get("direccion"),
                 "barrio": l.get("barrio"),
                 "tipo": tipo_de_lugar(id_, l["nombre"], por_lugar.get(id_, [])),
+                "donde": de_lugar.get(id_),
             }
             for id_, l in lugares.items()
         },
         "ciclos": {c["id"]: c["titulo"] for c in ciclos},
         "tiposDeLugar": TIPOS_DE_LUGAR,
+        "dondePasa": nombres_donde,
         "categorias": CATEGORIAS,
         "subcategorias": SUBCATEGORIAS,
         "subcategoriasOtros": SUBCATEGORIAS_OTROS,
@@ -415,10 +419,11 @@ def generar() -> Path:
     # Los botones de tipo de evento (se suman entre sí). Los que pasan de los visibles quedan plegados detrás de
     # "Más tipos".
     rubros = [("categoria", clave, nombre) for clave, nombre, _ in categorias]
-    # "Bares" es una etiqueta (lo que pasa en un bar, sea música, fiesta o humor): no se suma a los tipos sino que los
-    # achica ("Solo en bares" + Música: música en bares), así que va aparte, con otro nombre. "Museos" también es una
-    # etiqueta, pero no se ofrece como filtro: lo de los museos son casi todas exposiciones, que ya tienen su tipo.
-    solo_en = [("bar", "Bares")] if any("bar" in e.get("etiquetas", []) for e in eventos) else []
+    # "Dónde pasa": el tipo de lugar (bares y cafés, salas chicas, salas grandes, al aire libre). No se suma a los tipos
+    # sino que los achica (Música + Bares y cafés: música en bares), así que va aparte. Solo los que tienen eventos.
+    nombres_donde, de_lugar = donde_pasa()
+    con_eventos = {de_lugar.get(e["lugar_id"]) for e in eventos}
+    solo_en = [(clave, nombre) for clave, nombre in nombres_donde.items() if clave in con_eventos]
     nombres_fuentes = [FUENTES[f] for f in sorted({p["fuente"] for e in eventos for p in e["fuentes"]}) if f in FUENTES]
     agrega = formulario_para_agregar(configuracion_agrega())
     pagina = entorno.get_template("index.html.j2").render(

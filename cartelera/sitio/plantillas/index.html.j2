@@ -127,10 +127,10 @@
           </div>
           <div class="opciones subrubros" id="subrubros" role="group" aria-label="Subtipo" hidden></div>
           {%- if solo_en %}
-          <div class="opciones solo-en" role="group" aria-label="Solo en">
-            <span class="solo-en-titulo">Solo en</span>
+          <div class="opciones solo-en" role="group" aria-label="Dónde pasa">
+            <span class="solo-en-titulo">Dónde pasa</span>
             {%- for clave, nombre in solo_en %}
-            <button type="button" data-etiqueta="{{ clave }}" aria-pressed="false">{{ nombre }}</button>
+            <button type="button" data-donde="{{ clave }}" aria-pressed="false">{{ nombre }}</button>
             {%- endfor %}
           </div>
           {%- endif %}

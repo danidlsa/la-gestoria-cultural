@@ -165,8 +165,12 @@
   // --- Estado de los filtros --------------------------------------------------------------------
   const FILTROS_INICIALES = {
     periodo: "todo", dia: null, tipos: [], sub: "",
-    presupuesto: "", programa: "", sala: "", ciclo: "", texto: "", excluir: [],
+    presupuesto: "", programa: "", sala: "", ciclo: "", texto: "", excluir: [], donde: [],
   };
+  // "Dónde pasa": el tipo de lugar (bares y cafés, espacios culturales, salas chicas y grandes, al aire libre; config/donde_pasa.toml).
+  // Se suman entre sí y achican lo elegido en tipo: Música + Bares y cafés = música en bares.
+  const dondeDe = (evento) => datos.lugares[evento.lugar]?.donde;
+  const nombreDonde = (clave) => (clave === "aire_libre" ? "Al aire libre" : `En ${(datos.dondePasa[clave] || clave).toLowerCase()}`);
   let estado = { seccion: "agenda", mes: hoy.slice(0, 7), planMes: hoy.slice(0, 7), ...FILTROS_INICIALES };
 
   // Tipos de evento elegidos: "categoria:teatro" o "etiqueta:bar". Los rubros se suman entre sí (teatro o música); las
@@ -231,10 +235,13 @@
     for (const etiqueta of evento.etiquetas) {
       if (estado.excluir.includes(etiqueta) && !(etiqueta === "festival" && s === "festivales")) return false;
     }
+    // "Sin bares": también los bares y cafés de "Dónde pasa" (no solo los que vienen de Instagram).
+    if (estado.excluir.includes("bar") && dondeDe(evento) === "bares") return false;
     const rubros = categoriasElegidas();
     const etiquetasPedidas = etiquetasElegidas();
     if (rubros.length && !rubros.includes(evento.categoria)) return false;
     if (etiquetasPedidas.length && !etiquetasPedidas.some((etiqueta) => evento.etiquetas.includes(etiqueta))) return false;
+    if (estado.donde.length && !estado.donde.includes(dondeDe(evento))) return false;
     if (unaCategoria()) {
       if (estado.sub === "otros" && evento.sub) return false;
       if (estado.sub && estado.sub !== "otros" && evento.sub !== estado.sub) return false;
@@ -264,6 +271,7 @@
       activos.push(["periodo", estado.periodo === "dia" ? textoFuncion([estado.dia, true]) : NOMBRE_PERIODO[estado.periodo]]);
     }
     for (const tipo of estado.tipos) activos.push([`tipo:${tipo}`, nombreTipo(tipo)]);
+    for (const clave of estado.donde) activos.push([`donde:${clave}`, nombreDonde(clave)]);
     if (estado.sub && unaCategoria()) {
       const otros = datos.subcategoriasOtros[unaCategoria()] || "Otros";
       activos.push(["sub", estado.sub === "otros" ? otros : (datos.subcategorias[unaCategoria()] || {})[estado.sub]]);
@@ -301,6 +309,7 @@
     if (clave === "periodo") return { periodo: "todo", dia: null };
     if (clave.startsWith("tipo:")) return { tipos: estado.tipos.filter((t) => t !== clave.slice(5)), sub: "" };
     if (clave.startsWith("excluir:")) return { excluir: estado.excluir.filter((c) => c !== clave.slice(8)) };
+    if (clave.startsWith("donde:")) return { donde: estado.donde.filter((c) => c !== clave.slice(6)) };
     return { [clave]: FILTROS_INICIALES[clave] };
   }
 
@@ -1946,8 +1955,13 @@
       boton.classList.toggle("activo", boton.dataset.periodo === estado.periodo);
       boton.setAttribute("aria-pressed", String(boton.dataset.periodo === estado.periodo));
     }
-    for (const boton of document.querySelectorAll("#rubros button:not(.ver-mas), .solo-en button")) {
-      // "Todos" se prende sin ningún rubro elegido ("Solo en bares" va aparte); los demás, si están en la lista.
+    for (const boton of document.querySelectorAll(".solo-en button")) {
+      const activo = estado.donde.includes(boton.dataset.donde);
+      boton.classList.toggle("activo", activo);
+      boton.setAttribute("aria-pressed", String(activo));
+    }
+    for (const boton of document.querySelectorAll("#rubros button:not(.ver-mas)")) {
+      // "Todos" se prende sin ningún rubro elegido ("Dónde pasa" va aparte); los demás, si están en la lista.
       const tipo = boton.dataset.etiqueta ? `etiqueta:${boton.dataset.etiqueta}` : `categoria:${boton.dataset.categoria}`;
       const activo = boton.dataset.categoria === "" ? !categoriasElegidas().length : estado.tipos.includes(tipo);
       boton.classList.toggle("activo", activo);
@@ -2147,7 +2161,10 @@
       const mismo = estado.periodo === "dia" && estado.dia === d.dia;
       cambiar(mismo ? { periodo: "todo", dia: null } : { periodo: "dia", dia: d.dia });
     } else if (d.mes) cambiar({ mes: sumarMeses(estado.mes, Number(d.mes)) });
-    else if ("categoria" in d || d.etiqueta) {
+    else if (d.donde) {
+      // Cada tipo de lugar se prende y se apaga solo; se pueden combinar (bares y salas chicas).
+      cambiar({ donde: estado.donde.includes(d.donde) ? estado.donde.filter((c) => c !== d.donde) : [...estado.donde, d.donde] });
+    } else if ("categoria" in d || d.etiqueta) {
       // Cada tipo se prende y se apaga solo (se pueden combinar); "Todos" apaga los rubros, no el "Solo en".
       if (d.categoria === "") cambiar({ tipos: estado.tipos.filter((t) => t.startsWith("etiqueta:")), sub: "" });
       else {
