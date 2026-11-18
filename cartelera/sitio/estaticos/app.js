@@ -1267,7 +1267,7 @@
     const mapa = el("div", { class: "esp-recorrido-mapa" });
     contenedor.replaceChildren(el("div", { class: "esp-recorrido" },
       el("div", { class: "esp-recorrido-cabeza" },
-        el("p", { class: "esp-recorrido-titulo" }, `Tu noche: ${cuantas(lista.length)} en ${cuantosLugares(new Set(lista.map((a) => a.evento.lugar)).size, jornada.lugares)}`),
+        el("p", { class: "esp-recorrido-titulo" }, `Tu recorrido: ${cuantas(lista.length)} en ${cuantosLugares(new Set(lista.map((a) => a.evento.lugar)).size, jornada.lugares)}`),
         el("div", { class: "esp-recorrido-acciones" },
           el("button", { type: "button", class: "boton-recorrido", "data-esp-compartir-recorrido": "" }, "Compartir"),
           el("button", { type: "button", class: "boton-recorrido secundario", "data-seccion": "plan" }, "Al calendario"))),

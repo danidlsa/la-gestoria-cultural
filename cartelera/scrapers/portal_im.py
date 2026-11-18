@@ -49,7 +49,8 @@ CATEGORIAS = {
     "literatura": ("charla", False),
 }
 EXCLUIDAS = {"deportes"}
-_TALLER = re.compile(r"\b(taller(es)?|cursos?|clases?|escuelas?|workshops?)\b")
+# "Escuela de verano" sí; "Corso comunitario de la Escuela Esquinera" no (ahí la escuela es la que organiza).
+_TALLER = re.compile(r"\b(taller(es)?|cursos?|clases?|workshops?)\b|^escuelas?\b|\bescuelas?\s+de\b")
 # "Murga Joven: domingo 15 de noviembre": el portal carga una actividad por fecha con la fecha en el título.
 _FECHA_EN_TITULO = re.compile(
     r"[\s:,.-]+(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo)\s+\d{1,2}(\s+de\s+[a-záéíóú]+)?\s*$", re.I,
@@ -60,7 +61,7 @@ _INCLUIR = [
     "field_evento_pertenece", "field_perfil_de_evento", "field_imagen_miniatura_listados.field_media_image",
 ]
 _CAMPOS = {
-    "node--actividad": "drupal_internal__nid,title,path,field_costo,field_detalle_costo,field_resumen,"
+    "node--actividad": "drupal_internal__nid,title,path,field_costo,field_detalle_costo,field_resumen,field_donde,"
                        "field_contenido,field_categoria_listado,field_evento_pertenece,field_fechas_horarios,"
                        "field_perfil_de_evento,field_imagen_miniatura_listados",
     "paragraph--funciones": "field_fechas_horarios,field_donde",
@@ -129,6 +130,36 @@ _SALE_DE = re.compile(r"\b(?:comienza|empieza|sale|parte|arranca)\s+(?:en|desde)
 _SALA_EN_TITULO = re.compile(
     r"\b(?:en|por|del)\s+(?:el\s+|la\s+)?((?:Caf[eé]|Bar|Restaurante|Museo|Galer[ií]a|Teatro|Sala|Espacio|Centro|Casa|Plaza|"
     r"Librer[ií]a|Taller|Cabildo|Iglesia|Catedral|Templo)\s.+)$")
+
+
+# "Dónde" de la actividad: un texto que el portal muestra arriba de la fecha, y que sí dice el sitio exacto cuando el
+# lugar cargado es un área ("Museo Torres García (Sarandí 683)", "Casona Mauá" y abajo "Juan Carlos Gómez 1530",
+# "Café Brasilero, Ituzaingó 1447", "Bacacay y Buenos Aires", "Salida desde el Museo del Carnaval (Rambla 25 de
+# Agosto 218)", "Desde Plaza Matriz hasta Pérez Castellano, por peatonal Sarandí").
+_DONDE_PREFIJO = re.compile(r"^(?:salida\s+)?(?:desde|sale\s+de|entre\s+las\s+calles)\s+(?:el\s+|la\s+)?", re.I)
+_DONDE_HASTA = re.compile(r"\s+hasta\s+.*$", re.I)
+_DONDE_PARENTESIS = re.compile(r"^(.+?)\s*\((.+)\)$")
+_ES_DIRECCION = re.compile(r"\d|\bs/n\b", re.I)
+
+
+def sitio_del_donde(donde: str | None) -> tuple[str, str | None] | None:
+    """(nombre, dirección) del campo "Dónde" del portal, o None si viene vacío. Una dirección o un cruce solos van
+    de nombre y de dirección."""
+    lineas = [re.sub(r"\s+", " ", l).strip(" .") for l in (donde or "").splitlines()]
+    lineas = [l for l in lineas if l]
+    if not lineas:
+        return None
+    if len(lineas) > 1:  # "Casona Mauá" / "Juan Carlos Gómez 1530"
+        return lineas[0], lineas[1]
+    texto = _DONDE_HASTA.sub("", _DONDE_PREFIJO.sub("", lineas[0])).strip(" .,")
+    if partes := _DONDE_PARENTESIS.match(texto):
+        return partes.group(1).strip(), partes.group(2).strip()
+    nombre, _, resto = texto.partition(",")
+    if resto and (_ES_DIRECCION.search(resto) or calles_del_cruce(resto.strip())):
+        return nombre.strip(), resto.strip()
+    if _ES_DIRECCION.search(texto) or calles_del_cruce(texto):
+        return texto, texto
+    return texto, None
 
 
 def sitio_en_el_texto(titulo: str, *textos: str | None) -> tuple[str, str | None] | None:
@@ -217,6 +248,21 @@ class Indice:
         return f"{SITIO}{url}" if url else None
 
 
+def _sitio_exacto(donde: str, titulo: str, *textos: str | None) -> tuple[str, str | None] | None:
+    """El sitio de una actividad cargada en un área: el del campo "Dónde" y, si no hay, el que nombra el texto. Lo que
+    al "Dónde" le falta (el nombre, si es solo una dirección; la dirección, si es solo el nombre) sale del texto."""
+    del_donde = sitio_del_donde(donde)
+    del_texto = sitio_en_el_texto(titulo, *textos)
+    if del_donde and del_donde[0] == del_donde[1] and del_texto:
+        return del_texto[0], del_donde[1]
+    # "Salón Andy" en el "Dónde" y "Lugar: Salón Andy (Pérez Castellano 1462)" en el texto: la dirección, del texto.
+    if del_donde and not del_donde[1] and del_texto and del_texto[1]:
+        a, b = sin_tildes(del_donde[0]).lower(), sin_tildes(del_texto[0]).lower()
+        if a in b or b in a:
+            return del_donde[0], del_texto[1]
+    return del_donde or del_texto
+
+
 def armar_eventos(actividad: dict, indice: Indice, ahora: datetime) -> list[EventoCrudo]:
     """Uno por lugar: algunas actividades se hacen en varios (una gira por los barrios)."""
     datos, rel = actividad["attributes"], actividad["relationships"]
@@ -238,6 +284,9 @@ def armar_eventos(actividad: dict, indice: Indice, ahora: datetime) -> list[Even
         por_lugar.setdefault(lugar["id"], (lugar, []))[1].extend(funciones)
 
     descripcion = texto_plano((datos.get("field_resumen") or {}).get("value"))
+    # Los párrafos del "Dónde" ("<p>Casona Mauá</p><p>Juan Carlos Gómez 1530</p>") van en renglones separados.
+    donde = "\n".join(texto_plano(parte) for parte in
+                      re.split(r"</p>|<br\s*/?>", (datos.get("field_donde") or {}).get("value") or "", flags=re.I))
     contenido = texto_plano((datos.get("field_contenido") or {}).get("value"))
     publico = [p["attributes"]["name"] for p in indice.todos(rel.get("field_perfil_de_evento"))]
     categoria, segura = _categoria(categoria_im, titulo, descripcion, publico)
@@ -281,7 +330,7 @@ def armar_eventos(actividad: dict, indice: Indice, ahora: datetime) -> list[Even
         alternativas: list[str] = []
         # Un área (el barrio entero): el sitio exacto, si el texto lo dice; si no se lo encuentra en el mapa, el
         # evento queda en el barrio, con "ubicación aproximada".
-        if ubicacion.get("geo_type") == "Polygon" and (sitio := sitio_en_el_texto(titulo, contenido, descripcion)):
+        if ubicacion.get("geo_type") == "Polygon" and (sitio := _sitio_exacto(donde, titulo, contenido, descripcion)):
             alternativas = [nombre_lugar]
             (nombre_lugar, direccion), lat, lon = sitio, None, None
         eventos.append(EventoCrudo(

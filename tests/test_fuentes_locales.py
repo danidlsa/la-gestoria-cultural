@@ -156,3 +156,31 @@ def test_portal_im_el_sitio_en_el_texto():
     assert s("x", "Escenario del BROU. Lugar : Piedras esquina Zabala Actuarán: Gato Renato") == (
         "Piedras esquina Zabala", "Piedras esquina Zabala")  # una esquina: también es la dirección
     assert s("Caminatour", "La caminata comienza en el Museo del Carnaval y recorre las calles") == ("Museo del Carnaval", None)
+
+
+def test_el_donde_del_portal_dice_el_sitio_exacto():
+    """Sábados en Ciudad Vieja: el lugar cargado es el barrio entero, y el sitio está en el campo "Dónde"."""
+    from cartelera.scrapers.portal_im import _sitio_exacto, sitio_del_donde
+    assert sitio_del_donde("Museo Torres García (Sarandí 683)") == ("Museo Torres García", "Sarandí 683")
+    assert sitio_del_donde("Casona Mauá\nJuan Carlos Gómez 1530") == ("Casona Mauá", "Juan Carlos Gómez 1530")
+    assert sitio_del_donde("Café Brasilero, Ituzaingó 1447") == ("Café Brasilero", "Ituzaingó 1447")
+    assert sitio_del_donde("Salida desde el Museo del Carnaval (Rambla 25 de Agosto 218).") == (
+        "Museo del Carnaval", "Rambla 25 de Agosto 218")
+    assert sitio_del_donde("Desde Plaza Matriz hasta Pérez Castellano, por peatonal Sarandí.") == ("Plaza Matriz", None)
+    assert sitio_del_donde("Entre las calles Juncal y Cerrito") == ("Juncal y Cerrito", "Juncal y Cerrito")
+    assert sitio_del_donde("Plaza Zabala") == ("Plaza Zabala", None)
+    assert sitio_del_donde("") is None
+    # Si el "Dónde" es solo la dirección, el nombre sale del texto.
+    assert _sitio_exacto("Pérez Castellano 1389", "Exposición de antigüedades",
+                         "Organizan Primuseum y La Chipatería (Pérez Castellano 1389)") == (
+        "Primuseum y La Chipatería", "Pérez Castellano 1389")
+    # Y si es solo el nombre, la dirección sale del texto (si habla del mismo lugar).
+    assert _sitio_exacto("Salón Andy", "Música en vivo de Juany Bones", "Lugar: Salón Andy (Pérez Castellano 1462)") == (
+        "Salón Andy", "Pérez Castellano 1462")
+    assert _sitio_exacto("Plaza Zabala", "Feria", "Organiza Alto Café (Pérez Castellano 1417 bis)") == ("Plaza Zabala", None)
+
+
+def test_la_escuela_que_organiza_no_vuelve_taller_al_evento():
+    from cartelera.scrapers.portal_im import _categoria
+    assert _categoria("Artes escénicas", "Corso comunitario de la Escuela Esquinera", "", []) == ("teatro", False)
+    assert _categoria(None, "Escuela de verano de cine", "", [])[0] == "taller"

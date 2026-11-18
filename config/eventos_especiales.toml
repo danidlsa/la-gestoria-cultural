@@ -134,7 +134,7 @@ sitio = "https://eventos.montevideo.gub.uy/sabadosenciudadvieja"
 pagina = "https://eventos.montevideo.gub.uy/sabadosenciudadvieja"
 # Las actividades llegan por el portal de eventos de la Intendencia (fuente "portal_im"), con este ciclo.
 palabras = ["sabados en ciudad vieja"]
-horario = ["11:00", "18:00"]
+horario = ["12:00", "20:00"]  # el horario oficial del afiche de la IM (algunas actividades empiezan antes o terminan después)
 lugares = "lugares"
 enlace = "ciudadvieja"  # lagestoriacultural.uy/ciudadvieja lleva directo a la pestaña
 pestana = "Sábados en Ciudad Vieja"
