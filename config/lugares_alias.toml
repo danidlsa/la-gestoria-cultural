@@ -244,3 +244,10 @@ alias = ["Montevideo Beer Company Punta Carretas"]
 direccion = "Francisco Solano García 2576, Punta Carretas"
 lat = -34.92403
 lon = -56.15725
+
+[[lugar]]
+id = "l-club"
+nombre = "L´Club"
+# RedTickets a veces pone solo la dirección como nombre del lugar.
+alias = ["L’Club", "L'Club", "Av. Uruguay 1136"]
+direccion = "Av. Uruguay 1136"

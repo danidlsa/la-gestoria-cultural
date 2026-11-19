@@ -385,6 +385,14 @@ direccion = "Colón 1543"
 barrio = "Ciudad Vieja"
 notas = "bar de vinos con eventos"
 
+[[bar]]
+usuario = "cultus_uy"
+nombre = "Casa Cultus"
+direccion = "Piedras 604"
+barrio = "Ciudad Vieja"
+bar = false
+notas = "espacio cultural de la organización civil Cultus (https://cultusuy.mypixieset.com/new-page/). Algunos posteos están restringidos a mayores de 18 y puede que la API no los lea"
+
 # --- Correcciones a mano ---------------------------------------------------------------------------------------------
 [[correccion]]
 id = "mambapercusion-20261205"
