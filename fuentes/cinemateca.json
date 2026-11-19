@@ -1,11 +1,9 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-19T12:54:03.310155-03:00",
+ "corrida": "2026-11-19T16:35:10.720014-03:00",
  "ok": true,
- "cantidad": 18,
- "errores": [
-  "https://cinemateca.org.uy/peliculas/9655: ReadError: [Errno 104] Connection reset by peer"
- ],
+ "cantidad": 23,
+ "errores": [],
  "eventos": [
   {
    "fuente": "cinemateca",
@@ -479,6 +477,126 @@
     }
    ],
    "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40382/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9655",
+   "url": "https://cinemateca.org.uy/peliculas/9655",
+   "titulo": "Tierra de mi padre",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Pawel Pawlikowski. Esta película polaca se centra en la relación entre Thomas Mann, -el escritor alemán, autor de obras mayores como La montaña mágica y Los Buddenbrock y ganador del Premio Nobel- y su hija Erika, actriz, escritora y piloto de rally. En el verano de 1949 en plena Guerra Fría…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T21:00:00-03:00",
+     "fin": "2026-11-19T22:22:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T22:00:00-03:00",
+     "fin": "2026-11-20T23:22:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T15:40:00-03:00",
+     "fin": "2026-11-21T17:02:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T17:25:00-03:00",
+     "fin": "2026-11-22T18:47:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-23T21:05:00-03:00",
+     "fin": "2026-11-23T22:27:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-24T21:30:00-03:00",
+     "fin": "2026-11-24T22:52:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-25T21:15:00-03:00",
+     "fin": "2026-11-25T22:37:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9655",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40856/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
@@ -1659,6 +1777,325 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Peña sin cadenas",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9693",
+   "url": "https://cinemateca.org.uy/peliculas/9693",
+   "titulo": "Intriga internacional",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Alfred Hitchcock. Cary es confundido con un espía, lo persiguen asesinos y agentes de inteligencia, es acusado de por un crimen que no cometió, y debe hacer acrobacias en las grandes alturas. Hitch dirige con maestría y una cuota de humor, burlándose incluso de sus propias inconsistencias. Cary…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-23T17:00:00-03:00",
+     "fin": "2026-11-23T19:16:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9693",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_JkM75o14bvpM1Bc3O8Gua8xWzdLmO439_SqqYyQDySlQI4_8kmqVRtxT&amp;s=10",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Las mujeres de Hitchcock",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "3142",
+   "url": "https://cinemateca.org.uy/peliculas/3142",
+   "titulo": "Estamos no ar",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Diogo Costa Amarante. Esta película constituye el debut en el largo del director y libretista Diogo Costa Amarante, tras una elogiada carrera en el cortometraje. Mezcla de drama y comedia negra y absurda, con elementos de fantasía, la película construye su universo alrededor de tres generaciones…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T19:10:00-03:00",
+     "fin": "2026-11-24T20:42:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-25T19:10:00-03:00",
+     "fin": "2026-11-25T20:42:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/3142",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/ESTAMOS_NO_AR.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9692",
+   "url": "https://cinemateca.org.uy/peliculas/9692",
+   "titulo": "Vértigo",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Alfred Hitchcock. ¿La mejor película de Hitchcock? La discusión ya dura cincuenta años, y la más reciente encuesta de Sight&Sound la ha proclamado la segunda mejor película de la historia, desplazando a El ciudadano a un tercer lugar y reservando el primer puesto a Chantal Akerman. Una aparente…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T17:00:00-03:00",
+     "fin": "2026-11-24T19:09:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9692",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://www.sebastianzavala.com/wp-content/uploads/2023/04/vertigo-1.jpeg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Las mujeres de Hitchcock",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9694",
+   "url": "https://cinemateca.org.uy/peliculas/9694",
+   "titulo": "Cortina rasgada",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Alfred Hitchcock. Paul Newman cruza la Cortina de Hierro para robar un secreto científico a los alemanes orientales, su novia Julie lo sigue, y pronto ambos se ven perseguidos por los servicios de inteligencia comunista. El material es convencional, pero Hitchcock es Hitchcock: el plano distante…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T17:00:00-03:00",
+     "fin": "2026-11-25T19:08:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9694",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://i0.wp.com/hitchcock52.com/wp-content/uploads/2016/04/tc-stars.jpg?fit=1200%2C676&amp;ssl=1",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Las mujeres de Hitchcock",
    "etiquetas": [],
    "muestra": false,
    "hasta": null

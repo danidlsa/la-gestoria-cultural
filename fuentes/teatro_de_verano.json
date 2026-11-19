@@ -1,8 +1,8 @@
 {
  "fuente": "teatro_de_verano",
- "corrida": "2026-11-19T12:56:56.967063-03:00",
+ "corrida": "2026-11-19T16:38:16.827596-03:00",
  "ok": true,
- "cantidad": 13,
+ "cantidad": 14,
  "errores": [],
  "eventos": [
   {
@@ -523,6 +523,43 @@
    ],
    "beneficios": [],
    "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202508/W655_H370/611.jpg",
+   "productor": "Teatro de Verano",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "teatro_de_verano",
+   "id_externo": "245",
+   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/Concurso-Oficial-de-Carnaval-2027-uc245",
+   "titulo": "Concurso Oficial de Carnaval 2027",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Desde el lunes 25 de enero.",
+   "lugar": {
+    "nombre": "Teatro de Verano Ramón Collazo",
+    "direccion": "Rambla Wilson s/n, Parque Rodó",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202611/W655_H370/1014.jpg",
    "productor": "Teatro de Verano",
    "region": "montevideo",
    "enlaces": [],

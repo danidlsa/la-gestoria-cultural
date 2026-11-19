@@ -1,10 +1,121 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-19T12:56:49.689559-03:00",
+ "corrida": "2026-11-19T16:38:10.204704-03:00",
  "ok": true,
- "cantidad": 21,
+ "cantidad": 24,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "solis",
+   "id_externo": "3098",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Saraos-uranistas-uc3098",
+   "titulo": "Saraos uranistas",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202611/W756_H530/7078.jpg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "3097",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/As-Centenarias-uc3097",
+   "titulo": "As Centenárias",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202611/W756_H530/7077.jpg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "solis",
+   "id_externo": "3096",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Ciclo-de-piano-uc3096",
+   "titulo": "Ciclo de piano",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Delmira Agustini",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202611/W756_H530/7076.jpg",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "solis",
    "id_externo": "3093",

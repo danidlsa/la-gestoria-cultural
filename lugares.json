@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-19T13:03:49.302657-03:00",
- "cantidad": 213,
+ "generado": "2026-11-19T16:46:00.216067-03:00",
+ "cantidad": 215,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -228,6 +228,16 @@
    "direccion": null,
    "lat": -34.9026912,
    "lon": -56.1776624,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "aula-magna-de-la-fic-udelar",
+   "nombre": "Aula Magna de la FIC (Udelar)",
+   "alias": [],
+   "direccion": "San Salvador 1944",
+   "lat": -34.911538,
+   "lon": -56.1729409,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -556,7 +566,7 @@
    "id": "cine-universitario-del-uruguay",
    "nombre": "Cine Universitario del Uruguay",
    "alias": [],
-   "direccion": "Canelones 1280, 11100 Montevideo, Depart",
+   "direccion": "Canelones 1280",
    "lat": -34.908593,
    "lon": -56.188195,
    "barrio": null,
@@ -573,6 +583,16 @@
    "lat": -34.908515,
    "lon": -56.2008552,
    "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "club-cultural-charco",
+   "nombre": "Club Cultural Charco",
+   "alias": [],
+   "direccion": "Maldonado 1477",
+   "lat": -34.9090027,
+   "lon": -56.1835608,
+   "barrio": "Palermo",
    "ciudad": "Montevideo"
   },
   {
@@ -656,16 +676,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "dom-13-dic-18-h",
-   "nombre": "DOM 13 DIC 18 H",
-   "alias": [],
-   "direccion": "DOM 13 DIC 18 H",
-   "lat": -34.9058916,
-   "lon": -56.1913095,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "debbie-music-club",
    "nombre": "Debbie Music Club",
    "alias": [
@@ -675,6 +685,16 @@
    "lat": -34.907834,
    "lon": -56.187646,
    "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "destileria-capicua",
+   "nombre": "Destilería Capicúa",
+   "alias": [],
+   "direccion": "Pérez Castellano 1364",
+   "lat": -34.9088296,
+   "lon": -56.2099012,
+   "barrio": "Ciudad Vieja",
    "ciudad": "Montevideo"
   },
   {
@@ -1425,7 +1445,8 @@
    "id": "museo-de-arte-precolombino-e-indigena-mapi",
    "nombre": "Museo de Arte Precolombino e Indígena (MAPI)",
    "alias": [
-    "Museo de Arte Precolombino e Indígena - MAPI"
+    "Museo de Arte Precolombino e Indígena - MAPI",
+    "MAPI / Museo de Arte Precolombino e Indígena"
    ],
    "direccion": "25 de Mayo 279",
    "lat": -34.90715,

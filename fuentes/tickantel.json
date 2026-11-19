@@ -1,8 +1,8 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-19T12:50:12.290899-03:00",
+ "corrida": "2026-11-19T16:31:03.644433-03:00",
  "ok": true,
- "cantidad": 105,
+ "cantidad": 107,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
@@ -514,6 +514,13 @@
      "agotada": false
     },
     {
+     "inicio": "2026-11-21T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
      "inicio": "2026-11-27T14:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -541,7 +548,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390_banner_web_generico_TS.png",
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1782,6 +1789,48 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021781",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
+   "titulo": "Cielos de plomo. Tierra escondida",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La banda Cielos de plomo celebra el lanzamiento de su nuevo álbum Tierra escondida en una presentación especial en formato extendido. Tierra escondida es el tercer lanzamiento de la banda, siguiendo a Entre luces (2020). En esta ocasión se presentan en vivo en un formato extendido con la…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021781/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40020172",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
    "titulo": "CNNS – Tramas 852",
@@ -1824,38 +1873,50 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021781",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
-   "titulo": "Cielos de plomo. Tierra escondida",
+   "id_externo": "40022020",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40022020/la-mujer-del-rio",
+   "titulo": "La mujer del rio",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "La banda Cielos de plomo celebra el lanzamiento de su nuevo álbum Tierra escondida en una presentación especial en formato extendido. Tierra escondida es el tercer lanzamiento de la banda, siguiendo a Entre luces (2020). En esta ocasión se presentan en vivo en un formato extendido con la…",
+   "descripcion_corta": "LA MUJER DEL RÍO Érica intenta reconstruir su vida junto a su hija tras un pasado marcado por la violencia. La salida de prisión de su ex pareja reabre heridas que parecían cerradas y la enfrenta nuevamente a un vínculo del que creía haber salido. Coproducción argentino-uruguaya entre Banda Aparte…",
    "lugar": {
-    "nombre": "Auditorio Adela Reta",
+    "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
+    "lat": -34.90642,
+    "lon": -56.19628,
     "barrio": null,
     "alternativas": []
    },
    "funciones": [
     {
-     "inicio": "2026-11-25T20:00:00-03:00",
+     "inicio": "2026-11-26T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T17:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022020/la-mujer-del-rio",
      "via": "tickantel"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021781/Banner.jpg",
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022020/700_x_390_lmdr.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1957,6 +2018,60 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021691/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40022021",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40022021/the-channeling",
+   "titulo": "The channeling",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "THE CHANNELING Cuando una joven youtuber desaparece mientras investiga a un controvertido líder espiritual que asegura canalizar a un colectivo extraterrestre, el material recuperado empieza a sugerir que el contacto pudo haber sido real... y que la señal sigue activa. Dirección:Maximiliano…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022021/the-channeling",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022021/700_x_390_lc.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4522,7 +4637,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021988/700x390_banner_web_generico_TS.png",
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021988/Tickantel_Avant_Premiere.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

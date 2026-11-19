@@ -1,1347 +1,10 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-19T13:03:06.884892-03:00",
+ "corrida": "2026-11-19T16:44:23.913857-03:00",
  "ok": true,
  "cantidad": 65,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "facmvd-20261107",
-   "url": "https://www.instagram.com/p/De_5SnwlghR/",
-   "titulo": "FAC: 2.ª edición del TALLER DE SEMIÓTICA",
-   "categoria": "taller",
-   "categoria_segura": false,
-   "descripcion_corta": "2.ª edición del TALLER DE SEMIÓTICA Para leer más que palabras Un espacio para reflexionar sobre el arte contemporáneo y su universo, tanto si formás parte de él como si lo mirás desde afuera. A cargo de Claudia Mera. SÁBADOS DE NOVIEMBRE De 11 a 13 h Modalidad presencial o virtual Cupos limitados…",
-   "lugar": {
-    "nombre": "FAC - Fundación de Arte Contemporáneo",
-    "direccion": "Av. Sarmiento 2244",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T11:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T11:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/De_5SnwlghR/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8b41c3bdd72f.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "facmvd-20261109",
-   "url": "https://www.instagram.com/p/DeO8rNoym_C/",
-   "titulo": "FAC: Laboratorio de escritura",
-   "categoria": "taller",
-   "categoria_segura": false,
-   "descripcion_corta": "NUEVA EDICIÓN! Laboratorio de escritura a cargo de terepuppo , para explorar otras maneras de mirar, recordar, narrar y construir sentido. Un taller orientado al desarrollo de la escritura creativa mediante ejercicios de experimentación y exploración de diversas formas narrativas. Propone un…",
-   "lugar": {
-    "nombre": "FAC - Fundación de Arte Contemporáneo",
-    "direccion": "Av. Sarmiento 2244",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DeO8rNoym_C/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2ccc7f82fd46.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261111",
-   "url": "https://www.instagram.com/p/DfiNaf8mFgg/",
-   "titulo": "Centro Cultural de España: Beethoven 199",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Beethoven 199! Se acerca el bicentenario de la muerte de Ludwig van Beethoven y lo conmemoramos con un ciclo de conciertos de música de cámara que reúne a jóvenes talentos de nuestro país junto a destacados artistas. Una oportunidad para disfrutar en vivo de algunas de las grandes obras del…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfiNaf8mFgg/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/db13f0afa4cb.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "lamadredelassecond-20261114",
-   "url": "https://www.instagram.com/reel/Df3E6fkM0aB/",
-   "titulo": "La Madre de las Second Hand: PLAZA DE LAS PIONERAS",
-   "categoria": "feria",
-   "categoria_segura": true,
-   "descripcion_corta": "¡ESTE SÁBADO TENEMOS PLAN! ¡Vuelve La Madre de las Second Hand a Plaza Primero de Mayo! Una jornada para disfrutar, pasear, encontrarse y descubrir un montón de cosas. Ropa, calzado, accesorios, libros, juguetes, objetos y muchísimas oportunidades. Más de una excusa para salir de casa, recorrer la…",
-   "lugar": {
-    "nombre": "PLAZA PRIMERO DE MAYO",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [
-     "Agraciada",
-     "San Quintín"
-    ]
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T11:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/Df3E6fkM0aB/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a3c1133c2fd8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "subtemvd-20261119",
-   "url": "https://www.instagram.com/p/Df5Eh-6lJVz/",
-   "titulo": "Centro de Exposiciones Subte: Seguimos construyendo LA SUBTERADORA",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Compartimos algunas imágenes de la inauguración de EPISODIO 3: LA SUBTERADORA. Un aparato para cosechar comunitas , de Ana Laura López de la Torre y Niklaus Strobel Gracias especiales a los y las artistas que participaron de la inauguracion y a todos y todas quienes se acercaron a acompañarnos y…",
-   "lugar": {
-    "nombre": "Centro de Exposiciones Subte",
-    "direccion": "Plaza Fabini",
-    "lat": -34.90563,
-    "lon": -56.19423,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T12:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df5Eh-6lJVz/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2c6c5bb7d275.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "clubculturalcharco-20261119",
-   "url": "https://www.instagram.com/p/Df57gQuFarw/",
-   "titulo": "Club Cultural Charco: LEILA GUERRIERO EN MONTEVIDEO",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Estos son los títulos que vas a encontrar este jueves en nuestro gazebo literario, a unos pasos del escenario donde Leila Guerriero estará conversando junto a soledad.gago . También tendremos ejemplares de Un fantasma antártico, que acaba de llegar a las librerías del país. Todos con descuento…",
-   "lugar": {
-    "nombre": "Jue. 19.11",
-    "direccion": "Jue. 19.11",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T18:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-20T18:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df57gQuFarw/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/26cfbb0134f0.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261119",
-   "url": "https://www.instagram.com/p/Df4wznYIL7a/",
-   "titulo": "Centro Cultural de España: Ilustrando feminismos.",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "¡La exposición está tomando forma en el CCE! Ya estamos trabajando en el montaje de Ilustrando feminismos. Lápices para resistir , una muestra que reúne el trabajo de 14 ilustradoras de Latinoamérica y Guinea Ecuatorial para homenajear a las mujeres que han puesto el cuerpo y la creatividad al…",
-   "lugar": {
-    "nombre": "CCE",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df4wznYIL7a/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/41d9a4ed5882.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "clubculturalcharco-20261120",
-   "url": "https://www.instagram.com/p/Dfx_XrClazp/",
-   "titulo": "Club Cultural Charco: Modera: Mauricio Cheguhem",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": "Viernes 20.11 13:00 — La escritora y periodista argentina, referente del periodismo narrativo latinoamericano, brindará una conferencia titulada Zona de influencia en el aula magna de la fic_udelar (San Salvador 1944, planta baja). Modera: Mauricio Cheguhem. Participan las docentes Sabrina Martínez…",
-   "lugar": {
-    "nombre": "Jue. 19.11",
-    "direccion": "Jue. 19.11",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T13:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfx_XrClazp/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5e98e293e59b.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "facmvd-20261120",
-   "url": "https://www.instagram.com/p/DfrhWVgFiEO/",
-   "titulo": "FAC: Presentación editorial",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "Presentación editorial Margen de maniobra Con Fabiana Puentes y Alejandro Cruz. alejandro_cruz_art puentesfabiana 20 de noviembre 18 h Museo Nacional de Artes Visuales (MNAV) Av. Tomás Giribaldi 2283, esquina Julio Herrera y Reissig doteditorial _anastrauss_ angela_lopez_ruiz lopezlage…",
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales (MNAV)",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfrhWVgFiEO/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b59ef628b273.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261120",
-   "url": "https://www.instagram.com/p/Df2JUKbIJRv/",
-   "titulo": "Centro Cultural de España: PUENTES AL SUR",
-   "categoria": "cine",
-   "categoria_segura": false,
-   "descripcion_corta": "PUENTES AL SUR | Festival de cine Historias que cruzan fronteras, desafían estereotipos y nos invitan a mirar la migración desde otras perspectivas. Llega al CCE Puentes al Sur, una iniciativa que, a través del cine, busca visibilizar las experiencias y trayectorias de las personas migrantes…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df2JUKbIJRv/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/658a3bbc08b3.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "clubculturalcharco-20261121",
-   "url": "https://www.instagram.com/p/Df0WvaUFZT5/",
-   "titulo": "Club Cultural Charco: Horario: de 10:00 a",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábado 21 de noviembre Horario: de 10:00 a 13:15 h En Club Cultural Charco (Maldonado 1477) A cargo de: Leila Guerriero Cupos limitados. Inscripciones a través del enlace en nuestro perfil. Consultas al 092 221 940 Mirá la programación completa de nuestro aniversario en charco.uy.",
-   "lugar": {
-    "nombre": "Jue. 19.11",
-    "direccion": "Jue. 19.11",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T10:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df0WvaUFZT5/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a812f1742a91.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "museozorrilla-20261121",
-   "url": "https://www.instagram.com/p/DfmxnTBhpPe/",
-   "titulo": "Museo Zorrilla: En el lugar donde hasta hace poco crecía un ombú centenario, plantado por Juan…",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "En el lugar donde hasta hace poco crecía un ombú centenario, plantado por Juan Zorrilla de San Martín, nos reuniremos para dar vida a un nuevo árbol. Emblemáticos del paisaje costero de Punta Carretas, los ombúes forman parte de la historia y la memoria del jardín del museo, donde Zorrilla plantó y…",
-   "lugar": {
-    "nombre": "Museo Zorrilla",
-    "direccion": "José Luis Zorrilla de San Martín 96",
-    "lat": null,
-    "lon": null,
-    "barrio": "Punta Carretas",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T10:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfmxnTBhpPe/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/60f77875374f.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261121",
-   "url": "https://www.instagram.com/p/DfmxU10IOrh/",
-   "titulo": "Centro Cultural de España: Trazar una ruta lectora y dejar lugar a lo inesperado",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Trazar una ruta lectora y dejar lugar a lo inesperado ¿Cómo crear recorridos lectores que despierten el interés, estimulen la participación y mantengan vivo el deseo de compartir lecturas? En este taller del ciclo Lecturas en red, exploraremos herramientas y estrategias para dinamizar clubes y…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T11:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfmxU10IOrh/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1085dfeadda8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "fama.tours-20261121",
-   "url": "https://www.instagram.com/p/DfpYrZ4KUfC/",
-   "titulo": "fama.tours: En nuestra última participación del año en volvemos a un reconocimiento arquitectónico…",
-   "categoria": "tour",
-   "categoria_segura": true,
-   "descripcion_corta": "En nuestra última participación del año en volvemos a un reconocimiento arquitectónico por sus calles. Caminata Art Nouveau Sábado 21 de Noviembre de 2026 12:00 a 13:30 horas Punto de encuentro: Bacacay y Buenos Aires Itinerario Edificio Tienda La Nueva Sirena Edificio Pablo Ferrando Casa José…",
-   "lugar": {
-    "nombre": "Bacacay y Buenos Aires",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [
-     "Edificio Tienda La Nueva Sirena",
-     "Edificio Pablo Ferrando",
-     "Casa José Pedro Rodríguez",
-     "Casa Mojana",
-     "Centro Cultural de España",
-     "Edificio 25 de Mayo 591",
-     "El Chamuyo",
-     "Edificio 25 de Mayo 550",
-     "Café Brasilero",
-     "Restaurante Las Misiones",
-     "Edificio Banco Popular",
-     "MVOTMA"
-    ]
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T12:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfpYrZ4KUfC/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/cf8e45c7f214.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "subtemvd-20261121",
-   "url": "https://www.instagram.com/p/Df4_poRFDsG/",
-   "titulo": "Centro de Exposiciones Subte: PROGRAMA PÚBLICO: NO MIRAMOS MÁS LAS ESTRELLAS , de Proyecto CasaMario",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "PROGRAMA PÚBLICO: NO MIRAMOS MÁS LAS ESTRELLAS , de Proyecto CasaMario Conversatorio entre artistas y curadores de la exposición Sábado 21 de noviembre 17:00 h Centro de exposiciones Subte, Sala L Entrada libre y gratuita Conversación entre los curadores Camila Arbeláez y Sebastián Alonso, y los y…",
-   "lugar": {
-    "nombre": "Centro de Exposiciones Subte",
-    "direccion": "Plaza Fabini",
-    "lat": -34.90563,
-    "lon": -56.19423,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df4_poRFDsG/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2e4be400f9b4.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "casonamaua-20261121",
-   "url": "https://www.instagram.com/p/DfxWpSyMBqG/",
-   "titulo": "Casona Mauá: Encuentro Cultural Afro en el Bajo, Sábado",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Encuentro Cultural Afro en el Bajo, Sábado 21 de Noviembre a las 18 hs. Un desfile y toque de tambores de la escuela de Candombe de Mundo Afro y la escuela de Samba campeona Mocidade Unida.",
-   "lugar": {
-    "nombre": "Casona Mauá",
-    "direccion": "Juan Carlos Gómez 1530",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfxWpSyMBqG/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e382ac5b7fbb.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "horizontes.sonoro-20261121",
-   "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
-   "titulo": "Horizontes Sonoros: Espacio Quitapenas Paysandú 847, Montevideo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "21 de noviembre | 20 h Espacio Quitapenas – Montevideo Entrada libre en ambos conciertos. ¡Te esperamos!",
-   "lugar": {
-    "nombre": "Horizontes Sonoros",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2efd46a122e5.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261123",
-   "url": "https://www.instagram.com/p/DfpYoOZFg-v/",
-   "titulo": "Centro Cultural de España: Alerta rosa",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "Una tarde para descubrir los sonidos y las tradiciones musicales de la península ibérica. Te invitamos a participar en un taller a cargo de Violeta Diez (ES), donde nos acercaremos al folklore ibérico a través de sus melodías, ritmos e instrumentos tradicionales. Durante el encuentro construiremos…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-23T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfpYoOZFg-v/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b6245c64b9f8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "clubculturalcharco-20261124",
-   "url": "https://www.instagram.com/p/Dfms2HQldPq/",
-   "titulo": "Club Cultural Charco: destileriacapicua nos recibe para brindar, escuchar lecturas, música y conversar sobre…",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "Mar 24.11 19:00 — Desplazamiento: Historias de amor, familia y barro. destileriacapicua nos recibe para brindar, escuchar lecturas, música y conversar sobre lo lindo de vivir. El taller de crónicas de Charco, coordinado por azulcordo, te lleva de viaje desde la escucha atenta, con escenas que nos…",
-   "lugar": {
-    "nombre": "Jue. 19.11",
-    "direccion": "Jue. 19.11",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfms2HQldPq/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d0b403e9011f.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261124",
-   "url": "https://www.instagram.com/p/DfxgK03mBAl/",
-   "titulo": "Centro Cultural de España: Alorí de Violeta Veinte – Trío",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Alorí de Violeta Veinte – Trío La tradición también puede ser un punto de partida para crear nuevos universos sonoros. Alorí es el proyecto personal de la violinista, cantante y compositora española Violeta Veinte, una propuesta que entrelaza músicas de raíz, folklore ibérico, jazz, canción e…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfxgK03mBAl/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/82356c392b32.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "paseo_cultural_ciudad_vieja-20261124",
-   "url": "https://www.instagram.com/reel/Df4e-aCijGM/",
-   "titulo": "Paseo Cultural Ciudad Vieja: Presenta una nueva Gala Lírica, esta vez con una propuesta dedicada a la opereta…",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "presenta una nueva Gala Lírica, esta vez con una propuesta dedicada a la opereta vienesa y francesa basada en obras de Lehár, Offenbach, Reynaldo Hahn y Planquette de la mano de destacados artistas del de Buenos Aires. Una velada para dejarse llevar por la música, las voces y el encanto de la…",
-   "lugar": {
-    "nombre": "Auditorio Vaz Ferreira",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/Df4e-aCijGM/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/820173819a62.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "clubculturalcharco-20261126",
-   "url": "https://www.instagram.com/p/Dfms2HQldPq/",
-   "titulo": "Club Cultural Charco: Participan: silviaguerradiaz y claudia_magliano_cassanello",
-   "categoria": "cine",
-   "categoria_segura": false,
-   "descripcion_corta": "Jue 26.11 18:30 — Mary Oliver: proyección del documental Saved by the beauty of the world de pieshakepictures + conversatorio sobre la poeta. Participan: silviaguerradiaz y claudia_magliano_cassanello. Modera: maugemen. En cineuniversitariodeluruguay. Entrada gratuita con reserva previa en link de…",
-   "lugar": {
-    "nombre": "Jue. 19.11",
-    "direccion": "Jue. 19.11",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T18:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfms2HQldPq/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f7dc211179ea.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "fenixbaruy-20261126",
-   "url": "https://www.instagram.com/p/DfP_SXhP6Lg/",
-   "titulo": "Fénix Bar: Picudo Rojo llega al Fénix",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Picudo Rojo llega al Fénix! El jueves 26 recibimos a siyofuerareymago , que llega a la esquina para presentar su último disco: PICUDO ROJO. Una noche para meternos en el universo audiovisual del álbum, recorrer sus videoclips y conocer un poco más de cerca el trabajo detrás de cada canción. Jueves…",
-   "lugar": {
-    "nombre": "Fénix Bar",
-    "direccion": "Juan Carlos Gómez 1251",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfP_SXhP6Lg/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3bf3aa296475.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261127",
-   "url": "https://www.instagram.com/p/DfnEZWNGHn8/",
-   "titulo": "Centro Cultural de España: A mover las cachas! Llega La Ventolera al CCE",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "¡A mover las cachas! Llega La Ventolera al CCE ¡Que suenen los tambores, las trompetas y los saxos! Con doce años de trayectoria ininterrumpida, La Ventolera es una orquesta marchante que recupera los orígenes del candombe y los reinterpreta con una mirada fresca y contemporánea. Trompetas…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfnEZWNGHn8/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ee4f034eb33c.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "clubculturalcharco-20261127",
-   "url": "https://www.instagram.com/p/Dfms2HQldPq/",
-   "titulo": "Club Cultural Charco: Una noche para reunirse alrededor del piano, pedir canciones y cantarlas a todo pulmón",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Vie 27.11 20:30 — Pianobar con leandroaq en Charco. Una noche para reunirse alrededor del piano, pedir canciones y cantarlas a todo pulmón. Entrada libre. Gracias a Mauricio Cheguhem, María Eugenia Meneses, Facultad de Información y Comunicación de la Universidad de la República…",
-   "lugar": {
-    "nombre": "Jue. 19.11",
-    "direccion": "Jue. 19.11",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfms2HQldPq/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/fbf098da0d56.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "fama.tours-20261128",
-   "url": "https://www.instagram.com/p/Df0Sr-1qlR0/",
-   "titulo": "fama.tours: Carrasco y Bodega",
-   "categoria": "tour",
-   "categoria_segura": true,
-   "descripcion_corta": "Carrasco y Bodega. Caminata por Carrasco viejo, con la participación de Arq. Beatriz Pittamiglio. Visita guiada a viñedos e instalaciones de Bodega Varela Zarranz, con degustación de 4 vinos y picada de campo. Sábado 28 de Noviembre 10:30 a 16:00 horas 3.200 pesos uruguayos Reservas 095 002 623…",
-   "lugar": {
-    "nombre": "fama.tours",
-    "direccion": "Carrasco y Bodega",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [
-     "Carrasco"
-    ]
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T10:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df0Sr-1qlR0/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1910c933c565.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "museozorrilla-20261128",
-   "url": "https://www.instagram.com/p/Dfzeii8RigE/",
-   "titulo": "Museo Zorrilla: Presentación del Calendario Caja Baja 2027",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Presentación del Calendario Caja Baja 2027 El sábado 28 de noviembre a las 14 horas te invitamos al Museo Zorrilla a descubrir las 12 obras que integran esta nueva edición. Artistas participantes: Horacio Añon Luis Scafati luisscafati (Arg) Francisca Maya franciscamaya._ Diego López Brandón…",
-   "lugar": {
-    "nombre": "Museo Zorrilla",
-    "direccion": "José Luis Zorrilla de San Martín 96",
-    "lat": null,
-    "lon": null,
-    "barrio": "Punta Carretas",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfzeii8RigE/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8b5939d4e5ed.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261128",
-   "url": "https://www.instagram.com/p/Df2kh9wGBtj/",
-   "titulo": "Centro Cultural de España: El circo llega al CCE",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "¡El circo llega al CCE! El sábado 28 de noviembre te invitamos a disfrutar de una Varieté circense a cargo de El Picadero: un espectáculo irrepetible que reúne distintas disciplinas, números y creaciones en una misma función. Un espacio de encuentro entre artistas y público, donde la sorpresa y la…",
-   "lugar": {
-    "nombre": "CCE",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T15:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df2kh9wGBtj/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f329edfb078c.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "contraplano.cineclub-20261128",
-   "url": "https://www.instagram.com/p/DfioVMvgbIX/",
-   "titulo": "Contraplano: Se puede amar a alguien que no tiene cuerpo?",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Se puede amar a alguien que no tiene cuerpo? Los Ángeles, en un futuro cercano. Theodore escribe cartas de amor para otros y no logra escribir la suya. Hasta que instala un OS que elige su propio nombre: Samantha. La película que imaginaba hablar con una inteligencia artificial ya no parece ciencia…",
-   "lugar": {
-    "nombre": "Maciel 1384",
-    "direccion": "Maciel 1384",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfioVMvgbIX/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3b71e4c376b7.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "instagram_bares",
    "id_externo": "centroculturalterminalgoes-20261128",
@@ -1376,233 +39,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/73d0d83f1bd8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "azotealee-20261129",
-   "url": "https://www.instagram.com/p/Df2PJkJJVs-/",
-   "titulo": "Lecturas de azotea: Silvio cumple 80 y nosotros lo festejamos el día antes",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "El domingo 29 Silvio cumple 80 y nosotros lo festejamos el día antes. La entrada es libre, solo hay que reservar. Estaré haciendo lo que hacía antes en el Finisterre, hablar de literatura, política, estética y música en la obra de Silvio, mientras que axelsilvaetc cantará sus temas. Les esperamos!…",
-   "lugar": {
-    "nombre": "Lecturas de azotea",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-29T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df2PJkJJVs-/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/cee210120f0a.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261202",
-   "url": "https://www.instagram.com/p/DfsWAkbGCpT/",
-   "titulo": "Centro Cultural de España: Laboratorio de guion adaptado",
-   "categoria": "taller",
-   "categoria_segura": false,
-   "descripcion_corta": "Laboratorio de guion adaptado | Festival Anfibia Montevideo ¿Cómo se transforma una obra de teatro en una historia para la pantalla? A partir de La piel en llamas, obra teatral de Guillem Clua, este laboratorio propone explorar, desde la práctica, las herramientas y decisiones que intervienen en la…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-02T10:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-03T10:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfsWAkbGCpT/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/84095090e04c.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261204",
-   "url": "https://www.instagram.com/p/Df5Q8lSmF6L/",
-   "titulo": "Centro Cultural de España: 8 que cuentan: una conversación de inclusión y un encuentro de lectura colectiva",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "8 que cuentan: una conversación de inclusión y un encuentro de lectura colectiva. ¿Cómo se diseña un libro inclusivo? ¿Qué desafíos implica imprimir en braille? ¿Cómo garantizar que la literatura sea accesible para todas las personas? Te invitamos a compartir un encuentro para conversar sobre…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-04T17:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df5Q8lSmF6L/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e5e8aeeed4de.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "mambapercusion-20261205",
-   "url": "https://www.instagram.com/p/DfniyXLgX1E/",
-   "titulo": "Estamos muy felices de contarles que se viene la fiesta de fin de año de Mamba a la…",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": "Estamos muy felices de contarles que se viene la fiesta de fin de año de Mamba a la Calle de Noche con invitadas de lujo El 5 de diciembre nos encontramos en el lugar de siempre para despedir el año como más nos gusta: ¡con música, baile mucho Mamba y acceso gratuito! La primera tanda de accesos ya…",
-   "lugar": {
-    "nombre": "Plaza Viejo Pancho",
-    "direccion": null,
-    "lat": -34.910003,
-    "lon": -56.1576635,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-05T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfniyXLgX1E/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/986198210831.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "festivaldelsolsticio-20261219",
-   "url": "https://www.instagram.com/reel/Df5O5jnvtoy/",
-   "titulo": "Festival del Solsticio: Una vez más, nos reunimos al borde del sol el 19/12 recibimos el verano juntxs",
-   "categoria": "festival",
-   "categoria_segura": true,
-   "descripcion_corta": "una vez más, nos reunimos al borde del sol el 19/12 recibimos el verano juntxs. qué bandas no pueden faltar? etiquetalas en comentarios!",
-   "lugar": {
-    "nombre": "Festival del Solsticio",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/Df5O5jnvtoy/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1725,6 +161,97 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "facmvd-20261107",
+   "url": "https://www.instagram.com/p/De_5SnwlghR/",
+   "titulo": "FAC: 2.ª edición del TALLER DE SEMIÓTICA",
+   "categoria": "taller",
+   "categoria_segura": false,
+   "descripcion_corta": "2.ª edición del TALLER DE SEMIÓTICA Para leer más que palabras Un espacio para reflexionar sobre el arte contemporáneo y su universo, tanto si formás parte de él como si lo mirás desde afuera. A cargo de Claudia Mera. SÁBADOS DE NOVIEMBRE De 11 a 13 h Modalidad presencial o virtual Cupos limitados…",
+   "lugar": {
+    "nombre": "FAC - Fundación de Arte Contemporáneo",
+    "direccion": "Av. Sarmiento 2244",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/De_5SnwlghR/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8b41c3bdd72f.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "facmvd-20261109",
+   "url": "https://www.instagram.com/p/DeO8rNoym_C/",
+   "titulo": "FAC: Laboratorio de escritura",
+   "categoria": "taller",
+   "categoria_segura": false,
+   "descripcion_corta": "NUEVA EDICIÓN! Laboratorio de escritura a cargo de terepuppo , para explorar otras maneras de mirar, recordar, narrar y construir sentido. Un taller orientado al desarrollo de la escritura creativa mediante ejercicios de experimentación y exploración de diversas formas narrativas. Propone un…",
+   "lugar": {
+    "nombre": "FAC - Fundación de Arte Contemporáneo",
+    "direccion": "Av. Sarmiento 2244",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DeO8rNoym_C/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2ccc7f82fd46.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "latabernadebrecha-20261110",
    "url": "https://www.instagram.com/p/DfikgX0ljQk/",
    "titulo": "La Taberna de Brecha: Qué martes se viene",
@@ -1769,6 +296,98 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261111",
+   "url": "https://www.instagram.com/p/DfiNaf8mFgg/",
+   "titulo": "Centro Cultural de España: Beethoven 199",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Beethoven 199! Se acerca el bicentenario de la muerte de Ludwig van Beethoven y lo conmemoramos con un ciclo de conciertos de música de cámara que reúne a jóvenes talentos de nuestro país junto a destacados artistas. Una oportunidad para disfrutar en vivo de algunas de las grandes obras del…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfiNaf8mFgg/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/db13f0afa4cb.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lamadredelassecond-20261114",
+   "url": "https://www.instagram.com/reel/Df3E6fkM0aB/",
+   "titulo": "La Madre de las Second Hand: PLAZA DE LAS PIONERAS",
+   "categoria": "feria",
+   "categoria_segura": true,
+   "descripcion_corta": "¡ESTE SÁBADO TENEMOS PLAN! ¡Vuelve La Madre de las Second Hand a Plaza Primero de Mayo! Una jornada para disfrutar, pasear, encontrarse y descubrir un montón de cosas. Ropa, calzado, accesorios, libros, juguetes, objetos y muchísimas oportunidades. Más de una excusa para salir de casa, recorrer la…",
+   "lugar": {
+    "nombre": "PLAZA PRIMERO DE MAYO",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Agraciada",
+     "San Quintín"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/Df3E6fkM0aB/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a3c1133c2fd8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1855,6 +474,137 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e5efcf2603e3.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "subtemvd-20261119",
+   "url": "https://www.instagram.com/p/Df2mfb-FIZR/",
+   "titulo": "Centro de Exposiciones Subte: Seguimos construyendo LA SUBTERADORA",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Seguimos construyendo LA SUBTERADORA! Te esperamos todos los martes de 14:00 a 18:00 h y los jueves de 11:00 a 15:00 h, hasta enero de 2027, para conversar, preguntar, proponer y armar con Ana Laura López de la Torre y Niklaus Strobel. ¡Pasá y sumate!",
+   "lugar": {
+    "nombre": "Centro de Exposiciones Subte",
+    "direccion": "Plaza Fabini",
+    "lat": -34.90563,
+    "lon": -56.19423,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2mfb-FIZR/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2c6c5bb7d275.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "clubculturalcharco-20261119",
+   "url": "https://www.instagram.com/p/Df57gQuFarw/",
+   "titulo": "Club Cultural Charco: Leila Guerriero conversa con Soledad Gago",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Estos son los títulos que vas a encontrar este jueves en nuestro gazebo literario, a unos pasos del escenario donde Leila Guerriero estará conversando junto a soledad.gago . También tendremos ejemplares de Un fantasma antártico, que acaba de llegar a las librerías del país. Todos con descuento…",
+   "lugar": {
+    "nombre": "Club Cultural Charco",
+    "direccion": "Maldonado 1477",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df57gQuFarw/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/26cfbb0134f0.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261119",
+   "url": "https://www.instagram.com/p/Df7dxZJoLyb/",
+   "titulo": "Centro Cultural de España: Ilustrando feminismos.",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Hoy inauguramos Ilustrando feminismos. Lápices para resistir! 14 ilustradoras de Latinoamérica y Guinea Ecuatorial se reúnen en esta exposición colectiva para poner el arte al servicio de la memoria, las luchas feministas y la defensa de los derechos de las mujeres. Con la curaduría de la…",
+   "lugar": {
+    "nombre": "CCE",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df7dxZJoLyb/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/41d9a4ed5882.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2047,6 +797,142 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "clubculturalcharco-20261120",
+   "url": "https://www.instagram.com/p/Dfx_XrClazp/",
+   "titulo": "Club Cultural Charco: conferencia «Zona de influencia» con Leila Guerriero",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "Viernes 20.11 13:00 — La escritora y periodista argentina, referente del periodismo narrativo latinoamericano, brindará una conferencia titulada Zona de influencia en el aula magna de la fic_udelar (San Salvador 1944, planta baja). Modera: Mauricio Cheguhem. Participan las docentes Sabrina Martínez…",
+   "lugar": {
+    "nombre": "Aula Magna de la FIC (Udelar)",
+    "direccion": "San Salvador 1944",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T13:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfx_XrClazp/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5e98e293e59b.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "facmvd-20261120",
+   "url": "https://www.instagram.com/p/DfrhWVgFiEO/",
+   "titulo": "FAC: Presentación editorial",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación editorial Margen de maniobra Con Fabiana Puentes y Alejandro Cruz. alejandro_cruz_art puentesfabiana 20 de noviembre 18 h Museo Nacional de Artes Visuales (MNAV) Av. Tomás Giribaldi 2283, esquina Julio Herrera y Reissig doteditorial _anastrauss_ angela_lopez_ruiz lopezlage…",
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales (MNAV)",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfrhWVgFiEO/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b59ef628b273.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261120",
+   "url": "https://www.instagram.com/p/Df2JUKbIJRv/",
+   "titulo": "Centro Cultural de España: PUENTES AL SUR",
+   "categoria": "cine",
+   "categoria_segura": false,
+   "descripcion_corta": "PUENTES AL SUR | Festival de cine Historias que cruzan fronteras, desafían estereotipos y nos invitan a mirar la migración desde otras perspectivas. Llega al CCE Puentes al Sur, una iniciativa que, a través del cine, busca visibilizar las experiencias y trayectorias de las personas migrantes…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2JUKbIJRv/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/658a3bbc08b3.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "centroculturalterminalgoes-20261120",
    "url": "https://www.instagram.com/p/Df2KAYlnLV7/",
    "titulo": "Centro Cultural Terminal Goes: ASCENSO",
@@ -2194,6 +1080,244 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "clubculturalcharco-20261121",
+   "url": "https://www.instagram.com/p/Df0WvaUFZT5/",
+   "titulo": "Club Cultural Charco: taller «Mirar, escuchar, escribir» con Leila Guerriero",
+   "categoria": "taller",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábado 21 de noviembre Horario: de 10:00 a 13:15 h En Club Cultural Charco (Maldonado 1477) A cargo de: Leila Guerriero Cupos limitados. Inscripciones a través del enlace en nuestro perfil. Consultas al 092 221 940 Mirá la programación completa de nuestro aniversario en charco.uy.",
+   "lugar": {
+    "nombre": "Club Cultural Charco",
+    "direccion": "Maldonado 1477",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T10:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df0WvaUFZT5/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a812f1742a91.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "museozorrilla-20261121",
+   "url": "https://www.instagram.com/p/DfmxnTBhpPe/",
+   "titulo": "Museo Zorrilla: En el lugar donde hasta hace poco crecía un ombú centenario, plantado por Juan…",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "En el lugar donde hasta hace poco crecía un ombú centenario, plantado por Juan Zorrilla de San Martín, nos reuniremos para dar vida a un nuevo árbol. Emblemáticos del paisaje costero de Punta Carretas, los ombúes forman parte de la historia y la memoria del jardín del museo, donde Zorrilla plantó y…",
+   "lugar": {
+    "nombre": "Museo Zorrilla",
+    "direccion": "José Luis Zorrilla de San Martín 96",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T10:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfmxnTBhpPe/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/60f77875374f.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261121",
+   "url": "https://www.instagram.com/p/DfmxU10IOrh/",
+   "titulo": "Centro Cultural de España: Trazar una ruta lectora y dejar lugar a lo inesperado",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Trazar una ruta lectora y dejar lugar a lo inesperado ¿Cómo crear recorridos lectores que despierten el interés, estimulen la participación y mantengan vivo el deseo de compartir lecturas? En este taller del ciclo Lecturas en red, exploraremos herramientas y estrategias para dinamizar clubes y…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfmxU10IOrh/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1085dfeadda8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "cultus_uy-20261121",
+   "url": "https://www.instagram.com/p/Df7zFcvmN_Y/",
+   "titulo": "Casa Cultus: S en Ciudad Vieja · El Bajo se encuentra",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Entre aquí y allá Huellas de la diáspora Una exposición sobre la mirada del migrante, la memoria y la pertenencia. Y, para acompañarla, cuatro encuentros con los artistas en Casa Cultus. Deslizá y conocé el cronograma: Charla con Joe Black Los ojos del migrante en su destino : una reflexión desde…",
+   "lugar": {
+    "nombre": "Patio La Bahía",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df7zFcvmN_Y/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/0c3cfb67993c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "fama.tours-20261121",
+   "url": "https://www.instagram.com/p/DfpYrZ4KUfC/",
+   "titulo": "fama.tours: En nuestra última participación del año en volvemos a un reconocimiento arquitectónico…",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "En nuestra última participación del año en volvemos a un reconocimiento arquitectónico por sus calles. Caminata Art Nouveau Sábado 21 de Noviembre de 2026 12:00 a 13:30 horas Punto de encuentro: Bacacay y Buenos Aires Itinerario Edificio Tienda La Nueva Sirena Edificio Pablo Ferrando Casa José…",
+   "lugar": {
+    "nombre": "Bacacay y Buenos Aires",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Edificio Tienda La Nueva Sirena",
+     "Edificio Pablo Ferrando",
+     "Casa José Pedro Rodríguez",
+     "Casa Mojana",
+     "Centro Cultural de España",
+     "Edificio 25 de Mayo 591",
+     "El Chamuyo",
+     "Edificio 25 de Mayo 550",
+     "Café Brasilero",
+     "Restaurante Las Misiones",
+     "Edificio Banco Popular",
+     "MVOTMA"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfpYrZ4KUfC/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/cf8e45c7f214.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "mercadoferrando-20261121",
    "url": "https://www.instagram.com/p/Df0KuZ0s8x8/",
    "titulo": "Mercado Ferrando: Show de títeres en Ferrando",
@@ -2226,6 +1350,95 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ea7a37c8a1da.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "subtemvd-20261121",
+   "url": "https://www.instagram.com/p/Df4_poRFDsG/",
+   "titulo": "Centro de Exposiciones Subte: PROGRAMA PÚBLICO: NO MIRAMOS MÁS LAS ESTRELLAS , de Proyecto CasaMario",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "PROGRAMA PÚBLICO: NO MIRAMOS MÁS LAS ESTRELLAS , de Proyecto CasaMario Conversatorio entre artistas y curadores de la exposición Sábado 21 de noviembre 17:00 h Centro de exposiciones Subte, Sala L Entrada libre y gratuita Conversación entre los curadores Camila Arbeláez y Sebastián Alonso, y los y…",
+   "lugar": {
+    "nombre": "Centro de Exposiciones Subte",
+    "direccion": "Plaza Fabini",
+    "lat": -34.90563,
+    "lon": -56.19423,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df4_poRFDsG/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2e4be400f9b4.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "casonamaua-20261121",
+   "url": "https://www.instagram.com/p/DfxWpSyMBqG/",
+   "titulo": "Casona Mauá: Encuentro Cultural Afro en el Bajo, Sábado",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Encuentro Cultural Afro en el Bajo, Sábado 21 de Noviembre a las 18 hs. Un desfile y toque de tambores de la escuela de Candombe de Mundo Afro y la escuela de Samba campeona Mocidade Unida.",
+   "lugar": {
+    "nombre": "Casona Mauá",
+    "direccion": "Juan Carlos Gómez 1530",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfxWpSyMBqG/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e382ac5b7fbb.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2280,6 +1493,53 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "horizontes.sonoro-20261121",
+   "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
+   "titulo": "Horizontes Sonoros: Espacio Quitapenas Paysandú 847, Montevideo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "21 de noviembre | 20 h Espacio Quitapenas – Montevideo Entrada libre en ambos conciertos. ¡Te esperamos!",
+   "lugar": {
+    "nombre": "Horizontes Sonoros",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2efd46a122e5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -2422,6 +1682,189 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261123",
+   "url": "https://www.instagram.com/p/DfpYoOZFg-v/",
+   "titulo": "Centro Cultural de España: Alerta rosa",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Una tarde para descubrir los sonidos y las tradiciones musicales de la península ibérica. Te invitamos a participar en un taller a cargo de Violeta Diez (ES), donde nos acercaremos al folklore ibérico a través de sus melodías, ritmos e instrumentos tradicionales. Durante el encuentro construiremos…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-23T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfpYoOZFg-v/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b6245c64b9f8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "clubculturalcharco-20261124",
+   "url": "https://www.instagram.com/p/Dfms2HQldPq/",
+   "titulo": "Club Cultural Charco: Desplazamiento, historias de amor, familia y barro",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Mar 24.11 19:00 — Desplazamiento: Historias de amor, familia y barro. destileriacapicua nos recibe para brindar, escuchar lecturas, música y conversar sobre lo lindo de vivir. El taller de crónicas de Charco, coordinado por azulcordo, te lleva de viaje desde la escucha atenta, con escenas que nos…",
+   "lugar": {
+    "nombre": "Destilería Capicúa",
+    "direccion": "Pérez Castellano 1364",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfms2HQldPq/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d0b403e9011f.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261124",
+   "url": "https://www.instagram.com/p/DfxgK03mBAl/",
+   "titulo": "Centro Cultural de España: Alorí de Violeta Veinte – Trío",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Alorí de Violeta Veinte – Trío La tradición también puede ser un punto de partida para crear nuevos universos sonoros. Alorí es el proyecto personal de la violinista, cantante y compositora española Violeta Veinte, una propuesta que entrelaza músicas de raíz, folklore ibérico, jazz, canción e…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfxgK03mBAl/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/82356c392b32.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "paseo_cultural_ciudad_vieja-20261124",
+   "url": "https://www.instagram.com/reel/Df4e-aCijGM/",
+   "titulo": "Paseo Cultural Ciudad Vieja: Presenta una nueva Gala Lírica, esta vez con una propuesta dedicada a la opereta…",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "presenta una nueva Gala Lírica, esta vez con una propuesta dedicada a la opereta vienesa y francesa basada en obras de Lehár, Offenbach, Reynaldo Hahn y Planquette de la mano de destacados artistas del de Buenos Aires. Una velada para dejarse llevar por la música, las voces y el encanto de la…",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/Df4e-aCijGM/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/820173819a62.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "lacretinacasa-20261124",
    "url": "https://www.instagram.com/p/Df7O-g_h2SP/",
    "titulo": "La Cretina: 99% BALADAS - ¡La terapia musical que no podés dejar pasar",
@@ -2515,6 +1958,97 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "clubculturalcharco-20261126",
+   "url": "https://www.instagram.com/p/Dfms2HQldPq/",
+   "titulo": "Club Cultural Charco: Mary Oliver, documental y conversatorio",
+   "categoria": "cine",
+   "categoria_segura": false,
+   "descripcion_corta": "Jue 26.11 18:30 — Mary Oliver: proyección del documental Saved by the beauty of the world de pieshakepictures + conversatorio sobre la poeta. Participan: silviaguerradiaz y claudia_magliano_cassanello. Modera: maugemen. En cineuniversitariodeluruguay. Entrada gratuita con reserva previa en link de…",
+   "lugar": {
+    "nombre": "Cine Universitario del Uruguay",
+    "direccion": "Canelones 1280",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfms2HQldPq/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f7dc211179ea.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "fenixbaruy-20261126",
+   "url": "https://www.instagram.com/p/DfP_SXhP6Lg/",
+   "titulo": "Fénix Bar: Picudo Rojo llega al Fénix",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Picudo Rojo llega al Fénix! El jueves 26 recibimos a siyofuerareymago , que llega a la esquina para presentar su último disco: PICUDO ROJO. Una noche para meternos en el universo audiovisual del álbum, recorrer sus videoclips y conocer un poco más de cerca el trabajo detrás de cada canción. Jueves…",
+   "lugar": {
+    "nombre": "Fénix Bar",
+    "direccion": "Juan Carlos Gómez 1251",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfP_SXhP6Lg/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3bf3aa296475.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "theshannonuy-20261127",
    "url": "https://www.instagram.com/p/DfUjlSARymU/",
    "titulo": "The Shannon: KARAOKE EN VIVO",
@@ -2559,6 +2093,100 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261127",
+   "url": "https://www.instagram.com/p/DfnEZWNGHn8/",
+   "titulo": "Centro Cultural de España: A mover las cachas! Llega La Ventolera al CCE",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "¡A mover las cachas! Llega La Ventolera al CCE ¡Que suenen los tambores, las trompetas y los saxos! Con doce años de trayectoria ininterrumpida, La Ventolera es una orquesta marchante que recupera los orígenes del candombe y los reinterpreta con una mirada fresca y contemporánea. Trompetas…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfnEZWNGHn8/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ee4f034eb33c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "clubculturalcharco-20261127",
+   "url": "https://www.instagram.com/p/Dfms2HQldPq/",
+   "titulo": "Club Cultural Charco: pianobar con leandroaq",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Vie 27.11 20:30 — Pianobar con leandroaq en Charco. Una noche para reunirse alrededor del piano, pedir canciones y cantarlas a todo pulmón. Entrada libre. Gracias a Mauricio Cheguhem, María Eugenia Meneses, Facultad de Información y Comunicación de la Universidad de la República…",
+   "lugar": {
+    "nombre": "Club Cultural Charco",
+    "direccion": "Maldonado 1477",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfms2HQldPq/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/fbf098da0d56.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "theshannonuy-20261128",
    "url": "https://www.instagram.com/p/DfUjlSARymU/",
    "titulo": "The Shannon: EASYBAND",
@@ -2598,6 +2226,186 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "fama.tours-20261128",
+   "url": "https://www.instagram.com/p/Df0Sr-1qlR0/",
+   "titulo": "fama.tours: Carrasco y Bodega",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "Carrasco y Bodega. Caminata por Carrasco viejo, con la participación de Arq. Beatriz Pittamiglio. Visita guiada a viñedos e instalaciones de Bodega Varela Zarranz, con degustación de 4 vinos y picada de campo. Sábado 28 de Noviembre 10:30 a 16:00 horas 3.200 pesos uruguayos Reservas 095 002 623…",
+   "lugar": {
+    "nombre": "fama.tours",
+    "direccion": "Carrasco y Bodega",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Carrasco"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T10:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df0Sr-1qlR0/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1910c933c565.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "museozorrilla-20261128",
+   "url": "https://www.instagram.com/p/Dfzeii8RigE/",
+   "titulo": "Museo Zorrilla: Presentación del Calendario Caja Baja 2027",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación del Calendario Caja Baja 2027 El sábado 28 de noviembre a las 14 horas te invitamos al Museo Zorrilla a descubrir las 12 obras que integran esta nueva edición. Artistas participantes: Horacio Añon Luis Scafati luisscafati (Arg) Francisca Maya franciscamaya._ Diego López Brandón…",
+   "lugar": {
+    "nombre": "Museo Zorrilla",
+    "direccion": "José Luis Zorrilla de San Martín 96",
+    "lat": null,
+    "lon": null,
+    "barrio": "Punta Carretas",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfzeii8RigE/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8b5939d4e5ed.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261128",
+   "url": "https://www.instagram.com/p/Df2kh9wGBtj/",
+   "titulo": "Centro Cultural de España: El circo llega al CCE",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "¡El circo llega al CCE! El sábado 28 de noviembre te invitamos a disfrutar de una Varieté circense a cargo de El Picadero: un espectáculo irrepetible que reúne distintas disciplinas, números y creaciones en una misma función. Un espacio de encuentro entre artistas y público, donde la sorpresa y la…",
+   "lugar": {
+    "nombre": "CCE",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T15:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2kh9wGBtj/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f329edfb078c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "contraplano.cineclub-20261128",
+   "url": "https://www.instagram.com/p/DfioVMvgbIX/",
+   "titulo": "Contraplano: Se puede amar a alguien que no tiene cuerpo?",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Se puede amar a alguien que no tiene cuerpo? Los Ángeles, en un futuro cercano. Theodore escribe cartas de amor para otros y no logra escribir la suya. Hasta que instala un OS que elige su propio nombre: Samantha. La película que imaginaba hablar con una inteligencia artificial ya no parece ciencia…",
+   "lugar": {
+    "nombre": "Maciel 1384",
+    "direccion": "Maciel 1384",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfioVMvgbIX/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3b71e4c376b7.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -2652,6 +2460,55 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261202",
+   "url": "https://www.instagram.com/p/DfsWAkbGCpT/",
+   "titulo": "Centro Cultural de España: Laboratorio de guion adaptado",
+   "categoria": "taller",
+   "categoria_segura": false,
+   "descripcion_corta": "Laboratorio de guion adaptado | Festival Anfibia Montevideo ¿Cómo se transforma una obra de teatro en una historia para la pantalla? A partir de La piel en llamas, obra teatral de Guillem Clua, este laboratorio propone explorar, desde la práctica, las herramientas y decisiones que intervienen en la…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T10:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-03T10:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfsWAkbGCpT/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/84095090e04c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "lacretinacasa-20261202",
    "url": "https://www.instagram.com/p/DfQjbTcNR_r/",
    "titulo": "La Cretina: FERIADO + MONKELIS",
@@ -2696,6 +2553,53 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261204",
+   "url": "https://www.instagram.com/p/Df5Q8lSmF6L/",
+   "titulo": "Centro Cultural de España: 8 que cuentan: una conversación de inclusión y un encuentro de lectura colectiva",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "8 que cuentan: una conversación sobre inclusión y un encuentro de lectura colectiva. ¿Cómo se diseña un libro inclusivo? ¿Qué desafíos implica imprimir en braille? ¿Cómo garantizar que la literatura sea accesible para todas las personas? Te invitamos a compartir un encuentro para conversar sobre…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T17:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df5Q8lSmF6L/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e5e8aeeed4de.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "inmigrantesmvd-20261204",
    "url": "https://www.instagram.com/p/Dfk29Y-lqSZ/",
    "titulo": "Inmigrantes: FESTIVAL NUESTRO",
@@ -2735,6 +2639,53 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "mambapercusion-20261205",
+   "url": "https://www.instagram.com/p/DfniyXLgX1E/",
+   "titulo": "Estamos muy felices de contarles que se viene la fiesta de fin de año de Mamba a la…",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "Estamos muy felices de contarles que se viene la fiesta de fin de año de Mamba a la Calle de Noche con invitadas de lujo El 5 de diciembre nos encontramos en el lugar de siempre para despedir el año como más nos gusta: ¡con música, baile mucho Mamba y acceso gratuito! La primera tanda de accesos ya…",
+   "lugar": {
+    "nombre": "Plaza Viejo Pancho",
+    "direccion": null,
+    "lat": -34.910003,
+    "lon": -56.1576635,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfniyXLgX1E/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/986198210831.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -2838,8 +2789,8 @@
    "categoria_segura": false,
    "descripcion_corta": "HIP HOP CRETINO vol.7 Para despedir el año! Vuelve la fiesta con más street de La Cretina: música, flow, baile, tinta, graffiti y cultura viva en cada rincón. Una edición con más estilo, más crew y más sangre nueva. DOM 13 DIC 18 H MÚSICA EN VIVO ger1one gblues_oficial yatucypher nico.sald_…",
    "lugar": {
-    "nombre": "DOM 13 DIC 18 H",
-    "direccion": "DOM 13 DIC 18 H",
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -2868,6 +2819,50 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/83687e2842c5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "festivaldelsolsticio-20261219",
+   "url": "https://www.instagram.com/reel/Df5O5jnvtoy/",
+   "titulo": "Festival del Solsticio",
+   "categoria": "festival",
+   "categoria_segura": true,
+   "descripcion_corta": "una vez más, nos reunimos al borde del sol el 19/12 recibimos el verano juntxs. qué bandas no pueden faltar? etiquetalas en comentarios!",
+   "lugar": {
+    "nombre": "Plaza de las Pioneras",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/Df5O5jnvtoy/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

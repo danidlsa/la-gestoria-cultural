@@ -1,10 +1,124 @@
 {
  "fuente": "galpon",
- "corrida": "2026-11-19T12:57:04.980854-03:00",
+ "corrida": "2026-11-19T16:38:26.357299-03:00",
  "ok": true,
  "cantidad": 21,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "galpon",
+   "id_externo": "la-gaviota-ensayo-abierto",
+   "url": "https://www.teatroelgalpon.org.uy/espectaculos/la-gaviota-ensayo-abierto/",
+   "titulo": "La Gaviota, ensayo abierto",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "¿Qué ocurre cuando, apenas un día antes del estreno, las actrices principales de un clásico como La gaviota, de Chéjov, tienen que ser sustituidas?",
+   "lugar": {
+    "nombre": "Teatro El Galpón",
+    "direccion": "Av. 18 de Julio 1618",
+    "lat": -34.90403,
+    "lon": -56.181082,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T20:30:00-03:00",
+     "fin": "2026-11-19T21:45:00-03:00",
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-20T20:30:00-03:00",
+     "fin": "2026-11-20T21:45:00-03:00",
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T20:30:00-03:00",
+     "fin": "2026-11-26T21:45:00-03:00",
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T20:30:00-03:00",
+     "fin": "2026-11-27T21:45:00-03:00",
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-03T20:30:00-03:00",
+     "fin": "2026-12-03T21:45:00-03:00",
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T20:30:00-03:00",
+     "fin": "2026-12-04T21:45:00-03:00",
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-10T20:30:00-03:00",
+     "fin": "2026-12-10T21:45:00-03:00",
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-11T20:30:00-03:00",
+     "fin": "2026-12-11T21:45:00-03:00",
+     "sin_hora": false,
+     "sala": "Sala Atahualpa",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 650.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/La-gaviota-ensayo-abierto-Sala-Atahualpa/34322/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio El Galpón y Espectacular libre",
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/la-gaviota-ensayo-abierto/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/la-gaviota-ensayo-abierto/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/la-gaviota-ensayo-abierto/"
+    }
+   ],
+   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/10/LA-GAVIOTA-2560X1000.jpg",
+   "productor": "Producción de Teatro El Galpón Creado a partir de “La gaviota” de Antón Chéjov. Dramaturgia: Santiago Cortegoso y Neto Portela (Galicia).: Concepción artística: Fran Núñez (Galicia). Directora en Uruguay: Graciela Escuder",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/La-gaviota-ensayo-abierto-Sala-Atahualpa/34322/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "galpon",
    "id_externo": "festival-de-dramaturgia-emergente-de-teatro-el-galpon",
@@ -123,12 +237,12 @@
   },
   {
    "fuente": "galpon",
-   "id_externo": "la-gaviota-ensayo-abierto",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/la-gaviota-ensayo-abierto/",
-   "titulo": "La Gaviota, ensayo abierto",
+   "id_externo": "festival-de-dramaturgia-emergente-toda-la-ternura-del-mundo",
+   "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-toda-la-ternura-del-mundo/",
+   "titulo": "Festival de Dramaturgia Emergente - Toda la ternura del mundo",
    "categoria": "teatro",
    "categoria_segura": false,
-   "descripcion_corta": "¿Qué ocurre cuando, apenas un día antes del estreno, las actrices principales de un clásico como La gaviota, de Chéjov, tienen que ser sustituidas?",
+   "descripcion_corta": "Una mirada sobre los vínculos contemporáneos, sobre las dificultades de sostenerse en un mundo que constantemente se desarma.",
    "lugar": {
     "nombre": "Teatro El Galpón",
     "direccion": "Av. 18 de Julio 1618",
@@ -139,59 +253,17 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T20:30:00-03:00",
-     "fin": "2026-11-19T21:45:00-03:00",
+     "inicio": "2026-11-24T20:30:00-03:00",
+     "fin": null,
      "sin_hora": false,
-     "sala": "Sala Atahualpa",
+     "sala": "Sala Cero",
      "agotada": false
     },
     {
-     "inicio": "2026-11-20T20:30:00-03:00",
-     "fin": "2026-11-20T21:45:00-03:00",
+     "inicio": "2026-11-25T20:30:00-03:00",
+     "fin": null,
      "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-26T20:30:00-03:00",
-     "fin": "2026-11-26T21:45:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T20:30:00-03:00",
-     "fin": "2026-11-27T21:45:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-03T20:30:00-03:00",
-     "fin": "2026-12-03T21:45:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-04T20:30:00-03:00",
-     "fin": "2026-12-04T21:45:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-10T20:30:00-03:00",
-     "fin": "2026-12-10T21:45:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-11T20:30:00-03:00",
-     "fin": "2026-12-11T21:45:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
+     "sala": "Sala Cero",
      "agotada": false
     }
    ],
@@ -203,32 +275,161 @@
    },
    "entradas": [
     {
-     "url": "https://redtickets.uy/evento/La-gaviota-ensayo-abierto-Sala-Atahualpa/34322/",
+     "url": "https://redtickets.uy/evento/TODA-LA-TERNURA-DEL-MUNDO-Sala-Cero/34474/",
      "via": "redtickets"
     }
    ],
    "beneficios": [
     {
      "programa": "Socio Espectacular",
-     "tipo": "Socio El Galpón y Espectacular libre",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/la-gaviota-ensayo-abierto/"
+     "tipo": "Generales $ 650 Socio Espectacular y El Galpón libre con cupo limitado",
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-toda-la-ternura-del-mundo/"
     },
     {
      "programa": "la diaria",
      "tipo": "2x1",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/la-gaviota-ensayo-abierto/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/la-gaviota-ensayo-abierto/"
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-toda-la-ternura-del-mundo/"
     }
    ],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/10/LA-GAVIOTA-2560X1000.jpg",
-   "productor": "Producción de Teatro El Galpón Creado a partir de “La gaviota” de Antón Chéjov. Dramaturgia: Santiago Cortegoso y Neto Portela (Galicia).: Concepción artística: Fran Núñez (Galicia). Directora en Uruguay: Graciela Escuder",
+   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/10/web-toda-la-ternura.png",
+   "productor": "Teatro El Galpón",
    "region": "montevideo",
    "enlaces": [
-    "https://redtickets.uy/evento/La-gaviota-ensayo-abierto-Sala-Atahualpa/34322/"
+    "https://redtickets.uy/evento/TODA-LA-TERNURA-DEL-MUNDO-Sala-Cero/34474/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "galpon",
+   "id_externo": "festival-de-dramaturgia-emergente-nornas-la-ultima-barahunda",
+   "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-nornas-la-ultima-barahunda/",
+   "titulo": "Festival de Dramaturgia Emergente - Nornas, la última barahúnda",
+   "categoria": "humor",
+   "categoria_segura": false,
+   "descripcion_corta": "Una experiencia donde el humor y el absurdo nos arrastran a mirar (nos) desde el borde.",
+   "lugar": {
+    "nombre": "Teatro El Galpón",
+    "direccion": "Av. 18 de Julio 1618",
+    "lat": -34.90403,
+    "lon": -56.181082,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-08T20:30:00-03:00",
+     "fin": "2026-12-08T21:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Sala Cero",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-09T20:30:00-03:00",
+     "fin": "2026-12-09T21:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Sala Cero",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 650.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/NORNAS-LA-ULTIMA-BARAHUNDA-Pieza-bufona-Sala-Cero/34473/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Generales $ 650 Socio Espectacular y El Galpón libre con cupo limitado",
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-nornas-la-ultima-barahunda/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-nornas-la-ultima-barahunda/"
+    }
+   ],
+   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/10/web-nornas.png",
+   "productor": "Teatro El Galpón",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/NORNAS-LA-ULTIMA-BARAHUNDA-Pieza-bufona-Sala-Cero/34473/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "galpon",
+   "id_externo": "festival-de-dramaturgia-emergente-el-abrazo-de-la-mantis-orquidea",
+   "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-el-abrazo-de-la-mantis-orquidea/",
+   "titulo": "Festival de Dramaturgia Emergente - El abrazo de la mantis orquídea",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Luz y su terapeuta llegaron a una conclusión clara: a algunas criaturas es mejor mantenerlas lejos.",
+   "lugar": {
+    "nombre": "Teatro El Galpón",
+    "direccion": "Av. 18 de Julio 1618",
+    "lat": -34.90403,
+    "lon": -56.181082,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-01T20:30:00-03:00",
+     "fin": "2026-12-01T21:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Sala Cero",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T20:30:00-03:00",
+     "fin": "2026-12-02T21:30:00-03:00",
+     "sin_hora": false,
+     "sala": "Sala Cero",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 650.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/El-abrazo-de-la-mantis-orquidea-Sala-Cero/34472/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Generales $ 650 Socio Espectacular y El Galpón libre con cupo limitado",
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-el-abrazo-de-la-mantis-orquidea/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-el-abrazo-de-la-mantis-orquidea/"
+    }
+   ],
+   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/10/web-el-abrazo.png",
+   "productor": "Teatro El Galpón",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/El-abrazo-de-la-mantis-orquidea-Sala-Cero/34472/"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -242,7 +443,7 @@
    "titulo": "El eterno, glorioso y más pequeño circo del mundo",
    "categoria": "infantil",
    "categoria_segura": false,
-   "descripcion_corta": "El circo es un círculo donde pasan cosas… Augusta, Blanca y Stella, cuentan la historia de una familia de circo, cuyo linaje comienza con la bisabuela Olga que, según la leyenda, se casó con un tigre.",
+   "descripcion_corta": "**Hasta el 29 de noviembre** El circo es un círculo donde pasan cosas… Augusta, Blanca y Stella, cuentan la historia de una familia de circo, cuyo linaje comienza con la bisabuela Olga que, según la leyenda, se casó con un tigre.",
    "lugar": {
     "nombre": "Teatro El Galpón",
     "direccion": "Av. 18 de Julio 1618",
@@ -315,6 +516,68 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/El-eterno-glorioso-y-mas-pequeno-circo-del-mundo-Sala-Atahualpa/33647/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "galpon",
+   "id_externo": "urbano-donde-van-las-mariposas",
+   "url": "https://www.teatroelgalpon.org.uy/espectaculos/urbano-donde-van-las-mariposas/",
+   "titulo": "Urbano - ¿Dónde van las mariposas?",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Urbano Moraes celebra sus 60 años en la música con la presentación de su libro “Dónde van las mariposas?\", una obra que recorre su vida a través de sus propias palabras.",
+   "lugar": {
+    "nombre": "Teatro El Galpón",
+    "direccion": "Av. 18 de Julio 1618",
+    "lat": -34.90403,
+    "lon": -56.181082,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala César Campodónico",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala César Campodónico",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 950.0,
+    "hasta": 950.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/URBANO--Donde-van-las-mariposas-Sala-Campodonico/32904/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular y El Galpón libre con cupo limitado",
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/urbano-donde-van-las-mariposas/"
+    }
+   ],
+   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/08/WhatsApp-Image-2026-11-16-at-17.33.39.jpeg",
+   "productor": "Teatro El Galpón",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/URBANO--Donde-van-las-mariposas-Sala-Campodonico/32904/"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -596,73 +859,6 @@
   },
   {
    "fuente": "galpon",
-   "id_externo": "festival-de-dramaturgia-emergente-toda-la-ternura-del-mundo",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-toda-la-ternura-del-mundo/",
-   "titulo": "Festival de Dramaturgia Emergente - Toda la ternura del mundo",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Una mirada sobre los vínculos contemporáneos, sobre las dificultades de sostenerse en un mundo que constantemente se desarma.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Cero",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-25T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Cero",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 650.0,
-    "hasta": 650.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/TODA-LA-TERNURA-DEL-MUNDO-Sala-Cero/34474/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Generales $ 650 Socio Espectacular y El Galpón libre con cupo limitado",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-toda-la-ternura-del-mundo/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-toda-la-ternura-del-mundo/"
-    }
-   ],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/10/web-toda-la-ternura.png",
-   "productor": "Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/TODA-LA-TERNURA-DEL-MUNDO-Sala-Cero/34474/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
    "id_externo": "el-hombre-inesperado",
    "url": "https://www.teatroelgalpon.org.uy/espectaculos/el-hombre-inesperado/",
    "titulo": "El hombre inesperado",
@@ -930,202 +1126,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/LAS-HIJAS--Sala-Campodonico/29520/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
-   "id_externo": "urbano-donde-van-las-mariposas",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/urbano-donde-van-las-mariposas/",
-   "titulo": "Urbano - ¿Dónde van las mariposas?",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Urbano Moraes celebra sus 60 años en la música con la presentación de su libro “Dónde van las mariposas?\", una obra que recorre su vida a través de sus propias palabras.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-01T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 950.0,
-    "hasta": 950.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/URBANO--Donde-van-las-mariposas-Sala-Campodonico/32904/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular y El Galpón libre con cupo limitado",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/urbano-donde-van-las-mariposas/"
-    }
-   ],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/08/WhatsApp-Image-2026-11-16-at-17.33.39.jpeg",
-   "productor": "Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/URBANO--Donde-van-las-mariposas-Sala-Campodonico/32904/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
-   "id_externo": "festival-de-dramaturgia-emergente-el-abrazo-de-la-mantis-orquidea",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-el-abrazo-de-la-mantis-orquidea/",
-   "titulo": "Festival de Dramaturgia Emergente - El abrazo de la mantis orquídea",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Luz y su terapeuta llegaron a una conclusión clara: a algunas criaturas es mejor mantenerlas lejos.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-01T20:30:00-03:00",
-     "fin": "2026-12-01T21:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Cero",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-02T20:30:00-03:00",
-     "fin": "2026-12-02T21:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Cero",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 650.0,
-    "hasta": 650.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/El-abrazo-de-la-mantis-orquidea-Sala-Cero/34472/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Generales $ 650 Socio Espectacular y El Galpón libre con cupo limitado",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-el-abrazo-de-la-mantis-orquidea/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-el-abrazo-de-la-mantis-orquidea/"
-    }
-   ],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/10/web-el-abrazo.png",
-   "productor": "Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/El-abrazo-de-la-mantis-orquidea-Sala-Cero/34472/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
-   "id_externo": "festival-de-dramaturgia-emergente-nornas-la-ultima-barahunda",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-nornas-la-ultima-barahunda/",
-   "titulo": "Festival de Dramaturgia Emergente - Nornas, la última barahúnda",
-   "categoria": "humor",
-   "categoria_segura": false,
-   "descripcion_corta": "Una experiencia donde el humor y el absurdo nos arrastran a mirar (nos) desde el borde.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-08T20:30:00-03:00",
-     "fin": "2026-12-08T21:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Cero",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-09T20:30:00-03:00",
-     "fin": "2026-12-09T21:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Cero",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 650.0,
-    "hasta": 650.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/NORNAS-LA-ULTIMA-BARAHUNDA-Pieza-bufona-Sala-Cero/34473/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Generales $ 650 Socio Espectacular y El Galpón libre con cupo limitado",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-nornas-la-ultima-barahunda/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://www.teatroelgalpon.org.uy/espectaculos/festival-de-dramaturgia-emergente-nornas-la-ultima-barahunda/"
-    }
-   ],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/10/web-nornas.png",
-   "productor": "Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/NORNAS-LA-ULTIMA-BARAHUNDA-Pieza-bufona-Sala-Cero/34473/"
    ],
    "ciclo": null,
    "etiquetas": [],

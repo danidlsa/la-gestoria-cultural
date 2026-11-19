@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-19T13:03:49.302657-03:00",
- "cantidad": 28,
+ "generado": "2026-11-19T16:46:00.216067-03:00",
+ "cantidad": 31,
  "ciclos": [
   {
    "id": "ciclo-el-mingus",
@@ -14,7 +14,7 @@
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
    "lugar_id": null,
-   "desde": "2026-11-19T10:00:00-03:00",
+   "desde": "2026-11-19T16:00:00-03:00",
    "hasta": "2026-12-11T16:00:00-03:00",
    "cantidad": 7
   },
@@ -33,6 +33,14 @@
    "desde": "2026-11-19T18:00:00-03:00",
    "hasta": "2026-11-28T11:00:00-03:00",
    "cantidad": 2
+  },
+  {
+   "id": "ciclo-club-cultural-charco",
+   "titulo": "Club Cultural Charco",
+   "lugar_id": "club-cultural-charco",
+   "desde": "2026-11-19T18:30:00-03:00",
+   "hasta": "2026-11-27T20:30:00-03:00",
+   "cantidad": 3
   },
   {
    "id": "ciclo-centro-cultural-de-espana",
@@ -147,6 +155,22 @@
    "cantidad": 2
   },
   {
+   "id": "ciclo-las-mujeres-de-hitchcock",
+   "titulo": "Las mujeres de Hitchcock",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-23T17:00:00-03:00",
+   "hasta": "2026-11-25T17:00:00-03:00",
+   "cantidad": 3
+  },
+  {
+   "id": "ciclo-la-cretina",
+   "titulo": "La Cretina",
+   "lugar_id": "la-cretina",
+   "desde": "2026-11-24T21:00:00-03:00",
+   "hasta": "2026-12-13T18:00:00-03:00",
+   "cantidad": 2
+  },
+  {
    "id": "ciclo-tmc",
    "titulo": "TMC",
    "lugar_id": "auditorio-vaz-ferreira",
@@ -171,6 +195,14 @@
    "cantidad": 2
   },
   {
+   "id": "ciclo-ciclo-de-piano",
+   "titulo": "Ciclo de piano",
+   "lugar_id": "teatro-solis",
+   "desde": "2026-12-06T18:00:00-03:00",
+   "hasta": "2026-12-13T18:00:00-03:00",
+   "cantidad": 2
+  },
+  {
    "id": "ciclo-montevideo-de-los-derechos",
    "titulo": "Montevideo de los Derechos",
    "lugar_id": "espacio-modelo",
@@ -184,14 +216,6 @@
    "lugar_id": "museo-nacional-de-artes-visuales",
    "desde": "2026-12-11T17:00:00-03:00",
    "hasta": "2026-12-11T17:00:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-ciclo-de-piano",
-   "titulo": "Ciclo de piano",
-   "lugar_id": "teatro-solis",
-   "desde": "2026-12-13T18:00:00-03:00",
-   "hasta": "2026-12-13T18:00:00-03:00",
    "cantidad": 1
   },
   {

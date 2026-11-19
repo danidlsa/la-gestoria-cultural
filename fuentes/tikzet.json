@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-19T13:02:44.434034-03:00",
+ "corrida": "2026-11-19T16:44:01.536775-03:00",
  "ok": true,
  "cantidad": 15,
  "errores": [],
@@ -242,53 +242,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "68bfb10e-f938-4a19-a28e-85476eac3e17",
-   "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
-   "titulo": "Alhelíes + Tengo un amigo que anda",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Alhelíes y tengo un amigo que anda bien pa’ los audiovisuales por primera vez compartiendo fecha. Dos bandas con una fuerte impronta paisajística y experimental, otra noche en los recovecos de la noche Montevideana. *Este show es con público con sillas y las mesas son compartidas",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T21:00:00-03:00",
-     "fin": "2026-11-19T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F59aae68e-c969-4698-8ee6-4a992d6dab33.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "bcb430b1-cfb2-4271-8fbe-fed3682e1461",
    "url": "https://www.tikzet.com/events/buceo-invisible-14bc",
    "titulo": "Buceo Invisible",
@@ -326,6 +279,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F70837979-a01f-4c0d-b746-3025e88ce795.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "68bfb10e-f938-4a19-a28e-85476eac3e17",
+   "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
+   "titulo": "Alhelíes + Tengo un amigo que anda",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Alhelíes y tengo un amigo que anda bien pa’ los audiovisuales por primera vez compartiendo fecha. Dos bandas con una fuerte impronta paisajística y experimental, otra noche en los recovecos de la noche Montevideana. *Este show es con público con sillas y las mesas son compartidas",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T21:00:00-03:00",
+     "fin": "2026-11-19T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F59aae68e-c969-4698-8ee6-4a992d6dab33.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -477,53 +477,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "10272af4-5882-411e-bf7f-1dde4bfc299e",
-   "url": "https://www.tikzet.com/events/catalina-erdelyi-cuarteto",
-   "titulo": "Catalina Erdelyi Cuarteto",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "*Este show es con el público sentado con mesas y sillas.",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T20:30:00-03:00",
-     "fin": "2026-11-26T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 340.0,
-    "hasta": 340.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/catalina-erdelyi-cuarteto",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fccf19bc7-f6f4-4858-b045-967370cbe72b.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "7ebaa549-795f-4525-9c8f-3a963e1372c9",
    "url": "https://www.tikzet.com/events/javier-ventoso",
    "titulo": "Javier Ventoso",
@@ -562,53 +515,6 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Ffe957b7d-f2ed-4c67-a998-1da80da079f2.original",
    "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
-   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
-   "titulo": "Narciso en Montevideo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
-   "lugar": {
-    "nombre": "Sala Ducón",
-    "direccion": "Convención 1101",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-26T21:00:00-03:00",
-     "fin": "2026-12-26T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 450.0,
-    "hasta": 450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
-   "productor": "Sala Ducón",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -703,6 +609,100 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
    "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "10272af4-5882-411e-bf7f-1dde4bfc299e",
+   "url": "https://www.tikzet.com/events/catalina-erdelyi-cuarteto",
+   "titulo": "Catalina Erdelyi Cuarteto",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "*Este show es con el público sentado con mesas y sillas.",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T20:30:00-03:00",
+     "fin": "2026-11-26T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 340.0,
+    "hasta": 340.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/catalina-erdelyi-cuarteto",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fccf19bc7-f6f4-4858-b045-967370cbe72b.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
+   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+   "titulo": "Narciso en Montevideo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
+   "lugar": {
+    "nombre": "Sala Ducón",
+    "direccion": "Convención 1101",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-26T21:00:00-03:00",
+     "fin": "2026-12-26T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
+   "productor": "Sala Ducón",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

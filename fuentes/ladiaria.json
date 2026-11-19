@@ -1,10 +1,65 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-19T12:59:11.567069-03:00",
+ "corrida": "2026-11-19T16:40:33.049000-03:00",
  "ok": true,
- "cantidad": 51,
+ "cantidad": 52,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18426",
+   "url": "https://beneficios.ladiaria.com.uy/rico-los-robados/",
+   "titulo": "RICO & LOS ROBADOS",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Rico y los Robados vuelven a la Sociedad Urbana Villa Dolores con tremendo show cargado de energía. Un momentazo para cerrar el año y celebrar con amigos una noche de verano. Festejan un año de su primer disco Algo Dejamos , mezclando todo el sabor del funk, disco y rock para hacerte gozar de…",
+   "lugar": {
+    "nombre": "Sociedad Urbana Villa Dolores – Alejo Rosell y Rius 1483, Montevideo",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 275.0,
+    "hasta": 275.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/RICO--LOS-ROBADOS/34936/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/rico-los-robados/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/RICO--LOS-ROBADOS/34936/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "ladiaria",
    "id_externo": "18411",
