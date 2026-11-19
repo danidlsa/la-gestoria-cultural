@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-19T10:52:31.624193-03:00",
+ "corrida": "2026-11-19T12:36:42.827414-03:00",
  "ok": true,
- "cantidad": 37,
+ "cantidad": 39,
  "errores": [],
  "eventos": [
   {
@@ -860,6 +860,13 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T19:00:00-03:00",
+     "fin": "2026-11-27T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": null,
@@ -1131,6 +1138,20 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": "2026-11-27T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T21:00:00-03:00",
+     "fin": "2026-11-29T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": null,
@@ -1186,6 +1207,20 @@
     {
      "inicio": "2026-11-21T19:00:00-03:00",
      "fin": "2026-11-21T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T19:00:00-03:00",
+     "fin": "2026-11-26T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T19:00:00-03:00",
+     "fin": "2026-11-28T21:01:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -1474,6 +1509,20 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T17:00:00-03:00",
+     "fin": "2026-11-27T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T18:45:00-03:00",
+     "fin": "2026-11-29T20:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": null,
@@ -1508,6 +1557,13 @@
     {
      "inicio": "2026-11-22T19:00:00-03:00",
      "fin": "2026-11-22T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T17:00:00-03:00",
+     "fin": "2026-11-29T19:00:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -1740,6 +1796,94 @@
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021684/tmc-melodias-olvidadas"
    ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13851",
+   "url": "https://sodre.gub.uy/espectaculos/la-mujer-del-rio/",
+   "titulo": "La mujer del río",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T17:00:00-03:00",
+     "fin": "2026-11-26T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T17:00:00-03:00",
+     "fin": "2026-11-28T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-62-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13855",
+   "url": "https://sodre.gub.uy/espectaculos/the-channeling-2/",
+   "titulo": "The Channeling",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T21:00:00-03:00",
+     "fin": "2026-11-26T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": "2026-11-28T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-63-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,

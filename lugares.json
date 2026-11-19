@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-19T11:03:05.575331-03:00",
- "cantidad": 214,
+ "generado": "2026-11-19T12:47:35.319108-03:00",
+ "cantidad": 213,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -242,16 +242,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "av-uruguay-1136",
-   "nombre": "Av. Uruguay 1136",
-   "alias": [],
-   "direccion": "Av. Uruguay 1136, 11100 Montevideo, Depa",
-   "lat": -34.903194,
-   "lon": -56.192042,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "bacacay-y-buenos-aires",
    "nombre": "Bacacay y Buenos Aires",
    "alias": [],
@@ -406,7 +396,7 @@
    "direccion": "Juan Carlos Gómez 1530",
    "lat": -34.9038875,
    "lon": -56.2042725,
-   "barrio": null,
+   "barrio": "Ciudad Vieja",
    "ciudad": "Montevideo"
   },
   {
@@ -1243,7 +1233,9 @@
    "id": "l-club",
    "nombre": "L´Club",
    "alias": [
-    "L’Club"
+    "L’Club",
+    "L'Club",
+    "Av. Uruguay 1136"
    ],
    "direccion": "Av. Uruguay 1136",
    "lat": -34.903194,

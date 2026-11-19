@@ -1,8 +1,8 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-19T10:55:29.253883-03:00",
+ "corrida": "2026-11-19T12:39:39.894041-03:00",
  "ok": true,
- "cantidad": 24,
+ "cantidad": 21,
  "errores": [],
  "eventos": [
   {
@@ -642,117 +642,6 @@
    "enlaces": [
     "https://tickantel.com.uy/inicio/espectaculo/40021514/espectaculo/Mvd%20-%20Simoni%20-%20Colom?1"
    ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "solis",
-   "id_externo": "2985",
-   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Ventana-Sur-uc2985",
-   "titulo": "Ventana Sur",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-04T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": "Sala Delmira Agustini",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202603/W756_H530/6637.png",
-   "productor": "Teatro Solís",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "solis",
-   "id_externo": "2984",
-   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Ventana-Sur-uc2984",
-   "titulo": "Ventana Sur",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-04T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": "Sala Zavala Muniz",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202603/W756_H530/6636.png",
-   "productor": "Teatro Solís",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "solis",
-   "id_externo": "2983",
-   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Ventana-Sur-uc2983",
-   "titulo": "Ventana Sur",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-30T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202603/W756_H530/6635.png",
-   "productor": "Teatro Solís",
-   "region": "montevideo",
-   "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,

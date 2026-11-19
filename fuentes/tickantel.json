@@ -1,11 +1,9 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-19T10:48:43.570095-03:00",
+ "corrida": "2026-11-19T12:26:30.517326-03:00",
  "ok": true,
- "cantidad": 105,
- "errores": [
-  "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
- ],
+ "cantidad": 106,
+ "errores": [],
  "eventos": [
   {
    "fuente": "tickantel",
@@ -33,6 +31,20 @@
     },
     {
      "inicio": "2026-11-21T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T18:45:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -94,6 +106,20 @@
     },
     {
      "inicio": "2026-11-21T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -353,60 +379,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021919",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
-   "titulo": "EMI",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "“EMI” Emi, de 18 años, vive con sus padres en los suburbios de Buenos Aires. Hace unos meses empezó a trabajar en un taller de reparación de motos en un barrio obrero. Emi quiere saber acerca de su familia biológica y pasa sus días armando el rompecabezas de su historia. Dirección: Ezequiel…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021919/700_x_390_e.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40020587",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020587/el-plan-de-la-mariposa",
    "titulo": "El Plan de la Mariposa",
@@ -439,6 +411,67 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020587/700x390_EPDM_MONTEVIDEO.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021919",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
+   "titulo": "EMI",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "“EMI” Emi, de 18 años, vive con sus padres en los suburbios de Buenos Aires. Hace unos meses empezó a trabajar en un taller de reparación de motos en un barrio obrero. Emi quiere saber acerca de su familia biológica y pasa sus días armando el rompecabezas de su historia. Dirección: Ezequiel…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021919/700_x_390_e.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -541,6 +574,20 @@
     },
     {
      "inicio": "2026-11-22T20:50:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -1164,48 +1211,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40020784",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020784/german-medina",
-   "titulo": "Germán Medina",
-   "categoria": "humor",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Germán Medina vuelve al Teatro de Verano! Con su estilo único, cercano y explosivo, Germán se ha consolidado como una de las figuras más destacadas del humor nacional, conquistando al público con anécdotas cotidianas, improvisación y una energía arrolladora en escena. Una noche imperdible para…",
-   "lugar": {
-    "nombre": "Teatro de Verano",
-    "direccion": null,
-    "lat": -34.9198517,
-    "lon": -56.1698383,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020784/german-medina",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020784/700_X_390_(2).jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40020967",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020967/hilda-lizarazu",
    "titulo": "Hilda Lizarazu",
@@ -1238,6 +1243,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020967/hilda700x390_copia_4-100.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40020784",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020784/german-medina",
+   "titulo": "Germán Medina",
+   "categoria": "humor",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Germán Medina vuelve al Teatro de Verano! Con su estilo único, cercano y explosivo, Germán se ha consolidado como una de las figuras más destacadas del humor nacional, conquistando al público con anécdotas cotidianas, improvisación y una energía arrolladora en escena. Una noche imperdible para…",
+   "lugar": {
+    "nombre": "Teatro de Verano",
+    "direccion": null,
+    "lat": -34.9198517,
+    "lon": -56.1698383,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020784/german-medina",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020784/700_X_390_(2).jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1406,6 +1453,13 @@
    "funciones": [
     {
      "inicio": "2026-11-22T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T17:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -3790,6 +3844,48 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021895",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada",
+   "titulo": "Nadie dice nada",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Nadie dice nada en vivo",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021895/NDN-AntelArena-WebTickantel-12dic-700x390.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021954",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021954/ciclo-de-piano-raquel-boldorini",
    "titulo": "Ciclo de piano Raquel Boldorini",
@@ -4436,8 +4532,8 @@
   {
    "fuente": "tickantel",
    "id_externo": "40021988",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021988/el-duo-de-la-africana-avant-premier",
-   "titulo": "El Dúo de La Africana - Avant Premier",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021988/el-duo-de-la-africana-a-beneficio-de-aldeas",
+   "titulo": "El Dúo de La Africana - A beneficio de Aldeas",
    "categoria": "infantil",
    "categoria_segura": false,
    "descripcion_corta": "TEMPORADA LÍRICA 2026 El dúo de «La Africana» Primera función a beneficio de Aldeas Infantiles SOS Uruguay Una de las zarzuelas más célebres del repertorio español. Concebida como sátira del propio mundo teatral, su eficacia musical y su precisión cómica la convierten en emblema del género chico…",
@@ -4461,7 +4557,7 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021988/el-duo-de-la-africana-avant-premier",
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021988/el-duo-de-la-africana-a-beneficio-de-aldeas",
      "via": "tickantel"
     }
    ],
