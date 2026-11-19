@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-18T21:52:05.893564-03:00",
+ "corrida": "2026-11-19T11:00:10.586368-03:00",
  "ok": true,
- "cantidad": 56,
+ "cantidad": 55,
  "errores": [],
  "eventos": [
   {
@@ -64,13 +64,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-18T16:00:00-03:00",
-     "fin": "2026-11-18T18:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Centro Comunal Zonal 10",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-19T16:00:00-03:00",
      "fin": "2026-11-19T18:00:00-03:00",
@@ -1954,48 +1947,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Envejecimiento activo",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "1020",
-   "url": "https://eventos.montevideo.gub.uy/evento/atlantidoc/el-palacio-ambulante",
-   "titulo": "El palacio ambulante",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "En esta historia contemporánea de dos ciudades, un fotógrafo de Hong Kong que se autodenomina «fracasado» oscila entre su ciudad natal, una megaciudad, y las montañas tibetanas en busca de sentido y de un lugar al que pertenecer. Al conocer y documentar la vida de los tibetanos en su tierra natal…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/El%20palacio%20ambulante%20%281%29.jpg",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Atlantidoc",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
