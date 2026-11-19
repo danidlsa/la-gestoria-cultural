@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-18T19:39:32.571125-03:00",
+ "corrida": "2026-11-18T23:52:09.656789-03:00",
  "ok": true,
- "cantidad": 59,
+ "cantidad": 55,
  "errores": [],
  "eventos": [
   {
@@ -64,13 +64,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-18T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-30T20:30:00-03:00",
      "fin": null,
@@ -136,13 +129,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-18T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-25T19:00:00-03:00",
      "fin": null,
@@ -439,178 +425,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/152970698171.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "sansuena_cafevivero-20261118",
-   "url": "https://www.instagram.com/p/Df0AaviCMXX/",
-   "titulo": "Recibiremos en Sansueña a Daniel Parada, quien nos acompañará en la presentación de su…",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Este miércoles 18 de noviembre recibiremos en Sansueña a Daniel Parada, quien nos acompañará en la presentación de su libro Besar, vivir, cantar y morir. Una instancia para acercarnos a su obra, conocer más sobre su proceso creativo e intercambiar miradas y reflexiones junto a Alberto Silva…",
-   "lugar": {
-    "nombre": "Sansueña",
-    "direccion": "Orinoco 4968",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T18:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df0AaviCMXX/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1e77ca7f6d39.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "museomumi-20261118",
-   "url": "https://www.instagram.com/p/Dfkh99Vphrg/",
-   "titulo": "MuMI: Inauguración de \"La sal en las paredes\"",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "INAUGURACIÓN EXPOSITIVA \"La sal en las paredes\" Miércoles 18, 19h Bartolomé Mitre 1550 esq. Piedras La sal en las paredes es una exposición colectiva de los artistas Liliana Zapata, Acaymo S. Cuesta, Ricardo Zamora y Francis Naranjo, con curaduría de Eduardo Caballero, presentada en el Museo de la…",
-   "lugar": {
-    "nombre": "MuMI - Muralla Abierta",
-    "direccion": "Bartolomé Mitre 1550",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfkh99Vphrg/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ed517e5ba392.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "barlarondacafe-20261118",
-   "url": "https://www.instagram.com/reel/Df3EiidBgm5/",
-   "titulo": "La Ronda: Noches De Ensayos Abiertos · Magela Ferrero",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Esto fue Noches de Ensayos Abiertos el pasado miércoles con lali_gaspari Mañana te esperamos con una nueva edición de NDEA con Magela Ferrero en vivo Musicaliza _wandixx_ 20hs Ciudadela 1182",
-   "lugar": {
-    "nombre": "La Ronda",
-    "direccion": "Ciudadela 1182",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/Df3EiidBgm5/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/bf29c333363b.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "jazzclub.uy-20261118",
-   "url": "https://www.instagram.com/p/Df2Iz_OTSo8/",
-   "titulo": "Jazz Club: COMO TODAS LAS SEMANASSSS · GRAAAAAATIS bluzzbar bluzzbar bluzzbar",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "ESTE MIÉRCOLES COMO TODAS LAS SEMANASSSS GRAAAAAATIS bluzzbar bluzzbar bluzzbar VUELVE EL DE LA GENTE 20HS 20HS 20HSSSSSSS jazzclub.uy ottonello.musica andonigajduk manza______ nachocorreapacifico lawrelenzo . 2x1 en gin destileriacapicua Apoya fundamento.pizza & destileriacapicua",
-   "lugar": {
-    "nombre": "Bluzz Bar",
-    "direccion": "Canelones 760",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df2Iz_OTSo8/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e854a1194cad.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

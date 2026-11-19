@@ -1,8 +1,8 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-18T16:41:27.658400-03:00",
+ "corrida": "2026-11-18T23:48:55.826362-03:00",
  "ok": true,
- "cantidad": 20,
+ "cantidad": 19,
  "errores": [],
  "eventos": [
   {
@@ -2199,48 +2199,6 @@
    "etiquetas": [],
    "muestra": true,
    "hasta": "2027-02-28"
-  },
-  {
-   "fuente": "mnav",
-   "id_externo": "escrituraensala",
-   "url": "https://mnav.gub.uy/cms.php?id=escrituraensala",
-   "titulo": "Taller de escritura poética en torno a la colección del MNAV: \"Relatos en proceso: colección expandida\"",
-   "categoria": "taller",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T16:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=escrituraensala",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=escrituraensala",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
   },
   {
    "fuente": "mnav",

@@ -1,8 +1,8 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-18T19:39:09.454697-03:00",
+ "corrida": "2026-11-18T23:51:47.246932-03:00",
  "ok": true,
- "cantidad": 16,
+ "cantidad": 15,
  "errores": [],
  "eventos": [
   {
@@ -289,53 +289,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "a33a93fb-def1-4438-afc8-3d99e4de2138",
-   "url": "https://www.tikzet.com/events/craig-carri-cuarteto",
-   "titulo": "Craig Carri Cuarteto",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Desde la escena de jazz de Londres, el guitarrista irlandés Craig Carri presenta su cuarteto montevideano en El Hormiguero, con música de su próximo disco, Hubbub, y algunos standards elegidos para la ocasión. Composiciones construidas sobre estructuras rítmicas que abren el camino a la exploración…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T21:00:00-03:00",
-     "fin": "2026-11-18T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/craig-carri-cuarteto",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F1964316e-fa61-403c-b44a-0e9baa902d42.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "ab487087-b2b8-41d2-902e-71467f67c7ca",
    "url": "https://www.tikzet.com/events/acampo-reggae-festival",
    "titulo": "Acampo Reggae Festival",
@@ -571,6 +524,53 @@
   },
   {
    "fuente": "tikzet",
+   "id_externo": "7ebaa549-795f-4525-9c8f-3a963e1372c9",
+   "url": "https://www.tikzet.com/events/javier-ventoso",
+   "titulo": "Javier Ventoso",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-22T21:00:00-03:00",
+     "fin": "2026-12-22T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/javier-ventoso",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Ffe957b7d-f2ed-4c67-a998-1da80da079f2.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
    "id_externo": "29b67f42-54aa-40b5-ba07-560cc0847b89",
    "url": "https://www.tikzet.com/events/barrio-chino",
    "titulo": "Barrio Chino",
@@ -702,53 +702,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fccf19bc7-f6f4-4858-b045-967370cbe72b.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "7ebaa549-795f-4525-9c8f-3a963e1372c9",
-   "url": "https://www.tikzet.com/events/javier-ventoso",
-   "titulo": "Javier Ventoso",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-22T21:00:00-03:00",
-     "fin": "2026-12-22T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/javier-ventoso",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Ffe957b7d-f2ed-4c67-a998-1da80da079f2.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
