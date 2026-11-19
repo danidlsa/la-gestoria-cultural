@@ -1,8 +1,8 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-18T23:48:12.339311-03:00",
+ "corrida": "2026-11-19T10:57:53.177288-03:00",
  "ok": true,
- "cantidad": 52,
+ "cantidad": 51,
  "errores": [],
  "eventos": [
   {
@@ -473,15 +473,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 1330.0,
     "hasta": 1330.0,
@@ -566,58 +558,6 @@
    "enlaces": [
     "https://www.tickantel.com.uy/inicio/registrarse",
     "https://tickantel.com.uy/ng/espectaculo/40021756/particulas-sofia-alvez-animales-de-poder"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18363",
-   "url": "https://beneficios.ladiaria.com.uy/particulas-miel-malapraxxis-2/",
-   "titulo": "PARTÍCULAS: Miel & Malapraxxis",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "MIEL y Malapraxxis reúnen dos voces de la escena contemporánea uruguaya que encuentran en la palabra un territorio central de creación. Desde recorridos y lenguajes diferentes, sus propuestas atraviesan el rap, el hip hop, la improvisación, la canción y la performance, trazando un diálogo entre…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021755/particulas-ninguna-higuera-guadalupe-calzada",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/particulas-miel-malapraxxis-2/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/ng/espectaculo/40021755/particulas-ninguna-higuera-guadalupe-calzada"
    ],
    "ciclo": null,
    "etiquetas": [],

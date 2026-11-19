@@ -1,30 +1,14 @@
 {
- "generado": "2026-11-18T23:53:02.554135-03:00",
- "cantidad": 29,
+ "generado": "2026-11-19T11:03:05.575331-03:00",
+ "cantidad": 28,
  "ciclos": [
   {
    "id": "ciclo-el-mingus",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
    "lugar_id": "el-mingus",
-   "desde": "2026-11-18T00:00:00-03:00",
+   "desde": "2026-11-19T00:00:00-03:00",
    "hasta": "2026-11-21T00:00:00-03:00",
-   "cantidad": 4
-  },
-  {
-   "id": "ciclo-atlantidoc",
-   "titulo": "Atlantidoc",
-   "lugar_id": "centro-cultural-terminal-goes",
-   "desde": "2026-11-18T19:00:00-03:00",
-   "hasta": "2026-11-18T19:00:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-the-shannon",
-   "titulo": "The Shannon",
-   "lugar_id": "the-shannon-irish-pub",
-   "desde": "2026-11-18T22:00:00-03:00",
-   "hasta": "2026-11-28T00:00:00-03:00",
-   "cantidad": 7
+   "cantidad": 3
   },
   {
    "id": "ciclo-envejecimiento-activo",
@@ -73,6 +57,14 @@
    "desde": "2026-11-19T21:00:00-03:00",
    "hasta": "2026-12-04T21:00:00-03:00",
    "cantidad": 4
+  },
+  {
+   "id": "ciclo-the-shannon",
+   "titulo": "The Shannon",
+   "lugar_id": "the-shannon-irish-pub",
+   "desde": "2026-11-19T22:00:00-03:00",
+   "hasta": "2026-11-28T00:00:00-03:00",
+   "cantidad": 6
   },
   {
    "id": "ciclo-mercado-ferrando",
@@ -128,6 +120,14 @@
    "lugar_id": "sala-zitarrosa",
    "desde": "2026-11-21T21:00:00-03:00",
    "hasta": "2026-12-05T21:30:00-03:00",
+   "cantidad": 4
+  },
+  {
+   "id": "ciclo-candlelight",
+   "titulo": "Candlelight",
+   "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
+   "desde": "2026-11-21T21:30:00-03:00",
+   "hasta": "2027-02-12T19:30:00-03:00",
    "cantidad": 4
   },
   {
@@ -193,14 +193,6 @@
    "desde": "2026-12-13T18:00:00-03:00",
    "hasta": "2026-12-13T18:00:00-03:00",
    "cantidad": 1
-  },
-  {
-   "id": "ciclo-candlelight",
-   "titulo": "Candlelight",
-   "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
-   "desde": "2026-12-19T17:30:00-03:00",
-   "hasta": "2027-02-12T19:30:00-03:00",
-   "cantidad": 4
   },
   {
    "id": "ciclo-candlelight",

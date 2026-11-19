@@ -1,8 +1,8 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-18T23:45:50.458928-03:00",
+ "corrida": "2026-11-19T10:55:29.253883-03:00",
  "ok": true,
- "cantidad": 25,
+ "cantidad": 24,
  "errores": [],
  "eventos": [
   {
@@ -333,50 +333,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/alta-demanda/40021894/yerai-cortes"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "solis",
-   "id_externo": "3080",
-   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Ulysses-Quartet--Anne-Marie-McDermott-piano-uc3080",
-   "titulo": "Ulysses Quartet & Anne-Marie McDermott, piano",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021609/ulysses-quartetmcdermott-piano",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7021.png",
-   "productor": "Teatro Solís",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021609/ulysses-quartetmcdermott-piano"
    ],
    "ciclo": null,
    "etiquetas": [],
