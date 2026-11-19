@@ -1,164 +1,10 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-19T12:45:56.635764-03:00",
+ "corrida": "2026-11-19T13:03:06.884892-03:00",
  "ok": true,
  "cantidad": 65,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "centroculturalterminalgoes-20261128",
-   "url": "https://www.instagram.com/p/DfxDaO6CetM/",
-   "titulo": "Centro Cultural Terminal Goes: Vuelve con una ÚNICA función",
-   "categoria": "humor",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Vuelve con una ÚNICA función! CRUDO Un monólogo de humor ácido y vulnerable sobre la ansiedad, la identidad y el deseo urgente de dejar de actuar incluso cuando nadie está mirando. Sábado 28 de noviembre 20:30 h Centro Cultural Terminal Goes Entradas en Tickantel Solicitá tu código para obtener…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfxDaO6CetM/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/73d0d83f1bd8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "lacretinacasa-20261021",
-   "url": "https://www.instagram.com/p/DfmmFjPFYbV/",
-   "titulo": "La Cretina: MAMBO",
-   "categoria": "humor",
-   "categoria_segura": false,
-   "descripcion_corta": "Esta noche: MAMBO ¡MAMBO! Un retrato contemporáneo, mordaz, profundamente humano y de humor corrosivo, donde la venganza, el dinero y la búsqueda frenética de la felicidad se cruzan en escena. Porque como decía Denis de Rougemont, el amor feliz no tiene historia ... y Mambo promete no dejar a nadie…",
-   "lugar": {
-    "nombre": "La Cretina",
-    "direccion": "Soriano 1236",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-30T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-07T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-14T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-21T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfmmFjPFYbV/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/14917c830e7a.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "centroculturalterminalgoes-20261103",
-   "url": "https://www.instagram.com/p/DfSSI5DFIG9/",
-   "titulo": "Centro Cultural Terminal Goes: Festival Internacional Atlantidoc",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "Festival Internacional Atlantidoc | Ciclo de cine Deslizá para conocer las propuestas para este mes Todos los miércoles | 19 horas Centro Cultural Terminal Goes Entrada libre y gratuita atlantidoc.uy mvdaudiovisual Festival Internacional Atlantidoc | Ciclo de cine Con los brazos abiertos Con los…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfSSI5DFIG9/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/93e5b66a9033.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "instagram_bares",
    "id_externo": "facmvd-20261107",
@@ -252,55 +98,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "latabernadebrecha-20261110",
-   "url": "https://www.instagram.com/p/DfikgX0ljQk/",
-   "titulo": "La Taberna de Brecha: Qué martes se viene",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Se acerca el cierre pero aún quedan martes y mucha música. Martes de noviembre / 21:00 h. Entrada libre. Localidades limitadas por orden de llegada. Entrega de accesos a partir de las 20:00. Nos vemos abajo.",
-   "lugar": {
-    "nombre": "La Taberna de Brecha",
-    "direccion": "Durazno y Jackson",
-    "lat": -34.909634,
-    "lon": -56.172902,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfikgX0ljQk/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3c58327bdcc1.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261111",
    "url": "https://www.instagram.com/p/DfiNaf8mFgg/",
    "titulo": "Centro Cultural de España: Beethoven 199",
@@ -383,97 +180,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a3c1133c2fd8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "el.mingus-20261119",
-   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
-   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Jazzterday",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Jueves 19 de noviembre: Jazzterday",
-   "lugar": {
-    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5201ad786202.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "montevideobeercompany-20261119",
-   "url": "https://www.instagram.com/p/Df5GWpclLPH/",
-   "titulo": "MBC: Vamos con una noche de música para conmemorar la salida del jueguito?",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Vamos con una noche de música para conmemorar la salida del jueguito? Show en vivo Entrada libre MBC Punta Carretas Jueves 19/11 losamigosdeunamigo en vivo para estirar la jornada",
-   "lugar": {
-    "nombre": "MBC Punta Carretas",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df5GWpclLPH/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e5efcf2603e3.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -627,188 +333,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "centroculturalterminalgoes-20261119",
-   "url": "https://www.instagram.com/p/De-MrIVjQ4T/",
-   "titulo": "Centro Cultural Terminal Goes: LIBERANDO LODIO",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "LIBERANDO LODIO Teatro Ritual Bufón Liberando lodio es una experiencia escénica de teatro bufón que, desde el humor grotesco y una poética ritual, propone una crítica sarcástica al uso del poder, el fanatismo y a los dogmas que vacían de sentido la espiritualidad. La obra se articula como un…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/De-MrIVjQ4T/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e727b639fc0e.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261119",
-   "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
-   "titulo": "The Shannon: PRIMA DONNA",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Jueves 19/Noviembre: PRIMA DONNA Clásicos de rock - 22 hs Cubierto artístico $150 Club Shannon: ABIIRI Y LOS PÉTALOS DE CRISTAL, NYXIA y POLIFAGIA Rock&Roll - 22 hs Cubierto artístico $100",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 100.0,
-    "hasta": 150.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1b37816a9388.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "mercadoferrando-20261120",
-   "url": "https://www.instagram.com/p/DfxNwAroMhp/",
-   "titulo": "Mercado Ferrando: El 20.11 beertruckopb cumple 10 años y en Ferrando lo festejamos a lo grande",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "El 20.11 beertruckopb cumple 10 años y en Ferrando lo festejamos a lo grande Seguimos disfrutando de un mes lleno de festejos, encuentros y propuestas artísticas. Con un line up para celebrar de principio a fin ¡Los esperamos para brindar, bailar y celebrar juntos estos 10 años!",
-   "lugar": {
-    "nombre": "Mercado Ferrando",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfxNwAroMhp/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b556e967e906.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "el.mingus-20261120",
-   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
-   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Piano Bar",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábado 20 de noviembre (al mediodía): Piano Bar",
-   "lugar": {
-    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T12:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a9a7a1b72ebc.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "clubculturalcharco-20261120",
    "url": "https://www.instagram.com/p/Dfx_XrClazp/",
    "titulo": "Club Cultural Charco: Modera: Mauricio Cheguhem",
@@ -940,153 +464,6 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "centroculturalterminalgoes-20261120",
-   "url": "https://www.instagram.com/p/Df2KAYlnLV7/",
-   "titulo": "Centro Cultural Terminal Goes: ASCENSO",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Te invitamos a disfrutar de Primavera Tango! Dúo 1071 Integrado por Abril Farolini (bandoneón) y Matías Craciun (violín), propone un viaje sonoro por las músicas del Río de la Plata desde una formación de cámara singular. A través de arreglos originales, el dúo ofrece una mirada renovada sobre…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df2KAYlnLV7/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d574dc5d518d.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261120",
-   "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
-   "titulo": "The Shannon: PIANO BAR",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Viernes 20/Noviembre: PIANO BAR Clásicos de rock& pop - 22 hs Cubierto artístico $250 Club Shannon: NENES DE ANTES Tributo a Divididos - 22 hs Cubierto artístico $300",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 250.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b0988bc32710.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "el.mingus-20261121",
-   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
-   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Tony Rey",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Domingo 21 de noviembre: Tony Rey (desde España) Reservá tu mesa via Whatsapp al 093 651 305. Te esperamos!",
-   "lugar": {
-    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/107ef10e9417.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
    "muestra": false,
    "hasta": null
   },
@@ -1283,48 +660,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "mercadoferrando-20261121",
-   "url": "https://www.instagram.com/p/Df0KuZ0s8x8/",
-   "titulo": "Mercado Ferrando: Show de títeres en Ferrando",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "Show de títeres en Ferrando Este sábado 21 de noviembre nos espera El Tipití – La aventura jamás contada , de lalocacompania ¡Los esperamos a las 14 hs para disfrutar en familia!",
-   "lugar": {
-    "nombre": "Mercado Ferrando",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df0KuZ0s8x8/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ea7a37c8a1da.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "subtemvd-20261121",
    "url": "https://www.instagram.com/p/Df4_poRFDsG/",
    "titulo": "Centro de Exposiciones Subte: PROGRAMA PÚBLICO: NO MIRAMOS MÁS LAS ESTRELLAS , de Proyecto CasaMario",
@@ -1414,55 +749,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "cordonbeer-20261121",
-   "url": "https://www.instagram.com/p/DfnpWaYCyEr/",
-   "titulo": "Cordón Beer: Volvemos a las raíces con una buena joda en Requena y Rodó",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Y SI CORTAMOS LA CALLE CON ENTRADA GRATIS? el sábado 21 volvemos a las raíces con una buena joda en Requena y Rodó. Accesos disponibles a partir del viernes a las 18h Atentxs al las historias!",
-   "lugar": {
-    "nombre": "Cordón Beer",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfnpWaYCyEr/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/78755b424d96.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "horizontes.sonoro-20261121",
    "url": "https://www.instagram.com/reel/Dfx5knKh7gM/",
    "titulo": "Horizontes Sonoros: Espacio Quitapenas Paysandú 847, Montevideo",
@@ -1505,143 +791,6 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "lacretinacasa-20261121",
-   "url": "https://www.instagram.com/p/DfiK_MivhXn/",
-   "titulo": "La Cretina: TABAREK & LA KABARET",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Tenemos el honor de recibir en casa, para su Debut oficial, a estos queridos amigos con su nuevo y espectacular proyecto! TABAREK & LA KABARET Tabaré Rivero presenta en vivo su nuevo proyecto musical: Tabarek & La Kabaret. Un recorrido por algunas de sus canciones en un formato acústico, íntimo y…",
-   "lugar": {
-    "nombre": "La Cretina",
-    "direccion": "Soriano 1236",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfiK_MivhXn/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b1ec83d60b82.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261121",
-   "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
-   "titulo": "The Shannon: TREBOADA",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábado 21/Noviembre: TREBOADA Música celta - 22 hs Cubierto artístico $200 Club Shannon: VIEJOS ROCKEROS Rock&Roll - 22 hs Cubierto artístico $200 Nota: el cubierto artístico se cobra en efectivo o por transferencia. Gracias por valorar y apoyar la música en vivo pagando el cubierto artístico. NO…",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 200.0,
-    "hasta": 200.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/dfe7e9b3578a.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "el.mingus-20261123",
-   "url": "https://www.instagram.com/p/Df6H6zalWBp/",
-   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: De lunes a domingos nuestra cocina esta abierta para venir a almorzar",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "de lunes a domingos nuestra cocina esta abierta para venir a almorzar variedad de platos y platitos y nuestra mesita en la vereda esta ideal pasar estos días lindos de calor :) te esperamos desde las 12 am",
-   "lugar": {
-    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-23T12:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df6H6zalWBp/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8e80e2a68840.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
    "muestra": false,
    "hasta": null
   },
@@ -1830,99 +979,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "lacretinacasa-20261124",
-   "url": "https://www.instagram.com/p/Df7O-g_h2SP/",
-   "titulo": "La Cretina: 99% BALADAS - ¡La terapia musical que no podés dejar pasar",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "99% BALADAS - ¡La terapia musical que no podés dejar pasar! ¡ENTRADA LIBRE! Este martes 24 buena música y mucha diversión. ¡Las mejores baladas de los 80s, 90s y 00s te esperan para que las cantes a todo pulmón! Con 99.baladas y Gabriel Soria, revivimos esas canciones que te llenan de recuerdos, de…",
-   "lugar": {
-    "nombre": "La Cretina",
-    "direccion": "Soriano 1236",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df7O-g_h2SP/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ccab8b1e07ee.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261125",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: OPEN MIC",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Miércoles 25: OPEN MIC",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/93c695acfbe7.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "clubculturalcharco-20261126",
    "url": "https://www.instagram.com/p/Dfms2HQldPq/",
    "titulo": "Club Cultural Charco: Participan: silviaguerradiaz y claudia_magliano_cassanello",
@@ -2002,50 +1058,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3bf3aa296475.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261127",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: KARAOKE EN VIVO",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Viernes 27: KARAOKE EN VIVO. con Mauricio Basalo Club Shannon: LUMEN",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8e5f2d80c017.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2147,50 +1159,6 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261128",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: EASYBAND",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábado 28: EASYBAND",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8df5b8bddf99.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
    "muestra": false,
    "hasta": null
   },
@@ -2376,6 +1344,48 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "centroculturalterminalgoes-20261128",
+   "url": "https://www.instagram.com/p/DfxDaO6CetM/",
+   "titulo": "Centro Cultural Terminal Goes: Vuelve con una ÚNICA función",
+   "categoria": "humor",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Vuelve con una ÚNICA función! CRUDO Un monólogo de humor ácido y vulnerable sobre la ansiedad, la identidad y el deseo urgente de dejar de actuar incluso cuando nadie está mirando. Sábado 28 de noviembre 20:30 h Centro Cultural Terminal Goes Entradas en Tickantel Solicitá tu código para obtener…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfxDaO6CetM/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/73d0d83f1bd8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "azotealee-20261129",
    "url": "https://www.instagram.com/p/Df2PJkJJVs-/",
    "titulo": "Lecturas de azotea: Silvio cumple 80 y nosotros lo festejamos el día antes",
@@ -2413,55 +1423,6 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "elbar_delxsamigxs-20261129",
-   "url": "https://www.instagram.com/p/Df0IbtaGBqM/",
-   "titulo": "Brecha Bar y Cafe: Cumplimos 12 años",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": "Son años. Es una costumbre que hicimos fiesta. Este 29 de noviembre nos encontramos en la calle, todo el día y como siempre Entrada libre. Aquiles Lanza y Canelones. Desde las 12:00 h.",
-   "lugar": {
-    "nombre": "Brecha Bar y Café 🏳️‍🌈",
-    "direccion": "Aquiles Lanza y Canelones",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-29T12:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df0IbtaGBqM/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3bb02bef6ff1.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
    "muestra": false,
    "hasta": null
   },
@@ -2516,50 +1477,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "lacretinacasa-20261202",
-   "url": "https://www.instagram.com/p/DfQjbTcNR_r/",
-   "titulo": "La Cretina: FERIADO + MONKELIS",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "FERIADO + MONKELIS I 2 DE DICIEMBRE EN LA CRETINA feriado.uy se presenta por primera vez en en La Cretina. Abre la noche monkelismusic. Entradas a la venta en redtickets.uy - 2 de Diciembre 21 hs La Cretina, Soriano 1236",
-   "lugar": {
-    "nombre": "La Cretina",
-    "direccion": "Soriano 1236",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-02T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfQjbTcNR_r/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/64e4e06cfda4.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261204",
    "url": "https://www.instagram.com/p/Df5Q8lSmF6L/",
    "titulo": "Centro Cultural de España: 8 que cuentan: una conversación de inclusión y un encuentro de lectura colectiva",
@@ -2607,50 +1524,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "inmigrantesmvd-20261204",
-   "url": "https://www.instagram.com/p/Dfk29Y-lqSZ/",
-   "titulo": "Inmigrantes: FESTIVAL NUESTRO",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": "FESTIVAL NUESTRO Este 4 de diciembre nos encontramos en Inmigrantes para una noche bien nuestra. Arrancamos en la calle y cuando cae la noche, la seguimos en el sótano, para no molestar a los vecinos lagrecia__ DJ santiricors DJ brunoborlone el.club.del.lobo Viernes 4 de diciembre Desde las 19:30 h…",
-   "lugar": {
-    "nombre": "Inmigrantes MVD",
-    "direccion": "Juan Paullier 1252",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-04T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfk29Y-lqSZ/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/aa5e3cf042b4.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "mambapercusion-20261205",
    "url": "https://www.instagram.com/p/DfniyXLgX1E/",
    "titulo": "Estamos muy felices de contarles que se viene la fiesta de fin de año de Mamba a la…",
@@ -2693,6 +1566,1175 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "festivaldelsolsticio-20261219",
+   "url": "https://www.instagram.com/reel/Df5O5jnvtoy/",
+   "titulo": "Festival del Solsticio: Una vez más, nos reunimos al borde del sol el 19/12 recibimos el verano juntxs",
+   "categoria": "festival",
+   "categoria_segura": true,
+   "descripcion_corta": "una vez más, nos reunimos al borde del sol el 19/12 recibimos el verano juntxs. qué bandas no pueden faltar? etiquetalas en comentarios!",
+   "lugar": {
+    "nombre": "Festival del Solsticio",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/Df5O5jnvtoy/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lacretinacasa-20261021",
+   "url": "https://www.instagram.com/p/DfmmFjPFYbV/",
+   "titulo": "La Cretina: MAMBO",
+   "categoria": "humor",
+   "categoria_segura": false,
+   "descripcion_corta": "Esta noche: MAMBO ¡MAMBO! Un retrato contemporáneo, mordaz, profundamente humano y de humor corrosivo, donde la venganza, el dinero y la búsqueda frenética de la felicidad se cruzan en escena. Porque como decía Denis de Rougemont, el amor feliz no tiene historia ... y Mambo promete no dejar a nadie…",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-30T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-07T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-14T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-21T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfmmFjPFYbV/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/14917c830e7a.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "centroculturalterminalgoes-20261103",
+   "url": "https://www.instagram.com/p/DfSSI5DFIG9/",
+   "titulo": "Centro Cultural Terminal Goes: Festival Internacional Atlantidoc",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Festival Internacional Atlantidoc | Ciclo de cine Deslizá para conocer las propuestas para este mes Todos los miércoles | 19 horas Centro Cultural Terminal Goes Entrada libre y gratuita atlantidoc.uy mvdaudiovisual Festival Internacional Atlantidoc | Ciclo de cine Con los brazos abiertos Con los…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfSSI5DFIG9/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/93e5b66a9033.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "latabernadebrecha-20261110",
+   "url": "https://www.instagram.com/p/DfikgX0ljQk/",
+   "titulo": "La Taberna de Brecha: Qué martes se viene",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Se acerca el cierre pero aún quedan martes y mucha música. Martes de noviembre / 21:00 h. Entrada libre. Localidades limitadas por orden de llegada. Entrega de accesos a partir de las 20:00. Nos vemos abajo.",
+   "lugar": {
+    "nombre": "La Taberna de Brecha",
+    "direccion": "Durazno y Jackson",
+    "lat": -34.909634,
+    "lon": -56.172902,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfikgX0ljQk/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3c58327bdcc1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261119",
+   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Jazzterday",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Jueves 19 de noviembre: Jazzterday",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5201ad786202.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "montevideobeercompany-20261119",
+   "url": "https://www.instagram.com/p/Df5GWpclLPH/",
+   "titulo": "MBC: Vamos con una noche de música para conmemorar la salida del jueguito?",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Vamos con una noche de música para conmemorar la salida del jueguito? Show en vivo Entrada libre MBC Punta Carretas Jueves 19/11 losamigosdeunamigo en vivo para estirar la jornada",
+   "lugar": {
+    "nombre": "MBC Punta Carretas",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df5GWpclLPH/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e5efcf2603e3.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "centroculturalterminalgoes-20261119",
+   "url": "https://www.instagram.com/p/De-MrIVjQ4T/",
+   "titulo": "Centro Cultural Terminal Goes: LIBERANDO LODIO",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "LIBERANDO LODIO Teatro Ritual Bufón Liberando lodio es una experiencia escénica de teatro bufón que, desde el humor grotesco y una poética ritual, propone una crítica sarcástica al uso del poder, el fanatismo y a los dogmas que vacían de sentido la espiritualidad. La obra se articula como un…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/De-MrIVjQ4T/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e727b639fc0e.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261119",
+   "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+   "titulo": "The Shannon: PRIMA DONNA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Jueves 19/Noviembre: PRIMA DONNA Clásicos de rock - 22 hs Cubierto artístico $150 Club Shannon: ABIIRI Y LOS PÉTALOS DE CRISTAL, NYXIA y POLIFAGIA Rock&Roll - 22 hs Cubierto artístico $100",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-19T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 100.0,
+    "hasta": 150.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1b37816a9388.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "mercadoferrando-20261120",
+   "url": "https://www.instagram.com/p/DfxNwAroMhp/",
+   "titulo": "Mercado Ferrando: El 20.11 beertruckopb cumple 10 años y en Ferrando lo festejamos a lo grande",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "El 20.11 beertruckopb cumple 10 años y en Ferrando lo festejamos a lo grande Seguimos disfrutando de un mes lleno de festejos, encuentros y propuestas artísticas. Con un line up para celebrar de principio a fin ¡Los esperamos para brindar, bailar y celebrar juntos estos 10 años!",
+   "lugar": {
+    "nombre": "Mercado Ferrando",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfxNwAroMhp/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b556e967e906.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261120",
+   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Piano Bar",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábado 20 de noviembre (al mediodía): Piano Bar",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a9a7a1b72ebc.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "centroculturalterminalgoes-20261120",
+   "url": "https://www.instagram.com/p/Df2KAYlnLV7/",
+   "titulo": "Centro Cultural Terminal Goes: ASCENSO",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Te invitamos a disfrutar de Primavera Tango! Dúo 1071 Integrado por Abril Farolini (bandoneón) y Matías Craciun (violín), propone un viaje sonoro por las músicas del Río de la Plata desde una formación de cámara singular. A través de arreglos originales, el dúo ofrece una mirada renovada sobre…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2KAYlnLV7/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d574dc5d518d.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261120",
+   "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+   "titulo": "The Shannon: PIANO BAR",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Viernes 20/Noviembre: PIANO BAR Clásicos de rock& pop - 22 hs Cubierto artístico $250 Club Shannon: NENES DE ANTES Tributo a Divididos - 22 hs Cubierto artístico $300",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 250.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b0988bc32710.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261121",
+   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Tony Rey",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Domingo 21 de noviembre: Tony Rey (desde España) Reservá tu mesa via Whatsapp al 093 651 305. Te esperamos!",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/107ef10e9417.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "mercadoferrando-20261121",
+   "url": "https://www.instagram.com/p/Df0KuZ0s8x8/",
+   "titulo": "Mercado Ferrando: Show de títeres en Ferrando",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "Show de títeres en Ferrando Este sábado 21 de noviembre nos espera El Tipití – La aventura jamás contada , de lalocacompania ¡Los esperamos a las 14 hs para disfrutar en familia!",
+   "lugar": {
+    "nombre": "Mercado Ferrando",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df0KuZ0s8x8/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ea7a37c8a1da.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "cordonbeer-20261121",
+   "url": "https://www.instagram.com/p/DfnpWaYCyEr/",
+   "titulo": "Cordón Beer: Volvemos a las raíces con una buena joda en Requena y Rodó",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Y SI CORTAMOS LA CALLE CON ENTRADA GRATIS? el sábado 21 volvemos a las raíces con una buena joda en Requena y Rodó. Accesos disponibles a partir del viernes a las 18h Atentxs al las historias!",
+   "lugar": {
+    "nombre": "Cordón Beer",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfnpWaYCyEr/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/78755b424d96.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lacretinacasa-20261121",
+   "url": "https://www.instagram.com/p/DfiK_MivhXn/",
+   "titulo": "La Cretina: TABAREK & LA KABARET",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Tenemos el honor de recibir en casa, para su Debut oficial, a estos queridos amigos con su nuevo y espectacular proyecto! TABAREK & LA KABARET Tabaré Rivero presenta en vivo su nuevo proyecto musical: Tabarek & La Kabaret. Un recorrido por algunas de sus canciones en un formato acústico, íntimo y…",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfiK_MivhXn/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b1ec83d60b82.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261121",
+   "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+   "titulo": "The Shannon: TREBOADA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábado 21/Noviembre: TREBOADA Música celta - 22 hs Cubierto artístico $200 Club Shannon: VIEJOS ROCKEROS Rock&Roll - 22 hs Cubierto artístico $200 Nota: el cubierto artístico se cobra en efectivo o por transferencia. Gracias por valorar y apoyar la música en vivo pagando el cubierto artístico. NO…",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 200.0,
+    "hasta": 200.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/dfe7e9b3578a.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261123",
+   "url": "https://www.instagram.com/p/Df6H6zalWBp/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: De lunes a domingos nuestra cocina esta abierta para venir a almorzar",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "de lunes a domingos nuestra cocina esta abierta para venir a almorzar variedad de platos y platitos y nuestra mesita en la vereda esta ideal pasar estos días lindos de calor :) te esperamos desde las 12 am",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-23T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df6H6zalWBp/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8e80e2a68840.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lacretinacasa-20261124",
+   "url": "https://www.instagram.com/p/Df7O-g_h2SP/",
+   "titulo": "La Cretina: 99% BALADAS - ¡La terapia musical que no podés dejar pasar",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "99% BALADAS - ¡La terapia musical que no podés dejar pasar! ¡ENTRADA LIBRE! Este martes 24 buena música y mucha diversión. ¡Las mejores baladas de los 80s, 90s y 00s te esperan para que las cantes a todo pulmón! Con 99.baladas y Gabriel Soria, revivimos esas canciones que te llenan de recuerdos, de…",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df7O-g_h2SP/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ccab8b1e07ee.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261125",
+   "url": "https://www.instagram.com/p/DfUjlSARymU/",
+   "titulo": "The Shannon: OPEN MIC",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Miércoles 25: OPEN MIC",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfUjlSARymU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/93c695acfbe7.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261127",
+   "url": "https://www.instagram.com/p/DfUjlSARymU/",
+   "titulo": "The Shannon: KARAOKE EN VIVO",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Viernes 27: KARAOKE EN VIVO. con Mauricio Basalo Club Shannon: LUMEN",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfUjlSARymU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8e5f2d80c017.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261128",
+   "url": "https://www.instagram.com/p/DfUjlSARymU/",
+   "titulo": "The Shannon: EASYBAND",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábado 28: EASYBAND",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfUjlSARymU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8df5b8bddf99.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "elbar_delxsamigxs-20261129",
+   "url": "https://www.instagram.com/p/Df0IbtaGBqM/",
+   "titulo": "Brecha Bar y Cafe: Cumplimos 12 años",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "Son años. Es una costumbre que hicimos fiesta. Este 29 de noviembre nos encontramos en la calle, todo el día y como siempre Entrada libre. Aquiles Lanza y Canelones. Desde las 12:00 h.",
+   "lugar": {
+    "nombre": "Brecha Bar y Café 🏳️‍🌈",
+    "direccion": "Aquiles Lanza y Canelones",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df0IbtaGBqM/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3bb02bef6ff1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lacretinacasa-20261202",
+   "url": "https://www.instagram.com/p/DfQjbTcNR_r/",
+   "titulo": "La Cretina: FERIADO + MONKELIS",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "FERIADO + MONKELIS I 2 DE DICIEMBRE EN LA CRETINA feriado.uy se presenta por primera vez en en La Cretina. Abre la noche monkelismusic. Entradas a la venta en redtickets.uy - 2 de Diciembre 21 hs La Cretina, Soriano 1236",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfQjbTcNR_r/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/64e4e06cfda4.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "inmigrantesmvd-20261204",
+   "url": "https://www.instagram.com/p/Dfk29Y-lqSZ/",
+   "titulo": "Inmigrantes: FESTIVAL NUESTRO",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "FESTIVAL NUESTRO Este 4 de diciembre nos encontramos en Inmigrantes para una noche bien nuestra. Arrancamos en la calle y cuando cae la noche, la seguimos en el sótano, para no molestar a los vecinos lagrecia__ DJ santiricors DJ brunoborlone el.club.del.lobo Viernes 4 de diciembre Desde las 19:30 h…",
+   "lugar": {
+    "nombre": "Inmigrantes MVD",
+    "direccion": "Juan Paullier 1252",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Dfk29Y-lqSZ/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/aa5e3cf042b4.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
@@ -2826,48 +2868,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/83687e2842c5.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "festivaldelsolsticio-20261219",
-   "url": "https://www.instagram.com/reel/Df5O5jnvtoy/",
-   "titulo": "Festival del Solsticio: Una vez más, nos reunimos al borde del sol el 19/12 recibimos el verano juntxs",
-   "categoria": "festival",
-   "categoria_segura": true,
-   "descripcion_corta": "una vez más, nos reunimos al borde del sol el 19/12 recibimos el verano juntxs. qué bandas no pueden faltar? etiquetalas en comentarios!",
-   "lugar": {
-    "nombre": "Festival del Solsticio",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/Df5O5jnvtoy/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
