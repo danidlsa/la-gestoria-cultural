@@ -117,6 +117,17 @@ def test_una_corrida(tmp_path, monkeypatch):
     assert ("cdn.example", None) in claves_vistas
     assert all(clave == "Bearer clave-de-prueba" for host, clave in claves_vistas if host == "graph.facebook.com")
 
+    # Si la cuenta deja de publicarlo, sigue (está aprobado); si se saca la cuenta de la lista, se va.
+    posts[:] = []
+    assert [e.titulo for e in ig.scrapear(None, AHORA)[0]] == ["Jazz con Trío X"]
+    (tmp_path / "bares.toml").write_text('[[bar]]\nusuario = "personal"\n')
+    assert ig.scrapear(None, AHORA)[0] == []
+    (tmp_path / "bares.toml").write_text('[[bar]]\nusuario = "elbar"\n\n[[bar]]\nusuario = "personal"\n')
+    posts[:] = [{"id": "1", "caption": "🎷 Jazz en el bar\nJueves 12, 21:30 h. Entrada $300", "media_type": "IMAGE",
+                 "media_url": "https://cdn.example/1.jpg", "permalink": "https://www.instagram.com/p/1/",
+                 "timestamp": "2026-11-09T15:00:00+0000"}]
+    assert [e.titulo for e in ig.scrapear(None, AHORA)[0]] == ["Jazz con Trío X"]
+
     # Si se saca el tilde, se va (y su imagen también).
     monkeypatch.setattr(ig, "avisos_en_github", lambda: [{"number": 1, "state": "OPEN", "body": renglon.replace("[x]", "[ ]")}])
     eventos, _ = ig.scrapear(None, AHORA)
@@ -550,3 +561,36 @@ def test_un_icono_de_lugar_que_marca_la_fecha_no_es_el_lugar():
 
 def test_el_pin_con_la_direccion_entre_parentesis():
     assert ig.lugar_del_texto("📍 CCE (Rincón 629)") == ("CCE", "Rincón 629")
+
+
+def test_un_pin_con_el_dia_abreviado_no_es_el_lugar():
+    # La agenda del aniversario de Charco: "📌 Jue. 19.11 · 18:30 — …" es la fecha, no dónde.
+    texto = ("ACTIVIDADES:\n\n📌 Jue. 19.11 · 18:30 — Leila Guerriero conversa con Soledad Gago.\n\n"
+             "📌 Vie 20.11 · 13:00 — Conferencia en la FIC.\n\n📌 19.11 · 20:00 — Brindis.")
+    assert ig.lugar_del_texto(texto) == (None, None)
+    assert ig.lugar_del_texto("📌 Jue. 19.11\n📍 Maldonado 1477") == (None, "Maldonado 1477")
+    # Un lugar que empieza con esas letras sigue siendo un lugar.
+    assert ig.lugar_del_texto("📍 Mar Chiquita, Rambla 1234") == ("Mar Chiquita", "Rambla 1234")
+
+
+def test_una_correccion_a_mano_cambia_el_titulo_y_el_dia(tmp_path, monkeypatch):
+    monkeypatch.setattr(ig, "CONFIG", tmp_path / "bares.toml")
+    (tmp_path / "bares.toml").write_text(
+        '[[bar]]\nusuario = "azotealee"\nitinerante = true\nbar = false\n\n'
+        '[[correccion]]\nid = "azotealee-20261129"\ntitulo = "Lecturas de azotea: Silvio en la azotea"\n'
+        'inicio = "2026-11-28T19:00:00-03:00"\n', encoding="utf-8")
+    cuenta = {"usuario": "azotealee", "itinerante": True, "bar": False}
+    (b,) = ig.borradores_del_post(_post(1, "El domingo 29 Silvio cumple 80 y nosotros lo festejamos el día antes.", "2026-11-18"),
+                                  cuenta, {}, AHORA)
+    assert b["id"] == "azotealee-20261129"
+    evento = ig.evento_de({**b, "aprobado": True, "titulo_aprobado": "Lecturas de azotea: Silvio cumple 80"}, AHORA)
+    assert evento.titulo == "Lecturas de azotea: Silvio en la azotea"
+    assert [(f.inicio.isoformat(), f.sin_hora) for f in evento.funciones] == [("2026-11-28T19:00:00-03:00", False)]
+    # Corregir solo el título no le saca la dirección a un lugar fijo.
+    (tmp_path / "bares.toml").write_text(
+        '[[bar]]\nusuario = "clubculturalcharco"\nnombre = "Charco"\ndireccion = "Maldonado 1477"\n\n'
+        '[[correccion]]\nid = "clubculturalcharco-20261127"\ntitulo = "Charco: Pianobar"\n', encoding="utf-8")
+    charco = {"usuario": "clubculturalcharco", "nombre": "Charco", "direccion": "Maldonado 1477"}
+    (c,) = ig.borradores_del_post(_post(2, "Viernes 27 de noviembre a las 20:30, pianobar", "2026-11-18"), charco, {}, AHORA)
+    evento = ig.evento_de({**c, "aprobado": True}, AHORA)
+    assert (evento.titulo, evento.lugar.nombre, evento.lugar.direccion) == ("Charco: Pianobar", "Charco", "Maldonado 1477")

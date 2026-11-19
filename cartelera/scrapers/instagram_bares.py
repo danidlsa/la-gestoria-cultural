@@ -211,7 +211,9 @@ def bloques(texto: str, publicado: datetime) -> list[dict]:
     Así se leen las agendas: "Jueves 12: SPAGUETTI WESTERN" (todo en un renglón) o "Miércoles 04/Noviembre:" con el
     nombre y la hora en los renglones de abajo.
     """
-    originales = [r.strip() for r in re.split(r"\n+|(?<=[.!?])\s+", texto or "") if r.strip()]
+    # Renglones y oraciones, pero el punto de un día abreviado ("📌 Jue. 19.11") no termina nada.
+    originales = [r.strip() for r in re.split(r"\n+|(?<=[.!?])(?<!(?i:lun|mar|mi[eé]|jue|vie|s[aá]b|dom)\.)\s+", texto or "")
+                  if r.strip()]
     sin_tilde = [sin_tildes(r) for r in originales]
     planos = [_RECURRENTE.sub(" ", r) for r in sin_tilde]
     desde = publicado.date()
@@ -358,7 +360,9 @@ _EN_LUGAR = re.compile(r"^\s*en\s+(?:el\s+|la\s+)?((?:sala|teatro|club|espacio|c
                        re.I | re.M)
 
 
-_ES_FECHA = re.compile(rf"(?:{_DIA}\b|\d{{1,2}}\s*(?:de\s+)?{_MES}\b|\d{{1,2}}/\d{{1,2}}\b|hoy\b|manana\b)", re.I)
+# También abreviada, como en las agendas: "📌 Jue. 19.11 · 18:30", "📌 Vie 20.11", "📌 19.11".
+_ES_FECHA = re.compile(rf"(?:{_DIA}\b|(?:lun|mar|mie|jue|vie|sab|dom)\.?\s*\d{{1,2}}\b|\d{{1,2}}\s*(?:de\s+)?{_MES}\b"
+                       rf"|\d{{1,2}}[/.]\d{{1,2}}\b|hoy\b|manana\b)", re.I)
 
 
 def lugar_del_texto(texto: str) -> tuple[str | None, str | None]:
@@ -456,7 +460,10 @@ _DATOS_PRACTICOS = re.compile(r"entradas|venta|reserv|cubierto|precio|\$|whatsap
 
 def titulo_del_bloque(originales: list[str]) -> str | None:
     """El nombre de lo que pasa ese día: lo que sigue a "Jueves 12:" o, si no hay nada, el renglón de abajo."""
-    primero = _SEPARADOR.split(originales[0], maxsplit=1)
+    # "📌 Jue. 19.11 · 18:30 — Leila Guerriero conversa…": el nombre es lo que sigue a la raya, no a los dos puntos de la hora.
+    primero = re.split(r"\s[—–]\s", originales[0], maxsplit=1)
+    if len(primero) == 1 or not re.search(r"\d", primero[0]):
+        primero = _SEPARADOR.split(originales[0], maxsplit=1)
     candidatos = ([primero[1]] if len(primero) > 1 else []) + originales[1:2]
     for candidato in candidatos:
         # Ni el lugar (📍) ni la venta de entradas o el precio son el nombre de lo que pasa ese día.
@@ -685,7 +692,14 @@ def _funciones(b: dict) -> list[Funcion]:
 def evento_de(b: dict, ahora: datetime) -> EventoCrudo | None:
     # Una corrección a mano manda sobre lo que salió del post (el lugar de una fecha que está solo en el afiche).
     if correccion := correcciones().get(b["id"]):
-        b = {**b, "direccion": None, "barrio": None, "lat": None, "lon": None, "paradas": [], **correccion}
+        # Si cambia el lugar, lo de antes (dirección, coordenadas) no sirve; si solo cambia el título o el día, sí.
+        if correccion.keys() & {"lugar", "direccion", "lat", "lon"}:
+            b = {**b, "direccion": None, "barrio": None, "lat": None, "lon": None, "paradas": []}
+        b = {**b, **correccion}
+        if "titulo" in correccion:
+            b["titulo_aprobado"] = None
+        if "inicio" in correccion:
+            b["funciones"] = [{"inicio": correccion["inicio"], "sin_hora": False}]
     funciones = [f for f in _funciones(b) if (f.inicio.date() >= ahora.date() if f.sin_hora else f.inicio >= ahora - timedelta(hours=3))]
     if not funciones:
         return None
@@ -772,7 +786,9 @@ def por_defecto(ruta: Path | None = None) -> dict[str, str]:
 
 
 # Lo que se puede corregir a mano de un borrador (sección [[correccion]] de la lista, por el id del borrador).
-_CORREGIBLE = ("lugar", "direccion", "barrio", "lat", "lon", "bar")
+# También el título (manda sobre el aprobado en el aviso) y el inicio, cuando el post confunde el día ("el domingo 29
+# cumple 80 y lo festejamos el día antes"): una sola función, a esa hora.
+_CORREGIBLE = ("lugar", "direccion", "barrio", "lat", "lon", "bar", "titulo", "inicio")
 
 
 def correcciones(ruta: Path | None = None) -> dict[str, dict]:
@@ -876,7 +892,10 @@ def scrapear(cliente, ahora: datetime) -> tuple[list[EventoCrudo], list[str]]:
         # Lo que ya no sale de los posts (por ejemplo, porque cambiaron las reglas) se va, salvo que esté aprobado:
         # un evento anunciado con mucha anticipación puede quedar fuera de los últimos posts y tiene que seguir.
         anteriores = borradores
-        borradores = {i: b for i, b in anteriores.items() if b.get("aprobado") and i not in esta_corrida}
+        # Pero lo de una cuenta que se sacó de la lista se va aunque esté aprobado.
+        en_la_lista = {c["usuario"] for c in cuentas()}
+        borradores = {i: b for i, b in anteriores.items()
+                      if b.get("aprobado") and i not in esta_corrida and b.get("usuario") in en_la_lista}
         esta_corrida = juntar_parecidos(esta_corrida)
         for id_, nuevo in esta_corrida.items():
             anterior = anteriores.get(id_, {})
