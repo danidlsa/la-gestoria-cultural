@@ -1,104 +1,10 @@
 {
  "fuente": "zitarrosa",
- "corrida": "2026-11-16T11:01:53.031803-03:00",
+ "corrida": "2026-11-18T21:53:50.726240-03:00",
  "ok": true,
- "cantidad": 17,
+ "cantidad": 14,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "por-los-mas-chiquititos-3",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/por-los-mas-chiquititos-3/",
-   "titulo": "Por los más chiquititos",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Concierto Coral a total beneficio de la Fundación Álvarez Caldeyro Barcia, quienes trabajan por los niños prematuros que nacen en el Centro Hospitalario Pereira Rossell. La iniciativa nació como parte de la responsabilidad social de la Asociación Coral Cantemus y este año va por la 11 edición. En…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-17T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/por-los-mas-chiquititos-3/",
-     "via": "zitarrosa"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/10/imagen-PLMC-1.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "una-noche-en-el-biografo",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/una-noche-en-el-biografo/",
-   "titulo": "Una noche en el Biógrafo",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "\"Una noche en el Biógrafo\" propone experimentar cómo eran las proyecciones de cine mudo de las primeras décadas del siglo XX en el espacio que actualmente ocupa la Sala Zitarrosa. Se proyectarán películas de las carteleras montevideanas de ese período, acompañadas con música y comentarios…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-18T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/una-noche-en-el-biografo/",
-     "via": "zitarrosa"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-5.19.27-PM.jpeg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "zitarrosa",
    "id_externo": "el-club-de-tobi-30-anos",
@@ -458,55 +364,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/inicio/espectaculo/40021434/espectaculo/Woody%20Allen%20Night%20por%20Paris%20Jazz%20Club?0"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "pago-y-arrabal",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/pago-y-arrabal/",
-   "titulo": "Pago y arrabal",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Pago y Arrabal es un espectáculo escénico-musical que propone un encuentro entre dos de las expresiones más representativas de la identidad rioplatense: el folclore y el tango. A través de la música, el canto, la danza y la palabra, construye un recorrido artístico que pone en diálogo ambos…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-01T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 700.0,
-    "hasta": 700.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021642/espectaculo/Pago%20y%20Arrabal?1",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/09/PagoArrabal_M-Ticket.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40021642/espectaculo/Pago%20y%20Arrabal?1"
    ],
    "ciclo": null,
    "etiquetas": [],

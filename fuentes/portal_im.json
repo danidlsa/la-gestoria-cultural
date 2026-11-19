@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-18T11:00:15.789709-03:00",
+ "corrida": "2026-11-18T21:52:05.893564-03:00",
  "ok": true,
- "cantidad": 50,
+ "cantidad": 56,
  "errores": [],
  "eventos": [
   {
@@ -668,12 +668,14 @@
    "categoria_segura": true,
    "descripcion_corta": "A las 13:00 h, charla sobre la historia de la Cripta a cargo del presbítero Mauricio Cabral. A las 18:30 h, concierto en el marco de la Noche de los Templos.",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Iglesia San Francisco de Asís",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -750,7 +752,7 @@
    "descripcion_corta": "Música en vivo, parrilla y barra en la vereda.",
    "lugar": {
     "nombre": "Restaurante Almazara",
-    "direccion": null,
+    "direccion": "Sarandí 301 y Colón",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -881,12 +883,14 @@
    "categoria_segura": true,
    "descripcion_corta": "Feria de artesanos residentes de Ciudad Vieja, junto al Municipio B.",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Plaza Matríz",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -960,12 +964,14 @@
    "categoria_segura": true,
    "descripcion_corta": "Conocé la historia del Carnaval a través de un recorrido guiado por Ciudad Vieja, que propone descubrir las esquinas y los lugares donde funcionaron algunos de los principales tablados entre 1900 y 1930, junto con anécdotas de la época. La caminata comienza en el Museo del Carnaval y recorre las…",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Museo del Carnaval",
+    "direccion": "Rambla 25 de Agosto 218",
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -1003,7 +1009,7 @@
    "descripcion_corta": "En el marco de la celebración de los 170 años del Teatro Solís, se invita a recorrer libremente el edificio que acompaña la historia cultural del país desde 1856. Una oportunidad para caminar por sus pasillos, detenerse en sus detalles, contemplar su arquitectura y descubrir la historia de sus…",
    "lugar": {
     "nombre": "Teatro Solís",
-    "direccion": null,
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -1046,12 +1052,14 @@
    "categoria_segura": true,
    "descripcion_corta": "Lanzamiento de nuevos productos propios y en colaboración con Montemaravilla, acompañado de charlas y muestras sobre sus procesos de diseño. Participa como artista invitada Ana Inés Maiorano, autora de \"Montevideo insólito y secreto\".",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Asterisco Gift Shop",
+    "direccion": "Sarandí 251 esq. Pérez Castellano",
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -1089,7 +1097,7 @@
    "descripcion_corta": "Presentación de música en vivo.",
    "lugar": {
     "nombre": "Café Brasilero",
-    "direccion": null,
+    "direccion": "Ituzaingó 1447",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -1566,16 +1574,18 @@
    "id_externo": "971",
    "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/corso-comunitario-de-la-escuela-esquinera",
    "titulo": "Corso comunitario de la Escuela Esquinera",
-   "categoria": "taller",
-   "categoria_segura": true,
+   "categoria": "teatro",
+   "categoria_segura": false,
    "descripcion_corta": "Corso comunitario del Taller de Murga de la Escuela Esquinera, una propuesta de encuentro, expresión y creación que recupera las matrices culturales de los carnavales de antes y la murga como tradición popular.",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Plaza Matriz",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -1595,6 +1605,50 @@
    "entradas": [],
    "beneficios": [],
    "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/escuelaesquinera_1.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "974",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/ingreso-gratuito-al-museo-torres-garcia",
+   "titulo": "Ingreso gratuito al Museo Torres García",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "El Museo Torres García ofrecerá ingreso gratuito a sus exposiciones, de 12:00 a 16:00. Además, se podrá conocer y utilizar la aplicación web Circuito Torres García, una propuesta interactiva para recorrer y descubrir el museo. Museo abierto de 10:00 a 18:00. Ingreso gratuito de 12:00 a 16:00.",
+   "lugar": {
+    "nombre": "Museo Torres García",
+    "direccion": "Sarandí 683",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T12:00:00-03:00",
+     "fin": "2026-11-21T16:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-08/museo_torres_garcia.jpg",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
@@ -2105,7 +2159,7 @@
    },
    "entradas": [],
    "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/300x200_Montevideo_Derechos.png",
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/3x2_Montevideo%20de%20los%20derechos.png",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
@@ -2167,12 +2221,14 @@
    "categoria_segura": false,
    "descripcion_corta": "Estudiantes de la EMAD presentan una lectura performática de La Ópera de los Dos Centavos, que invita a reflexionar sobre las diferencias entre una persona honesta y un delincuente.",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Museo Romántico",
+    "direccion": "25 de Mayo 428",
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -2209,12 +2265,14 @@
    "categoria_segura": true,
    "descripcion_corta": "Ensayo abierto para conocer los preparativos de la comparsa para las Llamadas 2027. Habrá toque de tambor, coreografías, taller de gramilla y porta trofeos. También se realizará un desfile desde Plaza Zabala por 1.º de Mayo hasta 25 de Mayo, y desde allí hasta Ituzaingó, para regresar por el mismo…",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Plaza Zabala",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -2251,12 +2309,14 @@
    "categoria_segura": true,
    "descripcion_corta": "Exposición de primus y antigüedades, acompañada de música en vivo. Ingreso con consumición. Lugar : Primuseum y La Chipatería, Pérez Castellano 1389.",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Primuseum y La Chipatería",
+    "direccion": "Pérez Castellano 1389",
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -2288,12 +2348,14 @@
    "categoria_segura": true,
    "descripcion_corta": "En el marco del ciclo Primavera en las Bodegas, participan bodegas de Montevideo y Canelones con degustaciones, venta y actividades culturales. También habrá stands de cafés de Montevideo.",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Plaza Zabala",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -2400,12 +2462,14 @@
    "categoria_segura": true,
    "descripcion_corta": "Escenario del Banco República del Uruguay (BROU) por su 130° aniversario. Lugar : Piedras esquina Zabala Actuarán: Gato Renato Proyecto Mancuso Camila Ferrari Pitufo Lombardo La Decana Funcionará una feria de emprendimientos y plaza gastronómica.",
    "lugar": {
-    "nombre": "Ciudad Vieja",
-    "direccion": "Ciudad Vieja",
-    "lat": -34.90776664705883,
-    "lon": -56.20743817647059,
+    "nombre": "Piedras esquina Zabala",
+    "direccion": "Piedras esquina Zabala",
+    "lat": null,
+    "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
    },
    "funciones": [
     {
@@ -2425,6 +2489,226 @@
    "entradas": [],
    "beneficios": [],
    "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-09/s%C3%A1bado%20en%20ciudad%20vieja_musica.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1058",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/arte-y-cultura-en-casona-maua",
+   "titulo": "Arte y cultura en Casona Mauá",
+   "categoria": "exposicion",
+   "categoria_segura": true,
+   "descripcion_corta": "Muestra de arte del Colectivo Gaue, con obras de 40 artistas y más de 80 piezas de diversos estilos. La propuesta incluye un espacio de café, DJ y la Cava del Barón, con la participación de 14 bodegas.",
+   "lugar": {
+    "nombre": "Casona Mauá",
+    "direccion": "Juan Carlos Gómez 1530",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T11:00:00-03:00",
+     "fin": "2026-11-21T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/img5716.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1059",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/encuentro-cultural-afro-en-el-bajo",
+   "titulo": "Encuentro Cultural Afro en El Bajo",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "En homenaje a la cultura afro, se realizará un encuentro cultural con una muestra de roda de samba, a las 15:00, y un desfile de tambores, a las 17:30. Participarán Mundo Afro, con más de 100 integrantes, y la Escola do Samba Mocedade, con 150 integrantes. Los desfiles recorrerán la calle Juan…",
+   "lugar": {
+    "nombre": "Juan Carlos Gómez y Piedras",
+    "direccion": "Juan Carlos Gómez y Piedras",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T15:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/20231223-dicimouyit0100.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1060",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/orquesta-de-las-mil-melodias-en-el-bajo",
+   "titulo": "Orquesta de las Mil Melodías en El Bajo",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Presentación de la Orquesta de las Mil Melodías en un edificio patrimonial de las primeras construcciones de Montevideo. La propuesta incluye un recorrido arqueológico y gastronomía del Café Brasilero.",
+   "lugar": {
+    "nombre": "Espacio Patio",
+    "direccion": "Juan Carlos Gómez y Piedras",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/Gemini_Generated_Image_xgt2raxgt2raxgt2.jpeg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1061",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/feria-latinoamericana-lo-que-nos-mueve",
+   "titulo": "Feria Latinoamericana \"Lo que nos mueve\"",
+   "categoria": "feria",
+   "categoria_segura": true,
+   "descripcion_corta": "El próximo sábado 21 de noviembre, el entorno de Cinemateca Uruguaya será escenario de la Feria Latinoamericana “Lo que nos mueve”, un encuentro que convocará a un numeroso público para disfrutar de propuestas artísticas, gastronómicas y culturales que reflejan la diversidad y riqueza de las…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T10:00:00-03:00",
+     "fin": "2026-11-21T20:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/feria%20gastron%C3%B3mica.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Sábados en Ciudad Vieja",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1062",
+   "url": "https://eventos.montevideo.gub.uy/evento/sabados-en-ciudad-vieja/caminata-art-nouveau",
+   "titulo": "Caminata Art Nouveau",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "Recorrido guiado por edificios representativos del Art Nouveau en Ciudad Vieja: Tienda La Nueva Sirena, Pablo Ferrando, Casa José Pedro Rodríguez, Casa Mojana (Centro Cultural de España), 25 de Mayo 591 (El Chamuyo), 25 de Mayo 550 (Café Brasilero), Restaurante Las Misiones y edificio del Banco…",
+   "lugar": {
+    "nombre": "Bacacay y Buenos Aires",
+    "direccion": "Bacacay y Buenos Aires",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Ciudad Vieja"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T12:00:00-03:00",
+     "fin": "2026-11-21T13:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/20230705dicimouyvc0081%20%281%29.jpg",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
