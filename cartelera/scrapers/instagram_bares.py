@@ -591,6 +591,8 @@ def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, fu
         "lat": (conocido or {}).get("lat") if otro_lugar else cuenta.get("lat"),
         "lon": (conocido or {}).get("lon") if otro_lugar else cuenta.get("lon"),
         "lugar_del_pin": bool(otro_lugar),
+        # Si el post dice dónde (con 📍 o una dirección), aunque sea el mismo bar: ver _otro_evento.
+        "dice_donde": bool(nombre or direccion),
         # Las paradas de un recorrido: si el lugar no se puede ubicar, el evento va a la primera que se encuentre.
         "paradas": paradas_del_recorrido(texto) if cuenta.get("itinerante") else [],
         # Una cuenta que hace siempre lo mismo (fama.tours: recorridos) dice su categoría en la lista.
@@ -655,6 +657,7 @@ def juntar(previo: dict, nuevo: dict) -> dict:
     if otro.get("lugar_del_pin") and not base.get("lugar_del_pin"):
         junto.update({k: otro.get(k) for k in ("lugar", "direccion", "barrio", "lat", "lon", "lugar_del_pin", "bar")})
     junto["paradas"] = base.get("paradas") or otro.get("paradas") or []
+    junto["dice_donde"] = bool(base.get("dice_donde") or otro.get("dice_donde"))
     # Los días de los dos (un post con el ciclo del mes y otro con un martes); para cada día, con hora si alguno la da.
     por_dia: dict[date, dict] = {}
     for f in base["funciones"] + otro["funciones"]:
@@ -663,6 +666,41 @@ def juntar(previo: dict, nuevo: dict) -> dict:
             por_dia[dia] = f
     junto["funciones"] = [por_dia[d] for d in sorted(por_dia)]
     return junto
+
+
+def _otro_evento(a: dict, b: dict) -> bool:
+    """Dos posts de la misma cuenta para el mismo día que dicen dónde, y son lugares distintos: son dos eventos (una
+    muestra en la casa y, ese mismo sábado, una actividad en otro patio), no uno anunciado dos veces."""
+    # Con algo de margen para el mismo lugar dicho de otra forma ("Museo Oceanográfico" y "el Oceanográfico").
+    return bool(a.get("dice_donde") and b.get("dice_donde")) \
+        and fuzz.token_set_ratio(sin_tildes(a["lugar"]), sin_tildes(b["lugar"])) < 80
+
+
+def _con_el_lugar(b: dict) -> dict:
+    """El borrador con el lugar en el identificador: "cultus_uy-20261121" → "cultus_uy-20261121-patio-la-bahia"."""
+    return {**b, "id": f"{b['id']}-{re.sub(r'[^a-z0-9]+', '-', sin_tildes(b['lugar']).lower()).strip('-')}"}
+
+
+def sumar(borradores: dict[str, dict], nuevo: dict) -> None:
+    """Suma el borrador de un post a los de la corrida: si ya está ese evento (la cuenta y el día), se juntan.
+
+    Si ese día la cuenta anuncia dos eventos en lugares distintos, el que es en el bar queda con el identificador de
+    siempre y el que es en otro lado lleva además el lugar; así no depende del orden en que vienen los posts.
+    """
+    base = nuevo["id"]
+    for id_, previo in borradores.items():
+        if (id_ == base or id_.startswith(base + "-")) and not _otro_evento(previo, nuevo):
+            borradores[id_] = {**juntar(previo, nuevo), "id": id_}
+            return
+    previo = borradores.get(base)
+    if previo is None:
+        borradores[base] = nuevo
+    elif previo.get("lugar_del_pin") and not nuevo.get("lugar_del_pin"):
+        movido = _con_el_lugar(previo)
+        borradores[movido["id"]], borradores[base] = movido, nuevo
+    else:
+        nuevo = _con_el_lugar(nuevo)
+        borradores[nuevo["id"]] = nuevo
 
 
 def juntar_parecidos(borradores: dict[str, dict]) -> dict[str, dict]:
@@ -677,7 +715,7 @@ def juntar_parecidos(borradores: dict[str, dict]) -> dict[str, dict]:
         dias = {_dia(f.inicio) for f in _funciones(b)}
         for i, otro in enumerate(resultado):
             if otro["usuario"] == b["usuario"] and dias & {_dia(f.inicio) for f in _funciones(otro)} \
-                    and fuzz.token_set_ratio(sin_tildes(otro["titulo"]), sin_tildes(b["titulo"])) >= 75:
+                    and not _otro_evento(otro, b) and fuzz.token_set_ratio(sin_tildes(otro["titulo"]), sin_tildes(b["titulo"])) >= 75:
                 resultado[i] = {**juntar(otro, b), "id": otro["id"]}
                 break
         else:
@@ -690,6 +728,9 @@ def _funciones(b: dict) -> list[Funcion]:
 
 
 def evento_de(b: dict, ahora: datetime) -> EventoCrudo | None:
+    # La dirección que se escribió en el aviso (el post nombra el lugar pero no dice dónde queda).
+    if direccion := b.get("direccion_aprobada"):
+        b = {**b, "direccion": direccion, "barrio": None, "lat": None, "lon": None, "paradas": []}
     # Una corrección a mano manda sobre lo que salió del post (el lugar de una fecha que está solo en el afiche).
     if correccion := correcciones().get(b["id"]):
         # Si cambia el lugar, lo de antes (dirección, coordenadas) no sirve; si solo cambia el título o el día, sí.
@@ -728,22 +769,85 @@ def evento_de(b: dict, ahora: datetime) -> EventoCrudo | None:
 _RENGLON = re.compile(r"^\s*[-*]\s*\[([ xX])\]\s*(.*?)<!--\s*ig:([\w.-]+)\s*-->", re.M)
 
 
-def renglon_del_borrador(b: dict) -> str:
-    dias = ", ".join(_cuando(f) for f in _funciones(b))
-    titulo = b["titulo"].replace("*", "")
+def lugares_conocidos():
+    """Los lugares que ya conoce el sitio (la lista de alias y los de la última actualización), para mostrar en el aviso
+    dónde va a salir cada borrador. Si no se pueden leer, el aviso sale igual, con lo que dice el post."""
+    from cartelera.unificar import DIR_DATOS, Catalogo, cargar_alias
+    alias = cargar_alias()
+    try:
+        ultimos = json.loads((DIR_DATOS / "lugares.json").read_text(encoding="utf-8"))["lugares"]
+    except (OSError, ValueError, KeyError):
+        ultimos = []
+    de_la_lista = {a["id"] for a in alias}
+    return Catalogo(alias + [l for l in ultimos if l.get("id") not in de_la_lista])
+
+
+def _donde(lugar: LugarCrudo, catalogo) -> str:
+    """El lugar como va a salir en el sitio, y si se sabe dónde queda."""
+    if catalogo is not None:
+        conocido = catalogo.lugares[catalogo.asignar(lugar.nombre, lugar.direccion, lugar.lat, lugar.lon, lugar.barrio)]
+        nombre, direccion, ubicado = conocido.nombre, conocido.direccion, conocido.lat is not None
+    else:
+        nombre, direccion, ubicado = lugar.nombre, lugar.direccion, lugar.lat is not None
+    # La dirección hasta la primera coma: la del mapa trae el código postal y el departamento.
+    direccion = (direccion or "").split(",")[0].strip()
+    texto = f"📍 {nombre}" + (f" · {direccion}" if direccion and sin_tildes(direccion) not in sin_tildes(nombre) else "")
+    if ubicado:
+        return texto
+    if direccion:
+        return texto + " — _todavía no está en el mapa: se va a buscar por la dirección_"
+    # Sin dirección no sale en el sitio: se escribe en el aviso, en lugar de este texto (ver direcciones_del_aviso).
+    return f"{texto} · ⚠️ **{AGREGAR_DIRECCION}**"
+
+
+AGREGAR_DIRECCION = "AGREGAR DIRECCIÓN"
+
+
+def direcciones_del_aviso(cuerpos: list[str]) -> dict[str, str]:
+    """Las direcciones escritas en los avisos en lugar de «AGREGAR DIRECCIÓN», por borrador: {"bar-20261121": "…"}."""
+    resultado: dict[str, str] = {}
+    for cuerpo in cuerpos:
+        actual = None
+        for linea in (cuerpo or "").splitlines():
+            if casilla := _RENGLON.match(linea):
+                actual = casilla.group(3)
+            elif re.match(r"\s*[-*]\s", linea):  # otro renglón de la lista, sin casilla
+                actual = None
+            elif actual and "📍" in linea and (escrita := re.search(r"\*\*(.+?)\*\*", linea)):
+                direccion = escrita.group(1).strip()
+                if direccion and sin_tildes(direccion).upper() != sin_tildes(AGREGAR_DIRECCION).upper():
+                    resultado[actual] = direccion
+    return resultado
+
+
+def renglon_del_borrador(b: dict, ahora: datetime | None = None, catalogo=None) -> str:
+    """Un borrador en el aviso, como va a salir en el sitio: el título, cuándo y dónde (con las correcciones a mano)."""
+    ahora = ahora or datetime.now(MONTEVIDEO)
+    try:
+        evento = evento_de({**b, "titulo_aprobado": None}, ahora)
+    except OSError:  # sin la lista de cuentas (las correcciones), como lo dice el post
+        evento = None
+    funciones = evento.funciones if evento else _funciones(b)
+    titulo = (evento.titulo if evento else b["titulo"]).replace("*", "")
+    lugar = evento.lugar if evento else LugarCrudo(nombre=b["lugar"], direccion=b.get("direccion"), lat=b.get("lat"), lon=b.get("lon"))
     extracto = recortar(re.sub(r"\s+", " ", b.get("extracto") or b["texto"]), 220)
     # El usuario de Instagram va entre comillas de código: con una @ suelta, GitHub avisaría a alguien con ese nombre.
-    via = f" (vía `{b['usuario']}`)" if b.get("usuario") else ""
+    de_quien = f" de `{b['usuario']}`" if b.get("usuario") else ""
     mas = len(b.get("posts", [])) - 1
-    post = f"[ver el post]({b['url']})" + (f" (y {mas} {'post' if mas == 1 else 'posts'} más sobre lo mismo)" if mas > 0 else "")
-    return (f"- [ ] **{titulo}** · {b['lugar']}{via} · {dias} · {post} <!-- ig:{b['id']} -->\n"
-            f"  > {extracto}")
+    post = f"[el post{de_quien}]({b['url']})" + (f" (y {mas} {'post' if mas == 1 else 'posts'} más sobre lo mismo)" if mas > 0 else "")
+    # El tilde, el título y la marca van en el mismo renglón (ver leer_casillas); lo demás, abajo, uno por renglón.
+    return (f"- [ ] **{titulo}** <!-- ig:{b['id']} -->\n"
+            f"  🗓️ {' · '.join(_cuando(f) for f in funciones)}\n"
+            f"  {_donde(lugar, catalogo)}\n"
+            f"  🔗 {post}\n"
+            f"  > {extracto}\n")
 
 
 def _cuando(funcion: Funcion) -> str:
-    dias = ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"]
+    dias = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
     inicio = funcion.inicio
-    return f"{dias[inicio.weekday()]} {inicio:%d/%m} " + ("(la hora está en el post)" if funcion.sin_hora else f"{inicio:%H:%M}")
+    dia = f"{dias[inicio.weekday()]} {inicio.day}/{inicio.month}"
+    return f"{dia}, **sin hora** (en el sitio sale solo el día)" if funcion.sin_hora else f"{dia}, {inicio:%H:%M}"
 
 
 def leer_casillas(cuerpos: list[str]) -> tuple[dict[str, str | None], set[str]]:
@@ -885,8 +989,7 @@ def scrapear(cliente, ahora: datetime) -> tuple[list[EventoCrudo], list[str]]:
                     errores.append(f"{usuario}: post raro ({type(error).__name__})")
                     continue
                 for nuevo in nuevos:
-                    previo = esta_corrida.get(nuevo["id"])
-                    esta_corrida[nuevo["id"]] = juntar(previo, nuevo) if previo else nuevo
+                    sumar(esta_corrida, nuevo)
             estado[usuario] = f"leída: {len(posts)} posts, {len(esta_corrida) - antes} borradores"
 
         # Lo que ya no sale de los posts (por ejemplo, porque cambiaron las reglas) se va, salvo que esté aprobado:
@@ -900,7 +1003,7 @@ def scrapear(cliente, ahora: datetime) -> tuple[list[EventoCrudo], list[str]]:
         for id_, nuevo in esta_corrida.items():
             anterior = anteriores.get(id_, {})
             # Lo que se decidió en GitHub se conserva; lo demás se actualiza (la imagen vence).
-            borradores[id_] = {**nuevo, **{k: anterior[k] for k in ("aprobado", "titulo_aprobado") if k in anterior}}
+            borradores[id_] = {**nuevo, **{k: anterior[k] for k in ("aprobado", "titulo_aprobado", "direccion_aprobada") if k in anterior}}
         ESTADO.parent.mkdir(parents=True, exist_ok=True)
         if os.environ.get("IG_GUARDAR_POSTS"):
             POSTS_LEIDOS.write_text(json.dumps(leidos, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -912,10 +1015,13 @@ def scrapear(cliente, ahora: datetime) -> tuple[list[EventoCrudo], list[str]]:
         borradores = {i: b for i, b in borradores.items() if vigente(b, ahora)}
         avisos = avisos_en_github()
         if avisos is not None:
-            aprobados, _ = leer_casillas([a.get("body", "") for a in avisos])
+            cuerpos = [a.get("body", "") for a in avisos]
+            aprobados, _ = leer_casillas(cuerpos)
+            direcciones = direcciones_del_aviso(cuerpos)
             for id_, b in borradores.items():
                 b["aprobado"] = id_ in aprobados
                 b["titulo_aprobado"] = aprobados.get(id_)
+                b["direccion_aprobada"] = direcciones.get(id_)
         guardar_borradores(borradores)
 
         eventos = []
@@ -939,14 +1045,6 @@ def scrapear(cliente, ahora: datetime) -> tuple[list[EventoCrudo], list[str]]:
 
 # --- El aviso diario ----------------------------------------------------------------------------------------------
 
-INTRO = (
-    "Posts de bares y salas que parecen anunciar algo. **Tildá los que querés publicar**: entran al sitio en la "
-    "próxima actualización (8:17, 12:17 o 18:17; GitHub a veces las atrasa).\n\n"
-    "- Para cambiar el título, editá el aviso (los tres puntos ⋯ → Edit) y cambiá lo que va entre `**`.\n"
-    "- Si te arrepentís, sacá el tilde y se va en la actualización siguiente.\n"
-    "- Lo que no tildes no se publica. Este aviso se cierra solo cuando pasan todas las fechas.\n"
-)
-
 
 def avisar(en_github: bool = False, ahora: datetime | None = None) -> list[dict]:
     """Abre un aviso con los borradores que todavía no se avisaron y cierra los avisos que ya pasaron."""
@@ -963,7 +1061,12 @@ def avisar(en_github: bool = False, ahora: datetime | None = None) -> list[dict]
     if nuevos:
         subprocess.run(["gh", "label", "create", ETIQUETA, "--color", "E4A94A", "--force",
                         "--description", "Posts de Instagram para aprobar"], check=False, capture_output=True)
-        cuerpo = INTRO + "\n" + "\n".join(renglon_del_borrador(b) for b in nuevos) + "\n"
+        try:
+            catalogo = lugares_conocidos()
+        except Exception as error:  # el aviso sale igual, con el lugar como lo dice el post
+            log.warning("%s: no se pudieron leer los lugares conocidos (%s)", NOMBRE, error)
+            catalogo = None
+        cuerpo = "\n".join(renglon_del_borrador(b, ahora, catalogo) for b in nuevos)
         titulo = f"Instagram: {len(nuevos)} {'borrador nuevo' if len(nuevos) == 1 else 'borradores nuevos'} ({ahora:%d/%m %H:%M})"
         comando = ["gh", "issue", "create", "--title", titulo, "--body", cuerpo, "--label", ETIQUETA]
         if "/" in repo:

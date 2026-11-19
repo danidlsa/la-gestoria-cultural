@@ -235,7 +235,7 @@ def test_una_agenda_es_un_borrador_por_dia():
     assert mes[2]["id"] == semana[1]["id"] == "theshannonuy-20261113"
     junto = ig.juntar(mes[2], semana[1])
     assert junto["funciones"] == [{"inicio": "2026-11-13T22:00:00-03:00", "sin_hora": False}]
-    assert "(la hora está en el post)" in ig.renglon_del_borrador(mes[0])
+    assert "miércoles 11/11, **sin hora**" in ig.renglon_del_borrador(mes[0], AHORA)
     evento = ig.evento_de(semana[1], AHORA)
     assert evento.precio.desde == 350 and evento.titulo == "The Shannon: PROYECTO OLDIES"
 
@@ -594,3 +594,44 @@ def test_una_correccion_a_mano_cambia_el_titulo_y_el_dia(tmp_path, monkeypatch):
     (c,) = ig.borradores_del_post(_post(2, "Viernes 27 de noviembre a las 20:30, pianobar", "2026-11-18"), charco, {}, AHORA)
     evento = ig.evento_de({**c, "aprobado": True}, AHORA)
     assert (evento.titulo, evento.lugar.nombre, evento.lugar.direccion) == ("Charco: Pianobar", "Charco", "Maldonado 1477")
+
+
+def test_dos_eventos_el_mismo_dia_en_lugares_distintos_no_se_juntan():
+    cuenta = {"usuario": "cultus_uy", "nombre": "Casa Cultus", "direccion": "Piedras 604", "bar": False}
+    ahora = datetime(2026, 11, 19, 9, 0, tzinfo=MVD)
+    muestra = ("«Entre aquí y allá»\nHuellas de la diáspora\n\nUna exposición y cuatro encuentros con los artistas.\n\n"
+               "📍 Casa Cultus, Piedras 604\n🗓️ Sábado 21 de noviembre, de 12:00 a 20:30 h\nEntrada libre y gratuita")
+    afuera = "Sábados en Ciudad Vieja · El Bajo se encuentra\n📍 Patio La Bahía\nSábado 21 de noviembre, 17 h"
+    otra_vez = "El Bajo se encuentra, este sábado 21 de noviembre a las 17 h. ¡Los esperamos!"
+    (a,) = ig.borradores_del_post(_post(1, afuera, "2026-11-17"), cuenta, {}, ahora)
+    (b,) = ig.borradores_del_post(_post(2, muestra, "2026-11-19"), cuenta, {}, ahora)
+    (c,) = ig.borradores_del_post(_post(3, otra_vez, "2026-11-18"), cuenta, {}, ahora)
+    assert a["id"] == b["id"] == c["id"] == "cultus_uy-20261121"
+    # En cualquier orden: la muestra (en la casa) con el identificador de siempre y lo de afuera con su lugar.
+    for orden in ([a, b, c], [b, a, c], [c, a, b], [b, c, a]):
+        corrida = {}
+        for nuevo in orden:
+            ig.sumar(corrida, nuevo)
+        corrida = ig.juntar_parecidos(corrida)
+        assert sorted(corrida) == ["cultus_uy-20261121", "cultus_uy-20261121-patio-la-bahia"]
+        assert corrida["cultus_uy-20261121"]["lugar"] == "Casa Cultus"
+        assert corrida["cultus_uy-20261121"]["titulo"] == "Casa Cultus: Entre aquí y allá"
+        assert corrida["cultus_uy-20261121-patio-la-bahia"]["lugar"] == "Patio La Bahía"
+    # Un post sin 📍 se junta con el que lo dice, como siempre (el mismo evento anunciado dos veces).
+    assert len(corrida["cultus_uy-20261121"]["posts"]) + len(corrida["cultus_uy-20261121-patio-la-bahia"]["posts"]) == 3
+
+
+def test_la_direccion_que_falta_se_escribe_en_el_aviso():
+    b = {"id": "cultus_uy-20261121-patio-la-bahia", "usuario": "cultus_uy", "titulo": "Casa Cultus: El Bajo se encuentra",
+         "lugar": "Patio La Bahía", "direccion": None, "lat": None, "lon": None, "texto": "El Bajo se encuentra",
+         "funciones": [{"inicio": "2026-11-21T17:00:00-03:00", "sin_hora": False}], "url": "https://www.instagram.com/p/1/"}
+    ahora = datetime(2026, 11, 19, 9, 0, tzinfo=MVD)
+    renglon = ig.renglon_del_borrador(b, ahora)
+    assert "📍 Patio La Bahía · ⚠️ **AGREGAR DIRECCIÓN**" in renglon
+    assert ig.direcciones_del_aviso([renglon]) == {}  # sin tocar, no hay dirección
+    otro = ig.renglon_del_borrador({**b, "id": "otro-1", "lugar": "Bar", "direccion": "Soriano 1236"}, ahora)
+    editado = renglon.replace("- [ ]", "- [x]").replace("AGREGAR DIRECCIÓN", "Piedras 450") + "\n" + otro
+    assert ig.direcciones_del_aviso([editado]) == {b["id"]: "Piedras 450"}
+    assert ig.leer_casillas([editado])[0] == {b["id"]: "Casa Cultus: El Bajo se encuentra"}
+    evento = ig.evento_de({**b, "aprobado": True, "direccion_aprobada": "Piedras 450"}, ahora)
+    assert (evento.lugar.nombre, evento.lugar.direccion) == ("Patio La Bahía", "Piedras 450")

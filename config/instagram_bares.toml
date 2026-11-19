@@ -436,3 +436,9 @@ id = "festivaldelsolsticio-20261219"
 titulo = "Festival del Solsticio"
 lugar = "Plaza de las Pioneras"
 notas = "el lugar está en el perfil, no en el reel"
+
+[[correccion]]
+# Se aprobó cuando estaba juntado con el post de "El Bajo se encuentra" (en Patio La Bahía), con ese título; ahora
+# ese es otro borrador (cultus_uy-20261121-patio-la-bahia) y este queda para la muestra.
+id = "cultus_uy-20261121"
+titulo = "Casa Cultus: «Entre aquí y allá», huellas de la diáspora"

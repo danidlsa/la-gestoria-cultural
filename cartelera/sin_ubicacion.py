@@ -55,18 +55,6 @@ def _clave(lugar: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", sin_tildes(lugar or "sin-nombre")).strip("-")[:60]
 
 
-INTRO = (
-    "Estos eventos **no salen en el sitio** porque no se sabe dónde quedan: sin coordenadas no se puede saber si son "
-    "en Montevideo. Los del interior ya están filtrados (si se coló alguno, se puede ignorar).\n\n"
-    "Cómo se arreglan:\n"
-    "- **Una sala de Montevideo con otro nombre** (\"Zavala Muniz | Teatro Solís\"): sumar el nombre como alias en "
-    "`config/lugares_alias.toml`.\n"
-    "- **Un post de Instagram**: poner `lat` y `lon` a la cuenta en `config/instagram_bares.toml`, o pedirle a Claude "
-    "que mire la regla.\n\n"
-    "Este aviso se actualiza solo y se cierra cuando no queda ninguno.\n"
-)
-
-
 def cuerpo(items: list[dict]) -> str:
     por_lugar: dict[tuple[str, str], list[dict]] = defaultdict(list)
     for i in items:
@@ -78,7 +66,7 @@ def cuerpo(items: list[dict]) -> str:
         lista = "; ".join(f"[{e['titulo']}]({e['url']}) {datetime.fromisoformat(e['inicio']):%d/%m}" for e in eventos[:4])
         mas = f" y {len(eventos) - 4} más" if len(eventos) > 4 else ""
         renglones.append(f"- **{lugar}**{direccion} · `{fuente}` · {lista}{mas} <!-- lugar:{_clave(lugar)} -->")
-    return INTRO + "\n" + "\n".join(renglones) + "\n"
+    return "\n".join(renglones) + "\n"
 
 
 def _gh(*args: str) -> str:

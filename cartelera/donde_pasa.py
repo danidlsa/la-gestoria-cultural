@@ -64,16 +64,6 @@ def pendientes(eventos: list[dict], lugares: dict[str, dict], ruta: Path = CONFI
     return sorted(items, key=lambda i: (-i["cantidad"], i["nombre"]))
 
 
-INTRO = (
-    "Estos lugares tienen eventos pero **no tienen etiqueta de \"Dónde pasa\"**, así que no aparecen cuando alguien "
-    "filtra por Bares y cafés, Espacios culturales, Salas chicas, Salas grandes o Al aire libre.\n\n"
-    "Para arreglarlo, sumar el id de cada uno (el que va entre comillas invertidas) a su grupo en "
-    "`config/donde_pasa.toml`: `bares`, `espacios` (espacios culturales de usos múltiples), `chicas` (salas de hasta unas 300 personas), `grandes` (más de 300), `aire_libre`, "
-    "o `no_aplica` si es un museo, un cine, una librería, una discoteca o una dirección suelta.\n\n"
-    "Este aviso se actualiza solo y se cierra cuando no queda ninguno.\n"
-)
-
-
 def cuerpo(items: list[dict]) -> str:
     renglones = []
     for i in items:
@@ -84,7 +74,7 @@ def cuerpo(items: list[dict]) -> str:
             for e in i["ejemplos"])
         cuantos = f"{i['cantidad']} {'evento' if i['cantidad'] == 1 else 'eventos'}"
         renglones.append(f"- **{i['nombre']}**{direccion} · `{i['id']}` · {cuantos}: {ejemplos} <!-- lugar:{i['id']} -->")
-    return INTRO + "\n" + "\n".join(renglones) + "\n"
+    return "\n".join(renglones) + "\n"
 
 
 def _leer(nombre: str):
