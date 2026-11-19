@@ -340,6 +340,51 @@ categoria = "cine"
 bar = false
 notas = "cineclub con debate; a veces proyecta en otro lado (📍 con la dirección)"
 
+# Sumadas el 19/11/2026.
+[[bar]]
+usuario = "casonamaua"
+nombre = "Casona Mauá"  # como la carga el portal de la IM (Sábados en Ciudad Vieja)
+direccion = "Juan Carlos Gómez 1530"
+barrio = "Ciudad Vieja"
+bar = false
+notas = "espacio cultural y centro de eventos en El Bajo: exposiciones, tango, cenas temáticas"
+
+[[bar]]
+usuario = "azotealee"
+nombre = "Lecturas de azotea"
+itinerante = true
+bar = false
+notas = "club de lectura (el perfil está restringido a mayores de 18; si la API no lo lee, sacarla): el lugar sale del 📍"
+
+[[bar]]
+usuario = "clubculturalcharco"
+nombre = "Club Cultural Charco"  # como ya está en el sitio
+direccion = "Maldonado 1477"
+bar = false
+notas = "librería y café con encuentros y actividades culturales"
+
+[[bar]]
+usuario = "festivaldelsolsticio"
+nombre = "Festival del Solsticio"
+itinerante = true
+bar = false
+categoria = "festival"
+notas = "festival de música y arte; la edición del 19/12/2026 es en la Plaza de las Pioneras (sale del 📍)"
+
+[[bar]]
+usuario = "enriqueta.uy"
+nombre = "Enriqueta"
+direccion = "21 de Setiembre y Bulevar Artigas"
+notas = "café y bar junto al Defensor Sporting; arte y música"
+
+[[bar]]
+usuario = "vitibardevinos"
+nombre = "Viti Bar de Vinos"
+corto = "Viti"
+direccion = "Colón 1543"
+barrio = "Ciudad Vieja"
+notas = "bar de vinos con eventos"
+
 # --- Correcciones a mano ---------------------------------------------------------------------------------------------
 [[correccion]]
 id = "mambapercusion-20261205"
