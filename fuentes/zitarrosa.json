@@ -1,59 +1,10 @@
 {
  "fuente": "zitarrosa",
- "corrida": "2026-11-19T11:01:47.149060-03:00",
+ "corrida": "2026-11-20T11:03:41.086914-03:00",
  "ok": true,
- "cantidad": 14,
+ "cantidad": 13,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "el-club-de-tobi-30-anos",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/el-club-de-tobi-30-anos/",
-   "titulo": "El club de Tobi 30 años",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Celebrar los 30 años de El Club de Tobi a través de un ciclo de conciertos, pone en valor una trayectoria artística singular, caracterizada por la reinterpretación de la música popular desde un cuarteto de cuerdas y por un sostenido compromiso con la creación y la experimentación. El Club de Tobi…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021523/espectaculo/El%20club%20de%20Tobi%2030%20a%C3%B1os?2",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/09/SBU9522-2-1.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40021523/espectaculo/El%20club%20de%20Tobi%2030%20a%C3%B1os?2"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "zitarrosa",
    "id_externo": "raly-barrionuevo-el-camino-de-solgo",
