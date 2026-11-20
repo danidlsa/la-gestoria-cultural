@@ -1,8 +1,8 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-19T16:35:10.720014-03:00",
+ "corrida": "2026-11-19T23:28:03.908271-03:00",
  "ok": true,
- "cantidad": 23,
+ "cantidad": 21,
  "errores": [],
  "eventos": [
   {
@@ -22,13 +22,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T17:00:00-03:00",
-     "fin": "2026-11-19T18:20:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T17:00:00-03:00",
      "fin": "2026-11-20T18:20:00-03:00",
@@ -143,13 +136,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T17:10:00-03:00",
-     "fin": "2026-11-19T18:44:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-20T17:10:00-03:00",
      "fin": "2026-11-20T18:44:00-03:00",
      "sin_hora": false,
@@ -263,13 +249,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T18:40:00-03:00",
-     "fin": "2026-11-19T21:01:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-20T18:40:00-03:00",
      "fin": "2026-11-20T21:01:00-03:00",
      "sin_hora": false,
@@ -382,13 +361,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T19:10:00-03:00",
-     "fin": "2026-11-19T21:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T19:10:00-03:00",
      "fin": "2026-11-20T21:00:00-03:00",
@@ -827,162 +799,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9683",
-   "url": "https://cinemateca.org.uy/peliculas/9683",
-   "titulo": "Doctor Jekyll y la bestia",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Roy Ward Baker. El título de estreno rioplatense esconde la verdadera naturaleza de las investigaciones que realiza el Dr. Jekyll de este film y que su creador Robert L. Stevenson nunca sospechó: un producto para garantizar la longevidad basado en hormonas femeninas, dado que las mujeres tienden…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T17:20:00-03:00",
-     "fin": "2026-11-19T18:54:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9683",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://m.media-amazon.com/images/M/MV5BMzI4MGM2OGEtODVmZS00OWYyLWE3OGUtOWJjNjAzYTk5NGQzXkEyXkFqcGc@._V1_.jpg",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "BAZOFI ORIENTAL 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9684",
-   "url": "https://cinemateca.org.uy/peliculas/9684",
-   "titulo": "La hija del médico y la bestia",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Edgar Ulmer. En la década de 1950 la crisis del sistema de estudios atomizó la producción y la exhibición y se multiplicaron las empresas dedicadas a realizar films de género con presupuestos exiguos, explotados con títulos sensacionalistas. Al mismo tiempo, una joven generación —que no había…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T19:20:00-03:00",
-     "fin": "2026-11-19T20:31:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9684",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmq5aVQjdm3iroqHzjB7ErXn3lPIbzNjiuA9wdPR-p6lOAstUvU-Ei3pWh&amp;s=10",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "BAZOFI ORIENTAL 2026",
    "etiquetas": [],
    "muestra": false,
    "hasta": null

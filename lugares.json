@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-19T16:46:00.216067-03:00",
- "cantidad": 215,
+ "generado": "2026-11-19T23:38:17.269424-03:00",
+ "cantidad": 219,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -274,10 +274,22 @@
   {
    "id": "bartolome-mitre-1321",
    "nombre": "Bartolomé Mitre 1321",
-   "alias": [],
+   "alias": [
+    "SALA MITRE"
+   ],
    "direccion": "Ciudad Vieja",
    "lat": -34.907138,
    "lon": -56.201924,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "bluzz-bar",
+   "nombre": "Bluzz Bar",
+   "alias": [],
+   "direccion": "Canelones 760",
+   "lat": -34.9094876,
+   "lon": -56.1998589,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -400,6 +412,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "casa-cultus",
+   "nombre": "Casa Cultus",
+   "alias": [],
+   "direccion": "Piedras 604",
+   "lat": -34.9035588,
+   "lon": -56.2043428,
+   "barrio": "Ciudad Vieja",
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "casona-maua",
    "nombre": "Casona Mauá",
    "alias": [],
@@ -436,6 +458,16 @@
    "direccion": "Dr. Benito Cuñarro S/N (ex Hotel del Lago, Parque Rivera)",
    "lat": -34.87814,
    "lon": -56.087715,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "ceibos-club",
+   "nombre": "Ceibos Club",
+   "alias": [],
+   "direccion": "4WVJ+R2H, 12100 Montevideo",
+   "lat": -34.855438,
+   "lon": -56.069901,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1091,12 +1123,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu",
-   "nombre": "LATU",
+   "id": "latu-laboratorio-tecnologico-del-uruguay",
+   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
    "alias": [
-    "LATU - Laboratorio Tecnológico del Uruguay"
+    "LATU"
    ],
-   "direccion": "Carrasco, Montevideo",
+   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1316,6 +1348,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "molino-de-perez",
+   "nombre": "Molino de Perez",
+   "alias": [],
+   "direccion": "Molino de Perez, Pasaje Arq. Juan Veltro",
+   "lat": -34.894181,
+   "lon": -56.090516,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "montevideo-departamento-de-montevideo",
    "nombre": "Montevideo Departamento de Montevideo",
    "alias": [],
@@ -1341,7 +1383,7 @@
    "alias": [
     "MMB"
    ],
-   "direccion": "Av. Dámaso A. Larrañaga 3195, 11600",
+   "direccion": "Av. Dámaso A. Larrañaga 3195, 11600 Mont",
    "lat": -34.880615,
    "lon": -56.15275,
    "barrio": null,
@@ -1369,16 +1411,6 @@
    "direccion": "Sarandí 524",
    "lat": -34.90748,
    "lon": -56.2043,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "museo-historico-nacional",
-   "nombre": "Museo Histórico Nacional",
-   "alias": [],
-   "direccion": "Casa de Rivera. Rincón 437 esquina Misiones, Montevideo",
-   "lat": -34.9070064,
-   "lon": -56.2066155,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1569,6 +1601,26 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "plaza-alfredo-zitarrosa",
+   "nombre": "Plaza Alfredo Zitarrosa",
+   "alias": [],
+   "direccion": "Dr. Aquiles R. Lanza 1002-1050, 11100 Mo",
+   "lat": -34.911478,
+   "lon": -56.187201,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "plaza-conaprole",
+   "nombre": "Plaza Conaprole",
+   "alias": [],
+   "direccion": "Costa Rica, 11500 Montevideo",
+   "lat": -34.8829685003899,
+   "lon": -56.05890110793457,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "plaza-independencia-846",
    "nombre": "Plaza Independencia 846",
    "alias": [
@@ -1673,7 +1725,7 @@
    "alias": [
     "Q'atrevido"
    ],
-   "direccion": "San José 907, Montevideo",
+   "direccion": "San José 907",
    "lat": -34.907129,
    "lon": -56.196424,
    "barrio": null,
@@ -1911,16 +1963,6 @@
    "direccion": "Rambla 25 de Agosto 218",
    "lat": -34.905789,
    "lon": -56.212222,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "salvador-estudio",
-   "nombre": "Salvador Estudio",
-   "alias": [],
-   "direccion": "San Salvador 1673",
-   "lat": -34.911423,
-   "lon": -56.1787539,
    "barrio": null,
    "ciudad": "Montevideo"
   },

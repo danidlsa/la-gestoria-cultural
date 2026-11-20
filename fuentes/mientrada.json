@@ -1,8 +1,8 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-19T16:43:19.414580-03:00",
+ "corrida": "2026-11-19T23:36:19.472366-03:00",
  "ok": true,
- "cantidad": 12,
+ "cantidad": 13,
  "errores": [],
  "eventos": [
   {
@@ -249,6 +249,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30671_banner5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mientrada",
+   "id_externo": "30868",
+   "url": "https://mientrada.com.uy/evento/emile-x-temblad-30868",
+   "titulo": "EMILE X TEMBLAD",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "NO NOS VESTIMOS PARA QUEDARNOS QUIETOS. EMILE × TEMBLAD presentan una noche dedicada a la música electrónica underground. Tres artistas. Tres live performances. Una misma pista. JUANMA ALEGRE MICRO.TRON PHORO Una fecha especial que reúne música, diseño y cultura de club. EMILE sigue apostando a la…",
+   "lugar": {
+    "nombre": "Emile",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T23:59:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mientrada.com.uy/evento/emile-x-temblad-30868",
+     "via": "mientrada"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30868_banner5.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

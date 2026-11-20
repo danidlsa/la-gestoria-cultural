@@ -1,10 +1,47 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-19T16:38:10.204704-03:00",
+ "corrida": "2026-11-19T23:31:10.049304-03:00",
  "ok": true,
- "cantidad": 24,
+ "cantidad": 25,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "solis",
+   "id_externo": "3099",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Las-Adoro-uc3099",
+   "titulo": "Las Adoro",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-25T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202611/W756_H530/7079.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "solis",
    "id_externo": "3098",
@@ -23,9 +60,9 @@
    },
    "funciones": [
     {
-     "inicio": "2027-02-26T00:00:00-03:00",
+     "inicio": "2027-02-26T20:30:00-03:00",
      "fin": null,
-     "sin_hora": true,
+     "sin_hora": false,
      "sala": "Sala Principal",
      "agotada": false
     }

@@ -1,57 +1,10 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-19T16:40:39.956301-03:00",
+ "corrida": "2026-11-19T23:33:35.866216-03:00",
  "ok": true,
  "cantidad": 17,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "fever",
-   "id_externo": "614864",
-   "url": "https://feverup.com/m/614864",
-   "titulo": "Candlelight: El Señor de los Anillos",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La Comunidad sigue viva a través de la música de la trilogía. En Candlelight: El Señor de los Anillos, un talentoso cuarteto de cuerda da vida a las melodías inolvidables de las películas en el Sofitel Montevideo Casino Carrasco and Spa, rodeado de velas. Una noche dedicada a la música del viaje…",
-   "lugar": {
-    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
-    "direccion": null,
-    "lat": -34.8905846,
-    "lon": -56.0553743,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-19T17:30:00-03:00",
-     "fin": "2027-01-17T20:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 776.0,
-    "hasta": 776.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/614864",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/6e89eade-c92d-11f0-ab44-1e339e1eaa9a.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "fever",
    "id_externo": "525129",
@@ -151,7 +104,7 @@
    "id_externo": "838624",
    "url": "https://feverup.com/m/838624",
    "titulo": "Candlelight: Lo Mejor de Hans Zimmer",
-   "categoria": "infantil",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Lo Mejor de Hans Zimmer en Hotel Radisson Victoria Plaza bajo la tenue luz de las…",
    "lugar": {
@@ -185,6 +138,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/b2a5d1a8-1396-11f0-9f4b-e25e224a365e.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "836762",
+   "url": "https://feverup.com/m/836762",
+   "titulo": "Candlelight: Tributo a Queen y The Beatles",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Tributo a Queen y The Beatles en Hotel Radisson Victoria Plaza bajo la tenue luz de…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-30T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 920.0,
+    "hasta": 920.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/836762",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/4671982c-1a9f-11f0-9bc4-3a9b5e2c983e.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -242,57 +242,10 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "836762",
-   "url": "https://feverup.com/m/836762",
-   "titulo": "Candlelight: Tributo a Queen y The Beatles",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Tributo a Queen y The Beatles en Hotel Radisson Victoria Plaza bajo la tenue luz de…",
-   "lugar": {
-    "nombre": "Hotel Radisson Victoria Plaza",
-    "direccion": null,
-    "lat": -34.9058104,
-    "lon": -56.1995027,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2027-01-30T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 840.0,
-    "hasta": 840.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/836762",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/4671982c-1a9f-11f0-9bc4-3a9b5e2c983e.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
    "id_externo": "838622",
    "url": "https://feverup.com/m/838622",
    "titulo": "Candlelight: Tributo a Joan Manuel Serrat",
-   "categoria": "infantil",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Tributo a Joan Manuel Serrat en Sala Valle Inclán bajo la tenue luz de las velas!…",
    "lugar": {
@@ -339,7 +292,7 @@
    "id_externo": "836763",
    "url": "https://feverup.com/m/836763",
    "titulo": "Candlelight: Himnos del Rock de los 80",
-   "categoria": "infantil",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Himnos del Rock de los 80 en Hotel Radisson Victoria Plaza bajo la tenue luz de las…",
    "lugar": {
@@ -430,6 +383,53 @@
   },
   {
    "fuente": "fever",
+   "id_externo": "614864",
+   "url": "https://feverup.com/m/614864",
+   "titulo": "Candlelight: El Señor de los Anillos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La Comunidad sigue viva a través de la música de la trilogía. En Candlelight: El Señor de los Anillos, un talentoso cuarteto de cuerda da vida a las melodías inolvidables de las películas en el Sofitel Montevideo Casino Carrasco and Spa, rodeado de velas. Una noche dedicada a la música del viaje…",
+   "lugar": {
+    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
+    "direccion": null,
+    "lat": -34.8905846,
+    "lon": -56.0553743,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-19T17:30:00-03:00",
+     "fin": "2027-01-17T20:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 776.0,
+    "hasta": 776.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/614864",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/6e89eade-c92d-11f0-ab44-1e339e1eaa9a.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
    "id_externo": "838625",
    "url": "https://feverup.com/m/838625",
    "titulo": "Candlelight: Queen vs. ABBA",
@@ -493,7 +493,7 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T21:30:00-03:00",
+     "inicio": "2026-11-21T19:30:00-03:00",
      "fin": "2026-12-27T18:30:00-03:00",
      "sin_hora": false,
      "sala": null,
@@ -715,7 +715,7 @@
    "id_externo": "603820",
    "url": "https://feverup.com/m/603820",
    "titulo": "Candlelight: De Música Ligera",
-   "categoria": "infantil",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "⭐ Candlelight son los conciertos a la luz de las velas que traen la magia de una experiencia musical y multisensorial en vivo a lugares increíbles en Montevideo. Compra ya tus entradas para descubrir la música de De Música Ligera en Sofitel Montevideo Casino Carrasco and Spa bajo la tenue luz de…",
    "lugar": {
@@ -762,7 +762,7 @@
    "id_externo": "838623",
    "url": "https://feverup.com/m/838623",
    "titulo": "Candlelight: Tributo a Coldplay",
-   "categoria": "infantil",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Tributo a Coldplay en Sala Valle Inclán bajo la tenue luz de las velas! Esta es una…",
    "lugar": {

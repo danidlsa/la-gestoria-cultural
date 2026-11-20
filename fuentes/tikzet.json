@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-19T16:44:01.536775-03:00",
+ "corrida": "2026-11-19T23:37:04.227849-03:00",
  "ok": true,
  "cantidad": 15,
  "errores": [],
@@ -195,6 +195,53 @@
   },
   {
    "fuente": "tikzet",
+   "id_externo": "bcb430b1-cfb2-4271-8fbe-fed3682e1461",
+   "url": "https://www.tikzet.com/events/buceo-invisible-14bc",
+   "titulo": "Buceo Invisible",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T21:00:00-03:00",
+     "fin": "2026-12-03T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/buceo-invisible-14bc",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F87e9a684-34ea-4ab0-8ca5-ba265a931758.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
    "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
    "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
    "titulo": "Javier Zubillaga De Vivo",
@@ -232,100 +279,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "bcb430b1-cfb2-4271-8fbe-fed3682e1461",
-   "url": "https://www.tikzet.com/events/buceo-invisible-14bc",
-   "titulo": "Buceo Invisible",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-03T21:00:00-03:00",
-     "fin": "2026-12-03T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/buceo-invisible-14bc",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F70837979-a01f-4c0d-b746-3025e88ce795.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "68bfb10e-f938-4a19-a28e-85476eac3e17",
-   "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
-   "titulo": "Alhelíes + Tengo un amigo que anda",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Alhelíes y tengo un amigo que anda bien pa’ los audiovisuales por primera vez compartiendo fecha. Dos bandas con una fuerte impronta paisajística y experimental, otra noche en los recovecos de la noche Montevideana. *Este show es con público con sillas y las mesas son compartidas",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T21:00:00-03:00",
-     "fin": "2026-11-19T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/tengo-un-amigo-que-anda-bien-pa-los-audiovisuales",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F59aae68e-c969-4698-8ee6-4a992d6dab33.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -477,53 +430,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "7ebaa549-795f-4525-9c8f-3a963e1372c9",
-   "url": "https://www.tikzet.com/events/javier-ventoso",
-   "titulo": "Javier Ventoso",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-22T21:00:00-03:00",
-     "fin": "2026-12-22T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/javier-ventoso",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Ffe957b7d-f2ed-4c67-a998-1da80da079f2.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "29b67f42-54aa-40b5-ba07-560cc0847b89",
    "url": "https://www.tikzet.com/events/barrio-chino",
    "titulo": "Barrio Chino",
@@ -608,6 +514,100 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "7ebaa549-795f-4525-9c8f-3a963e1372c9",
+   "url": "https://www.tikzet.com/events/javier-ventoso",
+   "titulo": "Javier Ventoso",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-22T21:00:00-03:00",
+     "fin": "2026-12-22T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/javier-ventoso",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Ffe957b7d-f2ed-4c67-a998-1da80da079f2.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "7260eff8-a701-41cf-9e5e-e8dabc49b9b4",
+   "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
+   "titulo": "El Jardín y Seba Codoni",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "El martes 1.º de diciembre nos encontramos en El Hormiguero para compartir una noche de música en vivo entre El Jardín y Seba Codoni. El Jardín se presentara esta vez en formato trío, presentando los nuevos simples \"427\" y \"Plaza sola\" y otras grajeas de su repertorio. Seba Codoni, por su parte…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-01T20:30:00-03:00",
+     "fin": "2026-12-01T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F25622e80-e502-4aa5-860c-ee33c453f1de.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],

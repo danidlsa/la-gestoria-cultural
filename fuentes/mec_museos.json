@@ -1,52 +1,10 @@
 {
  "fuente": "mec_museos",
- "corrida": "2026-11-19T16:41:27.214882-03:00",
+ "corrida": "2026-11-19T23:34:26.599451-03:00",
  "ok": true,
- "cantidad": 7,
+ "cantidad": 6,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "mec_museos",
-   "id_externo": "presentacion-del-libro-linaje-canario-fundacion-montevideo",
-   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/presentacion-del-libro-linaje-canario-fundacion-montevideo",
-   "titulo": "Presentación del libro «Un linaje canario en la fundación de Montevideo. Felipe Pérez de Sosa (1684-1767)»",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Histórico Nacional",
-    "direccion": "Casa de Rivera. Rincón 437 esquina Misiones, Montevideo",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T18:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/presentacion-del-libro-linaje-canario-fundacion-montevideo",
-     "via": "mec_museos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Ministerio de Educación y Cultura",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "mec_museos",
    "id_externo": "fiesta-del-arbol-plantacion-colectiva-jardin-del-museo",

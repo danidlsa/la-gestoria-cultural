@@ -1,52 +1,10 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-19T16:44:23.913857-03:00",
+ "corrida": "2026-11-19T23:37:26.439097-03:00",
  "ok": true,
- "cantidad": 65,
+ "cantidad": 62,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "centroculturalterminalgoes-20261128",
-   "url": "https://www.instagram.com/p/DfxDaO6CetM/",
-   "titulo": "Centro Cultural Terminal Goes: Vuelve con una ÚNICA función",
-   "categoria": "humor",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Vuelve con una ÚNICA función! CRUDO Un monólogo de humor ácido y vulnerable sobre la ansiedad, la identidad y el deseo urgente de dejar de actuar incluso cuando nadie está mirando. Sábado 28 de noviembre 20:30 h Centro Cultural Terminal Goes Entradas en Tickantel Solicitá tu código para obtener…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfxDaO6CetM/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/73d0d83f1bd8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "instagram_bares",
    "id_externo": "lacretinacasa-20261021",
@@ -114,10 +72,52 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "centroculturalterminalgoes-20261128",
+   "url": "https://www.instagram.com/p/DfxDaO6CetM/",
+   "titulo": "Centro Cultural Terminal Goes: Vuelve con una ÚNICA función",
+   "categoria": "humor",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Vuelve con una ÚNICA función! CRUDO Un monólogo de humor ácido y vulnerable sobre la ansiedad, la identidad y el deseo urgente de dejar de actuar incluso cuando nadie está mirando. Sábado 28 de noviembre 20:30 h Centro Cultural Terminal Goes Entradas en Tickantel Solicitá tu código para obtener…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfxDaO6CetM/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/73d0d83f1bd8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "centroculturalterminalgoes-20261103",
    "url": "https://www.instagram.com/p/DfSSI5DFIG9/",
    "titulo": "Centro Cultural Terminal Goes: Festival Internacional Atlantidoc",
-   "categoria": "infantil",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "Festival Internacional Atlantidoc | Ciclo de cine Deslizá para conocer las propuestas para este mes Todos los miércoles | 19 horas Centro Cultural Terminal Goes Entrada libre y gratuita atlantidoc.uy mvdaudiovisual Festival Internacional Atlantidoc | Ciclo de cine Con los brazos abiertos Con los…",
    "lugar": {
@@ -200,48 +200,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8b41c3bdd72f.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "facmvd-20261109",
-   "url": "https://www.instagram.com/p/DeO8rNoym_C/",
-   "titulo": "FAC: Laboratorio de escritura",
-   "categoria": "taller",
-   "categoria_segura": false,
-   "descripcion_corta": "NUEVA EDICIÓN! Laboratorio de escritura a cargo de terepuppo , para explorar otras maneras de mirar, recordar, narrar y construir sentido. Un taller orientado al desarrollo de la escritura creativa mediante ejercicios de experimentación y exploración de diversas formas narrativas. Propone un…",
-   "lugar": {
-    "nombre": "FAC - Fundación de Arte Contemporáneo",
-    "direccion": "Av. Sarmiento 2244",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DeO8rNoym_C/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2ccc7f82fd46.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -349,21 +307,18 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "lamadredelassecond-20261114",
-   "url": "https://www.instagram.com/reel/Df3E6fkM0aB/",
+   "url": "https://www.instagram.com/p/Df8Xm2EHcrD/",
    "titulo": "La Madre de las Second Hand: PLAZA DE LAS PIONERAS",
    "categoria": "feria",
    "categoria_segura": true,
-   "descripcion_corta": "¡ESTE SÁBADO TENEMOS PLAN! ¡Vuelve La Madre de las Second Hand a Plaza Primero de Mayo! Una jornada para disfrutar, pasear, encontrarse y descubrir un montón de cosas. Ropa, calzado, accesorios, libros, juguetes, objetos y muchísimas oportunidades. Más de una excusa para salir de casa, recorrer la…",
+   "descripcion_corta": "¡GRACIAS BELVEDERE! El pasado domingo vivimos una jornada hermosa compartiendo los festejos del barrio Belvedere. Queremos agradecer de corazón a todas las personas que se acercaron, recorrieron la feria y disfrutaron de este encuentro ¡ESTE SÁBADO NOS VOLVEMOS A ENCONTRAR! PLAZA PRIMERO DE MAYO…",
    "lugar": {
     "nombre": "PLAZA PRIMERO DE MAYO",
     "direccion": null,
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": [
-     "Agraciada",
-     "San Quintín"
-    ]
+    "alternativas": []
    },
    "funciones": [
     {
@@ -377,7 +332,7 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/reel/Df3E6fkM0aB/",
+     "url": "https://www.instagram.com/p/Df8Xm2EHcrD/",
      "via": "instagram"
     }
    ],
@@ -474,184 +429,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e5efcf2603e3.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "subtemvd-20261119",
-   "url": "https://www.instagram.com/p/Df2mfb-FIZR/",
-   "titulo": "Centro de Exposiciones Subte: Seguimos construyendo LA SUBTERADORA",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Seguimos construyendo LA SUBTERADORA! Te esperamos todos los martes de 14:00 a 18:00 h y los jueves de 11:00 a 15:00 h, hasta enero de 2027, para conversar, preguntar, proponer y armar con Ana Laura López de la Torre y Niklaus Strobel. ¡Pasá y sumate!",
-   "lugar": {
-    "nombre": "Centro de Exposiciones Subte",
-    "direccion": "Plaza Fabini",
-    "lat": -34.90563,
-    "lon": -56.19423,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df2mfb-FIZR/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2c6c5bb7d275.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "clubculturalcharco-20261119",
-   "url": "https://www.instagram.com/p/Df57gQuFarw/",
-   "titulo": "Club Cultural Charco: Leila Guerriero conversa con Soledad Gago",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Estos son los títulos que vas a encontrar este jueves en nuestro gazebo literario, a unos pasos del escenario donde Leila Guerriero estará conversando junto a soledad.gago . También tendremos ejemplares de Un fantasma antártico, que acaba de llegar a las librerías del país. Todos con descuento…",
-   "lugar": {
-    "nombre": "Club Cultural Charco",
-    "direccion": "Maldonado 1477",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T18:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df57gQuFarw/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/26cfbb0134f0.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261119",
-   "url": "https://www.instagram.com/p/Df7dxZJoLyb/",
-   "titulo": "Centro Cultural de España: Ilustrando feminismos.",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Hoy inauguramos Ilustrando feminismos. Lápices para resistir! 14 ilustradoras de Latinoamérica y Guinea Ecuatorial se reúnen en esta exposición colectiva para poner el arte al servicio de la memoria, las luchas feministas y la defensa de los derechos de las mujeres. Con la curaduría de la…",
-   "lugar": {
-    "nombre": "CCE",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df7dxZJoLyb/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/41d9a4ed5882.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "centroculturalterminalgoes-20261119",
-   "url": "https://www.instagram.com/p/De-MrIVjQ4T/",
-   "titulo": "Centro Cultural Terminal Goes: LIBERANDO LODIO",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "LIBERANDO LODIO Teatro Ritual Bufón Liberando lodio es una experiencia escénica de teatro bufón que, desde el humor grotesco y una poética ritual, propone una crítica sarcástica al uso del poder, el fanatismo y a los dogmas que vacían de sentido la espiritualidad. La obra se articula como un…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/De-MrIVjQ4T/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e727b639fc0e.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1211,18 +988,65 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "cultus_uy-20261121",
-   "url": "https://www.instagram.com/p/Df7zFcvmN_Y/",
-   "titulo": "Casa Cultus: S en Ciudad Vieja · El Bajo se encuentra",
-   "categoria": "teatro",
+   "id_externo": "paseo_cultural_ciudad_vieja-20261121",
+   "url": "https://www.instagram.com/p/Df7sNg5JZQP/",
+   "titulo": "Paseo Cultural Ciudad Vieja: Paseo Cultural de Ciudad Vieja junto a Descubrí Montevideo y Municipio B presentan la 8a.",
+   "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Entre aquí y allá Huellas de la diáspora Una exposición sobre la mirada del migrante, la memoria y la pertenencia. Y, para acompañarla, cuatro encuentros con los artistas en Casa Cultus. Deslizá y conocé el cronograma: Charla con Joe Black Los ojos del migrante en su destino : una reflexión desde…",
+   "descripcion_corta": "Paseo Cultural de Ciudad Vieja junto a Descubrí Montevideo y Municipio B presentan la 8a. edición de Paseo de las Artes de Plaza Zabala . Artistas plásticos estarán exponiendo y pintando en vivo, transformando el rincón más parisino del Casco histórico en un Atelier a cielo abierto! Además en un…",
    "lugar": {
-    "nombre": "Patio La Bahía",
+    "nombre": "Plaza Zabala",
     "direccion": null,
     "lat": null,
     "lon": null,
     "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df7sNg5JZQP/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d7c61e01478b.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "cultus_uy-20261121",
+   "url": "https://www.instagram.com/p/Df7zFcvmN_Y/",
+   "titulo": "Casa Cultus: «Entre aquí y allá», huellas de la diáspora",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Entre aquí y allá Huellas de la diáspora Una exposición sobre la mirada del migrante, la memoria y la pertenencia. Y, para acompañarla, cuatro encuentros con los artistas en Casa Cultus. Deslizá y conocé el cronograma: Charla con Joe Black Los ojos del migrante en su destino : una reflexión desde…",
+   "lugar": {
+    "nombre": "Casa Cultus",
+    "direccion": "Piedras 604",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
     "alternativas": []
    },
    "funciones": [
@@ -1546,11 +1370,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "lacretinacasa-20261121",
-   "url": "https://www.instagram.com/p/DfiK_MivhXn/",
+   "url": "https://www.instagram.com/p/Df8DUAmv0Av/",
    "titulo": "La Cretina: TABAREK & LA KABARET",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Tenemos el honor de recibir en casa, para su Debut oficial, a estos queridos amigos con su nuevo y espectacular proyecto! TABAREK & LA KABARET Tabaré Rivero presenta en vivo su nuevo proyecto musical: Tabarek & La Kabaret. Un recorrido por algunas de sus canciones en un formato acústico, íntimo y…",
+   "descripcion_corta": "ÚLTIMAS 5 ENTRADAS Tenemos el honor de ser los anfitriones del debut de tabarekylakabaret y no te lo podés perder! TABAREK & LA KABARET Tabaré Rivero presenta en vivo su nuevo proyecto musical: Tabarek & La Kabaret. Un recorrido por algunas de sus canciones en un formato acústico, íntimo y…",
    "lugar": {
     "nombre": "La Cretina",
     "direccion": "Soriano 1236",
@@ -1571,7 +1395,7 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DfiK_MivhXn/",
+     "url": "https://www.instagram.com/p/Df8DUAmv0Av/",
      "via": "instagram"
     }
    ],
@@ -1732,8 +1556,8 @@
    "id_externo": "clubculturalcharco-20261124",
    "url": "https://www.instagram.com/p/Dfms2HQldPq/",
    "titulo": "Club Cultural Charco: Desplazamiento, historias de amor, familia y barro",
-   "categoria": "infantil",
-   "categoria_segura": false,
+   "categoria": "charla",
+   "categoria_segura": true,
    "descripcion_corta": "Mar 24.11 19:00 — Desplazamiento: Historias de amor, familia y barro. destileriacapicua nos recibe para brindar, escuchar lecturas, música y conversar sobre lo lindo de vivir. El taller de crónicas de Charco, coordinado por azulcordo, te lleva de viaje desde la escucha atenta, con escenas que nos…",
    "lugar": {
     "nombre": "Destilería Capicúa",
@@ -1946,6 +1770,55 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/93c695acfbe7.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "jazzclub.uy-20261125",
+   "url": "https://www.instagram.com/p/Df71LgLzaHv/",
+   "titulo": "Jazz Club: VUELVE EL MÁS LINDO · Y ATENDEME ESTA FECHAZA ABSOLUTA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "ESTE MIÉRCOLES VUELVE EL MÁS LINDO Y ATENDEME ESTA FECHAZA ABSOLUTA jazzclub.uy jazzclub.uy jazzclub.uy GRATIS GRATIS GRATISSSSSSSS . Recién llegado de LA, recibimos a franciscofattoruso y a cirogamallo desde Laaargentina. ottonello.musica como siempre en los tamborcitos. En los vinilos como…",
+   "lugar": {
+    "nombre": "Bluzz Bar",
+    "direccion": "Canelones 760",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df71LgLzaHv/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a383deb164cd.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

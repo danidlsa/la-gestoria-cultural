@@ -1,8 +1,8 @@
 {
  "fuente": "galpon",
- "corrida": "2026-11-19T16:38:26.357299-03:00",
+ "corrida": "2026-11-19T23:31:26.238285-03:00",
  "ok": true,
- "cantidad": 21,
+ "cantidad": 20,
  "errores": [],
  "eventos": [
   {
@@ -441,7 +441,7 @@
    "id_externo": "el-eterno-glorioso-y-mas-pequeno-circo-del-mundo",
    "url": "https://www.teatroelgalpon.org.uy/espectaculos/el-eterno-glorioso-y-mas-pequeno-circo-del-mundo/",
    "titulo": "El eterno, glorioso y más pequeño circo del mundo",
-   "categoria": "infantil",
+   "categoria": "teatro",
    "categoria_segura": false,
    "descripcion_corta": "**Hasta el 29 de noviembre** El circo es un círculo donde pasan cosas… Augusta, Blanca y Stella, cuentan la historia de una familia de circo, cuyo linaje comienza con la bisabuela Olga que, según la leyenda, se casó con un tigre.",
    "lugar": {
@@ -903,50 +903,6 @@
   },
   {
    "fuente": "galpon",
-   "id_externo": "daniel-habif",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/daniel-habif/",
-   "titulo": "Daniel Habif",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "El conferencista y escritor más influyente de habla hispana vuelve a Uruguay con su nueva gira internacional “El Paso Final – Ascender World Tour 2026”.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/DANIEL-HABIF-El-Paso-Final--Ascender-World-Tour-2026-Sala-Campodonico/33411/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/09/Daniel-Habif-El-Galpon_RedTickets_1200x628.jpg",
-   "productor": "Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/DANIEL-HABIF-El-Paso-Final--Ascender-World-Tour-2026-Sala-Campodonico/33411/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
    "id_externo": "camerata-portena",
    "url": "https://www.teatroelgalpon.org.uy/espectaculos/camerata-portena/",
    "titulo": "Camerata Porteña",
@@ -1093,7 +1049,7 @@
    "id_externo": "las-hijas",
    "url": "https://www.teatroelgalpon.org.uy/espectaculos/las-hijas/",
    "titulo": "Las hijas",
-   "categoria": "infantil",
+   "categoria": "teatro",
    "categoria_segura": false,
    "descripcion_corta": "Las hijas es una obra que explora las contradicciones humanas, los vínculos familiares y la lucha por encontrar un equilibrio entre el amor, el deber y la aceptación de lo irreversible.",
    "lugar": {

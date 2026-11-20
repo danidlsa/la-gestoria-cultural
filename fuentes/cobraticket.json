@@ -1,8 +1,8 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-19T16:43:31.684946-03:00",
+ "corrida": "2026-11-19T23:36:33.119813-03:00",
  "ok": true,
- "cantidad": 10,
+ "cantidad": 11,
  "errores": [],
  "eventos": [
   {
@@ -416,8 +416,50 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://img.cobraticket.uy/kKatEeicE4Rm28O_KR9CW.jpg",
+   "imagen_url": "https://img.cobraticket.uy/FH3ZgwPVPa0UGD9BTrlo-.jpg",
    "productor": "Latin Models",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "924459",
+   "url": "https://cobraticket.uy/e/navidad-contigo-924459",
+   "titulo": "Navidad Contigo",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "Vuelve NAVIDAD CONTIGO 24/12 en la Plaza Conaprole Sector VIP +25 Sector General +21 CLICK ACÁ PARA PROMOS ESPECIALES Se hará control de identificación en el ingreso. Navidad Contigo reserva el derecho de admisión.",
+   "lugar": {
+    "nombre": "Plaza Conaprole",
+    "direccion": "Costa Rica, 11500 Montevideo",
+    "lat": -34.8829685003899,
+    "lon": -56.05890110793457,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-24T23:59:00-03:00",
+     "fin": "2026-12-25T07:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/navidad-contigo-924459",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/KkiGJlfHKOt9CqwgoobDM.jpg",
+   "productor": "Navidad Contigo",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

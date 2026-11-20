@@ -1,6 +1,6 @@
 {
  "fuente": "entraste",
- "corrida": "2026-11-19T16:43:54.459411-03:00",
+ "corrida": "2026-11-19T23:36:57.092500-03:00",
  "ok": true,
  "cantidad": 6,
  "errores": [],
@@ -265,7 +265,12 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 990.0,
+    "hasta": 990.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
      "url": "https://app.entraste.com/events/navidad-en-el-yacht-2026",
