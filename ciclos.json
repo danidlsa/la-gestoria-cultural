@@ -1,30 +1,14 @@
 {
- "generado": "2026-11-19T23:38:17.269424-03:00",
- "cantidad": 22,
+ "generado": "2026-11-20T16:28:52.341588-03:00",
+ "cantidad": 23,
  "ciclos": [
-  {
-   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
-   "titulo": "Estreno de obras Fortalecimiento de las Artes",
-   "lugar_id": null,
-   "desde": "2026-11-19T21:00:00-03:00",
-   "hasta": "2026-12-04T21:00:00-03:00",
-   "cantidad": 4
-  },
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
    "lugar_id": null,
-   "desde": "2026-11-20T10:00:00-03:00",
+   "desde": "2026-11-20T11:00:00-03:00",
    "hasta": "2026-12-11T16:00:00-03:00",
    "cantidad": 7
-  },
-  {
-   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
-   "titulo": "Ciclo (no tan) Solos al mediodía",
-   "lugar_id": "teatro-solis",
-   "desde": "2026-11-20T14:00:00-03:00",
-   "hasta": "2026-11-28T14:00:00-03:00",
-   "cantidad": 1
   },
   {
    "id": "ciclo-bazofi-oriental-2026",
@@ -43,12 +27,36 @@
    "cantidad": 2
   },
   {
+   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
+   "titulo": "Estreno de obras Fortalecimiento de las Artes",
+   "lugar_id": null,
+   "desde": "2026-11-20T21:00:00-03:00",
+   "hasta": "2026-12-04T21:00:00-03:00",
+   "cantidad": 4
+  },
+  {
    "id": "ciclo-sabados-en-ciudad-vieja",
    "titulo": "Sábados en Ciudad Vieja",
    "lugar_id": null,
    "desde": "2026-11-21T10:00:00-03:00",
    "hasta": "2026-11-21T19:30:00-03:00",
    "cantidad": 28
+  },
+  {
+   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "lugar_id": "teatro-solis",
+   "desde": "2026-11-21T14:00:00-03:00",
+   "hasta": "2026-11-28T14:00:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-actividades-en-el-parque-maua",
+   "titulo": "Actividades en el Parque Mauá",
+   "lugar_id": "parque-maua",
+   "desde": "2026-11-21T17:00:00-03:00",
+   "hasta": "2026-12-01T20:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-ciclo-de-teatro",
@@ -63,8 +71,8 @@
    "titulo": "Candlelight",
    "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
    "desde": "2026-11-21T19:30:00-03:00",
-   "hasta": "2027-02-12T19:30:00-03:00",
-   "cantidad": 4
+   "hasta": "2027-02-12T21:30:00-03:00",
+   "cantidad": 5
   },
   {
    "id": "ciclo-ciclo-marea",
@@ -95,8 +103,8 @@
    "titulo": "Las mujeres de Hitchcock",
    "lugar_id": "cinemateca",
    "desde": "2026-11-23T17:00:00-03:00",
-   "hasta": "2026-11-25T17:00:00-03:00",
-   "cantidad": 3
+   "hasta": "2026-11-26T17:00:00-03:00",
+   "cantidad": 4
   },
   {
    "id": "ciclo-tmc",

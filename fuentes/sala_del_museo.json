@@ -1,54 +1,10 @@
 {
  "fuente": "sala_del_museo",
- "corrida": "2026-11-19T23:33:11.957243-03:00",
+ "corrida": "2026-11-20T16:23:42.079292-03:00",
  "ok": true,
  "cantidad": 12,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "sala_del_museo",
-   "id_externo": "zell",
-   "url": "https://www.saladelmuseo.com.uy/shows/item/zell.html",
-   "titulo": "ZELL",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "El próximo 19 de noviembre llega Zell llega a Sala del Museo del Carnaval Una de las figuras más prometedoras de la nueva escena urbana argentina, construyendo un universo donde trap, pop, estética digital y cultura visual conviven en una misma identidad artística. Con una propuesta que dialoga…",
-   "lugar": {
-    "nombre": "Sala del Museo",
-    "direccion": "Rambla 25 de Agosto esq. Maciel",
-    "lat": -34.905789,
-    "lon": -56.212222,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/Zell-en-Montevideo/31987/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_3_1_4462584cc57a9e8cb1f0b9beca8cd004.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/Zell-en-Montevideo/31987/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "sala_del_museo",
    "id_externo": "una-fiesta-no-apta-para-centennials",
@@ -527,6 +483,50 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/EL-CUMPLE-DE-MABEL--La-fiesta-mas-divertida--DICIEMBRE/34735/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "justa-do-it-el-festi-de-la-justa-2",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/justa-do-it-el-festi-de-la-justa-2.html",
+   "titulo": "JUSTA DO IT",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "JUSTA DO IT ✨ ft. EL FESTI DE LAS FLORES Nos juntamos para festejar como se merece. Chau PDA, hola SALA DEL MUSEO 🍻 📅 11 de Diciembre | 23:59h 🎶 DJ BEVE + DJ John Perdomo 🎤 LUANA + Americo Young 🔥 Nos vemos en la pista 💜 Apto para mayores de 18 años",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-11T23:59:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/JUSTA-DO-IT-ft-El-Festi-de-las-Flores/35013/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_5_19ae973529a1eb57e94c6d72cac9179f.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/JUSTA-DO-IT-ft-El-Festi-de-las-Flores/35013/"
    ],
    "ciclo": null,
    "etiquetas": [],

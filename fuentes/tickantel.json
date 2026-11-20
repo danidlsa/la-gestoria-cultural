@@ -1,87 +1,12 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-19T23:23:45.405124-03:00",
+ "corrida": "2026-11-20T16:08:40.586575-03:00",
  "ok": true,
- "cantidad": 105,
+ "cantidad": 106,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021457",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
-   "titulo": "Ciclo (no tan) Solos al mediodía",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "CICLO (No tan) Solos al mediodía 17va edición - Diversidad Dirección artística y curaduría: Andrea Arobba Producción ejecutiva: GEN Centro de Artes y Ciencias Producción: Polen productora cultural - Catalina Lans Asistencia de producción: Emiliano Bittencourt Registro audiovisual: Daiana Di Candia…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    },
-    {
-     "inicio": "2026-11-21T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021955",
@@ -698,6 +623,74 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021457",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "CICLO (No tan) Solos al mediodía 17va edición - Diversidad Dirección artística y curaduría: Andrea Arobba Producción ejecutiva: GEN Centro de Artes y Ciencias Producción: Polen productora cultural - Catalina Lans Asistencia de producción: Emiliano Bittencourt Registro audiovisual: Daiana Di Candia…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021983",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021983/la-hija-condor",
    "titulo": "La hija cóndor",
@@ -1033,48 +1026,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40020784",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020784/german-medina",
-   "titulo": "Germán Medina",
-   "categoria": "humor",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Germán Medina vuelve al Teatro de Verano! Con su estilo único, cercano y explosivo, Germán se ha consolidado como una de las figuras más destacadas del humor nacional, conquistando al público con anécdotas cotidianas, improvisación y una energía arrolladora en escena. Una noche imperdible para…",
-   "lugar": {
-    "nombre": "Teatro de Verano",
-    "direccion": null,
-    "lat": -34.9198517,
-    "lon": -56.1698383,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020784/german-medina",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020784/700_X_390_(2).jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021919",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
    "titulo": "EMI",
@@ -1119,6 +1070,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021919/700_x_390_e.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40020784",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020784/german-medina",
+   "titulo": "Germán Medina",
+   "categoria": "humor",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Germán Medina vuelve al Teatro de Verano! Con su estilo único, cercano y explosivo, Germán se ha consolidado como una de las figuras más destacadas del humor nacional, conquistando al público con anécdotas cotidianas, improvisación y una energía arrolladora en escena. Una noche imperdible para…",
+   "lugar": {
+    "nombre": "Teatro de Verano",
+    "direccion": null,
+    "lat": -34.9198517,
+    "lon": -56.1698383,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020784/german-medina",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020784/700_X_390_(2).jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4423,6 +4416,60 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021483/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40022015",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40022015/somos-central-de-danza",
+   "titulo": "Somos - Central de danza",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "SOMOS – Un espectáculo de la Escuela Central de Danza para cerrar el ciclo 2026. ¿Quiénes somos? ¿De dónde venimos? ¿Cuáles son nuestras raíces y hacia dónde vamos? SOMOS es un viaje a través de nuestra identidad latinoamericana, un encuentro con nuestros orígenes, nuestra historia y aquello que…",
+   "lugar": {
+    "nombre": "Complejo Cultural Politeama",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-22T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-23T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 390.0,
+    "hasta": 390.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022015/somos-central-de-danza",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022015/BannerGenerico2026.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

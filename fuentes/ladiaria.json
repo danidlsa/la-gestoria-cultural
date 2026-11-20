@@ -1,8 +1,8 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-19T23:33:28.891231-03:00",
+ "corrida": "2026-11-20T16:23:57.308651-03:00",
  "ok": true,
- "cantidad": 52,
+ "cantidad": 50,
  "errores": [],
  "eventos": [
   {
@@ -514,53 +514,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18372",
-   "url": "https://beneficios.ladiaria.com.uy/noelia-pace-la-medium/",
-   "titulo": "NOELIA PACE, la Médium.",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "En un mundo cada vez más conectado, nos encontramos con una propuesta especial en la que se fusiona la magia del teatro con el misterio del más allá. Estamos hablando de un evento que promete emociones intensas y encuentros inolvidables: la presentación en vivo de Noelia Pace, una reconocida médium…",
-   "lugar": {
-    "nombre": "Teatro El Galpón, Sala Campodónico",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 1330.0,
-    "hasta": 1330.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/NOELIA-PACE--La-Medium--Sala-Campodonico/33007/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/noelia-pace-la-medium/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/NOELIA-PACE--La-Medium--Sala-Campodonico/33007/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18366",
    "url": "https://beneficios.ladiaria.com.uy/particulas-sofia-alvez-animales-de-poder/",
    "titulo": "PARTÍCULAS: Sofía Alvez & Animales de Poder",
@@ -747,13 +700,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-26T00:00:00-03:00",
      "fin": null,
@@ -1159,13 +1105,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-26T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1218,58 +1157,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/JULIUS/33627/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18246",
-   "url": "https://beneficios.ladiaria.com.uy/particulas-miel-malapraxxis/",
-   "titulo": "Partículas: Miel + Malapraxxis",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
-   "lugar": {
-    "nombre": "Sala Verdí",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021757/particulas-miel-malapraxxis",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/particulas-miel-malapraxxis/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/ng/espectaculo/40021757/particulas-miel-malapraxxis"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -1872,15 +1759,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 400.0,
     "hasta": 400.0,
@@ -1988,13 +1867,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-26T20:30:00-03:00",
      "fin": null,
@@ -2441,13 +2313,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T00:00:00-03:00",
      "fin": null,

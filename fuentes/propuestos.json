@@ -1,57 +1,10 @@
 {
  "fuente": "propuestos",
- "corrida": "2026-11-19T23:36:56.138691-03:00",
+ "corrida": "2026-11-20T16:27:19.502811-03:00",
  "ok": true,
- "cantidad": 3,
+ "cantidad": 2,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "propuestos",
-   "id_externo": "c85f26a9a0e0",
-   "url": "https://cineaccesible.uy/?p=1077",
-   "titulo": "Mamá está acá - Ciclo de Cine AccesibleUy",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Este documental entrelaza la vida personal y la creación artística, la maternidad y el proceso creativo. Cuatro mujeres artistas trabajan juntas en la creación de una obra de teatro. El documental sigue los ensayos de la obra Hanami: el placer de contemplar las flores, escrita por una de las…",
-   "lugar": {
-    "nombre": "Facultad de Información y Comunicación (Udelar) – Patio piso 1",
-    "direccion": "San Salvador 1944",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://cineaccesible.uy/?p=1077",
-     "via": "propuestos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/c85f26a9a0e0.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "propuestos",
    "id_externo": "caf1db324b96",

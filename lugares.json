@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T23:38:17.269424-03:00",
+ "generado": "2026-11-20T16:28:52.341588-03:00",
  "cantidad": 219,
  "lugares": [
   {
@@ -110,18 +110,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "anastasia",
-   "nombre": "Anastasia",
-   "alias": [
-    "ANASTASIA"
-   ],
-   "direccion": "Canelones 2121",
-   "lat": -34.907029,
-   "lon": -56.169168,
-   "barrio": "Parque Rodó",
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "antel-arena",
    "nombre": "Antel Arena",
    "alias": [],
@@ -193,7 +181,8 @@
     "Sodre",
     "Sala Hugo Balzo",
     "Sodre-Salga Hugo Balzo",
-    "Sodre - Sala Hugo Balzo"
+    "Sodre - Sala Hugo Balzo",
+    "Auditorio Nacional del SODRE"
    ],
    "direccion": "Andes 1459",
    "lat": -34.90428,
@@ -232,12 +221,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "aula-magna-de-la-fic-udelar",
-   "nombre": "Aula Magna de la FIC (Udelar)",
+   "id": "av-agraciada",
+   "nombre": "Av. Agraciada",
    "alias": [],
-   "direccion": "San Salvador 1944",
-   "lat": -34.911538,
-   "lon": -56.1729409,
+   "direccion": null,
+   "lat": -34.8621373,
+   "lon": -56.2121191,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -864,7 +853,7 @@
    "id": "espacio-finisterre",
    "nombre": "Espacio Finisterre",
    "alias": [],
-   "direccion": "Convención 1328 - Galería del Sol",
+   "direccion": "Convención 1328",
    "lat": -34.9068458,
    "lon": -56.1968398,
    "barrio": null,
@@ -977,16 +966,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "facultad-de-informacion-y-comunicacion-udelar-patio-piso-1",
-   "nombre": "Facultad de Información y Comunicación (Udelar) – Patio piso 1",
-   "alias": [],
-   "direccion": "San Salvador 1944",
-   "lat": -34.911538,
-   "lon": -56.1729409,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "flex-360-workspaces",
    "nombre": "Flex 360 | Workspaces",
    "alias": [],
@@ -1023,6 +1002,16 @@
    "direccion": "Cooper 2091, Av. Dr. Juan Bautista Alber",
    "lat": -34.88063,
    "lon": -56.066946,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "hotel-montevideo",
+   "nombre": "Hotel Montevideo",
+   "alias": [],
+   "direccion": "José Benito Lamas 2901, 11300 Montevideo",
+   "lat": -34.913071,
+   "lon": -56.153315,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1296,18 +1285,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "mbc-punta-carretas",
-   "nombre": "MBC Punta Carretas",
-   "alias": [
-    "Montevideo Beer Company Punta Carretas"
-   ],
-   "direccion": "Francisco Solano García 2576, Punta Carretas",
-   "lat": -34.92403,
-   "lon": -56.15725,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "maciel-1384",
    "nombre": "Maciel 1384",
    "alias": [],
@@ -1543,6 +1520,16 @@
    "direccion": "Cochabamba 2882",
    "lat": -34.8488928,
    "lon": -56.1099432,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "parque-maua",
+   "nombre": "Parque Mauá",
+   "alias": [],
+   "direccion": "Rambla Sur",
+   "lat": -34.912177,
+   "lon": -56.196065,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1987,6 +1974,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "sansuena",
+   "nombre": "Sansueña",
+   "alias": [],
+   "direccion": "Orinoco 4968",
+   "lat": -34.8958906,
+   "lon": -56.0979762,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "sitio-parque-roosevelt",
    "nombre": "Sitio · Parque Roosevelt",
    "alias": [
@@ -2071,7 +2068,6 @@
     "Teatro Galpón",
     "El Galpón",
     "Teatro Galpon Sala Cero",
-    "Teatro El Galpón, Sala Campodónico",
     "Teatro Galpón, Sala Cero",
     "Teatro el Gapón",
     "Sala Campodónico | Teatro El Galpón"

@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-19T23:29:34.671191-03:00",
+ "corrida": "2026-11-20T16:20:10.629570-03:00",
  "ok": true,
- "cantidad": 87,
+ "cantidad": 89,
  "errores": [],
  "eventos": [
   {
@@ -331,13 +331,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-26T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -397,13 +390,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T21:00:00-03:00",
      "fin": null,
@@ -480,59 +466,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42237.jpg",
    "productor": "Carolina Genoni Kirschenbaum",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34530",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34530",
-   "titulo": "Asesino (la belleza del horror)",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Un asesino nos cuenta su vida a través de recuerdos de una infancia marcada por la violencia y el rechazo familiar, la búsqueda obsesiva de algo que no sabe si existe y la justificación de sus propios demonios. Entre la manipulación, el trauma y una profunda reflexión sobre la condición humana, el…",
-   "lugar": {
-    "nombre": "Teatro Stella D'Italia - La Gaviota",
-    "direccion": "Mercedes 1805",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 660.0,
-    "hasta": 660.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34530",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Promo grupal",
-     "tipo": "Promo 2 x $ 1100",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34530"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41890.jpg",
-   "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -940,13 +873,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-26T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1058,13 +984,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T20:30:00-03:00",
      "fin": null,
@@ -1324,13 +1243,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T21:00:00-03:00",
      "fin": null,
@@ -2017,13 +1929,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-22T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2385,6 +2290,95 @@
   },
   {
    "fuente": "cartelera_mvd",
+   "id_externo": "35023",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35023",
+   "titulo": "El sonido",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Entre misterios y secretos, tres hermanos intentan sostener lo que queda de la familia luego de la muerte de su madre. La llegada de un enigmático Sueco, con un aparato capaz de recuperar los sonidos del pasado, hace de esta comedia un viaje por los límites entre lo real y lo imaginado.",
+   "lugar": {
+    "nombre": "Centro Cultural H. Bosch",
+    "direccion": "Av. Gonzalo Ramírez 1824",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-10T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-11T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-12T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-13T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-15T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-16T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35023",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42380.jpg",
+   "productor": "Juan Pablo Moreno",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
    "id_externo": "34628",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34628",
    "titulo": "El teatro",
@@ -2400,13 +2394,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T20:00:00-03:00",
      "fin": null,
@@ -2535,13 +2522,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-20T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2632,6 +2612,53 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41308.jpg",
    "productor": "Rafael Pence",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "35024",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35024",
+   "titulo": "Gabriel Rolón: Palabra Plena",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Somos humanos en tanto habitamos un mundo de palabras. Un mundo lleno de imágenes y personas que no veremos jamás, y sin embargo nos recorren. Dar la palabra es darse uno mismo, siempre y cuando no se trate de una palabra vacía. No siempre que hablamos decimos algo de nosotros. La única palabra…",
+   "lugar": {
+    "nombre": "Auditorio Nacional del SODRE - Sala Eduardo Fabini",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 2600.0,
+    "hasta": 5600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35024",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42381.jpg",
+   "productor": "Carlos Nieto",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -2735,6 +2762,67 @@
   },
   {
    "fuente": "cartelera_mvd",
+   "id_externo": "35025",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35025",
+   "titulo": "Infieles en apuros",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Infieles en apuros es una comedia de enredos de José Rodríguez donde las mentiras tienen patas cortas y las excusas se acaban rápido. Cinco personajes, secretos que se cruzan y una noche en la que nadie sale ileso. Una comedia donde la infidelidad, el descaro y las risas se ponen en apuros.",
+   "lugar": {
+    "nombre": "Espacio Finisterre",
+    "direccion": "Convención 1328",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-12T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-19T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35025",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42382.jpg",
+   "productor": "Andreína Gámez",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
    "id_externo": "34951",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34951",
    "titulo": "Jubiladas",
@@ -2804,13 +2892,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-26T20:30:00-03:00",
      "fin": null,
@@ -2951,13 +3032,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T20:30:00-03:00",
      "fin": null,
@@ -3352,13 +3426,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-26T21:30:00-03:00",
      "fin": null,
@@ -3883,13 +3950,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-25T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -4330,13 +4390,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T21:00:00-03:00",
      "fin": null,

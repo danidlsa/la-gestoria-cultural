@@ -1,52 +1,10 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-19T23:36:19.472366-03:00",
+ "corrida": "2026-11-20T16:26:44.410842-03:00",
  "ok": true,
- "cantidad": 13,
+ "cantidad": 12,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "mientrada",
-   "id_externo": "30729",
-   "url": "https://mientrada.com.uy/evento/el-zucara-y-carlos-malo-30729",
-   "titulo": "EL ZUCARA Y CARLOS MALO",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Contáctanos a nuestro WhatsApp Oficial",
-   "lugar": {
-    "nombre": "ANASTASIA",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mientrada.com.uy/evento/el-zucara-y-carlos-malo-30729",
-     "via": "mientrada"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30729_banner5.jpeg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "mientrada",
    "id_externo": "30789",

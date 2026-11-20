@@ -2378,6 +2378,40 @@
 "id": null,
 "generos": [],
 "fecha": "2026-11-20T02:38:23.586304"
+},
+"pablo cocina y kimba pintos": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-20T19:28:53.317970"
+},
+"pablo cocina": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-20T19:28:53.687252"
+},
+"tadu": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-20T19:28:54.137453"
+},
+"uli jon roth": {
+"id": "Q156139",
+"generos": [
+"Q193355"
+],
+"fecha": "2026-11-20T19:28:55.325614"
+},
+"michael jackson": {
+"id": "Q2831",
+"generos": [
+"Q37073",
+"Q850412",
+"Q131272",
+"Q58339",
+"Q11399",
+"Q11403"
+],
+"fecha": "2026-11-20T19:28:56.582621"
 }
 },
 "generos": {
@@ -2452,6 +2486,9 @@
 "Q1344": "ópera",
 "Q1632601": "nuevo tango",
 "Q76092": "glam rock",
-"Q217467": "art rock"
+"Q217467": "art rock",
+"Q193355": "rock blues",
+"Q850412": "R&B contemporáneo",
+"Q131272": "soul"
 }
 }

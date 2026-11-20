@@ -1,6 +1,6 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-19T23:34:12.642737-03:00",
+ "corrida": "2026-11-20T16:24:42.458492-03:00",
  "ok": true,
  "cantidad": 18,
  "errores": [],
@@ -22,13 +22,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T00:00:00-03:00",
      "fin": null,
@@ -444,6 +437,13 @@
     },
     {
      "inicio": "2027-01-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-19T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -490,13 +490,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-20T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -911,6 +904,13 @@
     },
     {
      "inicio": "2027-01-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-19T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -957,13 +957,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-20T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1378,6 +1371,13 @@
     },
     {
      "inicio": "2027-01-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-19T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1786,6 +1786,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -2186,6 +2193,13 @@
     },
     {
      "inicio": "2027-01-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-19T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,

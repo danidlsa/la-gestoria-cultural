@@ -1,8 +1,8 @@
 {
  "fuente": "gurvich",
- "corrida": "2026-11-19T23:34:20.050558-03:00",
+ "corrida": "2026-11-20T16:24:47.082561-03:00",
  "ok": true,
- "cantidad": 2,
+ "cantidad": 1,
  "errores": [],
  "eventos": [
   {
@@ -22,13 +22,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T00:00:00-03:00",
      "fin": null,
@@ -448,6 +441,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-19T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": null,
@@ -466,48 +466,6 @@
    "etiquetas": [],
    "muestra": true,
    "hasta": "2027-06-15"
-  },
-  {
-   "fuente": "gurvich",
-   "id_externo": "visita-comentada-por-gurvich-y-la-voz-de-la-ciudad-con-su-curador",
-   "url": "https://museogurvich.org/actividad/visita-comentada-por-gurvich-y-la-voz-de-la-ciudad-con-su-curador/",
-   "titulo": "Visita comentada por Gurvich y la voz de la ciudad con su curador",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "Te invitamos a una visita comentada con Enrique Aguerre, curador, en la nueva exposición temporal del Museo.",
-   "lugar": {
-    "nombre": "Museo Gurvich",
-    "direccion": "Sarandí 524",
-    "lat": -34.90748,
-    "lon": -56.2043,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://museogurvich.org/actividad/visita-comentada-por-gurvich-y-la-voz-de-la-ciudad-con-su-curador/",
-     "via": "gurvich"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://museogurvich.org/wp-content/uploads/2026/11/5-JGurvich-Gato-y-el-Frigorifico-del-Cerro-1957-tinta-y-lapiz-145x20-cm.jpg",
-   "productor": "Museo Gurvich",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
   }
  ]
 }

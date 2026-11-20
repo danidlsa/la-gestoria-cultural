@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-19T23:37:26.439097-03:00",
+ "corrida": "2026-11-20T16:27:49.390686-03:00",
  "ok": true,
- "cantidad": 62,
+ "cantidad": 60,
  "errores": [],
  "eventos": [
   {
@@ -67,6 +67,53 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261111",
+   "url": "https://www.instagram.com/p/DfiNaf8mFgg/",
+   "titulo": "Centro Cultural de España: Beethoven 199",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Beethoven 199! Se acerca el bicentenario de la muerte de Ludwig van Beethoven y lo conmemoramos con un ciclo de conciertos de música de cámara que reúne a jóvenes talentos de nuestro país junto a destacados artistas. Una oportunidad para disfrutar en vivo de algunas de las grandes obras del…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfiNaf8mFgg/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/db13f0afa4cb.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -259,53 +306,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261111",
-   "url": "https://www.instagram.com/p/DfiNaf8mFgg/",
-   "titulo": "Centro Cultural de España: Beethoven 199",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Beethoven 199! Se acerca el bicentenario de la muerte de Ludwig van Beethoven y lo conmemoramos con un ciclo de conciertos de música de cámara que reúne a jóvenes talentos de nuestro país junto a destacados artistas. Una oportunidad para disfrutar en vivo de algunas de las grandes obras del…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfiNaf8mFgg/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/db13f0afa4cb.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "lamadredelassecond-20261114",
    "url": "https://www.instagram.com/p/Df8Xm2EHcrD/",
    "titulo": "La Madre de las Second Hand: PLAZA DE LAS PIONERAS",
@@ -348,15 +348,15 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "el.mingus-20261119",
-   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
-   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Jazzterday",
-   "categoria": "musica",
+   "id_externo": "sansuena_cafevivero-20261119",
+   "url": "https://www.instagram.com/p/Df8FfWKtjrF/",
+   "titulo": "Sansueña: Malvín se llena de flamenco! Una noche para dejarse llevar por la música",
+   "categoria": "danza",
    "categoria_segura": false,
-   "descripcion_corta": "Jueves 19 de noviembre: Jazzterday",
+   "descripcion_corta": "¡Malvín se llena de flamenco! Una noche para dejarse llevar por la música. ¿Te imaginás terminar la semana con el sonido de las guitarras, el ritmo del cajón y toda la fuerza y la emoción del flamenco? En Sansueña Café Vivero te invitamos a vivir una noche especial con el Trío de Flamenco…",
    "lugar": {
-    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-    "direccion": null,
+    "nombre": "Sansueña",
+    "direccion": "Orinoco 4968",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -364,98 +364,7 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5201ad786202.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "montevideobeercompany-20261119",
-   "url": "https://www.instagram.com/p/Df5GWpclLPH/",
-   "titulo": "MBC: Vamos con una noche de música para conmemorar la salida del jueguito?",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Vamos con una noche de música para conmemorar la salida del jueguito? Show en vivo Entrada libre MBC Punta Carretas Jueves 19/11 losamigosdeunamigo en vivo para estirar la jornada",
-   "lugar": {
-    "nombre": "MBC Punta Carretas",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df5GWpclLPH/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e5efcf2603e3.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261119",
-   "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
-   "titulo": "The Shannon: PRIMA DONNA",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Jueves 19/Noviembre: PRIMA DONNA Clásicos de rock - 22 hs Cubierto artístico $150 Club Shannon: ABIIRI Y LOS PÉTALOS DE CRISTAL, NYXIA y POLIFAGIA Rock&Roll - 22 hs Cubierto artístico $100",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T22:00:00-03:00",
+     "inicio": "2026-11-27T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -463,26 +372,24 @@
     }
    ],
    "precio": {
-    "desde": 100.0,
-    "hasta": 150.0,
+    "desde": 400.0,
+    "hasta": 400.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
+     "url": "https://www.instagram.com/p/Df8FfWKtjrF/",
      "via": "instagram"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1b37816a9388.jpg",
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2d73c82f9089.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -520,97 +427,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b556e967e906.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "el.mingus-20261120",
-   "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
-   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Piano Bar",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábado 20 de noviembre (al mediodía): Piano Bar",
-   "lugar": {
-    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T12:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfr3nBRFTTa/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a9a7a1b72ebc.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "clubculturalcharco-20261120",
-   "url": "https://www.instagram.com/p/Dfx_XrClazp/",
-   "titulo": "Club Cultural Charco: conferencia «Zona de influencia» con Leila Guerriero",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": "Viernes 20.11 13:00 — La escritora y periodista argentina, referente del periodismo narrativo latinoamericano, brindará una conferencia titulada Zona de influencia en el aula magna de la fic_udelar (San Salvador 1944, planta baja). Modera: Mauricio Cheguhem. Participan las docentes Sabrina Martínez…",
-   "lugar": {
-    "nombre": "Aula Magna de la FIC (Udelar)",
-    "direccion": "San Salvador 1944",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T13:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dfx_XrClazp/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5e98e293e59b.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -769,7 +585,7 @@
    "titulo": "The Shannon: PIANO BAR",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Viernes 20/Noviembre: PIANO BAR Clásicos de rock& pop - 22 hs Cubierto artístico $250 Club Shannon: NENES DE ANTES Tributo a Divididos - 22 hs Cubierto artístico $300",
+   "descripcion_corta": "Viernes 20/Noviembre: PIANO BAR Clásicos de rock& pop - 22 hs Cubierto artístico $300 Club Shannon: NENES DE ANTES Tributo a Divididos - 22 hs Cubierto artístico $300",
    "lugar": {
     "nombre": "The Shannon irish pub",
     "direccion": "Bartolomé Mitre 1318",
@@ -788,7 +604,7 @@
     }
    ],
    "precio": {
-    "desde": 250.0,
+    "desde": 300.0,
     "hasta": 300.0,
     "moneda": "UYU",
     "gratis": false
@@ -988,19 +804,22 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "paseo_cultural_ciudad_vieja-20261121",
-   "url": "https://www.instagram.com/p/Df7sNg5JZQP/",
-   "titulo": "Paseo Cultural Ciudad Vieja: Paseo Cultural de Ciudad Vieja junto a Descubrí Montevideo y Municipio B presentan la 8a.",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Paseo Cultural de Ciudad Vieja junto a Descubrí Montevideo y Municipio B presentan la 8a. edición de Paseo de las Artes de Plaza Zabala . Artistas plásticos estarán exponiendo y pintando en vivo, transformando el rincón más parisino del Casco histórico en un Atelier a cielo abierto! Además en un…",
+   "id_externo": "lamadredelassecond-20261121-av-agraciada",
+   "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
+   "titulo": "La Madre de las Second Hand: PLAZA PRIMERO DE MAYO",
+   "categoria": "feria",
+   "categoria_segura": true,
+   "descripcion_corta": "SÁBADO 21 – PLAZA PRIMERO DE MAYO Más de 150 stands con ropa, calzado, accesorios, libros, juguetes y objetos de segunda mano. ¡Además, food trucks! Av. de las Leyes esquina Gral Flores. De 11 a 18 hs. ¡Dos días para recorrer y disfrutar! Apoya: municipio_a",
    "lugar": {
-    "nombre": "Plaza Zabala",
+    "nombre": "Av. Agraciada",
     "direccion": null,
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [
+     "Agraciada",
+     "San Quintín"
+    ]
    },
    "funciones": [
     {
@@ -1011,20 +830,15 @@
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
+   "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Df7sNg5JZQP/",
+     "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
      "via": "instagram"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d7c61e01478b.jpg",
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5df3f8cc8ddf.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1142,6 +956,48 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "cultus_uy-20261121-patio-la-bahia",
+   "url": "https://www.instagram.com/p/Df55qfpGNoO/",
+   "titulo": "Casa Cultus: S en Ciudad Vieja · El Bajo se encuentra",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábados en Ciudad Vieja El Bajo se encuentra Este sábado 21 de noviembre, Ciudad Vieja se recorre caminando. Una jornada para descubrir el Bajo y su bahía, con arte, música, vinos, artesanías y encuentros en cada esquina. Qué nos espera Casa Cultus, Entre aquí y allá : huellas de la diáspora…",
+   "lugar": {
+    "nombre": "Patio La Bahía",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df55qfpGNoO/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a0b7505399bc.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "mercadoferrando-20261121",
    "url": "https://www.instagram.com/p/Df0KuZ0s8x8/",
    "titulo": "Mercado Ferrando: Show de títeres en Ferrando",
@@ -1174,6 +1030,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ea7a37c8a1da.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "paseo_cultural_ciudad_vieja-20261121",
+   "url": "https://www.instagram.com/reel/Df9xLkVRD4x/",
+   "titulo": "Paseo Cultural Ciudad Vieja: Paseo Cultural de Ciudad Vieja junto a Descubrí Montevideo y Municipio B presentan la 8a.",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "¡EXPO PESCA URUGUAY! Este sábado en el Dique Mauá con entrada gratuita !!! +50 stands Degustaciones Plaza de comidas Mercado de compras Cocina en vivo: Música Julio Victor El Zucará Patuco López Dj Pamela Román Carol & Marian Charlas y talleres para niños y niñas Sábado 21 de noviembre 17 a 22 hs…",
+   "lugar": {
+    "nombre": "Parque Mauá",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/Df9xLkVRD4x/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d7c61e01478b.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1601,11 +1504,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261124",
-   "url": "https://www.instagram.com/p/DfxgK03mBAl/",
+   "url": "https://www.instagram.com/reel/Df-BP8myokM/",
    "titulo": "Centro Cultural de España: Alorí de Violeta Veinte – Trío",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Alorí de Violeta Veinte – Trío La tradición también puede ser un punto de partida para crear nuevos universos sonoros. Alorí es el proyecto personal de la violinista, cantante y compositora española Violeta Veinte, una propuesta que entrelaza músicas de raíz, folklore ibérico, jazz, canción e…",
+   "descripcion_corta": "Alorí de Violeta Veinte – Trío martes 24 de noviembre 19:30 h CCE Montevideo - Rincón 629 Actividad gratuita. La tradición también puede ser un punto de partida para crear nuevos universos sonoros. Alorí es el proyecto personal de la violinista, cantante y compositora española Violeta Veinte, una…",
    "lugar": {
     "nombre": "Centro Cultural de España",
     "direccion": "Rincón 629",
@@ -1631,7 +1534,7 @@
    },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DfxgK03mBAl/",
+     "url": "https://www.instagram.com/reel/Df-BP8myokM/",
      "via": "instagram"
     }
    ],
@@ -1648,11 +1551,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "paseo_cultural_ciudad_vieja-20261124",
-   "url": "https://www.instagram.com/reel/Df4e-aCijGM/",
+   "url": "https://www.instagram.com/p/Df9-dseEXYR/",
    "titulo": "Paseo Cultural Ciudad Vieja: Presenta una nueva Gala Lírica, esta vez con una propuesta dedicada a la opereta…",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "presenta una nueva Gala Lírica, esta vez con una propuesta dedicada a la opereta vienesa y francesa basada en obras de Lehár, Offenbach, Reynaldo Hahn y Planquette de la mano de destacados artistas del de Buenos Aires. Una velada para dejarse llevar por la música, las voces y el encanto de la…",
+   "descripcion_corta": "La Sociedad Uruguaya ProÓpera presenta la gala lírica De Viena a París este martes 24 . Tres figuras de la lírica argentina darán un recital el martes 24 a las 20 en la sala Vaz Ferreira (subsuelo de la Biblioteca Nacional), en una nueva producción de la Sociedad Uruguaya ProÓpera, que regresó este…",
    "lugar": {
     "nombre": "Auditorio Vaz Ferreira",
     "direccion": null,
@@ -1673,7 +1576,7 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/reel/Df4e-aCijGM/",
+     "url": "https://www.instagram.com/p/Df9-dseEXYR/",
      "via": "instagram"
     }
    ],

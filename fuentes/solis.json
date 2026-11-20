@@ -1,10 +1,68 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-19T23:31:10.049304-03:00",
+ "corrida": "2026-11-20T16:21:41.422451-03:00",
  "ok": true,
- "cantidad": 25,
+ "cantidad": 27,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "solis",
+   "id_externo": "3100",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Paramo-uc3100",
+   "titulo": "Páramo",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202611/W756_H530/7081.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "solis",
    "id_externo": "3099",
@@ -229,30 +287,30 @@
    },
    "funciones": [
     {
-     "inicio": "2027-02-18T21:00:00-03:00",
+     "inicio": "2027-02-18T00:00:00-03:00",
      "fin": null,
-     "sin_hora": false,
+     "sin_hora": true,
      "sala": "Sala Zavala Muniz",
      "agotada": false
     },
     {
-     "inicio": "2027-02-19T21:00:00-03:00",
+     "inicio": "2027-02-19T00:00:00-03:00",
      "fin": null,
-     "sin_hora": false,
+     "sin_hora": true,
      "sala": "Sala Zavala Muniz",
      "agotada": false
     },
     {
-     "inicio": "2027-02-20T21:00:00-03:00",
+     "inicio": "2027-02-20T00:00:00-03:00",
      "fin": null,
-     "sin_hora": false,
+     "sin_hora": true,
      "sala": "Sala Zavala Muniz",
      "agotada": false
     },
     {
-     "inicio": "2027-02-21T21:00:00-03:00",
+     "inicio": "2027-02-21T00:00:00-03:00",
      "fin": null,
-     "sin_hora": false,
+     "sin_hora": true,
      "sala": "Sala Zavala Muniz",
      "agotada": false
     }
@@ -709,6 +767,64 @@
   },
   {
    "fuente": "solis",
+   "id_externo": "3029",
+   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Cartografia-sobre-la-identidad-uc3029",
+   "titulo": "Cartografía sobre la identidad",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-20T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-21T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": "Sala Zavala Muniz",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021278/cartografia-de-la-identidad",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202607/W756_H530/6834.png",
+   "productor": "Teatro Solís",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021278/cartografia-de-la-identidad"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "solis",
    "id_externo": "2987",
    "url": "https://www.teatrosolis.org.uy/PROGRAMACION/19-Festival-de-Jazz-de-Montevideo-uc2987",
    "titulo": "19° Festival de Jazz de Montevideo",
@@ -937,13 +1053,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-19T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": "Sala Principal",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-20T00:00:00-03:00",
      "fin": null,
