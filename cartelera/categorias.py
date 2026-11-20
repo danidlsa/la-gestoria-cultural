@@ -9,7 +9,10 @@ REGLAS: list[tuple[str, list[str]]] = [
     # "revista" no: casi siempre es una revista de papel ("fue directora de la revista ARTE"); las de carnaval igual
     # dicen "carnaval".
     ("carnaval", ["murga", "carnaval", "parodistas", "humoristas", "lubolos", "candombe"]),
-    ("infantil", ["infantil", "infantiles", "ninos", "ninas", "familia", "familiar", "chicos", "titeres", "princesa"]),
+    # "familia" sola no: "historias de amor, familia y barro" son crónicas para grandes. Sí "para toda la familia".
+    ("infantil", ["infantil", "infantiles", "ninos", "ninas", "en familia", "toda la familia", "para la familia",
+                  "para las familias", "espectaculo familiar", "funcion familiar", "show familiar", "actividad familiar",
+                  "propuesta familiar", "chicos", "titeres", "princesa"]),
     ("danza", ["ballet", "danza", "bailarin*", "coreograf*", "flamenco"]),
     ("humor", ["stand up", "standup", "humor", "humorista", "monologo"]),
     ("musica", ["concierto", "recital", "orquesta", "filarmonica", "sinfonica", "banda", "cuarteto",

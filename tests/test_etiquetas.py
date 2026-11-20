@@ -62,3 +62,19 @@ def test_recorridos_y_tours_a_pie_pero_no_giras_de_musica(ahora):
     ]
     etiquetar(eventos, {})
     assert [e.categoria for e in eventos] == ["tour", "tour", "tour", "musica"]
+
+
+def test_el_nombre_de_la_sala_antes_de_los_dos_puntos_no_es_un_ciclo(ahora):
+    # Así titula los posts de Instagram: "The Shannon: PIANO BAR", "Club Cultural Charco: taller…".
+    eventos = [
+        evento("The Shannon: PIANO BAR", "the-shannon", ahora=ahora),
+        evento("The Shannon: PRIMA DONNA", "the-shannon", dias=2, ahora=ahora),
+        evento("𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Jam", "el-mingus", ahora=ahora),
+        evento("𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Trío", "el-mingus", dias=2, ahora=ahora),
+        evento("FAC: visita guiada", "fac", ahora=ahora),
+        evento("FAC: charla", "fac", dias=2, ahora=ahora),
+        evento("Partículas: Miel", "the-shannon", ahora=ahora),
+        evento("Partículas: Higuera", "the-shannon", dias=3, ahora=ahora),
+    ]
+    nombres = {"the-shannon": "The Shannon irish pub", "el-mingus": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬", "fac": "FAC - Fundación de Arte Contemporáneo"}
+    assert [c.titulo for c in etiquetar(eventos, nombres)] == ["Partículas"]

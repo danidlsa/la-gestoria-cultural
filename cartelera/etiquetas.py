@@ -1,6 +1,7 @@
 """Subcategorías, etiquetas y ciclos: lo que arma las secciones especiales de la web."""
 
 import re
+import unicodedata
 from collections import defaultdict
 
 from cartelera.geo import sin_tildes
@@ -126,7 +127,13 @@ def _slug(texto: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", sin_tildes(texto)).strip("-")
 
 
-def detectar_ciclos(eventos: list[Evento]) -> list[Ciclo]:
+def _nombra_el_lugar(prefijo: str, lugar: str) -> bool:
+    """"The Shannon: PIANO BAR" en The Shannon Irish Pub: el prefijo es la sala, no un ciclo (así titula Instagram)."""
+    a, b = (re.sub(r"[^a-z0-9]+", " ", sin_tildes(unicodedata.normalize("NFKC", t))).strip() for t in (prefijo, lugar))
+    return bool(a and b) and (f" {a} " in f" {b} " or f" {b} " in f" {a} ")
+
+
+def detectar_ciclos(eventos: list[Evento], nombres_lugar: dict[str, str] | None = None) -> list[Ciclo]:
     """Asigna `ciclo_id` a los eventos que forman parte de un ciclo y devuelve los ciclos."""
     candidatos: dict[tuple[str, str], list[Evento]] = defaultdict(list)
     nombres: dict[str, str] = {}
@@ -142,7 +149,7 @@ def detectar_ciclos(eventos: list[Evento]) -> list[Ciclo]:
             candidatos[(_slug(nombre), "")].append(evento)
             continue
         prefijo = PREFIJO.match(evento.titulo)
-        if prefijo:
+        if prefijo and not _nombra_el_lugar(prefijo.group(1), (nombres_lugar or {}).get(evento.lugar_id, "")):
             candidatos[(_slug(prefijo.group(1)), evento.lugar_id)].append(evento)
 
     ciclos = []
@@ -183,4 +190,4 @@ def etiquetar(eventos: list[Evento], nombres_lugar: dict[str, str], buscar_gener
         if evento.categoria == "musica" and not evento.subcategoria:
             evento.subcategoria = genero_por_texto(evento) or (buscar_genero(evento.titulo) if buscar_genero else None)
         evento.etiquetas = etiquetas(evento, nombres_lugar.get(evento.lugar_id, "")) + (["bar"] if evento.lugar_id in bares else [])
-    return detectar_ciclos(eventos)
+    return detectar_ciclos(eventos, nombres_lugar)

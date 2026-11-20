@@ -399,6 +399,7 @@ notas = "fiesta de fin de año de Mamba: el lugar está en el afiche (en OpenStr
 [[correccion]]
 id = "clubculturalcharco-20261119"
 titulo = "Club Cultural Charco: Leila Guerriero conversa con Soledad Gago"
+categoria = "charla"  # el post habla del escenario y "en vivo": salía como música
 inicio = "2026-11-19T18:30:00-03:00"
 notas = "en la calle cortada frente a Charco; firma libros después"
 
@@ -420,6 +421,7 @@ lugar = "Destilería Capicúa"
 direccion = "Pérez Castellano 1364"
 barrio = "Ciudad Vieja"
 notas = "lecturas del taller de crónicas de Charco en la destilería (dirección de Wanderlog)"
+categoria = "charla"  # lecturas de crónicas, con algo de música
 
 [[correccion]]
 id = "clubculturalcharco-20261126"

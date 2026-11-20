@@ -891,8 +891,8 @@ def por_defecto(ruta: Path | None = None) -> dict[str, str]:
 
 # Lo que se puede corregir a mano de un borrador (sección [[correccion]] de la lista, por el id del borrador).
 # También el título (manda sobre el aprobado en el aviso) y el inicio, cuando el post confunde el día ("el domingo 29
-# cumple 80 y lo festejamos el día antes"): una sola función, a esa hora.
-_CORREGIBLE = ("lugar", "direccion", "barrio", "lat", "lon", "bar", "titulo", "inicio")
+# cumple 80 y lo festejamos el día antes"): una sola función, a esa hora. Y la categoría, si las palabras confunden.
+_CORREGIBLE = ("lugar", "direccion", "barrio", "lat", "lon", "bar", "titulo", "inicio", "categoria")
 
 
 def correcciones(ruta: Path | None = None) -> dict[str, dict]:

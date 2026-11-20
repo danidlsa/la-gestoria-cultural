@@ -25,6 +25,9 @@ def test_en_montevideo(lugar, lat, lon, esperado):
     ("Ballet Nacional del Sodre", "danza"),
     ("Murga Agarrate Catalina", "carnaval"),
     ("Coronel", "otros"),  # "coro" no tiene que matchear dentro de otra palabra
+    ("Desplazamiento: historias de amor, familia y barro", "otros"),  # "familia" sola no es infantil
+    ("Cuentos para disfrutar en familia", "infantil"),
+    ("Un espectáculo para toda la familia", "infantil"),
 ])
 def test_clasificar(texto, categoria):
     assert clasificar(texto) == categoria
