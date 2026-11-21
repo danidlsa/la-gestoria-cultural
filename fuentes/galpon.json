@@ -1,10 +1,75 @@
 {
  "fuente": "galpon",
- "corrida": "2026-11-20T16:21:56.552449-03:00",
+ "corrida": "2026-11-20T23:33:35.934828-03:00",
  "ok": true,
  "cantidad": 20,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "galpon",
+   "id_externo": "inestable-de-sutottos",
+   "url": "https://www.teatroelgalpon.org.uy/espectaculos/inestable-de-sutottos/",
+   "titulo": "INESTABLE de SUTOTTOS",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "VUELVEN LOS SUTOTTOS CON SU OBRA “INESTABLE” Con Andrés Caminos, Gadiel Sztryk, una comedia sobre los miedos.",
+   "lugar": {
+    "nombre": "Teatro El Galpón",
+    "direccion": "Av. 18 de Julio 1618",
+    "lat": -34.90403,
+    "lon": -56.181082,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-29T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala César Campodónico",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1800.0,
+    "hasta": 1800.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/INESTABLE--de-SUTOTTOS-Sala-Campodonico/35117/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular y El Galpón $ 700, Socio Espectacular y El Galpón $ 900 La Diaria y BROU 2 x $ 1800",
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/inestable-de-sutottos/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "La Diaria y BROU 2 x $1.400, Socio Espectacular y El Galpón $ 900 La Diaria y BROU 2 x $ 1800",
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/inestable-de-sutottos/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "La Diaria y BROU 2 x $1.400, Socio Espectacular y El Galpón $ 900 La Diaria y BROU 2 x $ 1800",
+     "url": "https://www.teatroelgalpon.org.uy/espectaculos/inestable-de-sutottos/"
+    }
+   ],
+   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/11/Redtickets-inestable.jpg.jpeg",
+   "productor": "Producción de Teatro El Galpón Dramaturgia y dirección: Andrés Caminos y Gadiel Sztryk",
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/INESTABLE--de-SUTOTTOS-Sala-Campodonico/35117/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "galpon",
    "id_externo": "la-gaviota-ensayo-abierto",
@@ -881,50 +946,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/eventoprivado/33832/ELHOMBREINESPERADOSalaCampodonico-843786/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
-   "id_externo": "camerata-portena",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/camerata-portena/",
-   "titulo": "Camerata Porteña",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "La Camerata Porteña llega a Montevideo con “El Ángel Vive”, su homenaje a Astor Piazzolla.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/CAMERATA-PORTENA-El-Angel-Vive---Homenaje-a-Astor-Piazzolla-Sala-Campodonico/33478/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/09/Camerata-Portena-APY-REDTICKETS-1200x628-1.jpg",
-   "productor": "Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/CAMERATA-PORTENA-El-Angel-Vive---Homenaje-a-Astor-Piazzolla-Sala-Campodonico/33478/"
    ],
    "ciclo": null,
    "etiquetas": [],

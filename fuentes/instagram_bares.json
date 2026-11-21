@@ -1,6 +1,6 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-20T16:27:49.390686-03:00",
+ "corrida": "2026-11-20T23:39:32.050868-03:00",
  "ok": true,
  "cantidad": 60,
  "errores": [],
@@ -437,101 +437,12 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "facmvd-20261120",
-   "url": "https://www.instagram.com/p/DfrhWVgFiEO/",
-   "titulo": "FAC: Presentación editorial",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "Presentación editorial Margen de maniobra Con Fabiana Puentes y Alejandro Cruz. alejandro_cruz_art puentesfabiana 20 de noviembre 18 h Museo Nacional de Artes Visuales (MNAV) Av. Tomás Giribaldi 2283, esquina Julio Herrera y Reissig doteditorial _anastrauss_ angela_lopez_ruiz lopezlage…",
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales (MNAV)",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfrhWVgFiEO/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b59ef628b273.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261120",
-   "url": "https://www.instagram.com/p/Df2JUKbIJRv/",
-   "titulo": "Centro Cultural de España: PUENTES AL SUR",
-   "categoria": "cine",
-   "categoria_segura": false,
-   "descripcion_corta": "PUENTES AL SUR | Festival de cine Historias que cruzan fronteras, desafían estereotipos y nos invitan a mirar la migración desde otras perspectivas. Llega al CCE Puentes al Sur, una iniciativa que, a través del cine, busca visibilizar las experiencias y trayectorias de las personas migrantes…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df2JUKbIJRv/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/658a3bbc08b3.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "centroculturalterminalgoes-20261120",
-   "url": "https://www.instagram.com/p/Df2KAYlnLV7/",
+   "url": "https://www.instagram.com/p/DfcStyIje9c/",
    "titulo": "Centro Cultural Terminal Goes: ASCENSO",
-   "categoria": "musica",
+   "categoria": "otros",
    "categoria_segura": false,
-   "descripcion_corta": "¡Te invitamos a disfrutar de Primavera Tango! Dúo 1071 Integrado por Abril Farolini (bandoneón) y Matías Craciun (violín), propone un viaje sonoro por las músicas del Río de la Plata desde una formación de cámara singular. A través de arreglos originales, el dúo ofrece una mirada renovada sobre…",
+   "descripcion_corta": "REÍRSE DEL PERSONAJE QUE SOMOS Laboratorio de Arte Bufo Un espacio lúdico de confrontación con los personajes y máscaras que habitamos. El bufón también es un camino de autoconocimiento para transmutar las sombras y la incongruencia que nos deforma. Un lenguaje escénico inspirado en el arquetipo…",
    "lugar": {
     "nombre": "Centro Cultural Terminal Goes",
     "direccion": "Gral. Flores y Domingo Aramburú",
@@ -542,29 +453,17 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-20T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
+     "inicio": "2026-11-21T10:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
+   "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Df2KAYlnLV7/",
+     "url": "https://www.instagram.com/p/DfcStyIje9c/",
      "via": "instagram"
     }
    ],
@@ -839,6 +738,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5df3f8cc8ddf.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "paseo_cultural_ciudad_vieja-20261121-plaza-zabala",
+   "url": "https://www.instagram.com/p/Df7sNg5JZQP/",
+   "titulo": "Paseo Cultural Ciudad Vieja: Paseo Cultural de Ciudad Vieja junto a Descubrí Montevideo y Municipio B presentan la 8a.",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Paseo Cultural de Ciudad Vieja junto a Descubrí Montevideo y Municipio B presentan la 8a. edición de Paseo de las Artes de Plaza Zabala . Artistas plásticos estarán exponiendo y pintando en vivo, transformando el rincón más parisino del Casco histórico en un Atelier a cielo abierto! Además en un…",
+   "lugar": {
+    "nombre": "Plaza Zabala",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df7sNg5JZQP/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b18bd1e7f591.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1680,6 +1626,53 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261125",
+   "url": "https://www.instagram.com/p/Df98bANoMSs/",
+   "titulo": "Centro Cultural de España: Beethoven 199! La música de cámara llega al CCE",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Beethoven 199! La música de cámara llega al CCE. En el camino hacia el bicentenario del fallecimiento de Ludwig van Beethoven, que se conmemora en 2027, te invitamos a disfrutar de una nueva presentación de este ciclo dedicado a su extraordinario legado musical. En esta edición, jóvenes talentos…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df98bANoMSs/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f83c5de3f5a3.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },

@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T16:28:52.341588-03:00",
+ "generado": "2026-11-20T23:40:48.992057-03:00",
  "cantidad": 219,
  "lugares": [
   {
@@ -49,16 +49,6 @@
    "direccion": "Colonia 1870, 11200 Montevideo, Departam",
    "lat": -34.901043,
    "lon": -56.176327,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "agadu",
-   "nombre": "AGADU",
-   "alias": [],
-   "direccion": "Canelones 1122, 11100 Montevideo",
-   "lat": -34.908911,
-   "lon": -56.19175,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -435,7 +425,7 @@
    "nombre": "Castillo Pittamiglio",
    "alias": [],
    "direccion": "Rambla Gandhi 633",
-   "lat": -34.920998,
+   "lat": -34.921,
    "lon": -56.149856,
    "barrio": null,
    "ciudad": "Montevideo"
@@ -742,9 +732,9 @@
    "id": "el-chamuyo",
    "nombre": "El Chamuyo",
    "alias": [],
-   "direccion": "25 de Mayo 591, 11000 Montevideo, Depart",
-   "lat": -34.90505,
-   "lon": -56.203959,
+   "direccion": "25 de mayo 591",
+   "lat": -34.9052103,
+   "lon": -56.2038507,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1032,6 +1022,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "hotel-del-prado",
+   "nombre": "Hotel del Prado",
+   "alias": [],
+   "direccion": "Av. Gabriela Mistral 4223",
+   "lat": -34.85503,
+   "lon": -56.207084,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "hyatt-centric",
    "nombre": "Hyatt Centric",
    "alias": [],
@@ -1112,12 +1112,22 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu-laboratorio-tecnologico-del-uruguay",
-   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
+   "id": "la-escondida-restobar",
+   "nombre": "LA ESCONDIDA RESTOBAR",
+   "alias": [],
+   "direccion": "Carmelo 1478, 11700 Montevideo, Departam",
+   "lat": -34.863657,
+   "lon": -56.189213,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "latu",
+   "nombre": "LATU",
    "alias": [
-    "LATU"
+    "LATU - Laboratorio Tecnológico del Uruguay"
    ],
-   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
+   "direccion": "Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1229,7 +1239,7 @@
    "id": "live-era",
    "nombre": "Live Era",
    "alias": [],
-   "direccion": "Uruguay 960, 11200 Montevideo, Departame",
+   "direccion": "Uruguay 960",
    "lat": -34.903487,
    "lon": -56.195803,
    "barrio": null,
@@ -1308,9 +1318,9 @@
    "id": "mercado-ferrando",
    "nombre": "Mercado Ferrando",
    "alias": [],
-   "direccion": "Chaná 2120",
-   "lat": -34.904322,
-   "lon": -56.170631,
+   "direccion": null,
+   "lat": -34.9042129,
+   "lon": -56.170688,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2199,16 +2209,6 @@
    "direccion": "José Ellauri 308",
    "lat": -34.9240642,
    "lon": -56.1601433,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "teatro-del-anglo",
-   "nombre": "Teatro del Anglo",
-   "alias": [],
-   "direccion": "S. José 1426, 11100 Montevideo, Departam",
-   "lat": -34.906601,
-   "lon": -56.184888,
    "barrio": null,
    "ciudad": "Montevideo"
   },

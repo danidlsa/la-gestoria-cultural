@@ -1,8 +1,8 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-20T16:24:42.458492-03:00",
+ "corrida": "2026-11-20T23:36:23.849445-03:00",
  "ok": true,
- "cantidad": 18,
+ "cantidad": 17,
  "errores": [],
  "eventos": [
   {
@@ -2230,48 +2230,6 @@
   },
   {
    "fuente": "mnav",
-   "id_externo": "margen2026",
-   "url": "https://mnav.gub.uy/cms.php?id=margen2026",
-   "titulo": "Presentación del libro \"Margen de maniobra\"",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=margen2026",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=margen2026",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mnav",
    "id_externo": "vozdesbord02",
    "url": "https://mnav.gub.uy/cms.php?id=vozdesbord02",
    "titulo": "Voz desbordada 02 - Vivianne (Viviana Artigas) con Andrea Ghuisolfi",
@@ -2524,48 +2482,6 @@
   },
   {
    "fuente": "mnav",
-   "id_externo": "escrituraensala",
-   "url": "https://mnav.gub.uy/cms.php?id=escrituraensala",
-   "titulo": "Actividad de cierre del taller de escritura poética en torno a la colección del MNAV: \"Relatos en proceso: colección expandida\"",
-   "categoria": "taller",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-09T16:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=escrituraensala",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=escrituraensala",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mnav",
    "id_externo": "somosjugandolambertmorera",
    "url": "https://mnav.gub.uy/cms.php?id=somosjugandolambertmorera",
    "titulo": "Diego Morera y Sebastián Lambert: Artistas en sus propias palabras de la muestra \"Somos Jugando\"",
@@ -2598,6 +2514,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://mnav.gub.uy/img.php?p=somosjugandolambertmorera",
+   "productor": "Museo Nacional de Artes Visuales",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mnav",
+   "id_externo": "escrituraensala",
+   "url": "https://mnav.gub.uy/cms.php?id=escrituraensala",
+   "titulo": "Actividad de cierre del taller de escritura poética en torno a la colección del MNAV: \"Relatos en proceso: colección expandida\"",
+   "categoria": "taller",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales",
+    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+    "lat": -34.91384,
+    "lon": -56.16497,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-09T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mnav.gub.uy/cms.php?id=escrituraensala",
+     "via": "mnav"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://mnav.gub.uy/img.php?p=escrituraensala",
    "productor": "Museo Nacional de Artes Visuales",
    "region": "montevideo",
    "enlaces": [],

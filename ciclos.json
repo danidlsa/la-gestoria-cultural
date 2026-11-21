@@ -1,31 +1,7 @@
 {
- "generado": "2026-11-20T16:28:52.341588-03:00",
- "cantidad": 23,
+ "generado": "2026-11-20T23:40:48.992057-03:00",
+ "cantidad": 24,
  "ciclos": [
-  {
-   "id": "ciclo-envejecimiento-activo",
-   "titulo": "Envejecimiento activo",
-   "lugar_id": null,
-   "desde": "2026-11-20T11:00:00-03:00",
-   "hasta": "2026-12-11T16:00:00-03:00",
-   "cantidad": 7
-  },
-  {
-   "id": "ciclo-bazofi-oriental-2026",
-   "titulo": "BAZOFI ORIENTAL 2026",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-20T17:20:00-03:00",
-   "hasta": "2026-11-21T19:45:00-03:00",
-   "cantidad": 4
-  },
-  {
-   "id": "ciclo-primavera-tango",
-   "titulo": "Primavera Tango",
-   "lugar_id": "centro-cultural-terminal-goes",
-   "desde": "2026-11-20T20:00:00-03:00",
-   "hasta": "2026-11-22T20:00:00-03:00",
-   "cantidad": 2
-  },
   {
    "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
    "titulo": "Estreno de obras Fortalecimiento de las Artes",
@@ -59,6 +35,14 @@
    "cantidad": 2
   },
   {
+   "id": "ciclo-bazofi-oriental-2026",
+   "titulo": "BAZOFI ORIENTAL 2026",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-21T17:40:00-03:00",
+   "hasta": "2026-11-21T19:45:00-03:00",
+   "cantidad": 2
+  },
+  {
    "id": "ciclo-ciclo-de-teatro",
    "titulo": "Ciclo de teatro",
    "lugar_id": null,
@@ -67,12 +51,12 @@
    "cantidad": 9
   },
   {
-   "id": "ciclo-candlelight",
-   "titulo": "Candlelight",
-   "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
-   "desde": "2026-11-21T19:30:00-03:00",
-   "hasta": "2027-02-12T21:30:00-03:00",
-   "cantidad": 5
+   "id": "ciclo-primavera-tango",
+   "titulo": "Primavera Tango",
+   "lugar_id": "centro-cultural-terminal-goes",
+   "desde": "2026-11-21T20:00:00-03:00",
+   "hasta": "2026-11-22T20:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-ciclo-marea",
@@ -99,11 +83,27 @@
    "cantidad": 2
   },
   {
+   "id": "ciclo-envejecimiento-activo",
+   "titulo": "Envejecimiento activo",
+   "lugar_id": null,
+   "desde": "2026-11-23T11:00:00-03:00",
+   "hasta": "2026-12-11T16:00:00-03:00",
+   "cantidad": 7
+  },
+  {
    "id": "ciclo-las-mujeres-de-hitchcock",
    "titulo": "Las mujeres de Hitchcock",
    "lugar_id": "cinemateca",
    "desde": "2026-11-23T17:00:00-03:00",
    "hasta": "2026-11-26T17:00:00-03:00",
+   "cantidad": 4
+  },
+  {
+   "id": "ciclo-cine-uruguayo-diez-anos",
+   "titulo": "Cine uruguayo diez años",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-23T19:35:00-03:00",
+   "hasta": "2026-11-26T19:30:00-03:00",
    "cantidad": 4
   },
   {
@@ -153,6 +153,14 @@
    "desde": "2026-12-11T17:00:00-03:00",
    "hasta": "2026-12-11T17:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-candlelight",
+   "titulo": "Candlelight",
+   "lugar_id": "sofitel-montevideo-casino-carrasco-and-spa",
+   "desde": "2026-12-19T17:30:00-03:00",
+   "hasta": "2027-02-12T21:30:00-03:00",
+   "cantidad": 5
   },
   {
    "id": "ciclo-candlelight",

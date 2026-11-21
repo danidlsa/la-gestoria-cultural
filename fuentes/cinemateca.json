@@ -1,8 +1,8 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-20T16:18:49.335828-03:00",
+ "corrida": "2026-11-20T23:30:21.608652-03:00",
  "ok": true,
- "cantidad": 22,
+ "cantidad": 24,
  "errores": [],
  "eventos": [
   {
@@ -22,13 +22,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-20T17:00:00-03:00",
-     "fin": "2026-11-20T18:20:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T17:25:00-03:00",
      "fin": "2026-11-21T18:45:00-03:00",
@@ -136,13 +129,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-20T17:10:00-03:00",
-     "fin": "2026-11-20T18:44:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T17:20:00-03:00",
      "fin": "2026-11-21T18:54:00-03:00",
      "sin_hora": false,
@@ -249,13 +235,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-20T18:40:00-03:00",
-     "fin": "2026-11-20T21:01:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T19:05:00-03:00",
      "fin": "2026-11-21T21:26:00-03:00",
      "sin_hora": false,
@@ -361,13 +340,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-20T19:10:00-03:00",
-     "fin": "2026-11-20T21:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T19:15:00-03:00",
      "fin": "2026-11-21T21:05:00-03:00",
@@ -778,162 +750,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "1595",
-   "url": "https://cinemateca.org.uy/peliculas/1595",
-   "titulo": "Sexmission",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Juliusz Machulski. Dos voluntarios para un experimento de hibernación controlada se despiertan por error en un futuro más lejano del previsto, donde la sociedad está completamente dominada por las mujeres. El sistema de humor del film es viejo como el mundo y tiene poderosos antecedentes ya que…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T17:20:00-03:00",
-     "fin": "2026-11-20T19:16:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/1595",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/Sexmission.jpg",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "BAZOFI ORIENTAL 2026",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9686",
-   "url": "https://cinemateca.org.uy/peliculas/9686",
-   "titulo": "Pacto de amor",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De David Cronenberg. Los gemelos Mantle (Jeremy Irons por dos) se destacan en el campo de la ginecología y todo el mundo los confunde, pero en realidad son muy distintos. Cronenberg desarrolla esta obra maestra sobre la idea de que la conexión psíquica entre los protagonistas es tan concreta como…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T19:45:00-03:00",
-     "fin": "2026-11-20T21:41:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9686",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy94UZw1tsSJkB4W_JiEL5L-jbzmBTJ54etGN10zxYt9fu6PAqTZ_s0Pi2&amp;s=10",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "BAZOFI ORIENTAL 2026",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
@@ -1656,6 +1472,84 @@
   },
   {
    "fuente": "cinemateca",
+   "id_externo": "9701",
+   "url": "https://cinemateca.org.uy/peliculas/9701",
+   "titulo": "Los de siempre",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De José Pedro Charlo. Este documental retrata a un grupo de vecinos y vecinas, en su mayoría adultos mayores de 70 años que viven en el barrio Casavalle de Montevideo. A través de los años, este grupo se ha reunido en una policlínica zonal para formar un coro. El documental explora cómo la música…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-23T19:35:00-03:00",
+     "fin": "2026-11-23T20:26:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9701",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40902/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Cine uruguayo diez años",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
    "id_externo": "3142",
    "url": "https://cinemateca.org.uy/peliculas/3142",
    "titulo": "Estamos no ar",
@@ -1819,6 +1713,84 @@
   },
   {
    "fuente": "cinemateca",
+   "id_externo": "9698",
+   "url": "https://cinemateca.org.uy/peliculas/9698",
+   "titulo": "El candidato",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Daniel Hendler. Un político en ascenso prepara una presentación con la que anunciará su postulación en forma independiente de su partido. Para ello reúne a un grupo de producción que se encargará de lanzar su carrera. Mirada crítica, prolija aunque un tanto superficial, a la manipulación…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T19:30:00-03:00",
+     "fin": "2026-11-24T20:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9698",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://servicios.mascinemateca.org.uy/api/Movie/GetImage/3144",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Cine uruguayo diez años",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
    "id_externo": "9694",
    "url": "https://cinemateca.org.uy/peliculas/9694",
    "titulo": "Cortina rasgada",
@@ -1897,6 +1869,84 @@
   },
   {
    "fuente": "cinemateca",
+   "id_externo": "9699",
+   "url": "https://cinemateca.org.uy/peliculas/9699",
+   "titulo": "Nueva Venecia",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Emiliano Mazza De Luca. En medio de la mayor laguna de Colombia, una aldea flotante se resiste a desaparecer a pesar de las inundaciones y los recuerdos de la masacre que los fracturó años atrás. Su pasión por el fútbol los reunirá en una aventura de realismo mágico: sacar a flote la cancha de…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T19:30:00-03:00",
+     "fin": "2026-11-25T20:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9699",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://docs-enlinea.com/assets/imagenes_material/3981_mate_still_web1.png?v=1622660519",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Cine uruguayo diez años",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
    "id_externo": "9695",
    "url": "https://cinemateca.org.uy/peliculas/9695",
    "titulo": "Marnie",
@@ -1969,6 +2019,84 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Las mujeres de Hitchcock",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9700",
+   "url": "https://cinemateca.org.uy/peliculas/9700",
+   "titulo": "Las toninas van al este",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Gonzalo Delgado, Verónica Perrotta. Miguel Ángel “El Gordo” García Mazziotti (interpretado por Jorge Denevi), es una decadente figura de la farándula del Río de la Plata que vive en Punta del Este. Rechaza la visita de su hija Virginia (Perrotta), con quien estuvo distanciado durante años. Sin…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T19:30:00-03:00",
+     "fin": "2026-11-26T20:53:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9700",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://www.revistafilm.com/wp-content/uploads/2016/08/las-toninas-van-al-este-jorge-denevi.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Cine uruguayo diez años",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
