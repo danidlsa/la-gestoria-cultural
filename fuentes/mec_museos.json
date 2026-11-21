@@ -1,94 +1,10 @@
 {
  "fuente": "mec_museos",
- "corrida": "2026-11-20T23:36:34.074171-03:00",
+ "corrida": "2026-11-21T15:18:40.200199-03:00",
  "ok": true,
- "cantidad": 6,
+ "cantidad": 4,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "mec_museos",
-   "id_externo": "fiesta-del-arbol-plantacion-colectiva-jardin-del-museo",
-   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/fiesta-del-arbol-plantacion-colectiva-jardin-del-museo",
-   "titulo": "La fiesta del árbol · Plantación colectiva en el jardín del museo",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Zorrilla",
-    "direccion": "José Luis Zorrilla de San Martín 96, Montevideo",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T10:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/fiesta-del-arbol-plantacion-colectiva-jardin-del-museo",
-     "via": "mec_museos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Ministerio de Educación y Cultura",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mec_museos",
-   "id_externo": "todo-ano-es-carnaval-0",
-   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/todo-ano-es-carnaval-0",
-   "titulo": "Todo el año es carnaval",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo del Carnaval",
-    "direccion": "Rambla 25 de Agosto 218",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T11:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/todo-ano-es-carnaval-0",
-     "via": "mec_museos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Ministerio de Educación y Cultura",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "mec_museos",
    "id_externo": "celebracion-del-dia-nacional-rumania",

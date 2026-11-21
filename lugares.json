@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-20T23:40:48.992057-03:00",
- "cantidad": 219,
+ "generado": "2026-11-21T15:22:26.901674-03:00",
+ "cantidad": 211,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -19,16 +19,6 @@
    "direccion": "25 de mayo 422, San José de Mayo",
    "lat": -34.9058556,
    "lon": -56.2055855,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "3rmj-qg6",
-   "nombre": "3RMJ+QG6",
-   "alias": [],
-   "direccion": "3RMJ+QG6, 11200 Montevideo, Departamento de Montevideo",
-   "lat": -34.915588,
-   "lon": -56.168734,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -211,16 +201,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "av-agraciada",
-   "nombre": "Av. Agraciada",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.8621373,
-   "lon": -56.2121191,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "av-republica-federal-de-alemania",
    "nombre": "Av. República Federal de Alemania",
    "alias": [],
@@ -247,18 +227,6 @@
    "direccion": "Filipinas 3661",
    "lat": -34.886471,
    "lon": -56.256732,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "bartolome-mitre-1321",
-   "nombre": "Bartolomé Mitre 1321",
-   "alias": [
-    "SALA MITRE"
-   ],
-   "direccion": "Ciudad Vieja",
-   "lat": -34.907138,
-   "lon": -56.201924,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -388,16 +356,6 @@
    "lat": -34.8627617,
    "lon": -56.0641586,
    "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "casa-cultus",
-   "nombre": "Casa Cultus",
-   "alias": [],
-   "direccion": "Piedras 604",
-   "lat": -34.9035588,
-   "lon": -56.2043428,
-   "barrio": "Ciudad Vieja",
    "ciudad": "Montevideo"
   },
   {
@@ -715,16 +673,6 @@
    "direccion": "Dr. Joaquín Requena 1351, 11200 Montevid",
    "lat": -34.903067,
    "lon": -56.169118,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "el-barzon",
-   "nombre": "El Barzón",
-   "alias": [],
-   "direccion": "Av.Gral Rivera 2019",
-   "lat": -34.902133,
-   "lon": -56.172788,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1082,16 +1030,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "jose-enrique-rodo-1995",
-   "nombre": "José Enrique Rodó 1995",
-   "alias": [],
-   "direccion": "Rodo 1995",
-   "lat": -34.9033829,
-   "lon": -56.1739249,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "juan-carlos-gomez-y-piedras",
    "nombre": "Juan Carlos Gómez y Piedras",
    "alias": [],
@@ -1112,22 +1050,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "la-escondida-restobar",
-   "nombre": "LA ESCONDIDA RESTOBAR",
-   "alias": [],
-   "direccion": "Carmelo 1478, 11700 Montevideo, Departam",
-   "lat": -34.863657,
-   "lon": -56.189213,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "latu",
-   "nombre": "LATU",
+   "id": "latu-laboratorio-tecnologico-del-uruguay",
+   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
    "alias": [
-    "LATU - Laboratorio Tecnológico del Uruguay"
+    "LATU"
    ],
-   "direccion": "Carrasco, Montevideo",
+   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1184,12 +1112,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "la-incorrecta",
-   "nombre": "La Incorrecta",
+   "id": "la-ronda",
+   "nombre": "La Ronda",
    "alias": [],
-   "direccion": "Gonzalo Ramírez 1595",
-   "lat": -34.9122778,
-   "lon": -56.1804955,
+   "direccion": "Ciudadela 1182",
+   "lat": -34.9096038,
+   "lon": -56.2000503,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1239,7 +1167,7 @@
    "id": "live-era",
    "nombre": "Live Era",
    "alias": [],
-   "direccion": "Uruguay 960",
+   "direccion": "Uruguay 960, 11200 Montevideo, Departame",
    "lat": -34.903487,
    "lon": -56.195803,
    "barrio": null,
@@ -1271,8 +1199,8 @@
    "id": "lustrino-espacio-cultural",
    "nombre": "Lustrino Espacio Cultural",
    "alias": [
-    "Lustrino",
-    "Lustrino - Espacio Cultural"
+    "Lustrino - Espacio Cultural",
+    "Lustrino"
    ],
    "direccion": "Carlos Roxlo 1359 bis esq. Av. 18 de Julio",
    "lat": -34.904767,
@@ -1336,12 +1264,14 @@
   },
   {
    "id": "molino-de-perez",
-   "nombre": "Molino de Perez",
-   "alias": [],
-   "direccion": "Molino de Perez, Pasaje Arq. Juan Veltro",
-   "lat": -34.894181,
-   "lon": -56.090516,
-   "barrio": null,
+   "nombre": "Molino de Pérez",
+   "alias": [
+    "Molino de Perez"
+   ],
+   "direccion": "Pasaje Arq. Juan Veltroni",
+   "lat": -34.8941793,
+   "lon": -56.0905563,
+   "barrio": "Malvín",
    "ciudad": "Montevideo"
   },
   {
@@ -1370,7 +1300,7 @@
    "alias": [
     "MMB"
    ],
-   "direccion": "Av. Dámaso A. Larrañaga 3195, 11600 Mont",
+   "direccion": "Av. Dámaso A. Larrañaga 3195",
    "lat": -34.880615,
    "lon": -56.15275,
    "barrio": null,
@@ -1580,20 +1510,6 @@
    "direccion": null,
    "lat": -34.9023524,
    "lon": -56.1445355,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "plaza-primero-de-mayo",
-   "nombre": "Plaza 1° de Mayo",
-   "alias": [
-    "Plaza Primero de Mayo",
-    "Plaza 1 de Mayo",
-    "PLAZA PRIMERO DE MAYO"
-   ],
-   "direccion": null,
-   "lat": -34.88965,
-   "lon": -56.18599,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1819,6 +1735,16 @@
    "direccion": "Galpón 1, ingreso por Av. Buschental",
    "lat": -34.861306,
    "lon": -56.204944,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "sala-mitre",
+   "nombre": "SALA MITRE",
+   "alias": [],
+   "direccion": "Bartolomé Mitre 1321, 11000 Montevideo,",
+   "lat": -34.907138,
+   "lon": -56.201924,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2263,16 +2189,6 @@
    "direccion": "Bartolomé Mitre 1318",
    "lat": -34.9070495,
    "lon": -56.2017409,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "universidad-catolica-del-uruguay-ucu-auditorio-san-jose",
-   "nombre": "Universidad Católica del Uruguay (UCU) – Auditorio San José",
-   "alias": [],
-   "direccion": "Av. 8 de Octubre 2733",
-   "lat": -34.8885145,
-   "lon": -56.1596085,
    "barrio": null,
    "ciudad": "Montevideo"
   },

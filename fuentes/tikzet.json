@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-20T23:39:09.694412-03:00",
+ "corrida": "2026-11-21T15:21:16.296068-03:00",
  "ok": true,
  "cantidad": 15,
  "errores": [],
@@ -430,53 +430,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "151dec2c-5b9f-40fa-90e9-dcc4b69fa97c",
-   "url": "https://www.tikzet.com/events/noche-flamenca-ice",
-   "titulo": "NOCHE FLAMENCA ICE",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "25 de mayo 422, San José de Mayo",
-    "direccion": "25 de mayo 422, San José de Mayo",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T20:00:00-03:00",
-     "fin": "2026-11-22T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/noche-flamenca-ice",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fc0806e7c-a39f-49d0-b03c-628bf5062b20.original",
-   "productor": "Gema Producciones",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "29b67f42-54aa-40b5-ba07-560cc0847b89",
    "url": "https://www.tikzet.com/events/barrio-chino",
    "titulo": "Barrio Chino",
@@ -515,6 +468,100 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fcb8a0854-a474-4ab9-a790-3cb0621b6d8e.original",
    "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "7260eff8-a701-41cf-9e5e-e8dabc49b9b4",
+   "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
+   "titulo": "El Jardín y Seba Codoni",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "El martes 1.º de diciembre nos encontramos en El Hormiguero para compartir una noche de música en vivo entre El Jardín y Seba Codoni. El Jardín se presentara esta vez en formato trío, presentando los nuevos simples \"427\" y \"Plaza sola\" y otras grajeas de su repertorio. Seba Codoni, por su parte…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-01T20:30:00-03:00",
+     "fin": "2026-12-01T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F25622e80-e502-4aa5-860c-ee33c453f1de.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "151dec2c-5b9f-40fa-90e9-dcc4b69fa97c",
+   "url": "https://www.tikzet.com/events/noche-flamenca-ice",
+   "titulo": "NOCHE FLAMENCA ICE",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "25 de mayo 422, San José de Mayo",
+    "direccion": "25 de mayo 422, San José de Mayo",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T20:00:00-03:00",
+     "fin": "2026-11-22T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/noche-flamenca-ice",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fc0806e7c-a39f-49d0-b03c-628bf5062b20.original",
+   "productor": "Gema Producciones",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -608,53 +655,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fccf19bc7-f6f4-4858-b045-967370cbe72b.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "7260eff8-a701-41cf-9e5e-e8dabc49b9b4",
-   "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
-   "titulo": "El Jardín y Seba Codoni",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "El martes 1.º de diciembre nos encontramos en El Hormiguero para compartir una noche de música en vivo entre El Jardín y Seba Codoni. El Jardín se presentara esta vez en formato trío, presentando los nuevos simples \"427\" y \"Plaza sola\" y otras grajeas de su repertorio. Seba Codoni, por su parte…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-01T20:30:00-03:00",
-     "fin": "2026-12-01T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F25622e80-e502-4aa5-860c-ee33c453f1de.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],

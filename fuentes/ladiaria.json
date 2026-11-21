@@ -1,8 +1,8 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-20T23:35:37.666884-03:00",
+ "corrida": "2026-11-21T15:17:44.295743-03:00",
  "ok": true,
- "cantidad": 50,
+ "cantidad": 49,
  "errores": [],
  "eventos": [
   {
@@ -124,13 +124,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-20T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T20:00:00-03:00",
      "fin": null,
@@ -256,13 +249,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-20T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -345,13 +331,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-20T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T00:00:00-03:00",
      "fin": null,
@@ -889,15 +868,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 650.0,
     "hasta": 650.0,
@@ -1745,58 +1716,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18110",
-   "url": "https://beneficios.ladiaria.com.uy/el-club-de-tobi-30-anos/",
-   "titulo": "El Club de Tobi 30 años",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "El Club de Tobi celebra tres décadas de trayectoria con un concierto que propone recorrer su historia y compartir con nuevas generaciones una propuesta artística que ha sabido reinventarse sin perder su esencia. El Club de Tobi ha construido un lenguaje propio que rompe las fronteras entre la…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021523/espectaculo/El%20club%20de%20Tobi%2030%20a%C3%B1os?2",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/el-club-de-tobi-30-anos/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/inicio/espectaculo/40021523/espectaculo/El%20club%20de%20Tobi%2030%20a%C3%B1os?2"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18107",
    "url": "https://beneficios.ladiaria.com.uy/ultima-linea-trio-jazz/",
    "titulo": "Última línea trío Jazz",
@@ -2314,13 +2233,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-20T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-21T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -2722,15 +2634,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 1400.0,
     "hasta": 1400.0,

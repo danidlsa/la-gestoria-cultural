@@ -1,54 +1,10 @@
 {
  "fuente": "sala_del_museo",
- "corrida": "2026-11-20T23:35:21.554459-03:00",
+ "corrida": "2026-11-21T15:17:28.302229-03:00",
  "ok": true,
  "cantidad": 12,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "sala_del_museo",
-   "id_externo": "una-fiesta-no-apta-para-centennials",
-   "url": "https://www.saladelmuseo.com.uy/shows/item/una-fiesta-no-apta-para-centennials.html",
-   "titulo": "UNA FIESTA NO APTA PARA CENTENNIALS",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": "La unión hace la FIESTA y por eso @____guadaloop & @_hastaelpiso presentan: *UN FIESTA NO APTA PARA CENTINELAS* ☎️ CUMBIA, REGGAETON, PLENA, POP y todos los delirios que vivis cuando venís a una de nuestras ediciones. Se junta la casa de Jacinto Vera con la pista que rinde homenaje a las canciones…",
-   "lugar": {
-    "nombre": "Sala del Museo",
-    "direccion": "Rambla 25 de Agosto esq. Maciel",
-    "lat": -34.905789,
-    "lon": -56.212222,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T23:50:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/GUADALOOP-Y-HASTA-EL-PISO-O-NADA-UNA-FIESTA-NO-APTA-PARA--CENTENNIALS/33830/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/Una_fiesta_no_apta_1080x1080_7d374cef8e39b7ac9d5549c1f85b0248.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/GUADALOOP-Y-HASTA-EL-PISO-O-NADA-UNA-FIESTA-NO-APTA-PARA--CENTENNIALS/33830/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "sala_del_museo",
    "id_externo": "fms",
@@ -527,6 +483,50 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/JUSTA-DO-IT-ft-El-Festi-de-las-Flores/35013/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "jadeo-4",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/jadeo-4.html",
+   "titulo": "JADEO XL",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T23:59:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/JADEO-XL--12-DE-DICIEMBRE/33849/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/Screenshot_2026-11-18_151150_bdaa2222efedf14203c350d898a95caf.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/JADEO-XL--12-DE-DICIEMBRE/33849/"
    ],
    "ciclo": null,
    "etiquetas": [],

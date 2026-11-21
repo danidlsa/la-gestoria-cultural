@@ -1,15 +1,7 @@
 {
- "generado": "2026-11-20T23:40:48.992057-03:00",
+ "generado": "2026-11-21T15:22:26.901674-03:00",
  "cantidad": 24,
  "ciclos": [
-  {
-   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
-   "titulo": "Estreno de obras Fortalecimiento de las Artes",
-   "lugar_id": null,
-   "desde": "2026-11-20T21:00:00-03:00",
-   "hasta": "2026-12-04T21:00:00-03:00",
-   "cantidad": 4
-  },
   {
    "id": "ciclo-sabados-en-ciudad-vieja",
    "titulo": "Sábados en Ciudad Vieja",
@@ -19,10 +11,18 @@
    "cantidad": 28
   },
   {
+   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
+   "titulo": "Estreno de obras Fortalecimiento de las Artes",
+   "lugar_id": null,
+   "desde": "2026-11-21T16:00:00-03:00",
+   "hasta": "2026-12-04T21:00:00-03:00",
+   "cantidad": 4
+  },
+  {
    "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
    "titulo": "Ciclo (no tan) Solos al mediodía",
    "lugar_id": "teatro-solis",
-   "desde": "2026-11-21T14:00:00-03:00",
+   "desde": "2026-11-21T17:00:00-03:00",
    "hasta": "2026-11-28T14:00:00-03:00",
    "cantidad": 1
   },
@@ -95,16 +95,16 @@
    "titulo": "Las mujeres de Hitchcock",
    "lugar_id": "cinemateca",
    "desde": "2026-11-23T17:00:00-03:00",
-   "hasta": "2026-11-26T17:00:00-03:00",
-   "cantidad": 4
+   "hasta": "2026-11-27T17:15:00-03:00",
+   "cantidad": 5
   },
   {
    "id": "ciclo-cine-uruguayo-diez-anos",
    "titulo": "Cine uruguayo diez años",
    "lugar_id": "cinemateca",
    "desde": "2026-11-23T19:35:00-03:00",
-   "hasta": "2026-11-26T19:30:00-03:00",
-   "cantidad": 4
+   "hasta": "2026-11-27T19:15:00-03:00",
+   "cantidad": 5
   },
   {
    "id": "ciclo-tmc",

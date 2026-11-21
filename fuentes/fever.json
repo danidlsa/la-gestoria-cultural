@@ -1,6 +1,6 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-20T23:35:44.407194-03:00",
+ "corrida": "2026-11-21T15:17:51.166566-03:00",
  "ok": true,
  "cantidad": 18,
  "errores": [],
@@ -148,6 +148,53 @@
   },
   {
    "fuente": "fever",
+   "id_externo": "836762",
+   "url": "https://feverup.com/m/836762",
+   "titulo": "Candlelight: Tributo a Queen y The Beatles",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Tributo a Queen y The Beatles en Hotel Radisson Victoria Plaza bajo la tenue luz de…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-30T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 920.0,
+    "hasta": 920.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/836762",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/bddda248-1a9f-11f0-9a59-a666f29e90ee.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
    "id_externo": "838624",
    "url": "https://feverup.com/m/838624",
    "titulo": "Candlelight: Lo Mejor de Hans Zimmer",
@@ -232,53 +279,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/53777c04-1157-11f0-bc63-0ee885ccc32f.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
-   "id_externo": "836762",
-   "url": "https://feverup.com/m/836762",
-   "titulo": "Candlelight: Tributo a Queen y The Beatles",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Tributo a Queen y The Beatles en Hotel Radisson Victoria Plaza bajo la tenue luz de…",
-   "lugar": {
-    "nombre": "Hotel Radisson Victoria Plaza",
-    "direccion": null,
-    "lat": -34.9058104,
-    "lon": -56.1995027,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2027-01-30T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 920.0,
-    "hasta": 920.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/836762",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/bddda248-1a9f-11f0-9a59-a666f29e90ee.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],

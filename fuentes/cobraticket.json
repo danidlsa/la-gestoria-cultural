@@ -1,52 +1,10 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-20T23:38:39.096458-03:00",
+ "corrida": "2026-11-21T15:20:48.993511-03:00",
  "ok": true,
- "cantidad": 11,
+ "cantidad": 10,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "cobraticket",
-   "id_externo": "956888",
-   "url": "https://cobraticket.uy/e/levante-night-956888",
-   "titulo": "LEVANTE NIGHT",
-   "categoria": "fiesta",
-   "categoria_segura": true,
-   "descripcion_corta": "Viernes a pura fiesta con: LEVANTE NIGHT 💘 La noche donde tus mensajes salen en nuestras pantallas. Al llegar ingresás en nuesta app, allí vas a poder enviar y recibir mensajes que aparecerán en todas las pantallas de Zoba. Santi y Edson serán nuestros anfitriones quienes te recibirán y animarán la…",
-   "lugar": {
-    "nombre": "Zoba Club",
-    "direccion": "Bv. España 2218",
-    "lat": -34.9095744,
-    "lon": -56.1679561,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T23:50:00-03:00",
-     "fin": "2026-11-21T06:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://cobraticket.uy/e/levante-night-956888",
-     "via": "cobraticket"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://img.cobraticket.uy/_mv2I-8NTMeTxguMARdxR.jpg",
-   "productor": "Zoba Club",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "cobraticket",
    "id_externo": "875843",

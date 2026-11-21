@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-20T23:39:32.050868-03:00",
+ "corrida": "2026-11-21T15:21:38.724044-03:00",
  "ok": true,
- "cantidad": 60,
+ "cantidad": 54,
  "errores": [],
  "eventos": [
   {
@@ -119,6 +119,95 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "cultus_uy-20261121-patio-la-bahia",
+   "url": "https://www.instagram.com/p/Df55qfpGNoO/",
+   "titulo": "Casa Cultus: S en Ciudad Vieja · El Bajo se encuentra",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábados en Ciudad Vieja El Bajo se encuentra Este sábado 21 de noviembre, Ciudad Vieja se recorre caminando. Una jornada para descubrir el Bajo y su bahía, con arte, música, vinos, artesanías y encuentros en cada esquina. Qué nos espera Casa Cultus, Entre aquí y allá : huellas de la diáspora…",
+   "lugar": {
+    "nombre": "Patio La Bahía",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df55qfpGNoO/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a0b7505399bc.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "paseo_cultural_ciudad_vieja-20261121",
+   "url": "https://www.instagram.com/reel/Df9xLkVRD4x/",
+   "titulo": "Paseo Cultural Ciudad Vieja: Paseo Cultural de Ciudad Vieja junto a Descubrí Montevideo y Municipio B presentan la 8a.",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "¡EXPO PESCA URUGUAY! Este sábado en el Dique Mauá con entrada gratuita !!! +50 stands Degustaciones Plaza de comidas Mercado de compras Cocina en vivo: Música Julio Victor El Zucará Patuco López Dj Pamela Román Carol & Marian Charlas y talleres para niños y niñas Sábado 21 de noviembre 17 a 22 hs…",
+   "lugar": {
+    "nombre": "Parque Mauá",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/Df9xLkVRD4x/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d7c61e01478b.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "centroculturalterminalgoes-20261128",
    "url": "https://www.instagram.com/p/DfxDaO6CetM/",
    "titulo": "Centro Cultural Terminal Goes: Vuelve con una ÚNICA función",
@@ -224,13 +313,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T11:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T11:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -306,48 +388,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "lamadredelassecond-20261114",
-   "url": "https://www.instagram.com/p/Df8Xm2EHcrD/",
-   "titulo": "La Madre de las Second Hand: PLAZA DE LAS PIONERAS",
-   "categoria": "feria",
-   "categoria_segura": true,
-   "descripcion_corta": "¡GRACIAS BELVEDERE! El pasado domingo vivimos una jornada hermosa compartiendo los festejos del barrio Belvedere. Queremos agradecer de corazón a todas las personas que se acercaron, recorrieron la feria y disfrutaron de este encuentro ¡ESTE SÁBADO NOS VOLVEMOS A ENCONTRAR! PLAZA PRIMERO DE MAYO…",
-   "lugar": {
-    "nombre": "PLAZA PRIMERO DE MAYO",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T11:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df8Xm2EHcrD/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a3c1133c2fd8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "sansuena_cafevivero-20261119",
    "url": "https://www.instagram.com/p/Df8FfWKtjrF/",
    "titulo": "Sansueña: Malvín se llena de flamenco! Una noche para dejarse llevar por la música",
@@ -390,139 +430,6 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "mercadoferrando-20261120",
-   "url": "https://www.instagram.com/p/DfxNwAroMhp/",
-   "titulo": "Mercado Ferrando: El 20.11 beertruckopb cumple 10 años y en Ferrando lo festejamos a lo grande",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "El 20.11 beertruckopb cumple 10 años y en Ferrando lo festejamos a lo grande Seguimos disfrutando de un mes lleno de festejos, encuentros y propuestas artísticas. Con un line up para celebrar de principio a fin ¡Los esperamos para brindar, bailar y celebrar juntos estos 10 años!",
-   "lugar": {
-    "nombre": "Mercado Ferrando",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfxNwAroMhp/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b556e967e906.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "centroculturalterminalgoes-20261120",
-   "url": "https://www.instagram.com/p/DfcStyIje9c/",
-   "titulo": "Centro Cultural Terminal Goes: ASCENSO",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "REÍRSE DEL PERSONAJE QUE SOMOS Laboratorio de Arte Bufo Un espacio lúdico de confrontación con los personajes y máscaras que habitamos. El bufón también es un camino de autoconocimiento para transmutar las sombras y la incongruencia que nos deforma. Un lenguaje escénico inspirado en el arquetipo…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T10:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfcStyIje9c/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d574dc5d518d.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261120",
-   "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
-   "titulo": "The Shannon: PIANO BAR",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Viernes 20/Noviembre: PIANO BAR Clásicos de rock& pop - 22 hs Cubierto artístico $300 Club Shannon: NENES DE ANTES Tributo a Divididos - 22 hs Cubierto artístico $300",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df2fUiUqq3b/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b0988bc32710.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
    "muestra": false,
    "hasta": null
   },
@@ -572,339 +479,9 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "clubculturalcharco-20261121",
-   "url": "https://www.instagram.com/p/Df0WvaUFZT5/",
-   "titulo": "Club Cultural Charco: taller «Mirar, escuchar, escribir» con Leila Guerriero",
-   "categoria": "taller",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábado 21 de noviembre Horario: de 10:00 a 13:15 h En Club Cultural Charco (Maldonado 1477) A cargo de: Leila Guerriero Cupos limitados. Inscripciones a través del enlace en nuestro perfil. Consultas al 092 221 940 Mirá la programación completa de nuestro aniversario en charco.uy.",
-   "lugar": {
-    "nombre": "Club Cultural Charco",
-    "direccion": "Maldonado 1477",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T10:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df0WvaUFZT5/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a812f1742a91.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "museozorrilla-20261121",
-   "url": "https://www.instagram.com/p/DfmxnTBhpPe/",
-   "titulo": "Museo Zorrilla: En el lugar donde hasta hace poco crecía un ombú centenario, plantado por Juan…",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "En el lugar donde hasta hace poco crecía un ombú centenario, plantado por Juan Zorrilla de San Martín, nos reuniremos para dar vida a un nuevo árbol. Emblemáticos del paisaje costero de Punta Carretas, los ombúes forman parte de la historia y la memoria del jardín del museo, donde Zorrilla plantó y…",
-   "lugar": {
-    "nombre": "Museo Zorrilla",
-    "direccion": "José Luis Zorrilla de San Martín 96",
-    "lat": null,
-    "lon": null,
-    "barrio": "Punta Carretas",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T10:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfmxnTBhpPe/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/60f77875374f.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261121",
-   "url": "https://www.instagram.com/p/DfmxU10IOrh/",
-   "titulo": "Centro Cultural de España: Trazar una ruta lectora y dejar lugar a lo inesperado",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Trazar una ruta lectora y dejar lugar a lo inesperado ¿Cómo crear recorridos lectores que despierten el interés, estimulen la participación y mantengan vivo el deseo de compartir lecturas? En este taller del ciclo Lecturas en red, exploraremos herramientas y estrategias para dinamizar clubes y…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T11:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfmxU10IOrh/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1085dfeadda8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "lamadredelassecond-20261121-av-agraciada",
-   "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
-   "titulo": "La Madre de las Second Hand: PLAZA PRIMERO DE MAYO",
-   "categoria": "feria",
-   "categoria_segura": true,
-   "descripcion_corta": "SÁBADO 21 – PLAZA PRIMERO DE MAYO Más de 150 stands con ropa, calzado, accesorios, libros, juguetes y objetos de segunda mano. ¡Además, food trucks! Av. de las Leyes esquina Gral Flores. De 11 a 18 hs. ¡Dos días para recorrer y disfrutar! Apoya: municipio_a",
-   "lugar": {
-    "nombre": "Av. Agraciada",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [
-     "Agraciada",
-     "San Quintín"
-    ]
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T11:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Dff6FTSIA9Y/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5df3f8cc8ddf.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "paseo_cultural_ciudad_vieja-20261121-plaza-zabala",
-   "url": "https://www.instagram.com/p/Df7sNg5JZQP/",
-   "titulo": "Paseo Cultural Ciudad Vieja: Paseo Cultural de Ciudad Vieja junto a Descubrí Montevideo y Municipio B presentan la 8a.",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Paseo Cultural de Ciudad Vieja junto a Descubrí Montevideo y Municipio B presentan la 8a. edición de Paseo de las Artes de Plaza Zabala . Artistas plásticos estarán exponiendo y pintando en vivo, transformando el rincón más parisino del Casco histórico en un Atelier a cielo abierto! Además en un…",
-   "lugar": {
-    "nombre": "Plaza Zabala",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T11:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df7sNg5JZQP/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b18bd1e7f591.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "cultus_uy-20261121",
-   "url": "https://www.instagram.com/p/Df7zFcvmN_Y/",
-   "titulo": "Casa Cultus: «Entre aquí y allá», huellas de la diáspora",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Entre aquí y allá Huellas de la diáspora Una exposición sobre la mirada del migrante, la memoria y la pertenencia. Y, para acompañarla, cuatro encuentros con los artistas en Casa Cultus. Deslizá y conocé el cronograma: Charla con Joe Black Los ojos del migrante en su destino : una reflexión desde…",
-   "lugar": {
-    "nombre": "Casa Cultus",
-    "direccion": "Piedras 604",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T12:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df7zFcvmN_Y/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/0c3cfb67993c.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "fama.tours-20261121",
-   "url": "https://www.instagram.com/p/DfpYrZ4KUfC/",
-   "titulo": "fama.tours: En nuestra última participación del año en volvemos a un reconocimiento arquitectónico…",
-   "categoria": "tour",
-   "categoria_segura": true,
-   "descripcion_corta": "En nuestra última participación del año en volvemos a un reconocimiento arquitectónico por sus calles. Caminata Art Nouveau Sábado 21 de Noviembre de 2026 12:00 a 13:30 horas Punto de encuentro: Bacacay y Buenos Aires Itinerario Edificio Tienda La Nueva Sirena Edificio Pablo Ferrando Casa José…",
-   "lugar": {
-    "nombre": "Bacacay y Buenos Aires",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [
-     "Edificio Tienda La Nueva Sirena",
-     "Edificio Pablo Ferrando",
-     "Casa José Pedro Rodríguez",
-     "Casa Mojana",
-     "Centro Cultural de España",
-     "Edificio 25 de Mayo 591",
-     "El Chamuyo",
-     "Edificio 25 de Mayo 550",
-     "Café Brasilero",
-     "Restaurante Las Misiones",
-     "Edificio Banco Popular",
-     "MVOTMA"
-    ]
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T12:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfpYrZ4KUfC/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/cf8e45c7f214.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "cultus_uy-20261121-patio-la-bahia",
    "url": "https://www.instagram.com/p/Df55qfpGNoO/",
-   "titulo": "Casa Cultus: S en Ciudad Vieja · El Bajo se encuentra",
+   "titulo": "Casa Cultus: «Entre aquí y allá», huellas de la diáspora",
    "categoria": "carnaval",
    "categoria_segura": false,
    "descripcion_corta": "Sábados en Ciudad Vieja El Bajo se encuentra Este sábado 21 de noviembre, Ciudad Vieja se recorre caminando. Una jornada para descubrir el Bajo y su bahía, con arte, música, vinos, artesanías y encuentros en cada esquina. Qué nos espera Casa Cultus, Entre aquí y allá : huellas de la diáspora…",
@@ -933,7 +510,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a0b7505399bc.jpg",
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/0c3cfb67993c.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -976,53 +553,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ea7a37c8a1da.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "paseo_cultural_ciudad_vieja-20261121",
-   "url": "https://www.instagram.com/reel/Df9xLkVRD4x/",
-   "titulo": "Paseo Cultural Ciudad Vieja: Paseo Cultural de Ciudad Vieja junto a Descubrí Montevideo y Municipio B presentan la 8a.",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "¡EXPO PESCA URUGUAY! Este sábado en el Dique Mauá con entrada gratuita !!! +50 stands Degustaciones Plaza de comidas Mercado de compras Cocina en vivo: Música Julio Victor El Zucará Patuco López Dj Pamela Román Carol & Marian Charlas y talleres para niños y niñas Sábado 21 de noviembre 17 a 22 hs…",
-   "lugar": {
-    "nombre": "Parque Mauá",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/Df9xLkVRD4x/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d7c61e01478b.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1166,6 +696,53 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "centroculturalterminalgoes-20261121",
+   "url": "https://www.instagram.com/p/Df2KAYlnLV7/",
+   "titulo": "Centro Cultural Terminal Goes: Te invitamos a disfrutar de Primavera Tango",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Te invitamos a disfrutar de Primavera Tango! Dúo 1071 Integrado por Abril Farolini (bandoneón) y Matías Craciun (violín), propone un viaje sonoro por las músicas del Río de la Plata desde una formación de cámara singular. A través de arreglos originales, el dúo ofrece una mirada renovada sobre…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-21T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df2KAYlnLV7/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/bcce29ff5d1b.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1673,6 +1250,55 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "barlarondacafe-20261125",
+   "url": "https://www.instagram.com/p/Df_Dow4t9SG/",
+   "titulo": "La Ronda: Noches De Ensayos Abiertos · El Jardín",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Este miércoles en Noches De Ensayos Abiertos El Jardín Banda que lidera Felipe Sánchez desde 2023. Se lo puede encontrar o atendiendo el kiosko de plaza zabala \"El Fuerte\" o haciendo música para su proyecto que mezcla folk con rock alternativo. En esta oportunidad se presentará junto a Charlie…",
+   "lugar": {
+    "nombre": "La Ronda",
+    "direccion": "Ciudadela 1182",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df_Dow4t9SG/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/4e8b56bf4a49.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
@@ -2229,6 +1855,53 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "molinodeperez-20261130",
+   "url": "https://www.instagram.com/p/Df-wlk3mxb1/",
+   "titulo": "Molino de Pérez: Exposición \"Tejiendo memorias\"",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "Exposición \"Tejiendo memorias\" El próximo lunes 30/11 les invitamos a descubrir esta muestra que celebra el arte textil peruano, sus saberes ancestrales y la memoria viva de sus comunidades. Identidad, tradición y memoria que se transmiten de generación en generación. Cada hilo tiene una historia…",
+   "lugar": {
+    "nombre": "Molino de Pérez",
+    "direccion": "Pasaje Arq. Juan Veltroni",
+    "lat": -34.8941793,
+    "lon": -56.0905563,
+    "barrio": "Malvín",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-30T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df-wlk3mxb1/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8969520af9e1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261202",
    "url": "https://www.instagram.com/p/DfsWAkbGCpT/",
    "titulo": "Centro Cultural de España: Laboratorio de guion adaptado",
@@ -2450,6 +2123,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/986198210831.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "fama.tours-20261206",
+   "url": "https://www.instagram.com/p/Df_IqW7qZC0/",
+   "titulo": "fama.tours: En el mes de la celebración del Tricentenario nos unimos a la excelente iniciativa de…",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "En el mes de la celebración del Tricentenario nos unimos a la excelente iniciativa de pasearporpasear, darsena.uy y clubculturalcharco junto a otros colegas para rendir homenaje a la bienquerida San Felipe y Santiago de Montevideo. Un vistazo al movimiento moderno de la arquitectura de la Ciudad…",
+   "lugar": {
+    "nombre": "Club Cultural Charco. Maldonado 1477 entre Javier Barrios Amorín y Andrés Martínez Trueba",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df_IqW7qZC0/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/09475f6ac740.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

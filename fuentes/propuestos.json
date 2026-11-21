@@ -1,57 +1,10 @@
 {
  "fuente": "propuestos",
- "corrida": "2026-11-20T23:39:01.981673-03:00",
+ "corrida": "2026-11-21T15:21:09.972666-03:00",
  "ok": true,
- "cantidad": 2,
+ "cantidad": 1,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "propuestos",
-   "id_externo": "caf1db324b96",
-   "url": "https://cineaccesible.uy/?p=1079",
-   "titulo": "Whisky - Ciclo de Cine AccesibleUy",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Jacobo, el dueño de una fábrica de medias montevideana, Marta, su empleada de confianza que acepta hacerse pasar por su esposa y el proclamadamente más próspero hermano de Jacobo, Herman, que vive en Brasil y viene de visita. A partir de allí se desencadena entre estos tres personajes un juego de…",
-   "lugar": {
-    "nombre": "Universidad Católica del Uruguay (UCU) – Auditorio San José",
-    "direccion": "Av. 8 de Octubre 2733",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://cineaccesible.uy/?p=1079",
-     "via": "propuestos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/caf1db324b96.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "propuestos",
    "id_externo": "a69a6d2468bb",

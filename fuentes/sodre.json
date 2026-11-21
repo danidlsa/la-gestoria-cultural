@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-20T23:30:16.573586-03:00",
+ "corrida": "2026-11-21T15:12:29.955798-03:00",
  "ok": true,
- "cantidad": 39,
+ "cantidad": 38,
  "errores": [],
  "eventos": [
   {
@@ -927,50 +927,6 @@
   },
   {
    "fuente": "sodre",
-   "id_externo": "13624",
-   "url": "https://sodre.gub.uy/espectaculos/carne/",
-   "titulo": "Carne",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Estreno",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T20:50:00-03:00",
-     "fin": "2026-11-20T22:50:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021870/carne",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Slider-web-Sodre-52-768x307.png",
-   "productor": "Cine Nacional y Latinoamericano del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021870/carne"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
    "id_externo": "13627",
    "url": "https://sodre.gub.uy/espectaculos/raza-oriental-6/",
    "titulo": "Raza oriental",
@@ -1176,13 +1132,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-20T19:00:00-03:00",
-     "fin": "2026-11-20T21:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-21T19:00:00-03:00",
      "fin": "2026-11-21T21:00:00-03:00",
