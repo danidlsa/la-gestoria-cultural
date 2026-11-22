@@ -1,119 +1,10 @@
 {
  "fuente": "zitarrosa",
- "corrida": "2026-11-20T11:03:41.086914-03:00",
+ "corrida": "2026-11-22T19:56:04.356901-03:00",
  "ok": true,
- "cantidad": 13,
+ "cantidad": 14,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "raly-barrionuevo-el-camino-de-solgo",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/raly-barrionuevo-el-camino-de-solgo/",
-   "titulo": "Raly Barrionuevo. El camino de Solgo",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Raly Barrionuevo regresa a Montevideo para presentar su nuevo trabajo, \"El camino de Solgo\", un disco que marca su retorno a las composiciones inéditas tras un necesario período de maduración y búsqueda interna. El esperado reencuentro con el público uruguayo se materializará el 20 de noviembre en…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1200.0,
-    "hasta": 1600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021263/espectaculo/Raly%20Barrionuevo?2",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/raly-barrionuevo-el-camino-de-solgo/"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/raly-barrionuevo-el-camino-de-solgo/"
-    }
-   ],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/08/label-plataformas-digitales.jpg-1.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40021263/espectaculo/Raly%20Barrionuevo?2"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "hilda-lizarazu-ciclo-marea",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/hilda-lizarazu-ciclo-marea/",
-   "titulo": "Hilda Lizarazu",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Por razones de fuerza mayor, Hilda Lizarazu posterga su gira de presentación de su nuevo disco. Debido a este cambio, el concierto previsto en la Sala Zitarrosa pasa para el sábado 21 de noviembre . La compositora y cantante argentina, referente del rock y el pop rioplatense, integró bandas como…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1800.0,
-    "hasta": 2500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40020967/espectaculo/Hilda%20Lizarazu?2",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/06/Hilda-foto-5-1.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40020967/espectaculo/Hilda%20Lizarazu?2"
-   ],
-   "ciclo": "Ciclo MAREA",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "zitarrosa",
    "id_externo": "mujeres-de-todas-partes-ciclo-marea",
@@ -157,66 +48,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021807/mujeres-de-todas-partes"
-   ],
-   "ciclo": "Ciclo MAREA",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "zitarrosa",
-   "id_externo": "julieta-laso-ciclo-marea-2",
-   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/julieta-laso-ciclo-marea-2/",
-   "titulo": "Julieta Laso",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "La gran cantora argentina Julieta Laso presenta \"Fabriquera\" dentro del Ciclo MAREA. Julieta Laso lanza \"Fabriquera\", su nuevo álbum y el sexto en su carrera solista, producido junto al irremplazable Melingo. Con Fabriquera, Julieta Laso regresa a sus fuentes: el decir tanguero, de profundo arraigo…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": "Av. 18 de Julio 1012",
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1100.0,
-    "hasta": 1500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/alta_demanda/40021526/espectaculo/Julieta%20Laso",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/julieta-laso-ciclo-marea-2/"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/julieta-laso-ciclo-marea-2/"
-    }
-   ],
-   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/09/Copia-de-_12A8177.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/alta_demanda/40021526/espectaculo/Julieta%20Laso"
    ],
    "ciclo": "Ciclo MAREA",
    "etiquetas": [],
@@ -517,6 +348,48 @@
   },
   {
    "fuente": "zitarrosa",
+   "id_externo": "gala-candombe",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/gala-candombe/",
+   "titulo": "Gala Candombe",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "La Sala Zitarrosa , a través del Departamento de Cultura junto con la División Turismo de la Intendencia de Montevideo, tiene el agrado de invitarle a la Gala Candombe, una noche de celebración y reconocimiento al Candombe como Patrimonio Cultural Nacional del Uruguay y Patrimonio Cultural…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-07T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/gala-candombe/",
+     "via": "zitarrosa"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/11/Redes_WEB-copia.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
    "id_externo": "alejandro-balbis",
    "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/alejandro-balbis/",
    "titulo": "Alejandro Balbis. Milonga por vos",
@@ -560,6 +433,53 @@
     "https://tickantel.com.uy/inicio/espectaculo/40021626/espectaculo/Balbis?0"
    ],
    "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "hilando-voces-ciclo-marea",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/hilando-voces-ciclo-marea/",
+   "titulo": "Hilando voces",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Hilando Voces , espectáculo artístico y cultural Afrodescendiente que se desarrollará dentro del Ciclo MAREA . Propuesta artística que entrelaza canto, danza, música poesía y memoria Afrodescendiente, poniendo en valor las identidades, las raíces y las voces de las mujeres negras del Uruguay. A…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-11T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/hilando-voces-ciclo-marea/",
+     "via": "zitarrosa"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/11/hilando-voces.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Ciclo MAREA",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
@@ -613,6 +533,55 @@
   },
   {
    "fuente": "zitarrosa",
+   "id_externo": "25-anos-de-lubola-banda",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/25-anos-de-lubola-banda/",
+   "titulo": "25 años de Lubola Banda",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Lubola Banda: 25 Años a puro Candombe-Fusión",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021996/lubola-banda-gira-25-aniversario",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/11/Fotos-Lubola-Banda-.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021996/lubola-banda-gira-25-aniversario"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
    "id_externo": "encuentro-espectaculo-de-danza-espanola",
    "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/encuentro-espectaculo-de-danza-espanola/",
    "titulo": "Encuentro, espectáculo de danza española",
@@ -656,6 +625,66 @@
     "https://tickantel.com.uy/ng/espectaculo/40021888/encuentro-espectaculo-de-danza-espanola"
    ],
    "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "zitarrosa",
+   "id_externo": "julieta-laso-ciclo-marea-2",
+   "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/julieta-laso-ciclo-marea-2/",
+   "titulo": "Julieta Laso",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Por razones ajenas a la Sala Zitarrosa, el espectáculo de Julieta Laso ha sido suspendido y reprogramado para el 12 de marzo de 2027. Las entradas adquiridas serán válidas para la nueva fecha. En caso de que opten por la devolución de la entrada deberán: - quienes hayan comprado sus entradas en…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.90626,
+    "lon": -56.19441,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-03-12T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": "Sala Principal",
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1100.0,
+    "hasta": 1500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/alta_demanda/40021526/espectaculo/Julieta%20Laso",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/julieta-laso-ciclo-marea-2/"
+    },
+    {
+     "programa": "Club El País",
+     "tipo": "2x1",
+     "url": "https://salazitarrosa.montevideo.gub.uy/espectaculo/julieta-laso-ciclo-marea-2/"
+    }
+   ],
+   "imagen_url": "https://salazitarrosa.montevideo.gub.uy/wp-content/uploads/2026/09/Copia-de-_12A8177.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/alta_demanda/40021526/espectaculo/Julieta%20Laso"
+   ],
+   "ciclo": "Ciclo MAREA",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
