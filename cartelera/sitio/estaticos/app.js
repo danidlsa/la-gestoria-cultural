@@ -103,6 +103,25 @@
   };
   const nombreLugar = (evento) => datos.lugares[evento.lugar]?.nombre || "";
 
+  // "Ordenar por", dentro de cada día (los días siguen en orden). Cada item es [evento, función]. Lo que no tiene hora
+  // va siempre al final del día. El elegido queda guardado en este navegador.
+  const porHora = (a, b) => a[1][0].localeCompare(b[1][0]);
+  const precioParaOrdenar = (evento) => (evento.precioDesde ?? Infinity);
+  const ORDENES = {
+    // El de siempre: primero los rubros que más invitan a salir (si no, de mañana arranca siempre con cine), y
+    // dentro de cada uno, por hora.
+    "": (a, b) => (ordenRubro(a[0]) - ordenRubro(b[0])) || porHora(a, b),
+    hora: (a, b) => porHora(a, b) || (ordenRubro(a[0]) - ordenRubro(b[0])),
+    tipo: (a, b) => (datos.categorias[a[0].categoria] || "").localeCompare(datos.categorias[b[0].categoria] || "", "es")
+      || porHora(a, b),
+    // Infinity - Infinity da NaN, que cuenta como empate: entre los que no tienen precio, por hora.
+    precio: (a, b) => (precioParaOrdenar(a[0]) - precioParaOrdenar(b[0])) || porHora(a, b),
+  };
+  const CLAVE_ORDEN = "lgc-orden";
+  let ordenGuardado = "";
+  try { ordenGuardado = localStorage.getItem(CLAVE_ORDEN) || ""; } catch (_) { /* sin almacenamiento: vale lo de siempre */ }
+  if (!(ordenGuardado in ORDENES)) ordenGuardado = "";
+
   // --- Mi plan: funciones elegidas, guardadas en este navegador ---------------------------------
   const CLAVE_PLAN = "lgc-plan";
   // "entradas": la persona marcó que ya las tiene (confirmado); si no, es algo que le tienta (tentativo).
@@ -171,7 +190,8 @@
   // Se suman entre sí y achican lo elegido en tipo: Música + Bares y cafés = música en bares.
   const dondeDe = (evento) => datos.lugares[evento.lugar]?.donde;
   const nombreDonde = (clave) => (clave === "aire_libre" ? "Al aire libre" : `En ${(datos.dondePasa[clave] || clave).toLowerCase()}`);
-  let estado = { seccion: "agenda", mes: hoy.slice(0, 7), planMes: hoy.slice(0, 7), ...FILTROS_INICIALES };
+  // El orden no es un filtro: "Borrar todo" no lo toca.
+  let estado = { seccion: "agenda", mes: hoy.slice(0, 7), planMes: hoy.slice(0, 7), orden: ordenGuardado, ...FILTROS_INICIALES };
 
   // Tipos de evento elegidos: "categoria:teatro" o "etiqueta:bar". Los rubros se suman entre sí (teatro o música); las
   // etiquetas van aparte, como "Solo en bares", y achican lo elegido (solo en bares + música: música en bares).
@@ -454,11 +474,8 @@
     const secciones = [];
     for (const dia of [...porDia.keys()].sort()) {
       // Primero lo que tiene hora; al final lo que no tiene (exposiciones, actividades de todo el día). Entre lo
-      // que tiene hora, primero los rubros que más invitan a salir (si no, de mañana arranca siempre con cine),
-      // y dentro de cada uno, por hora.
-      const items = porDia.get(dia).sort((a, b) => (a[1][1] - b[1][1])
-        || (ordenRubro(a[0]) - ordenRubro(b[0]))
-        || a[1][0].localeCompare(b[1][0]));
+      // que tiene hora, el orden elegido (ver ORDENES).
+      const items = porDia.get(dia).sort((a, b) => (a[1][1] - b[1][1]) || ORDENES[estado.orden](a, b));
       const resumenes = [...(especialesPorDia.get(dia)?.values() || [])];
       const cantidad = items.length + resumenes.reduce((total, r) => total + r.cantidad, 0);
       secciones.push(() => carril(nombreCarril(dia), plural(cantidad, "evento"),
@@ -467,8 +484,9 @@
     // Lo que se repite durante semanas (temporadas, exposiciones, talleres) va al final, con su título:
     // no tapa lo que pasa cada día, pero tampoco se esconde.
     if (enCartel.length) {
+      // Por la próxima fecha, salvo que se pida por tipo o por precio.
       const items = enCartel.map((e) => [e, e.funciones.find(([i]) => enRango(i.slice(0, 10))) || e.funciones[0]])
-        .sort((a, b) => a[1][0].localeCompare(b[1][0]));
+        .sort(["tipo", "precio"].includes(estado.orden) ? ORDENES[estado.orden] : porHora);
       secciones.push(() => carril("Con muchas fechas · en exhibición", "obras, exposiciones, talleres y visitas que se repiten durante semanas",
         items.map(([e, f]) => tarjetaPara(e, f)), "carril-cartel", "en-cartel"));
     }
@@ -2008,6 +2026,7 @@
     const cuentaExcluir = document.getElementById("cuenta-excluir");
     cuentaExcluir.hidden = !estado.excluir.length;
     cuentaExcluir.textContent = estado.excluir.length;
+    marcarActivo("ordenes", "orden", estado.orden);
     marcarActivo("presupuestos", "presupuesto", estado.seccion === "gratis" ? "gratis" : estado.presupuesto);
     marcarActivo("programas", "programa", estado.programa);
     document.getElementById("campo-promos").hidden = estado.seccion !== "promos";
@@ -2040,6 +2059,8 @@
     dibujarActivos();
     // En el plan, el mes se elige en el calendario grande; el chico del costado sobra.
     document.getElementById("campo-fecha").hidden = enPlan;
+    // El orden es el de la lista de eventos por día: en el mapa y en el plan no aplica.
+    document.getElementById("campo-orden").hidden = enMapa || enPlan;
     if (!enPlan) dibujarCalendario();
     document.getElementById("bienvenida").hidden = bienvenidaVista || estado.seccion !== "agenda";
     document.getElementById("mapa").hidden = !enMapa;
@@ -2212,6 +2233,10 @@
       const salirDeGratis = estado.seccion === "gratis" && d.presupuesto !== "gratis";
       cambiar({ presupuesto: d.presupuesto, seccion: salirDeGratis ? "agenda" : estado.seccion });
     } else if ("programa" in d) cambiar({ programa: d.programa });
+    else if ("orden" in d && d.orden in ORDENES) {
+      try { localStorage.setItem(CLAVE_ORDEN, d.orden); } catch (_) { /* idem */ }
+      cambiar({ orden: d.orden });
+    }
     else if (d.sala) cambiar({ sala: d.sala, seccion: estado.seccion === "mapa" ? "agenda" : estado.seccion });
     // El ciclo de una tarjeta filtra la agenda por ese ciclo (con todas sus fechas).
     else if (d.ciclo) cambiar({ ciclo: d.ciclo, periodo: "todo", dia: null, seccion: ["mapa", "plan"].includes(estado.seccion) ? "agenda" : estado.seccion });

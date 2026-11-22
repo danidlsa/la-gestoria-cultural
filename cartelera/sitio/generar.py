@@ -290,6 +290,8 @@ def datos_para_el_navegador(eventos: list[dict], lugares: dict[str, dict], ciclo
                 # Un recorrido que no dice de dónde sale: el lugar es una de sus paradas (en el mapa se avisa).
                 "aprox": e.get("ubicacion_aproximada", False),
                 "presupuesto": presupuesto(e.get("precio")),
+                # Para "Ordenar por precio": 0 si es gratis; None si no se sabe (va al final).
+                "precioDesde": 0 if presupuesto(e.get("precio")) == "gratis" else (e.get("precio") or {}).get("desde"),
                 "promos": [b["programa"] for b in e.get("beneficios", [])],
                 "funciones": [[f["inicio"], f.get("sin_hora", False), f.get("fin")] for f in e["funciones"]],
                 # Lo que mira el buscador: también el nombre del ciclo, para encontrar "cine accesible" y similares.

@@ -147,3 +147,13 @@ def test_donde_pasa_avisa_de_los_lugares_sin_etiqueta(tmp_path):
     assert [(i["id"], i["cantidad"]) for i in items] == [("sala-nueva", 2)]  # ni el clasificado ni el de "no aplica"
     cuerpo = donde_pasa.cuerpo(items)
     assert "**Sala Nueva** (Soriano 1) · `sala-nueva` · 2 eventos" in cuerpo and "<!-- lugar:sala-nueva -->" in cuerpo
+
+
+def test_el_precio_para_ordenar_por_precio():
+    from cartelera.sitio.generar import datos_para_el_navegador
+    base = {"titulo": "X", "categoria": "musica", "lugar_id": "l", "fuentes": [{"url": "https://x.uy"}],
+            "funciones": [{"inicio": "2026-11-01T20:00:00-03:00"}]}
+    eventos = [dict(base, id="1", precio={"desde": 0, "hasta": 0, "gratis": True}),
+               dict(base, id="2", precio={"desde": 700, "hasta": 800, "gratis": False}), dict(base, id="3")]
+    datos = datos_para_el_navegador(eventos, {"l": {"nombre": "L"}}, [])
+    assert [e["precioDesde"] for e in datos["eventos"]] == [0, 700, None]  # sin precio: al final
