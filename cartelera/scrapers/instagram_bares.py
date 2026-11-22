@@ -280,7 +280,8 @@ _MES_TEXTO = r"(?:enero|febrero|marzo|abril|mayo|junio|julio|agosto|se?tiembre|o
 # "Este miércoles en …", "Este viernes 13 de noviembre …": la fecha al principio del título sobra (va aparte).
 _FECHA_AL_PRINCIPIO = re.compile(
     rf"^(?:hoy|esta\s+noche|ma[ñn]ana)\b\s*[:,\-–!]*\s*"
-    rf"|^(?:(?:este|esta|el|la)\s+(?:pr[oó]ximo\s+)?)?{_DIA_TILDE}\s*(?:\d{{1,2}}(?:\s+de\s+{_MES_TEXTO})?)?\s*(?:en\s+|[:,\-–]\s*)?", re.I)
+    rf"|^(?:(?:este|esta|el|la)\s+(?:pr[oó]ximo\s+)?)?{_DIA_TILDE}\s*(?:\d{{1,2}}(?:\s+de\s+{_MES_TEXTO}|\s*[/.]\s*\d{{1,2}})?)?"
+    rf"\s*(?:en\s+|[:,\-–]\s*)?", re.I)
 # "FERIADO + MONKELIS I 2 DE DICIEMBRE EN LA CRETINA": desde la fecha, sobra.
 _FECHA_AL_FINAL = re.compile(rf"\s*(?:[|I·\-–—,]\s*)?\b\d{{1,2}}\s+de\s+{_MES_TEXTO}\b.*$", re.I)
 # Renglones de propaganda que no sirven de título.
@@ -719,7 +720,9 @@ def juntar_parecidos(borradores: dict[str, dict]) -> dict[str, dict]:
         for i, otro in enumerate(resultado):
             if otro["usuario"] == b["usuario"] and dias & {_dia(f.inicio) for f in _funciones(otro)} \
                     and not _otro_evento(otro, b) and fuzz.token_set_ratio(sin_tildes(otro["titulo"]), sin_tildes(b["titulo"])) >= 75:
-                resultado[i] = {**juntar(otro, b), "id": otro["id"]}
+                # Queda el identificador del aprobado, si uno lo está (la aprobación va por identificador).
+                queda = b if b.get("aprobado") and not otro.get("aprobado") else otro
+                resultado[i] = {**juntar(otro, b), "id": queda["id"]}
                 break
         else:
             resultado.append(b)
@@ -1009,7 +1012,10 @@ def scrapear(cliente, ahora: datetime) -> tuple[list[EventoCrudo], list[str]]:
         borradores = {i: b for i, b in anteriores.items()
                       if b.get("aprobado") and i not in esta_corrida and b.get("usuario") in en_la_lista
                       and not (b.get("posts") and set(b["posts"]) <= descartados)}
-        esta_corrida = juntar_parecidos(esta_corrida)
+        # Lo que se conserva también se junta con lo nuevo que es el mismo evento: el post del ciclo ("próximo recital:
+        # 25 de noviembre", ya fuera de los últimos posts) y el post de ese día, si no quedan dos.
+        esta_corrida = juntar_parecidos({**borradores, **esta_corrida})
+        borradores = {}
         for id_, nuevo in esta_corrida.items():
             anterior = anteriores.get(id_, {})
             # Lo que se decidió en GitHub se conserva; lo demás se actualiza (la imagen vence).

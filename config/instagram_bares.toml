@@ -475,3 +475,8 @@ notas = "el lugar está en el perfil, no en el reel"
 # ese es otro borrador (cultus_uy-20261121-patio-la-bahia) y este queda para la muestra.
 id = "cultus_uy-20261121"
 titulo = "Casa Cultus: «Entre aquí y allá», huellas de la diáspora"
+
+[[correccion]]
+# Se aprobó con el título roto ("/11 Garo Arakelian vuelve…", de "Este jueves 26/11 Garo…"); la regla ya está arreglada.
+id = "barandorra-20261126"
+titulo = "Bar Andorra: Garo Arakelian, canciones de su discografía solista"

@@ -647,3 +647,37 @@ def test_la_direccion_que_falta_se_escribe_en_el_aviso():
     assert ig.leer_casillas([editado])[0] == {b["id"]: "Casa Cultus: El Bajo se encuentra"}
     evento = ig.evento_de({**b, "aprobado": True, "direccion_aprobada": "Piedras 450"}, ahora)
     assert (evento.lugar.nombre, evento.lugar.direccion) == ("Patio La Bahía", "Piedras 450")
+
+
+def test_la_fecha_con_barra_al_principio_no_queda_en_el_titulo():
+    texto = ("Este jueves 26/11 Garo Arakelian vuelve al Bar Andorra para interpretar las canciones de su discografía "
+             "solista (Un Mundo Sin Gloria y Milonga de Quirón).\n21:30hs\nEntrada libre")
+    titulo = ig.titulo_de(texto, "Bar Andorra")
+    assert titulo.startswith("Garo Arakelian vuelve al Bar Andorra")
+    assert ig.titulo_de("Viernes 4.12 Noche de tango", "Bar").startswith("Noche de tango")
+
+
+def test_lo_aprobado_que_se_conserva_se_junta_con_el_post_del_dia(tmp_path, monkeypatch):
+    # El post del ciclo ("Próximo recital: 25 de noviembre"), aprobado y ya fuera de los últimos posts, y el post del 25.
+    monkeypatch.chdir(tmp_path)
+    (tmp_path / "bares.toml").write_text('[[bar]]\nusuario = "ccemontevideo"\nnombre = "Centro Cultural de España"\nbar = false\n')
+    monkeypatch.setattr(ig, "CONFIG", tmp_path / "bares.toml")
+    monkeypatch.setenv("INSTAGRAM_TOKEN", "x")
+    ciclo = {"id": "ccemontevideo-20261111", "usuario": "ccemontevideo", "titulo": "Centro Cultural de España: Beethoven 199",
+             "lugar": "Centro Cultural de España", "texto": "Beethoven 199", "aprobado": True,
+             "titulo_aprobado": "Centro Cultural de España: Beethoven 199",
+             "funciones": [{"inicio": "2026-11-11T19:00:00-03:00", "sin_hora": False},
+                           {"inicio": "2026-11-25T19:00:00-03:00", "sin_hora": False}],
+             "url": "https://www.instagram.com/p/1/", "posts": ["https://www.instagram.com/p/1/"], "publicado": "2026-11-05T12:00:00-03:00"}
+    ig.guardar_borradores({ciclo["id"]: ciclo})
+    del_dia = {"id": "2", "caption": "¡Beethoven 199! La música de cámara llega al CCE.\n📅 miércoles 25 de noviembre\n🕖 19:00 h",
+               "media_type": "IMAGE", "media_url": "https://cdn/2.jpg", "permalink": "https://www.instagram.com/p/2/",
+               "timestamp": "2026-11-09T15:00:00+0000"}
+    monkeypatch.setattr(ig, "TRANSPORTE", httpx.MockTransport(lambda pedido: httpx.Response(200, json=(
+        {"instagram_business_account": {"id": "1"}} if pedido.url.path.endswith("/me")
+        else {"business_discovery": {"name": "CCE", "media": {"data": [del_dia]}}}))))
+    monkeypatch.setattr(ig, "avisos_en_github", lambda: None)
+    eventos, _ = ig.scrapear(None, AHORA)
+    assert list(ig.cargar_borradores()) == ["ccemontevideo-20261111"]
+    (evento,) = eventos
+    assert evento.titulo == "Centro Cultural de España: Beethoven 199" and len(ig.cargar_borradores()["ccemontevideo-20261111"]["posts"]) == 2
