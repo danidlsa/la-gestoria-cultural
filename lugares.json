@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-21T15:22:26.901674-03:00",
- "cantidad": 211,
+ "generado": "2026-11-21T22:39:24.998490-03:00",
+ "cantidad": 189,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -80,16 +80,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "alto-cafe",
-   "nombre": "Alto Café",
-   "alias": [],
-   "direccion": "Pérez Castellano 1417 bis",
-   "lat": -34.9080079,
-   "lon": -56.2104173,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "antel-arena",
    "nombre": "Antel Arena",
    "alias": [],
@@ -138,16 +128,6 @@
    "direccion": "Hermanos Gil 945",
    "lat": -34.870814,
    "lon": -56.198579,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "asterisco-gift-shop",
-   "nombre": "Asterisco Gift Shop",
-   "alias": [],
-   "direccion": "Sarandí 251 esq. Pérez Castellano",
-   "lat": -34.9090541,
-   "lon": -56.2097519,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -201,26 +181,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "av-republica-federal-de-alemania",
-   "nombre": "Av. República Federal de Alemania",
-   "alias": [],
-   "direccion": "Av. República Federal de Alemania, 11300 Montevideo, Departamento de Montevideo",
-   "lat": -34.9105987,
-   "lon": -56.1317516,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "bacacay-y-buenos-aires",
-   "nombre": "Bacacay y Buenos Aires",
-   "alias": [],
-   "direccion": "Bacacay y Buenos Aires",
-   "lat": -34.9074127,
-   "lon": -56.2014439,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "balcon-del-cerro",
    "nombre": "Balcón del Cerro",
    "alias": [],
@@ -265,16 +225,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "buenos-aires-314",
-   "nombre": "Buenos Aires 314",
-   "alias": [],
-   "direccion": "Buenos Aires 314",
-   "lat": -34.9095986,
-   "lon": -56.2082176,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "cold-music-bar",
    "nombre": "COLD Music Bar",
    "alias": [],
@@ -305,16 +255,6 @@
    "direccion": "Juan Carlos Gómez 1362",
    "lat": -34.90653,
    "lon": -56.20278,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "cafe-brasilero",
-   "nombre": "Café Brasilero",
-   "alias": [],
-   "direccion": "Ituzaingó 1447",
-   "lat": -34.9056692,
-   "lon": -56.2046929,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -359,16 +299,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "casona-maua",
-   "nombre": "Casona Mauá",
-   "alias": [],
-   "direccion": "Juan Carlos Gómez 1530",
-   "lat": -34.9038875,
-   "lon": -56.2042725,
-   "barrio": "Ciudad Vieja",
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "casona-de-vilardebo",
    "nombre": "Casona de Vilardebó",
    "alias": [],
@@ -383,7 +313,7 @@
    "nombre": "Castillo Pittamiglio",
    "alias": [],
    "direccion": "Rambla Gandhi 633",
-   "lat": -34.921,
+   "lat": -34.920998,
    "lon": -56.149856,
    "barrio": null,
    "ciudad": "Montevideo"
@@ -667,16 +597,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "doctor-joaquin-requena-1351",
-   "nombre": "Doctor Joaquín Requena 1351",
-   "alias": [],
-   "direccion": "Dr. Joaquín Requena 1351, 11200 Montevid",
-   "lat": -34.903067,
-   "lon": -56.169118,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "el-chamuyo",
    "nombre": "El Chamuyo",
    "alias": [],
@@ -733,16 +653,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "entre-masas-y-tannat",
-   "nombre": "Entre Masas y Tannat",
-   "alias": [],
-   "direccion": "Pérez Castellano 1400",
-   "lat": -34.9083756,
-   "lon": -56.2101162,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "escuela-nacional-de-declamacion-esnade",
    "nombre": "Escuela Nacional de Declamación - ESNADE",
    "alias": [
@@ -752,16 +662,6 @@
    "direccion": "José Enrique Rodó 1712",
    "lat": -34.905642,
    "lon": -56.179245,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "espacio-bilu",
-   "nombre": "Espacio Bilu",
-   "alias": [],
-   "direccion": "Pérez Castellano 1408",
-   "lat": -34.9080699,
-   "lon": -56.2102505,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -856,8 +756,8 @@
     "Espacio Zorilla"
    ],
    "direccion": "Cerrito 475",
-   "lat": -34.904952,
-   "lon": -56.206637,
+   "lat": -34.904859,
+   "lon": -56.206546,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -990,16 +890,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "iglesia-san-francisco-de-asis",
-   "nombre": "Iglesia San Francisco de Asís",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.9063888,
-   "lon": -56.2090597,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "indoorclub-1983",
    "nombre": "Indoorclub 1983",
    "alias": [],
@@ -1030,16 +920,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "juan-carlos-gomez-y-piedras",
-   "nombre": "Juan Carlos Gómez y Piedras",
-   "alias": [],
-   "direccion": "Juan Carlos Gómez y Piedras",
-   "lat": -34.9035643,
-   "lon": -56.2044973,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "kibon-avanza",
    "nombre": "Kibón Avanza",
    "alias": [],
@@ -1050,12 +930,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu-laboratorio-tecnologico-del-uruguay",
-   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
+   "id": "latu",
+   "nombre": "LATU",
    "alias": [
-    "LATU"
+    "LATU - Laboratorio Tecnológico del Uruguay"
    ],
-   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
+   "direccion": "Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1088,16 +968,6 @@
    "direccion": "Soriano 1236",
    "lat": -34.907876,
    "lon": -56.189303,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "la-cuarenta",
-   "nombre": "La Cuarenta",
-   "alias": [],
-   "direccion": "Urquiza 2551",
-   "lat": -34.8919747,
-   "lon": -56.1638326,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1243,16 +1113,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "mercado-ferrando",
-   "nombre": "Mercado Ferrando",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.9042129,
-   "lon": -56.170688,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "miguelete-piedra-alta",
    "nombre": "Miguelete & Piedra Alta",
    "alias": [],
@@ -1281,16 +1141,6 @@
    "direccion": "Montevideo",
    "lat": -34.905502,
    "lon": -56.185115,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "montevideo-indoor-coffee-shop",
-   "nombre": "Montevideo Indoor Coffee Shop",
-   "alias": [],
-   "direccion": "Pérez Castellano 1545",
-   "lat": -34.9061559,
-   "lon": -56.2112717,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1351,16 +1201,6 @@
    "direccion": "Rbla. República de Chile 4215",
    "lat": -34.903292,
    "lon": -56.123554,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "museo-romantico",
-   "nombre": "Museo Romántico",
-   "alias": [],
-   "direccion": "25 de Mayo 428",
-   "lat": -34.9064142,
-   "lon": -56.2070091,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1494,16 +1334,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "piedras-esquina-zabala",
-   "nombre": "Piedras esquina Zabala",
-   "alias": [],
-   "direccion": "Piedras esquina Zabala",
-   "lat": -34.9049058,
-   "lon": -56.208416,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "planetario-de-montevideo",
    "nombre": "Planetario de Montevideo",
    "alias": [],
@@ -1552,18 +1382,6 @@
    "direccion": "Rbla. Pdte. Wilson esq, 11200 Montevideo",
    "lat": -34.915753,
    "lon": -56.168935,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "plaza-matriz",
-   "nombre": "Plaza Matríz",
-   "alias": [
-    "Plaza Matriz"
-   ],
-   "direccion": null,
-   "lat": -34.9065843,
-   "lon": -56.2035494,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1619,16 +1437,6 @@
    "direccion": "Agraciada 2463",
    "lat": -34.8868372,
    "lon": -56.1913446,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "primuseum-y-la-chipateria",
-   "nombre": "Primuseum y La Chipatería",
-   "alias": [],
-   "direccion": "Pérez Castellano 1389",
-   "lat": -34.9085024,
-   "lon": -56.2102012,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1693,16 +1501,6 @@
    "direccion": "Kibón, Montevideo",
    "lat": -34.910901,
    "lon": -56.135397,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "restaurante-almazara",
-   "nombre": "Restaurante Almazara",
-   "alias": [],
-   "direccion": "Sarandí 301 y Colón",
-   "lat": -34.9078719,
-   "lon": -56.209345,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1886,16 +1684,6 @@
    "direccion": "Rambla 25 de Agosto 218",
    "lat": -34.905789,
    "lon": -56.212222,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "salon-andy",
-   "nombre": "Salón Andy",
-   "alias": [],
-   "direccion": "Pérez Castellano 1462",
-   "lat": -34.9073273,
-   "lon": -56.2105812,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -2244,16 +2032,6 @@
    "direccion": "Bv. España 2218",
    "lat": -34.9095744,
    "lon": -56.1679561,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "terreno-de-covi-funac",
-   "nombre": "terreno de Covi Funac",
-   "alias": [],
-   "direccion": "Juncal y Cerrito",
-   "lat": -34.9036763,
-   "lon": -56.2019418,
    "barrio": null,
    "ciudad": "Montevideo"
   },

@@ -1,8 +1,8 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-21T15:17:51.166566-03:00",
+ "corrida": "2026-11-21T22:34:48.121729-03:00",
  "ok": true,
- "cantidad": 18,
+ "cantidad": 17,
  "errores": [],
  "eventos": [
   {
@@ -153,7 +153,7 @@
    "titulo": "Candlelight: Tributo a Queen y The Beatles",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Tributo a Queen y The Beatles en Hotel Radisson Victoria Plaza bajo la tenue luz de…",
+   "descripcion_corta": "Candlelight: Tributo a Queen y The Beatles es un concierto en vivo a la luz de las velas en el Hotel Radisson Victoria Plaza de Montevideo. Conseguí tus entradas y viví una noche con los clásicos de Queen y The Beatles, interpretados por un cuarteto de cuerdas. Esta experiencia de concierto es un…",
    "lugar": {
     "nombre": "Hotel Radisson Victoria Plaza",
     "direccion": null,
@@ -185,53 +185,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/bddda248-1a9f-11f0-9a59-a666f29e90ee.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
-   "id_externo": "838624",
-   "url": "https://feverup.com/m/838624",
-   "titulo": "Candlelight: Lo Mejor de Hans Zimmer",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Lo Mejor de Hans Zimmer en Hotel Radisson Victoria Plaza bajo la tenue luz de las…",
-   "lugar": {
-    "nombre": "Hotel Radisson Victoria Plaza",
-    "direccion": null,
-    "lat": -34.9058104,
-    "lon": -56.1995027,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2027-02-28T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 740.0,
-    "hasta": 740.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/838624",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/b2a5d1a8-1396-11f0-9f4b-e25e224a365e.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -289,12 +242,59 @@
   },
   {
    "fuente": "fever",
+   "id_externo": "838624",
+   "url": "https://feverup.com/m/838624",
+   "titulo": "Candlelight: Lo Mejor de Hans Zimmer",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Lo Mejor de Hans Zimmer en Hotel Radisson Victoria Plaza bajo la tenue luz de las…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-28T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 740.0,
+    "hasta": 740.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/838624",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/b2a5d1a8-1396-11f0-9f4b-e25e224a365e.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
    "id_externo": "836763",
    "url": "https://feverup.com/m/836763",
    "titulo": "Candlelight: Himnos del Rock de los 80",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Himnos del Rock de los 80 en Hotel Radisson Victoria Plaza bajo la tenue luz de las…",
+   "descripcion_corta": "Candlelight: Himnos del Rock de los 80 es un concierto de música en vivo a la luz de las velas en el Hotel Radisson Victoria Plaza de Montevideo. Conseguí tus entradas y disfrutá de los grandes himnos del rock de los 80 interpretados por un cuarteto de cuerdas. Esta experiencia de concierto es un…",
    "lugar": {
     "nombre": "Hotel Radisson Victoria Plaza",
     "direccion": null,
@@ -477,53 +477,6 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "689993",
-   "url": "https://feverup.com/m/689993",
-   "titulo": "Candlelight: Ed Sheeran & Coldplay",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Reserva antes de que acabe Black Friday. Ya pensabas ir... ¡y ahora está de oferta! Vive las emotivas canciones de Coldplay y Ed Sheeran reinterpretadas en un ambiente íntimo Candlelight. De Yellow y Perfect a Photograph y más, redescubre las melodías que se han convertido en la banda sonora de…",
-   "lugar": {
-    "nombre": "Hyatt Centric",
-    "direccion": null,
-    "lat": -34.909643,
-    "lon": -56.1385076,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-05T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1450.0,
-    "hasta": 1450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/689993",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/8aec2300-148c-11f0-91fe-f65f346f445e.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
    "id_externo": "689992",
    "url": "https://feverup.com/m/689992",
    "titulo": "Candlelight: Lo Mejor de Hans Zimmer",
@@ -595,8 +548,8 @@
     }
    ],
    "precio": {
-    "desde": 1200.0,
-    "hasta": 1200.0,
+    "desde": 1300.0,
+    "hasta": 1300.0,
     "moneda": "UYU",
     "gratis": false
    },

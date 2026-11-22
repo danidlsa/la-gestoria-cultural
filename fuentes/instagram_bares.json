@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-21T15:21:38.724044-03:00",
+ "corrida": "2026-11-21T22:38:31.534520-03:00",
  "ok": true,
- "cantidad": 54,
+ "cantidad": 48,
  "errores": [],
  "eventos": [
   {
@@ -119,95 +119,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "cultus_uy-20261121-patio-la-bahia",
-   "url": "https://www.instagram.com/p/Df55qfpGNoO/",
-   "titulo": "Casa Cultus: S en Ciudad Vieja · El Bajo se encuentra",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábados en Ciudad Vieja El Bajo se encuentra Este sábado 21 de noviembre, Ciudad Vieja se recorre caminando. Una jornada para descubrir el Bajo y su bahía, con arte, música, vinos, artesanías y encuentros en cada esquina. Qué nos espera Casa Cultus, Entre aquí y allá : huellas de la diáspora…",
-   "lugar": {
-    "nombre": "Patio La Bahía",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df55qfpGNoO/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a0b7505399bc.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "paseo_cultural_ciudad_vieja-20261121",
-   "url": "https://www.instagram.com/reel/Df9xLkVRD4x/",
-   "titulo": "Paseo Cultural Ciudad Vieja: Paseo Cultural de Ciudad Vieja junto a Descubrí Montevideo y Municipio B presentan la 8a.",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "¡EXPO PESCA URUGUAY! Este sábado en el Dique Mauá con entrada gratuita !!! +50 stands Degustaciones Plaza de comidas Mercado de compras Cocina en vivo: Música Julio Victor El Zucará Patuco López Dj Pamela Román Carol & Marian Charlas y talleres para niños y niñas Sábado 21 de noviembre 17 a 22 hs…",
-   "lugar": {
-    "nombre": "Parque Mauá",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/Df9xLkVRD4x/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d7c61e01478b.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "centroculturalterminalgoes-20261128",
    "url": "https://www.instagram.com/p/DfxDaO6CetM/",
    "titulo": "Centro Cultural Terminal Goes: Vuelve con una ÚNICA función",
@@ -245,6 +156,50 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lacretinacasa-20261206",
+   "url": "https://www.instagram.com/p/DeYID5KDQ4h/",
+   "titulo": "La Cretina: Mané Pérez & Compañía presenta: EL TIEMPO EN EL INTENTO",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Mané Pérez & Compañía presenta: EL TIEMPO EN EL INTENTO El próximo domingo 6 de diciembre, a las 20 horas, Mané abre las puertas de su universo musical y se presenta por primera vez con una banda de mujeres para compartir sus canciones. Durante años, Mané Pérez hizo que sus canciones crecieran en…",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DeYID5KDQ4h/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e007ff46442c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
@@ -467,228 +422,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/107ef10e9417.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "cultus_uy-20261121",
-   "url": "https://www.instagram.com/p/Df55qfpGNoO/",
-   "titulo": "Casa Cultus: «Entre aquí y allá», huellas de la diáspora",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábados en Ciudad Vieja El Bajo se encuentra Este sábado 21 de noviembre, Ciudad Vieja se recorre caminando. Una jornada para descubrir el Bajo y su bahía, con arte, música, vinos, artesanías y encuentros en cada esquina. Qué nos espera Casa Cultus, Entre aquí y allá : huellas de la diáspora…",
-   "lugar": {
-    "nombre": "Patio La Bahía",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df55qfpGNoO/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/0c3cfb67993c.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "mercadoferrando-20261121",
-   "url": "https://www.instagram.com/p/Df0KuZ0s8x8/",
-   "titulo": "Mercado Ferrando: Show de títeres en Ferrando",
-   "categoria": "infantil",
-   "categoria_segura": false,
-   "descripcion_corta": "Show de títeres en Ferrando Este sábado 21 de noviembre nos espera El Tipití – La aventura jamás contada , de lalocacompania ¡Los esperamos a las 14 hs para disfrutar en familia!",
-   "lugar": {
-    "nombre": "Mercado Ferrando",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T14:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df0KuZ0s8x8/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ea7a37c8a1da.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "subtemvd-20261121",
-   "url": "https://www.instagram.com/p/Df4_poRFDsG/",
-   "titulo": "Centro de Exposiciones Subte: PROGRAMA PÚBLICO: NO MIRAMOS MÁS LAS ESTRELLAS , de Proyecto CasaMario",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "PROGRAMA PÚBLICO: NO MIRAMOS MÁS LAS ESTRELLAS , de Proyecto CasaMario Conversatorio entre artistas y curadores de la exposición Sábado 21 de noviembre 17:00 h Centro de exposiciones Subte, Sala L Entrada libre y gratuita Conversación entre los curadores Camila Arbeláez y Sebastián Alonso, y los y…",
-   "lugar": {
-    "nombre": "Centro de Exposiciones Subte",
-    "direccion": "Plaza Fabini",
-    "lat": -34.90563,
-    "lon": -56.19423,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df4_poRFDsG/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2e4be400f9b4.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "casonamaua-20261121",
-   "url": "https://www.instagram.com/p/DfxWpSyMBqG/",
-   "titulo": "Casona Mauá: Encuentro Cultural Afro en el Bajo, Sábado",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Encuentro Cultural Afro en el Bajo, Sábado 21 de Noviembre a las 18 hs. Un desfile y toque de tambores de la escuela de Candombe de Mundo Afro y la escuela de Samba campeona Mocidade Unida.",
-   "lugar": {
-    "nombre": "Casona Mauá",
-    "direccion": "Juan Carlos Gómez 1530",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfxWpSyMBqG/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e382ac5b7fbb.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "cordonbeer-20261121",
-   "url": "https://www.instagram.com/p/DfnpWaYCyEr/",
-   "titulo": "Cordón Beer: Volvemos a las raíces con una buena joda en Requena y Rodó",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Y SI CORTAMOS LA CALLE CON ENTRADA GRATIS? el sábado 21 volvemos a las raíces con una buena joda en Requena y Rodó. Accesos disponibles a partir del viernes a las 18h Atentxs al las historias!",
-   "lugar": {
-    "nombre": "Cordón Beer",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfnpWaYCyEr/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/78755b424d96.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1806,6 +1539,53 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "sansuena_cafevivero-20261128",
+   "url": "https://www.instagram.com/p/DgBKObmy2in/",
+   "titulo": "Sansueña: CUENTOS DE LAS DOS ORILLAS",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "CUENTOS DE LAS DOS ORILLAS Ser rioplatense es mucho más que vivir sobre la costa del Río de la Plata, es compartir idiosincrasia, cultura y vivencias comunes de dos países hermanos: Uruguay y Argentina, cuyas capitales (Montevideo y Buenos Aires) se encuentran separas por este Rio, el más ancho del…",
+   "lugar": {
+    "nombre": "Sansueña",
+    "direccion": "Orinoco 4968",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgBKObmy2in/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2aee90897e49.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "elbar_delxsamigxs-20261129",
    "url": "https://www.instagram.com/p/Df0IbtaGBqM/",
    "titulo": "Brecha Bar y Cafe: Cumplimos 12 años",
@@ -2170,50 +1950,6 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "lacretinacasa-20261206",
-   "url": "https://www.instagram.com/p/DeYID5KDQ4h/",
-   "titulo": "La Cretina: Mané Pérez & Compañía presenta: EL TIEMPO EN EL INTENTO",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Mané Pérez & Compañía presenta: EL TIEMPO EN EL INTENTO El próximo domingo 6 de diciembre, a las 20 horas, Mané abre las puertas de su universo musical y se presenta por primera vez con una banda de mujeres para compartir sus canciones. Durante años, Mané Pérez hizo que sus canciones crecieran en…",
-   "lugar": {
-    "nombre": "La Cretina",
-    "direccion": "Soriano 1236",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-06T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DeYID5KDQ4h/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e007ff46442c.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
    "muestra": false,
    "hasta": null
   },

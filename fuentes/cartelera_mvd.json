@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-21T15:13:57.449791-03:00",
+ "corrida": "2026-11-21T22:30:52.244849-03:00",
  "ok": true,
- "cantidad": 86,
+ "cantidad": 87,
  "errores": [],
  "eventos": [
   {
@@ -1705,13 +1705,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T16:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T16:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1758,13 +1751,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-22T16:00:00-03:00",
      "fin": null,
@@ -2500,6 +2486,71 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41308.jpg",
    "productor": "Rafael Pence",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "34286",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34286",
+   "titulo": "Festival de Dramaturgia Emergente – Toda la ternura del mundo",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Elisa entierra a su padre y su amiga Cristina llega para acompañarla tras diez años sin verse. La amistad se vuelve un espacio de disputa, de espejo y de sostén, donde lo que está en juego no es solo el pasado que las une, sino la posibilidad de construir, una forma de estar juntas en el presente…",
+   "lugar": {
+    "nombre": "El Galpón - Sala Cero",
+    "direccion": "Av. 18 de Julio 1618",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-25T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 650.0,
+    "hasta": 1200.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34286",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular y El Galpón libre con cupo limitado",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34286"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34286"
+    }
+   ],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42384.jpg",
+   "productor": "Leticia Magallanes",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

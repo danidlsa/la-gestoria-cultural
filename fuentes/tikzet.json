@@ -1,57 +1,10 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-21T15:21:16.296068-03:00",
+ "corrida": "2026-11-21T22:38:12.166366-03:00",
  "ok": true,
- "cantidad": 15,
+ "cantidad": 13,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "tikzet",
-   "id_externo": "9435362b-2897-49bd-b9bf-4fc13a978a35",
-   "url": "https://www.tikzet.com/events/wrrn-days-of-the-phoenix-y-amour-en-tatu-314",
-   "titulo": "Wrrn, Days of the Phoenix y Amour en Tatu 314",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Buenos Aires 314",
-    "direccion": "Buenos Aires 314",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": "2026-11-21T23:43:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/wrrn-days-of-the-phoenix-y-amour-en-tatu-314",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F3a67e4e3-55b4-4cc3-a629-68b376182828.original",
-   "productor": "Green Producciones y Eventos",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tikzet",
    "id_externo": "7e65a42c-0cbe-4e63-9c6c-227aba684e13",
@@ -139,53 +92,6 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F89903bf7-02f6-4d6f-8086-3d2d42817b1b.original",
    "productor": "El Chamuyo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "fa34481c-ba2c-453c-827a-3f3257cfdbef",
-   "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
-   "titulo": "Jengibre y Lipe Gómez",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Por primera vez Jengibre y Lipe Gómez (en banda) se presentan en un mismo escenario. Dos proyectos que experimentan y abarcan influencias desde el rock alternativo y el R&B hasta ritmos latinoamericanos como el candombe y la samba. Este sábado 21 de noviembre en el escenario del hormiguero: Lipe…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": "2026-11-21T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/jengibre-y-lipe-gomez",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F6316ecda-2c01-4beb-9961-e1d8b47f94a1.original",
-   "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -430,53 +336,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "29b67f42-54aa-40b5-ba07-560cc0847b89",
-   "url": "https://www.tikzet.com/events/barrio-chino",
-   "titulo": "Barrio Chino",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Se nos viene un gran show para ir despidiendo el año 🎆 Será una noche de candombe, rock y, por supuesto, alguna cumbia. También habrá invitados de lujo que nos estarán acompañando. 📆 Sábado 28/11 - 21.30 h 📍@elhormiguerobar San Salvador y Minas ¡Les esperamos!🪘🎸🎵🔥 *Este show es con el público de…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T21:00:00-03:00",
-     "fin": "2026-11-28T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 280.0,
-    "hasta": 280.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/barrio-chino",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fcb8a0854-a474-4ab9-a790-3cb0621b6d8e.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "7260eff8-a701-41cf-9e5e-e8dabc49b9b4",
    "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
    "titulo": "El Jardín y Seba Codoni",
@@ -514,6 +373,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F25622e80-e502-4aa5-860c-ee33c453f1de.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "29b67f42-54aa-40b5-ba07-560cc0847b89",
+   "url": "https://www.tikzet.com/events/barrio-chino",
+   "titulo": "Barrio Chino",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Se nos viene un gran show para ir despidiendo el año 🎆 Será una noche de candombe, rock y, por supuesto, alguna cumbia. También habrá invitados de lujo que nos estarán acompañando. 📆 Sábado 28/11 - 21.30 h 📍@elhormiguerobar San Salvador y Minas ¡Les esperamos!🪘🎸🎵🔥 *Este show es con el público de…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": "2026-11-28T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 280.0,
+    "hasta": 280.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/barrio-chino",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fcb8a0854-a474-4ab9-a790-3cb0621b6d8e.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -562,6 +468,53 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fc0806e7c-a39f-49d0-b03c-628bf5062b20.original",
    "productor": "Gema Producciones",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
+   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+   "titulo": "Narciso en Montevideo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
+   "lugar": {
+    "nombre": "Sala Ducón",
+    "direccion": "Convención 1101",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-26T21:00:00-03:00",
+     "fin": "2026-12-26T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
+   "productor": "Sala Ducón",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -656,53 +609,6 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fccf19bc7-f6f4-4858-b045-967370cbe72b.original",
    "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
-   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
-   "titulo": "Narciso en Montevideo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
-   "lugar": {
-    "nombre": "Sala Ducón",
-    "direccion": "Convención 1101",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-26T21:00:00-03:00",
-     "fin": "2026-12-26T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 450.0,
-    "hasta": 450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
-   "productor": "Sala Ducón",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

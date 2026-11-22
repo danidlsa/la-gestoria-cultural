@@ -1,45 +1,13 @@
 {
- "generado": "2026-11-21T15:22:26.901674-03:00",
- "cantidad": 24,
+ "generado": "2026-11-21T22:39:24.998490-03:00",
+ "cantidad": 22,
  "ciclos": [
-  {
-   "id": "ciclo-sabados-en-ciudad-vieja",
-   "titulo": "Sábados en Ciudad Vieja",
-   "lugar_id": null,
-   "desde": "2026-11-21T10:00:00-03:00",
-   "hasta": "2026-11-21T19:30:00-03:00",
-   "cantidad": 28
-  },
-  {
-   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
-   "titulo": "Estreno de obras Fortalecimiento de las Artes",
-   "lugar_id": null,
-   "desde": "2026-11-21T16:00:00-03:00",
-   "hasta": "2026-12-04T21:00:00-03:00",
-   "cantidad": 4
-  },
-  {
-   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
-   "titulo": "Ciclo (no tan) Solos al mediodía",
-   "lugar_id": "teatro-solis",
-   "desde": "2026-11-21T17:00:00-03:00",
-   "hasta": "2026-11-28T14:00:00-03:00",
-   "cantidad": 1
-  },
   {
    "id": "ciclo-actividades-en-el-parque-maua",
    "titulo": "Actividades en el Parque Mauá",
    "lugar_id": "parque-maua",
    "desde": "2026-11-21T17:00:00-03:00",
    "hasta": "2026-12-01T20:00:00-03:00",
-   "cantidad": 2
-  },
-  {
-   "id": "ciclo-bazofi-oriental-2026",
-   "titulo": "BAZOFI ORIENTAL 2026",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-21T17:40:00-03:00",
-   "hasta": "2026-11-21T19:45:00-03:00",
    "cantidad": 2
   },
   {
@@ -51,12 +19,36 @@
    "cantidad": 9
   },
   {
+   "id": "ciclo-sabados-en-ciudad-vieja",
+   "titulo": "Sábados en Ciudad Vieja",
+   "lugar_id": null,
+   "desde": "2026-11-21T18:00:00-03:00",
+   "hasta": "2026-11-21T19:30:00-03:00",
+   "cantidad": 2
+  },
+  {
+   "id": "ciclo-bazofi-oriental-2026",
+   "titulo": "BAZOFI ORIENTAL 2026",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-21T19:45:00-03:00",
+   "hasta": "2026-11-21T19:45:00-03:00",
+   "cantidad": 1
+  },
+  {
    "id": "ciclo-primavera-tango",
    "titulo": "Primavera Tango",
    "lugar_id": "centro-cultural-terminal-goes",
    "desde": "2026-11-21T20:00:00-03:00",
    "hasta": "2026-11-22T20:00:00-03:00",
    "cantidad": 2
+  },
+  {
+   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
+   "titulo": "Estreno de obras Fortalecimiento de las Artes",
+   "lugar_id": null,
+   "desde": "2026-11-21T20:00:00-03:00",
+   "hasta": "2026-12-04T21:00:00-03:00",
+   "cantidad": 4
   },
   {
    "id": "ciclo-ciclo-marea",
@@ -120,14 +112,6 @@
    "lugar_id": "sala-zitarrosa",
    "desde": "2026-12-02T20:00:00-03:00",
    "hasta": "2026-12-03T20:00:00-03:00",
-   "cantidad": 2
-  },
-  {
-   "id": "ciclo-candlelight",
-   "titulo": "Candlelight",
-   "lugar_id": "hyatt-centric",
-   "desde": "2026-12-05T19:30:00-03:00",
-   "hasta": "2026-12-05T21:30:00-03:00",
    "cantidad": 2
   },
   {
