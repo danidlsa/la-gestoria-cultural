@@ -1,54 +1,10 @@
 {
  "fuente": "teatro_de_verano",
- "corrida": "2026-11-21T22:32:27.956109-03:00",
+ "corrida": "2026-11-22T15:45:33.589828-03:00",
  "ok": true,
- "cantidad": 14,
+ "cantidad": 13,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "teatro_de_verano",
-   "id_externo": "227",
-   "url": "https://teatrodeverano.montevideo.gub.uy/Programacion/German-Medina-uc227",
-   "titulo": "German Medina",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "21 de noviembre, 21:00 h.",
-   "lugar": {
-    "nombre": "Teatro de Verano Ramón Collazo",
-    "direccion": "Rambla Wilson s/n, Parque Rodó",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40020784",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://teatrodeverano.montevideo.gub.uy/imgnoticias/202607/W655_H370/929.jpg",
-   "productor": "Teatro de Verano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40020784"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "teatro_de_verano",
    "id_externo": "226",

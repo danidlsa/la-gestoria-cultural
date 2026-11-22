@@ -1,8 +1,8 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-21T22:34:41.333164-03:00",
+ "corrida": "2026-11-22T15:47:40.687240-03:00",
  "ok": true,
- "cantidad": 49,
+ "cantidad": 47,
  "errores": [],
  "eventos": [
   {
@@ -249,13 +249,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-27T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -331,13 +324,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-22T00:00:00-03:00",
      "fin": null,
@@ -568,13 +554,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-22T00:00:00-03:00",
      "fin": null,
@@ -846,58 +825,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Misantropo-de-Miguel-del-Arco/34167/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18324",
-   "url": "https://beneficios.ladiaria.com.uy/la-solteria-esta-de-moda/",
-   "titulo": "La Soltería….¿está de moda?",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Con el humor desfachatado, espontáneo e inconfundible la multipremiada actriz Graciela Rodríguez, una de las grandes figuras del humor nacional, presenta La Soltería… ¿Está de Moda?, un unipersonal brillante que transforma las situaciones más cotidianas de la vida afectiva en una verdadera fiesta…",
-   "lugar": {
-    "nombre": "Complejo Cultural Politeama – Sala Atahualpa del Cioppo",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 650.0,
-    "hasta": 650.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021704/la-solteriaesta-de-moda",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/la-solteria-esta-de-moda/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/ng/espectaculo/40021704/la-solteriaesta-de-moda"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -1319,13 +1246,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-22T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1504,13 +1424,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T21:30:00-03:00",
      "fin": null,
@@ -2233,13 +2146,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-22T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -2408,15 +2314,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 950.0,
     "hasta": 950.0,
@@ -2612,58 +2510,6 @@
    "enlaces": [
     "https://www.tickantel.com.uy/inicio/registrarse",
     "https://tickantel.com.uy/inicio/espectaculo/40021278/espectaculo/Cartograf%C3%ADa%20de%20la%20Identidad?0"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "17788",
-   "url": "https://beneficios.ladiaria.com.uy/raly-barrionuevo-el-caminode-solgo/",
-   "titulo": "Raly Barrionuevo – El caminode Solgo",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Raly Barrionuevo regresa a Montevideo para presentar su nuevo trabajo, «El camino de Solgo», un disco que marca su retorno a las composiciones inéditas tras un necesario período de maduración y búsqueda interna. El esperado reencuentro con el público uruguayo se materializará el 20 de noviembre en…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 1400.0,
-    "hasta": 1400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021263?0",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/raly-barrionuevo-el-caminode-solgo/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/inicio/espectaculo/40021263?0"
    ],
    "ciclo": null,
    "etiquetas": [],

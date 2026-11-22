@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-21T22:30:52.244849-03:00",
+ "corrida": "2026-11-22T15:44:06.532715-03:00",
  "ok": true,
- "cantidad": 87,
+ "cantidad": 78,
  "errores": [],
  "eventos": [
   {
@@ -22,13 +22,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T22:00:00-03:00",
      "fin": null,
@@ -177,13 +170,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-22T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -269,13 +255,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T20:00:00-03:00",
      "fin": null,
@@ -384,13 +363,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-22T19:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -461,64 +433,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "33696",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33696",
-   "titulo": "Austero",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Después de La Tormenta llegó la calma y después el renacer. Austero es el quinto unipersonal de comedia de Flor Infante que camina por un mundo de trabajos obsoletos, ansiedades colectivas, los vínculos y sus legados ancestrales del deber ser, y las búsquedas de soluciones inmediatas en reels…",
-   "lugar": {
-    "nombre": "Sala Teatro Movie",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 780.0,
-    "hasta": 980.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33696",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33696"
-    },
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33696"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/40677.jpg",
-   "productor": "Ernesto Muniz",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "33802",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?33802",
    "titulo": "Ay - la miseria nos hará felices",
@@ -534,13 +448,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-22T18:00:00-03:00",
      "fin": null,
@@ -620,13 +527,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T20:30:00-03:00",
      "fin": null,
@@ -784,13 +684,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T20:00:00-03:00",
      "fin": null,
@@ -957,13 +850,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-22T19:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1021,13 +907,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T21:00:00-03:00",
      "fin": null,
@@ -1374,13 +1253,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T18:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T18:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1482,13 +1354,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1583,13 +1448,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-27T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1633,53 +1491,6 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42293.jpg",
    "productor": "Alvaro Martínez",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34807",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34807",
-   "titulo": "El Pitufo",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Después de pasar cuarenta años viviendo con sus padres, Pitufo comienza una nueva etapa de su vida. Por primera vez consiguió un trabajo como guardia de seguridad, y su primer turno nocturno transcurre en un lugar que él mismo ni siquiera termina de comprender. Mientras intenta cumplir con sus…",
-   "lugar": {
-    "nombre": "Teatro La Sala - Las Piedras",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34807",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42119.jpg",
-   "productor": "Gustavo Trinidad",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -2001,13 +1812,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2060,13 +1864,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T21:00:00-03:00",
      "fin": null,
@@ -2283,13 +2080,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-22T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2457,13 +2247,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2607,53 +2390,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34203",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34203",
-   "titulo": "Germán Medina: Catarsis",
-   "categoria": "humor",
-   "categoria_segura": true,
-   "descripcion_corta": "Con su estilo único, cercano y explosivo, Germán Medina se ha consolidado como una de las figuras más destacadas del humor nacional, conquistando al público con anécdotas cotidianas, improvisación y una energía arrolladora en escena. Función: sábado 21 de noviembre 21:00 horas - Teatro de Verano",
-   "lugar": {
-    "nombre": "Teatro de Verano \"Ramón Collazo\"",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 525.0,
-    "hasta": 1260.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34203",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41354.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "15167",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?15167",
    "titulo": "Hadas, piratas y fantasmas",
@@ -2777,13 +2513,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T22:00:00-03:00",
      "fin": null,
@@ -3070,13 +2799,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -3176,13 +2898,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-22T19:00:00-03:00",
      "fin": null,
@@ -3498,13 +3213,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -3751,100 +3459,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34740",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34740",
-   "titulo": "Matrimonio por conveniencia",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una obra que sigue la historia de un matrimonio con muchos años de convivencia bajo una regla implícita para sobrevivir al tiempo: saber cuándo hablar y cuándo callar. Sin embargo, la rutina se rompe por completo cuando la pareja decide enfrentarse a un reto peligroso: decirse absolutamente todas…",
-   "lugar": {
-    "nombre": "Vieja Farmacia Solís",
-    "direccion": "Av. Agraciada 2623",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 760.0,
-    "hasta": 760.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34740",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42037.jpg",
-   "productor": "Alfredo Leirós",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34926",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34926",
-   "titulo": "Merlina y Pericles",
-   "categoria": "infantil",
-   "categoria_segura": true,
-   "descripcion_corta": "¿Qué tienen en común Merlina, Pericles y el Castillo Pittamiglio? Que los tres son bastante raros... y ninguno tiene intenciones de cambiar. Esta vez, los hermanos más particulares llegan a uno de los lugares más misteriosos de Montevideo. Un castillo lleno de símbolos extraños, secretos, leyendas…",
-   "lugar": {
-    "nombre": "Castillo Pittamiglio",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T17:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 1400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34926",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42253.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34818",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34818",
    "titulo": "Mi amiga fantasma",
@@ -3961,13 +3575,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-22T19:00:00-03:00",
      "fin": null,
@@ -4169,13 +3776,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-22T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -4247,13 +3847,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T21:30:00-03:00",
      "fin": null,
@@ -4360,100 +3953,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "7064",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?7064",
-   "titulo": "Noches de Edgar Allan Poe",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "El lugar donde el horror palpita en cada rincón resulta el sitio perfecto para vibrar los cuentos del autor más macabro de todos los tiempos. Las historias extraordinarias de Edgar Allan Poe se hacen presentes a través de una secuencia tenebrosa donde se alterna su vida desquiciada y varios de sus…",
-   "lugar": {
-    "nombre": "Castillo Pittamiglio",
-    "direccion": "Rambla Gandhi 633",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 900.0,
-    "hasta": 1600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?7064",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42276.jpg",
-   "productor": "Álvaro Loureiro",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34838",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34838",
-   "titulo": "Only Frans",
-   "categoria": "humor",
-   "categoria_segura": true,
-   "descripcion_corta": "Fran Burghi cuenta diferentes historias a través de los personajes conocidos en sus redes y de otros que aparecen por primera vez en escena. Un espectáculo de humor con improvisación, comedia física y situaciones absurdas, donde juega con la actualidad y la vida cotidiana desde su particular mirada.",
-   "lugar": {
-    "nombre": "UnderMovie",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T20:45:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 800.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34838",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42158.jpg",
-   "productor": "Federico Longo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "30834",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?30834",
    "titulo": "Parque temático",
@@ -4469,13 +3968,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-22T19:00:00-03:00",
      "fin": null,
@@ -4539,13 +4031,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T21:30:00-03:00",
      "fin": null,
@@ -4652,13 +4137,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -4748,53 +4226,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34817",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34817",
-   "titulo": "Quiero que susurres una canción para mi muerte",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Un sótano. Un stripper. Un poeta. Un suicida. Jorge acaba de terminar su show y les propone un pacto a los espectadores: si ellos se quedan hasta el final, él no se mata. Quizás contar su historia sea una forma de pedir ayuda y salvarse.",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": "Soriano 914",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34817",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42132.jpg",
-   "productor": "Analía Torres",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34621",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34621",
    "titulo": "Soy todas",
@@ -4860,59 +4291,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "32269",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32269",
-   "titulo": "Suavecita",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Suavecita funda un mito. Una fantasía marginal y pegajosa. En el hospital donde trabaja, el rumor corre a sus espaldas. El Dr. Rodríguez la utiliza para probar una terapia alternativa en pacientes terminales. Suavecita viene a traccionar dos universos: por un lado, el de una mujer que descubre un…",
-   "lugar": {
-    "nombre": "Teatro Metro",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1100.0,
-    "hasta": 2190.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32269",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Club El País",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32269"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41951.jpg",
-   "productor": "Martín Bontempo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34722",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34722",
    "titulo": "Tierra Santa",
@@ -4928,13 +4306,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-22T19:00:00-03:00",
      "fin": null,
@@ -5010,13 +4381,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-22T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -5074,13 +4438,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-22T19:30:00-03:00",
      "fin": null,

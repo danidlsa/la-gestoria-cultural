@@ -1,54 +1,10 @@
 {
  "fuente": "sala_del_museo",
- "corrida": "2026-11-21T22:34:23.438371-03:00",
+ "corrida": "2026-11-22T15:47:26.128068-03:00",
  "ok": true,
  "cantidad": 12,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "sala_del_museo",
-   "id_externo": "fms",
-   "url": "https://www.saladelmuseo.com.uy/shows/item/fms.html",
-   "titulo": "FMS",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "VUELVE LA MEJOR LIGA DEL MUNDO, FMS ARGENTINA La primera liga profesional de freestyle en Argentina vuelve a URUGUAY con su octava temporada el próximo SÁBADO 21 de NOVIEMBRE en el SALA DEL MUSEO DEL CARNAVAL de Montevideo. La nueva era de competidores argentinos está lista para dar el salto al…",
-   "lugar": {
-    "nombre": "Sala del Museo",
-    "direccion": "Rambla 25 de Agosto esq. Maciel",
-    "lat": -34.905789,
-    "lon": -56.212222,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T17:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/FMS-Freestyle-master-series/34059/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_Cuadrada_1080_a44e933a5ac40b57d7a7604506af9afe.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/FMS-Freestyle-master-series/34059/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "sala_del_museo",
    "id_externo": "coti",
@@ -527,6 +483,50 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/JADEO-XL--12-DE-DICIEMBRE/33849/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "tussiwarriors",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/tussiwarriors.html",
+   "titulo": "TUSSIWARRIORS",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "TUSSIWARRIORS",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/TUSSIWARRIORS/34706/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/FLYER_MVD__1080_x_1080_px_NO_LOGOS_8a2cfbcc64da4cc220a0fee40050c0c5.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/TUSSIWARRIORS/34706/"
    ],
    "ciclo": null,
    "etiquetas": [],

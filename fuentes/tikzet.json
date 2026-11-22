@@ -1,8 +1,8 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-21T22:38:12.166366-03:00",
+ "corrida": "2026-11-22T15:50:57.428426-03:00",
  "ok": true,
- "cantidad": 13,
+ "cantidad": 14,
  "errores": [],
  "eventos": [
   {
@@ -148,53 +148,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
-   "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
-   "titulo": "Javier Zubillaga De Vivo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Javier Zubillaga despide el año con un show íntimo dedicado a su repertorio humorístico, con canciones de sus dos trabajos discográficos y varios temas inéditos.",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": "2026-11-27T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "7ebaa549-795f-4525-9c8f-3a963e1372c9",
    "url": "https://www.tikzet.com/events/javier-ventoso",
    "titulo": "Javier Ventoso",
@@ -232,6 +185,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Ffe957b7d-f2ed-4c67-a998-1da80da079f2.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
+   "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
+   "titulo": "Javier Zubillaga De Vivo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Javier Zubillaga despide el año con un show íntimo dedicado a su repertorio humorístico, con canciones de sus dos trabajos discográficos y varios temas inéditos.",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": "2026-11-27T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -336,53 +336,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "7260eff8-a701-41cf-9e5e-e8dabc49b9b4",
-   "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
-   "titulo": "El Jardín y Seba Codoni",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "El martes 1.º de diciembre nos encontramos en El Hormiguero para compartir una noche de música en vivo entre El Jardín y Seba Codoni. El Jardín se presentara esta vez en formato trío, presentando los nuevos simples \"427\" y \"Plaza sola\" y otras grajeas de su repertorio. Seba Codoni, por su parte…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-01T20:30:00-03:00",
-     "fin": "2026-12-01T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F25622e80-e502-4aa5-860c-ee33c453f1de.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "29b67f42-54aa-40b5-ba07-560cc0847b89",
    "url": "https://www.tikzet.com/events/barrio-chino",
    "titulo": "Barrio Chino",
@@ -420,6 +373,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fcb8a0854-a474-4ab9-a790-3cb0621b6d8e.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "7260eff8-a701-41cf-9e5e-e8dabc49b9b4",
+   "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
+   "titulo": "El Jardín y Seba Codoni",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "El martes 1.º de diciembre nos encontramos en El Hormiguero para compartir una noche de música en vivo entre El Jardín y Seba Codoni. El Jardín se presentara esta vez en formato trío, presentando los nuevos simples \"427\" y \"Plaza sola\" y otras grajeas de su repertorio. Seba Codoni, por su parte…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-01T20:30:00-03:00",
+     "fin": "2026-12-01T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F25622e80-e502-4aa5-860c-ee33c453f1de.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -468,53 +468,6 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fc0806e7c-a39f-49d0-b03c-628bf5062b20.original",
    "productor": "Gema Producciones",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
-   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
-   "titulo": "Narciso en Montevideo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
-   "lugar": {
-    "nombre": "Sala Ducón",
-    "direccion": "Convención 1101",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-26T21:00:00-03:00",
-     "fin": "2026-12-26T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 450.0,
-    "hasta": 450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
-   "productor": "Sala Ducón",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -609,6 +562,100 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fccf19bc7-f6f4-4858-b045-967370cbe72b.original",
    "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "62b4452f-beeb-4658-ab31-c96ce7864808",
+   "url": "https://www.tikzet.com/events/fiesta-de-fin-de-ano-ysc",
+   "titulo": "Fiesta de fin de año YSC",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Young Sporting Club",
+    "direccion": "Tropas al oeste S/N",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:00:00-03:00",
+     "fin": "2026-12-06T03:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/fiesta-de-fin-de-ano-ysc",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F21482297-8280-463e-81b9-5662bd6add66.original",
+   "productor": "Young Sporting Club",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
+   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+   "titulo": "Narciso en Montevideo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
+   "lugar": {
+    "nombre": "Sala Ducón",
+    "direccion": "Convención 1101",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-26T21:00:00-03:00",
+     "fin": "2026-12-26T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
+   "productor": "Sala Ducón",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

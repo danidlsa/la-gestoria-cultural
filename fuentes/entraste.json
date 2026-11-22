@@ -1,50 +1,50 @@
 {
  "fuente": "entraste",
- "corrida": "2026-11-21T22:38:08.200917-03:00",
+ "corrida": "2026-11-22T15:50:53.917964-03:00",
  "ok": true,
  "cantidad": 3,
  "errores": [],
  "eventos": [
   {
    "fuente": "entraste",
-   "id_externo": "390",
-   "url": "https://app.entraste.com/events/sabado-21-de-noviembre-reggaeton-cumbia-vieja",
-   "titulo": "SÁBADO 21 DE NOVIEMBRE – REGGAETON & CUMBIA VIEJA",
+   "id_externo": "296",
+   "url": "https://app.entraste.com/events/dizco-aniversario",
+   "titulo": "DIZCO ANIVERSARIO",
    "categoria": "fiesta",
    "categoria_segura": false,
-   "descripcion_corta": "Reggaeton viejo y cumbia vieja en el club. Reservas y mesas: 098 814 543 *Al ingresar estás aceptando aparecer en material fotográfico y/o audiovisual que puede ser utilizado en piezas comunicacionales de la marca. *No se permite el ingreso con ropa deportiva.",
+   "descripcion_corta": null,
    "lugar": {
-    "nombre": "VOU",
-    "direccion": "Plaza Mateo, Rbla. Pdte. Wilson esq, 11200 Montevideo, Departamento de Montevideo",
-    "lat": -34.9155965,
-    "lon": -56.1687301,
+    "nombre": "Canelones 1963",
+    "direccion": "Canelones 1963",
+    "lat": null,
+    "lon": null,
     "barrio": null,
     "alternativas": []
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T23:30:00-03:00",
-     "fin": "2026-11-22T06:00:00-03:00",
+     "inicio": "2026-11-27T23:59:00-03:00",
+     "fin": null,
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 300.0,
-    "hasta": 400.0,
+    "desde": 400.0,
+    "hasta": 500.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://app.entraste.com/events/sabado-21-de-noviembre-reggaeton-cumbia-vieja",
+     "url": "https://app.entraste.com/events/dizco-aniversario",
      "via": "entraste"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://storage.googleapis.com/entraste-media/1794783740_662f8d689b45b2e1.webp",
-   "productor": "VOU",
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1791910956_fcc3eb13f2e22e18.webp",
+   "productor": "Don Juan",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -101,15 +101,15 @@
   },
   {
    "fuente": "entraste",
-   "id_externo": "296",
-   "url": "https://app.entraste.com/events/dizco-aniversario",
-   "titulo": "DIZCO ANIVERSARIO",
-   "categoria": "fiesta",
+   "id_externo": "321",
+   "url": "https://app.entraste.com/events/navidad-en-el-yacht-2026",
+   "titulo": "Navidad en el Yacht 2026",
+   "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": null,
    "lugar": {
-    "nombre": "Canelones 1963",
-    "direccion": "Canelones 1963",
+    "nombre": "Av. República Federal de Alemania",
+    "direccion": "Av. República Federal de Alemania, 11300 Montevideo, Departamento de Montevideo",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -117,7 +117,7 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-27T23:59:00-03:00",
+     "inicio": "2026-12-24T12:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -125,20 +125,20 @@
     }
    ],
    "precio": {
-    "desde": 400.0,
-    "hasta": 500.0,
+    "desde": 990.0,
+    "hasta": 990.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://app.entraste.com/events/dizco-aniversario",
+     "url": "https://app.entraste.com/events/navidad-en-el-yacht-2026",
      "via": "entraste"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://storage.googleapis.com/entraste-media/1791910956_fcc3eb13f2e22e18.webp",
-   "productor": "Don Juan",
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1792536644_08b050e95cb2403c.webp",
+   "productor": "YACHT",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

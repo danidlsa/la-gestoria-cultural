@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-21T22:39:24.998490-03:00",
- "cantidad": 189,
+ "generado": "2026-11-22T15:52:02.017625-03:00",
+ "cantidad": 180,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -122,16 +122,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "asociacion-de-sordos-del-uruguay",
-   "nombre": "Asociación de Sordos del Uruguay",
-   "alias": [],
-   "direccion": "Hermanos Gil 945",
-   "lat": -34.870814,
-   "lon": -56.198579,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "auditorio-nacional-del-sodre",
    "nombre": "Auditorio Nacional del Sodre",
    "alias": [
@@ -181,12 +171,32 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "av-republica-federal-de-alemania",
+   "nombre": "Av. República Federal de Alemania",
+   "alias": [],
+   "direccion": "Av. República Federal de Alemania, 11300 Montevideo, Departamento de Montevideo",
+   "lat": -34.9105987,
+   "lon": -56.1317516,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "balcon-del-cerro",
    "nombre": "Balcón del Cerro",
    "alias": [],
    "direccion": "Filipinas 3661",
    "lat": -34.886471,
    "lon": -56.256732,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "bar-andorra",
+   "nombre": "Bar Andorra",
+   "alias": [],
+   "direccion": "Canelones entre Aquiles Lanza y Ejido",
+   "lat": -34.908481,
+   "lon": -56.187691,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -205,8 +215,7 @@
    "nombre": "Botánica Sala",
    "alias": [
     "Sala Botánica",
-    "Complejo Prado/Sala Botanica",
-    "Sala Bótanica"
+    "Complejo Prado/Sala Botanica"
    ],
    "direccion": "Complejo Prado",
    "lat": -34.861076,
@@ -365,16 +374,6 @@
    "direccion": "Heraclio C. Fajardo 3464",
    "lat": -34.861031000662,
    "lon": -56.16556628754,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "centro-cultural-florencio-sanchez",
-   "nombre": "Centro Cultural Florencio Sánchez",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.89231,
-   "lon": -56.24801,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -629,16 +628,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "el-tropy",
-   "nombre": "El Tropy",
-   "alias": [],
-   "direccion": "Av Gral Rondeau 2477, 11800 Montevideo,",
-   "lat": -34.884626,
-   "lon": -56.193819,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "emile-club",
    "nombre": "Emile Club",
    "alias": [
@@ -726,16 +715,6 @@
    "direccion": "Isla de Flores 1631",
    "lat": -34.910571,
    "lon": -56.179747,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "espacio-patio",
-   "nombre": "Espacio Patio",
-   "alias": [],
-   "direccion": "Juan Carlos Gómez y Piedras",
-   "lat": -34.9035643,
-   "lon": -56.2044973,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -942,16 +921,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "la-bodeguita-del-sur",
-   "nombre": "La Bodeguita del Sur",
-   "alias": [],
-   "direccion": "Soriano 840",
-   "lat": -34.908433,
-   "lon": -56.198165,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "la-colmena-espacio-de-arte",
    "nombre": "La Colmena | Espacio de Arte",
    "alias": [],
@@ -1069,8 +1038,8 @@
    "id": "lustrino-espacio-cultural",
    "nombre": "Lustrino Espacio Cultural",
    "alias": [
-    "Lustrino - Espacio Cultural",
-    "Lustrino"
+    "Lustrino",
+    "Lustrino - Espacio Cultural"
    ],
    "direccion": "Carlos Roxlo 1359 bis esq. Av. 18 de Julio",
    "lat": -34.904767,
@@ -1113,16 +1082,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "miguelete-piedra-alta",
-   "nombre": "Miguelete & Piedra Alta",
-   "alias": [],
-   "direccion": "Miguelete & Piedra Alta, 11800 Montevide",
-   "lat": -34.897587,
-   "lon": -56.185189,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "molino-de-perez",
    "nombre": "Molino de Pérez",
    "alias": [
@@ -1150,7 +1109,7 @@
    "alias": [
     "MMB"
    ],
-   "direccion": "Av. Dámaso A. Larrañaga 3195",
+   "direccion": "Av. Dámaso A. Larrañaga 3195, 11600 Mont",
    "lat": -34.880615,
    "lon": -56.15275,
    "barrio": null,
@@ -1379,7 +1338,7 @@
    "id": "plaza-mateo",
    "nombre": "Plaza Mateo",
    "alias": [],
-   "direccion": "Rbla. Pdte. Wilson esq, 11200 Montevideo",
+   "direccion": "Sarmiento esq la rambla (FARRA.)",
    "lat": -34.915753,
    "lon": -56.168935,
    "barrio": null,
@@ -1392,16 +1351,6 @@
    "direccion": null,
    "lat": -34.910003,
    "lon": -56.1576635,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "plaza-zabala",
-   "nombre": "Plaza Zabala",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.9076019,
-   "lon": -56.2081314,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1446,7 +1395,7 @@
    "alias": [
     "Q'atrevido"
    ],
-   "direccion": "San José 907",
+   "direccion": "San José 907, Montevideo",
    "lat": -34.907129,
    "lon": -56.196424,
    "barrio": null,
@@ -1537,16 +1486,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "sala-mitre",
-   "nombre": "SALA MITRE",
-   "alias": [],
-   "direccion": "Bartolomé Mitre 1321, 11000 Montevideo,",
-   "lat": -34.907138,
-   "lon": -56.201924,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "sala-26",
    "nombre": "Sala 26",
    "alias": [],
@@ -1593,16 +1532,6 @@
    "direccion": null,
    "lat": -34.8557558,
    "lon": -56.1324247,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "sala-lazaroff",
-   "nombre": "Sala Lazaroff",
-   "alias": [],
-   "direccion": "Av. 8 de Octubre 4849",
-   "lat": -34.855863,
-   "lon": -56.132473,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1739,16 +1668,6 @@
    "direccion": null,
    "lat": -34.8905846,
    "lon": -56.0553743,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "soriano-817",
-   "nombre": "Soriano 817",
-   "alias": [],
-   "direccion": "Soriano 817, 11100 Montevideo, Departame",
-   "lat": -34.908248,
-   "lon": -56.198649,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1907,8 +1826,7 @@
    "nombre": "Teatro de Verano Ramón Collazo",
    "alias": [
     "Teatro de Verano",
-    "Teatro de Verano Ramon Collazo",
-    "Teatro de Verano \"Ramón Collazo\""
+    "Teatro de Verano Ramon Collazo"
    ],
    "direccion": "Rambla Wilson s/n, Parque Rodó",
    "lat": -34.9177,
@@ -2022,16 +1940,6 @@
    "direccion": "Av. Agraciada 2623",
    "lat": -34.883768,
    "lon": -56.194264,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "zoba-club",
-   "nombre": "Zoba Club",
-   "alias": [],
-   "direccion": "Bv. España 2218",
-   "lat": -34.9095744,
-   "lon": -56.1679561,
    "barrio": null,
    "ciudad": "Montevideo"
   },

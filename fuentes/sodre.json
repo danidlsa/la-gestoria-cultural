@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-21T22:29:24.034941-03:00",
+ "corrida": "2026-11-22T15:42:50.325094-03:00",
  "ok": true,
- "cantidad": 38,
+ "cantidad": 37,
  "errores": [],
  "eventos": [
   {
@@ -340,50 +340,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/inicio/espectaculo/40021691/espectaculo/Otros%20Indios%20presenta%20HOMENAJE?10"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13488",
-   "url": "https://sodre.gub.uy/espectaculos/la-belleza/",
-   "titulo": "La belleza",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Un recorrido por tres mundos orquestales muy distintos",
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T20:00:00-03:00",
-     "fin": "2026-11-21T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021837/ossodre-la-belleza",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Adaptaciones_LA-BELLEZA_Web_Destacada1-768x420.png",
-   "productor": "Orquesta Sinfónica Nacional del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021837/ossodre-la-belleza"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -848,13 +804,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": "2026-11-21T23:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-27T19:00:00-03:00",
      "fin": "2026-11-27T21:00:00-03:00",
      "sin_hora": false,
@@ -1132,13 +1081,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T19:00:00-03:00",
-     "fin": "2026-11-21T21:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-26T19:00:00-03:00",
      "fin": "2026-11-26T21:00:00-03:00",
@@ -1424,13 +1366,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-21T17:00:00-03:00",
-     "fin": "2026-11-21T19:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T17:00:00-03:00",
      "fin": "2026-11-27T19:00:00-03:00",

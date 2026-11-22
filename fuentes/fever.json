@@ -1,6 +1,6 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-21T22:34:48.121729-03:00",
+ "corrida": "2026-11-22T15:47:47.409861-03:00",
  "ok": true,
  "cantidad": 17,
  "errores": [],
@@ -172,8 +172,8 @@
     }
    ],
    "precio": {
-    "desde": 920.0,
-    "hasta": 920.0,
+    "desde": 960.0,
+    "hasta": 960.0,
     "moneda": "UYU",
     "gratis": false
    },
@@ -247,7 +247,7 @@
    "titulo": "Candlelight: Lo Mejor de Hans Zimmer",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Lo Mejor de Hans Zimmer en Hotel Radisson Victoria Plaza bajo la tenue luz de las…",
+   "descripcion_corta": "Candlelight: Lo Mejor de Hans Zimmer llega al Hotel Radisson Victoria Plaza de Montevideo: un cuarteto de cuerdas interpreta las bandas sonoras más emblemáticas del compositor, a la luz de las velas. Conseguí tus entradas y disfrutá de la música. Esta experiencia de concierto es un tributo. No está…",
    "lugar": {
     "nombre": "Hotel Radisson Victoria Plaza",
     "direccion": null,
@@ -386,9 +386,9 @@
    "id_externo": "838626",
    "url": "https://feverup.com/m/838626",
    "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
-   "categoria": "carnaval",
+   "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Las Cuatro Estaciones de Vivaldi en Hotel Radisson Victoria Plaza bajo la tenue luz…",
+   "descripcion_corta": "Candlelight: Las Cuatro Estaciones de Vivaldi llega al Hotel Radisson Victoria Plaza de Montevideo: un cuarteto de cuerdas interpreta la obra más emblemática de Vivaldi a la luz de las velas. Conseguí tus entradas y disfrutá de la música. Esta experiencia de concierto es un tributo. No está…",
    "lugar": {
     "nombre": "Hotel Radisson Victoria Plaza",
     "direccion": null,

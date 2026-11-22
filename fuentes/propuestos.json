@@ -1,56 +1,8 @@
 {
  "fuente": "propuestos",
- "corrida": "2026-11-21T22:38:06.771258-03:00",
+ "corrida": "2026-11-22T15:50:52.971498-03:00",
  "ok": true,
- "cantidad": 1,
+ "cantidad": 0,
  "errores": [],
- "eventos": [
-  {
-   "fuente": "propuestos",
-   "id_externo": "a69a6d2468bb",
-   "url": "https://www.instagram.com/p/Df0LK_EGa_Q/?img_index=1",
-   "titulo": "La Cuarenta",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Show en vivo de distintos artistas",
-   "lugar": {
-    "nombre": "La Cuarenta",
-    "direccion": "Urquiza 2551",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T13:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df0LK_EGa_Q/?img_index=1",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/a69a6d2468bb.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  }
- ]
+ "eventos": []
 }

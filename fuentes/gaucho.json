@@ -1,8 +1,8 @@
 {
  "fuente": "gaucho",
- "corrida": "2026-11-21T22:34:36.926510-03:00",
+ "corrida": "2026-11-22T15:47:38.520523-03:00",
  "ok": true,
- "cantidad": 10,
+ "cantidad": 9,
  "errores": [],
  "eventos": [
   {
@@ -395,50 +395,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/inicio/espectaculo/40020379/espectaculo/DJAVAN?0"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "gaucho",
-   "id_externo": "2026-11-21-buenos-muchachos",
-   "url": "https://www.gaucho.com.uy/shows.php",
-   "titulo": "Buenos Muchachos",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": "Av. Dámaso A. Larrañaga 4001",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/alta_demanda/40021134/espectaculo/Buenos%20Muchachos",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.gaucho.com.uy/images/banners/2026/2026-11-21-buenos-muchachos.jpg",
-   "productor": "Gaucho",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/alta_demanda/40021134/espectaculo/Buenos%20Muchachos"
    ],
    "ciclo": null,
    "etiquetas": [],
