@@ -27,7 +27,9 @@ log = logging.getLogger(__name__)
 _INTERIOR = re.compile(r"\b(las piedras|la paz|ciudad de la costa|el pinar|solymar|lagomar|pando|atlantida|parque del plata|"
                        r"la floresta|piriapolis|punta del este|jose ignacio|la barra|maldonado|polonio|la paloma|"
                        r"colonia del sacramento|minas|rocha|salto|paysandu|tacuarembo|rivera|treinta y tres|"
-                       r"complejo cultural politeama)\b")  # el Politeama es de la ciudad de Canelones
+                       # El Politeama es de la ciudad de Canelones; el Young Sporting Club, de Young (Río Negro): "Young"
+                       # solo no, que es también un nombre ("Young Fathers").
+                       r"complejo cultural politeama|young sporting club|fray bentos)\b")
 
 
 def del_interior(evento: EventoCrudo) -> bool:

@@ -68,7 +68,7 @@ _MES = "(" + "|".join(sorted(MESES, key=len, reverse=True)) + ")"
 # Horarios de apertura y cosas que se repiten no son un evento: "de lunes a viernes", "todos los jueves", "sábados".
 # Tampoco un período ("del 20/12 al 5/1", "hasta el 30 de noviembre"): eso es un cierre, una muestra o una promo.
 _RECURRENTE = re.compile(
-    rf"\b(de\s+)?{_DIA}\s+(a|al|y)\s+{_DIA}\b|\b(todos\s+los|todas\s+las|cada)\s+\w+|\b(sabados|domingos)\b"
+    rf"\b(de\s+)?{_DIA}s?\s+(a|al|y)\s+{_DIA}s?\b|\b(todos\s+los|todas\s+las|cada)\s+\w+|\b(sabados|domingos)\b"
     rf"|\b(del?|desde\s+el)\s+\d{{1,2}}(\s*(de\s+|/)\s*{_MES}|/\d{{1,2}})?\s+(al|hasta\s+el)\s+\d{{1,2}}(\s*(de\s+|/)\s*{_MES}|/\d{{1,2}})?"
     rf"|\bhasta\s+el\s+\d{{1,2}}(\s*(de\s+|/)\s*{_MES}|/\d{{1,2}})?"
     rf"|\b\d{{1,2}}\s*(de\s+)?{_MES}\s*[-–]\s*\d{{1,2}}\s*(de\s+)?{_MES}"  # "18 de noviembre - 18 de diciembre"
@@ -99,7 +99,10 @@ _SERIE = re.compile(rf"\b(lunes|martes|miercoles|jueves|viernes|sabado|domingo)s
 # Tampoco la de cuándo salen las entradas ("El 14.11 largamos la primer tanda de entradas").
 _NO_ES_EVENTO = re.compile(r"ganador|sorteo|sorteamos|participa[rn]?\b|valido|vigente|descuento|vence|fecha limite|postula"
                            r"|tanda\s+de\s+entradas|preventa|venta\s+de\s+entradas|salen\s+(a\s+la\s+venta|las\s+entradas)"
-                           r"|convocatoria|inscripciones?\s+(hasta|cierra)|cierre\s+de\s+(inscripciones|postulaciones)")
+                           r"|convocatoria|inscripciones?\s+(hasta|cierra)|cierre\s+de\s+(inscripciones|postulaciones)"
+                           # La cocina de un bar ("nuestra cocina está abierta para venir a almorzar"): no es un evento.
+                           r"|cocina\s+(esta\s+)?abierta|\b(venir|veni|vengan)\s+a\s+(almorzar|cenar|merendar|desayunar)"
+                           r"|menu\s+(del\s+dia|ejecutivo)")
 # Un post que abre con una convocatoria o un llamado ("CONVOCATORIA ABIERTA", "Inscribí tu propuesta") no anuncia un
 # evento: sus fechas son de inscripción. Se mira solo el principio, para no perder un evento que la menciona al final.
 _CONVOCATORIA = re.compile(r"convocatoria|convocamos|llamado\s+(abierto|a\s)|postula|inscribi\s+tu\s+propuesta"
@@ -961,6 +964,8 @@ def scrapear(cliente, ahora: datetime) -> tuple[list[EventoCrudo], list[str]]:
         ig_id = cuenta_de_la_gestoria(http, token)
         campos_post = "id,caption,media_type,media_url,permalink,timestamp"
         esta_corrida: dict[str, dict] = {}
+        # Los posts que se leyeron y ya no dan nada (no son muy viejos, pero ahora las reglas dicen que no es un evento).
+        descartados: set[str] = set()
         estado: dict[str, str] = {}
         leidos: list[dict] = []
         for cuenta in cuentas():
@@ -990,15 +995,20 @@ def scrapear(cliente, ahora: datetime) -> tuple[list[EventoCrudo], list[str]]:
                     continue
                 for nuevo in nuevos:
                     sumar(esta_corrida, nuevo)
+                publicado = datetime.fromisoformat(post["timestamp"].replace("+0000", "+00:00"))
+                if not nuevos and ahora - publicado <= ANTIGUEDAD_MAXIMA:
+                    descartados.add(post.get("permalink"))
             estado[usuario] = f"leída: {len(posts)} posts, {len(esta_corrida) - antes} borradores"
 
         # Lo que ya no sale de los posts (por ejemplo, porque cambiaron las reglas) se va, salvo que esté aprobado:
         # un evento anunciado con mucha anticipación puede quedar fuera de los últimos posts y tiene que seguir.
         anteriores = borradores
-        # Pero lo de una cuenta que se sacó de la lista se va aunque esté aprobado.
+        # Pero lo de una cuenta que se sacó de la lista se va aunque esté aprobado, y también lo que sale de posts que se
+        # volvieron a leer y ya no dan nada ("nuestra cocina está abierta para venir a almorzar", aprobado por error).
         en_la_lista = {c["usuario"] for c in cuentas()}
         borradores = {i: b for i, b in anteriores.items()
-                      if b.get("aprobado") and i not in esta_corrida and b.get("usuario") in en_la_lista}
+                      if b.get("aprobado") and i not in esta_corrida and b.get("usuario") in en_la_lista
+                      and not (b.get("posts") and set(b["posts"]) <= descartados)}
         esta_corrida = juntar_parecidos(esta_corrida)
         for id_, nuevo in esta_corrida.items():
             anterior = anteriores.get(id_, {})

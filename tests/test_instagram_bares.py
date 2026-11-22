@@ -32,6 +32,8 @@ def test_la_hora_del_show_y_la_madrugada():
 
 def test_lo_que_no_es_un_evento():
     assert funciones("Lunes a viernes desde las 18h\nSábados desde las 20h") == []  # horario del bar
+    assert funciones("de lunes a domingos nuestra cocina esta abierta para venir a almorzar\n\nte esperamos desde las 12 am") == []
+    assert funciones("Nuestro menú ejecutivo, el lunes 16 desde las 12 h") == []
     assert funciones("Todos los jueves karaoke desde las 21h") == []
     assert funciones("Sorteo! Mañana anunciamos el ganador") == []  # sin hora
     assert funciones("Cerramos del 20/12 al 5/1") == []
@@ -293,7 +295,8 @@ def test_lo_que_ya_no_sale_se_va_salvo_lo_aprobado(tmp_path, monkeypatch):
     monkeypatch.setattr(ig, "CONFIG", tmp_path / "bares.toml")
     monkeypatch.setenv("INSTAGRAM_TOKEN", "x")
     viejo = {"id": "elbar-20261120", "usuario": "elbar", "titulo": "Sorteo", "lugar": "Bar", "texto": "t",
-             "funciones": [{"inicio": "2026-11-20T21:00:00-03:00", "sin_hora": False}], "url": "https://www.instagram.com/p/9/"}
+             "funciones": [{"inicio": "2026-11-20T21:00:00-03:00", "sin_hora": False}], "url": "https://www.instagram.com/p/9/",
+             "posts": ["https://www.instagram.com/p/9/"]}
     ig.guardar_borradores({"elbar-20261120": viejo, "elbar-20261125": {**viejo, "id": "elbar-20261125", "aprobado": True,
                            "funciones": [{"inicio": "2026-11-25T21:00:00-03:00", "sin_hora": False}]}})
 
@@ -306,6 +309,15 @@ def test_lo_que_ya_no_sale_se_va_salvo_lo_aprobado(tmp_path, monkeypatch):
     monkeypatch.setattr(ig, "avisos_en_github", lambda: None)  # sin GitHub: valen las decisiones guardadas
     eventos, _ = ig.scrapear(None, AHORA)
     assert set(ig.cargar_borradores()) == {"elbar-20261125"} and [e.id_externo for e in eventos] == ["elbar-20261125"]
+    # Si el post del aprobado se vuelve a leer y ya no da un evento (se aprobó por error), se va igual.
+    almuerzo = {"id": "9", "caption": "De lunes a domingos nuestra cocina está abierta para venir a almorzar",
+                "media_type": "IMAGE", "media_url": "https://cdn/9.jpg", "permalink": "https://www.instagram.com/p/9/",
+                "timestamp": "2026-11-09T15:00:00+0000"}
+    monkeypatch.setattr(ig, "TRANSPORTE", httpx.MockTransport(lambda pedido: httpx.Response(200, json=(
+        {"instagram_business_account": {"id": "1"}} if pedido.url.path.endswith("/me")
+        else {"business_discovery": {"name": "Bar", "media": {"data": [almuerzo]}}}))))
+    eventos, _ = ig.scrapear(None, AHORA)
+    assert ig.cargar_borradores() == {} and eventos == []
 
 
 

@@ -298,3 +298,13 @@ def test_un_recorrido_sin_punto_de_encuentro_va_a_su_primera_parada(ahora):
     assert recorrido.lugar_id == next(e for e in eventos if e.titulo == "Obra").lugar_id
     assert recorrido.ubicacion_aproximada
     assert not next(e for e in eventos if e.titulo == "Obra").ubicacion_aproximada
+
+
+def test_el_young_sporting_club_es_del_interior(ahora):
+    from cartelera import sin_ubicacion
+
+    fiesta = crudo("tikzet", "1", "Fiesta de fin de año YSC", "Young Sporting Club", ahora + timedelta(days=3))
+    fiesta.lugar = LugarCrudo(nombre="Young Sporting Club", direccion="Tropas al oeste S/N")
+    assert sin_ubicacion.del_interior(fiesta)
+    banda = crudo("ladiaria", "2", "Young Fathers", "Sala del Museo", ahora + timedelta(days=3))
+    assert not sin_ubicacion.del_interior(banda)

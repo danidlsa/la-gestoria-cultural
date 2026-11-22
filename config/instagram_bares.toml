@@ -387,6 +387,37 @@ barrio = "Ciudad Vieja"
 bar = false
 notas = "espacio cultural de la organización civil Cultus (https://cultusuy.mypixieset.com/new-page/). Algunos posteos están restringidos a mayores de 18 y puede que la API no los lea"
 
+# Sumadas el 22/11/2026.
+
+[[bar]]
+usuario = "salalazaroff"
+nombre = "Sala Jorge Lazaroff"  # como ya está en el sitio
+corto = "Sala Lazaroff"
+direccion = "Camino Maldonado 4849"
+lat = -34.8557558
+lon = -56.1324247
+bar = false
+notas = "sala del Municipio F, en el primer piso del Intercambiador Belloni"
+
+[[bar]]
+usuario = "sala_zitarrosa"
+nombre = "Sala Zitarrosa"
+corto = "Sala Zitarrosa"
+direccion = "Av. 18 de Julio 1012"
+barrio = "Centro"
+lat = -34.906238
+lon = -56.194472
+bar = false
+notas = "también tiene fuente propia (la web de la sala): lo que esté en las dos se junta en un solo evento"
+
+[[bar]]
+usuario = "epi_cultural"
+nombre = "Espacio Peppino Impastato"
+direccion = "Piedras 429"
+barrio = "Ciudad Vieja"
+bar = false
+notas = "espacio cultural gestionado por Voces Insurgentes; también presta salas"
+
 # --- Correcciones a mano ---------------------------------------------------------------------------------------------
 [[correccion]]
 id = "mambapercusion-20261205"
