@@ -258,3 +258,15 @@ nombre = "L´Club"
 # RedTickets a veces pone solo la dirección como nombre del lugar.
 alias = ["L’Club", "L'Club", "Av. Uruguay 1136"]
 direccion = "Av. Uruguay 1136"
+
+# Puntos de encuentro de los recorridos de Peatonal Tours (su web), que nombran el lugar con más detalle.
+[[lugar]]
+id = "plaza-matriz"
+nombre = "Plaza Matriz"
+alias = ["Fuente de la Plaza Matriz", "Plaza Constitución", "Plaza de la Constitución"]
+
+[[lugar]]
+id = "plaza-cagancha"
+nombre = "Plaza Cagancha"
+alias = ["Fotogaleria CdF Plaza Cagancha (Acera Norte)", "Fotogalería CdF Plaza Cagancha (Acera Norte)",
+         "Fotogaleria CdF Plaza Cagancha", "Fotogalería CdF Plaza Cagancha", "Plaza Libertad"]

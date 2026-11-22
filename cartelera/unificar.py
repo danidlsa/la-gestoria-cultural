@@ -24,7 +24,7 @@ ALIAS = Path("config/lugares_alias.toml")
 # Prioridad al elegir qué dato mostrar: sala oficial > ticketera > cartelera > productora > beneficios.
 PRIORIDAD = {
     "sodre": 4, "cinemateca": 4, "solis": 4, "teatro_de_verano": 4, "galpon": 4, "zitarrosa": 4, "sala_del_museo": 4,
-    "museos_im": 4, "mnav": 4, "torres_garcia": 4, "gurvich": 4, "mapi": 4, "salacamacua": 4,
+    "museos_im": 4, "mnav": 4, "torres_garcia": 4, "gurvich": 4, "mapi": 4, "salacamacua": 4, "peatonal_tours": 4,
     "tickantel": 3, "redtickets": 3, "ticketmaster_uy": 3, "portal_im": 3, "fever": 3, "mec_museos": 3,
     "mientrada": 3, "cobraticket": 3, "entraste": 3, "tikzet": 3,
     "cartelera_mvd": 2, "corchea": 2, "propuestos": 2, "gaucho": 2, "piano_piano": 2, "ladiaria": 1, "instagram_bares": 1,

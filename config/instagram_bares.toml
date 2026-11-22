@@ -418,6 +418,14 @@ barrio = "Ciudad Vieja"
 bar = false
 notas = "espacio cultural gestionado por Voces Insurgentes; también presta salas"
 
+[[bar]]
+usuario = "peatonaltours"
+nombre = "Peatonal Tours"
+itinerante = true
+categoria = "tour"
+bar = false
+notas = "recorridos a pie; lo que tiene fecha en su web ya entra solo (fuente peatonal_tours): de acá, lo que anuncien aparte. Si un borrador repite un tour de la web, no hace falta aprobarlo"
+
 # --- Correcciones a mano ---------------------------------------------------------------------------------------------
 [[correccion]]
 id = "mambapercusion-20261205"

@@ -102,6 +102,10 @@ corre_en = "actions"
 [tikzet]
 corre_en = "actions"
 
+# Recorridos a pie de Peatonal Tours, de su web (casi todo lo venden por su propio sistema de reservas). 22/11/2026.
+[peatonal_tours]
+corre_en = "actions"
+
 # Bares y salas chicas por Instagram (API oficial de Meta, secreto INSTAGRAM_TOKEN). Solo se publica lo que se
 # tilda en un aviso de GitHub; ver cartelera/scrapers/instagram_bares.py. 10/11/2026.
 [instagram_bares]

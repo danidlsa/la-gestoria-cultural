@@ -73,7 +73,7 @@ FUENTES = {
     "salacamacua": "la Sala Camacuá", "mientrada": "MiEntrada", "cobraticket": "CobraTicket", "entraste": "Entraste",
     "corchea": "la cartelera de Corchea", "propuestos": "los organizadores que mandan sus eventos",
     "mapas_especiales": "el programa oficial de los eventos especiales", "tikzet": "Tikzet",
-    "instagram_bares": "las cuentas de Instagram de bares y salas chicas",
+    "instagram_bares": "las cuentas de Instagram de bares y salas chicas", "peatonal_tours": "Peatonal Tours",
 }
 # Para los botones de compra: dónde se consigue la entrada.
 VIAS = {
@@ -84,6 +84,7 @@ VIAS = {
     "gurvich": "el Museo Gurvich", "mapi": "el MAPI", "mec_museos": "el MEC",
     "salacamacua": "la Sala Camacuá", "corchea": "Corchea", "passline": "Passline", "entradasfans": "Entradas Fans",
     "instagram": "Instagram", "propuestos": "su web", "mapas_especiales": "la Intendencia", "tikzet": "Tikzet",
+    "peatonal_tours": "Peatonal Tours",
 }
 # Vías que son la ficha del evento, no una venta: el botón dice "Ver en …" y no "Entradas en …".
 SOLO_INFORMACION = {
