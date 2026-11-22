@@ -31,6 +31,8 @@ def test_precio_de_las_localidades():
     precio = cartelera_mvd.precio_de("$ 600 - Promo 2 x $ 800 - La Diaria 2x1. En venta en RedTickets.")
     assert (precio.desde, precio.hasta) == (600, 600)
     assert cartelera_mvd.precio_de("Entrada libre y gratuita").gratis
+    socio = cartelera_mvd.precio_de("$ 550 - Socio Espectacular gratis. En venta en Tickantel y boletería de la sala.")
+    assert not socio.gratis and socio.desde == 550  # gratis solo para los socios
     assert cartelera_mvd.precio_de("Consultar en boletería") is None
 
 

@@ -56,11 +56,15 @@ def por_titulo(titulo: str | None) -> str | None:
     return next((categoria for categoria, patron in _POR_TITULO if patron.search(plano)), None)
 
 
+# Lo que parece de una categoría y es de otra: la "ópera prima" de un director es su primera película.
+_ENGANOSAS = re.compile(r"\bopera\s+prima\b")
+
+
 def clasificar(*textos: str | None, por_defecto: str = "otros") -> str:
     """Devuelve la categoría que dice el título (el primer texto), o la primera cuyas palabras clave aparecen."""
     if categoria := por_titulo(textos[0] if textos else None):
         return categoria
-    plano = sin_tildes(" ".join(t for t in textos if t))
+    plano = _ENGANOSAS.sub(" pelicula ", sin_tildes(" ".join(t for t in textos if t)))
     for categoria, patron in _COMPILADAS:
         if patron.search(plano):
             return categoria

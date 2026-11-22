@@ -93,14 +93,16 @@ def meta(pagina: str, propiedad: str) -> str | None:
 
 def precio_de(localidades: str) -> Precio | None:
     """Precio a partir de un texto como "$ 600 - Promo 2 x $ 800" o "Entrada libre"."""
-    if re.search(r"gratis|entrada libre|sin costo|gratuit", localidades, re.I):
-        return Precio(desde=0, hasta=0, gratis=True)
-    # El primer monto es el general; los que van después de "promo", "2 x" o "socio" son descuentos.
-    generales = []
+    # El primer monto es el general; los que van después de "promo", "2 x" o "socio" son descuentos. Un descuento
+    # gratis ("$ 550 - Socio Espectacular gratis") no hace gratis la entrada.
+    generales, gratis = [], False
     for parte in re.split(r"\s+-\s+|\.\s|;", localidades):
-        if re.search(r"promo|2\s*x|socio|diaria|descuento|%", parte, re.I):
+        if re.search(r"promo|2\s*x|socio|diaria|descuento|%|beneficio|abonad|jubilad|estudiante", parte, re.I):
             continue
+        gratis = gratis or bool(re.search(r"gratis|entrada libre|sin costo|gratuit", parte, re.I))
         generales += [float(m.replace(".", "")) for m in re.findall(r"\$\s*([\d.]+)", parte)]
+    if gratis:
+        return Precio(desde=0, hasta=0, gratis=True)
     if not generales:
         return None
     return Precio(desde=min(generales), hasta=max(generales))

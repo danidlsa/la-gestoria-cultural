@@ -108,3 +108,10 @@ def test_una_calle_con_inicial_en_openstreetmap():
     assert re.search(_patron("Aquiles Lanza"), "Aquiles R. Lanza", re.I)
     assert re.search(_patron("Aquiles Lanza"), "Aquiles Lanza", re.I)
     assert "(?:" not in _patron("Aquiles Lanza")  # Overpass no entiende esa sintaxis
+
+
+def test_la_opera_prima_es_cine():
+    texto = ("Festival Internacional Atlantidoc | Ciclo de cine. Perros. Ópera prima de Minutti y con el protagónico de "
+             "Nestor Guzzini.")
+    assert clasificar("Centro Cultural Terminal Goes: Festival Internacional Atlantidoc", texto) == "cine"
+    assert clasificar("Gala de ópera", "Arias de Verdi y Puccini") == "musica"

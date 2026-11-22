@@ -10,6 +10,13 @@ alias = ["Auditorio Adela Reta", "Auditorio Nacional del Sodre Dra. Adela Reta",
          "Sala Hugo Balzo", "Sodre-Salga Hugo Balzo", "Sodre - Sala Hugo Balzo"]
 
 [[lugar]]
+id = "auditorio-nelly-goitino"
+nombre = "Auditorio Nelly Goitiño"
+# El Sodre y Tickantel le dicen así; la cartelera de la Intendencia, "del SODRE - Sala Héctor Tosar" (la sala de adentro).
+alias = ["Auditorio Nelly Goitiño del SODRE", "Auditorio Nelly Goitiño del Sodre", "Sala Héctor Tosar"]
+direccion = "Av. 18 de Julio 930"
+
+[[lugar]]
 id = "teatro-el-galpon"
 nombre = "Teatro El Galpón"
 alias = ["Teatro Galpón", "El Galpón", "Teatro Galpon Sala Cero"]
