@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-23T13:33:29.107540-03:00",
- "cantidad": 179,
+ "generado": "2026-11-23T15:31:55.770707-03:00",
+ "cantidad": 180,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -185,6 +185,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "bar-facal",
+   "nombre": "Bar Facal",
+   "alias": [],
+   "direccion": "Av. 18 de Julio 1249",
+   "lat": -34.9056381,
+   "lon": -56.1892753,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "bluzz-bar",
    "nombre": "Bluzz Bar",
    "alias": [],
@@ -211,7 +221,7 @@
    "id": "brecha-bar-y-cafe",
    "nombre": "Brecha Bar y Café 🏳️‍🌈",
    "alias": [],
-   "direccion": "Aquiles Lanza y Canelones",
+   "direccion": null,
    "lat": -34.9084142,
    "lon": -56.18779,
    "barrio": null,
@@ -893,12 +903,12 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "latu",
-   "nombre": "LATU",
+   "id": "latu-laboratorio-tecnologico-del-uruguay",
+   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
    "alias": [
-    "LATU - Laboratorio Tecnológico del Uruguay"
+    "LATU"
    ],
-   "direccion": "Carrasco, Montevideo",
+   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,

@@ -1,8 +1,8 @@
 {
  "fuente": "mec_museos",
- "corrida": "2026-11-23T13:29:35.414378-03:00",
+ "corrida": "2026-11-23T15:27:23.946249-03:00",
  "ok": true,
- "cantidad": 4,
+ "cantidad": 5,
  "errores": [],
  "eventos": [
   {
@@ -34,6 +34,48 @@
    "entradas": [
     {
      "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/celebracion-del-dia-nacional-rumania",
+     "via": "mec_museos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Ministerio de Educación y Cultura",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mec_museos",
+   "id_externo": "inauguracion-imagen-invisible",
+   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/inauguracion-imagen-invisible",
+   "titulo": "Inauguración de «La imagen de lo invisible»",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Torres García",
+    "direccion": "Sarandí 683",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/inauguracion-imagen-invisible",
      "via": "mec_museos"
     }
    ],

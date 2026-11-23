@@ -1,9 +1,11 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-23T13:14:41.663357-03:00",
+ "corrida": "2026-11-23T15:18:22.660671-03:00",
  "ok": true,
- "cantidad": 90,
- "errores": [],
+ "cantidad": 91,
+ "errores": [
+  "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+ ],
  "eventos": [
   {
    "fuente": "tickantel",
@@ -318,48 +320,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40020172",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
-   "titulo": "CNNS – Tramas 852",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Propone un recorrido por músicas, tiempos y sensibilidades que, al encontrarse, revelan nuevas conexiones Un entramado de historias, emociones y resonancias en el que las voces del coro enlazan universos diversos, desde obras profundamente significativas para su identidad hasta la música de Alfredo…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020172/Tramas_852_Adaptaciones_banner.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021939",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa",
    "titulo": "Música de regreso a casa",
@@ -420,6 +380,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021939/BannerNuevo.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40020172",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
+   "titulo": "CNNS – Tramas 852",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Propone un recorrido por músicas, tiempos y sensibilidades que, al encontrarse, revelan nuevas conexiones Un entramado de historias, emociones y resonancias en el que las voces del coro enlazan universos diversos, desde obras profundamente significativas para su identidad hasta la música de Alfredo…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020172/Tramas_852_Adaptaciones_banner.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -683,6 +685,60 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022021/700_x_390_lc.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021457",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "CICLO (No tan) Solos al mediodía 17va edición - Diversidad Dirección artística y curaduría: Andrea Arobba Producción ejecutiva: GEN Centro de Artes y Ciencias Producción: Polen productora cultural - Catalina Lans Asistencia de producción: Emiliano Bittencourt Registro audiovisual: Daiana Di Candia…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T14:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021457/ciclo-no-tan-solos-al-mediodia",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021457/700x390.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2924,48 +2980,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021895",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada",
-   "titulo": "Nadie dice nada",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Nadie dice nada en vivo",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-12T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021895/NDN-AntelArena-WebTickantel-12dic-700x390.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021954",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021954/ciclo-de-piano-raquel-boldorini",
    "titulo": "Ciclo de piano Raquel Boldorini",
@@ -3275,6 +3289,60 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020973/Grilla_Web_Tickantel_(700x390px).png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40022017",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40022017/abrazo",
+   "titulo": "Abrazo",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "ABRAZO La nueva obra del colectivo de danza inclusivo PRIMOR, que junto a la banda OTROS INDIOS celebran el tango como lenguaje de encuentro, identidad y fusión cultural, promoviendo equidad, creatividad y acceso interseccional a la cultura. Apta para todo público. La obra cuenta con recursos de…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-19T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-20T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 650.0,
+    "hasta": 650.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022017/abrazo",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022017/Banner_(83).png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

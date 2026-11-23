@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-23T13:32:25.821672-03:00",
+ "corrida": "2026-11-23T15:30:21.425329-03:00",
  "ok": true,
- "cantidad": 49,
+ "cantidad": 51,
  "errores": [],
  "eventos": [
   {
@@ -697,6 +697,53 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "fotocluburuguayo-20261125",
+   "url": "https://www.instagram.com/p/DgFoTj4RzWu/",
+   "titulo": "Foto Club Uruguayo: Laranjal, el reflejo de las márgenes",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": "Laranjal, el reflejo de las márgenes Este miércoles inauguramos la muestra fotográfica de Felipe Campal en el Muro de prácticas expositivas de La Cretina, junto a la presentación del audiovisual Reflexos Submersos. Miércoles 25/11 19:30 h La Cretina – Soriano 1236 Entrada libre ¡Lxs esperamos!…",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgFoTj4RzWu/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/550837602192.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "barlarondacafe-20261125",
    "url": "https://www.instagram.com/p/Df_Dow4t9SG/",
    "titulo": "La Ronda: Noches De Ensayos Abiertos · El Jardín",
@@ -783,6 +830,50 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a383deb164cd.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "barfacal-20261126",
+   "url": "https://www.instagram.com/p/DgED338GD5Y/",
+   "titulo": "Bar Facal: Actividades La Noche de los Cafés y Bares Notables",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "El jueves 26 de noviembre, de 18 a 01 horas, Bar Facal se suma a La Noche de los Cafés y Bares Notables del municipiobmontevideo . Y como el salón nos queda pequeño para todas las actividades que tenemos para ustedes, esa noche cortamos la calle: la vereda se nos hace explanada y una parte de la…",
+   "lugar": {
+    "nombre": "Bar Facal",
+    "direccion": "Av. 18 de Julio 1249",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgED338GD5Y/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8beb9555abf1.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1162,11 +1253,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "peatonaltours-20261128",
-   "url": "https://www.instagram.com/p/Df4mHy8ylLw/",
+   "url": "https://www.instagram.com/p/Df8OPEPpXp0/",
    "titulo": "Peatonal Tours: 𝗡𝗨𝗘𝗩𝗔 𝗙𝗘𝗖𝗛𝗔",
    "categoria": "tour",
    "categoria_segura": true,
-   "descripcion_corta": "¡𝗡𝗨𝗘𝗩𝗔 𝗙𝗘𝗖𝗛𝗔! ᴛᴏᴜʀ ʀᴇʟɪɢɪᴏꜱᴏ - ᴇᴅɪᴄɪóɴ ᴄɪᴜᴅᴀᴅ ᴠɪᴇᴊᴀ En el marco de la histórica visita del Papa León XIV a nuestro país, Peatonal Tours realizará un recorrido especial por Ciudad Vieja en clave religiosa. El tour presenta una retrospectiva histórica acerca de la presencia de la Iglesia en nuestro…",
+   "descripcion_corta": "Sábado 28 - 11hs: Tour religioso por Ciudad Vieja Entradas por nuestra web peatonaltours.uy",
    "lugar": {
     "nombre": "Fuente de la Plaza Matriz",
     "direccion": null,
@@ -1184,15 +1275,10 @@
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
+   "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Df4mHy8ylLw/",
+     "url": "https://www.instagram.com/p/Df8OPEPpXp0/",
      "via": "instagram"
     }
    ],
@@ -1298,11 +1384,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "epi_cultural-20261128",
-   "url": "https://www.instagram.com/p/Df92KTJgQlU/",
+   "url": "https://www.instagram.com/reel/DgF-sHWgQaS/",
    "titulo": "Espacio Peppino Impastato: Abrimos EPI",
-   "categoria": "otros",
+   "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "¡Para cerrar la grilla tenemos artista sorpresa! El sábado 28 de noviembre no te lo podes perder ya avisamos Sábado 28 de noviembre | 18:30 hs. Piedras 429 (Ciudad Vieja) Entrada libre y gratuita Vení a disfrutar de buena música y cosas ricas ¿Quien te gustaría que esté?",
+   "descripcion_corta": "¡Este sábado inauguramos! Van a estar los DJs: neon_raver_ _maddariddim Y la música en vivo de: sanpulso bocuchauy desdelsurrr melmorcp Además va estar presente un artista sorpresa Vení a disfrutar de buena música y cosas ricas sábado 28 de noviembre | 18:30 hs. Piedras 429 (Ciudad Vieja) Entrada…",
    "lugar": {
     "nombre": "Espacio Peppino Impastato",
     "direccion": "Piedras 429",
@@ -1328,7 +1414,7 @@
    },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Df92KTJgQlU/",
+     "url": "https://www.instagram.com/reel/DgF-sHWgQaS/",
      "via": "instagram"
     }
    ],
@@ -1480,62 +1566,15 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "peatonaltours-20261129",
-   "url": "https://www.instagram.com/p/DfLJwb0Sdme/",
-   "titulo": "Peatonal Tours: ᴘᴀꜱᴇᴏ ʙᴇʟʟᴏ & ʀᴇʙᴏʀᴀᴛɪ ᴘᴏʀ ᴘᴏᴄɪᴛᴏꜱ",
-   "categoria": "tour",
-   "categoria_segura": true,
-   "descripcion_corta": "ᴘᴀꜱᴇᴏ ʙᴇʟʟᴏ & ʀᴇʙᴏʀᴀᴛɪ ᴘᴏʀ ᴘᴏᴄɪᴛᴏꜱ Los invitamos a redescubrir la huella de B&R en un recorrido en el que abordaremos diferentes temas: Plaza Gomensoro Conjuntos de casas B&R Casa de Ramón Bello Casa de Alberto Reborati Sustitución edilicia de años 50 Pocitos de casas bajas vs explosión…",
-   "lugar": {
-    "nombre": "ᴘᴀꜱᴇᴏ ʙᴇʟʟᴏ & ʀᴇʙᴏʀᴀᴛɪ ᴘᴏʀ ᴘᴏᴄɪᴛᴏꜱ",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-29T11:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfLJwb0Sdme/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/9c7866b1e544.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "elbar_delxsamigxs-20261129",
-   "url": "https://www.instagram.com/p/Df0IbtaGBqM/",
+   "url": "https://www.instagram.com/p/DgF4991EdMr/",
    "titulo": "Brecha Bar y Cafe: Cumplimos 12 años",
    "categoria": "fiesta",
    "categoria_segura": false,
-   "descripcion_corta": "Son años. Es una costumbre que hicimos fiesta. Este 29 de noviembre nos encontramos en la calle, todo el día y como siempre Entrada libre. Aquiles Lanza y Canelones. Desde las 12:00 h.",
+   "descripcion_corta": "¿Cómo no vamos a festejar todo el día teniendo esta grilla? Domingo 29 de noviembre a partir de las 12:00 en la esquina de siempre: Aquiles Lanza y Canelones. Entrada libre. Son 12 años. Es una costumbre que hicimos fiesta. Nos vemos en una semana",
    "lugar": {
     "nombre": "Brecha Bar y Café 🏳️‍🌈",
-    "direccion": "Aquiles Lanza y Canelones",
+    "direccion": null,
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -1558,7 +1597,7 @@
    },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Df0IbtaGBqM/",
+     "url": "https://www.instagram.com/p/DgF4991EdMr/",
      "via": "instagram"
     }
    ],
@@ -1571,6 +1610,50 @@
    "etiquetas": [
     "bar"
    ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "peatonaltours-20261129",
+   "url": "https://www.instagram.com/p/Df8OPEPpXp0/",
+   "titulo": "Peatonal Tours: ᴘᴀꜱᴇᴏ ʙᴇʟʟᴏ & ʀᴇʙᴏʀᴀᴛɪ ᴘᴏʀ ᴘᴏᴄɪᴛᴏꜱ",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "Domingo 29 - 15hs: Paseo Bello & Reborati Entradas por nuestra web peatonaltours.uy ¡Los esperamos! Por consultas +598 95 144 855 Tu ciudad, tus historias. ¡Redescubrilas con nosotros! . . . . puntacarretas",
+   "lugar": {
+    "nombre": "Plaza Gomensoro",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Parque Rodó"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T15:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df8OPEPpXp0/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/9c7866b1e544.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -1913,23 +1996,18 @@
    "titulo": "Peatonal Tours: ᴛᴏᴜʀ ᴘᴀᴛʀɪᴍᴏɴɪᴀʟ ʏ ᴀʀǫᴜɪᴛᴇᴄᴛóɴɪᴄᴏ",
    "categoria": "tour",
    "categoria_segura": true,
-   "descripcion_corta": "ᴛᴏᴜʀ ᴘᴀᴛʀɪᴍᴏɴɪᴀʟ ʏ ᴀʀǫᴜɪᴛᴇᴄᴛóɴɪᴄᴏ Como cierre de año de Paseo Centro y en el marco de la Feria Una celebración a Montevideo , realizaremos un recorrido por nuestra avenida principal descubriendo la historia de los edificios más emblemáticos y junto a ellos sus historias tan atrapantes e…",
+   "descripcion_corta": "TOUR PATRIMONIAL Y ARQUITECTÓNICO Como cierre de año de Paseo Centro y en el marco de la Feria Una celebración a Montevideo , realizaremos un recorrido por nuestra avenida principal descubriendo la historia de los edificios más emblemáticos y junto a ellos sus historias tan atrapantes e…",
    "lugar": {
-    "nombre": "Club Cultural Charco",
-    "direccion": "Maldonado 1477",
+    "nombre": "Plaza Cagancha",
+    "direccion": null,
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": [
-     "Paseo Centro",
-     "en el marco de la Feria “Una celebración a Montevideo”",
-     "realizaremos un recorrido por nuestra avenida principal descubriendo la historia de los edificios más emblemáticos",
-     "junto a ellos sus historias tan atrapantes e interesantes"
-    ]
+    "alternativas": []
    },
    "funciones": [
     {
-     "inicio": "2026-12-06T12:00:00-03:00",
+     "inicio": "2026-12-06T11:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,

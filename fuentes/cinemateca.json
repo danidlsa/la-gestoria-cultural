@@ -1,11 +1,9 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-23T13:24:14.352410-03:00",
+ "corrida": "2026-11-23T15:21:57.153085-03:00",
  "ok": true,
- "cantidad": 19,
- "errores": [
-  "https://cinemateca.org.uy/peliculas/9698: ReadError: [Errno 104] Connection reset by peer"
- ],
+ "cantidad": 20,
+ "errores": [],
  "eventos": [
   {
    "fuente": "cinemateca",
@@ -952,6 +950,84 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Las mujeres de Hitchcock",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9698",
+   "url": "https://cinemateca.org.uy/peliculas/9698",
+   "titulo": "El candidato",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Daniel Hendler. Un político en ascenso prepara una presentación con la que anunciará su postulación en forma independiente de su partido. Para ello reúne a un grupo de producción que se encargará de lanzar su carrera. Mirada crítica, prolija aunque un tanto superficial, a la manipulación…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T19:30:00-03:00",
+     "fin": "2026-11-24T20:50:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9698",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://servicios.mascinemateca.org.uy/api/Movie/GetImage/3144",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Cine uruguayo diez años",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
