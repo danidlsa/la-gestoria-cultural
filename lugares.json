@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-23T18:58:53.394787-03:00",
- "cantidad": 188,
+ "generado": "2026-11-23T19:57:27.585358-03:00",
+ "cantidad": 189,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -1288,8 +1288,8 @@
    "nombre": "Montevideo al Sur",
    "alias": [],
    "direccion": "Paraguay y Maldonado",
-   "lat": -34.9098214,
-   "lon": -56.1920231,
+   "lat": -34.9097311,
+   "lon": -56.1921134,
    "barrio": "Barrio Sur",
    "ciudad": "Montevideo",
    "instagram": "mvdalsur"
@@ -2236,6 +2236,17 @@
    "direccion": "Av. Agraciada 2623",
    "lat": -34.883768,
    "lon": -56.194264,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "zoba-club",
+   "nombre": "Zoba Club",
+   "alias": [],
+   "direccion": "Bv. España 2218",
+   "lat": -34.9095744,
+   "lon": -56.1679561,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null

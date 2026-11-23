@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-23T18:57:25.867242-03:00",
+ "corrida": "2026-11-23T19:55:51.327163-03:00",
  "ok": true,
  "cantidad": 15,
  "errores": [],
@@ -391,54 +391,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "7260eff8-a701-41cf-9e5e-e8dabc49b9b4",
-   "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
-   "titulo": "El Jardín y Seba Codoni",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "El martes 1.º de diciembre nos encontramos en El Hormiguero para compartir una noche de música en vivo entre El Jardín y Seba Codoni. El Jardín se presentara esta vez en formato trío, presentando los nuevos simples \"427\" y \"Plaza sola\" y otras grajeas de su repertorio. Seba Codoni, por su parte…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-01T20:30:00-03:00",
-     "fin": "2026-12-01T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F25622e80-e502-4aa5-860c-ee33c453f1de.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "29b67f42-54aa-40b5-ba07-560cc0847b89",
    "url": "https://www.tikzet.com/events/barrio-chino",
    "titulo": "Barrio Chino",
@@ -477,6 +429,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fcb8a0854-a474-4ab9-a790-3cb0621b6d8e.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "7260eff8-a701-41cf-9e5e-e8dabc49b9b4",
+   "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
+   "titulo": "El Jardín y Seba Codoni",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "El martes 1.º de diciembre nos encontramos en El Hormiguero para compartir una noche de música en vivo entre El Jardín y Seba Codoni. El Jardín se presentara esta vez en formato trío, presentando los nuevos simples \"427\" y \"Plaza sola\" y otras grajeas de su repertorio. Seba Codoni, por su parte…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-01T20:30:00-03:00",
+     "fin": "2026-12-01T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F25622e80-e502-4aa5-860c-ee33c453f1de.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -526,102 +526,6 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F21482297-8280-463e-81b9-5662bd6add66.original",
    "productor": "Young Sporting Club",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "61733cff-1049-49da-982a-07d021e32ecd",
-   "url": "https://www.tikzet.com/events/ssat-a8b4",
-   "titulo": "SSAT",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Vuelve _ssat en formato acústico a El Hormiguero, siempre acompañado por el beatboxing y la percusión de Alex Beatbox y nuevos invitados especiales para compartir una noche de sábado. *El show es con sillas y las mesas son compartidas.",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-05T21:30:00-03:00",
-     "fin": "2026-12-05T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/ssat-a8b4",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F8fbcd66b-a5fe-4b91-ac66-93271191c09b.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "27d891c2-4908-47ad-9908-62834fa8b5d6",
-   "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
-   "titulo": "Jula Andina presenta “Fecunda”",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La cantautora argentina JULA ANDINA presenta FECUNDA el próximo 24 de Noviembre en El Hormiguero. En un encuentro entre canciones, viajes y universos propios, la noche abrirá con Fulana de Val y contará con la participación especial de Clara Pregliasco, ambas cantautoras uruguayas. FECUNDA nace de…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T21:00:00-03:00",
-     "fin": "2026-11-24T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
-   "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -717,6 +621,102 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fa63c425a-116c-4b51-8860-8df68c76c6d4.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "61733cff-1049-49da-982a-07d021e32ecd",
+   "url": "https://www.tikzet.com/events/ssat-a8b4",
+   "titulo": "SSAT",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Vuelve _ssat en formato acústico a El Hormiguero, siempre acompañado por el beatboxing y la percusión de Alex Beatbox y nuevos invitados especiales para compartir una noche de sábado. *El show es con sillas y las mesas son compartidas.",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:30:00-03:00",
+     "fin": "2026-12-05T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/ssat-a8b4",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F8fbcd66b-a5fe-4b91-ac66-93271191c09b.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "27d891c2-4908-47ad-9908-62834fa8b5d6",
+   "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
+   "titulo": "Jula Andina presenta “Fecunda”",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La cantautora argentina JULA ANDINA presenta FECUNDA el próximo 24 de Noviembre en El Hormiguero. En un encuentro entre canciones, viajes y universos propios, la noche abrirá con Fulana de Val y contará con la participación especial de Clara Pregliasco, ambas cantautoras uruguayas. FECUNDA nace de…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T21:00:00-03:00",
+     "fin": "2026-11-24T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
