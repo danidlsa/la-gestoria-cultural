@@ -5,6 +5,8 @@ activo = true
 
 # Qué especiales se muestran en la pestaña (por su `id`), en este orden. Se eligen a mano, uno por vez: el que
 # viene y tiene programa. Los demás quedan guardados acá abajo, sin mostrarse (y sin avisos).
+# Cada uno que se muestra lleva la fecha de esa edición (`desde`, y `hasta` si dura más de un día): cuando termina,
+# la pestaña desaparece sola, aunque siga en esta lista. Sin fecha, uno que se repite pasaría solo a la edición siguiente.
 mostrar = ["sabados-en-ciudad-vieja"]
 
 # `sitio` no se muestra en la web (varios no eran el sitio correcto): solo va en el aviso interno, para revisar.
@@ -130,6 +132,9 @@ cuando = "el tercer sábado de cada mes"
 regla = "cada_mes"
 dia = "sabado"
 ordinal = 3
+# La edición que se muestra (se elige a mano): cuando pasa, la pestaña se va sola y no salta al mes siguiente.
+# Para mostrar otra, se cambia la fecha (el tercer sábado de ese mes) y se pone en `mostrar`.
+desde = 2026-11-21
 sitio = "https://eventos.montevideo.gub.uy/sabadosenciudadvieja"
 pagina = "https://eventos.montevideo.gub.uy/sabadosenciudadvieja"
 # Las actividades llegan por el portal de eventos de la Intendencia (fuente "portal_im"), con este ciclo.

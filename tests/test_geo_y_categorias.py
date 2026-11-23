@@ -115,3 +115,12 @@ def test_la_opera_prima_es_cine():
              "Nestor Guzzini.")
     assert clasificar("Centro Cultural Terminal Goes: Festival Internacional Atlantidoc", texto) == "cine"
     assert clasificar("Gala de ópera", "Arias de Verdi y Puccini") == "musica"
+
+
+def test_una_comida_no_es_un_evento_pero_una_cena_show_si():
+    from cartelera.categorias import es_comida
+    assert es_comida("Cena de Noche buena - Polo Bamba Skybar, piso 10")
+    assert es_comida("Almuerzo buffet Navidad, Polo Bamba Skybar, piso 10")
+    assert not es_comida("HUMORISIMAS CENA SHOW - GRAN REGRESO")
+    assert not es_comida("LA DECANA - CENA SHOW BAILE en TEATRÓN")
+    assert not es_comida("Cena show de tango")

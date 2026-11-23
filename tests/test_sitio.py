@@ -157,3 +157,12 @@ def test_el_precio_para_ordenar_por_precio():
                dict(base, id="2", precio={"desde": 700, "hasta": 800, "gratis": False}), dict(base, id="3")]
     datos = datos_para_el_navegador(eventos, {"l": {"nombre": "L"}}, [])
     assert [e["precioDesde"] for e in datos["eventos"]] == [0, 700, None]  # sin precio: al final
+
+
+def test_un_especial_con_su_fecha_ya_pasada_no_se_muestra():
+    # Sábados en Ciudad Vieja es todos los meses: con la fecha elegida (21/11) ya pasada, no salta al mes siguiente.
+    from datetime import date, datetime
+    from cartelera import especiales
+    from cartelera.scrapers.base import MONTEVIDEO
+    fin = especiales.termina({"hasta": date(2026, 11, 21), "estimada": False, "a_confirmar": False, "horario": None})
+    assert fin == datetime(2026, 11, 22, 0, 0, tzinfo=MONTEVIDEO)

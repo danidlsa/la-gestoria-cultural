@@ -12,6 +12,7 @@ from pathlib import Path
 
 from rapidfuzz import fuzz
 
+from cartelera.categorias import es_comida
 from cartelera.etiquetas import etiquetar
 from cartelera.generos import BuscadorDeGeneros
 from cartelera.geocodificar import Geocodificador
@@ -435,7 +436,8 @@ def armar_cartelera(
     descartados: list[EventoCrudo] | None = None,
 ) -> tuple[list[Evento], list[Lugar], list[Ciclo]]:
     """Arma la cartelera. Si se pasa `descartados`, ahí quedan los eventos que no salen por no tener ubicación."""
-    crudos = [e for r in resultados for e in r.eventos]
+    # Las comidas (cenas de fin de año, almuerzos buffet) no van, venga de la fuente que venga.
+    crudos = [e for r in resultados for e in r.eventos if not es_comida(e.titulo)]
     corridas = {r.fuente: r.corrida for r in resultados}
     catalogo = Catalogo(alias)
     lugar_de = [catalogo.asignar(c.lugar.nombre, c.lugar.direccion, c.lugar.lat, c.lugar.lon, c.lugar.barrio) for c in crudos]

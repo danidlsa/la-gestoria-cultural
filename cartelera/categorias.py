@@ -71,6 +71,17 @@ def clasificar(*textos: str | None, por_defecto: str = "otros") -> str:
     return por_defecto
 
 
+# Una comida (la cena de Nochebuena de un hotel, un almuerzo buffet) no es un evento cultural, aunque la ticketera la
+# ponga en "Fiestas"; salvo que sea un show con cena ("Cena show de tango").
+_COMIDA = re.compile(r"^(?:cena|almuerzo|brunch|desayuno|buffet|men[uú])\b|\b(?:almuerzo|brunch)\s+buffet\b")
+_CON_SHOW = re.compile(r"\bshow\b|concierto|espectaculo|en vivo|tango|musica|recital|stand ?up|humor|teatro|baile|dj\b")
+
+
+def es_comida(titulo: str | None) -> bool:
+    plano = sin_tildes(titulo or "")
+    return bool(_COMIDA.search(plano)) and not _CON_SHOW.search(plano)
+
+
 def es_deporte(*textos: str | None) -> bool:
     return bool(DEPORTE.search(sin_tildes(" ".join(t for t in textos if t))))
 
