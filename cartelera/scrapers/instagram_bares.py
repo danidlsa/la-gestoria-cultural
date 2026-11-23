@@ -21,6 +21,7 @@ import os
 import re
 import subprocess
 import tomllib
+import unicodedata
 from datetime import date, datetime, time, timedelta
 from pathlib import Path
 
@@ -89,7 +90,9 @@ _HORA = re.compile(
     r"\b(?:a|desde|de)\s+las\s+(\d{1,2})(?:[:.](\d{2}))?\b"  # "a las 21", "desde las 20.30"
     r"|\b(\d{1,2})[:.](\d{2})\s*(?:h|hs|hrs|horas)\b"  # "20.30 hs"
     r"|\b(\d{1,2}):(\d{2})\b"  # "21:30"
-    r"|\b(\d{1,2})(?:[:.](\d{2}))?\s*(?:-|–|a)\s*\d{1,2}(?:[:.]\d{2})?\s*(?:h|hs|hrs|horas)\b"  # "17-22h", "18.30 a 20.30 h": la primera
+    # "17-22h", "18.30 a 20.30 h": la primera. No el mes de una fecha ni un día: "29/11 - 15hs" y "Jueves 26 - 20hs"
+    # son a las 15 y a las 20.
+    r"|(?<![/.\d])\b([01]?\d|2[0-3])(?:[:.](\d{2}))?\s*(?:-|–|a)\s*\d{1,2}(?:[:.]\d{2})?\s*(?:h|hs|hrs|horas)\b"
     r"|\b(\d{1,2})\s*(?:h|hs|hrs|horas)\b"  # "21h", "21 hs"
 )
 _MEDIODIA = re.compile(r"\bmediodia\b")
@@ -353,8 +356,11 @@ def precio_del_texto(texto: str):
     return precio_de(" - ".join(montos)) if montos else None
 
 
-# El lugar: con 📍, o con 📌 o 🏛️ ("🏛️Auditorio Vaz Ferreira").
-_PIN = re.compile(r"(?:📍|📌|🏛\ufe0f?)\s*([^\n]+)")
+# El lugar: con 📍, o con 📌 o 🏛️ ("🏛️Auditorio Vaz Ferreira"). Lo que sigue en el mismo renglón: un 🏛️ al final del
+# título no dice dónde.
+_PIN = re.compile(r"(📍|📌|🏛\ufe0f?)[ \t]*([^\n]+)")
+# "📍 Desde la Plaza Gomensoro (sobre Benito Blanco)": el lugar es "Plaza Gomensoro".
+_DESDE = re.compile(r"^(?:desde|saliendo\s+de)\s+(?:(?:la|el)\s+)?", re.I)
 _NO_ES_LUGAR = re.compile(r"modalidad|virtual|online|zoom|a confirmar|por definir|\blink\b", re.I)
 
 
@@ -374,20 +380,24 @@ def lugar_del_texto(texto: str) -> tuple[str | None, str | None]:
 
     Si no hay 📍, un renglón que sea solo "En Sala Rincón".
     """
-    # El primer ícono que no marque una fecha: hay quien usa 📌 para el día ("📌SÁBADO 21 DE NOV").
-    encontrado = next((m for m in _PIN.finditer(texto or "") if not _ES_FECHA.match(sin_tildes(m.group(1)).strip())), None)
+    # El primer ícono que no marque una fecha: hay quien usa 📌 para el día ("📌SÁBADO 21 DE NOV"). Si hay 📍, ese
+    # primero: "🏛️ PASEO BELLO & REBORATI" es el nombre del recorrido y "📍 Desde la Plaza Gomensoro", el lugar.
+    candidatos = [m for m in _PIN.finditer(texto or "") if not _ES_FECHA.match(sin_tildes(m.group(2)).strip())]
+    encontrado = next((m for m in candidatos if m.group(1) == "📍"), candidatos[0] if candidatos else None)
     if not encontrado and (en := _EN_LUGAR.search(texto or "")):
         return en.group(1).strip(), None
-    if not encontrado or _NO_ES_LUGAR.search(encontrado.group(1)):
+    if not encontrado or _NO_ES_LUGAR.search(encontrado.group(2)):
         return None, None  # "📍 Modalidad presencial o virtual" no dice dónde
     # Hasta el primer emoji: "📍 MBC Ombú ⚠️ Cupos limitados" es solo "MBC Ombú".
-    renglon = re.split(r"[^\w\s,.'\-–&/°ºª()]", encontrado.group(1))[0].strip(" -–,.")
+    renglon = _DESDE.sub("", re.split(r"[^\w\s,.'\-–&/°ºª()]", encontrado.group(2))[0].strip(" -–,."))
     partes = [p.strip() for p in re.split(r",|\s[-–]\s", renglon) if p.strip()]
     if not partes:
         return None, None
     # "📍 CCE (Rincón 629)": el nombre y, entre paréntesis, la dirección.
     if (con_parentesis := re.match(r"^(.+?)\s*\(([^()]*\d[^()]*)\)$", partes[0])) and not re.search(r"\d", con_parentesis.group(1)):
         return con_parentesis.group(1).strip(), con_parentesis.group(2).strip()
+    # Sin número, lo del paréntesis es una aclaración: "Plaza Cagancha (fotogalería)" es "Plaza Cagancha".
+    partes[0] = re.sub(r"\s*\([^()\d]*\)\s*$", "", partes[0]) or partes[0]
     if re.search(r"\d", partes[0]) or calles_del_cruce(partes[0]):
         # "📍 Soriano 1236", "📍 Ecuador 1680, Villa del Cerro" o "📍 Aquiles Lanza y Canelones": solo la dirección
         return None, partes[0]
@@ -450,7 +460,7 @@ def paradas_del_recorrido(texto: str) -> list[str]:
             paradas += _variantes(encontrado.group(1))
     if not paradas and (pin := _PIN.search(texto or "")):
         # La oración del 📍 que enumera (con comas o "y"), partida en sus lugares.
-        for oracion in re.split(r"(?<=[a-záéíóúñ)])\.\s+", pin.group(1)):
+        for oracion in re.split(r"(?<=[a-záéíóúñ)])\.\s+", pin.group(2)):
             if "," in oracion:
                 for trozo in re.split(r",\s*|\s+y\s+", oracion):
                     paradas += _variantes(trozo)
@@ -474,6 +484,8 @@ def titulo_del_bloque(originales: list[str]) -> str | None:
         if "📍" in candidato or _DATOS_PRACTICOS.search(candidato):
             continue
         limpio = re.sub(r"\s+", " ", _ADORNOS.sub(" ", candidato)).strip()
+        # "Jueves 26 - 20hs: Misterios del Salvo": la hora del principio no es parte del nombre.
+        limpio = re.sub(r"^\d{1,2}(?:[:.]\d{2})?\s*(?:h|hs|hrs|horas)\b\s*[:\-–—|·]?\s*", "", limpio, flags=re.I)
         # Hasta el primer " - ", paréntesis, punto u hora: "OPEN MIC NIGHT - 4ta temporada" es "OPEN MIC NIGHT".
         limpio = re.split(r"\s[-–—|]\s|\(|\.\s|\.$|\b\d{1,2}([:.]\d{2})?\s*(h|hs|hrs|horas)\b", limpio)[0].strip(" -–—:.,")
         if len(re.sub(r"\W", "", limpio)) >= 3 and not _SIN_NOMBRE.search(limpio) and not _no_es_titulo(limpio):
@@ -620,9 +632,22 @@ def _dia(inicio: datetime) -> date:
     return (inicio - timedelta(hours=6)).date() if inicio.hour < 6 and (inicio.hour or inicio.minute) else inicio.date()
 
 
+# Letras "de adorno" que se usan en Instagram para resaltar: versalitas ("ᴘᴀꜱᴇᴏ ʙᴇʟʟᴏ") y las negritas o cursivas
+# matemáticas ("𝗠𝗜𝗦𝗧𝗘𝗥𝗜𝗢𝗦"). Se leen como letras comunes (las versalitas, en mayúscula), así se entienden y se
+# reconocen los títulos.
+_VERSALITAS = str.maketrans("ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀꜱᴛᴜᴠᴡʏᴢ", "ABCDEFGHIJKLMNOPQRSTUVWYZ")
+
+
+def letras_comunes(texto: str) -> str:
+    texto = "".join(unicodedata.normalize("NFKC", c) if 0x1D400 <= ord(c) <= 0x1D7FF else c for c in texto)
+    # La palabra entera en mayúscula: las letras con tilde no tienen versalita ("ᴇᴅɪᴄɪóɴ" es "EDICIÓN").
+    return re.sub(r"\w*[ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀꜱᴛᴜᴠᴡʏᴢ]\w*", lambda m: m.group(0).translate(_VERSALITAS).upper(), texto)
+
+
 def borradores_del_post(post: dict, cuenta: dict, perfil: dict, ahora: datetime) -> list[dict]:
     """Lo que anuncia un post, todavía por venir: un borrador, o uno por día si es una agenda."""
-    texto = post.get("caption") or ""
+    post = {**post, "caption": letras_comunes(post.get("caption") or "")}
+    texto = post["caption"]
     publicado = datetime.fromisoformat(post["timestamp"].replace("+0000", "+00:00")).astimezone(ahora.tzinfo)
     if ahora - publicado > ANTIGUEDAD_MAXIMA or _CONVOCATORIA.search(sin_tildes(texto[:300])):
         return []

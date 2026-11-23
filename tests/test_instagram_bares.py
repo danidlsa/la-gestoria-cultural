@@ -681,3 +681,62 @@ def test_lo_aprobado_que_se_conserva_se_junta_con_el_post_del_dia(tmp_path, monk
     assert list(ig.cargar_borradores()) == ["ccemontevideo-20261111"]
     (evento,) = eventos
     assert evento.titulo == "Centro Cultural de España: Beethoven 199" and len(ig.cargar_borradores()["ccemontevideo-20261111"]["posts"]) == 2
+
+
+PEATONAL_BELLO = """🏛️ ᴘᴀꜱᴇᴏ ʙᴇʟʟᴏ & ʀᴇʙᴏʀᴀᴛɪ ᴘᴏʀ ᴘᴏᴄɪᴛᴏꜱ
+
+🗣️ Los invitamos a redescubrir la huella de B&R en un recorrido.
+
+▪️ Plaza Gomensoro
+▫️ Casa de Ramón Bello
+
+ 🗓️ Domingo 29/11 - 15hs.
+📍 Desde la Plaza Gomensoro (sobre Benito Blanco).
+💲$500 por persona.
+#pocitos #peatonaltours"""
+
+PEATONAL_PATRIMONIAL = """ᴛᴏᴜʀ ᴘᴀᴛʀɪᴍᴏɴɪᴀʟ ʏ ᴀʀǫᴜɪᴛᴇᴄᴛóɴɪᴄᴏ 🏛️
+
+🗣️ Como cierre de año de Paseo Centro y en el marco de la Feria, realizaremos un recorrido.
+
+ 🗓️ Domingo 06/12 - 11hs.
+💲 GRATUITO.
+📍 desde Plaza Cagancha (fotogalería).
+
+🇺🇾 Finalizamos en Club Cultural Charco (clubculturalcharco )."""
+
+PEATONAL_AGENDA = """En Noviembre quedan los siguientes tours para salir a pasear con Peatonal:
+
+Jueves 26 - 20hs: Misterios del Salvo
+Las entradas se adquieren por la web de Redtickets
+
+Sábado 28 - 11hs: Tour religioso por Ciudad Vieja
+Entradas por nuestra web peatonaltours.uy
+
+Domingo 29 - 15hs: Paseo Bello & Reborati
+Entradas por nuestra web peatonaltours.uy"""
+
+
+def test_los_posts_de_peatonal_tours():
+    cuenta = {"usuario": "peatonaltours", "nombre": "Peatonal Tours", "itinerante": True, "categoria": "tour", "bar": False}
+    ahora = datetime(2026, 11, 23, 12, 0, tzinfo=MVD)
+    # Las versalitas se leen como letras comunes; el 🏛️ del título no es el lugar; "desde la" y la aclaración entre
+    # paréntesis sobran; y en "29/11 - 15hs" la hora es 15, no el mes.
+    [bello] = ig.borradores_del_post(_post(1, PEATONAL_BELLO, "2026-11-20"), cuenta, {}, ahora)
+    assert (bello["titulo"], bello["lugar"], bello["funciones"]) == (
+        "Peatonal Tours: PASEO BELLO & REBORATI POR POCITOS", "Plaza Gomensoro",
+        [{"inicio": "2026-11-29T15:00:00-03:00", "sin_hora": False}])
+    # Un 🏛️ al final del renglón no toma el renglón de abajo, y el lugar no es el del final del recorrido.
+    [patrimonial] = ig.borradores_del_post(_post(2, PEATONAL_PATRIMONIAL, "2026-11-20"), cuenta, {}, ahora)
+    assert (patrimonial["titulo"], patrimonial["lugar"], patrimonial["funciones"][0]["inicio"]) == (
+        "Peatonal Tours: TOUR PATRIMONIAL Y ARQUITECTÓNICO", "Plaza Cagancha", "2026-12-06T11:00:00-03:00")
+    # "Jueves 26 - 20hs: Misterios del Salvo": a las 20, y el nombre es lo de después de la hora.
+    agenda = ig.borradores_del_post(_post(3, PEATONAL_AGENDA, "2026-11-20"), cuenta, {}, ahora)
+    assert [(b["titulo"], b["funciones"][0]["inicio"][5:16]) for b in agenda] == [
+        ("Peatonal Tours: Misterios del Salvo", "11-26T20:00"), ("Peatonal Tours: Tour religioso por Ciudad Vieja", "11-28T11:00"),
+        ("Peatonal Tours: Paseo Bello & Reborati", "11-29T15:00")]
+
+
+def test_letras_de_adorno():
+    assert ig.letras_comunes("𝗠𝗜𝗦𝗧𝗘𝗥𝗜𝗢𝗦 𝗗𝗘𝗟 𝗦𝗔𝗟𝗩𝗢 · ᴇᴅɪᴄɪóɴ 2026 · 1º") == "MISTERIOS DEL SALVO · EDICIÓN 2026 · 1º"
+    assert ig.horas("18.30 a 20.30 hs") == [ig.time(18, 30)] and ig.horas("Dom 29/11 - 15hs") == [ig.time(15, 0)]
