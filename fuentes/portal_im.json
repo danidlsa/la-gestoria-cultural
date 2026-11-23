@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-22T19:54:35.688158-03:00",
+ "corrida": "2026-11-23T11:00:14.263491-03:00",
  "ok": true,
- "cantidad": 29,
+ "cantidad": 25,
  "errores": [],
  "eventos": [
   {
@@ -567,48 +567,6 @@
   },
   {
    "fuente": "portal_im",
-   "id_externo": "900-1016",
-   "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/como-llorar-en-una-casa-llena-de-ninos",
-   "titulo": "Cómo llorar en una casa llena de niños",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "La maternidad, las tareas de cuidado, el deseo, la identidad, la ira, el amor y la soledad atraviesan un mundo que exige a las mujeres una perfección constante. A partir del texto de Victoria Vera, la obra presenta a una madre que atraviesa un “día de furia” que la lleva a enfrentar las máximas…",
-   "lugar": {
-    "nombre": "Complejo Malvín Alto",
-    "direccion": "Hipólito Yrigoyen entre Cno. Carrasco y Petrona Rosende",
-    "lat": -34.87123073205,
-    "lon": -56.115868171921,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-08/Co%CC%81mo%20llorar_foto%20difusio%CC%81n%201%20-%20Gabriela%20Rossello%20Caics.jpg",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Ciclo de teatro",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
    "id_externo": "900-1017",
    "url": "https://eventos.montevideo.gub.uy/evento/ciclo-de-teatro/como-llorar-en-una-casa-llena-de-ninos",
    "titulo": "Cómo llorar en una casa llena de niños",
@@ -807,13 +765,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-22T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T16:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -900,48 +851,6 @@
    "entradas": [],
    "beneficios": [],
    "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/No%20te%20apures%20Luisa%202.png",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Estreno de obras Fortalecimiento de las Artes",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "983",
-   "url": "https://eventos.montevideo.gub.uy/evento/estreno-de-obras-fortalecimiento-de-las-artes/un-estupido-cuento",
-   "titulo": "Un estúpido cuento",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Una joven princesa mata a su padre, el rey, y escapa del castillo con su gato. Durante la huida, atraviesa un bosque lleno de peligros, visiones y encuentros absurdos que desarman los clichés de los cuentos de hadas. Esta comedia combina humor irreverente, delirio y ternura en una historia sobre…",
-   "lugar": {
-    "nombre": "Teatro Stella D’Italia",
-    "direccion": "Mercedes 1805",
-    "lat": -34.900608,
-    "lon": -56.178207,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 700.0,
-    "hasta": 700.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/Un%20est%C3%BApido%20cuento.jpg",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],
@@ -1051,48 +960,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Envejecimiento activo",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "1032",
-   "url": "https://eventos.montevideo.gub.uy/evento/primavera-tango/morgare-hernandez-duo-rubi",
-   "titulo": "Morgare & Hernández Dúo: Rubí",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "El dúo integrado por Gabriela Morgare (voz) y Mayra Hernández (piano y arreglos) presenta en vivo \"Rubí\", su primer trabajo discográfico, nominado a los Premios Graffiti 2025 en la categoría Mejor Álbum de Tango. A través de una propuesta íntima y expresiva, ambas artistas ofrecen una mirada…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/Morgare%20%26%20Herna%CC%81ndez_foto%20-%20Morgare%20%26%20Hernandez%20du%CC%81o%20%281%29_0.jpg",
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Primavera Tango",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
@@ -1445,48 +1312,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Sábados en Ciudad Vieja",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "994-2026-11-22",
-   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
-   "titulo": "Música en el Parque",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
-   "lugar": {
-    "nombre": "Parque Villa García",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Música en el Parque",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
