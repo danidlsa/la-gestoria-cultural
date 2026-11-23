@@ -1,57 +1,10 @@
 {
  "fuente": "entraste",
- "corrida": "2026-11-23T15:29:52.646955-03:00",
+ "corrida": "2026-11-23T18:21:55.507322-03:00",
  "ok": true,
  "cantidad": 3,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "entraste",
-   "id_externo": "296",
-   "url": "https://app.entraste.com/events/dizco-aniversario",
-   "titulo": "DIZCO ANIVERSARIO",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Canelones 1963",
-    "direccion": "Canelones 1963",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T23:59:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://app.entraste.com/events/dizco-aniversario",
-     "via": "entraste"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://storage.googleapis.com/entraste-media/1791910956_fcc3eb13f2e22e18.webp",
-   "productor": "Don Juan",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "entraste",
    "id_externo": "383",
@@ -66,7 +19,8 @@
     "lat": -34.9155965,
     "lon": -56.1687301,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -101,6 +55,54 @@
   },
   {
    "fuente": "entraste",
+   "id_externo": "296",
+   "url": "https://app.entraste.com/events/dizco-aniversario",
+   "titulo": "DIZCO ANIVERSARIO",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Canelones 1963",
+    "direccion": "Canelones 1963",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T23:59:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://app.entraste.com/events/dizco-aniversario",
+     "via": "entraste"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1791910956_fcc3eb13f2e22e18.webp",
+   "productor": "Don Juan",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "entraste",
    "id_externo": "321",
    "url": "https://app.entraste.com/events/navidad-en-el-yacht-2026",
    "titulo": "Navidad en el Yacht 2026",
@@ -113,7 +115,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {

@@ -1,11 +1,9 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-23T15:18:22.660671-03:00",
+ "corrida": "2026-11-23T18:10:10.909410-03:00",
  "ok": true,
- "cantidad": 91,
- "errores": [
-  "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
- ],
+ "cantidad": 93,
+ "errores": [],
  "eventos": [
   {
    "fuente": "tickantel",
@@ -21,7 +19,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -63,7 +62,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -110,7 +110,8 @@
     "lat": -34.9026912,
     "lon": -56.1776624,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -157,7 +158,8 @@
     "lat": -34.90821430964771,
     "lon": -56.196500823734254,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -199,7 +201,8 @@
     "lat": -34.90626,
     "lon": -56.19441,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -241,7 +244,8 @@
     "lat": -34.90821430964771,
     "lon": -56.196500823734254,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -290,7 +294,8 @@
     "lat": -34.90428,
     "lon": -56.19871,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -332,7 +337,8 @@
     "lat": -34.90642,
     "lon": -56.19628,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -402,7 +408,8 @@
     "lat": -34.90428,
     "lon": -56.19871,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -444,7 +451,8 @@
     "lat": -34.90642,
     "lon": -56.19628,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -498,7 +506,8 @@
     "lat": -34.90642,
     "lon": -56.19628,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -552,7 +561,8 @@
     "lat": -34.9026912,
     "lon": -56.1776624,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -599,7 +609,8 @@
     "lat": -34.90428,
     "lon": -56.19871,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -653,7 +664,8 @@
     "lat": -34.90642,
     "lon": -56.19628,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -707,7 +719,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -761,7 +774,8 @@
     "lat": -34.90642,
     "lon": -56.19628,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -815,7 +829,8 @@
     "lat": -34.91322,
     "lon": -56.18744,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -869,7 +884,8 @@
     "lat": -34.90642,
     "lon": -56.19628,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -916,7 +932,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -963,7 +980,8 @@
     "lat": -34.90821430964771,
     "lon": -56.196500823734254,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1019,7 +1037,8 @@
     "lat": -34.90626,
     "lon": -56.19441,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1061,7 +1080,8 @@
     "lat": -34.90428,
     "lon": -56.19871,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1103,7 +1123,8 @@
     "lat": -34.90642,
     "lon": -56.19628,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1157,7 +1178,8 @@
     "lat": -34.9023524,
     "lon": -56.1445355,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1204,7 +1226,8 @@
     "lat": -34.8253632,
     "lon": -56.2043076,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1251,7 +1274,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1298,7 +1322,8 @@
     "lat": -34.90626,
     "lon": -56.19441,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1340,7 +1365,8 @@
     "lat": -34.8629904,
     "lon": -56.1535167,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1382,7 +1408,8 @@
     "lat": -34.9026912,
     "lon": -56.1776624,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1429,7 +1456,8 @@
     "lat": -34.90642,
     "lon": -56.19628,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1476,7 +1504,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1523,7 +1552,8 @@
     "lat": -34.9026912,
     "lon": -56.1776624,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1570,7 +1600,8 @@
     "lat": -34.90626,
     "lon": -56.19441,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1612,7 +1643,8 @@
     "lat": -34.9026912,
     "lon": -56.1776624,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1659,7 +1691,8 @@
     "lat": -34.90626,
     "lon": -56.19441,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1706,7 +1739,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1748,7 +1782,8 @@
     "lat": -34.9026912,
     "lon": -56.1776624,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1795,7 +1830,8 @@
     "lat": -34.90626,
     "lon": -56.19441,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1830,6 +1866,68 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021999",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021999/muestra-de-fin-de-ano-area-ballet-2026",
+   "titulo": "Muestra de fin de año Área Ballet 2026",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Muestra final del Área Ballet. Este espectáculo forma parte del cierre de cursos 2026 del Área Ballet de la ENFAS. El Área presenta una versión de “Baile de Graduados”, siendo este el proyecto final que sintetiza el proceso vivido y pone en escena el trabajo técnico y artístico desarrollado a lo…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-05T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021999/muestra-de-fin-de-ano-area-ballet-2026",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021999/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021447",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021447/una-nueva-travesia",
    "titulo": "Una nueva Travesía",
@@ -1842,7 +1940,8 @@
     "lat": -34.9023524,
     "lon": -56.1445355,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1891,7 +1990,8 @@
     "lat": -34.8629904,
     "lon": -56.1535167,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1933,7 +2033,8 @@
     "lat": -34.90626,
     "lon": -56.19441,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1975,7 +2076,8 @@
     "lat": -34.8822811,
     "lon": -56.1829079,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2022,7 +2124,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2069,7 +2172,8 @@
     "lat": -34.8629904,
     "lon": -56.1535167,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2111,7 +2215,8 @@
     "lat": -34.9026912,
     "lon": -56.1776624,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2158,7 +2263,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2205,7 +2311,8 @@
     "lat": -34.8557558,
     "lon": -56.1324247,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2252,7 +2359,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2299,7 +2407,8 @@
     "lat": -34.90428,
     "lon": -56.19871,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2346,7 +2455,8 @@
     "lat": -34.90626,
     "lon": -56.19441,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2388,7 +2498,8 @@
     "lat": -34.90642,
     "lon": -56.19628,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2435,7 +2546,8 @@
     "lat": -34.9026912,
     "lon": -56.1776624,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2482,7 +2594,8 @@
     "lat": -34.90428,
     "lon": -56.19871,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2524,7 +2637,8 @@
     "lat": -34.9026912,
     "lon": -56.1776624,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2571,7 +2685,8 @@
     "lat": -34.90642,
     "lon": -56.19628,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2625,7 +2740,8 @@
     "lat": -34.90428,
     "lon": -56.19871,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2667,7 +2783,8 @@
     "lat": -34.9026912,
     "lon": -56.1776624,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2714,7 +2831,8 @@
     "lat": -34.90428,
     "lon": -56.19871,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2819,7 +2937,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2861,7 +2980,8 @@
     "lat": -34.90626,
     "lon": -56.19441,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2903,7 +3023,8 @@
     "lat": -34.90428,
     "lon": -56.19871,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2950,7 +3071,8 @@
     "lat": -34.9198517,
     "lon": -56.1698383,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -2980,6 +3102,49 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021895",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada",
+   "titulo": "Nadie dice nada",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Nadie dice nada en vivo",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021895/NDN-AntelArena-WebTickantel-12dic-700x390.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021954",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021954/ciclo-de-piano-raquel-boldorini",
    "titulo": "Ciclo de piano Raquel Boldorini",
@@ -2992,7 +3157,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3039,7 +3205,8 @@
     "lat": -34.8557558,
     "lon": -56.1324247,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3086,7 +3253,8 @@
     "lat": -34.90428,
     "lon": -56.19871,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3133,7 +3301,8 @@
     "lat": -34.90428,
     "lon": -56.19871,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3180,7 +3349,8 @@
     "lat": -34.9026912,
     "lon": -56.1776624,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3227,7 +3397,8 @@
     "lat": -34.90642,
     "lon": -56.19628,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3269,7 +3440,8 @@
     "lat": -34.8629904,
     "lon": -56.1535167,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3311,7 +3483,8 @@
     "lat": -34.90428,
     "lon": -56.19871,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3365,7 +3538,8 @@
     "lat": -34.90642,
     "lon": -56.19628,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3407,7 +3581,8 @@
     "lat": -34.90626,
     "lon": -56.19441,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3454,7 +3629,8 @@
     "lat": -34.90626,
     "lon": -56.19441,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3501,7 +3677,8 @@
     "lat": -34.8629904,
     "lon": -56.1535167,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3548,7 +3725,8 @@
     "lat": -34.9198517,
     "lon": -56.1698383,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3644,7 +3822,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3698,7 +3877,8 @@
     "lat": -34.90642,
     "lon": -56.19628,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3745,7 +3925,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3787,7 +3968,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3857,7 +4039,8 @@
     "lat": -34.90428,
     "lon": -56.19871,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3899,7 +4082,8 @@
     "lat": -34.90428,
     "lon": -56.19871,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3941,7 +4125,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -3983,7 +4168,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -4025,7 +4211,8 @@
     "lat": -34.90786,
     "lon": -56.20101,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -4067,7 +4254,8 @@
     "lat": -34.8629904,
     "lon": -56.1535167,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -4109,7 +4297,8 @@
     "lat": -34.8629904,
     "lon": -56.1535167,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -4151,7 +4340,8 @@
     "lat": -34.8629904,
     "lon": -56.1535167,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -4193,7 +4383,8 @@
     "lat": -34.9198517,
     "lon": -56.1698383,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -4235,7 +4426,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -4282,7 +4474,8 @@
     "lat": -34.8629904,
     "lon": -56.1535167,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -4324,7 +4517,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {

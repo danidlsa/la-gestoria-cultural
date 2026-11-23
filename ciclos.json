@@ -1,15 +1,7 @@
 {
- "generado": "2026-11-23T15:31:55.770707-03:00",
+ "generado": "2026-11-23T18:23:42.360712-03:00",
  "cantidad": 20,
  "ciclos": [
-  {
-   "id": "ciclo-envejecimiento-activo",
-   "titulo": "Envejecimiento activo",
-   "lugar_id": null,
-   "desde": "2026-11-23T11:00:00-03:00",
-   "hasta": "2026-12-11T16:00:00-03:00",
-   "cantidad": 7
-  },
   {
    "id": "ciclo-las-mujeres-de-hitchcock",
    "titulo": "Las mujeres de Hitchcock",
@@ -25,6 +17,14 @@
    "desde": "2026-11-23T19:35:00-03:00",
    "hasta": "2026-11-28T20:10:00-03:00",
    "cantidad": 6
+  },
+  {
+   "id": "ciclo-envejecimiento-activo",
+   "titulo": "Envejecimiento activo",
+   "lugar_id": null,
+   "desde": "2026-11-24T10:00:00-03:00",
+   "hasta": "2026-12-11T16:00:00-03:00",
+   "cantidad": 7
   },
   {
    "id": "ciclo-ciclo-marea",
