@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-23T18:22:25.822569-03:00",
+ "corrida": "2026-11-23T18:57:49.865472-03:00",
  "ok": true,
- "cantidad": 51,
+ "cantidad": 57,
  "errores": [],
  "eventos": [
   {
@@ -427,6 +427,51 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261124",
+   "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Martes de Jazz",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Martes 24 de noviembre: Martes de Jazz (todos los martes)",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5713f8de9bb7.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "clubculturalcharco-20261124",
    "url": "https://www.instagram.com/p/Dfms2HQldPq/",
    "titulo": "Club Cultural Charco: Desplazamiento, historias de amor, familia y barro",
@@ -666,6 +711,51 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261125",
+   "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Red Hot Chili Peppers en Jazz",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Miércoles 25 de Noviembre: Red Hot Chili Peppers en Jazz",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d59c6972b910.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "theshannonuy-20261125",
    "url": "https://www.instagram.com/p/DfUjlSARymU/",
    "titulo": "The Shannon: OPEN MIC",
@@ -847,6 +937,51 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a383deb164cd.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261126",
+   "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Palabra e Impro",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Jueves 26 de noviembre: Palabra e Impro",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2b37c088334d.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1321,6 +1456,51 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261128",
+   "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Piano Bar",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábado 28 de noviembre (al mediodía): Piano Bar",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/24770606490f.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "museozorrilla-20261128",
    "url": "https://www.instagram.com/p/Dfzeii8RigE/",
    "titulo": "Museo Zorrilla: Presentación del Calendario Caja Baja 2027",
@@ -1599,6 +1779,51 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "el.mingus-20261129",
+   "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
+   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Catalina Erdelyi Cuarteto",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Domingo 29 de noviembre: Catalina Erdelyi Cuarteto Reservá tu mesa via Whatsapp al 093 651 305. Te esperamos!",
+   "lugar": {
+    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/fd11f24d56b8.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "elbar_delxsamigxs-20261129",
    "url": "https://www.instagram.com/p/DgF4991EdMr/",
    "titulo": "Brecha Bar y Cafe: Cumplimos 12 años",
@@ -1684,6 +1909,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/9c7866b1e544.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "espaciomodelomvd-20261129",
+   "url": "https://www.instagram.com/p/DgGCP5CSQOR/",
+   "titulo": "Llega el ritmo latino al Espacio Modelo de la mano de jóvenes emergentes",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Llega el ritmo latino al Espacio Modelo de la mano de jóvenes emergentes. Traé todas tus ganas de bailar y vení a disfrutar a toda música y buena energía. Es también, un espacio para fomentar el encuentro y desarrollar actividades de jóvenes emergentes en el Espacio Modelo. Detalles de la…",
+   "lugar": {
+    "nombre": "Espacio Modelo",
+    "direccion": "Cádiz 3280",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": "espaciomodelomvd"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgGCP5CSQOR/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/fe2256729ae4.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

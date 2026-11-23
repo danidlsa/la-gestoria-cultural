@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-23T18:23:42.360712-03:00",
- "cantidad": 20,
+ "generado": "2026-11-23T18:58:53.394787-03:00",
+ "cantidad": 21,
  "ciclos": [
   {
    "id": "ciclo-las-mujeres-de-hitchcock",
@@ -33,6 +33,14 @@
    "desde": "2026-11-24T21:00:00-03:00",
    "hasta": "2027-03-12T20:30:00-03:00",
    "cantidad": 4
+  },
+  {
+   "id": "ciclo-noche-de-los-cafes-y-bares-notables-2026",
+   "titulo": "Noche de los Cafés y Bares Notables 2026",
+   "lugar_id": null,
+   "desde": "2026-11-26T19:00:00-03:00",
+   "hasta": "2026-11-26T23:00:00-03:00",
+   "cantidad": 8
   },
   {
    "id": "ciclo-tmc",

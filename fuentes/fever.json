@@ -1,6 +1,6 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-23T18:18:39.150199-03:00",
+ "corrida": "2026-11-23T18:54:10.564977-03:00",
  "ok": true,
  "cantidad": 17,
  "errores": [],
@@ -343,54 +343,6 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "836763",
-   "url": "https://feverup.com/m/836763",
-   "titulo": "Candlelight: Himnos del Rock de los 80",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Candlelight: Himnos del Rock de los 80 es un concierto de música en vivo a la luz de las velas en el Hotel Radisson Victoria Plaza de Montevideo. Conseguí tus entradas y disfrutá de los grandes himnos del rock de los 80 interpretados por un cuarteto de cuerdas. Esta experiencia de concierto es un…",
-   "lugar": {
-    "nombre": "Hotel Radisson Victoria Plaza",
-    "direccion": null,
-    "lat": -34.9058104,
-    "lon": -56.1995027,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2027-01-30T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 740.0,
-    "hasta": 740.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/836763",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/a4251344-6861-11f0-90b8-ee5a9ea828c9.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
    "id_externo": "614864",
    "url": "https://feverup.com/m/614864",
    "titulo": "Candlelight: El Señor de los Anillos",
@@ -429,6 +381,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/6e89eade-c92d-11f0-ab44-1e339e1eaa9a.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "836763",
+   "url": "https://feverup.com/m/836763",
+   "titulo": "Candlelight: Himnos del Rock de los 80",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Candlelight: Himnos del Rock de los 80 es un concierto de música en vivo a la luz de las velas en el Hotel Radisson Victoria Plaza de Montevideo. Conseguí tus entradas y disfrutá de los grandes himnos del rock de los 80 interpretados por un cuarteto de cuerdas. Esta experiencia de concierto es un…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-30T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 740.0,
+    "hasta": 740.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/836763",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/a4251344-6861-11f0-90b8-ee5a9ea828c9.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],

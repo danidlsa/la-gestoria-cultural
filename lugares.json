@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-23T18:23:42.360712-03:00",
- "cantidad": 180,
+ "generado": "2026-11-23T18:58:53.394787-03:00",
+ "cantidad": 188,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -212,6 +212,30 @@
    "instagram": "barfacal"
   },
   {
+   "id": "bar-marbella",
+   "nombre": "Bar Marbella",
+   "alias": [
+    "Marbella"
+   ],
+   "direccion": "Av. Gonzalo Ramírez y Dr. Joaquín de Salterain",
+   "lat": -34.911478,
+   "lon": -56.1691306,
+   "barrio": "Parque Rodó",
+   "ciudad": "Montevideo",
+   "instagram": "barmarbella.uy"
+  },
+  {
+   "id": "bar-paysandu",
+   "nombre": "Bar Paysandú",
+   "alias": [],
+   "direccion": "Av. Gral. Rondeau y Paysandú",
+   "lat": -34.9022743,
+   "lon": -56.1919269,
+   "barrio": "Centro",
+   "ciudad": "Montevideo",
+   "instagram": "paysandu_bar"
+  },
+  {
    "id": "bluzz-bar",
    "nombre": "Bluzz Bar",
    "alias": [],
@@ -283,6 +307,17 @@
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
+  },
+  {
+   "id": "cafe-brasilero",
+   "nombre": "Café Brasilero",
+   "alias": [],
+   "direccion": "Ituzaingó y 25 de Mayo",
+   "lat": -34.9056692,
+   "lon": -56.2046929,
+   "barrio": "Ciudad Vieja",
+   "ciudad": "Montevideo",
+   "instagram": "cafebrasilero.uy"
   },
   {
    "id": "canelones-1963",
@@ -645,6 +680,17 @@
    "instagram": "clubculturalcharco"
   },
   {
+   "id": "el-barzon",
+   "nombre": "El Barzón",
+   "alias": [],
+   "direccion": "Av.Gral Rivera 2019",
+   "lat": -34.902133,
+   "lon": -56.172788,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
    "id": "el-chamuyo",
    "nombre": "El Chamuyo",
    "alias": [],
@@ -693,6 +739,20 @@
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
+  },
+  {
+   "id": "escaramuza",
+   "nombre": "Escaramuza",
+   "alias": [
+    "Escaramuza Libros y Café",
+    "Escaramuza Libros & Café"
+   ],
+   "direccion": "Dr. Pablo de María 1185",
+   "lat": -34.9065054,
+   "lon": -56.17098,
+   "barrio": "Cordón",
+   "ciudad": "Montevideo",
+   "instagram": "_escaramuza"
   },
   {
    "id": "escuela-nacional-de-declamacion-esnade",
@@ -747,12 +807,12 @@
    "id": "espacio-modelo",
    "nombre": "Espacio Modelo",
    "alias": [],
-   "direccion": "Espacio Modelo. Cádiz 3294",
+   "direccion": "Cádiz 3280",
    "lat": -34.871917,
    "lon": -56.154874,
    "barrio": null,
    "ciudad": "Montevideo",
-   "instagram": null
+   "instagram": "espaciomodelomvd"
   },
   {
    "id": "espacio-palermo",
@@ -1222,6 +1282,17 @@
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
+  },
+  {
+   "id": "montevideo-al-sur",
+   "nombre": "Montevideo al Sur",
+   "alias": [],
+   "direccion": "Paraguay y Maldonado",
+   "lat": -34.9098214,
+   "lon": -56.1920231,
+   "barrio": "Barrio Sur",
+   "ciudad": "Montevideo",
+   "instagram": "mvdalsur"
   },
   {
    "id": "movie-montevideo-shopping",
@@ -1836,6 +1907,20 @@
    "instagram": "sansuena_cafevivero"
   },
   {
+   "id": "santa-catalina-bar-cafe",
+   "nombre": "Santa Catalina Bar Café",
+   "alias": [
+    "Santa Catalina Bar",
+    "Santa Catalina"
+   ],
+   "direccion": "Ciudadela 1200",
+   "lat": -34.909496,
+   "lon": -56.1999995,
+   "barrio": "Barrio Sur",
+   "ciudad": "Montevideo",
+   "instagram": "santacatalinabar"
+  },
+  {
    "id": "sitio-parque-roosevelt",
    "nombre": "Sitio · Parque Roosevelt",
    "alias": [
@@ -2151,6 +2236,17 @@
    "direccion": "Av. Agraciada 2623",
    "lat": -34.883768,
    "lon": -56.194264,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "el-mingus",
+   "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9058916,
+   "lon": -56.1913095,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
