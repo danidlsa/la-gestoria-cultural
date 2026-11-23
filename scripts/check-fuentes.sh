@@ -33,6 +33,7 @@ FUENTES='
 2|gurvich|https://museogurvich.org/exposiciones/|exposiciones/
 2|mapi|https://mapi.uy/pagina-exposiciones/|exposicion-actual
 2|mec_museos|https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades|Event-title
+2|municipio_b|https://municipiob.montevideo.gub.uy/|Municipio
 3|salacamacua|https://www.salacamacua.uy/|"Event"
 3|mientrada|https://mientrada.com.uy/agenda-geral?estado=Montevideo|card-agenda-geral
 3|cobraticket|https://cobraticket.uy/eventos/__data.json|nextEvents

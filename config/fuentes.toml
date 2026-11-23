@@ -100,8 +100,9 @@ corre_en = "actions"
 
 # Programas de los eventos especiales publicados en una noticia, con la grilla en el texto (config/eventos_especiales.toml).
 # Por ahora, la Noche de los Cafés y Bares Notables (Municipio B). 23/11/2026.
+# El Municipio B le contesta 403 a GitHub Actions (23/11/2026): responde solo desde Uruguay.
 [notas_especiales]
-corre_en = "actions"
+corre_en = "local"
 
 # Ticketera de salas y productoras independientes (El Hormiguero, Tatu…). 9/11/2026.
 [tikzet]
