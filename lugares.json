@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-22T15:52:02.017625-03:00",
- "cantidad": 180,
+ "generado": "2026-11-22T23:02:11.926702-03:00",
+ "cantidad": 179,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -9,16 +9,6 @@
    "direccion": "25 de Mayo 263, 11000 Montevideo, Depart",
    "lat": -34.907359,
    "lon": -56.210401,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "25-de-mayo-422-san-jose-de-mayo",
-   "nombre": "25 de mayo 422, San José de Mayo",
-   "alias": [],
-   "direccion": "25 de mayo 422, San José de Mayo",
-   "lat": -34.9058556,
-   "lon": -56.2055855,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -143,20 +133,14 @@
   {
    "id": "auditorio-nelly-goitino",
    "nombre": "Auditorio Nelly Goitiño",
-   "alias": [],
-   "direccion": null,
+   "alias": [
+    "Auditorio Nelly Goitiño del SODRE",
+    "Auditorio Nelly Goitiño del Sodre",
+    "Sala Héctor Tosar"
+   ],
+   "direccion": "Av. 18 de Julio 930",
    "lat": -34.90642,
    "lon": -56.19628,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "auditorio-nelly-goitino-del-sodre",
-   "nombre": "Auditorio Nelly Goitiño del SODRE",
-   "alias": [],
-   "direccion": "Av. 18 de Julio 930",
-   "lat": -34.9063824,
-   "lon": -56.1963038,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -304,16 +288,6 @@
    "direccion": null,
    "lat": -34.8627617,
    "lon": -56.0641586,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "casona-de-vilardebo",
-   "nombre": "Casona de Vilardebó",
-   "alias": [],
-   "direccion": "Vilardebó 1169",
-   "lat": -34.877449,
-   "lon": -56.193935,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -480,6 +454,26 @@
    "direccion": "Bartolomé Mitre 1236",
    "lat": -34.908515,
    "lon": -56.2008552,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "ciudad-vieja",
+   "nombre": "Ciudad Vieja",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9064152,
+   "lon": -56.2069339,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "club-colon-basketball",
+   "nombre": "Club Colón Basketball",
+   "alias": [],
+   "direccion": "Av. Gral. San Martín 3159, 11700 Montevi",
+   "lat": -34.86836,
+   "lon": -56.181443,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -651,16 +645,6 @@
    "direccion": "José Enrique Rodó 1712",
    "lat": -34.905642,
    "lon": -56.179245,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "espacio-cultural-extasia",
-   "nombre": "Espacio Cultural Extasia",
-   "alias": [],
-   "direccion": "Piedras 425, 11000 Montevideo, Departame",
-   "lat": -34.904648,
-   "lon": -56.207897,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1313,12 +1297,38 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "plaza-cagancha",
+   "nombre": "Plaza Cagancha",
+   "alias": [
+    "Fotogaleria CdF Plaza Cagancha (Acera Norte)",
+    "Fotogalería CdF Plaza Cagancha (Acera Norte)",
+    "Fotogaleria CdF Plaza Cagancha",
+    "Fotogalería CdF Plaza Cagancha",
+    "Plaza Libertad"
+   ],
+   "direccion": null,
+   "lat": -34.905644,
+   "lon": -56.191388,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "plaza-conaprole",
    "nombre": "Plaza Conaprole",
    "alias": [],
    "direccion": "Costa Rica, 11500 Montevideo",
    "lat": -34.8829685003899,
    "lon": -56.05890110793457,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "plaza-gomensoro",
+   "nombre": "Plaza Gomensoro",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.91704256526852,
+   "lon": -56.15017516624782,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1341,6 +1351,20 @@
    "direccion": "Sarmiento esq la rambla (FARRA.)",
    "lat": -34.915753,
    "lon": -56.168935,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "plaza-matriz",
+   "nombre": "Plaza Matriz",
+   "alias": [
+    "Fuente de la Plaza Matriz",
+    "Plaza Constitución",
+    "Plaza de la Constitución"
+   ],
+   "direccion": null,
+   "lat": -34.906598,
+   "lon": -56.203541,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1610,7 +1634,7 @@
     "Patio del Museo del Carnaval",
     "Plaza del Museo del Carnaval"
    ],
-   "direccion": "Rambla 25 de Agosto 218",
+   "direccion": "of Maciel, Maciel 218, 11000 Montevideo,",
    "lat": -34.905789,
    "lon": -56.212222,
    "barrio": null,
@@ -1940,26 +1964,6 @@
    "direccion": "Av. Agraciada 2623",
    "lat": -34.883768,
    "lon": -56.194264,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "abalos-casa-de-cervezas",
-   "nombre": "ĀBALOS - casa de cervezas -",
-   "alias": [],
-   "direccion": "casa de cervezas - - Ábalos 3196, 11600 Montevideo, Departame",
-   "lat": -34.888826,
-   "lon": -56.144721,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "el-mingus",
-   "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.9058916,
-   "lon": -56.1913095,
    "barrio": null,
    "ciudad": "Montevideo"
   }

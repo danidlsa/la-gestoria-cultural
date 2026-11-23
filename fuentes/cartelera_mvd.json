@@ -1,6 +1,6 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-22T15:44:06.532715-03:00",
+ "corrida": "2026-11-22T22:54:02.911909-03:00",
  "ok": true,
  "cantidad": 78,
  "errores": [],
@@ -31,7 +31,7 @@
     }
    ],
    "precio": {
-    "desde": 600.0,
+    "desde": 700.0,
     "hasta": 700.0,
     "moneda": "UYU",
     "gratis": false
@@ -206,10 +206,10 @@
     }
    ],
    "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
+    "desde": 600.0,
+    "hasta": 600.0,
     "moneda": "UYU",
-    "gratis": true
+    "gratis": false
    },
    "entradas": [
     {
@@ -1017,7 +1017,7 @@
     }
    ],
    "precio": {
-    "desde": 400.0,
+    "desde": 600.0,
     "hasta": 600.0,
     "moneda": "UYU",
     "gratis": false
@@ -1563,13 +1563,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-22T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T16:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1585,10 +1578,10 @@
     }
    ],
    "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
+    "desde": 600.0,
+    "hasta": 600.0,
     "moneda": "UYU",
-    "gratis": true
+    "gratis": false
    },
    "entradas": [
     {
@@ -2744,7 +2737,7 @@
     }
    ],
    "precio": {
-    "desde": 325.0,
+    "desde": 650.0,
     "hasta": 650.0,
     "moneda": "UYU",
     "gratis": false
@@ -2949,10 +2942,10 @@
     }
    ],
    "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
+    "desde": 650.0,
+    "hasta": 650.0,
     "moneda": "UYU",
-    "gratis": true
+    "gratis": false
    },
    "entradas": [
     {
@@ -3731,10 +3724,10 @@
     }
    ],
    "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
+    "desde": 550.0,
+    "hasta": 550.0,
     "moneda": "UYU",
-    "gratis": true
+    "gratis": false
    },
    "entradas": [
     {

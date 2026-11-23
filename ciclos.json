@@ -1,23 +1,7 @@
 {
- "generado": "2026-11-22T15:52:02.017625-03:00",
- "cantidad": 20,
+ "generado": "2026-11-22T23:02:11.926702-03:00",
+ "cantidad": 21,
  "ciclos": [
-  {
-   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
-   "titulo": "Estreno de obras Fortalecimiento de las Artes",
-   "lugar_id": null,
-   "desde": "2026-11-22T16:00:00-03:00",
-   "hasta": "2026-12-04T21:00:00-03:00",
-   "cantidad": 4
-  },
-  {
-   "id": "ciclo-pena-sin-cadenas",
-   "titulo": "Peña sin cadenas",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-22T17:40:00-03:00",
-   "hasta": "2026-11-22T20:05:00-03:00",
-   "cantidad": 2
-  },
   {
    "id": "ciclo-musica-en-el-parque",
    "titulo": "Música en el Parque",
@@ -27,11 +11,27 @@
    "cantidad": 2
   },
   {
+   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
+   "titulo": "Estreno de obras Fortalecimiento de las Artes",
+   "lugar_id": null,
+   "desde": "2026-11-22T19:00:00-03:00",
+   "hasta": "2026-12-04T21:00:00-03:00",
+   "cantidad": 4
+  },
+  {
    "id": "ciclo-primavera-tango",
    "titulo": "Primavera Tango",
    "lugar_id": "centro-cultural-terminal-goes",
    "desde": "2026-11-22T20:00:00-03:00",
    "hasta": "2026-11-22T20:00:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-pena-sin-cadenas",
+   "titulo": "Peña sin cadenas",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-22T20:05:00-03:00",
+   "hasta": "2026-11-22T20:05:00-03:00",
    "cantidad": 1
   },
   {
@@ -71,8 +71,8 @@
    "titulo": "Ciclo MAREA",
    "lugar_id": "sala-zitarrosa",
    "desde": "2026-11-24T21:00:00-03:00",
-   "hasta": "2026-12-05T21:30:00-03:00",
-   "cantidad": 3
+   "hasta": "2027-03-12T20:30:00-03:00",
+   "cantidad": 4
   },
   {
    "id": "ciclo-tmc",
@@ -87,8 +87,8 @@
    "titulo": "Actividades en el Parque Mauá",
    "lugar_id": "parque-maua",
    "desde": "2026-12-01T20:00:00-03:00",
-   "hasta": "2026-12-01T20:00:00-03:00",
-   "cantidad": 1
+   "hasta": "2026-12-04T20:00:00-03:00",
+   "cantidad": 4
   },
   {
    "id": "ciclo-19-fest-jazz-mvd",
@@ -120,6 +120,14 @@
    "lugar_id": "museo-nacional-de-artes-visuales",
    "desde": "2026-12-11T17:00:00-03:00",
    "hasta": "2026-12-11T17:00:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-sabados-en-ciudad-vieja",
+   "titulo": "Sábados en Ciudad Vieja",
+   "lugar_id": "ciudad-vieja",
+   "desde": "2026-12-19T10:00:00-03:00",
+   "hasta": "2026-12-19T10:00:00-03:00",
    "cantidad": 1
   },
   {

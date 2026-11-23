@@ -1,0 +1,150 @@
+{
+ "fuente": "peatonal_tours",
+ "corrida": "2026-11-22T23:01:14.180167-03:00",
+ "ok": true,
+ "cantidad": 3,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "peatonal_tours",
+   "id_externo": "2",
+   "url": "https://www.peatonaltours.uy/tour/2",
+   "titulo": "Paseo Bello & Reborati",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "En este tour, invitamos a descubrir la huella de esta empresa constructora en el que abordaremos diferentes temas desde la arquitectura hasta anécdotas de Ramón Bello y Alberto Reborati. Observaremos varios conjuntos de casas, donde hablaremos de aquel balneario lejano en el tiempo y el Pocitos de…",
+   "lugar": {
+    "nombre": "Plaza Gomensoro",
+    "direccion": null,
+    "lat": -34.91704256526852,
+    "lon": -56.15017516624782,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T15:00:00-03:00",
+     "fin": "2026-11-29T16:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.peatonaltours.uy/tour/2",
+     "via": "peatonal_tours"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://peatonal.s3.us-east-2.amazonaws.com/tours/paseo-bello-y-reborati.png",
+   "productor": "Peatonal Tours",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "peatonal_tours",
+   "id_externo": "77",
+   "url": "https://www.peatonaltours.uy/tour/77",
+   "titulo": "Tour Religioso - edición Ciudad Vieja",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "En el marco de la histórica visita del Papa León XIV a nuestro país, Peatonal Tours realizará un recorrido especial por Ciudad Vieja en clave religiosa. El tour presenta una retrospectiva histórica acerca de la presencia de la Iglesia en nuestro país, su incidencia en la conformación social…",
+   "lugar": {
+    "nombre": "Fuente de la Plaza Matriz",
+    "direccion": null,
+    "lat": -34.906598,
+    "lon": -56.203541,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T11:00:00-03:00",
+     "fin": "2026-11-28T12:18:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.peatonaltours.uy/tour/77",
+     "via": "peatonal_tours"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://peatonal.s3.us-east-2.amazonaws.com/tours/IMG_7534.jpeg",
+   "productor": "Peatonal Tours",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "peatonal_tours",
+   "id_externo": "74",
+   "url": "https://www.peatonaltours.uy/tour/74",
+   "titulo": "Tour Patrimonial y arquitectónico",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "En este tour, recorreremos nuestra avenida principal descubriendo la historia de los edificios más emblemáticos y junto a ellos sus historias tan atrapantes e interesantes. Desde la explanada de la Intendencia hasta la Plaza Independencia.",
+   "lugar": {
+    "nombre": "Fotogaleria CdF Plaza Cagancha (Acera Norte)",
+    "direccion": null,
+    "lat": -34.905644,
+    "lon": -56.191388,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T11:00:00-03:00",
+     "fin": "2026-12-06T12:27:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": true
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.peatonaltours.uy/tour/74",
+     "via": "peatonal_tours"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://peatonal.s3.us-east-2.amazonaws.com/tours/Patrimonial y arquitectónico.jpeg",
+   "productor": "Peatonal Tours",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  }
+ ]
+}

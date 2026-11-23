@@ -1,371 +1,10 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-22T15:34:04.675298-03:00",
+ "corrida": "2026-11-22T22:49:00.038209-03:00",
  "ok": true,
- "cantidad": 94,
+ "cantidad": 90,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021868",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021868/diciembre",
-   "titulo": "Diciembre",
-   "categoria": "cine",
-   "categoria_segura": false,
-   "descripcion_corta": "“DICIEMBRE” Diciembre es un viaje temporal y una reconstrucción inmersiva, atmosférica y dramática de los acontecimientos ocurridos en Argentina durante diciembre de 2001. Utilizando únicamente material de archivo registrado a lo largo de ese mes, la película no solo revisita, sino que reactiva en…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021868/diciembre",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021868/700_x_390_d.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020828",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
-   "titulo": "Ay! La miseria nos hará felices",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "El cierre de la pentalogía llega al escenario de Sala Verdi con una distopía teatral sobre robots, actores y la pregunta más urgente del presente: ¿qué queda de lo humano cuando la máquina puede hacerlo todo? Veintiún años después de escribir UZ: El Pueblo (2005), el dramaturgo uruguayo Gabriel…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020828/Ay_la_miseria_nos_hara_felices_-_tickantel_banner-05.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021401",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021401/el-teatro",
-   "titulo": "El Teatro",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "COMUNICADO: La Comedia Nacional informa que, la función prevista para el viernes 6 de noviembre, queda cancelada debido a las afectaciones en la circulación y el acceso a Ciudad Vieja con motivo de la visita del Papa León XIV. Sobre la devolución de las entradas: Quienes hayan comprado sus entradas…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021401/el-teatro",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021401/El_teatro_banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021886",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021886/raza-oriental",
-   "titulo": "Raza oriental",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "Espectáculo de diferentes grupos de Danzas Folclórica, apto para todo público, con repertorio de danzas rioplatenses para resaltar la cultura de la misma. Con una duración aproximada de 120 minutos. Edad máxima (inclusive) con acceso gratuito permitido: 5 años.",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021886/raza-oriental",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021886/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021985",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021985/almudena",
-   "titulo": "Almudena",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "“ALMUDENA” El retrato más íntimo de la escritora Almudena Grandes Con sus propias palabras, a lo largo de los años, Almudena Grandes cuenta su manera de ver el mundo, de entender la vida y la escritura. Pero Almudena ya no está. El anhelo de esta película es mantener viva su memoria, celebrar su…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021985/almudena",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021985/700_x_390_a.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021278",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021278/cartografia-de-la-identidad",
-   "titulo": "Cartografía de la Identidad",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Tenía apenas un año y seis meses… ¿Con un año y seis meses, qué sentimientos se pueden generar? ¿Qué afectos, qué vínculos se pueden llegar a tener? Seguramente muchos. Pero si hablamos de recuerdos, tangibles, patentes, yo no tuve ninguno. \"Cartografía sobre la identidad\" aborda el proceso de…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 800.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021278/cartografia-de-la-identidad",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021278/BANNER_WEB_TICKANTEL_700_X_390.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021955",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021955/las-7-balas",
-   "titulo": "Las 7 balas",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Montevideo es golpeada por un violento copamiento en un bar céntrico. Una bala pérdida que impacta a un transeúnte. La prensa desesperada por dar la primicia y la policía tratando de proceder con cautela. La trama se complejiza conforme la historia narra los diferentes eventos del golpe, que se…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T20:50:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021955/las-7-balas",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021955/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40020236",
@@ -1256,6 +895,62 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40020828",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
+   "titulo": "Ay! La miseria nos hará felices",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "El cierre de la pentalogía llega al escenario de Sala Verdi con una distopía teatral sobre robots, actores y la pregunta más urgente del presente: ¿qué queda de lo humano cuando la máquina puede hacerlo todo? Veintiún años después de escribir UZ: El Pueblo (2005), el dramaturgo uruguayo Gabriel…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": -34.90821430964771,
+    "lon": -56.196500823734254,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020828/ay-la-miseria-nos-hara-felices",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020828/Ay_la_miseria_nos_hara_felices_-_tickantel_banner-05.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021526",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021526/julieta-laso-postergado",
    "titulo": "Julieta Laso - POSTERGADO",
@@ -1330,6 +1025,67 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020379/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021955",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021955/las-7-balas",
+   "titulo": "Las 7 balas",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Montevideo es golpeada por un violento copamiento en un bar céntrico. Una bala pérdida que impacta a un transeúnte. La prensa desesperada por dar la primicia y la policía tratando de proceder con cautela. La trama se complejiza conforme la historia narra los diferentes eventos del golpe, que se…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-22T20:50:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021955/las-7-balas",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021955/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1602,6 +1358,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021780/BannerNuevo.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021985",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021985/almudena",
+   "titulo": "Almudena",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "“ALMUDENA” El retrato más íntimo de la escritora Almudena Grandes Con sus propias palabras, a lo largo de los años, Almudena Grandes cuenta su manera de ver el mundo, de entender la vida y la escritura. Pero Almudena ya no está. El anhelo de esta película es mantener viva su memoria, celebrar su…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021985/almudena",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021985/700_x_390_a.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

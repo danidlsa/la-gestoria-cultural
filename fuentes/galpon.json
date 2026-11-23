@@ -1,6 +1,6 @@
 {
  "fuente": "galpon",
- "corrida": "2026-11-22T15:45:40.617813-03:00",
+ "corrida": "2026-11-22T22:55:33.886507-03:00",
  "ok": true,
  "cantidad": 20,
  "errores": [],
@@ -505,13 +505,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-22T16:00:00-03:00",
-     "fin": "2026-11-22T16:50:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T16:00:00-03:00",
      "fin": "2026-11-28T16:50:00-03:00",
      "sin_hora": false,
@@ -645,13 +638,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-22T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T20:30:00-03:00",
      "fin": null,
@@ -795,13 +781,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-22T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Cero",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T20:30:00-03:00",
      "fin": null,

@@ -57,7 +57,8 @@
   "publicado": "2026-11-11T10:31:52-03:00",
   "aprobado": true,
   "titulo_aprobado": "La Cretina: MAMBO",
-  "direccion_aprobada": null
+  "direccion_aprobada": null,
+  "dice_donde": false
  },
  {
   "id": "centroculturalterminalgoes-20261103",
@@ -97,7 +98,7 @@
   "posts": [
    "https://www.instagram.com/p/DfSSI5DFIG9/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/881595799_18114607970274068_4339772608769158857_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=kBx8KBgXn_kQ7kNvwGu4qEj&_nc_oc=Adr2chuO7vGN0Rlo_XtpajDYvNJHCQSVmZ5LzmsRWQPdk1SSrzOrBLplkoEfJQ9weLQ&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=vmGPKVo8ZjN1zz8utyE2Cg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT-K5OcDg8l0xnZ5O5wc4fuZ5zMwQm74El11JbaS4raGQ&oe=6B0909B0",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/881595799_18114607970274068_4339772608769158857_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=kBx8KBgXn_kQ7kNvwGKqcG9&_nc_oc=AdpZCvLz7tMakL6TGAUJNFR6y59KdTbQQU5Y2nCjcsRcTDQmTk30MDEig-4KtaDnjxI&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=z9eW7gmrb325oMGlB8nwRQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQw0u1xjJI_TW23mLwYOBA4ux_f_aZh0GpcPEjEmHReiA&oe=6B097A30",
   "publicado": "2026-11-03T13:12:45-03:00",
   "aprobado": true,
   "titulo_aprobado": "Centro Cultural Terminal Goes: Festival Internacional Atlantidoc",
@@ -141,10 +142,66 @@
   "posts": [
    "https://www.instagram.com/p/De_5SnwlghR/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/870636443_18437101183145080_3288555740768600898_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=avcqFzsyR3UQ7kNvwElMRSE&_nc_oc=Adro2TRYH1bxNiyP712jW3ur58eLC8IWIbfGc6Oou3S4QXvHppSpxWpSdpk9xb-5FSM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=XuMDTq0BJwnpZDDahuNt8g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTxSXEqONzoay2JeqjNcM4A5Q0NqVWoKbsIKSawGVQxLw&oe=6B092474",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/870636443_18437101183145080_3288555740768600898_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=avcqFzsyR3UQ7kNvwHQX3eR&_nc_oc=AdrYhWrTssUIUgld5bODzGdGbKLevNdvBmhnDXaQ6-gVM8000WjZhdYwg5OcPn2M7rk&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=J5t7QCJGjpxvML9egnED2Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRWhdN3m_D-kwrLrSTgmMVvpVTRHfFoiUHt9jXnXSgZ4w&oe=6B095CB4",
   "publicado": "2026-10-27T09:49:17-03:00",
   "aprobado": true,
   "titulo_aprobado": "FAC: 2.ª edición del TALLER DE SEMIÓTICA",
+  "direccion_aprobada": null
+ },
+ {
+  "id": "peatonaltours-20261110",
+  "usuario": "peatonaltours",
+  "lugar": "desde la Puerta de Ingreso al Palacio Salvo",
+  "direccion": "Plaza Independencia 846",
+  "barrio": null,
+  "lat": null,
+  "lon": null,
+  "lugar_del_pin": true,
+  "dice_donde": true,
+  "paradas": [
+   "Parque Rodó"
+  ],
+  "categoria": "tour",
+  "bar": false,
+  "titulo": "Peatonal Tours: Duración",
+  "texto": "Los otros días salimos a descubrir el barrio de Punta Carretas, muchas gracias a todos los que nos acompañaron a conocer sus historias y en especial a la vecina Serrana Auliso, que nos relata en primera persona una de las historias más emblemáticas del barrio.\n\nEn Noviembre quedan los siguientes tours para salir a pasear con Peatonal:\n\nJueves 26 - 20hs: Misterios del Salvo\nLas entradas se adquieren por la web de Redtickets \n\nSábado 28 - 11hs: Tour religioso por Ciudad Vieja\nEntradas por nuestra web peatonaltours.uy\n\nDomingo 29 - 15hs: Paseo Bello & Reborati \nEntradas por nuestra web peatonaltours.uy\n\n¡Los esperamos!\n\n📱 Por consultas +598 95 144 855\n\nTu ciudad, tus historias.\n¡Redescubrilas con nosotros!\n.\n.\n.\n.\n#peatonaltours #montevideo #uy #uruguay puntacarretas",
+  "extracto": "Los otros días salimos a descubrir el barrio de Punta Carretas, muchas gracias a todos los que nos acompañaron a conocer sus historias y en especial a la vecina Serrana Auliso, que nos relata en primera persona una de las historias más emblemáticas del barrio.\n\nEn Noviembre quedan los siguientes tours para salir a pasear con Peatonal:\n\nJueves 26 - 20hs: Misterios del Salvo\nLas entradas se adquieren por la web de Redtickets \n\nSábado 28 - 11hs: Tour religioso por Ciudad Vieja\nEntradas por nuestra web peatonaltours.uy\n\nDomingo 29 - 15hs: Paseo Bello & Reborati \nEntradas por nuestra web peatonaltours.uy\n\n¡Los esperamos!\n\n📱 Por consultas +598 95 144 855\n\nTu ciudad, tus historias.\n¡Redescubrilas con nosotros!\n.\n.\n.\n.\n#peatonaltours #montevideo #uy #uruguay puntacarretas",
+  "funciones": [
+   {
+    "inicio": "2026-11-10T10:00:00-03:00",
+    "sin_hora": false
+   },
+   {
+    "inicio": "2026-11-14T14:00:00-03:00",
+    "sin_hora": false
+   },
+   {
+    "inicio": "2026-11-15T15:00:00-03:00",
+    "sin_hora": false
+   },
+   {
+    "inicio": "2026-11-26T11:00:00-03:00",
+    "sin_hora": false
+   },
+   {
+    "inicio": "2026-11-28T14:00:00-03:00",
+    "sin_hora": false
+   },
+   {
+    "inicio": "2026-11-29T00:00:00-03:00",
+    "sin_hora": true
+   }
+  ],
+  "url": "https://www.instagram.com/p/Df8OPEPpXp0/",
+  "posts": [
+   "https://www.instagram.com/p/Df8OPEPpXp0/",
+   "https://www.instagram.com/p/DfVt0pIIIFu/",
+   "https://www.instagram.com/p/Dfsve8CoGlp/"
+  ],
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/917237743_18476246656185971_7411707991918017882_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=65eo7aik-ysQ7kNvwFuOgU8&_nc_oc=AdorkEuGSspbO537fCerP0hLh1JJyxyL0n5kBlmnfNoTDz9z1zjwv1n2cwPR8G8xj9Q&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=IJdr0ThBNbzQ7ulnU1N13w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRU-D_7KPGyc8tZ--tj1ZifOAt8OKR4UHYfUGeoRqS_fw&oe=6B096EC4",
+  "publicado": "2026-11-19T20:06:44-03:00",
+  "aprobado": false,
+  "titulo_aprobado": null,
   "direccion_aprobada": null
  },
  {
@@ -181,7 +238,7 @@
   "posts": [
    "https://www.instagram.com/p/DfikgX0ljQk/"
   ],
-  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/882516811_18127692206473294_8900235867445499054_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=LMZ30euxCsMQ7kNvwF0qJ7E&_nc_oc=AdpxmesYLSDerDrb97FsvlaAoOltFlShKQfV3LCdEXhfcXEAzMW13Al64-Fm3ERH59E&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9izeORqNcGo_DC4a7bbEjQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSUluxHvDrDN-DnlT6kE6zyODxgLi9B2EkYW1fgG1VN3Q&oe=6B090D1D",
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/882516811_18127692206473294_8900235867445499054_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=LMZ30euxCsMQ7kNvwFlk4nJ&_nc_oc=AdoRj6-5oZXXGLj-GabkWWk4rDhTGlL_5seC32b2nFHe9YtOXRhANlRZhs__t1gnlQ4&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=TAmZn3KdYodEzWjGVRx9gA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS7weLLKyMBqlAMuSMhCEvHeEu0HeQOqp3q8BSjGP8k_g&oe=6B097D9D",
   "publicado": "2026-11-09T21:01:05-03:00",
   "aprobado": true,
   "titulo_aprobado": "La Taberna de Brecha: Qué martes se viene",
@@ -201,8 +258,8 @@
   "categoria": null,
   "bar": false,
   "titulo": "Centro Cultural de España: Beethoven 199",
-  "texto": "🎻 ¡Beethoven 199!\n\nSe acerca el bicentenario de la muerte de Ludwig van Beethoven y lo conmemoramos con un ciclo de conciertos de música de cámara que reúne a jóvenes talentos de nuestro país junto a destacados artistas.\n\nUna oportunidad para disfrutar en vivo de algunas de las grandes obras del compositor alemán, en una propuesta que anticipa las celebraciones mundiales de Beethoven 200, en 2027.\n\n🎼 En este recital:\n\nBernardo Rodríguez (violín) y Héctor Fuentes (piano).\n\nJesús Durán (contrabajo) y Héctor Gutiérrez (piano).\n\nCuarteto Isla de Flores.\n\n📅 Miércoles 11 de noviembre\n🕖 19:00 h\n📍 Centro Cultural de España en Montevideo\n🎟️ Entrada libre hasta completar aforo.\n\nOrganizan: Escuela Nacional de Música del Sodre y Orquesta Juvenil Nacional del Sodre.\n\n🎶 Próximo recital: 25 de noviembre.\n\n¡Les esperamos!",
-  "extracto": "🎻 ¡Beethoven 199!\n\nSe acerca el bicentenario de la muerte de Ludwig van Beethoven y lo conmemoramos con un ciclo de conciertos de música de cámara que reúne a jóvenes talentos de nuestro país junto a destacados artistas.\n\nUna oportunidad para disfrutar en vivo de algunas de las grandes obras del compositor alemán, en una propuesta que anticipa las celebraciones mundiales de Beethoven 200, en 2027.\n\n🎼 En este recital:\n\nBernardo Rodríguez (violín) y Héctor Fuentes (piano).\n\nJesús Durán (contrabajo) y Héctor Gutiérrez (piano).\n\nCuarteto Isla de Flores.\n\n📅 Miércoles 11 de noviembre\n🕖 19:00 h\n📍 Centro Cultural de España en Montevideo\n🎟️ Entrada libre hasta completar aforo.\n\nOrganizan: Escuela Nacional de Música del Sodre y Orquesta Juvenil Nacional del Sodre.\n\n🎶 Próximo recital: 25 de noviembre.\n\n¡Les esperamos!",
+  "texto": "🎼 ¡Beethoven 199! La música de cámara llega al CCE.\n\nEn el camino hacia el bicentenario del fallecimiento de Ludwig van Beethoven, que se conmemora en 2027, te invitamos a disfrutar de una nueva presentación de este ciclo dedicado a su extraordinario legado musical.\n\nEn esta edición, jóvenes talentos de la Escuela Nacional de Música del Sodre y la Orquesta Juvenil Nacional del Sodre, junto a destacados músicos de nuestro medio, interpretarán dos obras del compositor: el Octeto de vientos op. 103 y el Cuarteto n.º 7, op. 59 n.º 1, a cargo del Cuarteto Bucaré.\n\n📅 miércoles 25 de noviembre\n🕖 19:00 h\n📍 CCE Montevideo (Rincón 629)\n🎟️ Entrada libre hasta agotar aforo.\n\n¡Les esperamos para compartir una noche de música de cámara y celebrar el legado de Beethoven!\n\nOrganizan: Escuela Nacional de Música del Sodre y Orquesta Juvenil Nacional del Sodre.",
+  "extracto": "🎼 ¡Beethoven 199! La música de cámara llega al CCE.\n\nEn el camino hacia el bicentenario del fallecimiento de Ludwig van Beethoven, que se conmemora en 2027, te invitamos a disfrutar de una nueva presentación de este ciclo dedicado a su extraordinario legado musical.\n\nEn esta edición, jóvenes talentos de la Escuela Nacional de Música del Sodre y la Orquesta Juvenil Nacional del Sodre, junto a destacados músicos de nuestro medio, interpretarán dos obras del compositor: el Octeto de vientos op. 103 y el Cuarteto n.º 7, op. 59 n.º 1, a cargo del Cuarteto Bucaré.\n\n📅 miércoles 25 de noviembre\n🕖 19:00 h\n📍 CCE Montevideo (Rincón 629)\n🎟️ Entrada libre hasta agotar aforo.\n\n¡Les esperamos para compartir una noche de música de cámara y celebrar el legado de Beethoven!\n\nOrganizan: Escuela Nacional de Música del Sodre y Orquesta Juvenil Nacional del Sodre.",
   "funciones": [
    {
     "inicio": "2026-11-11T19:00:00-03:00",
@@ -213,64 +270,49 @@
     "sin_hora": false
    }
   ],
-  "url": "https://www.instagram.com/p/DfiNaf8mFgg/",
+  "url": "https://www.instagram.com/p/Df98bANoMSs/",
   "posts": [
+   "https://www.instagram.com/p/Df98bANoMSs/",
    "https://www.instagram.com/p/DfiNaf8mFgg/"
   ],
-  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/893894528_18641739394017861_1818528861131105169_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=-jQNo84d5rQQ7kNvwFslce6&_nc_oc=AdoHy_4pYnVOjR4QJ36UnZXrTYOeO7W6zhW3biJONuVw5zC861sHa5v719k6QJ7N8og&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=LmpPGOPACxzJk5lsvywaDw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRoAhj6ZVxrAN5oeJ8ovMShpejzDxKnj9eSXRunScWFzQ&oe=6B056D92",
-  "publicado": "2026-11-09T17:39:18-03:00",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/920192192_18645300100017861_2058672995453670685_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=sqHuyykNQkoQ7kNvwHqPSR9&_nc_oc=AdpeW7rVi4zLtoV6xjkQ4Da44lB5T1yNDwb5NKc3gnKpUWaYb0n4-qKnwqIk86ocWI4&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=1fWuCBbYWc6WgUda1DJBCw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRd4GaHq_OLx0MTTdMr6sX089S1WN3n4hFt8IF-sFjr4w&oe=6B097AB2",
+  "publicado": "2026-11-20T12:09:34-03:00",
   "aprobado": true,
   "titulo_aprobado": "Centro Cultural de España: Beethoven 199",
   "direccion_aprobada": null
  },
  {
-  "id": "lacretinacasa-20261111",
-  "usuario": "lacretinacasa",
-  "lugar": "La Cretina",
-  "direccion": "Soriano 1236",
+  "id": "peatonaltours-20261114",
+  "usuario": "peatonaltours",
+  "lugar": "desde la Puerta de Ingreso al Palacio Salvo",
+  "direccion": "Plaza Independencia 846",
   "barrio": null,
   "lat": null,
   "lon": null,
-  "lugar_del_pin": false,
-  "dice_donde": false,
+  "lugar_del_pin": true,
+  "dice_donde": true,
   "paradas": [],
-  "categoria": null,
-  "bar": true,
-  "titulo": "La Cretina: MAMBO",
-  "texto": "⚠️ Esta noche: MAMBO\n\n🎭✨ ¡MAMBO! \n\nUn retrato contemporáneo, mordaz, profundamente humano y de humor corrosivo, donde la venganza, el dinero y la búsqueda frenética de la felicidad se cruzan en escena.  Porque como decía Denis de Rougemont, «el amor feliz no tiene historia»... y Mambo promete no dejar a nadie indiferente. 💔📖\n\nElenco: amaral2435 y laleochavarria\nDirección: alfredo.goldstein\nTexto: Miguel Morillo\n\n🗓️ Funciones:\nNoviembre: \nmiércoles 11 y 18 | lunes 30 (20:30 hs) 🗓️🕒\nDiciembre: \nlunes 7, 14 y 21 (20:30 hs) 🗓️🕒\n\n📷 alejandropersichetti\nProduce: weproducciones\n\n🎟️ Redtickets\n\nNos vemos en La Cretina!",
-  "extracto": "⚠️ Esta noche: MAMBO\n\n🎭✨ ¡MAMBO! \n\nUn retrato contemporáneo, mordaz, profundamente humano y de humor corrosivo, donde la venganza, el dinero y la búsqueda frenética de la felicidad se cruzan en escena.  Porque como decía Denis de Rougemont, «el amor feliz no tiene historia»... y Mambo promete no dejar a nadie indiferente. 💔📖\n\nElenco: amaral2435 y laleochavarria\nDirección: alfredo.goldstein\nTexto: Miguel Morillo\n\n🗓️ Funciones:\nNoviembre: \nmiércoles 11 y 18 | lunes 30 (20:30 hs) 🗓️🕒\nDiciembre: \nlunes 7, 14 y 21 (20:30 hs) 🗓️🕒\n\n📷 alejandropersichetti\nProduce: weproducciones\n\n🎟️ Redtickets\n\nNos vemos en La Cretina!",
+  "categoria": "tour",
+  "bar": false,
+  "titulo": "Peatonal Tours: 𝗠𝗜𝗦𝗧𝗘𝗥𝗜𝗢𝗦 𝗗𝗘𝗟 𝗦𝗔𝗟𝗩𝗢 - 𝗡𝗢𝗩𝗜𝗘𝗠𝗕𝗥𝗘",
+  "texto": "𝗠𝗜𝗦𝗧𝗘𝗥𝗜𝗢𝗦 𝗗𝗘𝗟 𝗦𝗔𝗟𝗩𝗢 - 𝗡𝗢𝗩𝗜𝗘𝗠𝗕𝗥𝗘\n\n👻 El trágico accidente de José Salvo ha dado lugar a numerosas historias de fantasmas dentro del famoso Palacio Salvo que iremos develando en el recorrido, mientras recorremos los pisos más emblemáticos del mismo.\n\nꜰᴇᴄʜᴀꜱ:\n🗓️ Sábado 14/11 - 20hs.\n🗓️ Jueves 26/11 - 20hs.\n\n⏰ Duración 2hs aprox.\n📍 desde la Puerta de Ingreso al Palacio Salvo (Plaza Independencia 846).\n💲 $ 660 por persona.\n\n‼️📲 Para adquirir este tour, deben hacerlo por la página de RedTickets, buscando el tour “Misterios del Salvo - Peatonal Tours”\n\nIMPORTANTE: Les recordamos que es un tour donde se suben tramos por escaleras y otros por ascensor.\n\n👻 ¡Si no tenes miedo podes acompañarnos!\n\n📱 Por consultas +598 95 144 855\n\nTu ciudad, tus historias.\n¡Redescubrilas con nosotros!\n.\n.\n.\n.\n#uy #uruguay #montevideo #palaciosalvo #peatonaltours",
+  "extracto": "𝗠𝗜𝗦𝗧𝗘𝗥𝗜𝗢𝗦 𝗗𝗘𝗟 𝗦𝗔𝗟𝗩𝗢 - 𝗡𝗢𝗩𝗜𝗘𝗠𝗕𝗥𝗘\n\n👻 El trágico accidente de José Salvo ha dado lugar a numerosas historias de fantasmas dentro del famoso Palacio Salvo que iremos develando en el recorrido, mientras recorremos los pisos más emblemáticos del mismo.\n\nꜰᴇᴄʜᴀꜱ:\n🗓️ Sábado 14/11 - 20hs.\n🗓️ Jueves 26/11 - 20hs.\n\n⏰ Duración 2hs aprox.\n📍 desde la Puerta de Ingreso al Palacio Salvo (Plaza Independencia 846).\n💲 $ 660 por persona.\n\n‼️📲 Para adquirir este tour, deben hacerlo por la página de RedTickets, buscando el tour “Misterios del Salvo - Peatonal Tours”\n\nIMPORTANTE: Les recordamos que es un tour donde se suben tramos por escaleras y otros por ascensor.\n\n👻 ¡Si no tenes miedo podes acompañarnos!\n\n📱 Por consultas +598 95 144 855\n\nTu ciudad, tus historias.\n¡Redescubrilas con nosotros!\n.\n.\n.\n.\n#uy #uruguay #montevideo #palaciosalvo #peatonaltours",
   "funciones": [
    {
-    "inicio": "2026-11-11T20:30:00-03:00",
+    "inicio": "2026-11-14T11:00:00-03:00",
     "sin_hora": false
    },
    {
-    "inicio": "2026-11-18T20:30:00-03:00",
-    "sin_hora": false
-   },
-   {
-    "inicio": "2026-11-30T20:30:00-03:00",
-    "sin_hora": false
-   },
-   {
-    "inicio": "2026-12-07T20:30:00-03:00",
-    "sin_hora": false
-   },
-   {
-    "inicio": "2026-12-14T20:30:00-03:00",
-    "sin_hora": false
-   },
-   {
-    "inicio": "2026-12-21T20:30:00-03:00",
+    "inicio": "2026-11-26T11:00:00-03:00",
     "sin_hora": false
    }
   ],
-  "url": "https://www.instagram.com/p/DfmmFjPFYbV/",
+  "url": "https://www.instagram.com/p/DfLJbMASa5d/",
   "posts": [
-   "https://www.instagram.com/p/DfmmFjPFYbV/"
+   "https://www.instagram.com/p/DfLJbMASa5d/"
   ],
-  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/902591747_18348841249284561_485441520276485648_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=kT53ovkPb54Q7kNvwFg0Aql&_nc_oc=AdqwvIjd158SMNzKrQzJ-svlYnTV8GdjdI9S2xjl7ymBWX3L1nX9PSOO4w17sJnpg7M&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9IJfvBUIHC5ogZ9KKbnW1Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSlV3n6nSI6eKW7gusLm-f6OJXKJYIoEcdrGQw4WgXa9Q&oe=6B09222B",
-  "publicado": "2026-11-11T10:31:52-03:00",
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/882224116_18472272103185971_1775908123255685260_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ikv7ZngX7DYQ7kNvwGEPN_5&_nc_oc=AdotISS0D2CQWgWbTxD0JHyo1MnbtYGDfG7bF2XIR9mIho7VmC-kMbu9458hvY7pGFg&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=IJdr0ThBNbzQ7ulnU1N13w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTldJYUReFtKvxHfwGqFE-ZiNNvyKp4GoDVtShzc4JlOQ&oe=6B098A31",
+  "publicado": "2026-10-31T18:42:26-03:00",
   "aprobado": false,
   "titulo_aprobado": null,
   "direccion_aprobada": null
@@ -305,74 +347,58 @@
   "posts": [
    "https://www.instagram.com/p/Df8FfWKtjrF/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/912055582_18088551410704988_590760939493553215_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=BGlZFc93muwQ7kNvwHrqahR&_nc_oc=AdpDget3pmDuOllOUhCxuNJaOcdd9KLM6P-XIiPiJbk42y-6TXagxvBsFEsN7A1uwXw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=09Nk-7kDBA32yEv_dzED8A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTjWil8gP1_enYqxp7iQZcD5VKTLtvMWbHLtOTtm41MaA&oe=6B08FBE6",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/912055582_18088551410704988_590760939493553215_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=BGlZFc93muwQ7kNvwHOJn9k&_nc_oc=AdpPxlqDVMLtNtQrO2deMPrCgpiu9_ApWkUH0WCcHH-b4kJ1OcOkhVU994gESZQpqgk&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=4BBYkzEViPUlEMLOFTetJg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRbrYV5mHIRn3o2hiBkFsItKJYmkok3fT16VVbvDdSR5Q&oe=6B096C66",
   "publicado": "2026-11-19T18:51:38-03:00",
   "aprobado": true,
   "titulo_aprobado": "Sansueña: Malvín se llena de flamenco! Una noche para dejarse llevar por la música",
   "direccion_aprobada": null
  },
  {
-  "id": "centroculturalterminalgoes-20261122",
-  "usuario": "centroculturalterminalgoes",
-  "lugar": "Centro Cultural Terminal Goes",
-  "direccion": "Gral. Flores y Domingo Aramburú",
-  "barrio": null,
-  "lat": -34.882708,
-  "lon": -56.181856,
-  "lugar_del_pin": false,
-  "dice_donde": true,
-  "paradas": [],
-  "categoria": null,
-  "bar": false,
-  "titulo": "Centro Cultural Terminal Goes: Te invitamos a disfrutar de Primavera Tango",
-  "texto": "¡Te invitamos a disfrutar de Primavera Tango!\n\nMorgare & Hernández Dúo\n\nDesde hace varios años, Gabriela Morgare (voz) y Mayra Hernández (piano y arreglos) construyen una complicidad artística única en la música popular orillera. A través de un diálogo íntimo y expresivo, la dupla despliega una virtuosa esgrima interpretativa donde la calidez vocal de Morgare se fusiona con los arreglos originales e inspirados de Hernández, aportando una mirada fresca y personal a cada obra. En esta ocasión, presentan en vivo “Rubí”, su primer trabajo de estudio —nominado a los Premios Graffiti 2025 en la categoría Mejor Álbum de Tango.\n\n📅 Domingo 22 de noviembre | 20 horas\n📍 Centro Cultural Terminal Goes\n🎟️ Entrada gratuita con reserva previa al 091 601 488\n\nmontevideoim municipioc audem_coopaudem musicos.uy",
-  "extracto": "¡Te invitamos a disfrutar de Primavera Tango!\n\nMorgare & Hernández Dúo\n\nDesde hace varios años, Gabriela Morgare (voz) y Mayra Hernández (piano y arreglos) construyen una complicidad artística única en la música popular orillera. A través de un diálogo íntimo y expresivo, la dupla despliega una virtuosa esgrima interpretativa donde la calidez vocal de Morgare se fusiona con los arreglos originales e inspirados de Hernández, aportando una mirada fresca y personal a cada obra. En esta ocasión, presentan en vivo “Rubí”, su primer trabajo de estudio —nominado a los Premios Graffiti 2025 en la categoría Mejor Álbum de Tango.\n\n📅 Domingo 22 de noviembre | 20 horas\n📍 Centro Cultural Terminal Goes\n🎟️ Entrada gratuita con reserva previa al 091 601 488\n\nmontevideoim municipioc audem_coopaudem musicos.uy",
-  "funciones": [
-   {
-    "inicio": "2026-11-22T20:00:00-03:00",
-    "sin_hora": false
-   }
-  ],
-  "url": "https://www.instagram.com/p/Df4uUBcEX2_/",
-  "posts": [
-   "https://www.instagram.com/p/Df4uUBcEX2_/"
-  ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/911468517_1619884510167864_5583892160255184466_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=VCszUZnPgaMQ7kNvwEOfSSm&_nc_oc=AdqbfH0FWnPC-o9tsvtBQYnIkkMUMJm8em4I0Vk8_YxXszrb2kr0DzuuMjJNDsR2tWE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=vmGPKVo8ZjN1zz8utyE2Cg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRAf5f9ApGhJJt3gsxpPb_ZGqsFGyh5s_JP0NB8dhbvTw&oe=6B08F53A",
-  "publicado": "2026-11-18T11:30:05-03:00",
-  "aprobado": false,
-  "titulo_aprobado": null,
-  "direccion_aprobada": null
- },
- {
-  "id": "el.mingus-20261123",
-  "usuario": "el.mingus",
-  "lugar": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-  "direccion": null,
-  "barrio": null,
-  "lat": null,
-  "lon": null,
+  "id": "sala_zitarrosa-20261121",
+  "usuario": "sala_zitarrosa",
+  "lugar": "Sala Zitarrosa",
+  "direccion": "Av. 18 de Julio 1012",
+  "barrio": "Centro",
+  "lat": -34.906238,
+  "lon": -56.194472,
   "lugar_del_pin": false,
   "dice_donde": false,
   "paradas": [],
   "categoria": null,
-  "bar": true,
-  "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: De lunes a domingos nuestra cocina esta abierta para venir a almorzar",
-  "texto": "de lunes a domingos nuestra cocina esta abierta para venir a almorzar\n\nvariedad de platos y platitos y nuestra mesita en la vereda esta ideal pasar estos días lindos de calor :)\n\nte esperamos desde las 12 am 🌤",
-  "extracto": "de lunes a domingos nuestra cocina esta abierta para venir a almorzar\n\nvariedad de platos y platitos y nuestra mesita en la vereda esta ideal pasar estos días lindos de calor :)\n\nte esperamos desde las 12 am 🌤",
+  "bar": false,
+  "titulo": "Sala Zitarrosa: Una oportunidad para conocer más sobre la historia de la Sala, recorrer sus espacios y…",
+  "texto": "¡La Sala Zitarrosa comienza a ofrecer visitas guiadas con entrada libre y gratuita!\n\nUna oportunidad para conocer más sobre la historia de la Sala, recorrer sus espacios y acercarse a la identidad de uno de los escenarios culturales más emblemáticos de Montevideo.\n\nEsta iniciativa se suma a las diferentes acciones que lleva adelante la Sala Zitarrosa para difundir su historia y patrimonio, y contribuir a la promoción de la oferta cultural de la ciudad.\n\n📅 Días: sábados 21 y 28 de noviembre y 5, 19 y 26 de diciembre\n⏰ Hora: 15:30\n🎟 Entrada: libre y gratuita\n🌐 Idioma: español\n\n¡Te esperamos para descubrir la Sala Zitarrosa!\n\ndescubri_montevideo",
+  "extracto": "¡La Sala Zitarrosa comienza a ofrecer visitas guiadas con entrada libre y gratuita!\n\nUna oportunidad para conocer más sobre la historia de la Sala, recorrer sus espacios y acercarse a la identidad de uno de los escenarios culturales más emblemáticos de Montevideo.\n\nEsta iniciativa se suma a las diferentes acciones que lleva adelante la Sala Zitarrosa para difundir su historia y patrimonio, y contribuir a la promoción de la oferta cultural de la ciudad.\n\n📅 Días: sábados 21 y 28 de noviembre y 5, 19 y 26 de diciembre\n⏰ Hora: 15:30\n🎟 Entrada: libre y gratuita\n🌐 Idioma: español\n\n¡Te esperamos para descubrir la Sala Zitarrosa!\n\ndescubri_montevideo",
   "funciones": [
    {
-    "inicio": "2026-11-23T12:00:00-03:00",
+    "inicio": "2026-11-21T15:30:00-03:00",
+    "sin_hora": false
+   },
+   {
+    "inicio": "2026-11-28T15:30:00-03:00",
+    "sin_hora": false
+   },
+   {
+    "inicio": "2026-12-05T15:30:00-03:00",
+    "sin_hora": false
+   },
+   {
+    "inicio": "2026-12-19T15:30:00-03:00",
+    "sin_hora": false
+   },
+   {
+    "inicio": "2026-12-26T15:30:00-03:00",
     "sin_hora": false
    }
   ],
-  "url": "https://www.instagram.com/p/Df6H6zalWBp/",
+  "url": "https://www.instagram.com/p/DfzwCTem99O/",
   "posts": [
-   "https://www.instagram.com/p/Df6H6zalWBp/"
+   "https://www.instagram.com/p/DfzwCTem99O/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/900634095_18600898483070475_8172560379370266764_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Gc5AxmJ4Qa8Q7kNvwFUJEX6&_nc_oc=AdqCW3LndZBHYtIaVVPWzaHcY1eMm9JBqf7WhTM8pb4NRQByOHDHwxJ-BUgxE_j9EYc&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=n4mAs8uUobxFfBrEvyB4lw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ9xXXRsLECTjxjky2UrPDvcrUh0dkCP5qKASMYgoK89Q&oe=6B0919C0",
-  "publicado": "2026-11-19T00:33:03-03:00",
-  "aprobado": true,
-  "titulo_aprobado": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: De lunes a domingos nuestra cocina esta abierta para venir a almorzar",
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/910277724_18504920170099137_2587670384382233277_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=XPlbGCcjMdMQ7kNvwGhNhjz&_nc_oc=AdqW7fJgDw1lg4IJw5yJEErzMM_rS90JM2aIBzC5-MAbpQIo3v_VKliINA680Ez9gC0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=kWlEwXvVvccNSLYppDwJfw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRt-ajhQUQidDBteteTZ1n1ivjF51eTmTlREyyzEv30kA&oe=6B097C5A",
+  "publicado": "2026-11-16T13:08:55-03:00",
+  "aprobado": false,
+  "titulo_aprobado": null,
   "direccion_aprobada": null
  },
  {
@@ -401,7 +427,7 @@
   "posts": [
    "https://www.instagram.com/p/DfpYoOZFg-v/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/903916217_1594844452678844_4193702276899215323_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=AhYe6uGf0G0Q7kNvwEo-AU0&_nc_oc=AdoqlxCH3F7ooqx5IuFbv6QfIjGJBcd_fZuNrl_F5dYQMV9LvybORNg_SUaxmXTi1ZY&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=JKFs-si0rf1c1qHDh7ingA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSzyPrmwzAx6Mq5UB7PfEY0zcleb9rWhYldzPl5eS9EfA&oe=6B091B7E",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/903916217_1594844452678844_4193702276899215323_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=AhYe6uGf0G0Q7kNvwHCFZw3&_nc_oc=AdpJGWIhaM0OvyB7TAdw3BlbZWNaUCwVx5I1p8qcnaSGLi-6FqtFLEovaxhdeNJxhnU&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=1fWuCBbYWc6WgUda1DJBCw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQQNdyVJVl7-zCn0f_8chUG4MoXOypk1Z-3xFl2CFaDHQ&oe=6B098BFE",
   "publicado": "2026-11-12T12:31:59-03:00",
   "aprobado": true,
   "titulo_aprobado": "Centro Cultural de España: Alerta rosa",
@@ -433,7 +459,7 @@
   "posts": [
    "https://www.instagram.com/p/Dfms2HQldPq/"
   ],
-  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/901196448_18113768450625369_2536394843789757553_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=c-CJw1FfIWwQ7kNvwEzmQkX&_nc_oc=Adra1ia-skU1LsrPm2FeSq-562iCd_oj1nd_J3_WWYYN-sWWXS1TGNxG7doZ9d6U-E4&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=OC8NIoK-JKw6ewWKG1oLRA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ3Ss4knTn5jAnO_knqqGbyeaNcZTOtxebG79wgjXssOg&oe=6B0909CA",
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/901196448_18113768450625369_2536394843789757553_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=c-CJw1FfIWwQ7kNvwFnAKqD&_nc_oc=Adq_aZF3DGFQVyFKe8Gzyv0y4QN3L_TSXb-Jbmek7gsVlxeqsHNzAm3y8RqZtwTB4tE&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=T9ULjHvX23FjzQ5iG_DCUQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQFMIMP81ipSvHP5B_Y6gEeSM3UyI6Ax1Qm8aJdYkrmiQ&oe=6B097A4A",
   "publicado": "2026-11-11T11:30:55-03:00",
   "aprobado": true,
   "titulo_aprobado": "Club Cultural Charco: destileriacapicua nos recibe para brindar, escuchar lecturas, música y conversar sobre…",
@@ -466,7 +492,7 @@
    "https://www.instagram.com/p/DfxgK03mBAl/",
    "https://www.instagram.com/reel/Df-BP8myokM/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/905912124_18643793659017861_9113021720725666676_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ZeEJIZcZungQ7kNvwGg5M-d&_nc_oc=AdpTmY9UM3g9TinA_h3ooy4K-LAjvTySPdoYbs9qJt9lVu93Y9TV0jC9f5_0jbZtcm8&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=JKFs-si0rf1c1qHDh7ingA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQEPwgY1IzVZUPmupOsYUWJoihcYwgwdX3eccw8W6XzwQ&oe=6B091649",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/905912124_18643793659017861_9113021720725666676_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ZeEJIZcZungQ7kNvwEl-FA6&_nc_oc=Adr-n5BoPyap3j1yo5HmwOxLl1CbrEK-CqyP3CUlg8WNIEHVjeyE8iBAo1gU4KpPqSQ&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=1fWuCBbYWc6WgUda1DJBCw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ9-np6QLGyogQH01tMgUd6PBkYIqZdKCJHFs1iOv8L6w&oe=6B0986C9",
   "publicado": "2026-11-20T12:54:37-03:00",
   "aprobado": true,
   "titulo_aprobado": "Centro Cultural de España: Alorí de Violeta Veinte – Trío",
@@ -500,7 +526,7 @@
    "https://www.instagram.com/p/DfDWRJVCNSz/",
    "https://www.instagram.com/reel/Df4e-aCijGM/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/920086660_18139670605647393_848400300780583684_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6jibb8wV8_wQ7kNvwHA3wTx&_nc_oc=Ado0_5kGuGqDr7Uz3f5VUZxbtAxyS6oSPub0KQyxP-Q7lMois41BMx_qFkToAVnQKXk&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Rc5oujFeuSPUC4P6duhKfQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ-tzaxNPd7a7f7J9jet8ArmaFlantexuqBdNMwtDjCaw&oe=6B0904FF",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/920086660_18139670605647393_848400300780583684_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6jibb8wV8_wQ7kNvwGQApUA&_nc_oc=Adp3B6rJndfp-GtW53TUoyDyg1AtRwVKWHX1Gp1wUqlbhqhdKFBYtzOfgNgRSpq3pOs&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=jE0cqyCqxn8SrM2SMYmUUg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQIf5eFeRHXysUgxnFC9AC7UZEJ1BJZO3XUp6vB1vTjmg&oe=6B09757F",
   "publicado": "2026-11-20T12:27:24-03:00",
   "aprobado": true,
   "titulo_aprobado": "Paseo Cultural Ciudad Vieja: Presenta una nueva Gala Lírica, esta vez con una propuesta dedicada a la opereta…",
@@ -532,10 +558,75 @@
   "posts": [
    "https://www.instagram.com/p/Df7O-g_h2SP/"
   ],
-  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/915721672_18350139154284561_5619220235729142836_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=k1cgeL6PtoQQ7kNvwHQ5__q&_nc_oc=AdrcNHg8-q1Yhhbfy4XP_mFfobpCnFJTKa6DKKvDnwSKVh74uUIQPc0MQ7PWMqYKm7E&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9IJfvBUIHC5ogZ9KKbnW1Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTbzBJZZu_-wMutzQ6iENANKhoeCOjtT7dP0KNrPKUX5w&oe=6B09114F",
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/915721672_18350139154284561_5619220235729142836_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=k1cgeL6PtoQQ7kNvwH5m3ES&_nc_oc=Adqs5AQuRrNcVx9n5iI1nmORnLf-jvkra3KB888GfPjsY6USdLL-hwRsAvTk7KHXLMk&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Uk1QPCjjG9rGhe0Sp49weQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRuaKx4lx9Vd77f7ml6cFIfmbuVWKJXk5dZ2gEhsgvJfA&oe=6B0981CF",
   "publicado": "2026-11-19T10:54:02-03:00",
   "aprobado": true,
   "titulo_aprobado": "La Cretina: 99% BALADAS - ¡La terapia musical que no podés dejar pasar",
+  "direccion_aprobada": null
+ },
+ {
+  "id": "latabernadebrecha-20261124",
+  "usuario": "latabernadebrecha",
+  "lugar": "La Taberna de Brecha",
+  "direccion": "Durazno y Jackson",
+  "barrio": null,
+  "lat": -34.909634,
+  "lon": -56.172902,
+  "lugar_del_pin": false,
+  "dice_donde": false,
+  "paradas": [],
+  "categoria": null,
+  "bar": true,
+  "titulo": "La Taberna de Brecha: Último martes de noviembre con un formato especial",
+  "texto": "Último martes de noviembre con un formato especial.\n\npoporomano trío + cataerdelyi ✨\n\nMartes 24 de noviembre / 21:00h.\nEntrada libre. Lugares limitados por orden de llegada. Entrega de accesos desde las 20:00.\n\nNos vemos abajo.",
+  "extracto": "Último martes de noviembre con un formato especial.\n\npoporomano trío + cataerdelyi ✨\n\nMartes 24 de noviembre / 21:00h.\nEntrada libre. Lugares limitados por orden de llegada. Entrega de accesos desde las 20:00.\n\nNos vemos abajo.",
+  "funciones": [
+   {
+    "inicio": "2026-11-24T21:00:00-03:00",
+    "sin_hora": false
+   }
+  ],
+  "url": "https://www.instagram.com/p/DgD_vFCFlvo/",
+  "posts": [
+   "https://www.instagram.com/p/DgD_vFCFlvo/"
+  ],
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/920598764_18129312047473294_585212682341255802_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=aBdVYg67aGYQ7kNvwGFDru9&_nc_oc=AdqphJyR-mKhXjhxOna32tfc53AFB_Hl3jLNBjqYynjP4TtJ6nHQPBvmQxCjsmnxt40&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=TAmZn3KdYodEzWjGVRx9gA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQqub9Fg05VJN3_uA41Ca_cqtn5DdUX8mPo-fVgsyGMsg&oe=6B095B49",
+  "publicado": "2026-11-22T20:33:58-03:00",
+  "aprobado": false,
+  "titulo_aprobado": null,
+  "direccion_aprobada": null
+ },
+ {
+  "id": "sala_zitarrosa-20261124",
+  "usuario": "sala_zitarrosa",
+  "lugar": "Sala Zitarrosa",
+  "direccion": "Av. 18 de Julio 1012",
+  "barrio": "Centro",
+  "lat": -34.906238,
+  "lon": -56.194472,
+  "lugar_del_pin": false,
+  "dice_donde": false,
+  "paradas": [],
+  "categoria": null,
+  "bar": false,
+  "titulo": "Llega Mujeres de todas partes a la Sala Zitarrosa",
+  "texto": "¡Llega Mujeres de todas partes a la Sala Zitarrosa! 🎶\n\nEn el marco de la conmemoración del Día Internacional de la Eliminación de la Violencia contra la Mujer y como parte del ciclo MAREA, más de 20 mujeres subirán al escenario para interpretar canciones basadas en textos escritos por mujeres latinoamericanas.\n\n📅 Martes 24 de noviembre\n⏰ 21:00\n🎟️ Entradas a la venta en Abitab, Redpagos, Tickantel y boletería de la Sala.\n\nUn recorrido por composiciones que la historia dejó de lado, canciones que muchos creen escritas por varones y clásicos populares de artistas como Rita Lee, María Elena Walsh, Violeta Parra, Vera Sienra y la propia Estela Magnone.\n\nMAREA es el ciclo de mujeres y disidencias de la música y el audiovisual de la Sala Zitarrosa, que en 2026 celebra su sexta edición.\n\n¡Una noche para celebrar las voces, las historias y la creación de las mujeres latinoamericanas!",
+  "extracto": "¡Llega Mujeres de todas partes a la Sala Zitarrosa! 🎶\n\nEn el marco de la conmemoración del Día Internacional de la Eliminación de la Violencia contra la Mujer y como parte del ciclo MAREA, más de 20 mujeres subirán al escenario para interpretar canciones basadas en textos escritos por mujeres latinoamericanas.\n\n📅 Martes 24 de noviembre\n⏰ 21:00\n🎟️ Entradas a la venta en Abitab, Redpagos, Tickantel y boletería de la Sala.\n\nUn recorrido por composiciones que la historia dejó de lado, canciones que muchos creen escritas por varones y clásicos populares de artistas como Rita Lee, María Elena Walsh, Violeta Parra, Vera Sienra y la propia Estela Magnone.\n\nMAREA es el ciclo de mujeres y disidencias de la música y el audiovisual de la Sala Zitarrosa, que en 2026 celebra su sexta edición.\n\n¡Una noche para celebrar las voces, las historias y la creación de las mujeres latinoamericanas!",
+  "funciones": [
+   {
+    "inicio": "2026-11-24T21:00:00-03:00",
+    "sin_hora": false
+   }
+  ],
+  "url": "https://www.instagram.com/p/Df3G9EsG5_v/",
+  "posts": [
+   "https://www.instagram.com/p/Df3G9EsG5_v/",
+   "https://www.instagram.com/p/DfGFO1RgOmY/"
+  ],
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/910871411_18505213498099137_3192573996723510153_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=CBvUx41zyikQ7kNvwH0zcSl&_nc_oc=AdqAa5pO1y0YxBANI0HTzzuMZyuYDVdnhO2VT87NliDi4frJbTB5EQzu035QLmJMBZs&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=kWlEwXvVvccNSLYppDwJfw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT6SfR_lfiZLqg6_yui5mvT_3S5RQsYzGMMDjSuNxkG8w&oe=6B098753",
+  "publicado": "2026-11-17T20:26:55-03:00",
+  "aprobado": false,
+  "titulo_aprobado": null,
   "direccion_aprobada": null
  },
  {
@@ -564,42 +655,10 @@
   "posts": [
    "https://www.instagram.com/p/DfUjlSARymU/"
   ],
-  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/883416002_18467215420186454_2280678778824751817_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Bm6l9Z8MO9QQ7kNvwHgCrx4&_nc_oc=AdrNowkdQU5cSOUFIh4YpAoQ-1OznmtmT--0R9o0donCSD6QQIvaRvYK9kZCBMpjB3Y&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=T1uzKvwfLclbZdtdsG46Ng&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTYwlqF5TdD79ZfIpNgjbGR2sIqUBK_0nIk9FMC356QuQ&oe=6B0923F4",
+  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/883416002_18467215420186454_2280678778824751817_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Bm6l9Z8MO9QQ7kNvwGP2Eul&_nc_oc=AdpqHQ9V6_HqyP0KHJQVy5XddGs2ZPZysGh4JLEUczxe-3zNHMWgjLX9xDmAaDB_TgQ&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=15B1nQWoxCcu0v6lqVhwww&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQhYfFHTgFJNL3mgv20dXwp8cNupn1yC5_sQL-4h2ED2A&oe=6B095C34",
   "publicado": "2026-11-04T10:23:42-03:00",
   "aprobado": true,
   "titulo_aprobado": "The Shannon: OPEN MIC",
-  "direccion_aprobada": null
- },
- {
-  "id": "ccemontevideo-20261125",
-  "usuario": "ccemontevideo",
-  "lugar": "Centro Cultural de España",
-  "direccion": "Rincón 629",
-  "barrio": "Ciudad Vieja",
-  "lat": null,
-  "lon": null,
-  "lugar_del_pin": false,
-  "dice_donde": true,
-  "paradas": [],
-  "categoria": null,
-  "bar": false,
-  "titulo": "Centro Cultural de España: Beethoven 199! La música de cámara llega al CCE",
-  "texto": "🎼 ¡Beethoven 199! La música de cámara llega al CCE.\n\nEn el camino hacia el bicentenario del fallecimiento de Ludwig van Beethoven, que se conmemora en 2027, te invitamos a disfrutar de una nueva presentación de este ciclo dedicado a su extraordinario legado musical.\n\nEn esta edición, jóvenes talentos de la Escuela Nacional de Música del Sodre y la Orquesta Juvenil Nacional del Sodre, junto a destacados músicos de nuestro medio, interpretarán dos obras del compositor: el Octeto de vientos op. 103 y el Cuarteto n.º 7, op. 59 n.º 1, a cargo del Cuarteto Bucaré.\n\n📅 miércoles 25 de noviembre\n🕖 19:00 h\n📍 CCE Montevideo (Rincón 629)\n🎟️ Entrada libre hasta agotar aforo.\n\n¡Les esperamos para compartir una noche de música de cámara y celebrar el legado de Beethoven!\n\nOrganizan: Escuela Nacional de Música del Sodre y Orquesta Juvenil Nacional del Sodre.",
-  "extracto": "🎼 ¡Beethoven 199! La música de cámara llega al CCE.\n\nEn el camino hacia el bicentenario del fallecimiento de Ludwig van Beethoven, que se conmemora en 2027, te invitamos a disfrutar de una nueva presentación de este ciclo dedicado a su extraordinario legado musical.\n\nEn esta edición, jóvenes talentos de la Escuela Nacional de Música del Sodre y la Orquesta Juvenil Nacional del Sodre, junto a destacados músicos de nuestro medio, interpretarán dos obras del compositor: el Octeto de vientos op. 103 y el Cuarteto n.º 7, op. 59 n.º 1, a cargo del Cuarteto Bucaré.\n\n📅 miércoles 25 de noviembre\n🕖 19:00 h\n📍 CCE Montevideo (Rincón 629)\n🎟️ Entrada libre hasta agotar aforo.\n\n¡Les esperamos para compartir una noche de música de cámara y celebrar el legado de Beethoven!\n\nOrganizan: Escuela Nacional de Música del Sodre y Orquesta Juvenil Nacional del Sodre.",
-  "funciones": [
-   {
-    "inicio": "2026-11-25T19:00:00-03:00",
-    "sin_hora": false
-   }
-  ],
-  "url": "https://www.instagram.com/p/Df98bANoMSs/",
-  "posts": [
-   "https://www.instagram.com/p/Df98bANoMSs/"
-  ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/920192192_18645300100017861_2058672995453670685_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=sqHuyykNQkoQ7kNvwH2-NXP&_nc_oc=Adqb30ZKeOZSFEF-_l0k3v4TtirTVhZ--1QncYt8t10lF8IbuJ6Jqzk0B-GB31dv4CQ&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=JKFs-si0rf1c1qHDh7ingA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQYuO8LGTmVRweTNf53g4eZMe3KSGfvIG4f5tbqk6W72A&oe=6B090A32",
-  "publicado": "2026-11-20T12:09:34-03:00",
-  "aprobado": true,
-  "titulo_aprobado": "Centro Cultural de España: Beethoven 199! La música de cámara llega al CCE",
   "direccion_aprobada": null
  },
  {
@@ -628,7 +687,7 @@
   "posts": [
    "https://www.instagram.com/p/Df_Dow4t9SG/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/915667152_17948067837368601_5588834363735048364_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=4t9vSgR5cosQ7kNvwG-6P3b&_nc_oc=Adr5RqXDm5wxf9232VJnZAF-dR3u-HaDhPI-y3t86wmAFHyNyC1bnLf9v_kmj3jlNYM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=fGTQbQxefdSeDKC1LZPhVQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRSfEPXoTV638tMIVdNLcaQYHfJWmghRuKhZjfziUhxAQ&oe=6B0902B6",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/915667152_17948067837368601_5588834363735048364_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=4t9vSgR5cosQ7kNvwHN38pI&_nc_oc=AdquHxPlM792gq2_KYn5wGox0lpaMNbSsAZ5XpSctnMjdqspVEC4uDGZGJfWH2a3JGA&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=YcqyWRligzn_09MCtx7GKA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ3dd-L2q7S4FpaXiAoFOAkjgJ_HIxG3mIUpskIOcNnYQ&oe=6B097336",
   "publicado": "2026-11-20T22:31:53-03:00",
   "aprobado": true,
   "titulo_aprobado": "La Ronda: Noches De Ensayos Abiertos · El Jardín",
@@ -660,7 +719,7 @@
   "posts": [
    "https://www.instagram.com/p/Df71LgLzaHv/"
   ],
-  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/915224283_17892171411620582_7478327686937555860_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=e_hzuY-MKJkQ7kNvwGtLWhd&_nc_oc=AdorHq7QoopUAAR2fACTzBycQ-mM4Pn1dtq0Hn5q0ziXPPmaj67eSNsl3QuSi_rPm_Q&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=IO4BUDG5ZQSi0ubzCkG-qA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQRo6bs4B6I0vzWFf0Gfp3Iw1BekeVXHe5kjVl4uCdj8w&oe=6B090957",
+  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/915224283_17892171411620582_7478327686937555860_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=e_hzuY-MKJkQ7kNvwHi4LND&_nc_oc=Adr7BBTTLAIUJR3iJxacanr2JtcEU1vJKuwgPF3OH11y3GexMFRKObPT6zwYH6G-pD4&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=lyInTAYTAqnuUHpt6X9BGw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTyMe-GbmafUuUy9dNnX9-DjG1fAUh376CWKIcW8YapkA&oe=6B0979D7",
   "publicado": "2026-11-19T16:35:37-03:00",
   "aprobado": true,
   "titulo_aprobado": "Jazz Club: VUELVE EL MÁS LINDO · Y ATENDEME ESTA FECHAZA ABSOLUTA",
@@ -692,7 +751,7 @@
   "posts": [
    "https://www.instagram.com/p/Dfms2HQldPq/"
   ],
-  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/901196448_18113768450625369_2536394843789757553_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=c-CJw1FfIWwQ7kNvwEzmQkX&_nc_oc=Adra1ia-skU1LsrPm2FeSq-562iCd_oj1nd_J3_WWYYN-sWWXS1TGNxG7doZ9d6U-E4&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=OC8NIoK-JKw6ewWKG1oLRA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ3Ss4knTn5jAnO_knqqGbyeaNcZTOtxebG79wgjXssOg&oe=6B0909CA",
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/901196448_18113768450625369_2536394843789757553_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=c-CJw1FfIWwQ7kNvwFnAKqD&_nc_oc=Adq_aZF3DGFQVyFKe8Gzyv0y4QN3L_TSXb-Jbmek7gsVlxeqsHNzAm3y8RqZtwTB4tE&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=T9ULjHvX23FjzQ5iG_DCUQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQFMIMP81ipSvHP5B_Y6gEeSM3UyI6Ax1Qm8aJdYkrmiQ&oe=6B097A4A",
   "publicado": "2026-11-11T11:30:55-03:00",
   "aprobado": true,
   "titulo_aprobado": "Club Cultural Charco: Participan: silviaguerradiaz y claudia_magliano_cassanello",
@@ -724,7 +783,7 @@
   "posts": [
    "https://www.instagram.com/p/DfP_SXhP6Lg/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/880794728_18642949630010772_9000494217192351827_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=q5H_pFz-i1sQ7kNvwFQBleZ&_nc_oc=AdqZaw62itRgPZgNzAFYbFtEta2gpKwsLL_-Odil-U9mYBLbsme-mJnA0tJPhzZeMuY&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=vSVNKhgX0snh_5ZQ3B7M6w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRW8FPf-HXhwr5c1mYaipL1EktBG3H-3GConWCqia3LmQ&oe=6B090636",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/880794728_18642949630010772_9000494217192351827_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=q5H_pFz-i1sQ7kNvwEJPN6b&_nc_oc=AdouONS04BgMGoY86xWps3R4vKHqkOFu4pbkQiLrU4pz3wgF-3WpfQVLokxJTC8R52Q&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=VlpkqiGPRJW31xRzhhZGvw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTCO6oPw2t6B03Eun44BUv6dvN9Ne-xEb0rXL8_8mkDdg&oe=6B0976B6",
   "publicado": "2026-11-02T18:30:05-03:00",
   "aprobado": true,
   "titulo_aprobado": "Fénix Bar: Picudo Rojo llega al Fénix",
@@ -743,7 +802,7 @@
   "paradas": [],
   "categoria": null,
   "bar": true,
-  "titulo": "/11 Garo Arakelian vuelve al Bar Andorra para interpretar las canciones de su…",
+  "titulo": "Garo Arakelian vuelve al Bar Andorra para interpretar las canciones de su discografía…",
   "texto": "Este jueves 26/11 Garo Arakelian vuelve al Bar Andorra para interpretar las canciones de su discografía solista (Un Mundo Sin Gloria y Milonga de Quirón) y también repasará algunas otras canciones de su creación para El Astillero y La Trampa, así como varios clásicos del repertorio de la música uruguaya.\nEn un elegante formato dúo, Garo estará acompañado por Santiago Peralta en guitarra eléctrica.\n\n21:30hs\nEntrada libre",
   "extracto": "Este jueves 26/11 Garo Arakelian vuelve al Bar Andorra para interpretar las canciones de su discografía solista (Un Mundo Sin Gloria y Milonga de Quirón) y también repasará algunas otras canciones de su creación para El Astillero y La Trampa, así como varios clásicos del repertorio de la música uruguaya.\nEn un elegante formato dúo, Garo estará acompañado por Santiago Peralta en guitarra eléctrica.\n\n21:30hs\nEntrada libre",
   "funciones": [
@@ -756,7 +815,7 @@
   "posts": [
    "https://www.instagram.com/p/DgBGw3POdcw/"
   ],
-  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/918108794_18150858151577877_276216507897369874_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=grpgJ7VWb9QQ7kNvwHHPmQv&_nc_oc=AdofFXh49Ptqor5ERVsR058X2_HUm3v1PqyQKnmuq6m58HvVA32zRmFhLzotJa_Z8XQ&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=ZbE1x_0HJb1N5eO0N6rk3w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQpvrGZv5ZcpJrtbnUibKmvhNaLEj10_mZPQD_X6A3zAA&oe=6B0927E3",
+  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/918108794_18150858151577877_276216507897369874_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=grpgJ7VWb9QQ7kNvwGBeHP8&_nc_oc=Adp-WwxgTLLa7nrpOup25SNvQ_jAAYq6lL1UVQ13xDcpnSnH2So4_QogDoDS900Fbis&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Ept0DUu59Av35q_5k9jfjg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSvDH8E0yjO5fUSpHNap_v9STAHjA4xgYXAuyUHriDDEA&oe=6B096023",
   "publicado": "2026-11-21T17:37:42-03:00",
   "aprobado": true,
   "titulo_aprobado": "/11 Garo Arakelian vuelve al Bar Andorra para interpretar las canciones de su…",
@@ -788,7 +847,7 @@
   "posts": [
    "https://www.instagram.com/p/DfUjlSARymU/"
   ],
-  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/883416002_18467215420186454_2280678778824751817_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Bm6l9Z8MO9QQ7kNvwHgCrx4&_nc_oc=AdrNowkdQU5cSOUFIh4YpAoQ-1OznmtmT--0R9o0donCSD6QQIvaRvYK9kZCBMpjB3Y&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=T1uzKvwfLclbZdtdsG46Ng&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTYwlqF5TdD79ZfIpNgjbGR2sIqUBK_0nIk9FMC356QuQ&oe=6B0923F4",
+  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/883416002_18467215420186454_2280678778824751817_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Bm6l9Z8MO9QQ7kNvwGP2Eul&_nc_oc=AdpqHQ9V6_HqyP0KHJQVy5XddGs2ZPZysGh4JLEUczxe-3zNHMWgjLX9xDmAaDB_TgQ&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=15B1nQWoxCcu0v6lqVhwww&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQhYfFHTgFJNL3mgv20dXwp8cNupn1yC5_sQL-4h2ED2A&oe=6B095C34",
   "publicado": "2026-11-04T10:23:42-03:00",
   "aprobado": true,
   "titulo_aprobado": "The Shannon: KARAOKE EN VIVO",
@@ -820,7 +879,7 @@
   "posts": [
    "https://www.instagram.com/p/DfnEZWNGHn8/"
   ],
-  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/901141803_18642373072017861_3222854274504581382_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=pbIXHr-aTFQQ7kNvwF6bW2h&_nc_oc=Adq8z5cNCjIj0McFoz4iJcoTP4G35KYeSGg00kmbkZKt_9akZx9hf6MlixpqTk3qoNE&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=JKFs-si0rf1c1qHDh7ingA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQoOPVgZJfIWNxo4iizOKjEtaacB74P0bMiRGZI9MJHig&oe=6B0903BB",
+  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/901141803_18642373072017861_3222854274504581382_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=pbIXHr-aTFQQ7kNvwGFiGh3&_nc_oc=AdqhS1GCNm434-NUiuxPZ820qh0yj4xhvlvc-5KnHkND1vArrCIt8cUsqYYtwQCgm8o&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=1fWuCBbYWc6WgUda1DJBCw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQMdRLX41xsBrwkEmqOi9cJbbD87k_1rZFOF1bUnNzdaQ&oe=6B09743B",
   "publicado": "2026-11-11T14:56:42-03:00",
   "aprobado": true,
   "titulo_aprobado": "Centro Cultural de España: A mover las cachas! Llega La Ventolera al CCE",
@@ -852,7 +911,7 @@
   "posts": [
    "https://www.instagram.com/p/Dfms2HQldPq/"
   ],
-  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/901196448_18113768450625369_2536394843789757553_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=c-CJw1FfIWwQ7kNvwEzmQkX&_nc_oc=Adra1ia-skU1LsrPm2FeSq-562iCd_oj1nd_J3_WWYYN-sWWXS1TGNxG7doZ9d6U-E4&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=OC8NIoK-JKw6ewWKG1oLRA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ3Ss4knTn5jAnO_knqqGbyeaNcZTOtxebG79wgjXssOg&oe=6B0909CA",
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/901196448_18113768450625369_2536394843789757553_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=c-CJw1FfIWwQ7kNvwFnAKqD&_nc_oc=Adq_aZF3DGFQVyFKe8Gzyv0y4QN3L_TSXb-Jbmek7gsVlxeqsHNzAm3y8RqZtwTB4tE&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=T9ULjHvX23FjzQ5iG_DCUQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQFMIMP81ipSvHP5B_Y6gEeSM3UyI6Ax1Qm8aJdYkrmiQ&oe=6B097A4A",
   "publicado": "2026-11-11T11:30:55-03:00",
   "aprobado": true,
   "titulo_aprobado": "Club Cultural Charco: Una noche para reunirse alrededor del piano, pedir canciones y cantarlas a todo pulmón",
@@ -884,7 +943,7 @@
   "posts": [
    "https://www.instagram.com/p/DfUjlSARymU/"
   ],
-  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/883416002_18467215420186454_2280678778824751817_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Bm6l9Z8MO9QQ7kNvwHgCrx4&_nc_oc=AdrNowkdQU5cSOUFIh4YpAoQ-1OznmtmT--0R9o0donCSD6QQIvaRvYK9kZCBMpjB3Y&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=T1uzKvwfLclbZdtdsG46Ng&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTYwlqF5TdD79ZfIpNgjbGR2sIqUBK_0nIk9FMC356QuQ&oe=6B0923F4",
+  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/883416002_18467215420186454_2280678778824751817_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Bm6l9Z8MO9QQ7kNvwGP2Eul&_nc_oc=AdpqHQ9V6_HqyP0KHJQVy5XddGs2ZPZysGh4JLEUczxe-3zNHMWgjLX9xDmAaDB_TgQ&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=15B1nQWoxCcu0v6lqVhwww&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQhYfFHTgFJNL3mgv20dXwp8cNupn1yC5_sQL-4h2ED2A&oe=6B095C34",
   "publicado": "2026-11-04T10:23:42-03:00",
   "aprobado": true,
   "titulo_aprobado": "The Shannon: EASYBAND",
@@ -918,10 +977,42 @@
   "posts": [
    "https://www.instagram.com/p/Df0Sr-1qlR0/"
   ],
-  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/904368212_18016129430991820_774282183219005558_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FeG2qgRjB4oQ7kNvwFEp8g9&_nc_oc=Adogc2-cpKLNVkwXFxBSt5HfUqJ1x80_EuZAkYYL_aPEst8pUR14SstcQKOuXrWEqoY&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=N14GlSUhd-HW1fXu1nYYIQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTICc4Mze0YoYLfmjqvd1jLtcKEV6r2rZ5PKnpLqFP2Xw&oe=6B090B8A",
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/904368212_18016129430991820_774282183219005558_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FeG2qgRjB4oQ7kNvwHB8CnH&_nc_oc=AdpodeQmNbnlOAr-YQL3OXn3gK692_Vh2BsogjXpHU5mI_ndaGYjSXe6FN3fT3L0axc&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=8x4UVLdp3RXqedlcvB7Bow&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSf37jyA41bo3Fbjm1NzNQfzKRy5XV4RiJX6iqeYl83lA&oe=6B097C0A",
   "publicado": "2026-11-16T18:11:48-03:00",
   "aprobado": true,
   "titulo_aprobado": "fama.tours: Carrasco y Bodega",
+  "direccion_aprobada": null
+ },
+ {
+  "id": "peatonaltours-20261128",
+  "usuario": "peatonaltours",
+  "lugar": "Fuente de la Plaza Matriz",
+  "direccion": null,
+  "barrio": null,
+  "lat": null,
+  "lon": null,
+  "lugar_del_pin": true,
+  "dice_donde": true,
+  "paradas": [],
+  "categoria": "tour",
+  "bar": false,
+  "titulo": "Peatonal Tours: 𝗡𝗨𝗘𝗩𝗔 𝗙𝗘𝗖𝗛𝗔",
+  "texto": "¡𝗡𝗨𝗘𝗩𝗔 𝗙𝗘𝗖𝗛𝗔!\n\n⛪️ ᴛᴏᴜʀ ʀᴇʟɪɢɪᴏꜱᴏ - ᴇᴅɪᴄɪóɴ ᴄɪᴜᴅᴀᴅ ᴠɪᴇᴊᴀ ⛪️\n\n👉🏼 En el marco de la histórica visita del Papa León XIV a nuestro país, Peatonal Tours realizará un recorrido especial por Ciudad Vieja en clave religiosa.\n\n🗣️ El tour presenta una retrospectiva histórica acerca de la presencia de la Iglesia en nuestro país, su incidencia en la conformación social, cultural e identitaria desde sus inicios hasta nuestros días.\n\nVisitaremos:\n▪️Plaza Matriz y Catedral Metropolitana de Montevideo.\n▪️ Arzobispado de Montevideo.\n▪️ Banco la Caja Obrera (originado por obreros católicos).\n▪️ Espacio Zorrilla (ex sede del histórico Club Católico).\n▪️ Parroquia San Francisco de Asís y visita interna a la Cripta del Señor de la Paciencia.\n\n🗓️ Sábado 28/11\n⏰ 11hs.\n📍 Punto de encuentro: Fuente de la Plaza Matriz.\n💲 $600 por persona.\n\n💻 Reservas a través de nuestra página web: www.peatonaltours.uy\n\n📲 Por consultas +598 95 144 855\n\nTu ciudad, tus historias.\n¡Redescubrilas con nosotros!\n.\n.\n.\n.\n.\n#uruguay #mvd #montevideo #ciudadvieja #peatonaltours",
+  "extracto": "¡𝗡𝗨𝗘𝗩𝗔 𝗙𝗘𝗖𝗛𝗔!\n\n⛪️ ᴛᴏᴜʀ ʀᴇʟɪɢɪᴏꜱᴏ - ᴇᴅɪᴄɪóɴ ᴄɪᴜᴅᴀᴅ ᴠɪᴇᴊᴀ ⛪️\n\n👉🏼 En el marco de la histórica visita del Papa León XIV a nuestro país, Peatonal Tours realizará un recorrido especial por Ciudad Vieja en clave religiosa.\n\n🗣️ El tour presenta una retrospectiva histórica acerca de la presencia de la Iglesia en nuestro país, su incidencia en la conformación social, cultural e identitaria desde sus inicios hasta nuestros días.\n\nVisitaremos:\n▪️Plaza Matriz y Catedral Metropolitana de Montevideo.\n▪️ Arzobispado de Montevideo.\n▪️ Banco la Caja Obrera (originado por obreros católicos).\n▪️ Espacio Zorrilla (ex sede del histórico Club Católico).\n▪️ Parroquia San Francisco de Asís y visita interna a la Cripta del Señor de la Paciencia.\n\n🗓️ Sábado 28/11\n⏰ 11hs.\n📍 Punto de encuentro: Fuente de la Plaza Matriz.\n💲 $600 por persona.\n\n💻 Reservas a través de nuestra página web: www.peatonaltours.uy\n\n📲 Por consultas +598 95 144 855\n\nTu ciudad, tus historias.\n¡Redescubrilas con nosotros!\n.\n.\n.\n.\n.\n#uruguay #mvd #montevideo #ciudadvieja #peatonaltours",
+  "funciones": [
+   {
+    "inicio": "2026-11-28T11:00:00-03:00",
+    "sin_hora": false
+   }
+  ],
+  "url": "https://www.instagram.com/p/Df4mHy8ylLw/",
+  "posts": [
+   "https://www.instagram.com/p/Df4mHy8ylLw/"
+  ],
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/913807349_18476001313185971_104832147381356496_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FwawSkUokjkQ7kNvwG-74j_&_nc_oc=AdqaSyI7Q2arVatG-plTzaNllOGjVMmv6bGkJ632HPnhgyTig1H6fvWuGF67qLFl2NI&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=IJdr0ThBNbzQ7ulnU1N13w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTVNBn7eD1ZnMshZEzuUxBv2zTxEVJ0idVygNzr-gTU4g&oe=6B09712E",
+  "publicado": "2026-11-18T10:22:56-03:00",
+  "aprobado": false,
+  "titulo_aprobado": null,
   "direccion_aprobada": null
  },
  {
@@ -950,7 +1041,7 @@
   "posts": [
    "https://www.instagram.com/p/Dfzeii8RigE/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/902825532_18434896018150055_7956407420680098039_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=EiRxdKY85IIQ7kNvwGMCMcW&_nc_oc=Adp6wTxwM25JbfPysZR_D63qMX3EGV39pIr1CB0RIqlLZdBEI5XeiTkc9jt0C4ecaeM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=RAmvuGZnyvz0WpkkZ8EjCw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQbSM_MfVU57iDpVzfHJfxpmQonnUL2BzCh45Y6gDunBQ&oe=6B090E26",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/902825532_18434896018150055_7956407420680098039_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=EiRxdKY85IIQ7kNvwHvScDu&_nc_oc=AdoB3ZWICXhzR6F3oZMwf-ZpgCf8n2kNERyOJ4RIy_StgBfUXTtIE_7Jty4sOZVb3tc&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=KUHkXhWoSChB7VJzQ9yxpA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQM8kC5eCmbj_0hPABCbncWFYWfIsOmlJt7Chos9wr-WA&oe=6B097EA6",
   "publicado": "2026-11-16T10:38:24-03:00",
   "aprobado": true,
   "titulo_aprobado": "Museo Zorrilla: Presentación del Calendario Caja Baja 2027",
@@ -982,10 +1073,49 @@
   "posts": [
    "https://www.instagram.com/p/Df2kh9wGBtj/"
   ],
-  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/912122599_18644480218017861_3828412916567190798_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=OJ53Nta_utAQ7kNvwGJMHGg&_nc_oc=AdpO7kmuXDguw_HRyWWW3XAFBMcv5BNORIvYOMr6lSkRYqz1ZQulgf2DGJ8cx4ch9L8&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=JKFs-si0rf1c1qHDh7ingA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQJMvlOJ3xZNRME0AlLEgycp4gPLRaR1yaFJucbdRkhog&oe=6B090FEB",
+  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/912122599_18644480218017861_3828412916567190798_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=OJ53Nta_utAQ7kNvwGsSAWG&_nc_oc=Ado35vPDFHBX6A_F3ACKrha1xccK4VfgkbspCpfGRIZhvYKZt6kekn4nO0YWpLQUtk8&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=1fWuCBbYWc6WgUda1DJBCw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS4CNyFn7UqPzDv4BpKYnwO06kT__M31awpasBpImDlGw&oe=6B09806B",
   "publicado": "2026-11-17T15:26:07-03:00",
   "aprobado": true,
   "titulo_aprobado": "Centro Cultural de España: El circo llega al CCE",
+  "direccion_aprobada": null
+ },
+ {
+  "id": "epi_cultural-20261128",
+  "usuario": "epi_cultural",
+  "lugar": "Espacio Peppino Impastato",
+  "direccion": "Piedras 429",
+  "barrio": "Ciudad Vieja",
+  "lat": null,
+  "lon": null,
+  "lugar_del_pin": false,
+  "dice_donde": true,
+  "paradas": [],
+  "categoria": null,
+  "bar": false,
+  "titulo": "Espacio Peppino Impastato: Abrimos EPI",
+  "texto": "¡Para cerrar la grilla tenemos artista sorpresa! 😍\n\nEl sábado 28 de noviembre no te lo podes perder 🙂‍↔️ ya avisamos… \n\n📆 Sábado 28 de noviembre | 🕣 18:30 hs. \n📍 Piedras 429 (Ciudad Vieja) \n🎟️ Entrada libre y gratuita \n\nVení a disfrutar de buena música y cosas ricas 🍕🍻🎶💃\n\n💬 ¿Quien te gustaría que esté?",
+  "extracto": "¡Para cerrar la grilla tenemos artista sorpresa! 😍\n\nEl sábado 28 de noviembre no te lo podes perder 🙂‍↔️ ya avisamos… \n\n📆 Sábado 28 de noviembre | 🕣 18:30 hs. \n📍 Piedras 429 (Ciudad Vieja) \n🎟️ Entrada libre y gratuita \n\nVení a disfrutar de buena música y cosas ricas 🍕🍻🎶💃\n\n💬 ¿Quien te gustaría que esté?",
+  "funciones": [
+   {
+    "inicio": "2026-11-28T18:30:00-03:00",
+    "sin_hora": false
+   }
+  ],
+  "url": "https://www.instagram.com/p/Df92KTJgQlU/",
+  "posts": [
+   "https://www.instagram.com/p/Df0Uez6gHiO/",
+   "https://www.instagram.com/p/Df0hXc5gHt4/",
+   "https://www.instagram.com/p/Df2AQx4Acxk/",
+   "https://www.instagram.com/p/Df2WqMFACCo/",
+   "https://www.instagram.com/p/Df4soIBgvHq/",
+   "https://www.instagram.com/p/Df92KTJgQlU/",
+   "https://www.instagram.com/p/DfvISF_FuYU/",
+   "https://www.instagram.com/p/Dfz6mH1AEvn/"
+  ],
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/912230394_18141758002680716_6578448833014116168_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=_5grKJ-cjQIQ7kNvwHra61x&_nc_oc=AdrW8xcs3rtS4yqwmWbn6mmbMPLiqDYyghbFVmcZ7OnpV4eMEsH3gtLdFkGWV6QHgCw&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=XjmCUFkYOCjHG8Pfz_dBSQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSIn8OPy6tTyEaHEgKnblAN6L9YNu-wnk73bNqKtGHWIA&oe=6B095F2A",
+  "publicado": "2026-11-20T11:24:32-03:00",
+  "aprobado": false,
+  "titulo_aprobado": null,
   "direccion_aprobada": null
  },
  {
@@ -1014,7 +1144,7 @@
   "posts": [
    "https://www.instagram.com/p/DfioVMvgbIX/"
   ],
-  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/895288041_18215324272364358_9091113375451962596_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=C3cpMKHX5ugQ7kNvwEmJh7s&_nc_oc=Adqt34bPtnKp83IQREb34b7T90C-US-AaBZInAhl3mOVfpeHorsTZu9Rvon88ivPa2o&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=K8r2IlzGs02L6lwsdRHziQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ2N3pGHhsiBvocl_Qv_qdfC3HlyscEz8gzlFcNvmsozg&oe=6B09245A",
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/895288041_18215324272364358_9091113375451962596_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=C3cpMKHX5ugQ7kNvwEVJfP5&_nc_oc=Adq6Nczy2zC9OpP78CNZmlHQvbetoO1MdncfaH7auLw0W-RyoyI42ARxStZAPKbA-Sk&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=n7kBWTadfUbAZqR2ZbR1_w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSw1AXENXymrJBjSgHZ5ch0SX8NOHFRQm_ZO6OcMgunkA&oe=6B095C9A",
   "publicado": "2026-11-09T21:36:26-03:00",
   "aprobado": true,
   "titulo_aprobado": "Contraplano: Se puede amar a alguien que no tiene cuerpo?",
@@ -1077,10 +1207,42 @@
   "posts": [
    "https://www.instagram.com/p/DgBKObmy2in/"
   ],
-  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/916745160_18088792706704988_7152586067447566221_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=3gCYXPCEnkUQ7kNvwEurod8&_nc_oc=AdpWOOyA3CsTqOSBd-2BhlZaXUC03e0FFuziUMlWITureSEcyMCv9UXRpbKu4Yw4U6w&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=09Nk-7kDBA32yEv_dzED8A&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR6ClISvQBKvbeFqf-09KmtxluE4mntw_QDH2VyGCV5lg&oe=6B08F3C1",
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/916745160_18088792706704988_7152586067447566221_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=P1F1U4ZIdOUQ7kNvwFcmEmH&_nc_oc=AdqyM__FJMC7iK5hTylkx28YUZ52wV9RLLcMny8oT10tIMpCYE4cx1AymjogzkMJZDY&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=4BBYkzEViPUlEMLOFTetJg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQigQCWXWJYaVR6I8MbUHLuKA737W5bHrNpZtsGTTkWCA&oe=6B096441",
   "publicado": "2026-11-21T18:08:20-03:00",
   "aprobado": true,
   "titulo_aprobado": "Sansueña: CUENTOS DE LAS DOS ORILLAS",
+  "direccion_aprobada": null
+ },
+ {
+  "id": "peatonaltours-20261129",
+  "usuario": "peatonaltours",
+  "lugar": "ᴘᴀꜱᴇᴏ ʙᴇʟʟᴏ & ʀᴇʙᴏʀᴀᴛɪ ᴘᴏʀ ᴘᴏᴄɪᴛᴏꜱ",
+  "direccion": null,
+  "barrio": null,
+  "lat": null,
+  "lon": null,
+  "lugar_del_pin": true,
+  "dice_donde": true,
+  "paradas": [],
+  "categoria": "tour",
+  "bar": false,
+  "titulo": "Peatonal Tours: ᴘᴀꜱᴇᴏ ʙᴇʟʟᴏ & ʀᴇʙᴏʀᴀᴛɪ ᴘᴏʀ ᴘᴏᴄɪᴛᴏꜱ",
+  "texto": "🏛️ ᴘᴀꜱᴇᴏ ʙᴇʟʟᴏ & ʀᴇʙᴏʀᴀᴛɪ ᴘᴏʀ ᴘᴏᴄɪᴛᴏꜱ\n\n🗣️ Los invitamos a redescubrir la huella de B&R en un recorrido en el que abordaremos diferentes temas:\n\n▪️ Plaza Gomensoro\n▫️ Conjuntos de casas B&R\n▪️ Casa de Ramón Bello\n▫️ Casa de Alberto Reborati\n▪️ Sustitución edilicia de años 50’\n▫️ Pocitos de casas bajas vs explosión inmobiliaria\n▫️ Conservación patrimonial\n\n 🗓️ Domingo 29/11 - 15hs.\n📍 Desde la Plaza Gomensoro (sobre Benito Blanco).\n💲$500 por persona que se abonan el mismo día del recorrido, antes de comenzar el tour. \n\n‼️📲 Para reservar es necesario que lo hagan a través de nuestra página web: www.peatonaltours.uy\n\n📱 Por consultas +598 95 144 855\n\nTu ciudad, tus historias.\n¡Redescubrilas con nosotros!\n.\n.\n.\n.\n.\n.\n#uruguay #pocitos #mvd #montevideo #peatonaltours",
+  "extracto": "🏛️ ᴘᴀꜱᴇᴏ ʙᴇʟʟᴏ & ʀᴇʙᴏʀᴀᴛɪ ᴘᴏʀ ᴘᴏᴄɪᴛᴏꜱ\n\n🗣️ Los invitamos a redescubrir la huella de B&R en un recorrido en el que abordaremos diferentes temas:\n\n▪️ Plaza Gomensoro\n▫️ Conjuntos de casas B&R\n▪️ Casa de Ramón Bello\n▫️ Casa de Alberto Reborati\n▪️ Sustitución edilicia de años 50’\n▫️ Pocitos de casas bajas vs explosión inmobiliaria\n▫️ Conservación patrimonial\n\n 🗓️ Domingo 29/11 - 15hs.\n📍 Desde la Plaza Gomensoro (sobre Benito Blanco).\n💲$500 por persona que se abonan el mismo día del recorrido, antes de comenzar el tour. \n\n‼️📲 Para reservar es necesario que lo hagan a través de nuestra página web: www.peatonaltours.uy\n\n📱 Por consultas +598 95 144 855\n\nTu ciudad, tus historias.\n¡Redescubrilas con nosotros!\n.\n.\n.\n.\n.\n.\n#uruguay #pocitos #mvd #montevideo #peatonaltours",
+  "funciones": [
+   {
+    "inicio": "2026-11-29T11:00:00-03:00",
+    "sin_hora": false
+   }
+  ],
+  "url": "https://www.instagram.com/p/DfLJwb0Sdme/",
+  "posts": [
+   "https://www.instagram.com/p/DfLJwb0Sdme/"
+  ],
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/884669331_18472272949185971_5338159676095947451_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=IqMHXbrKauEQ7kNvwFPLQsM&_nc_oc=AdpMtDeVdMKTMTwLnMZ6Y8ch3mLF8ob1jgk3ZiyQO36cxu5_Wn_EWHWAF0Nypd-jpWU&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=IJdr0ThBNbzQ7ulnU1N13w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS8Xkho5AHkVut2VqnQDGClkG7Z8qrjNVKdoVarbAWl3Q&oe=6B098427",
+  "publicado": "2026-10-31T18:45:25-03:00",
+  "aprobado": false,
+  "titulo_aprobado": null,
   "direccion_aprobada": null
  },
  {
@@ -1110,7 +1272,7 @@
    "https://www.instagram.com/p/Df0IbtaGBqM/",
    "https://www.instagram.com/reel/DfiGE9UpbNf/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/905569050_18649398739004667_4745504231826413951_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=-32nvYE02okQ7kNvwG2LbJ5&_nc_oc=AdpEPdeF5e4EvF-UFxt3ORgh4eX1ZC3jpDbvHRl_ToyOuolr-So9kmrNhyVSevc4E-s&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Vb0hV4g4zCF5iZ3eM5xVMA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTm79v5Sh7-yNU62lpGmgM9u0-jxNXZlQsiPiM2ogarnQ&oe=6B091001",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/905569050_18649398739004667_4745504231826413951_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=-32nvYE02okQ7kNvwGcf7lS&_nc_oc=AdrQViNbnH-Wipk5b49hVYnIBEtp2mfDZYLlACeRy7x3TzTSD6bG9iXH44lG6NX2N1A&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=ytWMnX-FxkI_W_pwF3MPEQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTLpJY97zi3m4zPFPnhcP0mlqM0SEgzj592htLiLQlPOw&oe=6B098081",
   "publicado": "2026-11-16T16:42:07-03:00",
   "aprobado": true,
   "titulo_aprobado": "Brecha Bar y Cafe: Cumplimos 12 años",
@@ -1142,7 +1304,7 @@
   "posts": [
    "https://www.instagram.com/p/Df-wlk3mxb1/"
   ],
-  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/916698280_18077520839768383_3925947895024732715_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5KGfzFp8TXMQ7kNvwEH2TWy&_nc_oc=AdpmGKFQbpD7AmuN6brsLHua1EaTmKY0JdCwZN754x-MNqblH7IWTrBNtSfIB9-l8SA&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=_Ygy2clMZXoilem66vEW-w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTVw8WoS5KwcwNT4srBDi_FGJpm_RlIV52yZpBRPicXUw&oe=6B09222C",
+  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/916698280_18077520839768383_3925947895024732715_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5KGfzFp8TXMQ7kNvwHbr4ll&_nc_oc=AdrRpdluWeD2Sp9ih2jduxZS_MwJBVj5grzanrf6Zb-CEBQ3TVnDxodCn6vI5ZIPO9Y&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=S_dvd3SCtzXScM3qrmPUEQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR0ryu6nS0Ck126MhN2IRxSUcr16xfd2PvGy40AfxDtlw&oe=6B095A6C",
   "publicado": "2026-11-20T19:45:23-03:00",
   "aprobado": true,
   "titulo_aprobado": "Molino de Pérez: Exposición \"Tejiendo memorias\"",
@@ -1178,10 +1340,46 @@
   "posts": [
    "https://www.instagram.com/p/DfsWAkbGCpT/"
   ],
-  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/907083797_18643036273017861_1759787615630765966_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=XcZRTCtkCr4Q7kNvwF8aVl_&_nc_oc=AdoWjupbV8iQAvyaaRUGP-VK1WYqp6CA5L0k4tdxVBWW9KRNObh9q3UXzV5Mk81CRNI&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=JKFs-si0rf1c1qHDh7ingA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRbD5OfPHAnhjR9jNbh3AdV8p2SK7yUTAgy8BJ5WMMGNA&oe=6B092127",
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/907083797_18643036273017861_1759787615630765966_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=XcZRTCtkCr4Q7kNvwEEMsyC&_nc_oc=AdpVvELbKR-Aru1CoRa-2FFQfNf-ehDepyqG_lUFM3nNFJICXhwTh-b0LE1q_3z9lJU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=1fWuCBbYWc6WgUda1DJBCw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRx1u_L_aWJAwEJ9-KNnoXM_8dzD47aOgHyAYYCv0jdqw&oe=6B095967",
   "publicado": "2026-11-13T16:06:49-03:00",
   "aprobado": true,
   "titulo_aprobado": "Centro Cultural de España: Laboratorio de guion adaptado",
+  "direccion_aprobada": null
+ },
+ {
+  "id": "sala_zitarrosa-20261202",
+  "usuario": "sala_zitarrosa",
+  "lugar": "Sala Zitarrosa",
+  "direccion": "Av. 18 de Julio 1012",
+  "barrio": "Centro",
+  "lat": -34.906238,
+  "lon": -56.194472,
+  "lugar_del_pin": false,
+  "dice_donde": false,
+  "paradas": [],
+  "categoria": null,
+  "bar": false,
+  "titulo": "Sala Zitarrosa: Una noche de celebración y reconocimiento de Montevideo al Candombe como Patrimonio…",
+  "texto": "Una noche de celebración y reconocimiento de Montevideo al Candombe como Patrimonio Cultural Nacional del Uruguay y Patrimonio Cultural Inmaterial de la Humanidad (UNESCO).\n\nUn encuentro de celebración y música de la Sala Zitarrosa, del Departamento de Cultura, y la División Turismo de la Intendencia que abre un nuevo espacio para el Candombe.\n\nParticiparán: El Legado de Kanela, cuareim1080 , lasaradelcordon y Bantu de Montevideo.\n\n📅 Lunes 7 de diciembre\n⏰ 20:00 h\n🎟 Entrada gratuita por invitación. Las invitaciones se retiran en la boletería de la Sala a partir del miércoles 2 de diciembre, de 15:30 a 21:30 h.\n\nAdemás, se realizará el lanzamiento del Ciclo Candombe 2027; una nueva propuesta que busca consolidarse como un espacio de referencia para la difusión, el encuentro y el disfrute del candombe, con la comunidad afrouruguaya como protagonista de sus propias historias.\n\n¡Les esperamos!",
+  "extracto": "Una noche de celebración y reconocimiento de Montevideo al Candombe como Patrimonio Cultural Nacional del Uruguay y Patrimonio Cultural Inmaterial de la Humanidad (UNESCO).\n\nUn encuentro de celebración y música de la Sala Zitarrosa, del Departamento de Cultura, y la División Turismo de la Intendencia que abre un nuevo espacio para el Candombe.\n\nParticiparán: El Legado de Kanela, cuareim1080 , lasaradelcordon y Bantu de Montevideo.\n\n📅 Lunes 7 de diciembre\n⏰ 20:00 h\n🎟 Entrada gratuita por invitación. Las invitaciones se retiran en la boletería de la Sala a partir del miércoles 2 de diciembre, de 15:30 a 21:30 h.\n\nAdemás, se realizará el lanzamiento del Ciclo Candombe 2027; una nueva propuesta que busca consolidarse como un espacio de referencia para la difusión, el encuentro y el disfrute del candombe, con la comunidad afrouruguaya como protagonista de sus propias historias.\n\n¡Les esperamos!",
+  "funciones": [
+   {
+    "inicio": "2026-12-02T15:30:00-03:00",
+    "sin_hora": false
+   },
+   {
+    "inicio": "2026-12-07T20:00:00-03:00",
+    "sin_hora": false
+   }
+  ],
+  "url": "https://www.instagram.com/p/Df-rahfiBNy/",
+  "posts": [
+   "https://www.instagram.com/p/Df-rahfiBNy/"
+  ],
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/920442625_1612184974283521_1232053162483950555_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=KPa9fRJaAyEQ7kNvwE7S699&_nc_oc=AdqBCeOUgDJ-W2AwdF3rvXJqtwHWGrww5yfBlXZ7mnqtfKATpC-gkX-Hy-y-_wvT5yI&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=kWlEwXvVvccNSLYppDwJfw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQ_rexBSdwIfbMPl7ElKESI39UYcbpTFAacFsgZVbJkCw&oe=6B095F37",
+  "publicado": "2026-11-20T19:00:11-03:00",
+  "aprobado": false,
+  "titulo_aprobado": null,
   "direccion_aprobada": null
  },
  {
@@ -1210,7 +1408,7 @@
   "posts": [
    "https://www.instagram.com/p/DfQjbTcNR_r/"
   ],
-  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/876299451_18347464606284561_7062181548544627934_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=H6WzMdctvTIQ7kNvwE7LD07&_nc_oc=AdqZFIz2Sl04RV9xAhhr5KmMdnV95BupXOvM_CCD5puumvgnj272ibhF_NSKrAyLrdM&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9IJfvBUIHC5ogZ9KKbnW1Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQrolXpNNOQgor-djhB1oJ8Yn1y0wVMdNxh3Nvpm-PpjQ&oe=6B0915D0",
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/876299451_18347464606284561_7062181548544627934_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=H6WzMdctvTIQ7kNvwEGdPwI&_nc_oc=Ado5S4y134ziKrUSwHH5FfN1NwX0VBmN2dA4ka59ke9xO4AtuudDAp-cXmPvDmvyCus&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Uk1QPCjjG9rGhe0Sp49weQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQraRTp8WBMrf3j8kmDFFGIgUotE9Atr2K5uRoTdV6oiw&oe=6B098650",
   "publicado": "2026-11-02T21:05:22-03:00",
   "aprobado": true,
   "titulo_aprobado": "La Cretina: FERIADO + MONKELIS",
@@ -1242,7 +1440,7 @@
   "posts": [
    "https://www.instagram.com/p/Df5Q8lSmF6L/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/912663564_18644794561017861_606887389185020343_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=lT9La0es3J4Q7kNvwH8p63t&_nc_oc=Ado62F6xpYydGdZvL733U_0j7deepafHKMmdCUeBz5S2U-pjMQUNsYkj7T1WAucNC4c&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=JKFs-si0rf1c1qHDh7ingA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT0zoVo_1EukUumlUXKP-XYdX79JJdTxuPwG2mebwaS-Q&oe=6B08F8F6",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/912663564_18644794561017861_606887389185020343_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=lT9La0es3J4Q7kNvwFOLgS9&_nc_oc=AdrgL7XnPP6UBZoD7zUSrPZS4jxw3qPH8ivNBBalU0O9O8w7W99DoeDifdMIJya5-jg&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=1fWuCBbYWc6WgUda1DJBCw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTeOI_IF10q19dQ9imguYptTr2qCdELU80dff4rMYlMfA&oe=6B096976",
   "publicado": "2026-11-18T16:32:42-03:00",
   "aprobado": true,
   "titulo_aprobado": "Centro Cultural de España: 8 que cuentan: una conversación de inclusión y un encuentro de lectura colectiva",
@@ -1275,7 +1473,7 @@
    "https://www.instagram.com/p/Dfk29Y-lqSZ/",
    "https://www.instagram.com/reel/DfX8C2QRWmn/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/891511370_18435177295197040_8080601464872934796_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=PeBhSutkJ6IQ7kNvwE31nT2&_nc_oc=Adp3-ofznCUHNrSeMx2Cx-NzEyQ9cwpKQZluRTeClHRtgGRPU30K-BsFUifplvZJ3lM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=TjDOV54MXLWAAcCbKgfCQA&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQRaFzh6pVo39Qapeo0h-ebxMQbouf8J3CLhojf1Wep_lQ&oe=6B08F1E8",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/891511370_18435177295197040_8080601464872934796_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=PeBhSutkJ6IQ7kNvwG4NUvw&_nc_oc=AdqSqo5oj86Pbx3EfWmQ-uwn3CtyZnIlId7PxBwbwV9WZusJgDAPX3eLN77INLhzO_g&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=XHX18EBmRdyYqI_o0plYmA&_nc_ct=RQosPBUKFQQAAAA&oh=00_AQRDoOlNeIo3BcYxQndc6BrsOIKmu1p9rYVSSaJeiXetnA&oe=6B096268",
   "publicado": "2026-11-10T18:20:49-03:00",
   "aprobado": true,
   "titulo_aprobado": "Inmigrantes: FESTIVAL NUESTRO",
@@ -1307,10 +1505,79 @@
   "posts": [
    "https://www.instagram.com/p/DfniyXLgX1E/"
   ],
-  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/902585570_18041816129847974_6307659968127988041_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6uKUjw5yINoQ7kNvwGx9Woi&_nc_oc=Adr1WB0B0nItUsaXrmXGlVdCxUJGl9HwVip3xYuzXng4uS1tJhEER58nP94QyyYT7YY&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=hv9auXThzJPdyzl8NGja8w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSmo0n2RG6cRCiuhF5sf6MBqBMPDmo8acrMsaSgjDRO6g&oe=6B09180A",
+  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/902585570_18041816129847974_6307659968127988041_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=RPFElL7x28YQ7kNvwFq7rX4&_nc_oc=AdoIHOCA01jVWQczWgSlbWjqz4TGuYqp-htnQQVrN3ANg7DGWP3brN5I0KSvR-IFRYo&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=qOVsqLhdNc1ehrqHoj8QPw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSpciT26mMMR-OK5nmfQu9gQvIyTk0yL0V18uIlCq3smA&oe=6B09888A",
   "publicado": "2026-11-11T19:40:49-03:00",
   "aprobado": true,
   "titulo_aprobado": "Estamos muy felices de contarles que se viene la fiesta de fin de año de Mamba a la…",
+  "direccion_aprobada": null
+ },
+ {
+  "id": "sala_zitarrosa-20261205",
+  "usuario": "sala_zitarrosa",
+  "lugar": "Sala Zitarrosa",
+  "direccion": "Av. 18 de Julio 1012",
+  "barrio": "Centro",
+  "lat": -34.906238,
+  "lon": -56.194472,
+  "lugar_del_pin": false,
+  "dice_donde": false,
+  "paradas": [],
+  "categoria": null,
+  "bar": false,
+  "titulo": "Sala Zitarrosa: La destacada cantante y compositora brasileña adrianacalcanhotto llega a Sala…",
+  "texto": "La destacada cantante y compositora brasileña adrianacalcanhotto llega a Sala Zitarrosa en el marco del Ciclo Marea.\n\n📅 Sábado 5 de diciembre\n⏰ 21:30\n🎟️ Entradas a la venta en Abitab, Redpagos, Tickantel y boletería de la sala\n\nCon más de 35 años de trayectoria, la artista vuelve a Montevideo para recorrer temas de sus últimos trabajos y algunos de sus grandes clásicos, envueltos por la sutileza y la profundidad que definen su obra. Una oportunidad única de presenciar de cerca, a una de las grandes voces de la música popular brasileña.\n\nMAREA es el ciclo de mujeres y disidencias de la música y el audiovisual de la Sala Zitarrosa que en 2026 comenzó su sexta edición.",
+  "extracto": "La destacada cantante y compositora brasileña adrianacalcanhotto llega a Sala Zitarrosa en el marco del Ciclo Marea.\n\n📅 Sábado 5 de diciembre\n⏰ 21:30\n🎟️ Entradas a la venta en Abitab, Redpagos, Tickantel y boletería de la sala\n\nCon más de 35 años de trayectoria, la artista vuelve a Montevideo para recorrer temas de sus últimos trabajos y algunos de sus grandes clásicos, envueltos por la sutileza y la profundidad que definen su obra. Una oportunidad única de presenciar de cerca, a una de las grandes voces de la música popular brasileña.\n\nMAREA es el ciclo de mujeres y disidencias de la música y el audiovisual de la Sala Zitarrosa que en 2026 comenzó su sexta edición.",
+  "funciones": [
+   {
+    "inicio": "2026-12-05T21:30:00-03:00",
+    "sin_hora": false
+   }
+  ],
+  "url": "https://www.instagram.com/reel/Df8HdUysrel/",
+  "posts": [
+   "https://www.instagram.com/reel/Df8HdUysrel/"
+  ],
+  "imagen": null,
+  "publicado": "2026-11-19T19:10:02-03:00",
+  "aprobado": false,
+  "titulo_aprobado": null,
+  "direccion_aprobada": null
+ },
+ {
+  "id": "peatonaltours-20261206",
+  "usuario": "peatonaltours",
+  "lugar": "Club Cultural Charco",
+  "direccion": "Maldonado 1477",
+  "barrio": null,
+  "lat": null,
+  "lon": null,
+  "lugar_del_pin": true,
+  "dice_donde": true,
+  "paradas": [
+   "Paseo Centro",
+   "en el marco de la Feria “Una celebración a Montevideo”",
+   "realizaremos un recorrido por nuestra avenida principal descubriendo la historia de los edificios más emblemáticos",
+   "junto a ellos sus historias tan atrapantes e interesantes"
+  ],
+  "categoria": "tour",
+  "bar": false,
+  "titulo": "Peatonal Tours: ᴛᴏᴜʀ ᴘᴀᴛʀɪᴍᴏɴɪᴀʟ ʏ ᴀʀǫᴜɪᴛᴇᴄᴛóɴɪᴄᴏ",
+  "texto": "ᴛᴏᴜʀ ᴘᴀᴛʀɪᴍᴏɴɪᴀʟ ʏ ᴀʀǫᴜɪᴛᴇᴄᴛóɴɪᴄᴏ 🏛️\n\n🗣️ Como cierre de año de Paseo Centro y en el marco de la Feria “Una celebración a Montevideo”, realizaremos un recorrido por nuestra avenida principal descubriendo la historia de los edificios más emblemáticos y junto a ellos sus historias tan atrapantes e interesantes.\n\n👉🏼 Este recorrido es promovido por Paseo Centro (paseocentrouy ) en forma de resaltar la riqueza arquitectónica del Centro de nuestra ciudad y poder generar conciencia sobre ella.\n\n 🗓️ Domingo 06/12 - 11hs.\n💲 GRATUITO.\n📍 desde Plaza Cagancha (fotogalería).\n\n📲 Para reservar es necesario que lo hagan a través de nuestra página web: www.peatonaltours.uy\n\n🇺🇾 Finalizamos en Club Cultural Charco (clubculturalcharco ) en el marco de la Feria “Una celebración a Montevideo” (unacelebracionamontevideo ).\n\n🎧 Este recorrido lo hacemos utilizando los auriculares de clubsilent que enriquecen la experiencia, integrando música y efectos sonoros que recrean situaciones inmersivas y que te transportan a diferentes ambientes, sensaciones y percepciones.\n\n‼️ Importante: en caso de no poder concurrir una vez anotados y confirmados, les solicitamos nos avisen para dar de baja la reserva y que otras personas puedan inscribirse.\n\n¡Te esperamos!\n.\n.\n.\n.\n#mvd #montevideo #uruguay #centro #peatonaltours",
+  "extracto": "ᴛᴏᴜʀ ᴘᴀᴛʀɪᴍᴏɴɪᴀʟ ʏ ᴀʀǫᴜɪᴛᴇᴄᴛóɴɪᴄᴏ 🏛️\n\n🗣️ Como cierre de año de Paseo Centro y en el marco de la Feria “Una celebración a Montevideo”, realizaremos un recorrido por nuestra avenida principal descubriendo la historia de los edificios más emblemáticos y junto a ellos sus historias tan atrapantes e interesantes.\n\n👉🏼 Este recorrido es promovido por Paseo Centro (paseocentrouy ) en forma de resaltar la riqueza arquitectónica del Centro de nuestra ciudad y poder generar conciencia sobre ella.\n\n 🗓️ Domingo 06/12 - 11hs.\n💲 GRATUITO.\n📍 desde Plaza Cagancha (fotogalería).\n\n📲 Para reservar es necesario que lo hagan a través de nuestra página web: www.peatonaltours.uy\n\n🇺🇾 Finalizamos en Club Cultural Charco (clubculturalcharco ) en el marco de la Feria “Una celebración a Montevideo” (unacelebracionamontevideo ).\n\n🎧 Este recorrido lo hacemos utilizando los auriculares de clubsilent que enriquecen la experiencia, integrando música y efectos sonoros que recrean situaciones inmersivas y que te transportan a diferentes ambientes, sensaciones y percepciones.\n\n‼️ Importante: en caso de no poder concurrir una vez anotados y confirmados, les solicitamos nos avisen para dar de baja la reserva y que otras personas puedan inscribirse.\n\n¡Te esperamos!\n.\n.\n.\n.\n#mvd #montevideo #uruguay #centro #peatonaltours",
+  "funciones": [
+   {
+    "inicio": "2026-12-06T12:00:00-03:00",
+    "sin_hora": false
+   }
+  ],
+  "url": "https://www.instagram.com/p/Df-fdHmyuNL/",
+  "posts": [
+   "https://www.instagram.com/p/Df-fdHmyuNL/"
+  ],
+  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/922122580_18476412898185971_6923143264890144266_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wHugixB2y3MQ7kNvwESq0wr&_nc_oc=Adp_QiyLc0MkSBWMKL-TEBgf-Bs-1q8ZAr2OU8qMAxUuGDjqZH7c5jK3MRqzK8bRDfc&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=IJdr0ThBNbzQ7ulnU1N13w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQIBvwmTYJ1AUnQVX-v_o8Mq2W7wyGAfWJsBZSbW16PwA&oe=6B09727F",
+  "publicado": "2026-11-20T17:18:12-03:00",
+  "aprobado": false,
+  "titulo_aprobado": null,
   "direccion_aprobada": null
  },
  {
@@ -1339,7 +1606,7 @@
   "posts": [
    "https://www.instagram.com/p/Df_IqW7qZC0/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/912519743_18016655096991820_9014616858272294681_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=QWqbKJvFsVIQ7kNvwHYEfG8&_nc_oc=AdpKrXS1dDG6gjt_HXvV4Kmi5tNAoRxMS6hg08A38huFsiD0ii_W3S_2kLPms9LiC0I&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=N14GlSUhd-HW1fXu1nYYIQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRfEE_CrXArJOttpVBnzsshHw_2I0p3UKw1X7luaz83Aw&oe=6B091254",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/912519743_18016655096991820_9014616858272294681_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=QWqbKJvFsVIQ7kNvwE1CQpW&_nc_oc=AdqJqV2L2HnadiSEq2Z7407luVbUcWcwbKQnyT0xcc0ajQpVdB0t9upKSOzdxM0RrpU&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=8x4UVLdp3RXqedlcvB7Bow&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRBTdA3nxc0YC-Ki6i_TW21xDI98t4Gqwza--LNvFVK-Q&oe=6B0982D4",
   "publicado": "2026-11-20T23:15:50-03:00",
   "aprobado": true,
   "titulo_aprobado": "fama.tours: En el mes de la celebración del Tricentenario nos unimos a la excelente iniciativa de…",
@@ -1403,7 +1670,7 @@
   "posts": [
    "https://www.instagram.com/p/Dfs_s4wiZIl/"
   ],
-  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/902586248_18028220012874640_129857312953295793_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Fr7CYKHZbYsQ7kNvwHdMr8F&_nc_oc=AdpIsHJMsMMAYALzhgwZgU_GaUuzuxnHSsLR4rGu9FD4V5CnhQOH_e2a7JQKgPj6Pf8&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=WcUktygVKy8ZRoTpjSueKA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQGX0uwzrKyXAHbgPGXNk5hoI7dwdcnP-36zh5W2F-QjQ&oe=6B091233",
+  "imagen": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/902586248_18028220012874640_129857312953295793_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Fr7CYKHZbYsQ7kNvwEDmWec&_nc_oc=AdrhaNZuTbmLDrF0V5YwqVRs1zxilWJFbnet_nWmEhhAMHMOpmXQjr3Ufqu5vzSE3EU&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=r-p3KvFgLw4UoAdjeXcZqw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRajtaOkAhgTwDKDbB92P48irdMaeVIsqwT9TDoY_P_iQ&oe=6B0982B3",
   "publicado": "2026-11-13T22:11:13-03:00",
   "aprobado": true,
   "titulo_aprobado": "ANDRÓMEDA Bar Cooperativo: Volvimos a juntarnos, porque la autogestión y el cooperativismo se celebra y porque…",
@@ -1435,7 +1702,7 @@
   "posts": [
    "https://www.instagram.com/p/Dfcdqx-BZCl/"
   ],
-  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/885924218_18348185815284561_872046194554252863_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=OQMSnC0O6IMQ7kNvwFGdxCJ&_nc_oc=Adp2pgJEOWkXSTulg3S51XUON6j54DkQRVGaMj4HPXdoPxQrZjd6BAfRJWARN4MP3w4&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9IJfvBUIHC5ogZ9KKbnW1Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQvAdjHhHjDPZeZM8eHGOzFtdgag52JVfj6PVFUUjSR6Q&oe=6B091A38",
+  "imagen": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/885924218_18348185815284561_872046194554252863_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=OQMSnC0O6IMQ7kNvwE96SRI&_nc_oc=AdrjODKSy7d2UykKUVqS7K4fkJs6GIWUPgGA6ukW1SGLF52Gae7IP-iP_xbEOSHCEMU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Uk1QPCjjG9rGhe0Sp49weQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTJ34flZW_bkcIoef_pgjLig3zo46ACbua4wafp3EvbWw&oe=6B098AB8",
   "publicado": "2026-11-07T12:05:57-03:00",
   "aprobado": true,
   "titulo_aprobado": "La Cretina: HIP HOP CRETINO vol.7",
@@ -1499,7 +1766,7 @@
   "posts": [
    "https://www.instagram.com/p/Df25Q3FD7v6/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/907271562_18349933003284561_7712776802159989233_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=S8KPJHZH5jAQ7kNvwEDUSpH&_nc_oc=Adquphh5EuOz7fyeT2jTJpkGpozt7vvmhm9__OVSt4aoR_tRztTrfjFAdEP16q2EohE&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=9IJfvBUIHC5ogZ9KKbnW1Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT_wFxJWxeisOfLPHqIxJ4MRmlDR0Q2N5irfzuD2OAQFw&oe=6B0919FE",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/907271562_18349933003284561_7712776802159989233_n.webp?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=S8KPJHZH5jAQ7kNvwGJFKgT&_nc_oc=AdqF5agVGsTNQQNQEhkrhQ3scHtxCsYXvv1fnlzPPd-33wQCJRd0WnhenwGQeiStnuA&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=Uk1QPCjjG9rGhe0Sp49weQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT55auAAwFCroNMi34wP5WuvQxrjMGWxP_ZsFXDBudSGw&oe=6B098A7E",
   "publicado": "2026-11-17T18:27:17-03:00",
   "aprobado": true,
   "titulo_aprobado": "Llega a La Cretina la cantante, compositora y multiinstrumentista chilena…",
@@ -1531,7 +1798,7 @@
   "posts": [
    "https://www.instagram.com/p/DfVX3lkCkwV/"
   ],
-  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/871381811_1455881379941834_5985506162538446578_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=b36_Uwsc5pQQ7kNvwHd5Uvn&_nc_oc=AdqqNYNVwe_t-hG1gIr99Rib8HkxiZfhNb0WYL4qkXHZRBAlUrNw3QTmYhHEU7Xafro&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=oe78PpSkA6ca3HvYnPhWHw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTn1Np9sgndgf-1uSmffAxSFwY318q_Rx0ESiV2EwobLg&oe=6B091986",
+  "imagen": "https://scontent-iad3-1.cdninstagram.com/v/t39.30808-6/871381811_1455881379941834_5985506162538446578_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=b36_Uwsc5pQQ7kNvwGP8Tw0&_nc_oc=AdoovO7421xZgCr0lpbUCUyKpkKOTDQr9ZE0auTPopIlYjIYdPiT-20NRZkS98n5BVk&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ-jyNUEAAAA&_nc_gid=0GmUAuHsUljrNiCD3Nlsxw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTCWRHpG4wbAnMw-3T7fPfMecgHEk3hc3ODjFEwKcCC3g&oe=6B098A06",
   "publicado": "2026-11-04T18:00:32-03:00",
   "aprobado": true,
   "titulo_aprobado": "Cordón Beer: Las tradiciones se respetan por eso",

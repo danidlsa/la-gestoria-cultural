@@ -1,6 +1,6 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-22T15:47:47.409861-03:00",
+ "corrida": "2026-11-22T22:57:40.770091-03:00",
  "ok": true,
  "cantidad": 17,
  "errores": [],
@@ -195,6 +195,53 @@
   },
   {
    "fuente": "fever",
+   "id_externo": "838624",
+   "url": "https://feverup.com/m/838624",
+   "titulo": "Candlelight: Lo Mejor de Hans Zimmer",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Candlelight: Lo Mejor de Hans Zimmer llega al Hotel Radisson Victoria Plaza de Montevideo: un cuarteto de cuerdas interpreta las bandas sonoras más emblemáticas del compositor, a la luz de las velas. Conseguí tus entradas y disfrutá de la música. Esta experiencia de concierto es un tributo. No está…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-28T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 740.0,
+    "hasta": 740.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/838624",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/b2a5d1a8-1396-11f0-9f4b-e25e224a365e.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
    "id_externo": "658904",
    "url": "https://feverup.com/m/658904",
    "titulo": "Candlelight: Coldplay e Imagine Dragons",
@@ -242,23 +289,23 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "838624",
-   "url": "https://feverup.com/m/838624",
-   "titulo": "Candlelight: Lo Mejor de Hans Zimmer",
+   "id_externo": "838622",
+   "url": "https://feverup.com/m/838622",
+   "titulo": "Candlelight: Tributo a Joan Manuel Serrat",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Candlelight: Lo Mejor de Hans Zimmer llega al Hotel Radisson Victoria Plaza de Montevideo: un cuarteto de cuerdas interpreta las bandas sonoras más emblemáticas del compositor, a la luz de las velas. Conseguí tus entradas y disfrutá de la música. Esta experiencia de concierto es un tributo. No está…",
+   "descripcion_corta": "Un concierto tributo a Joan Manuel Serrat interpretado por un cuarteto de cuerda en la Sala Valle Inclán de Montevideo, iluminado solo por cientos de velas. Conseguí tus entradas y viví la magia de Candlelight. Esta experiencia de concierto es un tributo. No está vinculada, respaldada ni…",
    "lugar": {
-    "nombre": "Hotel Radisson Victoria Plaza",
+    "nombre": "Sala Valle Inclán",
     "direccion": null,
-    "lat": -34.9058104,
-    "lon": -56.1995027,
+    "lat": -34.9074103,
+    "lon": -56.1975527,
     "barrio": null,
     "alternativas": []
    },
    "funciones": [
     {
-     "inicio": "2027-02-28T20:30:00-03:00",
+     "inicio": "2027-03-12T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -266,19 +313,19 @@
     }
    ],
    "precio": {
-    "desde": 740.0,
-    "hasta": 740.0,
+    "desde": 672.0,
+    "hasta": 672.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://feverup.com/m/838624",
+     "url": "https://feverup.com/m/838622",
      "via": "fever"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/b2a5d1a8-1396-11f0-9f4b-e25e224a365e.jpg",
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/57ccb306-1462-11f0-879a-6e847126acd3.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -336,43 +383,43 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "838622",
-   "url": "https://feverup.com/m/838622",
-   "titulo": "Candlelight: Tributo a Joan Manuel Serrat",
+   "id_externo": "614864",
+   "url": "https://feverup.com/m/614864",
+   "titulo": "Candlelight: El Señor de los Anillos",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Tributo a Joan Manuel Serrat en Sala Valle Inclán bajo la tenue luz de las velas!…",
+   "descripcion_corta": "La Comunidad sigue viva a través de la música de la trilogía. En Candlelight: El Señor de los Anillos, un talentoso cuarteto de cuerda da vida a las melodías inolvidables de las películas en el Sofitel Montevideo Casino Carrasco and Spa, rodeado de velas. Una noche dedicada a la música del viaje…",
    "lugar": {
-    "nombre": "Sala Valle Inclán",
+    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
     "direccion": null,
-    "lat": -34.9074103,
-    "lon": -56.1975527,
+    "lat": -34.8905846,
+    "lon": -56.0553743,
     "barrio": null,
     "alternativas": []
    },
    "funciones": [
     {
-     "inicio": "2027-03-12T21:00:00-03:00",
-     "fin": null,
+     "inicio": "2026-12-19T17:30:00-03:00",
+     "fin": "2027-01-17T20:30:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 672.0,
-    "hasta": 672.0,
+    "desde": 776.0,
+    "hasta": 776.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://feverup.com/m/838622",
+     "url": "https://feverup.com/m/614864",
      "via": "fever"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/57ccb306-1462-11f0-879a-6e847126acd3.jpg",
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/6e89eade-c92d-11f0-ab44-1e339e1eaa9a.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -420,53 +467,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/7c807528-1ab3-11f0-9eff-324ba1e3eb01.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
-   "id_externo": "614864",
-   "url": "https://feverup.com/m/614864",
-   "titulo": "Candlelight: El Señor de los Anillos",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La Comunidad sigue viva a través de la música de la trilogía. En Candlelight: El Señor de los Anillos, un talentoso cuarteto de cuerda da vida a las melodías inolvidables de las películas en el Sofitel Montevideo Casino Carrasco and Spa, rodeado de velas. Una noche dedicada a la música del viaje…",
-   "lugar": {
-    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
-    "direccion": null,
-    "lat": -34.8905846,
-    "lon": -56.0553743,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-19T17:30:00-03:00",
-     "fin": "2027-01-17T20:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 776.0,
-    "hasta": 776.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/614864",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/6e89eade-c92d-11f0-ab44-1e339e1eaa9a.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -764,7 +764,7 @@
    "titulo": "Candlelight: Tributo a Coldplay",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "⭐ Los conciertos Candlelight llevan la magia de una experiencia musical multisensorial en vivo a lugares increíbles nunca antes vistos en Montevideo. ¡Comprá ya tus entradas para descubrir la música de Candlelight: Tributo a Coldplay en Sala Valle Inclán bajo la tenue luz de las velas! Esta es una…",
+   "descripcion_corta": "Un concierto tributo a Coldplay interpretado por un cuarteto de cuerda en la Sala Valle Inclán de Montevideo, iluminado solo por cientos de velas. Conseguí tus entradas y viví la magia de Candlelight. Esta experiencia de concierto es un tributo. No está vinculada, respaldada ni patrocinada por el…",
    "lugar": {
     "nombre": "Sala Valle Inclán",
     "direccion": null,

@@ -1,8 +1,8 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-22T15:50:34.247590-03:00",
+ "corrida": "2026-11-22T23:00:28.982255-03:00",
  "ok": true,
- "cantidad": 9,
+ "cantidad": 10,
  "errores": [],
  "eventos": [
   {
@@ -292,6 +292,48 @@
    "beneficios": [],
    "imagen_url": "https://img.cobraticket.uy/ABxFcxdPShdsCo5kOa9-R.jpg",
    "productor": "EPIC",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "276469",
+   "url": "https://cobraticket.uy/e/perreito-276469",
+   "titulo": "PERREITO",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Lotus WTC",
+    "direccion": "Contador Luis E. Lecueder",
+    "lat": -34.9042323,
+    "lon": -56.1360561,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T23:59:00-03:00",
+     "fin": "2026-12-06T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/perreito-276469",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/SUxsVhaslC5Q9ZHZYLSKH.jpg",
+   "productor": "Lotus WTC",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

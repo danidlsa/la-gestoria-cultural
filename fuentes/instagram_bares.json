@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-22T15:51:17.831932-03:00",
+ "corrida": "2026-11-22T23:01:14.832360-03:00",
  "ok": true,
- "cantidad": 44,
+ "cantidad": 42,
  "errores": [],
  "eventos": [
   {
@@ -72,143 +72,10 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261111",
-   "url": "https://www.instagram.com/p/DfiNaf8mFgg/",
-   "titulo": "Centro Cultural de España: Beethoven 199",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Beethoven 199! Se acerca el bicentenario de la muerte de Ludwig van Beethoven y lo conmemoramos con un ciclo de conciertos de música de cámara que reúne a jóvenes talentos de nuestro país junto a destacados artistas. Una oportunidad para disfrutar en vivo de algunas de las grandes obras del…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfiNaf8mFgg/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/db13f0afa4cb.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "centroculturalterminalgoes-20261128",
-   "url": "https://www.instagram.com/p/DfxDaO6CetM/",
-   "titulo": "Centro Cultural Terminal Goes: Vuelve con una ÚNICA función",
-   "categoria": "humor",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Vuelve con una ÚNICA función! CRUDO Un monólogo de humor ácido y vulnerable sobre la ansiedad, la identidad y el deseo urgente de dejar de actuar incluso cuando nadie está mirando. Sábado 28 de noviembre 20:30 h Centro Cultural Terminal Goes Entradas en Tickantel Solicitá tu código para obtener…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfxDaO6CetM/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/73d0d83f1bd8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "lacretinacasa-20261206",
-   "url": "https://www.instagram.com/p/DeYID5KDQ4h/",
-   "titulo": "La Cretina: Mané Pérez & Compañía presenta: EL TIEMPO EN EL INTENTO",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Mané Pérez & Compañía presenta: EL TIEMPO EN EL INTENTO El próximo domingo 6 de diciembre, a las 20 horas, Mané abre las puertas de su universo musical y se presenta por primera vez con una banda de mujeres para compartir sus canciones. Durante años, Mané Pérez hizo que sus canciones crecieran en…",
-   "lugar": {
-    "nombre": "La Cretina",
-    "direccion": "Soriano 1236",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-06T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DeYID5KDQ4h/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e007ff46442c.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "centroculturalterminalgoes-20261103",
    "url": "https://www.instagram.com/p/DfSSI5DFIG9/",
    "titulo": "Centro Cultural Terminal Goes: Festival Internacional Atlantidoc",
-   "categoria": "musica",
+   "categoria": "cine",
    "categoria_segura": false,
    "descripcion_corta": "Festival Internacional Atlantidoc | Ciclo de cine Deslizá para conocer las propuestas para este mes Todos los miércoles | 19 horas Centro Cultural Terminal Goes Entrada libre y gratuita atlantidoc.uy mvdaudiovisual Festival Internacional Atlantidoc | Ciclo de cine Con los brazos abiertos Con los…",
    "lugar": {
@@ -343,6 +210,53 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261111",
+   "url": "https://www.instagram.com/p/Df98bANoMSs/",
+   "titulo": "Centro Cultural de España: Beethoven 199",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Beethoven 199! La música de cámara llega al CCE. En el camino hacia el bicentenario del fallecimiento de Ludwig van Beethoven, que se conmemora en 2027, te invitamos a disfrutar de una nueva presentación de este ciclo dedicado a su extraordinario legado musical. En esta edición, jóvenes talentos…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df98bANoMSs/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/db13f0afa4cb.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "sansuena_cafevivero-20261119",
    "url": "https://www.instagram.com/p/Df8FfWKtjrF/",
    "titulo": "Sansueña: Malvín se llena de flamenco! Una noche para dejarse llevar por la música",
@@ -385,50 +299,6 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "el.mingus-20261123",
-   "url": "https://www.instagram.com/p/Df6H6zalWBp/",
-   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: De lunes a domingos nuestra cocina esta abierta para venir a almorzar",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "de lunes a domingos nuestra cocina esta abierta para venir a almorzar variedad de platos y platitos y nuestra mesita en la vereda esta ideal pasar estos días lindos de calor :) te esperamos desde las 12 am",
-   "lugar": {
-    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-23T12:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df6H6zalWBp/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8e80e2a68840.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
    "muestra": false,
    "hasta": null
   },
@@ -710,53 +580,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261125",
-   "url": "https://www.instagram.com/p/Df98bANoMSs/",
-   "titulo": "Centro Cultural de España: Beethoven 199! La música de cámara llega al CCE",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Beethoven 199! La música de cámara llega al CCE. En el camino hacia el bicentenario del fallecimiento de Ludwig van Beethoven, que se conmemora en 2027, te invitamos a disfrutar de una nueva presentación de este ciclo dedicado a su extraordinario legado musical. En esta edición, jóvenes talentos…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df98bANoMSs/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f83c5de3f5a3.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "barlarondacafe-20261125",
    "url": "https://www.instagram.com/p/Df_Dow4t9SG/",
    "titulo": "La Ronda: Noches De Ensayos Abiertos · El Jardín",
@@ -948,7 +771,7 @@
    "fuente": "instagram_bares",
    "id_externo": "barandorra-20261126",
    "url": "https://www.instagram.com/p/DgBGw3POdcw/",
-   "titulo": "/11 Garo Arakelian vuelve al Bar Andorra para interpretar las canciones de su…",
+   "titulo": "Bar Andorra: Garo Arakelian, canciones de su discografía solista",
    "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": "Este jueves 26/11 Garo Arakelian vuelve al Bar Andorra para interpretar las canciones de su discografía solista (Un Mundo Sin Gloria y Milonga de Quirón) y también repasará algunas otras canciones de su creación para El Astillero y La Trampa, así como varios clásicos del repertorio de la música…",
@@ -1347,6 +1170,48 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3b71e4c376b7.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "centroculturalterminalgoes-20261128",
+   "url": "https://www.instagram.com/p/DfxDaO6CetM/",
+   "titulo": "Centro Cultural Terminal Goes: Vuelve con una ÚNICA función",
+   "categoria": "humor",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Vuelve con una ÚNICA función! CRUDO Un monólogo de humor ácido y vulnerable sobre la ansiedad, la identidad y el deseo urgente de dejar de actuar incluso cuando nadie está mirando. Sábado 28 de noviembre 20:30 h Centro Cultural Terminal Goes Entradas en Tickantel Solicitá tu código para obtener…",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": "Gral. Flores y Domingo Aramburú",
+    "lat": -34.882708,
+    "lon": -56.181856,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfxDaO6CetM/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/73d0d83f1bd8.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1768,6 +1633,50 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lacretinacasa-20261206",
+   "url": "https://www.instagram.com/p/DeYID5KDQ4h/",
+   "titulo": "La Cretina: Mané Pérez & Compañía presenta: EL TIEMPO EN EL INTENTO",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Mané Pérez & Compañía presenta: EL TIEMPO EN EL INTENTO El próximo domingo 6 de diciembre, a las 20 horas, Mané abre las puertas de su universo musical y se presenta por primera vez con una banda de mujeres para compartir sus canciones. Durante años, Mané Pérez hizo que sus canciones crecieran en…",
+   "lugar": {
+    "nombre": "La Cretina",
+    "direccion": "Soriano 1236",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DeYID5KDQ4h/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e007ff46442c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
