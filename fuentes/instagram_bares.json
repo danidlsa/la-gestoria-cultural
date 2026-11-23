@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-22T23:01:14.832360-03:00",
+ "corrida": "2026-11-23T13:32:25.821672-03:00",
  "ok": true,
- "cantidad": 42,
+ "cantidad": 49,
  "errores": [],
  "eventos": [
   {
@@ -304,6 +304,74 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "sala_zitarrosa-20261121",
+   "url": "https://www.instagram.com/p/DfzwCTem99O/",
+   "titulo": "Sala Zitarrosa: Una oportunidad para conocer más sobre la historia de la Sala, recorrer sus espacios y…",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "¡La Sala Zitarrosa comienza a ofrecer visitas guiadas con entrada libre y gratuita! Una oportunidad para conocer más sobre la historia de la Sala, recorrer sus espacios y acercarse a la identidad de uno de los escenarios culturales más emblemáticos de Montevideo. Esta iniciativa se suma a las…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.906238,
+    "lon": -56.194472,
+    "barrio": "Centro",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T15:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-05T15:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-19T15:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-26T15:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfzwCTem99O/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f9420004e70f.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261123",
    "url": "https://www.instagram.com/p/DfpYoOZFg-v/",
    "titulo": "Centro Cultural de España: Alerta rosa",
@@ -524,6 +592,55 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ccab8b1e07ee.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "latabernadebrecha-20261124",
+   "url": "https://www.instagram.com/p/DgD_vFCFlvo/",
+   "titulo": "La Taberna de Brecha: Último martes de noviembre con un formato especial",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Último martes de noviembre con un formato especial. poporomano trío + cataerdelyi Martes 24 de noviembre / 21:00h. Entrada libre. Lugares limitados por orden de llegada. Entrega de accesos desde las 20:00. Nos vemos abajo.",
+   "lugar": {
+    "nombre": "La Taberna de Brecha",
+    "direccion": "Durazno y Jackson",
+    "lat": -34.909634,
+    "lon": -56.172902,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-24T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgD_vFCFlvo/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/55508aaada79.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1044,6 +1161,53 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "peatonaltours-20261128",
+   "url": "https://www.instagram.com/p/Df4mHy8ylLw/",
+   "titulo": "Peatonal Tours: 𝗡𝗨𝗘𝗩𝗔 𝗙𝗘𝗖𝗛𝗔",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "¡𝗡𝗨𝗘𝗩𝗔 𝗙𝗘𝗖𝗛𝗔! ᴛᴏᴜʀ ʀᴇʟɪɢɪᴏꜱᴏ - ᴇᴅɪᴄɪóɴ ᴄɪᴜᴅᴀᴅ ᴠɪᴇᴊᴀ En el marco de la histórica visita del Papa León XIV a nuestro país, Peatonal Tours realizará un recorrido especial por Ciudad Vieja en clave religiosa. El tour presenta una retrospectiva histórica acerca de la presencia de la Iglesia en nuestro…",
+   "lugar": {
+    "nombre": "Fuente de la Plaza Matriz",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df4mHy8ylLw/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/0f7eaea5800d.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "museozorrilla-20261128",
    "url": "https://www.instagram.com/p/Dfzeii8RigE/",
    "titulo": "Museo Zorrilla: Presentación del Calendario Caja Baja 2027",
@@ -1123,6 +1287,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f329edfb078c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "epi_cultural-20261128",
+   "url": "https://www.instagram.com/p/Df92KTJgQlU/",
+   "titulo": "Espacio Peppino Impastato: Abrimos EPI",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Para cerrar la grilla tenemos artista sorpresa! El sábado 28 de noviembre no te lo podes perder ya avisamos Sábado 28 de noviembre | 18:30 hs. Piedras 429 (Ciudad Vieja) Entrada libre y gratuita Vení a disfrutar de buena música y cosas ricas ¿Quien te gustaría que esté?",
+   "lugar": {
+    "nombre": "Espacio Peppino Impastato",
+    "direccion": "Piedras 429",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df92KTJgQlU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/0e829c58e076.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1269,6 +1480,53 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "peatonaltours-20261129",
+   "url": "https://www.instagram.com/p/DfLJwb0Sdme/",
+   "titulo": "Peatonal Tours: ᴘᴀꜱᴇᴏ ʙᴇʟʟᴏ & ʀᴇʙᴏʀᴀᴛɪ ᴘᴏʀ ᴘᴏᴄɪᴛᴏꜱ",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "ᴘᴀꜱᴇᴏ ʙᴇʟʟᴏ & ʀᴇʙᴏʀᴀᴛɪ ᴘᴏʀ ᴘᴏᴄɪᴛᴏꜱ Los invitamos a redescubrir la huella de B&R en un recorrido en el que abordaremos diferentes temas: Plaza Gomensoro Conjuntos de casas B&R Casa de Ramón Bello Casa de Alberto Reborati Sustitución edilicia de años 50 Pocitos de casas bajas vs explosión…",
+   "lugar": {
+    "nombre": "ᴘᴀꜱᴇᴏ ʙᴇʟʟᴏ & ʀᴇʙᴏʀᴀᴛɪ ᴘᴏʀ ᴘᴏᴄɪᴛᴏꜱ",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfLJwb0Sdme/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/9c7866b1e544.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "elbar_delxsamigxs-20261129",
    "url": "https://www.instagram.com/p/Df0IbtaGBqM/",
    "titulo": "Brecha Bar y Cafe: Cumplimos 12 años",
@@ -1404,6 +1662,60 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/84095090e04c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "sala_zitarrosa-20261202",
+   "url": "https://www.instagram.com/p/Df-rahfiBNy/",
+   "titulo": "Sala Zitarrosa: Una noche de celebración y reconocimiento de Montevideo al Candombe como Patrimonio…",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Una noche de celebración y reconocimiento de Montevideo al Candombe como Patrimonio Cultural Nacional del Uruguay y Patrimonio Cultural Inmaterial de la Humanidad (UNESCO). Un encuentro de celebración y música de la Sala Zitarrosa, del Departamento de Cultura, y la División Turismo de la…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": "Av. 18 de Julio 1012",
+    "lat": -34.906238,
+    "lon": -56.194472,
+    "barrio": "Centro",
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T15:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-07T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df-rahfiBNy/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/0a16326214de.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1586,6 +1898,58 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/986198210831.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "peatonaltours-20261206",
+   "url": "https://www.instagram.com/p/Df-fdHmyuNL/",
+   "titulo": "Peatonal Tours: ᴛᴏᴜʀ ᴘᴀᴛʀɪᴍᴏɴɪᴀʟ ʏ ᴀʀǫᴜɪᴛᴇᴄᴛóɴɪᴄᴏ",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "ᴛᴏᴜʀ ᴘᴀᴛʀɪᴍᴏɴɪᴀʟ ʏ ᴀʀǫᴜɪᴛᴇᴄᴛóɴɪᴄᴏ Como cierre de año de Paseo Centro y en el marco de la Feria Una celebración a Montevideo , realizaremos un recorrido por nuestra avenida principal descubriendo la historia de los edificios más emblemáticos y junto a ellos sus historias tan atrapantes e…",
+   "lugar": {
+    "nombre": "Club Cultural Charco",
+    "direccion": "Maldonado 1477",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Paseo Centro",
+     "en el marco de la Feria “Una celebración a Montevideo”",
+     "realizaremos un recorrido por nuestra avenida principal descubriendo la historia de los edificios más emblemáticos",
+     "junto a ellos sus historias tan atrapantes e interesantes"
+    ]
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df-fdHmyuNL/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b8fb350079c0.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

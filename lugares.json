@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T23:02:11.926702-03:00",
+ "generado": "2026-11-23T13:33:29.107540-03:00",
  "cantidad": 179,
  "lugares": [
   {
@@ -528,16 +528,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "complejo-malvin-alto",
-   "nombre": "Complejo Malvín Alto",
-   "alias": [],
-   "direccion": "Hipólito Yrigoyen entre Cno. Carrasco y Petrona Rosende",
-   "lat": -34.87123073205,
-   "lon": -56.115868171921,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "complejo-sala-show",
    "nombre": "Complejo Sala Show",
    "alias": [],
@@ -703,6 +693,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "espacio-peppino-impastato",
+   "nombre": "Espacio Peppino Impastato",
+   "alias": [],
+   "direccion": "Piedras 429",
+   "lat": -34.9046595,
+   "lon": -56.2078867,
+   "barrio": "Ciudad Vieja",
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "espacio-teatro",
    "nombre": "Espacio Teatro",
    "alias": [],
@@ -807,16 +807,6 @@
    "ciudad": "Montevideo"
   },
   {
-   "id": "hotel-montevideo",
-   "nombre": "Hotel Montevideo",
-   "alias": [],
-   "direccion": "José Benito Lamas 2901, 11300 Montevideo",
-   "lat": -34.913071,
-   "lon": -56.153315,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
    "id": "hotel-radisson-victoria-plaza",
    "nombre": "Hotel Radisson Victoria Plaza",
    "alias": [
@@ -879,6 +869,16 @@
    "direccion": "Av. 18 de Julio 1360, 11200 Montevideo,",
    "lat": -34.906534,
    "lon": -56.186072,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "jose-enrique-rodo-1995",
+   "nombre": "José Enrique Rodó 1995",
+   "alias": [],
+   "direccion": "Rodo 1995",
+   "lat": -34.9033829,
+   "lon": -56.1739249,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1062,6 +1062,16 @@
    "direccion": "Pablo de María 1015",
    "lat": -34.91042,
    "lon": -56.170582,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
+   "id": "miguelete-piedra-alta",
+   "nombre": "Miguelete & Piedra Alta",
+   "alias": [],
+   "direccion": "Miguelete & Piedra Alta, 11800 Montevide",
+   "lat": -34.897587,
+   "lon": -56.185189,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1253,16 +1263,6 @@
    "direccion": "Rambla Sur",
    "lat": -34.912177,
    "lon": -56.196065,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "parque-villa-garcia",
-   "nombre": "Parque Villa García",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.803696,
-   "lon": -56.0803352,
    "barrio": null,
    "ciudad": "Montevideo"
   },
@@ -1510,6 +1510,16 @@
    "ciudad": "Montevideo"
   },
   {
+   "id": "sala-mitre",
+   "nombre": "SALA MITRE",
+   "alias": [],
+   "direccion": "Bartolomé Mitre 1321, 11000 Montevideo,",
+   "lat": -34.907138,
+   "lon": -56.201924,
+   "barrio": null,
+   "ciudad": "Montevideo"
+  },
+  {
    "id": "sala-26",
    "nombre": "Sala 26",
    "alias": [],
@@ -1622,7 +1632,7 @@
    "direccion": "Av. 18 de Julio 1012",
    "lat": -34.906238,
    "lon": -56.194472,
-   "barrio": null,
+   "barrio": "Centro",
    "ciudad": "Montevideo"
   },
   {
@@ -1799,7 +1809,6 @@
     "Sala Zabala Muniz",
     "Sala Principal Teatro Solís",
     "Sala Principal del Teatro Solís",
-    "Sala Zavala Muniz - Teatro Solís",
     "Sala Zabala Muniz – Teatro Solís",
     "Zavala Muniz | Teatro Solís"
    ],
@@ -1815,23 +1824,12 @@
    "alias": [
     "Teatro Stella D'Italia. La Gaviota",
     "Teatro Stella D'Italia. La Gaviota.",
+    "Teatro Stella D'Italia",
     "Teatro Stella DItalia. La Gaviota."
    ],
    "direccion": "Mercedes 1805",
    "lat": -34.900541,
    "lon": -56.178195,
-   "barrio": null,
-   "ciudad": "Montevideo"
-  },
-  {
-   "id": "teatro-stella-d-italia",
-   "nombre": "Teatro Stella D’Italia",
-   "alias": [
-    "Teatro Stella D'Italia"
-   ],
-   "direccion": "Mercedes 1805",
-   "lat": -34.900608,
-   "lon": -56.178207,
    "barrio": null,
    "ciudad": "Montevideo"
   },

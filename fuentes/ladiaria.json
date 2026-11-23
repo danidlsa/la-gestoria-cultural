@@ -1,8 +1,8 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-22T22:57:34.171658-03:00",
+ "corrida": "2026-11-23T13:28:43.122826-03:00",
  "ok": true,
- "cantidad": 47,
+ "cantidad": 46,
  "errores": [],
  "eventos": [
   {
@@ -126,13 +126,6 @@
    "funciones": [
     {
      "inicio": "2026-11-27T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-22T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -323,15 +316,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 275.0,
     "hasta": 275.0,
@@ -554,13 +539,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-22T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T00:00:00-03:00",
      "fin": null,
@@ -1245,13 +1223,6 @@
     "alternativas": []
    },
    "funciones": [
-    {
-     "inicio": "2026-11-22T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T21:00:00-03:00",
      "fin": null,
@@ -1969,15 +1940,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 1030.0,
     "hasta": 1030.0,
@@ -2144,15 +2107,7 @@
     "barrio": null,
     "alternativas": []
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 600.0,
     "hasta": 600.0,
@@ -2292,58 +2247,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Camara-Hamlet/32869/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "17919",
-   "url": "https://beneficios.ladiaria.com.uy/german-medina-catarsis/",
-   "titulo": "Germán Medina – Catarsis",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "¡Germán Medina vuelve al Teatro de Verano! Con su estilo único, cercano y explosivo, Germán se ha consolidado como una de las figuras más destacadas del humor nacional, conquistando al público con anécdotas cotidianas, improvisación y una energía arrolladora en escena. Una noche imperdible para…",
-   "lugar": {
-    "nombre": "Teatro de Verano",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 950.0,
-    "hasta": 950.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40020784/espectaculo/Germ%C3%A1n%20Medina?4",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/german-medina-catarsis/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/inicio/espectaculo/40020784/espectaculo/Germ%C3%A1n%20Medina?4"
    ],
    "ciclo": null,
    "etiquetas": [],

@@ -1,10 +1,52 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-22T23:00:21.729154-03:00",
+ "corrida": "2026-11-23T13:31:29.458814-03:00",
  "ok": true,
- "cantidad": 7,
+ "cantidad": 8,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "mientrada",
+   "id_externo": "30876",
+   "url": "https://mientrada.com.uy/evento/emile-presenta-more-lo-lo-loren-30876",
+   "titulo": "EMILE PRESENTA: MORE / LO-LO / LOREN",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Emile",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T23:59:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mientrada.com.uy/evento/emile-presenta-more-lo-lo-loren-30876",
+     "via": "mientrada"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30876_banner5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "mientrada",
    "id_externo": "30868",

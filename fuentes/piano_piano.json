@@ -1,54 +1,10 @@
 {
  "fuente": "piano_piano",
- "corrida": "2026-11-22T22:57:33.058361-03:00",
+ "corrida": "2026-11-23T13:28:41.939949-03:00",
  "ok": true,
- "cantidad": 15,
+ "cantidad": 14,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "piano_piano",
-   "id_externo": "2026-11-21-Germán Medina",
-   "url": "https://pianopiano.uy/agenda/",
-   "titulo": "Germán Medina",
-   "categoria": "humor",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Teatro de Verano",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40020784?7",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://pianopiano.uy/wp-content/uploads/federicamph-15-piano-piano.jpg",
-   "productor": "Piano Piano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40020784?7"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "piano_piano",
    "id_externo": "2026-11-22-Coti",

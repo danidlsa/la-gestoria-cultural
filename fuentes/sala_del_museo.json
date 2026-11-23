@@ -1,54 +1,10 @@
 {
  "fuente": "sala_del_museo",
- "corrida": "2026-11-22T22:57:19.505787-03:00",
+ "corrida": "2026-11-23T13:28:27.404440-03:00",
  "ok": true,
  "cantidad": 12,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "sala_del_museo",
-   "id_externo": "coti",
-   "url": "https://www.saladelmuseo.com.uy/shows/item/coti.html",
-   "titulo": "COTI",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Tras recorrer los escenarios más importantes de América Latina y Europa, el músico y compositor argentino COTI llega a Montevideo, Uruguay.. El próximo 22 de noviembre, en Sala del Museo del Carnaval sera la velada que promete ser el broche de oro de una travesía musical sin precedentes. El show…",
-   "lugar": {
-    "nombre": "Sala del Museo",
-    "direccion": "Rambla 25 de Agosto esq. Maciel",
-    "lat": -34.905789,
-    "lon": -56.212222,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/COTI/32964/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_14_1_3a13258cbc19767af844ad212910d873.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/COTI/32964/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "sala_del_museo",
    "id_externo": "la-chancha-2",
@@ -527,6 +483,50 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/TUSSIWARRIORS/34706/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "samba-do-marcio-11",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/samba-do-marcio-11.html",
+   "titulo": "SAMBA DO MARCIO",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Samba do Marcio llega con su última fecha del mes a la Sala del Museo del Carnaval. El espectáculo se desarrolla en un escenario 360° en el centro del público, generando una experiencia cercana, participativa y envolvente. Con Marcio como anfitrión y acompañado por talentosos músicos y músicas de…",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-17T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Samba-Do-Marcio--DICIEMBRE/34945/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_1_2_ecc84e3d02f0f1ae38bf218ddb64eaa3.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Samba-Do-Marcio--DICIEMBRE/34945/"
    ],
    "ciclo": null,
    "etiquetas": [],

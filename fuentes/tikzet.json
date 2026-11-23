@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-22T23:00:54.810291-03:00",
+ "corrida": "2026-11-23T13:32:04.498842-03:00",
  "ok": true,
  "cantidad": 13,
  "errores": [],
@@ -232,6 +232,53 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Ffe957b7d-f2ed-4c67-a998-1da80da079f2.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "10272af4-5882-411e-bf7f-1dde4bfc299e",
+   "url": "https://www.tikzet.com/events/catalina-erdelyi-cuarteto",
+   "titulo": "Catalina Erdelyi Cuarteto",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "*Este show es con el público sentado con mesas y sillas.",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": []
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T20:30:00-03:00",
+     "fin": "2026-11-26T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 340.0,
+    "hasta": 340.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/catalina-erdelyi-cuarteto",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fccf19bc7-f6f4-4858-b045-967370cbe72b.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -515,53 +562,6 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
    "productor": "Sala Ducón",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "10272af4-5882-411e-bf7f-1dde4bfc299e",
-   "url": "https://www.tikzet.com/events/catalina-erdelyi-cuarteto",
-   "titulo": "Catalina Erdelyi Cuarteto",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "*Este show es con el público sentado con mesas y sillas.",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T20:30:00-03:00",
-     "fin": "2026-11-26T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 340.0,
-    "hasta": 340.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/catalina-erdelyi-cuarteto",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fccf19bc7-f6f4-4858-b045-967370cbe72b.original",
-   "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

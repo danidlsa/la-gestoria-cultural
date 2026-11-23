@@ -1,47 +1,7 @@
 {
- "generado": "2026-11-22T23:02:11.926702-03:00",
- "cantidad": 21,
+ "generado": "2026-11-23T13:33:29.107540-03:00",
+ "cantidad": 19,
  "ciclos": [
-  {
-   "id": "ciclo-musica-en-el-parque",
-   "titulo": "Música en el Parque",
-   "lugar_id": null,
-   "desde": "2026-11-22T18:00:00-03:00",
-   "hasta": "2026-11-29T16:00:00-03:00",
-   "cantidad": 2
-  },
-  {
-   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
-   "titulo": "Estreno de obras Fortalecimiento de las Artes",
-   "lugar_id": null,
-   "desde": "2026-11-22T19:00:00-03:00",
-   "hasta": "2026-12-04T21:00:00-03:00",
-   "cantidad": 4
-  },
-  {
-   "id": "ciclo-primavera-tango",
-   "titulo": "Primavera Tango",
-   "lugar_id": "centro-cultural-terminal-goes",
-   "desde": "2026-11-22T20:00:00-03:00",
-   "hasta": "2026-11-22T20:00:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-pena-sin-cadenas",
-   "titulo": "Peña sin cadenas",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-22T20:05:00-03:00",
-   "hasta": "2026-11-22T20:05:00-03:00",
-   "cantidad": 1
-  },
-  {
-   "id": "ciclo-ciclo-de-teatro",
-   "titulo": "Ciclo de teatro",
-   "lugar_id": null,
-   "desde": "2026-11-22T21:00:00-03:00",
-   "hasta": "2026-12-12T18:00:00-03:00",
-   "cantidad": 7
-  },
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
@@ -64,7 +24,7 @@
    "lugar_id": "cinemateca",
    "desde": "2026-11-23T19:35:00-03:00",
    "hasta": "2026-11-28T20:10:00-03:00",
-   "cantidad": 6
+   "cantidad": 5
   },
   {
    "id": "ciclo-ciclo-marea",
@@ -80,7 +40,31 @@
    "lugar_id": "auditorio-vaz-ferreira",
    "desde": "2026-11-26T20:00:00-03:00",
    "hasta": "2026-12-17T20:00:00-03:00",
-   "cantidad": 4
+   "cantidad": 3
+  },
+  {
+   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
+   "titulo": "Estreno de obras Fortalecimiento de las Artes",
+   "lugar_id": null,
+   "desde": "2026-11-26T21:00:00-03:00",
+   "hasta": "2026-12-04T21:00:00-03:00",
+   "cantidad": 3
+  },
+  {
+   "id": "ciclo-musica-en-el-parque",
+   "titulo": "Música en el Parque",
+   "lugar_id": "plaza-de-las-pioneras",
+   "desde": "2026-11-28T16:00:00-03:00",
+   "hasta": "2026-11-29T16:00:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-ciclo-de-teatro",
+   "titulo": "Ciclo de teatro",
+   "lugar_id": null,
+   "desde": "2026-11-28T18:00:00-03:00",
+   "hasta": "2026-12-12T18:00:00-03:00",
+   "cantidad": 6
   },
   {
    "id": "ciclo-actividades-en-el-parque-maua",
