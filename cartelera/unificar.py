@@ -29,6 +29,8 @@ PRIORIDAD = {
     "tickantel": 3, "redtickets": 3, "ticketmaster_uy": 3, "portal_im": 3, "fever": 3, "mec_museos": 3,
     "mientrada": 3, "cobraticket": 3, "entraste": 3, "tikzet": 3,
     "cartelera_mvd": 2, "corchea": 2, "propuestos": 2, "gaucho": 2, "piano_piano": 2, "ladiaria": 1, "instagram_bares": 1,
+    # La grilla de una nota trae títulos escuetos ("Garo en vivo"): si el bar lo anunció, vale el título del bar.
+    "notas_especiales": 0,
 }
 MARGEN_PASADO = timedelta(hours=6)
 DISTANCIA_MISMO_LUGAR_M = 120
@@ -101,6 +103,15 @@ def partes_del_nombre(nombre: str) -> tuple[list[str], str | None]:
     return candidatas, direccion
 
 
+def usuario_de_instagram(texto: str | None) -> str | None:
+    """El usuario de una cuenta de Instagram, como sea que venga ("@barmarbella.uy", "barmarbella.uy" o la dirección
+    del perfil). None si no parece un usuario: el sitio arma el enlace con esto."""
+    if not texto:
+        return None
+    usuario = re.sub(r"^(?:https?://)?(?:www\.)?instagram\.com/", "", texto.strip()).strip("@/ ").split("/")[0].split("?")[0]
+    return usuario if re.fullmatch(r"[A-Za-z0-9._]{1,30}", usuario) else None
+
+
 class Catalogo:
     """Asigna un lugar del catálogo a cada lugar crudo, por alias, por nombre o por cercanía."""
 
@@ -113,7 +124,7 @@ class Catalogo:
             lugar = Lugar(
                 id=entrada["id"], nombre=entrada["nombre"], alias=entrada.get("alias", []),
                 direccion=entrada.get("direccion"), lat=entrada.get("lat"), lon=entrada.get("lon"),
-                barrio=entrada.get("barrio"),
+                barrio=entrada.get("barrio"), instagram=usuario_de_instagram(entrada.get("instagram")),
             )
             self.lugares[lugar.id] = lugar
             if entrada.get("solo_por_nombre"):
@@ -162,7 +173,8 @@ class Catalogo:
                 return self.asignar(nombre, None, *punto)
         return None
 
-    def asignar(self, nombre: str, direccion: str | None, lat: float | None, lon: float | None, barrio: str | None = None) -> str:
+    def asignar(self, nombre: str, direccion: str | None, lat: float | None, lon: float | None, barrio: str | None = None,
+                instagram: str | None = None) -> str:
         nombre, _sala = separar_sala(nombre)
         clave = normalizar(nombre)
         lugar_id = self._por_nombre.get(clave)
@@ -195,6 +207,8 @@ class Catalogo:
             lugar.direccion = direccion
         if lugar.barrio is None and barrio:
             lugar.barrio = barrio
+        if lugar.instagram is None and instagram:
+            lugar.instagram = usuario_de_instagram(instagram)
         if nombre != lugar.nombre and nombre not in lugar.alias:
             lugar.alias.append(nombre)
         return lugar_id
@@ -440,7 +454,8 @@ def armar_cartelera(
     crudos = [e for r in resultados for e in r.eventos if not es_comida(e.titulo)]
     corridas = {r.fuente: r.corrida for r in resultados}
     catalogo = Catalogo(alias)
-    lugar_de = [catalogo.asignar(c.lugar.nombre, c.lugar.direccion, c.lugar.lat, c.lugar.lon, c.lugar.barrio) for c in crudos]
+    lugar_de = [catalogo.asignar(c.lugar.nombre, c.lugar.direccion, c.lugar.lat, c.lugar.lon, c.lugar.barrio, c.lugar.instagram)
+                for c in crudos]
     # Segunda pasada, para los que quedaron sin ubicar: un nombre compuesto ("Espacio Palermo | Isla de Flores 1631")
     # puede ser de una sala que apareció después, con su nombre solo y con coordenadas.
     for i, c in enumerate(crudos):

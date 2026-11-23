@@ -406,6 +406,18 @@ def test_la_etiqueta_bares():
     assert ig.evento_de(afuera, AHORA).etiquetas == [] and ig.evento_de(sala, AHORA).etiquetas == []
 
 
+def test_la_cuenta_del_lugar(tmp_path, monkeypatch):
+    monkeypatch.setattr(ig, "CONFIG", tmp_path / "bares.toml")
+    (tmp_path / "bares.toml").write_text('[[bar]]\nusuario = "theshannonuy"\ndireccion = "Bartolomé Mitre 1318"\n'
+                                         '[[bar]]\nusuario = "mbc"\ndireccion = "Ombú 1234"\n'
+                                         '[[bar]]\nusuario = "unaferia"\nitinerante = true\n', encoding="utf-8")
+    (en_el_bar,) = ig.borradores_del_post(_post(1, "Jueves 12: SPAGUETTI WESTERN 22 hs", "2026-11-09"), {"usuario": "theshannonuy"}, {}, AHORA)
+    (afuera,) = ig.borradores_del_post(_post(2, "13 de noviembre 21 hs\n📍 Museo Oceanográfico", "2026-11-09"), {"usuario": "mbc"}, {"name": "MBC"}, AHORA)
+    (feria,) = ig.borradores_del_post(_post(3, "Sábado 14 de noviembre 17 hs", "2026-11-09"), {"usuario": "unaferia", "itinerante": True}, {}, AHORA)
+    # El lugar del evento es la cuenta solo si es en el bar; en otro lado (📍) o de una cuenta sin lugar fijo, no.
+    assert [ig.evento_de(b, AHORA).lugar.instagram for b in (en_el_bar, afuera, feria)] == ["theshannonuy", None, None]
+
+
 def test_las_horas_en_rango_y_las_convocatorias():
     assert funciones("Sábado 14 de noviembre, 13 (17-22h)") == ["14/11 17:00"]  # la feria abre a las 17
     assert funciones("Viernes 20/11 | 18.30 a 20.30 h") == ["20/11 18:30"]

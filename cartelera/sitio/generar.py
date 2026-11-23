@@ -11,6 +11,7 @@ import shutil
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import unquote
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from markupsafe import Markup
@@ -74,6 +75,7 @@ FUENTES = {
     "corchea": "la cartelera de Corchea", "propuestos": "los organizadores que mandan sus eventos",
     "mapas_especiales": "el programa oficial de los eventos especiales", "tikzet": "Tikzet",
     "instagram_bares": "las cuentas de Instagram de bares y salas chicas", "peatonal_tours": "Peatonal Tours",
+    "notas_especiales": "el programa oficial de los eventos especiales",
 }
 # Para los botones de compra: dónde se consigue la entrada.
 VIAS = {
@@ -84,13 +86,14 @@ VIAS = {
     "gurvich": "el Museo Gurvich", "mapi": "el MAPI", "mec_museos": "el MEC",
     "salacamacua": "la Sala Camacuá", "corchea": "Corchea", "passline": "Passline", "entradasfans": "Entradas Fans",
     "instagram": "Instagram", "propuestos": "su web", "mapas_especiales": "la Intendencia", "tikzet": "Tikzet",
-    "peatonal_tours": "Peatonal Tours",
+    "peatonal_tours": "Peatonal Tours", "notas_especiales": "el Municipio B",
 }
 # Vías que son la ficha del evento, no una venta: el botón dice "Ver en …" y no "Entradas en …".
 SOLO_INFORMACION = {
     "cartelera_mvd", "solis", "teatro_de_verano", "sodre", "galpon", "cinemateca", "portal_im", "zitarrosa",
     "sala_del_museo", "gaucho", "piano_piano", "ladiaria", "museos_im", "mnav", "torres_garcia",
     "gurvich", "mapi", "mec_museos", "salacamacua", "corchea", "instagram", "propuestos", "mapas_especiales",
+    "notas_especiales",
 }
 
 
@@ -304,7 +307,7 @@ def datos_para_el_navegador(eventos: list[dict], lugares: dict[str, dict], ciclo
         "lugares": {
             id_: {
                 "nombre": l["nombre"], "lat": l.get("lat"), "lon": l.get("lon"), "direccion": l.get("direccion"),
-                "barrio": l.get("barrio"),
+                "barrio": l.get("barrio"), "instagram": l.get("instagram"),
                 "tipo": tipo_de_lugar(id_, l["nombre"], por_lugar.get(id_, [])),
                 "donde": de_lugar.get(id_),
             }
@@ -405,6 +408,8 @@ def generar() -> Path:
 
     entorno = Environment(loader=FileSystemLoader(AQUI / "plantillas"), autoescape=select_autoescape(["html", "j2"]))
     entorno.filters["fecha_corta"] = fecha_corta
+    # "municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-cafés…" y no "…caf%C3%A9s…".
+    entorno.filters["enlace_legible"] = lambda url: unquote(re.sub(r"^https?://", "", url or ""))
     entorno.filters["precio_texto"] = precio_texto
     entorno.filters["presupuesto"] = presupuesto
     entorno.filters["entrada_principal"] = entrada_principal

@@ -498,6 +498,9 @@ select {
 }
 .eg-lugar strong { font: 800 0.95rem/1.15 var(--display); }
 .eg-lugar a { font-size: 0.78rem; font-weight: 700; color: var(--cobalto-texto); text-underline-offset: 3px; }
+.eg-enlaces { font-size: 0.78rem; }
+/* "Cómo llegar ↗" e "Instagram ↗" no se cortan entre la palabra y la flecha. */
+.esp-dir a, .eg-enlaces a, .esp-meta a { white-space: nowrap; }
 .eg-pista {
   position: relative; flex: 1; min-height: 40px;
   background-image: repeating-linear-gradient(to right, color-mix(in srgb, var(--texto) 12%, transparent) 0 1px, transparent 1px var(--px-hora));

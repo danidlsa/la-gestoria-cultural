@@ -533,6 +533,14 @@ def _con_lugar_fijo(cuenta: dict) -> bool:
     return bool(cuenta.get("direccion") or cuenta.get("lat"))
 
 
+def _cuenta_con_lugar(usuario: str) -> bool:
+    """Si la cuenta es de un lugar (un bar, una sala) y no de algo que va de un lado a otro (una feria, un recorrido)."""
+    try:
+        return any(c["usuario"] == usuario and _con_lugar_fijo(c) for c in cuentas())
+    except OSError:
+        return False
+
+
 def cuenta_del_lugar(nombre: str) -> dict | None:
     """La cuenta de la lista que es ese lugar, si se sabe dónde queda: el 📍 "MuMi" es "MuMI - Muralla Abierta"."""
     buscado = _claves(nombre)
@@ -786,8 +794,10 @@ def evento_de(b: dict, ahora: datetime) -> EventoCrudo | None:
         categoria=b.get("categoria") or clasificar(titulo, texto, por_defecto=por_defecto().get(b["usuario"]) or "otros"),
         categoria_segura=bool(b.get("categoria")),
         descripcion_corta=recortar(re.sub(r"\s+", " ", _ADORNOS.sub(" ", texto)).strip()),
+        # Si es en el lugar de la cuenta (no en otro que nombra con 📍), el lugar es esa cuenta.
         lugar=LugarCrudo(nombre=b["lugar"], direccion=b.get("direccion"), barrio=b.get("barrio"), lat=b.get("lat"), lon=b.get("lon"),
-                         alternativas=b.get("paradas") or []),
+                         alternativas=b.get("paradas") or [],
+                         instagram=None if b.get("lugar_del_pin") or not _cuenta_con_lugar(b["usuario"]) else b["usuario"]),
         funciones=funciones,
         precio=precio_del_texto(texto),
         entradas=[Entrada(url=b["url"], via="instagram")],

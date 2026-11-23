@@ -78,6 +78,7 @@ class LugarCrudo(BaseModel):
     # Otros lugares que nombra la fuente, en orden (las paradas de un recorrido): si este no se puede ubicar, el evento
     # va al primero de esos que se encuentre, como ubicación aproximada.
     alternativas: list[str] = []
+    instagram: str | None = None  # la cuenta del lugar, si la fuente la sabe (los bares de Instagram)
 
 
 class EventoCrudo(BaseModel):
@@ -128,6 +129,7 @@ class Lugar(BaseModel):
     lon: float | None = None
     barrio: str | None = None
     ciudad: str = "Montevideo"
+    instagram: str | None = None  # el usuario de la cuenta del lugar ("barandorra"), para enlazarla desde el sitio
 
 
 Subcategoria = Literal[

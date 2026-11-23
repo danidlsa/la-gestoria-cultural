@@ -270,3 +270,63 @@ id = "plaza-cagancha"
 nombre = "Plaza Cagancha"
 alias = ["Fotogaleria CdF Plaza Cagancha (Acera Norte)", "Fotogalería CdF Plaza Cagancha (Acera Norte)",
          "Fotogaleria CdF Plaza Cagancha", "Fotogalería CdF Plaza Cagancha", "Plaza Libertad"]
+
+# Los de la Noche de los Cafés y Bares Notables (Municipio B), con su barrio (el de OpenStreetMap) para agruparlos en la
+# pestaña, y su cuenta de Instagram (`instagram`, el usuario), que el sitio enlaza al lado de "Cómo llegar". Del Marbella
+# y el Santa Catalina la nota da solo la esquina, que OpenStreetMap no encuentra: van con las coordenadas del bar.
+[[lugar]]
+id = "cafe-brasilero"
+nombre = "Café Brasilero"
+barrio = "Ciudad Vieja"
+instagram = "cafebrasilero.uy"
+
+[[lugar]]
+id = "bar-facal"
+nombre = "Bar Facal"
+barrio = "Centro"
+instagram = "barfacal"
+
+[[lugar]]
+id = "bar-paysandu"
+nombre = "Bar Paysandú"
+barrio = "Centro"
+instagram = "paysandu_bar"
+
+[[lugar]]
+id = "bar-andorra"
+nombre = "Bar Andorra"
+barrio = "Barrio Sur"
+instagram = "barandorra"
+
+[[lugar]]
+id = "montevideo-al-sur"
+nombre = "Montevideo al Sur"
+barrio = "Barrio Sur"
+instagram = "mvdalsur"
+
+[[lugar]]
+id = "escaramuza"
+nombre = "Escaramuza"
+alias = ["Escaramuza Libros y Café", "Escaramuza Libros & Café"]
+barrio = "Cordón"
+instagram = "_escaramuza"
+
+[[lugar]]
+id = "bar-marbella"
+nombre = "Bar Marbella"
+alias = ["Marbella"]
+direccion = "Av. Gonzalo Ramírez y Dr. Joaquín de Salterain"
+barrio = "Parque Rodó"
+lat = -34.911478
+lon = -56.1691306
+instagram = "barmarbella.uy"
+
+[[lugar]]
+id = "santa-catalina-bar-cafe"
+nombre = "Santa Catalina Bar Café"
+alias = ["Santa Catalina Bar", "Santa Catalina"]
+direccion = "Ciudadela 1200"
+barrio = "Barrio Sur"
+lat = -34.909496
+lon = -56.1999995
+instagram = "santacatalinabar"

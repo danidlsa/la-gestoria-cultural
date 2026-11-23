@@ -98,6 +98,11 @@ corre_en = "local"
 [mapas_especiales]
 corre_en = "actions"
 
+# Programas de los eventos especiales publicados en una noticia, con la grilla en el texto (config/eventos_especiales.toml).
+# Por ahora, la Noche de los Cafés y Bares Notables (Municipio B). 23/11/2026.
+[notas_especiales]
+corre_en = "actions"
+
 # Ticketera de salas y productoras independientes (El Hormiguero, Tatu…). 9/11/2026.
 [tikzet]
 corre_en = "actions"

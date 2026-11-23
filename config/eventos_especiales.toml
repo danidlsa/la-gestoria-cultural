@@ -7,15 +7,16 @@ activo = true
 # viene y tiene programa. Los demás quedan guardados acá abajo, sin mostrarse (y sin avisos).
 # Cada uno que se muestra lleva la fecha de esa edición (`desde`, y `hasta` si dura más de un día): cuando termina,
 # la pestaña desaparece sola, aunque siga en esta lista. Sin fecha, uno que se repite pasaría solo a la edición siguiente.
-mostrar = ["sabados-en-ciudad-vieja"]
+mostrar = ["noche-de-los-cafes-y-bares-notables", "sabados-en-ciudad-vieja"]
 
 # `sitio` no se muestra en la web (varios no eran el sitio correcto): solo va en el aviso interno, para revisar.
 # `pagina` sí se muestra: es la página oficial del programa. `pestana` y `pestana_corta` son el nombre de la pestaña
 # (en la compu y en la barra de abajo del celular, donde reemplaza a "Mapa" mientras se muestra); `icono`, su dibujo;
-# `enlace`, el atajo para difundirlo (lagestoriacultural.uy/<enlace>); `grilla = false` esconde la vista grilla; `vista = "tipo"`
+# `enlace`, el atajo para difundirlo (lagestoriacultural.uy/<enlace>); `etiquetas`, las que llevan sus actividades ("bar"); `grilla = false` esconde la vista grilla; `vista = "tipo"`
 # muestra el programa por tipo de evento en vez de por lugar (`nombres_tipo` cambia el nombre de algún tipo solo en ese especial,
 # como `{ teatro = "Artes escénicas" }`), y `filtros = false` saca los filtros. Con `mapa` (el id de un mapa de Google My Maps),
-# `desde` y `horario`, la fuente "mapas_especiales" lee el programa del mapa y cada actividad es un evento.
+# `desde` y `horario`, la fuente "mapas_especiales" lee el programa del mapa y cada actividad es un evento. Con `nota` (una
+# noticia con la grilla en el texto, como las del Municipio B) y `desde`, lo mismo hace la fuente "notas_especiales".
 # La pestaña "Especiales" muestra cada uno con su próxima fecha y, cuando aparece el programa en las fuentes,
 # con sus actividades. Un mes antes, si todavía no hay nada, GitHub Actions abre un issue para avisar.
 #
@@ -74,6 +75,27 @@ pestana_corta = "Librerías"  # en la barra de abajo del celular, donde entra po
 icono = "libro"
 pagina = "https://eventos.montevideo.gub.uy/nochelibrerias"
 mapa = "1unh4KD7uo9wdVfES4n5EXEobNB1S4HA"
+
+[[especial]]
+id = "noche-de-los-cafes-y-bares-notables"
+nombre = "Noche de los Cafés y Bares Notables"
+descripcion = "Ocho cafés y bares históricos del Municipio B, del Brasilero en Ciudad Vieja al Marbella en Parque Rodó, con música en vivo y espectáculos toda la noche. Organiza el Municipio B."
+cuando = "el último jueves de noviembre"
+regla = "meses"
+meses = [11]
+sitio = "https://municipiob.montevideo.gub.uy/"
+palabras = ["noche de (los )?cafes y bares notables", "bares notables"]
+# Edición 2026: la grilla está en una noticia del Municipio B (fuente "notas_especiales").
+desde = 2026-11-26
+horario = ["19:00", "01:00"]
+lugares = "bares"
+enlace = "baresnotables"
+pestana = "Bares Notables"
+pestana_corta = "Bares"
+icono = "taza"
+etiquetas = ["bar"]
+pagina = "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b"
+nota = "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b"
 
 [[especial]]
 id = "montevideo-mas-museos"

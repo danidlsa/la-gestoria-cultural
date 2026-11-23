@@ -308,3 +308,15 @@ def test_el_young_sporting_club_es_del_interior(ahora):
     assert sin_ubicacion.del_interior(fiesta)
     banda = crudo("ladiaria", "2", "Young Fathers", "Sala del Museo", ahora + timedelta(days=3))
     assert not sin_ubicacion.del_interior(banda)
+
+
+def test_la_cuenta_de_instagram_del_lugar():
+    from cartelera.unificar import usuario_de_instagram
+    assert [usuario_de_instagram(x) for x in ("https://www.instagram.com/_escaramuza/", "@barmarbella.uy", "paysandu_bar",
+                                               "instagram.com/cafebrasilero.uy?igsh=x", "no es <una> cuenta", None)] == [
+        "_escaramuza", "barmarbella.uy", "paysandu_bar", "cafebrasilero.uy", None, None]
+    # De la lista de alias, o de la fuente (un bar de Instagram, en su propio lugar); la de la lista no se pisa.
+    catalogo = Catalogo([{"id": "bar-marbella", "nombre": "Bar Marbella", "instagram": "barmarbella.uy"}])
+    assert catalogo.lugares[catalogo.asignar("Bar Marbella", None, None, None, None, "otra")].instagram == "barmarbella.uy"
+    andorra = catalogo.asignar("Bar Andorra", None, None, None, None, "barandorra")
+    assert catalogo.lugares[andorra].instagram == "barandorra"

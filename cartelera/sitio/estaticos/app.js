@@ -722,6 +722,11 @@
   const enRecorrido = (a) => plan.has(clavePlan(a.id, funcionDe(a)[0]));
   const iconoCompartir = () => deposito.querySelector(".compartir svg")?.cloneNode(true) || "↗";
   const comoLlegar = (lugar) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${lugar.direccion || lugar.nombre}, Montevideo, Uruguay`)}`;
+  // La cuenta de Instagram del lugar, si la sabemos: al lado de "Cómo llegar" (" · Instagram ↗").
+  const instagramDe = (lugar) => (/^[A-Za-z0-9._]{1,30}$/.test(lugar.instagram || "")
+    ? [" · ", el("a", { href: `https://www.instagram.com/${lugar.instagram}/`, target: "_blank", rel: "noopener",
+        title: `@${lugar.instagram} en Instagram` }, "Instagram ↗")]
+    : []);
   const ACENTOS = ["cobalto", "coral", "mostaza", "tinta"];
 
   // Qué partes se usan (para decidir qué dejar en el próximo especial): un evento anónimo de GoatCounter por botón,
@@ -769,7 +774,7 @@
     const tipos = contar(jornada.actividades, (a) => a.evento.categoria).sort((a, b) => b[1] - a[1]);
     const elegidas = jornada.actividades.filter(enRecorrido).length;
     const buscador = el("input", {
-      type: "search", class: "esp-buscar", placeholder: "Buscá un nombre, un libro, un tema…",
+      type: "search", class: "esp-buscar", placeholder: "Buscá un nombre, un artista, un tema…",
       "aria-label": "Buscar en el programa", "data-esp-buscar": "",
     });
     buscador.value = v.texto;
@@ -837,7 +842,8 @@
           // Sin vista por lugar (un especial "por tipo"): el lugar, su dirección y cómo llegar, ahí mismo.
           comoLlegarAca ? el("span", { class: "esp-lugar-chico" }, el("strong", {}, lugarDe(a).nombre || ""),
             lugarDe(a).direccion && lugarDe(a).direccion !== lugarDe(a).nombre ? ` · ${lugarDe(a).direccion}` : "") : null,
-          comoLlegarAca ? el("a", { class: "esp-como-llegar", href: comoLlegar(lugarDe(a)), target: "_blank", rel: "noopener" }, "Cómo llegar ↗") : null),
+          comoLlegarAca ? el("a", { class: "esp-como-llegar", href: comoLlegar(lugarDe(a)), target: "_blank", rel: "noopener" }, "Cómo llegar ↗") : null,
+          ...(comoLlegarAca ? instagramDe(lugarDe(a)) : [])),
         a.desc ? el("p", { class: "esp-desc", tabindex: "0", title: "Tocá para leer todo" }, a.desc) : null),
       botonesActividad(a));
   }
@@ -874,7 +880,7 @@
             el("header", {},
               el("h5", {}, lugar.nombre || ""),
               el("p", { class: "esp-dir" }, lugar.direccion ? `${lugar.direccion} · ` : "",
-                el("a", { href: comoLlegar(lugar), target: "_blank", rel: "noopener" }, "Cómo llegar ↗"))),
+                el("a", { href: comoLlegar(lugar), target: "_blank", rel: "noopener" }, "Cómo llegar ↗"), ...instagramDe(lugar))),
             el("ol", { class: "esp-actividades" }, ...actividades.map((a) => filaActividad(a, { conLugar: false }))));
         })));
       bloque.open = !v.plegadas.has(`barrio:${barrio}`);
@@ -963,7 +969,9 @@
       const lugar = datos.lugares[fila.lugarId] || {};
       cuerpo.push(el("div", { class: "eg-fila", id: `esp-lugar-${fila.lugarId}` },
         el("div", { class: "eg-lugar" }, el("strong", {}, lugar.nombre || ""),
-          el("a", { href: comoLlegar(lugar), target: "_blank", rel: "noopener" }, "Cómo llegar ↗")),
+          // En una caja: la columna del lugar apila sus partes, y el " · " va en el mismo renglón.
+          el("span", { class: "eg-enlaces" }, el("a", { href: comoLlegar(lugar), target: "_blank", rel: "noopener" }, "Cómo llegar ↗"),
+            ...instagramDe(lugar))),
         el("div", { class: "eg-pista", style: `height:${fila.carriles * ALTO + 8}px` }, ...fila.bloques.map((b) =>
           bloqueGrilla(b, `left:${x(b.ini) + 2}px;width:${Math.max(40, x(b.fin) - x(b.ini) - 4)}px;top:${b.carril * ALTO + 4}px`)))));
     }
