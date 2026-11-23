@@ -1,10 +1,369 @@
 {
  "fuente": "notas_especiales",
- "corrida": "2026-11-23T18:21:59.079315-03:00",
+ "corrida": "2026-11-23T18:42:59.078171-03:00",
  "ok": true,
- "cantidad": 0,
- "errores": [
-  "noche-de-los-cafes-y-bares-notables: HTTPStatusError: Client error '403 Forbidden' for url 'https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
- ],
- "eventos": []
+ "cantidad": 8,
+ "errores": [],
+ "eventos": [
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-cafe-brasilero-1900",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "Rossana Taddei, Gavilán presentando",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Café Brasilero",
+    "direccion": "Ituzaingó y 25 de Mayo",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-santa-catalina-bar-cafe-1930",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "Trío de Tango",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Santa Catalina Bar Café",
+    "direccion": "Ciudadela y Canelones",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-bar-paysandu-2000",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "La Banda de Los Lunes",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Bar Paysandú",
+    "direccion": "Av. Gral. Rondeau y Paysandú",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-montevideo-al-sur-2100",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "Trío Candombero",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Montevideo al Sur",
+    "direccion": "Paraguay y Maldonado",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-bar-facal-2100",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "FRIBO - Diego Pez & los Pernoctantes - Shows de bailes de Tango",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Bar Facal",
+    "direccion": "Av. 18 de Julio y Yi",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-bar-andorra-2130",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "Garo en vivo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Bar Andorra",
+    "direccion": "Canelones y Aquiles Lanza",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-bar-marbella-2200",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "8 de Momo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Bar Marbella",
+    "direccion": "Av. Gonzalo Ramírez y Dr. Joaquín de Salterain",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-escaramuza-libros-y-cafe-2300",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "Gonzalo Denis (Franny Glass)",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Escaramuza Libros y Café",
+    "direccion": "Dr. Pablo de María y Charrúa",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T23:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  }
+ ]
 }
