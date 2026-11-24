@@ -1,8 +1,8 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-23T19:55:23.042512-03:00",
+ "corrida": "2026-11-24T18:38:08.184679-03:00",
  "ok": true,
- "cantidad": 11,
+ "cantidad": 12,
  "errores": [],
  "eventos": [
   {
@@ -127,6 +127,49 @@
    "beneficios": [],
    "imagen_url": "https://img.cobraticket.uy/AUYtAdjdWg7Pd4U8YxX0P.jpg",
    "productor": "MAI",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "533801",
+   "url": "https://cobraticket.uy/e/marikoteca-bom-533801",
+   "titulo": "MARIKOTECA BOM",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "Sábado a pura fiesta en MARIKOTECA BOM🌈 Una edición especial inspirada en el nuevo disco de Lali y Miranda. Tendremos un show a cargo de nuestra drag residente: Miranda. Que junto a Santi y Edson te estarán recibiendo y animarán la noche desde arriba de nuestras tarimas. En la pista como siempre…",
+   "lugar": {
+    "nombre": "Zoba Club",
+    "direccion": "Bv. España 2218",
+    "lat": -34.9095744,
+    "lon": -56.1679561,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T23:50:00-03:00",
+     "fin": "2026-11-29T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/marikoteca-bom-533801",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/zQLPEQJe9v7JwHgWudDh4.jpg",
+   "productor": "Zoba Club",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -313,7 +356,7 @@
    "titulo": "IGNITE | SEASON FINALE | 5.12",
    "categoria": "fiesta",
    "categoria_segura": true,
-   "descripcion_corta": "SEASON FINALE | 5.12 Cerramos la temporada 2026. Techno de calidad. Intensidad total. Sin tregua. Line up internacional: ⛓️ SAILØ🇦🇷 DJ y productor de Buenos Aires. Su sonido combina hard techno, bounce y hardstyle de la vieja escuela: potencia, energía y carácter propio. Su tema “Nobody” fue…",
+   "descripcion_corta": "SEASON FINALE | 5.12 Cerramos la temporada 2026. Techno de calidad. Intensidad total. Sin tregua. Line up internacional: ⛓️ SAILØ 🇦🇷 DJ y productor de Buenos Aires, SAILØ se distingue por un sonido que fusiona hard techno, bounce y hardstyle de la vieja escuela, dando lugar a sets potentes…",
    "lugar": {
     "nombre": "EMILE CLUB",
     "direccion": "Mercedes 1820",

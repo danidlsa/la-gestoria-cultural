@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-23T19:48:56.110231-03:00",
+ "corrida": "2026-11-24T18:31:35.350434-03:00",
  "ok": true,
- "cantidad": 75,
+ "cantidad": 76,
  "errores": [],
  "eventos": [
   {
@@ -1445,6 +1445,68 @@
   },
   {
    "fuente": "cartelera_mvd",
+   "id_externo": "35033",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35033",
+   "titulo": "Días comprados",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Tres mujeres, tres historias y un hecho desafortunado que hará que ya nada vuelva a ser lo mismo en la vida de ninguna de ellas. ¿Puede el tiempo sanar toda clase de heridas?",
+   "lugar": {
+    "nombre": "Espacio Finisterre",
+    "direccion": "Convención 1328 - Galería del Sol",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-11T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-18T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35033",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42392.jpg",
+   "productor": "Richard Dagnino",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
    "id_externo": "32623",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32623",
    "titulo": "El Zorro, la Luna y Cuentos para soñar",
@@ -1611,54 +1673,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42266.jpg",
    "productor": "Félix Correa",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34939",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34939",
-   "titulo": "El hombre de la capa roja",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una noche de misterio, historia y alquimia en el Castillo Pittamiglio. En el aniversario del nacimiento de Humberto Pittamiglio, la Compañía Teatral Aventura presenta una función especial de El Hombre de la Capa Roja , una experiencia teatral que invita a descubrir los secretos, las leyendas y el…",
-   "lugar": {
-    "nombre": "Castillo Pittamiglio",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-23T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1400.0,
-    "hasta": 1400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34939",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42278.jpg",
-   "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -2815,6 +2829,54 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/39204.jpg",
    "productor": "Cecilia Baranda",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "35034",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35034",
+   "titulo": "La muñeca rota",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "La muñeca rota aborda el drama de los niños atrapados por las guerras. Una mujer recorre de la mano de su antigua muñeca el duro camino de rememorar su infancia destrozada por la guerra. Poder contarlo es todo un acto de valentía y de amor. Recuperar la memoria de hechos que aún hoy asolan al mundo…",
+   "lugar": {
+    "nombre": "Centro Cultural Florencio Sánchez",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35034",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42393.jpg",
+   "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

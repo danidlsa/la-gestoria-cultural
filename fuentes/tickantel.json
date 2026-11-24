@@ -1,103 +1,13 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-23T19:43:03.183561-03:00",
+ "corrida": "2026-11-24T18:21:14.738779-03:00",
  "ok": true,
- "cantidad": 92,
+ "cantidad": 96,
  "errores": [
-  "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+  "https://tickantel.com.uy/ng/espectaculo/40021784/la-trampa: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-LaTrampa?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020236",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020236/tablao-flamenco-noviembre",
-   "titulo": "Tablao Flamenco - Noviembre",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "Función de cierre de la tercera edición del ciclo anual de Flamenco en el marco de la Cumbre Flamenca en Uruguay, declarada de interés cultural, con los más destacados artistas de la región e invitados de Latinoamérica y España. Espectáculo de flamenco en vivo, caracterizado por un ambiente cercano…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-23T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020236/tablao-flamenco-noviembre",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020236/BANNER_TABLAO-IIICF_2026_05_NOVIEMBRE.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021827",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021827/5to-foro-de-mujeres-lideres-omeu",
-   "titulo": "5to Foro de Mujeres Líderes OMEU",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "5to Foro Mujeres Líderes OMEU El encuentro que reúne a mujeres de todo el país para compartir experiencias, generar conexiones e impulsar nuevas formas de liderazgo. Uruguay necesita más mujeres al frente de las decisiones que importan. El Foro Mujeres Líderes nació desde OMEU para dar visibilidad…",
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": null,
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 700.0,
-    "hasta": 700.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021827/5to-foro-de-mujeres-lideres-omeu",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021827/banner_para_web_-100.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021798",
@@ -284,49 +194,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021781",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
-   "titulo": "Cielos de plomo. Tierra escondida",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La banda Cielos de plomo celebra el lanzamiento de su nuevo álbum Tierra escondida en una presentación especial en formato extendido. Tierra escondida es el tercer lanzamiento de la banda, siguiendo a Entre luces (2020). En esta ocasión se presentan en vivo en un formato extendido con la…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021781/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021939",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa",
    "titulo": "Música de regreso a casa",
@@ -388,6 +255,49 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021939/BannerNuevo.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021781",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
+   "titulo": "Cielos de plomo. Tierra escondida",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La banda Cielos de plomo celebra el lanzamiento de su nuevo álbum Tierra escondida en una presentación especial en formato extendido. Tierra escondida es el tercer lanzamiento de la banda, siguiendo a Entre luces (2020). En esta ocasión se presentan en vivo en un formato extendido con la…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021781/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -541,6 +451,49 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021956/700_x_390_deup.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021577",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021577/clasificatorio-copa-del-mundo-qatar-2027",
+   "titulo": "Clasificatorio Copa del Mundo Qatar 2027",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Clasificatorios Copa del Mundo Qatar 2027 – Ventana 5 Uruguay vs Canadá",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T19:10:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021577/clasificatorio-copa-del-mundo-qatar-2027",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021577/700x390.png.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -991,7 +944,7 @@
      "fin": null,
      "sin_hora": false,
      "sala": null,
-     "agotada": false
+     "agotada": true
     },
     {
      "inicio": "2026-11-28T20:00:00-03:00",
@@ -1312,49 +1265,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021445",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021445/jazz-cartoons-por-paris-jazz-club",
-   "titulo": "Jazz Cartoons por Paris Jazz Club",
-   "categoria": "humor",
-   "categoria_segura": false,
-   "descripcion_corta": "Jazz Cartoons es uno de los espectáculos más celebrados de Paris Jazz Club y regresa en una versión renovada que reúne lo mejor de sus distintas etapas. Con música jazz en vivo, humor y proyecciones audiovisuales, el show propone un recorrido por el universo de los dibujos animados y el cine…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021445/jazz-cartoons-por-paris-jazz-club",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021445/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021421",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021421/4-en-linea",
    "titulo": "4 en Línea",
@@ -1388,6 +1298,49 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021421/Grilla_Web_Tickantel_(700x390px).jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021445",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021445/jazz-cartoons-por-paris-jazz-club",
+   "titulo": "Jazz Cartoons por Paris Jazz Club",
+   "categoria": "humor",
+   "categoria_segura": false,
+   "descripcion_corta": "Jazz Cartoons es uno de los espectáculos más celebrados de Paris Jazz Club y regresa en una versión renovada que reúne lo mejor de sus distintas etapas. Con música jazz en vivo, humor y proyecciones audiovisuales, el show propone un recorrido por el universo de los dibujos animados y el cine…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": -34.90626,
+    "lon": -56.19441,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021445/jazz-cartoons-por-paris-jazz-club",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021445/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1761,7 +1714,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020603/Cascanueces-_Banda_Sinfonica_de_Montevideo.jpg",
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020603/Cascanueces_Tickantel-700x390px.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1810,54 +1763,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021684/Dic,_3_-_Adaptaciones_MELODIAS_OLVIDADAS_tickantel.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021476",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021476/desiderio-lazaro-trio-19-fest-jazz-mvd",
-   "titulo": "Desidério Lázaro Trio - 19° Fest Jazz MVD",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "19° Festival de Jazz de Montevideo JUEVES 3 DE DICIEMBRE 2026 – 20.00 horas Sala Zitarrosa – Av. 18 de Julio 1012 DESIDÉRIO LÁZARO TRIO La Embajada de Portugal en Montevideo y Camões – Instituto da Cooperação e da Língua, presentan al reconocido saxofonista de jazz de Portugal, Desidério Lázaro…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-03T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1000.0,
-    "hasta": 1000.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021476/desiderio-lazaro-trio-19-fest-jazz-mvd",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021476/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1920,6 +1825,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021999/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021476",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021476/desiderio-lazaro-trio-19-fest-jazz-mvd",
+   "titulo": "Desidério Lázaro Trio - 19° Fest Jazz MVD",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "19° Festival de Jazz de Montevideo JUEVES 3 DE DICIEMBRE 2026 – 20.00 horas Sala Zitarrosa – Av. 18 de Julio 1012 DESIDÉRIO LÁZARO TRIO La Embajada de Portugal en Montevideo y Camões – Instituto da Cooperação e da Língua, presentan al reconocido saxofonista de jazz de Portugal, Desidério Lázaro…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": -34.90626,
+    "lon": -56.19441,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1000.0,
+    "hasta": 1000.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021476/desiderio-lazaro-trio-19-fest-jazz-mvd",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021476/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2023,49 +1976,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021491",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021491/nuestro-canto-sin-fronteras-3era-edicion",
-   "titulo": "Nuestro Canto Sin Fronteras, 3era Edición",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Nuestro Canto Sin Fronteras 3º Edición llega a la Sala Zitarrosa para brindar como en años anteriores un show de aproximadamente 2 horas donde se podrá disfrutar de diferentes artistas. Esta idea que surge de la unión entre el programa Nuestro Canto de Teco Arias y La Canción Nuestra Sin Fronteras…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-04T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021491/nuestro-canto-sin-fronteras-3era-edicion",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021491/Tickantel_700x390px.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021811",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021811/betty-navajas-y-los-pesados-de-cantina",
    "titulo": "Betty Navajas y los pesados de cantina",
@@ -2104,6 +2014,49 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021811/700x390_Betty_Navajas.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021491",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021491/nuestro-canto-sin-fronteras-3era-edicion",
+   "titulo": "Nuestro Canto Sin Fronteras, 3era Edición",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Nuestro Canto Sin Fronteras 3º Edición llega a la Sala Zitarrosa para brindar como en años anteriores un show de aproximadamente 2 horas donde se podrá disfrutar de diferentes artistas. Esta idea que surge de la unión entre el programa Nuestro Canto de Teco Arias y La Canción Nuestra Sin Fronteras…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": -34.90626,
+    "lon": -56.19441,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021491/nuestro-canto-sin-fronteras-3era-edicion",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021491/Tickantel_700x390px.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2301,54 +2254,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021934",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021934/vanina-soldevila-y-martin-lima",
-   "titulo": "Vanina Soldevila y Martín Lima",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "Vanina Soldevila, en voz, y Martín Lima, en bajo, convierten el escenario en su casa e invitan al público a un recorrido musical y escénico por canciones y artistas que marcaron sus vidas. Con arreglos originales y la participación de artistas invitados, “Como en casa” reúne un repertorio que…",
-   "lugar": {
-    "nombre": "Sala Jorge Lazaroff",
-    "direccion": null,
-    "lat": -34.8557558,
-    "lon": -56.1324247,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-05T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021934/vanina-soldevila-y-martin-lima",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021934/banner2.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021514",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021514/mvd-simoni-colom",
    "titulo": "Mvd - Simoni - Colom",
@@ -2435,6 +2340,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021838/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021934",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021934/vanina-soldevila-y-martin-lima",
+   "titulo": "Vanina Soldevila y Martín Lima",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Vanina Soldevila, en voz, y Martín Lima, en bajo, convierten el escenario en su casa e invitan al público a un recorrido musical y escénico por canciones y artistas que marcaron sus vidas. Con arreglos originales y la participación de artistas invitados, “Como en casa” reúne un repertorio que…",
+   "lugar": {
+    "nombre": "Sala Jorge Lazaroff",
+    "direccion": null,
+    "lat": -34.8557558,
+    "lon": -56.1324247,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021934/vanina-soldevila-y-martin-lima",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021934/banner2.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3061,6 +3014,54 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40022028",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40022028/marea-hilando-voces",
+   "titulo": "Marea: Hilando voces",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Este Espectáculo homenajea la fuerza ,la identidad de las mujeres afros , la poesía, música y la danza son Las voces de sus historias la luchas que se entrelazan para poner en escena la memoria,la resistencia y la belleza de nuestra cultura afro. HILANDO VOCES:Mujeres que transforman sus historias…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": -34.90626,
+    "lon": -56.19441,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-11T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022028/marea-hilando-voces",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022028/700x390_(1).jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021890",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021890/sodre-celebra",
    "titulo": "Sodre Celebra",
@@ -3094,6 +3095,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021890/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40022029",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40022029/jeremy-medina",
+   "titulo": "Jeremy Medina",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Jeremy Medina presenta un espectáculo donde la cumbia y las baladas se unen para crear una experiencia cercana, emotiva y llena de energía. Apto Para Todo Publico Duración: 120 min",
+   "lugar": {
+    "nombre": "Sala Jorge Lazaroff",
+    "direccion": null,
+    "lat": -34.8557558,
+    "lon": -56.1324247,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022029/jeremy-medina",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022029/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4287,6 +4336,49 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021655",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021655/ha-ash",
+   "titulo": "Ha Ash",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "El dúo formado por las hermanas Hanna Nicole y Ashley Grace vuelve a encontrarse con el público uruguayo en el marco de “No Me Hablen de Amor Tour 2027”, una extensa gira que recorrerá Latinoamérica durante los primeros meses del próximo año. “No Me Hablen de Amor” propone un espectáculo…",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-03-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021655/ha-ash",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021655/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40020981",
    "url": "https://tickantel.com.uy/ng/espectaculo/40020981/la-oreja-de-van-gogh",
    "titulo": "La Oreja de Van Gogh",
@@ -4464,65 +4556,125 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021784",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021784/la-trampa",
-   "titulo": "La Trampa",
+   "id_externo": "40021501",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021501/melendi-pop-rock",
+   "titulo": "Melendi \"Pop Rock\"",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "¡El reencuentro más esperado de la música uruguaya ya tiene fecha! A 9 años de su último show, La Trampa vuelve a reunirse con su público en una noche histórica. La cita es para el próximo 12, 13, 15 y 16 de mayo de 2027 en el Antel Arena, con el show “Canciones al viento”. ¡Asegurá tu lugar para…",
+   "descripcion_corta": "Luego de su último sold out en Montevideo, el reconocido cantautor asturiano confirma un nuevo show en el país. Presentará su nuevo álbum titulado Pop Rock. Tras el arrollador éxito de la gira por sus 20 años de carrera, el artista regresa con un sonido renovado, desenfadado y lleno de fuerza para…",
    "lugar": {
     "nombre": "Antel Arena",
     "direccion": null,
-    "lat": null,
-    "lon": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167,
     "barrio": null,
     "alternativas": [],
     "instagram": null
    },
    "funciones": [
     {
-     "inicio": "2027-05-12T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2027-05-13T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2027-05-15T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2027-05-16T21:00:00-03:00",
+     "inicio": "2027-04-17T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 1600.0,
-    "hasta": 1600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
+   "precio": null,
    "entradas": [
     {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021784/la-trampa",
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021501/melendi-pop-rock",
      "via": "tickantel"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021784/GRILLA-WEB-700x390_4.jpg",
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021501/GRILLA-MELENDI.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021528",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021528/babasonicos",
+   "titulo": "Babasónicos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "BABASÓNICOS REGRESA A URUGUAY 8 DE MAYO - ANTEL ARENA Babasónicos atraviesa uno de los grandes momentos de su presente artístico luego de agotar dos funciones en el Movistar Arena de Buenos Aires —tras haber colmado también dos estadios Ferro—liderada por Adrián Dárgelos la banda vuelve a Uruguay…",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-05-08T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021528/babasonicos",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021528/BANNER_BABASONICOS_pvt.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021816",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021816/david-bisbal",
+   "titulo": "David Bisbal",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "¡DAVID BISBAL CONFIRMA SU REGRESO AL ANTEL ARENA TRAS UN AGOTADO! Luego de un reencuentro espectacular a sala llena con el público uruguayo por su Tour Eternos 2026, el astro español sorprendió a todos en pleno concierto. Mientras hacía vibrar al estadio con los grandes himnos de su carrera, Bisbal…",
+   "lugar": {
+    "nombre": "Antel Arena",
+    "direccion": null,
+    "lat": -34.8629904,
+    "lon": -56.1535167,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-09-03T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021816/david-bisbal",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021816/DB_GRAFICAS-ANTEL-ARENA_GRILLA-WEB.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

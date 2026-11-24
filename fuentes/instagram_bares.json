@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-23T19:56:15.284048-03:00",
+ "corrida": "2026-11-24T18:39:04.359911-03:00",
  "ok": true,
- "cantidad": 57,
+ "cantidad": 56,
  "errores": [],
  "eventos": [
   {
@@ -379,54 +379,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261123",
-   "url": "https://www.instagram.com/p/DfpYoOZFg-v/",
-   "titulo": "Centro Cultural de España: Alerta rosa",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "Una tarde para descubrir los sonidos y las tradiciones musicales de la península ibérica. Te invitamos a participar en un taller a cargo de Violeta Diez (ES), donde nos acercaremos al folklore ibérico a través de sus melodías, ritmos e instrumentos tradicionales. Durante el encuentro construiremos…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": [],
-    "instagram": "ccemontevideo"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-23T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfpYoOZFg-v/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/b6245c64b9f8.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "el.mingus-20261124",
    "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Martes de Jazz",
@@ -473,11 +425,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "clubculturalcharco-20261124",
-   "url": "https://www.instagram.com/p/Dfms2HQldPq/",
+   "url": "https://www.instagram.com/p/DgIZgMBBwWg/",
    "titulo": "Club Cultural Charco: Desplazamiento, historias de amor, familia y barro",
    "categoria": "charla",
    "categoria_segura": true,
-   "descripcion_corta": "Mar 24.11 19:00 — Desplazamiento: Historias de amor, familia y barro. destileriacapicua nos recibe para brindar, escuchar lecturas, música y conversar sobre lo lindo de vivir. El taller de crónicas de Charco, coordinado por azulcordo, te lleva de viaje desde la escucha atenta, con escenas que nos…",
+   "descripcion_corta": "Hoy cerramos antes porque nos desplazamos hasta destileriacapicua para continuar con las celebraciones por nuestros 5 años. Hasta las 18.00 h estaremos en Charco. A partir de las 19.00 h te esperamos en Capicúa. ¿Cómo celebramos hoy? Nos desplazamos hacia Ciudad Vieja para brindar, viajar con la…",
    "lugar": {
     "nombre": "Destilería Capicúa",
     "direccion": "Pérez Castellano 1364",
@@ -485,7 +437,7 @@
     "lon": null,
     "barrio": "Ciudad Vieja",
     "alternativas": [],
-    "instagram": "clubculturalcharco"
+    "instagram": null
    },
    "funciones": [
     {
@@ -496,15 +448,10 @@
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
+   "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Dfms2HQldPq/",
+     "url": "https://www.instagram.com/p/DgIZgMBBwWg/",
      "via": "instagram"
     }
    ],
@@ -994,56 +941,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "barandorra-20261126",
-   "url": "https://www.instagram.com/p/DgGP-okhS1n/",
-   "titulo": "Bar Andorra: Garo Arakelian, canciones de su discografía solista",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "\"La intervención propone una resignificación del espacio desde la gráfica y el lenguaje, pero es también una invitación a ocupar el escenario cotidiano con otros recorridos y desde otra mirada . 26 de noviembre 18 hs Entrada libre En La Noche de los Cafés y Bares Notables del Municipio B. No se la…",
-   "lugar": {
-    "nombre": "Bar Andorra",
-    "direccion": "Canelones entre Aquiles Lanza y Ejido",
-    "lat": -34.908481,
-    "lon": -56.187691,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": "barandorra"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DgGP-okhS1n/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3392c9f2df4e.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "barfacal-20261126",
    "url": "https://www.instagram.com/p/DgED338GD5Y/",
    "titulo": "Bar Facal: Actividades La Noche de los Cafés y Bares Notables",
@@ -1090,11 +987,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "clubculturalcharco-20261126",
-   "url": "https://www.instagram.com/p/Dfms2HQldPq/",
+   "url": "https://www.instagram.com/p/DgH8qrUFdy4/",
    "titulo": "Club Cultural Charco: Mary Oliver, documental y conversatorio",
    "categoria": "cine",
    "categoria_segura": false,
-   "descripcion_corta": "Jue 26.11 18:30 — Mary Oliver: proyección del documental Saved by the beauty of the world de pieshakepictures + conversatorio sobre la poeta. Participan: silviaguerradiaz y claudia_magliano_cassanello. Modera: maugemen. En cineuniversitariodeluruguay. Entrada gratuita con reserva previa en link de…",
+   "descripcion_corta": "Jueves 26 de noviembre Horario: 18:30 En cineuniversitariodeluruguay (Canelones 1280, Sala Lumière) Coordina y modera: maugemen Actividad gratuita con reserva previa. Cupos limitados. Consultas al 092 221 940 Mirá la programación completa de nuestro aniversario en charco.uy",
    "lugar": {
     "nombre": "Cine Universitario del Uruguay",
     "direccion": "Canelones 1280",
@@ -1102,7 +999,7 @@
     "lon": null,
     "barrio": null,
     "alternativas": [],
-    "instagram": "clubculturalcharco"
+    "instagram": null
    },
    "funciones": [
     {
@@ -1121,7 +1018,7 @@
    },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Dfms2HQldPq/",
+     "url": "https://www.instagram.com/p/DgH8qrUFdy4/",
      "via": "instagram"
     }
    ],
@@ -1170,6 +1067,56 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3bf3aa296475.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "barandorra-20261126",
+   "url": "https://www.instagram.com/p/DgIjtfJBOuD/",
+   "titulo": "Bar Andorra: Garo Arakelian, canciones de su discografía solista",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Garo Arakelian vuelve al Bar Andorra para interpretar las canciones de su discografía solista (Un Mundo Sin Gloria y Milonga de Quirón) y también repasará algunas otras canciones de su creación para El Astillero y La Trampa, así como varios clásicos del repertorio de la música uruguaya. En un…",
+   "lugar": {
+    "nombre": "Bar Andorra",
+    "direccion": "Canelones entre Aquiles Lanza y Ejido",
+    "lat": -34.908481,
+    "lon": -56.187691,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": "barandorra"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgIjtfJBOuD/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3392c9f2df4e.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -2311,7 +2258,7 @@
    "titulo": "Peatonal Tours: ᴛᴏᴜʀ ᴘᴀᴛʀɪᴍᴏɴɪᴀʟ ʏ ᴀʀǫᴜɪᴛᴇᴄᴛóɴɪᴄᴏ",
    "categoria": "tour",
    "categoria_segura": true,
-   "descripcion_corta": "TOUR PATRIMONIAL Y ARQUITECTÓNICO Como cierre de año de Paseo Centro y en el marco de la Feria Una celebración a Montevideo , realizaremos un recorrido por nuestra avenida principal descubriendo la historia de los edificios más emblemáticos y junto a ellos sus historias tan atrapantes e…",
+   "descripcion_corta": "CUPOS AGOTADOS TOUR PATRIMONIAL Y ARQUITECTÓNICO Como cierre de año de Paseo Centro y en el marco de la Feria Una celebración a Montevideo , realizaremos un recorrido por nuestra avenida principal descubriendo la historia de los edificios más emblemáticos y junto a ellos sus historias tan…",
    "lugar": {
     "nombre": "Plaza Cagancha",
     "direccion": null,

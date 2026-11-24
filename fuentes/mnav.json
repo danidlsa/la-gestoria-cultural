@@ -1,8 +1,8 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-23T19:53:11.887079-03:00",
+ "corrida": "2026-11-24T18:35:55.163991-03:00",
  "ok": true,
- "cantidad": 17,
+ "cantidad": 18,
  "errores": [],
  "eventos": [
   {
@@ -23,13 +23,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-23T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-24T00:00:00-03:00",
      "fin": null,
@@ -445,6 +438,13 @@
     },
     {
      "inicio": "2027-01-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-23T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -492,13 +492,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-23T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-24T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -913,6 +906,13 @@
     },
     {
      "inicio": "2027-01-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-23T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -960,13 +960,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-23T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-24T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1381,6 +1374,13 @@
     },
     {
      "inicio": "2027-01-22T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-23T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1818,6 +1818,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-23T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -2251,6 +2258,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-23T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -2274,6 +2288,49 @@
    "etiquetas": [],
    "muestra": true,
    "hasta": "2027-02-28"
+  },
+  {
+   "fuente": "mnav",
+   "id_externo": "teatroenelmuseo2026",
+   "url": "https://mnav.gub.uy/cms.php?id=teatroenelmuseo2026",
+   "titulo": "Intercambio teatral en el Museo 2026",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales",
+    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+    "lat": -34.91384,
+    "lon": -56.16497,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T10:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mnav.gub.uy/cms.php?id=teatroenelmuseo2026",
+     "via": "mnav"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://mnav.gub.uy/img.php?p=teatroenelmuseo2026",
+   "productor": "Museo Nacional de Artes Visuales",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
   },
   {
    "fuente": "mnav",
@@ -2451,7 +2508,7 @@
    "fuente": "mnav",
    "id_externo": "somosjugandoboglione",
    "url": "https://mnav.gub.uy/cms.php?id=somosjugandoboglione",
-   "titulo": "Riccardo Boglione: Artistas en palabras de otros de la muestra \"Somos Jugando\"",
+   "titulo": "Georgina Torello y Riccardo Boglione: Artistas en palabras de otros de la muestra \"Somos Jugando\"",
    "categoria": "charla",
    "categoria_segura": false,
    "descripcion_corta": null,
@@ -2482,49 +2539,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://mnav.gub.uy/img.php?p=somosjugandoboglione",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mnav",
-   "id_externo": "museosenlanocheporter2026",
-   "url": "https://mnav.gub.uy/cms.php?id=museosenlanocheporter2026",
-   "titulo": "Museos en la Noche 2026: Videos de Liliana Porter y Ana Tiscornia en el Auditorio",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-04T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=museosenlanocheporter2026",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=museosenlanocheporter2026",
    "productor": "Museo Nacional de Artes Visuales",
    "region": "montevideo",
    "enlaces": [],
@@ -2697,6 +2711,49 @@
    ],
    "beneficios": [],
    "imagen_url": "https://mnav.gub.uy/img.php?p=ciclodecine2026",
+   "productor": "Museo Nacional de Artes Visuales",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mnav",
+   "id_externo": "museosenlanocheporter2026",
+   "url": "https://mnav.gub.uy/cms.php?id=museosenlanocheporter2026",
+   "titulo": "Videos de Liliana Porter y Ana Tiscornia en el Auditorio durante Museos en la Noche 2026",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales",
+    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+    "lat": -34.91384,
+    "lon": -56.16497,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-11T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mnav.gub.uy/cms.php?id=museosenlanocheporter2026",
+     "via": "mnav"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://mnav.gub.uy/img.php?p=museosenlanocheporter2026",
    "productor": "Museo Nacional de Artes Visuales",
    "region": "montevideo",
    "enlaces": [],

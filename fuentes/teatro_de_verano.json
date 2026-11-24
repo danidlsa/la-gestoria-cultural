@@ -1,6 +1,6 @@
 {
  "fuente": "teatro_de_verano",
- "corrida": "2026-11-23T19:50:18.343444-03:00",
+ "corrida": "2026-11-24T18:33:00.859708-03:00",
  "ok": true,
  "cantidad": 13,
  "errores": [],
@@ -57,7 +57,7 @@
    "titulo": "Murga Joven - Fase final",
    "categoria": "carnaval",
    "categoria_segura": false,
-   "descripcion_corta": "1, 2, 3 y 4 de diciembre.",
+   "descripcion_corta": "1, 2, 3 y 5 de diciembre.",
    "lugar": {
     "nombre": "Teatro de Verano Ramón Collazo",
     "direccion": "Rambla Wilson s/n, Parque Rodó",
@@ -90,7 +90,7 @@
      "agotada": false
     },
     {
-     "inicio": "2026-12-04T00:00:00-03:00",
+     "inicio": "2026-12-05T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,

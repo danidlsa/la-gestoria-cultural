@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-23T19:46:50.212243-03:00",
+ "corrida": "2026-11-24T18:30:46.900258-03:00",
  "ok": true,
- "cantidad": 36,
+ "cantidad": 37,
  "errores": [],
  "eventos": [
   {
@@ -1717,6 +1717,65 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021685/tmc-voces-del-cuarteto-de-beethoven-a-villa-lobo"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13887",
+   "url": "https://sodre.gub.uy/espectaculos/baile-de-graduados-muestra-final-2026/",
+   "titulo": "Baile de graduados. Muestra final 2026",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Área Ballet de la Escuela Nacional de Formación Artística",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T20:00:00-03:00",
+     "fin": "2026-12-03T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-04T20:00:00-03:00",
+     "fin": "2026-12-04T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-05T20:00:00-03:00",
+     "fin": "2026-12-05T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021999/muestra-de-fin-de-ano-area-ballet-2026",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/DESTACADA_BALLET3.5dic-768x420.png",
+   "productor": "Producción Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021999/muestra-de-fin-de-ano-area-ballet-2026"
    ],
    "ciclo": null,
    "etiquetas": [],

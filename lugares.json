@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-23T19:57:27.585358-03:00",
- "cantidad": 189,
+ "generado": "2026-11-24T18:40:20.032976-03:00",
+ "cantidad": 190,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -313,8 +313,8 @@
    "nombre": "Café Brasilero",
    "alias": [],
    "direccion": "Ituzaingó y 25 de Mayo",
-   "lat": -34.9056692,
-   "lon": -56.2046929,
+   "lat": -34.9055457,
+   "lon": -56.2046474,
    "barrio": "Ciudad Vieja",
    "ciudad": "Montevideo",
    "instagram": "cafebrasilero.uy"
@@ -430,6 +430,17 @@
    "instagram": null
   },
   {
+   "id": "centro-cultural-florencio-sanchez",
+   "nombre": "Centro Cultural Florencio Sánchez",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.892275,
+   "lon": -56.24799,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
    "id": "centro-cultural-h-bosch",
    "nombre": "Centro Cultural H. Bosch",
    "alias": [],
@@ -529,7 +540,7 @@
    "lon": -56.188195,
    "barrio": null,
    "ciudad": "Montevideo",
-   "instagram": "clubculturalcharco"
+   "instagram": null
   },
   {
    "id": "cinemateca",
@@ -677,7 +688,7 @@
    "lon": -56.2099012,
    "barrio": "Ciudad Vieja",
    "ciudad": "Montevideo",
-   "instagram": "clubculturalcharco"
+   "instagram": null
   },
   {
    "id": "el-barzon",
@@ -785,7 +796,7 @@
    "id": "espacio-finisterre",
    "nombre": "Espacio Finisterre",
    "alias": [],
-   "direccion": "Convención 1328",
+   "direccion": "Convención 1328 - Galería del Sol",
    "lat": -34.9068458,
    "lon": -56.1968398,
    "barrio": null,
@@ -1047,12 +1058,12 @@
    "instagram": null
   },
   {
-   "id": "latu",
-   "nombre": "LATU",
+   "id": "latu-laboratorio-tecnologico-del-uruguay",
+   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
    "alias": [
-    "LATU - Laboratorio Tecnológico del Uruguay"
+    "LATU"
    ],
-   "direccion": "Carrasco, Montevideo",
+   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1084,7 +1095,9 @@
   {
    "id": "la-gringa-teatro",
    "nombre": "La Gringa Teatro",
-   "alias": [],
+   "alias": [
+    "La Gringa Teatro – Galería De Las Américas, 18 de julio 1236"
+   ],
    "direccion": "Galería De Las Américas – Av. 18 de Julio 1236",
    "lat": -34.905914,
    "lon": -56.18932,
@@ -1631,7 +1644,7 @@
    "alias": [
     "Q'atrevido"
    ],
-   "direccion": "San José 907, Montevideo",
+   "direccion": "San José 907",
    "lat": -34.907129,
    "lon": -56.196424,
    "barrio": null,
@@ -2001,6 +2014,7 @@
     "Teatro Galpón",
     "El Galpón",
     "Teatro Galpon Sala Cero",
+    "Sala Cesar Campodónico | Teatro El Galpón",
     "Teatro Galpón, Sala Cero",
     "Teatro el Gapón",
     "Sala Campodónico | Teatro El Galpón"
@@ -2070,8 +2084,7 @@
     "Sala Zabala Muniz",
     "Sala Principal Teatro Solís",
     "Sala Principal del Teatro Solís",
-    "Sala Zabala Muniz – Teatro Solís",
-    "Zavala Muniz | Teatro Solís"
+    "Sala Zabala Muniz – Teatro Solís"
    ],
    "direccion": "Reconquista s/n esq. Bartolomé Mitre",
    "lat": -34.90786,

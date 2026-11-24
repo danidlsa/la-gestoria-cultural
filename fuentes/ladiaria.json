@@ -1,10 +1,253 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-23T19:52:28.255936-03:00",
+ "corrida": "2026-11-24T18:35:10.319398-03:00",
  "ok": true,
- "cantidad": 46,
+ "cantidad": 47,
  "errores": [],
  "eventos": [
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18439",
+   "url": "https://beneficios.ladiaria.com.uy/lactolate-core-junto-a-samuel-acosta-y-los-colets/",
+   "titulo": "Lactolate Core junto a Samuel Acosta y Los Colets",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "♪ Lactolate Core junto a Samuel Acosta y Los Colets se presentan este 12 de diciembre a las 20:30 en Live Era Sala (Uruguay 960). Dos bandas con propuestas marcadas que fusionan lo alternativo con la música uruguaya, sin perder su esencia.",
+   "lugar": {
+    "nombre": "Live Era Sala (Uruguay 960)",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/LACTOLATE-CORE-junto-a-SAMUEL-ACOSTA-Y-LOS-COLETS/32835/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/lactolate-core-junto-a-samuel-acosta-y-los-colets/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/LACTOLATE-CORE-junto-a-SAMUEL-ACOSTA-Y-LOS-COLETS/32835/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18436",
+   "url": "https://beneficios.ladiaria.com.uy/tu-hija/",
+   "titulo": "Tu Hija",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "¿Qué harías si un día te dicen que tu hija es “el problema”? En Tu hija, Victoria Szpunberg construye un retrato ácido, incómodo y por momentos absurdo de un grupo de mujeres atravesadas por las exigencias de la vida contemporánea. Maternidad, pareja, trabajo, feminismo, clase, pertenencia…",
+   "lugar": {
+    "nombre": "La Gringa Teatro – Galería De Las Américas, 18 de julio 1236",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 375.0,
+    "hasta": 375.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/Tu-Hija/33879/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/tu-hija/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/Tu-Hija/33879/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18432",
+   "url": "https://beneficios.ladiaria.com.uy/inestable-de-sutottos/",
+   "titulo": "Inestable de Sutottos",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "INESTABLE de SUTOTTOS es una comedia sobre los miedos. Es sábado a la noche y hay que pasarla bien, pero Cesar y León no se animan a salir a la calle. Inestable toma como eje el miedo y sus derivados; paranoias, fobias, obsesiones y ansiedades. Una puerta mal cerrada o la humedad en una pared son…",
+   "lugar": {
+    "nombre": "Sala Cesar Campodónico | Teatro El Galpón",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-29T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1400.0,
+    "hasta": 1400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/INESTABLE--de-SUTOTTOS-Sala-Campodonico/35117/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/inestable-de-sutottos/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/INESTABLE--de-SUTOTTOS-Sala-Campodonico/35117/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "ladiaria",
+   "id_externo": "18429",
+   "url": "https://beneficios.ladiaria.com.uy/masones-3-liquidacion-por-cierre/",
+   "titulo": "Masones 3: Liquidación por cierre",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "Con una situación financiera muy económica y luego de dos asambleas muy discutidas, el cierre de la logia parece inevitable. Sus integrantes buscan la solución y convocan a esta reunión con carácter de grave y urgente. El venerable (Freddy González) desespera pero confía, el profesor (Gabriel…",
+   "lugar": {
+    "nombre": "Complejo Cultural Politeama – Sala Atahualpa del Cioppo",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 700.0,
+    "hasta": 700.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tickantel.com.uy/inicio/registrarse",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021840/masones-3-liquidacion-por-cierre",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://beneficios.ladiaria.com.uy/masones-3-liquidacion-por-cierre/"
+    }
+   ],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://www.tickantel.com.uy/inicio/registrarse",
+    "https://tickantel.com.uy/ng/espectaculo/40021840/masones-3-liquidacion-por-cierre"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
   {
    "fuente": "ladiaria",
    "id_externo": "18426",
@@ -1959,54 +2202,6 @@
   },
   {
    "fuente": "ladiaria",
-   "id_externo": "18060",
-   "url": "https://beneficios.ladiaria.com.uy/coti/",
-   "titulo": "COTI",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Tras recorrer los escenarios más importantes de América Latina y Europa, el músico y compositor argentino COTI llega a Montevideo, Uruguay.. El próximo 22 de noviembre, en Sala del Museo del Carnaval sera la velada que promete ser el broche de oro de una travesía musical sin precedentes. El show…",
-   "lugar": {
-    "nombre": "Sala del Museo del Carnaval",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 1030.0,
-    "hasta": 1030.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/COTI/32964/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/coti/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/COTI/32964/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
    "id_externo": "18030",
    "url": "https://beneficios.ladiaria.com.uy/julieta-laso-2/",
    "titulo": "Julieta Laso",
@@ -2121,59 +2316,6 @@
    "enlaces": [
     "https://www.tickantel.com.uy/inicio/registrarse",
     "https://tickantel.com.uy/inicio/espectaculo/40021527/espectaculo/Bandoneonas?1"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18024",
-   "url": "https://beneficios.ladiaria.com.uy/el-teatro/",
-   "titulo": "El Teatro",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "La Comedia Nacional estrena El Teatro con tres funciones a beneficio de la Fundación Amigos del Teatro Solís. Entre la risa y la conmoción, El teatro, escrita y dirigida por el reconocido creador francés Pascal Rambert, sigue a una compañía durante las horas previas a una gran celebración. Mientras…",
-   "lugar": {
-    "nombre": "Sala Principal Teatro Solís",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021412/espectaculo/Pre%20Estreno%20El%20Teatro?2",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/el-teatro/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/inicio/espectaculo/40021412/espectaculo/Pre%20Estreno%20El%20Teatro?2"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -2402,59 +2544,6 @@
    "enlaces": [
     "https://www.tickantel.com.uy/inicio/registrarse",
     "https://tickantel.com.uy/inicio/espectaculo/40021382/espectaculo/Santi%20Wirth%20-%20Presentaci%C3%B3n%20Mapa?1"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "17819",
-   "url": "https://beneficios.ladiaria.com.uy/cartografia-sobre-la-identidad/",
-   "titulo": "Cartografía sobre la identidad",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Tenía apenas un año y seis meses… ¿Con un año y seis meses, qué sentimientos se pueden generar? ¿Qué afectos, qué vínculos se pueden llegar a tener? Seguramente muchos. Pero si hablamos de recuerdos, tangibles, patentes, yo no tuve ninguno. «Cartografía sobre la identidad» aborda el proceso de…",
-   "lugar": {
-    "nombre": "Zavala Muniz | Teatro Solís",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tickantel.com.uy/inicio/registrarse",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021278/espectaculo/Cartograf%C3%ADa%20de%20la%20Identidad?0",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/cartografia-sobre-la-identidad/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://www.tickantel.com.uy/inicio/registrarse",
-    "https://tickantel.com.uy/inicio/espectaculo/40021278/espectaculo/Cartograf%C3%ADa%20de%20la%20Identidad?0"
    ],
    "ciclo": null,
    "etiquetas": [],

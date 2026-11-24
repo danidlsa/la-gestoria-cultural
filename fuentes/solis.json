@@ -1,8 +1,8 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-23T19:50:13.326597-03:00",
+ "corrida": "2026-11-24T18:32:54.008066-03:00",
  "ok": true,
- "cantidad": 25,
+ "cantidad": 24,
  "errores": [],
  "eventos": [
   {
@@ -1073,51 +1073,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/inicio/buscar?0&texto=africana"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "solis",
-   "id_externo": "2920",
-   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Tablao--Noviembre-uc2920",
-   "titulo": "Tablao - Noviembre",
-   "categoria": "danza",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-23T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Zavala Muniz",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40020236/espectaculo/Tablao%20Flamenco%20-%20Noviembre?3",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202603/W756_H530/6537.JPG",
-   "productor": "Teatro Solís",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40020236/espectaculo/Tablao%20Flamenco%20-%20Noviembre?3"
    ],
    "ciclo": null,
    "etiquetas": [],

@@ -1,55 +1,10 @@
 {
  "fuente": "piano_piano",
- "corrida": "2026-11-23T19:52:27.028554-03:00",
+ "corrida": "2026-11-24T18:35:08.731988-03:00",
  "ok": true,
- "cantidad": 14,
+ "cantidad": 13,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "piano_piano",
-   "id_externo": "2026-11-22-Coti",
-   "url": "https://pianopiano.uy/agenda/",
-   "titulo": "Coti",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Sala del Museo del Carnaval",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/COTI/32964/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://pianopiano.uy/wp-content/uploads/Coti-Ph-Franco-Cappelli-38-1-piano-piano.jpg",
-   "productor": "Piano Piano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/COTI/32964/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "piano_piano",
    "id_externo": "2026-11-26-Gabriel Rolón",
