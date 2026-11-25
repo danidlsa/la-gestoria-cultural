@@ -1,6 +1,6 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-24T18:35:17.120182-03:00",
+ "corrida": "2026-11-25T11:24:58.406921-03:00",
  "ok": true,
  "cantidad": 17,
  "errores": [],
@@ -12,7 +12,7 @@
    "titulo": "Candlelight: Clásicos de Navidad",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Reserva antes de que acabe Black Friday. Ya pensabas ir... ¡y ahora está de oferta! Celebra la época más especial del año con una colección de queridas canciones navideñas. Desde villancicos atemporales hasta favoritas festivas, vive los clásicos de estas fechas junto a quienes más quieres en un…",
+   "descripcion_corta": "Celebra la época más especial del año con una colección de queridas canciones navideñas. Desde villancicos atemporales hasta favoritas festivas, vive los clásicos de estas fechas junto a quienes más quieres en un acogedor concierto a la luz de las velas. Esta experiencia de concierto es un tributo…",
    "lugar": {
     "nombre": "Hotel Radisson Victoria Plaza",
     "direccion": null,
@@ -55,60 +55,12 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "669536",
-   "url": "https://feverup.com/m/669536",
-   "titulo": "Candlelight: Tributo a Maná",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Reserva antes de que acabe Black Friday. Ya pensabas ir... ¡y ahora está de oferta! Vive la música más icónica de Maná bajo una nueva luz en Hotel Radisson Victoria Plaza. Rodeado del cálido brillo de miles de velas, un cuarteto de cuerda da vida a música inolvidable de Oye Mi Amor, Labios…",
-   "lugar": {
-    "nombre": "Hotel Radisson Victoria Plaza",
-    "direccion": null,
-    "lat": -34.9058104,
-    "lon": -56.1995027,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2027-01-16T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 880.0,
-    "hasta": 880.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/669536",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/edf46d20-151f-11f0-a800-16ade76e2ff8.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
    "id_externo": "525129",
    "url": "https://feverup.com/m/525129",
    "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Reserva antes de que acabe Black Friday. Ya pensabas ir... ¡y ahora está de oferta! Vive un concierto Candlelight en el Salón Doré del Sofitel Montevideo Casino Carrasco and Spa: la música de Las cuatro estaciones de Vivaldi, interpretada en vivo por un cuarteto de cuerda en una sala iluminada por…",
+   "descripcion_corta": "Vive un concierto Candlelight en el Salón Doré del Sofitel Montevideo Casino Carrasco and Spa: la música de Las cuatro estaciones de Vivaldi, interpretada en vivo por un cuarteto de cuerda en una sala iluminada por velas, en una experiencia musical y multisensorial. Esta experiencia de concierto es…",
    "lugar": {
     "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
     "direccion": null,
@@ -151,12 +103,12 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "836762",
-   "url": "https://feverup.com/m/836762",
-   "titulo": "Candlelight: Tributo a Queen y The Beatles",
+   "id_externo": "669536",
+   "url": "https://feverup.com/m/669536",
+   "titulo": "Candlelight: Tributo a Maná",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Candlelight: Tributo a Queen y The Beatles es un concierto en vivo a la luz de las velas en el Hotel Radisson Victoria Plaza de Montevideo. Conseguí tus entradas y viví una noche con los clásicos de Queen y The Beatles, interpretados por un cuarteto de cuerdas. Esta experiencia de concierto es un…",
+   "descripcion_corta": "Vive la música más icónica de Maná bajo una nueva luz en Hotel Radisson Victoria Plaza. Rodeado del cálido brillo de miles de velas, un cuarteto de cuerda da vida a música inolvidable de Oye Mi Amor, Labios Compartidos, En El Muelle De San Blas en un concierto de 60 minutos. Esta experiencia de…",
    "lugar": {
     "nombre": "Hotel Radisson Victoria Plaza",
     "direccion": null,
@@ -168,7 +120,7 @@
    },
    "funciones": [
     {
-     "inicio": "2027-01-30T19:00:00-03:00",
+     "inicio": "2027-01-16T21:30:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -176,19 +128,19 @@
     }
    ],
    "precio": {
-    "desde": 960.0,
-    "hasta": 960.0,
+    "desde": 880.0,
+    "hasta": 880.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://feverup.com/m/836762",
+     "url": "https://feverup.com/m/669536",
      "via": "fever"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/bddda248-1a9f-11f0-9a59-a666f29e90ee.jpg",
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/edf46d20-151f-11f0-a800-16ade76e2ff8.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -247,12 +199,60 @@
   },
   {
    "fuente": "fever",
+   "id_externo": "836762",
+   "url": "https://feverup.com/m/836762",
+   "titulo": "Candlelight: Tributo a Queen y The Beatles",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Candlelight: Tributo a Queen y The Beatles es un concierto en vivo a la luz de las velas en el Hotel Radisson Victoria Plaza de Montevideo. Conseguí tus entradas y viví una noche con los clásicos de Queen y The Beatles, interpretados por un cuarteto de cuerdas. Esta experiencia de concierto es un…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-30T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 960.0,
+    "hasta": 960.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/836762",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/bddda248-1a9f-11f0-9a59-a666f29e90ee.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
    "id_externo": "658904",
    "url": "https://feverup.com/m/658904",
    "titulo": "Candlelight: Coldplay e Imagine Dragons",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Reserva antes de que acabe Black Friday. Ya pensabas ir... ¡y ahora está de oferta! Desde las baladas emotivas de Coldplay hasta los himnos de Imagine Dragons, vive dos de las bandas más queridas del mundo reunidas en un concierto extraordinario. Escucha favoritas como Viva La Vida, Fix You…",
+   "descripcion_corta": "Desde las baladas emotivas de Coldplay hasta los himnos de Imagine Dragons, vive dos de las bandas más queridas del mundo reunidas en un concierto extraordinario. Escucha favoritas como Viva La Vida, Fix You, Believer y Demons en una atmósfera sobrecogedora a la luz de las velas. Esta experiencia…",
    "lugar": {
     "nombre": "Hotel Radisson Victoria Plaza",
     "direccion": null,
@@ -285,6 +285,102 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/53777c04-1157-11f0-bc63-0ee885ccc32f.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "838626",
+   "url": "https://feverup.com/m/838626",
+   "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Candlelight: Las Cuatro Estaciones de Vivaldi llega al Hotel Radisson Victoria Plaza de Montevideo: un cuarteto de cuerdas interpreta la obra más emblemática de Vivaldi a la luz de las velas. Conseguí tus entradas y disfrutá de la música. Esta experiencia de concierto es un tributo. No está…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-28T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 840.0,
+    "hasta": 840.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/838626",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/7c807528-1ab3-11f0-9eff-324ba1e3eb01.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "836763",
+   "url": "https://feverup.com/m/836763",
+   "titulo": "Candlelight: Himnos del Rock de los 80",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Candlelight: Himnos del Rock de los 80 es un concierto de música en vivo a la luz de las velas en el Hotel Radisson Victoria Plaza de Montevideo. Conseguí tus entradas y disfrutá de los grandes himnos del rock de los 80 interpretados por un cuarteto de cuerdas. Esta experiencia de concierto es un…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-30T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 740.0,
+    "hasta": 740.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/836763",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/a4251344-6861-11f0-90b8-ee5a9ea828c9.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -391,92 +487,44 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "836763",
-   "url": "https://feverup.com/m/836763",
-   "titulo": "Candlelight: Himnos del Rock de los 80",
+   "id_externo": "838625",
+   "url": "https://feverup.com/m/838625",
+   "titulo": "Candlelight: Queen vs. ABBA",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Candlelight: Himnos del Rock de los 80 es un concierto de música en vivo a la luz de las velas en el Hotel Radisson Victoria Plaza de Montevideo. Conseguí tus entradas y disfrutá de los grandes himnos del rock de los 80 interpretados por un cuarteto de cuerdas. Esta experiencia de concierto es un…",
+   "descripcion_corta": "Los conciertos Candlelight llevan la magia de la música en vivo a lugares increíbles de Montevideo, bajo la luz tenue de las velas. ¡Conseguí tus entradas para descubrir la música de Candlelight: Queen vs. ABBA en Sala Valle Inclán! Esta experiencia de concierto es un tributo. No está vinculada…",
    "lugar": {
-    "nombre": "Hotel Radisson Victoria Plaza",
+    "nombre": "Sala Valle Inclán",
     "direccion": null,
-    "lat": -34.9058104,
-    "lon": -56.1995027,
+    "lat": -34.9074103,
+    "lon": -56.1975527,
     "barrio": null,
     "alternativas": [],
     "instagram": null
    },
    "funciones": [
     {
-     "inicio": "2027-01-30T21:30:00-03:00",
-     "fin": null,
+     "inicio": "2027-03-12T19:00:00-03:00",
+     "fin": "2027-04-17T19:00:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 740.0,
-    "hasta": 740.0,
+    "desde": 672.0,
+    "hasta": 672.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://feverup.com/m/836763",
+     "url": "https://feverup.com/m/838625",
      "via": "fever"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/a4251344-6861-11f0-90b8-ee5a9ea828c9.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
-   "id_externo": "838626",
-   "url": "https://feverup.com/m/838626",
-   "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Candlelight: Las Cuatro Estaciones de Vivaldi llega al Hotel Radisson Victoria Plaza de Montevideo: un cuarteto de cuerdas interpreta la obra más emblemática de Vivaldi a la luz de las velas. Conseguí tus entradas y disfrutá de la música. Esta experiencia de concierto es un tributo. No está…",
-   "lugar": {
-    "nombre": "Hotel Radisson Victoria Plaza",
-    "direccion": null,
-    "lat": -34.9058104,
-    "lon": -56.1995027,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2027-02-28T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 776.0,
-    "hasta": 776.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/838626",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/7c807528-1ab3-11f0-9eff-324ba1e3eb01.jpg",
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/ad60b410-1945-11f0-bf40-961efeb2b763.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -492,7 +540,7 @@
    "titulo": "Candlelight: Lo Mejor de Hans Zimmer",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Reserva antes de que acabe Black Friday. Ya pensabas ir... ¡y ahora está de oferta! Vive las bandas sonoras más icónicas de Hans Zimmer bajo una nueva luz. Rodeado del cálido resplandor de miles de velas, músicos en directo dan vida a melodías inolvidables de Origen, Interstellar, El Rey León…",
+   "descripcion_corta": "Vive las bandas sonoras más icónicas de Hans Zimmer bajo una nueva luz. Rodeado del cálido resplandor de miles de velas, músicos en directo dan vida a melodías inolvidables de Origen, Interstellar, El Rey León, Gladiator y más en un concierto sobrecogedor. Esta experiencia de concierto es un…",
    "lugar": {
     "nombre": "Hyatt Centric",
     "direccion": null,
@@ -540,7 +588,7 @@
    "titulo": "Candlelight: Queen vs. ABBA",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Reserva antes de que acabe Black Friday. Ya pensabas ir... ¡y ahora está de oferta! Queen y ABBA, frente a frente en un concierto Candlelight: los grandes éxitos de dos leyendas del pop y el rock, interpretados en vivo por un cuarteto de cuerda y rodeados de velas en el Sofitel Montevideo Casino…",
+   "descripcion_corta": "Queen y ABBA, frente a frente en un concierto Candlelight: los grandes éxitos de dos leyendas del pop y el rock, interpretados en vivo por un cuarteto de cuerda y rodeados de velas en el Sofitel Montevideo Casino Carrasco and Spa. Esta experiencia de concierto es un tributo. No está vinculada…",
    "lugar": {
     "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
     "direccion": null,
@@ -588,7 +636,7 @@
    "titulo": "Candlelight: Especial de San Valentín",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Reserva antes de que acabe Black Friday. Ya pensabas ir... ¡y ahora está de oferta! ¡Celebra el amor con una colección de melodías románticas y clásicos atemporales! Desde canciones de amor inolvidables hasta favoritas llenas de sentimiento, vive un precioso concierto Candlelight pensado para…",
+   "descripcion_corta": "¡Celebra el amor con una colección de melodías románticas y clásicos atemporales! Desde canciones de amor inolvidables hasta favoritas llenas de sentimiento, vive un precioso concierto Candlelight pensado para momentos especiales junto a alguien querido. Esta experiencia de concierto es un tributo…",
    "lugar": {
     "nombre": "Hotel Radisson Victoria Plaza",
     "direccion": null,
@@ -717,54 +765,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/48b94802-1917-11f0-a8b2-de92939c34e1.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
-   "id_externo": "838625",
-   "url": "https://feverup.com/m/838625",
-   "titulo": "Candlelight: Queen vs. ABBA",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Los conciertos Candlelight llevan la magia de la música en vivo a lugares increíbles de Montevideo, bajo la luz tenue de las velas. ¡Conseguí tus entradas para descubrir la música de Candlelight: Queen vs. ABBA en Sala Valle Inclán! Esta experiencia de concierto es un tributo. No está vinculada…",
-   "lugar": {
-    "nombre": "Sala Valle Inclán",
-    "direccion": null,
-    "lat": -34.9074103,
-    "lon": -56.1975527,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2027-03-12T19:00:00-03:00",
-     "fin": "2027-04-17T19:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 672.0,
-    "hasta": 672.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/838625",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/ad60b410-1945-11f0-bf40-961efeb2b763.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],

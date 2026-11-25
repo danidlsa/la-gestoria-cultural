@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-24T18:39:04.359911-03:00",
+ "corrida": "2026-11-25T11:28:52.964241-03:00",
  "ok": true,
- "cantidad": 56,
+ "cantidad": 50,
  "errores": [],
  "eventos": [
   {
@@ -159,56 +159,6 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "latabernadebrecha-20261110",
-   "url": "https://www.instagram.com/p/DfikgX0ljQk/",
-   "titulo": "La Taberna de Brecha: Qué martes se viene",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Se acerca el cierre pero aún quedan martes y mucha música. Martes de noviembre / 21:00 h. Entrada libre. Localidades limitadas por orden de llegada. Entrega de accesos a partir de las 20:00. Nos vemos abajo.",
-   "lugar": {
-    "nombre": "La Taberna de Brecha",
-    "direccion": "Durazno y Jackson",
-    "lat": -34.909634,
-    "lon": -56.172902,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": "latabernadebrecha"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfikgX0ljQk/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3c58327bdcc1.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
    "muestra": false,
    "hasta": null
   },
@@ -379,285 +329,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "el.mingus-20261124",
-   "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
-   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Martes de Jazz",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Martes 24 de noviembre: Martes de Jazz (todos los martes)",
-   "lugar": {
-    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/5713f8de9bb7.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "clubculturalcharco-20261124",
-   "url": "https://www.instagram.com/p/DgIZgMBBwWg/",
-   "titulo": "Club Cultural Charco: Desplazamiento, historias de amor, familia y barro",
-   "categoria": "charla",
-   "categoria_segura": true,
-   "descripcion_corta": "Hoy cerramos antes porque nos desplazamos hasta destileriacapicua para continuar con las celebraciones por nuestros 5 años. Hasta las 18.00 h estaremos en Charco. A partir de las 19.00 h te esperamos en Capicúa. ¿Cómo celebramos hoy? Nos desplazamos hacia Ciudad Vieja para brindar, viajar con la…",
-   "lugar": {
-    "nombre": "Destilería Capicúa",
-    "direccion": "Pérez Castellano 1364",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DgIZgMBBwWg/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d0b403e9011f.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261124",
-   "url": "https://www.instagram.com/reel/Df-BP8myokM/",
-   "titulo": "Centro Cultural de España: Alorí de Violeta Veinte – Trío",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Alorí de Violeta Veinte – Trío martes 24 de noviembre 19:30 h CCE Montevideo - Rincón 629 Actividad gratuita. La tradición también puede ser un punto de partida para crear nuevos universos sonoros. Alorí es el proyecto personal de la violinista, cantante y compositora española Violeta Veinte, una…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": [],
-    "instagram": "ccemontevideo"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/Df-BP8myokM/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/82356c392b32.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "paseo_cultural_ciudad_vieja-20261124",
-   "url": "https://www.instagram.com/reel/DgGTE4NiuKJ/",
-   "titulo": "Paseo Cultural Ciudad Vieja: Presenta una nueva Gala Lírica, esta vez con una propuesta dedicada a la opereta…",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "presenta una nueva Gala Lírica, esta vez con una propuesta dedicada a la opereta vienesa y francesa basada en obras de Lehár, Offenbach, Reynaldo Hahn y Planquette de la mano de destacados artistas del de Buenos Aires. Una velada para dejarse llevar por la música, las voces y el encanto de la…",
-   "lugar": {
-    "nombre": "Auditorio Vaz Ferreira",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/DgGTE4NiuKJ/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/820173819a62.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "lacretinacasa-20261124",
-   "url": "https://www.instagram.com/p/Df7O-g_h2SP/",
-   "titulo": "La Cretina: 99% BALADAS - ¡La terapia musical que no podés dejar pasar",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "99% BALADAS - ¡La terapia musical que no podés dejar pasar! ¡ENTRADA LIBRE! Este martes 24 buena música y mucha diversión. ¡Las mejores baladas de los 80s, 90s y 00s te esperan para que las cantes a todo pulmón! Con 99.baladas y Gabriel Soria, revivimos esas canciones que te llenan de recuerdos, de…",
-   "lugar": {
-    "nombre": "La Cretina",
-    "direccion": "Soriano 1236",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": "lacretinacasa"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df7O-g_h2SP/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ccab8b1e07ee.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "latabernadebrecha-20261124",
-   "url": "https://www.instagram.com/p/DgD_vFCFlvo/",
-   "titulo": "La Taberna de Brecha: Último martes de noviembre con un formato especial",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Último martes de noviembre con un formato especial. poporomano trío + cataerdelyi Martes 24 de noviembre / 21:00h. Entrada libre. Lugares limitados por orden de llegada. Entrega de accesos desde las 20:00. Nos vemos abajo.",
-   "lugar": {
-    "nombre": "La Taberna de Brecha",
-    "direccion": "Durazno y Jackson",
-    "lat": -34.909634,
-    "lon": -56.172902,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": "latabernadebrecha"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DgD_vFCFlvo/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/55508aaada79.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "el.mingus-20261125",
    "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Red Hot Chili Peppers en Jazz",
@@ -691,51 +362,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d59c6972b910.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261125",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: OPEN MIC",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Miércoles 25: OPEN MIC",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": "theshannonuy"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/93c695acfbe7.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -797,11 +423,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "barlarondacafe-20261125",
-   "url": "https://www.instagram.com/p/Df_Dow4t9SG/",
+   "url": "https://www.instagram.com/reel/DgJWCasgHbh/",
    "titulo": "La Ronda: Noches De Ensayos Abiertos · El Jardín",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Este miércoles en Noches De Ensayos Abiertos El Jardín Banda que lidera Felipe Sánchez desde 2023. Se lo puede encontrar o atendiendo el kiosko de plaza zabala \"El Fuerte\" o haciendo música para su proyecto que mezcla folk con rock alternativo. En esta oportunidad se presentará junto a Charlie…",
+   "descripcion_corta": "Esto fue NDEA el pasado miércoles con magelaferrero Mañana los esperamos con una nueva edición de NDEA con eljardiin_ en vivo Musicaliza _wandixx_ 20h Ciudadela 1182",
    "lugar": {
     "nombre": "La Ronda",
     "direccion": "Ciudadela 1182",
@@ -820,15 +446,10 @@
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
+   "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Df_Dow4t9SG/",
+     "url": "https://www.instagram.com/reel/DgJWCasgHbh/",
      "via": "instagram"
     }
    ],
@@ -884,6 +505,56 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a383deb164cd.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261125",
+   "url": "https://www.instagram.com/p/DgKuccQRxfx/",
+   "titulo": "The Shannon: OPEN MIC",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Miércoles 25/Noviembre: OPEN MIC NIGHT - 4ta temporada Bienvenidos al primer Open Mic de Uruguay. Participa, compartí tu arte. Entrada libre 22 hrs",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": "theshannonuy"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgKuccQRxfx/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/93c695acfbe7.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -987,11 +658,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "clubculturalcharco-20261126",
-   "url": "https://www.instagram.com/p/DgH8qrUFdy4/",
+   "url": "https://www.instagram.com/reel/DgJckFRhhus/",
    "titulo": "Club Cultural Charco: Mary Oliver, documental y conversatorio",
    "categoria": "cine",
    "categoria_segura": false,
-   "descripcion_corta": "Jueves 26 de noviembre Horario: 18:30 En cineuniversitariodeluruguay (Canelones 1280, Sala Lumière) Coordina y modera: maugemen Actividad gratuita con reserva previa. Cupos limitados. Consultas al 092 221 940 Mirá la programación completa de nuestro aniversario en charco.uy",
+   "descripcion_corta": "Nos desplazamos hacia una tierra de amor, barro y magia pagana. Escuchamos las crónicas del taller de azulcordo y fuimos abanicadas con toda la potencia de rolumero. Gracias a destileriacapicua por abrir las puertas de su casa. ¡Siguen los festejos por nuestros 5 años! PRÓXIMA PARADA: Jueves 26.11…",
    "lugar": {
     "nombre": "Cine Universitario del Uruguay",
     "direccion": "Canelones 1280",
@@ -1010,15 +681,10 @@
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
+   "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DgH8qrUFdy4/",
+     "url": "https://www.instagram.com/reel/DgJckFRhhus/",
      "via": "instagram"
     }
    ],
@@ -1129,51 +795,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261127",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: KARAOKE EN VIVO",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Viernes 27: KARAOKE EN VIVO. con Mauricio Basalo Club Shannon: LUMEN",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": "theshannonuy"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8e5f2d80c017.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261127",
    "url": "https://www.instagram.com/p/DfnEZWNGHn8/",
    "titulo": "Centro Cultural de España: A mover las cachas! Llega La Ventolera al CCE",
@@ -1270,12 +891,12 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261128",
-   "url": "https://www.instagram.com/p/DfUjlSARymU/",
-   "titulo": "The Shannon: EASYBAND",
+   "id_externo": "theshannonuy-20261127",
+   "url": "https://www.instagram.com/p/DgKuccQRxfx/",
+   "titulo": "The Shannon: KARAOKE EN VIVO",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Sábado 28: EASYBAND",
+   "descripcion_corta": "Viernes 27/Noviembre: JAM SESSION Rock&Pop - 22 hs Cubierto artístico $200 Club Shannon: LUMEN Rock&Pop - 22 hs Cubierto artístico $200",
    "lugar": {
     "nombre": "The Shannon irish pub",
     "direccion": "Bartolomé Mitre 1318",
@@ -1287,22 +908,27 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-28T00:00:00-03:00",
+     "inicio": "2026-11-27T22:00:00-03:00",
      "fin": null,
-     "sin_hora": true,
+     "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 200.0,
+    "hasta": 200.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DfUjlSARymU/",
+     "url": "https://www.instagram.com/p/DgKuccQRxfx/",
      "via": "instagram"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8df5b8bddf99.jpg",
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8e5f2d80c017.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1544,7 +1170,7 @@
    "titulo": "Espacio Peppino Impastato: Abrimos EPI",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "¡Este sábado inauguramos! Van a estar los DJs: neon_raver_ _maddariddim Y la música en vivo de: sanpulso bocuchauy desdelsurrr melmorcp Además va estar presente un artista sorpresa Vení a disfrutar de buena música y cosas ricas sábado 28 de noviembre | 18:30 hs. Piedras 429 (Ciudad Vieja) Entrada…",
+   "descripcion_corta": "¡Este sábado inauguramos! Van a estar los DJs: neon_raver_ _maddariddim Y la música en vivo de: sanpulso bocuchauy desdelsurrr melmorcp Además va estar presente un artista sorpresa Vení a disfrutar de buena música y cosas ricas Sábado 28 de noviembre | 18:30 hs. Piedras 429 (Ciudad Vieja) Entrada…",
    "lugar": {
     "nombre": "Espacio Peppino Impastato",
     "direccion": "Piedras 429",
@@ -1721,6 +1347,56 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261128",
+   "url": "https://www.instagram.com/p/DgKuccQRxfx/",
+   "titulo": "The Shannon: EASYBAND",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Sábado 28/Noviembre: EASYBAND Tributo a Bon Scott y AcDc - 22 hs Cubierto artístico $250 Nota: el cubierto artístico se cobra en efectivo o por transferencia. Gracias por valorar y apoyar la música en vivo pagando el cubierto artístico. NO SE PERMITEN MENORES DE EDAD",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": "theshannonuy"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 250.0,
+    "hasta": 250.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgKuccQRxfx/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8df5b8bddf99.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },
@@ -1963,11 +1639,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261202",
-   "url": "https://www.instagram.com/p/DfsWAkbGCpT/",
+   "url": "https://www.instagram.com/p/DgJAOj2GJSM/",
    "titulo": "Centro Cultural de España: Laboratorio de guion adaptado",
    "categoria": "taller",
    "categoria_segura": false,
-   "descripcion_corta": "Laboratorio de guion adaptado | Festival Anfibia Montevideo ¿Cómo se transforma una obra de teatro en una historia para la pantalla? A partir de La piel en llamas, obra teatral de Guillem Clua, este laboratorio propone explorar, desde la práctica, las herramientas y decisiones que intervienen en la…",
+   "descripcion_corta": "Propiedad intelectual y humanismo en la IA La inteligencia artificial ya forma parte de los procesos creativos, pero ¿qué sucede con la autoría y los derechos de quienes crean? En el marco del Festival Anfibia Montevideo, esta charla propone una mirada humanista sobre los desafíos que plantea la IA…",
    "lugar": {
     "nombre": "Centro Cultural de España",
     "direccion": "Rincón 629",
@@ -1979,24 +1655,22 @@
    },
    "funciones": [
     {
-     "inicio": "2026-12-02T10:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-03T10:00:00-03:00",
+     "inicio": "2026-12-02T18:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DfsWAkbGCpT/",
+     "url": "https://www.instagram.com/p/DgJAOj2GJSM/",
      "via": "instagram"
     }
    ],
@@ -2013,11 +1687,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "sala_zitarrosa-20261202",
-   "url": "https://www.instagram.com/p/Df-rahfiBNy/",
+   "url": "https://www.instagram.com/p/DgJFc_RgvCe/",
    "titulo": "Sala Zitarrosa: Una noche de celebración y reconocimiento de Montevideo al Candombe como Patrimonio…",
    "categoria": "carnaval",
    "categoria_segura": false,
-   "descripcion_corta": "Una noche de celebración y reconocimiento de Montevideo al Candombe como Patrimonio Cultural Nacional del Uruguay y Patrimonio Cultural Inmaterial de la Humanidad (UNESCO). Un encuentro de celebración y música de la Sala Zitarrosa, del Departamento de Cultura, y la División Turismo de la…",
+   "descripcion_corta": "Tributo por el centenario de John Coltrane en el marco del jazztouruy Miércoles 2 de diciembre 20:00 Entradas a la venta en Abitab, Redpagos, Tickantel y boletería de la sala El quinteto de jazz liderado por el baterista Juan Ibarra e integrado por Germán Lamonega en contrabajo, Gabriel Manzanares…",
    "lugar": {
     "nombre": "Sala Zitarrosa",
     "direccion": "Av. 18 de Julio 1012",
@@ -2029,7 +1703,7 @@
    },
    "funciones": [
     {
-     "inicio": "2026-12-02T15:30:00-03:00",
+     "inicio": "2026-12-02T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -2043,15 +1717,10 @@
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
+   "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Df-rahfiBNy/",
+     "url": "https://www.instagram.com/p/DgJFc_RgvCe/",
      "via": "instagram"
     }
    ],
@@ -2112,8 +1781,56 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "ccemontevideo-20261203",
+   "url": "https://www.instagram.com/p/DgIQAZiIJYJ/",
+   "titulo": "Centro Cultural de España: ¿Qué pasa cuando la música se convierte en historieta?",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "¿Qué pasa cuando la música se convierte en historieta? En una nueva edición de Anatomía del Cómic, nos acercamos a Zitarrosa, la novela gráfica de Rodolfo Santullo y Max Aguirre, para descubrir cómo se construyó esta obra: desde el proceso de investigación y las referencias hasta el vínculo entre…",
+   "lugar": {
+    "nombre": "Centro Cultural de España",
+    "direccion": "Rincón 629",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": [],
+    "instagram": "ccemontevideo"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgIQAZiIJYJ/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/52d42b9590c1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261204",
-   "url": "https://www.instagram.com/p/Df5Q8lSmF6L/",
+   "url": "https://www.instagram.com/p/DgKuEjJFcLT/",
    "titulo": "Centro Cultural de España: 8 que cuentan: una conversación de inclusión y un encuentro de lectura colectiva",
    "categoria": "otros",
    "categoria_segura": false,
@@ -2144,7 +1861,7 @@
    },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Df5Q8lSmF6L/",
+     "url": "https://www.instagram.com/p/DgKuEjJFcLT/",
      "via": "instagram"
     }
    ],

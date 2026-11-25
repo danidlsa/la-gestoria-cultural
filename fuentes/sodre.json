@@ -1,6 +1,6 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-24T18:30:46.900258-03:00",
+ "corrida": "2026-11-25T11:20:27.954596-03:00",
  "ok": true,
  "cantidad": 37,
  "errores": [],
@@ -841,51 +841,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021919/emi"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13631",
-   "url": "https://sodre.gub.uy/espectaculos/gala-lirica-2/",
-   "titulo": "Gala Lírica",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Opereta – Vienesa y Francesa",
-   "lugar": {
-    "nombre": "Auditorio Vaz Ferreira",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T20:00:00-03:00",
-     "fin": "2026-11-24T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021798/gala-lirica-opereta-vienesa-y-francesa",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Destacado-web-11-1-768x420.png",
-   "productor": "Espectáculos del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021798/gala-lirica-opereta-vienesa-y-francesa"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -1776,6 +1731,51 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021999/muestra-de-fin-de-ano-area-ballet-2026"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13891",
+   "url": "https://sodre.gub.uy/espectaculos/pecado-y-luz/",
+   "titulo": "Pecado y Luz",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Temporada de Música de Cámara",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-09T20:00:00-03:00",
+     "fin": "2026-12-09T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021686/tmc-pecado-y-luz",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Adaptaciones_PECADO_LUZ_destacada-1-768x420.png",
+   "productor": "Temporada de Música de Cámara del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021686/tmc-pecado-y-luz"
    ],
    "ciclo": null,
    "etiquetas": [],

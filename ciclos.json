@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-24T18:40:20.032976-03:00",
- "cantidad": 21,
+ "generado": "2026-11-25T11:30:24.966696-03:00",
+ "cantidad": 22,
  "ciclos": [
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
    "lugar_id": null,
-   "desde": "2026-11-24T13:30:00-03:00",
+   "desde": "2026-11-25T16:00:00-03:00",
    "hasta": "2026-12-11T16:00:00-03:00",
    "cantidad": 7
   },
@@ -14,24 +14,16 @@
    "id": "ciclo-las-mujeres-de-hitchcock",
    "titulo": "Las mujeres de Hitchcock",
    "lugar_id": "cinemateca",
-   "desde": "2026-11-24T17:00:00-03:00",
+   "desde": "2026-11-25T17:00:00-03:00",
    "hasta": "2026-11-28T18:05:00-03:00",
-   "cantidad": 5
+   "cantidad": 4
   },
   {
    "id": "ciclo-cine-uruguayo-diez-anos",
    "titulo": "Cine uruguayo diez años",
    "lugar_id": "cinemateca",
-   "desde": "2026-11-24T19:30:00-03:00",
+   "desde": "2026-11-25T19:30:00-03:00",
    "hasta": "2026-11-28T20:10:00-03:00",
-   "cantidad": 5
-  },
-  {
-   "id": "ciclo-ciclo-marea",
-   "titulo": "Ciclo MAREA",
-   "lugar_id": "sala-zitarrosa",
-   "desde": "2026-11-24T21:00:00-03:00",
-   "hasta": "2027-03-12T20:30:00-03:00",
    "cantidad": 4
   },
   {
@@ -48,7 +40,7 @@
    "lugar_id": "auditorio-vaz-ferreira",
    "desde": "2026-11-26T20:00:00-03:00",
    "hasta": "2026-12-17T20:00:00-03:00",
-   "cantidad": 3
+   "cantidad": 2
   },
   {
    "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
@@ -65,6 +57,14 @@
    "desde": "2026-11-27T14:00:00-03:00",
    "hasta": "2026-11-28T14:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-ciclo-marea",
+   "titulo": "Ciclo MAREA",
+   "lugar_id": "sala-zitarrosa",
+   "desde": "2026-11-27T20:30:00-03:00",
+   "hasta": "2027-03-12T20:30:00-03:00",
+   "cantidad": 3
   },
   {
    "id": "ciclo-musica-en-el-parque",
@@ -97,6 +97,14 @@
    "desde": "2026-12-02T20:00:00-03:00",
    "hasta": "2026-12-03T20:00:00-03:00",
    "cantidad": 2
+  },
+  {
+   "id": "ciclo-festival-callejero-grecia-tomada",
+   "titulo": "Festival callejero Grecia Tomada",
+   "lugar_id": null,
+   "desde": "2026-12-04T17:00:00-03:00",
+   "hasta": "2026-12-04T20:30:00-03:00",
+   "cantidad": 5
   },
   {
    "id": "ciclo-ciclo-de-piano",

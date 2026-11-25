@@ -1,147 +1,13 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-24T18:21:14.738779-03:00",
+ "corrida": "2026-11-25T11:16:44.314566-03:00",
  "ok": true,
- "cantidad": 96,
+ "cantidad": 94,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
   "https://tickantel.com.uy/ng/espectaculo/40021784/la-trampa: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-LaTrampa?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021798",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021798/gala-lirica-opereta-vianesa-y-francesa",
-   "titulo": "Gala Lírica - Opereta - Vienesa y Francesa",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "ProOpera presenta una Gala Lírica con artistas del Teatro Colón de Buenos Aires. Susana Frangi al piano, junto a la soprano Kospi Bersano, el tenor Iván Vega y el barítono Julián Molinero, ofrecerán un programa de opereta vienesa y francesa con obras de Lehár, Offenbach, Reynaldo Hahn y Planquette…",
-   "lugar": {
-    "nombre": "Auditorio Vaz Ferreira",
-    "direccion": null,
-    "lat": -34.9026912,
-    "lon": -56.1776624,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1000.0,
-    "hasta": 1000.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021798/gala-lirica-opereta-vianesa-y-francesa",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021798/Banner24_11.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021756",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021756/particulas-sofia-alvez-animales-de-poder",
-   "titulo": "Partículas: Sofía Alvez + Animales de Poder",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021756/particulas-sofia-alvez-animales-de-poder",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021756/BANNER.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021807",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021807/mujeres-de-todas-partes",
-   "titulo": "Mujeres de todas partes",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "MUJERES DE TODAS PARTES nació el 8M de 2025 como una canción: un homenaje y una celebración que narra, con bellas metáforas, los logros y conquistas de las mujeres a lo largo de la historia, y que reafirma el gran talento femenino que hay en Uruguay. Tras la cálida y masiva aceptación que tuvo la…",
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": -34.90626,
-    "lon": -56.19441,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021807/mujeres-de-todas-partes",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021807/BANNER.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021658",
@@ -1725,54 +1591,6 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021684",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021684/tmc-melodias-olvidadas",
-   "titulo": "TMC: Melodías olvidadas",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Matías Ferreyra, piano Programa Robert Schumann — Bunte Blätter, op. 99 Drei Stücklein I. Nicht schnell, mit Innigkeit (No rápido, con sensibilidad) II. Sehr rasch (Muy rápido) III. Frisch (Fresco / Vivaz) Fünf Albumblätter I. Ziemlich langsam (Bastante lento) II. Schnell (Rápido) III. Ziemlich…",
-   "lugar": {
-    "nombre": "Auditorio Vaz Ferreira",
-    "direccion": null,
-    "lat": -34.9026912,
-    "lon": -56.1776624,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-03T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 250.0,
-    "hasta": 250.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021684/tmc-melodias-olvidadas",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021684/Dic,_3_-_Adaptaciones_MELODIAS_OLVIDADAS_tickantel.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
    "id_externo": "40021999",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021999/muestra-de-fin-de-ano-area-ballet-2026",
    "titulo": "Muestra de fin de año Área Ballet 2026",
@@ -1873,6 +1691,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021476/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021684",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021684/tmc-melodias-olvidadas",
+   "titulo": "TMC: Melodías olvidadas",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Matías Ferreyra, piano Programa Robert Schumann — Bunte Blätter, op. 99 Drei Stücklein I. Nicht schnell, mit Innigkeit (No rápido, con sensibilidad) II. Sehr rasch (Muy rápido) III. Frisch (Fresco / Vivaz) Fünf Albumblätter I. Ziemlich langsam (Bastante lento) II. Schnell (Rápido) III. Ziemlich…",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": -34.9026912,
+    "lon": -56.1776624,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 250.0,
+    "hasta": 250.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021684/tmc-melodias-olvidadas",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021684/Dic,_3_-_Adaptaciones_MELODIAS_OLVIDADAS_tickantel.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -4111,6 +3977,103 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020169/BannerNuev.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40022024",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40022024/icaro-dance-with-me",
+   "titulo": "Ícaro, dance with me",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "60 minutos antes del vuelo. En esta versión contemporánea del mito griego, Ícaro está frente a nosotros y tiene una historia que contar, canciones que cantar, heridas que mostrar y una pregunta urgente: ¿qué nos sostiene cuando sentimos que estamos por caer? Entre la confesión y el espectáculo, una…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-04T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-05T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-06T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-07T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-11T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-12T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-13T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-02-14T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 900.0,
+    "hasta": 900.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022024/icaro-dance-with-me",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022024/Tickantel-700x390px_(1).png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

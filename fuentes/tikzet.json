@@ -1,8 +1,8 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-24T18:38:40.407075-03:00",
+ "corrida": "2026-11-25T11:28:30.780258-03:00",
  "ok": true,
- "cantidad": 16,
+ "cantidad": 15,
  "errores": [],
  "eventos": [
   {
@@ -343,54 +343,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "61733cff-1049-49da-982a-07d021e32ecd",
-   "url": "https://www.tikzet.com/events/ssat-a8b4",
-   "titulo": "SSAT",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Vuelve _ssat en formato acústico a El Hormiguero, siempre acompañado por el beatboxing y la percusión de Alex Beatbox y nuevos invitados especiales para compartir una noche de sábado. *El show es con sillas y las mesas son compartidas.",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-05T21:30:00-03:00",
-     "fin": "2026-12-05T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/ssat-a8b4",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F8fbcd66b-a5fe-4b91-ac66-93271191c09b.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "a410902f-b1fe-463e-a7e5-2aca8af8ba89",
    "url": "https://www.tikzet.com/events/gota-serena-54b7",
    "titulo": "Gota Serena",
@@ -439,54 +391,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "ab487087-b2b8-41d2-902e-71467f67c7ca",
-   "url": "https://www.tikzet.com/events/acampo-reggae-festival",
-   "titulo": "Acampo Reggae Festival",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Acampo Reggae es mucho más que un festival: es un espacio de encuentro para espíritus libres, sin prejuicios, unidos por la música y el deseo de compartir. Creemos en valores como la unidad, la paz, el amor, la cultura, las artes, el respeto por el medio ambiente y la libertad de ser quienes somos…",
-   "lugar": {
-    "nombre": "ACAMPOREGGAE FESTIVAL",
-    "direccion": "La Vieja Escuela, Oceanía del Polonio",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-05T14:00:00-03:00",
-     "fin": "2026-12-06T20:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 800.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/acampo-reggae-festival",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fe5c4bd28-3f61-4e03-9030-1b89d516597d.original",
-   "productor": "ACAMPOREGGAE FESTIVAL",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "b23cec88-7737-4c84-aeeb-3d9edb1958ad",
    "url": "https://www.tikzet.com/events/lia-almada-trio-florencia-cabezudo-sexteto",
    "titulo": "Lía Almada Trío + Florencia Cabezudo Sexteto",
@@ -526,6 +430,102 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F1657a72d-9204-461d-ac52-e54de35d7704.original",
    "productor": "El Chamuyo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "61733cff-1049-49da-982a-07d021e32ecd",
+   "url": "https://www.tikzet.com/events/ssat-a8b4",
+   "titulo": "SSAT",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Vuelve _ssat en formato acústico a El Hormiguero, siempre acompañado por el beatboxing y la percusión de Alex Beatbox y nuevos invitados especiales para compartir una noche de sábado. *El show es con sillas y las mesas son compartidas.",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:30:00-03:00",
+     "fin": "2026-12-05T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/ssat-a8b4",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F8fbcd66b-a5fe-4b91-ac66-93271191c09b.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "ab487087-b2b8-41d2-902e-71467f67c7ca",
+   "url": "https://www.tikzet.com/events/acampo-reggae-festival",
+   "titulo": "Acampo Reggae Festival",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Acampo Reggae es mucho más que un festival: es un espacio de encuentro para espíritus libres, sin prejuicios, unidos por la música y el deseo de compartir. Creemos en valores como la unidad, la paz, el amor, la cultura, las artes, el respeto por el medio ambiente y la libertad de ser quienes somos…",
+   "lugar": {
+    "nombre": "ACAMPOREGGAE FESTIVAL",
+    "direccion": "La Vieja Escuela, Oceanía del Polonio",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T14:00:00-03:00",
+     "fin": "2026-12-06T20:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 800.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/acampo-reggae-festival",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fe5c4bd28-3f61-4e03-9030-1b89d516597d.original",
+   "productor": "ACAMPOREGGAE FESTIVAL",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -631,54 +631,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "d9dd7c05-722e-48c0-b5a5-cb0a53957c55",
-   "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
-   "titulo": "Marcelo Fernández & Damián Gadea",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Marcelo y Damián se juntan en un toque íntimo para recorrer varios años de música compartida. Una noche de claroscuros, con canciones propias y clásicos del costado más nocturno del rock. La banda se arma y se desarma según lo exija la velada. Compartiremos el escenario con grandes músicos y amigos…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-10T21:00:00-03:00",
-     "fin": "2026-12-10T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fa63c425a-116c-4b51-8860-8df68c76c6d4.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
    "url": "https://www.tikzet.com/events/narciso-en-montevideo",
    "titulo": "Narciso en Montevideo",
@@ -727,12 +679,12 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "27d891c2-4908-47ad-9908-62834fa8b5d6",
-   "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
-   "titulo": "Jula Andina presenta “Fecunda”",
+   "id_externo": "d9dd7c05-722e-48c0-b5a5-cb0a53957c55",
+   "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
+   "titulo": "Marcelo Fernández & Damián Gadea",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "La cantautora argentina JULA ANDINA presenta FECUNDA el próximo 24 de Noviembre en El Hormiguero. En un encuentro entre canciones, viajes y universos propios, la noche abrirá con Fulana de Val y contará con la participación especial de Clara Pregliasco, ambas cantautoras uruguayas. FECUNDA nace de…",
+   "descripcion_corta": "Marcelo y Damián se juntan en un toque íntimo para recorrer varios años de música compartida. Una noche de claroscuros, con canciones propias y clásicos del costado más nocturno del rock. La banda se arma y se desarma según lo exija la velada. Compartiremos el escenario con grandes músicos y amigos…",
    "lugar": {
     "nombre": "El Hormiguero",
     "direccion": "San Salvador 1644",
@@ -744,27 +696,27 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-24T21:00:00-03:00",
-     "fin": "2026-11-24T23:59:00-03:00",
+     "inicio": "2026-12-10T21:00:00-03:00",
+     "fin": "2026-12-10T23:59:00-03:00",
      "sin_hora": false,
      "sala": null,
-     "agotada": true
+     "agotada": false
     }
    ],
    "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
+    "desde": 400.0,
+    "hasta": 400.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/jula-andina-presenta-fecunda",
+     "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F739f0131-16dd-487c-bfad-c9c8c3950df7.original",
+   "imagen_url": "https://cdn.tikzet.com/images%2Fa63c425a-116c-4b51-8860-8df68c76c6d4.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],

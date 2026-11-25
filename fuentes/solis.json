@@ -1,8 +1,8 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-24T18:32:54.008066-03:00",
+ "corrida": "2026-11-25T11:22:35.056007-03:00",
  "ok": true,
- "cantidad": 24,
+ "cantidad": 23,
  "errores": [],
  "eventos": [
   {
@@ -550,51 +550,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/alta-demanda/40021894/yerai-cortes"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "solis",
-   "id_externo": "3079",
-   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/5to-Foro-Mujeres-Lideres-OMEU-uc3079",
-   "titulo": "5to Foro Mujeres Líderes OMEU",
-   "categoria": "charla",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021827/5to-foro-de-mujeres-lideres-omeu",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202610/W756_H530/7019.png",
-   "productor": "Teatro Solís",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021827/5to-foro-de-mujeres-lideres-omeu"
    ],
    "ciclo": null,
    "etiquetas": [],

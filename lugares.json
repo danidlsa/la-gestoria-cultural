@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-24T18:40:20.032976-03:00",
- "cantidad": 190,
+ "generado": "2026-11-25T11:30:24.966696-03:00",
+ "cantidad": 191,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -91,8 +91,8 @@
    "nombre": "Arteatro",
    "alias": [],
    "direccion": "Canelones 1136",
-   "lat": -34.908833,
-   "lon": -56.191511,
+   "lat": -34.9088331,
+   "lon": -56.1915109,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -320,6 +320,17 @@
    "instagram": "cafebrasilero.uy"
   },
   {
+   "id": "calle-grecia",
+   "nombre": "Calle Grecia",
+   "alias": [],
+   "direccion": "Grecia",
+   "lat": -34.8844345,
+   "lon": -56.2492465,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
    "id": "canelones-1963",
    "nombre": "Canelones 1963",
    "alias": [],
@@ -433,9 +444,9 @@
    "id": "centro-cultural-florencio-sanchez",
    "nombre": "Centro Cultural Florencio Sánchez",
    "alias": [],
-   "direccion": null,
-   "lat": -34.892275,
-   "lon": -56.24799,
+   "direccion": "Grecia 3281",
+   "lat": -34.89227,
+   "lon": -56.247973,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -676,17 +687,6 @@
    "lat": -34.907834,
    "lon": -56.187646,
    "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": null
-  },
-  {
-   "id": "destileria-capicua",
-   "nombre": "Destilería Capicúa",
-   "alias": [],
-   "direccion": "Pérez Castellano 1364",
-   "lat": -34.9088296,
-   "lon": -56.2099012,
-   "barrio": "Ciudad Vieja",
    "ciudad": "Montevideo",
    "instagram": null
   },
@@ -1058,12 +1058,12 @@
    "instagram": null
   },
   {
-   "id": "latu-laboratorio-tecnologico-del-uruguay",
-   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
+   "id": "latu",
+   "nombre": "LATU",
    "alias": [
-    "LATU"
+    "LATU - Laboratorio Tecnológico del Uruguay"
    ],
-   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
+   "direccion": "Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1117,19 +1117,6 @@
    "instagram": "barlarondacafe"
   },
   {
-   "id": "la-taberna-de-brecha",
-   "nombre": "La Taberna de Brecha",
-   "alias": [
-    "Taberna de Brecha"
-   ],
-   "direccion": "Durazno y Jackson",
-   "lat": -34.909634,
-   "lon": -56.172902,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": "latabernadebrecha"
-  },
-  {
    "id": "la-trastienda",
    "nombre": "La Trastienda",
    "alias": [],
@@ -1165,8 +1152,10 @@
   {
    "id": "live-era",
    "nombre": "Live Era",
-   "alias": [],
-   "direccion": "Uruguay 960, 11200 Montevideo, Departame",
+   "alias": [
+    "Live Era Sala"
+   ],
+   "direccion": "Uruguay 960",
    "lat": -34.903487,
    "lon": -56.195803,
    "barrio": null,
@@ -1222,6 +1211,17 @@
    "direccion": "Av. Uruguay 1136",
    "lat": -34.903194,
    "lon": -56.192042,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "mbc-nuevocentro",
+   "nombre": "MBC Nuevocentro",
+   "alias": [],
+   "direccion": "Av. Luis Alberto de Herrera 3420, 11600",
+   "lat": -34.868292,
+   "lon": -56.169249,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -1967,6 +1967,17 @@
    "direccion": null,
    "lat": -34.8905846,
    "lon": -56.0553743,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "taberna-de-brecha",
+   "nombre": "Taberna de Brecha",
+   "alias": [],
+   "direccion": "Durazno 1952, 11200 Montevideo",
+   "lat": -34.909783,
+   "lon": -56.172755,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null

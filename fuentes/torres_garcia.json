@@ -1,6 +1,6 @@
 {
  "fuente": "torres_garcia",
- "corrida": "2026-11-24T18:35:58.276478-03:00",
+ "corrida": "2026-11-25T11:25:40.665430-03:00",
  "ok": true,
  "cantidad": 3,
  "errores": [],
@@ -23,13 +23,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-24T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-25T00:00:00-03:00",
      "fin": null,
@@ -235,6 +228,13 @@
     },
     {
      "inicio": "2026-12-24T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-25T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -260,12 +260,12 @@
   },
   {
    "fuente": "torres_garcia",
-   "id_externo": "hola_taller",
-   "url": "https://www.torresgarcia.org.uy/exposiciones/hola_taller/",
-   "titulo": "Hola Taller - Talleres de infancias del Museo Torres García",
+   "id_externo": "muestra_talleres_2026",
+   "url": "https://www.torresgarcia.org.uy/exposiciones/muestra_talleres_2026/",
+   "titulo": "Muestra de los talleres Dibujando la historia y De la escritura al dibujo. - Alumnos y alumnas de los talleres.",
    "categoria": "exposicion",
    "categoria_segura": true,
-   "descripcion_corta": "La exposición reúne los procesos y creaciones del año 2026 de los y las integrantes de los talleres para infancias que se dictan en el museo.",
+   "descripcion_corta": "Dibujando la historia y De la escritura al dibujo son dos de los talleres de formación artística que se dictan en el Museo Torres García. Son coordinados por el docente Víctor García Góngora.",
    "lugar": {
     "nombre": "Museo Torres García",
     "direccion": "Sarandí 683",
@@ -276,13 +276,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-24T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-25T00:00:00-03:00",
      "fin": null,
@@ -492,12 +485,19 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-12-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": null,
    "entradas": [
     {
-     "url": "https://www.torresgarcia.org.uy/exposiciones/hola_taller/",
+     "url": "https://www.torresgarcia.org.uy/exposiciones/muestra_talleres_2026/",
      "via": "torres_garcia"
     }
    ],
@@ -530,13 +530,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-24T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-25T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -741,6 +734,13 @@
     },
     {
      "inicio": "2026-12-24T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-25T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,

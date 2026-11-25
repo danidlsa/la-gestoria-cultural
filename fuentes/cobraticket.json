@@ -1,8 +1,8 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-24T18:38:08.184679-03:00",
+ "corrida": "2026-11-25T11:27:56.094684-03:00",
  "ok": true,
- "cantidad": 12,
+ "cantidad": 14,
  "errores": [],
  "eventos": [
   {
@@ -428,6 +428,92 @@
    "beneficios": [],
    "imagen_url": "https://img.cobraticket.uy/SUxsVhaslC5Q9ZHZYLSKH.jpg",
    "productor": "Lotus WTC",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "952080",
+   "url": "https://cobraticket.uy/e/quiza-para-cuando-me-encuentre-952080",
+   "titulo": "Quizá Para Cuando me Encuentre",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "EL ZAPATILLA TEATRO presenta QUIZÁ PARA CUANDO ME ENCUENTRE De Ramón Lacruz Un hombre, Un terremoto, Una memoria que no vuelve.. Una esperanza que se va... Un thriller existencial sobre la resiliencia. Únicas funciones 11 y 12 de diciembre 21 horas en Arteatro Actúa: Nitay LaCruz Dirigen: Dana…",
+   "lugar": {
+    "nombre": "Arteatro",
+    "direccion": "Canelones 1136",
+    "lat": -34.9088331,
+    "lon": -56.1915109,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-11T21:00:00-03:00",
+     "fin": "2026-12-11T22:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/quiza-para-cuando-me-encuentre-952080",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/nIjs3QTsVcbER7STbeQox.jpg",
+   "productor": "Nitay Lacruz y Dana Producciones",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "377091",
+   "url": "https://cobraticket.uy/e/quiza-para-cuando-me-encuentre-377091",
+   "titulo": "Quizá Para Cuando me Encuentre",
+   "categoria": "teatro",
+   "categoria_segura": true,
+   "descripcion_corta": "EL ZAPATILLA TEATRO presenta QUIZÁ PARA CUANDO ME ENCUENTRE De Ramón Lacruz Un hombre, Un terremoto, Una memoria que no vuelve.. Una esperanza que se va... Un thriller existencial sobre la resiliencia. Únicas funciones 11 y 12 de diciembre 21 horas en Arteatro Actúa: Nitay LaCruz Dirigen: Dana…",
+   "lugar": {
+    "nombre": "Arteatro",
+    "direccion": "Canelones 1136",
+    "lat": -34.9088331,
+    "lon": -56.1915109,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T21:00:00-03:00",
+     "fin": "2026-12-12T22:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/quiza-para-cuando-me-encuentre-377091",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/nIjs3QTsVcbER7STbeQox.jpg",
+   "productor": "Nitay Lacruz y Dana Producciones",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
