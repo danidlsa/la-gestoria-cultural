@@ -330,3 +330,13 @@ barrio = "Barrio Sur"
 lat = -34.909496
 lon = -56.1999995
 instagram = "santacatalinabar"
+
+# La diaria le dice "Live Era Sala (Uruguay 960)" y se lee antes que RedTickets ("Live Era", con coordenadas): con la
+# entrada fija, la sala se llama siempre Live Era y conserva su id (config/donde_pasa.toml). 25/11/2026.
+[[lugar]]
+id = "live-era"
+nombre = "Live Era"
+alias = ["Live Era Sala"]
+direccion = "Uruguay 960"
+lat = -34.903487
+lon = -56.195803

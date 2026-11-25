@@ -320,3 +320,20 @@ def test_la_cuenta_de_instagram_del_lugar():
     assert catalogo.lugares[catalogo.asignar("Bar Marbella", None, None, None, None, "otra")].instagram == "barmarbella.uy"
     andorra = catalogo.asignar("Bar Andorra", None, None, None, None, "barandorra")
     assert catalogo.lugares[andorra].instagram == "barandorra"
+
+
+def test_la_sala_con_la_direccion_entre_parentesis(ahora):
+    from cartelera.unificar import direccion_entre_parentesis
+    assert direccion_entre_parentesis("Live Era Sala (Uruguay 960)") == ("Live Era Sala", "Uruguay 960")
+    assert direccion_entre_parentesis("Museo Nacional de Artes Visuales (MNAV)")[1] is None
+    assert direccion_entre_parentesis("Sala Nueva (Piso 2)")[1] is None
+    # La diaria (sin coordenadas) se lee antes que RedTickets, que trae la sala con su nombre solo y ubicada.
+    funcion = ahora + timedelta(days=5)
+    diaria = crudo("ladiaria", "1", "Lactolate Core", "Live Era Sala (Uruguay 960)", funcion)
+    diaria.lugar = LugarCrudo(nombre="Live Era Sala (Uruguay 960)")
+    otra = crudo("redtickets", "2", "Otra banda", "Live Era", funcion)
+    alias = [{"id": "live-era", "nombre": "Live Era", "alias": ["Live Era Sala"]}]
+    eventos, lugares, _ = armar_cartelera([resultado("ladiaria", [diaria], ahora), resultado("redtickets", [otra], ahora)],
+                                          alias, ahora, geocodificar=lambda texto: None)
+    assert {e.titulo: e.lugar_id for e in eventos} == {"Lactolate Core": "live-era", "Otra banda": "live-era"}
+    assert [(l.nombre, l.direccion) for l in lugares] == [("Live Era", "Uruguay 960")]

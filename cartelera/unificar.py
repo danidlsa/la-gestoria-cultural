@@ -103,6 +103,18 @@ def partes_del_nombre(nombre: str) -> tuple[list[str], str | None]:
     return candidatas, direccion
 
 
+# Una dirección entre paréntesis al final del nombre: "Live Era Sala (Uruguay 960)".
+_DIRECCION_ENTRE_PARENTESIS = re.compile(r"\s*\(([^()]*[^\W\d_][^()]*\s\d{2,5}\b[^()]*)\)\s*$")
+
+
+def direccion_entre_parentesis(nombre: str) -> tuple[str, str | None]:
+    """'Live Era Sala (Uruguay 960)' -> ('Live Era Sala', 'Uruguay 960'). Si no hay, el nombre tal cual y None."""
+    pegada = _DIRECCION_ENTRE_PARENTESIS.search(nombre)
+    if not pegada or re.match(r"(?i)(piso|local|oficina|apto|planta|nivel)\b", pegada.group(1).strip()):
+        return nombre, None
+    return nombre[:pegada.start()].strip(), pegada.group(1).strip()
+
+
 def usuario_de_instagram(texto: str | None) -> str | None:
     """El usuario de una cuenta de Instagram, como sea que venga ("@barmarbella.uy", "barmarbella.uy" o la dirección
     del perfil). None si no parece un usuario: el sitio arma el enlace con esto."""
@@ -176,6 +188,8 @@ class Catalogo:
     def asignar(self, nombre: str, direccion: str | None, lat: float | None, lon: float | None, barrio: str | None = None,
                 instagram: str | None = None) -> str:
         nombre, _sala = separar_sala(nombre)
+        nombre, pegada = direccion_entre_parentesis(nombre)
+        direccion = direccion or pegada
         clave = normalizar(nombre)
         lugar_id = self._por_nombre.get(clave)
         if lugar_id is None:
