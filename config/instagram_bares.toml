@@ -493,3 +493,13 @@ titulo = "Bar Andorra: Garo Arakelian, canciones de su discografía solista"
 # Salía "Actividades La Noche de los Cafés…": es el tango de las 18; el resto de la noche viene de la grilla del Municipio B.
 id = "barfacal-20261126"
 titulo = "Bar Facal: Tango en vivo con pareja de baile"
+
+[[correccion]]
+# Salía como taller ("Conjunciones 3 · taller Silvia Umpiérrez"): es la inauguración de una muestra que queda abierta;
+# las obras salen del taller de Silvia Umpiérrez. Visitas de miércoles a viernes de 16:30 a 20:30 y sábados de 13 a 18.
+# El post no dice hasta cuándo cierra: se deja abierta todo diciembre.
+id = "cultus_uy-20261203"
+titulo = "Casa Cultus: «Conjunciones 3», muestra de arte naturaleza"
+categoria = "exposicion"
+muestra = true
+hasta = 2026-12-31

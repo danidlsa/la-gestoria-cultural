@@ -127,13 +127,18 @@ def fecha_corta(inicio: str, sin_hora: bool = False) -> str:
 
 
 def periodo_muestra(evento: dict) -> str:
-    """'Hasta el 28 feb 2027', 'Desde el 28 nov · hasta el 4 abr 2027' o 'En exhibición' (sin fecha de cierre)."""
+    """'Hasta el 28 feb 2027', 'Desde el 28 nov · hasta el 4 abr 2027', 'Inaugura el jue 3 dic · 19:00' o 'En exhibición'
+    (sin fecha de cierre)."""
     def fecha(texto: str, con_anio: bool = True) -> str:
         dia = datetime.fromisoformat(texto[:10])
         return f"{dia.day} {MESES[dia.month - 1]}" + (f" {dia.year}" if con_anio else "")
     hoy = datetime.now().date().isoformat()
     inicio = evento["funciones"][0]["inicio"][:10] if evento.get("funciones") else hoy
     hasta = evento.get("hasta")
+    # La inauguración, con su hora (las de Instagram): "Inaugura el jue 3 dic · 19:00 · hasta el 20 dic 2026".
+    primera = (evento.get("funciones") or [{}])[0]
+    if primera and not primera.get("sin_hora", True) and inicio >= hoy:
+        return f"Inaugura el {fecha_corta(primera['inicio'])}" + (f" · hasta el {fecha(hasta)}" if hasta else "")
     if inicio > hoy:
         return f"Desde el {fecha(inicio, False)}" + (f" · hasta el {fecha(hasta)}" if hasta else "")
     return f"Hasta el {fecha(hasta)}" if hasta else "En exhibición"

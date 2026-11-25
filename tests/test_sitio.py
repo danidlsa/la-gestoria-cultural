@@ -166,3 +166,13 @@ def test_un_especial_con_su_fecha_ya_pasada_no_se_muestra():
     from cartelera.scrapers.base import MONTEVIDEO
     fin = especiales.termina({"hasta": date(2026, 11, 21), "estimada": False, "a_confirmar": False, "horario": None})
     assert fin == datetime(2026, 11, 22, 0, 0, tzinfo=MONTEVIDEO)
+
+
+def test_periodo_de_una_muestra_con_inauguracion():
+    from datetime import date, timedelta
+    from cartelera.sitio.generar import periodo_muestra
+    dia = date.today() + timedelta(days=8)
+    funciones = [{"inicio": f"{dia}T19:00:00-03:00", "sin_hora": False}, {"inicio": f"{dia + timedelta(days=1)}T00:00:00-03:00", "sin_hora": True}]
+    assert periodo_muestra({"funciones": funciones, "hasta": None}).startswith("Inaugura el ")
+    assert periodo_muestra({"funciones": funciones, "hasta": None}).endswith(" · 19:00")
+    assert periodo_muestra({"funciones": funciones[1:], "hasta": None}).startswith("Desde el ")

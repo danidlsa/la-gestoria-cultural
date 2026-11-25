@@ -752,3 +752,53 @@ def test_los_posts_de_peatonal_tours():
 def test_letras_de_adorno():
     assert ig.letras_comunes("𝗠𝗜𝗦𝗧𝗘𝗥𝗜𝗢𝗦 𝗗𝗘𝗟 𝗦𝗔𝗟𝗩𝗢 · ᴇᴅɪᴄɪóɴ 2026 · 1º") == "MISTERIOS DEL SALVO · EDICIÓN 2026 · 1º"
     assert ig.horas("18.30 a 20.30 hs") == [ig.time(18, 30)] and ig.horas("Dom 29/11 - 15hs") == [ig.time(15, 0)]
+
+
+CONJUNCIONES = ("Conjunciones 3 · taller Silvia Umpiérrez\n\nSiete mujeres, siete lenguajes, una muestra. 🌿\n\n"
+                "Nacida en el casa-taller de Malvín de Silvia Umpiérrez, esta muestra reúne a siete artistas.\n\n"
+                "📍 Casa Cultus – Piedras 604\n🥂 Inauguración: jueves 3 de diciembre, 19 h\n"
+                "🕐 Visitas: miércoles a viernes de 16:30 a 20:30 h y sábados de 13 a 18 h")
+
+
+def test_la_inauguracion_de_una_muestra_queda_abierta(tmp_path, monkeypatch):
+    monkeypatch.setattr(ig, "CONFIG", tmp_path / "bares.toml")
+    (tmp_path / "bares.toml").write_text('[[bar]]\nusuario = "cultus_uy"\nnombre = "Casa Cultus"\n', encoding="utf-8")
+    cuenta, perfil = {"usuario": "cultus_uy", "nombre": "Casa Cultus", "bar": False}, {}
+    ahora = datetime(2026, 11, 25, 15, 0, tzinfo=MVD)
+    (b,) = ig.borradores_del_post(_post(1, CONJUNCIONES, "2026-11-25"), cuenta, perfil, ahora)
+    assert b["muestra"] and b["hasta"] is None
+    evento = ig.evento_de(b, ahora)
+    # Una exposición, aunque el título diga "taller" (las obras salen del taller de la artista).
+    assert evento.categoria == "exposicion" and evento.categoria_segura and evento.muestra
+    # La inauguración con su hora, y la muestra abierta un mes (el post no dice hasta cuándo).
+    assert evento.funciones[0].inicio == datetime(2026, 12, 3, 19, 0, tzinfo=MVD) and not evento.funciones[0].sin_hora
+    assert evento.funciones[-1].inicio.date() == date(2027, 1, 2) and evento.funciones[-1].sin_hora
+    # Pasada la inauguración sigue saliendo, hasta el último día.
+    despues = datetime(2026, 12, 20, 12, 0, tzinfo=MVD)
+    assert ig.vigente(b, despues) and ig.evento_de(b, despues).funciones[0].inicio.date() == date(2026, 12, 20)
+    assert not ig.vigente(b, datetime(2027, 1, 3, 12, 0, tzinfo=MVD))
+    assert "(inauguración) · la muestra sigue abierta" in ig.renglon_del_borrador(b, ahora)
+    # Con el cierre en el post, hasta ese día.
+    con_cierre = CONJUNCIONES + "\nAbierta hasta el sábado 19 de diciembre."
+    (b,) = ig.borradores_del_post(_post(2, con_cierre, "2026-11-25"), cuenta, perfil, ahora)
+    assert b["hasta"] == "2026-12-19" and ig.evento_de(b, ahora).hasta == date(2026, 12, 19)
+    assert "la muestra sigue hasta el 19/12" in ig.renglon_del_borrador(b, ahora)
+
+
+def test_no_es_muestra_sin_inauguracion_ni_un_taller_que_se_inaugura():
+    assert not ig.es_inauguracion_de_muestra("Taller de cerámica. Jueves 3 de diciembre, 19 h")
+    assert not ig.es_inauguracion_de_muestra("Inauguramos la temporada de jazz: jueves 3 de diciembre, 21 h")
+    assert ig.es_inauguracion_de_muestra('INAUGURACIÓN EXPOSITIVA\n"La sal en las paredes"\nMiércoles 18, 19h')
+    assert ig.cierre_de_muestra("hasta el 20/12", date(2026, 12, 3)) == date(2026, 12, 20)
+    assert ig.cierre_de_muestra("hasta el 10 de enero", date(2026, 12, 3)) == date(2027, 1, 10)
+
+
+def test_la_correccion_de_una_muestra(tmp_path, monkeypatch):
+    monkeypatch.setattr(ig, "CONFIG", tmp_path / "bares.toml")
+    (tmp_path / "bares.toml").write_text('[[correccion]]\nid = "bar-20261203"\nmuestra = true\nhasta = 2026-12-20\n',
+                                         encoding="utf-8")
+    b = {"id": "bar-20261203", "usuario": "bar", "titulo": "Taller de Ana", "lugar": "Bar", "texto": "Obras del taller de Ana",
+         "funciones": [{"inicio": "2026-12-03T19:00:00-03:00", "sin_hora": False}], "url": "https://www.instagram.com/p/1/"}
+    evento = ig.evento_de(b, datetime(2026, 11, 25, 15, 0, tzinfo=MVD))
+    assert evento.muestra and evento.categoria == "exposicion" and evento.hasta == date(2026, 12, 20)
+    assert evento.funciones[-1].inicio.date() == date(2026, 12, 20)

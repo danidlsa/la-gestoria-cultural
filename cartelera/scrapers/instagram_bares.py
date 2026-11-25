@@ -35,6 +35,7 @@ from cartelera.geocodificar import calles_del_cruce
 from cartelera.http import USER_AGENT
 from cartelera.modelo import Entrada, EventoCrudo, Funcion, LugarCrudo
 from cartelera.scrapers.base import MONTEVIDEO
+from cartelera.scrapers.muestras import DIAS_SIN_CIERRE, funciones_de_muestra
 from cartelera.scrapers.propuestos import guardar_afiche
 
 NOMBRE = "instagram_bares"
@@ -294,6 +295,31 @@ _PROPAGANDA = re.compile(r"inscrib|link (?:en|de) (?:la |nuestra )?bio|entrada (
 _ENCABEZADO = re.compile(
     r"^(?:(inauguraci[oó]n|estreno)(?:\s+expositiva|\s+de\s+(?:la\s+)?(?:muestra|exposici[oó]n))?"
     r"|nueva\s+edici[oó]n|nueva\s+fecha|se\s+viene|atenci[oó]n|importante|[uú]ltimos?\s+(?:lugares|cupos))\s*(?:[!:.]+\s*|$)", re.I)
+
+
+# La inauguración de una muestra que después queda abierta: no es un evento de una noche, ni un taller aunque el título
+# lo nombre ("Conjunciones 3 · taller Silvia Umpiérrez": las obras salen del taller de la artista). Tiene que decir que
+# se inaugura y que es una muestra.
+_INAUGURA = re.compile(r"\binaugura")
+_ES_MUESTRA = re.compile(r"\b(muestras?|exposicion(es)?|exhibicion|expositiva|exponen?)\b")
+# "Hasta el 20 de diciembre", "hasta el sábado 19/12": el cierre de la muestra.
+_CIERRE = re.compile(rf"\bhasta\s+el\s+(?:{_DIA}\s+)?(\d{{1,2}})\s*(?:(?:de\s+|/\s*){_MES}\b|/(\d{{1,2}})\b)")
+
+
+def es_inauguracion_de_muestra(texto: str) -> bool:
+    plano = sin_tildes(texto or "")
+    return bool(_INAUGURA.search(plano) and _ES_MUESTRA.search(plano))
+
+
+def cierre_de_muestra(texto: str, inauguracion: date) -> date | None:
+    """El último día de la muestra, si el post lo dice ("hasta el 20 de diciembre")."""
+    encontrado = _CIERRE.search(sin_tildes(texto or ""))
+    if not encontrado:
+        return None
+    mes = MESES[encontrado.group(3)] if encontrado.group(3) else int(encontrado.group(4))
+    if not 1 <= mes <= 12:
+        return None
+    return _con_mes(int(encontrado.group(2)), mes, None, inauguracion)
 
 
 def _limpiar(renglon: str) -> str:
@@ -577,6 +603,9 @@ def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, fu
         if dia not in por_dia or (por_dia[dia][1] and not sin_hora):
             por_dia[dia] = (inicio, sin_hora)
     lista = sorted(por_dia.values())
+    # La inauguración de una muestra: la muestra sigue abierta después (ver evento_de).
+    muestra = es_inauguracion_de_muestra(texto)
+    hasta = cierre_de_muestra(texto, _dia(lista[0][0])) if muestra else None
     imagen = post.get("media_url") if post.get("media_type") in ("IMAGE", "CAROUSEL_ALBUM") else None
     del_bar = cuenta.get("nombre") or perfil.get("name") or cuenta["usuario"]
     nombre, direccion = lugar_del_texto(texto)
@@ -621,6 +650,8 @@ def _un_borrador(cuenta: dict, perfil: dict, post: dict, publicado: datetime, fu
         "paradas": paradas_del_recorrido(texto) if cuenta.get("itinerante") else [],
         # Una cuenta que hace siempre lo mismo (fama.tours: recorridos) dice su categoría en la lista.
         "categoria": cuenta.get("categoria"),
+        "muestra": muestra,
+        "hasta": hasta.isoformat() if hasta else None,
         # Lo que pasa en el bar lleva la etiqueta "Bares" en el sitio; no si es en otro lugar, ni si la cuenta no es de
         # un bar (una sala o un mercado: `bar = false` en la lista).
         "bar": conocido.get("bar", True) if conocido else not otro_lugar and cuenta.get("bar", True),
@@ -695,6 +726,8 @@ def juntar(previo: dict, nuevo: dict) -> dict:
         junto.update({k: otro.get(k) for k in ("lugar", "direccion", "barrio", "lat", "lon", "lugar_del_pin", "bar")})
     junto["paradas"] = base.get("paradas") or otro.get("paradas") or []
     junto["dice_donde"] = bool(base.get("dice_donde") or otro.get("dice_donde"))
+    junto["muestra"] = bool(base.get("muestra") or otro.get("muestra"))
+    junto["hasta"] = base.get("hasta") or otro.get("hasta")
     # Los días de los dos (un post con el ciclo del mes y otro con un martes); para cada día, con hora si alguno la da.
     por_dia: dict[date, dict] = {}
     for f in base["funciones"] + otro["funciones"]:
@@ -766,6 +799,19 @@ def _funciones(b: dict) -> list[Funcion]:
     return [Funcion(inicio=datetime.fromisoformat(f["inicio"]), sin_hora=f["sin_hora"]) for f in b["funciones"]]
 
 
+def ultimo_dia_de_la_muestra(b: dict) -> date:
+    """Hasta cuándo sale una muestra: el cierre que dice el post o, si no lo dice, un mes desde la inauguración."""
+    if b.get("hasta"):
+        return date.fromisoformat(b["hasta"])
+    return _funciones(b)[0].inicio.date() + timedelta(days=DIAS_SIN_CIERRE)
+
+
+def _con_la_muestra(funciones: list[Funcion], b: dict, ahora: datetime) -> list[Funcion]:
+    """La inauguración (con su hora) y después un día "sin hora" por cada día que la muestra sigue abierta."""
+    inauguracion = funciones[0]
+    return [inauguracion] + funciones_de_muestra(inauguracion.inicio.date() + timedelta(days=1), ultimo_dia_de_la_muestra(b), ahora)
+
+
 def evento_de(b: dict, ahora: datetime) -> EventoCrudo | None:
     # La dirección que se escribió en el aviso (el post nombra el lugar pero no dice dónde queda).
     if direccion := b.get("direccion_aprobada"):
@@ -780,19 +826,24 @@ def evento_de(b: dict, ahora: datetime) -> EventoCrudo | None:
             b["titulo_aprobado"] = None
         if "inicio" in correccion:
             b["funciones"] = [{"inicio": correccion["inicio"], "sin_hora": False}]
-    funciones = [f for f in _funciones(b) if (f.inicio.date() >= ahora.date() if f.sin_hora else f.inicio >= ahora - timedelta(hours=3))]
+    funciones = _funciones(b)
+    if b.get("muestra"):
+        funciones = _con_la_muestra(funciones, b, ahora)
+    funciones = [f for f in funciones if (f.inicio.date() >= ahora.date() if f.sin_hora else f.inicio >= ahora - timedelta(hours=3))]
     if not funciones:
         return None
     titulo = b.get("titulo_aprobado") or b["titulo"]
     texto = b.get("extracto") or b["texto"]
+    # La inauguración de una muestra es una exposición, aunque el título diga "taller" (salvo corrección a mano).
+    categoria = b.get("categoria") or ("exposicion" if b.get("muestra") else None)
     return EventoCrudo(
         fuente=NOMBRE,
         id_externo=b["id"],
         url=b["url"],
         titulo=titulo,
         # Si el post no dice qué es, el tipo de siempre de la cuenta (un bar de jazz: música); si no, "otros".
-        categoria=b.get("categoria") or clasificar(titulo, texto, por_defecto=por_defecto().get(b["usuario"]) or "otros"),
-        categoria_segura=bool(b.get("categoria")),
+        categoria=categoria or clasificar(titulo, texto, por_defecto=por_defecto().get(b["usuario"]) or "otros"),
+        categoria_segura=bool(categoria),
         descripcion_corta=recortar(re.sub(r"\s+", " ", _ADORNOS.sub(" ", texto)).strip()),
         # Si es en el lugar de la cuenta (no en otro que nombra con 📍), el lugar es esa cuenta.
         lugar=LugarCrudo(nombre=b["lugar"], direccion=b.get("direccion"), barrio=b.get("barrio"), lat=b.get("lat"), lon=b.get("lon"),
@@ -802,6 +853,9 @@ def evento_de(b: dict, ahora: datetime) -> EventoCrudo | None:
         precio=precio_del_texto(texto),
         entradas=[Entrada(url=b["url"], via="instagram")],
         etiquetas=["bar"] if b.get("bar") else [],
+        # En el sitio sale con su período ("Inaugura el jue 3 dic · 19:00", después "En exhibición").
+        muestra=bool(b.get("muestra")),
+        hasta=date.fromisoformat(b["hasta"]) if b.get("muestra") and b.get("hasta") else None,
     )
 
 
@@ -869,6 +923,8 @@ def renglon_del_borrador(b: dict, ahora: datetime | None = None, catalogo=None) 
     except OSError:  # sin la lista de cuentas (las correcciones), como lo dice el post
         evento = None
     funciones = evento.funciones if evento else _funciones(b)
+    muestra = evento.muestra if evento else bool(b.get("muestra"))
+    hasta = evento.hasta if evento else (date.fromisoformat(b["hasta"]) if b.get("hasta") else None)
     titulo = (evento.titulo if evento else b["titulo"]).replace("*", "")
     lugar = evento.lugar if evento else LugarCrudo(nombre=b["lugar"], direccion=b.get("direccion"), lat=b.get("lat"), lon=b.get("lon"))
     extracto = recortar(re.sub(r"\s+", " ", b.get("extracto") or b["texto"]), 220)
@@ -878,7 +934,7 @@ def renglon_del_borrador(b: dict, ahora: datetime | None = None, catalogo=None) 
     post = f"[el post{de_quien}]({b['url']})" + (f" (y {mas} {'post' if mas == 1 else 'posts'} más sobre lo mismo)" if mas > 0 else "")
     # El tilde, el título y la marca van en el mismo renglón (ver leer_casillas); lo demás, abajo, uno por renglón.
     return (f"- [ ] **{titulo}** <!-- ig:{b['id']} -->\n"
-            f"  🗓️ {' · '.join(_cuando(f) for f in funciones)}\n"
+            f"  🗓️ {_cuando_muestra(funciones, hasta) if muestra else ' · '.join(_cuando(f) for f in funciones)}\n"
             f"  {_donde(lugar, catalogo)}\n"
             f"  🔗 {post}\n"
             f"  > {extracto}\n")
@@ -889,6 +945,15 @@ def _cuando(funcion: Funcion) -> str:
     inicio = funcion.inicio
     dia = f"{dias[inicio.weekday()]} {inicio.day}/{inicio.month}"
     return f"{dia}, **sin hora** (en el sitio sale solo el día)" if funcion.sin_hora else f"{dia}, {inicio:%H:%M}"
+
+
+def _cuando_muestra(funciones: list[Funcion], hasta: date | None) -> str:
+    """"jueves 3/12, 19:00 (inauguración) · la muestra sigue hasta el 20/12" (o "un mes", si el post no dice)."""
+    if hasta:
+        sigue = f"la muestra sigue hasta el {hasta.day}/{hasta.month}"
+    else:
+        sigue = "la muestra sigue abierta (el post no dice hasta cuándo: sale un mes)"
+    return f"{_cuando(funciones[0])} (inauguración) · {sigue}"
 
 
 def leer_casillas(cuerpos: list[str]) -> tuple[dict[str, str | None], set[str]]:
@@ -933,13 +998,15 @@ def por_defecto(ruta: Path | None = None) -> dict[str, str]:
 # Lo que se puede corregir a mano de un borrador (sección [[correccion]] de la lista, por el id del borrador).
 # También el título (manda sobre el aprobado en el aviso) y el inicio, cuando el post confunde el día ("el domingo 29
 # cumple 80 y lo festejamos el día antes"): una sola función, a esa hora. Y la categoría, si las palabras confunden.
-_CORREGIBLE = ("lugar", "direccion", "barrio", "lat", "lon", "bar", "titulo", "inicio", "categoria")
+_CORREGIBLE = ("lugar", "direccion", "barrio", "lat", "lon", "bar", "titulo", "inicio", "categoria", "muestra", "hasta")
 
 
 def correcciones(ruta: Path | None = None) -> dict[str, dict]:
     """Las correcciones a mano, por id de borrador: {"mambapercusion-20261205": {"lugar": "…", "lat": …}}."""
     lista = tomllib.loads((ruta or CONFIG).read_text(encoding="utf-8")).get("correccion", [])
-    return {c["id"]: {k: c[k] for k in _CORREGIBLE if k in c} for c in lista if c.get("id")}
+    # El cierre de una muestra puede ir como fecha de TOML (hasta = 2026-12-20) o entre comillas.
+    return {c["id"]: {k: c[k].isoformat() if isinstance(c[k], date) else c[k] for k in _CORREGIBLE if k in c}
+            for c in lista if c.get("id")}
 
 
 def cargar_borradores() -> dict[str, dict]:
@@ -957,6 +1024,8 @@ def guardar_borradores(borradores: dict[str, dict]) -> None:
 
 
 def vigente(b: dict, ahora: datetime) -> bool:
+    if b.get("muestra"):  # mientras la muestra siga abierta, aunque la inauguración ya haya pasado
+        return ultimo_dia_de_la_muestra(b) >= ahora.date()
     ultima = _funciones(b)[-1]
     return ultima.inicio.date() >= ahora.date() if ultima.sin_hora else ultima.inicio >= ahora - timedelta(hours=3)
 
