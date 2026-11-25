@@ -488,3 +488,8 @@ titulo = "Casa Cultus: «Entre aquí y allá», huellas de la diáspora"
 # Se aprobó con el título roto ("/11 Garo Arakelian vuelve…", de "Este jueves 26/11 Garo…"); la regla ya está arreglada.
 id = "barandorra-20261126"
 titulo = "Bar Andorra: Garo Arakelian, canciones de su discografía solista"
+
+[[correccion]]
+# Salía "Actividades La Noche de los Cafés…": es el tango de las 18; el resto de la noche viene de la grilla del Municipio B.
+id = "barfacal-20261126"
+titulo = "Bar Facal: Tango en vivo con pareja de baile"

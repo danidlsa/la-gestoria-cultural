@@ -97,6 +97,88 @@ etiquetas = ["bar"]
 pagina = "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b"
 nota = "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b"
 
+# Lo que cada bar anunció en su Instagram distinto de la grilla de la nota (revisado el 25/11/2026). Ver
+# cartelera/scrapers/notas_especiales.py: un bloque por renglón; `en_lugar_de` es la hora que tenía en la nota.
+
+# Café Brasilero (instagram.com/p/DgLFOLuFmJb): un show por hora, no uno solo a las 19.
+[[especial.cambios]]
+lugar = "Café Brasilero"
+hora = "18:00"
+titulo = "Magikasoul"
+
+[[especial.cambios]]
+lugar = "Café Brasilero"
+hora = "19:00"
+titulo = "Gavilán"
+
+[[especial.cambios]]
+lugar = "Café Brasilero"
+hora = "20:00"
+titulo = "Rossana Taddei"
+
+# Escaramuza, ciclo «En crudo» (afiche de instagram.com/_escaramuza/p/DgGkJmVpL0R): uno a cada hora.
+[[especial.cambios]]
+lugar = "Escaramuza"
+hora = "19:00"
+titulo = "En crudo: Guadalupe Calzada"
+
+[[especial.cambios]]
+lugar = "Escaramuza"
+hora = "20:00"
+titulo = "En crudo: Lucía Romero"
+
+[[especial.cambios]]
+lugar = "Escaramuza"
+hora = "21:00"
+titulo = "En crudo: Diego Presa"
+
+[[especial.cambios]]
+lugar = "Escaramuza"
+hora = "22:00"
+titulo = "En crudo: Isabel Lenoir"
+
+[[especial.cambios]]
+lugar = "Escaramuza"
+hora = "23:00"
+titulo = "En crudo: Gonzalo Denis (Franny Glass)"
+
+# Bar Facal (instagram.com/p/DgED338GD5Y): tango a las 18, Diego Pez a las 21 y Fribo a las 21:30.
+[[especial.cambios]]
+lugar = "Bar Facal"
+hora = "18:00"
+titulo = "Tango en vivo con pareja de baile"
+
+[[especial.cambios]]
+lugar = "Bar Facal"
+hora = "21:00"
+titulo = "Diego Pez & Los Pernoctantes"
+
+[[especial.cambios]]
+lugar = "Bar Facal"
+hora = "21:30"
+titulo = "Fribo"
+
+# Santa Catalina: Chorando la Milonga a las 20 (lo publican la banda y Ana Ró, etiquetando al bar).
+[[especial.cambios]]
+lugar = "Santa Catalina Bar Café"
+hora = "20:00"
+en_lugar_de = "19:30"
+titulo = "Chorando la Milonga"
+
+# Bar Marbella (instagram.com/barmarbella.uy/p/DgJSEubIIMJ): a las 22:30.
+[[especial.cambios]]
+lugar = "Bar Marbella"
+hora = "22:30"
+en_lugar_de = "22:00"
+titulo = "Los 8 de Momo"
+
+# Bar Andorra (instagram.com/barandorra/p/DgGP-okhS1n): inauguración a las 18.
+[[especial.cambios]]
+lugar = "Bar Andorra"
+hora = "18:00"
+titulo = "Inauguración de una intervención gráfica"
+categoria = "exposicion"
+
 [[especial]]
 id = "montevideo-mas-museos"
 nombre = "Montevideo + Museos"

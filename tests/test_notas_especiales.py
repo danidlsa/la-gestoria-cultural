@@ -43,6 +43,27 @@ def test_la_grilla_de_la_nota(pagina):
     assert len(especiales.actividades(NOCHE, ventana, como_eventos, {})) == 8
 
 
+def test_los_cambios_a_mano(pagina):
+    cambios = [
+        {"lugar": "Café Brasilero", "hora": "19:00", "titulo": "Gavilán"},
+        {"lugar": "Café Brasilero", "hora": "20:00", "titulo": "Rossana Taddei"},
+        {"lugar": "Santa Catalina Bar Café", "hora": "20:00", "en_lugar_de": "19:30", "titulo": "Chorando la Milonga"},
+        {"lugar": "Bar Andorra", "hora": "18:00", "titulo": "Inauguración de una intervención gráfica", "categoria": "exposicion"},
+        {"lugar": "Montevideo al Sur", "hora": "21:00", "quitar": True},
+    ]
+    eventos = notas_especiales.eventos_de_la_nota(pagina("municipio_b_noche_bares_notables.html"), {**NOCHE, "cambios": cambios}, AHORA)
+    por_lugar = {(e.lugar.nombre, e.funciones[0].inicio.strftime("%H:%M")): e for e in eventos}
+    assert len(eventos) == 9
+    assert por_lugar[("Café Brasilero", "19:00")].titulo == "Gavilán"
+    assert por_lugar[("Café Brasilero", "20:00")].titulo == "Rossana Taddei"
+    # Con otra hora, conserva el id del renglón de la nota (y no se pierde de Mi plan).
+    santa = por_lugar[("Santa Catalina Bar Café", "20:00")]
+    assert santa.titulo == "Chorando la Milonga" and santa.id_externo.endswith("-1930")
+    andorra = por_lugar[("Bar Andorra", "18:00")]
+    assert andorra.categoria == "exposicion" and andorra.lugar.direccion == "Canelones y Aquiles Lanza"
+    assert ("Montevideo al Sur", "21:00") not in por_lugar
+
+
 def test_una_nota_sin_grilla_es_un_error_y_lo_pasado_no_se_lee(monkeypatch, pagina):
     import pytest
     with pytest.raises(ValueError):

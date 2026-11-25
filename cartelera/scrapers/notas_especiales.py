@@ -8,6 +8,11 @@ su "Dirección:" abajo, y al final la "Grilla de espectáculos", un renglón por
 Cada renglón pasa a ser un evento, con el bar como sala y el especial como ciclo, así aparece en su pestaña, en la
 agenda, en el mapa y en Mi plan. Qué nota leer está en config/eventos_especiales.toml: el especial lleva `nota` (la
 dirección de la noticia), `desde` (el día) y `pagina` (el enlace de cada show). Se leen solo los que no pasaron.
+
+Lo que los bares anuncian distinto (en su Instagram, por ejemplo) se corrige a mano en el especial, con un bloque
+`[[especial.cambios]]` por renglón: `lugar` y `hora` ("20:00"), y `titulo` (el nuevo, o el de un show que la nota no
+trae), `categoria` (si no es música), `en_lugar_de` (la hora del renglón de la nota que reemplaza, si cambió la hora;
+conserva su id, y Mi plan no lo pierde) o `quitar = true`.
 """
 
 import html
@@ -90,12 +95,42 @@ def grilla_de(pagina: str) -> list[dict]:
     return shows
 
 
+def _hora(texto: str) -> time:
+    horas, _, minutos = texto.partition(":")
+    return time(int(horas) % 24, int(minutos or 0))
+
+
+def con_cambios(shows: list[dict], cambios: list[dict]) -> list[dict]:
+    """La grilla de la nota con las correcciones a mano del especial (`[[especial.cambios]]`)."""
+    shows = [dict(s) for s in shows]
+    for cambio in cambios:
+        clave, hora = _clave(cambio["lugar"]), _hora(cambio["hora"])
+        buscada = _hora(cambio["en_lugar_de"]) if cambio.get("en_lugar_de") else hora
+        del_lugar = [s for s in shows if s["hora"] == buscada and (
+            _clave(s["lugar"]) == clave or f" {clave} " in f" {_clave(s['lugar'])} " or f" {_clave(s['lugar'])} " in f" {clave} ")]
+        if cambio.get("quitar"):
+            shows = [s for s in shows if s not in del_lugar]
+            continue
+        if del_lugar:
+            show = del_lugar[0]
+            show.setdefault("hora_id", show["hora"])
+            show["hora"] = hora
+        else:
+            show = {"lugar": cambio["lugar"], "hora": hora, "titulo": cambio.get("titulo", "")}
+            shows.append(show)
+        if cambio.get("titulo"):
+            show["titulo"] = cambio["titulo"]
+        if cambio.get("categoria"):
+            show["categoria"] = cambio["categoria"]
+    return [s for s in shows if s["titulo"]]
+
+
 def eventos_de_la_nota(pagina: str, especial: dict, ahora: datetime) -> list[EventoCrudo]:
     dia: date = especial["desde"]
     lugares = lugares_de(pagina)
     ciclo = f"{especial['nombre']} {dia.year}"
     eventos = []
-    for show in grilla_de(pagina):
+    for show in con_cambios(grilla_de(pagina), especial.get("cambios", [])):
         if esta_cancelado(show["titulo"]):
             continue
         nombre, direccion = _lugar(show["lugar"], lugares)
@@ -104,11 +139,12 @@ def eventos_de_la_nota(pagina: str, especial: dict, ahora: datetime) -> list[Eve
         eventos.append(EventoCrudo(
             fuente=NOMBRE,
             # Con el lugar y la hora: si suman un show, los demás conservan su id (y no se pierden de Mi plan).
-            id_externo="-".join(_clave(x).replace(" ", "-")[:40] for x in (especial["id"], str(dia.year), nombre, hora.strftime("%H%M"))),
+            id_externo="-".join(_clave(x).replace(" ", "-")[:40]
+                                for x in (especial["id"], str(dia.year), nombre, show.get("hora_id", hora).strftime("%H%M"))),
             url=especial["pagina"],
             titulo=show["titulo"],
             # Casi todo es música en vivo; lo que dice otra cosa ("Shows de bailes de Tango"), eso.
-            categoria=clasificar(show["titulo"], por_defecto="musica"),
+            categoria=show.get("categoria") or clasificar(show["titulo"], por_defecto="musica"),
             lugar=LugarCrudo(nombre=nombre, direccion=direccion_buscable(direccion) if direccion else None),
             funciones=[Funcion(inicio=inicio)],
             entradas=[Entrada(url=especial["pagina"], via=NOMBRE)],
