@@ -1,8 +1,8 @@
 {
  "fuente": "museos_im",
- "corrida": "2026-11-25T11:02:06.854468-03:00",
+ "corrida": "2026-11-25T15:24:19.166583-03:00",
  "ok": true,
- "cantidad": 9,
+ "cantidad": 10,
  "errores": [],
  "eventos": [
   {
@@ -548,6 +548,89 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cabildo.montevideo.gub.uy/sites/cabildo.montevideo.gub.uy/files/styles/resumen/public/articulos/imagenes/650x450-santarosa02.jpg?itok=p_Nxd7nl",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": true,
+   "hasta": "2026-11-30"
+  },
+  {
+   "fuente": "museos_im",
+   "id_externo": "cabildo.montevideo.gub.uy/exposiciones/gabinete-de-curiosidades",
+   "url": "https://cabildo.montevideo.gub.uy/exposiciones/gabinete-de-curiosidades",
+   "titulo": "Gabinete de curiosidades",
+   "categoria": "exposicion",
+   "categoria_segura": true,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Cabildo de Montevideo",
+    "direccion": "Juan Carlos Gómez 1362",
+    "lat": -34.90653,
+    "lon": -56.20278,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://cabildo.montevideo.gub.uy/exposiciones/gabinete-de-curiosidades",
+     "via": "museos_im"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cabildo.montevideo.gub.uy/sites/cabildo.montevideo.gub.uy/files/styles/resumen/public/articulos/imagenes/20260526_135238.jpg?itok=wlpjRN3a",
    "productor": "Intendencia de Montevideo",
    "region": "montevideo",
    "enlaces": [],

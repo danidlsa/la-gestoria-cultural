@@ -1,15 +1,15 @@
 {
  "fuente": "notas_especiales",
- "corrida": "2026-11-25T11:02:08.725337-03:00",
+ "corrida": "2026-11-25T15:24:50.765552-03:00",
  "ok": true,
- "cantidad": 8,
+ "cantidad": 17,
  "errores": [],
  "eventos": [
   {
    "fuente": "notas_especiales",
    "id_externo": "noche-de-los-cafes-y-bares-notables-2026-cafe-brasilero-1900",
    "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
-   "titulo": "Rossana Taddei, Gavilán presentando",
+   "titulo": "Gavilán",
    "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": null,
@@ -54,7 +54,7 @@
    "fuente": "notas_especiales",
    "id_externo": "noche-de-los-cafes-y-bares-notables-2026-santa-catalina-bar-cafe-1930",
    "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
-   "titulo": "Trío de Tango",
+   "titulo": "Chorando la Milonga",
    "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": null,
@@ -69,7 +69,7 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T19:30:00-03:00",
+     "inicio": "2026-11-26T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -189,7 +189,7 @@
    "fuente": "notas_especiales",
    "id_externo": "noche-de-los-cafes-y-bares-notables-2026-bar-facal-2100",
    "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
-   "titulo": "FRIBO - Diego Pez & los Pernoctantes - Shows de bailes de Tango",
+   "titulo": "Diego Pez & Los Pernoctantes",
    "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": null,
@@ -279,13 +279,328 @@
    "fuente": "notas_especiales",
    "id_externo": "noche-de-los-cafes-y-bares-notables-2026-bar-marbella-2200",
    "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
-   "titulo": "8 de Momo",
+   "titulo": "Los 8 de Momo",
    "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": null,
    "lugar": {
     "nombre": "Bar Marbella",
     "direccion": "Av. Gonzalo Ramírez y Dr. Joaquín de Salterain",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T22:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-escaramuza-libros-y-cafe-2300",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "En crudo: Gonzalo Denis (Franny Glass)",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Escaramuza Libros y Café",
+    "direccion": "Dr. Pablo de María y Charrúa",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T23:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-cafe-brasilero-1800",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "Magikasoul",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Café Brasilero",
+    "direccion": "Ituzaingó y 25 de Mayo",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-cafe-brasilero-2000",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "Rossana Taddei",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Café Brasilero",
+    "direccion": "Ituzaingó y 25 de Mayo",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-escaramuza-libros-y-cafe-1900",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "En crudo: Guadalupe Calzada",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Escaramuza Libros y Café",
+    "direccion": "Dr. Pablo de María y Charrúa",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-escaramuza-libros-y-cafe-2000",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "En crudo: Lucía Romero",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Escaramuza Libros y Café",
+    "direccion": "Dr. Pablo de María y Charrúa",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-escaramuza-libros-y-cafe-2100",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "En crudo: Diego Presa",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Escaramuza Libros y Café",
+    "direccion": "Dr. Pablo de María y Charrúa",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-escaramuza-libros-y-cafe-2200",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "En crudo: Isabel Lenoir",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Escaramuza Libros y Café",
+    "direccion": "Dr. Pablo de María y Charrúa",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -322,15 +637,15 @@
   },
   {
    "fuente": "notas_especiales",
-   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-escaramuza-libros-y-cafe-2300",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-bar-facal-1800",
    "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
-   "titulo": "Gonzalo Denis (Franny Glass)",
+   "titulo": "Tango en vivo con pareja de baile",
    "categoria": "musica",
    "categoria_segura": false,
    "descripcion_corta": null,
    "lugar": {
-    "nombre": "Escaramuza Libros y Café",
-    "direccion": "Dr. Pablo de María y Charrúa",
+    "nombre": "Bar Facal",
+    "direccion": "Av. 18 de Julio y Yi",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -339,7 +654,97 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T23:00:00-03:00",
+     "inicio": "2026-11-26T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-bar-facal-2130",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "Fribo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Bar Facal",
+    "direccion": "Av. 18 de Julio y Yi",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+     "via": "notas_especiales"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Noche de los Cafés y Bares Notables 2026",
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "notas_especiales",
+   "id_externo": "noche-de-los-cafes-y-bares-notables-2026-bar-andorra-1800",
+   "url": "https://municipiob.montevideo.gub.uy/llega-la-primera-noche-de-los-caf%C3%A9s-y-bares-notables-del-municipio-b",
+   "titulo": "Inauguración de una intervención gráfica",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Bar Andorra",
+    "direccion": "Canelones y Aquiles Lanza",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T18:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
