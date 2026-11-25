@@ -87,7 +87,7 @@ sitio = "https://municipiob.montevideo.gub.uy/"
 palabras = ["noche de (los )?cafes y bares notables", "bares notables"]
 # Edición 2026: la grilla está en una noticia del Municipio B (fuente "notas_especiales").
 desde = 2026-11-26
-horario = ["19:00", "01:00"]
+horario = ["18:00", "01:00"]  # el del afiche del Municipio B (18 a 01 h), aunque la grilla arranca a las 19
 lugares = "bares"
 enlace = "baresnotables"
 pestana = "Bares Notables"
