@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-25T15:46:51.499503-03:00",
- "cantidad": 193,
+ "generado": "2026-11-25T17:44:30.161328-03:00",
+ "cantidad": 194,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -1604,7 +1604,7 @@
     "Plaza Constitución",
     "Plaza de la Constitución"
    ],
-   "direccion": null,
+   "direccion": "Plaza Matriz, Sarandí 584, 11000 Montevi",
    "lat": -34.906598,
    "lon": -56.203541,
    "barrio": null,
@@ -2284,6 +2284,17 @@
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
+  },
+  {
+   "id": "viti-bar-de-vinos",
+   "nombre": "Viti Bar de Vinos",
+   "alias": [],
+   "direccion": "Colón 1543",
+   "lat": -34.9057119,
+   "lon": -56.2103205,
+   "barrio": "Ciudad Vieja",
+   "ciudad": "Montevideo",
+   "instagram": "vitibardevinos"
   },
   {
    "id": "zoba-club",

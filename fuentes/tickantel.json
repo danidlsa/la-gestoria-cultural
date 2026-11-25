@@ -1,8 +1,8 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-25T15:27:00.634468-03:00",
+ "corrida": "2026-11-25T17:30:00.351629-03:00",
  "ok": true,
- "cantidad": 96,
+ "cantidad": 95,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
   "https://tickantel.com.uy/ng/espectaculo/40021784/la-trampa: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-LaTrampa?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
@@ -1025,54 +1025,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021449/Buitres_Planetario_700x390.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021925",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021925/naturaleza-hackeada",
-   "titulo": "Naturaleza hackeada",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Un cuerpo, una maleta llena de código y una lechuga convertida en instrumento musical. En la frontera entre el circo contemporáneo, la pantomima y el arte digital en tiempo real, un performer explora la frágil relación entre la tecnología y la vida orgánica. Mediante cámaras que leen sus gestos…",
-   "lugar": {
-    "nombre": "Centro Cultural Artesano",
-    "direccion": null,
-    "lat": -34.8253632,
-    "lon": -56.2043076,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021925/naturaleza-hackeada",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021925/banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3981,7 +3933,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021906/Tickantel_2_Temporada_lírica.jpg",
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021906/Tickantel_Funciones.png",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

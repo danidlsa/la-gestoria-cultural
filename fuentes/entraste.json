@@ -1,6 +1,6 @@
 {
  "fuente": "entraste",
- "corrida": "2026-11-25T15:45:25.554180-03:00",
+ "corrida": "2026-11-25T17:42:09.835787-03:00",
  "ok": true,
  "cantidad": 5,
  "errores": [],
@@ -176,8 +176,8 @@
     }
    ],
    "precio": {
-    "desde": 300.0,
-    "hasta": 650.0,
+    "desde": 250.0,
+    "hasta": 600.0,
     "moneda": "UYU",
     "gratis": false
    },
@@ -188,7 +188,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://storage.googleapis.com/entraste-media/1795550659_9bc5f0c82b7a708d.webp",
+   "imagen_url": "https://storage.googleapis.com/entraste-media/1795634141_d1a551c418789a3b.webp",
    "productor": "Pariseo.dc",
    "region": "montevideo",
    "enlaces": [],

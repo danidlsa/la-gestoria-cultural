@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-25T15:46:51.499503-03:00",
- "cantidad": 21,
+ "generado": "2026-11-25T17:44:30.161328-03:00",
+ "cantidad": 22,
  "ciclos": [
   {
    "id": "ciclo-envejecimiento-activo",
@@ -73,6 +73,14 @@
    "desde": "2026-11-28T18:00:00-03:00",
    "hasta": "2026-12-12T18:00:00-03:00",
    "cantidad": 6
+  },
+  {
+   "id": "ciclo-mass-2026-muestra-de-cine-espanol-de-los-festivales-de-malaga-y-san-sebastian",
+   "titulo": "MASS 2026 - Muestra de cine español de los festivales de Málaga y San Sebastián",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-30T20:30:00-03:00",
+   "hasta": "2026-12-01T20:30:00-03:00",
+   "cantidad": 4
   },
   {
    "id": "ciclo-actividades-en-el-parque-maua",

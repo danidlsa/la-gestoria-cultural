@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-25T15:45:54.929472-03:00",
+ "corrida": "2026-11-25T17:42:39.789658-03:00",
  "ok": true,
- "cantidad": 51,
+ "cantidad": 52,
  "errores": [],
  "eventos": [
   {
@@ -1874,6 +1874,51 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "vitibardevinos-20261203",
+   "url": "https://www.instagram.com/p/DgK6Rr3oNmz/",
+   "titulo": "Viti: LA PLAYLIST DEL PODER | Martín Sarthou en VITI",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "LA PLAYLIST DEL PODER | Martín Sarthou en VITI ¿Qué tienen en común el rock, la Guerra Fría, Bruce Springsteen, Bad Bunny y la política internacional? La música no solo acompaña la historia: también ha sido una herramienta de poder, resistencia e influencia. El próximo jueves 3 de diciembre…",
+   "lugar": {
+    "nombre": "Viti Bar de Vinos",
+    "direccion": "Colón 1543",
+    "lat": null,
+    "lon": null,
+    "barrio": "Ciudad Vieja",
+    "alternativas": [],
+    "instagram": "vitibardevinos"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgK6Rr3oNmz/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f3f1163a4850.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
    "muestra": false,
    "hasta": null
   },

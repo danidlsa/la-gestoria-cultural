@@ -1,8 +1,8 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-25T15:44:57.712741-03:00",
+ "corrida": "2026-11-25T17:41:40.822535-03:00",
  "ok": true,
- "cantidad": 14,
+ "cantidad": 15,
  "errores": [],
  "eventos": [
   {
@@ -213,6 +213,49 @@
    "beneficios": [],
    "imagen_url": "https://img.cobraticket.uy/NMsNT_NpmS4SnLo-dlQK0.jpg",
    "productor": "Lotus WTC",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "933224",
+   "url": "https://cobraticket.uy/e/zoba-jueves-933224",
+   "titulo": "ZOBA JUEVES!",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "🥳Ahora la fiesta de los JUEVES también es en Zoba 🕺El finde comienza una día antes, te esperamos con todo el pop y cachengue para bailar hasta el amanecer. 🫶Albert será nuestro anfitrión quien te estará recibiendo y animando la noche desde arriba de nuestras tarimas. ​🍻En nuestras barras tendremos…",
+   "lugar": {
+    "nombre": "Zoba Club",
+    "direccion": "Bv. España 2218",
+    "lat": -34.9095744,
+    "lon": -56.1679561,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T23:50:00-03:00",
+     "fin": "2026-12-04T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/zoba-jueves-933224",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/V2tb3V2nrJCSNGMsW2hOO.jpg",
+   "productor": "Zoba Club",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
