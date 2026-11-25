@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-25T11:30:24.966696-03:00",
- "cantidad": 22,
+ "generado": "2026-11-25T15:46:51.499503-03:00",
+ "cantidad": 21,
  "ciclos": [
   {
    "id": "ciclo-envejecimiento-activo",
@@ -30,17 +30,9 @@
    "id": "ciclo-noche-de-los-cafes-y-bares-notables-2026",
    "titulo": "Noche de los Cafés y Bares Notables 2026",
    "lugar_id": null,
-   "desde": "2026-11-26T19:00:00-03:00",
+   "desde": "2026-11-26T18:00:00-03:00",
    "hasta": "2026-11-26T23:00:00-03:00",
-   "cantidad": 8
-  },
-  {
-   "id": "ciclo-tmc",
-   "titulo": "TMC",
-   "lugar_id": "auditorio-vaz-ferreira",
-   "desde": "2026-11-26T20:00:00-03:00",
-   "hasta": "2026-12-17T20:00:00-03:00",
-   "cantidad": 2
+   "cantidad": 17
   },
   {
    "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",

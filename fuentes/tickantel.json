@@ -1,8 +1,8 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-25T11:16:44.314566-03:00",
+ "corrida": "2026-11-25T15:27:00.634468-03:00",
  "ok": true,
- "cantidad": 94,
+ "cantidad": 96,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
   "https://tickantel.com.uy/ng/espectaculo/40021784/la-trampa: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-LaTrampa?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
@@ -2072,6 +2072,49 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40022014",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40022014/trilogia-del-tiempo",
+   "titulo": "Trilogía del Tiempo",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Leer el mundo en la voz de quienes lo habitan, en los cuerpos que caminan sus calles. En esta apertura, los grupos de Personas Adultas y Personas Mayores comparten a través de la escena el proceso de investigación desarrollado durante el año junto a Tamara Cubas. Los cuerpos y la oralidad son el…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": -34.90821430964771,
+    "lon": -56.196500823734254,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022014/trilogia-del-tiempo",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022014/BANNER_TRIOLOGIA_DEL_TIEMPO.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021515",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021515/nu-ritmo-con-senas",
    "titulo": "Ñu ritmo con señas",
@@ -2917,7 +2960,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022028/700x390_(1).jpg",
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022028/700x390_(2).jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3335,6 +3378,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020973/Grilla_Web_Tickantel_(700x390px).png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40022035",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40022035/suite-de-paquita",
+   "titulo": "Suite de Paquita",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Federico Godoy Ballet presenta Suite de Paquita como cierre de su año académico 2026. Los estudiantes del estudio interpretan este clásico del repertorio del ballet, con coreografía de Marius Petipa, música de Ludwig Minkus, reposición de Georgina Ocampo y dirección de Federico Godoy.",
+   "lugar": {
+    "nombre": "Centro Cultural Florencio Sánchez",
+    "direccion": null,
+    "lat": -34.89231,
+    "lon": -56.24801,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-18T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022035/suite-de-paquita",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022035/SPaquita.JPG",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

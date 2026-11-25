@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-25T11:20:27.954596-03:00",
+ "corrida": "2026-11-25T15:37:07.725376-03:00",
  "ok": true,
- "cantidad": 37,
+ "cantidad": 39,
  "errores": [],
  "eventos": [
   {
@@ -1776,6 +1776,103 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40021686/tmc-pecado-y-luz"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13897",
+   "url": "https://sodre.gub.uy/espectaculos/el-contrabajo-desde-bach-a-la-actualidad-diego-zecharies-friends/",
+   "titulo": "El contrabajo desde Bach a la actualidad, Diego Zecharies & friends",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Temporada de Música de Cámara",
+   "lugar": {
+    "nombre": "Auditorio Vaz Ferreira",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-17T20:00:00-03:00",
+     "fin": "2026-12-17T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021687/tmc-el-contrabajo-desde-bach-a-la-actualidad",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/ADAPTACIONES_DIEGO_ZECHARIES_destacada-1-768x420.png",
+   "productor": "Temporada de Música de Cámara del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021687/tmc-el-contrabajo-desde-bach-a-la-actualidad"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13905",
+   "url": "https://sodre.gub.uy/espectaculos/abrazo/",
+   "titulo": "Abrazo",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Colectivo de danza inclusivo Primor junto a la banda Otros indios",
+   "lugar": {
+    "nombre": "Auditorio Nacional Adela Reta",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-19T19:00:00-03:00",
+     "fin": "2026-12-19T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-20T19:00:00-03:00",
+     "fin": "2026-12-20T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022017/abrazo",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/DESTACADO_web_900x492_PRIMOR-1-768x420.png",
+   "productor": "Espectáculos del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40022017/abrazo"
    ],
    "ciclo": null,
    "etiquetas": [],

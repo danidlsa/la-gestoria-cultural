@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-25T11:30:24.966696-03:00",
- "cantidad": 191,
+ "generado": "2026-11-25T15:46:51.499503-03:00",
+ "cantidad": 193,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -364,12 +364,12 @@
    "instagram": null
   },
   {
-   "id": "carrasco-polo-club",
-   "nombre": "Carrasco Polo Club",
+   "id": "carrasco-lawn-tennis-club",
+   "nombre": "Carrasco Lawn Tennis Club",
    "alias": [],
-   "direccion": null,
-   "lat": -34.8627617,
-   "lon": -56.0641586,
+   "direccion": "4W8Q+5WG, Dr Eduardo Couture, 11500 Mont",
+   "lat": -34.884562,
+   "lon": -56.060176,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -422,9 +422,9 @@
    "id": "centro-cultural-artesano",
    "nombre": "Centro Cultural Artesano",
    "alias": [],
-   "direccion": null,
-   "lat": -34.8253632,
-   "lon": -56.2043076,
+   "direccion": "Bv. Aparicio Saravía 4697, 12900 Montevi",
+   "lat": -34.825381,
+   "lon": -56.203982,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -931,6 +931,17 @@
    "instagram": null
   },
   {
+   "id": "florida-1487",
+   "nombre": "Florida 1487",
+   "alias": [],
+   "direccion": "Florida 1487, 11000 Montevideo, Departam",
+   "lat": -34.90397,
+   "lon": -56.199668,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
    "id": "fenix-bar",
    "nombre": "Fénix Bar",
    "alias": [],
@@ -1066,6 +1077,17 @@
    "direccion": "Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "la-bodeguita-del-sur",
+   "nombre": "La Bodeguita del Sur",
+   "alias": [],
+   "direccion": "Soriano 840",
+   "lat": -34.908433,
+   "lon": -56.198165,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -2110,7 +2132,6 @@
    "alias": [
     "Teatro Stella D'Italia. La Gaviota",
     "Teatro Stella D'Italia. La Gaviota.",
-    "Teatro Stella D'Italia",
     "Teatro Stella DItalia. La Gaviota."
    ],
    "direccion": "Mercedes 1805",

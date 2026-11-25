@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-25T11:28:52.964241-03:00",
+ "corrida": "2026-11-25T15:45:54.929472-03:00",
  "ok": true,
- "cantidad": 50,
+ "cantidad": 51,
  "errores": [],
  "eventos": [
   {
@@ -518,7 +518,7 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "theshannonuy-20261125",
-   "url": "https://www.instagram.com/p/DgKuccQRxfx/",
+   "url": "https://www.instagram.com/p/DgK0dP4xoLU/",
    "titulo": "The Shannon: OPEN MIC",
    "categoria": "musica",
    "categoria_segura": false,
@@ -549,7 +549,7 @@
    },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DgKuccQRxfx/",
+     "url": "https://www.instagram.com/p/DgK0dP4xoLU/",
      "via": "instagram"
     }
    ],
@@ -614,7 +614,7 @@
    "fuente": "instagram_bares",
    "id_externo": "barfacal-20261126",
    "url": "https://www.instagram.com/p/DgED338GD5Y/",
-   "titulo": "Bar Facal: Actividades La Noche de los Cafés y Bares Notables",
+   "titulo": "Bar Facal: Tango en vivo con pareja de baile",
    "categoria": "carnaval",
    "categoria_segura": false,
    "descripcion_corta": "El jueves 26 de noviembre, de 18 a 01 horas, Bar Facal se suma a La Noche de los Cafés y Bares Notables del municipiobmontevideo . Y como el salón nos queda pequeño para todas las actividades que tenemos para ustedes, esa noche cortamos la calle: la vereda se nos hace explanada y una parte de la…",
@@ -795,6 +795,56 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "theshannonuy-20261126",
+   "url": "https://www.instagram.com/p/DgK0dP4xoLU/",
+   "titulo": "The Shannon: JUANY BONES e invitados",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Jueves 26/Noviembre: JUANY BONES e invitados Rock&pop - 22 hs Cubierto artístico $150",
+   "lugar": {
+    "nombre": "The Shannon irish pub",
+    "direccion": "Bartolomé Mitre 1318",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": "theshannonuy"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T22:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 150.0,
+    "hasta": 150.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgK0dP4xoLU/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/bb833a71531a.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261127",
    "url": "https://www.instagram.com/p/DfnEZWNGHn8/",
    "titulo": "Centro Cultural de España: A mover las cachas! Llega La Ventolera al CCE",
@@ -892,7 +942,7 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "theshannonuy-20261127",
-   "url": "https://www.instagram.com/p/DgKuccQRxfx/",
+   "url": "https://www.instagram.com/p/DgK0dP4xoLU/",
    "titulo": "The Shannon: KARAOKE EN VIVO",
    "categoria": "musica",
    "categoria_segura": false,
@@ -923,7 +973,7 @@
    },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DgKuccQRxfx/",
+     "url": "https://www.instagram.com/p/DgK0dP4xoLU/",
      "via": "instagram"
     }
    ],
@@ -1166,11 +1216,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "epi_cultural-20261128",
-   "url": "https://www.instagram.com/reel/DgF-sHWgQaS/",
+   "url": "https://www.instagram.com/p/DgLLqefAHCu/",
    "titulo": "Espacio Peppino Impastato: Abrimos EPI",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "¡Este sábado inauguramos! Van a estar los DJs: neon_raver_ _maddariddim Y la música en vivo de: sanpulso bocuchauy desdelsurrr melmorcp Además va estar presente un artista sorpresa Vení a disfrutar de buena música y cosas ricas Sábado 28 de noviembre | 18:30 hs. Piedras 429 (Ciudad Vieja) Entrada…",
+   "descripcion_corta": "¡Este sábado inauguramos EPI! Y como no podía faltar vamos a tener una performance artística: TUTTO VA BIEN Con la participación de: tatiana.tree mikamelobenitez 6alana_dacunha9 _soniabongiovanni Ya tenes un planazo para este sábado con música en vivo y cosas ricas para comer y tomar ¡Guardate la…",
    "lugar": {
     "nombre": "Espacio Peppino Impastato",
     "direccion": "Piedras 429",
@@ -1197,7 +1247,7 @@
    },
    "entradas": [
     {
-     "url": "https://www.instagram.com/reel/DgF-sHWgQaS/",
+     "url": "https://www.instagram.com/p/DgLLqefAHCu/",
      "via": "instagram"
     }
    ],
@@ -1353,7 +1403,7 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "theshannonuy-20261128",
-   "url": "https://www.instagram.com/p/DgKuccQRxfx/",
+   "url": "https://www.instagram.com/p/DgK0dP4xoLU/",
    "titulo": "The Shannon: EASYBAND",
    "categoria": "musica",
    "categoria_segura": false,
@@ -1384,7 +1434,7 @@
    },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DgKuccQRxfx/",
+     "url": "https://www.instagram.com/p/DgK0dP4xoLU/",
      "via": "instagram"
     }
    ],

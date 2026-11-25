@@ -1,8 +1,8 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-25T11:20:35.747931-03:00",
+ "corrida": "2026-11-25T15:37:12.664427-03:00",
  "ok": true,
- "cantidad": 15,
+ "cantidad": 19,
  "errores": [],
  "eventos": [
   {
@@ -26,6 +26,34 @@
     {
      "inicio": "2026-11-25T17:10:00-03:00",
      "fin": "2026-11-25T18:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T16:00:00-03:00",
+     "fin": "2026-11-28T17:20:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T15:45:00-03:00",
+     "fin": "2026-11-29T17:05:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T22:25:00-03:00",
+     "fin": "2026-11-30T23:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T22:35:00-03:00",
+     "fin": "2026-12-01T23:55:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -184,6 +212,41 @@
     {
      "inicio": "2026-11-25T18:50:00-03:00",
      "fin": "2026-11-25T21:11:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T21:15:00-03:00",
+     "fin": "2026-11-26T23:36:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T21:30:00-03:00",
+     "fin": "2026-11-27T23:51:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": "2026-11-28T23:21:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T21:00:00-03:00",
+     "fin": "2026-11-29T23:21:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T21:40:00-03:00",
+     "fin": "2026-12-01T00:01:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -421,6 +484,41 @@
     {
      "inicio": "2026-11-25T21:20:00-03:00",
      "fin": "2026-11-25T23:10:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-26T21:25:00-03:00",
+     "fin": "2026-11-26T23:15:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T21:25:00-03:00",
+     "fin": "2026-11-27T23:15:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T21:55:00-03:00",
+     "fin": "2026-11-28T23:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T21:30:00-03:00",
+     "fin": "2026-11-29T23:20:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T19:30:00-03:00",
+     "fin": "2026-11-30T21:20:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -746,6 +844,334 @@
   },
   {
    "fuente": "cinemateca",
+   "id_externo": "9131",
+   "url": "https://cinemateca.org.uy/peliculas/9131",
+   "titulo": "Padre",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Tereza Nvotová. El extenso plano secuencia inicial (recurso que la directora volverá a utilizar reiteradamente a lo largo de su película) sigue mientras hace ejercicio, llega a su casa, se baña y, por pedido de su mujer (como excepción por ese día), lleva a su pequeña hija a la guardería. Una…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T16:50:00-03:00",
+     "fin": "2026-11-26T18:33:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T16:50:00-03:00",
+     "fin": "2026-11-27T18:33:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T15:40:00-03:00",
+     "fin": "2026-11-28T17:23:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T15:40:00-03:00",
+     "fin": "2026-11-29T17:23:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9131",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40415/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9704",
+   "url": "https://cinemateca.org.uy/peliculas/9704",
+   "titulo": "Un fantasma a su servicio",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Ratchapoom Boonbunchachoke. Nat muere debido a una enfermedad respiratoria provocada por la contaminación del polvo. Su marido, March, queda devastado por su pérdida. Pero ocurre algo insólito: el espíritu de Nat regresa y se reencarna en una aspiradora. March acepta esta situación y ambos…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T18:55:00-03:00",
+     "fin": "2026-11-26T21:05:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T18:55:00-03:00",
+     "fin": "2026-11-27T21:05:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T15:35:00-03:00",
+     "fin": "2026-11-28T17:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T19:20:00-03:00",
+     "fin": "2026-11-29T21:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T18:00:00-03:00",
+     "fin": "2026-11-30T20:10:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T21:45:00-03:00",
+     "fin": "2026-12-01T23:55:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9704",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://www.eneccine.com/ufass/ufass04.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9703",
+   "url": "https://cinemateca.org.uy/peliculas/9703",
+   "titulo": "Puedes verlo todo",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Nathan Fielder, Lance Oppenheim. La premisa de este documental resulta engañosamente sencilla. El comediante Nathan Fielder y el realizador Lance Oppenheim fueron convocados a rodar material sobre Elizabeth Holmes, quien en pocas semanas irá a la cárcel, condenada por fraude. Holmes es la exCEO…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T19:45:00-03:00",
+     "fin": "2026-11-26T22:39:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T19:45:00-03:00",
+     "fin": "2026-11-27T22:39:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T17:45:00-03:00",
+     "fin": "2026-11-28T20:39:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T17:45:00-03:00",
+     "fin": "2026-11-29T20:39:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T19:15:00-03:00",
+     "fin": "2026-11-30T22:09:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T19:30:00-03:00",
+     "fin": "2026-12-01T22:24:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9703",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40904/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
    "id_externo": "9695",
    "url": "https://cinemateca.org.uy/peliculas/9695",
    "titulo": "Marnie",
@@ -1000,8 +1426,8 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-27T19:15:00-03:00",
-     "fin": "2026-11-27T21:31:00-03:00",
+     "inicio": "2026-11-27T19:00:00-03:00",
+     "fin": "2026-11-27T21:16:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -1056,6 +1482,92 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Cine uruguayo diez años",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9702",
+   "url": "https://cinemateca.org.uy/peliculas/9702",
+   "titulo": "Las siete balas",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Sebastián Pérez Pérez. Esta película uruguaya comienza con un copamiento violento en un bar del centro de Montevideo, protagonizado por tres adolescentes que toman rehenes y amenazan con hacer explotar el lugar si no reciben 100.000 dólares. La situación genera un operativo policial, una enorme…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T17:40:00-03:00",
+     "fin": "2026-11-28T19:15:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T17:25:00-03:00",
+     "fin": "2026-11-29T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9702",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40903/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
    "etiquetas": [],
    "muestra": false,
    "hasta": null
