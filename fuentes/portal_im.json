@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-24T11:00:13.170068-03:00",
+ "corrida": "2026-11-25T11:00:13.600864-03:00",
  "ok": true,
- "cantidad": 25,
+ "cantidad": 30,
  "errores": [],
  "eventos": [
   {
@@ -66,27 +66,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-24T10:00:00-03:00",
-     "fin": "2026-11-24T12:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Casa de Jóvenes Adultos Mayores de Pajas Blancas",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-24T13:30:00-03:00",
-     "fin": "2026-11-24T15:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Centro Comunal Zonal 14",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-24T16:30:00-03:00",
-     "fin": "2026-11-24T18:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Comisión Fomento Larrañaga",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-25T16:00:00-03:00",
      "fin": "2026-11-25T18:00:00-03:00",
@@ -341,13 +320,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-24T13:30:00-03:00",
-     "fin": "2026-11-24T15:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-12-01T13:30:00-03:00",
      "fin": "2026-12-01T15:30:00-03:00",
@@ -1291,6 +1263,221 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Actividades en el Parque Mauá",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1072",
+   "url": "https://eventos.montevideo.gub.uy/evento/festival-callejero-grecia-tomada/feria-de-emprendimientos",
+   "titulo": "Feria de emprendimientos",
+   "categoria": "feria",
+   "categoria_segura": true,
+   "descripcion_corta": "Viernes 4 de diciembre, desde las 17:00.",
+   "lugar": {
+    "nombre": "Calle Grecia",
+    "direccion": "Grecia",
+    "lat": -34.8844345,
+    "lon": -56.2492465,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-07/feria_artesanias.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Festival callejero Grecia Tomada",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1073",
+   "url": "https://eventos.montevideo.gub.uy/evento/festival-callejero-grecia-tomada/desfile-de-comparsa-fortaleza-candombera",
+   "titulo": "Desfile de comparsa Fortaleza Candombera",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Viernes 4 de diciembre desde las 18:30.",
+   "lugar": {
+    "nombre": "Calle Grecia",
+    "direccion": "Grecia",
+    "lat": -34.8844345,
+    "lon": -56.2492465,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-06/20131231dicimouyem0224-4%20candombe.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Festival callejero Grecia Tomada",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1074",
+   "url": "https://eventos.montevideo.gub.uy/evento/festival-callejero-grecia-tomada/variete-de-circo",
+   "titulo": "Varieté de circo",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Viernes 4 de diciembre desde las 19:00.",
+   "lugar": {
+    "nombre": "Calle Grecia",
+    "direccion": "Grecia",
+    "lat": -34.8844345,
+    "lon": -56.2492465,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-06/20260702%20circo%20codoacodo.JPG",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Festival callejero Grecia Tomada",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1075",
+   "url": "https://eventos.montevideo.gub.uy/evento/festival-callejero-grecia-tomada/coro-las-voces-del-florencio",
+   "titulo": "Coro Las Voces del Florencio",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Viernes 4 de diciembre desde las 20:00.",
+   "lugar": {
+    "nombre": "Centro Cultural Florencio Sánchez",
+    "direccion": "Grecia 3281",
+    "lat": -34.89227,
+    "lon": -56.247973,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2025-12/624x368_Museos%20en%20la%20noche_Coro%20MUME.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Festival callejero Grecia Tomada",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1076",
+   "url": "https://eventos.montevideo.gub.uy/evento/festival-callejero-grecia-tomada/orquesta-filarmonica-festival-de-cellos",
+   "titulo": "Orquesta Filarmónica: Festival de Cellos",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Viernes 4 de diciembre desde las 20:30.",
+   "lugar": {
+    "nombre": "Centro Cultural Florencio Sánchez",
+    "direccion": "Grecia 3281",
+    "lat": -34.89227,
+    "lon": -56.247973,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/Orquesta%20filarm%C3%B3nica.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Festival callejero Grecia Tomada",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
