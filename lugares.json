@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-25T17:44:30.161328-03:00",
- "cantidad": 194,
+ "generado": "2026-11-26T00:51:46.118819-03:00",
+ "cantidad": 193,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -236,17 +236,6 @@
    "instagram": "paysandu_bar"
   },
   {
-   "id": "bluzz-bar",
-   "nombre": "Bluzz Bar",
-   "alias": [],
-   "direccion": "Canelones 760",
-   "lat": -34.9094876,
-   "lon": -56.1998589,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": null
-  },
-  {
    "id": "botanica-sala",
    "nombre": "Botánica Sala",
    "alias": [
@@ -267,6 +256,17 @@
    "direccion": null,
    "lat": -34.9084142,
    "lon": -56.18779,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "bulevar-general-artigas-3946",
+   "nombre": "Bulevar General Artigas 3946",
+   "alias": [],
+   "direccion": "Bv. Gral. Artigas 3946, 11700 Montevideo",
+   "lat": -34.871123,
+   "lon": -56.190083,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -370,6 +370,17 @@
    "direccion": "4W8Q+5WG, Dr Eduardo Couture, 11500 Mont",
    "lat": -34.884562,
    "lon": -56.060176,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "carrasco-polo-club",
+   "nombre": "Carrasco Polo Club",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.8627617,
+   "lon": -56.0641586,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -1014,17 +1025,6 @@
    "instagram": null
   },
   {
-   "id": "indoorclub-1983",
-   "nombre": "Indoorclub 1983",
-   "alias": [],
-   "direccion": "Av. Luis Alberto de Herrera 2883, 11000",
-   "lat": -34.876545,
-   "lon": -56.157533,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": null
-  },
-  {
    "id": "inmigrantes-mvd",
    "nombre": "Inmigrantes MVD",
    "alias": [],
@@ -1126,17 +1126,6 @@
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
-  },
-  {
-   "id": "la-ronda",
-   "nombre": "La Ronda",
-   "alias": [],
-   "direccion": "Ciudadela 1182",
-   "lat": -34.9096038,
-   "lon": -56.2000503,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": "barlarondacafe"
   },
   {
    "id": "la-trastienda",
@@ -1848,7 +1837,7 @@
    "id": "sala-rondeau",
    "nombre": "Sala Rondeau",
    "alias": [],
-   "direccion": "Av Gral Rondeau 1904",
+   "direccion": "Av. Gral. Rondeau 1904",
    "lat": -34.894936,
    "lon": -56.192403,
    "barrio": null,
@@ -1882,9 +1871,7 @@
   {
    "id": "sala-verdi",
    "nombre": "Sala Verdi",
-   "alias": [
-    "Sala Verdí"
-   ],
+   "alias": [],
    "direccion": "Soriano 914",
    "lat": -34.90821430964771,
    "lon": -56.196500823734254,

@@ -1,6 +1,6 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-25T17:38:43.786366-03:00",
+ "corrida": "2026-11-26T00:47:07.797506-03:00",
  "ok": true,
  "cantidad": 17,
  "errores": [],
@@ -55,54 +55,6 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "525129",
-   "url": "https://feverup.com/m/525129",
-   "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Vive un concierto Candlelight en el Salón Doré del Sofitel Montevideo Casino Carrasco and Spa: la música de Las cuatro estaciones de Vivaldi, interpretada en vivo por un cuarteto de cuerda en una sala iluminada por velas, en una experiencia musical y multisensorial. Esta experiencia de concierto es…",
-   "lugar": {
-    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
-    "direccion": null,
-    "lat": -34.8905846,
-    "lon": -56.0553743,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-27T16:30:00-03:00",
-     "fin": "2026-12-27T20:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1080.0,
-    "hasta": 1080.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/525129",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/9bdc2556-1ab4-11f0-8624-6e8226e0238e.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
    "id_externo": "669536",
    "url": "https://feverup.com/m/669536",
    "titulo": "Candlelight: Tributo a Maná",
@@ -141,6 +93,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/edf46d20-151f-11f0-a800-16ade76e2ff8.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "525129",
+   "url": "https://feverup.com/m/525129",
+   "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Vive un concierto Candlelight en el Salón Doré del Sofitel Montevideo Casino Carrasco and Spa: la música de Las cuatro estaciones de Vivaldi, interpretada en vivo por un cuarteto de cuerda en una sala iluminada por velas, en una experiencia musical y multisensorial. Esta experiencia de concierto es…",
+   "lugar": {
+    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
+    "direccion": null,
+    "lat": -34.8905846,
+    "lon": -56.0553743,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-27T16:30:00-03:00",
+     "fin": "2026-12-27T20:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 1080.0,
+    "hasta": 1080.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/525129",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/9bdc2556-1ab4-11f0-8624-6e8226e0238e.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -487,54 +487,6 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "838625",
-   "url": "https://feverup.com/m/838625",
-   "titulo": "Candlelight: Queen vs. ABBA",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Los conciertos Candlelight llevan la magia de la música en vivo a lugares increíbles de Montevideo, bajo la luz tenue de las velas. ¡Conseguí tus entradas para descubrir la música de Candlelight: Queen vs. ABBA en Sala Valle Inclán! Esta experiencia de concierto es un tributo. No está vinculada…",
-   "lugar": {
-    "nombre": "Sala Valle Inclán",
-    "direccion": null,
-    "lat": -34.9074103,
-    "lon": -56.1975527,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2027-03-12T19:00:00-03:00",
-     "fin": "2027-04-17T19:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 672.0,
-    "hasta": 672.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/838625",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/ad60b410-1945-11f0-bf40-961efeb2b763.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
    "id_externo": "689992",
    "url": "https://feverup.com/m/689992",
    "titulo": "Candlelight: Lo Mejor de Hans Zimmer",
@@ -765,6 +717,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/48b94802-1917-11f0-a8b2-de92939c34e1.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "838625",
+   "url": "https://feverup.com/m/838625",
+   "titulo": "Candlelight: Queen vs. ABBA",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Los conciertos Candlelight llevan la magia de la música en vivo a lugares increíbles de Montevideo, bajo la luz tenue de las velas. ¡Conseguí tus entradas para descubrir la música de Candlelight: Queen vs. ABBA en Sala Valle Inclán! Esta experiencia de concierto es un tributo. No está vinculada…",
+   "lugar": {
+    "nombre": "Sala Valle Inclán",
+    "direccion": null,
+    "lat": -34.9074103,
+    "lon": -56.1975527,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-03-12T19:00:00-03:00",
+     "fin": "2027-04-17T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 672.0,
+    "hasta": 672.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/838625",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/ad60b410-1945-11f0-bf40-961efeb2b763.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],

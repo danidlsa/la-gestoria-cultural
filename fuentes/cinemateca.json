@@ -1,18 +1,18 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-25T17:33:44.122382-03:00",
+ "corrida": "2026-11-26T00:42:06.378025-03:00",
  "ok": true,
  "cantidad": 23,
  "errores": [],
  "eventos": [
   {
    "fuente": "cinemateca",
-   "id_externo": "9643",
-   "url": "https://cinemateca.org.uy/peliculas/9643",
-   "titulo": "Naza",
+   "id_externo": "9131",
+   "url": "https://cinemateca.org.uy/peliculas/9131",
+   "titulo": "Padre",
    "categoria": "cine",
    "categoria_segura": true,
-   "descripcion_corta": "De Yuval Abraham, Rachel Szor. El término “NAZA” es un acrónimo de la expresión militar hebrea nezek agavi que puede traducirse como “daño colateral”, y alude a las víctimas civiles de una guerra, en este caso la que las Fuerzas de Defensa de Israel llevan a cabo contra Hamas y la población de…",
+   "descripcion_corta": "De Tereza Nvotová. El extenso plano secuencia inicial (recurso que la directora volverá a utilizar reiteradamente a lo largo de su película) sigue mientras hace ejercicio, llega a su casa, se baña y, por pedido de su mujer (como excepción por ese día), lleva a su pequeña hija a la guardería. Una…",
    "lugar": {
     "nombre": "Cinemateca",
     "direccion": "Bartolomé Mitre 1236",
@@ -24,36 +24,36 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-25T17:10:00-03:00",
-     "fin": "2026-11-25T18:30:00-03:00",
+     "inicio": "2026-11-26T16:50:00-03:00",
+     "fin": "2026-11-26T18:33:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     },
     {
-     "inicio": "2026-11-28T16:00:00-03:00",
-     "fin": "2026-11-28T17:20:00-03:00",
+     "inicio": "2026-11-27T16:50:00-03:00",
+     "fin": "2026-11-27T18:33:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     },
     {
-     "inicio": "2026-11-29T15:45:00-03:00",
-     "fin": "2026-11-29T17:05:00-03:00",
+     "inicio": "2026-11-28T15:40:00-03:00",
+     "fin": "2026-11-28T17:23:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     },
     {
-     "inicio": "2026-11-30T22:25:00-03:00",
-     "fin": "2026-11-30T23:45:00-03:00",
+     "inicio": "2026-11-29T15:40:00-03:00",
+     "fin": "2026-11-29T17:23:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     },
     {
-     "inicio": "2026-12-01T22:35:00-03:00",
-     "fin": "2026-12-01T23:55:00-03:00",
+     "inicio": "2026-12-02T19:25:00-03:00",
+     "fin": "2026-12-02T21:08:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -67,7 +67,7 @@
    },
    "entradas": [
     {
-     "url": "https://cinemateca.org.uy/peliculas/9643",
+     "url": "https://cinemateca.org.uy/peliculas/9131",
      "via": "cinemateca"
     }
    ],
@@ -103,472 +103,7 @@
      "url": "https://cinemateca.org.uy/"
     }
    ],
-   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40845/image_still_binary",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9143",
-   "url": "https://cinemateca.org.uy/peliculas/9143",
-   "titulo": "Seis días en primavera",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Joachim Lafosse. Una madre soltera lleva a sus hijos a una escapada secreta a la villa vacía de sus antiguos suegros en la Riviera. Lo que comienza como unas inocentes vacaciones de primavera se convierte en seis días bajo el sol que le cambian la vida. La estancia de la madre y los hijos en un…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T17:15:00-03:00",
-     "fin": "2026-11-25T18:49:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9143",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40427/image_still_binary",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9691",
-   "url": "https://cinemateca.org.uy/peliculas/9691",
-   "titulo": "Minotauro",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Andrei Zvyagintsev. Nueve años después de estrenar Sin amor (2017) y tras superar un grave y casi funesto cuadro de COVID-19, el cineasta ruso Andrey Zvyagintsev ataca nuevamente aspectos morales y políticos cuestionables de su país en su sexto largometraje, ganador del Gran Premio del Jurado en…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T18:50:00-03:00",
-     "fin": "2026-11-25T21:11:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-26T21:15:00-03:00",
-     "fin": "2026-11-26T23:36:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T21:30:00-03:00",
-     "fin": "2026-11-27T23:51:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T21:00:00-03:00",
-     "fin": "2026-11-28T23:21:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T21:00:00-03:00",
-     "fin": "2026-11-29T23:21:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-30T21:40:00-03:00",
-     "fin": "2026-12-01T00:01:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9691",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://www.caimanediciones.es/wp-content/uploads/2026/05/200498-1200x675.jpg",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "3142",
-   "url": "https://cinemateca.org.uy/peliculas/3142",
-   "titulo": "Estamos no ar",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Diogo Costa Amarante. Esta película constituye el debut en el largo del director y libretista Diogo Costa Amarante, tras una elogiada carrera en el cortometraje. Mezcla de drama y comedia negra y absurda, con elementos de fantasía, la película construye su universo alrededor de tres generaciones…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T19:10:00-03:00",
-     "fin": "2026-11-25T20:42:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/3142",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/ESTAMOS_NO_AR.jpg",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9655",
-   "url": "https://cinemateca.org.uy/peliculas/9655",
-   "titulo": "Tierra de mi padre",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Pawel Pawlikowski. Esta película polaca se centra en la relación entre Thomas Mann, -el escritor alemán, autor de obras mayores como La montaña mágica y Los Buddenbrock y ganador del Premio Nobel- y su hija Erika, actriz, escritora y piloto de rally. En el verano de 1949 en plena Guerra Fría…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T21:15:00-03:00",
-     "fin": "2026-11-25T22:37:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9655",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40856/image_still_binary",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9098",
-   "url": "https://cinemateca.org.uy/peliculas/9098",
-   "titulo": "La vida secreta de Kika",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Alexe Poukine. La ópera prima de Alexe Poukine es una apuesta por el riesgo. No teme encarar temas como el adulterio, el duelo, la precariedad laboral o los fetiches, por no hablar del sostén principal de la trama: las trabajadoras sexuales. Kika no es más que una mujer que ha perdido sus puntos…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T21:20:00-03:00",
-     "fin": "2026-11-25T23:10:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-26T21:25:00-03:00",
-     "fin": "2026-11-26T23:15:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T21:25:00-03:00",
-     "fin": "2026-11-27T23:15:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T21:55:00-03:00",
-     "fin": "2026-11-28T23:45:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T21:30:00-03:00",
-     "fin": "2026-11-29T23:20:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-30T19:30:00-03:00",
-     "fin": "2026-11-30T21:20:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9098",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40382/image_still_binary",
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40415/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
@@ -595,13 +130,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-25T21:25:00-03:00",
-     "fin": "2026-11-25T23:23:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-26T17:25:00-03:00",
      "fin": "2026-11-26T19:23:00-03:00",
@@ -676,264 +204,6 @@
     }
    ],
    "imagen_url": "https://escribiendocine-s3.cdn.net.ar/s3i233/2026/09/escribiendocine/images/02/75/51/2755112_088bccb53f8fd44c7bbf7accded8b9679f0739b33863ac5d391d3cba9dd26650/lg.webp",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9694",
-   "url": "https://cinemateca.org.uy/peliculas/9694",
-   "titulo": "Cortina rasgada",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Alfred Hitchcock. Paul Newman cruza la Cortina de Hierro para robar un secreto científico a los alemanes orientales, su novia Julie lo sigue, y pronto ambos se ven perseguidos por los servicios de inteligencia comunista. El material es convencional, pero Hitchcock es Hitchcock: el plano distante…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T17:00:00-03:00",
-     "fin": "2026-11-25T19:08:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9694",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://i0.wp.com/hitchcock52.com/wp-content/uploads/2016/04/tc-stars.jpg?fit=1200%2C676&amp;ssl=1",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Las mujeres de Hitchcock",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9699",
-   "url": "https://cinemateca.org.uy/peliculas/9699",
-   "titulo": "Nueva Venecia",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Emiliano Mazza De Luca. En medio de la mayor laguna de Colombia, una aldea flotante se resiste a desaparecer a pesar de las inundaciones y los recuerdos de la masacre que los fracturó años atrás. Su pasión por el fútbol los reunirá en una aventura de realismo mágico: sacar a flote la cancha de…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T19:30:00-03:00",
-     "fin": "2026-11-25T20:50:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9699",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://docs-enlinea.com/assets/imagenes_material/3981_mate_still_web1.png?v=1622660519",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Cine uruguayo diez años",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9131",
-   "url": "https://cinemateca.org.uy/peliculas/9131",
-   "titulo": "Padre",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Tereza Nvotová. El extenso plano secuencia inicial (recurso que la directora volverá a utilizar reiteradamente a lo largo de su película) sigue mientras hace ejercicio, llega a su casa, se baña y, por pedido de su mujer (como excepción por ese día), lleva a su pequeña hija a la guardería. Una…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T16:50:00-03:00",
-     "fin": "2026-11-26T18:33:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T16:50:00-03:00",
-     "fin": "2026-11-27T18:33:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T15:40:00-03:00",
-     "fin": "2026-11-28T17:23:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T15:40:00-03:00",
-     "fin": "2026-11-29T17:23:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9131",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40415/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
@@ -1115,6 +385,13 @@
      "sin_hora": false,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T20:20:00-03:00",
+     "fin": "2026-12-02T23:14:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -1162,6 +439,234 @@
     }
    ],
    "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40904/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9691",
+   "url": "https://cinemateca.org.uy/peliculas/9691",
+   "titulo": "Minotauro",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Andrei Zvyagintsev. Nueve años después de estrenar Sin amor (2017) y tras superar un grave y casi funesto cuadro de COVID-19, el cineasta ruso Andrey Zvyagintsev ataca nuevamente aspectos morales y políticos cuestionables de su país en su sexto largometraje, ganador del Gran Premio del Jurado en…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T21:15:00-03:00",
+     "fin": "2026-11-26T23:36:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T21:30:00-03:00",
+     "fin": "2026-11-27T23:51:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": "2026-11-28T23:21:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T21:00:00-03:00",
+     "fin": "2026-11-29T23:21:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T21:40:00-03:00",
+     "fin": "2026-12-01T00:01:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T21:40:00-03:00",
+     "fin": "2026-12-03T00:01:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9691",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://www.caimanediciones.es/wp-content/uploads/2026/05/200498-1200x675.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9098",
+   "url": "https://cinemateca.org.uy/peliculas/9098",
+   "titulo": "La vida secreta de Kika",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Alexe Poukine. La ópera prima de Alexe Poukine es una apuesta por el riesgo. No teme encarar temas como el adulterio, el duelo, la precariedad laboral o los fetiches, por no hablar del sostén principal de la trama: las trabajadoras sexuales. Kika no es más que una mujer que ha perdido sus puntos…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T21:25:00-03:00",
+     "fin": "2026-11-26T23:15:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T21:25:00-03:00",
+     "fin": "2026-11-27T23:15:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T21:55:00-03:00",
+     "fin": "2026-11-28T23:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T21:30:00-03:00",
+     "fin": "2026-11-29T23:20:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T19:30:00-03:00",
+     "fin": "2026-11-30T21:20:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T19:30:00-03:00",
+     "fin": "2026-12-02T21:20:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9098",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40382/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
@@ -1488,6 +993,106 @@
   },
   {
    "fuente": "cinemateca",
+   "id_externo": "9643",
+   "url": "https://cinemateca.org.uy/peliculas/9643",
+   "titulo": "Naza",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Yuval Abraham, Rachel Szor. El término “NAZA” es un acrónimo de la expresión militar hebrea nezek agavi que puede traducirse como “daño colateral”, y alude a las víctimas civiles de una guerra, en este caso la que las Fuerzas de Defensa de Israel llevan a cabo contra Hamas y la población de…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T16:00:00-03:00",
+     "fin": "2026-11-28T17:20:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T15:45:00-03:00",
+     "fin": "2026-11-29T17:05:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T22:25:00-03:00",
+     "fin": "2026-11-30T23:45:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-01T22:35:00-03:00",
+     "fin": "2026-12-01T23:55:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9643",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40845/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
    "id_externo": "9702",
    "url": "https://cinemateca.org.uy/peliculas/9702",
    "titulo": "Las siete balas",
@@ -1726,6 +1331,243 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Cine uruguayo diez años",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "3027",
+   "url": "https://cinemateca.org.uy/peliculas/3027",
+   "titulo": "La batalla de Chile, primera parte: la insurrección de la burguesía",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Patricio Guzmán. El testimonio de los dramáticos meses que precedieron a la caída de Allende. Partidarios y adversarios desfilan, se movilizan y hablan a la cámara, redondeando un cuadro matizado y complejo. Aunque el compromiso de Guzmán es evidente, su cámara ve más allá de sus opiniones y el…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T15:35:00-03:00",
+     "fin": "2026-11-29T17:15:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/3027",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/parte_1.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Día del cine chileno - la batalla de Chile",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "3029",
+   "url": "https://cinemateca.org.uy/peliculas/3029",
+   "titulo": "La batalla de Chile, segunda parte: El golpe de Estado",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Patricio Guzmán. Quizás la más lograda de las entregas de la trilogía de Patricio Guzmán sobre el golpe de estado del 11 de setiembre. Aquí la oposición legal a Allende ha dejado paso a las directas maniobras de la inteligencia, las empresas norteamericanas y los militares golpistas. El cuadro…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T17:35:00-03:00",
+     "fin": "2026-11-29T19:03:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/3029",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/parte_2.jpg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Día del cine chileno - la batalla de Chile",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "3031",
+   "url": "https://cinemateca.org.uy/peliculas/3031",
+   "titulo": "La batalla de Chile, tercera parte: El poder popular",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Patricio Guzmán. Al margen de los grandes acontecimientos que narran los filmes precedentes ocurren también otros fenómenos originales, a veces efímeros, incompletos, que recoge la tercera parte. Numerosos sectores de la población y en particular las capas populares organizan y ponen en marcha…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T19:45:00-03:00",
+     "fin": "2026-11-29T21:05:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/3031",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://kc-media-prod.s3.us-east-1.amazonaws.com/cinemateca/media/films/parte_3.jpeg",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Día del cine chileno - la batalla de Chile",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
@@ -2038,6 +1880,164 @@
     }
    ],
    "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40908/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "MASS 2026 - Muestra de cine español de los festivales de Málaga y San Sebastián",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9710",
+   "url": "https://cinemateca.org.uy/peliculas/9710",
+   "titulo": "Jaleos",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Isaki Lacuesta. Una película documental a partir de materiales de archivo y relatos contados por distintas voces, de forma polifónica, que demuestra que el flamenco siempre ha estado conectado a lo más moderno y lo más antiguo a la vez, conectado a lo popular en el sentido más amplio de la…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T18:20:00-03:00",
+     "fin": "2026-12-02T19:38:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9710",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40911/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "MASS 2026 - Muestra de cine español de los festivales de Málaga y San Sebastián",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9708",
+   "url": "https://cinemateca.org.uy/peliculas/9708",
+   "titulo": "Iván & Hadoum",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Ian de la Rosa.",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T21:30:00-03:00",
+     "fin": "2026-12-02T23:10:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9708",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40909/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],

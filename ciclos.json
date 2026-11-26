@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-25T17:44:30.161328-03:00",
- "cantidad": 22,
+ "generado": "2026-11-26T00:51:46.118819-03:00",
+ "cantidad": 24,
  "ciclos": [
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
    "lugar_id": null,
-   "desde": "2026-11-25T16:00:00-03:00",
+   "desde": "2026-11-26T10:00:00-03:00",
    "hasta": "2026-12-11T16:00:00-03:00",
    "cantidad": 7
   },
@@ -14,17 +14,9 @@
    "id": "ciclo-las-mujeres-de-hitchcock",
    "titulo": "Las mujeres de Hitchcock",
    "lugar_id": "cinemateca",
-   "desde": "2026-11-25T17:00:00-03:00",
+   "desde": "2026-11-26T17:00:00-03:00",
    "hasta": "2026-11-28T18:05:00-03:00",
-   "cantidad": 4
-  },
-  {
-   "id": "ciclo-cine-uruguayo-diez-anos",
-   "titulo": "Cine uruguayo diez años",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-25T19:30:00-03:00",
-   "hasta": "2026-11-28T20:10:00-03:00",
-   "cantidad": 4
+   "cantidad": 3
   },
   {
    "id": "ciclo-noche-de-los-cafes-y-bares-notables-2026",
@@ -33,6 +25,14 @@
    "desde": "2026-11-26T18:00:00-03:00",
    "hasta": "2026-11-26T23:00:00-03:00",
    "cantidad": 17
+  },
+  {
+   "id": "ciclo-cine-uruguayo-diez-anos",
+   "titulo": "Cine uruguayo diez años",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-26T19:30:00-03:00",
+   "hasta": "2026-11-28T20:10:00-03:00",
+   "cantidad": 3
   },
   {
    "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
@@ -75,12 +75,20 @@
    "cantidad": 6
   },
   {
+   "id": "ciclo-dia-del-cine-chileno-la-batalla-de-chile",
+   "titulo": "Día del cine chileno - la batalla de Chile",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-29T15:35:00-03:00",
+   "hasta": "2026-11-29T19:45:00-03:00",
+   "cantidad": 3
+  },
+  {
    "id": "ciclo-mass-2026-muestra-de-cine-espanol-de-los-festivales-de-malaga-y-san-sebastian",
    "titulo": "MASS 2026 - Muestra de cine español de los festivales de Málaga y San Sebastián",
    "lugar_id": "cinemateca",
    "desde": "2026-11-30T20:30:00-03:00",
-   "hasta": "2026-12-01T20:30:00-03:00",
-   "cantidad": 4
+   "hasta": "2026-12-02T21:30:00-03:00",
+   "cantidad": 6
   },
   {
    "id": "ciclo-actividades-en-el-parque-maua",
@@ -127,8 +135,8 @@
    "titulo": "Ciclo de Cine",
    "lugar_id": "museo-nacional-de-artes-visuales",
    "desde": "2026-12-11T17:00:00-03:00",
-   "hasta": "2026-12-11T17:00:00-03:00",
-   "cantidad": 1
+   "hasta": "2027-01-29T18:00:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-sabados-en-ciudad-vieja",
@@ -177,6 +185,14 @@
    "desde": "2027-03-12T19:00:00-03:00",
    "hasta": "2027-04-17T21:00:00-03:00",
    "cantidad": 3
+  },
+  {
+   "id": "ciclo-ciclo-de-cine-para-infancias-y-adolescencias-en-el-auditorio",
+   "titulo": "Ciclo de Cine para Infancias y Adolescencias en el Auditorio",
+   "lugar_id": "museo-nacional-de-artes-visuales",
+   "desde": "2027-06-30T16:00:00-03:00",
+   "hasta": "2027-06-30T16:00:00-03:00",
+   "cantidad": 1
   }
  ]
 }

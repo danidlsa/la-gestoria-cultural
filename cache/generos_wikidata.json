@@ -2634,6 +2634,36 @@
 "id": null,
 "generos": [],
 "fecha": "2026-11-25T20:44:32.753373"
+},
+"el catering y rostro": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-26T03:51:47.901827"
+},
+"el catering": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-26T03:51:48.282441"
+},
+"adrmusicians live": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-26T03:51:48.687368"
+},
+"no hay vacante": {
+"id": null,
+"generos": [],
+"fecha": "2026-11-26T03:51:49.103009"
+},
+"barderos": {
+"id": "Q114633636",
+"generos": [
+"Q6010",
+"Q11401",
+"Q529742",
+"Q2913982"
+],
+"fecha": "2026-11-26T03:51:50.275717"
 }
 },
 "generos": {
@@ -2713,6 +2743,8 @@
 "Q850412": "R&B contemporáneo",
 "Q131272": "soul",
 "Q8341": "jazz",
-"Q6010": "rapear"
+"Q6010": "rapear",
+"Q11401": "hip-hop",
+"Q529742": "boom bap"
 }
 }

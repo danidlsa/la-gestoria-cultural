@@ -1,8 +1,8 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-25T17:42:15.894373-03:00",
+ "corrida": "2026-11-26T00:50:31.536704-03:00",
  "ok": true,
- "cantidad": 15,
+ "cantidad": 16,
  "errores": [],
  "eventos": [
   {
@@ -391,6 +391,54 @@
   },
   {
    "fuente": "tikzet",
+   "id_externo": "c2752d1f-0de1-431d-afd2-a45f6e465efb",
+   "url": "https://www.tikzet.com/events/por-ahora-en-vivo",
+   "titulo": "Por Ahora en Vivo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Después de dos años de búsqueda y composición, Por Ahora abre las puertas de su universo musical para compartir un repertorio de canciones originales e inéditas. Entre el rock progresivo, el ambient, la experimentación y la poesía canción, Por Ahora construye un lenguaje propio, donde se encuentran…",
+   "lugar": {
+    "nombre": "El Chamuyo",
+    "direccion": "25 de mayo 591",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T21:00:00-03:00",
+     "fin": "2026-12-05T03:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 200.0,
+    "hasta": 200.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/por-ahora-en-vivo",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fb835848a-b268-497d-bdd2-9a36d641979f.original",
+   "productor": "El Chamuyo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
    "id_externo": "b23cec88-7737-4c84-aeeb-3d9edb1958ad",
    "url": "https://www.tikzet.com/events/lia-almada-trio-florencia-cabezudo-sexteto",
    "titulo": "Lía Almada Trío + Florencia Cabezudo Sexteto",
@@ -487,54 +535,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "ab487087-b2b8-41d2-902e-71467f67c7ca",
-   "url": "https://www.tikzet.com/events/acampo-reggae-festival",
-   "titulo": "Acampo Reggae Festival",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Acampo Reggae es mucho más que un festival: es un espacio de encuentro para espíritus libres, sin prejuicios, unidos por la música y el deseo de compartir. Creemos en valores como la unidad, la paz, el amor, la cultura, las artes, el respeto por el medio ambiente y la libertad de ser quienes somos…",
-   "lugar": {
-    "nombre": "ACAMPOREGGAE FESTIVAL",
-    "direccion": "La Vieja Escuela, Oceanía del Polonio",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-05T14:00:00-03:00",
-     "fin": "2026-12-06T20:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 800.0,
-    "hasta": 800.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/acampo-reggae-festival",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fe5c4bd28-3f61-4e03-9030-1b89d516597d.original",
-   "productor": "ACAMPOREGGAE FESTIVAL",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "7260eff8-a701-41cf-9e5e-e8dabc49b9b4",
    "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
    "titulo": "El Jardín y Seba Codoni",
@@ -574,6 +574,54 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F25622e80-e502-4aa5-860c-ee33c453f1de.original",
    "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "ab487087-b2b8-41d2-902e-71467f67c7ca",
+   "url": "https://www.tikzet.com/events/acampo-reggae-festival",
+   "titulo": "Acampo Reggae Festival",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Acampo Reggae es mucho más que un festival: es un espacio de encuentro para espíritus libres, sin prejuicios, unidos por la música y el deseo de compartir. Creemos en valores como la unidad, la paz, el amor, la cultura, las artes, el respeto por el medio ambiente y la libertad de ser quienes somos…",
+   "lugar": {
+    "nombre": "ACAMPOREGGAE FESTIVAL",
+    "direccion": "La Vieja Escuela, Oceanía del Polonio",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T14:00:00-03:00",
+     "fin": "2026-12-06T20:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 800.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/acampo-reggae-festival",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fe5c4bd28-3f61-4e03-9030-1b89d516597d.original",
+   "productor": "ACAMPOREGGAE FESTIVAL",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

@@ -1,8 +1,8 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-25T17:39:21.915213-03:00",
+ "corrida": "2026-11-26T00:47:44.947475-03:00",
  "ok": true,
- "cantidad": 21,
+ "cantidad": 24,
  "errores": [],
  "eventos": [
   {
@@ -23,13 +23,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-25T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-26T00:00:00-03:00",
      "fin": null,
@@ -445,6 +438,13 @@
     },
     {
      "inicio": "2027-01-24T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-25T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -492,13 +492,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-25T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-26T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -913,6 +906,13 @@
     },
     {
      "inicio": "2027-01-24T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-25T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -960,13 +960,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-25T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-26T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1381,6 +1374,13 @@
     },
     {
      "inicio": "2027-01-24T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-25T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1832,6 +1832,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -2279,6 +2286,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -2537,7 +2551,7 @@
    },
    "funciones": [
     {
-     "inicio": "2026-12-02T18:00:00-03:00",
+     "inicio": "2026-12-02T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -2778,8 +2792,8 @@
   },
   {
    "fuente": "mnav",
-   "id_externo": "grpuodelecturascriticas2026",
-   "url": "https://mnav.gub.uy/cms.php?id=grpuodelecturascriticas2026",
+   "id_externo": "grupodelecturascriticas2026",
+   "url": "https://mnav.gub.uy/cms.php?id=grupodelecturascriticas2026",
    "titulo": "Grupo de Lecturas Críticas MNAV 2026",
    "categoria": "charla",
    "categoria_segura": false,
@@ -2805,12 +2819,12 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://mnav.gub.uy/cms.php?id=grpuodelecturascriticas2026",
+     "url": "https://mnav.gub.uy/cms.php?id=grupodelecturascriticas2026",
      "via": "mnav"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=grpuodelecturascriticas2026",
+   "imagen_url": "https://mnav.gub.uy/img.php?p=grupodelecturascriticas2026",
    "productor": "Museo Nacional de Artes Visuales",
    "region": "montevideo",
    "enlaces": [],
@@ -2907,6 +2921,49 @@
   },
   {
    "fuente": "mnav",
+   "id_externo": "ciclodecine2027",
+   "url": "https://mnav.gub.uy/cms.php?id=ciclodecine2027",
+   "titulo": "Ciclo de Cine: Ese soplo",
+   "categoria": "cine",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales",
+    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+    "lat": -34.91384,
+    "lon": -56.16497,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-01-29T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mnav.gub.uy/cms.php?id=ciclodecine2027",
+     "via": "mnav"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://mnav.gub.uy/img.php?p=ciclodecine2027",
+   "productor": "Museo Nacional de Artes Visuales",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mnav",
    "id_externo": "tvciudad",
    "url": "https://mnav.gub.uy/cms.php?id=tvciudad",
    "titulo": "Artistas en sus propias Palabras: Archivo TV Ciudad II",
@@ -2983,6 +3040,92 @@
    ],
    "beneficios": [],
    "imagen_url": "https://mnav.gub.uy/img.php?p=poloni2027",
+   "productor": "Museo Nacional de Artes Visuales",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mnav",
+   "id_externo": "aristaenresidencia02",
+   "url": "https://mnav.gub.uy/cms.php?id=aristaenresidencia02",
+   "titulo": "Pinkie Battione - Artista en residencia Auditorio 02",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales",
+    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+    "lat": -34.91384,
+    "lon": -56.16497,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-04-27T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mnav.gub.uy/cms.php?id=aristaenresidencia02",
+     "via": "mnav"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://mnav.gub.uy/img.php?p=aristaenresidencia02",
+   "productor": "Museo Nacional de Artes Visuales",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mnav",
+   "id_externo": "cinejulio2027",
+   "url": "https://mnav.gub.uy/cms.php?id=cinejulio2027",
+   "titulo": "Ciclo de Cine para Infancias y Adolescencias en el Auditorio",
+   "categoria": "cine",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales",
+    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+    "lat": -34.91384,
+    "lon": -56.16497,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-06-30T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mnav.gub.uy/cms.php?id=cinejulio2027",
+     "via": "mnav"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://mnav.gub.uy/img.php?p=cinejulio2027",
    "productor": "Museo Nacional de Artes Visuales",
    "region": "montevideo",
    "enlaces": [],

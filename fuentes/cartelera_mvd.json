@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-25T17:35:03.599738-03:00",
+ "corrida": "2026-11-26T00:43:25.651358-03:00",
  "ok": true,
- "cantidad": 76,
+ "cantidad": 74,
  "errores": [],
  "eventos": [
   {
@@ -2223,65 +2223,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34286",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34286",
-   "titulo": "Festival de Dramaturgia Emergente – Toda la ternura del mundo",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Elisa entierra a su padre y su amiga Cristina llega para acompañarla tras diez años sin verse. La amistad se vuelve un espacio de disputa, de espejo y de sostén, donde lo que está en juego no es solo el pasado que las une, sino la posibilidad de construir, una forma de estar juntas en el presente…",
-   "lugar": {
-    "nombre": "El Galpón - Sala Cero",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 650.0,
-    "hasta": 1200.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34286",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular y El Galpón libre con cupo limitado",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34286"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34286"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42384.jpg",
-   "productor": "Leticia Magallanes",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "35024",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35024",
    "titulo": "Gabriel Rolón: Palabra Plena",
@@ -3488,13 +3429,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-26T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -3704,13 +3638,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-26T20:00:00-03:00",
      "fin": null,
@@ -4009,54 +3936,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41997.jpg",
    "productor": "Mavi Pouso",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34752",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34752",
-   "titulo": "Patotera",
-   "categoria": "humor",
-   "categoria_segura": true,
-   "descripcion_corta": "Después de casi 7 meses en aislamiento, y sobrevivir a una convivencia tan loca cómo divertida, Yipio vuelve al escenario con su nuevo show de Stand Up: Patotera , en el que va a contar todos los detalles de su pasaje por el reality. Fiel a su estilo, con sus ocurrencias y esa forma divertida de…",
-   "lugar": {
-    "nombre": "Sala Teatro Movie",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 750.0,
-    "hasta": 950.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34752",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42049.jpg",
-   "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

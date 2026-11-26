@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-25T17:33:39.160585-03:00",
+ "corrida": "2026-11-26T00:42:01.464671-03:00",
  "ok": true,
- "cantidad": 39,
+ "cantidad": 37,
  "errores": [],
  "eventos": [
   {
@@ -346,96 +346,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/inicio/espectaculo/40021691/espectaculo/Otros%20Indios%20presenta%20HOMENAJE?10"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13497",
-   "url": "https://sodre.gub.uy/espectaculos/tramas-852/",
-   "titulo": "Tramas 852",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Propone un recorrido por músicas, tiempos y sensibilidades que, al encontrarse, revelan nuevas conexiones",
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": "2026-11-25T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Tramas-852_Adaptaciones_destacado-768x420.png",
-   "productor": "Coro Nacional Juvenil del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13532",
-   "url": "https://sodre.gub.uy/espectaculos/cielos-de-plomo-tierra-escondida/",
-   "titulo": "Cielos de plomo. Tierra escondida",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La banda celebra el lanzamiento de su nuevo álbum en una presentación especial en formato extendido",
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": "2026-11-25T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/DESTACADO-900x492_CIELOS_DE_PLOMO-1-768x420.png",
-   "productor": "Espectáculos del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -1052,13 +962,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": "2026-11-25T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-26T20:00:00-03:00",
      "fin": "2026-11-26T22:00:00-03:00",

@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-25T17:42:39.789658-03:00",
+ "corrida": "2026-11-26T00:50:56.361140-03:00",
  "ok": true,
- "cantidad": 52,
+ "cantidad": 46,
  "errores": [],
  "eventos": [
   {
@@ -73,54 +73,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "centroculturalterminalgoes-20261103",
-   "url": "https://www.instagram.com/p/DfSSI5DFIG9/",
-   "titulo": "Centro Cultural Terminal Goes: Festival Internacional Atlantidoc",
-   "categoria": "cine",
-   "categoria_segura": false,
-   "descripcion_corta": "Festival Internacional Atlantidoc | Ciclo de cine Deslizá para conocer las propuestas para este mes Todos los miércoles | 19 horas Centro Cultural Terminal Goes Entrada libre y gratuita atlantidoc.uy mvdaudiovisual Festival Internacional Atlantidoc | Ciclo de cine Con los brazos abiertos Con los…",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": "Gral. Flores y Domingo Aramburú",
-    "lat": -34.882708,
-    "lon": -56.181856,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": "centroculturalterminalgoes"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfSSI5DFIG9/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/93e5b66a9033.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "facmvd-20261107",
    "url": "https://www.instagram.com/p/De_5SnwlghR/",
    "titulo": "FAC: 2.ª edición del TALLER DE SEMIÓTICA",
@@ -154,54 +106,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8b41c3bdd72f.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261111",
-   "url": "https://www.instagram.com/p/Df98bANoMSs/",
-   "titulo": "Centro Cultural de España: Beethoven 199",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Beethoven 199! La música de cámara llega al CCE. En el camino hacia el bicentenario del fallecimiento de Ludwig van Beethoven, que se conmemora en 2027, te invitamos a disfrutar de una nueva presentación de este ciclo dedicado a su extraordinario legado musical. En esta edición, jóvenes talentos…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": [],
-    "instagram": "ccemontevideo"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df98bANoMSs/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/db13f0afa4cb.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -324,194 +228,6 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "el.mingus-20261125",
-   "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
-   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Red Hot Chili Peppers en Jazz",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Miércoles 25 de Noviembre: Red Hot Chili Peppers en Jazz",
-   "lugar": {
-    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/d59c6972b910.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "fotocluburuguayo-20261125",
-   "url": "https://www.instagram.com/p/DgFoTj4RzWu/",
-   "titulo": "Foto Club Uruguayo: Laranjal, el reflejo de las márgenes",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": "Laranjal, el reflejo de las márgenes Este miércoles inauguramos la muestra fotográfica de Felipe Campal en el Muro de prácticas expositivas de La Cretina, junto a la presentación del audiovisual Reflexos Submersos. Miércoles 25/11 19:30 h La Cretina – Soriano 1236 Entrada libre ¡Lxs esperamos!…",
-   "lugar": {
-    "nombre": "La Cretina",
-    "direccion": "Soriano 1236",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DgFoTj4RzWu/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/550837602192.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "barlarondacafe-20261125",
-   "url": "https://www.instagram.com/reel/DgJWCasgHbh/",
-   "titulo": "La Ronda: Noches De Ensayos Abiertos · El Jardín",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Esto fue NDEA el pasado miércoles con magelaferrero Mañana los esperamos con una nueva edición de NDEA con eljardiin_ en vivo Musicaliza _wandixx_ 20h Ciudadela 1182",
-   "lugar": {
-    "nombre": "La Ronda",
-    "direccion": "Ciudadela 1182",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": "barlarondacafe"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/reel/DgJWCasgHbh/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/4e8b56bf4a49.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "jazzclub.uy-20261125",
-   "url": "https://www.instagram.com/p/Df71LgLzaHv/",
-   "titulo": "Jazz Club: VUELVE EL MÁS LINDO · Y ATENDEME ESTA FECHAZA ABSOLUTA",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "ESTE MIÉRCOLES VUELVE EL MÁS LINDO Y ATENDEME ESTA FECHAZA ABSOLUTA jazzclub.uy jazzclub.uy jazzclub.uy GRATIS GRATIS GRATISSSSSSSS . Recién llegado de LA, recibimos a franciscofattoruso y a cirogamallo desde Laaargentina. ottonello.musica como siempre en los tamborcitos. En los vinilos como…",
-   "lugar": {
-    "nombre": "Bluzz Bar",
-    "direccion": "Canelones 760",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df71LgLzaHv/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/a383deb164cd.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
    "muestra": false,
    "hasta": null
   },
@@ -658,11 +374,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "clubculturalcharco-20261126",
-   "url": "https://www.instagram.com/reel/DgJckFRhhus/",
+   "url": "https://www.instagram.com/p/DgL4Q-5lZd0/",
    "titulo": "Club Cultural Charco: Mary Oliver, documental y conversatorio",
    "categoria": "cine",
    "categoria_segura": false,
-   "descripcion_corta": "Nos desplazamos hacia una tierra de amor, barro y magia pagana. Escuchamos las crónicas del taller de azulcordo y fuimos abanicadas con toda la potencia de rolumero. Gracias a destileriacapicua por abrir las puertas de su casa. ¡Siguen los festejos por nuestros 5 años! PRÓXIMA PARADA: Jueves 26.11…",
+   "descripcion_corta": "Viernes 26 de noviembre, 20.30 h Brindamos con Gin de destileriacapicua Entrada libre, sin reserva.",
    "lugar": {
     "nombre": "Cine Universitario del Uruguay",
     "direccion": "Canelones 1280",
@@ -674,17 +390,22 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T18:30:00-03:00",
+     "inicio": "2026-11-26T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
    "entradas": [
     {
-     "url": "https://www.instagram.com/reel/DgJckFRhhus/",
+     "url": "https://www.instagram.com/p/DgL4Q-5lZd0/",
      "via": "instagram"
     }
    ],
@@ -894,11 +615,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "clubculturalcharco-20261127",
-   "url": "https://www.instagram.com/p/Dfms2HQldPq/",
+   "url": "https://www.instagram.com/p/DgL4Q-5lZd0/",
    "titulo": "Club Cultural Charco: pianobar con leandroaq",
-   "categoria": "musica",
+   "categoria": "fiesta",
    "categoria_segura": false,
-   "descripcion_corta": "Vie 27.11 20:30 — Pianobar con leandroaq en Charco. Una noche para reunirse alrededor del piano, pedir canciones y cantarlas a todo pulmón. Entrada libre. Gracias a Mauricio Cheguhem, María Eugenia Meneses, Facultad de Información y Comunicación de la Universidad de la República…",
+   "descripcion_corta": "Nos vemos y nos cantamos este viernes 27 a partir de las 20.30 h. Será una gran fiesta. Queremos verte acá para seguir celebrando exactamente esta vida Pianoman: leandroaq Maldonado 1477, Montevideo.",
    "lugar": {
     "nombre": "Club Cultural Charco",
     "direccion": "Maldonado 1477",
@@ -917,15 +638,10 @@
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
+   "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/Dfms2HQldPq/",
+     "url": "https://www.instagram.com/p/DgL4Q-5lZd0/",
      "via": "instagram"
     }
    ],

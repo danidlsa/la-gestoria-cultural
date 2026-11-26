@@ -1,552 +1,10 @@
 {
  "fuente": "corchea",
- "corrida": "2026-11-18T00:08:08.710751-03:00",
+ "corrida": "2026-11-26T00:50:22.972364-03:00",
  "ok": true,
- "cantidad": 29,
+ "cantidad": 21,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "corchea",
-   "id_externo": "25334",
-   "url": "https://corchea.uy/19-11-rodra/",
-   "titulo": "Rodra",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Este 19 de noviembre en Sala Rondeau, Rodra presenta cosas que no mueren: su segundo álbum de estudio luego de 6 años de su último disco. Regresa uniendo todas sus partes fusionando: el rock, el pop, la electrónica, el jazz, la canción de autor y a la vez de nada de eso. Un disco atravesado por una…",
-   "lugar": {
-    "nombre": "Sala Rondeau",
-    "direccion": "Av Gral Rondeau 1904",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-19T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/RODRA-presenta-Cosas-que-no-Mueren/32627/",
-     "via": "redtickets"
-    },
-    {
-     "url": "https://corchea.uy/19-11-rodra/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "25076",
-   "url": "https://corchea.uy/20-11-la-gramillera/",
-   "titulo": "La Gramillera",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La Gramillera propone un espectáculo de música uruguaya y latinoamericana innovador con arreglos originales para septeto de cuerdas. Ritmos como el candombe, la marcha camión, el forró, la milonga se combinan con la improvisación y con la recreación de melodías de nuestra cultura musical para…",
-   "lugar": {
-    "nombre": "Sala Corchea",
-    "direccion": "Soriano 1243",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 590.0,
-    "hasta": 590.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://entradasfans.com/la-gramillera-en-sala-corchea/",
-     "via": "entradasfans"
-    },
-    {
-     "url": "https://corchea.uy/20-11-la-gramillera/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "24928",
-   "url": "https://corchea.uy/20-11-nordeste-y-chernobyl/",
-   "titulo": "Nordeste y Chernobyl",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Nordeste y Chernobyl presentan VIVO2026. Dos bandas de rock con años de trayectoria en la escena under. Temas de los discos de ambas bandas y temas nuevos.Rock en contacto con otras músicas de aca y el mundo. Barrial y contemporáneo. ATP Duración: 120 min. Edad máxima (inclusive) con acceso…",
-   "lugar": {
-    "nombre": "Sala Jorge Lazaroff",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 250.0,
-    "hasta": 250.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021764/nordeste-y-chernobyl",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://corchea.uy/20-11-nordeste-y-chernobyl/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "24925",
-   "url": "https://corchea.uy/20-11-nina-lobo/",
-   "titulo": "Niña Lobo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Edad máxima con acceso gratuito permitido: 5",
-   "lugar": {
-    "nombre": "Centro Cultural Florencio Sánchez",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021726/nina-lobo",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://corchea.uy/20-11-nina-lobo/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "24134",
-   "url": "https://corchea.uy/20-11-ascenso/",
-   "titulo": "Ascenso",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Show musical de cumbia romántica de alrededor de 90 minutos, con un telonero incluido en ese tiempo y artistas invitados.",
-   "lugar": {
-    "nombre": "Centro Cultural Terminal Goes",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-20T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021309/espectaculo/Ascenso?1",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://corchea.uy/20-11-ascenso/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "25331",
-   "url": "https://corchea.uy/21-11-buenos-muchachos/",
-   "titulo": "Buenos Muchachos",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "En cualquier momento. En algún lugar. En ningún caso. En las nubes. En abstracto. En alerta. En sueños. En vano. En definitiva. En absoluto. En concreto. En peligro. En soledad. En banda. En sentido opuesto. En secreto. En confianza. En común. En la espera. En realidad… El año termina como empezó…",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021134/buenos-muchachos",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://corchea.uy/21-11-buenos-muchachos/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "25223",
-   "url": "https://corchea.uy/21-11-nahual-y-tunda-prada/",
-   "titulo": "Nahual y Tunda Prada",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "FLORENCIO CENTRO MUSICAL presenta una noche de encuentro con dos referentes de la canción y la creación artística: Nahual y Tunda Prada. Nahual propone un recorrido íntimo por sus canciones y composiciones originales, forjadas a lo largo de más de dos décadas de trayectoria. Por su parte, Tunda…",
-   "lugar": {
-    "nombre": "Centro Cultural Florencio Sánchez",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021786/nahual-y-tunda-prada",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://corchea.uy/21-11-nahual-y-tunda-prada/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "25079",
-   "url": "https://corchea.uy/21-11-zafiro-vocal/",
-   "titulo": "Zafiro Vocal",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Zafiro Vocal es un coro de voces femeninas que nace en el año 2015 bajo la dirección del músico, compositor y arreglador musical Wilmer Márquez. El repertorio aborda los géneros de Rock y Pop en habla hispana priorizando a la canción en sí misma a través de singulares versiones corales polifónicas…",
-   "lugar": {
-    "nombre": "Sala Corchea",
-    "direccion": "Soriano 1243",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-21T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 590.0,
-    "hasta": 590.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://entradasfans.com/Zafiro-Vocal---Intimo---Cada-cancion-es-una-experiencia/",
-     "via": "entradasfans"
-    },
-    {
-     "url": "https://corchea.uy/21-11-zafiro-vocal/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "25082",
-   "url": "https://corchea.uy/22-11-andres-mendiondo/",
-   "titulo": "Andrés Mendiondo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Andrés Mendiondo ESTA NOCHE NO SE QUEJA es un espectáculo SOLISTA de canciones propias, en un formato de trío semi acústico, donde confluyen la canción de autor, la música popular uruguaya y elementos del rock y el pop. Las obras abordan temáticas como memoria, identidad y v​ínculo entre…",
-   "lugar": {
-    "nombre": "Sala Corchea",
-    "direccion": "Soriano 1243",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-22T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 590.0,
-    "hasta": 590.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://entradasfans.com/Andres-Mendiondo-esta-noche-no-se-queja/",
-     "via": "entradasfans"
-    },
-    {
-     "url": "https://corchea.uy/22-11-andres-mendiondo/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "24935",
-   "url": "https://corchea.uy/24-11-sofia-alvez-animales-de-poder/",
-   "titulo": "Sofía Alvez + Animales de Poder",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Lo mínimo no es lo irrelevante: es lo que articula, lo que vincula, lo que sostiene una relación invisible entre las partes. Cada artista que integra este ciclo, sea el más convocante o el más nuevo, es una partícula: cumple la misma función estructural, sostiene el ciclo no por su nombre sino por…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-24T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 800.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://corchea.uy/24-11-sofia-alvez-animales-de-poder/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "corchea",
-   "id_externo": "25100",
-   "url": "https://corchea.uy/25-11-cielos-de-plomo/",
-   "titulo": "Cielos de Plomo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La banda Cielos de plomo celebra el lanzamiento de su nuevo álbum Tierra escondida en una presentación especial en formato extendido. Tierra escondida es el tercer lanzamiento de la banda, siguiendo a Entre luces (2020). En esta ocasión se presentan en vivo en un formato extendido con la…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": []
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 550.0,
-    "hasta": 550.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
-     "via": "tickantel"
-    },
-    {
-     "url": "https://corchea.uy/25-11-cielos-de-plomo/",
-     "via": "corchea"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "corchea",
    "id_externo": "25085",
@@ -561,7 +19,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -612,7 +71,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -663,7 +123,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -709,7 +170,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -760,7 +222,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -811,7 +274,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -862,7 +326,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -913,7 +378,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -959,7 +425,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1006,7 +473,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1057,7 +525,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1096,6 +565,58 @@
   },
   {
    "fuente": "corchea",
+   "id_externo": "25392",
+   "url": "https://corchea.uy/05-12-el-catering-y-rostro/",
+   "titulo": "El Catering y Rostro",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "El Catering está buscando en estos momentos el camino para establecer a la banda en el mercado y expandir su circuito de fechas, donde la presencia digital, el rodaje nacional y la proyección internacional se alimentan entre sí de forma orgánica.",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 590.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/El-Catering-y-Rostro-en-Sala-Corchea/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/05-12-el-catering-y-rostro/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
    "id_externo": "25325",
    "url": "https://corchea.uy/11-12-origen-y-destino/",
    "titulo": "Origen y Destino",
@@ -1108,7 +629,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1159,7 +681,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1210,7 +733,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1261,7 +785,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1307,7 +832,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1358,7 +884,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1409,7 +936,8 @@
     "lat": null,
     "lon": null,
     "barrio": null,
-    "alternativas": []
+    "alternativas": [],
+    "instagram": null
    },
    "funciones": [
     {
@@ -1433,6 +961,110 @@
     },
     {
      "url": "https://corchea.uy/16-12-mujeres-al-tango-presenta-a-manuela-hernandez/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25395",
+   "url": "https://corchea.uy/17-12-adrmusicians-live/",
+   "titulo": "ADRmusicians Live",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La comunidad de músicos ADR se reúne para despedir el año con clásicos de la música.",
+   "lugar": {
+    "nombre": "Sala Corchea",
+    "direccion": "Soriano 1243",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-17T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 590.0,
+    "hasta": 590.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://entradasfans.com/ADRmusicians-Live/",
+     "via": "entradasfans"
+    },
+    {
+     "url": "https://corchea.uy/17-12-adrmusicians-live/",
+     "via": "corchea"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "corchea",
+   "id_externo": "25398",
+   "url": "https://corchea.uy/20-12-lubola-banda/",
+   "titulo": "Lubola Banda",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Lubola Banda celebra sus 25 años de trayectoria con un espectáculo imperdible, lleno de energía y Candombe Fusión. El próximo 20 de diciembre a las 20:00 hs en la Sala Zitarrosa; El grupo recorrerá las canciones más emblemáticas de su historia, con versiones renovadas y la participación especial de…",
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-20T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021996/lubola-banda-gira-25-aniversario",
+     "via": "tickantel"
+    },
+    {
+     "url": "https://corchea.uy/20-12-lubola-banda/",
      "via": "corchea"
     }
    ],

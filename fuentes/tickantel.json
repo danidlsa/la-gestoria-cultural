@@ -1,220 +1,13 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-25T17:30:00.351629-03:00",
+ "corrida": "2026-11-26T00:38:21.742964-03:00",
  "ok": true,
- "cantidad": 95,
+ "cantidad": 93,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
   "https://tickantel.com.uy/ng/espectaculo/40021784/la-trampa: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-LaTrampa?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021658",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021658/mi-amiga-fantasma",
-   "titulo": "Mi amiga fantasma",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Camila hace 20 años invocó una fantasma y con el tiempo se volvió su mejor amiga. La fantasma no crece, pero ella sí fue creciendo. Ahora Camila siente que tiene que soltarla para ser adulta, pero no entiende bien qué es ser adulta y conversando con la fantasma se entrevera. Camila aprendió un…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-26T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021658/mi-amiga-fantasma",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021658/BANNER_MI_AMIGA_FANTASMA.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021939",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa",
-   "titulo": "Música de regreso a casa",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "‘’Hay noches que no sé si soy yo la que maneja el auto, o si es el auto que me maneja a mí.'' Viernes de noche. Una mujer avisa a su familia que ya salió de la oficina. En unos minutos estará ahí para preparar la cena. Enciende la radio. Nunca llegará a casa. Prendida al volante, la protagonista de…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-26T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021939/BannerNuevo.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021781",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
-   "titulo": "Cielos de plomo. Tierra escondida",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La banda Cielos de plomo celebra el lanzamiento de su nuevo álbum Tierra escondida en una presentación especial en formato extendido. Tierra escondida es el tercer lanzamiento de la banda, siguiendo a Entre luces (2020). En esta ocasión se presentan en vivo en un formato extendido con la…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021781/cielos-de-plomo-tierra-escondida",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021781/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020172",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
-   "titulo": "CNNS – Tramas 852",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Propone un recorrido por músicas, tiempos y sensibilidades que, al encontrarse, revelan nuevas conexiones Un entramado de historias, emociones y resonancias en el que las voces del coro enlazan universos diversos, desde obras profundamente significativas para su identidad hasta la música de Alfredo…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020172/cnns-tramas-852",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020172/Tramas_852_Adaptaciones_banner.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40022020",
@@ -370,6 +163,49 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40021658",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021658/mi-amiga-fantasma",
+   "titulo": "Mi amiga fantasma",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Camila hace 20 años invocó una fantasma y con el tiempo se volvió su mejor amiga. La fantasma no crece, pero ella sí fue creciendo. Ahora Camila siente que tiene que soltarla para ser adulta, pero no entiende bien qué es ser adulta y conversando con la fantasma se entrevera. Camila aprendió un…",
+   "lugar": {
+    "nombre": "Sala Verdi",
+    "direccion": null,
+    "lat": -34.90821430964771,
+    "lon": -56.196500823734254,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021658/mi-amiga-fantasma",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021658/BANNER_MI_AMIGA_FANTASMA.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021682",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021682/tmc-cuadros-tangueros",
    "titulo": "TMC: Cuadros tangueros",
@@ -408,6 +244,70 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021682/Nov,_26_-_Adaptaciones_CUADROS_TANGUEROS_tickantel.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021939",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa",
+   "titulo": "Música de regreso a casa",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "‘’Hay noches que no sé si soy yo la que maneja el auto, o si es el auto que me maneja a mí.'' Viernes de noche. Una mujer avisa a su familia que ya salió de la oficina. En unos minutos estará ahí para preparar la cena. Enciende la radio. Nunca llegará a casa. Prendida al volante, la protagonista de…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-26T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-27T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021939/BannerNuevo.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -3873,6 +3773,49 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40020161",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40020161/cns-concierto-de-navidad",
+   "titulo": "CNS - Concierto de Navidad",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "CNS - Concierto de Navidad Edad máxima (inclusive) con acceso gratuito permitido: 3 años. Este espectáculo cuenta con dispositivo de hipoacusia, disponibles en la recepción del Auditorio.",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-23T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40020161/cns-concierto-de-navidad",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020161/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021906",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021906/el-duo-de-la-africana",
    "titulo": "El dúo de \"La Africana\"",
@@ -3934,49 +3877,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021906/Tickantel_Funciones.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40020161",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40020161/cns-concierto-de-navidad",
-   "titulo": "CNS - Concierto de Navidad",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "CNS - Concierto de Navidad Edad máxima (inclusive) con acceso gratuito permitido: 3 años. Este espectáculo cuenta con dispositivo de hipoacusia, disponibles en la recepción del Auditorio.",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-23T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40020161/cns-concierto-de-navidad",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020161/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
