@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-26T00:50:56.361140-03:00",
+ "corrida": "2026-11-26T17:33:09.100928-03:00",
  "ok": true,
- "cantidad": 46,
+ "cantidad": 45,
  "errores": [],
  "eventos": [
   {
@@ -233,56 +233,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261125",
-   "url": "https://www.instagram.com/p/DgK0dP4xoLU/",
-   "titulo": "The Shannon: OPEN MIC",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Miércoles 25/Noviembre: OPEN MIC NIGHT - 4ta temporada Bienvenidos al primer Open Mic de Uruguay. Participa, compartí tu arte. Entrada libre 22 hrs",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": "theshannonuy"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-25T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DgK0dP4xoLU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/93c695acfbe7.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "el.mingus-20261126",
    "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
    "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Palabra e Impro",
@@ -374,11 +324,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "clubculturalcharco-20261126",
-   "url": "https://www.instagram.com/p/DgL4Q-5lZd0/",
+   "url": "https://www.instagram.com/p/DgNv4g8BWZd/",
    "titulo": "Club Cultural Charco: Mary Oliver, documental y conversatorio",
    "categoria": "cine",
    "categoria_segura": false,
-   "descripcion_corta": "Viernes 26 de noviembre, 20.30 h Brindamos con Gin de destileriacapicua Entrada libre, sin reserva.",
+   "descripcion_corta": "Hoy cerramos antes, pero tenemos la mejor de las excusas: MARY OLIVER Hasta las 18.00 h te esperamos en Charco con el cafecito de siempre A partir de las 19.00 h nos encontramos en Cine Universitario para la proyección del film Mary Oliver: Saved by the beauty of the world",
    "lugar": {
     "nombre": "Cine Universitario del Uruguay",
     "direccion": "Canelones 1280",
@@ -390,22 +340,17 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T20:30:00-03:00",
+     "inicio": "2026-11-26T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
+   "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DgL4Q-5lZd0/",
+     "url": "https://www.instagram.com/p/DgNv4g8BWZd/",
      "via": "instagram"
     }
    ],

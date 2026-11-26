@@ -1,53 +1,10 @@
 {
  "fuente": "mec_museos",
- "corrida": "2026-11-26T00:47:54.606247-03:00",
+ "corrida": "2026-11-26T17:30:02.280244-03:00",
  "ok": true,
  "cantidad": 5,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "mec_museos",
-   "id_externo": "celebracion-del-dia-nacional-rumania",
-   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/celebracion-del-dia-nacional-rumania",
-   "titulo": "Celebración del Día Nacional de Rumania",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo de Arte Precolombino e Indígena - MAPI",
-    "direccion": "25 de Mayo 279",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T12:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/celebracion-del-dia-nacional-rumania",
-     "via": "mec_museos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Ministerio de Educación y Cultura",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "mec_museos",
    "id_externo": "inauguracion-imagen-invisible",
@@ -207,6 +164,49 @@
    "entradas": [
     {
      "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/inauguracion-del-museo-gran-logia-femenina-del-uruguay",
+     "via": "mec_museos"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": "Ministerio de Educación y Cultura",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mec_museos",
+   "id_externo": "museos-noche",
+   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/museos-noche",
+   "titulo": "Museos en la Noche",
+   "categoria": "exposicion",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Todo el país",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-11T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/museos-noche",
      "via": "mec_museos"
     }
    ],

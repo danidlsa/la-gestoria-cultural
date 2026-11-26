@@ -1,6 +1,6 @@
 {
  "fuente": "cobraticket",
- "corrida": "2026-11-26T00:49:55.281162-03:00",
+ "corrida": "2026-11-26T17:32:07.809403-03:00",
  "ok": true,
  "cantidad": 15,
  "errores": [],
@@ -265,49 +265,6 @@
   },
   {
    "fuente": "cobraticket",
-   "id_externo": "982718",
-   "url": "https://cobraticket.uy/e/all-night-long-982718",
-   "titulo": "ALL NIGHT LONG",
-   "categoria": "fiesta",
-   "categoria_segura": true,
-   "descripcion_corta": "El viernes 4 de diciembre, Santi Domínguez celebra 10 años de carrera con una presentación ALL NIGHT LONG en Lotus Club, Montevideo.",
-   "lugar": {
-    "nombre": "Lotus WTC",
-    "direccion": "Contador Luis E. Lecueder",
-    "lat": -34.9042323,
-    "lon": -56.1360561,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-04T23:59:00-03:00",
-     "fin": "2026-12-05T06:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://cobraticket.uy/e/all-night-long-982718",
-     "via": "cobraticket"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://img.cobraticket.uy/7wkCgUFZgn_bU4j6mX2Vi.jpg",
-   "productor": "Lotus WTC",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cobraticket",
    "id_externo": "317714",
    "url": "https://cobraticket.uy/e/mis-goodbye-party-317714",
    "titulo": "MIS GOODBYE PARTY",
@@ -342,6 +299,49 @@
    "beneficios": [],
    "imagen_url": "https://img.cobraticket.uy/mfre_bE3Hfb2ThQ1jjNnU.jpg",
    "productor": "MIS URUGUAY",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cobraticket",
+   "id_externo": "982718",
+   "url": "https://cobraticket.uy/e/all-night-long-982718",
+   "titulo": "ALL NIGHT LONG",
+   "categoria": "fiesta",
+   "categoria_segura": true,
+   "descripcion_corta": "El viernes 4 de diciembre, Santi Domínguez celebra 10 años de carrera con una presentación ALL NIGHT LONG en Lotus Club, Montevideo.",
+   "lugar": {
+    "nombre": "Lotus WTC",
+    "direccion": "Contador Luis E. Lecueder",
+    "lat": -34.9042323,
+    "lon": -56.1360561,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T23:59:00-03:00",
+     "fin": "2026-12-05T06:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://cobraticket.uy/e/all-night-long-982718",
+     "via": "cobraticket"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://img.cobraticket.uy/7wkCgUFZgn_bU4j6mX2Vi.jpg",
+   "productor": "Lotus WTC",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

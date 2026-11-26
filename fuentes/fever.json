@@ -1,6 +1,6 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-26T00:47:07.797506-03:00",
+ "corrida": "2026-11-26T17:29:16.115702-03:00",
  "ok": true,
  "cantidad": 17,
  "errores": [],
@@ -32,8 +32,8 @@
     }
    ],
    "precio": {
-    "desde": 1150.0,
-    "hasta": 1150.0,
+    "desde": 720.0,
+    "hasta": 720.0,
     "moneda": "UYU",
     "gratis": false
    },
@@ -80,8 +80,8 @@
     }
    ],
    "precio": {
-    "desde": 880.0,
-    "hasta": 880.0,
+    "desde": 770.0,
+    "hasta": 770.0,
     "moneda": "UYU",
     "gratis": false
    },
@@ -272,8 +272,8 @@
     }
    ],
    "precio": {
-    "desde": 960.0,
-    "hasta": 960.0,
+    "desde": 840.0,
+    "hasta": 840.0,
     "moneda": "UYU",
     "gratis": false
    },
@@ -320,8 +320,8 @@
     }
    ],
    "precio": {
-    "desde": 840.0,
-    "hasta": 840.0,
+    "desde": 735.0,
+    "hasta": 735.0,
     "moneda": "UYU",
     "gratis": false
    },
@@ -333,6 +333,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/7c807528-1ab3-11f0-9eff-324ba1e3eb01.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "614864",
+   "url": "https://feverup.com/m/614864",
+   "titulo": "Candlelight: El Señor de los Anillos",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La Comunidad sigue viva a través de la música de la trilogía. En Candlelight: El Señor de los Anillos, un talentoso cuarteto de cuerda da vida a las melodías inolvidables de las películas en el Sofitel Montevideo Casino Carrasco and Spa, rodeado de velas. Una noche dedicada a la música del viaje…",
+   "lugar": {
+    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
+    "direccion": null,
+    "lat": -34.8905846,
+    "lon": -56.0553743,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-19T17:30:00-03:00",
+     "fin": "2027-01-17T20:30:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 776.0,
+    "hasta": 776.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/614864",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/6e89eade-c92d-11f0-ab44-1e339e1eaa9a.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -416,8 +464,8 @@
     }
    ],
    "precio": {
-    "desde": 740.0,
-    "hasta": 740.0,
+    "desde": 647.5,
+    "hasta": 647.5,
     "moneda": "UYU",
     "gratis": false
    },
@@ -429,54 +477,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/a4251344-6861-11f0-90b8-ee5a9ea828c9.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
-   "id_externo": "614864",
-   "url": "https://feverup.com/m/614864",
-   "titulo": "Candlelight: El Señor de los Anillos",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La Comunidad sigue viva a través de la música de la trilogía. En Candlelight: El Señor de los Anillos, un talentoso cuarteto de cuerda da vida a las melodías inolvidables de las películas en el Sofitel Montevideo Casino Carrasco and Spa, rodeado de velas. Una noche dedicada a la música del viaje…",
-   "lugar": {
-    "nombre": "Sofitel Montevideo Casino Carrasco and Spa",
-    "direccion": null,
-    "lat": -34.8905846,
-    "lon": -56.0553743,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-19T17:30:00-03:00",
-     "fin": "2027-01-17T20:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 776.0,
-    "hasta": 776.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/614864",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/6e89eade-c92d-11f0-ab44-1e339e1eaa9a.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -608,8 +608,8 @@
     }
    ],
    "precio": {
-    "desde": 900.0,
-    "hasta": 900.0,
+    "desde": 740.0,
+    "hasta": 740.0,
     "moneda": "UYU",
     "gratis": false
    },

@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-26T00:51:46.118819-03:00",
- "cantidad": 193,
+ "generado": "2026-11-26T17:34:07.568136-03:00",
+ "cantidad": 195,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -71,6 +71,17 @@
    "direccion": "Bv. Gral. Artigas 1271, 11200 Montevideo",
    "lat": -34.905102,
    "lon": -56.164132,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "andromeda-bar-cooperativo",
+   "nombre": "Andrómeda bar Cooperativo",
+   "alias": [],
+   "direccion": "Durazno 902, Convención esq, 11100 Monte",
+   "lat": -34.911047,
+   "lon": -56.196317,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -229,8 +240,8 @@
    "nombre": "Bar Paysandú",
    "alias": [],
    "direccion": "Av. Gral. Rondeau y Paysandú",
-   "lat": -34.9022743,
-   "lon": -56.1919269,
+   "lat": -34.9021371,
+   "lon": -56.1918014,
    "barrio": "Centro",
    "ciudad": "Montevideo",
    "instagram": "paysandu_bar"
@@ -1069,12 +1080,12 @@
    "instagram": null
   },
   {
-   "id": "latu",
-   "nombre": "LATU",
+   "id": "latu-laboratorio-tecnologico-del-uruguay",
+   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
    "alias": [
-    "LATU - Laboratorio Tecnológico del Uruguay"
+    "LATU"
    ],
-   "direccion": "Carrasco, Montevideo",
+   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1284,6 +1295,17 @@
    "instagram": "molinodeperez"
   },
   {
+   "id": "montevideo",
+   "nombre": "Montevideo",
+   "alias": [],
+   "direccion": "Montevideo",
+   "lat": -34.9058916,
+   "lon": -56.1913095,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
    "id": "montevideo-departamento-de-montevideo",
    "nombre": "Montevideo Departamento de Montevideo",
    "alias": [],
@@ -1402,7 +1424,6 @@
    "id": "museo-de-arte-precolombino-e-indigena-mapi",
    "nombre": "Museo de Arte Precolombino e Indígena (MAPI)",
    "alias": [
-    "Museo de Arte Precolombino e Indígena - MAPI",
     "MAPI / Museo de Arte Precolombino e Indígena"
    ],
    "direccion": "25 de Mayo 279",
@@ -2052,7 +2073,8 @@
    "alias": [
     "Teatro y escuela de artes Mandrágora",
     "Sala Mandrágora",
-    "Teatro MANDRÁGORA Escuela de Artes"
+    "Teatro MANDRÁGORA Escuela de Artes",
+    "Teatro del Anglo"
    ],
    "direccion": "Dr. Javier Barrios Amorín 1312",
    "lat": -34.906059,

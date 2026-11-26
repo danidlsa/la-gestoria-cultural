@@ -1,6 +1,6 @@
 {
  "fuente": "entraste",
- "corrida": "2026-11-26T00:50:25.612133-03:00",
+ "corrida": "2026-11-26T17:32:38.518138-03:00",
  "ok": true,
  "cantidad": 5,
  "errores": [],
@@ -32,7 +32,7 @@
     }
    ],
    "precio": {
-    "desde": 300.0,
+    "desde": 250.0,
     "hasta": 650.0,
     "moneda": "UYU",
     "gratis": false
@@ -81,7 +81,7 @@
    ],
    "precio": {
     "desde": 400.0,
-    "hasta": 500.0,
+    "hasta": 600.0,
     "moneda": "UYU",
     "gratis": false
    },
@@ -224,8 +224,8 @@
     }
    ],
    "precio": {
-    "desde": 990.0,
-    "hasta": 990.0,
+    "desde": 1190.0,
+    "hasta": 1190.0,
     "moneda": "UYU",
     "gratis": false
    },

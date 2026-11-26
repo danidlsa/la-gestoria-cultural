@@ -1,8 +1,8 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-26T00:38:21.742964-03:00",
+ "corrida": "2026-11-26T17:14:29.925604-03:00",
  "ok": true,
- "cantidad": 93,
+ "cantidad": 95,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
   "https://tickantel.com.uy/ng/espectaculo/40021784/la-trampa: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-LaTrampa?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
@@ -456,7 +456,7 @@
      "fin": null,
      "sin_hora": false,
      "sala": null,
-     "agotada": false
+     "agotada": true
     }
    ],
    "precio": {
@@ -2298,6 +2298,54 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40022027",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40022027/premio-a-las-artes",
+   "titulo": "Premio a las Artes",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "La Dirección Nacional de Cultura del Ministerio de Educación y Cultura celebrará la segunda edición del Premio a las Artes, el próximo 6 de diciembre, a las 19 h, en la Sala Principal del Teatro Solís. Este espacio de reconocimiento busca destacar la excelencia, la diversidad y el impacto del…",
+   "lugar": {
+    "nombre": "Teatro Solís",
+    "direccion": null,
+    "lat": -34.90786,
+    "lon": -56.20101,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022027/premio-a-las-artes",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022027/700x390_banner_web_generico_TS.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021857",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021857/juan-jose-de-mello",
    "titulo": "Juan José de Mello",
@@ -2823,6 +2871,54 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40022040",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40022040/carlos-sanchez-gil-presenta-solo-musica",
+   "titulo": "Carlos Sánchez Gil presenta: Solo Música",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Es la presentación del disco solo música en flauta y guitarra instrumental editado por el sello tacuabe donde interpreto mis propias composiciones, mitad solo guitarra y mitad en dúo.",
+   "lugar": {
+    "nombre": "Centro Cultural Terminal Goes",
+    "direccion": null,
+    "lat": -34.8822811,
+    "lon": -56.1829079,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-11T20:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022040/carlos-sanchez-gil-presenta-solo-musica",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022040/700x390_Solo_música.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021890",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021890/sodre-celebra",
    "titulo": "Sodre Celebra",
@@ -3079,7 +3175,7 @@
      "fin": null,
      "sin_hora": false,
      "sala": null,
-     "agotada": true
+     "agotada": false
     }
    ],
    "precio": {

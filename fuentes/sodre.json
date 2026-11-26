@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-26T00:42:01.464671-03:00",
+ "corrida": "2026-11-26T17:24:17.477100-03:00",
  "ok": true,
- "cantidad": 37,
+ "cantidad": 43,
  "errores": [],
  "eventos": [
   {
@@ -1172,12 +1172,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021983/la-hija-condor",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-60-768x307.png",
    "productor": "Cine Nacional y Latinoamericano del Sodre",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021983/la-hija-condor"
+   ],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,
@@ -1210,12 +1217,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021985/almudena",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-61-768x307.png",
    "productor": "Cine Nacional y Latinoamericano del Sodre",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021985/almudena"
+   ],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,
@@ -1480,12 +1494,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022020/la-mujer-del-rio",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-62-768x307.png",
    "productor": "Cine Nacional y Latinoamericano del Sodre",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40022020/la-mujer-del-rio"
+   ],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,
@@ -1525,12 +1546,19 @@
     }
    ],
    "precio": null,
-   "entradas": [],
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022021/the-channeling",
+     "via": "tickantel"
+    }
+   ],
    "beneficios": [],
    "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-63-768x307.png",
    "productor": "Cine Nacional y Latinoamericano del Sodre",
    "region": "montevideo",
-   "enlaces": [],
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40022021/the-channeling"
+   ],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,
@@ -1776,6 +1804,276 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/ng/espectaculo/40022017/abrazo"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13916",
+   "url": "https://sodre.gub.uy/espectaculos/dios-es-una-palabra-2/",
+   "titulo": "Dios es una palabra",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T17:00:00-03:00",
+     "fin": "2026-12-05T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021956/dios-es-una-palabra",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-56-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021956/dios-es-una-palabra"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13918",
+   "url": "https://sodre.gub.uy/espectaculos/la-mujer-del-rio-2/",
+   "titulo": "La mujer del río",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T19:00:00-03:00",
+     "fin": "2026-12-05T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022020/la-mujer-del-rio",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-62-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40022020/la-mujer-del-rio"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13920",
+   "url": "https://sodre.gub.uy/espectaculos/las-7-balas-2/",
+   "titulo": "Las 7 balas",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:00:00-03:00",
+     "fin": "2026-12-05T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021955/las-7-balas",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/11-e1684526316343-768x318.jpg",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021955/las-7-balas"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13923",
+   "url": "https://sodre.gub.uy/espectaculos/almudena-2/",
+   "titulo": "Almudena",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T17:00:00-03:00",
+     "fin": "2026-12-06T19:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021985/almudena",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-61-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021985/almudena"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13925",
+   "url": "https://sodre.gub.uy/espectaculos/the-channeling-3/",
+   "titulo": "The Channeling",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T19:00:00-03:00",
+     "fin": "2026-12-06T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022021/the-channeling",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-63-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40022021/the-channeling"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sodre",
+   "id_externo": "13927",
+   "url": "https://sodre.gub.uy/espectaculos/la-hija-condor-2/",
+   "titulo": "La hija cóndor",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "Estreno",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-06T21:00:00-03:00",
+     "fin": "2026-12-06T23:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021983/la-hija-condor",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Slider-web-Sodre-60-768x307.png",
+   "productor": "Cine Nacional y Latinoamericano del Sodre",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/ng/espectaculo/40021983/la-hija-condor"
    ],
    "ciclo": null,
    "etiquetas": [],
