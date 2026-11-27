@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27T12:20:37.869239-03:00",
+ "generado": "2026-11-27T17:19:57.729282-03:00",
  "cantidad": 186,
  "lugares": [
   {
@@ -82,6 +82,17 @@
    "direccion": "Durazno 902, Convención esq, 11100 Monte",
    "lat": -34.911047,
    "lon": -56.196317,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "anfiteatro-canario-luna",
+   "nombre": "Anfiteatro Canario Luna",
+   "alias": [],
+   "direccion": "Av. Dámaso A. Larrañaga &, 12000 Montevi",
+   "lat": -34.86184,
+   "lon": -56.151879,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -986,23 +997,12 @@
    "instagram": null
   },
   {
-   "id": "kibon-avanza",
-   "nombre": "Kibón Avanza",
-   "alias": [],
-   "direccion": "3VQ6+FJX, 11300 Montevideo",
-   "lat": -34.911254,
-   "lon": -56.138395,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": null
-  },
-  {
-   "id": "latu",
-   "nombre": "LATU",
+   "id": "latu-laboratorio-tecnologico-del-uruguay",
+   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
    "alias": [
-    "LATU - Laboratorio Tecnológico del Uruguay"
+    "LATU"
    ],
-   "direccion": "Carrasco, Montevideo",
+   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,

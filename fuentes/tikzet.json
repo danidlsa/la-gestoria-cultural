@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-27T12:19:19.092797-03:00",
+ "corrida": "2026-11-27T17:18:46.210939-03:00",
  "ok": true,
  "cantidad": 17,
  "errores": [],
@@ -151,54 +151,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
-   "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
-   "titulo": "Javier Zubillaga De Vivo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Javier Zubillaga despide el año con un show íntimo dedicado a su repertorio humorístico, con canciones de sus dos trabajos discográficos y varios temas inéditos.",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": "2026-11-27T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "29b67f42-54aa-40b5-ba07-560cc0847b89",
    "url": "https://www.tikzet.com/events/barrio-chino",
    "titulo": "Barrio Chino",
@@ -237,6 +189,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fcb8a0854-a474-4ab9-a790-3cb0621b6d8e.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
+   "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
+   "titulo": "Javier Zubillaga De Vivo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Javier Zubillaga despide el año con un show íntimo dedicado a su repertorio humorístico, con canciones de sus dos trabajos discográficos y varios temas inéditos.",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": "2026-11-27T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -295,54 +295,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "b23cec88-7737-4c84-aeeb-3d9edb1958ad",
-   "url": "https://www.tikzet.com/events/lia-almada-trio-florencia-cabezudo-sexteto",
-   "titulo": "Lía Almada Trío + Florencia Cabezudo Sexteto",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Florencia Cabezudo Sexteto es el nuevo proyecto de la compositora y guitarrista, licenciada enJazz y Música Creativa de la UTEC, con orientación en Composición y Arreglos. La formaciónse completa con Emiliano Pereira en clarinete, Gleisis Estrada en flugelhorn, Felipe Ahunchain en piano, Andrés…",
-   "lugar": {
-    "nombre": "El Chamuyo",
-    "direccion": "25 de mayo 591",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-20T21:00:00-03:00",
-     "fin": "2026-12-21T03:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/lia-almada-trio-florencia-cabezudo-sexteto",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F1657a72d-9204-461d-ac52-e54de35d7704.original",
-   "productor": "El Chamuyo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "a410902f-b1fe-463e-a7e5-2aca8af8ba89",
    "url": "https://www.tikzet.com/events/gota-serena-54b7",
    "titulo": "Gota Serena",
@@ -391,12 +343,60 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "61733cff-1049-49da-982a-07d021e32ecd",
-   "url": "https://www.tikzet.com/events/ssat-a8b4",
-   "titulo": "SSAT",
+   "id_externo": "b23cec88-7737-4c84-aeeb-3d9edb1958ad",
+   "url": "https://www.tikzet.com/events/lia-almada-trio-florencia-cabezudo-sexteto",
+   "titulo": "Lía Almada Trío + Florencia Cabezudo Sexteto",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Vuelve _ssat en formato acústico a El Hormiguero, siempre acompañado por el beatboxing y la percusión de Alex Beatbox y nuevos invitados especiales para compartir una noche de sábado. *El show es con sillas y las mesas son compartidas.",
+   "descripcion_corta": "Florencia Cabezudo Sexteto es el nuevo proyecto de la compositora y guitarrista, licenciada enJazz y Música Creativa de la UTEC, con orientación en Composición y Arreglos. La formaciónse completa con Emiliano Pereira en clarinete, Gleisis Estrada en flugelhorn, Felipe Ahunchain en piano, Andrés…",
+   "lugar": {
+    "nombre": "El Chamuyo",
+    "direccion": "25 de mayo 591",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-20T21:00:00-03:00",
+     "fin": "2026-12-21T03:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/lia-almada-trio-florencia-cabezudo-sexteto",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F1657a72d-9204-461d-ac52-e54de35d7704.original",
+   "productor": "El Chamuyo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "d9dd7c05-722e-48c0-b5a5-cb0a53957c55",
+   "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
+   "titulo": "Marcelo Fernández & Damián Gadea",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Marcelo y Damián se juntan en un toque íntimo para recorrer varios años de música compartida. Una noche de claroscuros, con canciones propias y clásicos del costado más nocturno del rock. La banda se arma y se desarma según lo exija la velada. Compartiremos el escenario con grandes músicos y amigos…",
    "lugar": {
     "nombre": "El Hormiguero",
     "direccion": "San Salvador 1644",
@@ -408,27 +408,27 @@
    },
    "funciones": [
     {
-     "inicio": "2026-12-05T21:30:00-03:00",
-     "fin": "2026-12-05T23:59:00-03:00",
+     "inicio": "2026-12-10T21:00:00-03:00",
+     "fin": "2026-12-10T23:59:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
+    "desde": 400.0,
+    "hasta": 400.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/ssat-a8b4",
+     "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F8fbcd66b-a5fe-4b91-ac66-93271191c09b.original",
+   "imagen_url": "https://cdn.tikzet.com/images%2Fa63c425a-116c-4b51-8860-8df68c76c6d4.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -477,6 +477,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F25622e80-e502-4aa5-860c-ee33c453f1de.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "61733cff-1049-49da-982a-07d021e32ecd",
+   "url": "https://www.tikzet.com/events/ssat-a8b4",
+   "titulo": "SSAT",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Vuelve _ssat en formato acústico a El Hormiguero, siempre acompañado por el beatboxing y la percusión de Alex Beatbox y nuevos invitados especiales para compartir una noche de sábado. *El show es con sillas y las mesas son compartidas.",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T21:30:00-03:00",
+     "fin": "2026-12-05T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/ssat-a8b4",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F8fbcd66b-a5fe-4b91-ac66-93271191c09b.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -583,54 +631,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "d9dd7c05-722e-48c0-b5a5-cb0a53957c55",
-   "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
-   "titulo": "Marcelo Fernández & Damián Gadea",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Marcelo y Damián se juntan en un toque íntimo para recorrer varios años de música compartida. Una noche de claroscuros, con canciones propias y clásicos del costado más nocturno del rock. La banda se arma y se desarma según lo exija la velada. Compartiremos el escenario con grandes músicos y amigos…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-10T21:00:00-03:00",
-     "fin": "2026-12-10T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fa63c425a-116c-4b51-8860-8df68c76c6d4.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "e9d19b06-931c-45b3-99ee-57d28a302974",
    "url": "https://www.tikzet.com/events/99-baladas-la-ultima-del-ano-en-el-jardin",
    "titulo": "99% baladas (la ultima del año en el Jardin)",
@@ -716,7 +716,7 @@
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F9dccf8db-f057-4e75-8694-6eecdebdc105.original",
+   "imagen_url": "https://cdn.tikzet.com/images%2Fb314236e-b6f8-4e08-8233-3d4873e57ff5.original",
    "productor": "Lalucha está en vos",
    "region": "montevideo",
    "enlaces": [],

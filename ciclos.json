@@ -1,22 +1,14 @@
 {
- "generado": "2026-11-27T12:20:37.869239-03:00",
- "cantidad": 23,
+ "generado": "2026-11-27T17:19:57.729282-03:00",
+ "cantidad": 24,
  "ciclos": [
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
    "lugar_id": null,
-   "desde": "2026-11-27T10:00:00-03:00",
+   "desde": "2026-11-27T13:30:00-03:00",
    "hasta": "2026-12-11T16:00:00-03:00",
    "cantidad": 7
-  },
-  {
-   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
-   "titulo": "Ciclo (no tan) Solos al mediodía",
-   "lugar_id": "teatro-solis",
-   "desde": "2026-11-27T14:00:00-03:00",
-   "hasta": "2026-11-28T14:00:00-03:00",
-   "cantidad": 1
   },
   {
    "id": "ciclo-las-mujeres-de-hitchcock",
@@ -49,6 +41,22 @@
    "desde": "2026-11-27T21:00:00-03:00",
    "hasta": "2026-12-04T21:00:00-03:00",
    "cantidad": 3
+  },
+  {
+   "id": "ciclo-emile-presenta",
+   "titulo": "EMILE PRESENTA",
+   "lugar_id": "emile-club",
+   "desde": "2026-11-27T23:59:00-03:00",
+   "hasta": "2026-12-04T23:59:00-03:00",
+   "cantidad": 2
+  },
+  {
+   "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
+   "titulo": "Ciclo (no tan) Solos al mediodía",
+   "lugar_id": "teatro-solis",
+   "desde": "2026-11-28T14:00:00-03:00",
+   "hasta": "2026-11-28T14:00:00-03:00",
+   "cantidad": 1
   },
   {
    "id": "ciclo-musica-en-el-parque",

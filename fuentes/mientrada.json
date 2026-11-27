@@ -1,8 +1,8 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-27T12:18:34.613077-03:00",
+ "corrida": "2026-11-27T17:18:00.516360-03:00",
  "ok": true,
- "cantidad": 9,
+ "cantidad": 10,
  "errores": [],
  "eventos": [
   {
@@ -126,6 +126,49 @@
    ],
    "beneficios": [],
    "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30652_banner5.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mientrada",
+   "id_externo": "30911",
+   "url": "https://mientrada.com.uy/evento/emile-presenta-kinoalexis-30911",
+   "titulo": "EMILE PRESENTA: KINO/ALEXIS",
+   "categoria": "fiesta",
+   "categoria_segura": false,
+   "descripcion_corta": "VIERNES 4 EN EL CLUB Primer viernes del mes y una fecha de primera; recibimos en la casa y damos la bienvenida a Kino y Alexis recién llegados de Europa y en sus primeras fechas en el país @kino @alexis VJ: @maurylux Viernes 04.12 Mercedes 1820",
+   "lugar": {
+    "nombre": "Emile",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T23:59:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mientrada.com.uy/evento/emile-presenta-kinoalexis-30911",
+     "via": "mientrada"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30911_banner5.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
