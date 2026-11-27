@@ -1,8 +1,8 @@
 {
  "fuente": "galpon",
- "corrida": "2026-11-26T17:27:17.443854-03:00",
+ "corrida": "2026-11-27T00:46:50.308574-03:00",
  "ok": true,
- "cantidad": 18,
+ "cantidad": 17,
  "errores": [],
  "eventos": [
   {
@@ -89,13 +89,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T20:30:00-03:00",
-     "fin": "2026-11-26T21:45:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T20:30:00-03:00",
      "fin": "2026-11-27T21:45:00-03:00",
@@ -634,13 +627,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T20:30:00-03:00",
-     "fin": "2026-11-26T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Cero",
-     "agotada": false
-    },
-    {
      "inicio": "2026-12-03T20:30:00-03:00",
      "fin": "2026-12-03T22:00:00-03:00",
      "sin_hora": false,
@@ -813,51 +799,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/eventoprivado/33832/ELHOMBREINESPERADOSalaCampodonico-843786/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
-   "id_externo": "nito-mestre",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/nito-mestre/",
-   "titulo": "Nito Mestre",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Vuelve a Montevideo una de las voces fundamentales del rock argentino, con más de cinco décadas de historia y una carrera que sigue escribiéndose en presente al presentar Gira ´26.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/NITO-MESTRE-Sala-Campodonico/33205/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/09/RED-TICKETS_1200x628-3.jpg",
-   "productor": "Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/NITO-MESTRE-Sala-Campodonico/33205/"
    ],
    "ciclo": null,
    "etiquetas": [],

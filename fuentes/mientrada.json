@@ -1,8 +1,8 @@
 {
  "fuente": "mientrada",
- "corrida": "2026-11-26T17:31:59.068198-03:00",
+ "corrida": "2026-11-27T00:51:09.733001-03:00",
  "ok": true,
- "cantidad": 8,
+ "cantidad": 9,
  "errores": [],
  "eventos": [
   {
@@ -212,6 +212,49 @@
    ],
    "beneficios": [],
    "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30799_banner5.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mientrada",
+   "id_externo": "30903",
+   "url": "https://mientrada.com.uy/evento/las-gilettes-cretina-turner-30903",
+   "titulo": "LAS GILETTES - CRETINA TURNER",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Debbie 80s Music Club",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-11T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mientrada.com.uy/evento/las-gilettes-cretina-turner-30903",
+     "via": "mientrada"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://me-gestao-imagens.s3.amazonaws.com/minhaentrada/gestao/fotos/30903_banner5.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

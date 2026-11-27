@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-26T17:24:17.477100-03:00",
+ "corrida": "2026-11-27T00:43:41.973707-03:00",
  "ok": true,
- "cantidad": 43,
+ "cantidad": 41,
  "errores": [],
  "eventos": [
   {
@@ -250,58 +250,6 @@
   },
   {
    "fuente": "sodre",
-   "id_externo": "13078",
-   "url": "https://sodre.gub.uy/espectaculos/gabriel-rolon/",
-   "titulo": "Gabriel Rolón",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Última oportunidad de ver \"Palabra plena\" en Montevideo",
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T19:00:00-03:00",
-     "fin": "2026-11-26T21:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-26T21:30:00-03:00",
-     "fin": "2026-11-26T23:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/alta_demanda/40021474/espectaculo/Gabriel%20Rol%C3%B3n",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/09/Destacado-web-22-1-768x420.png",
-   "productor": "Espectáculos del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/alta_demanda/40021474/espectaculo/Gabriel%20Rol%C3%B3n"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
    "id_externo": "13473",
    "url": "https://sodre.gub.uy/espectaculos/otros-indios-2/",
    "titulo": "Otros Indios",
@@ -318,13 +266,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T21:00:00-03:00",
-     "fin": "2026-11-26T23:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T21:00:00-03:00",
      "fin": "2026-11-27T23:00:00-03:00",
@@ -873,13 +814,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T19:00:00-03:00",
-     "fin": "2026-11-26T21:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T19:00:00-03:00",
      "fin": "2026-11-28T21:01:00-03:00",
      "sin_hora": false,
@@ -962,13 +896,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T20:00:00-03:00",
-     "fin": "2026-11-26T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T20:00:00-03:00",
      "fin": "2026-11-27T22:00:00-03:00",
@@ -1088,51 +1015,6 @@
    "productor": "Espectáculos del Sodre",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13779",
-   "url": "https://sodre.gub.uy/espectaculos/cuadros-tangueros-retratos-de-tango-de-distintas-epocas-pablo-agri-junto-a-musicos-de-la-ossodre/",
-   "titulo": "Cuadros tangueros. Retratos de tango de distintas épocas. Pablo Agri junto a músicos de la Ossodre",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Temporada de Música de Cámara",
-   "lugar": {
-    "nombre": "Auditorio Vaz Ferreira",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T20:00:00-03:00",
-     "fin": "2026-11-26T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/buscar?0&texto=Cuadros%20tangueros",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/11/Adaptaciones_CUADROS_TANGUEROS_destacada-1-768x420.png",
-   "productor": "Temporada de Música de Cámara del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/buscar?0&texto=Cuadros%20tangueros"
-   ],
    "ciclo": null,
    "etiquetas": [],
    "muestra": false,
@@ -1479,13 +1361,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T17:00:00-03:00",
-     "fin": "2026-11-26T19:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T17:00:00-03:00",
      "fin": "2026-11-28T19:00:00-03:00",
      "sin_hora": false,
@@ -1530,13 +1405,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T21:00:00-03:00",
-     "fin": "2026-11-26T23:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T21:00:00-03:00",
      "fin": "2026-11-28T23:00:00-03:00",

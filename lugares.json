@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-26T17:34:07.568136-03:00",
- "cantidad": 195,
+ "generado": "2026-11-27T00:54:13.653216-03:00",
+ "cantidad": 194,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -142,8 +142,7 @@
     "Sodre",
     "Sala Hugo Balzo",
     "Sodre-Salga Hugo Balzo",
-    "Sodre - Sala Hugo Balzo",
-    "Auditorio Nacional del SODRE"
+    "Sodre - Sala Hugo Balzo"
    ],
    "direccion": "Andes 1459",
    "lat": -34.90428,
@@ -204,7 +203,7 @@
    "id": "bar-andorra",
    "nombre": "Bar Andorra",
    "alias": [],
-   "direccion": "Canelones entre Aquiles Lanza y Ejido",
+   "direccion": "Canelones y Aquiles Lanza",
    "lat": -34.908481,
    "lon": -56.187691,
    "barrio": "Barrio Sur",
@@ -215,7 +214,7 @@
    "id": "bar-facal",
    "nombre": "Bar Facal",
    "alias": [],
-   "direccion": "Av. 18 de Julio 1249",
+   "direccion": "Av. 18 de Julio y Yi",
    "lat": -34.9056381,
    "lon": -56.1892753,
    "barrio": "Centro",
@@ -568,7 +567,7 @@
    "id": "cine-universitario-del-uruguay",
    "nombre": "Cine Universitario del Uruguay",
    "alias": [],
-   "direccion": "Canelones 1280",
+   "direccion": "Canelones 1280, 11100 Montevideo, Depart",
    "lat": -34.908593,
    "lon": -56.188195,
    "barrio": null,
@@ -964,17 +963,6 @@
    "instagram": null
   },
   {
-   "id": "fenix-bar",
-   "nombre": "Fénix Bar",
-   "alias": [],
-   "direccion": "Juan Carlos Gómez 1251",
-   "lat": -34.9084962,
-   "lon": -56.2020929,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": "fenixbaruy"
-  },
-  {
    "id": "gelos-comedy-coffee-bar",
    "nombre": "Gelos Comedy Coffee Bar",
    "alias": [],
@@ -1080,12 +1068,12 @@
    "instagram": null
   },
   {
-   "id": "latu-laboratorio-tecnologico-del-uruguay",
-   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
+   "id": "latu",
+   "nombre": "LATU",
    "alias": [
-    "LATU"
+    "LATU - Laboratorio Tecnológico del Uruguay"
    ],
-   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
+   "direccion": "Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1139,17 +1127,6 @@
    "instagram": null
   },
   {
-   "id": "la-trastienda",
-   "nombre": "La Trastienda",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.8984034,
-   "lon": -56.1784225,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": null
-  },
-  {
    "id": "la-vida-en-rosa",
    "nombre": "La vida en Rosa",
    "alias": [],
@@ -1167,6 +1144,17 @@
    "direccion": "3RHJ+37H, Lago del, 11300 Montevideo, De",
    "lat": -34.92231,
    "lon": -56.169273,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "lalucha-esta-en-vos",
+   "nombre": "Lalucha está en vos",
+   "alias": [],
+   "direccion": "Yi 1587 esquina Cerro Largo Montevideo/ Uruguay",
+   "lat": -34.9013834,
+   "lon": -56.1896664,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -1218,21 +1206,6 @@
    "direccion": "Carlos Roxlo 1359 bis esq. Av. 18 de Julio",
    "lat": -34.904767,
    "lon": -56.181377,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": null
-  },
-  {
-   "id": "l-club",
-   "nombre": "L´Club",
-   "alias": [
-    "L’Club",
-    "L'Club",
-    "Av. Uruguay 1136"
-   ],
-   "direccion": "Av. Uruguay 1136",
-   "lat": -34.903194,
-   "lon": -56.192042,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -1583,14 +1556,12 @@
    "instagram": null
   },
   {
-   "id": "plaza-independencia-846",
-   "nombre": "Plaza Independencia 846",
-   "alias": [
-    "Plaza Independencia"
-   ],
-   "direccion": "Pl. Independencia 846, 11100 Montevideo,",
-   "lat": -34.906706,
-   "lon": -56.198496,
+   "id": "plaza-independencia",
+   "nombre": "Plaza Independencia",
+   "alias": [],
+   "direccion": "Pl. Independencia, Montevideo, Departame",
+   "lat": -34.907017,
+   "lon": -56.199716,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -1793,6 +1764,17 @@
    "direccion": "Luis Alberto de herrera 1151",
    "lat": -34.9068804,
    "lon": -56.136678,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "sala-b",
+   "nombre": "Sala B",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.8181321,
+   "lon": -56.0995811,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -2016,7 +1998,7 @@
    "id": "tazu-bar-cultural",
    "nombre": "Tazu Bar Cultural",
    "alias": [],
-   "direccion": "Canelones 782",
+   "direccion": "Canelones 782, 11100 Montevideo, Departa",
    "lat": -34.909444,
    "lon": -56.199444,
    "barrio": null,

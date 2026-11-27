@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-26T17:32:44.244071-03:00",
+ "corrida": "2026-11-27T00:51:57.535540-03:00",
  "ok": true,
  "cantidad": 16,
  "errores": [],
@@ -93,54 +93,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F87e9a684-34ea-4ab0-8ca5-ba265a931758.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "10272af4-5882-411e-bf7f-1dde4bfc299e",
-   "url": "https://www.tikzet.com/events/catalina-erdelyi-cuarteto",
-   "titulo": "Catalina Erdelyi Cuarteto",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "*Este show es con el público sentado con mesas y sillas.",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T20:30:00-03:00",
-     "fin": "2026-11-26T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 340.0,
-    "hasta": 340.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/catalina-erdelyi-cuarteto",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fccf19bc7-f6f4-4858-b045-967370cbe72b.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -247,6 +199,54 @@
   },
   {
    "fuente": "tikzet",
+   "id_externo": "29b67f42-54aa-40b5-ba07-560cc0847b89",
+   "url": "https://www.tikzet.com/events/barrio-chino",
+   "titulo": "Barrio Chino",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Se nos viene un gran show para ir despidiendo el año 🎆 Será una noche de candombe, rock y, por supuesto, alguna cumbia. También habrá invitados de lujo que nos estarán acompañando. 📆 Sábado 28/11 - 21.30 h 📍@elhormiguerobar San Salvador y Minas ¡Les esperamos!🪘🎸🎵🔥 *Este show es con el público de…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": "2026-11-28T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 280.0,
+    "hasta": 280.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/barrio-chino",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fcb8a0854-a474-4ab9-a790-3cb0621b6d8e.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
    "id_externo": "7ebaa549-795f-4525-9c8f-3a963e1372c9",
    "url": "https://www.tikzet.com/events/javier-ventoso",
    "titulo": "Javier Ventoso",
@@ -286,54 +286,6 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Ffe957b7d-f2ed-4c67-a998-1da80da079f2.original",
    "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "a410902f-b1fe-463e-a7e5-2aca8af8ba89",
-   "url": "https://www.tikzet.com/events/gota-serena-54b7",
-   "titulo": "Gota Serena",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "El Chamuyo",
-    "direccion": "25 de mayo 591",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T21:00:00-03:00",
-     "fin": "2026-11-29T03:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/gota-serena-54b7",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F472a8506-25d5-4da6-aefa-d689cfb1ed5a.original",
-   "productor": "El Chamuyo",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -391,15 +343,15 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "29b67f42-54aa-40b5-ba07-560cc0847b89",
-   "url": "https://www.tikzet.com/events/barrio-chino",
-   "titulo": "Barrio Chino",
-   "categoria": "carnaval",
+   "id_externo": "a410902f-b1fe-463e-a7e5-2aca8af8ba89",
+   "url": "https://www.tikzet.com/events/gota-serena-54b7",
+   "titulo": "Gota Serena",
+   "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Se nos viene un gran show para ir despidiendo el año 🎆 Será una noche de candombe, rock y, por supuesto, alguna cumbia. También habrá invitados de lujo que nos estarán acompañando. 📆 Sábado 28/11 - 21.30 h 📍@elhormiguerobar San Salvador y Minas ¡Les esperamos!🪘🎸🎵🔥 *Este show es con el público de…",
+   "descripcion_corta": null,
    "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
+    "nombre": "El Chamuyo",
+    "direccion": "25 de mayo 591",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -409,27 +361,27 @@
    "funciones": [
     {
      "inicio": "2026-11-28T21:00:00-03:00",
-     "fin": "2026-11-28T23:59:00-03:00",
+     "fin": "2026-11-29T03:00:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 280.0,
-    "hasta": 280.0,
+    "desde": 300.0,
+    "hasta": 300.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/barrio-chino",
+     "url": "https://www.tikzet.com/events/gota-serena-54b7",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fcb8a0854-a474-4ab9-a790-3cb0621b6d8e.original",
-   "productor": "El Hormiguero",
+   "imagen_url": "https://cdn.tikzet.com/images%2F472a8506-25d5-4da6-aefa-d689cfb1ed5a.original",
+   "productor": "El Chamuyo",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -670,6 +622,54 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fa63c425a-116c-4b51-8860-8df68c76c6d4.original",
    "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "422b9299-5749-4c7e-b865-d49445b92276",
+   "url": "https://www.tikzet.com/events/metal-combativo-666",
+   "titulo": "Metal Combativo 666",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Lalucha está en vos",
+    "direccion": "Yi 1587 esquina Cerro Largo Montevideo/ Uruguay",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-30T22:00:00-03:00",
+     "fin": "2026-12-31T00:06:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/metal-combativo-666",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F9dccf8db-f057-4e75-8694-6eecdebdc105.original",
+   "productor": "Lalucha está en vos",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

@@ -1,6 +1,6 @@
 {
  "fuente": "mapi",
- "corrida": "2026-11-26T17:29:59.671800-03:00",
+ "corrida": "2026-11-27T00:49:15.056545-03:00",
  "ok": true,
  "cantidad": 4,
  "errores": [],
@@ -23,13 +23,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T00:00:00-03:00",
      "fin": null,
@@ -235,6 +228,13 @@
     },
     {
      "inicio": "2026-12-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-27T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -277,13 +277,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-27T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -488,6 +481,13 @@
     },
     {
      "inicio": "2026-12-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-27T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -530,13 +530,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-27T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -741,6 +734,13 @@
     },
     {
      "inicio": "2026-12-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-27T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -783,13 +783,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-27T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -994,6 +987,13 @@
     },
     {
      "inicio": "2026-12-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-27T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,

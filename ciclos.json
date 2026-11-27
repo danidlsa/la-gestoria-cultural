@@ -1,38 +1,14 @@
 {
- "generado": "2026-11-26T17:34:07.568136-03:00",
+ "generado": "2026-11-27T00:54:13.653216-03:00",
  "cantidad": 24,
  "ciclos": [
-  {
-   "id": "ciclo-envejecimiento-activo",
-   "titulo": "Envejecimiento activo",
-   "lugar_id": null,
-   "desde": "2026-11-26T16:00:00-03:00",
-   "hasta": "2026-12-11T16:00:00-03:00",
-   "cantidad": 7
-  },
-  {
-   "id": "ciclo-las-mujeres-de-hitchcock",
-   "titulo": "Las mujeres de Hitchcock",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-26T17:00:00-03:00",
-   "hasta": "2026-11-28T18:05:00-03:00",
-   "cantidad": 3
-  },
   {
    "id": "ciclo-noche-de-los-cafes-y-bares-notables-2026",
    "titulo": "Noche de los Cafés y Bares Notables 2026",
    "lugar_id": null,
-   "desde": "2026-11-26T18:00:00-03:00",
+   "desde": "2026-11-26T19:00:00-03:00",
    "hasta": "2026-11-26T23:00:00-03:00",
-   "cantidad": 17
-  },
-  {
-   "id": "ciclo-cine-uruguayo-diez-anos",
-   "titulo": "Cine uruguayo diez años",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-26T19:30:00-03:00",
-   "hasta": "2026-11-28T20:10:00-03:00",
-   "cantidad": 3
+   "cantidad": 14
   },
   {
    "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
@@ -43,12 +19,36 @@
    "cantidad": 3
   },
   {
+   "id": "ciclo-envejecimiento-activo",
+   "titulo": "Envejecimiento activo",
+   "lugar_id": null,
+   "desde": "2026-11-27T10:00:00-03:00",
+   "hasta": "2026-12-11T16:00:00-03:00",
+   "cantidad": 7
+  },
+  {
    "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
    "titulo": "Ciclo (no tan) Solos al mediodía",
    "lugar_id": "teatro-solis",
    "desde": "2026-11-27T14:00:00-03:00",
    "hasta": "2026-11-28T14:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-las-mujeres-de-hitchcock",
+   "titulo": "Las mujeres de Hitchcock",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-27T17:15:00-03:00",
+   "hasta": "2026-11-28T18:05:00-03:00",
+   "cantidad": 2
+  },
+  {
+   "id": "ciclo-cine-uruguayo-diez-anos",
+   "titulo": "Cine uruguayo diez años",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-27T19:00:00-03:00",
+   "hasta": "2026-11-28T20:10:00-03:00",
+   "cantidad": 2
   },
   {
    "id": "ciclo-ciclo-marea",

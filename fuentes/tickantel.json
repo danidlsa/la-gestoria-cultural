@@ -1,431 +1,13 @@
 {
  "fuente": "tickantel",
- "corrida": "2026-11-26T17:14:29.925604-03:00",
+ "corrida": "2026-11-27T00:39:58.823132-03:00",
  "ok": true,
- "cantidad": 95,
+ "cantidad": 91,
  "errores": [
   "https://tickantel.com.uy/ng/espectaculo/40021895/nadie-dice-nada: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-NDN?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
   "https://tickantel.com.uy/ng/espectaculo/40021784/la-trampa: HTTPStatusError: Client error '403 Forbidden' for url 'https://vqueue-cloud-queue.sva.antel.com.uy/queuein/system/tickantel/queue/queue-LaTrampa?'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
  ],
  "eventos": [
-  {
-   "fuente": "tickantel",
-   "id_externo": "40022020",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40022020/la-mujer-del-rio",
-   "titulo": "La mujer del rio",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "LA MUJER DEL RÍO Érica intenta reconstruir su vida junto a su hija tras un pasado marcado por la violencia. La salida de prisión de su ex pareja reabre heridas que parecían cerradas y la enfrenta nuevamente a un vínculo del que creía haber salido. Coproducción argentino-uruguaya entre Banda Aparte…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T17:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40022020/la-mujer-del-rio",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022020/700_x_390_lmdr.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021956",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021956/dios-es-una-palabra",
-   "titulo": "Dios es una palabra",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "En Barcelona, a pocos días del estreno de Dios es una palabra, 19 artistas atraviesan los últimos ensayos de una obra de danza-teatro dirigida por Andrés Waksman. Entre ensayos, testimonios y fragmentos de la obra, el documental se adentra en un proceso colectivo donde cuerpo y palabra revelan las…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021956/dios-es-una-palabra",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021956/700_x_390_deup.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021577",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021577/clasificatorio-copa-del-mundo-qatar-2027",
-   "titulo": "Clasificatorio Copa del Mundo Qatar 2027",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Clasificatorios Copa del Mundo Qatar 2027 – Ventana 5 Uruguay vs Canadá",
-   "lugar": {
-    "nombre": "Antel Arena",
-    "direccion": null,
-    "lat": -34.8629904,
-    "lon": -56.1535167,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T19:10:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021577/clasificatorio-copa-del-mundo-qatar-2027",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021577/700x390.png.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021658",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021658/mi-amiga-fantasma",
-   "titulo": "Mi amiga fantasma",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Camila hace 20 años invocó una fantasma y con el tiempo se volvió su mejor amiga. La fantasma no crece, pero ella sí fue creciendo. Ahora Camila siente que tiene que soltarla para ser adulta, pero no entiende bien qué es ser adulta y conversando con la fantasma se entrevera. Camila aprendió un…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": null,
-    "lat": -34.90821430964771,
-    "lon": -56.196500823734254,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021658/mi-amiga-fantasma",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021658/BANNER_MI_AMIGA_FANTASMA.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021682",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021682/tmc-cuadros-tangueros",
-   "titulo": "TMC: Cuadros tangueros",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Pablo Agri con músicos del Ossodre Pablo Agri – violín y dirección Mario Roldós – violín 1 Diego Revello – violín 2 Leticia Gambaro – viola Magela Suárez – cello Fernando Sánchez – contrabajo PROGRAMA Pablo Agri — El Julián Aguirre Astor Piazzolla — Melodía en la menor José Carli — Cuadros…",
-   "lugar": {
-    "nombre": "Auditorio Vaz Ferreira",
-    "direccion": null,
-    "lat": -34.9026912,
-    "lon": -56.1776624,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 250.0,
-    "hasta": 250.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021682/tmc-cuadros-tangueros",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021682/Nov,_26_-_Adaptaciones_CUADROS_TANGUEROS_tickantel.png",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021939",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa",
-   "titulo": "Música de regreso a casa",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "‘’Hay noches que no sé si soy yo la que maneja el auto, o si es el auto que me maneja a mí.'' Viernes de noche. Una mujer avisa a su familia que ya salió de la oficina. En unos minutos estará ahí para preparar la cena. Enciende la radio. Nunca llegará a casa. Prendida al volante, la protagonista de…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021939/BannerNuevo.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40021691",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021691/otros-indios-presenta-homenaje",
-   "titulo": "Otros Indios presenta HOMENAJE",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "OTROS INDIOS llega nuevamente al Sodre para presentar su espectáculo 2026 denominado HOMENAJE. Dos shows consecutivos que dan cierre a una serie de presentaciones en varias capitales del país. El espectáculo tiene una duración de 90 minutos y es apto para todo público. Edad máxima (inclusive) con…",
-   "lugar": {
-    "nombre": "Auditorio Adela Reta",
-    "direccion": null,
-    "lat": -34.90428,
-    "lon": -56.19871,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021691/otros-indios-presenta-homenaje",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021691/Banner.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tickantel",
-   "id_externo": "40022021",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40022021/the-channeling",
-   "titulo": "The channeling",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "THE CHANNELING Cuando una joven youtuber desaparece mientras investiga a un controvertido líder espiritual que asegura canalizar a un colectivo extraterrestre, el material recuperado empieza a sugerir que el contacto pudo haber sido real... y que la señal sigue activa. Dirección:Maximiliano…",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": -34.90642,
-    "lon": -56.19628,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40022021/the-channeling",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022021/700_x_390_lc.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tickantel",
    "id_externo": "40021457",
@@ -746,24 +328,38 @@
   },
   {
    "fuente": "tickantel",
-   "id_externo": "40021526",
-   "url": "https://tickantel.com.uy/ng/espectaculo/40021526/julieta-laso-postergado",
-   "titulo": "Julieta Laso - POSTERGADO",
-   "categoria": "teatro",
+   "id_externo": "40021939",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa",
+   "titulo": "Música de regreso a casa",
+   "categoria": "otros",
    "categoria_segura": false,
-   "descripcion_corta": "INFORMACIÓN IMPORTANTE: Las entradas adquiridas por la web serán autorizadas para devolución a través de Tickantel. Las entradas que se compraron en efectivo se devuelven en la boletería de la sala de martes a sábados de 15:30hs a 21:15hs presentando el ticket en buenas condiciones.",
+   "descripcion_corta": "‘’Hay noches que no sé si soy yo la que maneja el auto, o si es el auto que me maneja a mí.'' Viernes de noche. Una mujer avisa a su familia que ya salió de la oficina. En unos minutos estará ahí para preparar la cena. Enciende la radio. Nunca llegará a casa. Prendida al volante, la protagonista de…",
    "lugar": {
-    "nombre": "Sala Zitarrosa",
+    "nombre": "Auditorio Nelly Goitiño",
     "direccion": null,
-    "lat": -34.90626,
-    "lon": -56.19441,
+    "lat": -34.90642,
+    "lon": -56.19628,
     "barrio": null,
     "alternativas": [],
     "instagram": null
    },
    "funciones": [
     {
-     "inicio": "2026-11-27T20:30:00-03:00",
+     "inicio": "2026-11-27T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
      "sala": null,
@@ -773,12 +369,12 @@
    "precio": null,
    "entradas": [
     {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021526/julieta-laso-postergado",
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021939/musica-de-regreso-a-casa",
      "via": "tickantel"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021526/700x390__copia_5.jpg",
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021939/BannerNuevo.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -822,6 +418,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40020379/Banner.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021691",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021691/otros-indios-presenta-homenaje",
+   "titulo": "Otros Indios presenta HOMENAJE",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "OTROS INDIOS llega nuevamente al Sodre para presentar su espectáculo 2026 denominado HOMENAJE. Dos shows consecutivos que dan cierre a una serie de presentaciones en varias capitales del país. El espectáculo tiene una duración de 90 minutos y es apto para todo público. Edad máxima (inclusive) con…",
+   "lugar": {
+    "nombre": "Auditorio Adela Reta",
+    "direccion": null,
+    "lat": -34.90428,
+    "lon": -56.19871,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-27T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 600.0,
+    "hasta": 600.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021691/otros-indios-presenta-homenaje",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021691/Banner.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -887,6 +531,54 @@
   },
   {
    "fuente": "tickantel",
+   "id_externo": "40022020",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40022020/la-mujer-del-rio",
+   "titulo": "La mujer del rio",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "LA MUJER DEL RÍO Érica intenta reconstruir su vida junto a su hija tras un pasado marcado por la violencia. La salida de prisión de su ex pareja reabre heridas que parecían cerradas y la enfrenta nuevamente a un vínculo del que creía haber salido. Coproducción argentino-uruguaya entre Banda Aparte…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022020/la-mujer-del-rio",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022020/700_x_390_lmdr.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
    "id_externo": "40021449",
    "url": "https://tickantel.com.uy/ng/espectaculo/40021449/buitres-nido-de-espinas-sesiones-inmersivas",
    "titulo": "Buitres - Nido de Espinas – Sesiones Inmersivas",
@@ -925,6 +617,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021449/Buitres_Planetario_700x390.png",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40021956",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40021956/dios-es-una-palabra",
+   "titulo": "Dios es una palabra",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "En Barcelona, a pocos días del estreno de Dios es una palabra, 19 artistas atraviesan los últimos ensayos de una obra de danza-teatro dirigida por Andrés Waksman. Entre ensayos, testimonios y fragmentos de la obra, el documental se adentra en un proceso colectivo donde cuerpo y palabra revelan las…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40021956/dios-es-una-palabra",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021956/700_x_390_deup.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1016,6 +756,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40021421/Grilla_Web_Tickantel_(700x390px).jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tickantel",
+   "id_externo": "40022021",
+   "url": "https://tickantel.com.uy/ng/espectaculo/40022021/the-channeling",
+   "titulo": "The channeling",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "THE CHANNELING Cuando una joven youtuber desaparece mientras investiga a un controvertido líder espiritual que asegura canalizar a un colectivo extraterrestre, el material recuperado empieza a sugerir que el contacto pudo haber sido real... y que la señal sigue activa. Dirección:Maximiliano…",
+   "lugar": {
+    "nombre": "Auditorio Nelly Goitiño",
+    "direccion": null,
+    "lat": -34.90642,
+    "lon": -56.19628,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/ng/espectaculo/40022021/the-channeling",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://tickantel.cdn.antel.net.uy/media/Espectaculo/40022021/700_x_390_lc.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

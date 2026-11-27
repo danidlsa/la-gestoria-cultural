@@ -1,53 +1,10 @@
 {
  "fuente": "mec_museos",
- "corrida": "2026-11-26T17:30:02.280244-03:00",
+ "corrida": "2026-11-27T00:49:17.274721-03:00",
  "ok": true,
- "cantidad": 5,
+ "cantidad": 4,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "mec_museos",
-   "id_externo": "inauguracion-imagen-invisible",
-   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/inauguracion-imagen-invisible",
-   "titulo": "Inauguración de «La imagen de lo invisible»",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Torres García",
-    "direccion": "Sarandí 683",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/inauguracion-imagen-invisible",
-     "via": "mec_museos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Ministerio de Educación y Cultura",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "mec_museos",
    "id_externo": "inauguracion-exposicion-retrospectiva-artista-linda-kohen",

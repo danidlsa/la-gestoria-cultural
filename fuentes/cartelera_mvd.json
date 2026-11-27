@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-26T17:25:43.672475-03:00",
+ "corrida": "2026-11-27T00:44:59.873905-03:00",
  "ok": true,
- "cantidad": 74,
+ "cantidad": 71,
  "errores": [],
  "eventos": [
   {
@@ -302,13 +302,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-12-03T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -362,13 +355,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T21:00:00-03:00",
      "fin": null,
@@ -719,54 +705,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "32733",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32733",
-   "titulo": "Besando a un tonto",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Juan, a su vuelta de Australia, decide hacer una reunión con los viejos compañeros del liceo, quienes no se ven desde hace 25 años. Al parecer, también viene Sandro, el tonto de la clase... ¿Seguirá siendo tan tonto?",
-   "lugar": {
-    "nombre": "Teatro de la Candela",
-    "direccion": "José Ellauri 308",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32733",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/40837.jpg",
-   "productor": "Virginia Ramos",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34614",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34614",
    "titulo": "Capital humano",
@@ -1004,13 +942,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T21:00:00-03:00",
      "fin": null,
@@ -1638,13 +1569,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-29T19:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1746,13 +1670,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T20:00:00-03:00",
      "fin": null,
@@ -2137,13 +2054,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-27T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2214,54 +2124,6 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41308.jpg",
    "productor": "Rafael Pence",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "35024",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35024",
-   "titulo": "Gabriel Rolón: Palabra Plena",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Somos humanos en tanto habitamos un mundo de palabras. Un mundo lleno de imágenes y personas que no veremos jamás, y sin embargo nos recorren. Dar la palabra es darse uno mismo, siempre y cuando no se trate de una palabra vacía. No siempre que hablamos decimos algo de nosotros. La única palabra…",
-   "lugar": {
-    "nombre": "Auditorio Nacional del SODRE - Sala Eduardo Fabini",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 2600.0,
-    "hasta": 5600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35024",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42381.jpg",
-   "productor": "Carlos Nieto",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -2446,13 +2308,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-12-03T20:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2587,13 +2442,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T20:30:00-03:00",
      "fin": null,
@@ -3069,13 +2917,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-29T19:30:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -3412,54 +3253,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34818",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34818",
-   "titulo": "Mi amiga fantasma",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Camila hace 20 años invocó una fantasma y con el tiempo se volvió su mejor amiga. La fantasma no crece, pero ella sí fue creciendo. Ahora Camila siente que tiene que soltarla para ser adulta, pero no entiende bien qué es ser adulta y conversando con la fantasma se entrevera. Camila aprendió un…",
-   "lugar": {
-    "nombre": "Sala Verdi",
-    "direccion": "Soriano 914",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 800.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34818",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42133.jpg",
-   "productor": "Gustavo Kreiman",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34894",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34894",
    "titulo": "Midachi - La despedida",
@@ -3638,13 +3431,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T20:00:00-03:00",
      "fin": null,
@@ -3827,13 +3613,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T21:00:00-03:00",
      "fin": null,

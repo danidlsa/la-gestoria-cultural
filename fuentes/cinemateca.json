@@ -1,8 +1,8 @@
 {
  "fuente": "cinemateca",
- "corrida": "2026-11-26T17:24:24.057500-03:00",
+ "corrida": "2026-11-27T00:43:48.297964-03:00",
  "ok": true,
- "cantidad": 23,
+ "cantidad": 22,
  "errores": [],
  "eventos": [
   {
@@ -23,13 +23,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T16:50:00-03:00",
-     "fin": "2026-11-26T18:33:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T16:50:00-03:00",
      "fin": "2026-11-27T18:33:00-03:00",
@@ -131,13 +124,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T17:25:00-03:00",
-     "fin": "2026-11-26T19:23:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-27T17:25:00-03:00",
      "fin": "2026-11-27T19:23:00-03:00",
      "sin_hora": false,
@@ -230,13 +216,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T18:55:00-03:00",
-     "fin": "2026-11-26T21:05:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T18:55:00-03:00",
      "fin": "2026-11-27T21:05:00-03:00",
@@ -345,13 +324,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T19:45:00-03:00",
-     "fin": "2026-11-26T22:39:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-27T19:45:00-03:00",
      "fin": "2026-11-27T22:39:00-03:00",
      "sin_hora": false,
@@ -449,120 +421,6 @@
   },
   {
    "fuente": "cinemateca",
-   "id_externo": "9691",
-   "url": "https://cinemateca.org.uy/peliculas/9691",
-   "titulo": "Minotauro",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Andrei Zvyagintsev. Nueve años después de estrenar Sin amor (2017) y tras superar un grave y casi funesto cuadro de COVID-19, el cineasta ruso Andrey Zvyagintsev ataca nuevamente aspectos morales y políticos cuestionables de su país en su sexto largometraje, ganador del Gran Premio del Jurado en…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T21:15:00-03:00",
-     "fin": "2026-11-26T23:36:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T21:30:00-03:00",
-     "fin": "2026-11-27T23:51:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-28T21:00:00-03:00",
-     "fin": "2026-11-28T23:21:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T21:00:00-03:00",
-     "fin": "2026-11-29T23:21:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-30T21:40:00-03:00",
-     "fin": "2026-12-01T00:01:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-12-02T21:40:00-03:00",
-     "fin": "2026-12-03T00:01:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9691",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://www.caimanediciones.es/wp-content/uploads/2026/05/200498-1200x675.jpg",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
    "id_externo": "9098",
    "url": "https://cinemateca.org.uy/peliculas/9098",
    "titulo": "La vida secreta de Kika",
@@ -579,13 +437,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T21:25:00-03:00",
-     "fin": "2026-11-26T23:15:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T21:25:00-03:00",
      "fin": "2026-11-27T23:15:00-03:00",
@@ -677,12 +528,12 @@
   },
   {
    "fuente": "cinemateca",
-   "id_externo": "9695",
-   "url": "https://cinemateca.org.uy/peliculas/9695",
-   "titulo": "Marnie",
+   "id_externo": "9691",
+   "url": "https://cinemateca.org.uy/peliculas/9691",
+   "titulo": "Minotauro",
    "categoria": "cine",
    "categoria_segura": true,
-   "descripcion_corta": "De Alfred Hitchcock. Marnie roba, es frígida y le teme al color rojo. Connery se casa con ella y la trata de una forma que puede enojar a más de una feminista. El libreto padece de psicoanálisis barato, y la película padece de Tippi Hedren, pero Hitchcock mejora las cosas. El brillante comienzo, el…",
+   "descripcion_corta": "De Andrei Zvyagintsev. Nueve años después de estrenar Sin amor (2017) y tras superar un grave y casi funesto cuadro de COVID-19, el cineasta ruso Andrey Zvyagintsev ataca nuevamente aspectos morales y políticos cuestionables de su país en su sexto largometraje, ganador del Gran Premio del Jurado en…",
    "lugar": {
     "nombre": "Cinemateca",
     "direccion": "Bartolomé Mitre 1236",
@@ -694,8 +545,36 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T17:00:00-03:00",
-     "fin": "2026-11-26T19:09:00-03:00",
+     "inicio": "2026-11-27T21:30:00-03:00",
+     "fin": "2026-11-27T23:51:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-28T21:00:00-03:00",
+     "fin": "2026-11-28T23:21:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T21:00:00-03:00",
+     "fin": "2026-11-29T23:21:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-30T21:40:00-03:00",
+     "fin": "2026-12-01T00:01:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T21:40:00-03:00",
+     "fin": "2026-12-03T00:01:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
@@ -709,7 +588,7 @@
    },
    "entradas": [
     {
-     "url": "https://cinemateca.org.uy/peliculas/9695",
+     "url": "https://cinemateca.org.uy/peliculas/9691",
      "via": "cinemateca"
     }
    ],
@@ -745,90 +624,11 @@
      "url": "https://cinemateca.org.uy/"
     }
    ],
-   "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEsJNaGIX2rGNrq2usNl1xH7qZkQt_GV_vN_LGHOLbC6J9VmF9WsuqqT-D&amp;s=10",
+   "imagen_url": "https://www.caimanediciones.es/wp-content/uploads/2026/05/200498-1200x675.jpg",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
-   "ciclo": "Las mujeres de Hitchcock",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cinemateca",
-   "id_externo": "9700",
-   "url": "https://cinemateca.org.uy/peliculas/9700",
-   "titulo": "Las toninas van al este",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "De Gonzalo Delgado, Verónica Perrotta. Miguel Ángel “El Gordo” García Mazziotti (interpretado por Jorge Denevi), es una decadente figura de la farándula del Río de la Plata que vive en Punta del Este. Rechaza la visita de su hija Virginia (Perrotta), con quien estuvo distanciado durante años. Sin…",
-   "lugar": {
-    "nombre": "Cinemateca",
-    "direccion": "Bartolomé Mitre 1236",
-    "lat": -34.908515,
-    "lon": -56.2008552,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T19:30:00-03:00",
-     "fin": "2026-11-26T20:53:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 480.0,
-    "hasta": 480.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cinemateca.org.uy/peliculas/9700",
-     "via": "cinemateca"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socios Cinemateca",
-     "tipo": "Precio de socio",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Udelar",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    },
-    {
-     "programa": "Antel",
-     "tipo": "2x1",
-     "url": "https://cinemateca.org.uy/"
-    }
-   ],
-   "imagen_url": "https://www.revistafilm.com/wp-content/uploads/2016/08/las-toninas-van-al-este-jorge-denevi.jpg",
-   "productor": "Cinemateca Uruguaya",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Cine uruguayo diez años",
+   "ciclo": null,
    "etiquetas": [],
    "muestra": false,
    "hasta": null
@@ -1169,6 +969,85 @@
     }
    ],
    "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40903/image_still_binary",
+   "productor": "Cinemateca Uruguaya",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cinemateca",
+   "id_externo": "9712",
+   "url": "https://cinemateca.org.uy/peliculas/9712",
+   "titulo": "La directora – Cortos uruguayos dirigidos por mujeres",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "De Varias directoras. Este ciclo está pensado para acercar al público una parte fundamental del cine nacional que muchas veces circula poco fuera de los festivales. La programación recorrió salas del interior del país en Canelones, San José, Colonia y Rocha. Ahora cerramos la edición del 2026 con…",
+   "lugar": {
+    "nombre": "Cinemateca",
+    "direccion": "Bartolomé Mitre 1236",
+    "lat": -34.908515,
+    "lon": -56.2008552,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T19:35:00-03:00",
+     "fin": "2026-11-28T20:56:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 480.0,
+    "hasta": 480.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cinemateca.org.uy/peliculas/9712",
+     "via": "cinemateca"
+    }
+   ],
+   "beneficios": [
+    {
+     "programa": "Socios Cinemateca",
+     "tipo": "Precio de socio",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Socio Espectacular",
+     "tipo": "Socio Espectacular",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "BROU",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Udelar",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "la diaria",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    },
+    {
+     "programa": "Antel",
+     "tipo": "2x1",
+     "url": "https://cinemateca.org.uy/"
+    }
+   ],
+   "imagen_url": "https://cinemateca.org.uy/web/image/kc_cinema.film/40912/image_still_binary",
    "productor": "Cinemateca Uruguaya",
    "region": "montevideo",
    "enlaces": [],
