@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-26T11:00:14.178711-03:00",
+ "corrida": "2026-11-27T11:00:09.532621-03:00",
  "ok": true,
- "cantidad": 30,
+ "cantidad": 31,
  "errores": [],
  "eventos": [
   {
@@ -66,13 +66,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T16:00:00-03:00",
-     "fin": "2026-11-26T18:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Club La Virgen",
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T10:00:00-03:00",
      "fin": "2026-11-27T12:00:00-03:00",
@@ -786,13 +779,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-27T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -899,13 +885,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T10:00:00-03:00",
-     "fin": "2026-11-26T12:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-12-03T10:00:00-03:00",
      "fin": "2026-12-03T12:00:00-03:00",
@@ -1477,6 +1456,99 @@
   },
   {
    "fuente": "portal_im",
+   "id_externo": "1077",
+   "url": "https://eventos.montevideo.gub.uy/evento/festival-callejero-grecia-tomada/rueda-de-candombe",
+   "titulo": "Rueda de candombe",
+   "categoria": "musica",
+   "categoria_segura": true,
+   "descripcion_corta": "Viernes 4 de diciembre desde las 21:30.",
+   "lugar": {
+    "nombre": "Calle Grecia",
+    "direccion": "Grecia",
+    "lat": -34.8844345,
+    "lon": -56.2492465,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T21:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-09/s%C3%A1bado%20en%20ciudad%20vieja_candombe.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Festival callejero Grecia Tomada",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1078",
+   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque/musicas-pioneras-sabado-28-de-noviembre",
+   "titulo": "Músicas Pioneras",
+   "categoria": "teatro",
+   "categoria_segura": false,
+   "descripcion_corta": "Músicas Pioneras llega por primera vez a la Plaza Pioneras en el marco del Día Internacional de la Eliminación de la Violencia contra la Mujer. El festival reúne bandas de mujeres de distintos géneros y generaciones, y busca visibilizar su lugar en la música, en un espacio que homenajea a quienes…",
+   "lugar": {
+    "nombre": "Plaza Las Pioneras",
+    "direccion": "Agraciada 2576",
+    "lat": -34.884471,
+    "lon": -56.193224,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-11-29T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-10/Musica_parque.png",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Música en el Parque",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
    "id_externo": "476-2026-12-19",
    "url": "https://eventos.montevideo.gub.uy/sabadosenciudadvieja",
    "titulo": "Sábados en Ciudad Vieja",
@@ -1509,56 +1581,6 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Sábados en Ciudad Vieja",
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "portal_im",
-   "id_externo": "994-2026-11-28",
-   "url": "https://eventos.montevideo.gub.uy/evento/musica-en-el-parque",
-   "titulo": "Música en el Parque: Músicas Pioneras",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Disfrutá de espectáculos musicales al aire libre con entrada libre. En el marco del Programa de Fortalecimiento de las Artes , disfrutá de espectáculos musicales al aire libre, con artistas de diversos géneros en los parques de Montevideo. Entrada libre.",
-   "lugar": {
-    "nombre": "Las Pioneras",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-29T16:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Intendencia de Montevideo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": "Música en el Parque",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
