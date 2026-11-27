@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-27T11:57:40.884673-03:00",
+ "corrida": "2026-11-27T12:19:45.237854-03:00",
  "ok": true,
- "cantidad": 42,
+ "cantidad": 44,
  "errores": [],
  "eventos": [
   {
@@ -550,6 +550,49 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f329edfb078c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "molinodeperez-20261128",
+   "url": "https://www.instagram.com/p/DgPuU9vT3l5/",
+   "titulo": "Molino de Pérez: LA MÚSICA VUELVE A PULSAR EN EL MOLINO",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "¡LA MÚSICA VUELVE A PULSAR EN EL MOLINO! Este sábado 28 de noviembre nos encontramos para compartir una jornada de actividades, música y comunidad en el Molino de Pérez. Durante la tarde tendremos clases abiertas de gimnasia terapéutica, danzas circulares y taichí. También se realizará la actividad…",
+   "lugar": {
+    "nombre": "Molino de Pérez",
+    "direccion": "Pasaje Arq. Juan Veltroni",
+    "lat": -34.8941793,
+    "lon": -56.0905563,
+    "barrio": "Malvín",
+    "alternativas": [],
+    "instagram": "molinodeperez"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgPuU9vT3l5/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ac4b55a73a3c.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1300,6 +1343,51 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f3f1163a4850.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [
+    "bar"
+   ],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "montevideobeercompany-20261204",
+   "url": "https://www.instagram.com/reel/DgP4EatP4eE/",
+   "titulo": "MBC: Diciembre arranca con cumbia",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Diciembre arranca con cumbia Este viernes 4 de diciembre, 18kilatesoficial en vivo en MBC Nuevo Centro y después seguimos bailando hasta las 5 Avisale al grupo que el viernes ya hay plan",
+   "lugar": {
+    "nombre": "MBC | MONTEVIDEO BEER COMPANY",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/DgP4EatP4eE/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

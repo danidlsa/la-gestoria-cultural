@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-27T11:50:28.014608-03:00",
+ "corrida": "2026-11-27T12:12:31.537453-03:00",
  "ok": true,
- "cantidad": 71,
+ "cantidad": 72,
  "errores": [],
  "eventos": [
   {
@@ -3656,6 +3656,54 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41965.jpg",
    "productor": "Martín García",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "cartelera_mvd",
+   "id_externo": "34676",
+   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34676",
+   "titulo": "Pablo: Made in Rocha",
+   "categoria": "humor",
+   "categoria_segura": true,
+   "descripcion_corta": "Pablo Pérez es un humorista y streamer rochense. Se hizo conocido principalmente por “Partido Negro”, una parodia de un partido político en la que él se presenta como candidato a presidente de Uruguay. Su contenido mezcla parodias políticas, chistes y situaciones cotidianas. En esta oportunidad…",
+   "lugar": {
+    "nombre": "UnderMovie",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T20:45:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 800.0,
+    "hasta": 800.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34676",
+     "via": "cartelera_mvd"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42427.jpg",
+   "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
