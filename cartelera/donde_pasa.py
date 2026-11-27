@@ -1,10 +1,13 @@
 """"Dónde pasa": el tipo de lugar de cada sala (bares y cafés, espacios culturales, salas chicas y grandes, al aire libre).
 
-La clasificación es a mano, por lugar, en config/donde_pasa.toml. Un lugar nuevo (una sala que aparece por primera
-vez, un bar que sumamos de Instagram) queda sin etiqueta y no sale cuando alguien filtra por "Dónde pasa". Para que
-no se pierda, se abre un aviso en GitHub con los lugares que tienen eventos y no están en ningún grupo (uno solo, que se
-va actualizando como el de eventos sin ubicación: comenta cuando aparece un lugar nuevo y se cierra cuando no queda
-ninguno).
+La clasificación es a mano, por lugar, en config/donde_pasa.toml. "Al aire libre" es además una marca de cada evento
+(ver al_aire_libre): el lugar da el valor de partida, el texto del evento lo corrige (una muestra adentro de un parque,
+una caminata que sale de un museo) y, por encima de todo, van las excepciones a mano por link.
+
+Un lugar nuevo (una sala que aparece por primera vez, un bar que sumamos de Instagram) queda sin etiqueta y no sale
+cuando alguien filtra por "Dónde pasa". Para que no se pierda, se abre un aviso en GitHub con los lugares que tienen
+eventos y no están en ningún grupo (uno solo, que se va actualizando como el de eventos sin ubicación: comenta cuando
+aparece un lugar nuevo y se cierra cuando no queda ninguno).
 """
 
 import json
@@ -17,10 +20,13 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
+from cartelera.geo import sin_tildes
+
 CONFIG = Path("config/donde_pasa.toml")
 DIR_DATOS = Path("datos")
 ETIQUETA = "donde-pasa"
 NO_APLICA = "no_aplica"  # el grupo de los que no llevan etiqueta a propósito (museos, cines, librerías…)
+AIRE_LIBRE = "aire_libre"
 log = logging.getLogger(__name__)
 
 
@@ -33,6 +39,55 @@ def cargar(ruta: Path = CONFIG) -> tuple[dict[str, str], dict[str, str]]:
     nombres = {clave: grupo["nombre"] for clave, grupo in grupos.items()}
     de_lugar = {lugar: clave for clave, grupo in grupos.items() for lugar in grupo.get("lugares", [])}
     return nombres, de_lugar
+
+
+def reglas_aire_libre(ruta: Path = CONFIG) -> dict[str, set[str]]:
+    """Lo que se suma a mano en [aire_libre]: lugares de otro grupo que también son al aire libre (tambien) y los
+    eventos, por link, que sí o que no (si / no), digan lo que digan el lugar y el texto."""
+    grupo = tomllib.loads(ruta.read_text(encoding="utf-8")).get(AIRE_LIBRE, {}) if ruta.exists() else {}
+    return {clave: set(grupo.get(clave, [])) for clave in ("tambien", "si", "no")}
+
+
+# Lo que dice el texto del evento (título y descripción, sin tildes). Primero lo que lo deja adentro aunque el lugar
+# sea abierto: el lugar real no se sabe (un "lugar secreto", un meet & greet que se avisa antes, el bus que lleva a una
+# fiesta) o es claramente bajo techo (una sala de proyección en un galpón).
+_ADENTRO = re.compile(r"lugar secreto|se avisa(?:ra)? el lugar|detalles del lugar|meet\s*(?:&|and)\s*greet|\bm&g\b"
+                      r"|\btransporte\b|sala de proyeccion|\bgalpon\b")
+# Lo que lo hace al aire libre aunque el lugar no lo sea: lo dice, es en la calle, o es una caminata.
+_AFUERA = re.compile(r"al aire libre|a la calle|caminata|walking tour|recorrido a pie|silent (?:horror )?tour"
+                     r"|\bdesfile\b|(?<!baile de )\bllamadas\b")
+# Una feria sola puede ser bajo techo (Espacio Modelo, un cowork): cuenta si dice que es en una plaza, parque, rambla
+# o calle.
+_FERIA_AFUERA = re.compile(r"\bferia\b.{0,80}\b(?:plaza|parque|rambla|calle)\b"
+                           r"|\b(?:plaza|parque|rambla|calle)\b.{0,80}\bferia\b", re.S)
+
+
+def al_aire_libre(evento: dict, de_lugar: dict[str, str], reglas: dict[str, set[str]]) -> bool:
+    """Si el evento es al aire libre: excepción a mano por link > texto del evento > lugar."""
+    links = {f.get("url") for f in evento.get("fuentes", [])}
+    if links & reglas["no"]:
+        return False
+    if links & reglas["si"]:
+        return True
+    texto = sin_tildes(f"{evento.get('titulo') or ''} {evento.get('descripcion_corta') or ''}")
+    if "al aire libre" not in texto and _ADENTRO.search(texto):
+        return False
+    if _AFUERA.search(texto) or _FERIA_AFUERA.search(texto):
+        return True
+    if evento.get("categoria") == "exposicion":  # una muestra en un parque o una plaza suele ser adentro de un edificio
+        return False
+    lugar = evento.get("lugar_id")
+    return de_lugar.get(lugar) == AIRE_LIBRE or lugar in reglas["tambien"]
+
+
+def donde(evento: dict, de_lugar: dict[str, str], reglas: dict[str, set[str]]) -> list[str]:
+    """Los grupos de "Dónde pasa" de un evento: el de su lugar (salvo aire libre) y "aire_libre" si lo es. Un evento
+    puede ser de dos (el Teatro de Verano es sala grande y al aire libre) o de ninguno (una muestra en una plaza)."""
+    grupo = de_lugar.get(evento.get("lugar_id"))
+    grupos = [grupo] if grupo and grupo != AIRE_LIBRE else []
+    if al_aire_libre(evento, de_lugar, reglas):
+        grupos.append(AIRE_LIBRE)
+    return grupos
 
 
 def clasificados(ruta: Path = CONFIG) -> set[str]:

@@ -188,7 +188,8 @@
   };
   // "Dónde pasa": el tipo de lugar (bares y cafés, espacios culturales, salas chicas y grandes, al aire libre; config/donde_pasa.toml).
   // Se suman entre sí y achican lo elegido en tipo: Música + Bares y cafés = música en bares.
-  const dondeDe = (evento) => datos.lugares[evento.lugar]?.donde;
+  // Cada evento trae su lista: el grupo del lugar y "aire_libre" si lo es (Teatro de Verano: sala grande y aire libre).
+  const dondeDe = (evento) => evento.donde || [];
   const nombreDonde = (clave) => (clave === "aire_libre" ? "Al aire libre" : `En ${(datos.dondePasa[clave] || clave).toLowerCase()}`);
   // El orden no es un filtro: "Borrar todo" no lo toca.
   let estado = { seccion: "agenda", mes: hoy.slice(0, 7), planMes: hoy.slice(0, 7), orden: ordenGuardado, ...FILTROS_INICIALES };
@@ -256,12 +257,12 @@
       if (estado.excluir.includes(etiqueta) && !(etiqueta === "festival" && s === "festivales")) return false;
     }
     // "Sin bares": también los bares y cafés de "Dónde pasa" (no solo los que vienen de Instagram).
-    if (estado.excluir.includes("bar") && dondeDe(evento) === "bares") return false;
+    if (estado.excluir.includes("bar") && dondeDe(evento).includes("bares")) return false;
     const rubros = categoriasElegidas();
     const etiquetasPedidas = etiquetasElegidas();
     if (rubros.length && !rubros.includes(evento.categoria)) return false;
     if (etiquetasPedidas.length && !etiquetasPedidas.some((etiqueta) => evento.etiquetas.includes(etiqueta))) return false;
-    if (estado.donde.length && !estado.donde.includes(dondeDe(evento))) return false;
+    if (estado.donde.length && !estado.donde.some((clave) => dondeDe(evento).includes(clave))) return false;
     if (unaCategoria()) {
       if (estado.sub === "otros" && evento.sub) return false;
       if (estado.sub && estado.sub !== "otros" && evento.sub !== estado.sub) return false;

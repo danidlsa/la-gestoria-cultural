@@ -19,6 +19,8 @@ from markupsafe import Markup
 from cartelera import especiales
 from cartelera.caminatas import caminatas
 from cartelera.donde_pasa import cargar as donde_pasa
+from cartelera.donde_pasa import donde as donde_del_evento
+from cartelera.donde_pasa import reglas_aire_libre
 from cartelera.geo import VARIOS_BARRIOS
 from cartelera.scrapers.base import MONTEVIDEO
 from cartelera.scrapers.propuestos import configuracion as configuracion_agrega
@@ -282,6 +284,7 @@ def datos_para_el_navegador(eventos: list[dict], lugares: dict[str, dict], ciclo
         por_lugar.setdefault(e["lugar_id"], []).append(e)
     nombre_ciclo = {c["id"]: c["titulo"] for c in ciclos}
     nombres_donde, de_lugar = donde_pasa()
+    reglas = reglas_aire_libre()
     return {
         "eventos": [
             {
@@ -296,6 +299,8 @@ def datos_para_el_navegador(eventos: list[dict], lugares: dict[str, dict], ciclo
                 "etiquetas": e.get("etiquetas", []),
                 "ciclo": e.get("ciclo_id"),
                 "lugar": e["lugar_id"],
+                # "Dónde pasa": el grupo del lugar y, si lo es, "aire_libre" (que también depende del evento).
+                "donde": donde_del_evento(e, de_lugar, reglas),
                 # Un recorrido que no dice de dónde sale: el lugar es una de sus paradas (en el mapa se avisa).
                 "aprox": e.get("ubicacion_aproximada", False),
                 "presupuesto": presupuesto(e.get("precio")),
@@ -314,7 +319,6 @@ def datos_para_el_navegador(eventos: list[dict], lugares: dict[str, dict], ciclo
                 "nombre": l["nombre"], "lat": l.get("lat"), "lon": l.get("lon"), "direccion": l.get("direccion"),
                 "barrio": l.get("barrio"), "instagram": l.get("instagram"),
                 "tipo": tipo_de_lugar(id_, l["nombre"], por_lugar.get(id_, [])),
-                "donde": de_lugar.get(id_),
             }
             for id_, l in lugares.items()
         },
@@ -443,7 +447,8 @@ def generar() -> Path:
     # "Dónde pasa": el tipo de lugar (bares y cafés, salas chicas, salas grandes, al aire libre). No se suma a los tipos
     # sino que los achica (Música + Bares y cafés: música en bares), así que va aparte. Solo los que tienen eventos.
     nombres_donde, de_lugar = donde_pasa()
-    con_eventos = {de_lugar.get(e["lugar_id"]) for e in eventos}
+    reglas = reglas_aire_libre()
+    con_eventos = {clave for e in eventos for clave in donde_del_evento(e, de_lugar, reglas)}
     solo_en = [(clave, nombre) for clave, nombre in nombres_donde.items() if clave in con_eventos]
     nombres_fuentes = [FUENTES[f] for f in sorted({p["fuente"] for e in eventos for p in e["fuentes"]}) if f in FUENTES]
     agrega = formulario_para_agregar(configuracion_agrega())

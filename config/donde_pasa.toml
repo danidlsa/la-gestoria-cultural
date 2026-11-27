@@ -6,7 +6,9 @@
 #               colectivo, una cooperativa, un centro cultural o una institución, sin ser principalmente una sala
 #   chicas      salas de espectáculos de hasta unas 300 personas
 #   grandes     salas de más de 300 (teatros grandes, arenas, clubes, hoteles)
-#   aire_libre  plazas, parques, rambla, calle
+#   aire_libre  plazas, parques, rambla, calle. Además de por lugar, se decide por evento (cartelera/donde_pasa.py):
+#               el texto lo corrige (una muestra adentro del Molino de Pérez no; una caminata que sale de un museo sí)
+#               y, por encima de todo, las listas "si" y "no" de abajo, por link del evento.
 # El tamaño sale del aforo publicado cuando existe; si no, va a ojo. Museos, cines, librerías y discotecas no llevan
 # etiqueta. Un lugar nuevo queda sin etiqueta (no aparece cuando se filtra por "Dónde pasa") hasta sumarlo acá.
 # Van los id de los lugares (como en datos/lugares.json). Un lugar con eventos que no está en ningún grupo (ni en
@@ -87,6 +89,7 @@ lugares = [
     "balcon-del-cerro",
     "biblioteca-popular-el-cantaro-fresco",
     "buenos-aires-314",
+    "cabana-anaya",
     "casa-cultus",
     "casona-maua",
     "cedel-carrasco",
@@ -241,7 +244,7 @@ lugares = [
     "ansina-e-isla-de-flores",
     "av-republica-federal-de-alemania",
     "bacacay-y-buenos-aires",
-    "cabana-anaya",
+    "calle-grecia",
     "carrasco",
     "cine-al-aire-libre",
     "ciudad-vieja",
@@ -250,7 +253,6 @@ lugares = [
     "juan-carlos-gomez-y-piedras",
     "juan-carlos-gomez-y-reconquista",
     "lago-cachon",
-    "miguelete-piedra-alta",
     "minas-durazno",
     "molino-de-perez",
     "parque-capurro",
@@ -264,6 +266,7 @@ lugares = [
     "plaza-cagancha",
     "plaza-conaprole",
     "plaza-de-las-pioneras",
+    "plaza-florencio-sanchez",
     "plaza-gomensoro",
     "plaza-independencia",
     "plaza-mateo",
@@ -275,9 +278,18 @@ lugares = [
     "rambla-de-montevideo",
     "rambla-de-punta-carretas-montevideo",
     "rambla-presidente-wilson",
-    "rbla-pte-charles-de-gaulle-1569",
     "rural-del-prado",
     "terreno-de-covi-funac",
+]
+# Lugares de otro grupo que también son al aire libre: salen en los dos filtros.
+tambien = [
+    "teatro-de-verano",  # anfiteatro sin techo
+]
+# Eventos que sí o que no, por link (el de su fuente: entrada, post de Instagram…), digan lo que digan el lugar y el
+# texto. Por ejemplo: si = ["https://www.instagram.com/p/DgF4991EdMr/"]  # el cumple de Brecha, en la esquina
+si = []
+no = [
+    "https://www.redtickets.uy/evento/ERROLL-GARNER-TRIBUTE-Cesar-Latorre-Trio/35271/",  # en el Club Uruguay, frente a la plaza
 ]
 
 # Los que no llevan etiqueta a propósito (museos, cines, librerías, discotecas, direcciones sueltas): no se muestran
@@ -366,6 +378,7 @@ lugares = [
     "mamba-club",
     "mandarine",
     "mercadito-eureka",
+    "miguelete-piedra-alta",
     "minerva-libros",
     "montevideo-departamento-de-montevideo",
     "mumi-muralla-abierta",
@@ -396,6 +409,7 @@ lugares = [
     "puro-verso",
     "quinta-de-mendilaharsu",
     "rambla-gandhi-633",
+    "rbla-pte-charles-de-gaulle-1569",
     "rincon-732",
     "sala-teatro-mad",
     "soriano-817",

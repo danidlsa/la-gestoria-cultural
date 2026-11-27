@@ -149,6 +149,34 @@ def test_donde_pasa_avisa_de_los_lugares_sin_etiqueta(tmp_path):
     assert "**Sala Nueva** (Soriano 1) · `sala-nueva` · 2 eventos" in cuerpo and "<!-- lugar:sala-nueva -->" in cuerpo
 
 
+def test_al_aire_libre_se_decide_por_evento(tmp_path):
+    from cartelera import donde_pasa
+    config = tmp_path / "donde_pasa.toml"
+    config.write_text('[grandes]\nnombre = "Salas grandes"\nlugares = ["teatro-de-verano", "sala-del-museo"]\n\n'
+                      '[aire_libre]\nnombre = "Al aire libre"\nlugares = ["rural-del-prado", "plaza-mateo"]\n'
+                      'tambien = ["teatro-de-verano"]\nsi = ["https://ig.uy/p/brecha"]\nno = ["https://x.uy/mateo"]\n',
+                      encoding="utf-8")
+    _, de_lugar = donde_pasa.cargar(config)
+    reglas = donde_pasa.reglas_aire_libre(config)
+    def donde(lugar, titulo, descripcion="", categoria="musica", url="https://x.uy/"):
+        evento = {"lugar_id": lugar, "titulo": titulo, "descripcion_corta": descripcion, "categoria": categoria,
+                  "fuentes": [{"url": url}]}
+        return donde_pasa.donde(evento, de_lugar, reglas)
+    assert donde("plaza-mateo", "FARRA") == ["aire_libre"]  # el lugar
+    assert donde("teatro-de-verano", "Murga Joven") == ["grandes", "aire_libre"]  # sala grande y aire libre
+    patio = donde("sala-del-museo", "Mateo x6", "Una noche especial al aire libre en el patio")
+    assert patio == ["grandes", "aire_libre"]
+    assert donde("museo-oceanografico", "Silent Horror Tour: Buceo") == ["aire_libre"]  # caminata que sale de un museo
+    assert donde("rural-del-prado", "Da Vinci", "en una sala de proyección a gran escala") == []
+    assert donde("plaza-mateo", "Fiesta Flora", "en nuestro nuevo lugar secreto ;)") == []
+    assert donde("rural-del-prado", "Tejiendo memorias", categoria="exposicion") == []  # muestra: adentro
+    assert donde("espacio-modelo", "Feria de segunda mano", "150 stands en el ex Mercado Modelo") == []
+    assert donde("bar", "Ideas+", "Feria en la Plaza Florencio Sánchez, Parque Rodó") == ["aire_libre"]
+    assert donde("bar", "Baile de llamadas") == []
+    assert donde("bar", "Cumple", url="https://ig.uy/p/brecha") == ["aire_libre"]  # a mano, por link
+    assert donde("plaza-mateo", "Al aire libre", url="https://x.uy/mateo") == []
+
+
 def test_el_precio_para_ordenar_por_precio():
     from cartelera.sitio.generar import datos_para_el_navegador
     base = {"titulo": "X", "categoria": "musica", "lugar_id": "l", "fuentes": [{"url": "https://x.uy"}],
