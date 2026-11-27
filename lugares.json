@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-27T00:54:13.653216-03:00",
- "cantidad": 194,
+ "generado": "2026-11-27T11:59:03.985880-03:00",
+ "cantidad": 186,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -200,52 +200,6 @@
    "instagram": null
   },
   {
-   "id": "bar-andorra",
-   "nombre": "Bar Andorra",
-   "alias": [],
-   "direccion": "Canelones y Aquiles Lanza",
-   "lat": -34.908481,
-   "lon": -56.187691,
-   "barrio": "Barrio Sur",
-   "ciudad": "Montevideo",
-   "instagram": "barandorra"
-  },
-  {
-   "id": "bar-facal",
-   "nombre": "Bar Facal",
-   "alias": [],
-   "direccion": "Av. 18 de Julio y Yi",
-   "lat": -34.9056381,
-   "lon": -56.1892753,
-   "barrio": "Centro",
-   "ciudad": "Montevideo",
-   "instagram": "barfacal"
-  },
-  {
-   "id": "bar-marbella",
-   "nombre": "Bar Marbella",
-   "alias": [
-    "Marbella"
-   ],
-   "direccion": "Av. Gonzalo Ramírez y Dr. Joaquín de Salterain",
-   "lat": -34.911478,
-   "lon": -56.1691306,
-   "barrio": "Parque Rodó",
-   "ciudad": "Montevideo",
-   "instagram": "barmarbella.uy"
-  },
-  {
-   "id": "bar-paysandu",
-   "nombre": "Bar Paysandú",
-   "alias": [],
-   "direccion": "Av. Gral. Rondeau y Paysandú",
-   "lat": -34.9021371,
-   "lon": -56.1918014,
-   "barrio": "Centro",
-   "ciudad": "Montevideo",
-   "instagram": "paysandu_bar"
-  },
-  {
    "id": "botanica-sala",
    "nombre": "Botánica Sala",
    "alias": [
@@ -317,17 +271,6 @@
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
-  },
-  {
-   "id": "cafe-brasilero",
-   "nombre": "Café Brasilero",
-   "alias": [],
-   "direccion": "Ituzaingó y 25 de Mayo",
-   "lat": -34.9055457,
-   "lon": -56.2046474,
-   "barrio": "Ciudad Vieja",
-   "ciudad": "Montevideo",
-   "instagram": "cafebrasilero.uy"
   },
   {
    "id": "calle-grecia",
@@ -771,20 +714,6 @@
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
-  },
-  {
-   "id": "escaramuza",
-   "nombre": "Escaramuza",
-   "alias": [
-    "Escaramuza Libros y Café",
-    "Escaramuza Libros & Café"
-   ],
-   "direccion": "Dr. Pablo de María 1185",
-   "lat": -34.9065054,
-   "lon": -56.17098,
-   "barrio": "Cordón",
-   "ciudad": "Montevideo",
-   "instagram": "_escaramuza"
   },
   {
    "id": "escuela-nacional-de-declamacion-esnade",
@@ -1301,17 +1230,6 @@
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
-  },
-  {
-   "id": "montevideo-al-sur",
-   "nombre": "Montevideo al Sur",
-   "alias": [],
-   "direccion": "Paraguay y Maldonado",
-   "lat": -34.9097311,
-   "lon": -56.1921134,
-   "barrio": "Barrio Sur",
-   "ciudad": "Montevideo",
-   "instagram": "mvdalsur"
   },
   {
    "id": "movie-montevideo-shopping",
@@ -1930,20 +1848,6 @@
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": "sansuena_cafevivero"
-  },
-  {
-   "id": "santa-catalina-bar-cafe",
-   "nombre": "Santa Catalina Bar Café",
-   "alias": [
-    "Santa Catalina Bar",
-    "Santa Catalina"
-   ],
-   "direccion": "Ciudadela 1200",
-   "lat": -34.909496,
-   "lon": -56.1999995,
-   "barrio": "Barrio Sur",
-   "ciudad": "Montevideo",
-   "instagram": "santacatalinabar"
   },
   {
    "id": "sitio-parque-roosevelt",

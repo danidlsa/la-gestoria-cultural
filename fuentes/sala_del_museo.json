@@ -1,55 +1,10 @@
 {
  "fuente": "sala_del_museo",
- "corrida": "2026-11-26T17:28:53.122586-03:00",
+ "corrida": "2026-11-27T11:53:28.751321-03:00",
  "ok": true,
  "cantidad": 12,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "sala_del_museo",
-   "id_externo": "la-chancha-2",
-   "url": "https://www.saladelmuseo.com.uy/shows/item/la-chancha-2.html",
-   "titulo": "LA CHANCHA",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "LA CHANCA EN SALA DEL MUSEO DEL CARNAVAL.",
-   "lugar": {
-    "nombre": "Sala del Museo",
-    "direccion": "Rambla 25 de Agosto esq. Maciel",
-    "lat": -34.905789,
-    "lon": -56.212222,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/LA-CHANCHA/33245/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/6_1080_sinlogos_7781b0348c478579a6e91e66e696ed73.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/LA-CHANCHA/33245/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "sala_del_museo",
    "id_externo": "festival-candombe-y-salsa-360",
@@ -539,6 +494,51 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Samba-Do-Marcio--DICIEMBRE/34945/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "trotsky-vengaran-13",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/trotsky-vengaran-13.html",
+   "titulo": "TROTSKY VENGARAN",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "TROTSKY VENGARÁN vuelve a la “Sala del Museo” para celebrar su ya clásica “Noche de los Deseos”. Un show con el que la banda cierra el año tirando la casa por la ventana. Una lista de temas extensa, integrada mayormente por canciones pedidas por el público, que mezcla clásicos con temas nuevos y…",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-18T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/TROTSKY-VENGARAN/34786/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/2_cuadrada_2_4_b687e3c6e58f6587ae9b7f72cdb50776.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/TROTSKY-VENGARAN/34786/"
    ],
    "ciclo": null,
    "etiquetas": [],

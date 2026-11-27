@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-27T00:52:22.596442-03:00",
+ "corrida": "2026-11-27T11:57:40.884673-03:00",
  "ok": true,
- "cantidad": 41,
+ "cantidad": 42,
  "errores": [],
  "eventos": [
   {
@@ -233,56 +233,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261126",
-   "url": "https://www.instagram.com/p/DgK0dP4xoLU/",
-   "titulo": "The Shannon: JUANY BONES e invitados",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Jueves 26/Noviembre: JUANY BONES e invitados Rock&pop - 22 hs Cubierto artístico $150",
-   "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": "theshannonuy"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T22:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 150.0,
-    "hasta": 150.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DgK0dP4xoLU/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/bb833a71531a.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "ccemontevideo-20261127",
    "url": "https://www.instagram.com/p/DfnEZWNGHn8/",
    "titulo": "Centro Cultural de España: A mover las cachas! Llega La Ventolera al CCE",
@@ -336,7 +286,7 @@
    "titulo": "Club Cultural Charco: pianobar con leandroaq",
    "categoria": "fiesta",
    "categoria_segura": false,
-   "descripcion_corta": "Nos vemos y nos cantamos este viernes 27 a partir de las 20.30 h. Será una gran fiesta. Queremos verte acá para seguir celebrando exactamente esta vida Pianoman: leandroaq Maldonado 1477, Montevideo.",
+   "descripcion_corta": "Cerramos la semana de festejos por nuestros 5 años con el pianobar. Nos vemos y nos cantamos este viernes 27 a partir de las 20.30 h. Será una gran fiesta. Queremos verte acá para seguir celebrando exactamente esta vida Pianoman: leandroaq Maldonado 1477, Montevideo. Viernes 27 de noviembre, 20.30…",
    "lugar": {
     "nombre": "Club Cultural Charco",
     "direccion": "Maldonado 1477",
@@ -355,7 +305,12 @@
      "agotada": false
     }
    ],
-   "precio": null,
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
    "entradas": [
     {
      "url": "https://www.instagram.com/p/DgL4Q-5lZd0/",
@@ -606,11 +561,11 @@
   {
    "fuente": "instagram_bares",
    "id_externo": "epi_cultural-20261128",
-   "url": "https://www.instagram.com/p/DgLLqefAHCu/",
+   "url": "https://www.instagram.com/p/DgPrO1-Aot_/",
    "titulo": "Espacio Peppino Impastato: Abrimos EPI",
-   "categoria": "musica",
+   "categoria": "otros",
    "categoria_segura": false,
-   "descripcion_corta": "¡Este sábado inauguramos EPI! Y como no podía faltar vamos a tener una performance artística: TUTTO VA BIEN Con la participación de: tatiana.tree mikamelobenitez 6alana_dacunha9 _soniabongiovanni Ya tenes un planazo para este sábado con música en vivo y cosas ricas para comer y tomar ¡Guardate la…",
+   "descripcion_corta": "La artista que faltaba es Lu Ferreira Mañana, sábado 28 de noviembre, va estar acompañándonos en la inauguración de EPI luchitaferreira ¡No te lo podes perder! Acércate a disfrutar de buena música y cosas ricas Sábado 28 de noviembre | 18:30 hs. Piedras 429 (Ciudad Vieja) Entrada libre y gratuita…",
    "lugar": {
     "nombre": "Espacio Peppino Impastato",
     "direccion": "Piedras 429",
@@ -637,7 +592,7 @@
    },
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DgLLqefAHCu/",
+     "url": "https://www.instagram.com/p/DgPrO1-Aot_/",
      "via": "instagram"
     }
    ],
@@ -1722,6 +1677,99 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1872b308c76e.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "lamadredelassecond-20261212",
+   "url": "https://www.instagram.com/reel/DgOXQKgx5Qf/",
+   "titulo": "La Madre de las Second Hand: Muchas gracias a todas las personas que nos acompañaron el sábado pasado en Plaza…",
+   "categoria": "feria",
+   "categoria_segura": true,
+   "descripcion_corta": "¡Muchas gracias a todas las personas que nos acompañaron el sábado pasado en Plaza Primero de Mayo! ¡Estuvo hermoso! ¡Se viene la última edición del año y esperamos a todas y todos para celebrar juntos! Sábado 12 y domingo 13 de diciembre espaciomodelomvd (ex Mercado Modelo) De 11 a 18 hs 150…",
+   "lugar": {
+    "nombre": "Espacio Modelo",
+    "direccion": "Cádiz 3280",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-12T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-13T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/DgOXQKgx5Qf/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "fama.tours-20261213",
+   "url": "https://www.instagram.com/p/DgOKS2GK28r/",
+   "titulo": "fama.tours: Fiesta Criolla en Estancia Taranco",
+   "categoria": "tour",
+   "categoria_segura": true,
+   "descripcion_corta": "Fiesta Criolla en Estancia Taranco. Celebrando el Día de Santa Lucía visitamos el antiguo feudo de Oribe, Buxareo y Ortiz de Taranco. Música en vivo, comidas típicas, bebidas en la pulpería \"Don Félix\". Domingo 13 de Diciembre 12:00 a 16:00 horas 950 pesos uruguayos (importante: no incluye…",
+   "lugar": {
+    "nombre": "Fiesta Criolla en Estancia Taranco",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-13T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgOKS2GK28r/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f4e2bf473543.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

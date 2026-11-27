@@ -1,100 +1,10 @@
 {
  "fuente": "piano_piano",
- "corrida": "2026-11-26T17:29:08.581459-03:00",
+ "corrida": "2026-11-27T11:53:43.365825-03:00",
  "ok": true,
- "cantidad": 13,
+ "cantidad": 12,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "piano_piano",
-   "id_externo": "2026-11-26-Gabriel Rolón",
-   "url": "https://pianopiano.uy/agenda/",
-   "titulo": "Gabriel Rolón",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021474/espectaculo/Gabriel%20Rol%C3%B3n?3",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://pianopiano.uy/wp-content/uploads/FOTO-PRENSA--piano-piano-e1790351906761.jpg",
-   "productor": "Piano Piano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40021474/espectaculo/Gabriel%20Rol%C3%B3n?3"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "piano_piano",
-   "id_externo": "2026-11-27-Julieta Laso",
-   "url": "https://pianopiano.uy/agenda/",
-   "titulo": "Julieta Laso",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Sala Zitarrosa",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021526/espectaculo/Julieta%20Laso?1",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://pianopiano.uy/wp-content/uploads/Copia-de-_12A7947-piano-piano-e1790351611424.jpg",
-   "productor": "Piano Piano",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40021526/espectaculo/Julieta%20Laso?1"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "piano_piano",
    "id_externo": "2026-12-03-Diego Torres",
@@ -359,6 +269,51 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Jorge-Drexler--Taraca--Open-Park/34875/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "piano_piano",
+   "id_externo": "2027-03-12-Julieta Laso",
+   "url": "https://pianopiano.uy/agenda/",
+   "titulo": "Julieta Laso",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Sala Zitarrosa",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-03-12T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://tickantel.com.uy/inicio/espectaculo/40021526/espectaculo/Julieta%20Laso?1",
+     "via": "tickantel"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://pianopiano.uy/wp-content/uploads/Copia-de-_12A7947-piano-piano-e1790351611424.jpg",
+   "productor": "Piano Piano",
+   "region": "montevideo",
+   "enlaces": [
+    "https://tickantel.com.uy/inicio/espectaculo/40021526/espectaculo/Julieta%20Laso?1"
    ],
    "ciclo": null,
    "etiquetas": [],

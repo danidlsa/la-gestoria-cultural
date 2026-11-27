@@ -1,23 +1,7 @@
 {
- "generado": "2026-11-27T00:54:13.653216-03:00",
- "cantidad": 24,
+ "generado": "2026-11-27T11:59:03.985880-03:00",
+ "cantidad": 23,
  "ciclos": [
-  {
-   "id": "ciclo-noche-de-los-cafes-y-bares-notables-2026",
-   "titulo": "Noche de los Cafés y Bares Notables 2026",
-   "lugar_id": null,
-   "desde": "2026-11-26T19:00:00-03:00",
-   "hasta": "2026-11-26T23:00:00-03:00",
-   "cantidad": 14
-  },
-  {
-   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
-   "titulo": "Estreno de obras Fortalecimiento de las Artes",
-   "lugar_id": null,
-   "desde": "2026-11-26T21:00:00-03:00",
-   "hasta": "2026-12-04T21:00:00-03:00",
-   "cantidad": 3
-  },
   {
    "id": "ciclo-envejecimiento-activo",
    "titulo": "Envejecimiento activo",
@@ -59,11 +43,19 @@
    "cantidad": 3
   },
   {
+   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
+   "titulo": "Estreno de obras Fortalecimiento de las Artes",
+   "lugar_id": null,
+   "desde": "2026-11-27T21:00:00-03:00",
+   "hasta": "2026-12-04T21:00:00-03:00",
+   "cantidad": 3
+  },
+  {
    "id": "ciclo-musica-en-el-parque",
    "titulo": "Música en el Parque",
    "lugar_id": "plaza-de-las-pioneras",
-   "desde": "2026-11-28T16:00:00-03:00",
-   "hasta": "2026-11-29T16:00:00-03:00",
+   "desde": "2026-11-28T17:00:00-03:00",
+   "hasta": "2026-11-29T17:00:00-03:00",
    "cantidad": 1
   },
   {
@@ -111,8 +103,8 @@
    "titulo": "Festival callejero Grecia Tomada",
    "lugar_id": null,
    "desde": "2026-12-04T17:00:00-03:00",
-   "hasta": "2026-12-04T20:30:00-03:00",
-   "cantidad": 5
+   "hasta": "2026-12-04T21:30:00-03:00",
+   "cantidad": 6
   },
   {
    "id": "ciclo-ciclo-de-piano",

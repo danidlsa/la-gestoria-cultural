@@ -1,8 +1,8 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-26T17:29:53.467377-03:00",
+ "corrida": "2026-11-27T11:54:29.261718-03:00",
  "ok": true,
- "cantidad": 26,
+ "cantidad": 25,
  "errores": [],
  "eventos": [
   {
@@ -23,13 +23,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-27T00:00:00-03:00",
      "fin": null,
@@ -191,13 +184,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-27T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -612,6 +598,13 @@
     },
     {
      "inicio": "2027-01-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-26T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -659,13 +652,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-27T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1080,6 +1066,13 @@
     },
     {
      "inicio": "2027-01-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-26T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -1127,13 +1120,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-26T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-27T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
@@ -1548,6 +1534,13 @@
     },
     {
      "inicio": "2027-01-25T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2027-01-26T00:00:00-03:00",
      "fin": null,
      "sin_hora": true,
      "sala": null,
@@ -2006,6 +1999,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -2460,6 +2460,13 @@
      "sin_hora": true,
      "sala": null,
      "agotada": false
+    },
+    {
+     "inicio": "2027-01-26T00:00:00-03:00",
+     "fin": null,
+     "sin_hora": true,
+     "sala": null,
+     "agotada": false
     }
    ],
    "precio": {
@@ -2483,49 +2490,6 @@
    "etiquetas": [],
    "muestra": true,
    "hasta": "2027-02-28"
-  },
-  {
-   "fuente": "mnav",
-   "id_externo": "teatroenelmuseo2026",
-   "url": "https://mnav.gub.uy/cms.php?id=teatroenelmuseo2026",
-   "titulo": "Intercambio teatral en el Museo 2026",
-   "categoria": "charla",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
-    "lat": -34.91384,
-    "lon": -56.16497,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T10:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://mnav.gub.uy/cms.php?id=teatroenelmuseo2026",
-     "via": "mnav"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://mnav.gub.uy/img.php?p=teatroenelmuseo2026",
-   "productor": "Museo Nacional de Artes Visuales",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
   },
   {
    "fuente": "mnav",
@@ -2875,7 +2839,7 @@
    "fuente": "mnav",
    "id_externo": "portocasas",
    "url": "https://mnav.gub.uy/cms.php?id=portocasas",
-   "titulo": "Apertura de intervención en el Auditorio de la artista en residencia 2026: Mary Porto Casas",
+   "titulo": "Mary Porto Casas: Apertura de su intervención en el Auditorio",
    "categoria": "charla",
    "categoria_segura": false,
    "descripcion_corta": null,

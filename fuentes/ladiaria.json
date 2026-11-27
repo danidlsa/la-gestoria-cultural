@@ -1,6 +1,6 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-27T00:48:25.624286-03:00",
+ "corrida": "2026-11-27T11:53:47.515428-03:00",
  "ok": true,
  "cantidad": 45,
  "errores": [],
@@ -1014,15 +1014,7 @@
     "alternativas": [],
     "instagram": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-26T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 580.0,
     "hasta": 580.0,
@@ -1806,13 +1798,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-26T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-12-03T20:30:00-03:00",
      "fin": null,
