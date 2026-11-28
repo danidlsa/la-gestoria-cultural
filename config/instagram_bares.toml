@@ -426,6 +426,330 @@ categoria = "tour"
 bar = false
 notas = "recorridos a pie; lo que tiene fecha en su web ya entra solo (fuente peatonal_tours): de acá, lo que anuncien aparte. Si un borrador repite un tour de la web, no hace falta aprobarlo"
 
+# Sumadas el 27/11/2026: las que pasó Daniela.
+[[bar]]
+usuario = "ferianocturnaparquerodo"
+nombre = "Feria Nocturna Parque Rodó"
+direccion = "Av. Sarmiento y Julio Herrera y Reissig"
+barrio = "Parque Rodó"
+categoria = "feria"
+bar = false
+notas = "temporada 2026-27: del 25 de noviembre al 5 de enero, de 18 a 24"
+
+[[bar]]
+usuario = "feltrinellilibrerias_mvd"
+nombre = "Feltrinelli"  # como en la Noche de las Librerías
+direccion = "Sarandí 675"
+barrio = "Ciudad Vieja"
+bar = false
+notas = "librería y café"
+
+[[bar]]
+usuario = "miradoruy"
+nombre = "Espacio Mirador"
+direccion = "Eduardo Acevedo 899"
+bar = false
+notas = "café con sesiones y line-up los sábados; también organiza el festival Quermes (@festival.quermes)"
+
+[[bar]]
+usuario = "montevideopopup"
+nombre = "Montevideo Pop Up"
+itinerante = true
+bar = false
+notas = "festival gastronómico itinerante: cada fecha en un parque distinto (sale del 📍); el 29/11/2026, Parque Villa Biarritz"
+
+[[bar]]
+usuario = "casacultural_victorjara"
+nombre = "Casa Cultural Víctor Jara"
+barrio = "Palermo"
+bar = false
+notas = "espacio chico en Palermo, toques con cupo y reserva por WhatsApp: la dirección no está en el perfil (se completa en el aviso)"
+
+[[bar]]
+usuario = "dulce.cine"
+nombre = "Dulce Cine"
+itinerante = true
+categoria = "cine"
+bar = false
+notas = "productora de cine de autor (Facundo Umpiérrez): entran los estrenos y proyecciones que digan dónde con 📍"
+
+[[bar]]
+usuario = "lalibelulalibrosuy"
+nombre = "La Libélula Libros & Café"  # como en la Noche de las Librerías
+direccion = "Av. Gral. Rivera 2298"
+barrio = "Cordón"
+bar = false
+notas = "librería independiente, juguetes y cafetería"
+
+[[bar]]
+usuario = "las_bovedas"
+nombre = "Espacio Cultural Las Bóvedas"  # como ya está en el sitio
+direccion = "Rambla 25 de Agosto 575"
+barrio = "Ciudad Vieja"
+bar = false
+notas = "sala teatral y de ensayo"
+
+# Sumadas el 27/11/2026: los ocho municipios de Montevideo. Publican mucho institucional (obras, trámites, llamados):
+# entra lo que diga dónde es con 📍. Lo que está en el portal de la Intendencia ya entra por ahí y se junta.
+[[bar]]
+usuario = "municipio_a"
+nombre = "Municipio A"
+itinerante = true
+bar = false
+
+[[bar]]
+usuario = "municipiobmontevideo"
+nombre = "Municipio B"
+itinerante = true
+bar = false
+notas = "la grilla de las noches especiales (Bares Notables) ya entra por su web (fuente notas_especiales)"
+
+[[bar]]
+usuario = "municipioc"
+nombre = "Municipio C"
+itinerante = true
+bar = false
+
+[[bar]]
+usuario = "municipio.ch"
+nombre = "Municipio CH"
+itinerante = true
+bar = false
+
+[[bar]]
+usuario = "municipiod.mvd"
+nombre = "Municipio D"
+itinerante = true
+bar = false
+
+[[bar]]
+usuario = "municipioe"
+nombre = "Municipio E"
+itinerante = true
+bar = false
+
+[[bar]]
+usuario = "municipiofmvd"
+nombre = "Municipio F"
+itinerante = true
+bar = false
+notas = "la Sala Lazaroff (salalazaroff) es del F y ya está en esta lista"
+
+[[bar]]
+usuario = "municipiogmvd"
+nombre = "Municipio G"
+itinerante = true
+bar = false
+
+# Sumadas el 27/11/2026: librerías de la Noche de las Librerías 2026 (el mapa de la Intendencia). Nombre y dirección
+# como en el mapa. Las que tienen varios locales van sin dirección: el lugar sale del post o se completa en el aviso.
+[[bar]]
+usuario = "adagio_libreriacafe"
+nombre = "Adagio Librería Café"
+direccion = "Gral. Gregorio Suárez 2741"
+barrio = "Punta Carretas"
+bar = false
+
+[[bar]]
+usuario = "libreriaafrodita"
+nombre = "Afrodita Libros"
+direccion = "Dr. Tristán Narvaja 1528"
+barrio = "Cordón"
+bar = false
+
+[[bar]]
+usuario = "librosdelaarenauy"
+nombre = "Libros de la Arena"
+bar = false
+notas = "dos locales: Amuleto (Orinoco 4964, Malvín) y Pocitos (Juan Benito Blanco 962)"
+
+[[bar]]
+usuario = "libreriamericalatina"
+nombre = "América Latina"
+direccion = "Av. 18 de Julio 2089"
+barrio = "Cordón"
+bar = false
+
+[[bar]]
+usuario = "daplibros"
+nombre = "DAP Libros"
+direccion = "Jackson 1307 bis"
+barrio = "Parque Rodó"
+bar = false
+notas = "distribuidora de cómics y manga"
+
+[[bar]]
+usuario = "diomedes_libros"
+nombre = "Diomedes Libros"
+direccion = "Bulevar España 2129"
+barrio = "Cordón"
+bar = false
+
+[[bar]]
+usuario = "_escaramuza"
+nombre = "Escaramuza"
+direccion = "Dr. Pablo de María 1185"
+barrio = "Cordón"
+bar = false
+notas = "librería, café y espacio cultural"
+
+[[bar]]
+usuario = "germinalibreriaparainfancias"
+nombre = "Germina"
+direccion = "Carlos Roxlo 1370 bis"
+barrio = "Centro"
+bar = false
+notas = "librería para infancias"
+
+[[bar]]
+usuario = "guarida_uy"
+nombre = "Guarida, Casa de Libros"
+direccion = "Héctor Miranda 2410"
+barrio = "Punta Carretas"
+bar = false
+notas = "también da talleres"
+
+[[bar]]
+usuario = "idealibreria"
+nombre = "Idea Librería"
+direccion = "Dr. Tristán Narvaja 1578"
+barrio = "Cordón"
+bar = false
+
+[[bar]]
+usuario = "isadoralibros"
+nombre = "Isadora Libros"
+direccion = "José Ellauri 661"
+barrio = "Punta Carretas"
+bar = false
+
+[[bar]]
+usuario = "lalupalibros"
+nombre = "La Lupa Libros"
+direccion = "Peatonal Bacacay 1318 bis"
+barrio = "Ciudad Vieja"
+bar = false
+
+[[bar]]
+usuario = "lannistercomics"
+nombre = "Lannister Comics & Libros"
+direccion = "Av. 18 de Julio 892"
+barrio = "Centro"
+bar = false
+
+[[bar]]
+usuario = "laskaramazov"
+nombre = "Las Karamazov"
+direccion = "Av. Gral. Rivera 2670"
+barrio = "Pocitos"
+bar = false
+
+[[bar]]
+usuario = "lautreamontlibreria"
+nombre = "Lautréamont Librería"
+direccion = "Maldonado 2045"
+barrio = "Parque Rodó"
+bar = false
+
+[[bar]]
+usuario = "libreriaarete"
+nombre = "Librería Areté"
+direccion = "Dr. Tristán Narvaja 1641"
+barrio = "Cordón"
+bar = false
+
+[[bar]]
+usuario = "libreriaelvirreyuy"
+nombre = "Librería El Virrey"
+bar = false
+notas = "siete locales; el de la Noche de las Librerías fue 21 de Setiembre 2747 (Punta Carretas)"
+
+[[bar]]
+usuario = "libreriaguyunusa"
+nombre = "Librería Guyunusa"
+direccion = "Dr. Tristán Narvaja 1601"
+barrio = "Cordón"
+bar = false
+
+[[bar]]
+usuario = "linardiyrisso"
+nombre = "Librería Linardi y Risso"
+direccion = "Juan Carlos Gómez 1435"
+barrio = "Ciudad Vieja"
+bar = false
+
+[[bar]]
+usuario = "libreria.montevideo"
+nombre = "Librería Montevideo"
+direccion = "Tristán Narvaja 1536"
+barrio = "Cordón"
+bar = false
+
+[[bar]]
+usuario = "libreriapochouy"
+nombre = "Librería Pocho"
+bar = false
+notas = "varios locales (8 de Octubre 3172, 18 de Julio 2198, Pocho Kids en Juan Paullier 1546)"
+
+[[bar]]
+usuario = "libreriavila"
+nombre = "Librería Vila"
+direccion = "Dr. Tristán Narvaja 1642"
+barrio = "Cordón"
+bar = false
+
+[[bar]]
+usuario = "libros_delpaso"
+nombre = "Libros del Paso"
+bar = false
+notas = "dos locales: Av. 18 de Julio 1308 (Centro) y Av. Agraciada 4132 (Paso Molino)"
+
+[[bar]]
+usuario = "orugalibros"
+nombre = "Oruga Libros"
+direccion = "Constituyente 2022"
+barrio = "Parque Rodó"
+bar = false
+
+[[bar]]
+usuario = "pocitoslibros"
+nombre = "Pocitos Libros"
+direccion = "Av. Brasil 2561"
+barrio = "Pocitos"
+bar = false
+
+[[bar]]
+usuario = "puroversolibreria"
+nombre = "Puro Verso"
+direccion = "Av. 18 de Julio 1199"
+barrio = "Centro"
+bar = false
+
+[[bar]]
+usuario = "bibliotecaelcantarofresco"
+nombre = "Biblioteca Popular El Cántaro Fresco"  # como en config/lugares_alias.toml
+direccion = "Altamirano esquina Luis Alberto de Herrera"
+lat = -34.8714543
+lon = -56.162738
+barrio = "Bolívar"
+bar = false
+
+[[bar]]
+usuario = "mercaditoeureka"
+nombre = "Mercadito Eureka"
+direccion = "San Salvador 1981"
+barrio = "Parque Rodó"
+bar = false
+notas = "libros, ropa y objetos"
+
+[[bar]]
+usuario = "rondaespaciocreativo"
+nombre = "Ronda Espacio Creativo"
+direccion = "Bulevar España 2141"
+barrio = "Parque Rodó"
+bar = false
+notas = "en noviembre de 2026 dice «Volvemos en el 2027»"
+
 # --- Correcciones a mano ---------------------------------------------------------------------------------------------
 [[correccion]]
 id = "mambapercusion-20261205"
