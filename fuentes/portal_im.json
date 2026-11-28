@@ -1,8 +1,8 @@
 {
  "fuente": "portal_im",
- "corrida": "2026-11-27T11:00:09.532621-03:00",
+ "corrida": "2026-11-28T11:33:38.053953-03:00",
  "ok": true,
- "cantidad": 31,
+ "cantidad": 32,
  "errores": [],
  "eventos": [
   {
@@ -66,34 +66,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T10:00:00-03:00",
-     "fin": "2026-11-27T12:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Centro Juvenil Salesiano",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T13:30:00-03:00",
-     "fin": "2026-11-27T15:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Biblioteca Villa Colón",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T15:30:00-03:00",
-     "fin": "2026-11-27T17:30:00-03:00",
-     "sin_hora": false,
-     "sala": "Club Huracán de Paso de la Arena",
-     "agotada": false
-    },
-    {
-     "inicio": "2026-11-27T16:00:00-03:00",
-     "fin": "2026-11-27T18:00:00-03:00",
-     "sin_hora": false,
-     "sala": "Centro Cultural del Parque Villa García",
-     "agotada": false
-    },
     {
      "inicio": "2026-12-01T10:00:00-03:00",
      "fin": "2026-12-01T12:00:00-03:00",
@@ -357,13 +329,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-27T16:00:00-03:00",
-     "fin": "2026-11-27T18:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-12-04T16:00:00-03:00",
      "fin": "2026-12-04T18:00:00-03:00",
      "sin_hora": false,
@@ -586,13 +551,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-27T11:00:00-03:00",
-     "fin": "2026-11-27T13:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-12-04T11:00:00-03:00",
      "fin": "2026-12-04T13:00:00-03:00",
      "sin_hora": false,
@@ -779,13 +737,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-12-03T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -863,6 +814,70 @@
    "region": "montevideo",
    "enlaces": [],
    "ciclo": "Estreno de obras Fortalecimiento de las Artes",
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "portal_im",
+   "id_externo": "1005",
+   "url": "https://eventos.montevideo.gub.uy/evento/encuentro-de-murga-joven-2026/murga-joven-jueves-3-de-diciembre",
+   "titulo": "Murga Joven",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "Conocé la programación de la tercera jornada de la segunda instancia de muestra de Murga Joven. Jueves 3 de diciembre 20:00 – La Resaka que te mantiene 20:50 – Embajadores del Buen Humor 21:40 – Sing a Roos (cantate un Jaime) 22:30 – Savora Moneda 23:20 – Lali Mada Entrada libre.",
+   "lugar": {
+    "nombre": "Teatro de Verano",
+    "direccion": "Rambla Wilson s/n esq. Andrés Cachón",
+    "lat": -34.918974,
+    "lon": -56.16947,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-01T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-02T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-03T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-05T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [],
+   "beneficios": [],
+   "imagen_url": "https://eventos.montevideo.gub.uy/sites/eventos.montevideo.gub.uy/files/2026-11/20241205dicimouyit9675.jpg",
+   "productor": "Intendencia de Montevideo",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": "Encuentro de Murga Joven 2026",
    "etiquetas": [],
    "muestra": false,
    "hasta": null
