@@ -1,96 +1,10 @@
 {
  "fuente": "mec_museos",
- "corrida": "2026-11-28T11:55:16.258803-03:00",
+ "corrida": "2026-11-28T16:13:12.435577-03:00",
  "ok": true,
- "cantidad": 4,
+ "cantidad": 2,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "mec_museos",
-   "id_externo": "inauguracion-exposicion-retrospectiva-artista-linda-kohen",
-   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/inauguracion-exposicion-retrospectiva-artista-linda-kohen",
-   "titulo": "Inauguración de la exposición retrospectiva de la artista «Linda Kohen: el misterio»",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Montevideo",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T13:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/inauguracion-exposicion-retrospectiva-artista-linda-kohen",
-     "via": "mec_museos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Ministerio de Educación y Cultura",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "mec_museos",
-   "id_externo": "inauguracion-exposicion-parallel-harun-farocki",
-   "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/inauguracion-exposicion-parallel-harun-farocki",
-   "titulo": "Inauguración de la exposición «Parallel - Harun Farocki»",
-   "categoria": "exposicion",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Museo Nacional de Artes Visuales",
-    "direccion": "Tomás Giribaldi 2283, Montevideo",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T13:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.gub.uy/ministerio-educacion-cultura/comunicacion/calendario-actividades/inauguracion-exposicion-parallel-harun-farocki",
-     "via": "mec_museos"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": null,
-   "productor": "Ministerio de Educación y Cultura",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "mec_museos",
    "id_externo": "inauguracion-del-museo-gran-logia-femenina-del-uruguay",

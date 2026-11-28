@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-28T11:57:49.409056-03:00",
+ "corrida": "2026-11-28T16:15:46.474996-03:00",
  "ok": true,
  "cantidad": 17,
  "errores": [],
@@ -295,12 +295,12 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "61733cff-1049-49da-982a-07d021e32ecd",
-   "url": "https://www.tikzet.com/events/ssat-a8b4",
-   "titulo": "SSAT",
+   "id_externo": "d9dd7c05-722e-48c0-b5a5-cb0a53957c55",
+   "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
+   "titulo": "Marcelo Fernández & Damián Gadea",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Vuelve _ssat en formato acústico a El Hormiguero, siempre acompañado por el beatboxing y la percusión de Alex Beatbox y nuevos invitados especiales para compartir una noche de sábado. *El show es con sillas y las mesas son compartidas.",
+   "descripcion_corta": "Marcelo y Damián se juntan en un toque íntimo para recorrer varios años de música compartida. Una noche de claroscuros, con canciones propias y clásicos del costado más nocturno del rock. La banda se arma y se desarma según lo exija la velada. Compartiremos el escenario con grandes músicos y amigos…",
    "lugar": {
     "nombre": "El Hormiguero",
     "direccion": "San Salvador 1644",
@@ -312,27 +312,27 @@
    },
    "funciones": [
     {
-     "inicio": "2026-12-05T21:30:00-03:00",
-     "fin": "2026-12-05T23:59:00-03:00",
+     "inicio": "2026-12-10T21:00:00-03:00",
+     "fin": "2026-12-10T23:59:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
+    "desde": 400.0,
+    "hasta": 400.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/ssat-a8b4",
+     "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F8fbcd66b-a5fe-4b91-ac66-93271191c09b.original",
+   "imagen_url": "https://cdn.tikzet.com/images%2Fa63c425a-116c-4b51-8860-8df68c76c6d4.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -391,12 +391,12 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "d9dd7c05-722e-48c0-b5a5-cb0a53957c55",
-   "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
-   "titulo": "Marcelo Fernández & Damián Gadea",
+   "id_externo": "61733cff-1049-49da-982a-07d021e32ecd",
+   "url": "https://www.tikzet.com/events/ssat-a8b4",
+   "titulo": "SSAT",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Marcelo y Damián se juntan en un toque íntimo para recorrer varios años de música compartida. Una noche de claroscuros, con canciones propias y clásicos del costado más nocturno del rock. La banda se arma y se desarma según lo exija la velada. Compartiremos el escenario con grandes músicos y amigos…",
+   "descripcion_corta": "Vuelve _ssat en formato acústico a El Hormiguero, siempre acompañado por el beatboxing y la percusión de Alex Beatbox y nuevos invitados especiales para compartir una noche de sábado. *El show es con sillas y las mesas son compartidas.",
    "lugar": {
     "nombre": "El Hormiguero",
     "direccion": "San Salvador 1644",
@@ -408,27 +408,27 @@
    },
    "funciones": [
     {
-     "inicio": "2026-12-10T21:00:00-03:00",
-     "fin": "2026-12-10T23:59:00-03:00",
+     "inicio": "2026-12-05T21:30:00-03:00",
+     "fin": "2026-12-05T23:59:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
+    "desde": 300.0,
+    "hasta": 300.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
+     "url": "https://www.tikzet.com/events/ssat-a8b4",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fa63c425a-116c-4b51-8860-8df68c76c6d4.original",
+   "imagen_url": "https://cdn.tikzet.com/images%2F8fbcd66b-a5fe-4b91-ac66-93271191c09b.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -583,6 +583,54 @@
   },
   {
    "fuente": "tikzet",
+   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
+   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+   "titulo": "Narciso en Montevideo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
+   "lugar": {
+    "nombre": "Sala Ducón",
+    "direccion": "Convención 1101",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-26T21:00:00-03:00",
+     "fin": "2026-12-26T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
+   "productor": "Sala Ducón",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
    "id_externo": "49cb7e09-d5dd-4a21-b9fc-65c1b387cec5",
    "url": "https://www.tikzet.com/events/merienda-swiftie-stamp-edition",
    "titulo": "Merienda swiftie Stamp Edition",
@@ -718,54 +766,6 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F4313c29a-44d3-480e-8537-2d1ff36b379e.original",
    "productor": "El Jardin de la Chingada",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
-   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
-   "titulo": "Narciso en Montevideo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
-   "lugar": {
-    "nombre": "Sala Ducón",
-    "direccion": "Convención 1101",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-26T21:00:00-03:00",
-     "fin": "2026-12-26T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 450.0,
-    "hasta": 450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
-   "productor": "Sala Ducón",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

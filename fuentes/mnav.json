@@ -1,8 +1,8 @@
 {
  "fuente": "mnav",
- "corrida": "2026-11-28T11:55:06.393930-03:00",
+ "corrida": "2026-11-28T16:13:02.273350-03:00",
  "ok": true,
- "cantidad": 24,
+ "cantidad": 25,
  "errores": [],
  "eventos": [
   {
@@ -3018,7 +3018,7 @@
    "fuente": "mnav",
    "id_externo": "tvciudad",
    "url": "https://mnav.gub.uy/cms.php?id=tvciudad",
-   "titulo": "Artistas en sus propias Palabras: Archivo TV Ciudad I",
+   "titulo": "Artistas en sus propias Palabras de la muestra \"Somos Jugando\": Archivo TV Ciudad I",
    "categoria": "charla",
    "categoria_segura": false,
    "descripcion_corta": null,
@@ -3102,9 +3102,52 @@
   },
   {
    "fuente": "mnav",
+   "id_externo": "galloenvivo",
+   "url": "https://mnav.gub.uy/cms.php?id=galloenvivo",
+   "titulo": "Daniel Gallo trabaja en vivo en Sala",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "Museo Nacional de Artes Visuales",
+    "direccion": "Tomás Giribaldi 2283, Parque Rodó",
+    "lat": -34.91384,
+    "lon": -56.16497,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-17T18:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://mnav.gub.uy/cms.php?id=galloenvivo",
+     "via": "mnav"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://mnav.gub.uy/img.php?p=galloenvivo",
+   "productor": "Museo Nacional de Artes Visuales",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "mnav",
    "id_externo": "tvciudad",
    "url": "https://mnav.gub.uy/cms.php?id=tvciudad",
-   "titulo": "Artistas en sus propias Palabras: Archivo TV Ciudad II",
+   "titulo": "Artistas en sus propias Palabras de la muestra \"Somos Jugando\": Archivo TV Ciudad II",
    "categoria": "charla",
    "categoria_segura": false,
    "descripcion_corta": null,

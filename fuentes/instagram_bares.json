@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-28T11:58:15.315740-03:00",
+ "corrida": "2026-11-28T16:16:12.491773-03:00",
  "ok": true,
- "cantidad": 53,
+ "cantidad": 50,
  "errores": [],
  "eventos": [
   {
@@ -68,49 +68,6 @@
    "etiquetas": [
     "bar"
    ],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "facmvd-20261107",
-   "url": "https://www.instagram.com/p/De_5SnwlghR/",
-   "titulo": "FAC: 2.ª edición del TALLER DE SEMIÓTICA",
-   "categoria": "taller",
-   "categoria_segura": false,
-   "descripcion_corta": "2.ª edición del TALLER DE SEMIÓTICA Para leer más que palabras Un espacio para reflexionar sobre el arte contemporáneo y su universo, tanto si formás parte de él como si lo mirás desde afuera. A cargo de Claudia Mera. SÁBADOS DE NOVIEMBRE De 11 a 13 h Modalidad presencial o virtual Cupos limitados…",
-   "lugar": {
-    "nombre": "FAC - Fundación de Arte Contemporáneo",
-    "direccion": "Av. Sarmiento 2244",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": "facmvd"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T11:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/De_5SnwlghR/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8b41c3bdd72f.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -223,96 +180,6 @@
    "enlaces": [],
    "ciclo": null,
    "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "fama.tours-20261128",
-   "url": "https://www.instagram.com/p/Df0Sr-1qlR0/",
-   "titulo": "fama.tours: Carrasco y Bodega",
-   "categoria": "tour",
-   "categoria_segura": true,
-   "descripcion_corta": "Carrasco y Bodega. Caminata por Carrasco viejo, con la participación de Arq. Beatriz Pittamiglio. Visita guiada a viñedos e instalaciones de Bodega Varela Zarranz, con degustación de 4 vinos y picada de campo. Sábado 28 de Noviembre 10:30 a 16:00 horas 3.200 pesos uruguayos Reservas 095 002 623…",
-   "lugar": {
-    "nombre": "fama.tours",
-    "direccion": "Carrasco y Bodega",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [
-     "Carrasco"
-    ],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T10:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df0Sr-1qlR0/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1910c933c565.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "el.mingus-20261128",
-   "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
-   "titulo": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬: Piano Bar",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Sábado 28 de noviembre (al mediodía): Piano Bar",
-   "lugar": {
-    "nombre": "𝐄𝐥 𝐌𝐢𝐧𝐠𝐮𝐬",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T12:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DgGxk7eDJRZ/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/24770606490f.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
    "muestra": false,
    "hasta": null
   },
