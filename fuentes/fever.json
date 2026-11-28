@@ -1,8 +1,8 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-28T00:29:05.823016-03:00",
+ "corrida": "2026-11-28T11:54:27.380996-03:00",
  "ok": true,
- "cantidad": 17,
+ "cantidad": 16,
  "errores": [],
  "eventos": [
   {
@@ -477,54 +477,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/49de4a16-11de-11ef-813a-a2c797bffe77.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
-   "id_externo": "689992",
-   "url": "https://feverup.com/m/689992",
-   "titulo": "Candlelight: Lo Mejor de Hans Zimmer",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Vive las bandas sonoras más icónicas de Hans Zimmer bajo una nueva luz. Rodeado del cálido resplandor de miles de velas, músicos en directo dan vida a melodías inolvidables de Origen, Interstellar, El Rey León, Gladiator y más en un concierto sobrecogedor. Esta experiencia de concierto es un…",
-   "lugar": {
-    "nombre": "Hyatt Centric",
-    "direccion": null,
-    "lat": -34.909643,
-    "lon": -56.1385076,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-05T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1450.0,
-    "hasta": 1450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/689992",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/5c755a1c-0b29-11f0-827c-a2cfe8261701.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],

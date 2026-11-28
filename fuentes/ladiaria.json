@@ -1,6 +1,6 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-28T00:29:00.280575-03:00",
+ "corrida": "2026-11-28T11:54:21.783813-03:00",
  "ok": true,
  "cantidad": 44,
  "errores": [],
@@ -363,13 +363,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-29T20:00:00-03:00",
      "fin": null,
@@ -1399,15 +1392,7 @@
     "alternativas": [],
     "instagram": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 425.0,
     "hasta": 425.0,
@@ -1623,15 +1608,7 @@
     "alternativas": [],
     "instagram": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 300.0,
     "hasta": 300.0,
@@ -1844,15 +1821,7 @@
     "alternativas": [],
     "instagram": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 300.0,
     "hasta": 300.0,
@@ -2004,15 +1973,7 @@
     "alternativas": [],
     "instagram": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 1300.0,
     "hasta": 1300.0,

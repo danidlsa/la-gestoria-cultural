@@ -1,55 +1,10 @@
 {
  "fuente": "sala_del_museo",
- "corrida": "2026-11-27T11:53:28.751321-03:00",
+ "corrida": "2026-11-28T11:54:04.244259-03:00",
  "ok": true,
  "cantidad": 12,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "sala_del_museo",
-   "id_externo": "festival-candombe-y-salsa-360",
-   "url": "https://www.saladelmuseo.com.uy/shows/item/festival-candombe-y-salsa-360.html",
-   "titulo": "FESTIVAL CANDOMBE Y SALSA 360°",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "FESTIVAL CANDOMBE Y SALSA 360°",
-   "lugar": {
-    "nombre": "Sala del Museo",
-    "direccion": "Rambla 25 de Agosto esq. Maciel",
-    "lat": -34.905789,
-    "lon": -56.212222,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/FESTIVAL-CANDOMBE-Y-SALSA-360/33688/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/festival_candombe_27_11_2_Cuadrada_1080_101a7b9dbab8cf8fbf2024a2306a1297.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/FESTIVAL-CANDOMBE-Y-SALSA-360/33688/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "sala_del_museo",
    "id_externo": "buitres-3",
@@ -539,6 +494,51 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/TROTSKY-VENGARAN/34786/"
+   ],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "sala_del_museo",
+   "id_externo": "knak-3",
+   "url": "https://www.saladelmuseo.com.uy/shows/item/knak-3.html",
+   "titulo": "KNAK",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Vuelve el clásico show de cierre de año de Knak y esta vez también presentando las nuevas canciones de “más de lo que necesito” su reciente lanzamiento. Este evento como todos los años tendrá como eje la colaboración con ropa, juguetes y alimentos no perecederos para colaborar con organizaciones…",
+   "lugar": {
+    "nombre": "Sala del Museo",
+    "direccion": "Rambla 25 de Agosto esq. Maciel",
+    "lat": -34.905789,
+    "lon": -56.212222,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-20T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://redtickets.uy/evento/KNAK--CIERRE-DE-ANO/34651/",
+     "via": "redtickets"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://www.saladelmuseo.com.uy/media/zoo/images/KNAK2_Cuadrada_10801_76aacae0b546a21ad292b539217d0d0c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [
+    "https://redtickets.uy/evento/KNAK--CIERRE-DE-ANO/34651/"
    ],
    "ciclo": null,
    "etiquetas": [],

@@ -1,23 +1,7 @@
 {
- "generado": "2026-11-28T00:34:42.406665-03:00",
- "cantidad": 23,
+ "generado": "2026-11-28T11:59:52.344660-03:00",
+ "cantidad": 24,
  "ciclos": [
-  {
-   "id": "ciclo-ciclo-marea",
-   "titulo": "Ciclo MAREA",
-   "lugar_id": "sala-zitarrosa",
-   "desde": "2026-11-27T20:30:00-03:00",
-   "hasta": "2027-03-12T20:30:00-03:00",
-   "cantidad": 3
-  },
-  {
-   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
-   "titulo": "Estreno de obras Fortalecimiento de las Artes",
-   "lugar_id": null,
-   "desde": "2026-11-27T21:00:00-03:00",
-   "hasta": "2026-12-04T21:00:00-03:00",
-   "cantidad": 3
-  },
   {
    "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
    "titulo": "Ciclo (no tan) Solos al mediodía",
@@ -25,6 +9,14 @@
    "desde": "2026-11-28T14:00:00-03:00",
    "hasta": "2026-11-28T14:00:00-03:00",
    "cantidad": 1
+  },
+  {
+   "id": "ciclo-estreno-de-obras-fortalecimiento-de-las-artes",
+   "titulo": "Estreno de obras Fortalecimiento de las Artes",
+   "lugar_id": null,
+   "desde": "2026-11-28T16:00:00-03:00",
+   "hasta": "2026-12-04T21:00:00-03:00",
+   "cantidad": 3
   },
   {
    "id": "ciclo-musica-en-el-parque",
@@ -91,6 +83,14 @@
    "cantidad": 4
   },
   {
+   "id": "ciclo-encuentro-de-murga-joven-2026",
+   "titulo": "Encuentro de Murga Joven 2026",
+   "lugar_id": "teatro-de-verano",
+   "desde": "2026-12-01T20:00:00-03:00",
+   "hasta": "2026-12-05T20:00:00-03:00",
+   "cantidad": 1
+  },
+  {
    "id": "ciclo-19-fest-jazz-mvd",
    "titulo": "19° Fest Jazz Mvd",
    "lugar_id": "sala-zitarrosa",
@@ -105,6 +105,14 @@
    "desde": "2026-12-04T17:00:00-03:00",
    "hasta": "2026-12-04T21:30:00-03:00",
    "cantidad": 6
+  },
+  {
+   "id": "ciclo-ciclo-marea",
+   "titulo": "Ciclo MAREA",
+   "lugar_id": "sala-zitarrosa",
+   "desde": "2026-12-05T21:30:00-03:00",
+   "hasta": "2027-03-12T20:30:00-03:00",
+   "cantidad": 3
   },
   {
    "id": "ciclo-ciclo-de-piano",

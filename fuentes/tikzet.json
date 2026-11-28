@@ -1,6 +1,6 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-28T00:32:35.276017-03:00",
+ "corrida": "2026-11-28T11:57:49.409056-03:00",
  "ok": true,
  "cantidad": 17,
  "errores": [],
@@ -55,54 +55,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "c2752d1f-0de1-431d-afd2-a45f6e465efb",
-   "url": "https://www.tikzet.com/events/por-ahora-en-vivo",
-   "titulo": "Por Ahora en Vivo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Después de dos años de búsqueda y composición, Por Ahora abre las puertas de su universo musical para compartir un repertorio de canciones originales e inéditas. Entre el rock progresivo, el ambient, la experimentación y la poesía canción, Por Ahora construye un lenguaje propio, donde se encuentran…",
-   "lugar": {
-    "nombre": "El Chamuyo",
-    "direccion": "25 de mayo 591",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-04T21:00:00-03:00",
-     "fin": "2026-12-05T03:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 200.0,
-    "hasta": 200.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/por-ahora-en-vivo",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fb835848a-b268-497d-bdd2-9a36d641979f.original",
-   "productor": "El Chamuyo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "29b67f42-54aa-40b5-ba07-560cc0847b89",
    "url": "https://www.tikzet.com/events/barrio-chino",
    "titulo": "Barrio Chino",
@@ -142,6 +94,54 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fcb8a0854-a474-4ab9-a790-3cb0621b6d8e.original",
    "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "c2752d1f-0de1-431d-afd2-a45f6e465efb",
+   "url": "https://www.tikzet.com/events/por-ahora-en-vivo",
+   "titulo": "Por Ahora en Vivo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Después de dos años de búsqueda y composición, Por Ahora abre las puertas de su universo musical para compartir un repertorio de canciones originales e inéditas. Entre el rock progresivo, el ambient, la experimentación y la poesía canción, Por Ahora construye un lenguaje propio, donde se encuentran…",
+   "lugar": {
+    "nombre": "El Chamuyo",
+    "direccion": "25 de mayo 591",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-04T21:00:00-03:00",
+     "fin": "2026-12-05T03:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 200.0,
+    "hasta": 200.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/por-ahora-en-vivo",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fb835848a-b268-497d-bdd2-9a36d641979f.original",
+   "productor": "El Chamuyo",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -295,54 +295,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "d9dd7c05-722e-48c0-b5a5-cb0a53957c55",
-   "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
-   "titulo": "Marcelo Fernández & Damián Gadea",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Marcelo y Damián se juntan en un toque íntimo para recorrer varios años de música compartida. Una noche de claroscuros, con canciones propias y clásicos del costado más nocturno del rock. La banda se arma y se desarma según lo exija la velada. Compartiremos el escenario con grandes músicos y amigos…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-10T21:00:00-03:00",
-     "fin": "2026-12-10T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fa63c425a-116c-4b51-8860-8df68c76c6d4.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "61733cff-1049-49da-982a-07d021e32ecd",
    "url": "https://www.tikzet.com/events/ssat-a8b4",
    "titulo": "SSAT",
@@ -439,6 +391,102 @@
   },
   {
    "fuente": "tikzet",
+   "id_externo": "d9dd7c05-722e-48c0-b5a5-cb0a53957c55",
+   "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
+   "titulo": "Marcelo Fernández & Damián Gadea",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Marcelo y Damián se juntan en un toque íntimo para recorrer varios años de música compartida. Una noche de claroscuros, con canciones propias y clásicos del costado más nocturno del rock. La banda se arma y se desarma según lo exija la velada. Compartiremos el escenario con grandes músicos y amigos…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-10T21:00:00-03:00",
+     "fin": "2026-12-10T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 400.0,
+    "hasta": 400.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/marcelo-fernandez-damian-gadea",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Fa63c425a-116c-4b51-8860-8df68c76c6d4.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "488fee8e-a536-4839-9877-84a3ba255236",
+   "url": "https://www.tikzet.com/events/el-deseo-no-duerme-0880",
+   "titulo": "EL DESEO NO DUERME",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "EL DESEO NO DUERME es un tributo coreográfico inspirado en el universo de Moulin Rouge. Una experiencia escénica que combina danza, actuación y una puesta visual atravesada por el deseo, el romance y el exceso. A través de una puesta creada especialmente para esta función, los alumnos de Crew…",
+   "lugar": {
+    "nombre": "Canelones 2150",
+    "direccion": "Canelones 2150",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-15T19:30:00-03:00",
+     "fin": "2026-12-15T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 375.0,
+    "hasta": 375.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/el-deseo-no-duerme-0880",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Ff108eab3-d8af-4ce0-b264-85377373f2e9.original",
+   "productor": "CREW REVOLUTION",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
    "id_externo": "ab487087-b2b8-41d2-902e-71467f67c7ca",
    "url": "https://www.tikzet.com/events/acampo-reggae-festival",
    "titulo": "Acampo Reggae Festival",
@@ -478,54 +526,6 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fe5c4bd28-3f61-4e03-9030-1b89d516597d.original",
    "productor": "ACAMPOREGGAE FESTIVAL",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "488fee8e-a536-4839-9877-84a3ba255236",
-   "url": "https://www.tikzet.com/events/el-deseo-no-duerme-0880",
-   "titulo": "EL DESEO NO DUERME",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "EL DESEO NO DUERME es un tributo coreográfico inspirado en el universo de Moulin Rouge. Una experiencia escénica que combina danza, actuación y una puesta visual atravesada por el deseo, el romance y el exceso. A través de una puesta creada especialmente para esta función, los alumnos de Crew…",
-   "lugar": {
-    "nombre": "Canelones 2150",
-    "direccion": "Canelones 2150",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-15T19:30:00-03:00",
-     "fin": "2026-12-15T21:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/el-deseo-no-duerme-0880",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Ff108eab3-d8af-4ce0-b264-85377373f2e9.original",
-   "productor": "CREW REVOLUTION",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -583,15 +583,15 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
-   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
-   "titulo": "Narciso en Montevideo",
+   "id_externo": "49cb7e09-d5dd-4a21-b9fc-65c1b387cec5",
+   "url": "https://www.tikzet.com/events/merienda-swiftie-stamp-edition",
+   "titulo": "Merienda swiftie Stamp Edition",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
+   "descripcion_corta": null,
    "lugar": {
-    "nombre": "Sala Ducón",
-    "direccion": "Convención 1101",
+    "nombre": "Willow",
+    "direccion": "Laberinto café",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -600,28 +600,28 @@
    },
    "funciones": [
     {
-     "inicio": "2026-12-26T21:00:00-03:00",
-     "fin": "2026-12-26T23:59:00-03:00",
+     "inicio": "2026-12-12T15:00:00-03:00",
+     "fin": "2026-12-12T20:00:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 450.0,
-    "hasta": 450.0,
+    "desde": 650.0,
+    "hasta": 650.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+     "url": "https://www.tikzet.com/events/merienda-swiftie-stamp-edition",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
-   "productor": "Sala Ducón",
+   "imagen_url": "https://cdn.tikzet.com/images%2F15983f63-a1ff-4d43-9a1d-1876340ff2e7.original",
+   "productor": "Willow",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -679,54 +679,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "49cb7e09-d5dd-4a21-b9fc-65c1b387cec5",
-   "url": "https://www.tikzet.com/events/merienda-swiftie-stamp-edition",
-   "titulo": "Merienda swiftie Stamp Edition",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Willow",
-    "direccion": "Laberinto café",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-12T15:00:00-03:00",
-     "fin": "2026-12-12T20:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 650.0,
-    "hasta": 650.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/merienda-swiftie-stamp-edition",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F15983f63-a1ff-4d43-9a1d-1876340ff2e7.original",
-   "productor": "Willow",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "e9d19b06-931c-45b3-99ee-57d28a302974",
    "url": "https://www.tikzet.com/events/99-baladas-la-ultima-del-ano-en-el-jardin",
    "titulo": "99% baladas (la ultima del año en el Jardin)",
@@ -766,6 +718,54 @@
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F4313c29a-44d3-480e-8537-2d1ff36b379e.original",
    "productor": "El Jardin de la Chingada",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
+   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+   "titulo": "Narciso en Montevideo",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
+   "lugar": {
+    "nombre": "Sala Ducón",
+    "direccion": "Convención 1101",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-26T21:00:00-03:00",
+     "fin": "2026-12-26T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 450.0,
+    "hasta": 450.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
+   "productor": "Sala Ducón",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

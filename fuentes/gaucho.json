@@ -1,8 +1,8 @@
 {
  "fuente": "gaucho",
- "corrida": "2026-11-27T11:53:41.666167-03:00",
+ "corrida": "2026-11-28T11:54:17.553047-03:00",
  "ok": true,
- "cantidad": 9,
+ "cantidad": 8,
  "errores": [],
  "eventos": [
   {
@@ -359,51 +359,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/pablopablo-piano-piano-tour/34632/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "gaucho",
-   "id_externo": "2026-11-27-djavan",
-   "url": "https://www.gaucho.com.uy/shows.php",
-   "titulo": "Djavan",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": "Andes 1459",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": true
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40020379/espectaculo/DJAVAN?0",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.gaucho.com.uy/images/banners/2026/2026-11-27-djavan.jpg",
-   "productor": "Gaucho",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40020379/espectaculo/DJAVAN?0"
    ],
    "ciclo": null,
    "etiquetas": [],

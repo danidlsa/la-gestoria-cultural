@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-28T00:34:42.406665-03:00",
- "cantidad": 181,
+ "generado": "2026-11-28T11:59:52.344660-03:00",
+ "cantidad": 185,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -144,7 +144,7 @@
     "Sodre-Salga Hugo Balzo",
     "Sodre - Sala Hugo Balzo"
    ],
-   "direccion": "Andes 1459",
+   "direccion": null,
    "lat": -34.90428,
    "lon": -56.19871,
    "barrio": null,
@@ -683,6 +683,20 @@
    "instagram": null
   },
   {
+   "id": "escaramuza",
+   "nombre": "Escaramuza",
+   "alias": [
+    "Escaramuza Libros y Café",
+    "Escaramuza Libros & Café"
+   ],
+   "direccion": "Dr. Pablo de María 1185",
+   "lat": -34.9065054,
+   "lon": -56.17098,
+   "barrio": "Cordón",
+   "ciudad": "Montevideo",
+   "instagram": "_escaramuza"
+  },
+  {
    "id": "escuela-nacional-de-declamacion-esnade",
    "nombre": "Escuela Nacional de Declamación - ESNADE",
    "alias": [
@@ -743,17 +757,6 @@
    "instagram": "espaciomodelomvd"
   },
   {
-   "id": "espacio-palermo-isla-de-flores-1631",
-   "nombre": "Espacio Palermo | Isla de Flores 1631",
-   "alias": [],
-   "direccion": "Isla de Flores 1631",
-   "lat": -34.9105685,
-   "lon": -56.1797469,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": null
-  },
-  {
    "id": "espacio-peppino-impastato",
    "nombre": "Espacio Peppino Impastato",
    "alias": [],
@@ -763,6 +766,17 @@
    "barrio": "Ciudad Vieja",
    "ciudad": "Montevideo",
    "instagram": "epi_cultural"
+  },
+  {
+   "id": "espacio-plaza-punta-de-rieles",
+   "nombre": "Espacio Plaza Punta de Rieles",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.8222069,
+   "lon": -56.1032682,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
   },
   {
    "id": "espacio-teatro",
@@ -802,7 +816,9 @@
   {
    "id": "estacionamiento-del-estadio-charrua",
    "nombre": "Estacionamiento del Estadio Charrúa",
-   "alias": [],
+   "alias": [
+    "Estadio Charrúa"
+   ],
    "direccion": "Av. Bolivia",
    "lat": -34.878386,
    "lon": -56.089315,
@@ -819,6 +835,17 @@
    "direccion": "Av. Dr. Américo Ricaldoni",
    "lat": -34.8946,
    "lon": -56.1528,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "estrazulas",
+   "nombre": "Estrázulas",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.8940443,
+   "lon": -56.1298694,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -907,17 +934,6 @@
    "instagram": null
   },
   {
-   "id": "hyatt-centric",
-   "nombre": "Hyatt Centric",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.909643,
-   "lon": -56.1385076,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": null
-  },
-  {
    "id": "inmigrantes-mvd",
    "nombre": "Inmigrantes MVD",
    "alias": [],
@@ -951,12 +967,23 @@
    "instagram": null
   },
   {
-   "id": "latu-laboratorio-tecnologico-del-uruguay",
-   "nombre": "LATU - Laboratorio Tecnológico del Uruguay",
+   "id": "jose-maria-silva",
+   "nombre": "José María Silva",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9087359,
+   "lon": -56.1540645,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "latu",
+   "nombre": "LATU",
    "alias": [
-    "LATU"
+    "LATU - Laboratorio Tecnológico del Uruguay"
    ],
-   "direccion": "Laboratorio Tecnológico del Uruguay - Carrasco, Montevideo",
+   "direccion": "Carrasco, Montevideo",
    "lat": -34.87943,
    "lon": -56.07673,
    "barrio": null,
@@ -1333,6 +1360,17 @@
    "instagram": null
   },
   {
+   "id": "parque-baroffio",
+   "nombre": "Parque Baroffio",
+   "alias": [],
+   "direccion": "Av. Arq. Eugenio P. Baroffio 2088",
+   "lat": -34.8851352,
+   "lon": -56.088584,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
    "id": "parque-cupra-club-seminario",
    "nombre": "Parque Cupra - Club Seminario",
    "alias": [],
@@ -1350,6 +1388,17 @@
    "direccion": "Rambla Sur",
    "lat": -34.912177,
    "lon": -56.196065,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "parque-villa-biarritz",
+   "nombre": "Parque Villa Biarritz",
+   "alias": [],
+   "direccion": null,
+   "lat": -34.9211501,
+   "lon": -56.1539465,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -1457,8 +1506,8 @@
     "Plaza de la Constitución"
    ],
    "direccion": "Plaza Matriz, Sarandí 584, 11000 Montevi",
-   "lat": -34.906598,
-   "lon": -56.203541,
+   "lat": -34.907045,
+   "lon": -56.203263,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null

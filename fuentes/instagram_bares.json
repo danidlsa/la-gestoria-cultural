@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-28T00:33:01.266609-03:00",
+ "corrida": "2026-11-28T11:58:15.315740-03:00",
  "ok": true,
- "cantidad": 41,
+ "cantidad": 53,
  "errores": [],
  "eventos": [
   {
@@ -185,51 +185,44 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "theshannonuy-20261127",
-   "url": "https://www.instagram.com/p/DgK0dP4xoLU/",
-   "titulo": "The Shannon: KARAOKE EN VIVO",
-   "categoria": "musica",
+   "id_externo": "casainju-20261128",
+   "url": "https://www.instagram.com/reel/DgQiCoUSK9O/",
+   "titulo": "Te invitamos al evento de cierre del año de talleres y colectivos artísticos de Casa INJU",
+   "categoria": "taller",
    "categoria_segura": false,
-   "descripcion_corta": "Viernes 27/Noviembre: JAM SESSION Rock&Pop - 22 hs Cubierto artístico $200 Club Shannon: LUMEN Rock&Pop - 22 hs Cubierto artístico $200",
+   "descripcion_corta": "Este sábado 28 de noviembre te invitamos al evento de cierre del año de talleres y colectivos artísticos de Casa INJU. Música, teatro, danza, artes visuales, stands y más. Una tarde para conocer y compartir una pequeña muestra de lo que sucede todo el año en nuestra querida Casa INJU Te esperamos!",
    "lugar": {
-    "nombre": "The Shannon irish pub",
-    "direccion": "Bartolomé Mitre 1318",
+    "nombre": "Música",
+    "direccion": null,
     "lat": null,
     "lon": null,
     "barrio": null,
     "alternativas": [],
-    "instagram": "theshannonuy"
+    "instagram": null
    },
    "funciones": [
     {
-     "inicio": "2026-11-27T22:00:00-03:00",
+     "inicio": "2026-11-28T00:00:00-03:00",
      "fin": null,
-     "sin_hora": false,
+     "sin_hora": true,
      "sala": null,
      "agotada": false
     }
    ],
-   "precio": {
-    "desde": 200.0,
-    "hasta": 200.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
+   "precio": null,
    "entradas": [
     {
-     "url": "https://www.instagram.com/p/DgK0dP4xoLU/",
+     "url": "https://www.instagram.com/reel/DgQiCoUSK9O/",
      "via": "instagram"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8e5f2d80c017.jpg",
+   "imagen_url": null,
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
-   "etiquetas": [
-    "bar"
-   ],
+   "etiquetas": [],
    "muestra": false,
    "hasta": null
   },
@@ -459,6 +452,104 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "municipiofmvd-20261128",
+   "url": "https://www.instagram.com/p/DgQaiogCofx/",
+   "titulo": "Municipio F: Club de lectura Ficción de violencia y género",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "RECIBIMOS Y DIFUNDIMOS Un encuentro para conversar sobre ficción, violencia y género. . . . El Equipo de Equidad del y la Biblioteca Francisco Schinca invitan al Club de Lectura, moderado por la escritora Camila Coronel. La actividad es libre y gratuita. Sábado 28/11 | 16 a 18 h Espacio Plaza Punta…",
+   "lugar": {
+    "nombre": "Espacio Plaza Punta de Rieles",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T16:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgQaiogCofx/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/48bfcd8e4b37.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "municipioe-20261128",
+   "url": "https://www.instagram.com/p/DfkuU-QjHsP/",
+   "titulo": "Municipio E: Fiesta de las Naciones",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Invitamos a vecinos a participar de la Fiesta de las Naciones, una tarde para conocer y celebrar distintas culturas a través de sus sabores, danzas, coros y tradiciones. Sábado 28 de noviembre | De 17 a 21 horas Explanada del Municipio E – Estadio Charrúa, Av. Bolivia Entrada libre y gratuita ¡Los…",
+   "lugar": {
+    "nombre": "Municipio E",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Estadio Charrúa"
+    ],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfkuU-QjHsP/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/1ddee7a9294d.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "epi_cultural-20261128",
    "url": "https://www.instagram.com/p/DgPrO1-Aot_/",
    "titulo": "Espacio Peppino Impastato: Abrimos EPI",
@@ -507,6 +598,54 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "dulce.cine-20261128",
+   "url": "https://www.instagram.com/p/DgLf4E8Fm_w/",
+   "titulo": "Dulce Cine: LA DIRECTORA.",
+   "categoria": "cine",
+   "categoria_segura": true,
+   "descripcion_corta": "¡NUEVA Y ÚLTIMA FUNCIÓN DE LA DIRECTORA! Cerramos este gran año con una función extra en Montevideo, con ENTRADA LIBRE Y GRATUITA. La cita es este sábado 28/11 a las 19.30 en cinematecauruguaya Las entradas se pueden retirar en boletería o en la web de Cinemateca. Inviten a sus amigxs, familia…",
+   "lugar": {
+    "nombre": "Dulce Cine",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T19:30:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgLf4E8Fm_w/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/714c33b08eab.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "contraplano.cineclub-20261128",
    "url": "https://www.instagram.com/p/DfioVMvgbIX/",
    "titulo": "Contraplano: Se puede amar a alguien que no tiene cuerpo?",
@@ -545,6 +684,52 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/3b71e4c376b7.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "municipio_a-20261128",
+   "url": "https://www.instagram.com/p/Df5VE5yKktE/",
+   "titulo": "Municipio A: MUESTRA ANUAL de la ESCUELA DE OFICIOS DEL CARNAVAL del OESTE",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "MUESTRA ANUAL de la ESCUELA DE OFICIOS DEL CARNAVAL del OESTE Por tercer año consecutivo, el Municipio A y Daecpu daecpu_oficial celebran la culminación del año lectivo con una gran exposición de los talleres realizados durante este 2026 El arte, la creatividad y el trabajo de nuestras vecinas y…",
+   "lugar": {
+    "nombre": "Centro Cultural Mercado Victoria cccmercadovictoria",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Sábado 28 de noviembre",
+     "20 horas"
+    ],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-28T20:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/Df5VE5yKktE/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/e8a0cb09e846.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -741,6 +926,54 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "montevideopopup-20261129",
+   "url": "https://www.instagram.com/reel/DgQpCKwyzOO/",
+   "titulo": "Montevideo Pop Up: El próximo",
+   "categoria": "charla",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Un nuevo encuentro en nuestras Charlas de Picnic! Esta vez nos sentamos a conversar con melaniasweets , para conocer un poquito más sobre su emprendimiento, y disfrutar de este espacio que tanto nos gusta. 29 de noviembre Parque Villa Biarritz De 11 a 21 h Entrada gratuita ¡Te esperamos en el Pop…",
+   "lugar": {
+    "nombre": "Parque Villa Biarritz",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T11:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/DgQpCKwyzOO/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f7ac008c46ab.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "elbar_delxsamigxs-20261129",
    "url": "https://www.instagram.com/p/DgQAkdrRYqp/",
    "titulo": "Brecha Bar y Cafe: Cumplimos 12 años",
@@ -884,6 +1117,111 @@
   },
   {
    "fuente": "instagram_bares",
+   "id_externo": "municipioe-20261129",
+   "url": "https://www.instagram.com/p/DgQb1QcjBuX/",
+   "titulo": "Municipio E: Encuentro de tambores",
+   "categoria": "carnaval",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Malvín se llena de ritmo y color! Invitamos a vecinos a disfrutar del 10.º Encuentro de Tambores, una jornada para celebrar el candombe, nuestra cultura y el encuentro en comunidad. Domingo 29 de noviembre | 17 horas Por Orinoco, desde 18 de Diciembre hasta Estrázulas. Entrada gratuita. ¡Vení a…",
+   "lugar": {
+    "nombre": "Por Orinoco",
+    "direccion": "desde 18 de Diciembre hasta Estrázulas",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "Por Orinoco",
+     "Estrázulas"
+    ],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    },
+    {
+     "inicio": "2026-12-18T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgQb1QcjBuX/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8c9e5c23c036.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "municipiogmvd-20261129",
+   "url": "https://www.instagram.com/p/DgNTjgZjbCg/",
+   "titulo": "Municipio G: Música en Plaza 19 de abril",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Domingo 29 de noviembre Actividades de 18 a 21 h",
+   "lugar": {
+    "nombre": "y una oportunidad para disfrutar de los espacios públicos, hacerlos nuestros y compartirlos",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [
+     "José María Silva",
+     "Jenner",
+     "Charcot"
+    ],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-11-29T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgNTjgZjbCg/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/74827caf199f.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
    "id_externo": "molinodeperez-20261130",
    "url": "https://www.instagram.com/p/Df-wlk3mxb1/",
    "titulo": "Molino de Pérez: Exposición \"Tejiendo memorias\"",
@@ -922,6 +1260,97 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/8969520af9e1.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "municipiobmontevideo-20261201",
+   "url": "https://www.instagram.com/p/DfFkRJjz_OX/",
+   "titulo": "Municipio B: Talleres en el marco del 25N",
+   "categoria": "taller",
+   "categoria_segura": false,
+   "descripcion_corta": "1/12 | Interpretación de indicadores – Lic. Sonaly Da Silva. De 18 a 21 h | Municipio B Inscripciones en nuestro perfil Te esperamos para compartir, intercambiar experiencias y seguir construyendo una sociedad más justa, igualitaria y libre de violencias. Porque el B nos une.",
+   "lugar": {
+    "nombre": "Municipio B",
+    "direccion": null,
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-01T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DfFkRJjz_OX/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ee4be6617652.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "_escaramuza-20261201",
+   "url": "https://www.instagram.com/p/DgLXfgwDyHm/",
+   "titulo": "Escaramuza: Tatiana Țîbuleac por primera vez en Montevideo El martes",
+   "categoria": "otros",
+   "categoria_segura": false,
+   "descripcion_corta": "Tatiana Țîbuleac por primera vez en Montevideo El martes 1 de diciembre a las 19:00 estará en la bn_uruguay presentando su último libro Cuando seas feliz, golpea tú primero . Acceso libre y gratuito.",
+   "lugar": {
+    "nombre": "Escaramuza",
+    "direccion": "Dr. Pablo de María 1185",
+    "lat": null,
+    "lon": null,
+    "barrio": "Cordón",
+    "alternativas": [],
+    "instagram": "_escaramuza"
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-01T19:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgLXfgwDyHm/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/567d6cbf15fa.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1108,6 +1537,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/decaa93e876c.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "adagio_libreriacafe-20261203",
+   "url": "https://www.instagram.com/p/DgOerkfBmmO/",
+   "titulo": "Adagio Librería Café: Alejandro de Barbieri",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Un café, un autor y una conversación que nos invita a reflexionar Este jueves 3 de diciembre recibimos en Adagio a Alejandro de Barbieri, quien nos presentará su libro Lo que cura es el vínculo , una invitación a reflexionar sobre la salud mental, la importancia de los encuentros y el poder de los…",
+   "lugar": {
+    "nombre": "Adagio Libros y Café",
+    "direccion": "Adagio Libros y Café",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-03T17:45:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgOerkfBmmO/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/79498ecb7dbd.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1387,6 +1864,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/986198210831.jpg",
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "municipioe-20261205",
+   "url": "https://www.instagram.com/p/DgNJJ8elQVT/",
+   "titulo": "Municipio E: Vuelve Montevideo Mascotas!",
+   "categoria": "infantil",
+   "categoria_segura": false,
+   "descripcion_corta": "¡Vuelve Montevideo Mascotas! Te invitamos a disfrutar de la quinta edición de este encuentro dedicado a nuestras mascotas y a promover el bienestar animal. Una jornada al aire libre con adopciones responsables, food trucks, juegos y mucho más para compartir en familia. Sábado 5 de diciembre | De 12…",
+   "lugar": {
+    "nombre": "Parque Baroffio",
+    "direccion": "Av. Arq. Eugenio P. Baroffio 2088",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-05T12:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 0.0,
+    "hasta": 0.0,
+    "moneda": "UYU",
+    "gratis": true
+   },
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/p/DgNJJ8elQVT/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/36102d55df01.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],
@@ -1802,6 +2327,49 @@
    "entradas": [
     {
      "url": "https://www.instagram.com/reel/Df5O5jnvtoy/",
+     "via": "instagram"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": null,
+   "productor": null,
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "instagram_bares",
+   "id_externo": "municipiofmvd-20261219",
+   "url": "https://www.instagram.com/reel/DgPof0ymYZI/",
+   "titulo": "Municipio F: Solsticio",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "Este sábado 19 de diciembre te esperamos para celebrar juntos la llegada del verano con música, danza y mucha energía en el barrio. En el escenario: Banda del Ejército El Ombú Ballet Folclórico Lucía Pereyra Mica Serrón La Catalina ¡Y un cierre sorpresa!",
+   "lugar": {
+    "nombre": "Municipio F",
+    "direccion": "Plaza de Deportes N.º 5 (Av. 8 de Octubre y 20 de Febrero)",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-19T17:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": null,
+   "entradas": [
+    {
+     "url": "https://www.instagram.com/reel/DgPof0ymYZI/",
      "via": "instagram"
     }
    ],

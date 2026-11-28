@@ -1,8 +1,8 @@
 {
  "fuente": "peatonal_tours",
- "corrida": "2026-11-28T00:32:58.660425-03:00",
+ "corrida": "2026-11-28T11:58:12.797839-03:00",
  "ok": true,
- "cantidad": 3,
+ "cantidad": 2,
  "errores": [],
  "eventos": [
   {
@@ -45,54 +45,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://peatonal.s3.us-east-2.amazonaws.com/tours/paseo-bello-y-reborati.png",
-   "productor": "Peatonal Tours",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "peatonal_tours",
-   "id_externo": "77",
-   "url": "https://www.peatonaltours.uy/tour/77",
-   "titulo": "Tour Religioso - edición Ciudad Vieja",
-   "categoria": "tour",
-   "categoria_segura": true,
-   "descripcion_corta": "En el marco de la histórica visita del Papa León XIV a nuestro país, Peatonal Tours realizará un recorrido especial por Ciudad Vieja en clave religiosa. El tour presenta una retrospectiva histórica acerca de la presencia de la Iglesia en nuestro país, su incidencia en la conformación social…",
-   "lugar": {
-    "nombre": "Fuente de la Plaza Matriz",
-    "direccion": null,
-    "lat": -34.906598,
-    "lon": -56.203541,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-28T11:00:00-03:00",
-     "fin": "2026-11-28T12:18:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.peatonaltours.uy/tour/77",
-     "via": "peatonal_tours"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://peatonal.s3.us-east-2.amazonaws.com/tours/IMG_7534.jpeg",
    "productor": "Peatonal Tours",
    "region": "montevideo",
    "enlaces": [],
