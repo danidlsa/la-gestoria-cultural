@@ -1,8 +1,8 @@
 {
  "fuente": "solis",
- "corrida": "2026-11-27T17:13:22.130985-03:00",
+ "corrida": "2026-11-28T00:27:15.759689-03:00",
  "ok": true,
- "cantidad": 23,
+ "cantidad": 22,
  "errores": [],
  "eventos": [
   {
@@ -1035,51 +1035,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/inicio/buscar?0&texto=africana"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "solis",
-   "id_externo": "2887",
-   "url": "https://www.teatrosolis.org.uy/PROGRAMACION/Los-planetas-uc2887",
-   "titulo": "Los planetas",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": null,
-   "lugar": {
-    "nombre": "Teatro Solís",
-    "direccion": "Buenos Aires s/n esq. Bartolomé Mitre",
-    "lat": -34.90786,
-    "lon": -56.20101,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T19:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": "Sala Principal",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40020667/espectaculo/La%20Filarm%C3%B3nica%20-%20Los%20Planetas?4",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatrosolis.org.uy/imgnoticias/202601/W756_H530/6472.jpg",
-   "productor": "Teatro Solís",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40020667/espectaculo/La%20Filarm%C3%B3nica%20-%20Los%20Planetas?4"
    ],
    "ciclo": null,
    "etiquetas": [],

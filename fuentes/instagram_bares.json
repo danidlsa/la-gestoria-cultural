@@ -1,8 +1,8 @@
 {
  "fuente": "instagram_bares",
- "corrida": "2026-11-27T17:19:12.199271-03:00",
+ "corrida": "2026-11-28T00:33:01.266609-03:00",
  "ok": true,
- "cantidad": 44,
+ "cantidad": 41,
  "errores": [],
  "eventos": [
   {
@@ -116,54 +116,6 @@
   },
   {
    "fuente": "instagram_bares",
-   "id_externo": "sansuena_cafevivero-20261119",
-   "url": "https://www.instagram.com/p/Df8FfWKtjrF/",
-   "titulo": "Sansueña: Malvín se llena de flamenco! Una noche para dejarse llevar por la música",
-   "categoria": "danza",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Malvín se llena de flamenco! Una noche para dejarse llevar por la música. ¿Te imaginás terminar la semana con el sonido de las guitarras, el ritmo del cajón y toda la fuerza y la emoción del flamenco? En Sansueña Café Vivero te invitamos a vivir una noche especial con el Trío de Flamenco…",
-   "lugar": {
-    "nombre": "Sansueña",
-    "direccion": "Orinoco 4968",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": "sansuena_cafevivero"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/Df8FfWKtjrF/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/2d73c82f9089.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
    "id_externo": "sala_zitarrosa-20261121",
    "url": "https://www.instagram.com/p/DfzwCTem99O/",
    "titulo": "Sala Zitarrosa: Una oportunidad para conocer más sobre la historia de la Sala, recorrer sus espacios y…",
@@ -223,102 +175,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/f9420004e70f.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "ccemontevideo-20261127",
-   "url": "https://www.instagram.com/p/DfnEZWNGHn8/",
-   "titulo": "Centro Cultural de España: A mover las cachas! Llega La Ventolera al CCE",
-   "categoria": "carnaval",
-   "categoria_segura": false,
-   "descripcion_corta": "¡A mover las cachas! Llega La Ventolera al CCE ¡Que suenen los tambores, las trompetas y los saxos! Con doce años de trayectoria ininterrumpida, La Ventolera es una orquesta marchante que recupera los orígenes del candombe y los reinterpreta con una mirada fresca y contemporánea. Trompetas…",
-   "lugar": {
-    "nombre": "Centro Cultural de España",
-    "direccion": "Rincón 629",
-    "lat": null,
-    "lon": null,
-    "barrio": "Ciudad Vieja",
-    "alternativas": [],
-    "instagram": "ccemontevideo"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T19:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DfnEZWNGHn8/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/ee4f034eb33c.jpg",
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "instagram_bares",
-   "id_externo": "clubculturalcharco-20261127",
-   "url": "https://www.instagram.com/p/DgL4Q-5lZd0/",
-   "titulo": "Club Cultural Charco: pianobar con leandroaq",
-   "categoria": "fiesta",
-   "categoria_segura": false,
-   "descripcion_corta": "Cerramos la semana de festejos por nuestros 5 años con el pianobar. Nos vemos y nos cantamos este viernes 27 a partir de las 20.30 h. Será una gran fiesta. Queremos verte acá para seguir celebrando exactamente esta vida Pianoman: leandroaq Maldonado 1477, Montevideo. Viernes 27 de noviembre, 20.30…",
-   "lugar": {
-    "nombre": "Club Cultural Charco",
-    "direccion": "Maldonado 1477",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": "clubculturalcharco"
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://www.instagram.com/p/DgL4Q-5lZd0/",
-     "via": "instagram"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://lagestoriacultural.uy/afiches/instagram/fbf098da0d56.jpg",
    "productor": null,
    "region": "montevideo",
    "enlaces": [],

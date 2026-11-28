@@ -1,58 +1,10 @@
 {
  "fuente": "tikzet",
- "corrida": "2026-11-27T17:18:46.210939-03:00",
+ "corrida": "2026-11-28T00:32:35.276017-03:00",
  "ok": true,
  "cantidad": 17,
  "errores": [],
  "eventos": [
-  {
-   "fuente": "tikzet",
-   "id_externo": "1db887ab-4ff8-42ca-b3e8-7560a922f2a4",
-   "url": "https://www.tikzet.com/events/lucia-caballero-ano-nuevo",
-   "titulo": "Lucía Caballero \"Año Nuevo\"",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Lucía Caballero presenta junto a su banda, su primer disco solista: Año Nuevo. Una colección de 10 canciones que recorren distintos momentos emocionales, revelando una identidad oscilante entre la ternura naíf y la oscuridad fantasiosa. Abre la noche Sofía Siola, con sus canciones magnéticas ✨ Será…",
-   "lugar": {
-    "nombre": "El Chamuyo",
-    "direccion": "25 de mayo 591",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": "2026-11-28T02:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/lucia-caballero-ano-nuevo",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F89903bf7-02f6-4d6f-8086-3d2d42817b1b.original",
-   "productor": "El Chamuyo",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
   {
    "fuente": "tikzet",
    "id_externo": "bcb430b1-cfb2-4271-8fbe-fed3682e1461",
@@ -189,54 +141,6 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2Fcb8a0854-a474-4ab9-a790-3cb0621b6d8e.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
-   "id_externo": "961f7fd2-109a-4a40-aaf5-123a8f854d7f",
-   "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
-   "titulo": "Javier Zubillaga De Vivo",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Javier Zubillaga despide el año con un show íntimo dedicado a su repertorio humorístico, con canciones de sus dos trabajos discográficos y varios temas inéditos.",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": "2026-11-27T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 400.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/javier-zubillaga-4a10",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2Fe5b5cba6-5474-41cb-b2f6-66391476c96f.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -439,54 +343,6 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "7260eff8-a701-41cf-9e5e-e8dabc49b9b4",
-   "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
-   "titulo": "El Jardín y Seba Codoni",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "El martes 1.º de diciembre nos encontramos en El Hormiguero para compartir una noche de música en vivo entre El Jardín y Seba Codoni. El Jardín se presentara esta vez en formato trío, presentando los nuevos simples \"427\" y \"Plaza sola\" y otras grajeas de su repertorio. Seba Codoni, por su parte…",
-   "lugar": {
-    "nombre": "El Hormiguero",
-    "direccion": "San Salvador 1644",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-12-01T20:30:00-03:00",
-     "fin": "2026-12-01T23:59:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 350.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
-     "via": "tikzet"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F25622e80-e502-4aa5-860c-ee33c453f1de.original",
-   "productor": "El Hormiguero",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "tikzet",
    "id_externo": "61733cff-1049-49da-982a-07d021e32ecd",
    "url": "https://www.tikzet.com/events/ssat-a8b4",
    "titulo": "SSAT",
@@ -525,6 +381,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://cdn.tikzet.com/images%2F8fbcd66b-a5fe-4b91-ac66-93271191c09b.original",
+   "productor": "El Hormiguero",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "7260eff8-a701-41cf-9e5e-e8dabc49b9b4",
+   "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
+   "titulo": "El Jardín y Seba Codoni",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "El martes 1.º de diciembre nos encontramos en El Hormiguero para compartir una noche de música en vivo entre El Jardín y Seba Codoni. El Jardín se presentara esta vez en formato trío, presentando los nuevos simples \"427\" y \"Plaza sola\" y otras grajeas de su repertorio. Seba Codoni, por su parte…",
+   "lugar": {
+    "nombre": "El Hormiguero",
+    "direccion": "San Salvador 1644",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-01T20:30:00-03:00",
+     "fin": "2026-12-01T23:59:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 350.0,
+    "hasta": 350.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/el-jardin-y-seba-codoni",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F25622e80-e502-4aa5-860c-ee33c453f1de.original",
    "productor": "El Hormiguero",
    "region": "montevideo",
    "enlaces": [],
@@ -583,6 +487,54 @@
   },
   {
    "fuente": "tikzet",
+   "id_externo": "488fee8e-a536-4839-9877-84a3ba255236",
+   "url": "https://www.tikzet.com/events/el-deseo-no-duerme-0880",
+   "titulo": "EL DESEO NO DUERME",
+   "categoria": "danza",
+   "categoria_segura": false,
+   "descripcion_corta": "EL DESEO NO DUERME es un tributo coreográfico inspirado en el universo de Moulin Rouge. Una experiencia escénica que combina danza, actuación y una puesta visual atravesada por el deseo, el romance y el exceso. A través de una puesta creada especialmente para esta función, los alumnos de Crew…",
+   "lugar": {
+    "nombre": "Canelones 2150",
+    "direccion": "Canelones 2150",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-15T19:30:00-03:00",
+     "fin": "2026-12-15T21:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 500.0,
+    "hasta": 500.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/el-deseo-no-duerme-0880",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2Ff108eab3-d8af-4ce0-b264-85377373f2e9.original",
+   "productor": "CREW REVOLUTION",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
    "id_externo": "62b4452f-beeb-4658-ab31-c96ce7864808",
    "url": "https://www.tikzet.com/events/fiesta-de-fin-de-ano-ysc",
    "titulo": "Fiesta de fin de año YSC",
@@ -631,15 +583,15 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "e9d19b06-931c-45b3-99ee-57d28a302974",
-   "url": "https://www.tikzet.com/events/99-baladas-la-ultima-del-ano-en-el-jardin",
-   "titulo": "99% baladas (la ultima del año en el Jardin)",
+   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
+   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+   "titulo": "Narciso en Montevideo",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": null,
+   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
    "lugar": {
-    "nombre": "El Jardin de la Chingada",
-    "direccion": "Cubo del Nte. 3847, 11700 Montevideo, Departamento de Montevideo, Uruguay",
+    "nombre": "Sala Ducón",
+    "direccion": "Convención 1101",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -648,28 +600,28 @@
    },
    "funciones": [
     {
-     "inicio": "2026-12-02T19:00:00-03:00",
-     "fin": "2026-12-02T22:00:00-03:00",
+     "inicio": "2026-12-26T21:00:00-03:00",
+     "fin": "2026-12-26T23:59:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 300.0,
-    "hasta": 300.0,
+    "desde": 450.0,
+    "hasta": 450.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/99-baladas-la-ultima-del-ano-en-el-jardin",
+     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F4313c29a-44d3-480e-8537-2d1ff36b379e.original",
-   "productor": "El Jardin de la Chingada",
+   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
+   "productor": "Sala Ducón",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -727,15 +679,15 @@
   },
   {
    "fuente": "tikzet",
-   "id_externo": "abbaa1d8-6663-453e-9c16-68b64d89cd13",
-   "url": "https://www.tikzet.com/events/narciso-en-montevideo",
-   "titulo": "Narciso en Montevideo",
+   "id_externo": "49cb7e09-d5dd-4a21-b9fc-65c1b387cec5",
+   "url": "https://www.tikzet.com/events/merienda-swiftie-stamp-edition",
+   "titulo": "Merienda swiftie Stamp Edition",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "La banda revelación de Rosario, Narciso , llega por primera vez a Montevideo para presentar su nuevo álbum, “Un Precioso Misterio” . Formada en 2023 por Charly, Tiago, Manuz y Facu, Narciso hace rock psicodélico con un sonido propio que toma el groove y la psicodelia de los años 60 (The Doors, The…",
+   "descripcion_corta": null,
    "lugar": {
-    "nombre": "Sala Ducón",
-    "direccion": "Convención 1101",
+    "nombre": "Willow",
+    "direccion": "Laberinto café",
     "lat": null,
     "lon": null,
     "barrio": null,
@@ -744,28 +696,76 @@
    },
    "funciones": [
     {
-     "inicio": "2026-12-26T21:00:00-03:00",
-     "fin": "2026-12-26T23:59:00-03:00",
+     "inicio": "2026-12-12T15:00:00-03:00",
+     "fin": "2026-12-12T20:00:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 450.0,
-    "hasta": 450.0,
+    "desde": 650.0,
+    "hasta": 650.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://www.tikzet.com/events/narciso-en-montevideo",
+     "url": "https://www.tikzet.com/events/merienda-swiftie-stamp-edition",
      "via": "tikzet"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://cdn.tikzet.com/images%2F9aee143c-30ff-4ad1-a8ab-31593d1fac13.original",
-   "productor": "Sala Ducón",
+   "imagen_url": "https://cdn.tikzet.com/images%2F15983f63-a1ff-4d43-9a1d-1876340ff2e7.original",
+   "productor": "Willow",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "tikzet",
+   "id_externo": "e9d19b06-931c-45b3-99ee-57d28a302974",
+   "url": "https://www.tikzet.com/events/99-baladas-la-ultima-del-ano-en-el-jardin",
+   "titulo": "99% baladas (la ultima del año en el Jardin)",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": null,
+   "lugar": {
+    "nombre": "El Jardin de la Chingada",
+    "direccion": "Cubo del Nte. 3847, 11700 Montevideo, Departamento de Montevideo, Uruguay",
+    "lat": null,
+    "lon": null,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2026-12-02T19:00:00-03:00",
+     "fin": "2026-12-02T22:00:00-03:00",
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 300.0,
+    "hasta": 300.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://www.tikzet.com/events/99-baladas-la-ultima-del-ano-en-el-jardin",
+     "via": "tikzet"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://cdn.tikzet.com/images%2F4313c29a-44d3-480e-8537-2d1ff36b379e.original",
+   "productor": "El Jardin de la Chingada",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

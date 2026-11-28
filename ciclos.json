@@ -1,31 +1,7 @@
 {
- "generado": "2026-11-27T17:19:57.729282-03:00",
- "cantidad": 24,
+ "generado": "2026-11-28T00:34:42.406665-03:00",
+ "cantidad": 23,
  "ciclos": [
-  {
-   "id": "ciclo-envejecimiento-activo",
-   "titulo": "Envejecimiento activo",
-   "lugar_id": null,
-   "desde": "2026-11-27T13:30:00-03:00",
-   "hasta": "2026-12-11T16:00:00-03:00",
-   "cantidad": 7
-  },
-  {
-   "id": "ciclo-las-mujeres-de-hitchcock",
-   "titulo": "Las mujeres de Hitchcock",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-27T17:15:00-03:00",
-   "hasta": "2026-11-28T18:05:00-03:00",
-   "cantidad": 2
-  },
-  {
-   "id": "ciclo-cine-uruguayo-diez-anos",
-   "titulo": "Cine uruguayo diez años",
-   "lugar_id": "cinemateca",
-   "desde": "2026-11-27T19:00:00-03:00",
-   "hasta": "2026-11-28T20:10:00-03:00",
-   "cantidad": 2
-  },
   {
    "id": "ciclo-ciclo-marea",
    "titulo": "Ciclo MAREA",
@@ -41,14 +17,6 @@
    "desde": "2026-11-27T21:00:00-03:00",
    "hasta": "2026-12-04T21:00:00-03:00",
    "cantidad": 3
-  },
-  {
-   "id": "ciclo-emile-presenta",
-   "titulo": "EMILE PRESENTA",
-   "lugar_id": "emile-club",
-   "desde": "2026-11-27T23:59:00-03:00",
-   "hasta": "2026-12-04T23:59:00-03:00",
-   "cantidad": 2
   },
   {
    "id": "ciclo-ciclo-no-tan-solos-al-mediodia",
@@ -75,12 +43,36 @@
    "cantidad": 6
   },
   {
+   "id": "ciclo-las-mujeres-de-hitchcock",
+   "titulo": "Las mujeres de Hitchcock",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-28T18:05:00-03:00",
+   "hasta": "2026-11-28T18:05:00-03:00",
+   "cantidad": 1
+  },
+  {
+   "id": "ciclo-cine-uruguayo-diez-anos",
+   "titulo": "Cine uruguayo diez años",
+   "lugar_id": "cinemateca",
+   "desde": "2026-11-28T20:10:00-03:00",
+   "hasta": "2026-11-28T20:10:00-03:00",
+   "cantidad": 1
+  },
+  {
    "id": "ciclo-dia-del-cine-chileno-la-batalla-de-chile",
    "titulo": "Día del cine chileno - la batalla de Chile",
    "lugar_id": "cinemateca",
    "desde": "2026-11-29T15:35:00-03:00",
    "hasta": "2026-11-29T19:45:00-03:00",
    "cantidad": 3
+  },
+  {
+   "id": "ciclo-envejecimiento-activo",
+   "titulo": "Envejecimiento activo",
+   "lugar_id": null,
+   "desde": "2026-11-30T11:00:00-03:00",
+   "hasta": "2026-12-11T16:00:00-03:00",
+   "cantidad": 7
   },
   {
    "id": "ciclo-mass-2026-muestra-de-cine-espanol-de-los-festivales-de-malaga-y-san-sebastian",

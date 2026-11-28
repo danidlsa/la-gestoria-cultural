@@ -1,8 +1,8 @@
 {
  "fuente": "cartelera_mvd",
- "corrida": "2026-11-27T17:12:08.051143-03:00",
+ "corrida": "2026-11-28T00:26:07.358763-03:00",
  "ok": true,
- "cantidad": 72,
+ "cantidad": 57,
  "errores": [],
  "eventos": [
   {
@@ -100,54 +100,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/40761.jpg",
    "productor": null,
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34618",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34618",
-   "titulo": "Actriz de método",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Amelia es actriz; su marido, sus amigos y una noche aparentemente tranquila tienen otro problema: ella está decidida a llevar la actuación hasta donde nadie se atrevería. Entre deseos, secretos, mentiras y verdades demasiado incómodas, una reunión entre amigos se transforma en un juego peligroso…",
-   "lugar": {
-    "nombre": "Lustrino Espacio Cultural",
-    "direccion": "Carlos Roxlo 1359 bis esq. Av. 18 de Julio",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34618",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41879.jpg",
-   "productor": "Moré",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -356,13 +308,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -428,13 +373,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T20:00:00-03:00",
      "fin": null,
@@ -549,13 +487,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T21:00:00-03:00",
      "fin": null,
@@ -705,65 +636,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34614",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34614",
-   "titulo": "Capital humano",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una entrevista laboral se transforma progresivamente en un espacio absurdo, incómodo y desbordado. Las luchas de poder, la competencia con las nuevas tecnologías, la necesidad de encajar y las exigencias de una sociedad atravesada por la productividad comienzan a deformar la realidad. Entre…",
-   "lugar": {
-    "nombre": "Teatro Mandrágora",
-    "direccion": "Dr. Javier Barrios Amorín 1312",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34614",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Promo grupal",
-     "tipo": "Promo 2 x $ 800",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34614"
-    },
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34614"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41873.jpg",
-   "productor": "Micaela Carrión",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "31783",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?31783",
    "titulo": "Casi humanos",
@@ -780,13 +652,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T21:00:00-03:00",
      "fin": null,
@@ -810,172 +675,6 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42324.jpg",
    "productor": "Sandra Massera",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "32266",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32266",
-   "titulo": "Como te mueras te mato",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Seis personas se reúnen para la lectura de un testamento. Cada uno guarda un gran secreto que será develado a lo largo de la reunión. Un familiar millonario ha muerto y ha dejado una gran fortuna, pero solo uno será el heredero. ¿Quién? Comedia de intriga y misterio, donde no faltan las situaciones…",
-   "lugar": {
-    "nombre": "Teatro de la Candela",
-    "direccion": "José Ellauri 308",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 650.0,
-    "hasta": 650.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32266",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/39033.jpg",
-   "productor": "Rafael Pence",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34640",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34640",
-   "titulo": "Contarte el mundo",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Manuel Etchegoyen es, en esta ficción, un personaje que encarna la resistencia ideológica y política del Uruguay reciente. A sus 80 años es invitado por un grupo selecto de cientistas sociales a cerrar el ciclo de charlas sobre nuestros 40 años de democracia. Su irreverencia no lo deja ser…",
-   "lugar": {
-    "nombre": "Teatro Circular",
-    "direccion": "Av. Rondeau 1388",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34640",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular libre",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34640"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "BROU 2 x $ 1000",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34640"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41916.jpg",
-   "productor": "Carla Grabino",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34571",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34571",
-   "titulo": "Corazón terraja",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Hay algo de brutalidad en lo cotidiano. Algo de absurdo en lo que vivimos todos los días. Y también algo profundamente ridículo. Corazón terraja , basada en el libro homónimo de Soledad Castro Lazaroff, construye un universo coral de escenas y personajes atravesados por el deseo, la violencia, la…",
-   "lugar": {
-    "nombre": "Espacio Palermo",
-    "direccion": "Isla de Flores 1631",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34571",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34571"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34571"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41817.jpg",
-   "productor": "Luciana Lagisquet",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -1049,65 +748,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34519",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34519",
-   "titulo": "Cámara Hamlet",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Una corporación virtual inicia un proyecto de experimentación que tiene como cometido, en una primera instancia, la puesta en escena de una versión de la obra Hamlet en formato unipersonal. En ella, un actor será guiado únicamente por una IA antropomórfica. Cámara Hamlet relata el vínculo y los…",
-   "lugar": {
-    "nombre": "Escuela Nacional de Declamación - ESNADE",
-    "direccion": "José Enrique Rodó 1712",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34519",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34519"
-    },
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "2x1",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34519"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41754.jpg",
-   "productor": "Marcel Sawchik Monegal - Natalia Agosín",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "30929",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?30929",
    "titulo": "De bar en bar",
@@ -1172,13 +812,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-12-04T21:00:00-03:00",
      "fin": null,
@@ -1323,13 +956,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T21:00:00-03:00",
      "fin": null,
@@ -1606,54 +1232,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "32970",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32970",
-   "titulo": "El hombre inesperado",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Un viaje. Un encuentro impensado. Suspenso y misterio. Dos soledades coinciden en un mismo vagón de tren. Sus pensamientos vuelan hasta entrecruzarse en un intercambio pleno de poesía, humor, inteligencia y giros sorprendentes llenos de intriga que podrían transformar sus vidas. ¿Cuánto de esto es…",
-   "lugar": {
-    "nombre": "El Galpón - Sala César Campodónico",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 1080.0,
-    "hasta": 1580.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?32970",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42387.jpg",
-   "productor": "Inés Estévez - Germán Palacios",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "35010",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35010",
    "titulo": "El jefe del jefe",
@@ -1670,13 +1248,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T20:00:00-03:00",
      "fin": null,
@@ -1782,13 +1353,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -1836,54 +1400,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42240.jpg",
    "productor": "Anthony Alan Fan",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "30041",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?30041",
-   "titulo": "El peor de mis personajes",
-   "categoria": "humor",
-   "categoria_segura": true,
-   "descripcion_corta": "La colección de anécdotas, sucesos e insucesos que compiló Luis Orpi para este unipersonal bien representan al capocómico que todos conocemos, pero también al ser humano que pocos tienen la dicha de conocer. En una seguidilla de gags, situaciones extrañas y graciosas, recuerdos, personas y…",
-   "lugar": {
-    "nombre": "Vieja Farmacia Solís",
-    "direccion": "Av. Agraciada 2623",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 660.0,
-    "hasta": 760.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?30041",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/40696.jpg",
-   "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -2028,54 +1544,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41867.jpg",
    "productor": "Raika",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34853",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34853",
-   "titulo": "El yerno ideal",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "¿Qué puede salir mal cuando reaparece el ex que dejó plantada a la novia antes de la boda? Absolutamente todo. Una mentira absurda, un \"muerto\" que resucita y una familia al borde del colapso. Porque encontrar al yerno ideal es fácil... ¡lo difícil es sobrevivir a la familia que le toca! Una…",
-   "lugar": {
-    "nombre": "Arteatro",
-    "direccion": "Canelones 1136",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 400.0,
-    "hasta": 450.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34853",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42174.jpg",
-   "productor": "Fernán Moliv",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -2381,13 +1849,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T21:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -2442,13 +1903,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-12-03T20:30:00-03:00",
      "fin": null,
@@ -2611,54 +2065,6 @@
    "beneficios": [],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/39204.jpg",
    "productor": "Cecilia Baranda",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "35034",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35034",
-   "titulo": "La muñeca rota",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "La muñeca rota aborda el drama de los niños atrapados por las guerras. Una mujer recorre de la mano de su antigua muñeca el duro camino de rememorar su infancia destrozada por la guerra. Poder contarlo es todo un acto de valentía y de amor. Recuperar la memoria de hechos que aún hoy asolan al mundo…",
-   "lugar": {
-    "nombre": "Centro Cultural Florencio Sánchez",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 0.0,
-    "hasta": 0.0,
-    "moneda": "UYU",
-    "gratis": true
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?35034",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42393.jpg",
-   "productor": null,
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -2980,60 +2386,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34642",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34642",
-   "titulo": "Los nuevos Prometeos",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "En un laboratorio secreto, dos jóvenes científicos obsesionados con la muerte y el cine intentan desafiar los límites de la ciencia: devolverle la vida a los muertos. Pero cuando sus experimentos finalmente funcionan, las criaturas que crearon despiertan con algo más que un cuerpo nuevo: también…",
-   "lugar": {
-    "nombre": "Arteatro",
-    "direccion": "Canelones 1136",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 350.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34642",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Otras promos",
-     "tipo": "En venta en RedTickets o con descuento al 098 311384.",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34642"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41913.jpg",
-   "productor": "Maximiliano Farinasso",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34001",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34001",
    "titulo": "Los números",
@@ -3079,102 +2431,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42120.jpg",
    "productor": "Facundo Silva",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34572",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34572",
-   "titulo": "Los últimos suicidas",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "Andorra, Siberia y Uganda habitan una espera que las desafía, llevan meses con el único objetivo de convertirse en optimistas a través del entrenamiento riguroso de la paciencia. Con diálogos cargados de un humor negro, la obra disecciona la soledad y la invisibilidad de tres mujeres que aguardan…",
-   "lugar": {
-    "nombre": "Espacio La Huella",
-    "direccion": "Carlos Quijano 1216",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34572",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/41818.jpg",
-   "productor": "José Luis Olascuaga",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34980",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34980",
-   "titulo": "Lugares comunes",
-   "categoria": "humor",
-   "categoria_segura": true,
-   "descripcion_corta": "Divertido, transgresor, brutalmente tierno. Estrenado en vida del autor, Lugares comunes recupera los recuerdos de un barrio bien montevideano, cerquita del cementerio, con historias tiernas, honestas, crudas y humorísticas y con la mirada ingenua de un niño. En cierta forma, el pasado de Gustavo…",
-   "lugar": {
-    "nombre": "Alejandría Café de las Artes",
-    "direccion": "Gaboto 1384",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34980",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42328.jpg",
-   "productor": "Carlos Muñoz",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,
@@ -3432,13 +2688,6 @@
    },
    "funciones": [
     {
-     "inicio": "2026-11-27T20:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
-    {
      "inicio": "2026-11-28T20:00:00-03:00",
      "fin": null,
      "sin_hora": false,
@@ -3620,13 +2869,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-12-03T21:00:00-03:00",
      "fin": null,
@@ -3827,65 +3069,6 @@
   },
   {
    "fuente": "cartelera_mvd",
-   "id_externo": "34925",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34925",
-   "titulo": "Que no nos vean mirar",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "¿Qué pasa cuando una pareja decide ensayar su propia separación? Entre cajas, recuerdos y todo aquello que alguna vez fue hogar, una pareja intenta escribir el final de su historia. Pero hay gestos que sobreviven a las palabras y costumbres que se resisten a desaparecer. Porque a veces, despedirse…",
-   "lugar": {
-    "nombre": "Teatro Circular",
-    "direccion": "Av. Gral. Rondeau 1388",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 600.0,
-    "hasta": 600.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34925",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Socio Espectacular",
-     "tipo": "Socio Espectacular libre",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34925"
-    },
-    {
-     "programa": "BROU",
-     "tipo": "BROU 2 x $ 1000",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34925"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42258.jpg",
-   "productor": "Julieta Lucena - Soledad Lacassy",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
    "id_externo": "34621",
    "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34621",
    "titulo": "Soy todas",
@@ -4068,60 +3251,6 @@
    ],
    "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42066.jpg",
    "productor": "Virginia Rodríguez Olveyra",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "cartelera_mvd",
-   "id_externo": "34712",
-   "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34712",
-   "titulo": "Una terapia delirante",
-   "categoria": "teatro",
-   "categoria_segura": true,
-   "descripcion_corta": "En el contexto de una charla motivacional, la pseudo-psicóloga Deliria Divague te invita a su consultorio para buscar juntos la solución a tus problemas. Eso sí, prepárate para recibir el diagnóstico más delirante de tu vida.",
-   "lugar": {
-    "nombre": "Espacio Finisterre",
-    "direccion": "Convención 1328 – Local 26 de Galería del Sol",
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T20:30:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 500.0,
-    "hasta": 500.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34712",
-     "via": "cartelera_mvd"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "Promo grupal",
-     "tipo": "Promo 2 x $ 900",
-     "url": "https://cartelera.montevideo.com.uy/averespectaculo.aspx?34712"
-    }
-   ],
-   "imagen_url": "https://cartelera.montevideo.com.uy/imagenes_espectaculos/musicdetail13/42002.jpg",
-   "productor": "Adriana Martínez",
    "region": "montevideo",
    "enlaces": [],
    "ciclo": null,

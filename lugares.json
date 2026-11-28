@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-27T17:19:57.729282-03:00",
- "cantidad": 186,
+ "generado": "2026-11-28T00:34:42.406665-03:00",
+ "cantidad": 181,
  "lugares": [
   {
    "id": "25-de-mayo-263",
@@ -20,17 +20,6 @@
    "direccion": "Complejo Sala Show",
    "lat": -34.901063,
    "lon": -56.196562,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": null
-  },
-  {
-   "id": "acj-colonia-1870-sala-felipe-conard",
-   "nombre": "ACJ – (Colonia 1870) – Sala Felipe Conard",
-   "alias": [],
-   "direccion": "Colonia 1870, 11200 Montevideo, Departam",
-   "lat": -34.901043,
-   "lon": -56.176327,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -295,17 +284,6 @@
    "instagram": null
   },
   {
-   "id": "canelones-1963",
-   "nombre": "Canelones 1963",
-   "alias": [],
-   "direccion": "Canelones 1963",
-   "lat": -34.907325,
-   "lon": -56.1728223,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": null
-  },
-  {
    "id": "canelones-2150",
    "nombre": "Canelones 2150",
    "alias": [],
@@ -339,17 +317,6 @@
    "instagram": null
   },
   {
-   "id": "carrasco-polo-club",
-   "nombre": "Carrasco Polo Club",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.8627617,
-   "lon": -56.0641586,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": null
-  },
-  {
    "id": "castillo-pittamiglio",
    "nombre": "Castillo Pittamiglio",
    "alias": [],
@@ -378,17 +345,6 @@
    "direccion": "4WVJ+R2H, 12100 Montevideo",
    "lat": -34.855438,
    "lon": -56.069901,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": null
-  },
-  {
-   "id": "cementerio-central",
-   "nombre": "Cementerio Central",
-   "alias": [],
-   "direccion": null,
-   "lat": -34.91322,
-   "lon": -56.18744,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -565,17 +521,6 @@
    "instagram": null
   },
   {
-   "id": "club-cultural-charco",
-   "nombre": "Club Cultural Charco",
-   "alias": [],
-   "direccion": "Maldonado 1477",
-   "lat": -34.9090027,
-   "lon": -56.1835608,
-   "barrio": "Palermo",
-   "ciudad": "Montevideo",
-   "instagram": "clubculturalcharco"
-  },
-  {
    "id": "club-de-el-viejo-oeste",
    "nombre": "Club de El Viejo Oeste",
    "alias": [],
@@ -672,6 +617,17 @@
    "direccion": "Av.Gral Rivera 2019",
    "lat": -34.902133,
    "lon": -56.172788,
+   "barrio": null,
+   "ciudad": "Montevideo",
+   "instagram": null
+  },
+  {
+   "id": "el-callejon-tango-bar",
+   "nombre": "El Callejon Tango Bar",
+   "alias": [],
+   "direccion": "Soriano 1203",
+   "lat": -34.907561,
+   "lon": -56.189819,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -787,14 +743,12 @@
    "instagram": "espaciomodelomvd"
   },
   {
-   "id": "espacio-palermo",
-   "nombre": "Espacio Palermo",
-   "alias": [
-    "Espacio Palermo | Isla de Flores 1631"
-   ],
+   "id": "espacio-palermo-isla-de-flores-1631",
+   "nombre": "Espacio Palermo | Isla de Flores 1631",
+   "alias": [],
    "direccion": "Isla de Flores 1631",
-   "lat": -34.910571,
-   "lon": -56.179747,
+   "lat": -34.9105685,
+   "lon": -56.1797469,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null
@@ -1129,7 +1083,6 @@
    "id": "lustrino-espacio-cultural",
    "nombre": "Lustrino Espacio Cultural",
    "alias": [
-    "Lustrino",
     "Lustrino - Espacio Cultural"
    ],
    "direccion": "Carlos Roxlo 1359 bis esq. Av. 18 de Julio",
@@ -1630,22 +1583,9 @@
    "instagram": null
   },
   {
-   "id": "restaurante-el-berretin",
-   "nombre": "Restaurante El Berretín",
-   "alias": [],
-   "direccion": "Dr. José María Montero 3052",
-   "lat": -34.9227,
-   "lon": -56.155186,
-   "barrio": null,
-   "ciudad": "Montevideo",
-   "instagram": null
-  },
-  {
    "id": "rincon-687",
    "nombre": "Rincón 687",
-   "alias": [
-    "Rincón 732"
-   ],
+   "alias": [],
    "direccion": "Rincón 687, 11000 Montevideo, Departamen",
    "lat": -34.905411,
    "lon": -56.201545,
@@ -1927,7 +1867,7 @@
    "id": "teatro-circular",
    "nombre": "Teatro Circular",
    "alias": [],
-   "direccion": "Av. Rondeau 1388",
+   "direccion": "Av. Gral. Rondeau 1388",
    "lat": -34.905036129982,
    "lon": -56.191339919039,
    "barrio": null,
@@ -1962,7 +1902,7 @@
     "Teatro MANDRÁGORA Escuela de Artes",
     "Teatro del Anglo"
    ],
-   "direccion": "Dr. Javier Barrios Amorín 1312",
+   "direccion": "Javier Barrios Amorín 1312",
    "lat": -34.906059,
    "lon": -56.184418,
    "barrio": null,
@@ -2173,9 +2113,9 @@
    "id": "vieja-farmacia-solis",
    "nombre": "Vieja Farmacia Solís",
    "alias": [],
-   "direccion": "Av. Agraciada 2623",
-   "lat": -34.883768,
-   "lon": -56.194264,
+   "direccion": "Vieja Farmacia Solís, Av. Agraciada 2623",
+   "lat": -34.883707,
+   "lon": -56.194297,
    "barrio": null,
    "ciudad": "Montevideo",
    "instagram": null

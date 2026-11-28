@@ -1,8 +1,8 @@
 {
  "fuente": "ladiaria",
- "corrida": "2026-11-27T17:15:13.531720-03:00",
+ "corrida": "2026-11-28T00:29:00.280575-03:00",
  "ok": true,
- "cantidad": 45,
+ "cantidad": 44,
  "errores": [],
  "eventos": [
   {
@@ -79,13 +79,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T00:00:00-03:00",
      "fin": null,
@@ -489,13 +482,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T00:00:00-03:00",
      "fin": null,
@@ -991,54 +977,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/Misantropo-de-Miguel-del-Arco/34167/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "ladiaria",
-   "id_externo": "18271",
-   "url": "https://beneficios.ladiaria.com.uy/la-chancha/",
-   "titulo": "La Chancha",
-   "categoria": "musica",
-   "categoria_segura": true,
-   "descripcion_corta": "Una de las bandas más viejas del panorama roquero festeja sus 40 años existiendo y resistiendo con dignidad el paso del tiempo. Un bastión del rock alternativo, consecuente, libertario y autoproducido. Una forma de recordar (nos) que el arte siempre debe y puede ser visceral, honesto y comprometido…",
-   "lugar": {
-    "nombre": "Sala del Museo del Carnaval",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [],
-   "precio": {
-    "desde": 580.0,
-    "hasta": 580.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/evento/LA-CHANCHA/33245/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [
-    {
-     "programa": "la diaria",
-     "tipo": "2x1",
-     "url": "https://beneficios.ladiaria.com.uy/la-chancha/"
-    }
-   ],
-   "imagen_url": null,
-   "productor": null,
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/evento/LA-CHANCHA/33245/"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -2244,15 +2182,7 @@
     "alternativas": [],
     "instagram": null
    },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T00:00:00-03:00",
-     "fin": null,
-     "sin_hora": true,
-     "sala": null,
-     "agotada": false
-    }
-   ],
+   "funciones": [],
    "precio": {
     "desde": 600.0,
     "hasta": 600.0,

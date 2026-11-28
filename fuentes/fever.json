@@ -1,6 +1,6 @@
 {
  "fuente": "fever",
- "corrida": "2026-11-27T17:15:19.192435-03:00",
+ "corrida": "2026-11-28T00:29:05.823016-03:00",
  "ok": true,
  "cantidad": 17,
  "errores": [],
@@ -295,54 +295,6 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "838626",
-   "url": "https://feverup.com/m/838626",
-   "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Candlelight: Las Cuatro Estaciones de Vivaldi llega al Hotel Radisson Victoria Plaza de Montevideo: un cuarteto de cuerdas interpreta la obra más emblemática de Vivaldi a la luz de las velas. Conseguí tus entradas y disfrutá de la música. Esta experiencia de concierto es un tributo. No está…",
-   "lugar": {
-    "nombre": "Hotel Radisson Victoria Plaza",
-    "direccion": null,
-    "lat": -34.9058104,
-    "lon": -56.1995027,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2027-02-28T18:00:00-03:00",
-     "fin": null,
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 840.0,
-    "hasta": 840.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/838626",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/7c807528-1ab3-11f0-9eff-324ba1e3eb01.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
    "id_externo": "614864",
    "url": "https://feverup.com/m/614864",
    "titulo": "Candlelight: El Señor de los Anillos",
@@ -381,6 +333,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/6e89eade-c92d-11f0-ab44-1e339e1eaa9a.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "838626",
+   "url": "https://feverup.com/m/838626",
+   "titulo": "Candlelight: Las Cuatro Estaciones de Vivaldi",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Candlelight: Las Cuatro Estaciones de Vivaldi llega al Hotel Radisson Victoria Plaza de Montevideo: un cuarteto de cuerdas interpreta la obra más emblemática de Vivaldi a la luz de las velas. Conseguí tus entradas y disfrutá de la música. Esta experiencia de concierto es un tributo. No está…",
+   "lugar": {
+    "nombre": "Hotel Radisson Victoria Plaza",
+    "direccion": null,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-02-28T18:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 840.0,
+    "hasta": 840.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/838626",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/7c807528-1ab3-11f0-9eff-324ba1e3eb01.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -439,44 +439,44 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "838622",
-   "url": "https://feverup.com/m/838622",
-   "titulo": "Candlelight: Tributo a Joan Manuel Serrat",
+   "id_externo": "662345",
+   "url": "https://feverup.com/m/662345",
+   "titulo": "Candlelight: Especial de San Valentín",
    "categoria": "musica",
    "categoria_segura": false,
-   "descripcion_corta": "Un concierto tributo a Joan Manuel Serrat interpretado por un cuarteto de cuerda en la Sala Valle Inclán de Montevideo, iluminado solo por cientos de velas. Conseguí tus entradas y viví la magia de Candlelight. Esta experiencia de concierto es un tributo. No está vinculada, respaldada ni…",
+   "descripcion_corta": "¡Celebra el amor con una colección de melodías románticas y clásicos atemporales! Desde canciones de amor inolvidables hasta favoritas llenas de sentimiento, vive un precioso concierto Candlelight pensado para momentos especiales junto a alguien querido. Esta experiencia de concierto es un tributo…",
    "lugar": {
-    "nombre": "Sala Valle Inclán",
+    "nombre": "Hotel Radisson Victoria Plaza",
     "direccion": null,
-    "lat": -34.9074103,
-    "lon": -56.1975527,
+    "lat": -34.9058104,
+    "lon": -56.1995027,
     "barrio": null,
     "alternativas": [],
     "instagram": null
    },
    "funciones": [
     {
-     "inicio": "2027-03-12T21:00:00-03:00",
-     "fin": null,
+     "inicio": "2027-02-14T19:00:00-03:00",
+     "fin": "2027-02-14T21:30:00-03:00",
      "sin_hora": false,
      "sala": null,
      "agotada": false
     }
    ],
    "precio": {
-    "desde": 672.0,
-    "hasta": 672.0,
+    "desde": 740.0,
+    "hasta": 740.0,
     "moneda": "UYU",
     "gratis": false
    },
    "entradas": [
     {
-     "url": "https://feverup.com/m/838622",
+     "url": "https://feverup.com/m/662345",
      "via": "fever"
     }
    ],
    "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/57ccb306-1462-11f0-879a-6e847126acd3.jpg",
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/49de4a16-11de-11ef-813a-a2c797bffe77.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],
@@ -583,54 +583,6 @@
   },
   {
    "fuente": "fever",
-   "id_externo": "662345",
-   "url": "https://feverup.com/m/662345",
-   "titulo": "Candlelight: Especial de San Valentín",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "¡Celebra el amor con una colección de melodías románticas y clásicos atemporales! Desde canciones de amor inolvidables hasta favoritas llenas de sentimiento, vive un precioso concierto Candlelight pensado para momentos especiales junto a alguien querido. Esta experiencia de concierto es un tributo…",
-   "lugar": {
-    "nombre": "Hotel Radisson Victoria Plaza",
-    "direccion": null,
-    "lat": -34.9058104,
-    "lon": -56.1995027,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2027-02-14T19:00:00-03:00",
-     "fin": "2027-02-14T21:30:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": {
-    "desde": 740.0,
-    "hasta": 740.0,
-    "moneda": "UYU",
-    "gratis": false
-   },
-   "entradas": [
-    {
-     "url": "https://feverup.com/m/662345",
-     "via": "fever"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/49de4a16-11de-11ef-813a-a2c797bffe77.jpg",
-   "productor": "Fever",
-   "region": "montevideo",
-   "enlaces": [],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "fever",
    "id_externo": "603820",
    "url": "https://feverup.com/m/603820",
    "titulo": "Candlelight: De Música Ligera",
@@ -717,6 +669,54 @@
    ],
    "beneficios": [],
    "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/48b94802-1917-11f0-a8b2-de92939c34e1.jpg",
+   "productor": "Fever",
+   "region": "montevideo",
+   "enlaces": [],
+   "ciclo": null,
+   "etiquetas": [],
+   "muestra": false,
+   "hasta": null
+  },
+  {
+   "fuente": "fever",
+   "id_externo": "838622",
+   "url": "https://feverup.com/m/838622",
+   "titulo": "Candlelight: Tributo a Joan Manuel Serrat",
+   "categoria": "musica",
+   "categoria_segura": false,
+   "descripcion_corta": "Un concierto tributo a Joan Manuel Serrat interpretado por un cuarteto de cuerda en la Sala Valle Inclán de Montevideo, iluminado solo por cientos de velas. Conseguí tus entradas y viví la magia de Candlelight. Esta experiencia de concierto es un tributo. No está vinculada, respaldada ni…",
+   "lugar": {
+    "nombre": "Sala Valle Inclán",
+    "direccion": null,
+    "lat": -34.9074103,
+    "lon": -56.1975527,
+    "barrio": null,
+    "alternativas": [],
+    "instagram": null
+   },
+   "funciones": [
+    {
+     "inicio": "2027-03-12T21:00:00-03:00",
+     "fin": null,
+     "sin_hora": false,
+     "sala": null,
+     "agotada": false
+    }
+   ],
+   "precio": {
+    "desde": 672.0,
+    "hasta": 672.0,
+    "moneda": "UYU",
+    "gratis": false
+   },
+   "entradas": [
+    {
+     "url": "https://feverup.com/m/838622",
+     "via": "fever"
+    }
+   ],
+   "beneficios": [],
+   "imagen_url": "https://applications-media.feverup.com/image/upload/f_auto,w_720,h_720/fever2/plan/photo/57ccb306-1462-11f0-879a-6e847126acd3.jpg",
    "productor": "Fever",
    "region": "montevideo",
    "enlaces": [],

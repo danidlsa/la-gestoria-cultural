@@ -1,8 +1,8 @@
 {
  "fuente": "galpon",
- "corrida": "2026-11-27T17:13:38.243206-03:00",
+ "corrida": "2026-11-28T00:27:29.893034-03:00",
  "ok": true,
- "cantidad": 17,
+ "cantidad": 16,
  "errores": [],
  "eventos": [
   {
@@ -89,13 +89,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T20:30:00-03:00",
-     "fin": "2026-11-27T21:45:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala Atahualpa",
-     "agotada": false
-    },
     {
      "inicio": "2026-12-03T20:30:00-03:00",
      "fin": "2026-12-03T21:45:00-03:00",
@@ -754,51 +747,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://redtickets.uy/evento/LA-REBELION-DE-LA-CARNE-Sala-Cero/34406/"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "galpon",
-   "id_externo": "el-hombre-inesperado",
-   "url": "https://www.teatroelgalpon.org.uy/espectaculos/el-hombre-inesperado/",
-   "titulo": "El hombre inesperado",
-   "categoria": "teatro",
-   "categoria_segura": false,
-   "descripcion_corta": "Una aclamada comedia dramática de la autora francesa Yasmina Reza que relata el encuentro fortuito entre un reconocido escritor y una de sus admiradoras en un vagón de tren que viaja de París a Frankfurt.",
-   "lugar": {
-    "nombre": "Teatro El Galpón",
-    "direccion": "Av. 18 de Julio 1618",
-    "lat": -34.90403,
-    "lon": -56.181082,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": "2026-11-27T22:15:00-03:00",
-     "sin_hora": false,
-     "sala": "Sala César Campodónico",
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://redtickets.uy/eventoprivado/33832/ELHOMBREINESPERADOSalaCampodonico-843786/",
-     "via": "redtickets"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://www.teatroelgalpon.org.uy/wp-content/uploads/2026/09/27-11-El-Hombre_Montevideo_2560x1000-scaled.jpg",
-   "productor": "Teatro El Galpón",
-   "region": "montevideo",
-   "enlaces": [
-    "https://redtickets.uy/eventoprivado/33832/ELHOMBREINESPERADOSalaCampodonico-843786/"
    ],
    "ciclo": null,
    "etiquetas": [],

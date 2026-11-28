@@ -1,8 +1,8 @@
 {
  "fuente": "sodre",
- "corrida": "2026-11-27T17:10:50.340557-03:00",
+ "corrida": "2026-11-28T00:24:59.853777-03:00",
  "ok": true,
- "cantidad": 41,
+ "cantidad": 38,
  "errores": [],
  "eventos": [
   {
@@ -197,96 +197,6 @@
    "region": "montevideo",
    "enlaces": [
     "https://tickantel.com.uy/inicio/espectaculo/40020169/espectaculo/OJNS%20-%20Gala%20de%20A%C3%B1o%20Nuevo?87"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "11435",
-   "url": "https://sodre.gub.uy/espectaculos/djavan/",
-   "titulo": "Djavan",
-   "categoria": "musica",
-   "categoria_segura": false,
-   "descripcion_corta": "Celebra 50 años de carrera con una gira nacional",
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": "2026-11-27T23:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40020379/espectaculo/DJAVAN?3",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/03/Destacado-web-18-1-768x420.png",
-   "productor": "Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40020379/espectaculo/DJAVAN?3"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
-   "id_externo": "13473",
-   "url": "https://sodre.gub.uy/espectaculos/otros-indios-2/",
-   "titulo": "Otros Indios",
-   "categoria": "otros",
-   "categoria_segura": false,
-   "descripcion_corta": "Presenta \"Homenaje\"",
-   "lugar": {
-    "nombre": "Auditorio Nacional Adela Reta",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": "2026-11-27T23:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/inicio/espectaculo/40021691/espectaculo/Otros%20Indios%20presenta%20HOMENAJE?10",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/09/Destacado-web-6-1-768x420.png",
-   "productor": "Espectáculos del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/inicio/espectaculo/40021691/espectaculo/Otros%20Indios%20presenta%20HOMENAJE?10"
    ],
    "ciclo": null,
    "etiquetas": [],
@@ -655,51 +565,6 @@
   },
   {
    "fuente": "sodre",
-   "id_externo": "13597",
-   "url": "https://sodre.gub.uy/espectaculos/emi-2/",
-   "titulo": "EMI",
-   "categoria": "cine",
-   "categoria_segura": true,
-   "descripcion_corta": "Estreno",
-   "lugar": {
-    "nombre": "Auditorio Nelly Goitiño",
-    "direccion": null,
-    "lat": null,
-    "lon": null,
-    "barrio": null,
-    "alternativas": [],
-    "instagram": null
-   },
-   "funciones": [
-    {
-     "inicio": "2026-11-27T19:00:00-03:00",
-     "fin": "2026-11-27T21:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    }
-   ],
-   "precio": null,
-   "entradas": [
-    {
-     "url": "https://tickantel.com.uy/ng/espectaculo/40021919/emi",
-     "via": "tickantel"
-    }
-   ],
-   "beneficios": [],
-   "imagen_url": "https://sodre.gub.uy/espectaculos/wp-content/uploads/sites/2/2026/10/Slider-web-Sodre-54-768x307.png",
-   "productor": "Cine Nacional y Latinoamericano del Sodre",
-   "region": "montevideo",
-   "enlaces": [
-    "https://tickantel.com.uy/ng/espectaculo/40021919/emi"
-   ],
-   "ciclo": null,
-   "etiquetas": [],
-   "muestra": false,
-   "hasta": null
-  },
-  {
-   "fuente": "sodre",
    "id_externo": "13665",
    "url": "https://sodre.gub.uy/espectaculos/sodre-celebra/",
    "titulo": "Sodre celebra",
@@ -761,13 +626,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T21:00:00-03:00",
-     "fin": "2026-11-27T23:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-29T21:00:00-03:00",
      "fin": "2026-11-29T23:00:00-03:00",
@@ -896,13 +754,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T20:00:00-03:00",
-     "fin": "2026-11-27T22:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-28T20:00:00-03:00",
      "fin": "2026-11-28T22:00:00-03:00",
@@ -1038,13 +889,6 @@
     "instagram": null
    },
    "funciones": [
-    {
-     "inicio": "2026-11-27T17:00:00-03:00",
-     "fin": "2026-11-27T19:00:00-03:00",
-     "sin_hora": false,
-     "sala": null,
-     "agotada": false
-    },
     {
      "inicio": "2026-11-29T18:45:00-03:00",
      "fin": "2026-11-29T20:45:00-03:00",
